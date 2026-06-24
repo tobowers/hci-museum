@@ -40,6 +40,14 @@ const server = Bun.serve({
     "/about/": () => serve(aboutPage.html),
     "/styles.css": () =>
       new Response(Bun.file("src/styles.css"), { headers: { "Content-Type": "text/css" } }),
+    "/favicon.gif": () =>
+      new Response(Bun.file("assets/social/favicon.gif"), { headers: { "Content-Type": "image/gif" } }),
+    "/favicon.png": () =>
+      new Response(Bun.file("assets/social/favicon.png"), { headers: { "Content-Type": "image/png" } }),
+    "/favicon.ico": () =>
+      new Response(Bun.file("assets/social/favicon.ico"), { headers: { "Content-Type": "image/x-icon" } }),
+    "/og-image.png": () =>
+      new Response(Bun.file("assets/social/og-image.png"), { headers: { "Content-Type": "image/png" } }),
     "/assets/wiki/:file": (req) => {
       const file = new URL(req.url).pathname.split("/").pop();
       if (!file) return new Response("missing asset", { status: 404 });

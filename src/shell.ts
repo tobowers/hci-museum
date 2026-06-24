@@ -6,6 +6,11 @@ export const NAV: { key: NavKey; label: string; href: string }[] = [
   { key: "about", label: "About", href: "about/" },
 ];
 
+const SITE_NAME = "HCI Museum";
+const SITE_URL = "https://interfacemuseum.com/";
+const SOCIAL_IMAGE = `${SITE_URL}og-image.png`;
+const SOCIAL_IMAGE_ALT = "HCI Museum CRT-style artifact wall with archival interface experiments";
+
 export type ShellOptions = {
   title: string;
   description?: string;
@@ -44,10 +49,25 @@ export function renderShell(opts: ShellOptions): string {
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
     <meta name="description" content="${escapeHtml(desc)}" />
-    <meta property="og:title" content="${escapeHtml(title)}" />
+    <meta property="og:title" content="${escapeHtml(fullTitle)}" />
     <meta property="og:description" content="${escapeHtml(desc)}" />
+    <meta property="og:site_name" content="${SITE_NAME}" />
     <meta property="og:type" content="website" />
+    <meta property="og:url" content="${SITE_URL}" />
+    <meta property="og:image" content="${SOCIAL_IMAGE}" />
+    <meta property="og:image:secure_url" content="${SOCIAL_IMAGE}" />
+    <meta property="og:image:type" content="image/png" />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="630" />
+    <meta property="og:image:alt" content="${SOCIAL_IMAGE_ALT}" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="${escapeHtml(fullTitle)}" />
+    <meta name="twitter:description" content="${escapeHtml(desc)}" />
+    <meta name="twitter:image" content="${SOCIAL_IMAGE}" />
+    <meta name="twitter:image:alt" content="${SOCIAL_IMAGE_ALT}" />
     <title>${escapeHtml(fullTitle)}</title>
+    <link rel="icon" type="image/gif" href="/favicon.gif" />
+    <link rel="icon" type="image/png" href="/favicon.png" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;600;700;800&display=swap" rel="stylesheet" />

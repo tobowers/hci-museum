@@ -1,0 +1,87 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630" role="img" aria-label="HCI Museum social preview image">
+  <defs>
+    <radialGradient id="tubeGlow" cx="50%" cy="50%" r="75%">
+      <stop offset="0%" stop-color="#143b26" stop-opacity="0.62" />
+      <stop offset="58%" stop-color="#020403" stop-opacity="0.94" />
+      <stop offset="100%" stop-color="#000000" />
+    </radialGradient>
+    <linearGradient id="photoFade" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#68ff9a" stop-opacity="0.24" />
+      <stop offset="1" stop-color="#031007" stop-opacity="0" />
+    </linearGradient>
+    <pattern id="grid" width="48" height="48" patternUnits="userSpaceOnUse">
+      <path d="M 48 0 L 0 0 0 48" fill="none" stroke="#53ff87" stroke-opacity="0.095" stroke-width="1" />
+    </pattern>
+    <pattern id="scan" width="1" height="6" patternUnits="userSpaceOnUse">
+      <rect width="1" height="3" fill="#000000" fill-opacity="0" />
+      <rect y="3" width="1" height="2" fill="#000000" fill-opacity="0.34" />
+    </pattern>
+    <filter id="greenGlow" x="-40%" y="-40%" width="180%" height="180%">
+      <feGaussianBlur stdDeviation="4" result="blur" />
+      <feMerge>
+        <feMergeNode in="blur" />
+        <feMergeNode in="SourceGraphic" />
+      </feMerge>
+    </filter>
+    <clipPath id="artifactA"><rect x="650" y="138" width="210" height="160" /></clipPath>
+    <clipPath id="artifactB"><rect x="890" y="138" width="210" height="160" /></clipPath>
+    <clipPath id="artifactC"><rect x="650" y="326" width="210" height="160" /></clipPath>
+    <clipPath id="artifactD"><rect x="890" y="326" width="210" height="160" /></clipPath>
+  </defs>
+
+  <rect width="1200" height="630" fill="#000000" />
+  <rect width="1200" height="630" fill="url(#tubeGlow)" />
+  <rect width="1200" height="630" fill="url(#grid)" opacity="0.78" />
+
+  <rect x="40" y="36" width="1120" height="54" fill="#050806" stroke="#53ff87" stroke-opacity="0.42" />
+  <rect x="62" y="56" width="12" height="12" fill="#53ff87" filter="url(#greenGlow)" />
+  <text x="92" y="69" fill="#c8ffd5" font-family="JetBrains Mono, Fira Code, Consolas, monospace" font-size="17" font-weight="800" letter-spacing="1.4">HCI MUSEUM</text>
+  <text x="990" y="69" fill="#8bd9a2" font-family="JetBrains Mono, Fira Code, Consolas, monospace" font-size="13" font-weight="600" letter-spacing="1.8">SIGNAL_STABLE</text>
+
+  <g transform="translate(76 150)">
+    <text x="0" y="0" fill="#53ff87" font-family="JetBrains Mono, Fira Code, Consolas, monospace" font-size="16" font-weight="700" letter-spacing="2.2">PERMANENT COLLECTION // 1976-1992</text>
+    <text x="0" y="86" fill="#d7ffe0" font-family="JetBrains Mono, Fira Code, Consolas, monospace" font-size="82" font-weight="800" letter-spacing="-3">HCI</text>
+    <text x="0" y="164" fill="#d7ffe0" font-family="JetBrains Mono, Fira Code, Consolas, monospace" font-size="82" font-weight="800" letter-spacing="-3">MUSEUM</text>
+    <text x="0" y="216" fill="#53ff87" font-family="JetBrains Mono, Fira Code, Consolas, monospace" font-size="26" font-weight="700">Golden Age of Interface</text>
+    <text x="0" y="252" fill="#53ff87" font-family="JetBrains Mono, Fira Code, Consolas, monospace" font-size="26" font-weight="700">Experimentation</text>
+    <path d="M0 288 H488" stroke="#53ff87" stroke-opacity="0.55" />
+    <text x="0" y="330" fill="#a0dcae" font-family="JetBrains Mono, Fira Code, Consolas, monospace" font-size="17" font-weight="500">Brain control / voice synthesis / gesture</text>
+    <text x="0" y="360" fill="#a0dcae" font-family="JetBrains Mono, Fira Code, Consolas, monospace" font-size="17" font-weight="500">wearable computing / virtual reality</text>
+  </g>
+
+  <g>
+    <rect x="626" y="114" width="498" height="398" fill="#031007" fill-opacity="0.82" stroke="#53ff87" stroke-opacity="0.35" />
+    <text x="650" y="94" fill="#8bd9a2" font-family="JetBrains Mono, Fira Code, Consolas, monospace" font-size="13" font-weight="700" letter-spacing="1.7">ARTIFACT WALL // RECOVERED SIGNALS</text>
+
+    <image href="../wiki/hubot-hardware.webp" x="650" y="138" width="210" height="160" preserveAspectRatio="xMidYMid slice" clip-path="url(#artifactA)" />
+    <image href="../wiki/power-glove-1.jpg" x="890" y="138" width="210" height="160" preserveAspectRatio="xMidYMid slice" clip-path="url(#artifactB)" />
+    <image href="../wiki/videoplace-mediaartnet.jpg" x="650" y="326" width="210" height="160" preserveAspectRatio="xMidYMid slice" clip-path="url(#artifactC)" />
+    <image href="../wiki/eyetap-mann-glass-2.jpg" x="890" y="326" width="210" height="160" preserveAspectRatio="xMidYMid slice" clip-path="url(#artifactD)" />
+
+    <g fill="url(#photoFade)">
+      <rect x="650" y="138" width="210" height="160" />
+      <rect x="890" y="138" width="210" height="160" />
+      <rect x="650" y="326" width="210" height="160" />
+      <rect x="890" y="326" width="210" height="160" />
+    </g>
+    <g fill="none" stroke="#53ff87" stroke-opacity="0.58">
+      <rect x="650" y="138" width="210" height="160" />
+      <rect x="890" y="138" width="210" height="160" />
+      <rect x="650" y="326" width="210" height="160" />
+      <rect x="890" y="326" width="210" height="160" />
+    </g>
+    <g font-family="JetBrains Mono, Fira Code, Consolas, monospace" font-size="13" font-weight="700">
+      <text x="662" y="283" fill="#d7ffe0">HUBOT</text>
+      <text x="902" y="283" fill="#d7ffe0">POWER GLOVE</text>
+      <text x="662" y="471" fill="#d7ffe0">VIDEOPLACE</text>
+      <text x="902" y="471" fill="#d7ffe0">EYETAP</text>
+    </g>
+  </g>
+
+  <rect x="40" y="548" width="1120" height="40" fill="#050806" stroke="#53ff87" stroke-opacity="0.28" />
+  <text x="62" y="573" fill="#8bd9a2" font-family="JetBrains Mono, Fira Code, Consolas, monospace" font-size="14" font-weight="600" letter-spacing="1.1">INTERFACEMUSEUM.COM</text>
+  <text x="790" y="573" fill="#53ff87" font-family="JetBrains Mono, Fira Code, Consolas, monospace" font-size="14" font-weight="600" letter-spacing="1.1">26 ARTIFACTS RECOVERED</text>
+
+  <rect width="1200" height="630" fill="url(#scan)" opacity="0.62" />
+  <rect x="18" y="18" width="1164" height="594" fill="none" stroke="#53ff87" stroke-opacity="0.22" />
+</svg>

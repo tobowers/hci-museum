@@ -17,8 +17,7 @@
     "typescript": "^5"
   },
   "dependencies": {
-    "@ai-sdk/openai": "^3.0.74",
-    "ai": "^6.0.208",
+    "@opencode-ai/sdk": "^1.17.9",
     "three": "^0.184.0"
   }
 }

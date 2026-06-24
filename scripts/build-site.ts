@@ -20,6 +20,10 @@ if (!result.success) {
 
 await Bun.$`mkdir -p ${outdir}/assets/wiki ${outdir}/research`;
 await Bun.$`cp -R ${root}assets/wiki/. ${outdir}/assets/wiki/`;
+await Bun.$`cp ${root}assets/social/og-image.png ${outdir}/og-image.png`;
+await Bun.$`cp ${root}assets/social/favicon.gif ${outdir}/favicon.gif`;
+await Bun.$`cp ${root}assets/social/favicon.png ${outdir}/favicon.png`;
+await Bun.$`cp ${root}assets/social/favicon.ico ${outdir}/favicon.ico`;
 await Bun.$`cp ${root}docs/hci-wiki.md ${outdir}/research/hci-wiki.md`;
 await Bun.$`cp ${root}src/styles.css ${outdir}/styles.css`;
 
