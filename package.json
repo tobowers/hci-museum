@@ -1,12 +1,24 @@
 {
   "name": "hci-museum",
-  "module": "index.ts",
+  "module": "src/server.ts",
   "type": "module",
   "private": true,
+  "scripts": {
+    "dev": "bun --hot src/server.ts",
+    "start": "bun src/server.ts",
+    "build": "bun scripts/build-site.ts",
+    "typecheck": "tsc --noEmit"
+  },
   "devDependencies": {
-    "@types/bun": "latest"
+    "@types/bun": "latest",
+    "@types/three": "^0.184.1"
   },
   "peerDependencies": {
     "typescript": "^5"
+  },
+  "dependencies": {
+    "@ai-sdk/openai": "^3.0.74",
+    "ai": "^6.0.208",
+    "three": "^0.184.0"
   }
 }

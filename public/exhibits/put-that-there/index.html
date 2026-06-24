@@ -1,0 +1,193 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
+    <meta name="description" content="MIT&#039;s Architecture Machine Group let you move shapes by speaking and pointing. It asked clarifying questions when it couldn&#039;t understand you." />
+    <meta property="og:title" content="Put-That-There — HCI Museum" />
+    <meta property="og:description" content="MIT&#039;s Architecture Machine Group let you move shapes by speaking and pointing. It asked clarifying questions when it couldn&#039;t understand you." />
+    <meta property="og:type" content="website" />
+    <title>Put-That-There — HCI Museum</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="../../styles.css" />
+  </head>
+  <body>
+    <div class="atmosphere" aria-hidden="true">
+      <div class="atmosphere__grid"></div>
+      <div class="atmosphere__scanlines"></div>
+      <div class="atmosphere__vignette"></div>
+    </div>
+
+    <div class="page-shell">
+      <header class="site-header">
+        <a href="../../" class="brand">
+          <span class="brand__mark" aria-hidden="true"></span>
+          <span>HCI Museum</span>
+        </a>
+        <nav class="nav-primary" aria-label="Primary">
+          <a href="../../exhibits/" class="active">Exhibits</a>
+          <a href="../../blog/">Field Notes</a>
+          <a href="../../about/">About</a>
+        </nav>
+        <div class="header-meta">
+          <span class="header-meta__item">SYS_OK</span>
+          <span class="header-meta__pulse" aria-hidden="true"></span>
+        </div>
+      </header>
+
+      <main>
+
+        <article class="exhibit">
+          <header class="exhibit__hero">
+            <div class="exhibit__hero-text">
+              <div class="exhibit__eyebrow">
+                <span class="exhibit__year">1980</span>
+                <span class="exhibit__by">Richard A. Bolt, Chris Schmandt &amp; Eric A. Hulteen, MIT Architecture Machine Group</span>
+              </div>
+              <h1 class="exhibit__title">Put-That-There</h1>
+              <p class="exhibit__subtitle">Voice + gesture at the graphics interface</p>
+              <div class="exhibit__tags"><span class="exhibit__tag">Voice</span><span class="exhibit__tag">Gesture</span><span class="exhibit__tag">Multimodal</span></div>
+            </div>
+
+            <div class="exhibit__hero-image-wrap">
+              <img
+                class="exhibit__hero-image"
+                src="../../assets/wiki/put-that-there-video.jpg"
+                alt="Put-That-There archival photograph"
+              />
+              <div class="exhibit__hero-scanlines" aria-hidden="true"></div>
+            </div>
+          </header>
+
+          <section class="exhibit__section exhibit__overview">
+            <h2 class="exhibit__section-title">Overview</h2>
+            <div class="exhibit__prose"><p>“Put-That-There” was a pioneering voice-and-gesture system demonstrated at MIT’s Architecture Machine Group (a predecessor to the Media Lab). A user could create and rearrange simple graphics on a large video display by speaking naturally while pointing — for example, saying “Put that there” and indicating the object and destination with hand gestures. The system compensated for imperfect speech recognition by combining redundant input channels, context, and speech-based feedback.</p></div>
+          </section>
+
+          <section class="exhibit__section exhibit__deep-dive">
+            <h2 class="exhibit__section-title">Deep dive</h2>
+            <div class="exhibit__facts">
+        <div class="exhibit__fact">
+          <div class="exhibit__fact-heading"><strong>Publication.</strong></div>
+          <p>The work was presented at SIGGRAPH ’80 as “Put-that-there: Voice and gesture at the graphics interface.” MIT’s Media Lab publication page also hosts the paper PDF.</p>
+        </div>
+      
+        <div class="exhibit__fact">
+          <div class="exhibit__fact-heading"><strong>Design philosophy.</strong></div>
+          <p>The project explicitly assumed that speech-recognition hardware would never be 100% accurate. To raise “effective accuracy,” it combined voice, gesture, syntax, semantics, context-sensitive interpretation, immediate visual feedback, and spoken clarification questions.</p>
+        </div>
+      
+        <div class="exhibit__fact">
+          <div class="exhibit__fact-heading"><strong>Interaction.</strong></div>
+          <p>Users referred to objects and locations deictically: “Create a blue square there,” “Put that below that,” etc. The system asked aloud when input was ambiguous, making the conversation loop visible and correctable.</p>
+        </div>
+      
+        <div class="exhibit__fact">
+          <div class="exhibit__fact-heading"><strong>Notable demos.</strong></div>
+          <p>The canonical demo shows a user moving colored shapes around a large-format screen using only voice and pointing, anticipating the multimodal interfaces now common in phones, cars, and AR/VR systems.</p>
+        </div>
+      
+        <div class="exhibit__fact">
+          <div class="exhibit__fact-heading"><strong>Impact.</strong></div>
+          <p>Put-That-There is a foundational reference for multimodal HCI. It inspired decades of research on gesture+speech input and is still revisited today; a 2025 arXiv paper proposes “Revisiting put-that-there” for modern head-mounted displays using large language models.</p>
+        </div>
+      
+        <div class="exhibit__fact">
+          <div class="exhibit__fact-heading"><strong>Weird / fun facts.</strong></div>
+          <p>The project’s very name became shorthand for the entire genre of multimodal, deictic interaction. The phrase has outlived the specific hardware by more than four decades.</p>
+        </div>
+      </div>
+          </section>
+
+          
+          <section class="exhibit__section exhibit__team">
+            <h2 class="exhibit__section-title">Team &amp; pioneers</h2>
+            <ul class="exhibit__team-list">
+            <li class="exhibit__team-item">
+              <span class="exhibit__team-name">Richard A. Bolt</span>
+              <span class="exhibit__team-note"> Researcher at MIT&#039;s Architecture Machine Group; principal author and visionary behind the voice-and-gesture interface.</span>
+            </li>
+            <li class="exhibit__team-item">
+              <span class="exhibit__team-name">Chris Schmandt</span>
+              <span class="exhibit__team-note"> Longtime MIT speech and audio-interface researcher; co-author of the SIGGRAPH &#039;80 paper.</span>
+            </li>
+            <li class="exhibit__team-item">
+              <span class="exhibit__team-name">Eric A. Hulteen</span>
+              <span class="exhibit__team-note"> Co-author of the &quot;Put-that-there&quot; paper, contributing to the system&#039;s implementation and evaluation.</span>
+            </li>
+            <li class="exhibit__team-item">
+              <span class="exhibit__team-name">MIT Architecture Machine Group</span>
+              <span class="exhibit__team-note"> The precursor to the MIT Media Lab, where multimodal interaction was explored as a way to compensate for imperfect speech recognition.</span>
+            </li>
+            </ul>
+          </section>
+
+          
+          <section class="exhibit__section exhibit__media">
+            <h2 class="exhibit__section-title">Media</h2>
+            <div class="exhibit__media-grid">
+        <figure class="exhibit__media-item">
+          <div class="exhibit__media-frame">
+            <img src="../../assets/wiki/put-that-there-paper-1.png" alt="Put-That-There SIGGRAPH &#039;80 title page" loading="lazy" />
+            <div class="exhibit__media-scanlines" aria-hidden="true"></div>
+          </div>
+          <figcaption>Title page of the scanned SIGGRAPH ’80 paper. Source: <a href="https://dam-prod.media.mit.edu/uuid/8e6d934b-6c6f-48e4-b0a1-270e0dae745f" target="_blank" rel="noopener">MIT Media Lab</a></figcaption>
+        </figure>
+      
+        <figure class="exhibit__media-item">
+          <div class="exhibit__media-frame">
+            <img src="../../assets/wiki/put-that-there-video.jpg" alt="Put-That-There demo thumbnail" loading="lazy" />
+            <div class="exhibit__media-scanlines" aria-hidden="true"></div>
+          </div>
+          <figcaption>YouTube thumbnail from the original demo recording. Source: <a href="https://www.youtube.com/watch?v=RyBEUyEtxQo" target="_blank" rel="noopener">YouTube</a></figcaption>
+        </figure>
+      </div>
+          </section>
+          
+
+          
+          <section class="exhibit__section exhibit__sources">
+            <h2 class="exhibit__section-title">Sources</h2>
+            <ol class="exhibit__source-list">
+        <li>
+          <a href="https://www.media.mit.edu/publications/put-that-there-voice-and-gesture-at-the-graphics-interface/" target="_blank" rel="noopener">MIT Media Lab, “Put-that-there: Voice and gesture at the graphics interface”</a>
+        </li>
+      
+        <li>
+          <a href="https://dam-prod.media.mit.edu/uuid/8e6d934b-6c6f-48e4-b0a1-270e0dae745f" target="_blank" rel="noopener">MIT Media Lab PDF of the paper</a>
+        </li>
+      
+        <li>
+          <a href="https://duruofei.com/cites/Bolt1980Put.html" target="_blank" rel="noopener">Du, R., “‘Put-That-There’: Voice and Gesture at the Graphics Interface” citation page</a>
+        </li>
+      
+        <li>
+          <a href="https://www.youtube.com/watch?v=RyBEUyEtxQo" target="_blank" rel="noopener">YouTube: “Put That There (Original)”</a>
+        </li>
+      </ol>
+          </section>
+          
+
+          <nav class="exhibit__nav" aria-label="Exhibit navigation">
+            <a href="../mandala/" class="exhibit__nav-link exhibit__nav-link--prev">
+        <span class="exhibit__nav-dir">← Previous</span>
+        <span class="exhibit__nav-title">Mandala</span>
+      </a>
+            <a href="../../exhibits/" class="exhibit__nav-link exhibit__nav-link--index">All exhibits</a>
+            <a href="../speak-spell/" class="exhibit__nav-link exhibit__nav-link--next">
+        <span class="exhibit__nav-dir">Next →</span>
+        <span class="exhibit__nav-title">Speak &amp; Spell</span>
+      </a>
+          </nav>
+        </article>
+      </main>
+
+      <footer class="site-footer">
+        <span>HCI Museum // Curated by Beepy</span>
+        <span class="site-footer__signal">SIGNAL_STABLE</span>
+      </footer>
+    </div>
+  </body>
+</html>

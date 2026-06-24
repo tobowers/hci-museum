@@ -1,0 +1,89 @@
+{
+  "entries": [
+    {
+      "component": "Hubot",
+      "files": [
+        {
+          "path": "assets/wiki/hubot-cnet.webp",
+          "caption": "CNET gallery photo of Hubot, captioned ‘Hubot, Hubotics, 1981’.",
+          "source_url": "https://www.cnet.com/a/img/resize/5bc9fee99f9843ba873be8b7b3468a7652a06bda/hub/2020/05/20/5cc34c62-38d0-4456-89b2-f543e4fb94f9/hubot-hubotics-1981-robots-1530.jpg?auto=webp&width=1200"
+        },
+        {
+          "path": "assets/wiki/hubot-hardware.webp",
+          "caption": "Hardware.com.br photo of Hubot showing its monitor, digital display and Atari 2600 slot.",
+          "source_url": "https://www.hardware.com.br/wp-content/uploads/2025/07/hubot-by-hubotics-v0-dtrgma74ek5c1.webp"
+        },
+        {
+          "path": "assets/wiki/hubot-sciencephoto.jpg",
+          "caption": "Science Photo Library image of the Hubot robot being held from behind.",
+          "source_url": "https://imagerenderer.com/images/rendered/default/acrylic-print/7.5/10/hangingwire/break/images-medium/hubot-robot-volker-steger.jpg"
+        }
+      ]
+    },
+    {
+      "component": "P300 Speller",
+      "files": [
+        {
+          "path": "assets/wiki/p300-rowcolumn.webp",
+          "caption": "Row-column paradigm for the classic P300 BCI speller, from Pan et al. (2022) Frontiers in Human Neuroscience (open access).",
+          "source_url": "https://www.frontiersin.org/files/Articles/1077717/xml-images/fnhum-16-1077717-g0002.webp"
+        },
+        {
+          "path": "assets/wiki/p300-paper-01.png",
+          "caption": "First page of the original Farwell & Donchin (1988) scanned paper, ‘Talking off the top of your head’.",
+          "source_url": "https://www.farwellbrainfingerprinting.com/pdf/Farwell-Donchin-1988-Talking-Off-the-Top-of-Your-Head-BCI-brain-computer-interface.pdf"
+        }
+      ]
+    },
+    {
+      "component": "VPL Research EyePhone & DataGlove",
+      "files": [
+        {
+          "path": "assets/wiki/vpl-datasuit.jpg",
+          "caption": "VPL Research DataSuit, a full-body sensor outfit for tracking arms, legs and trunk (Wikimedia Commons).",
+          "source_url": "https://upload.wikimedia.org/wikipedia/commons/a/a8/VPL_DataSuit_1.jpg"
+        },
+        {
+          "path": "assets/wiki/vpl-eyephone-demo.jpg",
+          "caption": "Two people demonstrate the EyePhone HMD and DataGlove at the Texpo Telecommunications Show, San Francisco, June 1989.",
+          "source_url": "https://flashbak.com/wp-content/uploads/2014/11/PA-9197076-1024x678.jpg"
+        },
+        {
+          "path": "assets/wiki/vpl-jaron-lanier.jpg",
+          "caption": "Jaron Lanier, co-founder of VPL Research and populariser of the term ‘virtual reality’.",
+          "source_url": "https://flashbak.com/wp-content/uploads/2014/11/Jaron_lanier.jpg"
+        }
+      ]
+    },
+    {
+      "component": "Put-That-There",
+      "files": [
+        {
+          "path": "assets/wiki/put-that-there-paper-1.png",
+          "caption": "Title page of the scanned SIGGRAPH ’80 paper, ‘Put-that-there: Voice and gesture at the graphics interface’.",
+          "source_url": "https://dam-prod.media.mit.edu/uuid/8e6d934b-6c6f-48e4-b0a1-270e0dae745f"
+        },
+        {
+          "path": "assets/wiki/put-that-there-video.jpg",
+          "caption": "YouTube thumbnail from the original ‘Put That There (Original)’ demo recording.",
+          "source_url": "https://i.ytimg.com/vi/RyBEUyEtxQo/hqdefault.jpg"
+        }
+      ]
+    },
+    {
+      "component": "VIDEOPLACE / Artificial Reality",
+      "files": [
+        {
+          "path": "assets/wiki/videoplace-mediaartnet.jpg",
+          "caption": "Myron Krueger, Videoplace, 1974 video still, showing a user silhouette in the artificial-reality environment.",
+          "source_url": "http://www.medienkunstnetz.de/assets/img/data/1869/bild.jpg"
+        },
+        {
+          "path": "assets/wiki/videoplace-video.jpg",
+          "caption": "YouTube thumbnail from ‘Myron Kreuger – Video Place – 1989’, showing silhouette-based interaction.",
+          "source_url": "https://i.ytimg.com/vi/dqZyZrN3Pl0/hqdefault.jpg"
+        }
+      ]
+    }
+  ]
+}

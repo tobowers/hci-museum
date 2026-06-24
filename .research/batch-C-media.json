@@ -1,0 +1,72 @@
+{
+  "batch": "C",
+  "generated": "2026-06-23",
+  "images": [
+    {
+      "component": "kurzweil-reading-machine",
+      "file": "assets/wiki/kurzweil-reading-machine-1.jpg",
+      "caption": "Promotional photo of the Kurzweil Reading Machine (1976), the first commercial print-to-speech reading machine for blind users.",
+      "source_url": "http://www.kurzweiltech.com/krm_small.jpg"
+    },
+    {
+      "component": "virtuality",
+      "file": "assets/wiki/virtuality-1000cs-1.jpg",
+      "caption": "1991 Virtuality 1000CS stand-up arcade pod showing the Visette headset and space joystick controller.",
+      "source_url": "https://upload.wikimedia.org/wikipedia/commons/c/c5/Virtual-Reality-1990s-Virtuality-1000CS.jpg"
+    },
+    {
+      "component": "virtuality",
+      "file": "assets/wiki/virtuality-1000sd-2.jpg",
+      "caption": "Sit-down 1000SD version of the Virtuality arcade system with the headset mounted on a hook and fixed joysticks.",
+      "source_url": "https://upload.wikimedia.org/wikipedia/commons/e/e2/Virtuality-1000SD-VR-Arcade-System.jpg"
+    },
+    {
+      "component": "virtuality",
+      "file": "assets/wiki/virtuality-dactyl-3.jpg",
+      "caption": "Screenshot of Dactyl Nightmare running on original Virtuality 1000CS hardware, showing checkerboard platforms and a pterodactyl overhead.",
+      "source_url": "https://upload.wikimedia.org/wikipedia/commons/8/87/Virtuality_VR_Dactyl_Nightmare_Arcade_Game.jpg"
+    },
+    {
+      "component": "eyetap",
+      "file": "assets/wiki/eyetap-aimoneyetap-1.jpg",
+      "caption": "Man wearing a one-eyed injection-molded EyeTap, a camera-and-display wearable worn in front of the eye.",
+      "source_url": "https://upload.wikimedia.org/wikipedia/commons/4/43/Aimoneyetap.jpg"
+    },
+    {
+      "component": "eyetap",
+      "file": "assets/wiki/eyetap-mann-glass-2.jpg",
+      "caption": "Steve Mann wearing a metal-frame Laser EyeTap with a computer-controlled laser light source run from a GlassEye camera.",
+      "source_url": "https://upload.wikimedia.org/wikipedia/commons/2/21/MannGlassEye1999crop.jpg"
+    },
+    {
+      "component": "eyetap",
+      "file": "assets/wiki/eyetap-gen4-3.jpg",
+      "caption": "Steve Mann with a Generation-4 EyeTap Digital Eye Glass in 1999.",
+      "source_url": "https://upload.wikimedia.org/wikipedia/commons/3/3e/SteveMann_with_Generation-4_Glass_1999.jpg"
+    },
+    {
+      "component": "mandala",
+      "file": "assets/wiki/mandala-siggraph-1.jpg",
+      "caption": "SIGGRAPH 1991 Immersive Pavilion exhibit photo of The Mandala VR System by The Vivid Group.",
+      "source_url": "https://history.siggraph.org/wp-content/uploads/2023/08/1991-Immersive-Pavilion-Whyshinski_The-Mandala-VR-System.jpg"
+    },
+    {
+      "component": "mandala",
+      "file": "assets/wiki/mandala-video-thumb-2.jpg",
+      "caption": "YouTube thumbnail for a modern demonstration of the Amiga-based Mandala motion-sensing VR system.",
+      "source_url": "https://www.youtube.com/watch?v=h6xHpyJQ6GQ"
+    },
+    {
+      "component": "twiddler",
+      "file": "assets/wiki/twiddler-original-1.png",
+      "caption": "The original Twiddler one-handed chording keyboard from 1992.",
+      "source_url": "https://upload.wikimedia.org/wikipedia/en/6/64/The_first_Twiddler_model_from_1992.png"
+    },
+    {
+      "component": "twiddler",
+      "file": "assets/wiki/twiddler-lgr-thumb-2.jpg",
+      "caption": "YouTube thumbnail for LGR’s overview of the 1992 Twiddler motion-controlled keyboard/mouse.",
+      "source_url": "https://www.youtube.com/watch?v=HhJGrATZCl0"
+    }
+  ]
+}

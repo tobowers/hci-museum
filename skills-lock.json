@@ -6,6 +6,18 @@
       "sourceType": "github",
       "skillPath": "skills/agent-browser/SKILL.md",
       "computedHash": "228f87d57035100d9dc6efcfc05aafd4b6e3962adacaa04b8217ab2fadb15dc8"
+    },
+    "genmedia": {
+      "source": "fal-ai-community/skills",
+      "sourceType": "github",
+      "skillPath": "skills/genmedia/SKILL.md",
+      "computedHash": "a47ff36650f81dec36c3d35742b5c16da0a6216cd31e516538efea1ed0cb0123"
+    },
+    "last30days": {
+      "source": "mountgram/upstreamer",
+      "sourceType": "github",
+      "skillPath": "codebases/last30days-ts/downstream/skills/last30days/SKILL.md",
+      "computedHash": "b9ad8186aa3524832db9ed874289533f7a57ad4eab944af1c16251fb1781f274"
     }
   }
 }

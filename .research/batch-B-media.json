@@ -1,0 +1,56 @@
+[
+  {
+    "component": "Nintendo Power Glove",
+    "file": "assets/wiki/power-glove-1.jpg",
+    "caption": "The American NES Power Glove, showing the forearm keypad and knuckle-mounted ultrasonic sensors.",
+    "source_url": "https://upload.wikimedia.org/wikipedia/commons/d/d3/NES-Power-Glove.jpg"
+  },
+  {
+    "component": "Nintendo Power Glove",
+    "file": "assets/wiki/power-glove-2.jpg",
+    "caption": "Promotional advertising imagery for the Power Glove, c. 1989.",
+    "source_url": "https://acmi-website-media-prod.s3.amazonaws.com/media/images/Powerglove_ACMI_Videogames_Nintendo_Exhibition.original.jpg"
+  },
+  {
+    "component": "Olivetti Active Badge",
+    "file": "assets/wiki/active-badge-1.gif",
+    "caption": "Four generations of the Active Badge, showing the progression from 5-bit to 48-bit bidirectional designs.",
+    "source_url": "http://www.cl.cam.ac.uk/Research/DTG/attarchive/images/pictures/badges.gif"
+  },
+  {
+    "component": "The Digital Desk",
+    "file": "assets/wiki/digital-desk-1.gif",
+    "caption": "Early DigitalDesk prototype showing projected user-interface elements on the desktop surface.",
+    "source_url": "https://europe.naverlabs.com/wp-content/uploads/2018/12/digitaldesk.gif"
+  },
+  {
+    "component": "The Digital Desk",
+    "file": "assets/wiki/digital-desk-2.jpg",
+    "caption": "YouTube thumbnail for 'Tactile Manipulation on a Digital Desk (1991) Xerox,' the CHI '92 video demonstration.",
+    "source_url": "https://i.ytimg.com/vi/laApNiNpnvI/hqdefault.jpg"
+  },
+  {
+    "component": "Atari Mindlink",
+    "file": "assets/wiki/atari-mindlink-1.jpg",
+    "caption": "A Mindlink controller on display at the National Videogame Museum.",
+    "source_url": "https://upload.wikimedia.org/wikipedia/commons/4/43/Atari_2600_exhibit_%28Mindlink%29.jpeg"
+  },
+  {
+    "component": "Atari Mindlink",
+    "file": "assets/wiki/atari-mindlink-2.jpg",
+    "caption": "Prototype Mindlink headband and hardware shown by the Atari Museum.",
+    "source_url": "https://atarimuseum.ctrl-alt-rees.com/videogames/consoles/2600/mindlink.JPG"
+  },
+  {
+    "component": "Texas Instruments Speak & Spell",
+    "file": "assets/wiki/speak-spell-1.jpg",
+    "caption": "An American 1978-model Speak & Spell with raised chiclet keyboard.",
+    "source_url": "https://upload.wikimedia.org/wikipedia/commons/1/1e/Speak_%26_Spell_%28original_style%29.jpg"
+  },
+  {
+    "component": "Texas Instruments Speak & Spell",
+    "file": "assets/wiki/speak-spell-2.jpg",
+    "caption": "TI Speak & Spell as featured in the Computer History Museum timeline.",
+    "source_url": "https://images.computerhistory.org/timeline/timeline_ai.robotics_1978.speak.spell.jpg"
+  }
+]

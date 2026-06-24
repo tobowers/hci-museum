@@ -1,0 +1,95 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
+    <meta name="description" content="A digital museum of cutting-edge HCI research from the late 1970s through the early 1990s — brain control, voice synthesis, gesture, wearable computing, and VR." />
+    <meta property="og:title" content="HCI Museum — Golden Age of Interface Experimentation" />
+    <meta property="og:description" content="The strange, beautiful, and often doomed attempts to connect human bodies to machines. 1976–1992." />
+    <meta property="og:type" content="website" />
+    <title>HCI Museum — Golden Age of Interface Experimentation</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <div class="atmosphere" aria-hidden="true">
+      <canvas id="ambient-canvas"></canvas>
+      <div class="atmosphere__grid"></div>
+      <div class="atmosphere__scanlines"></div>
+      <div class="atmosphere__vignette"></div>
+    </div>
+
+    <div class="page-shell">
+      <header class="site-header">
+        <a href="./" class="brand">
+          <span class="brand__mark" aria-hidden="true"></span>
+          <span>HCI Museum</span>
+        </a>
+        <nav class="nav-primary" aria-label="Primary">
+          <a href="./exhibits/" class="active">Exhibits</a>
+          <a href="./blog/">Field Notes</a>
+          <a href="./about/">About</a>
+        </nav>
+        <div class="header-meta">
+          <span class="header-meta__item">SYS_OK</span>
+          <span class="header-meta__pulse" aria-hidden="true"></span>
+        </div>
+      </header>
+
+      <main>
+        <section class="hero" id="hero">
+          <div class="hero__text">
+            <p class="hero__kicker">Permanent collection // 1976–1992</p>
+            <h1 class="hero__title">
+              Interfaces from the<br /><span class="hero__title-accent">golden age</span>
+            </h1>
+            <p class="hero__lede">
+              The strange, beautiful, and often doomed attempts to connect human bodies to machines —
+              before the web flattened everything into a rectangle.
+            </p>
+            <div class="hero__meta">
+              <div class="hero__meta-item">
+                <span id="hero-exhibit-count" class="hero__meta-value">15</span>
+                <span class="hero__meta-label">Exhibits</span>
+              </div>
+              <div class="hero__meta-item">
+                <span class="hero__meta-value">16</span>
+                <span class="hero__meta-label">Years</span>
+              </div>
+              <div class="hero__meta-item">
+                <span class="hero__meta-value">∞</span>
+                <span class="hero__meta-label">Weird</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="hero__feature" id="hero-feature">
+            <div class="hero__feature-image-wrap">
+              <img class="hero__feature-image" id="hero-feature-image" alt="" />
+              <div class="hero__feature-scanlines" aria-hidden="true"></div>
+              <div class="hero__feature-glitch" aria-hidden="true"></div>
+            </div>
+            <div class="hero__feature-info" id="hero-feature-info"></div>
+          </div>
+        </section>
+
+        <section class="gallery" id="gallery" aria-labelledby="gallery-title">
+          <div class="gallery__header">
+            <h2 id="gallery-title" class="gallery__title">All exhibits</h2>
+            <span class="gallery__count" id="gallery-count">15 artifacts recovered</span>
+          </div>
+          <div class="gallery__grid" id="gallery-grid"></div>
+        </section>
+      </main>
+
+      <footer class="site-footer">
+        <span>HCI Museum // Curated by Beepy</span>
+        <span class="site-footer__signal">SIGNAL_STABLE</span>
+      </footer>
+    </div>
+
+    <script type="module" src="./home.ts"></script>
+  </body>
+</html>
