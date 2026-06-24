@@ -14,7 +14,7 @@ on:
       agent_timeout_ms:
         description: Max time for the opencode agent run
         required: true
-        default: "600000"
+        default: "1800000"
       create_pr:
         description: Open a PR with generated scout output
         required: true
@@ -52,18 +52,24 @@ jobs:
         run: bun run typecheck
 
       - name: Run curator scout
+        id: scout_run
+        continue-on-error: true
         run: bun run scout -- "${{ inputs.topic }}"
 
       - name: Typecheck generated collection
+        if: ${{ steps.scout_run.outcome == 'success' }}
         run: bun run typecheck
 
       - name: Build site with generated notes
+        if: ${{ steps.scout_run.outcome == 'success' }}
         run: bun run build
 
       - name: Show generated changes
+        if: ${{ always() }}
         run: git status --short
 
       - name: Upload scout artifacts
+        if: ${{ always() }}
         uses: actions/upload-artifact@v4
         with:
           name: curator-scout-output
@@ -77,7 +83,7 @@ jobs:
             public/
 
       - name: Create scout output pull request
-        if: ${{ inputs.create_pr }}
+        if: ${{ inputs.create_pr && steps.scout_run.outcome == 'success' }}
         uses: peter-evans/create-pull-request@v7
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
@@ -96,3 +102,7 @@ jobs:
             docs/hci-wiki.md
             potential
             src/data.ts
+
+      - name: Fail if scout failed
+        if: ${{ steps.scout_run.outcome != 'success' }}
+        run: exit 1
