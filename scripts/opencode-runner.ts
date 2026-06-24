@@ -1,4 +1,5 @@
 import { createOpencode, type Config } from "@opencode-ai/sdk";
+import { envInt, withTimeout } from "./concurrency";
 
 type RequestResult<T> = {
   data?: T;
@@ -23,8 +24,35 @@ type Session = {
 };
 
 type PromptResponse = {
-  info: { error?: unknown };
+  info: {
+    error?: unknown;
+    providerID?: string;
+    modelID?: string;
+    cost?: number;
+    tokens?: {
+      input?: number;
+      output?: number;
+      reasoning?: number;
+      cache?: {
+        read?: number;
+        write?: number;
+      };
+    };
+  };
   parts: Part[];
+};
+
+type UsageRecord = {
+  title: string;
+  agent: string;
+  providerID: string;
+  modelID: string;
+  cost: number;
+  input: number;
+  output: number;
+  reasoning: number;
+  cacheRead: number;
+  cacheWrite: number;
 };
 
 type OpencodeInstance = Awaited<ReturnType<typeof createOpencode>>;
@@ -32,6 +60,8 @@ type OpencodeInstance = Awaited<ReturnType<typeof createOpencode>>;
 const KNOWN_PROVIDER_IDS = new Set(["anthropic", "deepseek", "github-copilot", "google", "openai", "openrouter", "xai"]);
 
 let instancePromise: Promise<OpencodeInstance> | undefined;
+const usageRecords: UsageRecord[] = [];
+const AGENT_TIMEOUT_MS = envInt("SCOUT_AGENT_TIMEOUT_MS", 180_000);
 
 function providerApiKey(providerID: string): string | undefined {
   if (providerID === "xai") return process.env.XAI_API_KEY ?? process.env.GROK_API_KEY;
@@ -61,6 +91,60 @@ function unwrap<T>(result: RequestResult<T>, label: string): T {
   if (result.error) throw new Error(`${label} failed: ${JSON.stringify(result.error)}`);
   if (result.data === undefined) throw new Error(`${label} failed: empty response`);
   return result.data;
+}
+
+function fmtCost(cost: number): string {
+  return `$${cost.toFixed(6)}`;
+}
+
+function logUsage(record: UsageRecord) {
+  usageRecords.push(record);
+  console.log(
+    `usage: ${record.title} [${record.agent} ${record.providerID}/${record.modelID}] input=${record.input} output=${record.output} reasoning=${record.reasoning} cache_read=${record.cacheRead} cache_write=${record.cacheWrite} cost=${fmtCost(record.cost)}`,
+  );
+}
+
+function logUsageSummary() {
+  if (!usageRecords.length) return;
+
+  const byModel = new Map<string, UsageRecord>();
+  for (const record of usageRecords) {
+    const key = `${record.providerID}/${record.modelID}`;
+    const current = byModel.get(key);
+    if (!current) {
+      byModel.set(key, { ...record, title: key, agent: "total" });
+      continue;
+    }
+    current.cost += record.cost;
+    current.input += record.input;
+    current.output += record.output;
+    current.reasoning += record.reasoning;
+    current.cacheRead += record.cacheRead;
+    current.cacheWrite += record.cacheWrite;
+  }
+
+  const total = [...byModel.values()].reduce(
+    (acc, record) => {
+      acc.cost += record.cost;
+      acc.input += record.input;
+      acc.output += record.output;
+      acc.reasoning += record.reasoning;
+      acc.cacheRead += record.cacheRead;
+      acc.cacheWrite += record.cacheWrite;
+      return acc;
+    },
+    { cost: 0, input: 0, output: 0, reasoning: 0, cacheRead: 0, cacheWrite: 0 },
+  );
+
+  console.log("usage summary:");
+  for (const record of [...byModel.values()].sort((a, b) => `${a.providerID}/${a.modelID}`.localeCompare(`${b.providerID}/${b.modelID}`))) {
+    console.log(
+      `  ${record.providerID}/${record.modelID}: calls=${usageRecords.filter((item) => item.providerID === record.providerID && item.modelID === record.modelID).length} input=${record.input} output=${record.output} reasoning=${record.reasoning} cache_read=${record.cacheRead} cache_write=${record.cacheWrite} cost=${fmtCost(record.cost)}`,
+    );
+  }
+  console.log(
+    `  total: calls=${usageRecords.length} input=${total.input} output=${total.output} reasoning=${total.reasoning} cache_read=${total.cacheRead} cache_write=${total.cacheWrite} cost=${fmtCost(total.cost)}`,
+  );
 }
 
 function opencodeConfig(): Config {
@@ -132,20 +216,41 @@ export async function opencodeText(options: {
     await client.session.create({ query: { directory }, body: { title: options.title } }),
     "create opencode session",
   );
-  const response = unwrap<PromptResponse>(
-    await client.session.prompt({
-      path: { id: session.id },
-      query: { directory },
-      body: {
-        model: options.model,
-        agent: options.agent,
-        system: options.system,
-        parts: [{ type: "text", text: options.prompt }],
-      },
-    }),
-    "prompt opencode session",
+  const response = await withTimeout(
+    `opencode ${options.agent} ${options.title}`,
+    AGENT_TIMEOUT_MS,
+    async () =>
+      unwrap<PromptResponse>(
+        await client.session.prompt({
+          path: { id: session.id },
+          query: { directory },
+          body: {
+            model: options.model,
+            agent: options.agent,
+            system: options.system,
+            parts: [{ type: "text", text: options.prompt }],
+          },
+        }),
+        "prompt opencode session",
+      ),
+    async () => {
+      console.warn(`timeout: aborting opencode session ${session.id} (${options.title})`);
+      await client.session.abort({ path: { id: session.id }, query: { directory } }).catch(() => undefined);
+    },
   );
   if (response.info.error) throw new Error(`opencode model error: ${JSON.stringify(response.info.error)}`);
+  logUsage({
+    title: options.title,
+    agent: options.agent,
+    providerID: response.info.providerID ?? options.model.providerID,
+    modelID: response.info.modelID ?? options.model.modelID,
+    cost: response.info.cost ?? 0,
+    input: response.info.tokens?.input ?? 0,
+    output: response.info.tokens?.output ?? 0,
+    reasoning: response.info.tokens?.reasoning ?? 0,
+    cacheRead: response.info.tokens?.cache?.read ?? 0,
+    cacheWrite: response.info.tokens?.cache?.write ?? 0,
+  });
   return response.parts
     .filter((part): part is TextPart => part.type === "text")
     .map((part) => part.text)
@@ -156,6 +261,8 @@ export async function opencodeText(options: {
 export async function closeOpencode() {
   if (!instancePromise) return;
   const instance = await instancePromise;
+  logUsageSummary();
+  usageRecords.length = 0;
   instance.server.close();
   instancePromise = undefined;
 }

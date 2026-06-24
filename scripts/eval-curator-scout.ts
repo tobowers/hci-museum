@@ -19,6 +19,7 @@
 
 import fs from "node:fs";
 import path from "node:path";
+import { envInt, mapLimit } from "./concurrency";
 import { closeOpencode, opencodeText, resolveModelRef } from "./opencode-runner";
 import { exhibits } from "../src/data";
 
@@ -33,6 +34,7 @@ const EVAL_RESEARCH_PROVIDER = process.env.EVAL_RESEARCH_PROVIDER ?? "openrouter
 const EVAL_CURATION_PROVIDER = process.env.EVAL_CURATION_PROVIDER ?? "deepseek";
 const EVAL_RESEARCH_MODEL_REF = resolveModelRef(EVAL_RESEARCH_MODEL, EVAL_RESEARCH_PROVIDER);
 const EVAL_CURATION_MODEL_REF = resolveModelRef(EVAL_CURATION_MODEL, EVAL_CURATION_PROVIDER);
+const EVAL_CONCURRENCY = envInt("SCOUT_EVAL_CONCURRENCY", 4);
 
 type ScoutInfo = {
   slug: string;
@@ -380,12 +382,12 @@ async function main() {
   }
 
   const charter = fs.existsSync(BEEPY_CHARTER) ? fs.readFileSync(BEEPY_CHARTER, "utf-8") : "";
-  const results: EvalResult[] = [];
-  for (const slug of slugs) {
+  console.log(`eval: checking ${slugs.length} candidates with concurrency=${EVAL_CONCURRENCY}`);
+  const maybeResults = await mapLimit(slugs, EVAL_CONCURRENCY, async (slug) => {
     console.log(`eval: ${slug}`);
-    const result = await evalOne(slug, charter, useLlm);
-    if (result) results.push(result);
-  }
+    return await evalOne(slug, charter, useLlm);
+  });
+  const results = maybeResults.filter((result): result is EvalResult => Boolean(result));
   writeReports(results);
   await closeOpencode();
 }

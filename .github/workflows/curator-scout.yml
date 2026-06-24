@@ -10,11 +10,23 @@ on:
       discovery_count:
         description: Number of broad candidates to ask Grok for
         required: true
-        default: "24"
+        default: "12"
+      candidate_limit:
+        description: Number of de-duped candidates to research end-to-end
+        required: true
+        default: "4"
       target_count:
         description: Approximate number of objects Beepy should select
         required: true
-        default: "15"
+        default: "4"
+      research_concurrency:
+        description: Parallel candidate research jobs
+        required: true
+        default: "3"
+      eval_concurrency:
+        description: Parallel eval jobs
+        required: true
+        default: "4"
       run_eval:
         description: Run LLM eval after scout
         required: true
@@ -35,7 +47,10 @@ jobs:
       DEEPSEEK_MODEL: deepseek-v4-pro
       OPENROUTER_MODEL: z-ai/glm-5.2
       SCOUT_DISCOVERY_COUNT: ${{ inputs.discovery_count }}
+      SCOUT_CANDIDATE_LIMIT: ${{ inputs.candidate_limit }}
       SCOUT_TARGET_COUNT: ${{ inputs.target_count }}
+      SCOUT_RESEARCH_CONCURRENCY: ${{ inputs.research_concurrency }}
+      SCOUT_EVAL_CONCURRENCY: ${{ inputs.eval_concurrency }}
     steps:
       - name: Checkout
         uses: actions/checkout@v4

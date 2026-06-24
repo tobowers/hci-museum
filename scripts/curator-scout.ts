@@ -22,6 +22,7 @@
 
 import fs from "node:fs";
 import path from "node:path";
+import { envInt, mapLimit } from "./concurrency";
 import { closeOpencode, opencodeText, resolveModelRef } from "./opencode-runner";
 import { exhibits } from "../src/data";
 
@@ -40,7 +41,9 @@ const GROK_PROVIDER = process.env.GROK_PROVIDER ?? "xai";
 const DEEPSEEK_PROVIDER = process.env.DEEPSEEK_PROVIDER ?? "deepseek";
 const OPENROUTER_PROVIDER = process.env.OPENROUTER_PROVIDER ?? "openrouter";
 const DISCOVERY_COUNT = Number(process.env.SCOUT_DISCOVERY_COUNT ?? 24);
-const TARGET_COLLECTION_COUNT = Number(process.env.SCOUT_TARGET_COUNT ?? 15);
+const TARGET_COLLECTION_COUNT = Number(process.env.SCOUT_TARGET_COUNT ?? 4);
+const CANDIDATE_LIMIT = Number(process.env.SCOUT_CANDIDATE_LIMIT ?? 4);
+const RESEARCH_CONCURRENCY = envInt("SCOUT_RESEARCH_CONCURRENCY", 3);
 const GROK_MODEL_REF = resolveModelRef(GROK_MODEL, GROK_PROVIDER);
 const DEEPSEEK_MODEL_REF = resolveModelRef(DEEPSEEK_MODEL, DEEPSEEK_PROVIDER);
 const OPENROUTER_MODEL_REF = resolveModelRef(OPENROUTER_MODEL, OPENROUTER_PROVIDER);
@@ -549,18 +552,18 @@ async function main() {
   console.log(`scout: ${rawCandidates.length} raw candidates`);
 
   const novel = dedupeAgent(rawCandidates, existing);
-  console.log(`scout: ${novel.length} after de-dupe`);
+  const selected = novel.slice(0, Math.max(1, CANDIDATE_LIMIT));
+  console.log(`scout: ${novel.length} after de-dupe; researching ${selected.length}`);
 
-  const researched: { candidate: Candidate; research: ResearchResult; savedImages: string[] }[] = [];
-  for (let i = 0; i < novel.length; i++) {
-    console.log(`[${i + 1}/${novel.length}]`);
-    const candidate = novel[i]!;
+  console.log(`scout: researching ${selected.length} candidates with concurrency=${RESEARCH_CONCURRENCY}`);
+  const researched = await mapLimit(selected, RESEARCH_CONCURRENCY, async (candidate, i) => {
+    console.log(`[${i + 1}/${selected.length}] start ${candidate.title}`);
     const research = await researchAgent(candidate);
     const savedImages = await downloadCandidateImages(candidate.slug, research.imageUrls);
     await saveResearch(candidate.slug, candidate, research, savedImages);
-    researched.push({ candidate, research, savedImages });
-    if (i < novel.length - 1) await new Promise((r) => setTimeout(r, 600));
-  }
+    console.log(`[${i + 1}/${selected.length}] done ${candidate.title}`);
+    return { candidate, research, savedImages };
+  });
 
   const curated = await curatorAgent(researched, charter);
   console.log(`scout: ${curated.filter((c) => c.decision === "blog").length} blog posts selected`);
