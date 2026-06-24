@@ -1,6 +1,6 @@
 # The HCI Golden Age Wiki
 
-A research compendium for a digital museum of cutting-edge Human-Computer Interaction from the late 1970s through the early 1990s. These fifteen projects mix canonical experiments with weird, forgotten, and beautiful vaporware — brain control, voice control, gesture, wearable computing, VR, and robots.
+A research compendium for a digital museum of cutting-edge Human-Computer Interaction from the late 1970s through the early 1990s. These twenty-nine projects mix canonical experiments with weird, forgotten, and beautiful vaporware — brain control, voice control, gesture, wearable computing, VR, robots, and full-body exertion.
 
 Each entry includes an overview, a deep dive, a small media gallery, and full source links so the images and facts can always be traced back.
 
@@ -19,9 +19,23 @@ Each entry includes an overview, a deep dive, a small media gallery, and full so
 10. [Texas Instruments Speak & Spell (1978)](#texas-instruments-speak--spell-1978)
 11. [Kurzweil Reading Machine (1976)](#kurzweil-reading-machine-1976)
 12. [Virtuality Arcade VR System (1990)](#virtuality-arcade-vr-system-1990)
-13. [Steve Mann’s EyeTap / Wearable Computing (1980s)](#steve-manns-eyetap--wearable-computing-1980s)
+13. [Steve Mann's EyeTap / Wearable Computing (1980s)](#steve-manns-eyetap--wearable-computing-1980s)
 14. [Mandala / The Vivid Group Gesture VR System (1986)](#mandala--the-vivid-group-gesture-vr-system-1986)
 15. [Handykey Twiddler Chord Keyboard (1992)](#handykey-twiddler-chord-keyboard-1992)
+16. [GRiDPad 100 (1989)](#gridpad-100-1989)
+17. [Heathkit HERO 1 (1982)](#heathkit-hero-1-1982)
+18. [HP-150 Touchscreen (1983)](#hp-150-touchscreen-1983)
+19. [KoalaPad (1984)](#koalapad-1984)
+20. [Microwriter (1980)](#microwriter-1980)
+21. [Nintendo D-pad controller (1985)](#nintendo-d-pad-controller-1985)
+22. [Polhemus 3Space Isotrak (1987)](#polhemus-3space-isotrak-1987)
+23. [Poqet PC (1989)](#poqet-pc-1989)
+24. [Psion Organiser II (1986)](#psion-organiser-ii-1986)
+25. [Summagraphics Bit Pad (1977)](#summagraphics-bit-pad-1977)
+26. [WriteHander (1978)](#writehander-1978)
+27. [Fairlight CMI (1979)](#fairlight-cmi-computer-musical-instrument-1979)
+28. [Konami LaserScope (1990)](#konami-laserscope-1990)
+29. [NES Power Pad (1988)](#nes-power-pad-family-trainer--family-fun-fitness-1988)
 
 ---
 ## Hubot (c. 1983)
@@ -1273,3 +1287,145 @@ Although its commercial life was brief, the WriteHander pre‑figured later chor
 1. Bill Buxton, “CASE STUDY 2: CHORD KEYBOARDS” (PDF), covers the history of chorded input including early commercial attempts. — https://www.billbuxton.com/input06.ChordKeyboards.pdf
 2. Wikipedia, “Chorded keyboard” — outlines the Writehander as a 1978 one‑handed keyboard from NewO Company. — https://en.wikipedia.org/wiki/Chorded_keyboard
 3. Блог Вольки, “The NewO Writehander” — detailed description and photographs of the device. — http://ibnteo.klava.org/keyboard/writehander
+
+---
+
+## Fairlight CMI (Computer Musical Instrument) (1979)
+
+**By:** Fairlight Instruments Pty Ltd (Peter Vogel, Kim Ryrie)  
+**Tags:** `Music HCI` `Light Pen` `Digital Audio` `Sampling` `Workstation`
+
+### Overview
+
+The Fairlight CMI (Computer Musical Instrument) was the first commercially available digital sampling synthesizer and music workstation, created by Peter Vogel and Kim Ryrie in Sydney, Australia, and launched in 1979. It combined an 8-bit sampler, additive synthesis, a graphical sequencer, and a music keyboard into a single console. Its defining HCI feature was a **light pen** used directly on the CRT display: musicians could draw sound waveforms, adjust harmonic sliders, and compose music by pointing at visual representations of notes — all without a mouse, years before the Macintosh popularized the WIMP interface.
+
+The CMI was built around dual Motorola 6800 processors, booted from 8-inch floppy disks, and displayed in green monochrome at 512×256 pixels. The light pen detected electron-beam hits on the CRT and, combined with a pressure-sensitive tip switch, enabled direct pointing, selection, and drawing. A QWERTY keyboard handled symbolic input; the light pen handled spatial tasks. The result was a dual-modality interface that bridged the command-line and GUI eras.
+
+Only about 300 units of the Series I, II, and IIx were built, priced between £15,000 and £30,000. The user list reads like a who's-who of 1980s music: Peter Gabriel, Kate Bush, Herbie Hancock, Stevie Wonder, Jean-Michel Jarre, Art of Noise, and Jan Hammer. The CMI's 8-bit sampling grit and its iconic ORCH2 "orchestra hit" became the sonic signature of the decade. Its Page R sequencer invented the piano-roll/pattern-grid editing paradigm that every modern DAW still uses.
+
+### Deep dive
+
+* **Origins.** The Fairlight CMI began with Tony Furse's Qasar M8, an 8-voice digital synthesizer built for the Canberra School of Electronic Music in 1974–75. The Qasar already featured a light pen, graphic display, and dual Motorola 6800 processors. Peter Vogel and Kim Ryrie licensed the design and spent 1976–1979 turning it into a commercial product. The company was named after the Fairlight hydrofoil ferry passing Ryrie's grandmother's house in Sydney Harbour. The Series I launched in 1979; Series II (1982) added the iconic Page R sequencer; Series III (1985) replaced the light pen with a graphics tablet after user complaints about arm fatigue from holding a pen against a vertical CRT.
+* **Light pen interaction.** The light pen was a photodiode sensor in a tethered wand. As the CRT's electron beam scanned the phosphor screen line by line, the pen detected the flash of light when the beam passed beneath its tip. The video card latched the current X-Y coordinates, giving screen position. Pressing the pressure-sensitive tip switch confirmed a selection. The UI was organized into 18 numbered 'pages' — waveform drawing (Page 6), harmonic envelopes (Page 4), harmonic sliders (Page 5), sound sampling (Page 8), and the waveform 'mountain range' display (Page D). Users could draw waveforms directly on screen 'as simple as drawing on the back of a bus ticket' (EMM, 1985). The MERGE function computed intermediate waveform segments — early computational morphing. The QWERTY keyboard handled text entry and numeric commands; the light pen handled all spatial/drawing tasks. Only about 5% of functions required the keyboard.
+* **Page R — the first graphical pattern sequencer.** Created by Michael Carlos for the Series II in 1982, Page R displayed notes as horizontal bars on a grid, read left to right like a piano roll. Up to 8 monophonic parts per pattern, 255 patterns chained into 26 phrases (A–Z). This invented the visual pattern-grid editing paradigm and the concept of quantization, now universal in DAWs (Ableton Live, Logic, FL Studio, Cubase). Audio Media Magazine (1996) noted it 'heralded the democratisation of music creation, making it available to the musically chops-challenged.' CMI user Roger Bolton: 'The CMI II was a high-level composition tool that not only shaped the sound of the 80s, but the way that music was actually written.'
+* **8-bit sampling sound.** Each of 8 voice cards had 16KB of waveform RAM, sampled at 8–32 kHz with 8-bit resolution — a typical sound was 0.25 to 1 second long. The low sample rates introduced aliasing artifacts that Peter Vogel called 'their own character.' The bass response was reportedly 'awesome with an ability to move furniture.' Boris Blank of Yello still considers its sound superior to later digital samplers. The famous ORCH2 sample — a Stravinsky Firebird stab grabbed from Vogel's vinyl collection — became the most-sampled sample of all time, heard on thousands of records from Afrika Bambaataa to Bruno Mars. ARR1, an ethereal breathy choir created from singer Sarah Cohen's voice, was another ubiquitous sound.
+* **Commercial fate and legacy.** Only about 300 CMIs were built. Priced at £15,000–£30,000 (roughly £60,000–£110,000 in 2024), it was undercut by MIDI-based systems by the late 1980s. Fairlight pivoted to video post-production and ceased music products by 1989. Yet its influence is extraordinary: the first general-public user of a light pen for creative work, the first graphical music sequencer, the origin of the word 'sampling' in music. It was the original digital audio workstation, a decade before Pro Tools. Peter Vogel later released Fairlight CMI apps for iOS (2011) — the £27,000 sound became a £29.99 app. The CMI was named as the inspiration for the Swedish demoscene group Fairlight, and the UK Musicians' Union called it a 'lethal threat' to orchestral players. Phil Collins put a disclaimer on No Jacket Required (1985): 'There is no Fairlight on this record.'
+
+### Team
+
+* **Peter Vogel.** Electronics designer and co-founder of Fairlight Instruments; built the CMI hardware.
+* **Kim Ryrie.** Co-founder of Fairlight Instruments; synthesizer enthusiast and founder of Electronics Today International magazine.
+* **Tony Furse.** Built the Qasar M8 digital synthesizer (1974–75), whose light-pen architecture was licensed as the basis for the CMI.
+* **Michael Carlos.** Created Page R, the first graphical pattern-based music sequencer, for the Series II in 1982.
+
+### Media
+
+![Fairlight CMI Series II with CRT, keyboard, and light pen](https://upload.wikimedia.org/wikipedia/commons/thumb/c/c8/Fairlight_green_screen.jpg/1280px-Fairlight_green_screen.jpg)
+*A Fairlight CMI Series II workstation showing the green-screen CRT, QWERTY and music keyboards, and 8-inch floppy drives. (Wikimedia Commons)*
+
+![Fairlight CMI Page R sequencer screen](https://upload.wikimedia.org/wikipedia/commons/thumb/e/ef/Fairlight_II_Page_R.jpg/1280px-Fairlight_II_Page_R.jpg)
+*Page R, the first graphical pattern sequencer, displaying notes as horizontal bars on a piano-roll grid (1982). (Wikimedia Commons)*
+
+### Sources
+
+1. Fairlight CMI - Wikipedia — https://en.wikipedia.org/wiki/Fairlight_CMI
+2. Sound on Sound Retrozone — Fairlight CMI — https://www.soundonsound.com/reviews/fairlight-cmi-retrozone
+3. The Register — 'Rolls Royce of synthesizers' — https://www.theregister.com/2011/04/29/fairlight_synthesiser/
+4. Peter Vogel Instruments — Fairlight History — https://petervogelinstruments.com.au/fairlight-history/
+5. EMM — 'The Fairlight Explained' (1985, Page 6 light pen) — https://www.muzines.co.uk/articles/the-fairlight-explained/1892
+6. Science & Media Museum — Fairlight CMI Playlist — https://blog.scienceandmediamuseum.org.uk/fairlight-cmi-playlist/
+7. Herbie Hancock demonstrating the Fairlight CMI (YouTube) — https://www.youtube.com/watch?v=Lfgf9HatIHI
+
+---
+
+## Konami LaserScope (1990)
+
+**By:** Konami Industry Co. Ltd.  
+**Tags:** `Voice Control` `Head-Mounted Display` `Gaming` `Wearable` `NES`
+
+### Overview
+
+The Konami LaserScope was a voice-activated headset targeting system for the Nintendo Entertainment System, released in 1990. Unveiled at the June 1990 Summer Consumer Electronics Show in Chicago, it was a $39.95 white plastic headset with over-ear headphones, a boom microphone, and a transparent eyepiece that hung in front of the player's right eye. The eyepiece projected a red LED crosshair reticle that the player superimposed on the TV screen. When the player shouted 'Fire!' (or any sufficiently loud noise), the microphone triggered the light gun sensor, effectively acting as a voice-controlled NES Zapper.
+
+The headset connected to controller port 2 and drew power from the NES's audio output jacks — no batteries required. The eyepiece contained a photodiode sensor that worked like a standard NES Zapper, detecting the CRT's scanline flash when aimed at a valid target. A critical design flaw: the LaserScope could not function standalone; a regular NES Zapper also had to be plugged into controller port 1.
+
+Only an estimated 5,000–10,000 units were produced. It was designed primarily for the game Laser Invasion (1991) but worked with any NES Zapper-compatible game. Retrospective consensus ranks it among the worst video game peripherals ever made — the microphone triggered on any loud noise including breathing and coughing, head-based aiming caused neck fatigue, and the device fit only the smallest heads. Yet it stands as one of the earliest mass-market voice-controlled gaming peripherals and a remarkably prescient combination of head-mounted display, voice input, and spatial aiming that would not be practically realized until modern VR headsets, two decades later.
+
+### Deep dive
+
+* **Origins.** Konami developed the LaserScope internally as a peripheral for the NES Zapper software library. It was demonstrated at the June 1990 Summer CES by Konami marketing coordinator Susan Bach, at the same show where Nintendo unveiled the Super Famicom (SNES) and Sega showed the Game Gear — meaning the LaserScope was promoting a peripheral for a console already nearing the end of its commercial life. The companion game Laser Invasion (known as Gun Sight in Japan, though the Japanese Famicom version did not support the LaserScope) was released in 1991 and included a mail-in rebate for the headset. The game's villain was named 'Sheik Toxic Moron,' who planned world domination with his 'TechnoScorch Missile.'
+* **Hardware and interaction design.** The white plastic headset featured an adjustable headband, over-ear stereo headphones that played game audio, a boom microphone positioned near the mouth, and a transparent plastic eyepiece on an articulated arm in front of the right eye. The eyepiece projected a red LED crosshair onto its surface, creating a heads-up-display-style aiming reticle the player could see superimposed on the TV. Aiming required moving the entire head rather than the wrist (as with the handheld Zapper) — physically tiring and slower. The microphone used a simple amplitude threshold, not actual speech recognition: any sufficiently loud noise — shouting, clapping, breathing near the mic, or 'a seagull outside' — would fire. The detachable scope module allowed the headset to function as standalone stereo headphones with any audio source, connected via the NES's RCA audio output.
+* **The fatal design flaw.** The LaserScope could not operate on its own. It plugged into controller port 2, but a standard NES Zapper also had to be plugged into controller port 1 for the system to recognize light gun input. The LaserScope essentially acted as a voice-triggered remote trigger for the Zapper connection. You literally needed a better controller to use the worse one. This dual-peripheral requirement, combined with mic hyper-sensitivity, head-aiming fatigue, a short cable limiting playing distance, and a hard plastic headset that seemed 'designed for the smallest of all children,' made the device nearly unusable in practice.
+* **Commercial fate.** The LaserScope was an unequivocal commercial failure. Consolevariations estimates only 5,000–10,000 units were produced, with a rarity score of 66/100. Only one game was specifically designed for it (Laser Invasion), and it worked poorly even with that. Early reviews from Game Players magazine called it 'a little gimmicky, but it works' (January 1991) before later noting the microphone's hyper-sensitivity made shouting 'awkward' (July 1991). It appears on virtually every 'worst video game peripherals ever' list. Jeff Gerstmann of Giant Bomb placed it among 'that tier of NES peripherals that are these weird, optional things... You're just playing the same video games with flimsier, fudgier controls.' Today, surviving units are sought-after collector's items.
+* **HCI significance.** Despite its failure, the LaserScope matters deeply to HCI history. It was arguably the first mass-market consumer voice-controlled video game peripheral, predating Microsoft Kinect voice commands by 20 years and modern voice assistants by even longer. It attempted to combine head-based spatial aiming, visual heads-up display, voice input, and audio output into a single wearable device — a remarkably ambitious integration of multiple interaction modalities for 1990. The projected crosshair on a transparent eyepiece was an early consumer implementation of an augmented-reality-style HUD. It is cited in academic HCI literature on voice interaction in games (DiGRA, SAGE Journals) and in studies of disability and voice-enabled gaming (Springer). As a design-failure case study, it illustrates why novel interaction modalities require careful usability testing: every core design choice created friction that compounded into unusability.
+
+### Team
+
+* **Konami Industry Co. Ltd..** Japanese video game developer and publisher; developed the LaserScope internally as an NES peripheral.
+* **Susan Bach.** Konami marketing coordinator who demonstrated the LaserScope at the June 1990 Summer CES (Associated Press photo).
+* **Nobuya Nakazato.** Director and artist for Laser Invasion (1991), the primary game designed for the LaserScope.
+* **Masato Maegawa.** Main programmer for Laser Invasion.
+
+### Media
+
+![Konami LaserScope demonstrated at 1990 CES](https://blogs-images.forbes.com/davidewalt/files/2012/05/Konami-Laser-Scope.jpg)
+*Konami marketing coordinator Susan Bach demonstrates the LaserScope at the Summer CES, Chicago, June 1990. The headset includes the boom microphone, headphones, and transparent eyepiece with projected crosshair. (AP Photo/Mark Elias via Forbes)*
+
+![Konami LaserScope peripheral for the NES](https://upload.wikimedia.org/wikipedia/en/thumb/4/4b/LaserScope.jpg/250px-LaserScope.jpg)
+*The Konami LaserScope headset — a white plastic wearable with over-ear headphones, articulated eyepiece, and boom microphone. (Wikimedia Commons)*
+
+### Sources
+
+1. LaserScope - Wikipedia — https://en.wikipedia.org/wiki/LaserScope
+2. Forbes — 'The Konami LaserScope' (AP photo from 1990 CES) — https://www.forbes.com/sites/davidewalt/2012/05/29/the-konami-laserscope/
+3. Consolevariations — Konami NES Laser Scope — https://consolevariations.com/collectibles/konami-nes-laser-scope
+4. RetroGamingStuff — 'The Konami Laser Scope: Why?' — https://retrogamingstuff.wordpress.com/2016/09/02/the-konami-laser-scope-why/
+5. Take on the NES Library — Laser Invasion deep dive — https://takeontheneslibrary.com/finished/75-laser-invasion/
+6. DiGRA — 'Word Play: A History of Voice Interaction in Digital Games' — https://dl.digra.org/index.php/dl/article/download/887/887/884
+
+---
+
+## NES Power Pad (Family Trainer / Family Fun Fitness) (1988)
+
+**By:** Bandai (original) / Nintendo of America (rebranded)  
+**Tags:** `Full-Body Input` `Exergaming` `Floor Mat` `Motion Control` `NES`
+
+### Overview
+
+The NES Power Pad was a full-body floor mat controller for the Nintendo Entertainment System, originally developed by Bandai as the Family Trainer for the Famicom in Japan (November 1986). Released briefly in North America as 'Family Fun Fitness' in 1987, the rights were purchased by Nintendo in 1988, rebranded as the Power Pad, and bundled with the NES Power Set console package alongside the game World Class Track Meet. It was also released in Europe as Family Fun Fitness in June 1988.
+
+The mat unfolded to approximately 94 cm × 97 cm (37 × 38 inches) and featured two sides: Side A with 8 pressure zones (rarely used) and Side B with 12 pressure zones arranged in a 3×4 grid, numbered 1–12. Each zone contained a simple binary pressure-sensitive switch — no analog pressure measurement, just on/off. The mat connected to the NES controller port (typically port 2) and communicated via a serial protocol using two dedicated data lines, read at the NES's standard 60 Hz polling rate during vertical blanking intervals.
+
+Players stood on the mat barefoot or in socks and controlled games by running in place, jumping, and stepping on specific numbered zones. Eleven official games were released across all regions (six in North America), spanning athletic simulations (World Class Track Meet, Athletic World), rhythm/dance (Dance Aerobics — the acknowledged precursor to Dance Dance Revolution), team relay events (Super Team Games), and memory/action challenges (Short Order / Eggsplode!). The Power Pad sold approximately 500,000 units in North America — modest for the NES's 34-million install base, but enough to establish an entire new genre of interaction.
+
+### Deep dive
+
+* **Origins.** Bandai, the Japanese toy and game company, developed the Family Trainer mat and the first ten games for the Famicom, with software by Human Entertainment. It launched in Japan on November 12, 1986. Bandai released it briefly in North America as 'Family Fun Fitness' in 1987 before Nintendo purchased the North American rights, rebranded it as the Power Pad, and recalled remaining Family Fun Fitness mats from stores. The recalled launch title Stadium Events — of which only about 200 copies had reached retail shelves before the rebrand to World Class Track Meet — is now the rarest licensed NES game in existence; sealed copies have sold for over $41,000 at auction.
+* **Hardware and sensor technology.** The Power Pad consisted of two layers of flexible gray vinyl-like plastic with 12 pressure-sensitive switches embedded between them. Each switch completed an electrical circuit when compressed by foot pressure, reading as a simple binary on/off — no analog pressure measurement. The mat used a non-slip surface and was designed for barefoot or socked use with deliberate step thresholds (light incidental contact was ignored). Connection was via a standard NES controller cable with a 6-wire protocol using two dedicated data lines (D3 and D4), unlike the standard controller's single data line. Software mapped the 12 zones to standard NES controller inputs (D-pad directions, A/B buttons, etc.), with different games using different mappings. Side A (8 zones) was almost never used; Side B (12 zones, numbered 1–12) was the standard for nearly every game.
+* **Interaction and game experience.** The Power Pad asked players to use their whole body as input. In World Class Track Meet, players ran in place by rapidly alternating steps between two zones to complete 100m dash, hurdles, long jump, and triple jump events — racing against AI opponents named after animals (Turtle = slowest, Cheetah = fastest). Dance Aerobics (1987 in Japan) featured an instructor-led rhythm mode and a 'free form mode' where players could compose their own melodies by tapping out notes on the mat, arguably making it the first home music-creation game. Super Team Games supported up to six players simultaneously sharing zones for relay races, crab walks, and tug-of-war — an early example of collaborative multi-body input on a single device. Athletic World (1986) asked players for their name, age, gender, and date to provide 'customized advice,' anticipating Wii Fit's health tracking by 22 years. Kids quickly discovered a classic ergonomic exploit: kneeling and slapping the mat with hands was faster than running in place.
+* **Commercial fate.** The Power Pad sold approximately 500,000 units in North America (per David Sheff's Game Over, 1994). It was modestly successful as a novelty accessory but ultimately limited by a very small game library (only 6 North American titles, all released by 1989), lack of third-party developer support, and the mat's tendency to wear and delaminate over time. It competed with the standard controller's precision and was retired by the early 1990s as the NES era wound down. Nintendo never released a Power Pad successor for the SNES (though the Exertainment Life Cycle exercise bike was a spiritual successor that failed even more spectacularly). A Power Pad unit is now part of the permanent collection at the Science Museum, London.
+* **Impact and legacy.** The Power Pad's HCI significance is hard to overstate. It was the first mass-market full-body home controller — proof that feet and whole-body movement could be a viable consumer input modality. It pioneered the exergaming genre, explicitly reframing video games as fitness tools in an era when gaming was seen as purely sedentary. Ian Bogost's seminal 2005 paper 'The Rhetoric of Exergaming' uses the Power Pad as its starting point. It is the direct conceptual ancestor of Dance Dance Revolution (1998, Konami), the Wii Fit Balance Board (2008, Nintendo), Microsoft Kinect (2010), and the entire genre of motion-based gaming. J.A. McArthur wrote in 100 Greatest Video Game Franchises (2017): 'As a video game franchise, Bandai's Family Trainer was widely considered a flop. However, as a stepping-stone toward personal use of motion capture devices, Family Trainer nourished a generation of thought surrounding the performance of bodily motion and its role in video games.' In 2013, developer Archie Prakash connected a Power Pad to a PC via Arduino for its 25th anniversary, building what he called the 14th game ever made for the peripheral.
+
+### Team
+
+* **Bandai Co., Ltd..** Japanese toy and game company that originally developed the Family Trainer mat and the first ten games for the Famicom (1986).
+* **Human Entertainment.** Japanese game developer that created the software for the first ten Family Trainer titles.
+* **Nintendo of America.** Acquired North American rights from Bandai in 1988, rebranded the mat as the Power Pad, and published additional titles including World Class Track Meet, Dance Aerobics, and Short Order / Eggsplode!
+
+### Media
+
+![NES Power Pad side B showing 12 numbered pressure zones](https://upload.wikimedia.org/wikipedia/commons/8/8a/NES_Power_Pad_side_B.jpg)
+*Side B of the NES Power Pad, showing the 3×4 grid of 12 numbered pressure zones. This was the standard side used by nearly every game. (Wikimedia Commons)*
+
+![NES Power Pad in the Science Museum London collection](https://coimages.sciencemuseumgroup.org.uk/images/504/882/large_1988_0233__0001_.jpg)
+*A NES Power Pad preserved in the Science Museum Group collection, London, catalogued as an artifact of Games Technology. (Science Museum Group, CC BY-NC-SA 4.0)*
+
+### Sources
+
+1. Power Pad - Wikipedia — https://en.wikipedia.org/wiki/Power_Pad
+2. Family Trainer - Wikipedia — https://en.wikipedia.org/wiki/Family_Trainer
+3. Power Pad - Science Museum Group Collection — https://collection.sciencemuseumgroup.org.uk/objects/co8226742/power-pad-dance-mat-nes-video-game-nintendo-company-ltd-1988
+4. NESdev Wiki — Power Pad technical protocol — https://www.nesdev.org/wiki/Power_Pad
+5. Ian Bogost — 'The Rhetoric of Exergaming' (2005) — https://bogost.com/writing/the_rhetoric_of_exergaming/
+6. Game Developer — 'Connecting NES Power Pad to PC for its 25th Anniversary' — https://www.gamedeveloper.com/programming/connecting-nes-power-pad-to-pc-for-its-25th-anniversary
+7. J.A. McArthur — 'Family Trainer — 100 Greatest Video Game Franchises' — https://jamcarthur.com/2017/08/18/family-trainer-100-greatest-video-game-franchises/
