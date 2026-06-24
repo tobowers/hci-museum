@@ -24,11 +24,8 @@ export function escapeHtml(text: string): string {
 }
 
 export function renderAnalyticsScript(): string {
-  const token = process.env.CLOUDFLARE_WEB_ANALYTICS_TOKEN?.trim();
-  if (!token) return "";
-
   return `
-    <script defer src="https://static.cloudflareinsights.com/beacon.min.js" data-cf-beacon='${escapeHtml(JSON.stringify({ token }))}'></script>`;
+    <!-- Cloudflare Web Analytics --><script defer src='https://static.cloudflareinsights.com/beacon.min.js' data-cf-beacon='{"token": "8dcb1e0fcb41470b8769c87691688807"}'></script><!-- End Cloudflare Web Analytics -->`;
 }
 
 export function renderShell(opts: ShellOptions): string {
