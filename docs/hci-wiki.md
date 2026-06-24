@@ -753,3 +753,523 @@ HandyKey was acquired by Canadian firm Tek Gear in 2007. In 2024 the Twiddler 4 
 ---
 
 *Compiled 2026-06-23. Facts are sourced from the references listed; uncertainty is noted where evidence is thin or conflicting.*
+
+---
+
+## GRiDPad 100 (1989)
+
+**By:** GRiD Systems Corporation  
+**Tags:** `pen computing` `handwriting recognition` `tablet PC`
+
+### Overview
+
+The **GRiDPad 100** is a pen-based MS-DOS tablet computer that established the archetype for portable, stylus-driven handwriting recognition in a clamshell-free slate format. Released in 1989 by GRiD Systems Corporation, it combined a rugged magnesium case with a 640×400 monochrome LCD, a cordless pen, and the *PalmPrint* character recognizer—the work of Jeff Hawkins, later founder of Palm Computing. At 4.5 pounds, the GRiDPad targeted mobile professionals in insurance, healthcare, and field-service verticals, offering a keyboardless alternative to laptops for data entry.
+
+Unlike the palm-top organizers of the era, the GRiDPad ran a full MS-DOS 3.3 environment and could host standard x86 applications, though its true novelty lay in a pen-aware application launcher and handwriting input panel that let users write directly into forms. The device could store up to 20 MB of files on its internal hard disk and supported PCMCIA expansion, enabling integration with wireless modems and custom peripherals.
+
+The GRiDPad 100 demonstrated that stylus interaction on a portable screen was viable and economically useful, preceding the more famous Apple Newton by four years. It remains a landmark in mobile HCI for its early fusion of untethered pen input, rugged industrial design, and practical MS-DOS compatibility.
+
+### Deep dive
+
+* **Origins.** GRiD Systems, founded in 1979 by John Ellenby, had already pioneered the GRiD Compass—the first clamshell laptop—and later the GRiDCASE rugged laptops. By the late 1980s the company sought to eliminate the keyboard altogether for vertical-market tasks like insurance claims processing, hospital rounds, and inventory tracking. The result was a slate tablet that retained MS-DOS software compatibility while introducing a stylus-driven interface. The handwriting recognition engine, PalmPrint, was developed by Jeff Hawkins, who joined GRiD as a research engineer and would later build on this core technology to create the Palm Pilot.
+* **Hardware.** The GRiDPad 100 centered on an 80C86-compatible NEC V40 processor running at 10 MHz, supported by 1 or 2 MB of RAM and a 20 MB Conner Peripherals hard disk drive. Its 9.5-inch black-on-white reflective LCD offered 640×400 CGA resolution with a 16:10 aspect ratio, making it legible even in direct sunlight. A cordless electromagnetic pen digitized ink at the display surface; the system could also accept finger touches. A single PCMCIA 2.0 Type II slot provided expansion for memory cards, modems, or custom radio modules. The magnesium-alloy enclosure, sealed ports, and shock-mounted drive ensured the 11.5 × 9.5 × 1.7-inch tablet could endure a one-foot drop onto concrete—a necessity for field use.
+* **Interaction.** Pen input was handled through a DOS-resident driver and a character-mode shell called **PenRight**, which offered an icon launcher and a handwriting-recognition keyboard. Users wrote block-printed letters and numbers in designated on-screen boxes; PalmPrint analyzed strokes in a user-independent, trainable engine that achieved >95% accuracy for discrete characters. A gesture vocabulary let users tap, double-tap, or circle items to open files, invoke menus, and select text. Because the underlying OS was standard MS-DOS 3.3, any text-based application could be controlled with pen-emulating cursor movements, though the experience was markedly different from keyboard use.
+* **Commercial fate.** GRiD Systems sold the GRiDPad primarily to corporate and government customers, including the U.S. Army, insurance adjusters, and healthcare providers. The base price was approximately $2,370 (equivalent to about $5,000 today). An upgraded model, the GRiDPad 1900, appeared in 1990 with a larger hard drive (60 MB) and 386SL compatibility. In 1993, GRiD was acquired by Tandy Corporation, which continued the product under the GRiD brand for a few years before folding the pen-computing division. The GRiDPad line never reached the consumer mass market, but it proved the commercial viability of pen-based mobile data collection.
+* **Impact.** The GRiDPad directly influenced the design of pen-based operating systems, including GO Corp.’s PenPoint and Microsoft Windows for Pen Computing. Jeff Hawkins’ learning from PalmPrint fed into the Graffiti handwriting system used on the PalmPilot, which popularized stylus interaction with a generation of handheld organizers. The device also established the rugged slate form factor later adopted by tablets in logistics, public safety, and military computing. Museum retrospectives rightly place the GRiDPad 100 as the first broadly commercial, MS-DOS-compatible pen tablet—a functional bridge between the clunky portables of the 1980s and the touch-centric smartphones and tablets of the 21st century.
+
+### Team
+
+* **John Ellenby.** Founder of GRiD Systems, driving force behind the GRiD Compass and GRiDCASE lines; set the vision for a pen-based tablet.
+* **Jeff Hawkins.** Developer of the PalmPrint handwriting recognition engine used in the GRiDPad; later founded Palm Computing and created the PalmPilot.
+
+### Media
+
+![GRiDPad 100 tablet showing the screen and pen in a right-side view](../assets/wiki/gridpad-100-1.jpg)
+*The GRiDPad 100 with its cordless pen and exposed PC Card slot. Source: oldcomputers.net*
+
+![Left side of the GRiDPad 100 revealing ports and pen garage](../assets/wiki/gridpad-100-2.jpg)
+*Ports and pen storage detail on the left flank. Source: oldcomputers.net*
+
+![GRiDPad 100 on display at the Computer History Museum](../assets/wiki/gridpad-100-3.jpg)
+*The GRiDPad 100 in the CHM collection, highlighting the screen bezel and palm rest. Source: Computer History Museum*
+
+### Sources
+
+1. GRiDPad tablet computer – CHM Revolution — https://www.computerhistory.org/revolution/mobile-computing/18/319/1727
+2. GridPad - Wikipedia — https://en.wikipedia.org/wiki/GridPad
+3. GRiDPad - Old Computers — https://oldcomputers.net/gridpad.html
+4. GRiD Introduces PC-Compatible Computer that Recognizes Printed Handwriting – Pen-Based Computing History Museum — https://www.penbasedcomputing.com/grid-introduces-pc-compatible-computer-that-recognizes-printed-handwriting/
+5. GRiD System’s GRiDPad – Byte Magazine’s 1989 BYTE AWARD DISTINCTION — https://laptops251.com/grid-systems-gridpad/
+6. Gridpad – Rhode Island Computer Museum — https://www.ricomputermuseum.org/collections-gallery/small-systems-at-ricm/gridpad
+
+---
+
+## Heathkit HERO 1 (1982)
+
+**By:** Heath Company / Heathkit  
+**Tags:** `Educational Robot` `Programmable Sensing` `Human-Computer Interaction`
+
+### Overview
+
+The Heathkit HERO 1 (ET-18) was a self-contained mobile robot introduced in 1982 by the Heath Company of Benton Harbor, Michigan, primarily known for its electronic kits. The robot was designed as an educational platform, enabling students, hobbyists, and engineers to learn about robotics and computer control of physical devices. It was one of the first robots to bring programmable sensing, locomotion, and speech to an affordable, kit‑built format, making physical‑world interaction a tangible subject for human‑computer interaction experimentation.
+
+Equipped with a Motorola 6808 microprocessor, 4K of RAM, and 8K of ROM, the HERO 1 could process inputs from an array of sensors: a light-dependent resistor, a condenser microphone, a passive infrared motion detector, and a Polaroid ultrasonic ranging module. An integrated Votrax SC-01 speech synthesizer gave it a spoken voice, while a 16‑character alphanumeric LED display and a 17‑key hex keypad on its rotating head provided direct user interaction. The robot also featured an optional five‑axis arm with gripper, allowing it to manipulate objects. All these capabilities were embedded in a battery‑powered, wheeled chassis roughly 50 cm tall.
+
+Programming the HERO 1 could be done directly via its hex keypad, which entered machine code or accessed a resident debug monitor. More elaborate control was achieved through an RS‑232 serial link to a personal computer, using the on‑board ROM‑based HERO BASIC language. This dual‑mode interface opened the door for HCI researchers to rapidly prototype interactive behaviors such as obstacle‑avoiding navigation, voice‑responsive tasks, and even simple telepresence. As a result, the HERO 1 became an early platform for exploring embodied interaction design, situating computing in the physical world long before off‑the‑shelf robotic kits were commonplace.
+
+### Deep dive
+
+* **Origins.** Heathkit, the kit‑building division of the Heath Company, had a long history of electronic training products. In October 1979, a team led by David Mork began developing a robot that would teach microprocessor control and sensor integration. The result was the HERO 1 (Heathkit Educational Robot, model ET‑18), launched in 1982. Priced at $1,495 as a kit and $2,495 factory‑assembled, it was marketed through Heathkit’s catalog and educational channels, aimed at vocational schools, colleges, and advanced hobbyists.
+* **Hardware.** The HERO 1’s brain was a 1‑MHz Motorola 6808 CPU, backed by 4K of static RAM (expandable to 8K) and 8K of ROM containing the operating system and HERO BASIC. Sensors included a CdS photocell for ambient light, an electret microphone with amplifier for sound detection, a heat/motion sensor using a passive infrared element, and a Polaroid electrostatic sonar unit that measured distances from 0.15 to 6 meters. A magnetic reed switch in the base detected the robot’s wheel rotation, while potentiometers tracked the head’s pan and tilt. Outputs comprised the Votrax SC‑01 phoneme synthesizer driving a speaker, a 16‑character alphanumeric LED display, two drive motors and a steering servo, and the optional robot arm with its own motor controllers. Power came from two sealed 12‑volt lead‑acid batteries, giving several hours of operation. The body was a molded plastic shell on a circular baseplate, with a top‑mounted head unit that rotated 350° and tilted ±45°. The entire robot weighed about 16 kg and stood 50 cm high.
+* **Interaction.** Interaction with the HERO 1 could occur at two levels. For quick experimentation, the 17‑button hex keypad on the head allowed the user to enter 6808 opcodes directly, read sensor values on the LED display, and command motor actions. A resident monitor program handled the keypad interface and provided a simple debug environment. For more complex programming, the robot’s RS‑232 serial port (300–4800 baud) connected to a terminal or personal computer. The onboard ROM contained an interpretive BASIC language with statements that directly addressed sensors and actuators—e.g., MOVE 100 to advance 100 encoder counts, SONAR to read distance, or SPEAK "HELLO" to string phonemes. Users could download programs typed on a PC and run them autonomously or under remote control. This made the HERO 1 a flexible testbed for human‑computer interaction research; one could write a script that made the robot wander until it heard a clap, then approach and deliver a spoken message, combining sensing, mobility, and speech. Its use in university HCI labs and hobbyist workshops demonstrated that intelligent behavior could be packaged in a consumer‑accessible form, inspiring later research into ubiquitous and embodied computing.
+* **Commercial fate.** The HERO 1 was produced from 1982 until about 1985, when Heathkit shifted focus to its lower‑cost HERO Jr. and the more powerful HERO 2000 (based on an Intel 8088). Heathkit continued to supply manuals, spare parts, and software for the HERO line until 1995. Exact sales figures are unpublished, but the kit was expensive compared to contemporary home computers, limiting its market primarily to schools and dedicated enthusiasts. Today, surviving units are collector’s items and appear in robotics museums, prized for their historical role in bringing real‑world interaction to the personal computing era.
+* **Impact.** Though not a commercial blockbuster, the HERO 1 had a lasting influence on personal robotics and HCI. It was among the first platforms to give programmers direct access to a rich set of physical sensors and actuators, lowering the barrier to investigating embodied interaction. In academic settings, the robot helped frame early discussions on ambient intelligence and tangible user interfaces, as researchers used it to build prototypes that responded to people’s presence, voice, and gestures. Its open architecture and available documentation also nurtured a community of hobbyist modifiers who added wireless links, extended memory, or custom sensors. This do‑it‑yourself ethos foreshadowed the Maker movement and the current landscape of programmable robotic toys (such as LEGO Mindstorms), which owe a conceptual debt to the HERO 1’s accessible combination of sensing, mobility, and speech.
+
+### Team
+
+* **Heath Company / Heathkit.** Developer and distributor of the HERO 1 educational robot, Benton Harbor, Michigan.
+* **David A. Mork.** Lead designer of the HERO 1 at Heathkit Educational Systems (source: theoldrobots.com hero1-a page).
+
+### Media
+
+![Heathkit HERO 1 with robot arm, standing on a table](../assets/wiki/heathkit-hero-1-1.jpg)
+*The HERO 1 robot with its optional arm. (Wikimedia Commons)*
+
+![Close-up of the HERO 1 head, showing hex keypad and LED display](../assets/wiki/heathkit-hero-1-2.JPG)
+*The hex keypad and alphanumeric display on the robot's rotating head. (theoldrobots.com)*
+
+![HERO 1 in motion with arm extended, photographed from the side](../assets/wiki/heathkit-hero-1-3.JPG)
+*HERO 1 demonstrating its robotic arm in an action pose. (theoldrobots.com)*
+
+![Original advertisement photo of the HERO 1 robot](../assets/wiki/heathkit-hero-1-4.jpg)
+*Period advertisement showing the HERO 1. (Classic Computer Brochures)*
+
+### Sources
+
+1. Wikipedia – HERO (robot) — https://en.wikipedia.org/wiki/HERO_(robot)
+2. theoldrobots.com – Heathkit Hero 1 — http://www.theoldrobots.com/hero1-a.html
+3. theoldrobots.com – Heathkit Hero 1 (main page) — http://www.theoldrobots.com/hero1.html
+4. Classic Computer Brochures – Heathkit Hero 1 — https://classic.technology/heathkit-hero-1/
+5. History of Information – Heathkit HERO 1 — https://www.historyofinformation.com/detail.php?id=5419
+6. HandWiki – Engineering:HERO (robot) — https://handwiki.org/wiki/Engineering:HERO_(robot)
+
+---
+
+## HP-150 Touchscreen (1983)
+
+**By:** Hewlett-Packard Company  
+**Tags:** `Touchscreen` `Infrared touch` `MS-DOS computer` `8-bit microcomputer` `Hewlett-Packard`
+
+### Overview
+
+The HP-150 (codenamed "Magic" during development) was Hewlett-Packard’s bold attempt to simplify personal computing by making the screen itself the primary input device. Introduced at the COMDEX Fall trade show in Las Vegas on November 28, 1983, it is widely recognised as the first mass-market computer to ship with direct finger‑touch interaction as the main user interface. The machine’s defining feature was a 9-inch Sony CRT surrounded by a bezel that housed a matrix of infrared (IR) emitters and detectors; any non‑transparent object breaking the beams—typically a finger—allowed the system to pinpoint the touch location and translate it to screen coordinates.
+
+Under the hood, the HP-150 was an Intel 8088‑based PC‑workalike that ran a customised version of MS‑DOS (2.01, 2.11 or 3.20) rather than IBM PC DOS. Its 8 MHz CPU was notably faster than the 4.77 MHz 8088 found in the contemporary IBM PC XT, and the base 256 KB of RAM could be expanded to 640 KB via add‑on cards. However, the machine was never fully IBM PC compatible; software had to be written or adapted specifically for the HP-150’s non‑standard BIOS and memory map, which severely limited its third‑party software library.
+
+The system packaged the CRT and logic board in a single compact unit—reminiscent of the original Macintosh—while storage was provided externally. Users could snap on an HP‑IB‑connected HP 9121 dual 3½‑inch floppy‑drive (each diskette holding 270 KB) or an optional hard‑disk unit to create the "HP Touchscreen MAX". Internally, a tiny operating system called TOS (Terminal Operating System) ran two tasks: a terminal emulator and Microsoft DOS itself. The touch‑overlay communicated with the host through a serial link, and the whole ensemble was priced at US $2,795 (equivalent to roughly US $7,000 in 2025), targeting business professionals who wanted a more intuitive way to work with spreadsheets, word processors and custom HP applications.
+
+### Deep dive
+
+* **Origins.** The HP-150 sprang from Hewlett-Packard’s Personal Computer Group in Fort Collins, Colorado, at a time when the company was searching for ways to differentiate its PC offerings in a market rapidly coalescing around the IBM PC standard. Codenamed "Magic," the project aimed to reduce the perceived complexity of personal computing by replacing the keyboard‑and‑mouse paradigm with a direct‑manipulation touch interface. Engineers opted for an infrared beam‑interruption scheme because it could be overlaid on a standard CRT without degrading image quality, and because the necessary emitters and detectors were already inexpensive, small‑enough components. The concept was demonstrated privately to HP management in 1982, received a green light, and after 18 months of intense development was unveiled at COMDEX in November 1983. At a time when touchscreens were almost unknown outside research labs, the HP‑150 represented a dramatic departure from convention, though HP was careful to position it as a serious business machine rather than a futuristic curiosity.
+* **Hardware.** At its core, the HP-150 used an Intel 8088 microprocessor clocked at 8 MHz, making it nearly 70% faster than the 4.77 MHz PC/XT. The motherboard held 256 KB of RAM (expandable to 640 KB via a proprietary card), and an optional Intel 8087 math coprocessor could be installed on a piggyback board because space constraints on the main PCB prevented a dedicated socket. The 9‑inch Sony Trinitron CRT offered amber or green phosphor and a resolution of 720×200 pixels. The infrared touch system consisted of 26 pairs of IR LEDs and phototransistors embedded in tiny holes along the inside edges of the monitor bezel; a custom controller board scanned the grid continuously, reporting coordinates to the CPU over an RS‑232‑like serial line. Because the bottom row of holes was especially prone to collecting dust—often causing the touch function to fail—users routinely had to vacuum the bezel to restore operation. External storage was managed via HP‑IB (IEEE‑488): the phone‑book‑sized 9121D dual floppy drive that sat beneath the monitor, or the HP 9133V hard‑disk unit for the Touchscreen MAX. Later models (the HP-150II, introduced in 1984) added an 8088 running at 8 MHz as well but offered an internal 3½‑inch floppy drive and greater IBM PC compatibility through a revised BIOS.
+* **Interaction.** The touchscreen was not a simple up‑or‑down digitizer; it could detect the moment a finger broke the beam, track its position while the beam remained broken, and register a tap when the beam returned. This allowed a vocabulary of gestures: a quick touch could select an icon, a press‑and‑hold could drag a scroll bar, and a double‑tap could open a file. HP shipped a suite of productivity applications—Personal Decision Support (a spreadsheet), WordStar customised for touch, and a drawing program—that rendered large, touch‑friendly buttons on screen. Because the bezel stood slightly proud of the CRT surface, the actual contact point was offset from the visible target, requiring a small parallax‑correction routine in software. The operating system’s TOS layer managed both the touch input and a terminal‑emulation window that allowed the HP-150 to connect to HP 3000 minicomputers, blending local DOS applications with host‑based computing. Despite its ingenuity, the touch interface could be tiring for extended use (the screen was not arm‑reaching low) and the lack of haptic feedback made precision tasks like text editing cumbersome, so the keyboard remained essential for heavy data entry.
+* **Commercial fate.** The HP-150 generated considerable press excitement at launch but failed to carve out a significant market share. Two factors worked against it: first, its incompatibility with the vast library of IBM PC software meant that buyers were confined to a tiny catalogue of HP‑approved programs; second, the infrared bezel was a mechanical weak point that industrial users found too finicky. Pricing, at $2,795 for the floppy‑only configuration, was competitive with the IBM PC/XT, but corporate IT managers were reluctant to adopt a non‑standard platform. An updated HP-150II that offered better IBM PC compatibility and an internal floppy drive arrived in 1984, yet it too struggled. By 1985, HP had quietly withdrawn both models from the market, shifting its PC strategy toward fully IBM‑compatible Vectra machines. The Touchscreen MAX, positioned for high‑end accounting and database work, sold in even smaller numbers. Estimates suggest total HP-150 series sales were fewer than 100 000 units—far below the volume needed to sustain a platform.
+* **Impact.** Although a commercial disappointment, the HP-150 was a landmark in human‑computer interaction. It was the first computer to demonstrate that finger‑based touch could serve as a practical, everyday pointing device in a mass‑produced desktop system. The infrared matrix technology pioneered on the HP-150 later appeared in countless kiosks, point‑of‑sale terminals, and public‑information displays, where it remained the dominant touch technology until capacitive screens became cheap enough for consumer devices in the mid‑2000s. HP’s experiment also highlighted the importance of software‑hardware co‑design for touch interfaces: applications had to be radically rethought to suit large target areas, gesture recognition, and the absence of a cursor. These lessons echoed through the industry’s later forays into pen computing, PDAs, and ultimately the multi‑touch smartphones that now permeate daily life. The HP-150 thus stands as a prescient, if prematurely executed, vision of a touch‑centric computing future.
+
+### Team
+
+* **Hewlett-Packard Personal Computer Division (Fort Collins, Colorado).** Design, development, and manufacturing of the HP-150
+
+### Media
+
+![HP-150 Touchscreen computer with CRT, keyboard, and dual floppy drive attached](../assets/wiki/hp-150-touchscreen-1.jpg)
+*HP-150 (1983) showing the CRT unit, separate keyboard, and the HP 9121 dual 3½-inch floppy drive beneath. The tiny holes around the bezel that hold the infrared emitters and detectors are visible. (Source: Wikimedia Commons)*
+
+![HP-150 system with monitor and keyboard, front view](../assets/wiki/hp-150-touchscreen-2.jpeg)
+*Museum-quality photograph of an HP-150 with its characteristically squat CRT housing and external storage. (Source: Hewlett-Packard History)*
+
+![Close-up of HP-150 screen displaying touch-enabled icons](../assets/wiki/hp-150-touchscreen-3.jpeg)
+*Detail of the 9-inch Sony CRT showing a touch-optimised application with large, finger-friendly icons—a visual reminder of the HP-150’s departure from keyboard‑centric interfaces. (Source: Hewlett-Packard History)*
+
+### Sources
+
+1. HP-150 – Wikipedia — https://en.wikipedia.org/wiki/HP-150
+2. HP-150 touchscreen personal computer – HP Computer Museum — https://www.hp.com/hpinfo/abouthp/histnfacts/museum/personalsystems/0031/index.html
+3. The HP 150 Touchscreen Computer – Hewlett-Packard History — https://www.hewlettpackardhistory.com/item/youve-got-the-touch/
+4. Business Desktops/Calcs – HP Computer Museum — https://www.hpmuseum.net/display_item.php?hw=43
+5. Hewlett-Packard Introduces the HP-150 – History of Information — https://www.historyofinformation.com/detail.php?id=2431
+
+---
+
+## KoalaPad (1984)
+
+**By:** Koala Technologies Corporation  
+**Tags:** `Graphics Tablet` `Touch Tablet` `Absolute Positioning` `Home Computing` `HCI History`
+
+### Overview
+
+The KoalaPad was a pioneering graphics tablet introduced by Koala Technologies in 1983 and broadly marketed in 1984 for popular 8-bit home computers, including the Apple II, Commodore 64, Atari 8-bit family, TRS-80 Color Computer, and IBM PC/PCjr. Conceived by Dr. David Thornburg as an affordable drawing surface for schools, the KoalaPad brought absolute‑position input, on‑surface menu selection, and pixel‑oriented creativity to consumers long before graphic tablets became mainstream.
+
+It consisted of a 4.5‑inch‑square resistive touch surface, a tethered stylus, and bundled software. The signature feature was a printed overlay that divided the active area into a central drawing region and labelled function, tool, and palette zones. Touching a zone with the stylus activated the corresponding command, eliminating the need for keyboard shortcuts or pull‑down menus. The bundled KoalaPainter (also called KoalaPaint or PC Design) offered standard drawing tools, plus the ability to save and create slideshows via Graphics Exhibitor.
+
+Although the KoalaPad achieved modest commercial success, it was ultimately overshadowed by the rise of the mouse and graphical user interfaces. Its design language, however, anticipated the absolute‑position input of today’s tablets and touchscreens, and it remains a beloved artifact of early home‑computer creativity, demonstrating how the industry was already exploring alternative interaction paradigms in the early 1980s.
+
+### Deep dive
+
+* **Origins.** The KoalaPad was designed by Dr. David Thornburg, an educational computing consultant and author, who envisioned a low‑cost digitizing tablet that schools could use to teach art and design. Koala Technologies Corporation, based in Santa Clara, California, was founded specifically to manufacture and distribute the device. The first version targeted the Apple II, leveraging its joystick port for connection, and shipped by mid‑1983; versions for other platforms followed through 1984. The name ‘Koala’ reflected the Australian marsupial, chosen for its friendly, approachable image. The product was initially positioned as an educational tool, but home consumers embraced it for recreational drawing.
+* **Hardware.** The KoalaPad’s core was a 4.5 × 4.5 inch (114 mm) resistive touch surface, consisting of two layers of conductive film separated by a thin spacer. Pressing the stylus – or a finger – pushed the layers together, creating a voltage divider that allowed the onboard circuitry to read X and Y coordinates. The pad communicated through a standard joystick port (or a dedicated interface on some systems), reporting absolute coordinates at a resolution of roughly 160 × 160 points, sufficient for the low‑resolution screens of the day. The plastic housing featured a non‑slip base and a storage slot for the stylus. A paper overlay, supplied with the software, transformed the peripheral into a command surface: a central free‑draw area, surrounded by icons for brush shapes, color selection, fill, undo, and file operations. The overlay could be swapped for different applications, such as a music keyboard for the included Music Painter utility.
+* **Interaction.** Unlike contemporary mice, which moved a cursor relative to its current position, the KoalaPad reported absolute location. This meant that touching the top‑right corner of the pad always corresponded to the top‑right corner of the screen, making direct pointing intuitive and enabling a menu‑driven interface without an on‑screen pointer. In KoalaPainter, users could immediately switch between tools by tapping the labelled areas on the overlay, a paradigm now commonplace in touch‑screen applications. The drawing experience was immediate: as the stylus glided across the pad, the software would place pixels, draw lines, or create geometric shapes with real‑time feedback. The bundled Graphics Exhibitor application extended the system’s utility into slide‑show creation, letting users sequence KoalaPainter images with transitions – a precursor to presentation software. The physical overlay concept also encouraged third‑party software to design custom membrane templates, further expanding the pad’s use as a control surface for educational and music software.
+* **Commercial fate.** The KoalaPad enjoyed a few years of moderate success. Compute! magazine reviewed the PCjr version in 1985, praising the hardware but noting that the limited resolution of early PC displays made the drawing area feel cramped. Bundles with popular computers garnered some shelf space, and the device was sold through retail chains such as Toys “R” Us. However, the rapid standardization of the mouse – accelerated by the Apple Macintosh in 1984 and later by Microsoft Windows – marginalized absolute‑position tablets. By the late 1980s, Koala Technologies had shifted its focus to another touch‑based product, the Mac ‘n Touch screen for the Macintosh, but the company ultimately folded. Despite its short commercial lifespan, the KoalaPad earned a loyal following and is today a sought‑after collector’s item and a reminder of an era when the home computer was an open canvas for experimental peripherals.
+* **Impact.** The KoalaPad stands as an important milestone in interaction design. It proved that a simple touch tablet with a static overlay could replace complex keyboard commands, foreshadowing the direct manipulation interfaces that dominate modern computing. Its absolute‑position approach directly influenced later graphics tablets, such as Wacom’s digitizers, which became standard tools for digital artists. The concept of using a printed overlay to reconfigure a touch surface reappeared in early PDAs (e.g., PalmPilot graffiti area) and in educational toys. While the mouse eventually won the desktop, the KoalaPad’s design philosophy – that a pointing device could be both a canvas and a control panel – resonates today in the touch‑first interfaces of smartphones and tablets. In the history of HCI, it remains a compelling example of an early attempt to make computing more direct, creative, and accessible.
+
+### Team
+
+* **Dr. David Thornburg.** Inventor and educational technologist; conceived the low‑cost drawing tablet for schools.
+* **Koala Technologies Corporation.** Manufacturer and distributor, Santa Clara, California; produced the KoalaPad for multiple platforms.
+
+### Media
+
+![A KoalaPad graphics tablet with stylus](../assets/wiki/koalapad-1.jpg)
+*KoalaPad for the Apple II series, showing the central drawing area and side function keys. (Wikimedia Commons, CC BY-SA 4.0)*
+
+![Top view of the KoalaPad tablet](../assets/wiki/koalapad-2.jpg)
+*Detail of the printed overlay that turned the tablet into a menu-driven drawing surface. (Oldcomputr.com)*
+
+![Exploded view of the KoalaPad showing internal layers](../assets/wiki/koalapad-3.jpg)
+*Exploded view revealing the two conductive layers that detected touch. (Oldcomputr.com)*
+
+![Original box for the KoalaPad](../assets/wiki/koalapad-4.jpg)
+*Retail packaging emphasized the pad’s creative potential. (Oldcomputr.com)*
+
+![KoalaPad Touch Tablet from the Computer History Museum collection](../assets/wiki/koalapad-5.jpg)
+*A KoalaPad with stylus and software manual, as preserved at the Computer History Museum. (Computer History Museum)*
+
+### Sources
+
+1. KoalaPad - Wikipedia — https://en.wikipedia.org/wiki/KoalaPad
+2. Koala Technologies KoalaPad TouchTablet - Oldcomputr.com — https://www.oldcomputr.com/koala-technologies-koalapad-touchtablet/
+3. KoalaPad Touch Tablet - Computer History Museum Revolution — https://www.computerhistory.org/revolution/input-output/14/352/1817
+4. The KoalaPad Comes Full Circle - Timex/Sinclair Computers — https://www.timexsinclair.com/blog/koalapad-comes-full-circle/
+5. Review: KoalaPad For PCjr - Compute! Magazine (Issue 54, 1985) — http://www.atarimagazines.com/compute/issue54/140_1_REVIEWS_KoalaPad_For_PCjr.php
+
+---
+
+## Microwriter (1980)
+
+**By:** Cy Endfield and Chris Rainey / Microwriter Ltd.  
+**Tags:** `chording keyboard` `portable computing` `mobile text entry` `wearable technology`
+
+### Overview
+
+The Microwriter is a pioneering hand-held word processor with a one-handed chording keyboard, designed to let mobile professionals take notes without a desk. Invented by film director Cy Endfield and engineer Chris Rainey, it was marketed from 1980 by Microwriter Ltd. of Mitcham, Surrey, UK. The device fits in the palm of the right hand; five keys for the fingers and a side‑mounted thumb key form letter chords whose shapes mirror the written characters. This mnemonic ‘alphabet’ was claimed to reach typing speeds averaging 1.5 times that of handwriting.
+
+The best‑known model, the MW4, features a 16‑character scrolling LCD, 8 KB of battery‑backed RAM, and an RS‑232 serial port for connecting to printers or computers. Users can edit, search, and scroll through text using chord commands, and the internal memory can hold several pages of notes. Power comes from rechargeable NiCad batteries, offering hours of continuous use.
+
+Although it never became a mass‑market product, the Microwriter demonstrated the viability of mobile text entry long before PDAs and smartphones. Its chording approach influenced later wearable keyboards, and its descendants—the AgendA folding PDA and the CyKey PC keyboard—kept the idea alive. The device remains a significant artifact in the history of human–computer interaction and portable computing.
+
+### Deep dive
+
+* **Origins.** Cy Endfield, a film director best known for ‘Zulu’ and ‘Mysterious Island,’ grew frustrated with the slowness of handwriting during production and wanted a battery‑powered device for immediate note‑taking. With engineer Chris Rainey he conceived a portable word‑processor based on a chorded keyboard. The first prototype was shown at a London computer exhibition in 1978. A patent application (issued as US4442506A) described a portable word‑processor with a one‑handed chording system and a visual mnemonic scheme. In 1980 Microwriter Ltd. began selling the Microwriter MW4, targeting business executives, journalists, and students.
+* **Hardware.** The MW4 unit measures roughly 230 × 130 × 25 mm (9 × 5 × 1 in) and weighs about 500 g. The casing, usually black, has a recessed keypad: five circular finger keys on top, arranged in a slight arc for the right hand, and a thumb key on the left side of the body. A 16‑character reflective liquid‑crystal display sits above the keys, showing a scrolling window into the current document. Internal storage consists of 8,000 characters of non‑volatile, battery‑backed RAM, which can be partitioned into multiple files. Power is supplied by removable, rechargeable NiCad cells. Communication is via an RS‑232 serial port for output to Epson‑compatible printers or for uploading text to a computer; an optional acoustic‑coupler modem was available for remote transmission.
+* **Interaction.** The user holds the device in the right hand, with fingers resting on the five top keys and the thumb on the side key. Each letter, digit, or punctuation mark is produced by pressing a unique chord—a combination of fingers and thumb. The chords are mnemonically shaped: for example, ‘A’ is thumb + index finger, evoking the two strokes of a capital A; ‘B’ adds the middle and ring fingers to suggest the two loops of the letter. The built‑in firmware interprets chords in context, separating text‑entry mode from command mode. Chords control cursor movement, delete, insert, block operations, and file management. A printed learning guide claimed that most users could reach 30 words per minute after 3–6 hours of practice. Editing is performed on a small window; the text scrolls as the cursor moves. Completed documents can be transferred word‑for‑word or as ASCII codes via the serial port.
+* **Commercial fate.** Microwriter Ltd. launched the MW4 at a price of about £200–£300 in the early 1980s, but sales remained modest against the growing tide of portable electronic typewriters and early laptop computers. In 1984 the company introduced the AgendA, a folding PDA that combined a full QWERTY keyboard with Microwriter chording pads on the inside surfaces. The company dissolved later that decade. Chris Rainey then founded a new venture that produced the CyKey—a compact chording keyboard for PCs that preserved the Microwriter mnemonic scheme—and marketed it into the 1990s. Original Microwriter units are now held in several museum collections.
+* **Impact.** Although not a commercial blockbuster, the Microwriter is a landmark in the history of mobile text entry. It preceded the one‑handed Twiddler keyboard by more than a decade and demonstrated that chorded input, combined with a mnemonic alphabet, could be learned quickly and used effectively while standing or walking. It is frequently cited in human–computer interaction research as an early example of a wearable word‑processor. The idea lived on through the AgendA and CyKey, and a community of enthusiasts has even created modern emulators. The device’s design philosophy—one‑handed, shape‑based chord mapping—continues to inform research on alternative keyboards and text‑entry methods.
+
+### Team
+
+* **Cy Endfield.** Inventor, film director; conceived the idea and co‑designed the chording system.
+* **Chris Rainey.** Co‑inventor, engineer; responsible for the electronic and firmware design.
+* **Microwriter Ltd..** Company based in Mitcham, Surrey, UK; manufactured and marketed the Microwriter.
+
+### Media
+
+![A hand holding the Microwriter MW4, showing the 16-character LCD display and chording keys.](../assets/wiki/microwriter-1.png)
+*The Microwriter MW4 handheld word processor. Source: Wikimedia Commons.*
+
+![Cover of a Microwriter sales brochure, showing the device's portability.](../assets/wiki/microwriter-2.jpg)
+*A sales brochure for the Microwriter, circa early 1980s. Source: Wikimedia Commons.*
+
+![Specifications and ordering information sheet for the Microwriter.](../assets/wiki/microwriter-3.jpg)
+*Specifications overview and ordering information from Microwriter Ltd. Source: Wikimedia Commons.*
+
+### Sources
+
+1. Wikipedia: Microwriter — https://en.wikipedia.org/wiki/Microwriter
+2. Centre for Computing History: Microwriter MW4 — https://www.computinghistory.org.uk/det/36099/Microwriter-MW4/
+3. Google Patents US4442506A – Portable word-processor — https://patents.google.com/patent/US4442506A/en
+4. Science Museum Group: Experimental and pre-production models of the Microwriter typewriter — https://collection.sciencemuseumgroup.org.uk/objects/co38161/experimental-and-pre-production-models-of-the-microwriter-typewriter
+5. Vintage Computers: Microwriter MW4 — http://vintagecomputers.sdfeu.org/mw4/
+6. GitHub: microwriter_mw4 emulator — https://github.com/sjaturner/microwriter_mw4
+
+---
+
+## Nintendo D-pad controller (1985)
+
+**By:** Nintendo Co., Ltd. (R&D1 team)  
+**Tags:** `D-pad` `Game controller` `NES`
+
+### Overview
+
+The Nintendo D-pad controller, launched with the Nintendo Entertainment System in 1985, introduced a novel cross-shaped directional pad that redefined how players interacted with console games. Prior to the NES, home video game systems typically relied on large joysticks or paddle controllers that required wrist and arm movements. The D-pad, a compact, thumb-operated interface, provided silent, precise eight-directional control and required far less physical effort. Its design built on the cross-shaped pad first seen on the Game & Watch *Donkey Kong* handheld in 1982, itself an invention of Nintendo engineer Gunpei Yokoi, who sought a low-profile solution for portable play.
+
+The NES controller paired the D-pad with two main action buttons (A and B) and Start/Select buttons, housed in a simple rectangular plastic shell that could be held comfortably in two hands. This layout became the archetype for home console gamepads for over a decade. The D-pad’s internal mechanism—four rubber-dome switches arranged around a central pivot—allowed users to rock the pad in any cardinal direction and, by pressing two adjacent directions simultaneously, achieve diagonal movement, while the pivot physically prevented all four switches from being pressed at the same time. This tactile feedback and ease of use proved ideally suited to the era’s precision platformer games, such as *Super Mario Bros.*, cementing the controller’s reputation as an exceptionally responsive and ergonomic input device.
+
+Today, the NES D-pad’s influence extends far beyond gaming: its cross-shaped layout appears on remote controls, mobile phones, calculators, and countless other electronic devices as the universal symbol for directional input. Although analog sticks have since become the primary directional control for 3D games, the D-pad remains an essential secondary input on nearly every modern gamepad, a testament to the enduring utility of Yokoi’s compact, thumb-driven design.
+
+### Deep dive
+
+* **Origins.** The concept of a cross-shaped thumb pad was born in 1982 when Gunpei Yokoi, head of Nintendo’s R&D1 division, designed the Game & Watch version of *Donkey Kong*. The handheld’s small form factor precluded a joystick, so Yokoi created a flat, cross-shaped rocker that could be operated with the thumb alone. This “cross key” design was so successful that it was carried over to the controller for the Family Computer (Famicom), launched in Japan in 1983. The North American release of the NES in 1985 used the same controller (model NES-004E), with only minor cosmetic changes such as the addition of grey plastic and redesigned labels. The controller’s design was a collaborative effort within Nintendo’s hardware teams, with Masayuki Uemura overseeing the Famicom’s development and ensuring the D-pad controller met the demands of home console gameplay.
+* **Hardware.** The NES-004E measures approximately 124 mm × 54 mm × 22 mm and is constructed from injection-molded ABS plastic. The D-pad unit itself is a cross-shaped piece mounted on a central pivot, resting on a metal plate inside the shell. Beneath each of its four arms, a rubber dome with a conductive carbon pad sits above a set of interleaved contacts on the printed circuit board. Pressing an arm collapses the dome, bridging the contacts and registering a directional input. The pivot prevents simultaneous activation of opposing directions, while pressing a corner engages two domes, producing a diagonal. The controller houses a single 4021B shift register IC, which reads the state of all eight buttons (four directions, A, B, Select, Start) and sends the data serially through a 7-pin connector. The original controller is tethered by a fixed 7.6-foot (2.3‑m) cable. The D-pad’s surface has a subtle linear texture for grip.
+* **Interaction.** The D-pad transforms thumb motion into binary on/off signals, offering tactile feedback through the rubber domes’ snap and the pivot’s rocking feel. Players quickly learn to locate the pad by feel, using the cross shape as a home position for the thumb. The pad’s low profile reduces fatigue compared to joysticks, enabling rapid directional changes essential for fast-paced platform games. In *Super Mario Bros.*, for instance, the D-pad’s reliability allowed precise control over running, jumping, and ducking without accidental diagonals. The A and B buttons are placed slightly to the right, allowing the index or middle finger to stabilize the back of the controller while the thumb alternates between D-pad and face buttons. This ergonomic arrangement became the standard for subsequent gamepads and influenced the layout of countless handheld devices.
+* **Commercial fate.** Bundled with every NES console (which sold over 61 million units worldwide), the controller achieved widespread adoption and spawned numerous third-party clones and variations. Its design language persisted in Nintendo’s SNES controller (with additional shoulder buttons), the Game Boy (which integrated a D-pad as a primary input), and later consoles. Rival companies, from Sega to Sony, adopted the D-pad in their own gamepads, often paying license fees to Nintendo in the early years. Even as analog sticks took over primary movement in 3D titles from the mid-1990s, the D-pad never disappeared; it remains a standard feature on Xbox, PlayStation, and Nintendo Switch controllers, used for menu navigation, 2D games, and secondary commands.
+* **Impact.** The NES D-pad established a new interaction paradigm for consumer electronics, proving that a thumb-operated, discrete-input pad could replace bulkier joysticks. Its compactness enabled the development of genuinely portable game systems, from the Game Boy to modern mobile phones. The cross-shaped directional controller became an icon of digital control, informing the design of TV remotes, PDAs, MP3 players, and automotive interfaces. In human-computer interaction research, the D-pad is often cited as a case study in minimalist, intuitive input design that balances simplicity, durability, and precision. Over three decades later, the NES controller’s D-pad continues to be referenced as the benchmark for directional pad design, and its influence can be traced in all modern button-based directional controls.
+
+### Team
+
+* **Gunpei Yokoi.** Lead designer at Nintendo R&D1; inventor of the cross-shaped D-pad for Game & Watch and the NES controller adaptation.
+* **Masayuki Uemura.** Head of Nintendo R&D2; supervised the Famicom/NES hardware and integration of the D-pad controller.
+* **Nintendo Co., Ltd..** Overall development and manufacture of the NES-004E controller.
+
+### Media
+
+![Close-up of the NES D-pad with cross-shaped rocker and textured surface.](../assets/wiki/nintendo-d-pad-controller-1.jpg)
+*The NES D-pad in detail. Photograph from Wikimedia Commons.*
+
+![Front view of the NES controller without cable, showing the D-pad and A/B buttons.](../assets/wiki/nintendo-d-pad-controller-2.jpg)
+*NES controller (no cable) from the BYU Design Review collection.*
+
+![CAD rendering of the NES controller’s D-pad mechanism, revealing the central pivot and switch domes.](../assets/wiki/nintendo-d-pad-controller-3.png)
+*CAD cross-section of the D-pad pivot and rubber dome switches. Image by Nate Mattson / BYU Design Review.*
+
+### Sources
+
+1. Product Development Lessons from the NES Controller — The BYU Design Review — https://www.designreview.byu.edu/collections/product-development-lessons-from-the-nes-controller
+2. Controller (NES-004E) – Famicom / NES | Chromagi — https://chromagi.com/nintendo/fc-nes/nes-004e/
+3. Controller pad, NES video game, Nintendo Company Ltd., 1986 | Science Museum Group Collection — https://collection.sciencemuseumgroup.org.uk/objects/co8226750/controller-pad-nes-video-game-nintendo-company-ltd-1986
+4. The history of the NES’s iconic controller — XDA — https://www.xda-developers.com/from-console-to-controller-the-evolution-of-the-ness-iconic-gamepad/
+5. Nintendo Entertainment System Controller - NintendoWiki — https://niwanetwork.org/wiki/Nintendo_Entertainment_System_Controller
+6. D-pad - Wikipedia — https://en-wp.org/wiki/D-pad
+7. Why The NES Controller Became The Standard — Oldiesnest — https://oldiesnest.com/nintendo/why-nes-controller-became-standard/
+
+---
+
+## Polhemus 3Space Isotrak (1987)
+
+**By:** Polhemus, a division of McDonnell Douglas Electronics Company  
+**Tags:** `6DOF Tracking` `Electromagnetic Tracking` `Virtual Reality`
+
+### Overview
+
+The Polhemus 3Space Isotrak, introduced in 1987, was the first widely available electromagnetic six‑degrees‑of‑freedom (6DOF) tracking system for interactive 3D applications. Before the Isotrak, freehand spatial input was largely confined to mechanical linkages or limited camera‑based systems; the Isotrak enabled untethered, fully immersive interaction in virtual reality (VR) and computer‑aided design (CAD). Using low‑frequency magnetic fields, a single compact sensor reported its position and orientation in real time, allowing users to look around virtual scenes, manipulate 3D objects with a stylus, or wear a head tracker for head‑mounted displays. Its introduction marked a pivotal moment in human‑computer interaction, bridging the gap between two‑dimensional interfaces and fully embodied 3D computing.
+
+The system consisted of a stationary magnetic source, a lightweight receiver/sensor, and a microprocessor‑controlled electronics unit that communicated via RS‑232 serial port. It could track within a hemispherical volume of approximately 1.5 m, with an update rate around 30 Hz and latency on the order of 30 ms – sufficient for many research and industrial applications of the era. While later systems offered greater speed, multi‑sensor capability, and higher accuracy, the Isotrak established the electromagnetic approach that remains a cornerstone of motion tracking today.
+
+Commercially, the Isotrak became a standard tool in VR labs worldwide, integrated into systems like VPL Research’s EyePhone head‑mounted display and the Convolvotron 3D audio spatializer. It also found use in biomechanics, robotics, and ergonomic assessment. Through subsequent models (Isotrak II, FASTRAK) and a lineage of modern Polhemus trackers, its legacy endures in motion‑capture studios, flight simulators, and medical training systems that still rely on the non‑line‑of‑sight magnetic tracking principle it pioneered.
+
+### Deep dive
+
+* **Origins.** Polhemus was founded in 1970 by Bill Polhemus, initially developing magnetic navigation systems for the U.S. Navy. By the early 1980s, the company, then a division of McDonnell Douglas Electronics Company, began adapting its precision tracking technology for civilian uses. The emergence of VR research – notably at NASA Ames and VPL Research – created a demand for responsive, unencumbered 3D input. The 3Space Isotrak, launched in 1987, was the direct response: a self‑contained, affordable (for the time) 6DOF magnetic tracker that could be purchased off‑the‑shelf rather than custom‑built. It brought laboratory‑grade motion tracking into university and commercial labs, laying the groundwork for the rapid prototyping of VR interaction techniques.
+* **Hardware.** The original Isotrak system comprised three units: a magnetic source (a cube emitting three orthogonal low‑frequency magnetic fields), a sensor (a smaller cube with three orthogonal coils), and a desktop electronics unit that performed all calculations. The source, typically placed on a desk or tripod, generated a hemispherical working volume of about 1.5 m in diameter. The sensor, measuring roughly 2.5 cm per side, could be grasped as a stylus or attached to a headband or HMD. Data was transmitted via an RS‑232 serial interface to a host computer. Positional accuracy was advertised in the range of 0.1 inches (2.5 mm) RMS, with angular accuracy around 0.5°. The original update rate depended on the level of filtering; typical installations achieved 30 Hz, while the later Isotrak II raised that to 60 Hz. Because the system used alternating magnetic fields, it did not require line‑of‑sight and was immune to optical occlusion, but it was sensitive to ferromagnetic interference from nearby metal objects and electromagnetic noise, which could distort the tracking field.
+* **Interaction.** The Isotrak transformed how users interacted with 3D digital environments. In VR, a sensor mounted on a head‑mounted display provided low‑latency head tracking, enabling realistic viewpoint changes as the user turned, looked up/down, or tilted their head. In CAD, the sensor was often housed in a handheld stylus, allowing designers to navigate and manipulate virtual prototypes in full 6DOF – zooming, rotating, and panning with natural hand movements that were impossible with a mouse. Researchers also used it for free‑air gestural commands, simple motion capture, and as a spatial input for auditory displays (e.g., the Convolvotron system). The ability to track a single, unconstrained point in space opened up a new design space for interaction, influencing the development of early 3D widgets, the “data glove” concept, and immersive walkthroughs.
+* **Commercial fate.** The Isotrak was followed in 1990 by the 3Space Isotrak II, which offered greater range (up to 2.5 m), faster update rates (60 Hz), and a more compact electronics unit. In 1993, Polhemus launched the FASTRAK, a multi‑sensor system that could track up to four receivers simultaneously, solidifying the company’s dominance in electromagnetic tracking. The Isotrak family remained on the market for several years, used in aerospace, automotive design, and medical simulation. By the late 1990s, optical tracking systems (e.g., Vicon, OptoTrak) began to compete, and Polhemus shifted its focus to higher‑end medical and military applications. The original Isotrak gradually disappeared, but its technology evolved into the modern Liberty, Patriot, and Viper trackers still sold by Polhemus today.
+* **Impact.** The Isotrak’s greatest legacy is the democratization of 6DOF spatial input. Before 1987, exploring immersive VR required custom‑built, expensive, and often unreliable trackers. The Isotrak’s relative affordability and plug‑and‑play serial connection let countless university labs and small companies experiment with head‑tracked displays, 3D interaction techniques, and immersive environments. This wave of experimentation directly influenced the graphical user interfaces of 3D modeling software, the design of video game controllers (e.g., Nintendo’s Power Glove used magnetic tracking concepts), and the growing field of HCI research into embodied interaction. Even today, electromagnetic tracking remains the technology of choice in surgical navigation, pilot helmet‑mounted displays, and motion‑capture where optical systems fail due to occlusion. The Polhemus 3Space Isotrak thus stands as a foundational artifact in the history of virtual reality and spatial computing.
+
+### Team
+
+* **Bill Polhemus.** Founder and inventor of the electromagnetic tracking technology
+* **Polhemus (division of McDonnell Douglas Electronics).** Developer and manufacturer
+
+### Media
+
+![Polhemus 3Space Isotrak system with electronics unit and sensor](../assets/wiki/polhemus-isotrak-1.png)
+*The Polhemus 3Space Isotrak system, comprising the desktop electronics unit (left) and the magnetic sensor (right). Source: XVRWiki.*
+
+![Polhemus 3Space Isotrak II system](../assets/wiki/polhemus-isotrak-2.gif)
+*The later Polhemus 3Space Isotrak II (1990), with improved range and speed. Source: XVRWiki.*
+
+![Thumbnail of Polhemus 3Space Isotrak system](../assets/wiki/polhemus-isotrak-3.png)
+*Alternate view of the Isotrak setup. Source: XVRWiki.*
+
+### Sources
+
+1. 3Space Isotrak – XVRWiki — http://www.xvrwiki.org/wiki/3space_isotrak
+2. 3Space Isotrak II – XVRWiki — https://www.xvrwiki.org/wiki/3Space_Isotrak_II
+3. Polhemus company website — https://polhemus.com/
+4. Polhemus 3SPACE ISOTRAK II Brochure (historical specs) — https://segaretro.org/images/archive/b/be/20180704082333%21Polhemus_3SPACE_ISOTRAK_II_Brochure.pdf
+5. ResearchGate: Polhemus Isotrak head tracking hardware (image context) — https://www.researchgate.net/figure/Left-Convolvotron-card-set-Right-Polhemus-Isotrak-head-tracking-hardware-including_fig1_287585070
+
+---
+
+## Poqet PC (1989)
+
+**By:** Poqet Computer Corporation  
+**Tags:** `Palmtop PC` `Power Management` `MS-DOS`
+
+### Overview
+
+The Poqet PC, introduced in 1989, was the first IBM PC-compatible palmtop computer capable of running MS-DOS at CGA resolutions. It measured just 9.5 × 4 × 1 inches and weighed 1.2 pounds, making it truly pocketable. A pair of standard AA batteries powered the device for weeks—even months—thanks to pioneering power-management techniques, including halting the CPU between keystrokes and maintaining RAM state in a deep-sleep mode. Its “instant-on” capability allowed users to resume exactly where they left off without booting, a radical departure from the slow startup of contemporary laptops.
+
+The Poqet PC featured an NEC V30 (or 80C88) processor, 640 KB of RAM, 1 MB of ROM containing MS-DOS 3.2, GW-BASIC, and a suite of personal information management applications. The reflective supertwist LCD displayed 25 lines by 80 characters, enabling standard DOS applications to run unmodified. Two PCMCIA Type I slots accepted solid-state memory cards for file storage, and a serial port provided connectivity with desktop machines. The keyboard, though small, offered full-travel tactile keys and dedicated function keys, earning praise for its usability.
+
+Despite a price of US$2,000—equivalent to over $4,500 today—the Poqet PC garnered strong interest from enterprise and government users who required a portable DOS environment. Its design influenced subsequent palmtops like the Hewlett-Packard 95LX and demonstrated that aggressive power management could deliver true all-day (and all-week) mobile computing. The Poqet PC remains a seminal artifact in the history of mobile interaction, illustrating how carefully engineered suspend-resume behavior and frugal hardware can transform user experience.
+
+### Deep dive
+
+* **Origins.** Poqet Computer Corporation was founded in 1987 by John Fairbanks, David Wharton, and other former Convergent Technologies engineers. The Santa Clara, California-based company set out to create a pocket-sized, fully PC‑compatible machine that could run standard DOS software. The Poqet PC was unveiled at Spring COMDEX in 1989 and began shipping later that year, beating competitors such as the Atari Portfolio to deliver a complete DOS environment in a handheld form factor.
+* **Hardware.** The Poqet PC uses an NEC V30 microprocessor (a CMOS 8086 variant) running at 7.15 MHz, with 640 KB of DRAM (512 KB available to applications) and 1 MB of ROM holding MS-DOS 3.2, GW-BASIC, and built‑in PIM applications (phone book, notepad, calculator, clock). Its monochrome reflective supertwist LCD provides 640×200 pixel CGA‑compatible graphics in a 25‑line × 80‑column text mode. Two PCMCIA Type I slots accept SRAM cards up to 512 KB each for nonvolatile storage. A full‑travel 78‑key keyboard delivers tactile feedback, and an RS‑232 serial port (plus an optional dock with parallel) handles connectivity. The machine is powered by two AA alkaline batteries; aggressive power management—including stopping the CPU between interrupts and maintaining RAM in deep sleep—extends battery life to 30–100 hours of active use and weeks of standby. A supercapacitor preserves memory for a few minutes during battery changes.
+* **Interaction.** Keyboard input drives the system: every keystroke wakes the CPU just long enough to process the character before returning to sleep, so typing demands minimal power. The “instant‑on” feature lets users resume a session immediately without booting, making the device feel like a calculator. The reflective screen offers high contrast but no backlight, relying on ambient light. Built‑in software uses pop‑up menus and cursor keys, while standard DOS applications (WordPerfect, Lotus 1‑2‑3) run from memory cards, delivering a portable office. File exchange with a desktop is possible via LapLink over the serial port. This seamless, power‑thrifty interaction model removed the friction of startup delays and constant saving, redefining what a pocket computer could be.
+* **Commercial fate.** Priced at around US$2,000, the Poqet PC gained favor with business and government users but remained a niche product. In 1991 the company released the Poqet PC Plus with a backlit display and 1.5 MB of RAM. Facing financial pressures, Poqet Computer Corporation was acquired by Fujitsu Ltd. in 1992. Fujitsu formed Fujitsu Personal Systems and gradually phased out the Poqet brand, shifting focus to Windows CE pen tablets. The original Poqet PC was discontinued after the acquisition, but its engineering DNA influenced Fujitsu’s later mobile offerings.
+* **Impact.** The Poqet PC established the benchmark for MS‑DOS palmtops, directly inspiring the HP 95LX and subsequent HP palmtops that adopted similar power management and form factors. Its CPU‑halting technique and suspend‑resume architecture became standard in later laptops and handhelds, embodying the “always on, always connected” ideal. The use of PCMCIA slots foreshadowed the PC Card standard, while full DOS compatibility proved that pocketability did not mean sacrificing the PC software ecosystem. Today, the Poqet PC is recognized as a key milestone in HCI for its elegant integration of low‑power hardware and user‑transparent interaction, prefiguring modern smartphones and instant‑on devices.
+
+### Team
+
+* **John Fairbanks.** Founder and CEO of Poqet Computer Corporation
+* **David Wharton.** Founder and VP of Engineering
+* **Poqet Computer Corporation.** Developer and manufacturer
+
+### Media
+
+![Poqet PC opened, showing keyboard and LCD](../assets/wiki/poqet-pc-1.jpg)
+*The original Poqet PC in its clamshell form. Source: Wikimedia Commons.*
+
+![Poqet PC Plus model](../assets/wiki/poqet-pc-2.jpg)
+*Poqet PC Plus, the 1991 variant with a backlit display. Source: Wikimedia Commons.*
+
+![Poqet PC held in hand for scale](../assets/wiki/poqet-pc-3.jpg)
+*Poqet PC Classic model, demonstrating pocketability. Source: The Centre for Computing History.*
+
+### Sources
+
+1. Poqet PC - Wikipedia — https://en.wikipedia.org/wiki/Poqet_PC
+2. Poqet PC (Classic Model) - The Centre for Computing History — https://www.computinghistory.org.uk/det/15670/Poqet-PC-(-quot-Classic-quot-Model)/
+3. The Poqet PC user's guide - Computer History Museum — https://www.computerhistory.org/collections/catalog/102683011
+4. Poqet PC Users Guide 1989 PDF - Bitsavers — https://bitsavers.org/pdf/poqet/Poqet_PC_Users_Guide_1989.pdf
+5. Poqet PC FAQ - Bryan Mason — https://www.bmason.com/PoqetPC/faq/poqetpc.html
+6. Digibarn Systems: Poqet PC — https://digibarn.com/collections/systems/poqet-pc/index.html
+7. Poqet PC - Obsolete Computer Museum — http://www.obsoletecomputermuseum.org/poqet_pc/
+8. Poqet PC Technical Developer's Manual - Chapter 1 — https://www.bmason.com/PoqetPC/docs/poqetpc/techref/chapter1.html
+
+---
+
+## Psion Organiser II (1986)
+
+**By:** Psion PLC  
+**Tags:** `Personal Digital Assistant` `Mobile Database` `Calculator`
+
+### Overview
+
+The Psion Organiser II, launched in 1986, is a landmark pocket computer widely regarded as the first practical personal digital assistant (PDA). Encased in a rugged hard‑plastic body with a distinctive sliding cover, it features a 6×6 alphabetical keypad and a two‑line, 16‑character liquid‑crystal display. The device combined an electronic diary, a searchable address database, an alarm clock, and a scientific calculator, directly competing with the paper‑based Filofax.
+
+At its core is an 8‑bit HD6303Y microprocessor running at 0.92 MHz, typically with 8 KB of RAM (later models offered up to 32 KB). The interchangeable top slot accepted Datapaks – solid‑state program cartridges – while the two side slots accommodated Rampaks for additional memory, a forerunner of removable storage cards. A built‑in programming language, POPL (Psion Organiser Programming Language), allowed users to write custom database applications; machine‑code execution was also supported.
+
+By integrating a mobile database, calculator, and time‑management tools in a pocket‑size format, the Organiser II defined a new interaction paradigm for portable computing. Its expandability through Datapaks and the ability to run user‑created software anticipated features that would later become standard in PDAs and smartphones.
+
+### Deep dive
+
+* **Origins.** Psion was founded in 1980 by David Potter with the goal of creating handheld computers for practical personal use. The Organiser I appeared in 1984 as a simple diary and calculator, but it was the Organiser II, released two years later, that refined the concept into a full‑featured pocket information manager. Potter’s ambition was to replace traditional paper organisers with a device that could not only store data but also run custom programs, a vision that drove the design of the Organiser II’s expansion system and programming environment.
+* **Hardware.** The Organiser II is built around a Hitachi HD6303Y processor clocked at 0.92 MHz. Base models carry 8 KB of RAM, while later variants (e.g., the LZ model) provided 32 KB. The monochrome LCD shows two lines of 16 characters. The 6×6 keypad places letters alphabetically, with dedicated keys for frequently used functions. Power comes from a standard 9 V battery or an external supply. A hallmark of the design is the hard‑plastic sliding cover that protects the keypad and display when not in use. The top expansion slot exposes an 8‑bit parallel bus, accepting ROM‑based Datapaks (program cartridges) and later FlashPaks; two side slots allow connection of Rampaks for additional memory, a feature that has been expanded by the community to 256 KB and even 512 KB today. The slot interface also enabled peripheral devices such as a Comms Link for RS‑232 communication.
+* **Interaction.** Interaction with the Organiser II is menu‑driven. Upon power‑on, the main menu offers access to the diary, phone book (address database), clock/alarm, calculator, and the programming language POPL. The diary and phone‑book entries are fully searchable by text string, a novel feature for a pocket device at the time. The calculator provides scientific functions and can be used interactively, while the alarm clock can be set with any diary entry. Programs written in POPL appear as menu items and can manipulate the built‑in databases or create new ones. All input is textual via the 6×6 keypad, and output is limited to the 16‑character lines, requiring a concise, task‑focused interaction style. The sliding cover doubles as a physical power switch – opening the cover activates the device – reinforcing a direct, tactile interaction metaphor.
+* **Commercial fate.** The Organiser II enjoyed modest commercial success in the late 1980s, particularly among business professionals and field workers. Its ascendancy was overshadowed by the launch of the Psion Series 3 in 1991, a clamshell PDA with a larger screen and a more sophisticated operating system. Psion gradually withdrew from the consumer handheld market, re‑focusing on the development of the Symbian OS and later industrial data‑collection equipment. The Organiser II line was discontinued, but it has acquired a cult following. A dedicated hobbyist community continues to develop hardware add‑ons – including a JavaScript emulator, USB CommsLinks, Rampaks up to 256 KB, and 512 KB FlashPaks – keeping the platform alive as of autumn 2024.
+* **Impact.** The Psion Organiser II is recognised as a pioneering PDA. It demonstrated that a pocket‑sized device could serve as a credible mobile database, diary, and calculator, establishing interaction patterns that were later refined by the Psion Series 3 and 5, and by devices such as the Palm Pilot. The Datapak/Rampak expansion model prefigured today’s removable memory cards, while the user‑programmable POPL language anticipated the app‑store model of later mobile platforms. By proving that a handheld computer could replace a paper organiser and run purpose‑built applications, the Organiser II secured a place in the history of portable computing.
+
+### Team
+
+* **Psion PLC.** British electronics company; developer and manufacturer of the Organiser II
+* **David Potter.** Founder of Psion, who drove the vision for pocket‑sized information management
+
+### Media
+
+![Psion Organiser II open and closed](../assets/wiki/psion-organiser-ii-3.jpg)
+*Psion Organiser II units shown open and closed, with the 6×6 alphabetic keypad and protective sliding cover visible. Source: Wikimedia Commons.*
+
+![Psion Organiser II with cover](../assets/wiki/psion-organiser-ii-2.jpg)
+*Organiser II with cover, showing the physical shell that made the pocket-computer interaction feel appliance-like rather than laptop-like. Source: Wikimedia Commons.*
+
+![Psion Organiser II product image](../assets/wiki/psion-organiser-ii-1.gif)
+*Psion Organiser II product image from the Wikipedia infobox. Source: Wikimedia Commons.*
+
+### Sources
+
+1. Psion Organiser – Wikipedia — https://en.wikipedia.org/wiki/Psion_Organiser
+2. Jaap's Psion Organiser II Page – Technical Reference Manual — https://www.jaapsch.net/psion/tech.htm
+3. Retro Isle – Psion Organiser II Technical Reference Manual — https://www.retroisle.com/others/psion/organiser2/OriginalDocs/org2techmanual.php
+
+---
+
+## Summagraphics Bit Pad (1977)
+
+**By:** Summagraphics Corporation  
+**Tags:** `Digitizing Tablet` `Absolute Positioning` `Professional Graphics`
+
+### Overview
+
+The **Summagraphics Bit Pad** (often referred to as the Bit Pad One) is a landmark digitizing tablet introduced in 1977 by Summagraphics Corporation of Fairfield, Connecticut. It was one of the first commercially available, high‑precision absolute‑coordinate input devices targeted at professional users, predating the consumer drawing pads that would arrive years later. Unlike relative pointing devices such as the computer mouse, the Bit Pad enabled direct mapping of physical motion to screen coordinates, making it indispensable for computer‑aided design (CAD), cartographic digitizing, and early computer graphics.
+
+Built around a magnetostrictive sensing grid embedded beneath a hard, flat surface, the tablet accepted input from either a pen‑like stylus or a puck cursor. With an active area of 12 × 12 inches (305 × 305 mm), a resolution of 0.005 inches (0.127 mm), and an accuracy of ±0.015 inches (0.38 mm), the Bit Pad One delivered the level of precision required to trace blueprints, maps, and intricate line art directly into digital form. It connected to host computers through a standard RS‑232 serial interface and was supplied with drivers for popular microcomputer and minicomputer systems of the era.
+
+The Bit Pad firmly established the professional digitizing tablet as a vital peripheral in CAD, GIS, and electronic prepress workflows throughout the 1980s. Its absolute positioning paradigm—where lifting the stylus and placing it elsewhere immediately gave the correct X,Y coordinates—solved the drift and re‑calibration issues that plagued early relative devices. By commercializing a technology that had previously been confined to research labs, Summagraphics shaped the interface language that would later be inherited by modern graphics tablets and pen‑enabled displays.
+
+### Deep dive
+
+* **Origins.** Summagraphics Corporation was founded in 1972 with a focus on developing advanced digitizer technologies for industrial and scientific applications. While earlier experimental tablets such as the RAND Tablet (1964) had demonstrated the principle of absolute coordinate sensing, they were laboratory curiosities. The Bit Pad One, released in 1977, represented one of the first serious attempts to turn that capability into a reliable, mass‑produced peripheral for the growing market of microcomputers and engineering workstations. It built on magnetostrictive sensor technology that Summagraphics had refined, allowing a pen or puck to be sensed through a robust, non‑membrane surface.
+* **Hardware.** The Bit Pad One housed a magnetostrictive wire grid beneath a rigid 12 × 12‑inch (305 × 305 mm) active area, surrounded by a sturdy metal or plastic enclosure measuring approximately 14.5 × 14.5 × 1.5 inches (368 × 368 × 38 mm) and weighing around 11 pounds (5 kg). The grid produced a magnetic field; when the coil in the stylus or puck passed over it, the tablet electronics measured the time delay of the induced pulse to calculate the absolute X and Y position. Resolution was 0.005 inches (0.127 mm), with a specified accuracy of ±0.015 inches (0.38 mm). Users could choose between a corded pen with a tip‑activated switch or a cursor puck fitted with crosshairs and multiple buttons. Data was transmitted via a standard RS‑232 serial port, and an external power supply provided the necessary operating voltages.
+* **Interaction.** The core interaction paradigm was straightforward yet transformative: wherever the user placed the stylus or puck on the tablet, the corresponding screen coordinate would be registered immediately and absolutely. There was no need to zero the device or move it like a mouse; a drawing or tracing could be paused at any time and resumed without loss of position. This absolute mode was essential for tasks such as tracing paper‑based maps, architectural blueprints, or engineering drawings that were taped to the tablet surface. The tip switch of the stylus (or the buttons on the puck) sent a signal that told the computer when to “lower the pen” or “lift it,” enabling the creation of continuous strokes or isolated points. Drivers for operating systems like CP/M and MS‑DOS mapped the 12‑inch digitizing area to the full video display, giving users a natural, eye‑hand‑coordination‑friendly drawing experience long before on‑screen tablets existed.
+* **Commercial fate.** Summagraphics rapidly became a market leader in digitizing tablets during the 1980s, with the Bit Pad One at the core of its product line. The tablet found widespread use in industries ranging from aerospace design and naval architecture to printed‑circuit‑board layout and cartography. As the technology matured, Summagraphics introduced larger models (the Bit Pad Two, for example, offered active areas up to 44 × 60 inches) and variants with different interfaces. The company remained an independent entity until 1996, when it was acquired by GTCO Corporation to form GTCO CalComp. Although the Bit Pad name eventually disappeared, the underlying magnetostrictive technology persisted in professional digitizers for decades, and the absolute‑positioning concept influenced the development of later consumer graphics tablets from manufacturers such as Wacom.
+* **Impact.** The Summagraphics Bit Pad One helped define the look and feel of early computer‑aided design and digital mapping. By offering a reliable, high‑precision absolute input method, it solved a critical human‑interface problem: how to let professionals draw and trace with digital fidelity. The tablet’s RS‑232 interface became a de facto standard for graphics peripherals, encouraging the creation of software that could accept streamed coordinate data. This early “pen and tablet” model established the conceptual foundation for the corded stylus tablets that appeared in the late 1980s and for today’s screen‑equipped drawing displays. In museum collections, the Bit Pad is preserved not only as a piece of hardware but as a milestone in human‑computer interaction, marking the moment when absolute position sensing moved from the laboratory to the everyday toolkit of engineers, artists, and mapmakers.
+
+### Team
+
+* **Summagraphics Corporation.** Developer and manufacturer of the Bit Pad series
+
+### Media
+
+![Summagraphics Bit Pad One digitizing tablet with stylus pen](../assets/wiki/summagraphics-bit-pad-1.jpg)
+*A Summagraphics Bit Pad One, showing the active drawing area and stylus. (Source: The Centre for Computing History)*
+
+### Sources
+
+1. Summagraphics Bit Pad One – Computing History — https://www.computinghistory.org.uk/det/16811/Summagraphics-Bit-Pad-One/
+2. Summagraphics Bit Pad One – Computer History Museum, catalog no. 102743841 — https://www.computerhistory.org/collections/catalog/102743841
+3. BitPad One digitizing tablet – Computer History Museum, catalog no. X511.84 — https://www.computerhistory.org/collections/catalog/X511.84
+4. Graphics tablet – Wikipedia — https://en.wikipedia.org/wiki/Graphics_tablet
+
+---
+
+## WriteHander (1978)
+
+**By:** NewO Company  
+**Tags:** `Chorded Keyboard` `Wearable` `Eyes-Free`
+
+### Overview
+
+The WriteHander is one of the earliest commercial attempts at a compact, eyes-free chorded text-entry device. Introduced in 1978 by the NewO Company, it was a handheld, one‑handed keyboard that produced characters through simultaneous keystrokes (chords) rather than sequential presses. The device was designed for portability and mobility, allowing a user to type while holding the unit in one hand and leaving the other hand free—a concept decades ahead of later wearable keyboards.
+
+Physically, the WriteHander resembled a small paperback book with a six‑key arrangement: five finger keys and a thumb key. Its small alphanumeric display gave immediate visual feedback of the entered character. By relying on chord combinations, an experienced user could input the entire ASCII character set without ever looking at the keys, making it suitable for notetaking, tele‑operation, or data entry in constrained environments.
+
+Although its commercial life was brief, the WriteHander pre‑figured later chording devices such as the Microwriter (1980), the Twiddler, and modern wearable keyers. It stands as a key artifact in the lineage of alternative keyboard research, bridging the gap from early stenographic machines to present‑day mobile and accessible text‑input systems.
+
+### Deep dive
+
+* **Origins.** The WriteHander emerged during a period when personal computers were proliferating but input methods were still tied to desk‑bound typewriter‑style keyboards. Chording itself had a long history—in stenotype machines and Braille writers—but commercial electronic chorders for general computing did not yet exist. NewO Company, a now‑obscure firm possibly based in the United Kingdom or United States, seized on the idea of a one‑handed, cable‑connected chord keyboard. Their aim was to produce a truly portable writing tool that freed users from the physical desk. The WriteHander predated the better‑known Microwriter (1980) by two years, placing it among the very first products to bring chording to the consumer electronics market.
+* **Hardware.** The WriteHander was a molded plastic unit roughly the size of a small paperback novel. Its main face held five circular mechanical keys in a row for the fingers, while a thumb key sat on the right side (for right‑handed users) or was positioned ergonomically for the thumb. Each key gave a distinct tactile click when pressed. A single‑line alphanumeric display—likely an LED or early vacuum‑fluorescent type—showed the character just typed. The device communicated with a host computer over a serial cable, drawing power from the host. The absence of a battery kept it lightweight, at the cost of tethering the user. Production numbers were likely very low, and surviving units are extremely rare.
+* **Interaction.** Text entry relied on pressing a combination of the six keys simultaneously. Each chord corresponded to a letter, digit, punctuation mark, or control code, following a memorized chart. For example, the ‘A’ chord might be index+middle finger, while ‘E’ could be index+pinky. The thumb key frequently served as a mode‑shift, enabling uppercase, numeric, or symbol layers. Typing was essentially a continuous sequence of brief chording motions. Once the mapping was learned, the user could type without looking at the keyboard, receiving confirmation from the display or, later, from an auditory feedback mechanism if the host provided it. The design traded the simplicity of a standard keyboard for dramatic size reduction and hands‑free flexibility, but required a significant initial learning investment.
+* **Commercial fate.** The WriteHander failed to find a sustainable market. In the late 1970s the personal computer industry was overwhelmingly oriented toward full‑size QWERTY keyboards, and the idea of learning a completely new input method held little appeal for mainstream users. The high retail cost relative to early home computers, combined with a complete lack of software support for chord‑based input, limited sales to a small circle of enthusiasts and experimenters. NewO Company appears to have discontinued the product within a few years and subsequently faded from the industry. Today, the WriteHander is a rare collector’s item, known chiefly to keyboard historians and vintage computing aficionados.
+* **Impact.** Despite its commercial failure, the WriteHander occupies an important position in the history of human‑computer interaction. It was among the first portable chord keyboards sold to the public, demonstrating that a one‑handed, eyes‑free text entry device was technically feasible and could be built with off‑the‑shelf components. The concept directly influenced Cy Endfield’s Microwriter, which achieved greater recognition in the early 1980s, and can be traced through successive generations of chording devices—the Twiddler, the Septambic keyer, and contemporary wearable input research. In the context of mobile and ubiquitous computing, the WriteHander’s ambition to decouple text entry from the desk continues to resonate, making it a foundational artifact for studies of alternative and accessible keyboards.
+
+### Team
+
+* **NewO Company.** Manufacturer; designer unknown
+
+### Media
+
+![Front view of the WriteHander chorded keyboard](../assets/wiki/writehander-1.jpg)
+*The WriteHander, showing the five finger keys, thumb key, and built‑in display. (Image: ibnteo.klava.org)*
+
+![Rear view of the WriteHander](../assets/wiki/writehander-2.jpg)
+*Rear case and connector of the WriteHander. (Image: ibnteo.klava.org)*
+
+### Sources
+
+1. Bill Buxton, “CASE STUDY 2: CHORD KEYBOARDS” (PDF), covers the history of chorded input including early commercial attempts. — https://www.billbuxton.com/input06.ChordKeyboards.pdf
+2. Wikipedia, “Chorded keyboard” — outlines the Writehander as a 1978 one‑handed keyboard from NewO Company. — https://en.wikipedia.org/wiki/Chorded_keyboard
+3. Блог Вольки, “The NewO Writehander” — detailed description and photographs of the device. — http://ibnteo.klava.org/keyboard/writehander

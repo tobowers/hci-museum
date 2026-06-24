@@ -1,0 +1,195 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
+    <meta name="description" content="First widely available electromagnetic tracker enabling freehand spatial input in VR and CAD." />
+    <meta property="og:title" content="Polhemus 3Space Isotrak — HCI Museum" />
+    <meta property="og:description" content="First widely available electromagnetic tracker enabling freehand spatial input in VR and CAD." />
+    <meta property="og:type" content="website" />
+    <title>Polhemus 3Space Isotrak — HCI Museum</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="../../styles.css" />
+  </head>
+  <body>
+    <div class="atmosphere" aria-hidden="true">
+      <div class="atmosphere__grid"></div>
+      <div class="atmosphere__scanlines"></div>
+      <div class="atmosphere__vignette"></div>
+    </div>
+
+    <div class="page-shell">
+      <header class="site-header">
+        <a href="../../" class="brand">
+          <span class="brand__mark" aria-hidden="true"></span>
+          <span>HCI Museum</span>
+        </a>
+        <nav class="nav-primary" aria-label="Primary">
+          <a href="../../exhibits/" class="active">Exhibits</a>
+          <a href="../../blog/">Field Notes</a>
+          <a href="../../about/">About</a>
+        </nav>
+        <div class="header-meta">
+          <span class="header-meta__item">SYS_OK</span>
+          <span class="header-meta__pulse" aria-hidden="true"></span>
+        </div>
+      </header>
+
+      <main>
+
+        <article class="exhibit">
+          <header class="exhibit__hero">
+            <div class="exhibit__hero-text">
+              <div class="exhibit__eyebrow">
+                <span class="exhibit__year">1987</span>
+                <span class="exhibit__by">Polhemus, a division of McDonnell Douglas Electronics Company</span>
+              </div>
+              <h1 class="exhibit__title">Polhemus 3Space Isotrak</h1>
+              <p class="exhibit__subtitle">Magnetic 6DOF tracking sensor for 3D interaction.</p>
+              <div class="exhibit__tags"><span class="exhibit__tag">6DOF Tracking</span><span class="exhibit__tag">Electromagnetic Tracking</span><span class="exhibit__tag">Virtual Reality</span></div>
+            </div>
+
+            <div class="exhibit__hero-image-wrap">
+              <img
+                class="exhibit__hero-image"
+                src="../../assets/wiki/polhemus-isotrak-1.png"
+                alt="Polhemus 3Space Isotrak archival photograph"
+              />
+              <div class="exhibit__hero-scanlines" aria-hidden="true"></div>
+            </div>
+          </header>
+
+          <section class="exhibit__section exhibit__overview">
+            <h2 class="exhibit__section-title">Overview</h2>
+            <div class="exhibit__prose"><p>The Polhemus 3Space Isotrak, introduced in 1987, was the first widely available electromagnetic six‑degrees‑of‑freedom (6DOF) tracking system for interactive 3D applications. Before the Isotrak, freehand spatial input was largely confined to mechanical linkages or limited camera‑based systems; the Isotrak enabled untethered, fully immersive interaction in virtual reality (VR) and computer‑aided design (CAD). Using low‑frequency magnetic fields, a single compact sensor reported its position and orientation in real time, allowing users to look around virtual scenes, manipulate 3D objects with a stylus, or wear a head tracker for head‑mounted displays. Its introduction marked a pivotal moment in human‑computer interaction, bridging the gap between two‑dimensional interfaces and fully embodied 3D computing.</p>
+<p>The system consisted of a stationary magnetic source, a lightweight receiver/sensor, and a microprocessor‑controlled electronics unit that communicated via RS‑232 serial port. It could track within a hemispherical volume of approximately 1.5 m, with an update rate around 30 Hz and latency on the order of 30 ms – sufficient for many research and industrial applications of the era. While later systems offered greater speed, multi‑sensor capability, and higher accuracy, the Isotrak established the electromagnetic approach that remains a cornerstone of motion tracking today.</p>
+<p>Commercially, the Isotrak became a standard tool in VR labs worldwide, integrated into systems like VPL Research’s EyePhone head‑mounted display and the Convolvotron 3D audio spatializer. It also found use in biomechanics, robotics, and ergonomic assessment. Through subsequent models (Isotrak II, FASTRAK) and a lineage of modern Polhemus trackers, its legacy endures in motion‑capture studios, flight simulators, and medical training systems that still rely on the non‑line‑of‑sight magnetic tracking principle it pioneered.</p></div>
+          </section>
+
+          <section class="exhibit__section exhibit__deep-dive">
+            <h2 class="exhibit__section-title">Deep dive</h2>
+            <div class="exhibit__facts">
+        <div class="exhibit__fact">
+          <div class="exhibit__fact-heading"><strong>Origins.</strong></div>
+          <p>Polhemus was founded in 1970 by Bill Polhemus, initially developing magnetic navigation systems for the U.S. Navy. By the early 1980s, the company, then a division of McDonnell Douglas Electronics Company, began adapting its precision tracking technology for civilian uses. The emergence of VR research – notably at NASA Ames and VPL Research – created a demand for responsive, unencumbered 3D input. The 3Space Isotrak, launched in 1987, was the direct response: a self‑contained, affordable (for the time) 6DOF magnetic tracker that could be purchased off‑the‑shelf rather than custom‑built. It brought laboratory‑grade motion tracking into university and commercial labs, laying the groundwork for the rapid prototyping of VR interaction techniques.</p>
+        </div>
+      
+        <div class="exhibit__fact">
+          <div class="exhibit__fact-heading"><strong>Hardware.</strong></div>
+          <p>The original Isotrak system comprised three units: a magnetic source (a cube emitting three orthogonal low‑frequency magnetic fields), a sensor (a smaller cube with three orthogonal coils), and a desktop electronics unit that performed all calculations. The source, typically placed on a desk or tripod, generated a hemispherical working volume of about 1.5 m in diameter. The sensor, measuring roughly 2.5 cm per side, could be grasped as a stylus or attached to a headband or HMD. Data was transmitted via an RS‑232 serial interface to a host computer. Positional accuracy was advertised in the range of 0.1 inches (2.5 mm) RMS, with angular accuracy around 0.5°. The original update rate depended on the level of filtering; typical installations achieved 30 Hz, while the later Isotrak II raised that to 60 Hz. Because the system used alternating magnetic fields, it did not require line‑of‑sight and was immune to optical occlusion, but it was sensitive to ferromagnetic interference from nearby metal objects and electromagnetic noise, which could distort the tracking field.</p>
+        </div>
+      
+        <div class="exhibit__fact">
+          <div class="exhibit__fact-heading"><strong>Interaction.</strong></div>
+          <p>The Isotrak transformed how users interacted with 3D digital environments. In VR, a sensor mounted on a head‑mounted display provided low‑latency head tracking, enabling realistic viewpoint changes as the user turned, looked up/down, or tilted their head. In CAD, the sensor was often housed in a handheld stylus, allowing designers to navigate and manipulate virtual prototypes in full 6DOF – zooming, rotating, and panning with natural hand movements that were impossible with a mouse. Researchers also used it for free‑air gestural commands, simple motion capture, and as a spatial input for auditory displays (e.g., the Convolvotron system). The ability to track a single, unconstrained point in space opened up a new design space for interaction, influencing the development of early 3D widgets, the “data glove” concept, and immersive walkthroughs.</p>
+        </div>
+      
+        <div class="exhibit__fact">
+          <div class="exhibit__fact-heading"><strong>Commercial fate.</strong></div>
+          <p>The Isotrak was followed in 1990 by the 3Space Isotrak II, which offered greater range (up to 2.5 m), faster update rates (60 Hz), and a more compact electronics unit. In 1993, Polhemus launched the FASTRAK, a multi‑sensor system that could track up to four receivers simultaneously, solidifying the company’s dominance in electromagnetic tracking. The Isotrak family remained on the market for several years, used in aerospace, automotive design, and medical simulation. By the late 1990s, optical tracking systems (e.g., Vicon, OptoTrak) began to compete, and Polhemus shifted its focus to higher‑end medical and military applications. The original Isotrak gradually disappeared, but its technology evolved into the modern Liberty, Patriot, and Viper trackers still sold by Polhemus today.</p>
+        </div>
+      
+        <div class="exhibit__fact">
+          <div class="exhibit__fact-heading"><strong>Impact.</strong></div>
+          <p>The Isotrak’s greatest legacy is the democratization of 6DOF spatial input. Before 1987, exploring immersive VR required custom‑built, expensive, and often unreliable trackers. The Isotrak’s relative affordability and plug‑and‑play serial connection let countless university labs and small companies experiment with head‑tracked displays, 3D interaction techniques, and immersive environments. This wave of experimentation directly influenced the graphical user interfaces of 3D modeling software, the design of video game controllers (e.g., Nintendo’s Power Glove used magnetic tracking concepts), and the growing field of HCI research into embodied interaction. Even today, electromagnetic tracking remains the technology of choice in surgical navigation, pilot helmet‑mounted displays, and motion‑capture where optical systems fail due to occlusion. The Polhemus 3Space Isotrak thus stands as a foundational artifact in the history of virtual reality and spatial computing.</p>
+        </div>
+      </div>
+          </section>
+
+          
+          <section class="exhibit__section exhibit__team">
+            <h2 class="exhibit__section-title">Team &amp; pioneers</h2>
+            <ul class="exhibit__team-list">
+            <li class="exhibit__team-item">
+              <span class="exhibit__team-name">Bill Polhemus.</span>
+              <span class="exhibit__team-note"> Founder and inventor of the electromagnetic tracking technology</span>
+            </li>
+            <li class="exhibit__team-item">
+              <span class="exhibit__team-name">Polhemus (division of McDonnell Douglas Electronics).</span>
+              <span class="exhibit__team-note"> Developer and manufacturer</span>
+            </li>
+            </ul>
+          </section>
+
+          
+          <section class="exhibit__section exhibit__media">
+            <h2 class="exhibit__section-title">Media</h2>
+            <div class="exhibit__media-grid">
+        <figure class="exhibit__media-item">
+          <div class="exhibit__media-frame">
+            <img src="../../assets/wiki/polhemus-isotrak-1.png" alt="Polhemus 3Space Isotrak system with electronics unit and sensor" loading="lazy" />
+            <div class="exhibit__media-scanlines" aria-hidden="true"></div>
+          </div>
+          <figcaption>The Polhemus 3Space Isotrak system, comprising the desktop electronics unit (left) and the magnetic sensor (right). Source: XVRWiki.</figcaption>
+        </figure>
+      
+        <figure class="exhibit__media-item">
+          <div class="exhibit__media-frame">
+            <img src="../../assets/wiki/polhemus-isotrak-2.gif" alt="Polhemus 3Space Isotrak II system" loading="lazy" />
+            <div class="exhibit__media-scanlines" aria-hidden="true"></div>
+          </div>
+          <figcaption>The later Polhemus 3Space Isotrak II (1990), with improved range and speed. Source: XVRWiki.</figcaption>
+        </figure>
+      
+        <figure class="exhibit__media-item">
+          <div class="exhibit__media-frame">
+            <img src="../../assets/wiki/polhemus-isotrak-3.png" alt="Thumbnail of Polhemus 3Space Isotrak system" loading="lazy" />
+            <div class="exhibit__media-scanlines" aria-hidden="true"></div>
+          </div>
+          <figcaption>Alternate view of the Isotrak setup. Source: XVRWiki.</figcaption>
+        </figure>
+      </div>
+          </section>
+          
+
+          
+          <section class="exhibit__section exhibit__sources">
+            <h2 class="exhibit__section-title">Sources</h2>
+            <ol class="exhibit__source-list">
+        <li>
+          <a href="http://www.xvrwiki.org/wiki/3space_isotrak" target="_blank" rel="noopener">3Space Isotrak – XVRWiki</a>
+        </li>
+      
+        <li>
+          <a href="https://www.xvrwiki.org/wiki/3Space_Isotrak_II" target="_blank" rel="noopener">3Space Isotrak II – XVRWiki</a>
+        </li>
+      
+        <li>
+          <a href="https://polhemus.com/" target="_blank" rel="noopener">Polhemus company website</a>
+        </li>
+      
+        <li>
+          <a href="https://segaretro.org/images/archive/b/be/20180704082333%21Polhemus_3SPACE_ISOTRAK_II_Brochure.pdf" target="_blank" rel="noopener">Polhemus 3SPACE ISOTRAK II Brochure (historical specs)</a>
+        </li>
+      
+        <li>
+          <a href="https://www.researchgate.net/figure/Left-Convolvotron-card-set-Right-Polhemus-Isotrak-head-tracking-hardware-including_fig1_287585070" target="_blank" rel="noopener">ResearchGate: Polhemus Isotrak head tracking hardware (image context)</a>
+        </li>
+      </ol>
+          </section>
+          
+
+          <nav class="exhibit__nav" aria-label="Exhibit navigation">
+            <a href="../nintendo-d-pad-controller/" class="exhibit__nav-link exhibit__nav-link--prev">
+        <span class="exhibit__nav-dir">← Previous</span>
+        <span class="exhibit__nav-title">Nintendo D-pad controller</span>
+      </a>
+            <a href="../../exhibits/" class="exhibit__nav-link exhibit__nav-link--index">All exhibits</a>
+            <a href="../poqet-pc/" class="exhibit__nav-link exhibit__nav-link--next">
+        <span class="exhibit__nav-dir">Next →</span>
+        <span class="exhibit__nav-title">Poqet PC</span>
+      </a>
+          </nav>
+        </article>
+      </main>
+
+      <footer class="site-footer">
+        <span>HCI Museum // Curated by Beepy</span>
+        <span class="site-footer__signal">SIGNAL_STABLE</span>
+      </footer>
+    </div>
+
+  </body>
+</html>

@@ -1,3 +1,5 @@
+import { renderAnalyticsScript } from "../src/shell";
+
 const root = new URL("..", import.meta.url).pathname;
 const outdir = `${root}public`;
 
@@ -20,6 +22,13 @@ await Bun.$`mkdir -p ${outdir}/assets/wiki ${outdir}/research`;
 await Bun.$`cp -R ${root}assets/wiki/. ${outdir}/assets/wiki/`;
 await Bun.$`cp ${root}docs/hci-wiki.md ${outdir}/research/hci-wiki.md`;
 await Bun.$`cp ${root}src/styles.css ${outdir}/styles.css`;
+
+const analyticsScript = renderAnalyticsScript();
+if (analyticsScript) {
+  const indexPath = `${outdir}/index.html`;
+  const html = await Bun.file(indexPath).text();
+  await Bun.write(indexPath, html.replace("</body>", `${analyticsScript}\n</body>`));
+}
 
 const { buildAllExhibitPages, buildExhibitsIndexHtml } = await import("./build-exhibits");
 const { buildAllBlogPages } = await import("./build-blog");

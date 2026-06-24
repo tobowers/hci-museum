@@ -217,16 +217,18 @@ button { font: inherit; }
   display: grid;
   grid-template-columns: 1fr 1.1fr;
   gap: 0;
-  min-height: calc(100dvh - 3rem - 3rem);
+  height: clamp(36rem, calc(100dvh - 3rem), 52rem);
+  overflow: hidden;
   border-bottom: 1px solid var(--line-weak);
 }
 
 .hero__text {
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content: flex-start;
   gap: 1.5rem;
-  padding: clamp(2rem, 5vw, 4rem);
+  min-width: 0;
+  padding: clamp(4.5rem, 11vh, 8rem) clamp(2rem, 5vw, 4rem) clamp(2rem, 5vw, 4rem);
   border-right: 1px solid var(--line-weak);
 }
 
@@ -241,7 +243,8 @@ button { font: inherit; }
 
 .hero__title {
   margin: 0;
-  font-size: clamp(2.5rem, 6vw, 5rem);
+  max-width: 11ch;
+  font-size: clamp(2.5rem, 5.4vw, 5rem);
   font-weight: 800;
   line-height: 0.95;
   letter-spacing: -0.035em;
@@ -305,6 +308,7 @@ button { font: inherit; }
   position: relative;
   display: flex;
   flex-direction: column;
+  min-width: 0;
   background: var(--void-black);
   overflow: hidden;
 }
@@ -616,9 +620,12 @@ button { font: inherit; }
   .hero {
     grid-template-columns: 1fr;
     grid-template-rows: auto 1fr;
+    height: auto;
+    overflow: visible;
   }
 
   .hero__text {
+    padding-top: clamp(2rem, 8vh, 4rem);
     border-right: 0;
     border-bottom: 1px solid var(--line-weak);
   }

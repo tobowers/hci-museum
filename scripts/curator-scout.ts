@@ -37,6 +37,8 @@ const WIKI_API = "https://en.wikipedia.org/w/api.php";
 const GROK_MODEL = process.env.GROK_MODEL ?? "grok-3-latest";
 const DEEPSEEK_MODEL = process.env.DEEPSEEK_MODEL ?? "deepseek-v4-pro";
 const OPENROUTER_MODEL = process.env.OPENROUTER_MODEL ?? "z-ai/glm-5.2";
+const DISCOVERY_COUNT = Number(process.env.SCOUT_DISCOVERY_COUNT ?? 24);
+const TARGET_COLLECTION_COUNT = Number(process.env.SCOUT_TARGET_COUNT ?? 15);
 
 type ExistingExhibit = {
   slug: string;
@@ -114,7 +116,7 @@ const openrouterProvider = createOpenAI({
 
 async function aiChat(provider: ReturnType<typeof createOpenAI>, model: string, system: string, prompt: string) {
   const { text } = await generateText({
-    model: provider(model),
+    model: provider.chat(model),
     system,
     prompt,
     temperature: 0.8,
@@ -272,7 +274,7 @@ Topic: "${topic}"
 Already in the museum (do NOT suggest these):
 ${existing.map((e) => `- ${e.title}`).join("\n")}
 
-Brainstorm 12 candidate objects. Prefer beautiful failures, weird vaporware, and ambitious experiments over famous commercial hits. Be specific with years and mechanics.
+Brainstorm ${DISCOVERY_COUNT} candidate objects. Beautiful failures, weird vaporware, and ambitious experiments are especially welcome, but commercial hits are also valid when they demonstrate a genuinely distinct human-computer interaction idea. Be specific with years and mechanics.
 
 Return ONLY a JSON array. Each item must have:
 - title: object name
@@ -467,7 +469,7 @@ async function curatorAgent(
 
 ${charter}
 
-Review these researched candidates. Decide for each:
+Review these researched candidates. The museum is looking to add about ${TARGET_COLLECTION_COUNT} more objects, so be selective but not timid. Decide for each:
 - decision: "blog" if it deserves a Field Notes blog post, "archive" if interesting but not worth a post right now, "reject" if it doesn't fit.
 - score: 0-100 overall curatorial score.
 - reasoning: one sentence of Beepy-style curatorial reasoning.

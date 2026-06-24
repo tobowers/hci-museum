@@ -23,6 +23,14 @@ export function escapeHtml(text: string): string {
     .replace(/'/g, "&#039;");
 }
 
+export function renderAnalyticsScript(): string {
+  const token = process.env.CLOUDFLARE_WEB_ANALYTICS_TOKEN?.trim();
+  if (!token) return "";
+
+  return `
+    <script defer src="https://static.cloudflareinsights.com/beacon.min.js" data-cf-beacon='${escapeHtml(JSON.stringify({ token }))}'></script>`;
+}
+
 export function renderShell(opts: ShellOptions): string {
   const { title, description, body, basePath = "./", active } = opts;
   const fullTitle = title.includes("HCI Museum") ? title : `${title} — HCI Museum`;
@@ -79,6 +87,7 @@ ${body}
         <span class="site-footer__signal">SIGNAL_STABLE</span>
       </footer>
     </div>
+${renderAnalyticsScript()}
   </body>
 </html>`;
 }

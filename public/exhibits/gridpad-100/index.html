@@ -1,0 +1,199 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
+    <meta name="description" content="Pioneered portable form-factor handwriting recognition and stylus-driven UI on MS-DOS." />
+    <meta property="og:title" content="GRiDPad 100 — HCI Museum" />
+    <meta property="og:description" content="Pioneered portable form-factor handwriting recognition and stylus-driven UI on MS-DOS." />
+    <meta property="og:type" content="website" />
+    <title>GRiDPad 100 — HCI Museum</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="../../styles.css" />
+  </head>
+  <body>
+    <div class="atmosphere" aria-hidden="true">
+      <div class="atmosphere__grid"></div>
+      <div class="atmosphere__scanlines"></div>
+      <div class="atmosphere__vignette"></div>
+    </div>
+
+    <div class="page-shell">
+      <header class="site-header">
+        <a href="../../" class="brand">
+          <span class="brand__mark" aria-hidden="true"></span>
+          <span>HCI Museum</span>
+        </a>
+        <nav class="nav-primary" aria-label="Primary">
+          <a href="../../exhibits/" class="active">Exhibits</a>
+          <a href="../../blog/">Field Notes</a>
+          <a href="../../about/">About</a>
+        </nav>
+        <div class="header-meta">
+          <span class="header-meta__item">SYS_OK</span>
+          <span class="header-meta__pulse" aria-hidden="true"></span>
+        </div>
+      </header>
+
+      <main>
+
+        <article class="exhibit">
+          <header class="exhibit__hero">
+            <div class="exhibit__hero-text">
+              <div class="exhibit__eyebrow">
+                <span class="exhibit__year">1989</span>
+                <span class="exhibit__by">GRiD Systems Corporation</span>
+              </div>
+              <h1 class="exhibit__title">GRiDPad 100</h1>
+              <p class="exhibit__subtitle">First commercial tablet computer with pen input.</p>
+              <div class="exhibit__tags"><span class="exhibit__tag">pen computing</span><span class="exhibit__tag">handwriting recognition</span><span class="exhibit__tag">tablet PC</span></div>
+            </div>
+
+            <div class="exhibit__hero-image-wrap">
+              <img
+                class="exhibit__hero-image"
+                src="../../assets/wiki/gridpad-100-1.jpg"
+                alt="GRiDPad 100 archival photograph"
+              />
+              <div class="exhibit__hero-scanlines" aria-hidden="true"></div>
+            </div>
+          </header>
+
+          <section class="exhibit__section exhibit__overview">
+            <h2 class="exhibit__section-title">Overview</h2>
+            <div class="exhibit__prose"><p>The <strong>GRiDPad 100</strong> is a pen-based MS-DOS tablet computer that established the archetype for portable, stylus-driven handwriting recognition in a clamshell-free slate format. Released in 1989 by GRiD Systems Corporation, it combined a rugged magnesium case with a 640×400 monochrome LCD, a cordless pen, and the <em>PalmPrint</em> character recognizer—the work of Jeff Hawkins, later founder of Palm Computing. At 4.5 pounds, the GRiDPad targeted mobile professionals in insurance, healthcare, and field-service verticals, offering a keyboardless alternative to laptops for data entry.</p>
+<p>Unlike the palm-top organizers of the era, the GRiDPad ran a full MS-DOS 3.3 environment and could host standard x86 applications, though its true novelty lay in a pen-aware application launcher and handwriting input panel that let users write directly into forms. The device could store up to 20 MB of files on its internal hard disk and supported PCMCIA expansion, enabling integration with wireless modems and custom peripherals.</p>
+<p>The GRiDPad 100 demonstrated that stylus interaction on a portable screen was viable and economically useful, preceding the more famous Apple Newton by four years. It remains a landmark in mobile HCI for its early fusion of untethered pen input, rugged industrial design, and practical MS-DOS compatibility.</p></div>
+          </section>
+
+          <section class="exhibit__section exhibit__deep-dive">
+            <h2 class="exhibit__section-title">Deep dive</h2>
+            <div class="exhibit__facts">
+        <div class="exhibit__fact">
+          <div class="exhibit__fact-heading"><strong>Origins.</strong></div>
+          <p>GRiD Systems, founded in 1979 by John Ellenby, had already pioneered the GRiD Compass—the first clamshell laptop—and later the GRiDCASE rugged laptops. By the late 1980s the company sought to eliminate the keyboard altogether for vertical-market tasks like insurance claims processing, hospital rounds, and inventory tracking. The result was a slate tablet that retained MS-DOS software compatibility while introducing a stylus-driven interface. The handwriting recognition engine, PalmPrint, was developed by Jeff Hawkins, who joined GRiD as a research engineer and would later build on this core technology to create the Palm Pilot.</p>
+        </div>
+      
+        <div class="exhibit__fact">
+          <div class="exhibit__fact-heading"><strong>Hardware.</strong></div>
+          <p>The GRiDPad 100 centered on an 80C86-compatible NEC V40 processor running at 10 MHz, supported by 1 or 2 MB of RAM and a 20 MB Conner Peripherals hard disk drive. Its 9.5-inch black-on-white reflective LCD offered 640×400 CGA resolution with a 16:10 aspect ratio, making it legible even in direct sunlight. A cordless electromagnetic pen digitized ink at the display surface; the system could also accept finger touches. A single PCMCIA 2.0 Type II slot provided expansion for memory cards, modems, or custom radio modules. The magnesium-alloy enclosure, sealed ports, and shock-mounted drive ensured the 11.5 × 9.5 × 1.7-inch tablet could endure a one-foot drop onto concrete—a necessity for field use.</p>
+        </div>
+      
+        <div class="exhibit__fact">
+          <div class="exhibit__fact-heading"><strong>Interaction.</strong></div>
+          <p>Pen input was handled through a DOS-resident driver and a character-mode shell called PenRight, which offered an icon launcher and a handwriting-recognition keyboard. Users wrote block-printed letters and numbers in designated on-screen boxes; PalmPrint analyzed strokes in a user-independent, trainable engine that achieved &gt;95% accuracy for discrete characters. A gesture vocabulary let users tap, double-tap, or circle items to open files, invoke menus, and select text. Because the underlying OS was standard MS-DOS 3.3, any text-based application could be controlled with pen-emulating cursor movements, though the experience was markedly different from keyboard use.</p>
+        </div>
+      
+        <div class="exhibit__fact">
+          <div class="exhibit__fact-heading"><strong>Commercial fate.</strong></div>
+          <p>GRiD Systems sold the GRiDPad primarily to corporate and government customers, including the U.S. Army, insurance adjusters, and healthcare providers. The base price was approximately $2,370 (equivalent to about $5,000 today). An upgraded model, the GRiDPad 1900, appeared in 1990 with a larger hard drive (60 MB) and 386SL compatibility. In 1993, GRiD was acquired by Tandy Corporation, which continued the product under the GRiD brand for a few years before folding the pen-computing division. The GRiDPad line never reached the consumer mass market, but it proved the commercial viability of pen-based mobile data collection.</p>
+        </div>
+      
+        <div class="exhibit__fact">
+          <div class="exhibit__fact-heading"><strong>Impact.</strong></div>
+          <p>The GRiDPad directly influenced the design of pen-based operating systems, including GO Corp.’s PenPoint and Microsoft Windows for Pen Computing. Jeff Hawkins’ learning from PalmPrint fed into the Graffiti handwriting system used on the PalmPilot, which popularized stylus interaction with a generation of handheld organizers. The device also established the rugged slate form factor later adopted by tablets in logistics, public safety, and military computing. Museum retrospectives rightly place the GRiDPad 100 as the first broadly commercial, MS-DOS-compatible pen tablet—a functional bridge between the clunky portables of the 1980s and the touch-centric smartphones and tablets of the 21st century.</p>
+        </div>
+      </div>
+          </section>
+
+          
+          <section class="exhibit__section exhibit__team">
+            <h2 class="exhibit__section-title">Team &amp; pioneers</h2>
+            <ul class="exhibit__team-list">
+            <li class="exhibit__team-item">
+              <span class="exhibit__team-name">John Ellenby.</span>
+              <span class="exhibit__team-note"> Founder of GRiD Systems, driving force behind the GRiD Compass and GRiDCASE lines; set the vision for a pen-based tablet.</span>
+            </li>
+            <li class="exhibit__team-item">
+              <span class="exhibit__team-name">Jeff Hawkins.</span>
+              <span class="exhibit__team-note"> Developer of the PalmPrint handwriting recognition engine used in the GRiDPad; later founded Palm Computing and created the PalmPilot.</span>
+            </li>
+            </ul>
+          </section>
+
+          
+          <section class="exhibit__section exhibit__media">
+            <h2 class="exhibit__section-title">Media</h2>
+            <div class="exhibit__media-grid">
+        <figure class="exhibit__media-item">
+          <div class="exhibit__media-frame">
+            <img src="../../assets/wiki/gridpad-100-1.jpg" alt="GRiDPad 100 tablet showing the screen and pen in a right-side view" loading="lazy" />
+            <div class="exhibit__media-scanlines" aria-hidden="true"></div>
+          </div>
+          <figcaption>The GRiDPad 100 with its cordless pen and exposed PC Card slot. Source: oldcomputers.net</figcaption>
+        </figure>
+      
+        <figure class="exhibit__media-item">
+          <div class="exhibit__media-frame">
+            <img src="../../assets/wiki/gridpad-100-2.jpg" alt="Left side of the GRiDPad 100 revealing ports and pen garage" loading="lazy" />
+            <div class="exhibit__media-scanlines" aria-hidden="true"></div>
+          </div>
+          <figcaption>Ports and pen storage detail on the left flank. Source: oldcomputers.net</figcaption>
+        </figure>
+      
+        <figure class="exhibit__media-item">
+          <div class="exhibit__media-frame">
+            <img src="../../assets/wiki/gridpad-100-3.jpg" alt="GRiDPad 100 on display at the Computer History Museum" loading="lazy" />
+            <div class="exhibit__media-scanlines" aria-hidden="true"></div>
+          </div>
+          <figcaption>The GRiDPad 100 in the CHM collection, highlighting the screen bezel and palm rest. Source: Computer History Museum</figcaption>
+        </figure>
+      </div>
+          </section>
+          
+
+          
+          <section class="exhibit__section exhibit__sources">
+            <h2 class="exhibit__section-title">Sources</h2>
+            <ol class="exhibit__source-list">
+        <li>
+          <a href="https://www.computerhistory.org/revolution/mobile-computing/18/319/1727" target="_blank" rel="noopener">GRiDPad tablet computer – CHM Revolution</a>
+        </li>
+      
+        <li>
+          <a href="https://en.wikipedia.org/wiki/GridPad" target="_blank" rel="noopener">GridPad - Wikipedia</a>
+        </li>
+      
+        <li>
+          <a href="https://oldcomputers.net/gridpad.html" target="_blank" rel="noopener">GRiDPad - Old Computers</a>
+        </li>
+      
+        <li>
+          <a href="https://www.penbasedcomputing.com/grid-introduces-pc-compatible-computer-that-recognizes-printed-handwriting/" target="_blank" rel="noopener">GRiD Introduces PC-Compatible Computer that Recognizes Printed Handwriting – Pen-Based Computing History Museum</a>
+        </li>
+      
+        <li>
+          <a href="https://laptops251.com/grid-systems-gridpad/" target="_blank" rel="noopener">GRiD System’s GRiDPad – Byte Magazine’s 1989 BYTE AWARD DISTINCTION</a>
+        </li>
+      
+        <li>
+          <a href="https://www.ricomputermuseum.org/collections-gallery/small-systems-at-ricm/gridpad" target="_blank" rel="noopener">Gridpad – Rhode Island Computer Museum</a>
+        </li>
+      </ol>
+          </section>
+          
+
+          <nav class="exhibit__nav" aria-label="Exhibit navigation">
+            <a href="../twiddler/" class="exhibit__nav-link exhibit__nav-link--prev">
+        <span class="exhibit__nav-dir">← Previous</span>
+        <span class="exhibit__nav-title">Twiddler</span>
+      </a>
+            <a href="../../exhibits/" class="exhibit__nav-link exhibit__nav-link--index">All exhibits</a>
+            <a href="../heathkit-hero-1/" class="exhibit__nav-link exhibit__nav-link--next">
+        <span class="exhibit__nav-dir">Next →</span>
+        <span class="exhibit__nav-title">Heathkit HERO 1</span>
+      </a>
+          </nav>
+        </article>
+      </main>
+
+      <footer class="site-footer">
+        <span>HCI Museum // Curated by Beepy</span>
+        <span class="site-footer__signal">SIGNAL_STABLE</span>
+      </footer>
+    </div>
+
+  </body>
+</html>

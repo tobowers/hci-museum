@@ -1,0 +1,124 @@
+{
+  "slug": "microwriter",
+  "title": "Microwriter",
+  "year": "1980",
+  "subtitle": "Five-key chorded portable word processor.",
+  "why_scout_cares": "Early wearable-style one-handed text entry device aimed at mobile professionals.",
+  "search_terms": [
+    "Microwriter 1980",
+    "Microwriter chord keyboard"
+  ],
+  "research": {
+    "title": "Microwriter",
+    "year": "1980",
+    "by": "Cy Endfield and Chris Rainey / Microwriter Ltd.",
+    "tags": [
+      "chording keyboard",
+      "portable computing",
+      "mobile text entry",
+      "wearable technology"
+    ],
+    "overview": "The Microwriter is a pioneering hand-held word processor with a one-handed chording keyboard, designed to let mobile professionals take notes without a desk. Invented by film director Cy Endfield and engineer Chris Rainey, it was marketed from 1980 by Microwriter Ltd. of Mitcham, Surrey, UK. The device fits in the palm of the right hand; five keys for the fingers and a side‑mounted thumb key form letter chords whose shapes mirror the written characters. This mnemonic ‘alphabet’ was claimed to reach typing speeds averaging 1.5 times that of handwriting.\n\nThe best‑known model, the MW4, features a 16‑character scrolling LCD, 8 KB of battery‑backed RAM, and an RS‑232 serial port for connecting to printers or computers. Users can edit, search, and scroll through text using chord commands, and the internal memory can hold several pages of notes. Power comes from rechargeable NiCad batteries, offering hours of continuous use.\n\nAlthough it never became a mass‑market product, the Microwriter demonstrated the viability of mobile text entry long before PDAs and smartphones. Its chording approach influenced later wearable keyboards, and its descendants—the AgendA folding PDA and the CyKey PC keyboard—kept the idea alive. The device remains a significant artifact in the history of human–computer interaction and portable computing.",
+    "deepDive": [
+      {
+        "heading": "Origins",
+        "text": "Cy Endfield, a film director best known for ‘Zulu’ and ‘Mysterious Island,’ grew frustrated with the slowness of handwriting during production and wanted a battery‑powered device for immediate note‑taking. With engineer Chris Rainey he conceived a portable word‑processor based on a chorded keyboard. The first prototype was shown at a London computer exhibition in 1978. A patent application (issued as US4442506A) described a portable word‑processor with a one‑handed chording system and a visual mnemonic scheme. In 1980 Microwriter Ltd. began selling the Microwriter MW4, targeting business executives, journalists, and students."
+      },
+      {
+        "heading": "Hardware",
+        "text": "The MW4 unit measures roughly 230 × 130 × 25 mm (9 × 5 × 1 in) and weighs about 500 g. The casing, usually black, has a recessed keypad: five circular finger keys on top, arranged in a slight arc for the right hand, and a thumb key on the left side of the body. A 16‑character reflective liquid‑crystal display sits above the keys, showing a scrolling window into the current document. Internal storage consists of 8,000 characters of non‑volatile, battery‑backed RAM, which can be partitioned into multiple files. Power is supplied by removable, rechargeable NiCad cells. Communication is via an RS‑232 serial port for output to Epson‑compatible printers or for uploading text to a computer; an optional acoustic‑coupler modem was available for remote transmission."
+      },
+      {
+        "heading": "Interaction",
+        "text": "The user holds the device in the right hand, with fingers resting on the five top keys and the thumb on the side key. Each letter, digit, or punctuation mark is produced by pressing a unique chord—a combination of fingers and thumb. The chords are mnemonically shaped: for example, ‘A’ is thumb + index finger, evoking the two strokes of a capital A; ‘B’ adds the middle and ring fingers to suggest the two loops of the letter. The built‑in firmware interprets chords in context, separating text‑entry mode from command mode. Chords control cursor movement, delete, insert, block operations, and file management. A printed learning guide claimed that most users could reach 30 words per minute after 3–6 hours of practice. Editing is performed on a small window; the text scrolls as the cursor moves. Completed documents can be transferred word‑for‑word or as ASCII codes via the serial port."
+      },
+      {
+        "heading": "Commercial fate",
+        "text": "Microwriter Ltd. launched the MW4 at a price of about £200–£300 in the early 1980s, but sales remained modest against the growing tide of portable electronic typewriters and early laptop computers. In 1984 the company introduced the AgendA, a folding PDA that combined a full QWERTY keyboard with Microwriter chording pads on the inside surfaces. The company dissolved later that decade. Chris Rainey then founded a new venture that produced the CyKey—a compact chording keyboard for PCs that preserved the Microwriter mnemonic scheme—and marketed it into the 1990s. Original Microwriter units are now held in several museum collections."
+      },
+      {
+        "heading": "Impact",
+        "text": "Although not a commercial blockbuster, the Microwriter is a landmark in the history of mobile text entry. It preceded the one‑handed Twiddler keyboard by more than a decade and demonstrated that chorded input, combined with a mnemonic alphabet, could be learned quickly and used effectively while standing or walking. It is frequently cited in human–computer interaction research as an early example of a wearable word‑processor. The idea lived on through the AgendA and CyKey, and a community of enthusiasts has even created modern emulators. The device’s design philosophy—one‑handed, shape‑based chord mapping—continues to inform research on alternative keyboards and text‑entry methods."
+      }
+    ],
+    "team": [
+      {
+        "name": "Cy Endfield",
+        "note": "Inventor, film director; conceived the idea and co‑designed the chording system."
+      },
+      {
+        "name": "Chris Rainey",
+        "note": "Co‑inventor, engineer; responsible for the electronic and firmware design."
+      },
+      {
+        "name": "Microwriter Ltd.",
+        "note": "Company based in Mitcham, Surrey, UK; manufactured and marketed the Microwriter."
+      }
+    ],
+    "media": [
+      {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/e/ec/Microwriter.png",
+        "alt": "A hand holding the Microwriter MW4, showing the 16-character LCD display and chording keys.",
+        "caption": "The Microwriter MW4 handheld word processor. Source: Wikimedia Commons."
+      },
+      {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/09/Microwriter_Sales_Brochure.pdf/page1-250px-Microwriter_Sales_Brochure.pdf.jpg",
+        "alt": "Cover of a Microwriter sales brochure, showing the device's portability.",
+        "caption": "A sales brochure for the Microwriter, circa early 1980s. Source: Wikimedia Commons."
+      },
+      {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/14/Microwriter_Specifications_Overview_%26_Ordering_Information.pdf/page1-250px-Microwriter_Specifications_Overview_%26_Ordering_Information.pdf.jpg",
+        "alt": "Specifications and ordering information sheet for the Microwriter.",
+        "caption": "Specifications overview and ordering information from Microwriter Ltd. Source: Wikimedia Commons."
+      },
+      {
+        "src": "https://www.computinghistory.org.uk/userdata/images/medium/38/42/product-83842.jpg",
+        "alt": "The Microwriter MW4 device on a museum stand, showing its keypad and screen.",
+        "caption": "Microwriter MW4 from the collection of The Centre for Computing History. Courtesy of The Centre for Computing History."
+      },
+      {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/74/MicroWriter%2C_AgendA%2C_and_CyKey.jpg/250px-MicroWriter%2C_AgendA%2C_and_CyKey.jpg",
+        "alt": "Three devices side by side: the original Microwriter, the AgendA folding PDA, and the CyKey chording keyboard.",
+        "caption": "Evolution of the Microwriter concept: the Microwriter MW4, the AgendA folding PDA, and the CyKey PC keyboard. Source: Wikimedia Commons."
+      }
+    ],
+    "sources": [
+      {
+        "text": "Wikipedia: Microwriter",
+        "url": "https://en.wikipedia.org/wiki/Microwriter"
+      },
+      {
+        "text": "Centre for Computing History: Microwriter MW4",
+        "url": "https://www.computinghistory.org.uk/det/36099/Microwriter-MW4/"
+      },
+      {
+        "text": "Google Patents US4442506A – Portable word-processor",
+        "url": "https://patents.google.com/patent/US4442506A/en"
+      },
+      {
+        "text": "Science Museum Group: Experimental and pre-production models of the Microwriter typewriter",
+        "url": "https://collection.sciencemuseumgroup.org.uk/objects/co38161/experimental-and-pre-production-models-of-the-microwriter-typewriter"
+      },
+      {
+        "text": "Vintage Computers: Microwriter MW4",
+        "url": "http://vintagecomputers.sdfeu.org/mw4/"
+      },
+      {
+        "text": "GitHub: microwriter_mw4 emulator",
+        "url": "https://github.com/sjaturner/microwriter_mw4"
+      }
+    ],
+    "imageUrls": [
+      "https://upload.wikimedia.org/wikipedia/commons/e/ec/Microwriter.png",
+      "https://upload.wikimedia.org/wikipedia/commons/thumb/0/09/Microwriter_Sales_Brochure.pdf/page1-250px-Microwriter_Sales_Brochure.pdf.jpg",
+      "https://upload.wikimedia.org/wikipedia/commons/thumb/1/14/Microwriter_Specifications_Overview_%26_Ordering_Information.pdf/page1-250px-Microwriter_Specifications_Overview_%26_Ordering_Information.pdf.jpg",
+      "https://www.computinghistory.org.uk/userdata/images/medium/38/42/product-83842.jpg",
+      "https://upload.wikimedia.org/wikipedia/commons/thumb/7/74/MicroWriter%2C_AgendA%2C_and_CyKey.jpg/250px-MicroWriter%2C_AgendA%2C_and_CyKey.jpg"
+    ]
+  },
+  "savedImages": [
+    "potential/microwriter/images/1.png",
+    "potential/microwriter/images/2.jpg",
+    "potential/microwriter/images/3.jpg"
+  ]
+}

@@ -1,0 +1,211 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
+    <meta name="description" content="Pushed the limits of portable full-PC interaction years before Palm and Windows CE." />
+    <meta property="og:title" content="Poqet PC — HCI Museum" />
+    <meta property="og:description" content="Pushed the limits of portable full-PC interaction years before Palm and Windows CE." />
+    <meta property="og:type" content="website" />
+    <title>Poqet PC — HCI Museum</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="../../styles.css" />
+  </head>
+  <body>
+    <div class="atmosphere" aria-hidden="true">
+      <div class="atmosphere__grid"></div>
+      <div class="atmosphere__scanlines"></div>
+      <div class="atmosphere__vignette"></div>
+    </div>
+
+    <div class="page-shell">
+      <header class="site-header">
+        <a href="../../" class="brand">
+          <span class="brand__mark" aria-hidden="true"></span>
+          <span>HCI Museum</span>
+        </a>
+        <nav class="nav-primary" aria-label="Primary">
+          <a href="../../exhibits/" class="active">Exhibits</a>
+          <a href="../../blog/">Field Notes</a>
+          <a href="../../about/">About</a>
+        </nav>
+        <div class="header-meta">
+          <span class="header-meta__item">SYS_OK</span>
+          <span class="header-meta__pulse" aria-hidden="true"></span>
+        </div>
+      </header>
+
+      <main>
+
+        <article class="exhibit">
+          <header class="exhibit__hero">
+            <div class="exhibit__hero-text">
+              <div class="exhibit__eyebrow">
+                <span class="exhibit__year">1989</span>
+                <span class="exhibit__by">Poqet Computer Corporation</span>
+              </div>
+              <h1 class="exhibit__title">Poqet PC</h1>
+              <p class="exhibit__subtitle">Credit-card-sized MS-DOS computer with PCMCIA.</p>
+              <div class="exhibit__tags"><span class="exhibit__tag">Palmtop PC</span><span class="exhibit__tag">Power Management</span><span class="exhibit__tag">MS-DOS</span></div>
+            </div>
+
+            <div class="exhibit__hero-image-wrap">
+              <img
+                class="exhibit__hero-image"
+                src="../../assets/wiki/poqet-pc-1.jpg"
+                alt="Poqet PC archival photograph"
+              />
+              <div class="exhibit__hero-scanlines" aria-hidden="true"></div>
+            </div>
+          </header>
+
+          <section class="exhibit__section exhibit__overview">
+            <h2 class="exhibit__section-title">Overview</h2>
+            <div class="exhibit__prose"><p>The Poqet PC, introduced in 1989, was the first IBM PC-compatible palmtop computer capable of running MS-DOS at CGA resolutions. It measured just 9.5 × 4 × 1 inches and weighed 1.2 pounds, making it truly pocketable. A pair of standard AA batteries powered the device for weeks—even months—thanks to pioneering power-management techniques, including halting the CPU between keystrokes and maintaining RAM state in a deep-sleep mode. Its “instant-on” capability allowed users to resume exactly where they left off without booting, a radical departure from the slow startup of contemporary laptops.</p>
+<p>The Poqet PC featured an NEC V30 (or 80C88) processor, 640 KB of RAM, 1 MB of ROM containing MS-DOS 3.2, GW-BASIC, and a suite of personal information management applications. The reflective supertwist LCD displayed 25 lines by 80 characters, enabling standard DOS applications to run unmodified. Two PCMCIA Type I slots accepted solid-state memory cards for file storage, and a serial port provided connectivity with desktop machines. The keyboard, though small, offered full-travel tactile keys and dedicated function keys, earning praise for its usability.</p>
+<p>Despite a price of US$2,000—equivalent to over $4,500 today—the Poqet PC garnered strong interest from enterprise and government users who required a portable DOS environment. Its design influenced subsequent palmtops like the Hewlett-Packard 95LX and demonstrated that aggressive power management could deliver true all-day (and all-week) mobile computing. The Poqet PC remains a seminal artifact in the history of mobile interaction, illustrating how carefully engineered suspend-resume behavior and frugal hardware can transform user experience.</p></div>
+          </section>
+
+          <section class="exhibit__section exhibit__deep-dive">
+            <h2 class="exhibit__section-title">Deep dive</h2>
+            <div class="exhibit__facts">
+        <div class="exhibit__fact">
+          <div class="exhibit__fact-heading"><strong>Origins.</strong></div>
+          <p>Poqet Computer Corporation was founded in 1987 by John Fairbanks, David Wharton, and other former Convergent Technologies engineers. The Santa Clara, California-based company set out to create a pocket-sized, fully PC‑compatible machine that could run standard DOS software. The Poqet PC was unveiled at Spring COMDEX in 1989 and began shipping later that year, beating competitors such as the Atari Portfolio to deliver a complete DOS environment in a handheld form factor.</p>
+        </div>
+      
+        <div class="exhibit__fact">
+          <div class="exhibit__fact-heading"><strong>Hardware.</strong></div>
+          <p>The Poqet PC uses an NEC V30 microprocessor (a CMOS 8086 variant) running at 7.15 MHz, with 640 KB of DRAM (512 KB available to applications) and 1 MB of ROM holding MS-DOS 3.2, GW-BASIC, and built‑in PIM applications (phone book, notepad, calculator, clock). Its monochrome reflective supertwist LCD provides 640×200 pixel CGA‑compatible graphics in a 25‑line × 80‑column text mode. Two PCMCIA Type I slots accept SRAM cards up to 512 KB each for nonvolatile storage. A full‑travel 78‑key keyboard delivers tactile feedback, and an RS‑232 serial port (plus an optional dock with parallel) handles connectivity. The machine is powered by two AA alkaline batteries; aggressive power management—including stopping the CPU between interrupts and maintaining RAM in deep sleep—extends battery life to 30–100 hours of active use and weeks of standby. A supercapacitor preserves memory for a few minutes during battery changes.</p>
+        </div>
+      
+        <div class="exhibit__fact">
+          <div class="exhibit__fact-heading"><strong>Interaction.</strong></div>
+          <p>Keyboard input drives the system: every keystroke wakes the CPU just long enough to process the character before returning to sleep, so typing demands minimal power. The “instant‑on” feature lets users resume a session immediately without booting, making the device feel like a calculator. The reflective screen offers high contrast but no backlight, relying on ambient light. Built‑in software uses pop‑up menus and cursor keys, while standard DOS applications (WordPerfect, Lotus 1‑2‑3) run from memory cards, delivering a portable office. File exchange with a desktop is possible via LapLink over the serial port. This seamless, power‑thrifty interaction model removed the friction of startup delays and constant saving, redefining what a pocket computer could be.</p>
+        </div>
+      
+        <div class="exhibit__fact">
+          <div class="exhibit__fact-heading"><strong>Commercial fate.</strong></div>
+          <p>Priced at around US$2,000, the Poqet PC gained favor with business and government users but remained a niche product. In 1991 the company released the Poqet PC Plus with a backlit display and 1.5 MB of RAM. Facing financial pressures, Poqet Computer Corporation was acquired by Fujitsu Ltd. in 1992. Fujitsu formed Fujitsu Personal Systems and gradually phased out the Poqet brand, shifting focus to Windows CE pen tablets. The original Poqet PC was discontinued after the acquisition, but its engineering DNA influenced Fujitsu’s later mobile offerings.</p>
+        </div>
+      
+        <div class="exhibit__fact">
+          <div class="exhibit__fact-heading"><strong>Impact.</strong></div>
+          <p>The Poqet PC established the benchmark for MS‑DOS palmtops, directly inspiring the HP 95LX and subsequent HP palmtops that adopted similar power management and form factors. Its CPU‑halting technique and suspend‑resume architecture became standard in later laptops and handhelds, embodying the “always on, always connected” ideal. The use of PCMCIA slots foreshadowed the PC Card standard, while full DOS compatibility proved that pocketability did not mean sacrificing the PC software ecosystem. Today, the Poqet PC is recognized as a key milestone in HCI for its elegant integration of low‑power hardware and user‑transparent interaction, prefiguring modern smartphones and instant‑on devices.</p>
+        </div>
+      </div>
+          </section>
+
+          
+          <section class="exhibit__section exhibit__team">
+            <h2 class="exhibit__section-title">Team &amp; pioneers</h2>
+            <ul class="exhibit__team-list">
+            <li class="exhibit__team-item">
+              <span class="exhibit__team-name">John Fairbanks.</span>
+              <span class="exhibit__team-note"> Founder and CEO of Poqet Computer Corporation</span>
+            </li>
+            <li class="exhibit__team-item">
+              <span class="exhibit__team-name">David Wharton.</span>
+              <span class="exhibit__team-note"> Founder and VP of Engineering</span>
+            </li>
+            <li class="exhibit__team-item">
+              <span class="exhibit__team-name">Poqet Computer Corporation.</span>
+              <span class="exhibit__team-note"> Developer and manufacturer</span>
+            </li>
+            </ul>
+          </section>
+
+          
+          <section class="exhibit__section exhibit__media">
+            <h2 class="exhibit__section-title">Media</h2>
+            <div class="exhibit__media-grid">
+        <figure class="exhibit__media-item">
+          <div class="exhibit__media-frame">
+            <img src="../../assets/wiki/poqet-pc-1.jpg" alt="Poqet PC opened, showing keyboard and LCD" loading="lazy" />
+            <div class="exhibit__media-scanlines" aria-hidden="true"></div>
+          </div>
+          <figcaption>The original Poqet PC in its clamshell form. Source: Wikimedia Commons.</figcaption>
+        </figure>
+      
+        <figure class="exhibit__media-item">
+          <div class="exhibit__media-frame">
+            <img src="../../assets/wiki/poqet-pc-2.jpg" alt="Poqet PC Plus model" loading="lazy" />
+            <div class="exhibit__media-scanlines" aria-hidden="true"></div>
+          </div>
+          <figcaption>Poqet PC Plus, the 1991 variant with a backlit display. Source: Wikimedia Commons.</figcaption>
+        </figure>
+      
+        <figure class="exhibit__media-item">
+          <div class="exhibit__media-frame">
+            <img src="../../assets/wiki/poqet-pc-3.jpg" alt="Poqet PC held in hand for scale" loading="lazy" />
+            <div class="exhibit__media-scanlines" aria-hidden="true"></div>
+          </div>
+          <figcaption>Poqet PC Classic model, demonstrating pocketability. Source: The Centre for Computing History.</figcaption>
+        </figure>
+      </div>
+          </section>
+          
+
+          
+          <section class="exhibit__section exhibit__sources">
+            <h2 class="exhibit__section-title">Sources</h2>
+            <ol class="exhibit__source-list">
+        <li>
+          <a href="https://en.wikipedia.org/wiki/Poqet_PC" target="_blank" rel="noopener">Poqet PC - Wikipedia</a>
+        </li>
+      
+        <li>
+          <a href="https://www.computinghistory.org.uk/det/15670/Poqet-PC-(-quot-Classic-quot-Model)/" target="_blank" rel="noopener">Poqet PC (Classic Model) - The Centre for Computing History</a>
+        </li>
+      
+        <li>
+          <a href="https://www.computerhistory.org/collections/catalog/102683011" target="_blank" rel="noopener">The Poqet PC user&#039;s guide - Computer History Museum</a>
+        </li>
+      
+        <li>
+          <a href="https://bitsavers.org/pdf/poqet/Poqet_PC_Users_Guide_1989.pdf" target="_blank" rel="noopener">Poqet PC Users Guide 1989 PDF - Bitsavers</a>
+        </li>
+      
+        <li>
+          <a href="https://www.bmason.com/PoqetPC/faq/poqetpc.html" target="_blank" rel="noopener">Poqet PC FAQ - Bryan Mason</a>
+        </li>
+      
+        <li>
+          <a href="https://digibarn.com/collections/systems/poqet-pc/index.html" target="_blank" rel="noopener">Digibarn Systems: Poqet PC</a>
+        </li>
+      
+        <li>
+          <a href="http://www.obsoletecomputermuseum.org/poqet_pc/" target="_blank" rel="noopener">Poqet PC - Obsolete Computer Museum</a>
+        </li>
+      
+        <li>
+          <a href="https://www.bmason.com/PoqetPC/docs/poqetpc/techref/chapter1.html" target="_blank" rel="noopener">Poqet PC Technical Developer&#039;s Manual - Chapter 1</a>
+        </li>
+      </ol>
+          </section>
+          
+
+          <nav class="exhibit__nav" aria-label="Exhibit navigation">
+            <a href="../polhemus-isotrak/" class="exhibit__nav-link exhibit__nav-link--prev">
+        <span class="exhibit__nav-dir">← Previous</span>
+        <span class="exhibit__nav-title">Polhemus 3Space Isotrak</span>
+      </a>
+            <a href="../../exhibits/" class="exhibit__nav-link exhibit__nav-link--index">All exhibits</a>
+            <a href="../psion-organiser-ii/" class="exhibit__nav-link exhibit__nav-link--next">
+        <span class="exhibit__nav-dir">Next →</span>
+        <span class="exhibit__nav-title">Psion Organiser II</span>
+      </a>
+          </nav>
+        </article>
+      </main>
+
+      <footer class="site-footer">
+        <span>HCI Museum // Curated by Beepy</span>
+        <span class="site-footer__signal">SIGNAL_STABLE</span>
+      </footer>
+    </div>
+
+  </body>
+</html>

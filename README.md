@@ -28,4 +28,8 @@ bun run build
 
 The build emits static files to `public/`. GitHub Pages deployment is configured in `.github/workflows/pages.yml` and publishes `public/` on pushes to `main`.
 
+## Analytics
+
+Basic analytics use Cloudflare Web Analytics because it is free, cookie-free, and only needs a small script tag. Set a repository variable named `CLOUDFLARE_WEB_ANALYTICS_TOKEN` with the token from Cloudflare Web Analytics. Builds without that variable omit analytics.
+
 This project was created using `bun init` in bun v1.3.14. [Bun](https://bun.com) is a fast all-in-one JavaScript runtime.

@@ -243,7 +243,7 @@ function deepseekProvider() {
 
 async function judgeResearchWithBeepy(info: ScoutInfo, charter: string): Promise<{ score: number; findings: string[] }> {
   const { text } = await generateText({
-    model: openrouterProvider()(EVAL_RESEARCH_MODEL),
+    model: openrouterProvider().chat(EVAL_RESEARCH_MODEL),
     system: charter,
     prompt: `Evaluate the RESEARCH/DOWNLOAD side for this HCI Museum candidate. Do not judge prose polish; judge whether the research bundle gives Beepy enough factual material to curate from.
 
@@ -274,7 +274,7 @@ async function judgeCurationWithResearcher(
   blogMarkdown = "",
 ): Promise<{ score: number; findings: string[] }> {
   const { text } = await generateText({
-    model: deepseekProvider()(EVAL_CURATION_MODEL),
+    model: deepseekProvider().chat(EVAL_CURATION_MODEL),
     system: "You are a strict evaluator of factual museum writing and editorial judgment.",
     prompt: `Evaluate the CURATION/WRITEUP side for this HCI Museum candidate.
 
