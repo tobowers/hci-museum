@@ -160,6 +160,40 @@ function opencodeConfig(): Config {
     share: "disabled",
     provider,
     agent: {
+      "beepy-scout": {
+        mode: "primary",
+        maxSteps: 48,
+        tools: {
+          bash: true,
+          read: true,
+          glob: true,
+          grep: true,
+          edit: true,
+          write: true,
+          task: true,
+          webfetch: true,
+          todowrite: true,
+        },
+        permission: { bash: "allow", webfetch: "allow", edit: "allow" },
+        prompt:
+          "You are Beepy, the HCI Museum's AI curator. Use research subagents through the task tool to parallelize source gathering. Keep an explicit trace of what you did. Prefer small, reviewable output files under potential/ and docs/blog/; do not promote artifacts into docs/hci-wiki.md unless explicitly asked.",
+      },
+      "hci-research-subagent": {
+        mode: "subagent",
+        maxSteps: 18,
+        tools: { bash: true, read: true, glob: true, grep: true, webfetch: true, edit: false, write: false },
+        permission: { bash: "allow", webfetch: "allow", edit: "deny" },
+        prompt:
+          "You are an HCI research subagent. Research one candidate deeply. Use `bun scripts/tools/exa.ts search \"query\" --num 8 --json` for web search and `bun scripts/tools/grok.ts \"prompt\" --json` when useful for broad leads. Return concise, sourced findings only; do not edit files.",
+      },
+      "hci-image-subagent": {
+        mode: "subagent",
+        maxSteps: 12,
+        tools: { bash: true, webfetch: true, read: true, glob: true, edit: false, write: false },
+        permission: { bash: "allow", webfetch: "allow", edit: "deny" },
+        prompt:
+          "You are an HCI media/source subagent. Find plausible public source pages and image leads for one artifact. Return URLs and licensing/source notes; do not download or edit files.",
+      },
       "hci-scout": {
         mode: "primary",
         maxSteps: 14,
@@ -206,7 +240,7 @@ async function getOpencode(): Promise<OpencodeInstance> {
 export async function opencodeText(options: {
   title: string;
   model: ModelRef;
-  agent: "hci-scout" | "hci-researcher" | "hci-curator" | "hci-evaluator";
+  agent: string;
   system: string;
   prompt: string;
 }): Promise<string> {

@@ -24,10 +24,12 @@ import fs from "node:fs";
 import path from "node:path";
 import { envInt, fetchWithTimeout, mapLimit, withTimeout } from "./concurrency";
 import { closeOpencode, opencodeText, resolveModelRef } from "./opencode-runner";
+import { RunTrace, errorData } from "./run-trace";
 import { exhibits } from "../src/data";
 
 const POTENTIAL_DIR = "potential";
 const BLOG_DIR = "docs/blog";
+const TRACE_DIR = `${POTENTIAL_DIR}/runs`;
 const BEEPY_CHARTER = "docs/beepy.md";
 const WIKI_PATH = "docs/hci-wiki.md";
 
@@ -46,6 +48,7 @@ const CANDIDATE_LIMIT = Number(process.env.SCOUT_CANDIDATE_LIMIT ?? 4);
 const RESEARCH_CONCURRENCY = envInt("SCOUT_RESEARCH_CONCURRENCY", 3);
 const FETCH_TIMEOUT_MS = envInt("SCOUT_FETCH_TIMEOUT_MS", 20_000);
 const CANDIDATE_TIMEOUT_MS = envInt("SCOUT_CANDIDATE_TIMEOUT_MS", 300_000);
+const DRAFT_BLOGS = process.env.SCOUT_DRAFT_BLOGS === "true";
 const GROK_MODEL_REF = resolveModelRef(GROK_MODEL, GROK_PROVIDER);
 const DEEPSEEK_MODEL_REF = resolveModelRef(DEEPSEEK_MODEL, DEEPSEEK_PROVIDER);
 const OPENROUTER_MODEL_REF = resolveModelRef(OPENROUTER_MODEL, OPENROUTER_PROVIDER);
@@ -95,8 +98,15 @@ type CuratedItem = {
 
 type ResearchedItem = { candidate: Candidate; research: ResearchResult; savedImages: string[] };
 
+let runTrace: RunTrace | undefined;
+
+function trace(phase: string, message: string, data?: unknown) {
+  runTrace?.add(phase, message, data);
+}
+
 function die(msg: string): never {
   console.error(`scout: ${msg}`);
+  runTrace?.printRecent();
   process.exit(1);
 }
 
@@ -251,6 +261,7 @@ async function downloadFile(url: string, dest: string): Promise<boolean> {
 
 async function scoutAgent(topic: string, existing: ExistingExhibit[]): Promise<Candidate[]> {
   console.log(`scout agent: broad search for "${topic}"...`);
+  trace("scout", "starting broad candidate search", { topic, discoveryCount: DISCOVERY_COUNT });
   const prompt = `You are a sharp-eyed museum scout hunting for obscure or semi-obscure human-computer interaction hardware from roughly 1976 to 1992.
 
 Topic: "${topic}"
@@ -302,6 +313,7 @@ Example:
       search_terms: Array.isArray(terms) ? (terms as unknown[]).map((t) => String(t)) : [title],
     });
   }
+  trace("scout", "broad candidate search complete", { count: candidates.length, candidates: candidates.map((c) => c.title) });
   return candidates;
 }
 
@@ -321,6 +333,7 @@ function dedupeAgent(candidates: Candidate[], existing: ExistingExhibit[]): Cand
 
 async function researchAgent(candidate: Candidate): Promise<ResearchResult> {
   console.log(`research agent: ${candidate.title}`);
+  trace("research", "starting candidate research", { slug: candidate.slug, title: candidate.title, year: candidate.year });
   const query = candidate.search_terms[0] ?? candidate.title;
 
   const [exaSources, wikiTitle] = await Promise.all([
@@ -397,7 +410,7 @@ Rules:
   });
   const result = extractJsonObject(raw);
 
-  return {
+  const research = {
     title: String(result.title ?? candidate.title),
     year: String(result.year ?? candidate.year),
     by: result.by ? String(result.by) : undefined,
@@ -427,6 +440,15 @@ Rules:
       ? (result.imageUrls as unknown[]).map((u) => String(u)).filter(isImageUrl)
       : allImageUrls,
   };
+  trace("research", "candidate research model returned", {
+    slug: candidate.slug,
+    title: candidate.title,
+    sources: research.sources.length,
+    imageUrls: research.imageUrls.length,
+    team: research.team.length,
+    deepDive: research.deepDive.length,
+  });
+  return research;
 }
 
 async function downloadCandidateImages(slug: string, imageUrls: string[]): Promise<string[]> {
@@ -453,6 +475,7 @@ async function saveResearch(slug: string, candidate: Candidate, research: Resear
   };
   await Bun.write(path.join(dir, "info.json"), JSON.stringify(info, null, 2));
   console.log(`  saved potential/${slug}/ (${savedImages.length} images)`);
+  trace("research", "saved candidate bundle", { slug, title: candidate.title, savedImages });
 }
 
 async function curatorAgent(
@@ -460,6 +483,11 @@ async function curatorAgent(
   charter: string,
 ): Promise<CuratedItem[]> {
   console.log(`curator agent (Beepy / ${OPENROUTER_MODEL}): reviewing ${items.length} candidates...`);
+  trace("curator", "starting curator review", {
+    count: items.length,
+    draftBlogs: DRAFT_BLOGS,
+    candidates: items.map((item) => item.candidate.title),
+  });
 
   const prompt = `You are Beepy, curator of the HCI Museum.
 
@@ -469,8 +497,9 @@ Review these researched candidates. The museum is looking to add about ${TARGET_
 - decision: "blog" if it deserves a Field Notes blog post, "archive" if interesting but not worth a post right now, "reject" if it doesn't fit.
 - score: 0-100 overall curatorial score.
 - reasoning: one sentence of Beepy-style curatorial reasoning.
-- blogMarkdown: if decision is "blog", the full markdown post with frontmatter. Otherwise empty string.
+- blogMarkdown: ${DRAFT_BLOGS ? 'if decision is "blog", the full markdown post with frontmatter. Otherwise empty string.' : 'always an empty string. Do not draft blog prose in this run.'}
 
+${DRAFT_BLOGS ? `
 The blog post must start with this exact frontmatter:
 ---
 title: "Object Title"
@@ -481,7 +510,7 @@ slug: "object-slug"
 ---
 
 Use internal links like [Object](../exhibits/object-slug/) if you mention other exhibits.
-Tone: specific, warm, honest that you are an AI curator, no gushing, 400-700 words.
+Tone: specific, warm, honest that you are an AI curator, no gushing, 400-700 words.` : "Keep this fast: return compact JSON decisions only."}
 
 Candidates:
 ${JSON.stringify(
@@ -518,6 +547,7 @@ Return ONLY a JSON array:
     prompt,
   });
   const decisions = extractJsonArray(raw);
+  trace("curator", "curator review returned", { decisions: decisions.length });
 
   const curated: CuratedItem[] = [];
   for (const d of decisions) {
@@ -535,7 +565,24 @@ Return ONLY a JSON array:
     });
   }
 
-  return curated.sort((a, b) => b.score - a.score);
+  const sorted = curated.sort((a, b) => b.score - a.score);
+  trace("curator", "parsed curator decisions", {
+    decisions: sorted.map((item) => ({ slug: item.candidate.slug, decision: item.decision, score: item.score })),
+  });
+  return sorted;
+}
+
+function fallbackCuratedItems(items: ResearchedItem[], error: unknown): CuratedItem[] {
+  trace("curator", "curator review failed; using archive fallback", { error: errorData(error) });
+  console.warn(`curator agent failed; saving researched candidates as archive/pending review: ${error}`);
+  return items.map((item) => ({
+    candidate: item.candidate,
+    research: item.research,
+    score: 50,
+    decision: "archive",
+    reasoning: `Curator review failed or timed out; saved research bundle for manual Beepy review. Error: ${error instanceof Error ? error.message : String(error)}`,
+    blogMarkdown: "",
+  }));
 }
 
 async function main() {
@@ -546,40 +593,85 @@ async function main() {
 
   fs.mkdirSync(POTENTIAL_DIR, { recursive: true });
   fs.mkdirSync(BLOG_DIR, { recursive: true });
+  runTrace = new RunTrace(TRACE_DIR, topic);
 
   console.log(`scout: topic = "${topic}"`);
   console.log(
     `scout: models = grok:${GROK_MODEL_REF.providerID}/${GROK_MODEL_REF.modelID}, deepseek:${DEEPSEEK_MODEL_REF.providerID}/${DEEPSEEK_MODEL_REF.modelID}, openrouter:${OPENROUTER_MODEL_REF.providerID}/${OPENROUTER_MODEL_REF.modelID}`,
   );
+  console.log(`scout: trace = ${runTrace.jsonPath}`);
+  trace("run", "starting scout run", {
+    topic,
+    discoveryCount: DISCOVERY_COUNT,
+    candidateLimit: CANDIDATE_LIMIT,
+    researchConcurrency: RESEARCH_CONCURRENCY,
+    fetchTimeoutMs: FETCH_TIMEOUT_MS,
+    candidateTimeoutMs: CANDIDATE_TIMEOUT_MS,
+    draftBlogs: DRAFT_BLOGS,
+    models: {
+      grok: GROK_MODEL_REF,
+      deepseek: DEEPSEEK_MODEL_REF,
+      openrouter: OPENROUTER_MODEL_REF,
+    },
+  });
 
   const rawCandidates = await scoutAgent(topic, existing);
   console.log(`scout: ${rawCandidates.length} raw candidates`);
+  trace("scout", "raw candidates", { count: rawCandidates.length, candidates: rawCandidates });
 
   const novel = dedupeAgent(rawCandidates, existing);
   const selected = novel.slice(0, Math.max(1, CANDIDATE_LIMIT));
   console.log(`scout: ${novel.length} after de-dupe; researching ${selected.length}`);
+  trace("dedupe", "selected candidates for research", {
+    novelCount: novel.length,
+    selectedCount: selected.length,
+    selected: selected.map((candidate) => ({ slug: candidate.slug, title: candidate.title, year: candidate.year })),
+  });
 
   console.log(`scout: researching ${selected.length} candidates with concurrency=${RESEARCH_CONCURRENCY}`);
   const maybeResearched = await mapLimit(selected, RESEARCH_CONCURRENCY, async (candidate, i): Promise<ResearchedItem | undefined> => {
     console.log(`[${i + 1}/${selected.length}] start ${candidate.title}`);
+    trace("research", "candidate job started", { index: i + 1, total: selected.length, slug: candidate.slug, title: candidate.title });
     try {
       return await withTimeout(`candidate ${candidate.title}`, CANDIDATE_TIMEOUT_MS, async () => {
         const research = await researchAgent(candidate);
         const savedImages = await downloadCandidateImages(candidate.slug, research.imageUrls);
         await saveResearch(candidate.slug, candidate, research, savedImages);
         console.log(`[${i + 1}/${selected.length}] done ${candidate.title}`);
+        trace("research", "candidate job completed", {
+          index: i + 1,
+          total: selected.length,
+          slug: candidate.slug,
+          title: candidate.title,
+          savedImageCount: savedImages.length,
+        });
         return { candidate, research, savedImages };
       });
     } catch (error) {
       console.warn(`[${i + 1}/${selected.length}] skipped ${candidate.title}: ${error}`);
+      trace("research", "candidate job skipped", {
+        index: i + 1,
+        total: selected.length,
+        slug: candidate.slug,
+        title: candidate.title,
+        error: errorData(error),
+      });
       return undefined;
     }
   });
   const researched = maybeResearched.filter((item): item is ResearchedItem => Boolean(item));
   if (!researched.length) die("all candidate research jobs failed or timed out");
+  trace("research", "research phase complete", {
+    researchedCount: researched.length,
+    researched: researched.map((item) => ({ slug: item.candidate.slug, title: item.candidate.title, savedImages: item.savedImages.length })),
+  });
 
-  const curated = await curatorAgent(researched, charter);
+  const curated = await curatorAgent(researched, charter).catch((error) => fallbackCuratedItems(researched, error));
   console.log(`scout: ${curated.filter((c) => c.decision === "blog").length} blog posts selected`);
+  trace("curator", "curation phase complete", {
+    blogPosts: curated.filter((c) => c.decision === "blog").length,
+    decisions: curated.map((c) => ({ slug: c.candidate.slug, title: c.candidate.title, decision: c.decision, score: c.score })),
+  });
 
   for (const c of curated) {
     console.log(`  [${c.decision}] ${c.candidate.title} (${c.score}) — ${c.reasoning}`);
@@ -587,6 +679,7 @@ async function main() {
       const outPath = path.join(BLOG_DIR, `${c.candidate.slug}.md`);
       await Bun.write(outPath, c.blogMarkdown);
       console.log(`    wrote ${outPath}`);
+      trace("write", "wrote blog post", { path: outPath, slug: c.candidate.slug, title: c.candidate.title });
     }
     const curatedPath = path.join(POTENTIAL_DIR, c.candidate.slug, "curated.json");
     await Bun.write(
@@ -601,14 +694,18 @@ async function main() {
         2,
       ),
     );
+    trace("write", "wrote curation decision", { path: curatedPath, slug: c.candidate.slug, decision: c.decision, score: c.score });
   }
 
+  trace("run", "scout run complete");
   await closeOpencode();
   console.log("scout: done.");
 }
 
 main().catch((e) => {
   console.error(e);
+  trace("fatal", "scout run failed", { error: errorData(e) });
+  runTrace?.printRecent();
   void closeOpencode();
   process.exit(1);
 });

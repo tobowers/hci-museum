@@ -10,44 +10,11 @@ on:
       topic:
         description: Research topic for the scout run
         required: true
-        default: obscure HCI hardware 1976-1992
-      discovery_count:
-        description: Number of broad candidates to ask Grok for
-        required: true
-        default: "12"
-      candidate_limit:
-        description: Number of de-duped candidates to research end-to-end
-        required: true
-        default: "4"
-      target_count:
-        description: Approximate number of objects Beepy should select
-        required: true
-        default: "4"
-      research_concurrency:
-        description: Parallel candidate research jobs
-        required: true
-        default: "3"
-      eval_concurrency:
-        description: Parallel eval jobs
-        required: true
-        default: "4"
+        default: research, review, and add about 3 more weird HCI interface artifacts from 1976-1992
       agent_timeout_ms:
-        description: Max time for one opencode/model call
+        description: Max time for the opencode agent run
         required: true
-        default: "180000"
-      candidate_timeout_ms:
-        description: Max time for one candidate research/download job
-        required: true
-        default: "300000"
-      fetch_timeout_ms:
-        description: Max time for one Exa/Wikipedia/page/image fetch
-        required: true
-        default: "20000"
-      run_eval:
-        description: Run LLM eval after scout
-        required: true
-        type: boolean
-        default: false
+        default: "600000"
       create_pr:
         description: Open a PR with generated scout output
         required: true
@@ -67,14 +34,7 @@ jobs:
       GROK_MODEL: grok-4.3
       DEEPSEEK_MODEL: deepseek-v4-pro
       OPENROUTER_MODEL: z-ai/glm-5.2
-      SCOUT_DISCOVERY_COUNT: ${{ inputs.discovery_count }}
-      SCOUT_CANDIDATE_LIMIT: ${{ inputs.candidate_limit }}
-      SCOUT_TARGET_COUNT: ${{ inputs.target_count }}
-      SCOUT_RESEARCH_CONCURRENCY: ${{ inputs.research_concurrency }}
-      SCOUT_EVAL_CONCURRENCY: ${{ inputs.eval_concurrency }}
       SCOUT_AGENT_TIMEOUT_MS: ${{ inputs.agent_timeout_ms }}
-      SCOUT_CANDIDATE_TIMEOUT_MS: ${{ inputs.candidate_timeout_ms }}
-      SCOUT_FETCH_TIMEOUT_MS: ${{ inputs.fetch_timeout_ms }}
     steps:
       - name: Checkout
         uses: actions/checkout@v4
@@ -94,9 +54,8 @@ jobs:
       - name: Run curator scout
         run: bun run scout -- "${{ inputs.topic }}"
 
-      - name: Run scout eval
-        if: ${{ inputs.run_eval }}
-        run: bun run scout:eval
+      - name: Typecheck generated collection
+        run: bun run typecheck
 
       - name: Build site with generated notes
         run: bun run build
@@ -109,8 +68,12 @@ jobs:
         with:
           name: curator-scout-output
           path: |
+            assets/wiki/
+            docs/beepy-memory.md
+            docs/hci-wiki.md
             potential/
             docs/blog/
+            src/data.ts
             public/
 
       - name: Create scout output pull request
@@ -127,5 +90,9 @@ jobs:
 
             Review the generated Field Notes and potential research bundles before merging.
           add-paths: |
+            assets/wiki
+            docs/beepy-memory.md
             docs/blog
+            docs/hci-wiki.md
             potential
+            src/data.ts
