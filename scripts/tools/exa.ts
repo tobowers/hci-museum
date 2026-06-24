@@ -1,9 +1,11 @@
 #!/usr/bin/env bun
 
+import { envInt, fetchWithTimeout } from "../concurrency";
+
 const ENDPOINT = "https://api.exa.ai/search";
 
 function usage(): never {
-  console.error('usage: bun scripts/tools/exa.ts search "query" [--num 10] [--json]');
+  console.error('usage: bun scripts/tools/exa.ts search "query" [--num 10] [--timeout-ms 20000] [--json]');
   process.exit(1);
 }
 
@@ -25,12 +27,13 @@ async function main() {
   if (!apiKey) throw new Error("EXA_API_KEY missing");
 
   const numResults = Number(argValue(args, "--num") ?? 10);
+  const timeoutMs = Number(argValue(args, "--timeout-ms") ?? envInt("SCOUT_FETCH_TIMEOUT_MS", 20_000));
   const json = args.includes("--json");
-  const res = await fetch(ENDPOINT, {
+  const res = await fetchWithTimeout(ENDPOINT, {
     method: "POST",
     headers: { Authorization: `Bearer ${apiKey}`, "Content-Type": "application/json" },
     body: JSON.stringify({ query, numResults, type: "auto" }),
-  });
+  }, timeoutMs);
   if (!res.ok) throw new Error(`Exa search failed: ${res.status} ${res.statusText}\n${await res.text()}`);
 
   const data = (await res.json()) as { results?: { title?: string; url?: string; text?: string }[] };

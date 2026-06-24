@@ -27,6 +27,18 @@ on:
         description: Parallel eval jobs
         required: true
         default: "4"
+      agent_timeout_ms:
+        description: Max time for one opencode/model call
+        required: true
+        default: "180000"
+      candidate_timeout_ms:
+        description: Max time for one candidate research/download job
+        required: true
+        default: "300000"
+      fetch_timeout_ms:
+        description: Max time for one Exa/Wikipedia/page/image fetch
+        required: true
+        default: "20000"
       run_eval:
         description: Run LLM eval after scout
         required: true
@@ -51,6 +63,9 @@ jobs:
       SCOUT_TARGET_COUNT: ${{ inputs.target_count }}
       SCOUT_RESEARCH_CONCURRENCY: ${{ inputs.research_concurrency }}
       SCOUT_EVAL_CONCURRENCY: ${{ inputs.eval_concurrency }}
+      SCOUT_AGENT_TIMEOUT_MS: ${{ inputs.agent_timeout_ms }}
+      SCOUT_CANDIDATE_TIMEOUT_MS: ${{ inputs.candidate_timeout_ms }}
+      SCOUT_FETCH_TIMEOUT_MS: ${{ inputs.fetch_timeout_ms }}
     steps:
       - name: Checkout
         uses: actions/checkout@v4

@@ -1,9 +1,11 @@
 #!/usr/bin/env bun
 
+import { envInt, fetchWithTimeout } from "../concurrency";
+
 const ENDPOINT = "https://api.x.ai/v1/chat/completions";
 
 function usage(): never {
-  console.error('usage: bun scripts/tools/grok.ts "prompt" [--system "..."] [--model grok-4.3] [--json]');
+  console.error('usage: bun scripts/tools/grok.ts "prompt" [--system "..."] [--model grok-4.3] [--timeout-ms 180000] [--json]');
   process.exit(1);
 }
 
@@ -29,8 +31,9 @@ async function main() {
 
   const system = argValue(args, "--system") ?? "You are a concise research assistant.";
   const model = argValue(args, "--model") ?? process.env.GROK_MODEL ?? "grok-4.3";
+  const timeoutMs = Number(argValue(args, "--timeout-ms") ?? envInt("SCOUT_AGENT_TIMEOUT_MS", 180_000));
   const json = args.includes("--json");
-  const res = await fetch(ENDPOINT, {
+  const res = await fetchWithTimeout(ENDPOINT, {
     method: "POST",
     headers: { Authorization: `Bearer ${apiKey}`, "Content-Type": "application/json" },
     body: JSON.stringify({
@@ -41,7 +44,7 @@ async function main() {
       ],
       temperature: 0.3,
     }),
-  });
+  }, timeoutMs);
   if (!res.ok) throw new Error(`Grok request failed: ${res.status} ${res.statusText}\n${await res.text()}`);
 
   const data = (await res.json()) as { choices?: { message?: { content?: string } }[] };

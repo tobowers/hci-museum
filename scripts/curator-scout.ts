@@ -22,7 +22,7 @@
 
 import fs from "node:fs";
 import path from "node:path";
-import { envInt, mapLimit } from "./concurrency";
+import { envInt, fetchWithTimeout, mapLimit, withTimeout } from "./concurrency";
 import { closeOpencode, opencodeText, resolveModelRef } from "./opencode-runner";
 import { exhibits } from "../src/data";
 
@@ -44,6 +44,8 @@ const DISCOVERY_COUNT = Number(process.env.SCOUT_DISCOVERY_COUNT ?? 24);
 const TARGET_COLLECTION_COUNT = Number(process.env.SCOUT_TARGET_COUNT ?? 4);
 const CANDIDATE_LIMIT = Number(process.env.SCOUT_CANDIDATE_LIMIT ?? 4);
 const RESEARCH_CONCURRENCY = envInt("SCOUT_RESEARCH_CONCURRENCY", 3);
+const FETCH_TIMEOUT_MS = envInt("SCOUT_FETCH_TIMEOUT_MS", 20_000);
+const CANDIDATE_TIMEOUT_MS = envInt("SCOUT_CANDIDATE_TIMEOUT_MS", 300_000);
 const GROK_MODEL_REF = resolveModelRef(GROK_MODEL, GROK_PROVIDER);
 const DEEPSEEK_MODEL_REF = resolveModelRef(DEEPSEEK_MODEL, DEEPSEEK_PROVIDER);
 const OPENROUTER_MODEL_REF = resolveModelRef(OPENROUTER_MODEL, OPENROUTER_PROVIDER);
@@ -91,6 +93,8 @@ type CuratedItem = {
   blogMarkdown: string;
 };
 
+type ResearchedItem = { candidate: Candidate; research: ResearchResult; savedImages: string[] };
+
 function die(msg: string): never {
   console.error(`scout: ${msg}`);
   process.exit(1);
@@ -134,7 +138,7 @@ function today(): string {
 }
 
 async function fetchJson(url: string, init?: RequestInit): Promise<unknown> {
-  const res = await fetch(url, { ...init, timeout: 20000 } as RequestInit);
+  const res = await fetchWithTimeout(url, init, FETCH_TIMEOUT_MS);
   if (!res.ok) throw new Error(`${res.status} ${res.statusText}`);
   return res.json();
 }
@@ -210,7 +214,7 @@ function resolveUrl(base: string, src: string): string {
 
 async function extractPageImages(url: string): Promise<string[]> {
   try {
-    const res = await fetch(url, { timeout: 15000 } as RequestInit);
+    const res = await fetchWithTimeout(url, undefined, FETCH_TIMEOUT_MS);
     if (!res.ok) return [];
     const html = await res.text();
     const images: string[] = [];
@@ -235,7 +239,7 @@ async function extractPageImages(url: string): Promise<string[]> {
 
 async function downloadFile(url: string, dest: string): Promise<boolean> {
   try {
-    const res = await fetch(url, { timeout: 30000 } as RequestInit);
+    const res = await fetchWithTimeout(url, undefined, FETCH_TIMEOUT_MS);
     if (!res.ok) return false;
     const buffer = await res.arrayBuffer();
     await Bun.write(dest, new Uint8Array(buffer));
@@ -556,14 +560,23 @@ async function main() {
   console.log(`scout: ${novel.length} after de-dupe; researching ${selected.length}`);
 
   console.log(`scout: researching ${selected.length} candidates with concurrency=${RESEARCH_CONCURRENCY}`);
-  const researched = await mapLimit(selected, RESEARCH_CONCURRENCY, async (candidate, i) => {
+  const maybeResearched = await mapLimit(selected, RESEARCH_CONCURRENCY, async (candidate, i): Promise<ResearchedItem | undefined> => {
     console.log(`[${i + 1}/${selected.length}] start ${candidate.title}`);
-    const research = await researchAgent(candidate);
-    const savedImages = await downloadCandidateImages(candidate.slug, research.imageUrls);
-    await saveResearch(candidate.slug, candidate, research, savedImages);
-    console.log(`[${i + 1}/${selected.length}] done ${candidate.title}`);
-    return { candidate, research, savedImages };
+    try {
+      return await withTimeout(`candidate ${candidate.title}`, CANDIDATE_TIMEOUT_MS, async () => {
+        const research = await researchAgent(candidate);
+        const savedImages = await downloadCandidateImages(candidate.slug, research.imageUrls);
+        await saveResearch(candidate.slug, candidate, research, savedImages);
+        console.log(`[${i + 1}/${selected.length}] done ${candidate.title}`);
+        return { candidate, research, savedImages };
+      });
+    } catch (error) {
+      console.warn(`[${i + 1}/${selected.length}] skipped ${candidate.title}: ${error}`);
+      return undefined;
+    }
   });
+  const researched = maybeResearched.filter((item): item is ResearchedItem => Boolean(item));
+  if (!researched.length) die("all candidate research jobs failed or timed out");
 
   const curated = await curatorAgent(researched, charter);
   console.log(`scout: ${curated.filter((c) => c.decision === "blog").length} blog posts selected`);
