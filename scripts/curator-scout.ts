@@ -3,7 +3,7 @@
  * Curator Scout — multi-agent research pipeline
  *
  * Agents:
- *   1. Scout    (Grok + Exa + Wikipedia) — broad discovery of candidate objects.
+ *   1. Scout    (Grok via opencode + Exa + Wikipedia) — broad discovery of candidate objects.
  *   2. Dedupe   — filter out objects already in the museum.
  *   3. Research (DeepSeek V4) — deep-dive each candidate, find multiple images,
  *      build a rich info.json matching the museum's wiki format.
@@ -15,15 +15,14 @@
  *   bun scripts/curator-scout.ts "early 1990s wearable computers"
  *
  * Env overrides:
- *   GROK_MODEL=grok-3-latest
+ *   GROK_MODEL=grok-4.3
  *   DEEPSEEK_MODEL=deepseek-v4-pro
  *   OPENROUTER_MODEL=z-ai/glm-5.2
  */
 
 import fs from "node:fs";
 import path from "node:path";
-import { generateText } from "ai";
-import { createOpenAI } from "@ai-sdk/openai";
+import { closeOpencode, opencodeText, resolveModelRef } from "./opencode-runner";
 import { exhibits } from "../src/data";
 
 const POTENTIAL_DIR = "potential";
@@ -34,11 +33,17 @@ const WIKI_PATH = "docs/hci-wiki.md";
 const EXA_ENDPOINT = "https://api.exa.ai/search";
 const WIKI_API = "https://en.wikipedia.org/w/api.php";
 
-const GROK_MODEL = process.env.GROK_MODEL ?? "grok-3-latest";
+const GROK_MODEL = process.env.GROK_MODEL ?? "grok-4.3";
 const DEEPSEEK_MODEL = process.env.DEEPSEEK_MODEL ?? "deepseek-v4-pro";
 const OPENROUTER_MODEL = process.env.OPENROUTER_MODEL ?? "z-ai/glm-5.2";
+const GROK_PROVIDER = process.env.GROK_PROVIDER ?? "xai";
+const DEEPSEEK_PROVIDER = process.env.DEEPSEEK_PROVIDER ?? "deepseek";
+const OPENROUTER_PROVIDER = process.env.OPENROUTER_PROVIDER ?? "openrouter";
 const DISCOVERY_COUNT = Number(process.env.SCOUT_DISCOVERY_COUNT ?? 24);
 const TARGET_COLLECTION_COUNT = Number(process.env.SCOUT_TARGET_COUNT ?? 15);
+const GROK_MODEL_REF = resolveModelRef(GROK_MODEL, GROK_PROVIDER);
+const DEEPSEEK_MODEL_REF = resolveModelRef(DEEPSEEK_MODEL, DEEPSEEK_PROVIDER);
+const OPENROUTER_MODEL_REF = resolveModelRef(OPENROUTER_MODEL, OPENROUTER_PROVIDER);
 
 type ExistingExhibit = {
   slug: string;
@@ -89,39 +94,11 @@ function die(msg: string): never {
 }
 
 function loadEnv() {
-  const required = ["EXA_API_KEY", "GROK_API_KEY", "DEEPSEEK_API_KEY", "OPENROUTER_API_KEY"];
+  const required = ["EXA_API_KEY", "DEEPSEEK_API_KEY", "OPENROUTER_API_KEY"];
   for (const key of required) {
     if (!process.env[key]) die(`${key} missing. run: source .env`);
   }
-}
-
-const grokProvider = createOpenAI({
-  baseURL: "https://api.x.ai/v1",
-  apiKey: process.env.GROK_API_KEY!,
-});
-
-const deepseekProvider = createOpenAI({
-  baseURL: "https://api.deepseek.com",
-  apiKey: process.env.DEEPSEEK_API_KEY!,
-});
-
-const openrouterProvider = createOpenAI({
-  baseURL: "https://openrouter.ai/api/v1",
-  apiKey: process.env.OPENROUTER_API_KEY!,
-  headers: {
-    "HTTP-Referer": "https://hci-museum.local",
-    "X-Title": "HCI Museum Curator Scout",
-  },
-});
-
-async function aiChat(provider: ReturnType<typeof createOpenAI>, model: string, system: string, prompt: string) {
-  const { text } = await generateText({
-    model: provider.chat(model),
-    system,
-    prompt,
-    temperature: 0.8,
-  });
-  return text;
+  if (!process.env.GROK_API_KEY && !process.env.XAI_API_KEY) die("GROK_API_KEY or XAI_API_KEY missing. run: source .env");
 }
 
 async function loadBeepyCharter(): Promise<string> {
@@ -293,7 +270,13 @@ Example:
     "search_terms": ["Handykey Twiddler", "Twiddler chord keyboard 1992"]
   }
 ]`;
-  const raw = await aiChat(grokProvider, GROK_MODEL, "You are an HCI museum scout.", prompt);
+  const raw = await opencodeText({
+    title: `HCI scout: ${topic}`,
+    model: GROK_MODEL_REF,
+    agent: "hci-scout",
+    system: "You are an HCI museum scout. Return only valid JSON when requested.",
+    prompt,
+  });
   const items = extractJsonArray(raw);
   const seen = new Set<string>();
   const candidates: Candidate[] = [];
@@ -398,7 +381,13 @@ Rules:
 - If a fact is uncertain, say so.
 - Do not invent people or dates.`;
 
-  const raw = await aiChat(deepseekProvider, DEEPSEEK_MODEL, "You are a meticulous HCI research assistant.", prompt);
+  const raw = await opencodeText({
+    title: `HCI research: ${candidate.title}`,
+    model: DEEPSEEK_MODEL_REF,
+    agent: "hci-researcher",
+    system: "You are a meticulous HCI research assistant. Return only valid JSON when requested.",
+    prompt,
+  });
   const result = extractJsonObject(raw);
 
   return {
@@ -514,12 +503,13 @@ Return ONLY a JSON array:
   }
 ]`;
 
-  const raw = await aiChat(
-    openrouterProvider,
-    OPENROUTER_MODEL,
-    "You are Beepy, curator of the HCI Museum.",
+  const raw = await opencodeText({
+    title: "HCI curator review",
+    model: OPENROUTER_MODEL_REF,
+    agent: "hci-curator",
+    system: "You are Beepy, curator of the HCI Museum. Return only valid JSON when requested.",
     prompt,
-  );
+  });
   const decisions = extractJsonArray(raw);
 
   const curated: CuratedItem[] = [];
@@ -551,7 +541,9 @@ async function main() {
   fs.mkdirSync(BLOG_DIR, { recursive: true });
 
   console.log(`scout: topic = "${topic}"`);
-  console.log(`scout: models = grok:${GROK_MODEL}, deepseek:${DEEPSEEK_MODEL}, openrouter:${OPENROUTER_MODEL}`);
+  console.log(
+    `scout: models = grok:${GROK_MODEL_REF.providerID}/${GROK_MODEL_REF.modelID}, deepseek:${DEEPSEEK_MODEL_REF.providerID}/${DEEPSEEK_MODEL_REF.modelID}, openrouter:${OPENROUTER_MODEL_REF.providerID}/${OPENROUTER_MODEL_REF.modelID}`,
+  );
 
   const rawCandidates = await scoutAgent(topic, existing);
   console.log(`scout: ${rawCandidates.length} raw candidates`);
@@ -595,10 +587,12 @@ async function main() {
     );
   }
 
+  await closeOpencode();
   console.log("scout: done.");
 }
 
 main().catch((e) => {
   console.error(e);
+  void closeOpencode();
   process.exit(1);
 });

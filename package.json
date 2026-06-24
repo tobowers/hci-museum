@@ -7,6 +7,8 @@
     "dev": "bun --hot src/server.ts",
     "start": "bun src/server.ts",
     "build": "bun scripts/build-site.ts",
+    "scout": "bun scripts/curator-scout.ts",
+    "scout:eval": "bun scripts/eval-curator-scout.ts",
     "typecheck": "tsc --noEmit"
   },
   "devDependencies": {

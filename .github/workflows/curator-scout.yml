@@ -1,0 +1,72 @@
+name: Curator Scout
+
+on:
+  workflow_dispatch:
+    inputs:
+      topic:
+        description: Research topic for the scout run
+        required: true
+        default: obscure HCI hardware 1976-1992
+      discovery_count:
+        description: Number of broad candidates to ask Grok for
+        required: true
+        default: "24"
+      target_count:
+        description: Approximate number of objects Beepy should select
+        required: true
+        default: "15"
+      run_eval:
+        description: Run LLM eval after scout
+        required: true
+        type: boolean
+        default: false
+
+jobs:
+  scout:
+    runs-on: ubuntu-latest
+    timeout-minutes: 90
+    env:
+      EXA_API_KEY: ${{ secrets.EXA_API_KEY }}
+      GROK_API_KEY: ${{ secrets.GROK_API_KEY }}
+      XAI_API_KEY: ${{ secrets.XAI_API_KEY }}
+      DEEPSEEK_API_KEY: ${{ secrets.DEEPSEEK_API_KEY }}
+      OPENROUTER_API_KEY: ${{ secrets.OPENROUTER_API_KEY }}
+      GROK_MODEL: grok-4.3
+      DEEPSEEK_MODEL: deepseek-v4-pro
+      OPENROUTER_MODEL: z-ai/glm-5.2
+      SCOUT_DISCOVERY_COUNT: ${{ inputs.discovery_count }}
+      SCOUT_TARGET_COUNT: ${{ inputs.target_count }}
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Bun
+        uses: oven-sh/setup-bun@v2
+
+      - name: Install opencode CLI
+        run: bun add --global opencode-ai@1.17.9
+
+      - name: Install dependencies
+        run: bun install --frozen-lockfile
+
+      - name: Typecheck
+        run: bun run typecheck
+
+      - name: Run curator scout
+        run: bun run scout -- "${{ inputs.topic }}"
+
+      - name: Run scout eval
+        if: ${{ inputs.run_eval }}
+        run: bun run scout:eval
+
+      - name: Build site with generated notes
+        run: bun run build
+
+      - name: Upload scout artifacts
+        uses: actions/upload-artifact@v4
+        with:
+          name: curator-scout-output
+          path: |
+            potential/
+            docs/blog/
+            public/

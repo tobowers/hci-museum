@@ -19,8 +19,7 @@
 
 import fs from "node:fs";
 import path from "node:path";
-import { generateText } from "ai";
-import { createOpenAI } from "@ai-sdk/openai";
+import { closeOpencode, opencodeText, resolveModelRef } from "./opencode-runner";
 import { exhibits } from "../src/data";
 
 const POTENTIAL_DIR = "potential";
@@ -30,6 +29,10 @@ const BEEPY_CHARTER = "docs/beepy.md";
 
 const EVAL_RESEARCH_MODEL = process.env.EVAL_RESEARCH_MODEL ?? "z-ai/glm-5.2";
 const EVAL_CURATION_MODEL = process.env.EVAL_CURATION_MODEL ?? "deepseek-v4-pro";
+const EVAL_RESEARCH_PROVIDER = process.env.EVAL_RESEARCH_PROVIDER ?? "openrouter";
+const EVAL_CURATION_PROVIDER = process.env.EVAL_CURATION_PROVIDER ?? "deepseek";
+const EVAL_RESEARCH_MODEL_REF = resolveModelRef(EVAL_RESEARCH_MODEL, EVAL_RESEARCH_PROVIDER);
+const EVAL_CURATION_MODEL_REF = resolveModelRef(EVAL_CURATION_MODEL, EVAL_CURATION_PROVIDER);
 
 type ScoutInfo = {
   slug: string;
@@ -223,27 +226,11 @@ function deterministicCurationEval(info: ScoutInfo, curated?: Curated, blogMarkd
   };
 }
 
-function openrouterProvider() {
-  return createOpenAI({
-    baseURL: "https://openrouter.ai/api/v1",
-    apiKey: process.env.OPENROUTER_API_KEY!,
-    headers: {
-      "HTTP-Referer": "https://hci-museum.local",
-      "X-Title": "HCI Museum Scout Eval",
-    },
-  });
-}
-
-function deepseekProvider() {
-  return createOpenAI({
-    baseURL: "https://api.deepseek.com",
-    apiKey: process.env.DEEPSEEK_API_KEY!,
-  });
-}
-
 async function judgeResearchWithBeepy(info: ScoutInfo, charter: string): Promise<{ score: number; findings: string[] }> {
-  const { text } = await generateText({
-    model: openrouterProvider().chat(EVAL_RESEARCH_MODEL),
+  const text = await opencodeText({
+    title: `Eval research: ${info.title}`,
+    model: EVAL_RESEARCH_MODEL_REF,
+    agent: "hci-evaluator",
     system: charter,
     prompt: `Evaluate the RESEARCH/DOWNLOAD side for this HCI Museum candidate. Do not judge prose polish; judge whether the research bundle gives Beepy enough factual material to curate from.
 
@@ -259,7 +246,6 @@ Return ONLY JSON: {"score": number, "findings": ["..."]}
 
 Candidate bundle:
 ${JSON.stringify(info, null, 2).slice(0, 16000)}`,
-    temperature: 0.2,
   });
   const obj = JSON.parse(text.match(/\{[\s\S]*\}/)?.[0] ?? "{}");
   return {
@@ -273,8 +259,10 @@ async function judgeCurationWithResearcher(
   curated?: Curated,
   blogMarkdown = "",
 ): Promise<{ score: number; findings: string[] }> {
-  const { text } = await generateText({
-    model: deepseekProvider().chat(EVAL_CURATION_MODEL),
+  const text = await opencodeText({
+    title: `Eval curation: ${info.title}`,
+    model: EVAL_CURATION_MODEL_REF,
+    agent: "hci-evaluator",
     system: "You are a strict evaluator of factual museum writing and editorial judgment.",
     prompt: `Evaluate the CURATION/WRITEUP side for this HCI Museum candidate.
 
@@ -296,7 +284,6 @@ ${JSON.stringify(curated ?? {}, null, 2)}
 
 Blog markdown:
 ${blogMarkdown.slice(0, 10000)}`,
-    temperature: 0.2,
   });
   const obj = JSON.parse(text.match(/\{[\s\S]*\}/)?.[0] ?? "{}");
   return {
@@ -400,9 +387,11 @@ async function main() {
     if (result) results.push(result);
   }
   writeReports(results);
+  await closeOpencode();
 }
 
-main().catch((e) => {
+main().catch(async (e) => {
   console.error(e);
+  await closeOpencode();
   process.exit(1);
 });

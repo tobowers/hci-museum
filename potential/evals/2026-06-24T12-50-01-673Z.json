@@ -1,0 +1,493 @@
+[
+  {
+    "slug": "gridpad-100",
+    "title": "GRiDPad 100",
+    "research": {
+      "deterministicScore": 61,
+      "finalScore": 61,
+      "checks": {
+        "hasOverview": true,
+        "deepDiveCount": 5,
+        "teamCount": 2,
+        "sourceCount": 6,
+        "discoveredImageCount": 3,
+        "savedImageCount": 3,
+        "hasByline": true,
+        "hasTags": true,
+        "duplicate": "GRiDPad 100"
+      },
+      "findings": [
+        "Likely duplicate of existing exhibit: GRiDPad 100."
+      ]
+    },
+    "curation": {
+      "deterministicScore": 2,
+      "finalScore": 2,
+      "checks": {
+        "decision": "reject",
+        "curatorScore": 0,
+        "hasReasoning": false,
+        "hasBlog": false,
+        "frontmatterTitle": "",
+        "frontmatterAuthor": "",
+        "frontmatterSlug": "",
+        "wordCount": 0,
+        "mentionsTitle": false,
+        "mentionsYear": false,
+        "stale2025": false,
+        "brokenRelativeExhibitLink": false
+      },
+      "findings": [
+        "Missing curated.json.",
+        "Curation decision lacks reasoning."
+      ]
+    }
+  },
+  {
+    "slug": "heathkit-hero-1",
+    "title": "Heathkit HERO 1",
+    "research": {
+      "deterministicScore": 65,
+      "finalScore": 65,
+      "checks": {
+        "hasOverview": true,
+        "deepDiveCount": 5,
+        "teamCount": 2,
+        "sourceCount": 6,
+        "discoveredImageCount": 4,
+        "savedImageCount": 4,
+        "hasByline": true,
+        "hasTags": true,
+        "duplicate": "Heathkit HERO 1"
+      },
+      "findings": [
+        "Likely duplicate of existing exhibit: Heathkit HERO 1."
+      ]
+    },
+    "curation": {
+      "deterministicScore": 2,
+      "finalScore": 2,
+      "checks": {
+        "decision": "reject",
+        "curatorScore": 0,
+        "hasReasoning": false,
+        "hasBlog": false,
+        "frontmatterTitle": "",
+        "frontmatterAuthor": "",
+        "frontmatterSlug": "",
+        "wordCount": 0,
+        "mentionsTitle": false,
+        "mentionsYear": false,
+        "stale2025": false,
+        "brokenRelativeExhibitLink": false
+      },
+      "findings": [
+        "Missing curated.json.",
+        "Curation decision lacks reasoning."
+      ]
+    }
+  },
+  {
+    "slug": "hp-150-touchscreen",
+    "title": "HP-150 Touchscreen",
+    "research": {
+      "deterministicScore": 51,
+      "finalScore": 51,
+      "checks": {
+        "hasOverview": true,
+        "deepDiveCount": 5,
+        "teamCount": 1,
+        "sourceCount": 5,
+        "discoveredImageCount": 3,
+        "savedImageCount": 3,
+        "hasByline": true,
+        "hasTags": true,
+        "duplicate": "HP-150 Touchscreen"
+      },
+      "findings": [
+        "Team/pioneer coverage is thin.",
+        "Likely duplicate of existing exhibit: HP-150 Touchscreen."
+      ]
+    },
+    "curation": {
+      "deterministicScore": 2,
+      "finalScore": 2,
+      "checks": {
+        "decision": "reject",
+        "curatorScore": 0,
+        "hasReasoning": false,
+        "hasBlog": false,
+        "frontmatterTitle": "",
+        "frontmatterAuthor": "",
+        "frontmatterSlug": "",
+        "wordCount": 0,
+        "mentionsTitle": false,
+        "mentionsYear": false,
+        "stale2025": false,
+        "brokenRelativeExhibitLink": false
+      },
+      "findings": [
+        "Missing curated.json.",
+        "Curation decision lacks reasoning."
+      ]
+    }
+  },
+  {
+    "slug": "koalapad",
+    "title": "KoalaPad",
+    "research": {
+      "deterministicScore": 65,
+      "finalScore": 65,
+      "checks": {
+        "hasOverview": true,
+        "deepDiveCount": 5,
+        "teamCount": 2,
+        "sourceCount": 5,
+        "discoveredImageCount": 5,
+        "savedImageCount": 5,
+        "hasByline": true,
+        "hasTags": true,
+        "duplicate": "KoalaPad"
+      },
+      "findings": [
+        "Likely duplicate of existing exhibit: KoalaPad."
+      ]
+    },
+    "curation": {
+      "deterministicScore": 2,
+      "finalScore": 2,
+      "checks": {
+        "decision": "reject",
+        "curatorScore": 0,
+        "hasReasoning": false,
+        "hasBlog": false,
+        "frontmatterTitle": "",
+        "frontmatterAuthor": "",
+        "frontmatterSlug": "",
+        "wordCount": 0,
+        "mentionsTitle": false,
+        "mentionsYear": false,
+        "stale2025": false,
+        "brokenRelativeExhibitLink": false
+      },
+      "findings": [
+        "Missing curated.json.",
+        "Curation decision lacks reasoning."
+      ]
+    }
+  },
+  {
+    "slug": "microwriter",
+    "title": "Microwriter",
+    "research": {
+      "deterministicScore": 67,
+      "finalScore": 67,
+      "checks": {
+        "hasOverview": true,
+        "deepDiveCount": 5,
+        "teamCount": 3,
+        "sourceCount": 6,
+        "discoveredImageCount": 5,
+        "savedImageCount": 3,
+        "hasByline": true,
+        "hasTags": true,
+        "duplicate": "Microwriter"
+      },
+      "findings": [
+        "Likely duplicate of existing exhibit: Microwriter."
+      ]
+    },
+    "curation": {
+      "deterministicScore": 2,
+      "finalScore": 2,
+      "checks": {
+        "decision": "reject",
+        "curatorScore": 0,
+        "hasReasoning": false,
+        "hasBlog": false,
+        "frontmatterTitle": "",
+        "frontmatterAuthor": "",
+        "frontmatterSlug": "",
+        "wordCount": 0,
+        "mentionsTitle": false,
+        "mentionsYear": false,
+        "stale2025": false,
+        "brokenRelativeExhibitLink": false
+      },
+      "findings": [
+        "Missing curated.json.",
+        "Curation decision lacks reasoning."
+      ]
+    }
+  },
+  {
+    "slug": "nintendo-d-pad-controller",
+    "title": "Nintendo D-pad controller",
+    "research": {
+      "deterministicScore": 71,
+      "finalScore": 71,
+      "checks": {
+        "hasOverview": true,
+        "deepDiveCount": 5,
+        "teamCount": 3,
+        "sourceCount": 7,
+        "discoveredImageCount": 3,
+        "savedImageCount": 3,
+        "hasByline": true,
+        "hasTags": true,
+        "duplicate": "Nintendo D-pad controller"
+      },
+      "findings": [
+        "Likely duplicate of existing exhibit: Nintendo D-pad controller."
+      ]
+    },
+    "curation": {
+      "deterministicScore": 2,
+      "finalScore": 2,
+      "checks": {
+        "decision": "reject",
+        "curatorScore": 0,
+        "hasReasoning": false,
+        "hasBlog": false,
+        "frontmatterTitle": "",
+        "frontmatterAuthor": "",
+        "frontmatterSlug": "",
+        "wordCount": 0,
+        "mentionsTitle": false,
+        "mentionsYear": false,
+        "stale2025": false,
+        "brokenRelativeExhibitLink": false
+      },
+      "findings": [
+        "Missing curated.json.",
+        "Curation decision lacks reasoning."
+      ]
+    }
+  },
+  {
+    "slug": "polhemus-isotrak",
+    "title": "Polhemus Isotrak",
+    "research": {
+      "deterministicScore": 57,
+      "finalScore": 57,
+      "checks": {
+        "hasOverview": true,
+        "deepDiveCount": 5,
+        "teamCount": 2,
+        "sourceCount": 5,
+        "discoveredImageCount": 3,
+        "savedImageCount": 3,
+        "hasByline": true,
+        "hasTags": true,
+        "duplicate": "Polhemus 3Space Isotrak"
+      },
+      "findings": [
+        "Likely duplicate of existing exhibit: Polhemus 3Space Isotrak."
+      ]
+    },
+    "curation": {
+      "deterministicScore": 2,
+      "finalScore": 2,
+      "checks": {
+        "decision": "reject",
+        "curatorScore": 0,
+        "hasReasoning": false,
+        "hasBlog": false,
+        "frontmatterTitle": "",
+        "frontmatterAuthor": "",
+        "frontmatterSlug": "",
+        "wordCount": 0,
+        "mentionsTitle": false,
+        "mentionsYear": false,
+        "stale2025": false,
+        "brokenRelativeExhibitLink": false
+      },
+      "findings": [
+        "Missing curated.json.",
+        "Curation decision lacks reasoning."
+      ]
+    }
+  },
+  {
+    "slug": "poqet-pc",
+    "title": "Poqet PC",
+    "research": {
+      "deterministicScore": 75,
+      "finalScore": 75,
+      "checks": {
+        "hasOverview": true,
+        "deepDiveCount": 5,
+        "teamCount": 3,
+        "sourceCount": 8,
+        "discoveredImageCount": 3,
+        "savedImageCount": 3,
+        "hasByline": true,
+        "hasTags": true,
+        "duplicate": "Poqet PC"
+      },
+      "findings": [
+        "Likely duplicate of existing exhibit: Poqet PC."
+      ]
+    },
+    "curation": {
+      "deterministicScore": 2,
+      "finalScore": 2,
+      "checks": {
+        "decision": "reject",
+        "curatorScore": 0,
+        "hasReasoning": false,
+        "hasBlog": false,
+        "frontmatterTitle": "",
+        "frontmatterAuthor": "",
+        "frontmatterSlug": "",
+        "wordCount": 0,
+        "mentionsTitle": false,
+        "mentionsYear": false,
+        "stale2025": false,
+        "brokenRelativeExhibitLink": false
+      },
+      "findings": [
+        "Missing curated.json.",
+        "Curation decision lacks reasoning."
+      ]
+    }
+  },
+  {
+    "slug": "psion-organiser-ii",
+    "title": "Psion Organiser II",
+    "research": {
+      "deterministicScore": 37,
+      "finalScore": 37,
+      "checks": {
+        "hasOverview": true,
+        "deepDiveCount": 5,
+        "teamCount": 2,
+        "sourceCount": 3,
+        "discoveredImageCount": 2,
+        "savedImageCount": 0,
+        "hasByline": true,
+        "hasTags": true,
+        "duplicate": "Psion Organiser II"
+      },
+      "findings": [
+        "Needs more source links.",
+        "Needs at least two downloaded images.",
+        "Likely duplicate of existing exhibit: Psion Organiser II."
+      ]
+    },
+    "curation": {
+      "deterministicScore": 2,
+      "finalScore": 2,
+      "checks": {
+        "decision": "reject",
+        "curatorScore": 0,
+        "hasReasoning": false,
+        "hasBlog": false,
+        "frontmatterTitle": "",
+        "frontmatterAuthor": "",
+        "frontmatterSlug": "",
+        "wordCount": 0,
+        "mentionsTitle": false,
+        "mentionsYear": false,
+        "stale2025": false,
+        "brokenRelativeExhibitLink": false
+      },
+      "findings": [
+        "Missing curated.json.",
+        "Curation decision lacks reasoning."
+      ]
+    }
+  },
+  {
+    "slug": "summagraphics-bit-pad",
+    "title": "Summagraphics Bit Pad",
+    "research": {
+      "deterministicScore": 39,
+      "finalScore": 39,
+      "checks": {
+        "hasOverview": true,
+        "deepDiveCount": 5,
+        "teamCount": 1,
+        "sourceCount": 4,
+        "discoveredImageCount": 3,
+        "savedImageCount": 1,
+        "hasByline": true,
+        "hasTags": true,
+        "duplicate": "Summagraphics Bit Pad"
+      },
+      "findings": [
+        "Team/pioneer coverage is thin.",
+        "Needs at least two downloaded images.",
+        "Likely duplicate of existing exhibit: Summagraphics Bit Pad."
+      ]
+    },
+    "curation": {
+      "deterministicScore": 2,
+      "finalScore": 2,
+      "checks": {
+        "decision": "reject",
+        "curatorScore": 0,
+        "hasReasoning": false,
+        "hasBlog": false,
+        "frontmatterTitle": "",
+        "frontmatterAuthor": "",
+        "frontmatterSlug": "",
+        "wordCount": 0,
+        "mentionsTitle": false,
+        "mentionsYear": false,
+        "stale2025": false,
+        "brokenRelativeExhibitLink": false
+      },
+      "findings": [
+        "Missing curated.json.",
+        "Curation decision lacks reasoning."
+      ]
+    }
+  },
+  {
+    "slug": "writehander",
+    "title": "WriteHander",
+    "research": {
+      "deterministicScore": 39,
+      "finalScore": 39,
+      "checks": {
+        "hasOverview": true,
+        "deepDiveCount": 5,
+        "teamCount": 1,
+        "sourceCount": 3,
+        "discoveredImageCount": 2,
+        "savedImageCount": 2,
+        "hasByline": true,
+        "hasTags": true,
+        "duplicate": "WriteHander"
+      },
+      "findings": [
+        "Team/pioneer coverage is thin.",
+        "Needs more source links.",
+        "Likely duplicate of existing exhibit: WriteHander."
+      ]
+    },
+    "curation": {
+      "deterministicScore": 2,
+      "finalScore": 2,
+      "checks": {
+        "decision": "reject",
+        "curatorScore": 0,
+        "hasReasoning": false,
+        "hasBlog": false,
+        "frontmatterTitle": "",
+        "frontmatterAuthor": "",
+        "frontmatterSlug": "",
+        "wordCount": 0,
+        "mentionsTitle": false,
+        "mentionsYear": false,
+        "stale2025": false,
+        "brokenRelativeExhibitLink": false
+      },
+      "findings": [
+        "Missing curated.json.",
+        "Curation decision lacks reasoning."
+      ]
+    }
+  }
+]
