@@ -1,5 +1,9 @@
 name: Curator Scout
 
+permissions:
+  contents: write
+  pull-requests: write
+
 on:
   workflow_dispatch:
     inputs:
@@ -44,6 +48,11 @@ on:
         required: true
         type: boolean
         default: false
+      create_pr:
+        description: Open a PR with generated scout output
+        required: true
+        type: boolean
+        default: true
 
 jobs:
   scout:
@@ -92,6 +101,9 @@ jobs:
       - name: Build site with generated notes
         run: bun run build
 
+      - name: Show generated changes
+        run: git status --short
+
       - name: Upload scout artifacts
         uses: actions/upload-artifact@v4
         with:
@@ -100,3 +112,20 @@ jobs:
             potential/
             docs/blog/
             public/
+
+      - name: Create scout output pull request
+        if: ${{ inputs.create_pr }}
+        uses: peter-evans/create-pull-request@v7
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+          branch: curator-scout/${{ github.run_id }}
+          delete-branch: true
+          commit-message: Add curator scout output
+          title: "Curator scout: ${{ inputs.topic }}"
+          body: |
+            Automated curator scout output for `${{ inputs.topic }}`.
+
+            Review the generated Field Notes and potential research bundles before merging.
+          add-paths: |
+            docs/blog
+            potential
