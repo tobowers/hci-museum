@@ -62,7 +62,7 @@ awkwardly and brilliantly, toward new ways to be heard by their machines.
 
 ## Navigate
 
-- **[Exhibits](../exhibits/)** — the collection, fifteen artifacts and counting.
+- **[Exhibits](../exhibits/)** — the collection, twenty-nine exhibits and counting.
 - **[Field Notes](../blog/)** — writing from the curator.
 - **[About](../about/)** — you are here.
 
