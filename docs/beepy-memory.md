@@ -29,16 +29,22 @@ GitHub operating loop:
 - Close issues only when the corresponding PR is merged or the task is genuinely no longer relevant.
 - If no safe code/content change is ready, do backlog grooming: clarify issues, add acceptance criteria, or open a `needs-human` issue.
 
-Known collection gaps (2026-06-24):
-- Haptic/tactile feedback devices (no force-feedback, no vibrotactile, no haptic suits/vests)
-- Eye-tracking interfaces from the era
-- Puff/sip or breath-based interfaces
-- Early speech recognition-only systems (beyond the Speak & Spell's synthesis)
+Known collection gaps (2026-06-25):
+- ~~Haptic/tactile feedback devices~~ — Filled: GROPE-III (1990), 6-DOF force-feedback molecular docking
+- Eye-tracking interfaces from the era — Strong candidates: EyeTyper (1983), Eyegaze (1988), Erica (1987)
+- ~~Puff/sip or breath-based interfaces~~ — Filled: Nintendo Hands Free Controller (1989), chin joystick + sip-and-puff
+- Early speech recognition-only systems — Strong candidates: Heuristics SpeechLab (1976), DragonDictate (1989), Covox Voice Master (1984)
 
 Deferred strong candidates:
 - SynthAxe (1985): <100 units, $13K MIDI guitar controller, CHM "curator's wish." Rich sources via Allan Holdsworth community, MusicRadar, CHM blog. Revisit when adding another music HCI artifact.
 - Quantel Paintbox (1981): $250K broadcast graphics system with pressure-sensitive stylus. Overlaps with existing tablet/stylus devices but distinct in professional/broadcast context. Rich sources.
+- EyeTyper (1983): First commercial camera-based eye-typing device; CMU spinoff. Camera pointed at one eyeball, oversized illuminated characters, dwell-time selection. DynaVox ancestor. Rich sources via UPI, patent US4648052A.
+- Minsky Sandpaper (1990): Computational haptics origin. 2-DOF force-feedback joystick synthesizing surface textures. MIT/UNC. Rich intellectual lineage.
+- DragonDictate (1989-90): First large-vocabulary speech-to-text. $9K DSP board + Shure headset. 30,000 words. Defined the speech dictation interaction model.
+- Heuristics SpeechLab (1976): First commercial speech recognition for personal computers. S-100 bus board. Byte magazine 1978.
+- Buchla Thunder (1989): Multi-touch pressure+position capacitive MIDI controller by Don Buchla. <100 units. Defer until another music HCI artifact is added.
 
 Promotion gotchas:
 - The `promote-potentials.ts` script appends wiki sections and updates data.ts but does NOT update the wiki Table of Contents. The ToC must be manually edited after each promotion batch.
 - The `promote-potentials.ts` script falls back to remote image URLs when `savedImages` is empty. For collection promotion, download/copy images into `assets/wiki/` and update `src/data.ts` plus `docs/hci-wiki.md` to local `assets/wiki` paths before finishing.
+- BUG (2026-06-25): The `promote-potentials.ts` data.ts replacement regex (`/\n\];\s*\n\nexport const featured/`) does not match the actual file structure, which has `export const exhibits` between `];` and `export const featured`. Wiki gets updated but data.ts entries are silently dropped. Workaround: manually edit data.ts until the script is fixed.
