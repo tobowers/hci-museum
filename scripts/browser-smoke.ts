@@ -12,6 +12,7 @@ const contentTypes: Record<string, string> = {
   ".css": "text/css; charset=utf-8",
   ".js": "text/javascript; charset=utf-8",
   ".json": "application/json; charset=utf-8",
+  ".xml": "application/rss+xml; charset=utf-8",
   ".png": "image/png",
   ".jpg": "image/jpeg",
   ".jpeg": "image/jpeg",
@@ -86,6 +87,13 @@ async function main() {
   const browser = await chromium.launch({ headless: true });
   const page = await browser.newPage({ viewport: { width: 1280, height: 900 } });
   try {
+    for (const feed of ["/feeds/collection.xml", "/feeds/blog.xml"]) {
+      const response = await page.goto(`${baseUrl}${feed}`);
+      if (!response?.ok()) throw new Error(`${feed}: HTTP ${response?.status() ?? "unknown"}`);
+      const text = await page.textContent("body");
+      if (!text?.includes("<rss") || !text.includes("<channel>")) throw new Error(`${feed}: missing RSS channel markup`);
+    }
+
     await page.goto(`${baseUrl}/`, { waitUntil: "networkidle" });
     await page.waitForSelector(".exhibit-card");
     await assertImagesLoaded(page, "/");

@@ -5,6 +5,8 @@ permissions:
   pull-requests: write
 
 on:
+  schedule:
+    - cron: "17 */12 * * *"
   workflow_dispatch:
     inputs:
       topic:
@@ -34,7 +36,7 @@ jobs:
       GROK_MODEL: grok-4.3
       DEEPSEEK_MODEL: deepseek-v4-pro
       OPENROUTER_MODEL: z-ai/glm-5.2
-      SCOUT_AGENT_TIMEOUT_MS: ${{ inputs.agent_timeout_ms }}
+      SCOUT_AGENT_TIMEOUT_MS: ${{ inputs.agent_timeout_ms || '1800000' }}
     steps:
       - name: Checkout
         uses: actions/checkout@v4
@@ -54,7 +56,9 @@ jobs:
       - name: Run curator scout
         id: scout_run
         continue-on-error: true
-        run: bun run scout -- "${{ inputs.topic }}"
+        env:
+          SCOUT_TOPIC: ${{ inputs.topic || 'research, review, and add about 3 more weird HCI interface artifacts from 1976-1992' }}
+        run: bun run scout -- "$SCOUT_TOPIC"
 
       - name: Typecheck generated collection
         if: ${{ steps.scout_run.outcome == 'success' }}
@@ -83,16 +87,16 @@ jobs:
             public/
 
       - name: Create scout output pull request
-        if: ${{ inputs.create_pr && steps.scout_run.outcome == 'success' }}
+        if: ${{ (github.event_name == 'schedule' || inputs.create_pr) && steps.scout_run.outcome == 'success' }}
         uses: peter-evans/create-pull-request@v7
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
           branch: curator-scout/${{ github.run_id }}
           delete-branch: true
           commit-message: Add curator scout output
-          title: "Curator scout: ${{ inputs.topic }}"
+          title: "Curator scout: ${{ inputs.topic || 'scheduled collection run' }}"
           body: |
-            Automated curator scout output for `${{ inputs.topic }}`.
+            Automated curator scout output for `${{ inputs.topic || 'scheduled collection run' }}`.
 
             Review the generated Field Notes and potential research bundles before merging.
           add-paths: |

@@ -23,9 +23,10 @@ export function parseFrontmatter(markdown: string): ParsedDoc {
   const block = match[1] ?? "";
   const body = match[2] ?? "";
   const raw: Record<string, string> = {};
+  const clean = (value: string) => value.replace(/^(["'])(.*)\1$/, "$2");
   for (const line of block.split("\n")) {
     const m = line.match(/^([A-Za-z0-9_-]+)\s*:\s*(.*)$/);
-    if (m && m[1]) raw[m[1]] = (m[2] ?? "").trim();
+    if (m && m[1]) raw[m[1]] = clean((m[2] ?? "").trim());
   }
   const fm: Frontmatter = {
     title: raw.title ?? "Untitled",

@@ -1,0 +1,100 @@
+name: Beepy Blog Agent
+
+permissions:
+  contents: write
+  pull-requests: write
+
+on:
+  schedule:
+    - cron: "41 9 * * *"
+  workflow_dispatch:
+    inputs:
+      topic:
+        description: Blog agent prompt
+        required: true
+        default: write one Field Note if there is a worthwhile story from recent collection activity
+      agent_timeout_ms:
+        description: Max time for the opencode blog agent run
+        required: true
+        default: "1200000"
+      create_pr:
+        description: Open a PR with generated blog output
+        required: true
+        type: boolean
+        default: true
+
+jobs:
+  blog:
+    runs-on: ubuntu-latest
+    timeout-minutes: 45
+    env:
+      DEEPSEEK_API_KEY: ${{ secrets.DEEPSEEK_API_KEY }}
+      DEEPSEEK_MODEL: deepseek-v4-pro
+      SCOUT_AGENT_TIMEOUT_MS: ${{ inputs.agent_timeout_ms || '1200000' }}
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Bun
+        uses: oven-sh/setup-bun@v2
+
+      - name: Install opencode CLI
+        run: bun add --global opencode-ai@1.17.9
+
+      - name: Install dependencies
+        run: bun install --frozen-lockfile
+
+      - name: Typecheck
+        run: bun run typecheck
+
+      - name: Run Beepy blog agent
+        id: blog_run
+        continue-on-error: true
+        env:
+          BLOG_TOPIC: ${{ inputs.topic || 'write one Field Note if there is a worthwhile story from recent collection activity' }}
+        run: bun run blog:agent -- "$BLOG_TOPIC"
+
+      - name: Typecheck generated blog
+        if: ${{ steps.blog_run.outcome == 'success' }}
+        run: bun run typecheck
+
+      - name: Build site with generated blog
+        if: ${{ steps.blog_run.outcome == 'success' }}
+        run: bun run build
+
+      - name: Show generated changes
+        if: ${{ always() }}
+        run: git status --short
+
+      - name: Upload blog artifacts
+        if: ${{ always() }}
+        uses: actions/upload-artifact@v4
+        with:
+          name: beepy-blog-output
+          path: |
+            docs/blog/
+            docs/beepy-memory.md
+            potential/runs/
+            public/
+
+      - name: Create blog output pull request
+        if: ${{ (github.event_name == 'schedule' || inputs.create_pr) && steps.blog_run.outcome == 'success' }}
+        uses: peter-evans/create-pull-request@v7
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+          branch: beepy-blog/${{ github.run_id }}
+          delete-branch: true
+          commit-message: Add Beepy Field Note
+          title: "Beepy Field Note: ${{ inputs.topic || 'scheduled blog run' }}"
+          body: |
+            Automated Beepy blog-agent output for `${{ inputs.topic || 'scheduled blog run' }}`.
+
+            Review the generated Field Note before merging.
+          add-paths: |
+            docs/blog
+            docs/beepy-memory.md
+            potential/runs
+
+      - name: Fail if blog agent failed
+        if: ${{ steps.blog_run.outcome != 'success' }}
+        run: exit 1

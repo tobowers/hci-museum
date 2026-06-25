@@ -33,6 +33,7 @@ await Bun.write(indexPath, html.replace("</body>", `${renderAnalyticsScript()}\n
 
 const { buildAllExhibitPages, buildExhibitsIndexHtml } = await import("./build-exhibits");
 const { buildAllBlogPages } = await import("./build-blog");
+const { buildCollectionFeed, buildBlogFeed } = await import("./build-feeds");
 const { buildMarkdownPage } = await import("./build-pages");
 const { exhibits } = await import("../src/data");
 
@@ -62,6 +63,9 @@ const about = await buildMarkdownPage({ file: `${root}docs/about.md`, active: "a
 }
 
 await Bun.write(`${outdir}/.nojekyll`, "");
+await Bun.$`mkdir -p ${outdir}/feeds`;
+await Bun.write(`${outdir}/feeds/collection.xml`, buildCollectionFeed());
+await Bun.write(`${outdir}/feeds/blog.xml`, await buildBlogFeed());
 
 const counts = pages.length + (await buildAllBlogPages()).length + 2;
 console.log(`Built static site to ${outdir} (${pages.length} exhibits + blog + about, ${counts} pages)`);

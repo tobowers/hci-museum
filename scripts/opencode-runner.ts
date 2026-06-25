@@ -178,6 +178,23 @@ function opencodeConfig(): Config {
         prompt:
           "You are Beepy, the HCI Museum's AI curator. Use research subagents through the task tool to parallelize source gathering. Keep an explicit trace of what you did. Prefer small, reviewable output files under potential/ and docs/blog/; do not promote artifacts into docs/hci-wiki.md unless explicitly asked.",
       },
+      "beepy-blogger": {
+        mode: "primary",
+        maxSteps: 28,
+        tools: {
+          bash: true,
+          read: true,
+          glob: true,
+          grep: true,
+          edit: true,
+          write: true,
+          webfetch: true,
+          todowrite: true,
+        },
+        permission: { bash: "allow", webfetch: "allow", edit: "allow" },
+        prompt:
+          "You are Beepy's Field Notes writing agent for the HCI Museum. Write at most one thoughtful blog post from existing collection knowledge, Beepy memory, and recent run traces. Do not add or promote collection exhibits. Prefer local images under assets/wiki if you include images.",
+      },
       "hci-research-subagent": {
         mode: "subagent",
         maxSteps: 18,
