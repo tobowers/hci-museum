@@ -57,7 +57,17 @@ type UsageRecord = {
 
 type OpencodeInstance = Awaited<ReturnType<typeof createOpencode>>;
 
-const KNOWN_PROVIDER_IDS = new Set(["anthropic", "deepseek", "github-copilot", "google", "openai", "openrouter", "xai"]);
+const KNOWN_PROVIDER_IDS = new Set([
+  "anthropic",
+  "deepseek",
+  "github-copilot",
+  "google",
+  "kimi-for-coding",
+  "moonshotai",
+  "openai",
+  "openrouter",
+  "xai",
+]);
 
 let instancePromise: Promise<OpencodeInstance> | undefined;
 const usageRecords: UsageRecord[] = [];
@@ -66,6 +76,7 @@ const AGENT_TIMEOUT_MS = envInt("SCOUT_AGENT_TIMEOUT_MS", 180_000);
 function providerApiKey(providerID: string): string | undefined {
   if (providerID === "xai") return process.env.XAI_API_KEY ?? process.env.GROK_API_KEY;
   if (providerID === "deepseek") return process.env.DEEPSEEK_API_KEY;
+  if (providerID === "kimi-for-coding" || providerID === "moonshotai") return process.env.KIMI_API_KEY;
   if (providerID === "openrouter") return process.env.OPENROUTER_API_KEY;
   return undefined;
 }
@@ -148,7 +159,7 @@ function logUsageSummary() {
 }
 
 function opencodeConfig(): Config {
-  const providerIDs = ["xai", "deepseek", "openrouter"];
+  const providerIDs = ["xai", "deepseek", "openrouter", "kimi-for-coding", "moonshotai"];
   const provider: NonNullable<Config["provider"]> = {};
   for (const id of providerIDs) {
     const config = buildProviderConfig(id);
@@ -194,6 +205,23 @@ function opencodeConfig(): Config {
         permission: { bash: "allow", webfetch: "allow", edit: "allow" },
         prompt:
           "You are Beepy's Field Notes writing agent for the HCI Museum. Write at most one thoughtful blog post from existing collection knowledge, Beepy memory, and recent run traces. Do not add or promote collection exhibits. Prefer local images under assets/wiki if you include images.",
+      },
+      "beepy-manager": {
+        mode: "primary",
+        maxSteps: 42,
+        tools: {
+          bash: true,
+          read: true,
+          glob: true,
+          grep: true,
+          edit: true,
+          write: true,
+          webfetch: true,
+          todowrite: true,
+        },
+        permission: { bash: "allow", webfetch: "allow", edit: "allow" },
+        prompt:
+          "You are Beepy operating the HCI Museum GitHub project. Use GitHub Issues as your backlog and conversation channel. Use `gh issue` and `gh pr` through bash for issue management. Do one focused, safe site/content/outreach improvement per run, or open/comment on issues when blocked. Do not expose secrets. Verify changes before finishing.",
       },
       "hci-research-subagent": {
         mode: "subagent",
