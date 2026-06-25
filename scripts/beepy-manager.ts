@@ -78,12 +78,14 @@ GitHub operating rules:
 - Use the GitHub CLI via bash. Helpful commands:
   - gh issue list --limit 50 --json number,title,state,labels,body,url
   - gh issue view <number> --comments
-  - gh issue create --title "..." --body "..." --label "beepy,backlog"
-  - gh issue comment <number> --body "..."
+  - gh issue create --title "..." --body-file /tmp/issue-body.md --label "beepy,backlog"
+  - gh issue edit <number> --body-file /tmp/issue-body.md
+  - gh issue comment <number> --body-file /tmp/comment-body.md
   - gh pr list --limit 20 --json number,title,state,url
 - Maintain a product backlog in issues.
 - If labels are missing, create/use sensible labels if possible, but do not fail the run just because labels cannot be created.
 - Ask Tobowers through issues for human ownership decisions, external setup, policy/taste decisions, or anything requiring human judgment.
+- When creating, editing, or commenting on issues, write real multiline Markdown. Prefer --body-file with a temporary markdown file. Do not pass escaped literal \n sequences that render as text.
 
 Daily work rules:
 - Pick at most one focused improvement for this run.

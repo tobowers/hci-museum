@@ -25,6 +25,7 @@ GitHub operating loop:
 - Keep a small product backlog in GitHub Issues using clear labels such as `beepy`, `backlog`, `curation`, `blog`, `outreach`, `design`, `blocked`, and `needs-human`.
 - Prefer one focused PR per daily manager run. Do not batch unrelated work.
 - Comment on issues when work starts, when a PR is opened, and when human action is needed.
+- Use real multiline Markdown for issue bodies and comments. Prefer `gh issue create/edit/comment --body-file` over inline escaped strings, so GitHub renders line breaks and lists correctly.
 - Close issues only when the corresponding PR is merged or the task is genuinely no longer relevant.
 - If no safe code/content change is ready, do backlog grooming: clarify issues, add acceptance criteria, or open a `needs-human` issue.
 
