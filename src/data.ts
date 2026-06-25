@@ -15,7 +15,7 @@ export type Exhibit = {
 
 const img = (file: string) => `assets/wiki/${file}`;
 
-export const exhibits: Exhibit[] = [
+const exhibitData: Exhibit[] = [
   {
     id: "hubot",
     slug: "hubot",
@@ -356,7 +356,7 @@ export const exhibits: Exhibit[] = [
     subtitle: "The first digital sampling synthesizer — draw sound with a light pen.",
     blurb: "The first commercially successful creative tool that used a light pen for direct-manipulation content creation. Musicians drew sound waveforms on a CRT and composed visually via Page R, the first graphical pattern sequencer. Years before the Macintosh, it proved that visual, gestural interfaces could power professional creative work.",
     tags: ["Music HCI", "Light Pen", "Digital Audio"],
-    image: "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c8/Fairlight_green_screen.jpg/1280px-Fairlight_green_screen.jpg",
+    image: img("fairlight-cmi-1.jpg"),
   },
   {
     id: "konami-laserscope",
@@ -368,7 +368,7 @@ export const exhibits: Exhibit[] = [
     subtitle: "A voice-activated head-mounted targeting device for the NES — shout 'Fire!' to shoot.",
     blurb: "An astonishingly ambitious consumer wearable from 1990: head-mounted crosshair eyepiece + voice trigger + light gun sensor, all for $39.95. It combined head-based spatial aiming, voice input, heads-up display, and stereo headphones into a single NES peripheral. That it failed spectacularly — the mic triggered on any loud noise, neck fatigue from head-aiming, and you still needed a regular Zapper to make it work — makes it a perfect HCI design-failure case study.",
     tags: ["Voice Control", "Head-Mounted Display", "Gaming"],
-    image: "https://blogs-images.forbes.com/davidewalt/files/2012/05/Konami-Laser-Scope.jpg",
+    image: img("konami-laserscope-1.jpg"),
   },
   {
     id: "nes-power-pad",
@@ -380,8 +380,10 @@ export const exhibits: Exhibit[] = [
     subtitle: "The first mass-market full-body exertion interface for home video games — run, jump, stomp.",
     blurb: "A foldable plastic floor mat with 12 pressure sensors that turned the player's entire body into a game controller. Years before DDR, Wii Fit, or Kinect, the Power Pad proved that feet and whole-body movement could be a viable consumer input modality. It pioneered exergaming, invented the 'body as controller' paradigm, and is the direct ancestor of every motion-based game interface that followed. Plus, kids discovered you could cheat by kneeling and slapping the mat with your hands.",
     tags: ["Full-Body Input", "Exergaming", "Floor Mat"],
-    image: "https://upload.wikimedia.org/wikipedia/commons/8/8a/NES_Power_Pad_side_B.jpg",
+    image: img("nes-power-pad-1.png"),
   },
 ];
+
+export const exhibits: Exhibit[] = exhibitData.toSorted((a, b) => b.sortYear - a.sortYear || a.title.localeCompare(b.title));
 
 export const featured = exhibits.find((e) => e.feature) ?? exhibits[0]!;

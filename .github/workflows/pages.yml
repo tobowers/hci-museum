@@ -29,8 +29,14 @@ jobs:
       - name: Install dependencies
         run: bun install --frozen-lockfile
 
+      - name: Install browser
+        run: bunx playwright install --with-deps chromium
+
       - name: Build static site
         run: bun run build
+
+      - name: Browser smoke test
+        run: bun run smoke:browser
 
       - name: Setup Pages
         uses: actions/configure-pages@v5

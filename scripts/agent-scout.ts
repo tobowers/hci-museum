@@ -124,6 +124,7 @@ Add selected artifacts to the collection:
 - That script updates docs/hci-wiki.md, src/data.ts, and copies downloaded local images from potential/<slug>/images into assets/wiki when present.
 - If the promotion script is not enough, make the smallest direct edits needed to docs/hci-wiki.md and src/data.ts.
 - Do not promote weak or poorly sourced candidates. It is okay to add fewer than 3 if fewer are ready.
+- Always use local images for promoted collection exhibits. Download/copy selected media to assets/wiki/ and ensure src/data.ts and docs/hci-wiki.md reference assets/wiki paths, not remote hotlinks.
 
 Verify after collection edits:
 - Run bun run typecheck.

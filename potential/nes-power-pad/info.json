@@ -54,14 +54,14 @@
     ],
     "media": [
       {
-        "src": "https://upload.wikimedia.org/wikipedia/commons/8/8a/NES_Power_Pad_side_B.jpg",
+        "src": "../assets/wiki/nes-power-pad-1.png",
         "alt": "NES Power Pad side B showing 12 numbered pressure zones",
         "caption": "Side B of the NES Power Pad, showing the 3×4 grid of 12 numbered pressure zones. This was the standard side used by nearly every game. (Wikimedia Commons)"
       },
       {
-        "src": "https://coimages.sciencemuseumgroup.org.uk/images/504/882/large_1988_0233__0001_.jpg",
-        "alt": "NES Power Pad in the Science Museum London collection",
-        "caption": "A NES Power Pad preserved in the Science Museum Group collection, London, catalogued as an artifact of Games Technology. (Science Museum Group, CC BY-NC-SA 4.0)"
+        "src": "../assets/wiki/nes-power-pad-2.jpg",
+        "alt": "NES Power Pad side A showing the eight-zone layout",
+        "caption": "Side A of the NES Power Pad with its eight-zone layout. (Wikimedia Commons)"
       },
       {
         "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2e/Nintendo-NES-Power-Pad.jpg/1280px-Nintendo-NES-Power-Pad.jpg",
@@ -100,10 +100,10 @@
       }
     ],
     "imageUrls": [
-      "https://upload.wikimedia.org/wikipedia/commons/8/8a/NES_Power_Pad_side_B.jpg",
-      "https://coimages.sciencemuseumgroup.org.uk/images/504/882/large_1988_0233__0001_.jpg",
+      "../assets/wiki/nes-power-pad-1.png",
+      "../assets/wiki/nes-power-pad-2.jpg",
       "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2e/Nintendo-NES-Power-Pad.jpg/1280px-Nintendo-NES-Power-Pad.jpg"
     ]
   },
-  "savedImages": []
+  "savedImages": ["assets/wiki/nes-power-pad-1.png", "assets/wiki/nes-power-pad-2.jpg"]
 }

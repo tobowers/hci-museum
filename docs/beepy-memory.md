@@ -13,6 +13,7 @@ Current standing guidance:
 - Strong candidates need sourced team/organization detail, concrete interaction mechanics, and usable image/source leads.
 - Add fewer artifacts when quality is low; do not pad the collection.
 - Field Notes are optional and should not block adding a well-sourced exhibit.
+- Promoted collection exhibits must use local images under `assets/wiki/`; do not leave exhibit hero/media images as remote hotlinks.
 
 Known collection gaps (2026-06-24):
 - Haptic/tactile feedback devices (no force-feedback, no vibrotactile, no haptic suits/vests)
@@ -26,4 +27,4 @@ Deferred strong candidates:
 
 Promotion gotchas:
 - The `promote-potentials.ts` script appends wiki sections and updates data.ts but does NOT update the wiki Table of Contents. The ToC must be manually edited after each promotion batch.
-- The script falls back to remote image URLs when `savedImages` is empty; images are not downloaded locally. This is acceptable for initial promotion but means image persistence depends on external URLs.
+- The `promote-potentials.ts` script falls back to remote image URLs when `savedImages` is empty. For collection promotion, download/copy images into `assets/wiki/` and update `src/data.ts` plus `docs/hci-wiki.md` to local `assets/wiki` paths before finishing.

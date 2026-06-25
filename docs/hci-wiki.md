@@ -1320,10 +1320,10 @@ Only about 300 units of the Series I, II, and IIx were built, priced between £1
 
 ### Media
 
-![Fairlight CMI Series II with CRT, keyboard, and light pen](https://upload.wikimedia.org/wikipedia/commons/thumb/c/c8/Fairlight_green_screen.jpg/1280px-Fairlight_green_screen.jpg)
+![Fairlight CMI Series II with CRT, keyboard, and light pen](../assets/wiki/fairlight-cmi-1.jpg)
 *A Fairlight CMI Series II workstation showing the green-screen CRT, QWERTY and music keyboards, and 8-inch floppy drives. (Wikimedia Commons)*
 
-![Fairlight CMI Page R sequencer screen](https://upload.wikimedia.org/wikipedia/commons/thumb/e/ef/Fairlight_II_Page_R.jpg/1280px-Fairlight_II_Page_R.jpg)
+![Fairlight CMI Page R sequencer screen](../assets/wiki/fairlight-cmi-2.jpg)
 *Page R, the first graphical pattern sequencer, displaying notes as horizontal bars on a piano-roll grid (1982). (Wikimedia Commons)*
 
 ### Sources
@@ -1368,10 +1368,10 @@ Only an estimated 5,000–10,000 units were produced. It was designed primarily 
 
 ### Media
 
-![Konami LaserScope demonstrated at 1990 CES](https://blogs-images.forbes.com/davidewalt/files/2012/05/Konami-Laser-Scope.jpg)
+![Konami LaserScope demonstrated at 1990 CES](../assets/wiki/konami-laserscope-1.jpg)
 *Konami marketing coordinator Susan Bach demonstrates the LaserScope at the Summer CES, Chicago, June 1990. The headset includes the boom microphone, headphones, and transparent eyepiece with projected crosshair. (AP Photo/Mark Elias via Forbes)*
 
-![Konami LaserScope peripheral for the NES](https://upload.wikimedia.org/wikipedia/en/thumb/4/4b/LaserScope.jpg/250px-LaserScope.jpg)
+![Konami LaserScope peripheral for the NES](../assets/wiki/konami-laserscope-2.jpg)
 *The Konami LaserScope headset — a white plastic wearable with over-ear headphones, articulated eyepiece, and boom microphone. (Wikimedia Commons)*
 
 ### Sources
@@ -1414,11 +1414,11 @@ Players stood on the mat barefoot or in socks and controlled games by running in
 
 ### Media
 
-![NES Power Pad side B showing 12 numbered pressure zones](https://upload.wikimedia.org/wikipedia/commons/8/8a/NES_Power_Pad_side_B.jpg)
+![NES Power Pad side B showing 12 numbered pressure zones](../assets/wiki/nes-power-pad-1.png)
 *Side B of the NES Power Pad, showing the 3×4 grid of 12 numbered pressure zones. This was the standard side used by nearly every game. (Wikimedia Commons)*
 
-![NES Power Pad in the Science Museum London collection](https://coimages.sciencemuseumgroup.org.uk/images/504/882/large_1988_0233__0001_.jpg)
-*A NES Power Pad preserved in the Science Museum Group collection, London, catalogued as an artifact of Games Technology. (Science Museum Group, CC BY-NC-SA 4.0)*
+![NES Power Pad side A showing the eight-zone layout](../assets/wiki/nes-power-pad-2.jpg)
+*Side A of the NES Power Pad with its eight-zone layout. (Wikimedia Commons)*
 
 ### Sources
 

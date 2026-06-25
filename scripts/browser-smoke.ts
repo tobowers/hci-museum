@@ -1,0 +1,113 @@
+#!/usr/bin/env bun
+import path from "node:path";
+import { chromium, type Page } from "@playwright/test";
+import { exhibits } from "../src/data";
+
+const publicDir = path.resolve("public");
+const port = Number(process.env.SMOKE_PORT ?? 4173);
+const baseUrl = `http://127.0.0.1:${port}`;
+
+const contentTypes: Record<string, string> = {
+  ".html": "text/html; charset=utf-8",
+  ".css": "text/css; charset=utf-8",
+  ".js": "text/javascript; charset=utf-8",
+  ".json": "application/json; charset=utf-8",
+  ".png": "image/png",
+  ".jpg": "image/jpeg",
+  ".jpeg": "image/jpeg",
+  ".gif": "image/gif",
+  ".webp": "image/webp",
+  ".ico": "image/x-icon",
+};
+
+function localPath(urlPath: string): string {
+  const decoded = decodeURIComponent(urlPath).replace(/^\/+/, "");
+  const safe = decoded.split("/").filter((part) => part && part !== ".." && part !== ".").join("/");
+  return path.join(publicDir, safe || "index.html");
+}
+
+const server = Bun.serve({
+  port,
+  async fetch(req) {
+    const url = new URL(req.url);
+    const candidates = url.pathname.endsWith("/")
+      ? [path.join(localPath(url.pathname), "index.html"), localPath(`${url.pathname}index.html`)]
+      : [localPath(url.pathname), localPath(`${url.pathname}/index.html`)];
+
+    for (const candidate of candidates) {
+      const file = Bun.file(candidate);
+      if (await file.exists()) {
+        const ext = path.extname(candidate).toLowerCase();
+        return new Response(file, { headers: { "Content-Type": contentTypes[ext] ?? "application/octet-stream" } });
+      }
+    }
+    return new Response("not found", { status: 404 });
+  },
+});
+
+async function assertImagesLoaded(page: Page, label: string) {
+  await page.evaluate(async () => {
+    window.scrollTo(0, document.body.scrollHeight);
+    await new Promise((resolve) => setTimeout(resolve, 800));
+  });
+  const broken = await page.$$eval("img", (imgs) =>
+    imgs
+      .map((img) => ({ src: img.currentSrc || img.src, complete: img.complete, naturalWidth: img.naturalWidth, naturalHeight: img.naturalHeight }))
+      .filter((img) => !img.complete || img.naturalWidth === 0 || img.naturalHeight === 0),
+  );
+  if (broken.length) throw new Error(`${label}: broken images ${JSON.stringify(broken, null, 2)}`);
+
+  const remote = await page.$$eval(".hero__feature-image, .exhibit-card__image, .exhibit__hero-image, .exhibit__media img", (imgs) =>
+    imgs
+      .map((img) => (img instanceof HTMLImageElement ? img.currentSrc : "") || img.getAttribute("src") || "")
+      .filter((src) => src && new URL(src, window.location.href).origin !== window.location.origin),
+  );
+  if (remote.length) throw new Error(`${label}: exhibit images must be local, found ${JSON.stringify(remote, null, 2)}`);
+}
+
+async function assertCollectionOrder(page: Page) {
+  await page.goto(`${baseUrl}/exhibits/`, { waitUntil: "networkidle" });
+  const cards = await page.$$eval(".exhibit-card", (items) =>
+    items.map((item) => ({ title: item.querySelector(".exhibit-card__title")?.textContent?.trim() ?? "", href: (item as HTMLAnchorElement).href })),
+  );
+  if (cards.length !== exhibits.length) throw new Error(`Expected ${exhibits.length} exhibit cards, found ${cards.length}`);
+
+  const expectedTitles = exhibits.map((exhibit) => exhibit.title);
+  const actualTitles = cards.map((card) => card.title);
+  const mismatch = actualTitles.findIndex((title, index) => title !== expectedTitles[index]);
+  if (mismatch !== -1) {
+    throw new Error(`Collection order mismatch at ${mismatch}: expected ${expectedTitles[mismatch]}, got ${actualTitles[mismatch]}`);
+  }
+  await assertImagesLoaded(page, "/exhibits/");
+  return cards;
+}
+
+async function main() {
+  const browser = await chromium.launch({ headless: true });
+  const page = await browser.newPage({ viewport: { width: 1280, height: 900 } });
+  try {
+    await page.goto(`${baseUrl}/`, { waitUntil: "networkidle" });
+    await page.waitForSelector(".exhibit-card");
+    await assertImagesLoaded(page, "/");
+
+    const cards = await assertCollectionOrder(page);
+    for (const card of cards) {
+      const url = new URL(card.href);
+      const response = await page.goto(`${baseUrl}${url.pathname}`, { waitUntil: "networkidle" });
+      if (!response?.ok()) throw new Error(`${url.pathname}: HTTP ${response?.status() ?? "unknown"}`);
+      await page.waitForSelector(".exhibit__title");
+      await assertImagesLoaded(page, url.pathname);
+    }
+
+    console.log(`browser-smoke: checked ${cards.length} exhibit pages and images`);
+  } finally {
+    await browser.close();
+    server.stop(true);
+  }
+}
+
+main().catch((error) => {
+  console.error(error);
+  server.stop(true);
+  process.exit(1);
+});

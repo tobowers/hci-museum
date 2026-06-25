@@ -10,9 +10,11 @@
     "scout": "bun scripts/agent-scout.ts",
     "scout:pipeline": "bun scripts/curator-scout.ts",
     "scout:eval": "bun scripts/eval-curator-scout.ts",
+    "smoke:browser": "bun scripts/browser-smoke.ts",
     "typecheck": "tsc --noEmit"
   },
   "devDependencies": {
+    "@playwright/test": "^1.61.0",
     "@types/bun": "latest",
     "@types/three": "^0.184.1"
   },

@@ -58,12 +58,12 @@
     ],
     "media": [
       {
-        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c8/Fairlight_green_screen.jpg/1280px-Fairlight_green_screen.jpg",
+        "src": "../assets/wiki/fairlight-cmi-1.jpg",
         "alt": "Fairlight CMI Series II with CRT, keyboard, and light pen",
         "caption": "A Fairlight CMI Series II workstation showing the green-screen CRT, QWERTY and music keyboards, and 8-inch floppy drives. (Wikimedia Commons)"
       },
       {
-        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ef/Fairlight_II_Page_R.jpg/1280px-Fairlight_II_Page_R.jpg",
+        "src": "../assets/wiki/fairlight-cmi-2.jpg",
         "alt": "Fairlight CMI Page R sequencer screen",
         "caption": "Page R, the first graphical pattern sequencer, displaying notes as horizontal bars on a piano-roll grid (1982). (Wikimedia Commons)"
       },
@@ -104,10 +104,10 @@
       }
     ],
     "imageUrls": [
-      "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c8/Fairlight_green_screen.jpg/1280px-Fairlight_green_screen.jpg",
-      "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ef/Fairlight_II_Page_R.jpg/1280px-Fairlight_II_Page_R.jpg",
+      "../assets/wiki/fairlight-cmi-1.jpg",
+      "../assets/wiki/fairlight-cmi-2.jpg",
       "https://www.researchgate.net/profile/Andrew-Brown-36/publication/317578104/figure/fig23/AS:614310854705154@1523541155369/Editing-synthesis-parameters-with-the-Fairlight-CMI-light-pen.jpg"
     ]
   },
-  "savedImages": []
+  "savedImages": ["assets/wiki/fairlight-cmi-1.jpg", "assets/wiki/fairlight-cmi-2.jpg"]
 }
