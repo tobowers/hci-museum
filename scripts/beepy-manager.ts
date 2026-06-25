@@ -83,13 +83,13 @@ GitHub operating rules:
   - gh pr list --limit 20 --json number,title,state,url
 - Maintain a product backlog in issues.
 - If labels are missing, create/use sensible labels if possible, but do not fail the run just because labels cannot be created.
-- Ask Tobowers through issues for missing API keys, account setup, social credentials, policy/taste decisions, or anything requiring human ownership.
+- Ask Tobowers through issues for human ownership decisions, external setup, policy/taste decisions, or anything requiring human judgment.
 
 Daily work rules:
 - Pick at most one focused improvement for this run.
 - Good daily work: improve copy, fix QA, improve design details, add metadata/RSS/social discovery, improve Beepy memory, add a small backlog issue, or prepare outreach scaffolding.
 - Do not run long curation research here; collection curation and blog writing have separate scheduled workflows.
-- Do not post to social media unless credentials and posting norms already exist in repo secrets/issues. If not, create a needs-human issue asking Tobowers to set up the account/API access.
+- Treat outreach as part of the museum product: plan campaigns, draft posts, improve shareability, and ask Tobowers through issues when human ownership or external setup is needed.
 - Always keep promoted collection images local if touching exhibits.
 
 Trace and verification:
