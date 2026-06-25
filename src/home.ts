@@ -1,12 +1,10 @@
 import * as THREE from "three";
-import { gsap } from "gsap";
 import { exhibits, featured, type Exhibit } from "./data";
 
 renderHeroFeature(featured);
 renderGallery();
 initAmbient();
 setCounts();
-initMotion();
 
 function setCounts() {
   const countEl = document.getElementById("hero-exhibit-count");
@@ -100,97 +98,6 @@ function renderHeroFeature(exhibit: Exhibit) {
   link.textContent = "Inspect artifact";
 
   info.replaceChildren(year, title, subtitle, link);
-}
-
-function initMotion() {
-  const hero = document.getElementById("hero");
-  const galleryGrid = document.getElementById("gallery-grid");
-  if (!hero || !galleryGrid) return;
-
-  const mm = gsap.matchMedia();
-
-  mm.add("(prefers-reduced-motion: reduce)", () => {
-    gsap.set(
-      [
-        ".site-header",
-        ".hero__kicker",
-        ".hero__title",
-        ".hero__lede",
-        ".hero__meta-item",
-        ".hero__feature",
-        ".hero__feature-info > *",
-        ".gallery__header",
-        ".exhibit-card",
-      ],
-      { clearProps: "all" },
-    );
-  });
-
-  mm.add("(prefers-reduced-motion: no-preference)", () => {
-    const cards = gsap.utils.toArray<HTMLElement>(".exhibit-card").slice(0, 12);
-    const heroItems = [
-      ".site-header",
-      ".hero__kicker",
-      ".hero__title",
-      ".hero__lede",
-      ".hero__meta-item",
-      ".hero__feature",
-      ".hero__feature-info > *",
-    ];
-
-    gsap.set(heroItems, { autoAlpha: 1 });
-    gsap.set(cards, { autoAlpha: 1 });
-
-    const tl = gsap.timeline({ defaults: { ease: "expo.out" } });
-
-    tl.fromTo(".site-header", { y: -12, autoAlpha: 0 }, { y: 0, autoAlpha: 1, duration: 0.45 })
-      .fromTo(
-        ".hero__feature",
-        { clipPath: "inset(0 0 100% 0)", filter: "brightness(1.35) contrast(1.25)" },
-        { clipPath: "inset(0 0 0% 0)", filter: "brightness(1) contrast(1)", duration: 0.72 },
-        "-=0.18",
-      )
-      .fromTo(
-        ".hero__feature-glitch",
-        { autoAlpha: 1, x: -10 },
-        { autoAlpha: 0.18, x: 0, duration: 0.5, clearProps: "visibility,x" },
-        "-=0.48",
-      )
-      .fromTo(
-        [".hero__kicker", ".hero__title", ".hero__lede"],
-        { y: 18, autoAlpha: 0, filter: "blur(4px)" },
-        { y: 0, autoAlpha: 1, filter: "blur(0px)", duration: 0.58, stagger: 0.07 },
-        "-=0.28",
-      )
-      .fromTo(
-        ".hero__meta-item",
-        { y: 10, autoAlpha: 0 },
-        { y: 0, autoAlpha: 1, duration: 0.38, stagger: 0.05 },
-        "-=0.26",
-      )
-      .fromTo(
-        ".hero__feature-info > *",
-        { y: 12, autoAlpha: 0 },
-        { y: 0, autoAlpha: 1, duration: 0.42, stagger: 0.05 },
-        "-=0.3",
-      )
-      .fromTo(
-        ".gallery__header",
-        { y: 14, autoAlpha: 0 },
-        { y: 0, autoAlpha: 1, duration: 0.42 },
-        "-=0.12",
-      )
-      .fromTo(
-        cards,
-        { y: 16, autoAlpha: 0, filter: "brightness(1.2) blur(2px)" },
-        { y: 0, autoAlpha: 1, filter: "brightness(1) blur(0px)", duration: 0.42, stagger: 0.035 },
-        "-=0.22",
-      );
-
-    return () => tl.revert();
-  });
-
-  return () => mm.revert();
 }
 
 function initAmbient() {
