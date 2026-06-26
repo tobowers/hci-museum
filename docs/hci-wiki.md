@@ -1,6 +1,6 @@
 # The HCI Golden Age Wiki
 
-A research compendium for a digital museum of cutting-edge Human-Computer Interaction from the late 1970s through the early 1990s. These thirty-two projects mix canonical experiments with weird, forgotten, and beautiful vaporware — brain control, voice control, gesture, wearable computing, VR, robots, and full-body exertion.
+A research compendium for a digital museum of cutting-edge Human-Computer Interaction from the late 1970s through the early 1990s. These thirty-five projects mix canonical experiments with weird, forgotten, and beautiful vaporware — brain control, voice control, gesture, wearable computing, VR, robots, and full-body exertion.
 
 Each entry includes an overview, a deep dive, a small media gallery, and full source links so the images and facts can always be traced back.
 
@@ -42,6 +42,9 @@ Each entry includes an overview, a deep dive, a small media gallery, and full so
 33. [DLR Control Ball (1981)](#dlr-control-ball-spacemouse-1981)
 34. [DragonDictate (1989)](#dragondictate-1989)
 35. [EyeTyper (1983)](#eyetyper-1983)
+36. [BioMuse (1990)](#biomuse-1990)
+37. [Etak Navigator (1985)](#etak-navigator-1985)
+38. [Nintendo R.O.B. (Robotic Operating Buddy) (1985)](#nintendo-rob-robotic-operating-buddy-1985)
 
 ---
 ## Hubot (c. 1983)
@@ -1742,3 +1745,189 @@ The EyeTyper embodied a profound HCI paradigm: eyes as the primary physical inpu
 3. Friedman et al., 'The Eyetracker Communication System,' Johns Hopkins APL Technical Digest, vol. 3, no. 3 (1982) — https://www.jhuapl.edu/Content/techdigest/pdf/V03-N03/03-03-Friedman.pdf
 4. DynaVox (Wikipedia) — historical section covering EyeTyper origins — https://en.wikipedia.org/wiki/Dynavox
 5. COGAIN Wiki — Eye Typing Systems — https://wiki.cogain.org/index.php/Eye_Typing_Systems
+
+---
+
+## BioMuse (1990)
+
+**By:** BioControl Systems, Inc. — created by Hugh S. Lusted and R. Benjamin Knapp at Stanford University CCRMA  
+**Tags:** `HCI` `Biosignals` `Music` `Accessibility` `Wearable` `EMG`
+
+### Overview
+
+The BioMuse is an 8-channel programmable biosignal controller developed at Stanford University's CCRMA (Center for Computer Research in Music and Acoustics) and commercialized by BioControl Systems, Inc. beginning in 1990. The system acquires electromyogram (EMG), electrooculogram (EOG), and electroencephalogram (EEG) signals through surface electrodes, amplifies and digitizes them at 4 kHz per channel with 12-bit resolution, processes them on a Texas Instruments TMS320C25 digital signal processor, and outputs user-definable MIDI note events and continuous controller data. The production version (BioMuse v.3, 1992) was a single 17-inch rack-mount enclosure that connected via optically isolated serial link to a DOS PC. Each unit cost $20,000; over 100 were sold to research institutions including NASA, the U.S. Air Force, British Telecom, and Honeywell.
+
+Musician Atau Tanaka composed the first concert piece for the BioMuse (Kagami, 1991) and performed internationally with it for over two decades. The instrument was also deployed for accessibility: at Loma Linda Medical Center in 1991, a pre-release BioMuse enabled a disabled child to play video games using EOG control. The system appeared on CNN multiple times and was featured on the cover of Scientific American in October 1996. The BioMuse is recognized by the NIME (New Interfaces for Musical Expression) community as foundational 'prehistoric NIME' work.
+
+### Deep dive
+
+* **Origins.** Development began in 1987 at Stanford University's CCRMA, a unique interdisciplinary crossroads where biomedical engineering met computer music. Hugh Lusted, a PhD in neurophysiology from Stanford Medical School, and R. Benjamin Knapp, a PhD in electrical engineering from Stanford, collaborated on the idea of turning bioelectrical signals into musical control data. They founded BioControl Systems, Inc. in 1989 in South San Francisco.
+
+The BioMuse was one of the first systems to treat biosignals not as passive biofeedback to be observed but as active biocontrol — a performance instrument to be wielded. Knapp and Lusted's foundational paper 'A Bioelectric Controller for Computer Music Applications' appeared in the Computer Music Journal in 1990 and established the intellectual framework for physiological computing in music.
+* **How It Worked.** The BioMuse system used medical-grade wet-gel electrodes in triplets (+, −, ground) per channel, held in place by elastic armbands (for EMG on forearms, biceps, and triceps) or a headband (for EEG/EOG on the scalp and around the eyes). The signal chain was: raw microvolt differential voltages → instrumentation amplifiers with software-configurable gain (1× to 10,000×) → 4 kHz, 12-bit A/D conversion per channel → TMS320C25 digital signal processor for real-time filtering, envelope following, and pattern recognition → user-programmable MIDI output via optically isolated 19.2 kbaud serial.
+
+The optical isolation in the serial output was a deliberate safety feature protecting the user from computer-side voltage spikes — a detail that reflects the medical-engineering origins of the device.
+
+A persistent practical problem: the conductive gel electrodes were notorious for sliding off with perspiration during performances. A 1992 Metro newspaper article noted the irony: 'an invention that can, with no exaggeration, turn impulses of thought and movement into music, defeated by a slimy glob of blue gelatin.'
+* **The Interaction Model: Body as Instrument.** The BioMuse's interaction model is fundamentally different from conventional controllers. There is no physical object to push against, no visible motion required, no haptic feedback. EMG electrodes sense the electrical activity of muscle contraction — the intention and effort that precede and produce movement, rather than the movement itself. Atau Tanaka described it as sensing 'not movement nor position, but the corporeal action that might (but might not) result in movement.'
+
+This creates a peculiar performance experience. Muscles are tensed and relaxed in empty space. Performers develop internal strategies of restraint — learning precisely how little effort is needed to trigger a note, how to sustain tension smoothly, how to separate the control of adjacent muscle groups. Scores for BioMuse works use gestural notation rather than hardware-specific instructions: 'left arm throw,' 'slowly rotate CCW to maximum,' 'right forearm clench.'
+
+For Tanaka, EMG channels were typically mapped to Yamaha DX7 FM synthesis parameters via MIDI System Exclusive messages, then later to Kurzweil K2000R synthesis and Max/MSP environments. The mappings were deeply customized per piece and per performer.
+* **Dual Lives: Art and Accessibility.** The BioMuse lived two parallel lives. In concert halls and galleries, it was a radical new musical instrument. Atau Tanaka's Kagami (1991) premiered at ICMC 1992 at Stanford's Frost Amphitheater. He formed Sensorband (1993–2003) with Edwin van der Heide and Zbigniew Karkowski, fusing biosensor interfaces with rock energy. The BioMuse Trio (2008–present) brought Knapp, composer Eric Lyon, and violinist Gascia Ouzounian together for chamber music with biosensors.
+
+Simultaneously, the BioMuse was deployed as an accessibility device. At Loma Linda Medical Center in 1991, a pre-release unit enabled a disabled child to play video games using EOG control. The system was used for cursor control by people with physical disabilities (presented at Virtual Reality and Persons with Disabilities conferences, 1993–1995) and for EMG-controlled prosthetics research. This dual use — art instrument and assistive technology — is characteristic of the era's best HCI work.
+* **Why It Matters.** The BioMuse is a landmark in embodied interaction and physiological computing. It was arguably the first commercially available programmable brain-computer/human-computer interface product, predating consumer BCIs like NeuroSky (2009) and Muse (2014) by over 15 years. It demonstrated that internal physiological states — muscle tension, eye position, brainwaves — could be treated not as medical data but as expressive control signals, establishing a paradigm that now spans accessibility, gaming, virtual reality, and interactive art. And it connected communities that rarely talked to each other: biomedical engineers, computer musicians, disability advocates, and performance artists. For a $20,000 rack-mount box with eight electrode channels, it cast a remarkably long shadow.
+
+### Team
+
+* **Hugh S. Lusted.** Co-founder of BioControl Systems. PhD in neurophysiology, Stanford Medical School. Co-inventor of the BioMuse.
+* **R. Benjamin Knapp.** Co-founder and technology director. PhD in electrical engineering from Stanford. Now Professor of Computer Science at Virginia Tech and founding director of ICAT.
+* **Atau Tanaka.** Composer and performer. Composed the first concert piece for BioMuse (Kagami, 1991). Performed internationally with BioMuse for 25+ years. Later: researcher at Sony CSL Paris, Professor at Goldsmiths.
+* **Bill Putnam.** CCRMA doctoral student who wrote the pattern-recognition algorithms for gesture detection and classification on the BioMuse DSP.
+
+### Media
+
+![BioMuse rack-mount unit, system cable, and 8-way electrode breakout box](../assets/wiki/biomuse/biomuse-system.jpg)
+*The BioMuse system: rack-mount processing unit with umbilical cable connecting to an 8-channel electrode breakout box. eContact! 14.2.*
+
+![Atau Tanaka performing with BioMuse, wearing electrode armbands on forearms and biceps](../assets/wiki/biomuse/atau-tanaka-performing.jpg)
+*Atau Tanaka performing with the BioMuse, wearing EMG electrode armbands. Scientific American, 1996. biocontrol.com.*
+
+### Sources
+
+1. Knapp & Lusted, 'A Bioelectric Controller for Computer Music Applications,' Computer Music Journal 14/1 (1990) — https://doi.org/10.2307/3680115
+2. Lusted & Knapp, 'Controlling Computers with Neural Signals,' Scientific American (October 1996) — https://www.scientificamerican.com/article/controlling-computers-with-neural-s/
+3. Atau Tanaka, 'The Use of Electromyogram Signals (EMG) in Musical Performance,' eContact! 14.2 (2012) — https://econtact.ca/14_2/tanaka_personalsurvey.html
+4. Tanaka & Knapp, 'Multimodal Interaction in Music using the Electromyogram and Relative Position Sensing,' NIME 2002 — https://www.nime.org/proceedings/2002/nime2002_193.pdf
+5. BioControl Systems product history — http://www.biocontrol.com/producthistory.html
+6. Ouzounian, 'Interview with R. Benjamin Knapp and Eric Lyon: The Biomuse Trio in conversation,' eContact! 14.2 (2012) — https://econtact.ca/14_2/ouzounian_biomuse.html
+7. CCRMA 252 course notes — BioMuse section — https://ccrma.stanford.edu/CCRMA/Courses/252/sensors/node26.html
+8. Tanaka & Donnarumma, 'The Body as Musical Instrument,' Hz Journal #21 — https://www.hz-journal.org/n21/tanaka.html
+9. Bernardes et al., 'Prehistoric NIME: Revisiting Research on New Musical Interfaces Before 2001,' NIME 2023 — https://nime.org/proceedings/2023/nime2023_8.pdf
+10. CNN National News 1989 report on BioMuse 2 — https://www.youtube.com/watch?v=SLPrpKaE2LI
+
+---
+
+## Etak Navigator (1985)
+
+**By:** Etak, Inc. — founded by Stanley K. Honey, Ken Milnes, Alan Phillips, George Loughmiller; seed-funded by Nolan Bushnell  
+**Tags:** `HCI` `Navigation` `Automotive` `Map Display` `Location`
+
+### Overview
+
+The Etak Navigator, introduced in July 1985, was the first practical in-car computer navigation system. Without GPS (which wouldn't be available for civilian use for another decade), it used compasses, wheel sensors, and map-matching algorithms to track a vehicle's position with remarkable accuracy. A green vector CRT display showed a rotating 'heading-up' map with the car as a fixed triangle in the center — a design now universal in Apple Maps, Google Maps, and every other navigation product. The unit cost $1,395–$1,595 (roughly $4,000 in 2025 dollars), stored maps on custom high-speed cassette tapes, and was the first consumer device to offer address geocoding. Between 2,000 and 5,000 units were sold.
+
+Etak was founded in 1983 by Stanley K. Honey, a world-class ocean navigator who had been navigating Nolan Bushnell's yacht in the Transpacific Yacht Race when the two men brainstormed a land navigation system during a 4am watch. Bushnell provided $500,000 in seed funding. The engineering team, drawn largely from SRI International, applied centuries of maritime dead-reckoning techniques to automobiles. The digital map database Etak built became the foundation of modern commercial digital mapping, surviving through acquisitions by News Corp, Sony, and Tele Atlas/TomTom. At least 12 Etak alumni later worked on Apple Maps.
+
+### Deep dive
+
+* **Origins.** The idea for Etak was born during the 1983 Transpacific Yacht Race from Los Angeles to Honolulu. Stanley K. Honey, navigating Nolan Bushnell's yacht Charley, had built a custom marine navigation computer. During a 4am watch together, Bushnell said "Wouldn't it be great if you could have that for a car?" Honey replied that he knew how to build it. Bushnell said "Yeah, let's do that and I'll fund it," and provided $500,000 in seed capital. Etak was incubated at Bushnell's Catalyst Technologies facility in Sunnyvale, California.
+
+The name 'Etak' comes from a Polynesian navigational concept where ancient mariners imagined their canoes were stationary while islands 'moved' past them — directly analogous to the heading-up map display philosophy that became the product's signature innovation.
+* **How It Worked.** The Navigator used augmented dead reckoning: a flux-gate electronic compass mounted on the rear windshield, two variable-reluctance wheel sensors on non-driven wheels, and a topological map-matching algorithm that continuously 'snapped' the computed position to the nearest road. The core computer unit — an Intel 8088 with 256KB RAM — was housed in a shoebox-sized aluminum chassis installed in the trunk. Maps were stored on custom high-speed cassette tapes (3.5 MB each, 200 cm/sec tape speed, polycarbonate shells tested to 105°C because standard cassettes melted on dashboards).
+
+The display was a green monochrome vector CRT (not raster — too expensive at the time) available in 4.5-inch ($1,395) and 7-inch ($1,595) versions. The car was represented as a fixed triangular arrowhead in the center of the screen while the map rotated and scrolled beneath it — the 'heading-up' orientation that became the universal standard. This arrowhead symbol, designed by engineer George Loughmiller, was inspired by the spaceship from Atari's Asteroids game and is still used by Apple Maps and Google Maps today.
+* **Interaction Model.** The Navigator's interaction design was unusually thoughtful for 1985. Twelve soft-labeled buttons flanked the screen (six per side), with their functions changing based on the current mode. Destination entry used a two-button-per-character system where the first button selected a group of letters and the second selected the specific character — an early solution to text input on a device with minimal buttons. The system auto-completed street names from its database after the first few letters.
+
+Critically, the engineers built in a safety lockout: destination entry and manual position correction were disabled while the vehicle was in motion. This predated modern 'distracted driving' concerns by over two decades. Calibration was an ongoing, self-improving process — drivers would confirm their position at known intersections, and the system continuously refined its calibration through map-matching. With radial tires, calibration became so precise that engineers had to calculate distances on the geoid rather than a spherical earth approximation.
+* **Commercial Story.** The Navigator launched in July 1985 at $1,395 (4.5-inch screen) and $1,595 (7-inch), with map cassettes at $35 each. Installation required a trained technician and took about four hours. Between 2,000 and 5,000 units were sold. Notable users included Michael Jackson (who had one installed in his Mercedes-Benz) and Gary Coleman. The 1986 film Nothing But Trouble featured the Navigator in a BMW — though with a fictional color display.
+
+Selling a product whose category didn't yet exist proved extremely difficult. Etak pivoted from consumer hardware to licensing digital map data and technology to automotive suppliers: Clarion (Japan), Bosch/Blaupunkt (Germany, as TravelPilot), and GM/Delco (USA). The company was acquired by Rupert Murdoch's News Corporation in 1989 for approximately $25 million, then by Sony in 1996, and eventually became part of Tele Atlas/TomTom. The digital map data Etak created survives in modern mapping products including Apple Maps.
+* **Why It Matters.** The Etak Navigator established the fundamental interaction paradigm for in-car navigation that persists nearly 40 years later: heading-up display, car-centric viewpoint, soft-labeled buttons flanking the screen. It introduced the concept that a machine could 'know where you are' — a mental shift whose consequences (location-based services, ride-hailing, real-time traffic) are now so pervasive we treat them as infrastructure. The Navigator invented the universal car-navigation arrow symbol, pioneered map-matching (still used in every navigation system today), and was arguably the first consumer computing device designed to be used while operating a vehicle. The safety lockout for destination entry was decades ahead of its time.
+
+### Team
+
+* **Stanley K. Honey.** Founder. World-class ocean navigator, former SRI researcher. Conceived the system and provided the maritime navigation expertise.
+* **Nolan Bushnell.** Seed investor. Founder of Atari and Chuck E. Cheese. Incubated Etak at Catalyst Technologies. Brainstormed the concept with Honey on his yacht.
+* **Ken Milnes.** Co-founder from SRI. Co-designed the marine navigation system for Bushnell's yacht that preceded Etak.
+* **Alan Phillips.** Co-founder from SRI.
+* **George Loughmiller.** Engineer. Created the triangular car-navigation arrow symbol, inspired by Atari's Asteroids spaceship.
+* **Marvin White.** Mathematician recruited from U.S. Census Bureau. One of two people in the country who understood topological map data structures. Led development of Etak's hierarchical map storage.
+* **Walt Zavoli.** Director of R&D. Co-authored the foundational 1986 IEEE paper on map-matching augmented dead reckoning.
+
+### Media
+
+![Etak Navigator on the cover of Popular Science, June 1985](../assets/wiki/etak-navigator/etak-popsci.jpg)
+*The Etak Navigator on the cover of Popular Science, June 1985. Stan Honey personal archive.*
+
+![Etak Navigator hardware components: computer unit, display, cassette tapes, wheel sensors, and compass](../assets/wiki/etak-navigator/etak-equipment.jpg)
+*Etak Navigator hardware components: the computer unit, CRT display, cassette tapes, wheel sensors, and flux-gate compass. Stan Honey personal archive.*
+
+![Installation of Etak Navigator display and tape drive in a vehicle dashboard](../assets/wiki/etak-navigator/etak-install.jpg)
+*Installation of the Etak Navigator's CRT display and cassette tape drive in a vehicle. The shoebox-sized computer unit was mounted in the trunk. Stan Honey personal archive.*
+
+### Sources
+
+1. Stan Honey's First-Hand Account of Etak (ETHW) — https://ethw.org/First-Hand:ETAK,_an_early_vehicle_navigation_system
+2. Original Etak Technical Paper — Royal Institute of Navigation (1985) — http://honeynav.com/wp-content/uploads/2016/01/Etak-paper-RIN-York-1985.pdf
+3. Computer History Museum — Etak Navigator artifact — https://www.computerhistory.org/collections/catalog/102766595
+4. Smithsonian National Museum of American History — Etak Navigator display unit — https://americanhistory.si.edu/collections/object/nmah_1297162
+5. Benj Edwards, Fast Company — 'Who Needs GPS? The Forgotten Story of Etak' (2015) — https://www.fastcompany.com/3047828/who-needs-gps-the-forgotten-story-of-etaks-amazing-1985-car-navigation-system
+6. Map Happenings — 'A Curious Phenomenon Called Etak' (2024, written by Etak alumnus) — https://maphappenings.com/2024/04/11/story-of-etak/
+7. TIME Magazine — 'Driving by the Glow of a Screen' (April 20, 1987) — https://time.com/archive/6708893/computers-driving-by-the-glow-of-a-screen/
+8. Popular Science Cover — June 1985 — http://honeynav.com/wp-content/uploads/2016/01/Etak-Popular-Science.pdf
+9. IEEE Paper — 'Map matching augmented dead reckoning' (Zavoli & Honey, 1986) — https://ieeexplore.ieee.org/document/1623458
+10. Wikipedia — Etak — https://en.wikipedia.org/wiki/Etak
+11. Hackaday — 'How Etak Paved The Way To Personal Navigation' (2018) — https://hackaday.com/2018/06/29/how-etak-paved-the-way-to-personal-navigation/
+
+---
+
+## Nintendo R.O.B. (Robotic Operating Buddy) (1985)
+
+**By:** Nintendo R&D1 — invented by Gunpei Yokoi; named by Gail Tilden; industrial design by Lance Barr  
+**Tags:** `HCI` `Robotics` `Game Peripheral` `Physical Computing` `Embodied Interaction`
+
+### Overview
+
+R.O.B. (Robotic Operating Buddy, model NES-012) is a 9.5-inch-tall, battery-powered robot companion for the Nintendo Entertainment System, released in 1985. Unlike every other game peripheral before or since, R.O.B. is an output device: the NES sends commands to the robot through light flashes on a CRT screen, and the robot physically manipulates objects beside the TV. A phototransistor in R.O.B.'s head detects flashing green and black squares synchronized to the NTSC vertical blanking interval. A Sharp IR3T07 decoder chip translates the 13-bit pulse sequences into motor commands — UP, DOWN, LEFT, RIGHT, OPEN, CLOSE — and three DC motors move the robot's arms and rotating base.
+
+Only two games were produced for R.O.B.: Gyromite, where the robot pressed controller buttons by placing spinning tops on trays, and Stack-Up, where it assembled colored blocks into patterns. The robot was discontinued by 1988. Its real significance, however, was strategic: after the 1983 video game crash, retailers refused to stock game consoles. Nintendo bundled R.O.B. with the Deluxe Set NES to recast the system as a futuristic toy rather than a video game console, successfully gaining placement in toy aisles. R.O.B. was a Trojan horse — and the horse was a robot.
+
+### Deep dive
+
+* **Origins.** R.O.B. was developed by Nintendo R&D1, the hardware team led by Gunpei Yokoi, who had already created the Game & Watch series and would go on to design the Game Boy and the D-pad. Yokoi is the named inventor on both US patents (4,729,563 and 4,815,733) covering R.O.B.'s photosensing control system. The same optical technology was used in the NES Zapper light gun.
+
+On the North American side, the product was named 'Robotic Operating Buddy' by Gail Tilden, Nintendo of America's sole marketing staff member at the time, who also designed the NES branding and packaging that deliberately avoided the term 'video game.' Industrial designer Lance Barr gave the NES and R.O.B. their distinctive gray/black 'hi-fi component' aesthetic, which helped position the system alongside VCRs and stereos rather than game consoles.
+* **How It Worked.** R.O.B. receives commands through optical signaling. The NES game software draws flashing patterns of green (bright) and black (dark) rectangles in a specific area of the CRT screen, synchronized to the TV's 60 Hz refresh rate. Each command is a 13-bit pattern: a 5-bit preamble (00010) followed by an 8-bit command byte. Six movement commands are supported: UP, DOWN, LEFT, RIGHT, OPEN, and CLOSE, plus a TEST command that lights R.O.B.'s head LED to confirm line-of-sight alignment.
+
+The robot contains three DC motors: one in the base for body rotation (300°, 5 stopping points), and two in the torso — one for vertical arm movement (2.75 inches of travel, 6 stopping points) and one for the pincer gripper (2.75 inches opening). R.O.B. has no limit switches; it uses timed friction clutches, which means old units frequently break. The motors make a loud grinding noise when operating.
+
+A critical limitation: R.O.B. only works with CRT televisions. LCD and plasma displays cannot reproduce the precise frame-timing that the optical protocol depends on.
+* **The Interaction Model.** R.O.B.'s interaction model is unique in consumer electronics history. It is an output peripheral — the computer sends commands into physical space through light, and a physical actuator responds by manipulating real objects. In Gyromite, the player uses a standard NES controller to play a puzzle-platform game. When R.O.B. needs to press a button on the second controller, the player presses START plus a direction on the D-pad, and the game flashes the command. R.O.B. picks up a spinning top from a motorized spinner, rotates to position over a colored tray, lowers the top onto the tray, and the tray's button depresses either the A or B button on controller 2. The game detects the controller input and opens or closes gates.
+
+This chain — player intention → D-pad input → software-rendered light flashes → phototransistor detection → motor actuation → physical object manipulation → second controller button press → game response — is an extraordinarily indirect control loop. It bridges the digital and physical worlds using nothing more than the TV screen that was already there.
+* **The Trojan Horse Strategy.** After the North American video game crash of 1983, the market collapsed from $3.2 billion to roughly $100 million. Retailers refused to stock video game consoles. Nintendo of America, under president Minoru Arakawa, made a deliberate decision: reclassify the NES as a toy, not a video game console. Every aspect was redesigned — the Famicom became the 'Nintendo Entertainment System,' cartridges became 'Game Paks,' the console was styled like a VCR with a front-loading cartridge slot, and the entire system was sold in the toy aisle. R.O.B. was the centerpiece of this strategy. The Deluxe Set ($249.99 in 1985, roughly $600+ today) bundled the NES with R.O.B., the Zapper light gun, Gyromite, and Duck Hunt.
+
+The New York City test market launched on October 18, 1985. A 12-person 'SWAT team' set up displays at 500 stores through Christmas Eve. 50,000 Deluxe Sets sold that holiday season. A January 1986 Nintendo survey found that R.O.B. was the #1 reason children wanted the NES — ahead of graphics, game variety, or anything else. But once Super Mario Bros. arrived in 1986, the standard controller proved the superior experience, and R.O.B. was quietly discontinued by 1988. The robot had done its job.
+* **Why It Matters.** R.O.B. is a landmark in physical computing — one of the earliest mass-market consumer devices where a computer program directly controls a physical actuator in the user's environment. The CRT flash protocol is a clever repurposing of existing display technology as a data link, anticipating modern techniques like screen-mediated device pairing and Li-Fi. And the artifact embodies a lesson about how industrial design, naming, and physical form factor can redefine a product category: a plastic robot companion transformed a dead product category into a billion-dollar industry. R.O.B. has become a beloved platform for hardware hackers; the AtariAge community reverse-engineered the undocumented Sharp IR3T07 protocol in the 2010s, and projects range from Bluetooth-controlled 3D-printed replacement parts to complete R.O.B. 2.0 rebuilds.
+
+### Team
+
+* **Gunpei Yokoi.** Inventor, patent holder, head of Nintendo R&D1. Designed R.O.B.'s photosensing control system. Also created the D-pad and Game Boy.
+* **Gail Tilden.** Nintendo of America's advertising manager. Named the product 'Robotic Operating Buddy' and led the marketing strategy that recast the NES as a toy.
+* **Lance Barr.** Industrial designer. Created the NES/R.O.B. color scheme and the retail point-of-purchase displays topped with oversized R.O.B. heads.
+* **Don James.** Product designer. Worked on R.O.B. coloration, packaging, and display fabrication.
+* **Howard Phillips.** Warehouse manager who unboxed the first R.O.B. shipment, conducted early demos, and worked the mall tour circuit. Later became the face of Nintendo as 'Howard & Nester.'
+* **Minoru Arakawa.** President of Nintendo of America. Made the strategic decision to bundle R.O.B. and budgeted $50 million for the New York test launch.
+
+### Media
+
+![NES R.O.B. robot on white background — studio photo by Evan-Amos](../assets/wiki/nintendo-rob/rob-studio.jpg)
+*R.O.B. studio portrait by Evan-Amos. The robot's phototransistor 'eye' is visible in the head, alongside the Gyromite spinning top accessory. Licensed CC BY-SA 3.0 via Wikimedia Commons.*
+
+![R.O.B. with Gyromite cartridge and sleeve on display at the Centre for Computing History](../assets/wiki/nintendo-rob/rob-with-cartridge.jpg)
+*R.O.B. with Gyromite cartridge and sleeve. Photographed at the Centre for Computing History, Cambridge.*
+
+### Sources
+
+1. Wikipedia — R.O.B. — https://en.wikipedia.org/wiki/R.O.B.
+2. US Patent 4,729,563 — Yokoi, 'Robot-like game apparatus' — https://www.freepatentsonline.com/4729563.html
+3. US Patent 4,815,733 — Yokoi, 'Photosensing video game control system' — https://worldwide.espacenet.com/textdoc?DB=EPODOC&IDX=US4815733
+4. IGN — 'In Their Words: Remembering the Launch of the NES' (2015 oral history) — https://www.ign.com/articles/2015/10/19/in-their-words-remembering-the-launch-of-the-nintendo-entertainment-system
+5. Video Game History Foundation — 'The NES Launch Collection' — https://gamehistory.org/nes-launch-collection-1985/
+6. GitHub: zfields/nes-rob — Complete reverse-engineering of R.O.B. protocol — https://github.com/zfields/nes-rob/blob/19a6b486500a0204ac7dfdeb39bb5da8dbcdc4f5/docs/research.md
+7. Hackaday — 'Retro Gadgets: Nintendo R.O.B Wanted To Be Your Friend' (2023) — https://hackaday.com/2023/02/16/retro-gadgets-nintendo-r-o-b-wanted-to-be-your-friend/
+8. Polygon — 'Here's how Nintendo announced the NES in North America' — https://www.polygon.com/2015/10/31/9651584/nintendo-nes-anniversary-original-launch-documents
+9. AtariAge Forum — Reverse-engineered command protocol (Tursi, 2011) — https://forums.atariage.com/topic/177286-any-interest-in-nes-rob-homebrews/
+10. Chris Kohler, 'Power-Up: How Japanese Video Games Gave the World an Extra Life' (2004) — https://books.google.com/books?id=VuA7DQAAQBAJ
