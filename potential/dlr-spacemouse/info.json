@@ -1,0 +1,95 @@
+{
+  "slug": "dlr-spacemouse",
+  "title": "DLR Control Ball",
+  "year": "1981",
+  "subtitle": "The first 6-DOF force-sensing ball: push, twist, and pull your way through 3D space — built for robots, launched in orbit, and still on desks today",
+  "why_scout_cares": "A tennis-ball-sized hollow sphere that reads minute hand pressures — not position, not movement, but force — and translates them into simultaneous control of all six degrees of freedom: X, Y, Z translation plus pitch, roll, and yaw rotation. Developed at the German Aerospace Center (DLR) in 1981, the Control Ball used an integrated 6-axis force/torque sensor to let the user's hand apply gentle pressure to navigate 3D space. You don't wave it around — you barely move it. The interaction model is isometric: the hand rests, and intent is expressed through pressure, not displacement.\n\nThe Control Ball is the ancestor of every 3Dconnexion SpaceMouse on an engineer's desk today. It was used in the ROTEX mission (Space Shuttle Columbia, 1993) for the first remotely teleoperated robot in space. The commercial Dimension 6/Geoball version won 'Product of the Year' in 1988. Unlike the Polhemus Isotrak (a position tracker — 'where is this in space?'), the Control Ball answers a different question: 'what forces is the user applying to control space?' It's an input modality entirely absent from keyboards, mice, joysticks, and touchscreens — and it's still in production 40+ years later.",
+  "search_terms": ["DLR control ball SpaceMouse 1981", "6-DOF force torque sensor ball", "Dimension 6 Geoball", "SpaceMouse history DLR"],
+  "research": {
+    "title": "DLR Control Ball (SpaceMouse)",
+    "year": "1981",
+    "by": "DLR (German Aerospace Center) Institute for Robotics and Mechatronics, Oberpfaffenhofen",
+    "tags": ["6-DOF Input", "Force Input", "Spatial Controller"],
+    "overview": "The DLR Control Ball was the first 6-degree-of-freedom (6-DOF) force/torque sensor ball, developed at the German Aerospace Center's Institute for Robotics and Mechatronics beginning in 1981. A 6-axis force-torque sensor (measuring 3 force and 3 torque components) was integrated into a plastic hollow ball about the size of a tennis ball. Slight hand pressure on the ball produced translational and rotational displacements that were translated into motion speeds in 3D space. The user's hand rested on the ball; subtle push/pull/twist motions provided simultaneous control of all six degrees of freedom (X, Y, Z translation + pitch, roll, yaw rotation) without gross arm movement.\n\nThe first version used strain gauges (~$8,000). By 1985, a cheaper optical measuring system using six one-dimensional position detectors was developed. The device was patented in Germany (1981), Europe (1982), and the USA (1983). It was used in the ROTEX space robot mission aboard Space Shuttle Columbia (1993) — the first remotely teleoperated robot in space — where an astronaut used a Control Ball to command a robot arm in the shuttle's payload bay.\n\nThe commercial version was called Dimension 6 / Geoball (1988, by CiS Graphics, ~$3,000, named 'Product of the Year' in the USA). In 1993, the refined SpaceMouse Magellan was launched and eventually licensed to Logitech, becoming the 3Dconnexion SpaceMouse — still in production today and standard equipment on CAD workstations worldwide. Only a few hundred original Dimension 6 systems were sold, making it a rare collector's item with a direct line to one of the most enduring niche input devices in computing history.",
+    "deepDive": [
+      {
+        "heading": "Isometric 6-DOF: A New Input Paradigm",
+        "text": "Unlike position-sensing devices (mice, joysticks, Isotrak) that measure where something IS, the Control Ball measured what forces the user APPLIED. The hand rested on a stationary ball; pushing lightly forward translated the viewpoint forward in 3D space, twisting clockwise rotated it. All six degrees of freedom could be controlled simultaneously — a pilot metaphor of intuitive, strain-free spatial navigation. This isometric approach meant no desk space was consumed by movement, no arm fatigue from sweeping gestures, and no need to switch between translation and rotation modes."
+      },
+      {
+        "heading": "From Strain Gauges to Optics to Commercial Product",
+        "text": "The first prototype (1981) used strain gauges on an inner structure, costing approximately $8,000 to produce. The breakthrough was the 1985 optical system: six one-dimensional position detectors (LED + photodiode pairs) measuring the displacement of a central element suspended by springs, dramatically reducing cost. This optical approach enabled the commercial Dimension 6 / Geoball (1988) at ~$3,000. The technology was licensed to Logitech in the 1990s, becoming the SpaceMouse product line. Today's 3Dconnexion SpaceMouse uses essentially the same isometric 6-DOF principle in a compact puck form factor, and is sold in the millions to CAD professionals."
+      },
+      {
+        "heading": "Space Heritage: ROTEX on Columbia",
+        "text": "In 1993, during Space Shuttle Columbia mission STS-55, the DLR's ROTEX experiment demonstrated the first remotely controlled robot in space. An astronaut aboard Columbia used a Control Ball to teleoperate a small robot arm mounted in the shuttle's payload bay, while ground controllers in Oberpfaffenhofen also commanded the same arm with signal delays. The Control Ball's intuitive 6-DOF control was essential — in microgravity, the isometric design meant the astronaut's hand didn't need to move, just apply pressure, making it usable without anchoring the body."
+      },
+      {
+        "heading": "Distinction from Polhemus Isotrak",
+        "text": "The HCI Museum already features the Polhemus 3Space Isotrak (1987), a 6-DOF electromagnetic position tracker. These devices are complementary, not redundant. The Isotrak answers 'where is a sensor in space?' — it's for tracking. The Control Ball answers 'what forces is the user commanding?' — it's for deliberate input. They represent two fundamentally different relationships between human movement and machine: one measures position passively, the other reads force as an intentional command."
+      }
+    ],
+    "team": [
+      {
+        "name": "DLR (Deutsches Zentrum für Luft- und Raumfahrt)",
+        "note": "German Aerospace Center, Institute for Robotics and Mechatronics, Oberpfaffenhofen. Lead developer of the Control Ball technology"
+      },
+      {
+        "name": "Prof. Dr. Gerd Hirzinger",
+        "note": "Director, DLR Institute for Robotics and Mechatronics. Led the ROTEX space robot program"
+      },
+      {
+        "name": "CiS Graphics Inc.",
+        "note": "West German company that commercialized the Control Ball as Dimension 6 / Geoball under DLR license (1988)"
+      },
+      {
+        "name": "Logitech / 3Dconnexion",
+        "note": "Licensee of the SpaceMouse technology since the 1990s; continues to produce SpaceMouse devices for CAD professionals"
+      }
+    ],
+    "media": [
+      {
+        "src": "https://www.dlr.de/en/rm/images/roboter_und_systeme/spacemouse/sm2.jpg",
+        "alt": "DLR Control Ball prototype with hand resting on the force-sensing sphere",
+        "caption": "DLR Control Ball prototype. The hand rests on the sphere and applies pressure for 6-DOF spatial control. Source: DLR."
+      },
+      {
+        "src": "https://spacemice.org/gallery/Dimension6.jpg",
+        "alt": "Dimension 6 / Geoball commercial 6-DOF controller from 1988",
+        "caption": "The Dimension 6 (also known as Geoball), the commercial version released by CiS Graphics in 1988. Source: spacemice.org."
+      }
+    ],
+    "sources": [
+      {
+        "text": "DLR — SpaceMouse 1981-1993 official history page",
+        "url": "https://www.dlr.de/en/rm/research/robotic-systems/human-machine-interfaces/spacemouse-1981-1993"
+      },
+      {
+        "text": "SpaceMice.org — Spacemouse Classic history and technical documentation",
+        "url": "https://spacemice.org/index.php/Spacemouse_Classic"
+      },
+      {
+        "text": "SpaceMice.org — Dimension 6 technical manual and gallery",
+        "url": "https://spacemice.org/index.php/Dimension6"
+      },
+      {
+        "text": "DLR ROTEX — first remotely controlled robot in space (STS-55, 1993)",
+        "url": "https://www.dlr.de/en/rm/research/robotic-systems/rotex"
+      },
+      {
+        "text": "3Dconnexion SpaceMouse — modern commercial descendant",
+        "url": "https://3dconnexion.com/uk/spacemouse/"
+      }
+    ],
+    "imageUrls": [
+      "https://www.dlr.de/en/rm/images/roboter_und_systeme/spacemouse/sm2.jpg",
+      "https://spacemice.org/gallery/Dimension6.jpg",
+      "https://www.dlr.de/en/rm/research/robotic-systems/human-machine-interfaces/spacemouse-1981-1993",
+      "https://spacemice.org/index.php/Dimension6"
+    ]
+  },
+  "savedImages": [
+    "potential/dlr-spacemouse/images/dlr-control-ball.jpg",
+    "potential/dlr-spacemouse/images/dimension6.jpg"
+  ]
+}
