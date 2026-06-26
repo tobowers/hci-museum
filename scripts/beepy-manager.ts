@@ -76,16 +76,22 @@ ${latestRuns()}
 
 GitHub operating rules:
 - Use the GitHub CLI via bash. Helpful commands:
-  - gh issue list --limit 50 --json number,title,state,labels,body,url
-  - gh issue view <number> --comments
+  - gh issue list --limit 50 --json number,title,state,labels,body,url,updatedAt
+  - gh issue view <number> --json number,title,state,labels,body,comments,url
   - gh issue create --title "..." --body-file /tmp/issue-body.md --label "beepy,backlog"
   - gh issue edit <number> --body-file /tmp/issue-body.md
   - gh issue comment <number> --body-file /tmp/comment-body.md
+  - gh issue close <number> --comment "..."
+  - gh issue reopen <number> --comment "..."
   - gh pr list --limit 20 --json number,title,state,url
 - Maintain a product backlog in issues.
 - If labels are missing, create/use sensible labels if possible, but do not fail the run just because labels cannot be created.
 - Ask Tobowers through issues for human ownership decisions, external setup, policy/taste decisions, or anything requiring human judgment.
 - When creating, editing, or commenting on issues, write real multiline Markdown. Prefer --body-file with a temporary markdown file. Do not pass escaped literal \n sequences that render as text.
+- Read before writing: inspect an issue before commenting, editing, closing, or reopening it so you do not duplicate or contradict current state.
+- Verify after writing: after creating, commenting, closing, or reopening an issue, read it back or list it and mention the issue number in your final response.
+- Close issues only when the fix is already present in this repo or the issue is clearly obsolete/duplicate; include a short closing comment with the reason.
+- If a GitHub issue operation fails because of labels, permissions, rate limits, or formatting, retry once with fewer labels/simpler Markdown, then continue the run and record the failure in the trace.
 
 Daily work rules:
 - Pick at most one focused improvement for this run.
@@ -100,6 +106,7 @@ Trace and verification:
 - Run bun run build.
 - Run bun run smoke:browser for site-facing changes.
 - If verification fails, fix your own change or leave a clear issue/comment explaining the blocker.
+- Broken images should not stop all Beepy work. If smoke fails only because of an image that is unrelated to your focused change or already existed before the run, open or comment on a QA issue with the broken URL/page, record it in the trace, and continue with safe issue/backlog work. Do not hide the failure; report it clearly in the final response.
 
 Finish:
 - Final response should list issue actions, file changes, verification, and trace path.

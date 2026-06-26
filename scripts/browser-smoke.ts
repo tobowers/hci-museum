@@ -46,24 +46,34 @@ const server = Bun.serve({
   },
 });
 
-async function assertImagesLoaded(page: Page, label: string) {
+async function imageFailures(page: Page, label: string): Promise<string[]> {
   await page.evaluate(async () => {
     window.scrollTo(0, document.body.scrollHeight);
     await new Promise((resolve) => setTimeout(resolve, 800));
   });
   const broken = await page.$$eval("img", (imgs) =>
     imgs
-      .map((img) => ({ src: img.currentSrc || img.src, complete: img.complete, naturalWidth: img.naturalWidth, naturalHeight: img.naturalHeight }))
+      .map((img) => ({
+        src: img.currentSrc || img.src,
+        alt: img.alt,
+        className: img.className,
+        complete: img.complete,
+        naturalWidth: img.naturalWidth,
+        naturalHeight: img.naturalHeight,
+      }))
       .filter((img) => !img.complete || img.naturalWidth === 0 || img.naturalHeight === 0),
   );
-  if (broken.length) throw new Error(`${label}: broken images ${JSON.stringify(broken, null, 2)}`);
 
   const remote = await page.$$eval(".hero__feature-image, .exhibit-card__image, .exhibit__hero-image, .exhibit__media img", (imgs) =>
     imgs
       .map((img) => (img instanceof HTMLImageElement ? img.currentSrc : "") || img.getAttribute("src") || "")
       .filter((src) => src && new URL(src, window.location.href).origin !== window.location.origin),
   );
-  if (remote.length) throw new Error(`${label}: exhibit images must be local, found ${JSON.stringify(remote, null, 2)}`);
+
+  const failures: string[] = [];
+  if (broken.length) failures.push(`${label}: broken images ${JSON.stringify(broken, null, 2)}`);
+  if (remote.length) failures.push(`${label}: exhibit images must be local, found ${JSON.stringify(remote, null, 2)}`);
+  return failures;
 }
 
 async function assertCollectionOrder(page: Page) {
@@ -79,13 +89,13 @@ async function assertCollectionOrder(page: Page) {
   if (mismatch !== -1) {
     throw new Error(`Collection order mismatch at ${mismatch}: expected ${expectedTitles[mismatch]}, got ${actualTitles[mismatch]}`);
   }
-  await assertImagesLoaded(page, "/exhibits/");
-  return cards;
+  return { cards, failures: await imageFailures(page, "/exhibits/") };
 }
 
 async function main() {
   const browser = await chromium.launch({ headless: true });
   const page = await browser.newPage({ viewport: { width: 1280, height: 900 } });
+  const failures: string[] = [];
   try {
     for (const feed of ["/feeds/collection.xml", "/feeds/blog.xml"]) {
       const response = await page.goto(`${baseUrl}${feed}`);
@@ -96,16 +106,19 @@ async function main() {
 
     await page.goto(`${baseUrl}/`, { waitUntil: "networkidle" });
     await page.waitForSelector(".exhibit-card");
-    await assertImagesLoaded(page, "/");
+    failures.push(...(await imageFailures(page, "/")));
 
-    const cards = await assertCollectionOrder(page);
+    const { cards, failures: collectionFailures } = await assertCollectionOrder(page);
+    failures.push(...collectionFailures);
     for (const card of cards) {
       const url = new URL(card.href);
       const response = await page.goto(`${baseUrl}${url.pathname}`, { waitUntil: "networkidle" });
       if (!response?.ok()) throw new Error(`${url.pathname}: HTTP ${response?.status() ?? "unknown"}`);
       await page.waitForSelector(".exhibit__title");
-      await assertImagesLoaded(page, url.pathname);
+      failures.push(...(await imageFailures(page, url.pathname)));
     }
+
+    if (failures.length) throw new Error(`browser-smoke image failures:\n\n${failures.join("\n\n")}`);
 
     console.log(`browser-smoke: checked ${cards.length} exhibit pages and images`);
   } finally {

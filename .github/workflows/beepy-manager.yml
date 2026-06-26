@@ -60,18 +60,47 @@ jobs:
         run: bun run beepy:manager -- "$MANAGER_TOPIC"
 
       - name: Typecheck generated changes
+        id: generated_typecheck
         if: ${{ steps.manager_run.outcome == 'success' }}
         run: bun run typecheck
 
       - name: Build site with generated changes
+        id: generated_build
         if: ${{ steps.manager_run.outcome == 'success' }}
         run: bun run build
 
       - name: Browser smoke test generated changes
+        id: generated_smoke
         if: ${{ steps.manager_run.outcome == 'success' }}
+        continue-on-error: true
         run: |
           bunx playwright install --with-deps chromium
           bun run smoke:browser
+
+      - name: Report smoke failure issue
+        if: ${{ steps.generated_smoke.outcome == 'failure' }}
+        env:
+          RUN_URL: ${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}
+        run: |
+          gh label create beepy --color 2f81f7 --description "Automated Beepy work" || true
+          gh label create qa --color d29922 --description "Quality assurance" || true
+          body_file="$(mktemp)"
+          cat > "$body_file" <<EOF
+          The Beepy manager run hit a browser smoke-test failure after the manager completed.
+
+          Run: $RUN_URL
+
+          This does not necessarily mean Beepy's focused change caused the failure; broken images can pre-exist the run. Review the action log for the exact page/image and either fix the asset or close this issue if a newer run has already resolved it.
+          EOF
+          issue_number="$(gh issue list --state open --search "Beepy manager smoke test is failing in:title" --json number --jq '.[0].number // empty')"
+          if [ -n "$issue_number" ]; then
+            gh issue comment "$issue_number" --body-file "$body_file"
+            gh issue view "$issue_number" --json number,title,state,url
+          else
+            created_issue="$(gh issue create --title "Beepy manager smoke test is failing" --body-file "$body_file" --label beepy --label qa || \
+              gh issue create --title "Beepy manager smoke test is failing" --body-file "$body_file")"
+            gh issue view "$created_issue" --json number,title,state,url
+          fi
 
       - name: Show generated changes
         if: ${{ always() }}
@@ -98,6 +127,13 @@ jobs:
           title: "Beepy manager: ${{ inputs.topic || 'scheduled daily run' }}"
           body: |
             Automated Beepy manager output for `${{ inputs.topic || 'scheduled daily run' }}`.
+
+            Validation:
+            - Typecheck: `${{ steps.generated_typecheck.outcome }}`
+            - Build: `${{ steps.generated_build.outcome }}`
+            - Browser smoke: `${{ steps.generated_smoke.outcome }}`
+
+            If browser smoke failed, Beepy may still have produced useful issue/backlog or file changes. Review the linked QA issue and action log before merging.
 
             Review file changes and issue comments before merging.
           add-paths: |

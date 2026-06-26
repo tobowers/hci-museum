@@ -1640,9 +1640,6 @@ The commercial version was called Dimension 6 / Geoball (1988, by CiS Graphics, 
 
 ### Media
 
-![DLR Control Ball prototype with hand resting on the force-sensing sphere](../assets/wiki/dlr-spacemouse-1.jpg)
-*DLR Control Ball prototype. The hand rests on the sphere and applies pressure for 6-DOF spatial control. Source: DLR.*
-
 ![Dimension 6 / Geoball commercial 6-DOF controller from 1988](../assets/wiki/dlr-spacemouse-2.jpg)
 *The Dimension 6 (also known as Geoball), the commercial version released by CiS Graphics in 1988. Source: spacemice.org.*
 

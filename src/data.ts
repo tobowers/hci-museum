@@ -428,7 +428,7 @@ const exhibitData: Exhibit[] = [
     subtitle: "The first 6-DOF force-sensing ball: push, twist, and pull your way through 3D space — built for robots, launched in orbit, and still on desks today",
     blurb: "A tennis-ball-sized sphere that reads minute hand pressures — not position, not movement, but force — and translates them into simultaneous control of all six degrees of freedom. Developed at the German Aerospace Center in 1981. Used on Space Shuttle Columbia. Still in production as the 3Dconnexion SpaceMouse.",
     tags: ["6-DOF Input", "Force Input", "Spatial Controller"],
-    image: img("dlr-spacemouse-1.jpg"),
+    image: img("dlr-spacemouse-2.jpg"),
   },
   {
     id: "dragondictate",
@@ -464,7 +464,7 @@ const exhibitData: Exhibit[] = [
     subtitle: "The first commercial biosignal controller: muscle tension, eye movement, and brainwaves become music",
     blurb: "Eight channels of EMG, EOG, and EEG electrodes feed a $20,000 DSP box. Tensing a forearm muscle triggers a synth note. Shifting your gaze bends a parameter. Built at Stanford's CCRMA by Hugh Lusted and Benjamin Knapp in 1990. Performed in concert halls by Atau Tanaka. Used by NASA, the U.S. Air Force, and a disabled child playing video games at Loma Linda Medical Center.",
     tags: ["Biosignals", "Music", "Accessibility", "Wearable", "EMG"],
-    image: img("biomuse-system.jpg"),
+    image: img("biomuse/biomuse-system.jpg"),
   },
   {
     id: "etak-navigator",
@@ -476,7 +476,7 @@ const exhibitData: Exhibit[] = [
     subtitle: "The first practical in-car navigation computer, using dead reckoning and a rotating map — years before GPS",
     blurb: "A shoebox-sized 8088 computer in the trunk, a compass on the rear windshield, wheel sensors on the brakes, and maps on high-speed cassette tapes. No GPS — just dead reckoning and a map-matching algorithm that snapped your position to the nearest road. Nolan Bushnell seed-funded it after a 4am yacht conversation. Its heading-up rotating map display and triangular arrow symbol became the universal standard for every navigation app since.",
     tags: ["Navigation", "Automotive", "Map Display", "Location"],
-    image: img("etak-popsci.jpg"),
+    image: img("etak-navigator/etak-popsci.jpg"),
   },
   {
     id: "nintendo-rob",
@@ -488,7 +488,7 @@ const exhibitData: Exhibit[] = [
     subtitle: "A physical robot companion that played NES games with you, commanded by light flashes from the TV screen",
     blurb: "R.O.B. is an output device disguised as a friend. The NES draws flashing green and black rectangles on a CRT screen. A phototransistor in R.O.B.'s head decodes the pulses into motor commands. Three DC motors grind into action, and the robot reaches into the real world to press buttons on a second controller. Designed by Gunpei Yokoi. Discontinued by 1988. But before that, it saved Nintendo — retailers wouldn't stock a 'video game console' after the 1983 crash, so they bundled a robot and called it a toy.",
     tags: ["Robotics", "Game Peripheral", "Physical Computing", "Embodied Interaction"],
-    image: img("rob-studio.jpg"),
+    image: img("nintendo-rob/rob-studio.jpg"),
   },
 ];
 
