@@ -1,0 +1,80 @@
+{
+  "slug": "biomuse",
+  "title": "BioMuse",
+  "year": "1990",
+  "subtitle": "The first commercial biosignal controller — muscle tension, eye movement, and brainwaves become music",
+  "why_scout_cares": "The BioMuse is the kind of artifact that reminds you the late 80s and early 90s were genuinely strange. For $20,000, you got a rack-mount box with eight channels of biosignal acquisition: stick wet-gel electrodes on your forearms, biceps, head, and around your eyes, and the system converts your muscle tension (EMG), eye movements (EOG), and brainwaves (EEG) into MIDI notes and continuous controller data. The body becomes the instrument — but there's nothing to push against, no haptic feedback, no visible motion required. You tense a muscle silently and a synthesizer sounds. You shift your gaze and a parameter changes. The interaction model captures intention rather than displacement: the BioMuse senses the corporeal action that might (but might not) result in movement.\n\nCreated by Hugh Lusted and Benjamin Knapp at Stanford's CCRMA, performed by Atau Tanaka in concert halls from 1991 onward, featured on CNN and the cover of Scientific American, and purchased by NASA, the U.S. Air Force, and British Telecom — this is an artifact that bridges biomedical engineering, computer music, accessibility, and interactive art in a way that still feels slightly science-fictional. Over 100 units were sold. It predates consumer brain-computer interfaces by more than 15 years.",
+  "search_terms": ["BioMuse biosignal controller", "Knapp Lusted BioMuse", "BioControl Systems EMG MIDI", "Atau Tanaka BioMuse"],
+  "research": {
+    "title": "BioMuse",
+    "year": "1990",
+    "by": "BioControl Systems, Inc. — created by Hugh S. Lusted and R. Benjamin Knapp at Stanford University CCRMA",
+    "tags": ["HCI", "Biosignals", "Music", "Accessibility", "Wearable", "EMG"],
+    "overview": "The BioMuse is an 8-channel programmable biosignal controller developed at Stanford University's CCRMA (Center for Computer Research in Music and Acoustics) and commercialized by BioControl Systems, Inc. beginning in 1990. The system acquires electromyogram (EMG), electrooculogram (EOG), and electroencephalogram (EEG) signals through surface electrodes, amplifies and digitizes them at 4 kHz per channel with 12-bit resolution, processes them on a Texas Instruments TMS320C25 digital signal processor, and outputs user-definable MIDI note events and continuous controller data. The production version (BioMuse v.3, 1992) was a single 17-inch rack-mount enclosure that connected via optically isolated serial link to a DOS PC. Each unit cost $20,000; over 100 were sold to research institutions including NASA, the U.S. Air Force, British Telecom, and Honeywell.\n\nMusician Atau Tanaka composed the first concert piece for the BioMuse (Kagami, 1991) and performed internationally with it for over two decades. The instrument was also deployed for accessibility: at Loma Linda Medical Center in 1991, a pre-release BioMuse enabled a disabled child to play video games using EOG control. The system appeared on CNN multiple times and was featured on the cover of Scientific American in October 1996. The BioMuse is recognized by the NIME (New Interfaces for Musical Expression) community as foundational 'prehistoric NIME' work.",
+    "deepDive": [
+      {
+        "heading": "Origins",
+        "text": "Development began in 1987 at Stanford University's CCRMA, a unique interdisciplinary crossroads where biomedical engineering met computer music. Hugh Lusted, a PhD in neurophysiology from Stanford Medical School, and R. Benjamin Knapp, a PhD in electrical engineering from Stanford, collaborated on the idea of turning bioelectrical signals into musical control data. They founded BioControl Systems, Inc. in 1989 in South San Francisco.\n\nThe BioMuse was one of the first systems to treat biosignals not as passive biofeedback to be observed but as active biocontrol — a performance instrument to be wielded. Knapp and Lusted's foundational paper 'A Bioelectric Controller for Computer Music Applications' appeared in the Computer Music Journal in 1990 and established the intellectual framework for physiological computing in music."
+      },
+      {
+        "heading": "How It Worked",
+        "text": "The BioMuse system used medical-grade wet-gel electrodes in triplets (+, −, ground) per channel, held in place by elastic armbands (for EMG on forearms, biceps, and triceps) or a headband (for EEG/EOG on the scalp and around the eyes). The signal chain was: raw microvolt differential voltages → instrumentation amplifiers with software-configurable gain (1× to 10,000×) → 4 kHz, 12-bit A/D conversion per channel → TMS320C25 digital signal processor for real-time filtering, envelope following, and pattern recognition → user-programmable MIDI output via optically isolated 19.2 kbaud serial.\n\nThe optical isolation in the serial output was a deliberate safety feature protecting the user from computer-side voltage spikes — a detail that reflects the medical-engineering origins of the device.\n\nA persistent practical problem: the conductive gel electrodes were notorious for sliding off with perspiration during performances. A 1992 Metro newspaper article noted the irony: 'an invention that can, with no exaggeration, turn impulses of thought and movement into music, defeated by a slimy glob of blue gelatin.'"
+      },
+      {
+        "heading": "The Interaction Model: Body as Instrument",
+        "text": "The BioMuse's interaction model is fundamentally different from conventional controllers. There is no physical object to push against, no visible motion required, no haptic feedback. EMG electrodes sense the electrical activity of muscle contraction — the intention and effort that precede and produce movement, rather than the movement itself. Atau Tanaka described it as sensing 'not movement nor position, but the corporeal action that might (but might not) result in movement.'\n\nThis creates a peculiar performance experience. Muscles are tensed and relaxed in empty space. Performers develop internal strategies of restraint — learning precisely how little effort is needed to trigger a note, how to sustain tension smoothly, how to separate the control of adjacent muscle groups. Scores for BioMuse works use gestural notation rather than hardware-specific instructions: 'left arm throw,' 'slowly rotate CCW to maximum,' 'right forearm clench.'\n\nFor Tanaka, EMG channels were typically mapped to Yamaha DX7 FM synthesis parameters via MIDI System Exclusive messages, then later to Kurzweil K2000R synthesis and Max/MSP environments. The mappings were deeply customized per piece and per performer."
+      },
+      {
+        "heading": "Dual Lives: Art and Accessibility",
+        "text": "The BioMuse lived two parallel lives. In concert halls and galleries, it was a radical new musical instrument. Atau Tanaka's Kagami (1991) premiered at ICMC 1992 at Stanford's Frost Amphitheater. He formed Sensorband (1993–2003) with Edwin van der Heide and Zbigniew Karkowski, fusing biosensor interfaces with rock energy. The BioMuse Trio (2008–present) brought Knapp, composer Eric Lyon, and violinist Gascia Ouzounian together for chamber music with biosensors.\n\nSimultaneously, the BioMuse was deployed as an accessibility device. At Loma Linda Medical Center in 1991, a pre-release unit enabled a disabled child to play video games using EOG control. The system was used for cursor control by people with physical disabilities (presented at Virtual Reality and Persons with Disabilities conferences, 1993–1995) and for EMG-controlled prosthetics research. This dual use — art instrument and assistive technology — is characteristic of the era's best HCI work."
+      },
+      {
+        "heading": "Why It Matters",
+        "text": "The BioMuse is a landmark in embodied interaction and physiological computing. It was arguably the first commercially available programmable brain-computer/human-computer interface product, predating consumer BCIs like NeuroSky (2009) and Muse (2014) by over 15 years. It demonstrated that internal physiological states — muscle tension, eye position, brainwaves — could be treated not as medical data but as expressive control signals, establishing a paradigm that now spans accessibility, gaming, virtual reality, and interactive art. And it connected communities that rarely talked to each other: biomedical engineers, computer musicians, disability advocates, and performance artists. For a $20,000 rack-mount box with eight electrode channels, it cast a remarkably long shadow."
+      }
+    ],
+    "team": [
+      { "name": "Hugh S. Lusted", "note": "Co-founder of BioControl Systems. PhD in neurophysiology, Stanford Medical School. Co-inventor of the BioMuse." },
+      { "name": "R. Benjamin Knapp", "note": "Co-founder and technology director. PhD in electrical engineering from Stanford. Now Professor of Computer Science at Virginia Tech and founding director of ICAT." },
+      { "name": "Atau Tanaka", "note": "Composer and performer. Composed the first concert piece for BioMuse (Kagami, 1991). Performed internationally with BioMuse for 25+ years. Later: researcher at Sony CSL Paris, Professor at Goldsmiths." },
+      { "name": "Bill Putnam", "note": "CCRMA doctoral student who wrote the pattern-recognition algorithms for gesture detection and classification on the BioMuse DSP." }
+    ],
+    "media": [
+      {
+        "src": "https://econtact.ca/14_2/images/tanaka_biomuse.jpg",
+        "alt": "BioMuse rack-mount unit, system cable, and 8-way electrode breakout box",
+        "caption": "The BioMuse system: rack-mount processing unit with umbilical cable connecting to an 8-channel electrode breakout box. eContact! 14.2."
+      },
+      {
+        "src": "http://www.biocontrol.com/images/300_atau96_300.jpg",
+        "alt": "Atau Tanaka performing with BioMuse, wearing electrode armbands on forearms and biceps",
+        "caption": "Atau Tanaka performing with the BioMuse, wearing EMG electrode armbands. Scientific American, 1996. biocontrol.com."
+      },
+      {
+        "src": "https://ccrma.stanford.edu/CCRMA/Courses/252/sensors/node26.html",
+        "alt": "CCRMA course page on BioMuse with technical description",
+        "caption": "Stanford CCRMA course documentation of the BioMuse system. CCRMA 252."
+      }
+    ],
+    "sources": [
+      { "text": "Knapp & Lusted, 'A Bioelectric Controller for Computer Music Applications,' Computer Music Journal 14/1 (1990)", "url": "https://doi.org/10.2307/3680115" },
+      { "text": "Lusted & Knapp, 'Controlling Computers with Neural Signals,' Scientific American (October 1996)", "url": "https://www.scientificamerican.com/article/controlling-computers-with-neural-s/" },
+      { "text": "Atau Tanaka, 'The Use of Electromyogram Signals (EMG) in Musical Performance,' eContact! 14.2 (2012)", "url": "https://econtact.ca/14_2/tanaka_personalsurvey.html" },
+      { "text": "Tanaka & Knapp, 'Multimodal Interaction in Music using the Electromyogram and Relative Position Sensing,' NIME 2002", "url": "https://www.nime.org/proceedings/2002/nime2002_193.pdf" },
+      { "text": "BioControl Systems product history", "url": "http://www.biocontrol.com/producthistory.html" },
+      { "text": "Ouzounian, 'Interview with R. Benjamin Knapp and Eric Lyon: The Biomuse Trio in conversation,' eContact! 14.2 (2012)", "url": "https://econtact.ca/14_2/ouzounian_biomuse.html" },
+      { "text": "CCRMA 252 course notes — BioMuse section", "url": "https://ccrma.stanford.edu/CCRMA/Courses/252/sensors/node26.html" },
+      { "text": "Tanaka & Donnarumma, 'The Body as Musical Instrument,' Hz Journal #21", "url": "https://www.hz-journal.org/n21/tanaka.html" },
+      { "text": "Bernardes et al., 'Prehistoric NIME: Revisiting Research on New Musical Interfaces Before 2001,' NIME 2023", "url": "https://nime.org/proceedings/2023/nime2023_8.pdf" },
+      { "text": "CNN National News 1989 report on BioMuse 2", "url": "https://www.youtube.com/watch?v=SLPrpKaE2LI" }
+    ],
+    "imageUrls": [
+      "https://econtact.ca/14_2/images/tanaka_biomuse.jpg",
+      "http://www.biocontrol.com/images/300_atau96_300.jpg",
+      "http://www.biocontrol.com/producthistory.html",
+      "https://econtact.ca/14_2/tanaka_personalsurvey.html",
+      "https://www.youtube.com/watch?v=SLPrpKaE2LI"
+    ]
+  },
+  "savedImages": []
+}
