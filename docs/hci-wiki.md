@@ -39,6 +39,9 @@ Each entry includes an overview, a deep dive, a small media gallery, and full so
 30. [Amiga Joyboard (1983)](#amiga-joyboard-1983)
 31. [GROPE-III (1990)](#grope-iii-1990)
 32. [Nintendo Hands Free Controller (1989)](#nintendo-hands-free-controller-1989)
+33. [DLR Control Ball (1981)](#dlr-control-ball-spacemouse-1981)
+34. [DragonDictate (1989)](#dragondictate-1989)
+35. [EyeTyper (1983)](#eyetyper-1983)
 
 ---
 ## Hubot (c. 1983)
@@ -1602,3 +1605,140 @@ Despite its technical success, the Hands Free Controller was a commercial ghost.
 5. "Video game controller: NES Hands Free Controller" — Google Arts & Culture, The Strong National Museum of Play collection — https://artsandculture.google.com/asset/video-game-controller-nes-hands-free-controller-nintendo/iQEEzY5-d7viDA?hl=en
 6. "NES Hands-Free Controller" — Consolevariations collectibles database — https://consolevariations.com/collectibles/nes-hands-free-controller
 7. "Hands Free Controller – NES" — Gamepressure, "15 Weirdest Game Controllers Ever" (December 11, 2021) — https://www.gamepressure.com/editorials/15-weirdest-game-controllers-ever/hands-free-controller-nes/za4e1
+
+---
+
+## DLR Control Ball (SpaceMouse) (1981)
+
+**By:** DLR (German Aerospace Center) Institute for Robotics and Mechatronics, Oberpfaffenhofen  
+**Tags:** `6-DOF Input` `Force Input` `Spatial Controller`
+
+### Overview
+
+The DLR Control Ball was the first 6-degree-of-freedom (6-DOF) force/torque sensor ball, developed at the German Aerospace Center's Institute for Robotics and Mechatronics beginning in 1981. A 6-axis force-torque sensor (measuring 3 force and 3 torque components) was integrated into a plastic hollow ball about the size of a tennis ball. Slight hand pressure on the ball produced translational and rotational displacements that were translated into motion speeds in 3D space. The user's hand rested on the ball; subtle push/pull/twist motions provided simultaneous control of all six degrees of freedom (X, Y, Z translation + pitch, roll, yaw rotation) without gross arm movement.
+
+The first version used strain gauges (~$8,000). By 1985, a cheaper optical measuring system using six one-dimensional position detectors was developed. The device was patented in Germany (1981), Europe (1982), and the USA (1983). It was used in the ROTEX space robot mission aboard Space Shuttle Columbia (1993) — the first remotely teleoperated robot in space — where an astronaut used a Control Ball to command a robot arm in the shuttle's payload bay.
+
+The commercial version was called Dimension 6 / Geoball (1988, by CiS Graphics, ~$3,000, named 'Product of the Year' in the USA). In 1993, the refined SpaceMouse Magellan was launched and eventually licensed to Logitech, becoming the 3Dconnexion SpaceMouse — still in production today and standard equipment on CAD workstations worldwide. Only a few hundred original Dimension 6 systems were sold, making it a rare collector's item with a direct line to one of the most enduring niche input devices in computing history.
+
+### Deep dive
+
+* **Isometric 6-DOF: A New Input Paradigm.** Unlike position-sensing devices (mice, joysticks, Isotrak) that measure where something IS, the Control Ball measured what forces the user APPLIED. The hand rested on a stationary ball; pushing lightly forward translated the viewpoint forward in 3D space, twisting clockwise rotated it. All six degrees of freedom could be controlled simultaneously — a pilot metaphor of intuitive, strain-free spatial navigation. This isometric approach meant no desk space was consumed by movement, no arm fatigue from sweeping gestures, and no need to switch between translation and rotation modes.
+* **From Strain Gauges to Optics to Commercial Product.** The first prototype (1981) used strain gauges on an inner structure, costing approximately $8,000 to produce. The breakthrough was the 1985 optical system: six one-dimensional position detectors (LED + photodiode pairs) measuring the displacement of a central element suspended by springs, dramatically reducing cost. This optical approach enabled the commercial Dimension 6 / Geoball (1988) at ~$3,000. The technology was licensed to Logitech in the 1990s, becoming the SpaceMouse product line. Today's 3Dconnexion SpaceMouse uses essentially the same isometric 6-DOF principle in a compact puck form factor, and is sold in the millions to CAD professionals.
+* **Space Heritage: ROTEX on Columbia.** In 1993, during Space Shuttle Columbia mission STS-55, the DLR's ROTEX experiment demonstrated the first remotely controlled robot in space. An astronaut aboard Columbia used a Control Ball to teleoperate a small robot arm mounted in the shuttle's payload bay, while ground controllers in Oberpfaffenhofen also commanded the same arm with signal delays. The Control Ball's intuitive 6-DOF control was essential — in microgravity, the isometric design meant the astronaut's hand didn't need to move, just apply pressure, making it usable without anchoring the body.
+* **Distinction from Polhemus Isotrak.** The HCI Museum already features the Polhemus 3Space Isotrak (1987), a 6-DOF electromagnetic position tracker. These devices are complementary, not redundant. The Isotrak answers 'where is a sensor in space?' — it's for tracking. The Control Ball answers 'what forces is the user commanding?' — it's for deliberate input. They represent two fundamentally different relationships between human movement and machine: one measures position passively, the other reads force as an intentional command.
+
+### Team
+
+* **DLR (Deutsches Zentrum für Luft- und Raumfahrt).** German Aerospace Center, Institute for Robotics and Mechatronics, Oberpfaffenhofen. Lead developer of the Control Ball technology
+* **Prof. Dr. Gerd Hirzinger.** Director, DLR Institute for Robotics and Mechatronics. Led the ROTEX space robot program
+* **CiS Graphics Inc..** West German company that commercialized the Control Ball as Dimension 6 / Geoball under DLR license (1988)
+* **Logitech / 3Dconnexion.** Licensee of the SpaceMouse technology since the 1990s; continues to produce SpaceMouse devices for CAD professionals
+
+### Media
+
+![DLR Control Ball prototype with hand resting on the force-sensing sphere](../assets/wiki/dlr-spacemouse-1.jpg)
+*DLR Control Ball prototype. The hand rests on the sphere and applies pressure for 6-DOF spatial control. Source: DLR.*
+
+![Dimension 6 / Geoball commercial 6-DOF controller from 1988](../assets/wiki/dlr-spacemouse-2.jpg)
+*The Dimension 6 (also known as Geoball), the commercial version released by CiS Graphics in 1988. Source: spacemice.org.*
+
+### Sources
+
+1. DLR — SpaceMouse 1981-1993 official history page — https://www.dlr.de/en/rm/research/robotic-systems/human-machine-interfaces/spacemouse-1981-1993
+2. SpaceMice.org — Spacemouse Classic history and technical documentation — https://spacemice.org/index.php/Spacemouse_Classic
+3. SpaceMice.org — Dimension 6 technical manual and gallery — https://spacemice.org/index.php/Dimension6
+4. DLR ROTEX — first remotely controlled robot in space (STS-55, 1993) — https://www.dlr.de/en/rm/research/robotic-systems/rotex
+5. 3Dconnexion SpaceMouse — modern commercial descendant — https://3dconnexion.com/uk/spacemouse/
+
+---
+
+## DragonDictate (1989)
+
+**By:** James K. Baker and Janet M. Baker / Dragon Systems, Inc., Newton, Massachusetts  
+**Tags:** `Speech Recognition` `Dictation` `Natural Language`
+
+### Overview
+
+DragonDictate-30K was the first large-vocabulary speech-to-text dictation system and arguably the single most important speech recognition product of the HCI era. Unveiled to the press on March 19, 1990 in Newton, Massachusetts, it used an 8-bit ISA peripheral card, required a 386-based PC with 6MB RAM, and shipped with a Shure noise-canceling headset microphone. The system could recognize 30,000 words — an order of magnitude beyond anything previously available for personal computers.
+
+Key features: no initial training required for 16,000 frequent words (speaker-independent models built-in); adaptive vocabulary that dynamically built and refined speech models for up to 30,000 words online during use; an 80,000-word dictionary with easy new-word addition; and the iconic 'Oops' command for error correction. The system operated in discrete-utterance mode — users had to pause distinctly between each word — producing approximately 35 words per minute.
+
+The Bakers' path to DragonDictate is itself remarkable. James and Janet Baker developed Hidden Markov Model (HMM) speech recognition at CMU and IBM Research (1975–1979), then worked at Verbex (Exxon subsidiary, 1979–1982). When Exxon exited the speech business, they founded Dragon Systems from their living room with personal savings in 1982. DragonDictate was the culmination of a decade of research, formally presented by Janet Baker at Eurospeech 1989 in Paris. The product defined the speech dictation interaction model — discrete-word input, adaptive vocabulary, 'Oops' correction, voice commands ('Go to Sleep'/'Wake Up') — that dominated consumer speech recognition until Dragon NaturallySpeaking introduced continuous recognition in 1997.
+
+Dragon Systems was ultimately acquired by Lernout & Hauspie in 2000 (later sold to ScanSoft, which became Nuance, now part of Microsoft). DragonDictate's direct descendant, Dragon NaturallySpeaking, remains one of the longest-running consumer software product lines in computing history.
+
+### Deep dive
+
+* **Origins.** James and Janet M. Baker were pioneers of Hidden Markov Model speech recognition. After working at CMU and IBM Research (1975–1979), they joined Verbex (an Exxon subsidiary) as VP of Advanced Development and VP of Research respectively. When Exxon exited the speech business in 1982, they founded Dragon Systems from their living room in Newton, Massachusetts, using personal savings. The company grew to 300 employees and remained independent until 2000. Janet Baker presented the DragonDictate paper at Eurospeech 1989 in Paris, establishing the system's technical foundations.
+* **The $9,000 Dictation Station.** DragonDictate-30K required a 386-based PC with 6MB RAM and an 8-bit ISA DSP peripheral card. It shipped with a Shure noise-canceling headset microphone. The system recognized 30,000 words: 16,000 frequent words and phrases built-in as speaker-independent models (no training required), with another 14,000+ trainable on-the-fly as users added vocabulary. An 80,000-word dictionary supported easy new-word addition. Voice Console commands included 'Go to Sleep' and 'Wake Up' for system control.
+* **The 'Oops' Interaction Model.** The fundamental interaction pattern: user speaks a word, pauses, speaks the next word. If recognition is wrong, the user says 'Oops' and the system presents alternatives. The user chooses the correct word and DragonDictate adapts its model to reduce future errors. This discrete-utterance, adaptive-correction loop was the defining interaction model for speech dictation from 1989 until Dragon NaturallySpeaking introduced continuous recognition in 1997. At ~35 words per minute, DragonDictate was slower than skilled typing but faster than handwriting — and completely life-changing for users who couldn't type at all.
+* **Legacy.** Dragon Systems was acquired by Lernout & Hauspie in March 2000 for approximately $460 million in stock. L&H's subsequent bankruptcy and fraud scandal led to the assets being sold to ScanSoft (now Nuance Communications) in 2001. Nuance continued the Dragon line, and Dragon NaturallySpeaking remains one of the longest-running consumer software product lines. In 2021, Microsoft acquired Nuance for $19.7 billion. DragonDictate's discrete-word interaction model also directly influenced Kurzweil Voice, IBM ViaVoice, and every subsequent dictation product. The 'Oops' correction paradigm, adaptive vocabulary, and voice-command/talk mode switching are all direct descendants of DragonDictate's 1989 design.
+
+### Team
+
+* **James K. Baker.** CEO and co-founder, Dragon Systems. HMM speech recognition pioneer (CMU, IBM Research, Verbex)
+* **Janet M. Baker.** President and co-founder, Dragon Systems. Presented DragonDictate at Eurospeech 1989. HMM speech recognition pioneer
+* **Dragon Systems, Inc..** Newton, Massachusetts. Founded 1982, grew to ~300 employees by 1990s
+
+### Media
+
+![Dragon Systems patent drawing for speech recognition method](../assets/wiki/dragondictate-1.png)
+*Dragon Systems patent for speech recognition method (US Patent 5,027,406, 1991). Source: USPTO.*
+
+![DragonDictate](../assets/wiki/dragondictate-2.jpg)
+*DragonDictate archival image.*
+
+### Sources
+
+1. Janet M. Baker, 'DragonDictate-30K: Natural Language Speech Recognition,' Eurospeech 1989, Paris — https://www.isca-archive.org/eurospeech_1989/baker89_eurospeech.html
+2. Seattle Times, 'Dragon Systems dictation software understands 30,000 words,' March 19, 1990 — https://archive.seattletimes.com/archive/19900319/1061934
+3. Deseret News, 'Dragon Dictate Lets Computer Users Just Give Machines a Talking,' March 23, 1990 — https://www.deseret.com/1990/3/23/18852968/
+4. Simson Garfinkel, 'Enter the Dragon,' MIT Technology Review, September 1998 — https://www.technologyreview.com/1998/09/01/236899/enter-the-dragon/
+5. ACL Anthology — DragonDictate papers (H89-1019, H90-1087) — https://aclanthology.org/H89-1019.pdf
+6. Dragon Systems (Wikipedia) — https://en.wikipedia.org/wiki/Dragon_Systems
+
+---
+
+## EyeTyper (1983)
+
+**By:** Mark B. Friedman / Sentient Systems Technology, Inc. (CMU spinoff)  
+**Tags:** `Eye-Tracking` `Accessibility` `Camera-Based Input`
+
+### Overview
+
+The EyeTyper was the first commercially produced camera-based eye-tracking communication device, designed to allow quadriplegics and people with severe motor disabilities to type using only their eyes. A video camera pointed at one eyeball detected corneal reflection and pupil position via infrared light, while the user looked at a physical display board bearing oversized illuminated characters (approximately 30, each 2×2 inches). Looking at a character for a configurable dwell time selected it, sending the keystroke to a computer, printer, or speech synthesizer.
+
+The device was commercialized by Sentient Systems Technology in 1983 in Pittsburgh, a spinoff from Carnegie Mellon University's Robotics Institute. Mark Friedman, a research engineer at CMU, began the project in 1980 while working with disabled children at the Rehabilitation Institute of Pittsburgh, enlisting CMU student volunteers including Gary Kiliany, who became Vice President and co-founder. The core invention — a custom 'frame encoder' board — was documented in the Johns Hopkins APL Technical Digest in 1982.
+
+The EyeTyper embodied a profound HCI paradigm: eyes as the primary physical input modality. It demonstrated that camera-based corneal-reflection eye-tracking could be made practical with 8-bit microprocessors through hardware/software co-design. The patent (US4648052A) describes a hardware frame encoder that digitized video with dual programmable thresholds, encoding only threshold-crossing events with pixel X,Y addresses into a small 1K×12-bit cache — allowing real-time analysis by an 8-bit microprocessor for the first time. The lineage from EyeTyper through DynaVox to today's Tobii Dynavox devices is the longest continuous line in eye-controlled AAC.
+
+### Deep dive
+
+* **Origins.** Mark Friedman, a research engineer at CMU's Robotics Institute, began the project in 1980 while working with disabled children at the Rehabilitation Institute of Pittsburgh. He enlisted CMU student volunteers including Gary Kiliany (later VP and co-founder). The initial prototype was created to help a young woman with cerebral palsy communicate. The research was funded and the core invention was documented in Friedman et al., 'The Eyetracker Communication System,' Johns Hopkins APL Technical Digest, vol. 3, no. 3, 1982.
+* **Interaction Model.** A television camera and infrared light source were mounted behind a display board with an opening. The user sat in front of the board, and the camera observed one eye. The display board held approximately 30 oversized characters (2×2 inches each), arranged in a matrix, each containing a small indicator light. The user fixated on a character for a dwell time (adjustable from ~0.5 seconds to over a second), producing approximately 10 words per minute. The camera detected the corneal reflection (glint) and pupil center; the vector between them was mapped via a lookup table to specific character positions, with ~2–3 inches of allowable head movement. Selected characters appeared on a screen and could drive printers, speech synthesizers, or home automation.
+* **Technical Innovation.** The patent (US4648052A) describes a hardware frame encoder that digitized video with dual programmable thresholds, encoding only threshold-crossing events (rising/dropping above/below thresholds) with pixel X,Y addresses into a small 1K×12-bit cache memory — allowing analysis by an 8-bit microprocessor in real time. This was a radical departure from full-frame digitization and made real-time eye tracking affordable for the first time.
+* **Legacy.** The patent was sold to the US Navy, with revenues reinvested into further development. Sentient Systems Technology rebranded as DynaVox in 1998 (acquired by Sunrise Medical), eventually acquired by Tobii in 2014 to become Tobii Dynavox. The line from EyeTyper to today's Tobii Dynavox devices is the longest continuous lineage in eye-controlled AAC. The EyeTyper directly demonstrated the key HCI principle that an assistive technology designed for the most severely disabled users could pioneer a general-purpose input modality.
+
+### Team
+
+* **Mark B. Friedman.** Research engineer, CMU Robotics Institute; founder of Sentient Systems Technology
+* **Gary J. Kiliany.** CMU student volunteer, co-founder, VP and chief engineer at Sentient Systems
+* **Mark R. Dzmura.** Co-inventor on patent US4648052A, engineering contributor
+* **Tilden Bennett.** Business co-founder
+
+### Media
+
+![Patent drawing showing the EyeTyper display board with oversized character layout and camera](../assets/wiki/eyetyper-1.png)
+*EyeTyper display board layout from US Patent 4,648,052 (filed 1983). Source: USPTO.*
+
+![Patent diagram of the overall EyeTyper system showing camera, light source, and display board](../assets/wiki/eyetyper-2.png)
+*Overall system diagram showing camera, infrared light source, and display board configuration. Source: USPTO Patent 4,648,052.*
+
+### Sources
+
+1. UPI Archives, 'Type with your eyes' (Dec 29, 1984) — https://www.upi.com/Archives/1984/12/29/Type-with-your-eyes/8390473144400/
+2. US Patent 4,648,052 — 'Eye-tracker communication system' (filed Nov 14, 1983) — https://patents.google.com/patent/US4648052A
+3. Friedman et al., 'The Eyetracker Communication System,' Johns Hopkins APL Technical Digest, vol. 3, no. 3 (1982) — https://www.jhuapl.edu/Content/techdigest/pdf/V03-N03/03-03-Friedman.pdf
+4. DynaVox (Wikipedia) — historical section covering EyeTyper origins — https://en.wikipedia.org/wiki/Dynavox
+5. COGAIN Wiki — Eye Typing Systems — https://wiki.cogain.org/index.php/Eye_Typing_Systems
