@@ -197,6 +197,11 @@ export function buildExhibitHtml(
     body,
     basePath,
     active: "exhibits",
+    url: `/exhibits/${exhibit.slug}/`,
+    ogType: "article",
+    socialImage: `/og/exhibits/${exhibit.slug}.jpg`,
+    socialImageType: "image/jpeg",
+    socialImageAlt: `${exhibit.title} archival photograph`,
   });
 }
 

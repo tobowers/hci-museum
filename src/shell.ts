@@ -17,7 +17,18 @@ export type ShellOptions = {
   body: string;
   basePath?: string;
   active?: NavKey;
+  url?: string;
+  ogType?: string;
+  socialImage?: string;
+  socialImageType?: string;
+  socialImageAlt?: string;
+  socialImageWidth?: number;
+  socialImageHeight?: number;
 };
+
+function absoluteSiteUrl(pathOrUrl: string): string {
+  return new URL(pathOrUrl, SITE_URL).toString();
+}
 
 export function escapeHtml(text: string): string {
   return text
@@ -37,6 +48,13 @@ export function renderShell(opts: ShellOptions): string {
   const { title, description, body, basePath = "./", active } = opts;
   const fullTitle = title.includes("HCI Museum") ? title : `${title} — HCI Museum`;
   const desc = description ?? "A digital museum of strange, beautiful HCI from the late 1970s through the early 1990s. Curated by Beepy.";
+  const pageUrl = absoluteSiteUrl(opts.url ?? "");
+  const socialImage = opts.socialImage ? absoluteSiteUrl(opts.socialImage) : SOCIAL_IMAGE;
+  const socialImageAlt = opts.socialImageAlt ?? SOCIAL_IMAGE_ALT;
+  const socialImageType = opts.socialImageType ?? "image/png";
+  const socialImageWidth = opts.socialImageWidth ?? 1200;
+  const socialImageHeight = opts.socialImageHeight ?? 630;
+  const ogType = opts.ogType ?? "website";
 
   const nav = NAV.map((item) => {
     const cls = item.key === active ? ' class="active"' : "";
@@ -52,19 +70,19 @@ export function renderShell(opts: ShellOptions): string {
     <meta property="og:title" content="${escapeHtml(fullTitle)}" />
     <meta property="og:description" content="${escapeHtml(desc)}" />
     <meta property="og:site_name" content="${SITE_NAME}" />
-    <meta property="og:type" content="website" />
-    <meta property="og:url" content="${SITE_URL}" />
-    <meta property="og:image" content="${SOCIAL_IMAGE}" />
-    <meta property="og:image:secure_url" content="${SOCIAL_IMAGE}" />
-    <meta property="og:image:type" content="image/png" />
-    <meta property="og:image:width" content="1200" />
-    <meta property="og:image:height" content="630" />
-    <meta property="og:image:alt" content="${SOCIAL_IMAGE_ALT}" />
+    <meta property="og:type" content="${escapeHtml(ogType)}" />
+    <meta property="og:url" content="${escapeHtml(pageUrl)}" />
+    <meta property="og:image" content="${escapeHtml(socialImage)}" />
+    <meta property="og:image:secure_url" content="${escapeHtml(socialImage)}" />
+    <meta property="og:image:type" content="${escapeHtml(socialImageType)}" />
+    <meta property="og:image:width" content="${socialImageWidth}" />
+    <meta property="og:image:height" content="${socialImageHeight}" />
+    <meta property="og:image:alt" content="${escapeHtml(socialImageAlt)}" />
     <meta name="twitter:card" content="summary_large_image" />
     <meta name="twitter:title" content="${escapeHtml(fullTitle)}" />
     <meta name="twitter:description" content="${escapeHtml(desc)}" />
-    <meta name="twitter:image" content="${SOCIAL_IMAGE}" />
-    <meta name="twitter:image:alt" content="${SOCIAL_IMAGE_ALT}" />
+    <meta name="twitter:image" content="${escapeHtml(socialImage)}" />
+    <meta name="twitter:image:alt" content="${escapeHtml(socialImageAlt)}" />
     <title>${escapeHtml(fullTitle)}</title>
     <link rel="icon" type="image/gif" href="/favicon.gif" />
     <link rel="icon" type="image/png" href="/favicon.png" />

@@ -35,10 +35,12 @@ const { buildAllExhibitPages, buildExhibitsIndexHtml } = await import("./build-e
 const { buildAllBlogPages } = await import("./build-blog");
 const { buildCollectionFeed, buildBlogFeed } = await import("./build-feeds");
 const { buildMarkdownPage } = await import("./build-pages");
+const { buildExhibitSocialImages } = await import("./build-social-images");
 const { exhibits } = await import("../src/data");
 
 const markdown = await Bun.file(`${root}docs/hci-wiki.md`).text();
 const pages = buildAllExhibitPages(markdown);
+await buildExhibitSocialImages(root, outdir);
 
 await Bun.$`mkdir -p ${outdir}/exhibits`;
 await Bun.write(`${outdir}/exhibits/index.html`, buildExhibitsIndexHtml(exhibits));
