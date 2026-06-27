@@ -1,0 +1,71 @@
+{
+  "slug": "seiko-rc1000",
+  "title": "Seiko RC-1000 Wrist Terminal",
+  "year": "1984",
+  "subtitle": "A wristwatch that plugs into your desktop computer — the first wrist-worn computer terminal, a decade ahead of its time",
+  "why_scout_cares": "The RC-1000 was arguably the first device to treat the wrist as a computer periphery. It had no keyboard dock — instead, data was authored on a desktop machine (Apple II, IBM PC, Commodore 64, Sinclair Spectrum, TRS-80, MSX) using Wrist Terminal Data Manager software, then blasted over RS-232C serial in a single 2051-byte dump to 2KB of watch RAM. The interaction model was purely one-way: the computer wrote; the wrist read. Categories of 'screens' (memos, phone numbers, scheduled alarms, weekly alarms, world times) were navigated with six side buttons — a miniature information architecture forced into a 12x2 character LCD. This asymmetrical relationship — the desktop as authoring console, the watch as passive, glanceable display — directly prefigures the modern smartwatch/phone pairing model. It also spawned the WristMac (RC-4500), an official Apple-authorized accessory that flew on the Space Shuttle Atlantis in 1991 for the first email from space.",
+  "search_terms": ["Seiko RC-1000", "wrist terminal", "wristwatch computer 1984", "Seiko WristMac", "wearable computing 1980s", "Seiko wrist information system", "Seiko UC-2000 wrist computer"],
+  "research": {
+    "title": "Seiko RC-1000 Wrist Terminal",
+    "year": "1984",
+    "by": "Seiko Epson / Seiko Instruments Inc.",
+    "tags": ["Wearable", "Wrist-Worn", "Mobile Computing", "Watch", "Pre-Smartwatch", "Serial Terminal", "Personal Information Manager"],
+    "overview": "The Seiko RC-1000 Wrist Terminal, released in 1984, was a wristwatch that doubled as a computer terminal — one of the earliest wearable computing interfaces ever sold to consumers. Unlike Seiko's earlier Data 2000 (1983) and UC-2000 (1984) wrist computers — which used proprietary keyboard docking stations with electromagnetic induction — the RC-1000 connected directly to desktop computers via RS-232C serial cable. It was compatible with over a dozen computer platforms including the Apple II, IBM PC, Commodore 64, TRS-80, Sinclair ZX Spectrum, and MSX. Marketed as a 'Wrist Terminal,' it offered 2KB of RAM, a 12x2 character dot-matrix LCD, and six side-pusher buttons. Users wrote data using Wrist Terminal Data Manager software on their desktop, then transmitted it in a single 2051-byte dump at 2400 baud. The watch itself was receive-only — a fundamentally asymmetric interaction that prefigured today's phone-to-watch communication paradigm.\n\nThe RC-1000 spawned a family including the RC-4000 'PC Datagraph' (1985) and RC-4500 'WristMac' (1988), the latter becoming NASA's choice for the first email sent from space aboard the Space Shuttle Atlantis in 1991. Seiko's computer watch program was remarkably ambitious — the same year the original Macintosh shipped, Seiko was selling a wrist-worn device with 2 kilobytes of user-addressable storage, programmable alarms with custom text, world time with city labels, and a backlight. The watch cost ¥24,000 (~$100-150) in Japan and £99.95 in the UK.",
+    "deepDive": [
+      {
+        "heading": "Origins & Hardware Design",
+        "text": "The RC-1000 was developed by Seiko Epson (Seiko Instruments Inc.) as part of a broader push into wrist-worn computing that began with the Data 2000 in 1983. While the Data 2000 and UC-2000 used proprietary wireless electromagnetic induction to communicate with keyboard docks, the RC-1000 was Seiko's first device to connect directly to general-purpose computers via industry-standard RS-232C serial. The watch contained 2KB of user-accessible RAM (organized as 80 screens of 24 characters each), divided into categories: Memos, Phone Numbers, Scheduled Alarms, Weekly Alarms, and World Time. Physical dimensions were approximately 42mm x 37mm x 11mm with a black metal bracelet or plastic strap. It was the only Seiko computer watch with an EL backlight. The watch ran on a single BR2325 lithium coin cell."
+      },
+      {
+        "heading": "Interaction Model",
+        "text": "The RC-1000's interaction model was deliberately asymmetric: all data authoring happened on the desktop. The user ran Wrist Terminal Data Manager software, which provided a menu-driven interface to create memos, schedule alarms with custom text, and configure world time zones. The software produced a formatted 2051-byte binary payload representing the watch's entire memory. To receive data, the user pressed the watch's Terminal button to enter Terminal Mode, then pressed Lock — the display showed 'RECEIVE' and awaited the data stream at 2400 baud, 8 data bits, no parity, 2 stop bits. The transfer always overwrote the entire 2KB RAM; there was no incremental update. On the wrist, the Terminal button cycled through categories and the Select button scrolled through screens. Alarms would fire with custom text on schedule. The watch could not transmit data back — a pure one-way, read-from-wrist model."
+      },
+      {
+        "heading": "RC Series Evolution & WristMac Legacy",
+        "text": "The RC-4000 'PC Datagraph' (1985) upgraded to a three-line dot-matrix display with 2KB RAM. The RC-4500 'WristMac' (1988) added colorful plastic cases and Macintosh compatibility via partner company Ex Machina. In 1991, modified WristMacs were worn by NASA astronauts aboard the Space Shuttle Atlantis (STS-43), paired with a Macintosh Portable running AppleLink. Through TDRSS satellites and modem pools, the crew sent the first email from space — with WristMacs serving as wearable reminder/notification devices. A never-worn, boxed original WristMac was auctioned in 2021 with estimates up to $100,000. The RC-1000/RC-4000/WristMac lineage represents the first commercial wrist-worn computer-terminal ecosystem, directly anticipating the Apple Watch's companion-device architecture by nearly 30 years."
+      }
+    ],
+    "team": [
+      {"name": "Seiko Epson / Seiko Instruments Inc.", "note": "Designer and manufacturer of the RC-1000, RC-4000, and RC-4500 wrist terminals"},
+      {"name": "Ex Machina, Inc.", "note": "Co-developed WristMac (RC-4500) software and Apple Macintosh integration in 1988"},
+      {"name": "Byron Han", "note": "Apple engineer who built the AppleLink-in-Space system enabling the WristMac to be used on STS-43 Atlantis"}
+    ],
+    "media": [
+      {"src": "https://oldcrap.org/wp-content/uploads/2023/03/dsc_6822.jpg", "alt": "Seiko RC-1000 wrist terminal face with 12x2 LCD and red arrow buttons", "caption": "Seiko RC-1000 Wrist Terminal with its 12x2 character dot-matrix LCD and six side buttons. (Source: Old Crap Vintage Computing)"},
+      {"src": "https://www.msx.org/wiki/images/7/74/Rc1000h.jpg", "alt": "Original Seiko RC-1000 Japanese advertisement", "caption": "Original Seiko RC-1000 advertisement showing the wrist terminal concept with desktop connection. (Source: MSX Wiki)"},
+      {"src": "https://oldcrap.org/wp-content/uploads/2023/04/rc-1000-cable-2.png", "alt": "Schematic of the TC-0051 RS-232C serial interface cable", "caption": "Internal schematic of the TC-0051 RS-232C serial interface cable connecting the watch to desktop computers. (Source: Old Crap Vintage Computing)"},
+      {"src": "https://oldcrap.org/wp-content/uploads/2023/03/2023-03-26-21-50-14-br8s4.jpeg", "alt": "Internal circuit board of the Seiko RC-1000", "caption": "Internal PCB of the Seiko RC-1000 wrist terminal. (Source: Old Crap Vintage Computing)"},
+      {"src": "https://assets.museum-digital.org/bawue/images/5/202104/29881/armbanduhr-seiko-japan-um-1984-29881.jpg", "alt": "Seiko RC-1000 in museum collection", "caption": "Seiko RC-1000 in the Deutsches Uhrenmuseum Furtwangen collection. (Source: Deutsches Uhrenmuseum, CC BY-SA)"},
+      {"src": "https://www.pocketcalculatorshow.com/wp-content/uploads/2012/06/seiko-rc1000-face.jpg", "alt": "Close-up of Seiko RC-1000 face", "caption": "Close-up of the RC-1000 showing the dot-matrix LCD and button layout. (Source: Pocket Calculator Show)"},
+      {"src": "https://www.pocketcalculatorshow.com/wp-content/uploads/2012/06/seiko-rc4500-colors.jpg", "alt": "Multiple Seiko RC-4500 WristMac watches in colors", "caption": "Seiko RC-4500 WristMac watches in five available colors. (Source: Pocket Calculator Show)"}
+    ],
+    "sources": [
+      {"text": "Old Crap Vintage Computing: Seiko RC-1000 Wrist Terminal (teardown, photos, internals)", "url": "https://oldcrap.org/2023/03/29/seiko-rc-1000-wrist-terminal/"},
+      {"text": "MSX Wiki: Seiko RC-1000 — Description, hardware, software, gallery, pricing", "url": "https://www.msx.org/wiki/Seiko_RC-1000"},
+      {"text": "Rob Braun (bbraun): Reverse-engineered serial protocol, memory layout, open-source upload tool", "url": "http://www.synack.net/~bbraun/rc1000/"},
+      {"text": "Conventional Memories Wiki: RC Series Hardware and Software — Complete model/cable/software matrix", "url": "https://conventionalmemories.com/wiki_cm/Seiko_RC_series_hardware_and_software"},
+      {"text": "Pocket Calculator Show: Seiko Computer Watch Fun — Family history Data 2000 through WristMac", "url": "https://www.pocketcalculatorshow.com/nerdwatch/seiko-computer-watch-fun/"},
+      {"text": "GitHub: ppieczul/seiko-rc-1000 — Collected software, disk images, restored BASIC program", "url": "https://github.com/ppieczul/seiko-rc-1000"},
+      {"text": "Hodinkee: The Seiko WristMac Is The First Apple Watch (2021 auction coverage)", "url": "https://www.hodinkee.com/articles/huh-a-seiko-apple-smart-watch-is-set-to-hit-the-auction-block"},
+      {"text": "TidBITS: AppleLink in Space (29 July 1991) — STS-43 Atlantis mission coverage", "url": "https://tidbits.com/1991/07/29/applelink-in-space/"},
+      {"text": "Hackaday: Seiko Had A Smartwatch In 1984", "url": "https://hackaday.com/2024/07/16/seiko-had-a-smartwatch-in-1984/"},
+      {"text": "Deutsches Uhrenmuseum Furtwangen: Museum catalog entry with technical specs", "url": "https://bawue.museum-digital.de/object/29881?navlang=en"}
+    ],
+    "imageUrls": [
+      "https://oldcrap.org/wp-content/uploads/2023/03/dsc_6822.jpg",
+      "https://www.msx.org/wiki/images/7/74/Rc1000h.jpg",
+      "https://oldcrap.org/wp-content/uploads/2023/04/rc-1000-cable-2.png",
+      "https://oldcrap.org/wp-content/uploads/2023/03/2023-03-26-21-50-14-br8s4.jpeg",
+      "https://assets.museum-digital.org/bawue/images/5/202104/29881/armbanduhr-seiko-japan-um-1984-29881.jpg",
+      "https://www.pocketcalculatorshow.com/wp-content/uploads/2012/06/seiko-rc1000-face.jpg",
+      "https://www.pocketcalculatorshow.com/wp-content/uploads/2012/06/seiko-rc1000+cable.jpg",
+      "https://www.pocketcalculatorshow.com/wp-content/uploads/2012/06/seiko-rc4500-colors.jpg",
+      "http://synack.net/~bbraun/rc1000.jpg",
+      "https://hodinkee.imgix.net/uploads/images/c49c94f4-38c6-449d-953e-7af6f9dba1a5/mac22.jpg"
+    ]
+  },
+  "savedImages": [
+    "potential/seiko-rc1000/images/rc1000-face.jpg",
+    "potential/seiko-rc1000/images/rc1000-museum.jpg"
+  ]
+}
