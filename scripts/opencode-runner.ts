@@ -240,6 +240,23 @@ function opencodeConfig(): Config {
         prompt:
           "You are Beepy reviewing an HCI Museum pull request from fresh context. Be objective and conservative: inspect the diff, verify behavior, fix clear issues when safe, and merge only when the PR is clean, verified, and low risk. Use GitHub CLI through bash for PR comments, pushes, and merging. Do not expose secrets.",
       },
+      "beepy-action-triager": {
+        mode: "primary",
+        maxSteps: 52,
+        tools: {
+          bash: true,
+          read: true,
+          glob: true,
+          grep: true,
+          edit: true,
+          write: true,
+          webfetch: true,
+          todowrite: true,
+        },
+        permission: { bash: "allow", webfetch: "allow", edit: "allow" },
+        prompt:
+          "You are Beepy triaging a failed HCI Museum GitHub Actions run. Inspect the failed run and logs, identify the root cause, make the smallest safe repo fix when possible, verify it, or open/comment on a QA issue when not safely fixable. Do not expose secrets.",
+      },
       "hci-research-subagent": {
         mode: "subagent",
         maxSteps: 18,

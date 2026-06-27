@@ -512,7 +512,7 @@ const exhibitData: Exhibit[] = [
     subtitle: "A 3D capacitive spatial controller that tracks two batons in free space — built as a mouse, reborn as an instrument",
     blurb: "Max Mathews, father of computer music, and Bell Labs engineer Bob Boie built a 3D mouse that failed. Then they realized it was a musical instrument. Two batons hover above a capacitance-sensing antenna plate, tracking X, Y, and Z at 100Hz with 1mm precision. No contact required.",
     tags: ["3D Spatial Input", "Music HCI", "Gestural Controller"],
-    image: img("radio-drum/rd-chm-mathews.jpg"),
+    image: img("radio-drum/rd-ccrma-device.jpg"),
   },
   {
     id: "uforce",

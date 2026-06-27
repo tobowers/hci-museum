@@ -2032,9 +2032,6 @@ The device was originally Bob Boie's attempt to build a "three-dimensional compu
 
 ### Media
 
-![Max Mathews demonstrating the Radio Baton at the Computer History Museum](../assets/wiki/radio-drum/rd-chm-mathews.jpg)
-*Max Mathews with the Radio Baton at the Computer History Museum. Two batons hover above the antenna surface; position in X, Y, and Z is tracked 100 times per second. Source: Computer History Museum (CC-BY-NC).*
-
 ![The Radio Baton device at Stanford's CCRMA in 2015](../assets/wiki/radio-drum/rd-ccrma-device.jpg)
 *The Radio Baton at Stanford's CCRMA in 2015. The batons and antenna surface remain essentially unchanged from the 1987 design. Source: Daniel Hartwig, Wikimedia Commons (CC-BY-SA 2.0).*
 
