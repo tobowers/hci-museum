@@ -45,9 +45,12 @@ Each entry includes an overview, a deep dive, a small media gallery, and full so
 36. [BioMuse (1990)](#biomuse-1990)
 37. [Etak Navigator (1985)](#etak-navigator-1985)
 38. [Nintendo R.O.B. (Robotic Operating Buddy) (1985)](#nintendo-rob-robotic-operating-buddy-1985)
-39. [Buchla Lightning (1991)](#buchla-lightning-1991)
-40. [Fakespeare BOOM (Binocular Omni-Orientation Monitor) (1989)](#fakespeare-boom-binocular-omni-orientation-monitor-1989)
-41. [Seiko RC-1000 Wrist Terminal (1984)](#seiko-rc-1000-wrist-terminal-1984)
+39. [Private Eye (1989)](#private-eye-1989)
+40. [Radio Drum / Radio Baton (c. 1987)](#radio-drum--radio-baton-c-1987)
+41. [Broderbund U-Force (1989)](#broderbund-u-force-1989)
+42. [Buchla Lightning (1991)](#buchla-lightning-1991)
+43. [Fakespeare BOOM (Binocular Omni-Orientation Monitor) (1989)](#fakespeare-boom-binocular-omni-orientation-monitor-1989)
+44. [Seiko RC-1000 Wrist Terminal (1984)](#seiko-rc-1000-wrist-terminal-1984)
 
 ---
 ## Hubot (c. 1983)
@@ -1931,6 +1934,181 @@ The New York City test market launched on October 18, 1985. A 12-person 'SWAT te
 8. Polygon — 'Here's how Nintendo announced the NES in North America' — https://www.polygon.com/2015/10/31/9651584/nintendo-nes-anniversary-original-launch-documents
 9. AtariAge Forum — Reverse-engineered command protocol (Tursi, 2011) — https://forums.atariage.com/topic/177286-any-interest-in-nes-rob-homebrews/
 10. Chris Kohler, 'Power-Up: How Japanese Video Games Gave the World an Extra Life' (2004) — https://books.google.com/books?id=VuA7DQAAQBAJ
+
+---
+
+## Private Eye (1989)
+
+**By:** Reflection Technology, Inc. (Allen Becker, Ben Wells, Nate Goldschlag) — Waltham, Massachusetts  
+**Tags:** `HCI` `Head-Mounted Display` `Wearable` `Augmented Reality` `Persistence of Vision`
+
+### Overview
+
+The Private Eye was a monochrome (red) head-mounted display introduced in 1989 by Reflection Technology, founded by MIT dropout Allen Becker. Unlike any display before or since, it generated an image using a vertical column of 280 red LEDs projected through a magnifying lens onto a voice-coil-driven vibrating mirror. The mirror swept the LED column horizontally at 50–100 Hz while LEDs pulsed at precise moments, relying on persistence of vision to fuse the scan into a stable 720×280 pixel raster. Weighing just 2.5 ounces, it consumed only 0.5 watts and cost $795 for the display unit ($2,000 with developer kit).
+
+The device covered only one eye. Because the human visual system fuses binocular input, text and graphics from the Private Eye appeared to float superimposed over the user's normal vision through the uncovered eye — a see-through augmented reality effect achieved without optical combiners. This was discovered serendipitously and became a defining feature.
+
+The Private Eye became the enabling display for virtually every early wearable computing project: Thad Starner's "Tin Lizzy" at MIT, CMU's VuMan for blueprint browsing, Columbia's KARMA augmented-reality maintenance system, and Doug Platt's Hip-PC. Starner wore a Private Eye-based wearable daily from 1993 and later became a technical lead on Google Glass, explicitly citing his Private Eye experience. Nintendo purchased exclusive rights to the display technology and used two Private Eye displays to create the Virtual Boy (1995). The Virtual Boy's commercial failure led directly to Reflection Technology's closure in 1996.
+
+### Deep dive
+
+* **Origins.** Allen Becker dropped out of MIT and worked at Kurzweil Computer Products (Ray Kurzweil's reading machine company) before founding Reflection Technology in 1986. The core insight was that a mechanically scanned LED array could produce a viable raster display in an extremely compact package. Co-inventors Ben Wells and Nate Goldschlag contributed to the design. US Patent 4,934,773 ("Miniature video display system") was filed July 27, 1987 and granted June 19, 1990.
+
+* **How It Worked.** A vertical column of 280 red LEDs shines through a magnifying lens onto a mirror mounted on a voice-coil actuator. The mirror oscillates horizontally, sweeping the column of light across the user's field of view. By pulsing individual LEDs at precise moments during each sweep, the system draws successive columns of pixels onto the retina. Persistence of vision fuses these into a stable 720×280 bitmap image appearing as a virtual 15-inch display at 18 inches (22-degree field of view). The entire optical assembly fits in a light-tight box measuring 3.2 × 1.2 × 1.1 inches.
+
+* **The Accidental AR Effect.** The Private Eye was designed to be monocular — covering only one eye. Users discovered that the brain automatically fuses the display image with the real-world view from the uncovered eye, creating the illusion of a transparent screen floating in space. This required no beam splitters, no optical combiners — just human neurophysiology. MIT researchers documented this effect extensively, and it became the basis for the "glance-at" interaction model: information was available with a quick glance upward while maintaining eye contact and situational awareness.
+
+* **Wearable Computing's Enabling Display.** Before the Private Eye, head-mounted displays were heavy, power-hungry, and expensive (e.g., the VPL EyePhone at $250,000/system). The Private Eye's 2.5-ounce weight, 0.5-watt draw, and $795 price made all-day wearable computing practical. MIT's Thad Starner built his "Tin Lizzy" system around the Private Eye paired with a Twiddler chording keyboard — one hand for input, one eye for output. He wore this daily from 1993 through the late 1990s, typing 60 wpm while walking. CMU's VuMan 1 (1991) used the Private Eye for browsing blueprints hands-free. Columbia's KARMA system (1993) overlaid maintenance instructions onto real equipment via the Private Eye.
+
+* **The Nintendo Virtual Boy Connection.** Nintendo purchased exclusive rights to the Private Eye display technology for an estimated $5 million, becoming the first-ever minority investor in a US company for Reflection Technology. The Virtual Boy (1995) used two Private Eye displays to create stereoscopic 3D. It was a commercial failure — only ~800,000 units sold, discontinued within a year — and Reflection Technology closed in September 1996 as a direct result.
+
+* **Legacy.** Thad Starner, who wore a Private Eye daily for years, was hired by Google in 2010 as a technical lead on Project Glass. He has explicitly stated that Google Glass is a continuation of his Private Eye work. The Private Eye also established the "pocket computer + private head-worn display" paradigm that would later inform smartphones, smart glasses, and modern AR headsets like HoloLens and Apple Vision Pro. The device is held in the permanent collection of the Deutsches Museum in Munich.
+
+### Team
+
+* **Allen "Al" Becker.** Founder of Reflection Technology, MIT dropout, former Kurzweil engineer.
+* **Ben Wells.** Co-inventor, contributed to optical and mechanical design.
+* **Nate Goldschlag.** Co-inventor.
+* **Thad Starner.** MIT wearable computing pioneer who wore Private Eye daily from 1993; later Google Glass technical lead.
+
+### Media
+
+![Reflection Technology Private Eye display unit, held in hand](../assets/wiki/private-eye/pe-display-unit.png)
+*Private Eye display unit. The 3.2-inch box contains a 280-LED array and a vibrating mirror that paints a 720×280 image onto the retina. Source: loper-os.org vintage computing archive.*
+
+![Two separate eye views: Private Eye display image and real-world view](../assets/wiki/private-eye/pe-separate-view.gif)
+*Left: the red LED image from the Private Eye. Right: the real-world view through the uncovered eye. The brain fuses these into a single augmented-reality view. Source: MIT Media Lab.*
+
+![Composite fused view showing Private Eye image overlaid on real world](../assets/wiki/private-eye/pe-composite-view.gif)
+*The fused view — the brain automatically superimposes the Private Eye's red image onto the real world. An accidental AR breakthrough. Source: MIT Media Lab.*
+
+### Sources
+
+1. Kill Screen — "Seeing Red" (definitive Private Eye history: Becker, Nintendo deal, Virtual Boy) — https://www.killscreen.com/seeing-red/
+2. Deutsches Museum — Private Eye entry (Google Arts & Culture) — https://artsandculture.google.com/asset/reflection-technology-private-eye-display/QgFnZtDAdVz0CQ
+3. MIT Media Lab — Wearable Computing Timeline — https://www.media.mit.edu/wearables/lizzy/timeline.html
+4. MIT — Building a head mount for the Private Eye (fusion effect documentation) — https://www.media.mit.edu/wearables/lizzy/lizzy/pe.html
+5. Event Horizons — P4 Documents Archive (full scanned developer docs, schematics) — https://www.eventhorizons.com/projects/P4/p4.html
+6. US Patent 4,934,773 — Miniature video display system (Becker) — https://www.freepatentsonline.com/4934773.html
+7. Bill Buxton — Private Eye Brochure PDF (original sales brochure) — https://billbuxton.com/Private_Eye_Brochure.pdf
+8. MIT Technology Review — Starner on Google Glass (Private Eye → Glass lineage) — https://www.technologyreview.com/2013/06/04/177780/
+9. Becker, A. (1990) — Design Case Study: Private Eye. Information Display journal — https://doi.org/10.1002/j.2637-496x.1990.tb05924.x
+10. Stories by Williams — Digital Eyewear Through the Ages — https://storiesbywilliams.com/2013/09/21/digital-eyewear-through-the-ages/
+
+---
+
+## Radio Drum / Radio Baton (c. 1987)
+
+**By:** Max Mathews and Bob Boie, Bell Laboratories; Andrew Schloss (percussion pioneer); later Stanford CCRMA  
+**Tags:** `HCI` `3D Spatial Input` `Music HCI` `Gestural Controller` `Capacitive Sensing`
+
+### Overview
+
+The Radio Drum (also called the Radio Baton) is a 3D position-sensing MIDI controller developed at Bell Laboratories in the mid-to-late 1980s. Two drumstick-like batons, each containing a radio-frequency transmitter at a slightly different frequency, move freely in the air above a flat rectangular antenna surface. The surface contains an array of receiving antenna plates (typically five copper plates). An embedded 80186 processor measures the electrical capacitance between each baton tip and the receiving antennas, computing 3D Cartesian coordinates for both batons in real time — X, Y, and Z (height above the surface) — with approximately 1mm resolution and continuous 100Hz update rates.
+
+The device was originally Bob Boie's attempt to build a "three-dimensional computer mouse." It failed in that role — but Max Mathews, the director of acoustic research at Bell Labs who had written the first-ever computer music program (MUSIC I, 1957), recognized its potential as a musical instrument. Under Mathews' direction, the Radio Drum became a performance controller. Andrew Schloss later pioneered its use as a virtual percussion instrument, developing the gesture recognition needed to detect strikes, rolls, and nuanced drumming techniques from the baton trajectories. Three decades later, the Radio Drum is still in active use. The Computer History Museum holds at least one original unit.
+
+### Deep dive
+
+* **Origins: The 3D Mouse That Failed.** In the mid-1980s, Bell Labs engineer Bob Boie set out to build a three-dimensional computer mouse. His approach was ingenious: measure the capacitance between a handheld transmitter and an array of receiving antennas embedded in a flat surface. By computing the first moment of capacitance across the antenna array, he could derive precise X and Y position; the reciprocal of that first moment gave Z (height). An 80186 embedded processor converted five capacitance readings into 3D coordinates at ~100Hz. Best accuracy was within 0–5 cm above the surface, though useful tracking extended to approximately 1 meter. The 3D mouse concept never caught on — but Max Mathews immediately saw it as a musical instrument.
+
+* **Max Mathews: The Father of Computer Music.** Max Mathews wrote MUSIC I in 1957 on an IBM 704 — the first computer program to synthesize sound. He directed the Acoustic Research department at Bell Labs for over 30 years, creating the MUSIC-N family of synthesis languages that evolved into Csound, Max/MSP, SuperCollider, and Pure Data. By the 1970s, Mathews had shifted focus to live performance: "Starting with the Groove program in 1970, my interests have focused on live performance and what a computer can do to aid a performer." The Radio Drum was his answer — a way to give electronic musicians the same expressive, physical control that acoustic instrumentalists have over their instruments.
+
+* **Two Paradigms: Conductor and Percussionist.** Mathews developed two distinct interaction models. In the "Radio Baton" conducting paradigm, the performer uses the batons like an orchestral conductor's baton, controlling tempo, dynamics, and articulation via Mathews' Conductor Program software. Different spatial zones on the plate trigger different sections. In the "Radio Drum" percussion paradigm, pioneered by Andrew Schloss, the surface is treated as a virtual drum — the performer strikes downward, and the system detects the direction change in Z to trigger notes, with velocity derived from Z-speed. Schloss developed techniques for snare rolls and complex percussion gestures by analyzing the derivative of Z.
+
+* **Telepresence and Robotic Instruments.** David A. Jaffe's 70-minute concerto "The Seven Wonders of the Ancient World" used the Radio Drum to control a Yamaha Disklavier grand piano and a plucked-string/percussion orchestra in real time. "The Space Between Us" had the Radio Drum controlling Trimpin robotic percussion sculptures with string players distributed around the concert hall — an early example of gestural telepresence.
+
+* **Accessibility: Music for Deaf Children.** Bob Rocco applied the Radio Baton to music education for deaf children. Because the system provides strong tactile and spatial feedback — the batons vibrate, the surface provides a physical reference — deaf children could feel the relationship between their gestures and the resulting sound vibrations, creating a multisensory music experience that did not depend on hearing.
+
+* **Legacy.** The Radio Drum is one of the earliest high-bandwidth, continuous 3D free-space gestural controllers. It predates consumer VR controllers and spatial input devices by years. Its papers are foundational in the NIME (New Interfaces for Musical Expression) community. Its lineage traces back to the theremin (1917) and forward to the Leap Motion, Kinect, and Apple Vision Pro hand tracking. The Radio Drum proved that expressive, no-contact 3D control was not only possible but musically satisfying.
+
+### Team
+
+* **Max Mathews.** Director of Acoustic Research, Bell Labs; creator of MUSIC I (1957); father of computer music.
+* **Bob Boie.** Bell Labs engineer who designed the capacitive sensing electronics; originally built it as a "3D mouse."
+* **Andrew Schloss.** Percussionist and computer musician who pioneered the Radio Drum as a virtual percussion instrument; continues development.
+* **David A. Jaffe.** Composer of major Radio Drum works including "The Seven Wonders of the Ancient World."
+* **Bob Rocco.** Applied Radio Baton to music education for deaf children.
+
+### Media
+
+![Max Mathews demonstrating the Radio Baton at the Computer History Museum](../assets/wiki/radio-drum/rd-chm-mathews.jpg)
+*Max Mathews with the Radio Baton at the Computer History Museum. Two batons hover above the antenna surface; position in X, Y, and Z is tracked 100 times per second. Source: Computer History Museum (CC-BY-NC).*
+
+![The Radio Baton device at Stanford's CCRMA in 2015](../assets/wiki/radio-drum/rd-ccrma-device.jpg)
+*The Radio Baton at Stanford's CCRMA in 2015. The batons and antenna surface remain essentially unchanged from the 1987 design. Source: Daniel Hartwig, Wikimedia Commons (CC-BY-SA 2.0).*
+
+![Close-up of the Radio Drum antenna surface and batons at the University of Victoria](../assets/wiki/radio-drum/rd-uvic-drum.jpg)
+*Close-up of the Radio Drum at the University of Victoria. The foam-covered surface is a 30×30 cm antenna array. Source: UVic MISTIC Lab.*
+
+### Sources
+
+1. CCRMA Stanford — The Mathews Radio Baton (official project page) — https://ccrma.stanford.edu/radiobaton/
+2. University of Victoria — Radio Drum (Andrew Schloss: detailed specs, history) — https://www.ece.uvic.ca/~peterd/radiodrum.html
+3. Wikipedia — Radiodrum — https://en.wikipedia.org/wiki/Radiodrum
+4. Computer History Museum — Max Mathews with his Radio-Baton — https://www.computerhistory.org/revolution/computer-graphics-music-and-art/15/222/634
+5. Bob Rocco — Max Mathews Radio Baton (firsthand collaboration account) — https://bobrocco.com/max_mathews_radio_baton
+6. Mathews & Schloss (1989) — "The Radio Drum as a Synthesizer Controller," ICMC Proceedings
+7. Mathews (1991) — "The Radio Baton and Conductor Program," Computer Music Journal 15(4)
+8. CCRMA 252 — Radio Baton technical description (block diagrams, capacitance principle) — https://ccrma.stanford.edu/CCRMA/Courses/252/sensors/node27.html
+
+---
+
+## Broderbund U-Force (1989)
+
+**By:** Broderbund Software, Inc. — David Capper (project lead, former Mattel Toys); Stan and Avi Axelrod (electronics engineers from San Francisco Exploratorium)  
+**Tags:** `HCI` `Touchless Input` `Infrared Sensing` `Gaming` `Motion Control`
+
+### Overview
+
+The U-Force was a touchless infrared game controller for the Nintendo Entertainment System, released in 1989 by Broderbund Software — a company known for publishing The Print Shop, Where in the World Is Carmen Sandiego?, and Prince of Persia, not for manufacturing consumer electronics. The device unfolded like a laptop into two perpendicular panels, each housing arrays of infrared LEDs and photodetectors. Nine IR emitter-detector pairs created a sensing field about one cubic foot in volume above the device. When a player's hand moved through this field, it interrupted different IR beams; an onboard COP320 microcontroller translated beam occlusion patterns into directional controls and button presses via the standard NES controller protocol.
+
+The U-Force was genuinely sophisticated. In analog mode, it output 5-bit sensor readings — more precise than the NES's native 8-button digital protocol, presaging analog thumbsticks by seven years. DIP switches selected between six operating modes optimized for different game genres. Accessories included a "Power Bar" for boxing games, hand grips, and a T-bar flight yoke whose underside contained IR reflectors. The device's failure was comprehensive: ambient household lighting confused the IR sensors, calibration drifted during play, the lack of tactile feedback made precision impossible, and each unit required painstaking manual calibration at the factory by hand-cutting resistors and soldering capacitors. The slogan "Don't Touch!" became an ironic epitaph. IGN ranked it the 8th worst video game controller ever made.
+
+### Deep dive
+
+* **Origins: A Software Company's Hardware Folly.** Broderbund Software was founded in 1980 by brothers Doug and Gary Carlston. By 1989, it was one of the largest educational and entertainment software publishers in the world. The U-Force was their sole foray into hardware manufacturing. The project was led by David Capper, a former Mattel Toys executive who had worked on the Intellivision. The electronics prototype was developed by Stan and Avi Axelrod from San Francisco's Exploratorium museum — an institution dedicated to hands-on science exhibits. Broderbund invested heavily, launching at the January 1989 Winter CES alongside the Power Glove. Both devices embodied the same bet: that consumers wanted to move their bodies, not just their thumbs. Both bets failed.
+
+* **The Infrared Sensing Grid.** The U-Force's two perpendicular panels contained nine infrared LED/photodetector pairs — at the time, more IR LEDs than any other consumer electronic device. The top and bottom panels fired beams in perpendicular orientations, creating a quartersphere-shaped detection volume about 12 inches in diameter. When a hand entered this volume, it blocked specific beams. The COP320 microcontroller (National Semiconductor, 20 MHz) polled the photodetectors, ran an 8-bit ADC0831 analog-to-digital converter, and computed which D-pad directions and buttons to report.
+
+* **The Calibration Nightmare.** Each unit required individual factory calibration. Groups of resistors were soldered in parallel onto the main PCB, and technicians used wire cutters to physically sever individual resistors to tune sensor sensitivity. Additional capacitors (50–100 pF, up to three in parallel) were soldered in as needed. Reverse-engineerer Kevin "Kevtris" Horton documented: "The design is pretty terrible and needed a lot of hand tweaking to make it function." Some units had resistors re-soldered and re-cut multiple times before passing quality control. This hand-tuning process was incompatible with consumer electronics manufacturing at scale — every U-Force was effectively a prototype.
+
+* **The 1989 Motion-Control Wars.** The U-Force and the Mattel Power Glove both launched in 1989 at nearly identical price points ($69.95 vs. $79.95). Both promised to replace the traditional gamepad with body-based interaction. But their approaches were diametrically opposed: the Power Glove was wearable (fiber-optic glove with ultrasonic position tracking), while the U-Force was stationary (a desktop IR field you reached into). The Power Glove sold 1.3 million units and became a cultural icon. The U-Force sold so poorly that surviving units are rare today. Together they represent two complementary visions for how the body should interact with games.
+
+* **Why It Failed: The HCI Postmortem.** The U-Force failed for reasons that are textbook HCI lessons. Environmental robustness: consumer IR sensing in 1989 could not handle living room variability. Calibration: the device required a stable sensor-environment relationship impossible to guarantee outside a lab. No tactile feedback meant users had no proprioceptive reference for the sensing field's boundaries. Gorilla-arm fatigue: holding hands extended above the device for minutes was physically uncomfortable. Software ecosystem gap: no NES games supported analog input, so the U-Force's most interesting capability was unused. Every one of these failure modes would be re-encountered with Kinect, Leap Motion, and other touchless controllers decades later.
+
+* **Legacy.** The U-Force is a landmark in the history of touchless consumer interfaces. It predates Microsoft Kinect by 21 years and the Nintendo Wii by 17. Its raw analog sensing capability anticipated the analog thumbstick era (N64, 1996) by seven years. It demonstrated — painfully — that novel interaction models require robust sensing, environmental tolerance, and software support to succeed. The reverse-engineered protocol documentation by Kevtris has made it a beloved artifact in the retro-computing community.
+
+### Team
+
+* **David Capper.** Project lead; former Mattel Toys executive who worked on Intellivision.
+* **Stan Axelrod.** Electronics engineer from San Francisco's Exploratorium museum; created working prototype.
+* **Avi Axelrod.** Electronics engineer; co-developed the prototype with Stan Axelrod.
+* **Richard Bernstein.** Broderbund executive who championed the U-Force project.
+* **Stuart Weiss.** Broderbund executive; co-championed the hardware venture.
+* **Kevin "Kevtris" Horton.** Reverse-engineered the U-Force protocol and documented its internal architecture.
+
+### Media
+
+![U-Force controller in open position with hand hovering above the IR sensing field](../assets/wiki/uforce/uf-wikipedia.jpg)
+*The U-Force in its open position. Nine infrared emitter-detector pairs in the top and bottom panels create a sensing field; the player's hand interrupts beams to control on-screen action. Source: Wikipedia.*
+
+![Internal PCB showing hand-cut calibration resistors inside the U-Force](../assets/wiki/uforce/uf-hackaday-internal.jpg)
+*Internal PCB showing the resistor arrays that were hand-cut at the factory to calibrate each unit's IR sensor sensitivity. Source: Hackaday / Kevtris.*
+
+![1989 COMPUTE! Magazine press photo of U-Force with Power Bar accessory](../assets/wiki/uforce/uf-compute-press.jpg)
+*Original 1989 press photo from COMPUTE! Magazine showing the U-Force with Power Bar and Hand Grip accessories. Source: COMPUTE! Magazine, March 1989.*
+
+### Sources
+
+1. Wikipedia — U-Force — https://en.wikipedia.org/wiki/U-Force
+2. Kevtris Technical Reverse-Engineering (complete protocol & circuit analysis) — http://blog.kevtris.org/blogfiles/nes/uforce.txt
+3. Hackaday — "Why You've Never Heard About Nintendo's U-Force" (2022) — https://hackaday.com/2022/09/05/why-youve-never-heard-about-nintendos-u-force/
+4. Retro Handhelds — "Game Over: Broderbund U-Force" (Jim Gray, 2026) — https://retrohandhelds.gg/game-over-broderbund-u-force/
+5. Kotaku — "Don't Touch This Horror Of A NES Controller" (Luke Plunkett, 2011) — https://kotaku.com/dont-touch-this-horror-of-a-nes-controller-5755430
+6. COMPUTE! Magazine Issue 106 (March 1989) — original launch coverage — https://www.atarimagazines.com/compute/issue106/news_notes_touch.php
+7. Internet Archive — Original Broderbund U-Force Manual — https://archive.org/details/broderbund-u-force-manual
+8. ClassicGamesBlog — U-Force review with box/accessory photos — https://classicgamesblog.com/nintendo-nes/worst-nes-accessories/uforce/
 
 ---
 

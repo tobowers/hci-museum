@@ -1,0 +1,72 @@
+{
+  "slug": "private-eye",
+  "title": "Private Eye",
+  "year": "1989",
+  "subtitle": "The vibrating-mirror monocular display that launched wearable computing and became the Nintendo Virtual Boy",
+  "why_scout_cares": "A 2.5-ounce monochrome display that used a linear LED array and a voice-coil-driven vibrating mirror to paint a 720×280 pixel image directly onto your retina. By covering only one eye, the brain's binocular fusion created the illusion of a transparent floating screen — an accidental augmented reality breakthrough. At $795, it was the display that made MIT wearable computing possible. Thad Starner wore one daily from 1993; he became a technical lead on Google Glass. Nintendo bought the technology for the Virtual Boy. Already in the Deutsches Museum. The hardware itself embodies brilliant, eccentric engineering: no LCD panel, just LEDs, a mirror, and persistence of vision.",
+  "search_terms": ["Reflection Technology Private Eye head-mounted display 1989", "Private Eye wearable display Thad Starner MIT", "Private Eye head mounted display Boeing maintenance", "Allen Becker Private Eye vibrating mirror", "Private Eye Virtual Boy Nintendo"],
+  "research": {
+    "title": "Private Eye",
+    "year": "1989",
+    "by": "Reflection Technology, Inc. (Allen Becker, Ben Wells, Nate Goldschlag) — Waltham, Massachusetts",
+    "tags": ["Head-Mounted Display", "Wearable", "Augmented Reality", "Persistence of Vision"],
+    "overview": "The Private Eye was a monochrome (red) head-mounted display introduced in 1989 by Reflection Technology, founded by MIT dropout Allen Becker. Unlike any display before or since, it generated an image using a vertical column of 280 red LEDs projected through a magnifying lens onto a voice-coil-driven vibrating mirror. The mirror swept the LED column horizontally at 50–100 Hz while LEDs pulsed at precise moments, relying on persistence of vision to fuse the scan into a stable 720×280 pixel raster. Weighing just 2.5 ounces, it consumed only 0.5 watts and cost $795 for the display unit ($2,000 with developer kit).\n\nThe device covered only one eye. Because the human visual system fuses binocular input, text and graphics from the Private Eye appeared to float superimposed over the user's normal vision through the uncovered eye — a see-through augmented reality effect achieved without optical combiners. This was discovered serendipitously and became a defining feature.\n\nThe Private Eye became the enabling display for virtually every early wearable computing project: Thad Starner's \"Tin Lizzy\" at MIT, CMU's VuMan for blueprint browsing, Columbia's KARMA augmented-reality maintenance system, and Doug Platt's Hip-PC. Starner wore a Private Eye-based wearable daily from 1993 and later became a technical lead on Google Glass, explicitly citing his Private Eye experience. Nintendo purchased exclusive rights to the display technology and used two Private Eye displays to create the Virtual Boy (1995). The Virtual Boy's commercial failure led directly to Reflection Technology's closure in 1996.",
+    "deepDive": [
+      {
+        "heading": "Origins",
+        "text": "Allen Becker dropped out of MIT and worked at Kurzweil Computer Products (Ray Kurzweil's reading machine company) before founding Reflection Technology in 1986. The core insight was that a mechanically scanned LED array could produce a viable raster display in an extremely compact package. Co-inventors Ben Wells and Nate Goldschlag contributed to the design. US Patent 4,934,773 ('Miniature video display system') was filed July 27, 1987 and granted June 19, 1990."
+      },
+      {
+        "heading": "How It Worked",
+        "text": "A vertical column of 280 red LEDs shines through a magnifying lens onto a mirror mounted on a voice-coil actuator. The mirror oscillates horizontally, sweeping the column of light across the user's field of view. By pulsing individual LEDs at precise moments during each sweep, the system draws successive columns of pixels onto the retina. Persistence of vision fuses these into a stable 720×280 bitmap image appearing as a virtual 15-inch display at 18 inches (22-degree field of view). The entire optical assembly fits in a light-tight box measuring 3.2 × 1.2 × 1.1 inches."
+      },
+      {
+        "heading": "The Accidental AR Effect",
+        "text": "The Private Eye was designed to be monocular — covering only one eye. Users discovered that the brain automatically fuses the display image with the real-world view from the uncovered eye, creating the illusion of a transparent screen floating in space. This required no beam splitters, no optical combiners — just human neurophysiology. MIT researchers documented this effect extensively, and it became the basis for the 'glance-at' interaction model: information was available with a quick glance upward while maintaining eye contact and situational awareness."
+      },
+      {
+        "heading": "Wearable Computing's Enabling Display",
+        "text": "Before the Private Eye, head-mounted displays were heavy, power-hungry, and expensive (e.g., the VPL EyePhone at $250,000/system). The Private Eye's 2.5-ounce weight, 0.5-watt draw, and $795 price made all-day wearable computing practical. MIT's Thad Starner built his 'Tin Lizzy' system around the Private Eye paired with a Twiddler chording keyboard — one hand for input, one eye for output. He wore this daily from 1993 through the late 1990s, typing 60 wpm while walking. CMU's VuMan 1 (1991) used the Private Eye for browsing blueprints hands-free. Columbia's KARMA system (1993) overlaid maintenance instructions onto real equipment via the Private Eye."
+      },
+      {
+        "heading": "The Nintendo Virtual Boy Connection",
+        "text": "Nintendo purchased exclusive rights to the Private Eye display technology for an estimated $5 million, becoming the first-ever minority investor in a US company for Reflection Technology. The Virtual Boy (1995) used two Private Eye displays to create stereoscopic 3D. It was a commercial failure — only ~800,000 units sold, discontinued within a year — and Reflection Technology closed in September 1996 as a direct result."
+      },
+      {
+        "heading": "Legacy",
+        "text": "Thad Starner, who wore a Private Eye daily for years, was hired by Google in 2010 as a technical lead on Project Glass. He has explicitly stated that Google Glass is a continuation of his Private Eye work. The Private Eye also established the 'pocket computer + private head-worn display' paradigm that would later inform smartphones, smart glasses, and modern AR headsets like HoloLens and Apple Vision Pro. The device is held in the permanent collection of the Deutsches Museum in Munich."
+      }
+    ],
+    "team": [
+      { "name": "Allen 'Al' Becker", "note": "Founder of Reflection Technology, MIT dropout, former Kurzweil engineer" },
+      { "name": "Ben Wells", "note": "Co-inventor, contributed to optical and mechanical design" },
+      { "name": "Nate Goldschlag", "note": "Co-inventor" },
+      { "name": "Thad Starner", "note": "MIT wearable computing pioneer who wore Private Eye daily from 1993; later Google Glass technical lead" }
+    ],
+    "media": [
+      { "src": "https://lh3.googleusercontent.com/ci/AL18g_SGY6dtcfOwZkxztiaaDWWMSH86RJyfTgaNXsQuhuKkwKgjGaQEnjx6juCSYTogqMOzpnM4b1tB", "alt": "Reflection Technology Private Eye display unit, held in hand", "caption": "Private Eye display unit. The 3.2-inch box contains a 280-LED array and a vibrating mirror that paints a 720×280 image onto the retina. Source: Deutsches Museum / Google Arts & Culture." },
+      { "src": "http://www.loper-os.org/vintage/paralleleye/p4_frame.png", "alt": "Private Eye chassis with mounting bracket and cable", "caption": "Private Eye P4 chassis with standard head-mount bracket. The display weighs 2.5 oz. Source: loper-os.org vintage computing archive." },
+      { "src": "https://www.media.mit.edu/wearables/lizzy/lizzy/images/PE-seperate-small.gif", "alt": "Two separate eye views: Private Eye display image and real-world view", "caption": "Left: the red LED image from the Private Eye. Right: the real-world view through the uncovered eye. Source: MIT Media Lab." },
+      { "src": "https://www.media.mit.edu/wearables/lizzy/lizzy/images/PE-composite-small.gif", "alt": "Composite fused view showing Private Eye image overlaid on real world", "caption": "The fused view — the brain automatically superimposes the Private Eye's red image onto the real world. An accidental AR breakthrough. Source: MIT Media Lab." }
+    ],
+    "sources": [
+      { "text": "Kill Screen — 'Seeing Red' (definitive Private Eye history: Becker, Nintendo deal, Virtual Boy)", "url": "https://www.killscreen.com/seeing-red/" },
+      { "text": "Deutsches Museum — Private Eye entry (Google Arts & Culture)", "url": "https://artsandculture.google.com/asset/reflection-technology-private-eye-display/QgFnZtDAdVz0CQ" },
+      { "text": "MIT Media Lab — Wearable Computing Timeline", "url": "https://www.media.mit.edu/wearables/lizzy/timeline.html" },
+      { "text": "MIT — Building a head mount for the Private Eye (fusion effect documentation)", "url": "https://www.media.mit.edu/wearables/lizzy/lizzy/pe.html" },
+      { "text": "Event Horizons — P4 Documents Archive (full scanned developer docs, schematics)", "url": "https://www.eventhorizons.com/projects/P4/p4.html" },
+      { "text": "US Patent 4,934,773 — Miniature video display system (Becker)", "url": "https://www.freepatentsonline.com/4934773.html" },
+      { "text": "Bill Buxton — Private Eye Brochure PDF (original sales brochure)", "url": "https://billbuxton.com/Private_Eye_Brochure.pdf" },
+      { "text": "MIT Technology Review — Starner on Google Glass (Private Eye → Glass lineage)", "url": "https://www.technologyreview.com/2013/06/04/177780/" },
+      { "text": "Becker, A. (1990) — Design Case Study: Private Eye. Information Display journal", "url": "https://doi.org/10.1002/j.2637-496x.1990.tb05924.x" },
+      { "text": "Stories by Williams — Digital Eyewear Through the Ages", "url": "https://storiesbywilliams.com/2013/09/21/digital-eyewear-through-the-ages/" }
+    ],
+    "imageUrls": [
+      "https://lh3.googleusercontent.com/ci/AL18g_SGY6dtcfOwZkxztiaaDWWMSH86RJyfTgaNXsQuhuKkwKgjGaQEnjx6juCSYTogqMOzpnM4b1tB",
+      "http://www.loper-os.org/vintage/paralleleye/p4_frame.png",
+      "https://www.media.mit.edu/wearables/lizzy/lizzy/images/PE-seperate-small.gif",
+      "https://www.media.mit.edu/wearables/lizzy/lizzy/images/PE-composite-small.gif"
+    ]
+  },
+  "savedImages": []
+}
