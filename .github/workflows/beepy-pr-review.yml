@@ -1,0 +1,74 @@
+name: Beepy PR Review
+
+permissions:
+  contents: write
+  pull-requests: write
+  issues: write
+
+on:
+  pull_request_target:
+    types: [opened, reopened, synchronize, ready_for_review]
+
+concurrency:
+  group: beepy-pr-review-${{ github.event.pull_request.number }}
+  cancel-in-progress: true
+
+jobs:
+  review:
+    if: ${{ github.event.pull_request.head.repo.full_name == github.repository && !github.event.pull_request.draft }}
+    runs-on: ubuntu-latest
+    timeout-minutes: 60
+    env:
+      KIMI_API_KEY: ${{ secrets.KIMI_API_KEY }}
+      KIMI_PROVIDER: kimi-for-coding
+      KIMI_MODEL: k2p7
+      GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      SCOUT_AGENT_TIMEOUT_MS: "1800000"
+      PR_NUMBER: ${{ github.event.pull_request.number }}
+      PR_TITLE: ${{ github.event.pull_request.title }}
+      PR_URL: ${{ github.event.pull_request.html_url }}
+      PR_AUTHOR: ${{ github.event.pull_request.user.login }}
+      PR_BASE_REF: ${{ github.event.pull_request.base.ref }}
+      PR_HEAD_REF: ${{ github.event.pull_request.head.ref }}
+      PR_HEAD_SHA: ${{ github.event.pull_request.head.sha }}
+      PR_HEAD_REPO: ${{ github.event.pull_request.head.repo.full_name }}
+    steps:
+      - name: Checkout PR branch
+        uses: actions/checkout@v4
+        with:
+          repository: ${{ github.event.pull_request.head.repo.full_name }}
+          ref: ${{ github.event.pull_request.head.ref }}
+          fetch-depth: 0
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Fetch base branch
+        run: git fetch origin "${PR_BASE_REF}:refs/remotes/origin/${PR_BASE_REF}"
+
+      - name: Setup git identity
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+
+      - name: Setup Bun
+        uses: oven-sh/setup-bun@v2
+
+      - name: Install opencode CLI
+        run: bun add --global opencode-ai@1.17.9
+
+      - name: Install dependencies
+        run: bun install --frozen-lockfile
+
+      - name: Run Beepy PR review
+        run: bun run beepy:pr-review
+
+      - name: Show final git state
+        if: ${{ always() }}
+        run: git status --short --branch
+
+      - name: Upload review trace
+        if: ${{ always() }}
+        uses: actions/upload-artifact@v4
+        with:
+          name: beepy-pr-review-trace
+          path: potential/runs/*.pr-review.md
