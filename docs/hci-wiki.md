@@ -1,6 +1,6 @@
 # The HCI Golden Age Wiki
 
-A research compendium for a digital museum of cutting-edge Human-Computer Interaction from the late 1970s through the early 1990s. These thirty-five projects mix canonical experiments with weird, forgotten, and beautiful vaporware — brain control, voice control, gesture, wearable computing, VR, robots, and full-body exertion.
+A research compendium for a digital museum of cutting-edge Human-Computer Interaction from the late 1970s through the early 1990s. These thirty-eight projects mix canonical experiments with weird, forgotten, and beautiful vaporware — brain control, voice control, gesture, wearable computing, VR, robots, and full-body exertion.
 
 Each entry includes an overview, a deep dive, a small media gallery, and full source links so the images and facts can always be traced back.
 
@@ -45,6 +45,9 @@ Each entry includes an overview, a deep dive, a small media gallery, and full so
 36. [BioMuse (1990)](#biomuse-1990)
 37. [Etak Navigator (1985)](#etak-navigator-1985)
 38. [Nintendo R.O.B. (Robotic Operating Buddy) (1985)](#nintendo-rob-robotic-operating-buddy-1985)
+39. [Buchla Lightning (1991)](#buchla-lightning-1991)
+40. [Fakespeare BOOM (Binocular Omni-Orientation Monitor) (1989)](#fakespeare-boom-binocular-omni-orientation-monitor-1989)
+41. [Seiko RC-1000 Wrist Terminal (1984)](#seiko-rc-1000-wrist-terminal-1984)
 
 ---
 ## Hubot (c. 1983)
@@ -1928,3 +1931,173 @@ The New York City test market launched on October 18, 1985. A 12-person 'SWAT te
 8. Polygon — 'Here's how Nintendo announced the NES in North America' — https://www.polygon.com/2015/10/31/9651584/nintendo-nes-anniversary-original-launch-documents
 9. AtariAge Forum — Reverse-engineered command protocol (Tursi, 2011) — https://forums.atariage.com/topic/177286-any-interest-in-nes-rob-homebrews/
 10. Chris Kohler, 'Power-Up: How Japanese Video Games Gave the World an Extra Life' (2004) — https://books.google.com/books?id=VuA7DQAAQBAJ
+
+---
+
+## Buchla Lightning (1991)
+
+**By:** Buchla & Associates (Don Buchla)  
+**Tags:** `Music HCI` `Gesture` `Optical Tracking` `MIDI Controller` `Infrared Sensing` `Spatial Interface` `Alternative Controller`
+
+### Overview
+
+The Buchla Lightning is a MIDI controller designed by synthesis pioneer Don Buchla, first released in 1991. It consists of two handheld, wireless wands that emit infrared light, and an optical receiver unit that tracks their position in space using triangulation. The performer waves the wands in the air, and the system translates the wands' X-Y position, velocity, acceleration, and directional changes into MIDI note and controller data in real time. A digital signal processor analyzes gesture — downward strikes can trigger percussion, lateral movements can bend pitch, and spatial zones can define entirely different instrument behaviors. The performer literally sculpts sound from empty space.
+
+Three versions were produced: Lightning I (1991), Lightning II (1996), and Lightning III (2008). The original Lightning housed both the electronics and the optical sensor in a single box that mounted on a microphone stand. Lightning II separated the optics into a compact triangular remote head, moved the electronics into a half-rack cabinet, greatly extended the operating range (up to 12 feet high by 20 feet wide), and added a built-in 32-voice General MIDI synthesizer. Lightning III added a Z-axis (proximity) for depth sensing, though this axis was less precise than the X-Y tracking.
+
+Lightning was hand-built in small quantities by Buchla & Associates in Berkeley, California, and sold direct to musicians for $1,995. It was never a mass-market product but occupied a unique niche among experimental composers, percussionists, and electronic performers seeking an embodied, theatrical way to control synthesis. The instrument was used by notable figures including George E. Lewis, Andrew Schloss, Lê Quan Ninh, Forrest Tobey (who rang in the millennium at Times Square with Lightning wands), and Joel Davel — Buchla's long-time collaborator who helped design and test the hardware. Lightning represents Don Buchla's shift from modular synthesis toward radical new controller interfaces, and stands as one of the earliest practical optical gesture-recognition instruments for live musical performance.
+
+### Deep dive
+
+* **Origins / Design.** Don Buchla designed Lightning during a period (1989–2004) when he deliberately stepped away from building modular synthesizers to focus entirely on creating expressive alternative MIDI controllers. Lightning was the second in this series, following the Buchla Thunder (1990), a touch-sensitive tactile controller. Buchla was driven by a belief that traditional keyboard interfaces constrained electronic music expression, and he sought to create instruments where physical gesture mapped directly to sound.
+
+The original Lightning I (model 900) housed both the optical sensor array and all control electronics in a single metal box mounted on a mic stand. The two wands contained infrared LEDs powered by non-replaceable batteries (about 2 hours of life). The system used optical triangulation: the receiver's photosensors detected the IR light from each wand and computed 2D X-Y position. The wands also had momentary push-buttons to add discrete control events.
+
+Lightning II (1996) was a major redesign. The optical receiver became a small, lightweight triangular remote head (1.5 x 6 x 8 inches, 12 ounces), while the electronics moved to a half-rack cabinet (1.7 x 8.5 x 10 inches, 3 pounds). The wands were redesigned with replaceable AA batteries providing 15–60 hours of use, a blinking LED low-battery warning, and dual-range operation. The operating area expanded dramatically to roughly 12 feet high by 20 feet wide. Internal RAM presets increased from 12 to 30, ROM presets from 3 to 30, and a memory card slot added storage for 30 additional presets per card. A built-in 32-voice General MIDI synthesizer allowed Lightning II to function as a complete standalone instrument. The supervisory microprocessor was a Texas Instruments TMS370.
+
+Lightning III (2008) kept the same price ($1,995), the same wands, and nearly identical software, but added a Z-axis (proximity/depth) sensing capability. The triangular remote sensor became rectangular. The primary improvements were in sensitivity, resolution, accuracy, and response time. All three Lightning versions used the same core gesture-recognition engine and programming interface.
+* **Interaction Model.** Lightning's interaction model was fundamentally spatial and embodied. The performer held one wand in each hand and moved freely within the sensor's detection zone. The system tracked four independent coordinates (X and Y for each hand) in real time, plus button state. From successive position readings, the TMS370 DSP computed instantaneous velocity and acceleration, then performed detailed gesture analysis to classify movement patterns.
+
+The performer programmed Lightning using an 'interface language' that mapped gestures to MIDI events. Common mappings included: mapping X-Y position to MIDI continuous controllers (creating invisible pitch wheels, pan pots, modulation wheels, or volume sliders in midair); analyzing strike gestures for direction and velocity to generate MIDI notes with velocity sensitivity (air drums); dividing the performance space into zones, each triggering different sounds or behaviors; and a conductor mode that analyzed beat patterns, displayed tempo deviations, detected missed beats, and transmitted a synchronized MIDI clock for controlling external sequencers.
+
+User-definable scale and tuning tables allowed pitch ranges and note selections to be mapped along any axis, with arbitrary note ordering — letting performers create 'invisible orchestras' arrayed in space. Buttons on each wand provided additional discrete triggers. The interaction was described by performer Joel Davel as resembling 'a hyperactive magician casting abracadabra spells into the ether' (Newsday), requiring both musicality and physical virtuosity. The MIDI.org article described it thus: 'Imagine if the batons held by a member of the ground crew to safely direct an aircraft into a gate at an airport controlled the pitch, timbre, and other aspects of sound generated by a synthesizer. That's essentially what Don Buchla's Lightning does.' Lightning lent itself particularly well to percussive styles, but could be programmed for any genre.
+* **Legacy.** Buchla Lightning occupies a pivotal position in the history of gestural music controllers. It connected the theremin (the original analog spatial instrument from 1920) with later computer-vision and motion-sensing controllers. Max Mathews's Radio Baton (1986) and Palmtree Instruments' Airdrums (1986) were contemporaries, but Lightning was uniquely sophisticated in its real-time gesture analysis, wireless operation, multi-zone spatial mapping, and integration with the MIDI ecosystem.
+
+Lightning was commercially niche — hand-built in small batches, sold direct from Buchla & Associates in Berkeley at $1,995 — but it found adoption among academic computer music centers (IRCAM, CNMAT at UC Berkeley, CCRMA at Stanford) and experimental performers. George E. Lewis composed 'Virtual Discourse' (1993) for Lightning-controlled virtual percussion and four live percussionists, premiered at the Musée des Beaux-Arts in Bordeaux. Lightning wands were famously used by Forrest Tobey to perform a 'Virtual Orchestra' during the Times Square millennium New Year's Eve celebration in 1999/2000, seen by millions worldwide.
+
+After Don Buchla's death in 2016, Lightning production ceased. The brand was acquired by a new company (Buchla USA), which focuses on the 200e modular synthesizer series and does not offer Lightning. Units occasionally appear on the secondhand market, typically selling for $1,500–$2,500. The instrument's DNA is visible in later optical controllers like the Dimension Beam/D-Beam (licensed by Roland), and it presaged the gesture-control paradigm that became mainstream with the Nintendo Wii (2006) and Microsoft Kinect (2010). Lightning was recognized in Joel Chadabe's 'Electric Sound' (1997) and Bart Hopkin's 'Gravikords, Whirlies & Pyrophones' (1996) as a landmark experimental instrument.
+
+### Team
+
+* **Don Buchla.** Inventor, designer, founder of Buchla & Associates
+* **Joel Davel.** Primary hardware assistant, PCB designer (post-1995), alpha tester, preset author, and virtuoso performer
+* **Forrest Tobey.** Lightning virtuoso, Peabody Conservatory artist-in-residence; performed Virtual Orchestra at Times Square millennium celebration
+
+### Media
+
+![Buchla Lightning I system with two wands and main unit](../assets/wiki/buchla-lightning-1.jpg)
+*Original Buchla Lightning I (1991) with main unit, two wand transmitters, power supply, and manual. Serial #1037. (Source: MATRIXSYNTH)*
+
+![Buchla Lightning II wands - two baton-like infrared transmitters](../assets/wiki/buchla-lightning-2.gif)
+*Lightning II wireless wands — baton-like IR transmitters, 11 inches long, 0.8 inches diameter, 3 ounces each, powered by a single AA cell. (Source: archived buchla.com)*
+
+![Lightning II triangular remote optical sensor head](../assets/wiki/buchla-lightning-3.gif)
+*Lightning II triangular remote optical head for IR triangulation, mounted on a mic stand in front of the performer. (Source: archived buchla.com)*
+
+### Sources
+
+1. Wikipedia: Buchla Lightning — https://en.wikipedia.org/wiki/Buchla_Lightning
+2. Buchla & Associates — Lightning II Description (archived) — https://web.archive.org/web/20130929091922/http://www.buchla.com/lightning/descript.html
+3. Buchla & Associates — Lightning II Technical Specifications (archived) — https://web.archive.org/web/20130929071400/http://www.buchla.com/lightning/tech.html
+4. MATRIXSYNTH: Buchla Lightning MIDI controller (detailed photos, serial #1037) — https://www.matrixsynth.com/2014/09/buchla-lightning-midi-controller-with-2.html
+5. MIDI.org: Alternative Controllers (Mark Vail, features Lightning II) — https://midi.org/alternative-controllers-was-part-5
+6. Joel Davel — Lightning II page (performer description, photos) — https://isproductions.com/joel/lightning.html
+7. Keyboard magazine review of Buchla Lightning, September 1991, p.148 — http://www.youngmonkey.ca/nose/magazines/Keyboard-r/MIDIControllers.html
+8. YouTube: What is a Buchla Lightning? (Joel Davel explains) — https://www.youtube.com/watch?v=iPAhZUZbgrU
+9. YouTube: Joel Davel — Out of Thin Air on Buchla Lightning — https://www.youtube.com/watch?v=HSf8sYHWBsQ
+
+---
+
+## Fakespeare BOOM (Binocular Omni-Orientation Monitor) (1989)
+
+**By:** Fake Space Labs (Mark Bolas, Ian McDowall, Eric Lorimer)  
+**Tags:** `VR` `Immersive Display` `Head-Coupled Display` `Tracking` `Mechanical`
+
+### Overview
+
+The BOOM (Binocular Omni-Orientation Monitor) was a head-coupled stereoscopic display system built by Fake Space Labs in Mountain View, California, beginning in 1989. Rather than mount CRTs directly on the user's head — the approach taken by VR headsets like the VPL EyePhone — the BOOM suspended two high-resolution CRTs and LEEP wide-angle optics inside a viewing hood attached to a spring-counterbalanced, multi-link articulated arm. The user gripped two handles on the hood, pressed their face into the optics, and physically guided the display to any position within its operational volume. Optical encoders in each joint of the arm provided real-time 6-DOF head tracking with effectively zero latency, since the tracking was intrinsic to the display mount itself.
+
+Three models were produced: the BOOM 2 (monochrome), BOOM 2C (16-bit color), and BOOM 3C (full color). All ran at 1280×1024 resolution per eye — extraordinarily high for the era, eclipsing the ~200×300 pixel LCDs found in contemporary HMDs. Stereo FOV ranged up to approximately 100° horizontally (140° with spherical wide-angle optics). The BOOM 2 sold for approximately $27,000. The system was first shown publicly at SIGGRAPH 1991.
+
+Fakespeare Labs was founded in 1988 by Mark Bolas, Ian McDowall, and Eric Lorimer. The company split into Fakespeare Labs (R&D) and Fakespeare Systems (commercial) in 1998; Fakespeare Systems was acquired by Mechdyne Corporation in 2003. BOOM systems were deployed at NASA Ames Research Center, Sandia National Laboratories, SRI International, Boeing, DaimlerChrysler, and numerous university VR labs for scientific visualization, computational fluid dynamics, and molecular modeling. The BOOM's mechanical approach to immersive display — trading wearability for precision and rendering quality — represents a unique design philosophy in VR history, and Bolas' subsequent work at USC's Institute for Creative Technologies directly influenced the modern VR renaissance through his mentorship of Oculus founder Palmer Luckey.
+
+### Deep dive
+
+* **Origins & Design.** Mark Bolas' 1988-89 Master's thesis at Stanford, 'Design and Virtual Environments,' was among the first efforts to map the breadth of virtual reality as a new medium. The BOOM emerged directly from this research and from Bolas' work at NASA Ames Research Center's telepresence projects. Bolas co-founded Fakespeare Inc. in 1988 with Ian McDowall and Eric Lorimer specifically to build instrumentation for VR research labs.
+
+The BOOM's mechanical design was ingenious in its constraints. A multi-link arm, similar to a desk lamp suspension but precision-engineered, supported the weight of two small CRTs (approximately 1.5-2 inch Sony tubes) and LEEP optics housed in a viewing hood. A spring counterbalance system — covered by US Patent 5,253,832 (filed July 26, 1991, issued October 19, 1993) — made the hood effectively weightless to the user. Optical encoders at each joint provided 6-DOF position and orientation tracking with resolution far finer than the magnetic or ultrasonic trackers of the era, and with no measurable latency since the tracking signal path was purely mechanical-electrical with no computer vision or radio processing required.
+
+The display resolution — 1280×1024 stereo per eye — was driven by the host workstation's graphics pipeline. The BOOM acted essentially as a specialized CRT monitor with integrated tracking. Three models offered different color capabilities: BOOM 2 (monochrome, green phosphor), BOOM 2C (16-bit color using two primary colors), and BOOM 3C (full 24-bit color). Stereo separation was achieved through the dual-CRT/LEEP optics arrangement, with options for spherical wide-angle and flat medium-field focal lengths.
+* **Interaction Model.** Using the BOOM was a physical, embodied experience unlike donning a headset. The user approached the viewing hood, grasped two handles on either side, and pressed their eyes against the optical ports. To look around a virtual environment, they physically pushed, pulled, and rotated the hood through space — the articulated arm translating their body movements into viewpoint changes with perfect 1:1 correspondence. There was no weight on the head, no cables snaking to the floor, no calibration drift. If you wanted to see what was behind you, you physically turned your body and pulled the hood with you.
+
+The BOOM occupied an intermediate position between CAVE-style projection environments (where the user walks freely inside a room) and HMDs (where the display is worn). It offered the rendering quality and precision of a fixed workstation monitor with the immersiveness of a head-worn display, at the cost of restricting movement to the arm's reach. This made it particularly well-suited for seated or standing-in-place applications like molecular docking, CAD review, and vehicle interior inspection — tasks where precise visual fidelity mattered more than room-scale movement.
+
+The BOOM was often paired with Fakespeare's other inventions, including the Pinch Glove (a fabric glove with conductive fingertips that detected pinching gestures for 3D manipulation) and the PUSH (a pressure-sensitive handheld input device). Together they formed an integrated immersive workbench for scientific and engineering visualization.
+* **Legacy.** The BOOM represents the high-water mark of a design philosophy that prioritized visual fidelity and tracking precision over wearability and affordability. As LCD technology improved and HMDs shrank, the mechanical-boom approach became less attractive relative to the freedom of untethered (or at least head-mounted) VR. But the BOOM's influence persisted in several ways.
+
+Fakespeare Labs later developed the RAVE (Reconfigurable Advanced Visualization Environment), a modular large-screen projection VR system; the ImmersaDesk, a drafting-table-style VR display; and the Fakespeare Workbench — all products that, like the BOOM, emphasized extremely high-quality stereoscopic rendering for professional and scientific users. The company's software library, VLIB, became a widely-used open-source framework for VR application development.
+
+Mark Bolas went on to become a professor at USC's School of Cinematic Arts, where he directed the Mixed Reality Lab and the Interactive Narrative and Immersive Technologies Lab. There, in 2011-2012, he and his students designed an open-source HMD using off-the-shelf mobile phone components — a project that directly inspired his lab assistant, Palmer Luckey, to build the Oculus Rift. Bolas received the IEEE VGTC Virtual Reality Technical Achievement Award in 2005. He later joined Microsoft's HoloLens team.
+
+Fakespeare Systems was acquired by Mechdyne Corporation in 2003, which continued to support BOOM installations for existing customers. Individual BOOM units occasionally surface at university surplus sales and VR history collections. The BOOM's patent, the spring counterbalanced suspension system (5,253,832), remains a key document in immersive display engineering.
+
+### Team
+
+* **Mark Bolas.** Co-founder, lead inventor; Master's thesis at Stanford on VR design space; later USC professor and mentor to Palmer Luckey
+* **Ian McDowall.** Co-founder of Fakespeare Inc.; hardware engineering
+* **Eric Lorimer.** Co-founder of Fakespeare Inc.
+
+### Media
+
+![Fakespeare BOOM 3C stereoscopic display on articulated arm](../assets/wiki/fakespeare-boom-1.gif)
+*Fakespeare BOOM 3C interactive stereo viewer — 1280×1024 per eye, full color, spherical wide-angle optics. (Source: Stanford CDR)*
+
+![User operating a Fakespeare BOOM display, peering into the viewing hood](../assets/wiki/fakespeare-boom-2.jpg)
+*A user operating a Fakespeare BOOM3C boom-mounted display, grasping the handles and peering into the viewing hood. (Photo: Fakespeare, Inc., via VRArchitect)*
+
+### Sources
+
+1. Stanford CDR: Fakespeare Labs BOOM 3C specifications — http://www-cdr.stanford.edu/html/DesignSpace/sponsors/boom.html
+2. VRArchitect: BOOM display description with photos — https://www.vrarchitect.net/anu/cg/Display/boom.en.html
+3. Wikipedia: Mark Bolas — co-founder, BOOM inventor, USC professor — https://en.wikipedia.org/wiki/Mark_Bolas
+4. Wikipedia: Ian McDowall — co-founder of Fakespeare Inc. — https://en.wikipedia.org/wiki/Ian_McDowall
+5. AWE Hall of Fame: Mark Bolas — BOOM, Pinch Glove, RAVE, mentor to Palmer Luckey — https://www.awexr.com/hall-of-fame/27-mark-bolas
+6. US Patent 5,253,832: Spring counterbalanced boom suspension system (Bolas, filed 1991, issued 1993) — https://patents.google.com/patent/US5253832A/
+7. Bolas, M.T. (1994). Human factors in the design of an immersive display. IEEE Computer Graphics and Applications, 14(1), 55-59. — https://doi.org/10.1109/38.250920
+8. The Verge: VR music videos from the '90s were amazing (Fakespeare BOOM footage) — https://www.theverge.com/2016/5/23/11744016/fakespace-virtual-reality-retro-music-video
+
+---
+
+## Seiko RC-1000 Wrist Terminal (1984)
+
+**By:** Seiko Epson / Seiko Instruments Inc.  
+**Tags:** `Wearable` `Wrist-Worn` `Mobile Computing` `Watch` `Pre-Smartwatch` `Serial Terminal` `Personal Information Manager`
+
+### Overview
+
+The Seiko RC-1000 Wrist Terminal, released in 1984, was a wristwatch that doubled as a computer terminal — one of the earliest wearable computing interfaces ever sold to consumers. Unlike Seiko's earlier Data 2000 (1983) and UC-2000 (1984) wrist computers — which used proprietary keyboard docking stations with electromagnetic induction — the RC-1000 connected directly to desktop computers via RS-232C serial cable. It was compatible with over a dozen computer platforms including the Apple II, IBM PC, Commodore 64, TRS-80, Sinclair ZX Spectrum, and MSX. Marketed as a 'Wrist Terminal,' it offered 2KB of RAM, a 12x2 character dot-matrix LCD, and six side-pusher buttons. Users wrote data using Wrist Terminal Data Manager software on their desktop, then transmitted it in a single 2051-byte dump at 2400 baud. The watch itself was receive-only — a fundamentally asymmetric interaction that prefigured today's phone-to-watch communication paradigm.
+
+The RC-1000 spawned a family including the RC-4000 'PC Datagraph' (1985) and RC-4500 'WristMac' (1988), the latter becoming NASA's choice for the first email sent from space aboard the Space Shuttle Atlantis in 1991. Seiko's computer watch program was remarkably ambitious — the same year the original Macintosh shipped, Seiko was selling a wrist-worn device with 2 kilobytes of user-addressable storage, programmable alarms with custom text, world time with city labels, and a backlight. The watch cost ¥24,000 (~$100-150) in Japan and £99.95 in the UK.
+
+### Deep dive
+
+* **Origins & Hardware Design.** The RC-1000 was developed by Seiko Epson (Seiko Instruments Inc.) as part of a broader push into wrist-worn computing that began with the Data 2000 in 1983. While the Data 2000 and UC-2000 used proprietary wireless electromagnetic induction to communicate with keyboard docks, the RC-1000 was Seiko's first device to connect directly to general-purpose computers via industry-standard RS-232C serial. The watch contained 2KB of user-accessible RAM (organized as 80 screens of 24 characters each), divided into categories: Memos, Phone Numbers, Scheduled Alarms, Weekly Alarms, and World Time. Physical dimensions were approximately 42mm x 37mm x 11mm with a black metal bracelet or plastic strap. It was the only Seiko computer watch with an EL backlight. The watch ran on a single BR2325 lithium coin cell.
+* **Interaction Model.** The RC-1000's interaction model was deliberately asymmetric: all data authoring happened on the desktop. The user ran Wrist Terminal Data Manager software, which provided a menu-driven interface to create memos, schedule alarms with custom text, and configure world time zones. The software produced a formatted 2051-byte binary payload representing the watch's entire memory. To receive data, the user pressed the watch's Terminal button to enter Terminal Mode, then pressed Lock — the display showed 'RECEIVE' and awaited the data stream at 2400 baud, 8 data bits, no parity, 2 stop bits. The transfer always overwrote the entire 2KB RAM; there was no incremental update. On the wrist, the Terminal button cycled through categories and the Select button scrolled through screens. Alarms would fire with custom text on schedule. The watch could not transmit data back — a pure one-way, read-from-wrist model.
+* **RC Series Evolution & WristMac Legacy.** The RC-4000 'PC Datagraph' (1985) upgraded to a three-line dot-matrix display with 2KB RAM. The RC-4500 'WristMac' (1988) added colorful plastic cases and Macintosh compatibility via partner company Ex Machina. In 1991, modified WristMacs were worn by NASA astronauts aboard the Space Shuttle Atlantis (STS-43), paired with a Macintosh Portable running AppleLink. Through TDRSS satellites and modem pools, the crew sent the first email from space — with WristMacs serving as wearable reminder/notification devices. A never-worn, boxed original WristMac was auctioned in 2021 with estimates up to $100,000. The RC-1000/RC-4000/WristMac lineage represents the first commercial wrist-worn computer-terminal ecosystem, directly anticipating the Apple Watch's companion-device architecture by nearly 30 years.
+
+### Team
+
+* **Seiko Epson / Seiko Instruments Inc..** Designer and manufacturer of the RC-1000, RC-4000, and RC-4500 wrist terminals
+* **Ex Machina, Inc..** Co-developed WristMac (RC-4500) software and Apple Macintosh integration in 1988
+* **Byron Han.** Apple engineer who built the AppleLink-in-Space system enabling the WristMac to be used on STS-43 Atlantis
+
+### Media
+
+![Seiko RC-1000 wrist terminal face with 12x2 LCD and red arrow buttons](../assets/wiki/seiko-rc1000-1.jpg)
+*Seiko RC-1000 Wrist Terminal with its 12x2 character dot-matrix LCD and six side buttons. (Source: Old Crap Vintage Computing)*
+
+![Original Seiko RC-1000 Japanese advertisement](../assets/wiki/seiko-rc1000-2.jpg)
+*Original Seiko RC-1000 advertisement showing the wrist terminal concept with desktop connection. (Source: MSX Wiki)*
+
+### Sources
+
+1. Old Crap Vintage Computing: Seiko RC-1000 Wrist Terminal (teardown, photos, internals) — https://oldcrap.org/2023/03/29/seiko-rc-1000-wrist-terminal/
+2. MSX Wiki: Seiko RC-1000 — Description, hardware, software, gallery, pricing — https://www.msx.org/wiki/Seiko_RC-1000
+3. Rob Braun (bbraun): Reverse-engineered serial protocol, memory layout, open-source upload tool — http://www.synack.net/~bbraun/rc1000/
+4. Conventional Memories Wiki: RC Series Hardware and Software — Complete model/cable/software matrix — https://conventionalmemories.com/wiki_cm/Seiko_RC_series_hardware_and_software
+5. Pocket Calculator Show: Seiko Computer Watch Fun — Family history Data 2000 through WristMac — https://www.pocketcalculatorshow.com/nerdwatch/seiko-computer-watch-fun/
+6. GitHub: ppieczul/seiko-rc-1000 — Collected software, disk images, restored BASIC program — https://github.com/ppieczul/seiko-rc-1000
+7. Hodinkee: The Seiko WristMac Is The First Apple Watch (2021 auction coverage) — https://www.hodinkee.com/articles/huh-a-seiko-apple-smart-watch-is-set-to-hit-the-auction-block
+8. TidBITS: AppleLink in Space (29 July 1991) — STS-43 Atlantis mission coverage — https://tidbits.com/1991/07/29/applelink-in-space/
+9. Hackaday: Seiko Had A Smartwatch In 1984 — https://hackaday.com/2024/07/16/seiko-had-a-smartwatch-in-1984/
+10. Deutsches Uhrenmuseum Furtwangen: Museum catalog entry with technical specs — https://bawue.museum-digital.de/object/29881?navlang=en
