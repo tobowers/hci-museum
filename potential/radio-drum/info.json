@@ -1,0 +1,72 @@
+{
+  "slug": "radio-drum",
+  "title": "Radio Drum (Radio Baton)",
+  "year": "c.1987",
+  "subtitle": "A 3D capacitive spatial controller that tracks two batons in free space — built as a mouse, reborn as an instrument",
+  "why_scout_cares": "Max Mathews, the man who wrote the first computer music program (MUSIC I, 1957), spent 30 years giving computers a voice. Then he built them a body. The Radio Drum tracks two drumstick-like batons moving freely in 3D space above a flat antenna plate, measuring X, Y, and Z position 100 times per second with 1mm resolution. No contact required. Built by Bell Labs engineer Bob Boie as an attempt at a '3D computer mouse,' it failed as a peripheral — and found its true calling when Mathews recognized its musical potential. Andrew Schloss pioneered its use as a virtual percussion instrument. Composers have used it to conduct virtual orchestras, trigger robotic grand pianos, and let deaf children feel music. Still performed today. It is one of the earliest high-bandwidth free-space gestural controllers, a theremin for the digital age.",
+  "search_terms": ["Max Mathews Radio Drum Bell Labs 1987", "Radio Baton controller capacitive 3D position sensing", "Max Mathews Bob Boie Radio Drum interactive music"],
+  "research": {
+    "title": "Radio Drum (Radio Baton)",
+    "year": "c.1987",
+    "by": "Max Mathews and Bob Boie, Bell Laboratories; Andrew Schloss (percussion pioneer); later Stanford CCRMA",
+    "tags": ["3D Spatial Input", "Music HCI", "Gestural Controller", "Capacitive Sensing"],
+    "overview": "The Radio Drum (also called the Radio Baton) is a 3D position-sensing MIDI controller developed at Bell Laboratories in the mid-to-late 1980s. Two drumstick-like batons, each containing a radio-frequency transmitter at a slightly different frequency, move freely in the air above a flat rectangular antenna surface. The surface contains an array of receiving antenna plates (typically five copper plates). An embedded 80186 processor measures the electrical capacitance between each baton tip and the receiving antennas, computing 3D Cartesian coordinates for both batons in real time — X, Y, and Z (height above the surface) — with approximately 1mm resolution and continuous 100Hz update rates.\n\nThe device was originally Bob Boie's attempt to build a 'three-dimensional computer mouse.' It failed in that role — but Max Mathews, the director of acoustic research at Bell Labs who had written the first-ever computer music program (MUSIC I, 1957), recognized its potential as a musical instrument. Under Mathews' direction, the Radio Drum became a performance controller. Andrew Schloss later pioneered its use as a virtual percussion instrument, developing the gesture recognition needed to detect strikes, rolls, and nuanced drumming techniques from the baton trajectories.\n\nThree decades later, the Radio Drum is still in active use. Bob Boie and Andrew Schloss continue to develop new versions. It has been used to control robotic acoustic instruments (Yamaha Disklavier grand pianos, Trimpin percussion sculptures), perform microtonal works, and create accessible music experiences for deaf children. The Computer History Museum holds at least one original unit.",
+    "deepDive": [
+      {
+        "heading": "Origins: The 3D Mouse That Failed",
+        "text": "In the mid-1980s, Bell Labs engineer Bob Boie set out to build a three-dimensional computer mouse. His approach was ingenious: measure the capacitance between a handheld transmitter and an array of receiving antennas embedded in a flat surface. By computing the first moment of capacitance across the antenna array, he could derive precise X and Y position; the reciprocal of that first moment gave Z (height). An 80186 embedded processor converted five capacitance readings into 3D coordinates at ~100Hz. Best accuracy was within 0–5 cm above the surface, though useful tracking extended to approximately 1 meter. The 3D mouse concept never caught on — but Max Mathews immediately saw it as a musical instrument."
+      },
+      {
+        "heading": "Max Mathews: The Father of Computer Music",
+        "text": "Max Mathews wrote MUSIC I in 1957 on an IBM 704 — the first computer program to synthesize sound. He directed the Acoustic Research department at Bell Labs for over 30 years, creating the MUSIC-N family of synthesis languages that evolved into Csound, Max/MSP, SuperCollider, and Pure Data. By the 1970s, Mathews had shifted focus from studio-based computer music to live performance: 'Starting with the Groove program in 1970, my interests have focused on live performance and what a computer can do to aid a performer.' The Radio Drum was his answer — a way to give electronic musicians the same expressive, physical control that acoustic instrumentalists have over their instruments."
+      },
+      {
+        "heading": "Two Paradigms: Conductor and Percussionist",
+        "text": "Mathews developed two distinct interaction models for the device. In the 'Radio Baton' conducting paradigm, the performer uses the batons like an orchestral conductor's baton, controlling tempo, dynamics, and articulation of a pre-stored score via Mathews' Conductor Program software. Different spatial zones on the plate surface trigger different sections. In the 'Radio Drum' percussion paradigm, pioneered by Andrew Schloss, the surface is treated as a virtual drum — the performer strikes downward, and the system detects the direction change in Z to trigger notes, with velocity derived from Z-speed. Different X/Y zones produce different sounds. Schloss developed techniques for snare rolls, rim shots, and other complex percussion gestures by analyzing the derivative of Z (dZ/dt)."
+      },
+      {
+        "heading": "Telepresence and Robotic Instruments",
+        "text": "The Radio Drum was used as a general-purpose telepresence input device. David A. Jaffe's 70-minute seven-movement concerto 'The Seven Wonders of the Ancient World' used the Radio Drum to control a Yamaha Disklavier grand piano and a plucked-string/percussion orchestra in real time. Jaffe's 'The Space Between Us' had the Radio Drum controlling Trimpin robotic percussion sculptures with eight string players distributed around the concert hall. The batons became a universal gestural interface for any MIDI-controllable device."
+      },
+      {
+        "heading": "Accessibility: Music for Deaf Children",
+        "text": "Bob Rocco applied the Radio Baton to music education for deaf children. Because the system provides strong tactile and spatial feedback — the batons vibrate, the surface provides a physical reference — deaf children could feel the relationship between their gestures and the resulting sound vibrations, creating a multisensory music experience that did not depend on hearing."
+      },
+      {
+        "heading": "Legacy",
+        "text": "The Radio Drum is one of the earliest high-bandwidth, continuous 3D free-space gestural controllers. It predates consumer VR controllers and spatial input devices by years. Its papers are foundational in the NIME (New Interfaces for Musical Expression) community. The device is held by the Computer History Museum. Bob Boie and Andrew Schloss continue to develop and perform with it. Its lineage traces back to the theremin (1917) — the first electronic touchless instrument — and forward to modern spatial controllers like the Leap Motion, Kinect, and Apple Vision Pro hand tracking. The Radio Drum proved that expressive, no-contact 3D control was not only possible but musically satisfying."
+      }
+    ],
+    "team": [
+      { "name": "Max Mathews", "note": "Director of Acoustic Research, Bell Labs; creator of MUSIC I (1957); father of computer music" },
+      { "name": "Bob Boie", "note": "Bell Labs engineer who designed the capacitive sensing electronics; originally built it as a '3D mouse'" },
+      { "name": "Andrew Schloss", "note": "Percussionist and computer musician who pioneered the Radio Drum as a virtual percussion instrument; continues development" },
+      { "name": "David A. Jaffe", "note": "Composer of major Radio Drum works including 'The Seven Wonders of the Ancient World'" },
+      { "name": "Bob Rocco", "note": "Applied Radio Baton to music education for deaf children" }
+    ],
+    "media": [
+      { "src": "http://images.computerhistory.org/revonline/images/500004419-03-01.jpg", "alt": "Max Mathews demonstrating the Radio Baton at the Computer History Museum", "caption": "Max Mathews with the Radio Baton at the Computer History Museum. Two batons hover above the antenna surface; position in X, Y, and Z is tracked 100 times per second. Source: Computer History Museum (CC-BY-NC)." },
+      { "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/be/Radio_Baton%2C_Center_for_Computer_Research_in_Music_and_Acoustics_%28CCRMA%29%2C_Stanford_University_%282015-04-26_01.48.03_by_Daniel_Hartwig%29.jpg/800px-Radio_Baton%2C_Center_for_Computer_Research_in_Music_and_Acoustics_%28CCRMA%29%2C_Stanford_University_%282015-04-26_01.48.03_by_Daniel_Hartwig%29.jpg", "alt": "Radio Baton device at Stanford CCRMA in 2015", "caption": "The Radio Baton at Stanford's CCRMA in 2015. The batons and antenna surface remain essentially unchanged from the 1987 design. Source: Daniel Hartwig, Wikimedia Commons (CC-BY-SA 2.0)." },
+      { "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6a/Max_Mathews%2C_SF_MusicTech_2010.jpg/800px-Max_Mathews%2C_SF_MusicTech_2010.jpg", "alt": "Max Mathews at SF MusicTech Summit 2010 holding Radio Baton batons", "caption": "Max Mathews at the SF MusicTech Summit in 2010, age 84, still demonstrating the Radio Baton. Source: Wikimedia Commons (CC-BY 2.0)." },
+      { "src": "https://mistic.ece.uvic.ca/research/controllers/radiodrum/images/radiodrum_01.jpg", "alt": "Close-up of the Radio Drum antenna surface and batons", "caption": "Close-up of the Radio Drum at the University of Victoria. The foam-covered surface is a 30×30 cm antenna array. Source: UVic MISTIC Lab." }
+    ],
+    "sources": [
+      { "text": "CCRMA Stanford — The Mathews Radio Baton (official project page with history, downloads)", "url": "https://ccrma.stanford.edu/radiobaton/" },
+      { "text": "University of Victoria — Radio Drum (Andrew Schloss: detailed specs, history, video list)", "url": "https://www.ece.uvic.ca/~peterd/radiodrum.html" },
+      { "text": "Wikipedia — Radiodrum", "url": "https://en.wikipedia.org/wiki/Radiodrum" },
+      { "text": "Computer History Museum — Max Mathews with his Radio-Baton (exhibit page)", "url": "https://www.computerhistory.org/revolution/computer-graphics-music-and-art/15/222/634" },
+      { "text": "Bob Rocco — Max Mathews Radio Baton (firsthand 1984–89 and 2006–11 collaboration account)", "url": "https://bobrocco.com/max_mathews_radio_baton" },
+      { "text": "Mathews, M. & Schloss, W.A. (1989) — 'The Radio Drum as a Synthesizer Controller,' ICMC Proceedings", "url": "https://quod.lib.umich.edu/i/icmc" },
+      { "text": "Mathews, M. (1991) — 'The Radio Baton and Conductor Program,' Computer Music Journal 15(4)", "url": "https://www.jstor.org/stable/3681070" },
+      { "text": "CCRMA 252 — Radio Baton technical description (block diagrams, capacitance principle)", "url": "https://ccrma.stanford.edu/CCRMA/Courses/252/sensors/node27.html" },
+      { "text": "YouTube — Max Mathews Radio Baton Demonstration, SF MusicTech Summit 2010", "url": "https://www.youtube.com/watch?v=3ZOzUVD4oLg" }
+    ],
+    "imageUrls": [
+      "http://images.computerhistory.org/revonline/images/500004419-03-01.jpg",
+      "https://upload.wikimedia.org/wikipedia/commons/thumb/b/be/Radio_Baton%2C_Center_for_Computer_Research_in_Music_and_Acoustics_%28CCRMA%29%2C_Stanford_University_%282015-04-26_01.48.03_by_Daniel_Hartwig%29.jpg/800px-Radio_Baton%2C_Center_for_Computer_Research_in_Music_and_Acoustics_%28CCRMA%29%2C_Stanford_University_%282015-04-26_01.48.03_by_Daniel_Hartwig%29.jpg",
+      "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6a/Max_Mathews%2C_SF_MusicTech_2010.jpg/800px-Max_Mathews%2C_SF_MusicTech_2010.jpg",
+      "https://mistic.ece.uvic.ca/research/controllers/radiodrum/images/radiodrum_01.jpg"
+    ]
+  },
+  "savedImages": []
+}
