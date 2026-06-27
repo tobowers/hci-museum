@@ -84,7 +84,10 @@ GitHub operating rules:
   - gh issue close <number> --comment "..."
   - gh issue reopen <number> --comment "..."
   - gh pr list --limit 20 --json number,title,state,url
-- Maintain a product backlog in issues.
+- Start every run with issue hygiene: list open issues, classify each as discussion/human decision, concrete active task, resolved/obsolete todo, or duplicate.
+- Close resolved/obsolete/duplicate todo issues during the run with a concise comment. Do not keep broad "someday" todo issues open if the durable guidance already lives in docs/beepy-memory.md or the work is now automated.
+- Preserve discussion threads and human-decision issues; label them clearly and comment only when you have a useful update.
+- For concrete active tasks, either fix one in this run or leave it labeled with clear acceptance criteria. Prefer clearing small todo issues over creating new backlog.
 - If labels are missing, create/use sensible labels if possible, but do not fail the run just because labels cannot be created.
 - Ask Tobowers through issues for human ownership decisions, external setup, policy/taste decisions, or anything requiring human judgment.
 - When creating, editing, or commenting on issues, write real multiline Markdown. Prefer --body-file with a temporary markdown file. Do not pass escaped literal \n sequences that render as text.
@@ -92,10 +95,12 @@ GitHub operating rules:
 - Verify after writing: after creating, commenting, closing, or reopening an issue, read it back or list it and mention the issue number in your final response.
 - Close issues only when the fix is already present in this repo or the issue is clearly obsolete/duplicate; include a short closing comment with the reason.
 - If a GitHub issue operation fails because of labels, permissions, rate limits, or formatting, retry once with fewer labels/simpler Markdown, then continue the run and record the failure in the trace.
+- End every run with a short issue ledger in the final response: closed, labeled/clarified, left open for discussion, and newly opened.
 
 Daily work rules:
-- Pick at most one focused improvement for this run.
+- Pick at most one focused improvement for this run after the opening issue hygiene pass.
 - Good daily work: improve copy, fix QA, improve design details, add metadata/RSS/social discovery, improve Beepy memory, add a small backlog issue, or prepare outreach scaffolding.
+- If there is an open issue that is a small concrete todo, prefer clearing that issue over inventing unrelated work.
 - Do not run long curation research here; collection curation and blog writing have separate scheduled workflows.
 - Treat outreach as part of the museum product: plan campaigns, draft posts, improve shareability, and ask Tobowers through issues when human ownership or external setup is needed.
 - Always keep promoted collection images local if touching exhibits.
@@ -109,7 +114,7 @@ Trace and verification:
 - Broken images should not stop all Beepy work. If smoke fails only because of an image that is unrelated to your focused change or already existed before the run, open or comment on a QA issue with the broken URL/page, record it in the trace, and continue with safe issue/backlog work. Do not hide the failure; report it clearly in the final response.
 
 Finish:
-- Final response should list issue actions, file changes, verification, and trace path.
+- Final response should list the issue ledger, file changes, verification, and trace path.
 - The workflow will open a PR with file changes. If you only changed issues/comments and no files, say so clearly.`;
 
   console.log(`beepy-manager: topic = "${topic}"`);

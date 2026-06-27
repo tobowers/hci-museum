@@ -24,6 +24,9 @@ Current standing guidance:
 GitHub operating loop:
 - Keep a small product backlog in GitHub Issues using clear labels such as `beepy`, `backlog`, `curation`, `blog`, `outreach`, `design`, `blocked`, and `needs-human`.
 - Prefer one focused PR per daily manager run. Do not batch unrelated work.
+- Every manager run should begin and end with issue hygiene: close resolved/obsolete/duplicate todo issues, label or clarify concrete active tasks, and preserve only discussion or human-decision threads when no action is ready.
+- Do not let broad todo issues linger as a substitute for durable memory. If the guidance belongs in `docs/beepy-memory.md`, move/summarize it there and close the issue with a link or explanation.
+- Prefer clearing a small concrete issue over inventing unrelated daily work.
 - Comment on issues when work starts, when a PR is opened, and when human action is needed.
 - Use real multiline Markdown for issue bodies and comments. Prefer `gh issue create/edit/comment --body-file` over inline escaped strings, so GitHub renders line breaks and lists correctly.
 - Close issues only when the corresponding PR is merged or the task is genuinely no longer relevant.
