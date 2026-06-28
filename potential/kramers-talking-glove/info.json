@@ -1,0 +1,90 @@
+{
+  "slug": "kramers-talking-glove",
+  "title": "Talking Glove",
+  "year": "1988",
+  "subtitle": "A glove that translated American Sign Language fingerspelling into spoken words in real time",
+  "why_scout_cares": "The Talking Glove was the first portable ASL-to-speech translation system — a wearable computer that let deaf and deaf-blind users fingerspell words and have them spoken aloud by a DECtalk speech synthesizer. Unlike the VPL DataGlove (built for VR), this was built for daily human connection: ordering coffee, talking to a bank teller, having a private conversation without an interpreter. The strain-gauge sensor design proved so robust it became the CyberGlove, which dominated VR hand-input for two decades. James Kramer's 14-sensor glove, his beacon recognition algorithm in 16-dimensional 'hand-space,' and the wearable system integration (LCD wrist display, braille output, infrared keyboard, voice recognition) make this a landmark in assistive technology, wearable computing, and gesture recognition.",
+  "search_terms": ["Talking Glove", "Kramer glove", "sign language glove", "fingerspelling to speech", "Stanford glove", "CyberGlove origin", "wearable ASL translator"],
+  "research": {
+    "title": "Talking Glove / The TalkingGlove",
+    "year": "1988–1991",
+    "by": "James F. Kramer and Prof. Larry Leifer, Center for Design Research, Stanford University",
+    "tags": ["HCI", "Wearable", "Accessibility", "Gesture Recognition", "Speech Synthesis"],
+    "overview": "The Talking Glove was a self-contained, portable communication system that translated American Sign Language fingerspelling into synthetic speech in real time. Developed by James Kramer under Prof. Larry Leifer at Stanford's Center for Design Research, the system used an instrumented glove with 14 custom strain-gauge flex sensors sewn into pockets over each finger joint. A Motorola 68HC11 microcontroller sampled joint-angle data and fed it to a host computer running Kramer's 'beacon' recognition algorithm, which matched hand configurations to letters in a 14-dimensional hand-state space. When the user formed a special 'say it' handshape, a DECtalk speech synthesizer spoke the assembled word through a miniature pendant speaker worn under the shirt.\n\nThe glove communicated bidirectionally: an infrared-linked pocket keyboard let hearing interlocutors type replies, which appeared on a Seiko LCD wrist display for sighted deaf users or on a refreshable mechanical braille display for deaf-blind users. An optional IntroVoice speech recognition system allowed hearing people to speak responses in structured environments. Kramer's strain-gauge sensor design was a key technical advance — unlike the VPL DataGlove's nonlinear fiber-optic sensors, these produced linear output proportional to bend angle regardless of bend radius, making them far more reliable for precise gesture recognition.\n\nThe Talking Glove's commercial legacy is extraordinary. Kramer founded Virtual Technologies, Inc. in 1990 to commercialize the technology as the CyberGlove, which became the dominant hand-input device for VR research and industrial simulation for over two decades. Virtual Technologies was acquired by Immersion Corporation in 2000 for its haptic patent portfolio — patents that Immersion later leveraged in multimillion-dollar settlements with Microsoft and Sony over game controller vibration technology. The finger-joint strain-gauge sensor design lives on in CyberGlove Systems' products today.",
+    "deepDive": [
+      {
+        "heading": "Origins",
+        "text": "The problem was stark: deaf, deaf-blind, and non-vocal individuals faced profound communication barriers in everyday face-to-face situations. Interpreters were expensive, notewriting was awkward while standing, and TDD devices were impractical for spontaneous interaction in stores or restaurants. James Kramer, a 1988 Hertz Fellow pursuing his PhD in Electrical Engineering, undertook the project under Prof. Larry Leifer at Stanford's Center for Design Research. The work connected to the broader efforts of Stanford's Rehabilitation R&D Center at the Palo Alto VA Hospital, which had also developed 'Ralph' — a computer-controlled electromechanical hand that could fingerspell into a deaf-blind person's palm. While Ralph was the *output* side, the Talking Glove was the *input* side. Together they formed a complete expressive/receptive communication system. The Stanford Daily covered the project as early as November 1988."
+      },
+      {
+        "heading": "How It Worked",
+        "text": "The glove used 14 strain-gauge flex sensors — each comprising two 120-ohm Constantan foil gauges mounted back-to-back on a 1-mil polyimide backing — sewn into guiding pockets over each major finger joint. The back-to-back mounting provided temperature compensation and doubled the signal. A multiplexed Wheatstone bridge circuit, an AD7506 analog multiplexer, and an AD624 instrumentation amplifier conditioned the signals before digitization. The digitized values defined a 14-dimensional hand-state vector.\n\nKramer's 'beacon' recognition algorithm placed stored 'beacon' points for each letter in this 14-dimensional space. When hand-state velocity dropped (indicating a held handshape), the algorithm found the nearest beacon using an optimized least-squares search — prioritizing previously-close beacons and terminating distance calculations early. A 'recognition ball' (inner hypersphere) triggered letter registration; a larger 'hysteresis ball' prevented accidental repeat recognition. After each word was spoken, beacon positions adapted to the user's signing signature. The system ran on a Motorola 68HC11 microcontroller with a DECtalk speech synthesizer, achieving practical fingerspelling speeds."
+      },
+      {
+        "heading": "Commercial Path",
+        "text": "Kramer founded Virtual Technologies, Inc. in 1990 to commercialize the instrumented glove as the CyberGlove — an 18- or 22-sensor device paired with VirtualHand software. In 1995, VTi released GesturePlus, a $3,500 fingerspelling recognition package. The 1997 CyberGrasp force-feedback glove and CyberSuit full-body mocap suit followed. Immersion Corporation acquired Virtual Technologies in 2000 for approximately $1 million, obtaining a haptic patent portfolio that generated multimillion-dollar settlements from Microsoft (2003) and Sony (2007) over game controller vibration. Immersion divested the CyberGlove business in 2009, creating CyberGlove Systems LLC, which continues to sell the products today."
+      },
+      {
+        "heading": "Legacy",
+        "text": "The Talking Glove pioneered multiple fields simultaneously: it was the first practical fingerspelling-to-speech translator for deaf communication, one of the earliest integrated wearable computer systems (combining sensors, microcontrollers, wireless communication, speech synthesis, LCD, braille, and voice recognition in a body-worn form factor), and the origin of the CyberGlove's strain-gauge sensor technology that dominated VR hand input for decades. US Patent 5,047,952 (filed 1988, granted 1991) has been cited by hundreds of subsequent patents in wearable computing and gesture recognition."
+      }
+    ],
+    "team": [
+      {"name": "James F. Kramer", "note": "Lead inventor, PhD student, Hertz Fellow. Founder of Virtual Technologies, Inc."},
+      {"name": "Prof. Larry Leifer", "note": "Doctoral advisor. Founding director of Stanford Center for Design Research"},
+      {"name": "Peter Lindener", "note": "Co-inventor on US Patent 5,047,952"},
+      {"name": "William R. George", "note": "Co-inventor on US Patent 5,047,952"},
+      {"name": "David L. Jaffe", "note": "Investigator at Stanford RR&D Center; worked on complementary 'Ralph' fingerspelling hand"}
+    ],
+    "media": [
+      {
+        "src": "https://patentimages.storage.googleapis.com/3d/1b/1b/ac8c89be8e1b2a/US5047952-drawings-page-3.png",
+        "alt": "Patent drawing: Talking Glove system block diagram",
+        "caption": "System block diagram from US Patent 5,047,952, showing the glove, microcontroller, and speech synthesis chain. Source: US Patent and Trademark Office."
+      },
+      {
+        "src": "https://patentimages.storage.googleapis.com/81/5a/3a/8a37416c6ed04d/US5047952-drawings-page-4.png",
+        "alt": "Patent drawing: people using the Talking Glove",
+        "caption": "Usage scenarios from the patent: a deaf user signing into the glove while a hearing interlocutor uses the infrared keyboard. Source: US Patent and Trademark Office."
+      },
+      {
+        "src": "https://patentimages.storage.googleapis.com/20/64/f2/4fafafbe81848c/US5047952-drawings-page-5.png",
+        "alt": "Patent drawing: glove with sensor pockets",
+        "caption": "Plan view of the glove showing 14 strain-gauge sensor pockets over finger joints. Source: US Patent and Trademark Office."
+      },
+      {
+        "src": "https://patentimages.storage.googleapis.com/ca/9a/ee/cf1e99bd164d42/US5047952-drawings-page-7.png",
+        "alt": "Patent drawing: Wheatstone bridge multiplexing circuit",
+        "caption": "Signal conditioning circuit: multiplexed Wheatstone bridge for the 14 strain-gauge sensors. Source: US Patent and Trademark Office."
+      },
+      {
+        "src": "https://patentimages.storage.googleapis.com/c2/e8/2d/34dbacd983a18a/US5047952-drawings-page-8.png",
+        "alt": "Patent drawing: hand-space beacons and recognition algorithm",
+        "caption": "The 'beacon' recognition algorithm: each letter occupies a beacon point in 14-dimensional hand-space with inner recognition and outer hysteresis hyperspheres. Source: US Patent and Trademark Office."
+      }
+    ],
+    "sources": [
+      {"text": "US Patent 5,047,952 — Communication System for Deaf, Deaf-Blind, or Non-Vocal Individuals", "url": "https://patents.google.com/patent/US5047952A/en"},
+      {"text": "Stanford RR&D Center — Kramer's Talking Glove Project Page", "url": "http://web.stanford.edu/group/rrd/TTran/glove.html"},
+      {"text": "Kramer & Leifer, 'The Talking Glove,' ACM SIGCAPH Computers and the Physically Handicapped, Issue 43, 1989", "url": "https://doi.org/10.1145/47937.47938"},
+      {"text": "Wired Magazine — 'Gropethink,' interview with James Kramer, October 1998", "url": "https://www.wired.com/1998/10/kramer/"},
+      {"text": "Sturman & Zeltzer, 'A Survey of Glove-Based Input,' IEEE CG&A, 1994", "url": "http://www.cs.columbia.edu/~feiner/courses/mobwear/resources/A%20Survey%20of%20glove%20based%20input.pdf"},
+      {"text": "CyberGlove Systems LLC — About Us", "url": "http://www.cyberglovesystems.com/about-us"},
+      {"text": "Hertz Foundation — James Kramer Fellow Profile", "url": "https://www.hertzfoundation.org/person/james-kramer/"}
+    ],
+    "imageUrls": [
+      "https://patentimages.storage.googleapis.com/3d/1b/1b/ac8c89be8e1b2a/US5047952-drawings-page-3.png",
+      "https://patentimages.storage.googleapis.com/81/5a/3a/8a37416c6ed04d/US5047952-drawings-page-4.png",
+      "https://patentimages.storage.googleapis.com/20/64/f2/4fafafbe81848c/US5047952-drawings-page-5.png",
+      "https://patentimages.storage.googleapis.com/ca/9a/ee/cf1e99bd164d42/US5047952-drawings-page-7.png",
+      "https://patentimages.storage.googleapis.com/c2/e8/2d/34dbacd983a18a/US5047952-drawings-page-8.png",
+      "http://web.stanford.edu/group/rrd/TTran/img25.gif",
+      "http://web.stanford.edu/group/rrd/TTran/img26.gif"
+    ],
+    "savedImages": [
+    "potential/kramers-talking-glove/images/patent-fig1-system.png",
+    "potential/kramers-talking-glove/images/patent-fig2-usage.png",
+    "potential/kramers-talking-glove/images/patent-fig3-glove.png"
+  ]
+  }
+}
