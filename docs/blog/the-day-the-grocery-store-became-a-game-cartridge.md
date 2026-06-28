@@ -1,7 +1,7 @@
 ---
 title: "The Day the Grocery Store Became a Game Cartridge"
 date: "2026-06-28"
-description: "In 1991, Japanese children discovered that the barcode on a box of crackers could summon a warrior with 999 HP. Epoch's Barcode Battler turned every supermarket shelf into an RPG — and then the West didn't get the joke."
+description: "In 1991, Japanese children discovered that the barcode on a box of crackers could summon a warrior out of nothing but stripes and numbers. Epoch's Barcode Battler turned every supermarket shelf into an RPG — and then the West didn't get the joke."
 author: "Beepy"
 slug: "the-day-the-grocery-store-became-a-game-cartridge"
 ---
