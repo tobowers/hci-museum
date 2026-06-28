@@ -51,6 +51,9 @@ Each entry includes an overview, a deep dive, a small media gallery, and full so
 42. [Buchla Lightning (1991)](#buchla-lightning-1991)
 43. [Fakespeare BOOM (Binocular Omni-Orientation Monitor) (1989)](#fakespeare-boom-binocular-omni-orientation-monitor-1989)
 44. [Seiko RC-1000 Wrist Terminal (1984)](#seiko-rc-1000-wrist-terminal-1984)
+45. [Barcode Battler (1991)](#barcode-battler--1991)
+46. [Talking Glove (1988–1991)](#talking-glove--the-talkingglove-19881991)
+47. [Performance-Driven Facial Animation (1990)](#performance-driven-facial-animation-1990)
 
 ---
 ## Hubot (c. 1983)
@@ -2276,3 +2279,144 @@ The RC-1000 spawned a family including the RC-4000 'PC Datagraph' (1985) and RC-
 8. TidBITS: AppleLink in Space (29 July 1991) — STS-43 Atlantis mission coverage — https://tidbits.com/1991/07/29/applelink-in-space/
 9. Hackaday: Seiko Had A Smartwatch In 1984 — https://hackaday.com/2024/07/16/seiko-had-a-smartwatch-in-1984/
 10. Deutsches Uhrenmuseum Furtwangen: Museum catalog entry with technical specs — https://bawue.museum-digital.de/object/29881?navlang=en
+
+---
+
+## Barcode Battler / バーコードバトラー (1991)
+
+**By:** Epoch Co., Ltd., Tokyo, Japan  
+**Tags:** `HCI` `Input` `Barcode` `Tangible` `Handheld` `Gaming`
+
+### Overview
+
+The Barcode Battler was a handheld electronic game released by Epoch Co. in Japan in March 1991 that used a built-in optical barcode scanner as its sole input mechanism. The device shipped with 32 pre-printed barcode cards depicting fantasy warriors, wizards, and enemies, but its radical premise was that players could also use any real-world product barcode — cereal boxes, cleaning supplies, snack packaging — and the device would deterministically hash the numeric barcode data into character statistics (HP, Attack, Defense) for turn-based RPG combat. The game displayed results using only 7-segment numeric characters on a monochrome LCD: no graphics, no sound effects beyond beeps, just numbers on a screen and cards in your hand.
+
+The gameplay involved swiping barcodes to generate characters and items, then engaging in alternating-turn battles across multiple modes including a 10-stage single-player story mode. An internal random number generator determined combat outcomes based on the generated stats, while hidden parameters and a secret timing mechanic added depth. The Barcode Battler II (1992) added an output port that connected to the Famicom and Super Famicom, turning the handheld into a pure barcode reader for console games — 11 games were released, including titles for Super Mario, Zelda, Doraemon, and Dragon Slayer.
+
+In Japan, the Barcode Battler was a genuine cultural phenomenon. Reports circulated of certain food products selling out because schoolchildren discovered their barcodes generated exceptionally powerful characters. Strategy guide books taught barcode-splicing techniques, and a manga series ('Barcode Fighter') ran for 30 chapters in CoroCoro Comic. In the West, it was a commercial failure, remembered today as a beloved piece of retro-tech kitsch — 'so bad it's almost cool.' The Barcode Battler pioneered concepts that would become industry standards decades later: barcode/QR scanning in games, physical-to-digital bridging (Skylanders, amiibo), and collectible card stat optimization.
+
+### Deep dive
+
+* **Origins.** Epoch Co., founded in 1958, had produced Japan's first successful programmable console (Cassette Vision, 1981) but its Game Pocket Computer (1984) had failed. The Barcode Battler was Epoch's bid to capture the emerging Japanese 'barcode gaming fad' of the late 1980s — a brief period when toy makers realized every consumer product carried machine-readable data. By marrying the barcode scanner with an RPG format (immensely popular thanks to Dragon Quest and Final Fantasy), Epoch created a toy that turned the entire supermarket into a game cartridge. The device retailed for approximately ¥9,800.
+* **How It Worked.** The Barcode Battler's optical scanner read 8-digit or 13-digit JAN/EAN/UPC barcodes (and ISBN codes) swiped through a slot on the right side of the injection-moulded polystyrene body. The scanner was temperamental — swipe too fast or too slow and the screen displayed 'MISS.' A deterministic hashing algorithm mapped the barcode's numeric digits to three visible stats (HP, ST/Attack, DF/Defense) plus a hidden 'special ability' parameter. The LCD displayed only alphanumeric 7-segment characters. Game modes included a 10-stage COM mode (story), B1 (player-supplied enemies), and B2 (two-player versus). A mysterious 'B3 mode' appeared on the LCD but was never implemented.
+
+The Barcode Battler II added an output port that connected to the Famicom and Super Famicom via a BBII Interface adapter, functioning as a pure barcode reader while the console handled gameplay. Eleven console games were released from 1992–1995, spanning Super Mario, Zelda, Doraemon, Dragon Slayer, Lupin III, Spider-Man, and J-League soccer. Licensed franchise cards were sold separately for Super Mario World, Zelda: A Link to the Past, Street Fighter II, and others.
+* **Cultural Impact.** The Barcode Battler captured the Japanese public imagination in ways that seem absurd in retrospect. Schoolchildren cut barcodes off supermarket products without buying them, causing problems for retailers. Unscrupulous adults sold 'super-powerful' custom barcodes to naive children. Certain food products reportedly sold out when their barcodes were discovered to produce powerful in-game characters. Epoch published a regular newsletter, held official tournament events at toy stores distributing exclusive promotional cards, and commissioned the 30-chapter manga 'Barcode Fighter' (バーコードファイター) by Toshihiro Ono, serialized in Monthly CoroCoro Comic from 1992–1994. Irish supermarket chains Quinnsworth and Crazy Prices gave away 10,000 units in a 1993 promotion. In the West, the device was shelved alongside Game Boy and Game Gear — offering no graphics and temperamental scanning — and quickly vanished.
+* **Legacy.** Despite its commercial failure, the Barcode Battler pioneered concepts that became industry standards: barcode/QR scanning in games (Nintendo e-Reader, Skannerz, modern mobile QR games), physical-to-digital bridging (Skylanders, Disney Infinity, amiibo), collectible card battling with real-world objects, and external storage media games (echoes in Monster Rancher's CD-reading mechanic). In 2025, UK developer Tanukii Studios published Riot Gunheads, a new 36-card set compatible with the Barcode Battler II hardware, demonstrating the device's enduring appeal.
+
+### Team
+
+* **Epoch Co., Ltd..** Japanese toy and video game company, founded 1958 by Maeda Taketora. Creator of Cassette Vision (1981) and Sylvanian Families.
+* **Toshihiro Ono.** Manga artist who created the 'Barcode Fighter' promotional manga series (1992–1994)
+
+### Media
+
+![Epoch Barcode Battler handheld with LCD display on](../assets/wiki/barcode-battler-1.png)
+*The Barcode Battler with its LCD display illuminated, showing numeric character stats. Source: Wikimedia Commons.*
+
+![Barcode Battler close-up showing barcode scanner slot and card](../assets/wiki/barcode-battler-2.jpg)
+*Close-up of the Barcode Battler showing the card-scanning slot and a sample barcode card. Source: Wikimedia Commons.*
+
+### Sources
+
+1. Wikipedia — Barcode Battler — https://en.wikipedia.org/wiki/Barcode_Battler
+2. Wikipedia (JA) — バーコードバトラー (exhaustive Japanese entry) — https://ja.wikipedia.org/wiki/バーコードバトラー
+3. Time Extension — 'Barcode Battler: The Early 90s Classic That's So Crap It's Almost Cool' (Damien McFerran, 2025) — https://www.timeextension.com/features/best-of-2025-barcode-battler-the-early-90s-classic-thats-so-crap-its-almost-cool
+4. Retro Handhelds — 'Game Over: The History of Barcode Gaming' (Jim Gray, 2025) — https://retrohandhelds.gg/game-over-the-history-of-barcode-gaming/
+5. Museum of Design in Plastics — Barcode Battler catalog entry with 10 photographs — https://www.modip.ac.uk/artefact/aibdc-004391
+6. SUPERJUMP Magazine — 'Once Upon a Time, Grocery Barcodes Unlocked an RPG World' (C.S. Voll, 2025) — https://www.superjumpmagazine.com/once-upon-a-time-grocery-barcodes-unlocked-an-rpg-world/
+7. Eurogamer — 'Not even Mario and Zelda could make the Barcode Battler any good' (Jennifer Allen, 2019) — https://www.eurogamer.net/not-even-mario-and-zelda-could-make-the-barcode-battler-any-good
+8. The Independent — 'Teachers swipe at bar code game' (1993 UK press coverage) — https://www.independent.co.uk/news/uk/teachers-swipe-at-bar-code-game-parents-could-face-intolerable-pressure-from-children-to-buy-goods-linked-to-a-computer-game-rhys-williams-reports-2320951.html
+9. Combat King's Barcode Battler Museum (fan site) — https://barcodebattler.co.uk/
+10. Barcode Battler Cards Database (fan site) — https://cards.bimbiribase.xyz/
+
+---
+
+## Talking Glove / The TalkingGlove (1988–1991)
+
+**By:** James F. Kramer and Prof. Larry Leifer, Center for Design Research, Stanford University  
+**Tags:** `HCI` `Wearable` `Accessibility` `Gesture Recognition` `Speech Synthesis`
+
+### Overview
+
+The Talking Glove was a self-contained, portable communication system that translated American Sign Language fingerspelling into synthetic speech in real time. Developed by James Kramer under Prof. Larry Leifer at Stanford's Center for Design Research, the system used an instrumented glove with 14 custom strain-gauge flex sensors sewn into pockets over each finger joint. A Motorola 68HC11 microcontroller sampled joint-angle data and fed it to a host computer running Kramer's 'beacon' recognition algorithm, which matched hand configurations to letters in a 14-dimensional hand-state space. When the user formed a special 'say it' handshape, a DECtalk speech synthesizer spoke the assembled word through a miniature pendant speaker worn under the shirt.
+
+The glove communicated bidirectionally: an infrared-linked pocket keyboard let hearing interlocutors type replies, which appeared on a Seiko LCD wrist display for sighted deaf users or on a refreshable mechanical braille display for deaf-blind users. An optional IntroVoice speech recognition system allowed hearing people to speak responses in structured environments. Kramer's strain-gauge sensor design was a key technical advance — unlike the VPL DataGlove's nonlinear fiber-optic sensors, these produced linear output proportional to bend angle regardless of bend radius, making them far more reliable for precise gesture recognition.
+
+The Talking Glove's commercial legacy is extraordinary. Kramer founded Virtual Technologies, Inc. in 1990 to commercialize the technology as the CyberGlove, which became the dominant hand-input device for VR research and industrial simulation for over two decades. Virtual Technologies was acquired by Immersion Corporation in 2000 for its haptic patent portfolio — patents that Immersion later leveraged in multimillion-dollar settlements with Microsoft and Sony over game controller vibration technology. The finger-joint strain-gauge sensor design lives on in CyberGlove Systems' products today.
+
+### Deep dive
+
+* **Origins.** The problem was stark: deaf, deaf-blind, and non-vocal individuals faced profound communication barriers in everyday face-to-face situations. Interpreters were expensive, notewriting was awkward while standing, and TDD devices were impractical for spontaneous interaction in stores or restaurants. James Kramer, a 1988 Hertz Fellow pursuing his PhD in Electrical Engineering, undertook the project under Prof. Larry Leifer at Stanford's Center for Design Research. The work connected to the broader efforts of Stanford's Rehabilitation R&D Center at the Palo Alto VA Hospital, which had also developed 'Ralph' — a computer-controlled electromechanical hand that could fingerspell into a deaf-blind person's palm. While Ralph was the *output* side, the Talking Glove was the *input* side. Together they formed a complete expressive/receptive communication system. The Stanford Daily covered the project as early as November 1988.
+* **How It Worked.** The glove used 14 strain-gauge flex sensors — each comprising two 120-ohm Constantan foil gauges mounted back-to-back on a 1-mil polyimide backing — sewn into guiding pockets over each major finger joint. The back-to-back mounting provided temperature compensation and doubled the signal. A multiplexed Wheatstone bridge circuit, an AD7506 analog multiplexer, and an AD624 instrumentation amplifier conditioned the signals before digitization. The digitized values defined a 14-dimensional hand-state vector.
+
+Kramer's 'beacon' recognition algorithm placed stored 'beacon' points for each letter in this 14-dimensional space. When hand-state velocity dropped (indicating a held handshape), the algorithm found the nearest beacon using an optimized least-squares search — prioritizing previously-close beacons and terminating distance calculations early. A 'recognition ball' (inner hypersphere) triggered letter registration; a larger 'hysteresis ball' prevented accidental repeat recognition. After each word was spoken, beacon positions adapted to the user's signing signature. The system ran on a Motorola 68HC11 microcontroller with a DECtalk speech synthesizer, achieving practical fingerspelling speeds.
+* **Commercial Path.** Kramer founded Virtual Technologies, Inc. in 1990 to commercialize the instrumented glove as the CyberGlove — an 18- or 22-sensor device paired with VirtualHand software. In 1995, VTi released GesturePlus, a $3,500 fingerspelling recognition package. The 1997 CyberGrasp force-feedback glove and CyberSuit full-body mocap suit followed. Immersion Corporation acquired Virtual Technologies in 2000 for approximately $1 million, obtaining a haptic patent portfolio that generated multimillion-dollar settlements from Microsoft (2003) and Sony (2007) over game controller vibration. Immersion divested the CyberGlove business in 2009, creating CyberGlove Systems LLC, which continues to sell the products today.
+* **Legacy.** The Talking Glove pioneered multiple fields simultaneously: it was the first practical fingerspelling-to-speech translator for deaf communication, one of the earliest integrated wearable computer systems (combining sensors, microcontrollers, wireless communication, speech synthesis, LCD, braille, and voice recognition in a body-worn form factor), and the origin of the CyberGlove's strain-gauge sensor technology that dominated VR hand input for decades. US Patent 5,047,952 (filed 1988, granted 1991) has been cited by hundreds of subsequent patents in wearable computing and gesture recognition.
+
+### Team
+
+* **James F. Kramer.** Lead inventor, PhD student, Hertz Fellow. Founder of Virtual Technologies, Inc.
+* **Prof. Larry Leifer.** Doctoral advisor. Founding director of Stanford Center for Design Research
+* **Peter Lindener.** Co-inventor on US Patent 5,047,952
+* **William R. George.** Co-inventor on US Patent 5,047,952
+* **David L. Jaffe.** Investigator at Stanford RR&D Center; worked on complementary 'Ralph' fingerspelling hand
+
+### Media
+
+![Patent drawing: Talking Glove system block diagram](../assets/wiki/kramers-talking-glove-1.png)
+*System block diagram from US Patent 5,047,952, showing the glove, microcontroller, and speech synthesis chain. Source: US Patent and Trademark Office.*
+
+![Patent drawing: people using the Talking Glove](../assets/wiki/kramers-talking-glove-2.png)
+*Usage scenarios from the patent: a deaf user signing into the glove while a hearing interlocutor uses the infrared keyboard. Source: US Patent and Trademark Office.*
+
+### Sources
+
+1. US Patent 5,047,952 — Communication System for Deaf, Deaf-Blind, or Non-Vocal Individuals — https://patents.google.com/patent/US5047952A/en
+2. Stanford RR&D Center — Kramer's Talking Glove Project Page — http://web.stanford.edu/group/rrd/TTran/glove.html
+3. Kramer & Leifer, 'The Talking Glove,' ACM SIGCAPH Computers and the Physically Handicapped, Issue 43, 1989 — https://doi.org/10.1145/47937.47938
+4. Wired Magazine — 'Gropethink,' interview with James Kramer, October 1998 — https://www.wired.com/1998/10/kramer/
+5. Sturman & Zeltzer, 'A Survey of Glove-Based Input,' IEEE CG&A, 1994 — http://www.cs.columbia.edu/~feiner/courses/mobwear/resources/A%20Survey%20of%20glove%20based%20input.pdf
+6. CyberGlove Systems LLC — About Us — http://www.cyberglovesystems.com/about-us
+7. Hertz Foundation — James Kramer Fellow Profile — https://www.hertzfoundation.org/person/james-kramer/
+
+---
+
+## Performance-Driven Facial Animation (1990)
+
+**By:** Lance J. Williams, Apple Computer Advanced Technology Group  
+**Tags:** `HCI` `Input` `Facial Tracking` `Computer Vision` `Performance Capture` `Animation`
+
+### Overview
+
+Lance Williams' 'Performance-Driven Facial Animation,' presented at SIGGRAPH 1990 in Dallas, introduced the concept of the 'electronic mask': a live human actor whose facial expressions are captured in real time and used to drive a computer-generated 3D face. The system combined two novel subsystems: a photorealistic CG head model built by laser-scanning a human subject with a Cyberware 4020/RGB 3D color scanner and projecting photographic textures onto the geometry, and a real-time vision-based tracking system that captured the 3D positions of small retroreflective markers placed on a performer's face.
+
+The tracking system illuminated the actor's face, captured bright reflections from the retroreflective dots via one or more cameras, computed their 3D centroids in real time, and used the displacement data to deform the CG face model. Williams explicitly framed this as a solution to the 'performance problem' — the fact that physical simulation of muscles and skin could produce realistic deformations but failed to capture the nuanced timing and emotional expressiveness of an actual human performance. The paper cited early facial modeling work by Parke (1974), Badler & Platt (1981), and Waters (1987), but was the first to close the loop: a real face as real-time controller.
+
+This single-author paper, produced during Williams' tenure at Apple's Advanced Technology Group (1987–1993), is recognized as the foundational work of facial performance capture. Its influence extends through Disney's Gemini Man project (where Williams served as technical architect), modern film VFX (Avatar, Benjamin Button), and ultimately to consumer-grade facial tracking in Apple's ARKit. The Wikipedia article on 'Facial motion capture' opens its history section by citing this as 'one of the first papers discussing performance-driven animation.'
+
+### Deep dive
+
+* **Origins.** Lance Williams came from the pioneering University of Utah computer graphics program (studying under Ivan Sutherland and David Evans) and the NYIT Computer Graphics Lab, where he invented mipmapping (1983) and shadow mapping (1978). His consulting work for Jim Henson Associates exposed him to puppetry and real-time performance, likely inspiring the 'electronic mask' concept. At Apple ATG, he had access to the Cyberware 3D scanner and the vision-tracking hardware needed to realize the system. Williams framed the motivation precisely: 'The gestures and expressions of a human actor are not the solution to a dynamic system' — a human performance cannot be generated by physics equations alone; it must be captured from a real person.
+* **How It Worked.** The system had two pipelines. First, model creation: a Cyberware 4020/RGB 3D color scanner laser-scanned a human subject's head to produce a dense polygonal mesh with per-vertex color. Photographs of the subject were projected onto the geometry as texture maps for photorealistic skin detail. The tracking pipeline used retroreflective markers — small dots that reflect light directly back to its source — placed at key facial feature points. A vision system with controlled illumination captured the dots as bright spots against a dark background. Software detected the centroid of each dot in the camera image, computed 3D positions via triangulation, and mapped the sparse dot positions into smooth full-face deformations using scattered data interpolation. The entire pipeline ran at interactive frame rates — a radical departure from the laborious keyframing that dominated facial animation at the time.
+* **Impact.** Williams' paper established the paradigm that drives all modern facial performance capture. He later served as Chief Scientist at Walt Disney Animation Studios and technical architect on Disney's Human Face Project (the Gemini Man test), which directly extended his 1990 work. He received a 2001 Technical Academy Award for 'pioneering influence in the field of computer-generated animation and effects for motion pictures.' The 2006 SIGGRAPH Course on 'Performance-Driven Facial Animation' and a 2023 Springer survey on facial capture for digital humans both trace their lineage to this work. From marker-based optical capture to head-mounted camera rigs to Apple's TrueDepth camera and ARKit face tracking — all descend from the concept Williams demonstrated in 1990.
+* **Legacy.** Beyond the technical contribution, the paper's philosophical stance was influential: that computer animation should preserve and transmit human performance rather than replace it. Williams wrote that the 'electronic mask offers a means for the traditional talents of actors to be flexibly incorporated in digital animations.' Lance Williams died in 2017, having shaped computer graphics through mipmapping, shadow mapping, view interpolation, and this foundational work on performance-driven facial animation.
+
+### Team
+
+* **Lance J. Williams (1949–2017).** Sole author. Researcher at Apple ATG, previously NYIT Computer Graphics Lab. Inventor of mipmapping and shadow mapping. Later Chief Scientist at Walt Disney Animation Studios. 2001 ACM SIGGRAPH Coons Award, 2002 Academy Award for Technical Achievement.
+
+### Media
+
+![SIGGRAPH 1990 paper title page showing facial tracking concept](../assets/wiki/williams-facial-animation-1.jpg)
+*Title page of Williams' SIGGRAPH 1990 paper, showing the retroreflective marker concept. Source: ACM SIGGRAPH History Archive.*
+
+### Sources
+
+1. Williams, L. 'Performance-Driven Facial Animation,' ACM SIGGRAPH Computer Graphics, Vol. 24, No. 4, pp. 235–242, August 1990 — https://doi.org/10.1145/97880.97906
+2. SIGGRAPH History Archive — Performance-Driven Facial Animation by Williams — https://history.siggraph.org/learning/performance-driven-facial-animation-by-williams/
+3. Wikipedia — Lance Williams (graphics researcher) — https://en.wikipedia.org/wiki/Lance_Williams_(graphics_researcher)
+4. Wikipedia — Facial Motion Capture (cites Williams 1990 as foundational) — https://en.wikipedia.org/wiki/Facial_motion_capture
+5. Cartoon Brew — The Secret History of Disney's Gemini Man (confirms Williams as technical architect) — https://www.cartoonbrew.com/feature-film/secret-history-disneys-gemini-man-quest-make-convincing-cg-human-152149.html
+6. University of Utah obituary for Lance Williams — https://www.price.utah.edu/2017/08/30/celebrated-u-computer-graphics-researcher-dies
+7. Macworld — Williams' 2002 Academy Award coverage — https://www.macworld.com/article/153032/scitechawards.html
