@@ -40,10 +40,10 @@ jobs:
       FAILED_HEAD_BRANCH: ${{ github.event.workflow_run.head_branch }}
       FAILED_HEAD_SHA: ${{ github.event.workflow_run.head_sha }}
     steps:
-      - name: Checkout failed head branch
+      - name: Checkout failed head
         uses: actions/checkout@v4
         with:
-          ref: ${{ github.event.workflow_run.head_branch }}
+          ref: ${{ github.event.workflow_run.head_sha }}
           fetch-depth: 0
           token: ${{ secrets.GITHUB_TOKEN }}
 
@@ -57,6 +57,8 @@ jobs:
         run: bun install --frozen-lockfile
 
       - name: Run Beepy action-failure triage
+        id: triage_run
+        continue-on-error: true
         run: bun run beepy:action-failure
 
       - name: Show triage changes
@@ -70,8 +72,36 @@ jobs:
           name: beepy-action-failure-trace
           path: potential/runs/*.action-failure.md
 
+      - name: Report triage failure
+        if: ${{ steps.triage_run.outcome == 'failure' }}
+        env:
+          TRIAGE_RUN_URL: ${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}
+        run: |
+          gh label create beepy --color 2f81f7 --description "Automated Beepy work" || true
+          gh label create qa --color d29922 --description "Quality assurance" || true
+          gh label create actions --color 8957e5 --description "GitHub Actions and automation" || true
+
+          body_file="$(mktemp)"
+          cat > "$body_file" <<EOF
+          The Beepy action-failure triage workflow failed while handling another failed workflow run.
+
+          Failed workflow: ${FAILED_WORKFLOW_NAME}
+          Failed run: ${FAILED_RUN_URL}
+          Failed head: ${FAILED_HEAD_BRANCH} @ ${FAILED_HEAD_SHA}
+          Triage run: ${TRIAGE_RUN_URL}
+
+          The trace artifact is attached to the triage run when available. This fallback issue was created so a triage-agent timeout or crash does not make the triage workflow itself the only signal.
+          EOF
+
+          issue_number="$(gh issue list --state open --search "triage failed ${FAILED_RUN_ID} in:title" --json number --jq '.[0].number // empty')"
+          if [ -n "$issue_number" ]; then
+            gh issue comment "$issue_number" --body-file "$body_file"
+          else
+            gh issue create --title "Beepy action failure triage failed for run ${FAILED_RUN_ID}" --body-file "$body_file" --label beepy --label qa --label actions
+          fi
+
       - name: Create autofix pull request
-        if: ${{ success() }}
+        if: ${{ steps.triage_run.outcome == 'success' }}
         uses: peter-evans/create-pull-request@v7
         with:
           token: ${{ secrets.GITHUB_TOKEN }}

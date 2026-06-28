@@ -47,10 +47,22 @@ const server = Bun.serve({
 });
 
 async function imageFailures(page: Page, label: string): Promise<string[]> {
+  await page.$$eval("img", (imgs) => imgs.forEach((img) => {
+    if (img instanceof HTMLImageElement) img.loading = "eager";
+  }));
   await page.evaluate(async () => {
-    window.scrollTo(0, document.body.scrollHeight);
-    await new Promise((resolve) => setTimeout(resolve, 800));
+    const delay = (ms: number) => new Promise((resolve) => setTimeout(resolve, ms));
+    const step = Math.max(240, Math.floor(window.innerHeight * 0.75));
+    const maxScroll = () => Math.max(document.body.scrollHeight, document.documentElement.scrollHeight) - window.innerHeight;
+
+    for (let y = 0; y <= maxScroll(); y += step) {
+      window.scrollTo(0, y);
+      await delay(100);
+    }
+    window.scrollTo(0, maxScroll());
+    await delay(300);
   });
+  await page.waitForFunction(() => Array.from(document.images).every((img) => img.complete), undefined, { timeout: 10_000 }).catch(() => undefined);
   const broken = await page.$$eval("img", (imgs) =>
     imgs
       .map((img) => ({
