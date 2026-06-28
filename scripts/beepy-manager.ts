@@ -85,6 +85,7 @@ GitHub operating rules:
   - gh issue reopen <number> --comment "..."
   - gh pr list --limit 20 --json number,title,state,url
 - Start every run with issue hygiene: list open issues, classify each as discussion/human decision, concrete active task, resolved/obsolete todo, or duplicate.
+- If the goal names a specific issue or latest issue comment, handle that thread first before broad issue hygiene. For a human issue comment, leave a direct reply unless it is clearly duplicate/no-op.
 - Close resolved/obsolete/duplicate todo issues during the run with a concise comment. Do not keep broad "someday" todo issues open if the durable guidance already lives in docs/beepy-memory.md or the work is now automated.
 - Preserve discussion threads and human-decision issues; label them clearly and comment only when you have a useful update.
 - For concrete active tasks, either fix one in this run or leave it labeled with clear acceptance criteria. Prefer clearing small todo issues over creating new backlog.

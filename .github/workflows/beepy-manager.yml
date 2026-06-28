@@ -10,6 +10,8 @@ on:
     - cron: "12 13 * * *"
   issues:
     types: [opened, reopened]
+  issue_comment:
+    types: [created]
   workflow_dispatch:
     inputs:
       topic:
@@ -58,26 +60,65 @@ jobs:
       - name: Typecheck
         run: bun run typecheck
 
+      - name: Resolve manager topic
+        id: manager_topic
+        env:
+          DISPATCH_TOPIC: ${{ inputs.topic || '' }}
+        run: |
+          skip="false"
+
+          if [ "$GITHUB_EVENT_NAME" = "workflow_dispatch" ]; then
+            topic="$DISPATCH_TOPIC"
+          elif [ "$GITHUB_EVENT_NAME" = "issues" ]; then
+            action="$(jq -r '.action' "$GITHUB_EVENT_PATH")"
+            number="$(jq -r '.issue.number' "$GITHUB_EVENT_PATH")"
+            title="$(jq -r '.issue.title' "$GITHUB_EVENT_PATH")"
+            topic="Respond autonomously to issue #${number} (${action}): ${title}. Inspect the issue, acknowledge Tobowers if useful, classify it, and either act on one safe next step or clearly ask for the smallest human decision needed."
+          elif [ "$GITHUB_EVENT_NAME" = "issue_comment" ]; then
+            is_pr="$(jq -r '.issue.pull_request != null' "$GITHUB_EVENT_PATH")"
+            author_type="$(jq -r '.comment.user.type' "$GITHUB_EVENT_PATH")"
+
+            if [ "$is_pr" = "true" ] || [ "$author_type" = "Bot" ]; then
+              skip="true"
+              topic="skip bot or pull-request comment"
+            else
+              number="$(jq -r '.issue.number' "$GITHUB_EVENT_PATH")"
+              title="$(jq -r '.issue.title' "$GITHUB_EVENT_PATH")"
+              author="$(jq -r '.comment.user.login' "$GITHUB_EVENT_PATH")"
+              topic="Respond autonomously to @${author}'s latest comment on issue #${number}: ${title}. Read the full issue/comment thread with gh issue view before acting. Leave a direct issue reply unless the comment is duplicate/no-op, and either act on one safe next step or ask for the smallest human decision needed."
+            fi
+          else
+            topic="scan all open GitHub issues, decide whether to comment or act, and make at most one focused improvement if appropriate"
+          fi
+
+          {
+            echo "skip=$skip"
+            echo "topic<<EOF"
+            echo "$topic"
+            echo "EOF"
+          } >> "$GITHUB_OUTPUT"
+
       - name: Run Beepy manager
         id: manager_run
+        if: ${{ steps.manager_topic.outputs.skip != 'true' }}
         continue-on-error: true
         env:
-          MANAGER_TOPIC: ${{ inputs.topic || 'scan all open GitHub issues, decide whether to comment or act, and make at most one focused improvement if appropriate' }}
+          MANAGER_TOPIC: ${{ steps.manager_topic.outputs.topic }}
         run: bun run beepy:manager -- "$MANAGER_TOPIC"
 
       - name: Typecheck generated changes
         id: generated_typecheck
-        if: ${{ steps.manager_run.outcome == 'success' }}
+        if: ${{ steps.manager_topic.outputs.skip != 'true' && steps.manager_run.outcome == 'success' }}
         run: bun run typecheck
 
       - name: Build site with generated changes
         id: generated_build
-        if: ${{ steps.manager_run.outcome == 'success' }}
+        if: ${{ steps.manager_topic.outputs.skip != 'true' && steps.manager_run.outcome == 'success' }}
         run: bun run build
 
       - name: Browser smoke test generated changes
         id: generated_smoke
-        if: ${{ steps.manager_run.outcome == 'success' }}
+        if: ${{ steps.manager_topic.outputs.skip != 'true' && steps.manager_run.outcome == 'success' }}
         continue-on-error: true
         run: |
           bunx playwright install --with-deps chromium
@@ -123,16 +164,16 @@ jobs:
             public/
 
       - name: Create manager pull request
-        if: ${{ (github.event_name == 'schedule' || github.event_name == 'issues' || inputs.create_pr) && steps.manager_run.outcome == 'success' }}
+        if: ${{ steps.manager_topic.outputs.skip != 'true' && (github.event_name == 'schedule' || github.event_name == 'issues' || github.event_name == 'issue_comment' || inputs.create_pr) && steps.manager_run.outcome == 'success' }}
         uses: peter-evans/create-pull-request@v7
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
           branch: beepy-manager/${{ github.run_id }}
           delete-branch: true
           commit-message: Apply Beepy manager update
-          title: "Beepy manager: ${{ inputs.topic || 'issue/backlog run' }}"
+          title: "Beepy manager: ${{ steps.manager_topic.outputs.topic }}"
           body: |
-            Automated Beepy manager output for `${{ inputs.topic || 'issue/backlog run' }}`.
+            Automated Beepy manager output for `${{ steps.manager_topic.outputs.topic }}`.
 
             Validation:
             - Typecheck: `${{ steps.generated_typecheck.outcome }}`
@@ -152,5 +193,5 @@ jobs:
             tsconfig.json
 
       - name: Fail if manager failed
-        if: ${{ steps.manager_run.outcome != 'success' }}
+        if: ${{ steps.manager_topic.outputs.skip != 'true' && steps.manager_run.outcome != 'success' }}
         run: exit 1
