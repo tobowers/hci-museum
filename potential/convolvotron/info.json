@@ -1,0 +1,59 @@
+{
+  "slug": "convolvotron",
+  "title": "Convolvotron",
+  "year": "1988",
+  "subtitle": "The first real-time 3D audio spatializer — a $15,000 PC board set from NASA's VIEW lab that let you listen through someone else's ears",
+  "why_scout_cares": "The Convolvotron introduced spatial audio as a bidirectional HCI modality. Before it, computer sound came from a speaker. After it, a person wearing headphones could turn their head and hear a virtual sound source stay anchored in 3D space — above, behind, below. This was not passive playback. The user's head movement updated the auditory world in real time through head-related transfer function (HRTF) convolution, creating externalized 3D sound entirely over stereo headphones. The interaction pipeline — head tracker → HRTF selection → real-time convolution → binaural output — is the same pipeline that powers every VR headset today. The Convolvotron was also one of four spin-offs from NASA Ames' VIEW lab, alongside VPL Research, Fakespeare Labs, and Telepresence Research — making it a direct product of the lab that birthed modern virtual reality as an industry.",
+  "search_terms": ["Convolvotron Crystal River Engineering", "NASA VIEW lab 3D audio", "Elizabeth Wenzel spatial audio", "first real-time binaural convolution", "HRTF spatializer 1988"],
+  "research": {
+    "title": "Convolvotron",
+    "year": "1988",
+    "by": "Crystal River Engineering (Scott Foster), under contract from NASA Ames Research Center VIEW lab",
+    "tags": ["HCI", "Audio", "Spatial Audio", "VR", "NASA"],
+    "overview": "The Convolvotron was the first system capable of real-time binaural spatialization of multiple independent sound sources — that is, making sounds appear to come from precise locations in 3D space through standard stereo headphones. Developed by Scott Foster under a NASA contract for the VIEW (Virtual Interface Environment Workstation) lab at NASA Ames Research Center, the first prototype was delivered in 1988. Crystal River Engineering (CRE) was incorporated in 1989 as a commercial spin-off, offering the Convolvotron as a two-board set for IBM PC compatibles priced at $14,995.\n\nThe system's core innovation was a custom massively-parallel ALU convolution engine — each board carried 128 16×16 ALUs capable of 320 million multiply-accumulate-shift operations per second, integrated with a Texas Instruments TMS320C25 digital signal processor. Up to eight boardsets could run in parallel, spatializing 32 anechoic sound sources or 8 sources with first-order wall reflections. The system performed real-time convolution of dry audio signals with head-related transfer functions (HRTFs) measured from human subjects. As the listener moved their head (tracked by a Polhemus magnetic sensor), the Convolvotron re-convolved each virtual sound source through the appropriate binaural HRTF pair, creating the illusion that sounds remained fixed in space regardless of head movement.\n\nAt SIGGRAPH 1991, the system was demonstrated combined with a Fake Space Labs BOOM viewer and SGI workstation, letting a user act as 'architect' of a virtual concert hall — moving walls, placing virtual instruments, and hearing the acoustic consequences in real time. The echoic room model was good enough that blind test subjects could navigate virtual spaces by sound alone. The Convolvotron spawned a product family (Acoustetron, Beachtron, Alphatron) and was used in landmark VR artworks including Brenda Laurel's *Placeholder* (1993, using 4 Convolvotrons for 16 simultaneous spatial sound sources) and Char Davies' *Osmose* (1995). CRE was acquired by Aureal Semiconductor in 1996; its technology was distilled into the A3D consumer 3D audio API. Aureal went bankrupt in 2000 and its assets were acquired by Creative Technology.",
+    "deepDive": [
+      {
+        "heading": "Origins",
+        "text": "The Convolvotron was born inside NASA Ames' VIEW lab, directed by Dr. Scott Fisher. VIEW aimed to build a complete immersive virtual environment for astronaut training. The visual component was the head-mounted display (which became the VPL EyePhone). The audio component — the part that would make the virtual world sound real — was contracted to engineer Scott Foster. Foster built a custom digital signal processing architecture specifically for real-time HRTF convolution, something that had never been done outside of slow, non-interactive laboratory experiments. The first prototype was delivered to NASA in 1988."
+      },
+      {
+        "heading": "How It Worked",
+        "text": "The interaction pipeline: (1) A person wore stereo headphones with a Polhemus magnetic head-tracker attached. (2) Dry (anechoic) audio sources were prepared for up to four independent virtual sound sources. (3) As the person moved their head, the Convolvotron received head-orientation data from the host computer and selected the appropriate binaural HRTF pair for each source's spatial position relative to the listener's current head orientation. (4) The custom ALU convolution engine performed real-time convolution of each dry source signal with the selected HRTFs — essentially applying a pair of very long FIR filters (one per ear) that encoded all the subtle frequency-dependent filtering, interaural time differences, and interaural level differences that the human auditory system uses to localize sound. (5) The resulting binaural signal was output to the headphones, creating an 'externalized' 3D sound image where virtual sources appeared to exist at specific locations outside the head. The system achieved source position updates at >30 Hz for smooth, artifact-free motion."
+      },
+      {
+        "heading": "Why It Matters to HCI",
+        "text": "The Convolvotron established that spatial audio could be a bidirectional interaction channel, not passive output. The user's head movement was the input; the changing sound field was the output. This made auditory space something you could move through and interact with, not just listen to. The system demonstrated that spatial audio could replace visual displays for certain navigation tasks (blind subjects successfully navigated virtual spaces). It proved that multiple simultaneous sound streams could be segregated and attended to when spatialized. It pioneered 'interactive auralization' — designing architectural acoustics through real-time auditory feedback — a paradigm that prefigured all modern acoustic simulation tools. Critically, the Convolvotron established the core technical architecture that remains standard in VR spatial audio today: HRTF-based convolution, real-time interpolation between measured HRTF positions, head-tracker coupling, and the separation of anechoic source rendering from environmental reflection modeling."
+      }
+    ],
+    "team": [
+      {"name": "Scott Foster", "note": "Founder of Crystal River Engineering, hardware architect of the Convolvotron. Built the custom parallel ALU convolution engine."},
+      {"name": "Dr. Elizabeth M. Wenzel", "note": "NASA Ames Auditory Perception Lab. Led HRTF measurement and psychoacoustics research. Co-author of the foundational 1990 paper 'Real-time digital synthesis of virtual acoustic environments.'"},
+      {"name": "Dr. Scott Fisher", "note": "Director of NASA VIEW lab. Conceived the immersive VR system the Convolvotron was built for. Also co-founded Telepresence Research."},
+      {"name": "William Chapin", "note": "Chief Engineer at CRE (1996–1997). Later founded AuSIM in 1998 to continue serving high-end simulation markets after Aureal dissolved CRE."}
+    ],
+    "media": [
+      {
+        "src": "https://history.siggraph.org/wp-content/uploads/2023/09/1991-Immersive-Pavilion-Foster_Virtual-Acoustic-Environments.jpg",
+        "alt": "SIGGRAPH 1991 Immersive Pavilion — Convolvotron demo with BOOM viewer and SGI workstation",
+        "caption": "SIGGRAPH 1991 Immersive Pavilion: 'Virtual Acoustic Environments — The Convolvotron' by Elizabeth Wenzel and Scott Foster. The demo combined a Crystal River Engineering Convolvotron with a Fake Space Labs BOOM viewer and Silicon Graphics workstation. Source: ACM SIGGRAPH History Archives."
+      }
+    ],
+    "sources": [
+      {"text": "SIGGRAPH History Archive — Virtual Acoustic Environments: The Convolvotron", "url": "https://history.siggraph.org/experience/virtual-acoustic-environments-the-convolvotron-by-wenzel/"},
+      {"text": "NASA Spinoff 1992 — 3D Audio System", "url": "https://spinoff.nasa.gov/node/8965"},
+      {"text": "Wikipedia — Crystal River Engineering", "url": "https://en.wikipedia.org/wiki/Crystal_River_Engineering"},
+      {"text": "Stanford CDR — Convolvotron Hardware Description", "url": "http://www-cdr.stanford.edu/DesignSpace/sponsors/Convolvotron.html"},
+      {"text": "AuSIM — Company Origins (CRE history)", "url": "http://www.ausim3d.com/about/origins.html"},
+      {"text": "Wenzel & Foster (1990) — Real-time digital synthesis of virtual acoustic environments", "url": "https://doi.org/10.1145/91394.91431"},
+      {"text": "Brenda Laurel — Placeholder Project Notes (Convolvotron usage)", "url": "https://www.tauzero.com/Placeholder/Hypertext/Crystal_River/Convolvotron_1.html"},
+      {"text": "Wenzel (1992) — 'Three-dimensional virtual acoustic displays' (book chapter in 'Virtual Reality: Theory, Practice, and Promise')", "url": "https://ntrs.nasa.gov/citations/19920004500"}
+    ],
+    "imageUrls": [
+      "https://history.siggraph.org/wp-content/uploads/2023/09/1991-Immersive-Pavilion-Foster_Virtual-Acoustic-Environments.jpg",
+      "http://www-cdr.stanford.edu/DesignSpace/sponsors/ctron.gif"
+    ]
+  },
+  "savedImages": [
+    "potential/convolvotron/images/siggraph-1991-demo.jpg"
+  ]
+}

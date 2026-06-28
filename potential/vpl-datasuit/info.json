@@ -1,0 +1,60 @@
+{
+  "slug": "vpl-datasuit",
+  "title": "VPL DataSuit",
+  "year": "1989",
+  "subtitle": "The first full-body fiber-optic tracking suit — 30+ sensors across arms, legs, and trunk, your entire body as computer input",
+  "why_scout_cares": "The VPL DataSuit was the first attempt to treat the entire human body as an input device for computing. It extended the gestural paradigm of VPL's DataGlove from a single hand to the full kinematic chain — arms, legs, and trunk — using the same fiber-optic bend sensor technology. Worn as a tight Lycra/spandex outfit, the DataSuit contained 30+ sensors that attenuated light through optical fiber when joints bent, producing analog signals proportional to joint angle. Combined with the EyePhone HMD and AudioSphere spatial audio system, it formed part of VPL's 'Reality Built for Two' (RB2) — the first multi-user VR system. Jaron Lanier's philosophy of 'post-symbolic communication' — using body movement as a programming language — found its ultimate expression in this suit. It appeared in the 1992 film *The Lawnmower Man*, which introduced the concept of full-body VR to mass audiences. The suit was designed with gender-specific tailoring under Ann Lasko-Harvill, making it unusually thoughtful about the relationship between technology and the human body for its era. Together with the VPL DataGlove and EyePhone (already in the museum), the DataSuit completes the VPL triptych — hand, eyes, and body — that defined the original vision of immersive virtual reality.",
+  "search_terms": ["VPL DataSuit full body VR suit", "Jaron Lanier full body tracking", "VPL Research fiber optic body suit", "Ann Lasko-Harvill DataSuit", "Reality Built for Two RB2"],
+  "research": {
+    "title": "VPL DataSuit",
+    "year": "1989",
+    "by": "VPL Research (Redwood City, California) — Jaron Lanier, Ann Lasko-Harvill, Young Harvill, Thomas Zimmerman",
+    "tags": ["HCI", "VR", "Wearable", "Motion Capture", "Full-Body"],
+    "overview": "The VPL DataSuit was a full-body Lycra/spandex outfit instrumented with the same fiber-optic bend sensor technology used in VPL's DataGlove. First described in the 1988 IEEE Compcon paper 'From DataGlove to DataSuit,' the suit contained 30+ joint sensors measuring bending along arms, legs, and trunk. Each sensor operated on the principle of optical attenuation: a light source sent illumination through a length of optical fiber with a treated section that leaked light when flexed; a photodetector measured the output, producing an analog signal proportional to joint angle (covered by US Patents 4,542,291 and 4,937,444). Signals were digitized by 6502 microcontrollers — the same architecture as the DataGlove — and transmitted (tethered) to a host computer, typically a Silicon Graphics IRIS workstation.\n\nThe DataSuit was not sold as a standalone consumer product. It was part of VPL's complete 'Reality Built for Two' (RB2) multi-user VR system, which combined the DataSuit (full-body input), EyePhone HMD (stereoscopic display), DataGlove (hand input), and AudioSphere (spatial audio). VPL's 'Body Electric' visual programming language interpreted body posture data, and the 'Isaac' rendering engine displayed a real-time 3D avatar in the virtual environment. The complete system cost upwards of $250,000.\n\nThe DataSuit was featured in VPL's showroom demonstrations and trade shows (including the Nissho Iwai showroom in Tokyo), was used by the U.S. Olympic Committee for sports performance analysis, and gained mass cultural visibility through its appearance in the 1992 science fiction film *The Lawnmower Man*. VPL filed for bankruptcy in 1990; its patents were sold to Thomson-CSF in 1992 and subsequently acquired by Sun Microsystems in 1998. Though commercially unsuccessful, the DataSuit established the conceptual template for every full-body tracking system that followed — from motion capture in film production to contemporary VR bodysuits.",
+    "deepDive": [
+      {
+        "heading": "Origins at VPL Research",
+        "text": "VPL Research was founded by Jaron Lanier in 1984 in Redwood City, California. 'VPL' stood for 'Virtual Programming Languages' — a reference to Lanier's concept of 'post-symbolic communication,' the idea that body movement itself could become a programming language. The DataGlove (invented by Thomas Zimmerman) was the first step — a single-hand fiber-optic gesture input device. The DataSuit was the logical extension: if one hand could communicate with the machine, why not the whole body? Ann Lasko-Harvill joined as Chief Designer of Data Suits, bringing expertise in tailoring and ergonomics. She created suits sized for different body types — male and female anthropometrics — which was unusual attention to bodily diversity in 1980s tech hardware. The 1988 IEEE paper 'From DataGlove to DataSuit' by Blanchard, Harvill, and colleagues formally introduced the concept."
+      },
+      {
+        "heading": "Interaction Model",
+        "text": "The interaction pipeline was: (1) Performer wears the DataSuit — a tight Lycra outfit with fiber-optic sensors at each major joint. (2) As the performer moves, joints bend, causing optical fibers to attenuate light proportionally. (3) 6502 microcontrollers digitize the analog bend signals from all 30+ sensors. (4) VPL's Body Electric visual programming language on a host workstation interprets the full-body posture data. (5) The Isaac rendering engine displays a real-time 3D avatar mirroring the performer's body in the virtual environment. (6) In the RB2 system, two performers in separate DataSuits could interact in the same virtual space — the first multi-user full-body VR experience. The experience was immersive in the original sense: you saw your virtual body move as your physical body moved, creating a powerful sense of presence despite the tether and the limited frame rate."
+      },
+      {
+        "heading": "Cultural Impact and The Lawnmower Man",
+        "text": "Brett Leonard's 1992 film *The Lawnmower Man* used the VPL DataSuit and EyePhone as key visual elements in its depiction of a gardener who enters a virtual world through a full-body VR rig. The film was a commercial success, grossing $32 million against a $10 million budget, and it introduced the concept of full-body immersive VR to mainstream audiences. While the film's depiction of VR as a consciousness-altering technology was science fiction, the hardware shown was real. For millions of viewers, the DataSuit *was* virtual reality — a sleek black bodysuit with cables, sensors, and the promise of total sensory immersion. This cultural visibility, combined with the DataGlove's licensing to Mattel for the Power Glove (1989), made VPL Research the public face of VR's first wave."
+      }
+    ],
+    "team": [
+      {"name": "Jaron Lanier", "note": "Founder of VPL Research. Coined the phrase 'Virtual Reality.' Conceived of post-symbolic communication via full-body interfaces."},
+      {"name": "Ann Lasko-Harvill", "note": "Chief Designer of Data Suits. Responsible for tailoring, ergonomics, and anthropometric fit across body types. Described as 'A Hero Behind the VR Headset' (proto.life, 2021)."},
+      {"name": "Young Harvill", "note": "VP of Engineering, fourth employee at VPL (joined 1985). Worked on DataGlove and RB2 integration. Creator of Swivel 3D software."},
+      {"name": "Thomas G. Zimmerman", "note": "Co-founder. Invented the DataGlove prototype and the foundational fiber-optic bend sensor technology used in both DataGlove and DataSuit."},
+      {"name": "Chuck Blanchard", "note": "Created Body Electric visual programming language. Co-author of the 1988 'From DataGlove to DataSuit' paper."},
+      {"name": "Jean-Jacques Grimaud", "note": "Co-founder and President."}
+    ],
+    "media": [
+      {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/a/a8/VPL_DataSuit_1.jpg",
+        "alt": "VPL DataSuit on display at Nissho Iwai showroom, Tokyo — full-body Lycra suit with fiber-optic sensors visible along arms and legs",
+        "caption": "VPL Research DataSuit, circa 1989, displayed at the Nissho Iwai showroom in Tokyo. The suit contains 30+ fiber-optic bend sensors measuring joint angles along arms, legs, and trunk. Photo by Dave Pape (1999), public domain. Source: Wikimedia Commons."
+      }
+    ],
+    "sources": [
+      {"text": "Wikipedia — VPL Research", "url": "https://en.wikipedia.org/wiki/VPL_Research"},
+      {"text": "Blanchard, Harvill et al. (1988) — 'From DataGlove to DataSuit' (IEEE Compcon)", "url": "https://doi.org/10.1109/cmpcon.1988.4925"},
+      {"text": "proto.life (2021) — 'A Hero Behind the VR Headset' (profile of Ann Lasko-Harvill)", "url": "https://proto.life/2021/09/a-hero-behind-the-vr-headset/"},
+      {"text": "US Patent 4,937,444 — 'Optical flex sensor' (VPL Research)", "url": "https://patents.google.com/patent/US4937444A/en"},
+      {"text": "Wired (1998) — 'Sun Snaps Up Original VR Patents'", "url": "https://www.wired.com/1998/02/sun-snaps-up-original-vr-patents/"},
+      {"text": "Wikimedia Commons — VPL DataSuit photo by Dave Pape (public domain, 1999)", "url": "https://commons.wikimedia.org/wiki/File:VPL_DataSuit_1.jpg"},
+      {"text": "SIGGRAPH 94 Course Notes — David Sturman, 'A Brief History of Motion Capture for Computer Character Animation'", "url": "https://dl.acm.org/doi/10.1145/192161.192243"}
+    ],
+    "imageUrls": [
+      "https://upload.wikimedia.org/wikimedia/commons/a/a8/VPL_DataSuit_1.jpg",
+      "https://commons.wikimedia.org/wiki/File:VPL_DataSuit_1.jpg"
+    ]
+  },
+  "savedImages": [
+    "potential/vpl-datasuit/images/datasuit-nissho-iwai.jpg"
+  ]
+}

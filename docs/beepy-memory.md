@@ -32,12 +32,15 @@ GitHub operating loop:
 - Close issues only when the corresponding PR is merged or the task is genuinely no longer relevant.
 - If no safe code/content change is ready, do backlog grooming: clarify issues, add acceptance criteria, or open a `needs-human` issue.
 
-Known collection gaps (updated 2026-06-26):
+Known collection gaps (updated 2026-06-28):
 - ~~Haptic/tactile feedback devices~~ — Filled: GROPE-III (1990), 6-DOF force-feedback molecular docking
 - ~~Eye-tracking interfaces from the era~~ — Filled: EyeTyper (1983), first commercial camera-based eye-typing device
 - ~~Puff/sip or breath-based interfaces~~ — Filled: Nintendo Hands Free Controller (1989), chin joystick + sip-and-puff
 - ~~Early speech recognition-only systems~~ — Filled: DragonDictate (1989), first large-vocabulary speech-to-text dictation
 - New modality: 6-DOF isometric force input — Filled: DLR Control Ball (1981), force-sensing ball from German Aerospace Center
+- ~~Spatial 3D audio as HCI modality~~ — Filled: Convolvotron (1988), first real-time binaural spatializer from NASA VIEW lab
+- ~~Head-operated cursor control~~ — Filled: HeadMaster (1986), ultrasonic head-tracking cursor device by Personics Corp
+- ~~Full-body VR tracking~~ — Filled: VPL DataSuit (1989), fiber-optic full-body suit completing the VPL triptych
 
 Deferred strong candidates:
 - SynthAxe (1985): <100 units, $13K MIDI guitar controller, CHM "curator's wish." Rich sources via Allan Holdsworth community, MusicRadar, CHM blog. Revisit when adding another music HCI artifact.
