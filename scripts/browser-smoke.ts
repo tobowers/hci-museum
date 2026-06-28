@@ -1,7 +1,7 @@
 #!/usr/bin/env bun
 import path from "node:path";
 import { chromium, type Page } from "@playwright/test";
-import { exhibits } from "../src/data";
+import { exhibits, exhibitsByNewestAdded } from "../src/data";
 
 const publicDir = path.resolve("public");
 const port = Number(process.env.SMOKE_PORT ?? 4173);
@@ -66,6 +66,7 @@ async function imageFailures(page: Page, label: string): Promise<string[]> {
   await page.waitForFunction(() => Array.from(document.images).every((img) => img.complete), undefined, { timeout: 10_000 }).catch(() => undefined);
   const broken = await page.$$eval("img", (imgs) =>
     imgs
+      .filter((img) => !img.closest("[hidden]"))
       .map((img) => ({
         src: img.currentSrc || img.src,
         alt: img.alt,
@@ -79,6 +80,7 @@ async function imageFailures(page: Page, label: string): Promise<string[]> {
 
   const remote = await page.$$eval(".hero__feature-image, .exhibit-card__image, .exhibit__hero-image, .exhibit__media img", (imgs) =>
     imgs
+      .filter((img) => !img.closest("[hidden]"))
       .map((img) => (img instanceof HTMLImageElement ? img.currentSrc : "") || img.getAttribute("src") || "")
       .filter((src) => src && new URL(src, window.location.href).origin !== window.location.origin),
   );
@@ -91,7 +93,7 @@ async function imageFailures(page: Page, label: string): Promise<string[]> {
 
 async function assertCollectionOrder(page: Page) {
   await page.goto(`${baseUrl}/exhibits/`, { waitUntil: "networkidle" });
-  const cards = await page.$$eval(".exhibit-card", (items) =>
+  const cards = await page.$$eval(".gallery__grid:not([hidden]) .exhibit-card", (items) =>
     items.map((item) => ({ title: item.querySelector(".exhibit-card__title")?.textContent?.trim() ?? "", href: (item as HTMLAnchorElement).href })),
   );
   if (cards.length !== exhibits.length) throw new Error(`Expected ${exhibits.length} exhibit cards, found ${cards.length}`);
@@ -102,6 +104,16 @@ async function assertCollectionOrder(page: Page) {
   if (mismatch !== -1) {
     throw new Error(`Collection order mismatch at ${mismatch}: expected ${expectedTitles[mismatch]}, got ${actualTitles[mismatch]}`);
   }
+
+  await page.getByRole("button", { name: "Newest added" }).click();
+  const newestTitles = await page.$$eval(".gallery__grid:not([hidden]) .exhibit-card__title", (items) => items.map((item) => item.textContent?.trim() ?? ""));
+  const expectedNewestTitles = exhibitsByNewestAdded.map((exhibit) => exhibit.title);
+  const newestMismatch = newestTitles.findIndex((title, index) => title !== expectedNewestTitles[index]);
+  if (newestMismatch !== -1) {
+    throw new Error(`Newest-added order mismatch at ${newestMismatch}: expected ${expectedNewestTitles[newestMismatch]}, got ${newestTitles[newestMismatch]}`);
+  }
+
+  await page.getByRole("button", { name: "Timeline" }).click();
   return { cards, failures: await imageFailures(page, "/exhibits/") };
 }
 

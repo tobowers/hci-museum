@@ -1,4 +1,4 @@
-import { exhibits, type Exhibit } from "../src/data";
+import { exhibits, exhibitsByNewestAdded, type Exhibit } from "../src/data";
 import { parseWiki, type ParsedExhibit } from "./parse-wiki";
 import { renderShell } from "../src/shell";
 
@@ -213,7 +213,7 @@ export function buildAllExhibitPages(markdown: string): { slug: string; html: st
 }
 
 export function buildExhibitsIndexHtml(exhibitList: readonly Exhibit[], basePath = "../"): string {
-  const cards = exhibitList
+  const renderCards = (items: readonly Exhibit[]) => items
     .map((exhibit) => {
       const heroImage = exhibit.image.startsWith("assets/wiki/")
         ? `${basePath}${exhibit.image}`
@@ -236,6 +236,8 @@ export function buildExhibitsIndexHtml(exhibitList: readonly Exhibit[], basePath
           </a>`;
     })
     .join("");
+  const timelineCards = renderCards(exhibitList);
+  const newestCards = renderCards(exhibitsByNewestAdded);
 
   const body = `
         <section class="page page--collection" aria-labelledby="collection-title">
@@ -244,7 +246,30 @@ export function buildExhibitsIndexHtml(exhibitList: readonly Exhibit[], basePath
             <h1 id="collection-title" class="page__title">All exhibits</h1>
             <p class="page__lede">${exhibitList.length} artifacts recovered, 1976–1992.</p>
           </header>
-          <div class="gallery__grid gallery__grid--full">${cards}</div>
+          <div class="gallery__header gallery__header--collection">
+            <span class="gallery__count">Sort collection signal</span>
+            <div class="gallery__sort" role="group" aria-label="Sort exhibits">
+              <button class="gallery__sort-button active" type="button" data-sort="timeline" aria-pressed="true">Timeline</button>
+              <button class="gallery__sort-button" type="button" data-sort="newest" aria-pressed="false">Newest added</button>
+            </div>
+          </div>
+          <div class="gallery__grid gallery__grid--full" data-sort-panel="timeline">${timelineCards}</div>
+          <div class="gallery__grid gallery__grid--full" data-sort-panel="newest" hidden>${newestCards}</div>
+          <script>
+            document.querySelectorAll(".gallery__sort-button").forEach((button) => {
+              button.addEventListener("click", () => {
+                const mode = button.dataset.sort === "newest" ? "newest" : "timeline";
+                document.querySelectorAll(".gallery__sort-button").forEach((item) => {
+                  const active = item === button;
+                  item.classList.toggle("active", active);
+                  item.setAttribute("aria-pressed", String(active));
+                });
+                document.querySelectorAll("[data-sort-panel]").forEach((panel) => {
+                  panel.hidden = panel.getAttribute("data-sort-panel") !== mode;
+                });
+              });
+            });
+          </script>
         </section>`;
 
   return renderShell({

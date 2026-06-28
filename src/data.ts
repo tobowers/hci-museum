@@ -637,5 +637,6 @@ const exhibitData: Exhibit[] = [
 ];
 
 export const exhibits: Exhibit[] = exhibitData.toSorted((a, b) => b.sortYear - a.sortYear || a.title.localeCompare(b.title));
+export const exhibitsByNewestAdded: Exhibit[] = exhibitData.toReversed();
 
 export const featured = exhibits.find((e) => e.feature) ?? exhibits[0]!;

@@ -92,8 +92,14 @@
 
         <section class="gallery" id="gallery" aria-labelledby="gallery-title">
           <div class="gallery__header">
-            <h2 id="gallery-title" class="gallery__title">All exhibits</h2>
-          <span class="gallery__count" id="gallery-count">26 artifacts recovered</span>
+            <div>
+              <h2 id="gallery-title" class="gallery__title">All exhibits</h2>
+              <span class="gallery__count" id="gallery-count">26 artifacts recovered</span>
+            </div>
+            <div class="gallery__sort" role="group" aria-label="Sort exhibits">
+              <button class="gallery__sort-button active" type="button" data-sort="timeline" aria-pressed="true">Timeline</button>
+              <button class="gallery__sort-button" type="button" data-sort="newest" aria-pressed="false">Newest added</button>
+            </div>
           </div>
           <div class="gallery__grid" id="gallery-grid"></div>
         </section>

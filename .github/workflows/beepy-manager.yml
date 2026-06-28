@@ -19,7 +19,7 @@ on:
       agent_timeout_ms:
         description: Max time for the opencode manager run
         required: true
-        default: "1800000"
+        default: "300000"
       create_pr:
         description: Open a PR with generated file changes
         required: true
@@ -33,7 +33,7 @@ concurrency:
 jobs:
   manage:
     runs-on: ubuntu-latest
-    timeout-minutes: 60
+    timeout-minutes: 25
     env:
       DEEPSEEK_API_KEY: ${{ secrets.DEEPSEEK_API_KEY }}
       KIMI_API_KEY: ${{ secrets.KIMI_API_KEY }}
@@ -41,7 +41,7 @@ jobs:
       KIMI_MODEL: k2p7
       GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
       GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-      SCOUT_AGENT_TIMEOUT_MS: ${{ inputs.agent_timeout_ms || '900000' }}
+      SCOUT_AGENT_TIMEOUT_MS: ${{ inputs.agent_timeout_ms || '300000' }}
     steps:
       - name: Checkout
         uses: actions/checkout@v4

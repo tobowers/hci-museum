@@ -24,14 +24,14 @@ jobs:
   triage:
     if: ${{ github.event.workflow_run.conclusion == 'failure' && github.event.workflow_run.head_repository.full_name == github.repository }}
     runs-on: ubuntu-latest
-    timeout-minutes: 75
+    timeout-minutes: 20
     env:
       KIMI_API_KEY: ${{ secrets.KIMI_API_KEY }}
       KIMI_PROVIDER: kimi-for-coding
       KIMI_MODEL: k2p7
       GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
       GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-      SCOUT_AGENT_TIMEOUT_MS: "600000"
+      SCOUT_AGENT_TIMEOUT_MS: "300000"
       FAILED_RUN_ID: ${{ github.event.workflow_run.id }}
       FAILED_RUN_URL: ${{ github.event.workflow_run.html_url }}
       FAILED_WORKFLOW_NAME: ${{ github.event.workflow_run.name }}
@@ -46,15 +46,6 @@ jobs:
           ref: ${{ github.event.workflow_run.head_sha }}
           fetch-depth: 0
           token: ${{ secrets.GITHUB_TOKEN }}
-
-      - name: Setup Bun
-        uses: oven-sh/setup-bun@v2
-
-      - name: Install opencode CLI
-        run: bun add --global opencode-ai@1.17.9
-
-      - name: Install dependencies
-        run: bun install --frozen-lockfile
 
       - name: Report Beepy automation failure directly
         if: ${{ env.FAILED_WORKFLOW_NAME == 'Beepy Manager' || env.FAILED_WORKFLOW_NAME == 'Beepy PR Review' }}
@@ -82,6 +73,18 @@ jobs:
           else
             gh issue create --title "${FAILED_WORKFLOW_NAME} workflow failed" --body-file "$body_file" --label beepy --label qa --label actions
           fi
+
+      - name: Setup Bun
+        if: ${{ env.FAILED_WORKFLOW_NAME != 'Beepy Manager' && env.FAILED_WORKFLOW_NAME != 'Beepy PR Review' }}
+        uses: oven-sh/setup-bun@v2
+
+      - name: Install opencode CLI
+        if: ${{ env.FAILED_WORKFLOW_NAME != 'Beepy Manager' && env.FAILED_WORKFLOW_NAME != 'Beepy PR Review' }}
+        run: bun add --global opencode-ai@1.17.9
+
+      - name: Install dependencies
+        if: ${{ env.FAILED_WORKFLOW_NAME != 'Beepy Manager' && env.FAILED_WORKFLOW_NAME != 'Beepy PR Review' }}
+        run: bun install --frozen-lockfile
 
       - name: Run Beepy action-failure triage
         if: ${{ env.FAILED_WORKFLOW_NAME != 'Beepy Manager' && env.FAILED_WORKFLOW_NAME != 'Beepy PR Review' }}

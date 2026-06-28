@@ -24,14 +24,14 @@ jobs:
   review:
     if: ${{ github.event.pull_request.head.repo.full_name == github.repository && !github.event.pull_request.draft }}
     runs-on: ubuntu-latest
-    timeout-minutes: 60
+    timeout-minutes: 20
     env:
       KIMI_API_KEY: ${{ secrets.KIMI_API_KEY }}
       KIMI_PROVIDER: kimi-for-coding
       KIMI_MODEL: k2p7
       GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
       GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-      SCOUT_AGENT_TIMEOUT_MS: "900000"
+      SCOUT_AGENT_TIMEOUT_MS: "300000"
       PR_NUMBER: ${{ github.event.pull_request.number }}
       PR_TITLE: ${{ github.event.pull_request.title }}
       PR_URL: ${{ github.event.pull_request.html_url }}
@@ -83,14 +83,14 @@ jobs:
   review-open-beepy-pr:
     if: ${{ github.event_name != 'pull_request_target' }}
     runs-on: ubuntu-latest
-    timeout-minutes: 35
+    timeout-minutes: 25
     env:
       KIMI_API_KEY: ${{ secrets.KIMI_API_KEY }}
       KIMI_PROVIDER: kimi-for-coding
       KIMI_MODEL: k2p7
       GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
       GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-      SCOUT_AGENT_TIMEOUT_MS: "900000"
+      SCOUT_AGENT_TIMEOUT_MS: "300000"
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
@@ -103,7 +103,7 @@ jobs:
         run: |
           number="${{ inputs.pr_number }}"
           if [ -z "$number" ]; then
-            number="$(gh pr list --state open --limit 30 --json number,author,isDraft,reviewDecision,createdAt --jq '[.[] | select(.author.login == "app/github-actions" and (.isDraft | not) and (.reviewDecision != "APPROVED"))] | sort_by(.createdAt) | .[0].number // ""')"
+            number="$(gh pr list --state open --limit 30 --json number,author,isDraft,reviewDecision,labels,createdAt --jq '[.[] | select(.author.login == "app/github-actions" and (.isDraft | not) and (.reviewDecision != "APPROVED") and ((.labels | map(.name) | index("needs-human")) | not))] | sort_by(.createdAt) | .[0].number // ""')"
           fi
 
           if [ -z "$number" ]; then
@@ -153,8 +153,45 @@ jobs:
         if: ${{ steps.resolve_pr.outputs.found == 'true' }}
         run: bun install --frozen-lockfile
 
-      - name: Run Beepy PR review
+      - name: Classify review scope
+        id: review_scope
         if: ${{ steps.resolve_pr.outputs.found == 'true' }}
+        run: |
+          changed_count="$(gh pr view "$PR_NUMBER" --json files --jq '.files | length')"
+          echo "changed_count=$changed_count" >> "$GITHUB_OUTPUT"
+
+          if [[ "$PR_HEAD_REF" == curator-scout/* ]] || [ "$changed_count" -gt 10 ]; then
+            echo "autonomous=false" >> "$GITHUB_OUTPUT"
+          else
+            echo "autonomous=true" >> "$GITHUB_OUTPUT"
+          fi
+
+      - name: Deterministic large PR check
+        if: ${{ steps.resolve_pr.outputs.found == 'true' && steps.review_scope.outputs.autonomous == 'false' }}
+        run: |
+          changed_count="$(gh pr view "$PR_NUMBER" --json files --jq '.files | length')"
+          bun run typecheck
+          bun run build
+          bunx playwright install --with-deps chromium
+          bun run smoke:browser
+
+          body_file="$(mktemp)"
+          cat > "$body_file" <<EOF
+          Beepy skipped autonomous model review for this PR because it is a large curation/content diff (${PR_HEAD_REF}, ${changed_count} files changed). Large curator-scout PRs have been timing out in the model reviewer.
+
+          Deterministic checks passed:
+          - \`bun run typecheck\`
+          - \`bun run build\`
+          - \`bun run smoke:browser\`
+
+          A human should still review the curation/source quality before merge.
+          EOF
+          gh label create needs-human --color ffcc00 --description "Requires Tobowers or external human action" || true
+          gh pr edit "$PR_NUMBER" --add-label needs-human
+          gh pr comment "$PR_NUMBER" --body-file "$body_file"
+
+      - name: Run Beepy PR review
+        if: ${{ steps.resolve_pr.outputs.found == 'true' && steps.review_scope.outputs.autonomous == 'true' }}
         run: bun run beepy:pr-review
 
       - name: Show final git state

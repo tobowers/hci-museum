@@ -1,10 +1,12 @@
 import * as THREE from "three";
-import { exhibits, featured, type Exhibit } from "./data";
+import { exhibits, exhibitsByNewestAdded, featured, type Exhibit } from "./data";
 
 renderHeroFeature(featured);
-renderGallery();
+initGallerySort();
 initAmbient();
 setCounts();
+
+type SortMode = "timeline" | "newest";
 
 function setCounts() {
   const countEl = document.getElementById("hero-exhibit-count");
@@ -13,12 +15,30 @@ function setCounts() {
   if (galleryCountEl) galleryCountEl.textContent = `${exhibits.length} artifacts recovered`;
 }
 
-function renderGallery() {
+function initGallerySort() {
+  renderGallery("timeline");
+
+  document.querySelectorAll<HTMLButtonElement>(".gallery__sort-button").forEach((button) => {
+    button.addEventListener("click", () => {
+      const mode = button.dataset.sort === "newest" ? "newest" : "timeline";
+      document.querySelectorAll<HTMLButtonElement>(".gallery__sort-button").forEach((item) => {
+        const active = item === button;
+        item.classList.toggle("active", active);
+        item.setAttribute("aria-pressed", String(active));
+      });
+      renderGallery(mode);
+    });
+  });
+}
+
+function renderGallery(mode: SortMode) {
   const grid = document.getElementById("gallery-grid");
   if (!grid) return;
 
+  const source = mode === "newest" ? exhibitsByNewestAdded : exhibits;
+
   grid.replaceChildren(
-    ...exhibits.map((exhibit) => {
+    ...source.map((exhibit) => {
       const card = document.createElement("a");
       card.className = "exhibit-card";
       if (exhibit.span === 2) card.classList.add("exhibit-card--wide");
