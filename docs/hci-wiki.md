@@ -1,6 +1,6 @@
 # The HCI Golden Age Wiki
 
-A research compendium for a digital museum of cutting-edge Human-Computer Interaction from the late 1970s through the early 1990s. These thirty-eight projects mix canonical experiments with weird, forgotten, and beautiful vaporware — brain control, voice control, gesture, wearable computing, VR, robots, and full-body exertion.
+A research compendium for a digital museum of cutting-edge Human-Computer Interaction from the late 1970s through the early 1990s. These fifty projects mix canonical experiments with weird, forgotten, and beautiful vaporware — brain control, voice control, gesture, wearable computing, VR, robots, and full-body exertion.
 
 Each entry includes an overview, a deep dive, a small media gallery, and full source links so the images and facts can always be traced back.
 
@@ -54,6 +54,9 @@ Each entry includes an overview, a deep dive, a small media gallery, and full so
 45. [Barcode Battler (1991)](#barcode-battler--1991)
 46. [Talking Glove (1988–1991)](#talking-glove--the-talkingglove-19881991)
 47. [Performance-Driven Facial Animation (1990)](#performance-driven-facial-animation-1990)
+48. [Convolvotron (1988)](#convolvotron-1988)
+49. [HeadMaster (1986)](#headmaster-1986)
+50. [VPL DataSuit (1989)](#vpl-datasuit-1989)
 
 ---
 ## Hubot (c. 1983)
@@ -2420,3 +2423,142 @@ This single-author paper, produced during Williams' tenure at Apple's Advanced T
 5. Cartoon Brew — The Secret History of Disney's Gemini Man (confirms Williams as technical architect) — https://www.cartoonbrew.com/feature-film/secret-history-disneys-gemini-man-quest-make-convincing-cg-human-152149.html
 6. University of Utah obituary for Lance Williams — https://www.price.utah.edu/2017/08/30/celebrated-u-computer-graphics-researcher-dies
 7. Macworld — Williams' 2002 Academy Award coverage — https://www.macworld.com/article/153032/scitechawards.html
+
+---
+
+## Convolvotron (1988)
+
+**By:** Crystal River Engineering (Scott Foster), under contract from NASA Ames Research Center VIEW lab  
+**Tags:** `HCI` `Audio` `Spatial Audio` `VR` `NASA`
+
+### Overview
+
+The Convolvotron was the first system capable of real-time binaural spatialization of multiple independent sound sources — that is, making sounds appear to come from precise locations in 3D space through standard stereo headphones. Developed by Scott Foster under a NASA contract for the VIEW (Virtual Interface Environment Workstation) lab at NASA Ames Research Center, the first prototype was delivered in 1988. Crystal River Engineering (CRE) was incorporated in 1989 as a commercial spin-off, offering the Convolvotron as a two-board set for IBM PC compatibles priced at $14,995.
+
+The system's core innovation was a custom massively-parallel ALU convolution engine — each board carried 128 16×16 ALUs capable of 320 million multiply-accumulate-shift operations per second, integrated with a Texas Instruments TMS320C25 digital signal processor. Up to eight boardsets could run in parallel, spatializing 32 anechoic sound sources or 8 sources with first-order wall reflections. The system performed real-time convolution of dry audio signals with head-related transfer functions (HRTFs) measured from human subjects. As the listener moved their head (tracked by a Polhemus magnetic sensor), the Convolvotron re-convolved each virtual sound source through the appropriate binaural HRTF pair, creating the illusion that sounds remained fixed in space regardless of head movement.
+
+At SIGGRAPH 1991, the system was demonstrated combined with a Fake Space Labs BOOM viewer and SGI workstation, letting a user act as 'architect' of a virtual concert hall — moving walls, placing virtual instruments, and hearing the acoustic consequences in real time. The echoic room model was good enough that blind test subjects could navigate virtual spaces by sound alone. The Convolvotron spawned a product family (Acoustetron, Beachtron, Alphatron) and was used in landmark VR artworks including Brenda Laurel's *Placeholder* (1993, using 4 Convolvotrons for 16 simultaneous spatial sound sources) and Char Davies' *Osmose* (1995). CRE was acquired by Aureal Semiconductor in 1996; its technology was distilled into the A3D consumer 3D audio API. Aureal went bankrupt in 2000 and its assets were acquired by Creative Technology.
+
+### Deep dive
+
+* **Origins.** The Convolvotron was born inside NASA Ames' VIEW lab, directed by Dr. Scott Fisher. VIEW aimed to build a complete immersive virtual environment for astronaut training. The visual component was the head-mounted display (which became the VPL EyePhone). The audio component — the part that would make the virtual world sound real — was contracted to engineer Scott Foster. Foster built a custom digital signal processing architecture specifically for real-time HRTF convolution, something that had never been done outside of slow, non-interactive laboratory experiments. The first prototype was delivered to NASA in 1988.
+* **How It Worked.** The interaction pipeline: (1) A person wore stereo headphones with a Polhemus magnetic head-tracker attached. (2) Dry (anechoic) audio sources were prepared for up to four independent virtual sound sources. (3) As the person moved their head, the Convolvotron received head-orientation data from the host computer and selected the appropriate binaural HRTF pair for each source's spatial position relative to the listener's current head orientation. (4) The custom ALU convolution engine performed real-time convolution of each dry source signal with the selected HRTFs — essentially applying a pair of very long FIR filters (one per ear) that encoded all the subtle frequency-dependent filtering, interaural time differences, and interaural level differences that the human auditory system uses to localize sound. (5) The resulting binaural signal was output to the headphones, creating an 'externalized' 3D sound image where virtual sources appeared to exist at specific locations outside the head. The system achieved source position updates at >30 Hz for smooth, artifact-free motion.
+* **Why It Matters to HCI.** The Convolvotron established that spatial audio could be a bidirectional interaction channel, not passive output. The user's head movement was the input; the changing sound field was the output. This made auditory space something you could move through and interact with, not just listen to. The system demonstrated that spatial audio could replace visual displays for certain navigation tasks (blind subjects successfully navigated virtual spaces). It proved that multiple simultaneous sound streams could be segregated and attended to when spatialized. It pioneered 'interactive auralization' — designing architectural acoustics through real-time auditory feedback — a paradigm that prefigured all modern acoustic simulation tools. Critically, the Convolvotron established the core technical architecture that remains standard in VR spatial audio today: HRTF-based convolution, real-time interpolation between measured HRTF positions, head-tracker coupling, and the separation of anechoic source rendering from environmental reflection modeling.
+
+### Team
+
+* **Scott Foster.** Founder of Crystal River Engineering, hardware architect of the Convolvotron. Built the custom parallel ALU convolution engine.
+* **Dr. Elizabeth M. Wenzel.** NASA Ames Auditory Perception Lab. Led HRTF measurement and psychoacoustics research. Co-author of the foundational 1990 paper 'Real-time digital synthesis of virtual acoustic environments.'
+* **Dr. Scott Fisher.** Director of NASA VIEW lab. Conceived the immersive VR system the Convolvotron was built for. Also co-founded Telepresence Research.
+* **William Chapin.** Chief Engineer at CRE (1996–1997). Later founded AuSIM in 1998 to continue serving high-end simulation markets after Aureal dissolved CRE.
+
+### Media
+
+![SIGGRAPH 1991 Immersive Pavilion — Convolvotron demo with BOOM viewer and SGI workstation](../assets/wiki/convolvotron-1.jpg)
+*SIGGRAPH 1991 Immersive Pavilion: 'Virtual Acoustic Environments — The Convolvotron' by Elizabeth Wenzel and Scott Foster. The demo combined a Crystal River Engineering Convolvotron with a Fake Space Labs BOOM viewer and Silicon Graphics workstation. Source: ACM SIGGRAPH History Archives.*
+
+![Crystal River Engineering Audio Reality logo](../assets/wiki/convolvotron-2.png)
+*Crystal River Engineering's 'Audio Reality' branding for their high-end 3D audio technology. Source: Wikimedia Commons.*
+
+### Sources
+
+1. SIGGRAPH History Archive — Virtual Acoustic Environments: The Convolvotron — https://history.siggraph.org/experience/virtual-acoustic-environments-the-convolvotron-by-wenzel/
+2. NASA Spinoff 1992 — 3D Audio System — https://spinoff.nasa.gov/node/8965
+3. Wikipedia — Crystal River Engineering — https://en.wikipedia.org/wiki/Crystal_River_Engineering
+4. Stanford CDR — Convolvotron Hardware Description — http://www-cdr.stanford.edu/DesignSpace/sponsors/Convolvotron.html
+5. AuSIM — Company Origins (CRE history) — http://www.ausim3d.com/about/origins.html
+6. Wenzel & Foster (1990) — Real-time digital synthesis of virtual acoustic environments — https://doi.org/10.1145/91394.91431
+7. Brenda Laurel — Placeholder Project Notes (Convolvotron usage) — https://www.tauzero.com/Placeholder/Hypertext/Crystal_River/Convolvotron_1.html
+8. Wenzel (1992) — 'Three-dimensional virtual acoustic displays' (book chapter in 'Virtual Reality: Theory, Practice, and Promise') — https://ntrs.nasa.gov/citations/19920004500
+
+---
+
+## HeadMaster (1986)
+
+**By:** Personics Corporation (Concord, MA), later Prentke Romich Company (Wooster, OH)  
+**Tags:** `HCI` `Accessibility` `Head Tracking` `Ultrasonic` `Cursor Control`
+
+### Overview
+
+The HeadMaster was a head-operated cursor control system that translated rotational head movement into cursor movement on a computer display. It consisted of a lightweight (3 oz / ~85g) headset worn over the head, holding three 40 kHz ultrasonic receivers (piezoelectric transducers). A small control unit (approximately 5.5 × 5.13 × 1.5 inches, 5 lbs) sat on top of the computer monitor and housed the ultrasonic transmitter. The headset connected by wire to the control unit, which plugged into the computer's mouse port (Macintosh ADB, Apple II, or IBM serial/PS2). A sip-and-puff mouth switch — a thin tube the user puffed into — functioned as the mouse button.
+
+The system was invented by Keith K. Davison, who filed US Patent 4,682,159 on June 20, 1984 (granted July 21, 1987), originally assigned to Personics Corporation of Concord, Massachusetts. Personics shipped the first HeadMaster units in April 1986, priced at $795 for Apple Macintosh. The patent and technology were acquired by the Prentke Romich Company (PRC) of Wooster, Ohio in 1989, which continued development through the 'HeadMaster Plus' and eventually a wireless 'HeadMaster 2000' version demonstrated at CSUN 1999.
+
+The interaction was purely rotational: yaw (turning the head left/right) controlled horizontal cursor movement, pitch (nodding up/down) controlled vertical movement. Translational head movements (leaning toward or away from the screen) were ignored by design. The system used phase-comparison circuitry built from discrete JK flip-flops to produce signed (direction + magnitude) position signals — a notably elegant analog solution predating microcontrollers. The 40 kHz wave was sampled at 1,000 times per second with a 4 MHz time base, achieving phase measurement resolution of 100 counts per wavelength cycle, translating to approximately 300 parts per inch of spatial resolution. The included ScreenTyper software placed an on-screen keyboard strip (~1 inch tall) at the bottom or top of the Macintosh screen with characters arranged by frequency of use — not QWERTY — to minimize the head movement needed for typing.
+
+### Deep dive
+
+* **Origins.** The HeadMaster emerged at a pivotal moment in personal computing: the Macintosh had introduced the graphical user interface to consumers in 1984, but the mouse — the primary input device for GUIs — required hand and arm control. For people with quadriplegia, ALS, cerebral palsy, spinal cord injuries, and other motor impairments, the mouse was a barrier. Personics Corporation, a small Massachusetts company, set out to solve this by making the head itself the pointing device. The patent application, filed in June 1984, explicitly critiques the then-available alternatives: 'manipulating the mouse is difficult, and it often takes several hours to fully master' and 'the constant shifting required between the mouse and the keyboard makes mice virtually useless for word processing and accounting spread sheets.' The HeadMaster's pitch was different: it required no hands at all, used 'a natural and ordinary human movement,' and the person's hands never needed to leave the keyboard.
+* **Interaction Model.** The HeadMaster used relative (not absolute) head positioning — like a mouse, not like a touchscreen. You didn't need to sit perfectly centered. The software included a velocity-based gain: fast head movements produced proportionally larger cursor jumps; slow movements gave fine pixel-level control. A hysteresis dead zone suppressed cursor jitter from natural head tremor — you could breathe and blink without the cursor vibrating. The sip-and-puff switch provided a clean, discrete click without requiring any limb movement. For text entry, the ScreenTyper on-screen keyboard showed characters arranged by frequency (space and 'e' nearest the center), dynamically shifting the keyboard strip between top and bottom of the screen so the user could see context. The promotional brochure's headline was blunt and brilliant: 'If you can move your head, you can move your world.'
+* **Legacy and Museum Significance.** The HeadMaster survived as a product line for approximately 20 years — remarkable longevity for specialized HCI hardware. It is held in two major museum collections: the Smithsonian National Museum of American History (catalog #NMAH_1297824, part of the 'Input Devices and Controllers' collection) and the Computer History Museum (catalog #102662701, gift of Lon Safko). In the first rigorous three-way head-pointer comparison study (Angelo et al., 1991), the HeadMaster and the Trace Center's Long-Range Optical Pointer tied for top performance, both significantly outperforming the FreeWheel infrared reflective system. PRC merged with Saltillo in 2019 to become PRC-Saltillo; the HeadMaster line appears to have been discontinued sometime after the 2000s, superseded by camera-based head tracking and eye-gaze systems. But its core insight — that embodied head movement, not hands, could drive the graphical interface — remains a foundational concept in accessibility HCI and anticipatory design.
+
+### Team
+
+* **Keith K. Davison.** Inventor. Filed US Patent 4,682,159 in 1984 for Personics Corporation. Designed the ultrasonic phase-comparison tracking system.
+* **Personics Corporation.** Concord, Massachusetts. Originally developed and marketed the HeadMaster starting in 1986. (Distinct from the Personics music-recording company of Menlo Park, CA.)
+* **Prentke Romich Company (PRC).** Wooster, Ohio. Acquired the patent and technology in 1989. Barry Romich (co-founder/president), David Hershberger, and Lamar Schlabach led continued development into HeadMaster Plus and HeadMaster 2000.
+* **Lon Safko.** Donated the HeadMaster unit to the Computer History Museum. Author and assistive technology advocate.
+
+### Media
+
+![US Patent 4,682,159 Figure 1 — HeadMaster system overview: operator wearing headset facing CRT with transmitter on top](../assets/wiki/headmaster-1.png)
+*US Patent 4,682,159 (Davison / Personics Corp, 1984) Figure 1: System overview showing operator wearing the three-receiver headset facing a CRT display with ultrasonic transmitter mounted on top. The circuitry box connects headset, transmitter, and computer. Source: Google Patents/USPTO.*
+
+![US Patent 4,682,159 Figure 2 — Headset receiver placement: left and right receivers along horizontal line near ears, top receiver centered above](../assets/wiki/headmaster-2.png)
+*US Patent 4,682,159 Figure 2: Headset receiver placement. Left and right receivers lie along a horizontal line at ear level; the top receiver sits centered above them, off the horizontal line. This three-point geometry isolates horizontal and vertical rotation components. Source: Google Patents/USPTO.*
+
+### Sources
+
+1. US Patent 4,682,159 — 'Apparatus and method for controlling a cursor on a computer display' (Davison / Personics Corp) — https://patents.google.com/patent/US4682159A/en
+2. Smithsonian National Museum of American History — HeadMaster collection entry — https://americanhistory.si.edu/collections/object/nmah_1297824
+3. Computer History Museum — HeadMaster catalog entry — https://www.computerhistory.org/collections/catalog/102662701
+4. Personics promotional brochure — 'Introducing HeadMaster' (1986) — https://docslib.org/doc/4664137/introducing-headmaster
+5. Prentke Romich — HeadMaster Plus Manual (full PDF) — https://file.prentrom.com/122/HeadMaster-Plus-Manual.pdf
+6. Angelo, Deterding & Weisman (1991) — Three-system head-pointer comparison study (HeadMaster, FreeWheel, LROP) — https://pubmed.ncbi.nlm.nih.gov/10147558/
+7. Open Assistive — Ultrasonic Head Tracker Mouse rebuild project with photos — https://openassistive.org/item/ultrasonicheadtrackermouse-zy9/
+8. RESNA 2003 — Head pointer technology comparison survey — https://www.resna.org/sites/default/files/legacy/conference/proceedings/2003/Papers/ComputerAccess/Anson_CA_Headpointers.htm
+
+---
+
+## VPL DataSuit (1989)
+
+**By:** VPL Research (Redwood City, California) — Jaron Lanier, Ann Lasko-Harvill, Young Harvill, Thomas Zimmerman  
+**Tags:** `HCI` `VR` `Wearable` `Motion Capture` `Full-Body`
+
+### Overview
+
+The VPL DataSuit was a full-body Lycra/spandex outfit instrumented with the same fiber-optic bend sensor technology used in VPL's DataGlove. First described in the 1988 IEEE Compcon paper 'From DataGlove to DataSuit,' the suit contained 30+ joint sensors measuring bending along arms, legs, and trunk. Each sensor operated on the principle of optical attenuation: a light source sent illumination through a length of optical fiber with a treated section that leaked light when flexed; a photodetector measured the output, producing an analog signal proportional to joint angle (covered by US Patents 4,542,291 and 4,937,444). Signals were digitized by 6502 microcontrollers — the same architecture as the DataGlove — and transmitted (tethered) to a host computer, typically a Silicon Graphics IRIS workstation.
+
+The DataSuit was not sold as a standalone consumer product. It was part of VPL's complete 'Reality Built for Two' (RB2) multi-user VR system, which combined the DataSuit (full-body input), EyePhone HMD (stereoscopic display), DataGlove (hand input), and AudioSphere (spatial audio). VPL's 'Body Electric' visual programming language interpreted body posture data, and the 'Isaac' rendering engine displayed a real-time 3D avatar in the virtual environment. The complete system cost upwards of $250,000.
+
+The DataSuit was featured in VPL's showroom demonstrations and trade shows (including the Nissho Iwai showroom in Tokyo), was used by the U.S. Olympic Committee for sports performance analysis, and gained mass cultural visibility through its appearance in the 1992 science fiction film *The Lawnmower Man*. VPL filed for bankruptcy in 1990; its patents were sold to Thomson-CSF in 1992 and subsequently acquired by Sun Microsystems in 1998. Though commercially unsuccessful, the DataSuit established the conceptual template for every full-body tracking system that followed — from motion capture in film production to contemporary VR bodysuits.
+
+### Deep dive
+
+* **Origins at VPL Research.** VPL Research was founded by Jaron Lanier in 1984 in Redwood City, California. 'VPL' stood for 'Virtual Programming Languages' — a reference to Lanier's concept of 'post-symbolic communication,' the idea that body movement itself could become a programming language. The DataGlove (invented by Thomas Zimmerman) was the first step — a single-hand fiber-optic gesture input device. The DataSuit was the logical extension: if one hand could communicate with the machine, why not the whole body? Ann Lasko-Harvill joined as Chief Designer of Data Suits, bringing expertise in tailoring and ergonomics. She created suits sized for different body types — male and female anthropometrics — which was unusual attention to bodily diversity in 1980s tech hardware. The 1988 IEEE paper 'From DataGlove to DataSuit' by Blanchard, Harvill, and colleagues formally introduced the concept.
+* **Interaction Model.** The interaction pipeline was: (1) Performer wears the DataSuit — a tight Lycra outfit with fiber-optic sensors at each major joint. (2) As the performer moves, joints bend, causing optical fibers to attenuate light proportionally. (3) 6502 microcontrollers digitize the analog bend signals from all 30+ sensors. (4) VPL's Body Electric visual programming language on a host workstation interprets the full-body posture data. (5) The Isaac rendering engine displays a real-time 3D avatar mirroring the performer's body in the virtual environment. (6) In the RB2 system, two performers in separate DataSuits could interact in the same virtual space — the first multi-user full-body VR experience. The experience was immersive in the original sense: you saw your virtual body move as your physical body moved, creating a powerful sense of presence despite the tether and the limited frame rate.
+* **Cultural Impact and The Lawnmower Man.** Brett Leonard's 1992 film *The Lawnmower Man* used the VPL DataSuit and EyePhone as key visual elements in its depiction of a gardener who enters a virtual world through a full-body VR rig. The film was a commercial success, grossing $32 million against a $10 million budget, and it introduced the concept of full-body immersive VR to mainstream audiences. While the film's depiction of VR as a consciousness-altering technology was science fiction, the hardware shown was real. For millions of viewers, the DataSuit *was* virtual reality — a sleek black bodysuit with cables, sensors, and the promise of total sensory immersion. This cultural visibility, combined with the DataGlove's licensing to Mattel for the Power Glove (1989), made VPL Research the public face of VR's first wave.
+
+### Team
+
+* **Jaron Lanier.** Founder of VPL Research. Coined the phrase 'Virtual Reality.' Conceived of post-symbolic communication via full-body interfaces.
+* **Ann Lasko-Harvill.** Chief Designer of Data Suits. Responsible for tailoring, ergonomics, and anthropometric fit across body types. Described as 'A Hero Behind the VR Headset' (proto.life, 2021).
+* **Young Harvill.** VP of Engineering, fourth employee at VPL (joined 1985). Worked on DataGlove and RB2 integration. Creator of Swivel 3D software.
+* **Thomas G. Zimmerman.** Co-founder. Invented the DataGlove prototype and the foundational fiber-optic bend sensor technology used in both DataGlove and DataSuit.
+* **Chuck Blanchard.** Created Body Electric visual programming language. Co-author of the 1988 'From DataGlove to DataSuit' paper.
+* **Jean-Jacques Grimaud.** Co-founder and President.
+
+### Media
+
+![VPL DataSuit on display at Nissho Iwai showroom, Tokyo — full-body Lycra suit with fiber-optic sensors visible along arms and legs](../assets/wiki/vpl-datasuit-1.jpg)
+*VPL Research DataSuit, circa 1989, displayed at the Nissho Iwai showroom in Tokyo. The suit contains 30+ fiber-optic bend sensors measuring joint angles along arms, legs, and trunk. Photo by Dave Pape (1999), public domain. Source: Wikimedia Commons.*
+
+### Sources
+
+1. Wikipedia — VPL Research — https://en.wikipedia.org/wiki/VPL_Research
+2. Blanchard, Harvill et al. (1988) — 'From DataGlove to DataSuit' (IEEE Compcon) — https://doi.org/10.1109/cmpcon.1988.4925
+3. proto.life (2021) — 'A Hero Behind the VR Headset' (profile of Ann Lasko-Harvill) — https://proto.life/2021/09/a-hero-behind-the-vr-headset/
+4. US Patent 4,937,444 — 'Optical flex sensor' (VPL Research) — https://patents.google.com/patent/US4937444A/en
+5. Wired (1998) — 'Sun Snaps Up Original VR Patents' — https://www.wired.com/1998/02/sun-snaps-up-original-vr-patents/
+6. Wikimedia Commons — VPL DataSuit photo by Dave Pape (public domain, 1999) — https://commons.wikimedia.org/wiki/File:VPL_DataSuit_1.jpg
+7. SIGGRAPH 94 Course Notes — David Sturman, 'A Brief History of Motion Capture for Computer Character Animation' — https://dl.acm.org/doi/10.1145/192161.192243

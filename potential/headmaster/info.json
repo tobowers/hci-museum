@@ -1,0 +1,65 @@
+{
+  "slug": "headmaster",
+  "title": "HeadMaster",
+  "year": "1986",
+  "subtitle": "The ultrasonic headset that turned head movement into cursor movement — 'If you can move your head, you can move your world'",
+  "why_scout_cares": "The HeadMaster was the first commercially successful head-operated computer cursor controller. Built by Personics Corporation in 1986 and later sold by Prentke Romich Company through the 2000s, it let quadriplegics — and anyone — control a Macintosh cursor by turning their head a few degrees. A lightweight headset with three 40 kHz ultrasonic receivers tracked rotational head movement (yaw and pitch) through analog phase-comparison circuitry, sampled at 1,000 Hz with sub-millimeter resolution. A sip-and-puff mouth switch provided mouse-button clicks. The interaction model was elegant and embodied: relative positioning with velocity-based gain scaling and a hysteresis dead zone to filter out natural head tremor. It came with ScreenTyper, an on-screen keyboard with characters arranged by frequency of use — in 1986, a full decade before soft keyboards became common. The patent was explicitly classified under G06F3/012 'Head tracking input arrangements' — the same patent classification that would define VR input decades later. Units are held by both the Smithsonian National Museum of American History and the Computer History Museum.",
+  "search_terms": ["HeadMaster cursor control device", "Personics Corporation head tracker", "Prentke Romich head pointer", "ultrasonic phase comparison cursor", "Davison head tracking patent 4682159"],
+  "research": {
+    "title": "HeadMaster",
+    "year": "1986",
+    "by": "Personics Corporation (Concord, MA), later Prentke Romich Company (Wooster, OH)",
+    "tags": ["HCI", "Accessibility", "Head Tracking", "Ultrasonic", "Cursor Control"],
+    "overview": "The HeadMaster was a head-operated cursor control system that translated rotational head movement into cursor movement on a computer display. It consisted of a lightweight (3 oz / ~85g) headset worn over the head, holding three 40 kHz ultrasonic receivers (piezoelectric transducers). A small control unit (approximately 5.5 × 5.13 × 1.5 inches, 5 lbs) sat on top of the computer monitor and housed the ultrasonic transmitter. The headset connected by wire to the control unit, which plugged into the computer's mouse port (Macintosh ADB, Apple II, or IBM serial/PS2). A sip-and-puff mouth switch — a thin tube the user puffed into — functioned as the mouse button.\n\nThe system was invented by Keith K. Davison, who filed US Patent 4,682,159 on June 20, 1984 (granted July 21, 1987), originally assigned to Personics Corporation of Concord, Massachusetts. Personics shipped the first HeadMaster units in April 1986, priced at $795 for Apple Macintosh. The patent and technology were acquired by the Prentke Romich Company (PRC) of Wooster, Ohio in 1989, which continued development through the 'HeadMaster Plus' and eventually a wireless 'HeadMaster 2000' version demonstrated at CSUN 1999.\n\nThe interaction was purely rotational: yaw (turning the head left/right) controlled horizontal cursor movement, pitch (nodding up/down) controlled vertical movement. Translational head movements (leaning toward or away from the screen) were ignored by design. The system used phase-comparison circuitry built from discrete JK flip-flops to produce signed (direction + magnitude) position signals — a notably elegant analog solution predating microcontrollers. The 40 kHz wave was sampled at 1,000 times per second with a 4 MHz time base, achieving phase measurement resolution of 100 counts per wavelength cycle, translating to approximately 300 parts per inch of spatial resolution. The included ScreenTyper software placed an on-screen keyboard strip (~1 inch tall) at the bottom or top of the Macintosh screen with characters arranged by frequency of use — not QWERTY — to minimize the head movement needed for typing.",
+    "deepDive": [
+      {
+        "heading": "Origins",
+        "text": "The HeadMaster emerged at a pivotal moment in personal computing: the Macintosh had introduced the graphical user interface to consumers in 1984, but the mouse — the primary input device for GUIs — required hand and arm control. For people with quadriplegia, ALS, cerebral palsy, spinal cord injuries, and other motor impairments, the mouse was a barrier. Personics Corporation, a small Massachusetts company, set out to solve this by making the head itself the pointing device. The patent application, filed in June 1984, explicitly critiques the then-available alternatives: 'manipulating the mouse is difficult, and it often takes several hours to fully master' and 'the constant shifting required between the mouse and the keyboard makes mice virtually useless for word processing and accounting spread sheets.' The HeadMaster's pitch was different: it required no hands at all, used 'a natural and ordinary human movement,' and the person's hands never needed to leave the keyboard."
+      },
+      {
+        "heading": "Interaction Model",
+        "text": "The HeadMaster used relative (not absolute) head positioning — like a mouse, not like a touchscreen. You didn't need to sit perfectly centered. The software included a velocity-based gain: fast head movements produced proportionally larger cursor jumps; slow movements gave fine pixel-level control. A hysteresis dead zone suppressed cursor jitter from natural head tremor — you could breathe and blink without the cursor vibrating. The sip-and-puff switch provided a clean, discrete click without requiring any limb movement. For text entry, the ScreenTyper on-screen keyboard showed characters arranged by frequency (space and 'e' nearest the center), dynamically shifting the keyboard strip between top and bottom of the screen so the user could see context. The promotional brochure's headline was blunt and brilliant: 'If you can move your head, you can move your world.'"
+      },
+      {
+        "heading": "Legacy and Museum Significance",
+        "text": "The HeadMaster survived as a product line for approximately 20 years — remarkable longevity for specialized HCI hardware. It is held in two major museum collections: the Smithsonian National Museum of American History (catalog #NMAH_1297824, part of the 'Input Devices and Controllers' collection) and the Computer History Museum (catalog #102662701, gift of Lon Safko). In the first rigorous three-way head-pointer comparison study (Angelo et al., 1991), the HeadMaster and the Trace Center's Long-Range Optical Pointer tied for top performance, both significantly outperforming the FreeWheel infrared reflective system. PRC merged with Saltillo in 2019 to become PRC-Saltillo; the HeadMaster line appears to have been discontinued sometime after the 2000s, superseded by camera-based head tracking and eye-gaze systems. But its core insight — that embodied head movement, not hands, could drive the graphical interface — remains a foundational concept in accessibility HCI and anticipatory design."
+      }
+    ],
+    "team": [
+      {"name": "Keith K. Davison", "note": "Inventor. Filed US Patent 4,682,159 in 1984 for Personics Corporation. Designed the ultrasonic phase-comparison tracking system."},
+      {"name": "Personics Corporation", "note": "Concord, Massachusetts. Originally developed and marketed the HeadMaster starting in 1986. (Distinct from the Personics music-recording company of Menlo Park, CA.)"},
+      {"name": "Prentke Romich Company (PRC)", "note": "Wooster, Ohio. Acquired the patent and technology in 1989. Barry Romich (co-founder/president), David Hershberger, and Lamar Schlabach led continued development into HeadMaster Plus and HeadMaster 2000."},
+      {"name": "Lon Safko", "note": "Donated the HeadMaster unit to the Computer History Museum. Author and assistive technology advocate."}
+    ],
+    "media": [
+      {
+        "src": "https://patentimages.storage.googleapis.com/ed/52/ee/a150878ce7b6e4/US4682159-drawings-page-2.png",
+        "alt": "US Patent 4,682,159 Figure 1 — HeadMaster system overview: operator wearing headset facing CRT with transmitter on top",
+        "caption": "US Patent 4,682,159 (Davison / Personics Corp, 1984) Figure 1: System overview showing operator wearing the three-receiver headset facing a CRT display with ultrasonic transmitter mounted on top. The circuitry box connects headset, transmitter, and computer. Source: Google Patents/USPTO."
+      },
+      {
+        "src": "https://patentimages.storage.googleapis.com/d9/1c/fe/381e9f833ffd64/US4682159-drawings-page-3.png",
+        "alt": "US Patent 4,682,159 Figure 2 — Headset receiver placement: left and right receivers along horizontal line near ears, top receiver centered above",
+        "caption": "US Patent 4,682,159 Figure 2: Headset receiver placement. Left and right receivers lie along a horizontal line at ear level; the top receiver sits centered above them, off the horizontal line. This three-point geometry isolates horizontal and vertical rotation components. Source: Google Patents/USPTO."
+      }
+    ],
+    "sources": [
+      {"text": "US Patent 4,682,159 — 'Apparatus and method for controlling a cursor on a computer display' (Davison / Personics Corp)", "url": "https://patents.google.com/patent/US4682159A/en"},
+      {"text": "Smithsonian National Museum of American History — HeadMaster collection entry", "url": "https://americanhistory.si.edu/collections/object/nmah_1297824"},
+      {"text": "Computer History Museum — HeadMaster catalog entry", "url": "https://www.computerhistory.org/collections/catalog/102662701"},
+      {"text": "Personics promotional brochure — 'Introducing HeadMaster' (1986)", "url": "https://docslib.org/doc/4664137/introducing-headmaster"},
+      {"text": "Prentke Romich — HeadMaster Plus Manual (full PDF)", "url": "https://file.prentrom.com/122/HeadMaster-Plus-Manual.pdf"},
+      {"text": "Angelo, Deterding & Weisman (1991) — Three-system head-pointer comparison study (HeadMaster, FreeWheel, LROP)", "url": "https://pubmed.ncbi.nlm.nih.gov/10147558/"},
+      {"text": "Open Assistive — Ultrasonic Head Tracker Mouse rebuild project with photos", "url": "https://openassistive.org/item/ultrasonicheadtrackermouse-zy9/"},
+      {"text": "RESNA 2003 — Head pointer technology comparison survey", "url": "https://www.resna.org/sites/default/files/legacy/conference/proceedings/2003/Papers/ComputerAccess/Anson_CA_Headpointers.htm"}
+    ],
+    "imageUrls": [
+      "https://patentimages.storage.googleapis.com/ed/52/ee/a150878ce7b6e4/US4682159-drawings-page-2.png",
+      "https://patentimages.storage.googleapis.com/d9/1c/fe/381e9f833ffd64/US4682159-drawings-page-3.png"
+    ]
+  },
+  "savedImages": [
+    "potential/headmaster/images/patent-fig1-system.png",
+    "potential/headmaster/images/patent-fig2-headset.png"
+  ]
+}
