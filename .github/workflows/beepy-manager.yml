@@ -66,6 +66,7 @@ jobs:
           DISPATCH_TOPIC: ${{ inputs.topic || '' }}
         run: |
           skip="false"
+          source_issue=""
 
           if [ "$GITHUB_EVENT_NAME" = "workflow_dispatch" ]; then
             topic="$DISPATCH_TOPIC"
@@ -73,6 +74,7 @@ jobs:
             action="$(jq -r '.action' "$GITHUB_EVENT_PATH")"
             number="$(jq -r '.issue.number' "$GITHUB_EVENT_PATH")"
             title="$(jq -r '.issue.title' "$GITHUB_EVENT_PATH")"
+            source_issue="$number"
             topic="Respond autonomously to issue #${number} (${action}): ${title}. Inspect the issue, acknowledge Tobowers if useful, classify it, and either act on one safe next step or clearly ask for the smallest human decision needed."
           elif [ "$GITHUB_EVENT_NAME" = "issue_comment" ]; then
             is_pr="$(jq -r '.issue.pull_request != null' "$GITHUB_EVENT_PATH")"
@@ -85,6 +87,7 @@ jobs:
               number="$(jq -r '.issue.number' "$GITHUB_EVENT_PATH")"
               title="$(jq -r '.issue.title' "$GITHUB_EVENT_PATH")"
               author="$(jq -r '.comment.user.login' "$GITHUB_EVENT_PATH")"
+              source_issue="$number"
               topic="Respond autonomously to @${author}'s latest comment on issue #${number}: ${title}. Read the full issue/comment thread with gh issue view before acting. Leave a direct issue reply unless the comment is duplicate/no-op, and either act on one safe next step or ask for the smallest human decision needed."
             fi
           else
@@ -93,10 +96,25 @@ jobs:
 
           {
             echo "skip=$skip"
+            echo "source_issue=$source_issue"
             echo "topic<<EOF"
             echo "$topic"
             echo "EOF"
           } >> "$GITHUB_OUTPUT"
+
+      - name: Acknowledge source issue
+        if: ${{ steps.manager_topic.outputs.skip != 'true' && steps.manager_topic.outputs.source_issue != '' }}
+        env:
+          RUN_URL: ${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}
+          SOURCE_ISSUE: ${{ steps.manager_topic.outputs.source_issue }}
+        run: |
+          body_file="$(mktemp)"
+          cat > "$body_file" <<EOF
+          Beepy saw this and started an autonomous pass on this thread.
+
+          Run: $RUN_URL
+          EOF
+          gh issue comment "$SOURCE_ISSUE" --body-file "$body_file"
 
       - name: Run Beepy manager
         id: manager_run
@@ -153,6 +171,22 @@ jobs:
         if: ${{ always() }}
         run: git status --short
 
+      - name: Report manager failure to source issue
+        if: ${{ steps.manager_topic.outputs.skip != 'true' && steps.manager_topic.outputs.source_issue != '' && steps.manager_run.outcome != 'success' }}
+        env:
+          RUN_URL: ${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}
+          SOURCE_ISSUE: ${{ steps.manager_topic.outputs.source_issue }}
+        run: |
+          body_file="$(mktemp)"
+          cat > "$body_file" <<EOF
+          Beepy's autonomous model pass did not finish cleanly, so I am leaving the failure signal here instead of going silent.
+
+          Run: $RUN_URL
+
+          The issue/comment trigger is active; the model step timed out or failed before it could complete the work. A later run can continue from this thread.
+          EOF
+          gh issue comment "$SOURCE_ISSUE" --body-file "$body_file"
+
       - name: Upload manager artifacts
         if: ${{ always() }}
         uses: actions/upload-artifact@v4
@@ -193,5 +227,5 @@ jobs:
             tsconfig.json
 
       - name: Fail if manager failed
-        if: ${{ steps.manager_topic.outputs.skip != 'true' && steps.manager_run.outcome != 'success' }}
+        if: ${{ steps.manager_topic.outputs.skip != 'true' && steps.manager_topic.outputs.source_issue == '' && steps.manager_run.outcome != 'success' }}
         run: exit 1
