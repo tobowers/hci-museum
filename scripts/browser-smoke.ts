@@ -12,6 +12,7 @@ const contentTypes: Record<string, string> = {
   ".css": "text/css; charset=utf-8",
   ".js": "text/javascript; charset=utf-8",
   ".json": "application/json; charset=utf-8",
+  ".txt": "text/plain; charset=utf-8",
   ".xml": "application/rss+xml; charset=utf-8",
   ".png": "image/png",
   ".jpg": "image/jpeg",
@@ -114,6 +115,11 @@ async function main() {
       if (!response?.ok()) throw new Error(`${feed}: HTTP ${response?.status() ?? "unknown"}`);
       const text = await page.textContent("body");
       if (!text?.includes("<rss") || !text.includes("<channel>")) throw new Error(`${feed}: missing RSS channel markup`);
+    }
+
+    for (const file of ["/llms.txt", "/llm.txt", "/robots.txt", "/sitemap.xml"]) {
+      const response = await page.goto(`${baseUrl}${file}`);
+      if (!response?.ok()) throw new Error(`${file}: HTTP ${response?.status() ?? "unknown"}`);
     }
 
     await page.goto(`${baseUrl}/`, { waitUntil: "networkidle" });

@@ -31,7 +31,7 @@ jobs:
       KIMI_MODEL: k2p7
       GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
       GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-      SCOUT_AGENT_TIMEOUT_MS: "1800000"
+      SCOUT_AGENT_TIMEOUT_MS: "600000"
       FAILED_RUN_ID: ${{ github.event.workflow_run.id }}
       FAILED_RUN_URL: ${{ github.event.workflow_run.html_url }}
       FAILED_WORKFLOW_NAME: ${{ github.event.workflow_run.name }}
@@ -56,7 +56,35 @@ jobs:
       - name: Install dependencies
         run: bun install --frozen-lockfile
 
+      - name: Report Beepy Manager failure directly
+        if: ${{ env.FAILED_WORKFLOW_NAME == 'Beepy Manager' }}
+        env:
+          TRIAGE_RUN_URL: ${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}
+        run: |
+          gh label create beepy --color 2f81f7 --description "Automated Beepy work" || true
+          gh label create qa --color d29922 --description "Quality assurance" || true
+          gh label create actions --color 8957e5 --description "GitHub Actions and automation" || true
+
+          body_file="$(mktemp)"
+          cat > "$body_file" <<EOF
+          The Beepy Manager workflow failed.
+
+          Failed run: ${FAILED_RUN_URL}
+          Failed head: ${FAILED_HEAD_BRANCH} @ ${FAILED_HEAD_SHA}
+          Triage run: ${TRIAGE_RUN_URL}
+
+          Beepy Manager failures are reported directly instead of launching another model-powered triage session. Manager failures are commonly model timeouts, and running a second agent to diagnose that can waste another full timeout window without producing a useful trace.
+          EOF
+
+          issue_number="$(gh issue list --state open --search "Beepy Manager workflow failed in:title" --json number --jq '.[0].number // empty')"
+          if [ -n "$issue_number" ]; then
+            gh issue comment "$issue_number" --body-file "$body_file"
+          else
+            gh issue create --title "Beepy Manager workflow failed" --body-file "$body_file" --label beepy --label qa --label actions
+          fi
+
       - name: Run Beepy action-failure triage
+        if: ${{ env.FAILED_WORKFLOW_NAME != 'Beepy Manager' }}
         id: triage_run
         continue-on-error: true
         run: bun run beepy:action-failure
@@ -73,7 +101,7 @@ jobs:
           path: potential/runs/*.action-failure.md
 
       - name: Report triage failure
-        if: ${{ steps.triage_run.outcome == 'failure' }}
+        if: ${{ steps.triage_run.outcome == 'failure' && env.FAILED_WORKFLOW_NAME != 'Beepy Manager' }}
         env:
           TRIAGE_RUN_URL: ${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}
         run: |
@@ -101,7 +129,7 @@ jobs:
           fi
 
       - name: Create autofix pull request
-        if: ${{ steps.triage_run.outcome == 'success' }}
+        if: ${{ steps.triage_run.outcome == 'success' && env.FAILED_WORKFLOW_NAME != 'Beepy Manager' }}
         uses: peter-evans/create-pull-request@v7
         with:
           token: ${{ secrets.GITHUB_TOKEN }}

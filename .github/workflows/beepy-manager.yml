@@ -8,6 +8,8 @@ permissions:
 on:
   schedule:
     - cron: "12 13 * * *"
+  issues:
+    types: [opened, reopened]
   workflow_dispatch:
     inputs:
       topic:
@@ -24,6 +26,10 @@ on:
         type: boolean
         default: true
 
+concurrency:
+  group: beepy-manager
+  cancel-in-progress: false
+
 jobs:
   manage:
     runs-on: ubuntu-latest
@@ -35,7 +41,7 @@ jobs:
       KIMI_MODEL: k2p7
       GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
       GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-      SCOUT_AGENT_TIMEOUT_MS: ${{ inputs.agent_timeout_ms || '1800000' }}
+      SCOUT_AGENT_TIMEOUT_MS: ${{ inputs.agent_timeout_ms || '900000' }}
     steps:
       - name: Checkout
         uses: actions/checkout@v4
@@ -56,7 +62,7 @@ jobs:
         id: manager_run
         continue-on-error: true
         env:
-          MANAGER_TOPIC: ${{ inputs.topic || 'operate the HCI Museum, manage the GitHub issue backlog, and make one focused improvement' }}
+          MANAGER_TOPIC: ${{ inputs.topic || 'scan all open GitHub issues, decide whether to comment or act, and make at most one focused improvement if appropriate' }}
         run: bun run beepy:manager -- "$MANAGER_TOPIC"
 
       - name: Typecheck generated changes
@@ -117,16 +123,16 @@ jobs:
             public/
 
       - name: Create manager pull request
-        if: ${{ (github.event_name == 'schedule' || inputs.create_pr) && steps.manager_run.outcome == 'success' }}
+        if: ${{ (github.event_name == 'schedule' || github.event_name == 'issues' || inputs.create_pr) && steps.manager_run.outcome == 'success' }}
         uses: peter-evans/create-pull-request@v7
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
           branch: beepy-manager/${{ github.run_id }}
           delete-branch: true
           commit-message: Apply Beepy manager update
-          title: "Beepy manager: ${{ inputs.topic || 'scheduled daily run' }}"
+          title: "Beepy manager: ${{ inputs.topic || 'issue/backlog run' }}"
           body: |
-            Automated Beepy manager output for `${{ inputs.topic || 'scheduled daily run' }}`.
+            Automated Beepy manager output for `${{ inputs.topic || 'issue/backlog run' }}`.
 
             Validation:
             - Typecheck: `${{ steps.generated_typecheck.outcome }}`

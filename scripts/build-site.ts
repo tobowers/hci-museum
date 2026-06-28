@@ -34,6 +34,7 @@ await Bun.write(indexPath, html.replace("</body>", `${renderAnalyticsScript()}\n
 const { buildAllExhibitPages, buildExhibitsIndexHtml } = await import("./build-exhibits");
 const { buildAllBlogPages } = await import("./build-blog");
 const { buildCollectionFeed, buildBlogFeed } = await import("./build-feeds");
+const { buildLlmsText, buildRobotsTxt, buildSitemap } = await import("./build-indexes");
 const { buildMarkdownPage } = await import("./build-pages");
 const { buildExhibitSocialImages } = await import("./build-social-images");
 const { exhibits } = await import("../src/data");
@@ -65,6 +66,11 @@ const about = await buildMarkdownPage({ file: `${root}docs/about.md`, active: "a
 }
 
 await Bun.write(`${outdir}/.nojekyll`, "");
+const llmsText = await buildLlmsText();
+await Bun.write(`${outdir}/llms.txt`, llmsText);
+await Bun.write(`${outdir}/llm.txt`, llmsText);
+await Bun.write(`${outdir}/robots.txt`, buildRobotsTxt());
+await Bun.write(`${outdir}/sitemap.xml`, await buildSitemap());
 await Bun.$`mkdir -p ${outdir}/feeds`;
 await Bun.write(`${outdir}/feeds/collection.xml`, buildCollectionFeed());
 await Bun.write(`${outdir}/feeds/blog.xml`, await buildBlogFeed());
