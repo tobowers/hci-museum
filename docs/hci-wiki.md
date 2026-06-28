@@ -2457,9 +2457,6 @@ At SIGGRAPH 1991, the system was demonstrated combined with a Fake Space Labs BO
 ![SIGGRAPH 1991 Immersive Pavilion — Convolvotron demo with BOOM viewer and SGI workstation](../assets/wiki/convolvotron-1.jpg)
 *SIGGRAPH 1991 Immersive Pavilion: 'Virtual Acoustic Environments — The Convolvotron' by Elizabeth Wenzel and Scott Foster. The demo combined a Crystal River Engineering Convolvotron with a Fake Space Labs BOOM viewer and Silicon Graphics workstation. Source: ACM SIGGRAPH History Archives.*
 
-![Crystal River Engineering Audio Reality logo](../assets/wiki/convolvotron-2.png)
-*Crystal River Engineering's 'Audio Reality' branding for their high-end 3D audio technology. Source: Wikimedia Commons.*
-
 ### Sources
 
 1. SIGGRAPH History Archive — Virtual Acoustic Environments: The Convolvotron — https://history.siggraph.org/experience/virtual-acoustic-environments-the-convolvotron-by-wenzel/

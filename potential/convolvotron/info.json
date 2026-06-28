@@ -36,11 +36,6 @@
         "src": "https://history.siggraph.org/wp-content/uploads/2023/09/1991-Immersive-Pavilion-Foster_Virtual-Acoustic-Environments.jpg",
         "alt": "SIGGRAPH 1991 Immersive Pavilion — Convolvotron demo with BOOM viewer and SGI workstation",
         "caption": "SIGGRAPH 1991 Immersive Pavilion: 'Virtual Acoustic Environments — The Convolvotron' by Elizabeth Wenzel and Scott Foster. The demo combined a Crystal River Engineering Convolvotron with a Fake Space Labs BOOM viewer and Silicon Graphics workstation. Source: ACM SIGGRAPH History Archives."
-      },
-      {
-        "src": "https://en.wikipedia.org/wiki/File:Audio_Reality_Logo_-_Crystal_River_Engineering.png",
-        "alt": "Crystal River Engineering Audio Reality logo",
-        "caption": "Crystal River Engineering's 'Audio Reality' branding for their high-end 3D audio technology. Source: Wikimedia Commons."
       }
     ],
     "sources": [
@@ -55,12 +50,10 @@
     ],
     "imageUrls": [
       "https://history.siggraph.org/wp-content/uploads/2023/09/1991-Immersive-Pavilion-Foster_Virtual-Acoustic-Environments.jpg",
-      "https://en.wikipedia.org/wiki/File:Audio_Reality_Logo_-_Crystal_River_Engineering.png#/media/File:Audio_Reality_Logo_-_Crystal_River_Engineering.png",
       "http://www-cdr.stanford.edu/DesignSpace/sponsors/ctron.gif"
     ]
   },
   "savedImages": [
-    "potential/convolvotron/images/siggraph-1991-demo.jpg",
-    "potential/convolvotron/images/cre-logo.png"
+    "potential/convolvotron/images/siggraph-1991-demo.jpg"
   ]
 }
