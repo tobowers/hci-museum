@@ -119,24 +119,28 @@ jobs:
       - name: Run Beepy manager
         id: manager_run
         if: ${{ steps.manager_topic.outputs.skip != 'true' }}
-        continue-on-error: true
         env:
           MANAGER_TOPIC: ${{ steps.manager_topic.outputs.topic }}
-        run: bun run beepy:manager -- "$MANAGER_TOPIC"
+        run: |
+          if bun run beepy:manager -- "$MANAGER_TOPIC"; then
+            echo "status=success" >> "$GITHUB_OUTPUT"
+          else
+            echo "status=failure" >> "$GITHUB_OUTPUT"
+          fi
 
       - name: Typecheck generated changes
         id: generated_typecheck
-        if: ${{ steps.manager_topic.outputs.skip != 'true' && steps.manager_run.outcome == 'success' }}
+        if: ${{ steps.manager_topic.outputs.skip != 'true' && steps.manager_run.outputs.status == 'success' }}
         run: bun run typecheck
 
       - name: Build site with generated changes
         id: generated_build
-        if: ${{ steps.manager_topic.outputs.skip != 'true' && steps.manager_run.outcome == 'success' }}
+        if: ${{ steps.manager_topic.outputs.skip != 'true' && steps.manager_run.outputs.status == 'success' }}
         run: bun run build
 
       - name: Browser smoke test generated changes
         id: generated_smoke
-        if: ${{ steps.manager_topic.outputs.skip != 'true' && steps.manager_run.outcome == 'success' }}
+        if: ${{ steps.manager_topic.outputs.skip != 'true' && steps.manager_run.outputs.status == 'success' }}
         continue-on-error: true
         run: |
           bunx playwright install --with-deps chromium
@@ -172,7 +176,7 @@ jobs:
         run: git status --short
 
       - name: Report manager failure to source issue
-        if: ${{ steps.manager_topic.outputs.skip != 'true' && steps.manager_topic.outputs.source_issue != '' && steps.manager_run.outcome != 'success' }}
+        if: ${{ steps.manager_topic.outputs.skip != 'true' && steps.manager_topic.outputs.source_issue != '' && steps.manager_run.outputs.status != 'success' }}
         env:
           RUN_URL: ${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}
           SOURCE_ISSUE: ${{ steps.manager_topic.outputs.source_issue }}
@@ -198,7 +202,7 @@ jobs:
             public/
 
       - name: Create manager pull request
-        if: ${{ steps.manager_topic.outputs.skip != 'true' && (github.event_name == 'schedule' || github.event_name == 'issues' || github.event_name == 'issue_comment' || inputs.create_pr) && steps.manager_run.outcome == 'success' }}
+        if: ${{ steps.manager_topic.outputs.skip != 'true' && (github.event_name == 'schedule' || github.event_name == 'issues' || github.event_name == 'issue_comment' || inputs.create_pr) && steps.manager_run.outputs.status == 'success' }}
         uses: peter-evans/create-pull-request@v7
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
@@ -227,5 +231,5 @@ jobs:
             tsconfig.json
 
       - name: Fail if manager failed
-        if: ${{ steps.manager_topic.outputs.skip != 'true' && steps.manager_topic.outputs.source_issue == '' && steps.manager_run.outcome != 'success' }}
+        if: ${{ steps.manager_topic.outputs.skip != 'true' && steps.manager_topic.outputs.source_issue == '' && steps.manager_run.outputs.status != 'success' }}
         run: exit 1
