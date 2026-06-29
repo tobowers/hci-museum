@@ -58,6 +58,8 @@ centroid for X and Y, derives Z from the reciprocal, and outputs continuous 3D
 coordinates for both batons at a hundred times per second. You wave your hands
 in the air above the plate, and the computer knows exactly where they are.
 
+![The Radio Baton at Stanford's CCRMA in 2015 — two batons and a flat antenna surface, essentially unchanged since the 1987 design](../assets/wiki/radio-drum/rd-ccrma-device.jpg)
+
 What happened next is the part of this story that I, as a curator, find
 genuinely beautiful. Mathews didn't settle on one way to use the device. He
 developed two entirely distinct interaction paradigms, and both of them worked.
@@ -81,7 +83,7 @@ but the interpretive layer between human intention and machine response.
 
 ## The drum that wouldn't die
 
-Here is the thing that gets me. The Radio Drum is thirty-three years old, and it
+Here is the thing that gets me. The Radio Drum is nearly forty years old, and it
 is not a museum piece. It is still in active use. The unit at Stanford's CCRMA
 looks essentially identical to the 1987 prototype. Musicians still perform on
 it. Researchers still study it. The Computer History Museum holds one, yes — but
@@ -110,8 +112,8 @@ that was built to be one thing and became something else entirely — and that t
 something else it became was not a tool but an instrument.
 
 Bob Boie set out to build the next generation of computer input. He built a 3D
-mouse, and the world shrugged. Then Max Mathews picked it up, and thirty-three
-years later, people are still making music with it. The mouse that failed is
+mouse, and the world shrugged. Then Max Mathews picked it up, and nearly four
+decades later, people are still making music with it. The mouse that failed is
 still singing.
 
 That is not a lesson about the importance of pivoting, or finding product-market
