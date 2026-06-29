@@ -1,0 +1,81 @@
+{
+  "slug": "talking-signs",
+  "title": "Talking Signs",
+  "year": "1979",
+  "subtitle": "The invisible city: infrared beams broadcasting spoken directions that only you can hear, turning the built environment into an ambient interface for blind navigation.",
+  "why_scout_cares": "This is ambient HCI decades before the term existed. Instead of putting a computer on the user, Talking Signs embedded intelligence into the environment — a network of infrared transmitters that broadcast spoken labels on modulated light beams. A blind person carrying a pocket-sized receiver could 'read' the city by pointing it around: a doorway would whisper 'Market Street BART entrance,' a bus would announce its route number, an ATM would explain how to use it. The interaction model is remarkably elegant: the signal gets clearer and louder as you point toward it, providing directional feedback that guides you physically toward your destination. It used infrastructure as interface — and it worked well enough to become US federal building code (ADAAG 703.7) and spawn a 40-year research lineage that continues today as the free overTHERE smartphone app. The 1991 technical manual (the full Fall 1991 issue of the Smith-Kettlewell Technical File) is a beautiful primary source with complete schematics, deployment philosophy, and installation guides. This is the story of making the world speak — and the economics that kept it from speaking everywhere.",
+  "search_terms": [
+    "Talking Signs remote infrared signage 1979",
+    "William Loughborough Talking Lights",
+    "Smith-Kettlewell Talking Signs infrared",
+    "remote infrared audible signage ADA",
+    "SKTF Fall 1991 Talking Signs",
+    "overTHERE app Smith-Kettlewell",
+    "Crandall Bentzen Talking Signs transit"
+  ],
+  "research": {
+    "title": "Talking Signs / Remote Infrared Audible Signage (RIAS)",
+    "year": "1979",
+    "by": "Smith-Kettlewell Eye Research Institute (SKERI), San Francisco. Invented by William (Bill) Loughborough.",
+    "tags": ["Accessibility", "Infrared", "Navigation", "Ambient Interface", "Environmental HCI", "Assistive Technology", "Wayfinding"],
+    "overview": "Talking Signs (originally 'Talking Lights') is a remote infrared audible signage system that allows blind and visually impaired travelers to independently locate and identify destinations, transit facilities, and services. First conceived by William Loughborough in 1979 at the Smith-Kettlewell Eye Research Institute in San Francisco, the system consists of fixed infrared transmitters that continuously broadcast digitally recorded spoken messages on modulated infrared light beams, and handheld receivers carried by blind users. When a user points the receiver toward a transmitter, the spoken message is heard through a built-in speaker; the signal grows clearer and louder as the user points more directly toward the source, providing intuitive directional feedback. Unlike audio beacons that broadcast sound to everyone in an area, Talking Signs are silent to the unaided ear and provide information only to the person carrying a receiver — preserving privacy and avoiding noise pollution.\n\nThe technology evolved through the 1980s with contributions from Bill Crandall, Bill Gerrey, Albert Alden, Erich Sutter, and B.L. Bentzen at SKERI. Loughborough left SKERI to found Love Electronics in Goldendale, Washington, which commercialized the system with transmitters priced at $150 and receivers at $250. By the mid-1990s, large-scale deployments were installed in San Francisco's Powell Street BART/Muni station (93 transmitters across three levels), Market Street intersections, the San Francisco New Main Library, and transit systems in Seattle, New York, and Washington DC. Mitsubishi later produced transmitters and receivers at scale. Formal human-factors studies demonstrated dramatic improvements in independent navigation: blind participants using Talking Signs began crossing streets during the Walk phase 99% of the time (compared to 66% without) and needed help finding crosswalks only 1% of the time (compared to 19%). In 2000, the technology was incorporated into US federal accessibility standards (ADAAG 703.7). In 2016, Joshua Miele at SKERI created 'overTHERE,' a free iOS app that simulates the directional pointing interface using GPS and compass data, giving the Talking Signs concept a software-only afterlife used by thousands daily.",
+    "deepDive": [
+      {
+        "heading": "Infrared Beams as Ambient Interface",
+        "text": "The core interaction is deceptively simple: a transmitter at a fixed location continuously broadcasts a digitally recorded spoken message (e.g., 'Powell Street BART station — escalator to trains') modulated onto a 25 kHz FM subcarrier on infrared light at 850–950 nm wavelength. A blind user carries a pocket-sized receiver (4 × 2 × 1 inches) with a photodiode sensor behind a directional aperture. Scanning the environment by pointing the receiver in different directions, the user hears spoken messages when the aperture is aligned with a transmitter. The signal provides natural directional feedback: clarity and loudness increase as pointing accuracy improves and distance decreases; pointing away causes the signal to become staticky and eventually squelch. Multiple overlapping signals are resolved by FM capture effect — the stronger signal (closer or more directly pointed) captures the receiver, requiring approximately a 20 dB power ratio. Because infrared is line-of-sight and blocked by walls, it naturally matches the behavior of visual signs — you can't 'hear' a sign around a corner any more than you could see one. The transmitter broadcasts continuously, meaning the user chooses when to access the information (a deliberate ADA-conscious design choice to keep the system 'refusable'). The intelligence is entirely in the receiver; the transmitter is a 'dumb' repeater. This split — smart receiver, dumb infrastructure — presages the smartphone-as-sensor paradigm by decades."
+      },
+      {
+        "heading": "The 1991 SKTF — A Technical Primary Source of Extraordinary Depth",
+        "text": "The Fall 1991 issue of the Smith-Kettlewell Technical File (SKTF), edited by Bill Gerrey and still available in full online, is one of the richest primary source documents in the museum's research archive. Across dozens of pages, it provides complete schematics for both transmitters and receivers, a bill of materials with prices, beam-dispersion physics calculations, installation geometry guidelines, human-factors deployment philosophy, and circuit-level explanations. The transmitter used a 512K-bit EPROM for ~8 seconds of sampled speech at 64 Kbps, modulating an FM subcarrier with a CD4046 phase-locked loop. The receiver used six Siemens BPW34 photodiodes in parallel behind a Kodak Wratten Filter No. 87C (passing 80% IR, blocking 99.5% visible light), with an LM311 comparator providing squelch with RC hang time. The document addresses practical deployment concerns: how to align transmitters so beams don't bleed between floors, how to handle direct sunlight (which contains IR), how to design street-sign arrays with 48 dual-LEDs for crosswalk coverage. The document even includes a troubleshooting section and a parts-ordering guide with 1991 pricing: $0.60 per LED in small quantities, $150 for a custom-message transmitter, $250 for a receiver. Gerhard Sollner of the SKTF later wrote a supplementary issue with refinements."
+      },
+      {
+        "heading": "Human Factors: The Science of Ambient Wayfinding",
+        "text": "Talking Signs is one of the most rigorously evaluated accessibility interventions in HCI history. Bill Crandall and B.L. Bentzen at SKERI, working with UCSB geographers James Marston and Reginald Golledge, conducted multi-year field studies funded by the Federal Transit Administration and PATH/UCTC. At San Francisco's Powell Street Station, 35 of 36 blind participants successfully completed easy routes independently, with 24 completing medium and hard routes — including participants with only written instructions (no hands-on training). At street intersections, the improvement was dramatic: participants using Talking Signs began crossing during the Walk phase 99% of the time (vs. 66% without), started from within the crosswalk 97% of the time (vs. 70%), and needed help finding the crosswalk only 1% of the time (vs. 19%). One participant remarked that in Powell Station he was 'truly equal' to sighted travelers. The formal Steering Committee recommended RIAS as the 'preferred technology enabling print-handicapped persons to travel independently in transit facilities.' These findings directly informed the US Access Board's adoption of RIAS into building code ADAAG 703.7, which specifies the modulation frequency (25 kHz), wavelength range (850-950 nm), and optical power density (26 picowatts/mm² at receiver aperture) as federal requirements."
+      },
+      {
+        "heading": "Infrastructure Economics: Why the City Didn't All Speak",
+        "text": "Despite the proven effectiveness, Talking Signs never achieved universal deployment. SKERI's own assessment is candid: 'The question of who would pay for large-scale transmitter installation and receiver distribution proved insurmountable, and Talking Signs were never adopted broadly enough to make them a universal accommodation.' The capital cost of installing and maintaining hundreds of physical transmitters across a city — each requiring power, weatherproofing, and periodic re-recording — was a barrier that neither transit agencies nor city governments were willing to fund at scale. The 1995 Powell Street installation (93 transmitters, $300/sign for interior deployments) was funded by an FTA demonstration grant, not an operational budget. The receivers, at $250 each, also required distribution and maintenance. This infrastructure problem — brilliant interaction design undone by deployment economics — is a recurring theme in ambient and ubiquitous computing, and Talking Signs is one of its earliest and most instructive case studies."
+      },
+      {
+        "heading": "The Digital Afterlife: overTHERE (2016)",
+        "text": "In 2016, Smith-Kettlewell scientist Joshua Miele — who is himself blind — released 'overTHERE,' a free iOS app that translates the Talking Signs interaction model into a software-only experience. Instead of physical infrared transmitters, overTHERE uses Google Places and OpenStreetMap data as 'virtual transmitters' and the iPhone's compass and GPS as a 'virtual receiver.' The user holds the phone flat and sweeps it around their body; as the phone points toward a nearby destination, that destination is announced through headphones or the speaker, with audio spatialization providing the same directional feedback as the original hardware. The app supports 20+ languages and is used by thousands of blind travelers daily worldwide — solving the infrastructure problem by piggybacking on a device users already carry. Miele developed overTHERE at a Google MakeAthon in 2015, where it won the Improved Mobility prize. The project page at SKERI notes that funding is being sought for a new version as of 2025. This 40-year arc — from modulated IR beams to smartphone compasses, from dedicated hardware to ubiquitous platforms — makes Talking Signs one of the longest continuously researched interaction models in HCI."
+      }
+    ],
+    "team": [
+      {"name": "William (Bill) Loughborough", "note": "Original inventor (1979). Published 'Talking Lights' in the Journal of Visual Impairment & Blindness. Left SKERI to found Love Electronics, which commercialized the system."},
+      {"name": "William (Bill) Crandall, PhD", "note": "Principal investigator at SKERI's Rehabilitation Engineering Research Center. Led transit deployments and human-factors evaluations. Presented at CSUN 1998."},
+      {"name": "Billie Louise (B.L.) Bentzen, PhD", "note": "Co-investigator, Accessible Design for the Blind. Led intersection-crossing research. Co-authored the definitive Project ACTION transit guide (1995)."},
+      {"name": "William (Bill) Gerrey", "note": "Editor of the Smith-Kettlewell Technical File. Designed receiver circuits and wrote the definitive Fall 1991 SKTF issue on Talking Signs."},
+      {"name": "Dr. Erich Sutter", "note": "Designed the first FM receiver for Talking Signs; chose FM modulation to reject ambient light interference."},
+      {"name": "Albert Alden", "note": "Designed front-end receiver circuitry and digital modulators."},
+      {"name": "James Marston, PhD & Reginald Golledge, PhD", "note": "UC Santa Barbara geographers. Led multi-year field experiments on campus, transit, and intersection deployments. Secured PATH/UCTC research grants."},
+      {"name": "Joshua Miele, PhD", "note": "SKERI scientist. Created Virtual Talking Signs project (2011) and the overTHERE iOS app (2016), continuing the Talking Signs lineage into the smartphone era."},
+      {"name": "Smith-Kettlewell Eye Research Institute (SKERI)", "note": "San Francisco-based research institute focused on blindness and visual impairment. Home to the Talking Signs project for over 40 years. Published the SKTF and hosted the RERC program."}
+    ],
+    "media": [
+      {"src": "https://www.ski.org/wp-content/uploads/2023/05/talkingsigns8_1.jpg", "alt": "Talking Signs handheld receiver and wall-mounted transmitter", "caption": "Talking Signs receiver (left) and wall-mounted infrared transmitter (right). (Smith-Kettlewell Eye Research Institute)"},
+      {"src": "https://ntlrepository.blob.core.windows.net/docs/95-0051-7.html", "alt": "Powell Street Station floor plan with Talking Signs locations", "caption": "Powell Street BART/Muni Station with 93 Talking Signs transmitters across three levels. (FTA Project ACTION, 1995)"}
+    ],
+    "sources": [
+      {"text": "Wikipedia: Remote Infrared Audible Signage", "url": "https://en.wikipedia.org/wiki/Remote_infrared_audible_signage"},
+      {"text": "SKTF Fall 1991 (complete issue): Talking Signs schematics, parts list, deployment guide", "url": "https://www.ski.org/sktf-fall-1991/"},
+      {"text": "SKERI: Talking Signs project page (40-year history)", "url": "https://www.ski.org/project/talking-signs/"},
+      {"text": "Crandall, Bentzen, Myers, Steed (1995): 'Talking Signs Remote Infrared Signage: A Guide for Transit Managers' (FTA Project ACTION)", "url": "https://ntlrepository.blob.core.windows.net/docs/95-0051-7.html"},
+      {"text": "Crandall et al. (1999): 'Remote Infrared Signage Evaluation for Transit Stations and Intersections,' JRRD 36(4)", "url": "http://www.rehab.research.va.gov/jour/99/36/4/crandall.pdf"},
+      {"text": "Crandall (1998): 'Talking Signs Remote Infrared Audible Signage,' CSUN 1998 Conference", "url": "https://www.dinf.ne.jp/doc/english/Us_Eu/conf/csun_98/csun98_063.html"},
+      {"text": "Loughborough (1979): 'Talking Lights,' JVIB 73(6)", "url": "https://www.ski.org/publication/talking-lights/"},
+      {"text": "Brabyn & Brabyn (1983): 'An Evaluation of Talking Signs for the Blind,' Human Factors 25(1)", "url": "https://pubmed.ncbi.nlm.nih.gov/6840772/"},
+      {"text": "Marston & Golledge: UCSB RIAS research overview", "url": "https://people.geog.ucsb.edu/~marstonj/DIS/OVERVIEW.html"},
+      {"text": "Marston & Golledge photos and illustrations", "url": "https://people.geog.ucsb.edu/~marstonj/PICTURES.html"},
+      {"text": "SKERI: overTHERE app project page", "url": "https://www.ski.org/project/overthere/"},
+      {"text": "ADA Accessibility Guidelines (ADAAG) 703.7 — Remote Infrared Audible Sign Systems", "url": "https://www.access-board.gov/adaag-1991-2002.html"}
+    ],
+    "imageUrls": [
+      "https://www.ski.org/wp-content/uploads/2023/05/talkingsigns8_1.jpg",
+      "https://www.ski.org/project/talking-signs/",
+      "https://people.geog.ucsb.edu/~marstonj/PICTURES.html",
+      "https://ntlrepository.blob.core.windows.net/docs/95-0051-7.html"
+    ]
+  },
+  "savedImages": []
+}
