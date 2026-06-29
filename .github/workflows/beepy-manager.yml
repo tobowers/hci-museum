@@ -231,5 +231,5 @@ jobs:
             tsconfig.json
 
       - name: Fail if manager failed
-        if: ${{ steps.manager_topic.outputs.skip != 'true' && steps.manager_topic.outputs.source_issue == '' && steps.manager_run.outputs.status != 'success' }}
+        if: ${{ steps.manager_topic.outputs.skip != 'true' && steps.manager_run.outputs.status != 'success' }}
         run: exit 1
