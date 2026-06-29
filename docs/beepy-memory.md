@@ -32,22 +32,29 @@ GitHub operating loop:
 - Close issues only when the corresponding PR is merged or the task is genuinely no longer relevant.
 - If no safe code/content change is ready, do backlog grooming: clarify issues, add acceptance criteria, or open a `needs-human` issue.
 
-Known collection gaps (updated 2026-06-28):
-- ~~Haptic/tactile feedback devices~~ — Filled: GROPE-III (1990), 6-DOF force-feedback molecular docking
+Known collection gaps (updated 2026-06-29):
+- ~~Haptic/tactile feedback devices~~ — Filled: GROPE-III (1990) and now Minsky Sandpaper (1990), computational haptics origin
 - ~~Eye-tracking interfaces from the era~~ — Filled: EyeTyper (1983), first commercial camera-based eye-typing device
 - ~~Puff/sip or breath-based interfaces~~ — Filled: Nintendo Hands Free Controller (1989), chin joystick + sip-and-puff
 - ~~Early speech recognition-only systems~~ — Filled: DragonDictate (1989), first large-vocabulary speech-to-text dictation
-- New modality: 6-DOF isometric force input — Filled: DLR Control Ball (1981), force-sensing ball from German Aerospace Center
+- ~~6-DOF isometric force input~~ — Filled: DLR Control Ball (1981), force-sensing ball from German Aerospace Center
 - ~~Spatial 3D audio as HCI modality~~ — Filled: Convolvotron (1988), first real-time binaural spatializer from NASA VIEW lab
 - ~~Head-operated cursor control~~ — Filled: HeadMaster (1986), ultrasonic head-tracking cursor device by Personics Corp
 - ~~Full-body VR tracking~~ — Filled: VPL DataSuit (1989), fiber-optic full-body suit completing the VPL triptych
+- ~~Professional creative workstation with novel HCI~~ — Filled: Quantel Paintbox (1981), first pressure-sensitive stylus for broadcast graphics
+- ~~Intraoral/tongue-operated interface~~ — Filled: Tongue Touch Keypad (1991), 9-key palatal retainer with magnetic-flux transmitter
 
 Deferred strong candidates:
 - SynthAxe (1985): <100 units, $13K MIDI guitar controller, CHM "curator's wish." Rich sources via Allan Holdsworth community, MusicRadar, CHM blog. Revisit when adding another music HCI artifact.
-- Quantel Paintbox (1981): $250K broadcast graphics system with pressure-sensitive stylus. Overlaps with existing tablet/stylus devices but distinct in professional/broadcast context. Rich sources.
+- Quantel Paintbox (1981): ~~$250K broadcast graphics system with pressure-sensitive stylus. Overlaps with existing tablet/stylus devices but distinct in professional/broadcast context. Rich sources.~~ — Promoted to collection 2026-06-29
 - ~~EyeTyper (1983)~~ — Promoted to collection 2026-06-26
-- Minsky Sandpaper (1990): Computational haptics origin. 2-DOF force-feedback joystick synthesizing surface textures. MIT/UNC. Rich intellectual lineage.
+- Minsky Sandpaper (1990): ~~Computational haptics origin. 2-DOF force-feedback joystick synthesizing surface textures. MIT/UNC. Rich intellectual lineage.~~ — Promoted to collection 2026-06-29
 - ~~DragonDictate (1989-90)~~ — Promoted to collection 2026-06-26
+- Aesthedes (1984): Dutch 6-screen design workstation with custom designer's keyboard, no-overlap UI, 10× Motorola 68000 CPUs, 220 kg. Two fully restored working units at HomeComputerMuseum Netherlands. Rich image sources available from working museum units. Price ~$150K, used for banknote design (Dutch 25-guilder note). Radical UI philosophy: everything visible, no overlapping windows, 64 layers on 64,000×64,000 canvas. Strong candidate for future run.
+- Hotz MIDI Translator (1990): Flat force-sensing-resistor pad grid with no moving parts, dynamic key reassignment, 10 parallel processors. $6,000 at launch. Used by Fleetwood Mac on Behind the Mask tour. Interesting rethinking of musical instrument interface but overlaps with Fairlight CMI, Radio Drum already in collection. Defer until music HCI section is revisited. Good source availability via Atari ST community and Craig Anderton's 1990 START magazine article.
+- DataSoft Le Stick (1981): First commercial motion-sensitive (tilt) video game controller. Mercury-filled core triggers contacts on tilt. Fun, weird, commercially released but interaction model is simple tilt — less novel than other candidates. Good source availability.
+- Laser Harp (1980–81, Bernard Szajner): Optical beam interruption as musical instrument. Performer breaks laser beams with hands to trigger MIDI signals. Famous via Jean-Michel Jarre. More art installation than HCI artifact per museum criteria. Distant overlap with Put-That-There and optical gestural systems.
+- ~~Tongue Touch Keypad (1991)~~ — Promoted to collection 2026-06-29
 - ~~Heuristics SpeechLab (1976)~~ — Remained deferred; DragonDictate promoted instead as more significant interaction model
 - Buchla Thunder (1989): Multi-touch pressure+position capacitive MIDI controller by Don Buchla. <100 units. Defer until another music HCI artifact is added.
 - Lyricon (1978): First electronic wind controller. Breath+lip+finger transduction. Computone Inc. ~200 total units. Famously heard on Steely Dan's "Peg" and Michael Jackson's "Billie Jean." Defer until another music HCI artifact is added.
