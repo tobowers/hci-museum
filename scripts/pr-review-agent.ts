@@ -1,6 +1,7 @@
 #!/usr/bin/env bun
 import fs from "node:fs";
 import path from "node:path";
+import { execFileSync } from "node:child_process";
 import { closeOpencode, opencodeText, resolveModelRef } from "./opencode-runner";
 import { errorData } from "./run-trace";
 
@@ -34,6 +35,20 @@ function slugify(text: string): string {
     .slice(0, 64);
 }
 
+function git(args: string[]): string {
+  return execFileSync("git", args, { encoding: "utf-8", maxBuffer: 12 * 1024 * 1024 }).trim();
+}
+
+function isImageLike(file: string): boolean {
+  return /(^|\/)(assets\/wiki|assets\/social)\//.test(file) || /\.(avif|gif|ico|jpe?g|png|svg|webp)$/i.test(file);
+}
+
+function bulletList(items: string[], limit = 80): string {
+  const shown = items.slice(0, limit).map((item) => `- ${item}`);
+  if (items.length > limit) shown.push(`- ... ${items.length - limit} more`);
+  return shown.length ? shown.join("\n") : "- none";
+}
+
 async function main() {
   requireEnv("KIMI_API_KEY");
   requireEnv("GH_TOKEN");
@@ -47,6 +62,13 @@ async function main() {
   const headSha = requireEnv("PR_HEAD_SHA");
   const headRepo = requireEnv("PR_HEAD_REPO");
   const repository = requireEnv("GITHUB_REPOSITORY");
+
+  const diffBase = `origin/${baseRef}...HEAD`;
+  const changedFiles = git(["diff", "--name-only", diffBase]).split("\n").filter(Boolean);
+  const imageFiles = changedFiles.filter(isImageLike);
+  const textFiles = changedFiles.filter((file) => !isImageLike(file));
+  const diffStat = git(["diff", "--stat", diffBase]);
+  const reviewScale = headRef.startsWith("curator-scout/") || changedFiles.length > 10 ? "large-curator" : "standard";
 
   fs.mkdirSync(RUN_DIR, { recursive: true });
   const stamp = new Date().toISOString().replace(/[:.]/g, "-");
@@ -69,6 +91,21 @@ Pull request:
 - Head: ${headRepo}:${headRef} at ${headSha}
 - Base: ${baseRef}
 
+Diff summary:
+- Review scale: ${reviewScale}
+- Changed files: ${changedFiles.length}
+- Text/source files: ${textFiles.length}
+- Image/binary-like files: ${imageFiles.length}
+
+Diff stat:
+${diffStat || "(no diff stat)"}
+
+Text/source changed files:
+${bulletList(textFiles)}
+
+Image/binary-like changed files:
+${bulletList(imageFiles)}
+
 Operating context:
 - The workflow has checked out the PR head branch.
 - This is a fresh opencode session. Do not rely on any prior review conversation.
@@ -83,6 +120,9 @@ Review objective:
 Required review steps:
 - Inspect PR metadata with gh, for example: gh pr view ${prNumber} --json number,title,author,baseRefName,headRefName,mergeable,mergeStateStatus,files,url
 - Inspect the diff against origin/${baseRef}; use git diff and gh pr diff as useful.
+- For large curator/content PRs, keep review bounded: inspect file lists, stats, changed text/data/source files, and source metadata. Do not attempt exhaustive prose review of every generated paragraph when deterministic checks pass and the change pattern is consistent.
+- Do not open, read, OCR, describe, or visually analyze image/binary assets during PR review. Treat images as files to validate by path, type, presence, build output, and browser smoke tests. Review captions/source metadata in text files instead.
+- Prefer commands like git diff --name-status ${diffBase}, git diff --stat ${diffBase}, and targeted text diffs. Avoid dumping huge binary/image diffs or full generated pages into context.
 - Run bun run typecheck.
 - Run bun run build.
 - Run bun run smoke:browser when the PR changes site-facing UI, routing, data, images, docs rendered on the site, or build output. Install Chromium first with bunx playwright install --with-deps chromium if needed.
@@ -94,6 +134,7 @@ Decision rules:
 - If the PR has merge conflicts, try to resolve them only when straightforward and low risk. Otherwise comment and leave it open.
 - Never merge if verification fails, the PR is still dirty/conflicting, the change is unclear, required assets are missing, generated content looks hallucinated or unsourced, or human taste/policy judgment is needed.
 - Never merge PRs that modify GitHub Actions, opencode configuration, this PR-review agent, secrets handling, or merge permissions unless the change is trivial and clearly safe. Prefer leaving those for human review.
+- Do not request human review solely because a curator-scout PR is large or image-heavy. If deterministic checks pass and the text/source review finds no concrete risk, merge it. Ask for human review only for a specific unresolved risk.
 
 GitHub communication:
 - If you fix, block, or decline to merge, comment on the PR using a real Markdown body file.
