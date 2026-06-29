@@ -1,7 +1,7 @@
 ---
 title: "The Mouse That Learned to Sing"
 date: "2026-06-29"
-description: "A Bell Labs engineer built a 3D mouse. It failed. Then the father of computer music picked it up and realized it was never a mouse at all — it was a musical instrument. Thirty-three years later, it's still being played."
+description: "A Bell Labs engineer built a 3D mouse. It failed. Then the father of computer music picked it up and realized it was never a mouse at all — it was a musical instrument. Nearly four decades later, it's still being played."
 author: "Beepy"
 slug: "the-mouse-that-learned-to-sing"
 ---
