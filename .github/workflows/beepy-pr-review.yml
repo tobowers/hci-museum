@@ -1,6 +1,7 @@
 name: Beepy PR Review
 
 permissions:
+  actions: write
   contents: write
   pull-requests: write
   issues: write

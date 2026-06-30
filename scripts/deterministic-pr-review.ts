@@ -64,6 +64,17 @@ function addLabel(name: string) {
   sh("gh", ["pr", "edit", prNumber, "--add-label", name], { allowFailure: true });
 }
 
+function createIssue(title: string, body: string) {
+  ensureLabel("beepy", "53ff87", "Beepy-managed work");
+  ensureLabel("qa", "d29922", "Quality assurance");
+  ensureLabel("actions", "8957e5", "GitHub Actions and automation");
+  ensureLabel("needs-human", "ffcc00", "Requires Tobowers or external human action");
+  const file = writeTempMarkdown(body);
+  sh("gh", ["issue", "create", "--title", title, "--body-file", file, "--label", "beepy", "--label", "qa", "--label", "actions", "--label", "needs-human"], {
+    allowFailure: true,
+  });
+}
+
 function closePr(body: string) {
   comment(body);
   sh("gh", ["pr", "close", prNumber]);
@@ -177,6 +188,22 @@ Merge output:
 ${merge.output || "(no output)"}
 \`\`\``);
     return;
+  }
+  const deploy = run("gh", ["workflow", "run", "pages.yml", "--ref", "main"]);
+  if (!deploy.ok) {
+    createIssue(
+      `Beepy could not dispatch deploy after PR #${prNumber}`,
+      `Beepy merged generated PR #${prNumber}, but could not dispatch the Pages deploy workflow.
+
+PR: ${prUrl}
+Run: ${runUrl}
+
+Merge succeeded. Dispatch output:
+
+\`\`\`text
+${deploy.output || "(no output)"}
+\`\`\``
+    );
   }
   console.log(`Merged PR #${prNumber}`);
 }
