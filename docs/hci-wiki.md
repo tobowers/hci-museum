@@ -1,6 +1,6 @@
 # The HCI Golden Age Wiki
 
-A research compendium for a digital museum of cutting-edge Human-Computer Interaction from the late 1970s through the early 1990s. These fifty-six projects mix canonical experiments with weird, forgotten, and beautiful vaporware — brain control, voice control, gesture, wearable computing, VR, robots, and full-body exertion.
+A research compendium for a digital museum of cutting-edge Human-Computer Interaction from the late 1970s through the early 1990s. These fifty-nine projects mix canonical experiments with weird, forgotten, and beautiful vaporware — brain control, voice control, gesture, wearable computing, VR, robots, and full-body exertion.
 
 Each entry includes an overview, a deep dive, a small media gallery, and full source links so the images and facts can always be traced back.
 
@@ -63,10 +63,13 @@ Each entry includes an overview, a deep dive, a small media gallery, and full so
 54. [Aesthedes (1984)](#aesthedes-1984)
 55. [RDI Halcyon (1985)](#rdi-halcyon-1985)
 56. [Talking Signs / Remote Infrared Audible Signage (RIAS) (1979)](#talking-signs--remote-infrared-audible-signage-rias-1979)
+57. [Canon Cat (1987)](#canon-cat-1987)
+58. [Puma RS Computer Shoes (1985)](#puma-rs-computer-shoes-1985)
+59. [VersaBraille (1979)](#versabraille-1979)
 
 ---
-## Hubot (c. 1983)
 
+## Hubot (c. 1983)
 **By:** Hubotics Inc.  
 **Tags:** `Robot` `Voice` `Home Computer` `CES` `Assistive/Companion`
 
@@ -2910,3 +2913,190 @@ The technology evolved through the 1980s with contributions from Bill Crandall, 
 10. Marston & Golledge photos and illustrations — https://people.geog.ucsb.edu/~marstonj/PICTURES.html
 11. SKERI: overTHERE app project page — https://www.ski.org/project/overthere/
 12. ADA Accessibility Guidelines (ADAAG) 703.7 — Remote Infrared Audible Sign Systems — https://www.access-board.gov/adaag-1991-2002.html
+
+---
+
+## Canon Cat (1987)
+
+**By:** Jef Raskin / Information Appliance Inc., manufactured by Canon Inc.  
+**Tags:** `HCI` `Input` `Interface Paradigm` `Keyboard` `Text` `Computing`
+
+### Overview
+
+The Canon Cat (model V777) was a task-dedicated desktop microcomputer released in July 1987 by Canon Inc., designed by Jef Raskin — Apple employee #31 and the initiator of the Macintosh project — through his Palo Alto company Information Appliance, Inc. It was the most complete commercial implementation of Raskin's radical interface philosophy: a text-centric, keyboard-driven computing appliance with no files, no applications, and no operating system in the conventional sense. All work occurred in a single unified document stream, navigated by content rather than by spatial position or hierarchical filing. Priced at $1,495 (~$4,200 in 2025), approximately 20,000 units were manufactured before Canon discontinued it after only six months.
+
+The Cat's defining interaction innovation was the LEAP system: two bright pink thumb keys below the spacebar. Holding a LEAP key and typing characters caused the cursor to jump in real-time to the nearest matching text — incremental search as the sole navigation mechanism. There was no mouse, no cursor keys, no menus, and no icons. Commands were issued via chorded key combinations using the USE FRONT key, and a hidden Forth programming environment lurked beneath the surface. The entire machine was a coherent argument about how humans and computers should relate — and it lost to the Macintosh, Windows, and the file-folder metaphor that Raskin himself helped set in motion.
+
+### Deep dive
+
+* **Origins.** Jef Raskin joined Apple in 1978 as employee #31 and initiated the Macintosh project in 1979, naming it after his favorite apple variety. His vision was for a low-cost, keyboard-driven 'people's computer' — what he called PITS ('Person In The Street') — aimed at non-technical users at a $500 price point. When Steve Jobs took over the Macintosh project in 1981 and transformed it into a mouse-driven, graphically rich machine with a much higher price tag, Raskin left Apple in 1982 to pursue his own vision.
+
+He founded Information Appliance, Inc. (IAI) in Palo Alto and built the Swyft prototype (Motorola 68008-based), followed by the SwyftCard for the Apple IIe (1985, $89.95) as an interim product. IAI then licensed the full system to Canon Inc., which manufactured and marketed the Cat through its typewriter division — not its computer division. This organizational misalignment, combined with the 1987 Black Monday stock market crash (which caused IAI's investors to pull funding), doomed the product. Canon discontinued the Cat after just six months, allegedly due to internal politics between its professional and consumer divisions.
+* **The LEAP Navigation System.** The defining interaction innovation of the Canon Cat. Two bright pink LEAP keys sit below the spacebar — one for forward search, one for backward. To navigate anywhere in your document, you hold a LEAP key and begin typing. The cursor jumps in real-time to the nearest occurrence of those characters. Release the LEAP key, and you're positioned precisely where you wanted to be. This means you navigate by *content*, not by spatial position — you leap to remembered words or phrases rather than scrolling or clicking through a file hierarchy.
+
+Additional LEAP mechanics: LEAP + SHIFT scrolls the view. Tapping LEAP alone moves one character ('Creep'). Pressing both LEAP keys together highlights text between the cursor and the previously leapt location, which can then be moved by leaping again. LEAP + USE FRONT + 'Leap Again' finds the next occurrence of the same search term. A dedicated PAGE key handles page-by-page navigation and creating new blank pages.
+
+The genius is that there is exactly one mechanism, learned once, applied everywhere. Commands are found the same way as content — by leaping. There is no modal distinction between 'content mode' and 'command mode.' This is search-as-UI taken to its logical extreme, decades before Spotlight, Alfred, the browser omnibox, or command palettes.
+* **No Files, No Applications.** The Cat has no file system. No hierarchical folders. No Save or Open commands. All documents exist in a single persistent stream of text. You navigate by content (leaping to remembered words), by recency (the cursor returns to where you last were when you power on), and by time. Raskin's argument was that people remember what they wrote about and approximately when they wrote it — but do not reliably remember where they filed it. The machine should organize around human memory, not the other way around.
+
+There are also no separate applications. A built-in dictionary (90,000 words) checks spelling automatically. The CALC key performs calculations inline. Rows and columns function as a spreadsheet with formulas. An internal 300/1200 bps modem handles telecommunications — highlight text and press SEND to transmit. All of these capabilities are simply available everywhere, not locked inside separate programs.
+
+A hidden setting even unlocks a complete Forth programming environment. Users can type Forth code directly into a document, highlight it, and execute it via USE FRONT + ANSWER — output appears inline. Canon did not advertise this capability; IAI published programmer documentation openly.
+* **Modeless, Habit-Forming Interface.** Raskin was emphatically anti-modal — he believed that interfaces should never trap users in states where the same action produces different results depending on context. The Cat's keyboard has blue front-face labels on keycaps (visible when looking down at the keys). Holding the USE FRONT key activates these secondary functions as chords. Release USE FRONT, and the operation ends — no mode persists. There's also an EXPLAIN key (USE FRONT + N) that, when invoked after an error beep, inserts explanatory prose into your document rather than displaying a modal dialog box.
+
+Raskin's design principle was that interfaces should exploit human habit formation. With only one interaction paradigm to learn, the Cat could become second nature — muscle memory, not cognitive load. This philosophy, later codified in his book *The Humane Interface* (2000), was rooted in cognitive psychology: habits form best when a single stimulus always produces a single response. The Cat was engineered to be habit-forming.
+* **Hardware.** The Cat ran on a Motorola 68000 CPU at 5 MHz with 256 KB of DRAM and 256 KB of system ROM, written entirely in tForth ('token-threaded Forth'). Storage was a single 3.5-inch 256 KB floppy drive (custom Canon MD-3301). The 9-inch monochrome CRT displayed 672 × 344 pixels (80 × 24 characters). It weighed 17 pounds (7.7 kg). Raskin's original design called for no hard power switch — the Cat would remain in low-power sleep and wake instantly when you typed, capturing every keystroke even before the display fully lit. Canon engineers infamously added a hard power switch, believing its absence was an oversight.
+* **Commercial Fate and Legacy.** The Cat sold approximately 20,000 units — not nothing, but far short of what its ambitions demanded. Canon's typewriter division marketed it poorly; reviewers praised the interface but the market had already chosen WIMP interfaces. Ezra Shapiro's BYTE magazine review (October 1987) called it 'A Spiritual Heir to the Macintosh.' IAI closed in 1991 after investors pulled funding following the 1987 Black Monday crash.
+
+Raskin continued developing these ideas through his later Archy project (2005, originally 'The Humane Environment'). Today the Cat's influence echoes in unified workspace tools like Notion, Coda, and Roam Research; in the LEAP function recently added to the Left editor by Hundred Rabbits; and in every command palette and omnibox that lets users navigate by typing what they want. The Cat asked what computing would look like if content, not applications, was the organizing principle — and we are still answering that question.
+
+### Team
+
+* **Jef Raskin.** Apple employee #31, initiator of the Macintosh project. Founded Information Appliance Inc. in 1982 after leaving Apple. Designed the Cat's entire interface philosophy.
+* **Information Appliance, Inc. (IAI).** Palo Alto company founded by Raskin. Developed the Swyft prototype and SwyftCard before licensing the full system to Canon.
+* **Canon Inc..** Manufactured and marketed the Cat through its typewriter division. Discontinued the product after 6 months.
+
+### Media
+
+![Canon Cat front profile](../assets/wiki/canon-cat-1.jpg)
+*Canon Cat V777 Work Processor. Source: Wikipedia (CC-licensed)*
+
+![Close-up of Canon Cat keyboard showing pink LEAP keys](../assets/wiki/canon-cat-2.jpg)
+*The pink LEAP keys below the spacebar — the Cat's sole navigation mechanism. Source: OldComputers.net*
+
+### Sources
+
+1. Wikipedia — Canon Cat — https://en.wikipedia.org/wiki/Canon_Cat
+2. Raskin Center — Canon Cat Manual & Documentation — https://raskincenter.org/jef/published/cat-manual/
+3. OldComputers.net — Canon Cat — http://www.oldcomputers.net/canon-cat.html
+4. Old Vintage Computing Research — Refurb Weekend: Canon Cat (Cameron Kaiser, 2024) — https://oldvcr.blogspot.com/2024/05/refurb-weekend-canon-cat.html
+5. Lee Byron — til/leap (LEAP interaction analysis) — https://leebyron.com/til/leap/
+6. Reproof Blog — The Canon Cat and the Mac that Steve Jobs Killed — https://www.reproof.app/blog/on-designing-a-more-humane-computer
+7. BYTE Magazine, October 1987 — Ezra Shapiro review — https://archive.org/stream/byte-magazine-1987-10-rescan/1987_10_BYTE_12-11_Heuristic_Algorithms#page/n125/mode/2up
+8. DigiBarn Computer Museum — Canon Cat collection — https://www.digibarn.com/collections/systems/canon-cat/index.html
+
+---
+
+## Puma RS Computer Shoes (1985)
+
+**By:** PUMA AG, designed by Dr. Peter Cavanagh and Heinz Gerhäuser  
+**Tags:** `HCI` `Wearable` `Sensing` `Input` `Sports` `Foot-Mounted`
+
+### Overview
+
+The PUMA RS-Computer ('Running System'-Computer Shoe) was a commercially released running shoe with an integrated computer module in the right heel, launched in spring 1985 at $200 USD (roughly $575 in 2025). Developed by sports biomechanics researcher Dr. Peter Cavanagh and microelectronics engineer Heinz Gerhäuser of the University of Erlangen, the shoe used a custom gate-array integrated circuit to measure the timing between successive right-foot ground contacts. Rather than counting steps like a pedometer, it used a stride-length profiling algorithm calibrated to each individual runner: as a runner runs faster, the time between footfalls decreases predictably, allowing the system to compute distance, speed, and caloric expenditure.
+
+The interaction ritual defined the product: press a button on the heel to start recording, run, press again to stop, then at any later time open a flap on the heel, connect a 16-pin serial cable to an Apple IIe, Commodore 64, or IBM PC printer port, and load the software from a 5.25-inch floppy disk to download and analyze the data. A 45-page manual and multiple-user support reflected the reality that personal computers were expensive shared resources. The shoe was a commercial failure — the market simply was not ready for body-worn activity tracking — but it anticipated every interaction pattern of modern fitness wearables by two decades. PUMA reissued it as a limited edition of 86 pairs with Bluetooth and a smartphone app in 2018.
+
+### Deep dive
+
+* **Origins: Biomechanics Meets Microelectronics.** The RS-Computer originated from a challenge issued by PUMA CEO Armin Dassler (son of company founder Rudolf Dassler). Dassler wanted technological differentiation from rival Adidas — founded by his uncle Adolf Dassler after the brothers split the original Dassler shoe company following WWII. He told Cavanagh: 'Do whatever you have to do, but get me this high technology shoe. He didn't care what it was. He didn't care how much it cost.'
+
+Cavanagh, a PhD in human gait analysis from the University of London and a 2:45 marathoner, had become PUMA's sports science advisor after interviewing Dassler for his 1980 book *The Running Shoe Book*. His key insight was rejecting simple pedometers in favor of stride-length profiling: by measuring the timing between footfalls and calibrating to each runner's personal stride characteristics, the system could predict distance more accurately than step-counting. He collaborated with Gerhäuser, a microcomputer engineer at the University of Erlangen near PUMA headquarters, to build the custom gate array — roughly 600–1,000 transistors on a single chip — that served as the shoe's brain.
+
+The first prototype was a transparent Plexiglas box attached to the back of a conventional running shoe, with visible electronics inside. Cavanagh still owns this prototype. The infamous planning meeting brought German and American teams together on Catalina Island, California — helicoptered in at Dassler's expense.
+* **The Interaction Ritual.** Using the RS-Computer was a multi-step ritual that reveals the paradigms of mid-1980s personal computing. First came a one-time calibration: the runner visited a 400m track, ran multiple laps at increasing speeds while counting strides, and entered this data into the software to build their personal stride-length profile. For each run thereafter, the user pressed a button on the right heel to start recording, ran, then pressed it again to stop. At any later time — perhaps days later — they opened a protective flap on the heel, connected a 16-pin serial cable from shoe to computer printer port, loaded the software from a 5.25-inch floppy disk, and downloaded the run data.
+
+The software (written in Applesoft BASIC primarily for the Apple IIe) calculated distance, time, speed, and calories burned. It provided historical graphs by week, month, and year, allowed users to add comments to individual runs, and could program distance targets — the shoe would beep when the runner reached the goal. The manual was 45 pages long, which Cavanagh later described as 'a typical academic approach to a consumer product.'
+
+The shoe also supported multi-user setups, since a $1,000+ Apple IIe was often shared by an entire household or office. Only the right shoe contained active electronics; the left shoe had an identical plastic bump for symmetry but was empty. A flap-covered 16-pin serial connector port protected the data connection when running.
+* **Sensing Technology: Stride-Length Profiling.** Unlike modern step counters that simply tally impacts, the RS-Computer measured the elapsed time between successive right-foot ground contacts. Cavanagh's biomechanical research showed that as running speed increases, the time between footfalls decreases in a predictable, runner-specific way. By building a personal calibration curve — time-between-strides mapped to known running speeds from the track calibration — the system could extrapolate distance and speed from raw timing data with greater accuracy than pedometer-based approaches of the era.
+
+The custom gate array in the right heel processed these timing signals. A small LED served as a status indicator. The shoe could be programmed to beep when the runner reached a pre-set target distance — an auditory feedback mechanism that prefigured modern pace alerts.
+* **Commercial Fate.** The RS-Computer was a commercial failure. Running Magazine wrote: 'No person, however rich, should ever pay a hundred dollars for a pair of running shoes.' A Washington Post reviewer mocked Cavanagh's use of 'computer-ese' like 'interfacing compatibility' and 'user friendliness.' Sports Illustrated described the heel bulge as the shoe's 'crowning feature' and portrayed Cavanagh as a '2:45 marathoner with a Monkish aspect.'
+
+Several factors doomed it: $200 was extremely expensive for running shoes; personal computer ownership was not yet ubiquitous; the calibration ritual and 45-page manual created high friction; and the concept of self-tracking for fitness was, as Cavanagh later reflected, '15 to 20 years ahead of its time.' Nike conducted market research at the time that found 'no solid market for computerized shoes.'
+
+Cavanagh's 2018 reflection captures the bittersweet legacy: 'I'm a little regretful that the technology wasn't better accepted at the time and I think we could have short-circuited the activity tracking developments by perhaps 15 to 20 years.'
+
+In December 2018, PUMA reissued the RS-Computer as a limited edition of 86 individually numbered pairs (referencing 1986) at €650/~$740. The update replaced the gate array with a three-axis accelerometer and Bluetooth connectivity, added USB charging, and paired with an iOS/Android app featuring 8-bit retro graphics and a built-in retro game. Cavanagh called it 'a nice affirmation that it was a good idea whose time had not yet come.'
+* **HCI Significance.** The RS-Computer is a boundary object between footwear, sensing hardware, and personal computing. It is arguably the first body-worn, computer-connected activity tracker in history — preceding the Nike+iPod Sport Kit (2006) by two decades and Fitbit (2009) by nearly a quarter century. Every interaction pattern modern wearables take for granted was present in this 1986 shoe: start/stop recording, personal calibration, longitudinal data tracking, goal-setting with feedback, and data export to a computing platform.
+
+What was missing was the infrastructure to make it effortless — ubiquitous personal computing, wireless connectivity, automatic activity detection, and a cultural readiness for self-quantification. The RS-Computer was the right idea at the wrong time, and its failure illuminates how much of HCI success depends not on the interaction model itself but on the ecosystem surrounding it.
+
+Original units survive at the Bata Shoe Museum in Toronto, the DigiBarn Computer Museum, and the PUMA Archive in Herzogenaurach. Dr. Cavanagh still owns the original transparent-Plexiglas first prototype.
+
+### Team
+
+* **Dr. Peter Cavanagh.** PhD in human gait analysis (University of London, 1968). Professor at Penn State, Cleveland Clinic, and University of Washington. PUMA's sports science advisor. Marathoner (2:45 PB). Developed the stride-length profiling algorithm.
+* **Heinz Gerhäuser.** Microelectronics engineer, University of Erlangen. Built the custom gate array integrated circuit that served as the shoe's processor.
+* **Armin Dassler.** Owner/CEO of PUMA AG, son of founder Rudolf Dassler. Issued the challenge to create a 'high technology shoe' with effectively unlimited resources.
+* **PUMA AG.** Herzogenaurach, West Germany. Athletic footwear company founded by Rudolf Dassler. The RS-Computer was the flagship product of the new Running System (RS) collection.
+
+### Media
+
+![Puma RS Computer Shoe connected to Apple IIe](../assets/wiki/puma-rs-computer-shoes-1.jpg)
+*Original RS Computer shoe with 16-pin serial cable connecting to an Apple IIe computer. Source: DigiBarn Computer Museum*
+
+![Puma RS Computer Shoe on display](../assets/wiki/puma-rs-computer-shoes-2.jpg)
+*RS Computer Shoe on display at a museum collection. Source: Wikimedia Commons*
+
+### Sources
+
+1. PUMA Official — Dr. Peter Cavanagh Interview (March 2018) — https://about.puma.com/en/node/1750
+2. Tech Briefs — How Fitness Wearables Began (April 2019) — https://www.techbriefs.com/component/content/article/34297-how-fitness-wearables-began-with-a-plug-in-sneaker
+3. PUMA Official — History of RS — https://about.puma.com/en/this-is-puma/archive-stories/history-of-rs
+4. Sports Illustrated Vault (May 13, 1985) — Contemporary review — https://www.si.com/vault/1985/05/13/622432/puma-is-off-and-running-into-the-computer-age-with-a-thinking-shoe
+5. Wikipedia — RS-Computer — https://en.wikipedia.org/wiki/RS-Computer
+6. Sneaker History — PUMA Built a Fitbit in 1986 — https://sneakerhistory.com/puma-built-a-fitbit-in-1986/
+7. DigiBarn Computer Museum — Computer Tennis Shoes — https://www.digibarn.com/collections/weirdstuff/computer-tennis-shoes/
+8. US Patent 4771394A — Computer shoe system — https://patents.google.com/patent/US4771394A/en
+
+---
+
+## VersaBraille (1979)
+
+**By:** Telesensory Systems Inc. (TSI), Mountain View, California  
+**Tags:** `HCI` `Output` `Tactile` `Accessibility` `Braille` `Display`
+
+### Overview
+
+The VersaBraille was the first American refreshable Braille display, introduced by Telesensory Systems Inc. (TSI) in December 1979. It was a portable, battery-powered device that combined a 20-cell refreshable Braille display, a Braille keyboard, and cassette-tape data storage into a single unit — functioning as a Braille notetaker, a reading machine, and a computer terminal via RS-232 serial interface. The display used piezoelectric bimorph reeds: tiny crystals that bend when voltage is applied, pushing pins up through holes to form Braille dots, and bending the opposite way to retract them. The same fundamental technology, first invented by Oleg and Andrée Tretiakoff in France for their 1976 Digicassette, still powers most Braille displays today.
+
+TSI was founded in 1970 by Stanford electrical engineering professor John Linvill and Stanford Research Institute researcher James C. Bliss. Their first product, the Optacon (1970), was a tactile imaging device that converted printed text into a vibrating pin array — but it reproduced letter shapes, not Braille. The VersaBraille was TSI's second major product and the first to give blind computer users direct, dynamic Braille access to electronic text. Weighing roughly 4 lbs and costing several thousand dollars, it became many blind people's first introduction to computing concepts in the United States.
+
+### Deep dive
+
+* **Origins and the Tretiakoff Connection.** The piezoelectric Braille cell was invented by Oleg Tretiakoff, a Russian-born French inventor, working with his wife Andrée Tretiakoff in Paris. Their company ELINFA introduced the Digicassette in 1976 — the world's first commercially available paperless Braille machine. It used bimorphous piezoelectric reeds to raise and lower Braille dots, stored data on standard C-90 cassette tapes (300,000 Braille characters per tape — equivalent to a 220-page paperback), and supported RS-232 serial connection for computer terminal use.
+
+TSI co-founder Jim Bliss recounts in his AFB oral history that TSI was deeply impressed by the Digicassette. They brought Tretiakoff to California and tried to negotiate a distribution and manufacturing agreement. When the deal fell through, TSI launched its own research and development project to build an American version — which became the VersaBraille. The piezoelectric reed technology was very similar to what TSI had already developed for the Optacon's tactile array, giving them deep in-house expertise. The VersaBraille is thus a direct descendant of the Digicassette, adapted and refined by one of Silicon Valley's earliest assistive-technology companies.
+* **Interaction Mechanics: Three Modes in One Device.** The VersaBraille was a genuinely multi-modal device. In Notetaker mode, users entered text via the Braille keyboard (6 Braille dots + spacebar, electronic and sensitive to light touch) and stored it on cassette. In Reading Machine mode, they could read pre-recorded Braille documents on the 20-cell display. In Computer Terminal mode, the RS-232 serial port connected to desktop computers, modems, teletypewriters, and printers, allowing blind users to read screen output in Braille.
+
+The reading interaction was carefully designed. An advance bar along the top edge of the Braille line moved forward through text; a back-up key moved backward. Four navigation keys — Chapter, Page, Paragraph, and Word — were arranged by unit size (largest to smallest) for intuitive document traversal. A word search function could instantaneously scan an entire Braille page for any character string. A place indicator key reported the current chapter name, page number, and exact character position. Editing capabilities included deleting and inserting at the character, word, paragraph, page, and chapter levels, all through chorded key combinations.
+* **The Piezoelectric Braille Cell.** The core transducer that makes refreshable Braille possible. Each Braille cell contains 8 piezoelectric bimorph reeds (one per dot position). A piezoelectric crystal bends physically when voltage is applied — in one polarity, the reed curves upward, pushing a pin through a hole in the display surface to create a raised dot. Reverse the voltage, and the reed curves downward, retracting the pin. This electromechanical action happens silently and quickly enough for real-time reading.
+
+The VersaBraille's 20-cell display meant 160 individually addressable dots. Each cell could display any 8-dot Braille pattern. The 8-dot format (rather than traditional 6-dot Braille) allowed the bottom two dots to encode additional information like cursor position, capitalization, and formatting — making it suitable as a computer terminal where visual formatting cues needed tactile equivalents.
+
+The same piezoelectric principle, refined over decades, still dominates the Braille display market. Modern devices like the Orbit Reader and HumanWare BrailleNote use the same fundamental transducer mechanism — a rare case in HCI where a 1970s invention remains essentially unchanged.
+* **TSI and Silicon Valley Accessibility.** Telesensory Systems represented an unusual fusion of Stanford engineering, Silicon Valley entrepreneurship, and disability rights. John Linvill, the company's co-founder, had a blind daughter — his motivation was deeply personal. Jim Bliss brought expertise in tactile perception from Stanford Research Institute. The company employed top Silicon Valley talent (Stanford PhDs and MBAs), had Canon as an investor and distributor, and operated with the ambition of a tech startup — but its mission was accessibility.
+
+The Optacon had already established TSI's credibility. For the first time, blind people could read any printed document independently — not just Braille books, but mail, newspapers, labels, and handwritten notes. The VersaBraille extended this independence into the digital realm. TSI went bankrupt in March 2005 (Chapter 7), but its legacy shaped five decades of assistive technology.
+* **Museum Holdings and Legacy.** Several original VersaBraille units survive in museum collections. The American Printing House for the Blind (APH) Museum in Louisville, Kentucky holds multiple units including the VersaBraille system (accession 1995.1) and a VersaBraille II+. The Múzeum špeciálneho školstva in Levoča, Slovakia holds a VersaBraille P2D (1979 model). The Deutsches Museum in Munich exhibits the BRAILLEX prototype — the parallel German development by F.H. Papenmeier GmbH (1975, piezoelectric version by 1979), which received the Louis Braille Prize.
+
+Refreshable Braille remains one of computing's most profound assistive technologies. For blind programmers, writers, students, and knowledge workers, the ability to read screen output in real time through touch was — and remains — transformative. The VersaBraille was the device that first made this possible at personal-computer scale.
+
+### Team
+
+* **Oleg and Andrée Tretiakoff.** French inventors who patented the piezoelectric Braille cell (1975) and created the Digicassette (1976), the world's first paperless Braille machine.
+* **Dr. John G. Linvill.** Stanford electrical engineering professor. Co-founded TSI in 1970. Father of a blind daughter — his motivation was deeply personal.
+* **Dr. James C. Bliss.** Stanford Research Institute researcher specializing in tactile perception. Co-founded TSI with Linvill. Led the VersaBraille development after the Tretiakoff deal fell through.
+* **Telesensory Systems Inc. (TSI).** Mountain View, CA company founded 1970. Created the Optacon (1970) and VersaBraille (1979). Employed top Silicon Valley talent. Filed Chapter 7 bankruptcy in 2005.
+
+### Media
+
+![VersaBraille system with Braille display and keyboard](../assets/wiki/versabraille-1.jpg)
+*VersaBraille system, ca. 1982. A 20-cell refreshable Braille display with Braille keyboard and cassette storage. Source: APH Museum*
+
+![VersaBraille P2D model from 1979](../assets/wiki/versabraille-2.jpg)
+*VersaBraille P2D (1979 model), showing the 20-character display and RS-232 interface. Source: Múzeum špeciálneho školstva, Levoča, Slovakia*
+
+### Sources
+
+1. APH Blog — Blindness History Basics: Refreshable Braille Display — https://www.aph.org/blog/blindness-history-basics-a-brief-history-of-the-refreshable-braille-display/
+2. AFB Oral History — Jim Bliss (TSI co-founder), Part 2 — https://www.afb.org/blindness-and-low-vision/using-technology/interviews-technology-pioneers/jim-bliss/part-2-4-5700
+3. APH Museum — VersaBraille System (Object 1995.1) — https://sites.aph.org/museum-virtual-exhibit/vex2/A8918B72-511E-44D5-841D-383803736892.htm
+4. Duxbury Systems — VersaBraille Owner's Manual, Volume 1 — https://www.duxburysystems.org/downloads/library/texas/apple/cnthesis/versabr.htm
+5. Papenmeier Rehatechnik — History Page — https://www.papenmeier-rehatechnik.de/en/history/
+6. US Patent 4,305,067 — Tretiakoff piezoelectric Braille cell — https://www.freepatentsonline.com/4305067.html
+7. Wikipedia — Telesensory Systems — https://en.wikipedia.org/wiki/Telesensory_Systems
+8. Wikipedia — Refreshable Braille Display — https://en.wikipedia.org/wiki/Refreshable_braille_display
