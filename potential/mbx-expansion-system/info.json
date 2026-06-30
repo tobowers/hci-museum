@@ -1,0 +1,72 @@
+{
+  "slug": "mbx-expansion-system",
+  "title": "MBX Expansion System",
+  "year": "1983",
+  "subtitle": "Consumer voice-recognition gaming peripheral that trained on your voice, then let you shout commands at the screen",
+  "why_scout_cares": "In 1983, a toy company shipped a peripheral that wore a headset, learned your voice, understood spoken game commands, and paired them with a 360-degree analog joystick with a twist knob and a 64-key membrane overlay keypad. It was originally designed to be Milton Bradley's own game console — a fourth competitor to Atari, Intellivision, and ColecoVision. The console was killed before launch, repackaged as a TI-99/4A add-on, and discontinued within months when the 1984 crash hit. This is peak doomed ambition: consumer voice recognition a decade before most people encountered it, paired with a uniquely expressive joystick and a reconfigurable touchpad. Voice-recognition gaming in 1983.",
+  "search_terms": ["MBX", "Milton Bradley MBX", "TI-99/4A voice recognition", "1983 voice control gaming"],
+  "research": {
+    "title": "MBX Expansion System",
+    "year": "1983",
+    "by": "Milton Bradley (Mike Langieri, lead designer)",
+    "tags": ["HCI", "Input", "Voice", "Gaming", "Speech"],
+    "overview": "The MBX Expansion System was a gaming peripheral for the TI-99/4A home computer, released by Milton Bradley in late 1983 and discontinued within months due to the 1984 video game crash. It combined three distinct interaction modalities into one package: a voice-recognition headset that trained on the user's voice to understand spoken game commands; a 360-degree analog joystick with proportional control and a twist knob for object rotation; and a 64-key membrane action keypad with swappable game overlays. The system also included a built-in speech synthesizer superior to Texas Instruments' own. On startup, users trained the voice system by speaking displayed words; thereafter, spoken English commands like 'Fire!', 'Climb!', or 'Dive!' controlled the game. The MBX was originally designed as a standalone Milton Bradley game console to compete with the Atari 2600, but was repurposed as a TI-99/4A peripheral after MB's president killed the console project. Only about 10 game cartridges were ever produced, and fewer than a dozen titles supported its unique features.",
+    "deepDive": [
+      {
+        "heading": "Origins",
+        "text": "The MBX began life in 1982 as Milton Bradley's answer to the Atari 2600 and Mattel Intellivision — a standalone game console built around voice recognition. MB planned to differentiate with voice input, speech synthesis, and a unique controller. The project was led by Mike Langieri. When ColecoVision entered the market, MB president Jim Shea decided the market could not support four consoles and killed the project. Langieri was then tasked with finding a use for the developed technology. The system was retooled as an add-on for the TI-99/4A, a computer for which MB had already developed games and whose graphics chip (TMS9918) MB had some connection to. The MBX was demoed at the January 1983 CES to lines of waiting attendees. Atari was so impressed they entered an agreement for MB to produce an equivalent system called the Voice Commander for the Atari 2600 and 5200, though this deal eventually fell apart."
+      },
+      {
+        "heading": "Interaction Model",
+        "text": "The MBX offered three simultaneous interaction modes. Voice: A headset with adjustable boom microphone fed speech into a recognition system. Before each game, the user trained the system by speaking displayed words; the system created a voice model and then recognized spoken commands during play. Different games used different vocabulary. The joystick: A pistol-grip controller with 360-degree analog directional control (not limited to 8 positions), proportional speed (faster stick movement = faster on-screen action), a twist knob on top for continuous object rotation, and four buttons (three on the back plus a trigger under the lever). The keypad: A 64-button membrane surface with swappable plastic overlays specific to each game, providing labeled one-touch commands. None of the cartridges used ALL the MBX facilities, and the joystick was never fully utilized by software."
+      },
+      {
+        "heading": "Hardware",
+        "text": "The MBX unit was effectively a second computer that used the TI-99/4A for game storage and video display. It contained a 6809 CPU running at 6 MHz and a General Instrument SP1000 (GI8335) speech synthesis chip. It connected to the TI-99/4A via the joystick port and cassette port, using a custom serial protocol. It had its own 9V DC power supply. The headset featured padded ear rests (not headphones — they were purely for comfort) and a boom microphone that could be positioned 1–2 inches from the mouth. The joystick used analog sensing for position and speed. The system was manufactured from approximately September to November 1983 (control numbers MB8309–MB8311)."
+      },
+      {
+        "heading": "Legacy",
+        "text": "The MBX's joystick design lived on: a simplified version (without the twist knob or analog control) became the Atari Space Age Joystick and was also marketed by MB as the HD2000 Joystick. The voice-training paradigm — speak displayed words to calibrate the system — presaged modern voice assistant setup routines by decades. Barry Boone later produced assembly code allowing Extended Basic programmers to access the MBX's facilities. About 10 cartridge titles were released, including Championship Baseball (the flagship), Space Bandits, Bigfoot, Sewermania, and Terry Turtle's Adventure. The system remains a cult object among TI-99/4A collectors and an extraordinary what-if in gaming history: a voice-controlled game console killed by market timing."
+      }
+    ],
+    "team": [
+      {"name": "Mike Langieri", "note": "Lead designer, creator of the MBX concept, designer of the MBX joystick and several game titles"},
+      {"name": "Dave Winzler", "note": "Co-developer, worked with Langieri on Championship Baseball"},
+      {"name": "Tim Scully", "note": "Programmer of Honey Hunt"},
+      {"name": "Milton Bradley Company", "note": "Toy/game manufacturer, developed the system at their electronics division"},
+      {"name": "Barry Boone", "note": "TI-99/4A community developer who created Extended Basic CALL LINKs for the MBX"}
+    ],
+    "media": [
+      {
+        "src": "https://www.videogamehouse.net/mbx/tn_mbxsystem4.jpg",
+        "alt": "MBX Expansion System unit with headset and joystick",
+        "caption": "The MBX system unit with headset and joystick. Photo from TI-99/4A Videogame House."
+      },
+      {
+        "src": "https://www.videogamehouse.net/mbx/tn_mbxjoystick.jpg",
+        "alt": "MBX 360-degree analog joystick with twist knob",
+        "caption": "The MBX joystick: pistol-grip design with analog control, twist knob, and 4 buttons. Photo from TI-99/4A Videogame House."
+      },
+      {
+        "src": "https://www.vintagecomputing.com/wp-content/uploads/2017/06/mbx_side2_small.jpg",
+        "alt": "1983 MBX promotional flyer showing the system and games",
+        "caption": "1983 Milton Bradley promotional flyer for the MBX. Scan by Benj Edwards, Vintage Computing and Gaming."
+      }
+    ],
+    "sources": [
+      {"text": "TI-99/4A Videogame House: MBX History (extensive history from creator Mike Langieri)", "url": "https://www.videogamehouse.net/mbx.html"},
+      {"text": "Ninerpedia: MBX technical details and cartridge list", "url": "https://ninerpedia.org/wiki/MBX"},
+      {"text": "Vintage Computing and Gaming: Retro Scan of MBX flyer by Benj Edwards", "url": "https://www.vintagecomputing.com/index.php/archives/1337/retro-scan-milton-bradley-mbx-for-ti-994a"},
+      {"text": "Rob Patton's MBX Page (screenshots, reviews, cartridge images)", "url": "http://www.robpatton.com/ti_mbx.htm"},
+      {"text": "AtariHQ: Milton Bradley's Voice Commander and Atari lawsuit", "url": "http://www.atarihq.com/2678/3party/mbradley.html"}
+    ],
+    "imageUrls": [
+      "https://www.videogamehouse.net/mbx/mbxsystem4.jpg",
+      "https://www.videogamehouse.net/mbx/mbxjoystick.jpg",
+      "https://www.videogamehouse.net/mbx/mbxheadset.jpg",
+      "https://www.vintagecomputing.com/wp-content/uploads/2017/06/mbx_side2_large.jpg",
+      "https://www.vintagecomputing.com/wp-content/uploads/2017/06/mbx_side1_large.jpg"
+    ]
+  },
+  "savedImages": []
+}
