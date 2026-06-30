@@ -8,6 +8,7 @@
     "start": "bun src/server.ts",
     "build": "bun scripts/build-site.ts",
     "blog:agent": "bun scripts/blog-agent.ts",
+    "beepy:action-failure:auto": "bun scripts/deterministic-action-failure.ts",
     "beepy:action-failure": "bun scripts/action-failure-agent.ts",
     "beepy:manager": "bun scripts/beepy-manager.ts",
     "beepy:pr-review:auto": "bun scripts/deterministic-pr-review.ts",
