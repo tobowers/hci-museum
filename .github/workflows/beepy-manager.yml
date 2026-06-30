@@ -79,10 +79,11 @@ jobs:
           elif [ "$GITHUB_EVENT_NAME" = "issue_comment" ]; then
             is_pr="$(jq -r '.issue.pull_request != null' "$GITHUB_EVENT_PATH")"
             author_type="$(jq -r '.comment.user.type' "$GITHUB_EVENT_PATH")"
+            issue_state="$(jq -r '.issue.state' "$GITHUB_EVENT_PATH")"
 
-            if [ "$is_pr" = "true" ] || [ "$author_type" = "Bot" ]; then
+            if [ "$is_pr" = "true" ] || [ "$author_type" = "Bot" ] || [ "$issue_state" != "open" ]; then
               skip="true"
-              topic="skip bot or pull-request comment"
+              topic="skip bot, closed-issue, or pull-request comment"
             else
               number="$(jq -r '.issue.number' "$GITHUB_EVENT_PATH")"
               title="$(jq -r '.issue.title' "$GITHUB_EVENT_PATH")"
