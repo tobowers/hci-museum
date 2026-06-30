@@ -26,12 +26,8 @@ jobs:
     runs-on: ubuntu-latest
     timeout-minutes: 30
     env:
-      KIMI_API_KEY: ${{ secrets.KIMI_API_KEY }}
-      KIMI_PROVIDER: kimi-for-coding
-      KIMI_MODEL: k2p7
       GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
       GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-      SCOUT_AGENT_TIMEOUT_MS: "600000"
       PR_NUMBER: ${{ github.event.pull_request.number }}
       PR_TITLE: ${{ github.event.pull_request.title }}
       PR_URL: ${{ github.event.pull_request.html_url }}
@@ -60,14 +56,11 @@ jobs:
       - name: Setup Bun
         uses: oven-sh/setup-bun@v2
 
-      - name: Install opencode CLI
-        run: bun add --global opencode-ai@1.17.9
-
       - name: Install dependencies
         run: bun install --frozen-lockfile
 
-      - name: Run Beepy PR review
-        run: bun run beepy:pr-review
+      - name: Run deterministic Beepy PR review
+        run: bun run beepy:pr-review:auto
 
       - name: Show final git state
         if: ${{ always() }}
@@ -85,12 +78,8 @@ jobs:
     runs-on: ubuntu-latest
     timeout-minutes: 35
     env:
-      KIMI_API_KEY: ${{ secrets.KIMI_API_KEY }}
-      KIMI_PROVIDER: kimi-for-coding
-      KIMI_MODEL: k2p7
       GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
       GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-      SCOUT_AGENT_TIMEOUT_MS: "600000"
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
@@ -103,7 +92,7 @@ jobs:
         run: |
           number="${{ inputs.pr_number }}"
           if [ -z "$number" ]; then
-            number="$(gh pr list --state open --limit 30 --json number,author,isDraft,reviewDecision,createdAt --jq '[.[] | select(.author.login == "app/github-actions" and (.isDraft | not) and (.reviewDecision != "APPROVED"))] | sort_by(.createdAt) | .[0].number // ""')"
+            number="$(gh pr list --state open --limit 30 --json number,author,isDraft,reviewDecision,labels,createdAt --jq '[.[] | select(.author.login == "app/github-actions" and (.isDraft | not) and (.reviewDecision != "APPROVED") and ((.labels | map(.name) | index("needs-human")) | not))] | sort_by(.createdAt) | .[0].number // ""')"
           fi
 
           if [ -z "$number" ]; then
@@ -145,17 +134,13 @@ jobs:
         if: ${{ steps.resolve_pr.outputs.found == 'true' }}
         uses: oven-sh/setup-bun@v2
 
-      - name: Install opencode CLI
-        if: ${{ steps.resolve_pr.outputs.found == 'true' }}
-        run: bun add --global opencode-ai@1.17.9
-
       - name: Install dependencies
         if: ${{ steps.resolve_pr.outputs.found == 'true' }}
         run: bun install --frozen-lockfile
 
-      - name: Run Beepy PR review
+      - name: Run deterministic Beepy PR review
         if: ${{ steps.resolve_pr.outputs.found == 'true' }}
-        run: bun run beepy:pr-review
+        run: bun run beepy:pr-review:auto
 
       - name: Show final git state
         if: ${{ always() }}

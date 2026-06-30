@@ -10,6 +10,7 @@
     "blog:agent": "bun scripts/blog-agent.ts",
     "beepy:action-failure": "bun scripts/action-failure-agent.ts",
     "beepy:manager": "bun scripts/beepy-manager.ts",
+    "beepy:pr-review:auto": "bun scripts/deterministic-pr-review.ts",
     "beepy:pr-review": "bun scripts/pr-review-agent.ts",
     "scout": "bun scripts/agent-scout.ts",
     "scout:pipeline": "bun scripts/curator-scout.ts",

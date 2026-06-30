@@ -91,7 +91,8 @@ jobs:
               topic="Respond autonomously to @${author}'s latest comment on issue #${number}: ${title}. Read the full issue/comment thread with gh issue view before acting. Leave a direct issue reply unless the comment is duplicate/no-op, and either act on one safe next step or ask for the smallest human decision needed."
             fi
           else
-            topic="scan all open GitHub issues, decide whether to comment or act, and make at most one focused improvement if appropriate"
+            skip="true"
+            topic="scheduled broad manager scan skipped; issue, comment, and manual manager runs remain active"
           fi
 
           {
