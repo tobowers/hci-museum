@@ -1,0 +1,55 @@
+{
+  "slug": "drawing-prism",
+  "title": "The Drawing Prism",
+  "year": "1985",
+  "subtitle": "An optical bridge between real brushes and digital pixels — paint directly into a computer with your hands",
+  "why_scout_cares": "In 1985, Richard Greene built a transparent glass prism that let artists paint with real brushes, fingers, or any light-colored object directly into a computer's frame buffer. A video camera underneath the prism saw only the points of optical contact — via frustrated total internal reflection — and digitized them in real time. You could use a Japanese sumi-e brush, your thumb, or a palette knife, and the computer would render every stroke. This was multi-touch drawing with pressure sensitivity, using real physical tools, 20 years before FTIR multi-touch screens appeared in consumer products. The ACM SIGGRAPH paper is rich with technical detail, artistic philosophy, and wonder at what a computer could become when you removed the keyboard and mouse and let people work with their hands on a glowing surface.",
+  "search_terms": ["drawing prism", "Richard Greene", "FTIR drawing", "optical touch 1985", "SIGGRAPH 1985 input device"],
+  "research": {
+    "title": "The Drawing Prism",
+    "year": "1985",
+    "by": "Richard Greene",
+    "tags": ["HCI", "Input", "Art", "Drawing", "Optical"],
+    "overview": "The Drawing Prism is an optical direct-drawing computer input device presented by Richard Greene at SIGGRAPH 1985. It uses a large transparent prism as a drawing surface. A video camera underneath views the surface at an angle where it can only image the points of optical contact between drawing tools and the surface — a principle known as frustrated total internal reflection (FTIR). A layer of transparent liquid helps tools make optical contact. The camera output is digitized and processed in real time, building up a drawing in the frame buffer as the artist moves tools along the surface. Any light-colored object — brushes, fingers, palette knives — can be used. The result is a device that bridges traditional artistic technique with digital image creation, allowing continuously adjustable line qualities, textures, and effects that conventional computer input devices of the era could not produce.",
+    "deepDive": [
+      {
+        "heading": "Origins and Principle",
+        "text": "Richard Greene developed the Drawing Prism to solve a specific problem: artists using computer graphic input devices could not produce the same visual effects achievable with traditional tools and media. The device uses one face of a large transparent prism as a drawing surface. A video camera views that surface from below at an angle such that it can only image points of optical contact — where a drawing tool touches the surface, it frustrates the total internal reflection, creating a visible point of light. These images are digitized and processed in real time, building up a drawing. The user sees the accumulating image on a monitor. A layer of transparent liquid (such as mineral oil) between the tool and the glass ensures reliable optical contact. The device was presented at SIGGRAPH 1985 in San Francisco."
+      },
+      {
+        "heading": "Interaction Model",
+        "text": "The artist works on the glass surface with any light-colored object: traditional brushes, their fingers, a rag for smudging, a palette knife. The system sees where and how hard the tool presses based on the size and intensity of the contact point. Unlike a graphics tablet, there is no stylus — the artist's actual brushwork is captured directly. Line width, opacity, and texture vary naturally with tool pressure, angle, and speed, exactly as in traditional painting. The artist sees the result accumulating on a monitor as they work on the glass. This creates a unique feedback loop: the physical sensation of brush-on-glass corresponds directly to marks appearing on screen. The paper describes combinations of visual effects 'previously restricted to either traditional media or computer graphics.'"
+      },
+      {
+        "heading": "Technical Implementation",
+        "text": "The system uses a transparent prism with a video camera positioned underneath, viewing the drawing surface at an angle that exploits frustrated total internal reflection. Light-colored objects in optical contact with the surface appear as bright spots against a dark background. A real-time digitizer processes the camera signal and writes to a frame buffer. The SIGGRAPH paper details the optical geometry, the choice of camera (RCA TC 2000 series), and suggestions for improving resolution. Greene notes that Robert E. Mueller was awarded U.S. Patent #3,846,826 in 1974 for a similar FTIR-based direct drawing system using a flying-spot scanner and photomultiplier instead of a camera — an independent prior invention using the same optical principles."
+      },
+      {
+        "heading": "Legacy",
+        "text": "The Drawing Prism anticipated FTIR-based multi-touch screens by roughly 20 years — the same optical principle underlies many modern multi-touch tables and interactive surfaces. The idea of painting directly into a computer with real brushes predates digital painting tablets (Wacom) and multi-touch drawing apps by decades. A live performance using the Drawing Prism, 'Technological Feets' by Javril, Tannenbaum, Greene, and Schier, was presented at the SIGGRAPH '84 Electronic Theater. Ed Tannenbaum also used the technology in a permanent exhibit at the Exploratorium in San Francisco (1982). The work bridges HCI, computer graphics, and fine art in a way that few devices from any era do."
+      }
+    ],
+    "team": [
+      {"name": "Richard Greene", "note": "Inventor and author of the SIGGRAPH 1985 paper"},
+      {"name": "Ed Tannenbaum", "note": "Artist who used the Drawing Prism technology in Exploratorium exhibit and SIGGRAPH '84 performance"},
+      {"name": "Robert E. Mueller", "note": "Awarded U.S. Patent #3,846,826 (1974) for a prior FTIR-based direct drawing system using different hardware"}
+    ],
+    "media": [
+      {
+        "src": "https://history.siggraph.org/wp-content/uploads/2023/06/1985-Technical-Papers-Greene_The-Drawing-Prism-A-Versatile-Graphic-Input-Device.jpg",
+        "alt": "SIGGRAPH 1985 paper title slide for The Drawing Prism",
+        "caption": "The Drawing Prism paper title from SIGGRAPH 1985 Technical Papers. From ACM SIGGRAPH History Archives."
+      }
+    ],
+    "sources": [
+      {"text": "ACM Digital Library: Greene, 'The Drawing Prism: A Versatile Graphic Input Device', SIGGRAPH 1985", "url": "https://doi.org/10.1145/325334.325202"},
+      {"text": "SIGGRAPH History Archive: The Drawing Prism paper entry with abstract and references", "url": "https://history.siggraph.org/learning/the-drawing-prism-a-versatile-graphic-input-device-by-greene/"},
+      {"text": "U.S. Patent #3,846,826: Mueller, 'Direct Television Drawing and Image Manipulating System' (1974) — prior FTIR art", "url": "https://patents.google.com/patent/US3846826A/"},
+      {"text": "SIGGRAPH '84 Electronic Theater: 'Technological Feets' by Javril, Tannenbaum, Greene, Schier (live FTIR performance)", "url": "https://history.siggraph.org/experience/technological-feets-by-javril-et-al/"}
+    ],
+    "imageUrls": [
+      "https://history.siggraph.org/wp-content/uploads/2023/06/1985-Technical-Papers-Greene_The-Drawing-Prism-A-Versatile-Graphic-Input-Device.jpg"
+    ]
+  },
+  "savedImages": []
+}

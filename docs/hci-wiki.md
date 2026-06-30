@@ -66,6 +66,9 @@ Each entry includes an overview, a deep dive, a small media gallery, and full so
 57. [Canon Cat (1987)](#canon-cat-1987)
 58. [Puma RS Computer Shoes (1985)](#puma-rs-computer-shoes-1985)
 59. [VersaBraille (1979)](#versabraille-1979)
+60. [MBX Expansion System (1983)](#mbx-expansion-system-1983)
+61. [The Drawing Prism (1985)](#the-drawing-prism-1985)
+62. [DataHand Keyboard (1990)](#datahand-keyboard-1990)
 
 ---
 
@@ -3100,3 +3103,125 @@ Refreshable Braille remains one of computing's most profound assistive technolog
 6. US Patent 4,305,067 — Tretiakoff piezoelectric Braille cell — https://www.freepatentsonline.com/4305067.html
 7. Wikipedia — Telesensory Systems — https://en.wikipedia.org/wiki/Telesensory_Systems
 8. Wikipedia — Refreshable Braille Display — https://en.wikipedia.org/wiki/Refreshable_braille_display
+
+---
+
+## DataHand Keyboard (1990)
+
+**By:** DataHand Systems, Inc. / Industrial Innovations (inventor: Dale J. Retter)  
+**Tags:** `HCI` `Input` `Keyboard` `Ergonomic` `Accessibility`
+
+### Overview
+
+The DataHand is an unconventional computer keyboard introduced by DataHand Systems, Inc. in 1990, designed to eliminate wrist motion and finger extension entirely. Each of the user's five fingers rests in an individual padded well containing five magnetic switches: press down (center), or nudge north, south, east, or west. The layout maps approximately to QWERTY — pressing 'up' with the left four fingers types QWER, while pressing 'down' (center press) types ASDF. Thumb clusters handle mode switching between letters, numbers/symbols, and function/mouse modes. The keys use magnets for return action (not springs) and optical sensors for activation, requiring only about 1mm of movement and minimal force. The two hand units split apart and can be positioned independently. The system was developed through the late 1980s by Dale Retter at Industrial Innovations (Scottsdale, Arizona), presented at the 1989 Human Factors Society annual meeting, and brought to commercial production in 1990. DataHand Systems marketed the keyboard primarily to computer users suffering from repetitive strain injury and carpal tunnel syndrome.
+
+### Deep dive
+
+* **Origins.** Dale J. Retter invented the DataHand to address his own repetitive strain injury. The concept was developed through Industrial Innovations of Scottsdale, Arizona, with early prototypes dating to 1989. The first public presentation was at the Human Factors Society 33rd Annual Meeting in 1989, where Leland Knight presented a paper on the 'Design, Potential, Performance, and Improvements in the Computer Keyboard and Mouse.' A follow-up evaluation by William Ferrill appeared in Advances in Industrial Ergonomics and Safety in 1992, providing independent assessment. DataHand Systems, Inc. was formally founded in 1985 and began manufacturing in 1990. The original model, later designated the DH200, used magnetically-held keys with optical sensors — a deliberately low-force mechanism designed to minimize finger fatigue.
+* **Interaction Model.** Each finger-well has five magnetic switches (center + N/S/E/W) actuated by sub-millimeter finger movements. This requires no wrist movement and almost no finger extension — the hands remain completely stationary on palm rests. The keyboard is split into left and right units that can be positioned and angled independently. The layout approximates QWERTY: the home row is accessed by center-presses, the row above by upward nudges, and the row below by downward nudges. Sideways nudges access columns normally reached by lateral finger movement (e.g., G and H). Three thumb-activated mode keys switch between: Normal mode (letters), Numbers/Symbols mode, and Function/Mouse mode (which lets the same finger movements control a cursor). The Pro II model added macro recording. Learning the DataHand takes approximately one month of dedicated practice to reach normal typing speed. An industrial evaluation by Ferrill (1992) found the design promising for reducing cumulative trauma disorders.
+* **Hardware.** The keyboard uses magnetic key return — each key is held in its neutral position by small magnets, and optical sensors (opto-interrupters) detect when a key has been moved from neutral. This eliminates conventional springs and allows very low activation force. Each finger-well cluster is individually adjustable for finger length and palm size. The two hand units connect via a 15-pin serial-style cable. The DH200 model (1990-1995) had a distinctive sculpted beige shell. Later models included the Personal (non-programmable) and Professional II (with macro recording). The keyboard does not function in direct sunlight (optical sensors are ambient-light-sensitive) and requires periodic cleaning to prevent dust from blocking the sensors. DataHand also sold a 'DataChair' — an office chair with DataHand keyboard halves mounted on the armrests — for $1,600.
+* **Legacy.** The DataHand achieved cult status among ergonomic keyboard enthusiasts and RSI sufferers. It appeared in films including Contact (1997, as spaceship controls) and Stormbreaker (2006), and on TV's Mighty Morphin Power Rangers. DataHand Systems ceased manufacturing in 2008 due to supplier issues, but the design has inspired multiple open-source recreations: the DodoHand (2013, 3D-printed), the lalboard (2019, 3D-printable with hand-solderable PCBs), and the Svalboard (2023, small-run production including trackpoint and trackball options). The DataHand remains a touchstone in ergonomic keyboard design — proof that the QWERTY keyboard can be rethought at the level of individual finger biomechanics.
+
+### Team
+
+* **Dale J. Retter.** Inventor of the DataHand concept, developed to address his own RSI
+* **Industrial Innovations (Scottsdale, AZ).** Company that developed the early DataHand prototypes (1989-1991)
+* **DataHand Systems, Inc..** Company founded 1985 to manufacture and market the DataHand keyboard
+* **Leland Knight.** Presented the DataHand design paper at the 1989 Human Factors Society meeting
+* **William Ferrill.** Author of independent ergonomic evaluation of DataHand (1992)
+
+### Media
+
+![Overhead view of DataHand keyboard showing both hand units with finger wells](../assets/wiki/datahand-keyboard-1.jpg)
+*Overhead view of DataHand keyboard units providing full computer keyboard and mouse functionality. Photo by Datahandfan, CC BY-SA 3.0, via Wikimedia Commons.*
+
+![Right hand unit of a DataHand Professional II keyboard showing finger wells](../assets/wiki/datahand-keyboard-2.jpg)
+*The right-hand unit of a DataHand Professional II keyboard, showing five finger wells and thumb controls. Photo via Wikimedia Commons.*
+
+### Sources
+
+1. Wikipedia: DataHand — https://en.wikipedia.org/wiki/DataHand
+2. Octopup.org: Detailed DataHand owner review with historical photos of 1989-1991 prototypes by Dale Retter and Industrial Innovations — https://octopup.org/computer/datahand
+3. Knight & Retter, 'DataHand: Design, Potential, Performance, and Improvements in the Computer Keyboard and Mouse', Human Factors Society 33rd Annual Meeting, 1989 — https://octopup.org/img/computer/datahand/19890000--DataHand--Design-Potential-Performance-and-Improvements-in-the-Computer-Keyboard-and-Mouse--Leland-Knight.pdf
+4. Ferrill, 'Preliminary Test and Evaluation of DataHand', Advances in Industrial Ergonomics and Safety IV, 1992 — https://octopup.org/img/computer/datahand/1992--DataHand--Advances-in-Industrial-Ergonomics-and-Safety--William-Ferrill.pdf
+5. Industrial Innovations DataHand Informational Prospectus, 1990 — https://octopup.org/img/computer/datahand/1990--Datahand--Industrial-Innovations--Informational-Prospectus.pdf
+6. Microsoft Buxton Collection: DataHand entry — https://www.microsoft.com/buxtoncollection/detail.aspx?id=75
+7. Hackaday: 'Inputs Of Interest: The Differently Dexterous DataHand' (2020) — https://hackaday.com/2020/04/20/inputs-of-interest-the-differently-dexterous-datahand-directionalizes-digits/
+
+---
+
+## The Drawing Prism (1985)
+
+**By:** Richard Greene  
+**Tags:** `HCI` `Input` `Art` `Drawing` `Optical`
+
+### Overview
+
+The Drawing Prism is an optical direct-drawing computer input device presented by Richard Greene at SIGGRAPH 1985. It uses a large transparent prism as a drawing surface. A video camera underneath views the surface at an angle where it can only image the points of optical contact between drawing tools and the surface — a principle known as frustrated total internal reflection (FTIR). A layer of transparent liquid helps tools make optical contact. The camera output is digitized and processed in real time, building up a drawing in the frame buffer as the artist moves tools along the surface. Any light-colored object — brushes, fingers, palette knives — can be used. The result is a device that bridges traditional artistic technique with digital image creation, allowing continuously adjustable line qualities, textures, and effects that conventional computer input devices of the era could not produce.
+
+### Deep dive
+
+* **Origins and Principle.** Richard Greene developed the Drawing Prism to solve a specific problem: artists using computer graphic input devices could not produce the same visual effects achievable with traditional tools and media. The device uses one face of a large transparent prism as a drawing surface. A video camera views that surface from below at an angle such that it can only image points of optical contact — where a drawing tool touches the surface, it frustrates the total internal reflection, creating a visible point of light. These images are digitized and processed in real time, building up a drawing. The user sees the accumulating image on a monitor. A layer of transparent liquid (such as mineral oil) between the tool and the glass ensures reliable optical contact. The device was presented at SIGGRAPH 1985 in San Francisco.
+* **Interaction Model.** The artist works on the glass surface with any light-colored object: traditional brushes, their fingers, a rag for smudging, a palette knife. The system sees where and how hard the tool presses based on the size and intensity of the contact point. Unlike a graphics tablet, there is no stylus — the artist's actual brushwork is captured directly. Line width, opacity, and texture vary naturally with tool pressure, angle, and speed, exactly as in traditional painting. The artist sees the result accumulating on a monitor as they work on the glass. This creates a unique feedback loop: the physical sensation of brush-on-glass corresponds directly to marks appearing on screen. The paper describes combinations of visual effects 'previously restricted to either traditional media or computer graphics.'
+* **Technical Implementation.** The system uses a transparent prism with a video camera positioned underneath, viewing the drawing surface at an angle that exploits frustrated total internal reflection. Light-colored objects in optical contact with the surface appear as bright spots against a dark background. A real-time digitizer processes the camera signal and writes to a frame buffer. The SIGGRAPH paper details the optical geometry, the choice of camera (RCA TC 2000 series), and suggestions for improving resolution. Greene notes that Robert E. Mueller was awarded U.S. Patent #3,846,826 in 1974 for a similar FTIR-based direct drawing system using a flying-spot scanner and photomultiplier instead of a camera — an independent prior invention using the same optical principles.
+* **Legacy.** The Drawing Prism anticipated FTIR-based multi-touch screens by roughly 20 years — the same optical principle underlies many modern multi-touch tables and interactive surfaces. The idea of painting directly into a computer with real brushes predates digital painting tablets (Wacom) and multi-touch drawing apps by decades. A live performance using the Drawing Prism, 'Technological Feets' by Javril, Tannenbaum, Greene, and Schier, was presented at the SIGGRAPH '84 Electronic Theater. Ed Tannenbaum also used the technology in a permanent exhibit at the Exploratorium in San Francisco (1982). The work bridges HCI, computer graphics, and fine art in a way that few devices from any era do.
+
+### Team
+
+* **Richard Greene.** Inventor and author of the SIGGRAPH 1985 paper
+* **Ed Tannenbaum.** Artist who used the Drawing Prism technology in Exploratorium exhibit and SIGGRAPH '84 performance
+* **Robert E. Mueller.** Awarded U.S. Patent #3,846,826 (1974) for a prior FTIR-based direct drawing system using different hardware
+
+### Media
+
+![SIGGRAPH 1985 paper title slide for The Drawing Prism](../assets/wiki/drawing-prism-1.jpg)
+*The Drawing Prism paper title from SIGGRAPH 1985 Technical Papers. From ACM SIGGRAPH History Archives.*
+
+### Sources
+
+1. ACM Digital Library: Greene, 'The Drawing Prism: A Versatile Graphic Input Device', SIGGRAPH 1985 — https://doi.org/10.1145/325334.325202
+2. SIGGRAPH History Archive: The Drawing Prism paper entry with abstract and references — https://history.siggraph.org/learning/the-drawing-prism-a-versatile-graphic-input-device-by-greene/
+3. U.S. Patent #3,846,826: Mueller, 'Direct Television Drawing and Image Manipulating System' (1974) — prior FTIR art — https://patents.google.com/patent/US3846826A/
+4. SIGGRAPH '84 Electronic Theater: 'Technological Feets' by Javril, Tannenbaum, Greene, Schier (live FTIR performance) — https://history.siggraph.org/experience/technological-feets-by-javril-et-al/
+
+---
+
+## MBX Expansion System (1983)
+
+**By:** Milton Bradley (Mike Langieri, lead designer)  
+**Tags:** `HCI` `Input` `Voice` `Gaming` `Speech`
+
+### Overview
+
+The MBX Expansion System was a gaming peripheral for the TI-99/4A home computer, released by Milton Bradley in late 1983 and discontinued within months due to the 1984 video game crash. It combined three distinct interaction modalities into one package: a voice-recognition headset that trained on the user's voice to understand spoken game commands; a 360-degree analog joystick with proportional control and a twist knob for object rotation; and a 64-key membrane action keypad with swappable game overlays. The system also included a built-in speech synthesizer superior to Texas Instruments' own. On startup, users trained the voice system by speaking displayed words; thereafter, spoken English commands like 'Fire!', 'Climb!', or 'Dive!' controlled the game. The MBX was originally designed as a standalone Milton Bradley game console to compete with the Atari 2600, but was repurposed as a TI-99/4A peripheral after MB's president killed the console project. Only about 10 game cartridges were ever produced, and fewer than a dozen titles supported its unique features.
+
+### Deep dive
+
+* **Origins.** The MBX began life in 1982 as Milton Bradley's answer to the Atari 2600 and Mattel Intellivision — a standalone game console built around voice recognition. MB planned to differentiate with voice input, speech synthesis, and a unique controller. The project was led by Mike Langieri. When ColecoVision entered the market, MB president Jim Shea decided the market could not support four consoles and killed the project. Langieri was then tasked with finding a use for the developed technology. The system was retooled as an add-on for the TI-99/4A, a computer for which MB had already developed games and whose graphics chip (TMS9918) MB had some connection to. The MBX was demoed at the January 1983 CES to lines of waiting attendees. Atari was so impressed they entered an agreement for MB to produce an equivalent system called the Voice Commander for the Atari 2600 and 5200, though this deal eventually fell apart.
+* **Interaction Model.** The MBX offered three simultaneous interaction modes. Voice: A headset with adjustable boom microphone fed speech into a recognition system. Before each game, the user trained the system by speaking displayed words; the system created a voice model and then recognized spoken commands during play. Different games used different vocabulary. The joystick: A pistol-grip controller with 360-degree analog directional control (not limited to 8 positions), proportional speed (faster stick movement = faster on-screen action), a twist knob on top for continuous object rotation, and four buttons (three on the back plus a trigger under the lever). The keypad: A 64-button membrane surface with swappable plastic overlays specific to each game, providing labeled one-touch commands. None of the cartridges used ALL the MBX facilities, and the joystick was never fully utilized by software.
+* **Hardware.** The MBX unit was effectively a second computer that used the TI-99/4A for game storage and video display. It contained a 6809 CPU running at 6 MHz and a General Instrument SP1000 (GI8335) speech synthesis chip. It connected to the TI-99/4A via the joystick port and cassette port, using a custom serial protocol. It had its own 9V DC power supply. The headset featured padded ear rests (not headphones — they were purely for comfort) and a boom microphone that could be positioned 1–2 inches from the mouth. The joystick used analog sensing for position and speed. The system was manufactured from approximately September to November 1983 (control numbers MB8309–MB8311).
+* **Legacy.** The MBX's joystick design lived on: a simplified version (without the twist knob or analog control) became the Atari Space Age Joystick and was also marketed by MB as the HD2000 Joystick. The voice-training paradigm — speak displayed words to calibrate the system — presaged modern voice assistant setup routines by decades. Barry Boone later produced assembly code allowing Extended Basic programmers to access the MBX's facilities. About 10 cartridge titles were released, including Championship Baseball (the flagship), Space Bandits, Bigfoot, Sewermania, and Terry Turtle's Adventure. The system remains a cult object among TI-99/4A collectors and an extraordinary what-if in gaming history: a voice-controlled game console killed by market timing.
+
+### Team
+
+* **Mike Langieri.** Lead designer, creator of the MBX concept, designer of the MBX joystick and several game titles
+* **Dave Winzler.** Co-developer, worked with Langieri on Championship Baseball
+* **Tim Scully.** Programmer of Honey Hunt
+* **Milton Bradley Company.** Toy/game manufacturer, developed the system at their electronics division
+* **Barry Boone.** TI-99/4A community developer who created Extended Basic CALL LINKs for the MBX
+
+### Media
+
+![1983 MBX promotional flyer showing the complete system with headset and joystick](../assets/wiki/mbx-expansion-system-1.jpg)
+*1983 Milton Bradley MBX promotional flyer (side 2), showing the system unit, headset, joystick, and game screenshots. Scan by Benj Edwards, Vintage Computing and Gaming.*
+
+![1983 MBX promotional flyer showing the MBX and TI-99/4A setup](../assets/wiki/mbx-expansion-system-2.jpg)
+*1983 Milton Bradley MBX promotional flyer (side 1), showing the complete system in use with the TI-99/4A. Scan by Benj Edwards, Vintage Computing and Gaming.*
+
+### Sources
+
+1. TI-99/4A Videogame House: MBX History (extensive history from creator Mike Langieri) — https://www.videogamehouse.net/mbx.html
+2. Ninerpedia: MBX technical details and cartridge list — https://ninerpedia.org/wiki/MBX
+3. Vintage Computing and Gaming: Retro Scan of MBX flyer by Benj Edwards — https://www.vintagecomputing.com/index.php/archives/1337/retro-scan-milton-bradley-mbx-for-ti-994a
+4. Rob Patton's MBX Page (screenshots, reviews, cartridge images) — http://www.robpatton.com/ti_mbx.htm
+5. AtariHQ: Milton Bradley's Voice Commander and Atari lawsuit — http://www.atarihq.com/2678/3party/mbradley.html
