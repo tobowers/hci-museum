@@ -43,6 +43,8 @@ Known collection gaps (updated 2026-06-29):
 - ~~Full-body VR tracking~~ — Filled: VPL DataSuit (1989), fiber-optic full-body suit completing the VPL triptych
 - ~~Professional creative workstation with novel HCI~~ — Filled: Quantel Paintbox (1981), first pressure-sensitive stylus for broadcast graphics
 - ~~Intraoral/tongue-operated interface~~ — Filled: Tongue Touch Keypad (1991), 9-key palatal retainer with magnetic-flux transmitter
+- ~~Pen computing / handwriting recognition~~ — Filled: Pencept PenPad (1982), keyboardless handwriting terminal (2026-07-01)
+- ~~Consumer physiological computing / biofeedback~~ — Filled: Synapse Relax Stress Reduction System (1984), FDA-cleared EMG headband for home computers (2026-07-01)
 
 Deferred strong candidates:
 - SynthAxe (1985): <100 units, $13K MIDI guitar controller, CHM "curator's wish." Rich sources via Allan Holdsworth community, MusicRadar, CHM blog. Revisit when adding another music HCI artifact.
@@ -71,8 +73,11 @@ Deferred strong candidates:
 - Yamaha Breath Controller BC1/BC2 (1982–1987): Breath pressure → continuous MIDI control. Mouthpiece-based pressure transducer for musical expression. First breath-based computer expression controller. Different modality from Nintendo Hands Free Controller (binary sip-and-puff for accessibility). Defer for future music HCI batch.
 - Spaceball / Spaceball 2003 (1986–1988, Spatial Systems): 6-DOF isometric force/torque controller. Overlaps with DLR Control Ball (1981, same interaction paradigm). Defer until the two can be differentiated or compared side-by-side.
 - Eudaemonic Enterprises Shoe Computer (1978): Wearable roulette-prediction computer hidden in a shoe. Toe switches + vibrotactile output. Delightful hacker lore but a one-off, not a commercial or published HCI artifact. Defer unless stronger documentation surfaces.
+- GreenMan Teleoperator (1983-88): First anthropomorphic telepresence system. Full-body exoskeleton master controller from SSC San Diego (Navy). Spectacular images (operator in exoskeleton, green slave robot). Strong HCI framing (zero autonomy, pure human-machine interface, head-tracked stereoscopic display). Deferred due to military/defense context — different from museum's consumer/research tone. Revisit if scope discussion with Tobowers supports it. (2026-07-01)
+- Roklan Un-Roller Controller (1983): Soft dome controller rocked with palm for 8-directional input. CHM collection. Ultimately an 8-way switch in a novel form factor — interaction model not distinct enough from joysticks. Good source availability. Defer. (2026-07-01)
 
 Promotion gotchas:
+- The erols.com/rwservices image server returns HTML for direct image access (same class of issue as videogamehouse.net). The site is a comprehensive pen computing archive but images must be sourced from Wikimedia or other mirrors. (2026-07-01)
 - The videogamehouse.net image server returns 404 for direct image access. The site itself is a rich source of MBX history (creator interviews, flyers, cartridge lists) but product photos must be sourced elsewhere (2026-06-30).
 - Research paper artifacts (e.g., Drawing Prism) may have figures in the ACM PDF behind paywall. Accept the publicly accessible title slides/abstracts as primary images and supplement with patent drawings or press coverage where available (2026-06-30).
 - The `promote-potentials.ts` script appends wiki sections and updates data.ts but does NOT update the wiki Table of Contents. The ToC must be manually edited after each promotion batch.
