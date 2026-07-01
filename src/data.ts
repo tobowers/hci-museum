@@ -802,6 +802,30 @@ const exhibitData: Exhibit[] = [
     tags: ["Biofeedback", "Physiological Computing", "Wearable"],
     image: img("relax-stress-reduction-1.png"),
   },
+  {
+    id: "exciting-boxing",
+    slug: "exciting-boxing",
+    wikiTitle: "Exciting Boxing Controller",
+    year: "1987",
+    sortYear: 1987,
+    title: "Exciting Boxing Controller",
+    subtitle: "An inflatable humanoid punching bag you physically fought to control a Famicom boxing game",
+    blurb: "An inflatable, life-sized boxer with 11 internal pressure sensors that plugged into the Nintendo Famicom. You stood on a mat, put on knitted gloves, and physically punched the bag. Konami, 1987. Full-body motion gaming nearly two decades before the Wii.",
+    tags: ["Game Controller", "Full-Body Input", "Motion Gaming", "Famicom"],
+    image: img("exciting-boxing-1.jpg"),
+  },
+  {
+    id: "ibva",
+    slug: "ibva",
+    wikiTitle: "Interactive Brainwave Visual Analyzer (IBVA)",
+    year: "1991",
+    sortYear: 1991,
+    title: "Interactive Brainwave Visual Analyzer (IBVA)",
+    subtitle: "The first commercial wireless brain-computer interface — think with your forehead, control a Mac with your mind",
+    blurb: "A wireless EEG headband that transmitted brainwaves by radio to a Macintosh, converting alpha and beta rhythms into MIDI notes, visuals, and control signals. Shipped April 1991 by Psychic Lab Inc. Used by Mariko Mori at the Venice Biennale, and by HBO to measure TV audience engagement.",
+    tags: ["BCI", "EEG", "Wearable", "Brainwave"],
+    image: img("ibva-5.jpg"),
+  },
 ];
 
 export const exhibits: Exhibit[] = exhibitData.toSorted((a, b) => b.sortYear - a.sortYear || a.title.localeCompare(b.title));
