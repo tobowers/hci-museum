@@ -778,6 +778,30 @@ const exhibitData: Exhibit[] = [
     tags: ["HCI", "Input", "Ergonomic"],
     image: img("datahand-keyboard-1.jpg"),
   },
+  {
+    id: "pencept-penpad",
+    slug: "pencept-penpad",
+    wikiTitle: "Pencept PenPad",
+    year: "1982",
+    sortYear: 1982,
+    title: "Pencept PenPad",
+    subtitle: "A keyboardless terminal that read your handwriting—and your gestures—in 1982",
+    blurb: "A terminal replacement with no keyboard—just a pen and tablet. Used MIT-developed user-independent handwriting recognition and gesture commands (circle to select, scribble to delete). CHI '85 demo showed real-time pen computing a decade before the Newton.",
+    tags: ["Pen Computing", "Handwriting Recognition", "Gesture"],
+    image: img("pencept-penpad-1.jpg"),
+  },
+  {
+    id: "relax-stress-reduction",
+    slug: "relax-stress-reduction",
+    wikiTitle: "Synapse Relax Stress Reduction System",
+    year: "1984",
+    sortYear: 1984,
+    title: "Synapse Relax Stress Reduction System",
+    subtitle: "A video-game company built the first FDA-cleared biofeedback peripheral for home computers—and it almost worked",
+    blurb: "An EMG headband, control unit, and software that let you fly a balloon by relaxing. Synapse Software (of Blue Max fame) got FDA clearance as a Class II medical device in 1984. Co-created by legendary game designer Bill Williams. Rarity 9 on AtariMania.",
+    tags: ["Biofeedback", "Physiological Computing", "Wearable"],
+    image: img("relax-stress-reduction-1.png"),
+  },
 ];
 
 export const exhibits: Exhibit[] = exhibitData.toSorted((a, b) => b.sortYear - a.sortYear || a.title.localeCompare(b.title));
