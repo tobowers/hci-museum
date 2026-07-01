@@ -1,0 +1,60 @@
+{
+  "slug": "exciting-boxing",
+  "title": "Exciting Boxing Controller",
+  "year": "1987",
+  "subtitle": "An inflatable humanoid punching bag you physically fought to control a Famicom boxing game",
+  "why_scout_cares": "In 1987, Konami shipped an inflatable, life-sized boxer with 11 internal pressure sensors that plugged into the Nintendo Famicom. You stood on a plastic mat, put on knitted gloves, and actually punched the bag—and your on-screen fighter threw the corresponding punches. It was full-body motion gaming nearly two decades before the Wii, packaged in a ¥7,980 box so enormous that Japanese retailers struggled to shelve it. The sensors were unreliable, the bag kept falling over, and it required inflation plus two liters of water ballast before every session. It sold terribly and was forgotten. That is exactly why it belongs here: it is what human-computer interaction looked like when nobody yet knew what the category was supposed to be.",
+  "search_terms": ["Exciting Boxing Famicom", "Konami inflatable punching bag", "Exciting Boxing controller 1987", "エキサイティングボクシング"],
+  "research": {
+    "title": "Exciting Boxing Controller",
+    "year": "1987",
+    "by": "Konami (developed by Human Entertainment)",
+    "tags": ["Game Controller", "Full-Body Input", "Motion Gaming", "Pressure Sensor", "Famicom"],
+    "overview": "The Exciting Boxing Controller was an inflatable humanoid punching bag peripheral for the Nintendo Famicom, released by Konami in December 1987. Bundled with the game cartridge *Exciting Boxing* (RC250), this was a dedicated single-game controller: a life-sized vinyl boxer you inflated with an included foot pump, weighted with two liters of water in the base, and then physically punched to control the on-screen fighter.\n\nInside the bag were 11 pressure sensors—five on the left side, five on the right, and one at the top—that registered punch location. The controller connected to the Famicom via its 15-pin expansion port through a control box at the base. A green plastic mat extended from the base for the player to stand or kneel on, anchoring the unit against the force of punches. The included knitted gloves completed the ensemble.\n\nThe game itself was structured as a boxing RPG: players trained to build stats, then fought through seven opponents across weight classes, using a password system to save progress. Konami's marketing called it a \"sweat-body Famicom\" (汗体ファミコン), explicitly positioning gaming as a physical, embodied activity. The peripheral was Japan-only, priced at ¥7,980, and sold in an enormous 60cm-wide box that was impractical for both retail shelving and Japanese home storage. It was a commercial failure and is extremely rare today—complete-in-box examples are believed to number in single digits.",
+    "deepDive": [
+      {
+        "heading": "The Interaction Model",
+        "text": "Using the Exciting Boxing Controller meant transforming your living room into a boxing gym. You first had to inflate the bag with the foot pump, pour two liters of water into the base to prevent it from flying across the room, don the knitted gloves, and stand on the mat. Then you punched. The 11 internal pressure sensors detected punch location—left jab triggered a left jab on screen, right hook triggered a right hook—but there was no movement control. The bag only read punches; you couldn't make your fighter dodge or move. In practice, the sensors were notoriously unreliable: a 2019 hands-on review reported hits registering only \"sometimes.\" The bag itself fell over frequently, especially from hard hooks, interrupting gameplay while you set it upright again. The setup process alone—inflation, water, mat positioning—was so involved that a full play session required substantial commitment before the first punch was thrown."
+      },
+      {
+        "heading": "Origins",
+        "text": "The game was developed by Human Entertainment (株式会社ヒューマン), a Japanese studio founded in 1983 that would later become famous for the Fire Pro Wrestling series. Human's wrestling and boxing expertise made them a natural fit for this project. Konami published it as part of their \"Exciting\" sports series, which included Exciting Soccer and Exciting Basket. Intriguingly, Konami also produced Top Rider (1988), an inflatable motorcycle peripheral for the Famicom, suggesting a brief corporate flirtation with inflatable game controllers during Japan's bubble economy—a period when consumer electronics companies could afford to take wild risks on strange hardware. Exciting Boxing was developed exclusively for the Famicom, not as an arcade port, which was unusual for Konami at the time."
+      },
+      {
+        "heading": "Technical Architecture",
+        "text": "The controller communicated state as two nibbles (4 bits each) read through the Famicom's standard controller port protocol. The cartridge PCB used Konami's VRC-1 mapper chip (iNES Mapper 75) with 128KB of PRG ROM and 128KB of CHR ROM. First production run date codes indicate November 1987 manufacturing. The MAME emulator team added preliminary support in 2021 (PR #8817), though the device is flagged as having 'imperfect' emulation due to incomplete understanding of the sensor logic. The sensors appear to be binary contact/pressure switches rather than analog force sensors—they detected WHERE you hit, not HOW hard. The game handled opponent dodging and evading contextually, animated based on missed punches or timing rather than player input."
+      },
+      {
+        "heading": "Why It Failed",
+        "text": "The Exciting Boxing Controller failed for reasons that read like a checklist of early HCI challenges: the enormous box was a retail nightmare; setup was laborious and required physical effort before any gameplay; the sensors were unreliable; the bag fell over; the ¥7,980 price was high for a single-game peripheral; storage was impractical; the player looked ridiculous; and the physical exertion limited session length. These are essentially the same problems that would face full-body gaming systems decades later—Kinect's reliability issues, Wii Fit Board's setup friction, VR's social awkwardness. Konami was trying to solve problems of embodied interaction in 1987 that the industry still hasn't fully solved."
+      }
+    ],
+    "team": [
+      { "name": "Human Entertainment", "note": "Developer of the Exciting Boxing game software; founded 1983, later famous for the Fire Pro Wrestling series" },
+      { "name": "Konami Corporation", "note": "Publisher and hardware manufacturer; at its 1987 creative peak with Castlevania, Metal Gear, and Contra" }
+    ],
+    "media": [
+      { "src": "assets/wiki/exciting-boxing-1.jpg", "alt": "Exciting Boxing Controller box contents: inflatable bag, game cartridge, gloves, foot pump, mat", "caption": "Full contents of the Exciting Boxing set, including the deflated bag, cartridge, knitted gloves, foot pump, and green mat. Source: NintendoSegaJapan (2019)" },
+      { "src": "assets/wiki/exciting-boxing-2.jpg", "alt": "Person physically punching the inflatable Exciting Boxing Controller", "caption": "A player demonstrates the full-body punching interaction—the bag's 11 pressure sensors translate punch location into on-screen boxing moves. Source: NintendoSegaJapan (2019)" }
+    ],
+    "sources": [
+      { "text": "FamicomWorld: Exciting Boxing Controller review and photos", "url": "https://famicomworld.com/system/controllers/exciting-boxing/" },
+      { "text": "NintendoSegaJapan: Complete hands-on with the working hardware (2019)", "url": "https://nintendosegajapan.com/2019/12/09/exciting-boxing-with-inflatable-controller/" },
+      { "text": "FamicomDo (Japanese): History and gameplay analysis", "url": "https://famicomdo.com/2021/08/08/exciting-boxing/" },
+      { "text": "MAME PR #8817: Emulation support with sensor documentation", "url": "https://github.com/mamedev/mame/pull/8817" },
+      { "text": "NesCartDB: PCB, ROM, and date code data", "url": "https://nescartdb.com/profile/view/4601/exciting-boxing" },
+      { "text": "GAMEX (Japanese): Retrospective review and score", "url": "https://gamex.jp/famicom-title/3009" },
+      { "text": "NesDev Wiki: Exciting Boxing Punching Bag technical reference", "url": "https://www.nesdev.org/wiki/Exciting_Boxing_Punching_Bag" }
+    ],
+    "imageUrls": [
+      "https://nintendosegajapan.com/wp-content/uploads/2019/12/excitingboxing_2400.jpg",
+      "https://nintendosegajapan.com/wp-content/uploads/2019/12/excitingboxing_2408.jpg",
+      "https://nintendosegajapan.com/wp-content/uploads/2019/12/excitingboxing_2405.jpg",
+      "https://nintendosegajapan.com/wp-content/uploads/2019/12/excitingboxing_2413.jpg",
+      "https://nintendosegajapan.com/wp-content/uploads/2019/12/excitingboxing_2410.jpg",
+      "http://famicomworld.com/wp-content/uploads/2009/03/exciting_boxing_inflatable4.jpg",
+      "https://images.launchbox-app.com/c543a6b7-9dcb-42a3-ad38-38a9baca7359.jpg"
+    ]
+  },
+  "savedImages": ["potential/exciting-boxing/images/exciting-boxing-1.jpg", "potential/exciting-boxing/images/exciting-boxing-2.jpg", "potential/exciting-boxing/images/exciting-boxing-5.jpg"]
+}

@@ -1,6 +1,6 @@
 # The HCI Golden Age Wiki
 
-A research compendium for a digital museum of cutting-edge Human-Computer Interaction from the late 1970s through the early 1990s. These sixty-four projects mix canonical experiments with weird, forgotten, and beautiful vaporware — brain control, voice control, gesture, wearable computing, VR, robots, and full-body exertion.
+A research compendium for a digital museum of cutting-edge Human-Computer Interaction from the late 1970s through the early 1990s. These sixty-six projects mix canonical experiments with weird, forgotten, and beautiful vaporware — brain control, voice control, gesture, wearable computing, VR, robots, and full-body exertion.
 
 Each entry includes an overview, a deep dive, a small media gallery, and full source links so the images and facts can always be traced back.
 
@@ -71,6 +71,8 @@ Each entry includes an overview, a deep dive, a small media gallery, and full so
 62. [DataHand Keyboard (1990)](#datahand-keyboard-1990)
 63. [Pencept PenPad (1982)](#pencept-penpad-1982)
 64. [Synapse Relax Stress Reduction System (1984)](#synapse-relax-stress-reduction-system-1984)
+65. [Exciting Boxing Controller (1987)](#exciting-boxing-controller-1987)
+66. [Interactive Brainwave Visual Analyzer (IBVA) (1991)](#interactive-brainwave-visual-analyzer-ibva-1991)
 
 ---
 
@@ -3322,3 +3324,98 @@ The entire system received FDA 510(k) clearance (K841128) as a Class II neurolog
 5. Google Arts & Culture: The Strong Museum artifact — https://artsandculture.google.com/asset/computer-software-atari-400-800-and-commodore-64-relax-the-stress-reduction-system/jAHGLomqi-qOAw
 6. Bill Williams biography (The Digital Antiquarian) — http://www.filfre.net/2016/01/bill-williams-the-story-of-a-life/
 7. COMPUTE! Issue 50 (July 1984) Product Announcement — https://www.atarimagazines.com/compute/issue50/293_1_NEWS_PRODUCTS_Stress_Reduction_Software.php
+
+---
+
+## Exciting Boxing Controller (1987)
+
+**By:** Konami (developed by Human Entertainment)  
+**Tags:** `Game Controller` `Full-Body Input` `Motion Gaming` `Pressure Sensor` `Famicom`
+
+### Overview
+
+The Exciting Boxing Controller was an inflatable humanoid punching bag peripheral for the Nintendo Famicom, released by Konami in December 1987. Bundled with the game cartridge *Exciting Boxing* (RC250), this was a dedicated single-game controller: a life-sized vinyl boxer you inflated with an included foot pump, weighted with two liters of water in the base, and then physically punched to control the on-screen fighter.
+
+Inside the bag were 11 pressure sensors—five on the left side, five on the right, and one at the top—that registered punch location. The controller connected to the Famicom via its 15-pin expansion port through a control box at the base. A green plastic mat extended from the base for the player to stand or kneel on, anchoring the unit against the force of punches. The included knitted gloves completed the ensemble.
+
+The game itself was structured as a boxing RPG: players trained to build stats, then fought through seven opponents across weight classes, using a password system to save progress. Konami's marketing called it a "sweat-body Famicom" (汗体ファミコン), explicitly positioning gaming as a physical, embodied activity. The peripheral was Japan-only, priced at ¥7,980, and sold in an enormous 60cm-wide box that was impractical for both retail shelving and Japanese home storage. It was a commercial failure and is extremely rare today—complete-in-box examples are believed to number in single digits.
+
+### Deep dive
+
+* **The Interaction Model.** Using the Exciting Boxing Controller meant transforming your living room into a boxing gym. You first had to inflate the bag with the foot pump, pour two liters of water into the base to prevent it from flying across the room, don the knitted gloves, and stand on the mat. Then you punched. The 11 internal pressure sensors detected punch location—left jab triggered a left jab on screen, right hook triggered a right hook—but there was no movement control. The bag only read punches; you couldn't make your fighter dodge or move. In practice, the sensors were notoriously unreliable: a 2019 hands-on review reported hits registering only "sometimes." The bag itself fell over frequently, especially from hard hooks, interrupting gameplay while you set it upright again. The setup process alone—inflation, water, mat positioning—was so involved that a full play session required substantial commitment before the first punch was thrown.
+* **Origins.** The game was developed by Human Entertainment (株式会社ヒューマン), a Japanese studio founded in 1983 that would later become famous for the Fire Pro Wrestling series. Human's wrestling and boxing expertise made them a natural fit for this project. Konami published it as part of their "Exciting" sports series, which included Exciting Soccer and Exciting Basket. Intriguingly, Konami also produced Top Rider (1988), an inflatable motorcycle peripheral for the Famicom, suggesting a brief corporate flirtation with inflatable game controllers during Japan's bubble economy—a period when consumer electronics companies could afford to take wild risks on strange hardware. Exciting Boxing was developed exclusively for the Famicom, not as an arcade port, which was unusual for Konami at the time.
+* **Technical Architecture.** The controller communicated state as two nibbles (4 bits each) read through the Famicom's standard controller port protocol. The cartridge PCB used Konami's VRC-1 mapper chip (iNES Mapper 75) with 128KB of PRG ROM and 128KB of CHR ROM. First production run date codes indicate November 1987 manufacturing. The MAME emulator team added preliminary support in 2021 (PR #8817), though the device is flagged as having 'imperfect' emulation due to incomplete understanding of the sensor logic. The sensors appear to be binary contact/pressure switches rather than analog force sensors—they detected WHERE you hit, not HOW hard. The game handled opponent dodging and evading contextually, animated based on missed punches or timing rather than player input.
+* **Why It Failed.** The Exciting Boxing Controller failed for reasons that read like a checklist of early HCI challenges: the enormous box was a retail nightmare; setup was laborious and required physical effort before any gameplay; the sensors were unreliable; the bag fell over; the ¥7,980 price was high for a single-game peripheral; storage was impractical; the player looked ridiculous; and the physical exertion limited session length. These are essentially the same problems that would face full-body gaming systems decades later—Kinect's reliability issues, Wii Fit Board's setup friction, VR's social awkwardness. Konami was trying to solve problems of embodied interaction in 1987 that the industry still hasn't fully solved.
+
+### Team
+
+* **Human Entertainment.** Developer of the Exciting Boxing game software; founded 1983, later famous for the Fire Pro Wrestling series
+* **Konami Corporation.** Publisher and hardware manufacturer; at its 1987 creative peak with Castlevania, Metal Gear, and Contra
+
+### Media
+
+![Exciting Boxing Controller box contents: inflatable bag, game cartridge, gloves, foot pump, mat](../assets/wiki/exciting-boxing-1.jpg)
+*Full contents of the Exciting Boxing set, including the deflated bag, cartridge, knitted gloves, foot pump, and green mat. Source: NintendoSegaJapan (2019)*
+
+![Person physically punching the inflatable Exciting Boxing Controller](../assets/wiki/exciting-boxing-2.jpg)
+*A player demonstrates the full-body punching interaction—the bag's 11 pressure sensors translate punch location into on-screen boxing moves. Source: NintendoSegaJapan (2019)*
+
+![Exciting Boxing Controller](../assets/wiki/exciting-boxing-3.jpg)
+*Exciting Boxing Controller archival image.*
+
+### Sources
+
+1. FamicomWorld: Exciting Boxing Controller review and photos — https://famicomworld.com/system/controllers/exciting-boxing/
+2. NintendoSegaJapan: Complete hands-on with the working hardware (2019) — https://nintendosegajapan.com/2019/12/09/exciting-boxing-with-inflatable-controller/
+3. FamicomDo (Japanese): History and gameplay analysis — https://famicomdo.com/2021/08/08/exciting-boxing/
+4. MAME PR #8817: Emulation support with sensor documentation — https://github.com/mamedev/mame/pull/8817
+5. NesCartDB: PCB, ROM, and date code data — https://nescartdb.com/profile/view/4601/exciting-boxing
+6. GAMEX (Japanese): Retrospective review and score — https://gamex.jp/famicom-title/3009
+7. NesDev Wiki: Exciting Boxing Punching Bag technical reference — https://www.nesdev.org/wiki/Exciting_Boxing_Punching_Bag
+
+---
+
+## Interactive Brainwave Visual Analyzer (IBVA) (1991)
+
+**By:** Psychic Lab Inc. (Masahiro Kahata)  
+**Tags:** `BCI` `EEG` `Wearable` `Brainwave` `MIDI` `Macintosh`
+
+### Overview
+
+The Interactive Brainwave Visual Analyzer (IBVA)—also branded as "amuwa"—was a commercially sold, wireless EEG-based brain-computer interface that first shipped in April 1991. Developed by Masahiro Kahata through his company Psychic Lab Inc. in New York, the IBVA was among the earliest consumer BCI products ever brought to market, predating the modern neurotech industry by nearly two decades.
+
+The hardware consisted of a fabric headband with three dry-contact electrodes placed on the forehead (no conductive gel required), connected to a battery-powered amplifier and radio transmitter worn on the body. A receiver box connected to the Macintosh serial port, giving the user roughly 30 feet of wireless mobility. The Mac software performed real-time Fast Fourier Transform (FFT) analysis on two EEG channels—left and right prefrontal cortex—decomposing brainwave activity into Delta, Theta, Alpha, Beta, and Gamma frequency bands. These brainwave metrics could be output as MIDI notes (left/right brain power mapped to note and velocity), serial ASCII data for external device control, QuickTime movie control, or visualizations including 3D waterfall spectral displays. An AppleScript interface and MAX/MSP external made the IBVA accessible to artists and musicians building custom interactive experiences. The system also included a camcorder audio-track recording feature, allowing synchronized brainwave recording alongside video for field research—which Kahata famously used to record EEG inside crop circles in the UK.
+
+### Deep dive
+
+* **Origins.** Masahiro Kahata (born 1951, Muroran, Hokkaido, Japan) began building brainwave interface systems in 1973, using analog and early digital electronics. By 1978–1980 he was visualizing brainwaves on Apple II and Rockwell computers. In 1984, he publicly demonstrated brainwave-controlled mouse drawing at Sapporo City Education Culture Hall using a Mac 128K, Apple II, and Rockwell computer—nineteen participants drew images using only brainwave switching. He spent 1985–1987 as Chief Researcher at ASCII Laboratories (a division of ASCII Corporation, Japan's leading computer publisher), then incorporated Psychic Lab in Sapporo in 1988. Development of IBVA as a commercial product began with Tokyo-based hardware partner Random Electronics Design. Kahata moved to New York in 1989, working with American Biotech on Mac-based biofeedback systems before incorporating Psychic Lab Inc. in March 1991 and shipping IBVA V1.0.1 the following month.
+* **How Brainwaves Became Computer Control.** The sensor headband captured microvolt-level EEG signals from the prefrontal cortex. A low-noise DC-coupled differential amplifier boosted the signal for radio transmission. On the Mac, the IBVA software performed FFT analysis (up to 8192-point, 0.015 Hz resolution) to decompose the continuous EEG into frequency bands. Multiple output modes were available: Brain Peak MIDI mapped left/right brainwave power peaks to MIDI note and velocity; Brain Rhythm MIDI sent continuous rhythmic EEG data; Brain Switches allowed users to set 8 configurable thresholds per channel (left, right, and coherence), enabling up to 128 discrete brain-triggered events. A competitive game mode called BrainFighter pitted two users' brainwaves against each other or against recorded sessions. The system's default bandwidth of 0.16–40 Hz at 120 Hz sampling captured all major EEG bands, while the programmable hardware could run at up to 1920 Hz sampling covering 0–900 Hz.
+* **Artists, Musicians, and the Venice Biennale.** The IBVA found its most visible use in the art world. Japanese artist Mariko Mori collaborated with Kahata to create *waveUFO* (2003–2011), an interactive brainwave installation where three participants entered a UFO-shaped pod and their synchronized brainwaves controlled real-time 3D animations. The work toured globally, appearing at the Venice Biennale (2005), Public Art Fund New York, and museums in Brazil, Denmark, and Austria. Other artists included Neam Cathode (Jean Décarie), who created *Cyber Mondrian* (2001) using brainwave-controlled Mondrian-like visuals and synthesized sound at Montréal's Oboro Gallery; Paras Kaul ("Brain Wave Chick"), who composed brainwave music at George Mason University; and UK artist Luciana Haill, who became the official EU/UK IBVA distributor and used the system in dreamachine EEG installations and augmented reality works. On the commercial side, HBO used the IBVA in 1993 to measure audience engagement with TV programming—finding, as New Scientist reported, that gritty documentaries triggered high brain response while a Michael Jackson concert generated almost none.
+* **Thirty Years and Counting.** The IBVA is extraordinary not just for when it started but for how long it lasted. The product evolved continuously from Mac System 6 through Mac OS 9, Mac OS X, Intel, and Apple Silicon—over thirty years of ongoing development. It added Bluetooth (2006), Quartz Composer visual plugins, GarageBand Audio Unit brainwave filters, an iPhone app (BrainDJVJ, 2009), and eventually open-source extensions including the brain-duino project (2014) and MAX/MSP externals. It won Best of Show at MacWorld New York in 1998 and was covered by Mondo 2000, Electronic Gaming Monthly, Popular Mechanics, New Scientist, and The Guardian. In 2000–2001, Sony America commissioned Psychic Lab to develop a brainwave gaming interface, though the project was cancelled after September 11, 2001.
+
+### Team
+
+* **Masahiro Kahata.** Founder of Psychic Lab; developed brainwave interfaces continuously from 1973; former Chief Researcher at ASCII Laboratories Japan; incorporated Psychic Lab Inc. in New York (1991)
+* **Random Electronics Design.** Tokyo-based hardware design partner for the original IBVA hardware (1988–2002)
+* **Luciana Haill.** UK artist and official IBVA EU/UK distributor (2009–present); visiting research fellow at Centre for Computational Neuroscience and Robotics, Sussex University
+
+### Media
+
+![Person wearing the IBVA EEG headband with three forehead electrodes](../assets/wiki/ibva-1.jpg)
+*The wireless EEG headband with three dry-contact forehead electrodes—no conductive gel needed. Source: ibva.com (2003)*
+
+![IBVA software interface showing real-time brainwave spectral analysis on Macintosh](../assets/wiki/ibva-2.jpg)
+*The IBVA Mac software displaying 3D waterfall spectral analysis of left and right hemisphere EEG data, with MIDI mapping controls. Source: psychiclab.net*
+
+![Interactive Brainwave Visual Analyzer (IBVA)](../assets/wiki/ibva-3.jpg)
+*Interactive Brainwave Visual Analyzer (IBVA) archival image.*
+
+### Sources
+
+1. Psychic Lab: Original IBVA system (1991) — http://www.psychiclab.net/IBVA/OriginalIBVA.html
+2. Psychic Lab: Masahiro Kahata profile and development history — http://www.psychiclab.net/IBVA/development1983.html
+3. Psychic Lab: IBVA technical specifications — http://www.psychiclab.net/IBVA/Specifications.html
+4. New Scientist (March 6, 1993): Brain waves show that Michael Jackson is no thriller — https://www.newscientist.com/article/mg13718633-800-technology-brain-waves-show-that-michael-jackson-is-no-thriller/
+5. eContact! 14.2: Andrew Brouse on forty years of brainwave music — http://www.econtact.ca/14_2/brouse_brainwavemusic.html
+6. BCI Wiki: IBVA Interactive Brainwave Visual Analyser — https://bciwiki.org/index.php?title=IBVA:_Interactive_Brainwave_Visual_Analyser
+7. IBVA UK / BrainMachine: Luciana Haill distribution and documentation — https://ibvabrainmachine.wordpress.com/about-2/measuring-eeg/hardware/
