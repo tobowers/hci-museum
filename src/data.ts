@@ -826,6 +826,30 @@ const exhibitData: Exhibit[] = [
     tags: ["BCI", "EEG", "Wearable", "Brainwave"],
     image: img("ibva-5.jpg"),
   },
+  {
+    id: "cave",
+    slug: "cave",
+    wikiTitle: "CAVE Automatic Virtual Environment",
+    year: "1992",
+    sortYear: 1992,
+    title: "CAVE Automatic Virtual Environment",
+    subtitle: "The first room-scale VR — no headset, just a room you walked into",
+    blurb: "The CAVE turned the room itself into the display: three walls and a floor projecting stereoscopic 3D that surrounded you, rendered from your tracked viewpoint. You walked naturally. Three other people could stand in there with you, making eye contact and pointing at the same virtual objects.",
+    tags: ["VR", "Immersive", "Display"],
+    image: img("cave-1.jpg"),
+  },
+  {
+    id: "virtual-fixtures",
+    slug: "virtual-fixtures",
+    wikiTitle: "Virtual Fixtures",
+    year: "1992",
+    sortYear: 1992,
+    title: "Virtual Fixtures",
+    subtitle: "The first augmented reality system — a full upper-body exoskeleton that let you see and feel virtual objects registered in the real world",
+    blurb: "In 1992, Louis Rosenberg bolted himself into a full upper-body exoskeleton covered in motors, peered through binocular magnifiers salvaged from a parachute test rig, and reached out to touch a virtual surface that pushed back — the first system to merge real and virtual with force feedback.",
+    tags: ["Augmented Reality", "Haptic", "Exoskeleton"],
+    image: img("virtual-fixtures-1.jpg"),
+  },
 ];
 
 export const exhibits: Exhibit[] = exhibitData.toSorted((a, b) => b.sortYear - a.sortYear || a.title.localeCompare(b.title));

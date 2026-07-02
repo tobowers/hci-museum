@@ -1,0 +1,87 @@
+{
+  "slug": "cave",
+  "title": "CAVE Automatic Virtual Environment",
+  "year": "1992",
+  "subtitle": "the first room-scale VR — no headset, just a room you walked into",
+  "why_scout_cares": "The CAVE flipped the VR paradigm inside out. Instead of strapping a screen to your face, it turned the room itself into the display — three walls and a floor projecting stereoscopic 3D that surrounded you, rendered from your tracked viewpoint. You walked naturally. You saw your own hands. Three other people could stand in there with you, making eye contact, pointing at the same virtual objects. It was VR without isolation, and it came from a PhD student at UIC who named it after Plato's cave. The first demonstration at SIGGRAPH 1992 showed molecular dynamics and architectural walkthroughs running on four Silicon Graphics workstations. Hundreds of CAVEs were built at universities and museums through the 1990s and 2000s. This is room-scale immersion before anyone called it that.",
+  "search_terms": ["CAVE Automatic Virtual Environment", "Carolina Cruz-Neira", "EVL UIC", "room-scale VR 1992", "SIGGRAPH 1992"],
+  "research": {
+    "title": "CAVE Automatic Virtual Environment",
+    "year": "1992",
+    "by": "Carolina Cruz-Neira, Daniel J. Sandin, Thomas A. DeFanti — Electronic Visualization Laboratory (EVL), University of Illinois at Chicago",
+    "tags": ["HCI", "VR", "Display", "Immersive", "Room-Scale"],
+    "overview": "The CAVE Automatic Virtual Environment was the first room-scale, projection-based immersive VR system, developed at the Electronic Visualization Laboratory (EVL) at the University of Illinois at Chicago and first demonstrated at SIGGRAPH 1992. It was the PhD dissertation of Carolina Cruz-Neira. The name is a recursive acronym and a reference to Plato's allegory of the cave — an explicit meditation on perception, illusion, and reality.\n\nThe CAVE was a 10 ft × 10 ft × 9 ft cube. Three walls used rear-projection and the floor used front-projection, with high-resolution CRT projectors casting stereoscopic images onto each surface. The user wore active stereo LCD shutter glasses synchronized with the projectors, and a Polhemus electromagnetic tracker followed head position so the computer could render the scene from the correct perspective in real time. A wand with 3 buttons and a pressure-sensitive joystick provided navigation and manipulation input.\n\nUnlike head-mounted VR systems of the era, the CAVE let users walk naturally within the room, see their own hands and bodies, and collaborate with 3–4 other people who could see one another's facial expressions and gestures. The system ran on four Silicon Graphics workstations networked together. The demonstration at SIGGRAPH 1992 showed a real-time molecular dynamics visualization and an architectural walkthrough. The CAVE spawned hundreds of installations worldwide and established a paradigm of immersive display that remains influential today.",
+    "deepDive": [
+      {
+        "heading": "Origins",
+        "text": "The CAVE was Carolina Cruz-Neira's PhD dissertation at the University of Illinois at Chicago, under advisors Thomas DeFanti and Dan Sandin. DeFanti and Sandin had co-founded EVL in the 1970s as a pioneering computer graphics and video art lab. Cruz-Neira's insight was that head-mounted displays — the dominant VR paradigm of the late 1980s — were isolating, uncomfortable, and limited in field of view. She proposed turning the room itself into the display."
+      },
+      {
+        "heading": "Interaction Model",
+        "text": "The CAVE's defining interaction paradigm was 'bring your own body.' Users walked into the cube unencumbered — no HMD, no cables dragging from their head. The tracked viewpoint rendered correct perspective from wherever they stood, supporting natural proprioceptive walking within the 10-foot volume. A hand-held wand provided 3-button interaction. Multiple users could share the space simultaneously, seeing each other's real bodies inside the virtual environment — a form of co-located collaboration that HMD systems could not match. This was neither desktop computing nor head-mounted VR; it was a third category: room as interface."
+      },
+      {
+        "heading": "Technical Architecture",
+        "text": "The original CAVE used four Electrohome Marquee 8000 CRT projectors (one per surface), active stereo LCD shutter glasses, and Polhemus electromagnetic tracking. Four Silicon Graphics VGX workstations — one master and three rendering slaves — were synchronized via Ethernet networking and hardware genlock. The software framework was written in C with OpenGL and later formalized as the CAVELib API. The frame was built from non-magnetic wood to avoid interference with the electromagnetic tracker. The whole system cost roughly a million dollars."
+      },
+      {
+        "heading": "Legacy",
+        "text": "The CAVE design became a standard in VR labs worldwide. Hundreds of CAVE and CAVE-like installations were built at universities, engineering companies, and museums throughout the 1990s and 2000s. It spawned derivative systems: the ImmersaDesk (single-screen drafting table format), the Infinity Wall (large conference-room display), and eventually CAVE2 (2012, a 320-degree cylindrical LCD-panel system also from EVL). Carolina Cruz-Neira received the IEEE VGTC Virtual Reality Technical Achievement Award in 2007 and was elected to the National Academy of Engineering in 2018."
+      }
+    ],
+    "team": [
+      { "name": "Carolina Cruz-Neira", "note": "Lead inventor. The CAVE was her PhD dissertation. Now at University of Central Florida. National Academy of Engineering (2018)." },
+      { "name": "Daniel J. Sandin", "note": "Co-inventor, video artist and physicist. Co-founded EVL. Designed projection geometry and image processing." },
+      { "name": "Thomas A. DeFanti", "note": "Co-inventor, PhD advisor to Cruz-Neira. Co-founded EVL. Computer graphics pioneer (created GRASS language)." },
+      { "name": "Robert V. Kenyon", "note": "Co-author on original CACM 1992 paper. Contributed psychophysics and human factors expertise." },
+      { "name": "John C. Hart", "note": "Co-author on original CACM 1992 paper. Contributed rendering algorithms." }
+    ],
+    "media": [
+      {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/6/6d/CAVE_Crayoland.jpg",
+        "alt": "User inside the CAVE with a colorful virtual environment projected on three walls and floor",
+        "caption": "A user inside the CAVE at EVL, surrounded by a virtual environment called 'Crayoland.' The image shows three rear-projected walls and a front-projected floor creating a fully immersive space. Source: Wikimedia Commons (public domain)."
+      },
+      {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/5/55/Ars_Electronica_Center_CAVE_preview.jpg",
+        "alt": "CAVE installation at Ars Electronica Center showing the projection cube",
+        "caption": "A CAVE installation at the Ars Electronica Center (1996), showing the projection cube and a user interacting with the virtual environment. Source: Wikimedia Commons."
+      }
+    ],
+    "sources": [
+      {
+        "text": "Cruz-Neira et al., 'The CAVE: Audio Visual Experience Automatic Virtual Environment,' Communications of the ACM, June 1992",
+        "url": "https://doi.org/10.1145/129888.129892"
+      },
+      {
+        "text": "Wikipedia: CAVE Automatic Virtual Environment",
+        "url": "https://en.wikipedia.org/wiki/Cave_automatic_virtual_environment"
+      },
+      {
+        "text": "Wikipedia: Carolina Cruz-Neira",
+        "url": "https://en.wikipedia.org/wiki/Carolina_Cruz-Neira"
+      },
+      {
+        "text": "EVL Publications Archive (1992–1993)",
+        "url": "https://www.evl.uic.edu/pubs/year/1992/"
+      },
+      {
+        "text": "DeFanti, Sandin, Cruz-Neira, 'A Room with a View,' IEEE Spectrum, October 1993",
+        "url": "https://doi.org/10.1109/6.237582"
+      },
+      {
+        "text": "Johnson et al., 'Electronic Visualization Laboratory's 50th Anniversary Retrospective,' PRESENCE, 2024",
+        "url": "https://doi.org/10.1162/pres_a_00421"
+      }
+    ],
+    "imageUrls": [
+      "https://upload.wikimedia.org/wikipedia/commons/6/6d/CAVE_Crayoland.jpg",
+      "https://upload.wikimedia.org/wikipedia/commons/5/55/Ars_Electronica_Center_CAVE_preview.jpg",
+      "https://upload.wikimedia.org/wikipedia/en/4/4f/Tom_DeFanti_EVL_demo.jpg"
+    ]
+  },
+  "savedImages": [
+    "potential/cave/images/cave-1.jpg",
+    "potential/cave/images/cave-2.jpg"
+  ]
+}
