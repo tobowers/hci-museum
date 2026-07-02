@@ -1,6 +1,6 @@
 # The HCI Golden Age Wiki
 
-A research compendium for a digital museum of cutting-edge Human-Computer Interaction from the late 1970s through the early 1990s. These sixty-six projects mix canonical experiments with weird, forgotten, and beautiful vaporware — brain control, voice control, gesture, wearable computing, VR, robots, and full-body exertion.
+A research compendium for a digital museum of cutting-edge Human-Computer Interaction from the late 1970s through the early 1990s. These sixty-eight projects mix canonical experiments with weird, forgotten, and beautiful vaporware — brain control, voice control, gesture, wearable computing, VR, robots, and full-body exertion.
 
 Each entry includes an overview, a deep dive, a small media gallery, and full source links so the images and facts can always be traced back.
 
@@ -73,6 +73,8 @@ Each entry includes an overview, a deep dive, a small media gallery, and full so
 64. [Synapse Relax Stress Reduction System (1984)](#synapse-relax-stress-reduction-system-1984)
 65. [Exciting Boxing Controller (1987)](#exciting-boxing-controller-1987)
 66. [Interactive Brainwave Visual Analyzer (IBVA) (1991)](#interactive-brainwave-visual-analyzer-ibva-1991)
+67. [CAVE Automatic Virtual Environment (1992)](#cave-automatic-virtual-environment-1992)
+68. [Virtual Fixtures (1992)](#virtual-fixtures-1992)
 
 ---
 
@@ -3419,3 +3421,99 @@ The hardware consisted of a fabric headband with three dry-contact electrodes pl
 5. eContact! 14.2: Andrew Brouse on forty years of brainwave music — http://www.econtact.ca/14_2/brouse_brainwavemusic.html
 6. BCI Wiki: IBVA Interactive Brainwave Visual Analyser — https://bciwiki.org/index.php?title=IBVA:_Interactive_Brainwave_Visual_Analyser
 7. IBVA UK / BrainMachine: Luciana Haill distribution and documentation — https://ibvabrainmachine.wordpress.com/about-2/measuring-eeg/hardware/
+
+---
+
+## CAVE Automatic Virtual Environment (1992)
+
+**By:** Carolina Cruz-Neira, Daniel J. Sandin, Thomas A. DeFanti — Electronic Visualization Laboratory (EVL), University of Illinois at Chicago  
+**Tags:** `HCI` `VR` `Display` `Immersive` `Room-Scale`
+
+### Overview
+
+The CAVE Automatic Virtual Environment was the first room-scale, projection-based immersive VR system, developed at the Electronic Visualization Laboratory (EVL) at the University of Illinois at Chicago and first demonstrated at SIGGRAPH 1992. It was the PhD dissertation of Carolina Cruz-Neira. The name is a recursive acronym and a reference to Plato's allegory of the cave — an explicit meditation on perception, illusion, and reality.
+
+The CAVE was a 10 ft × 10 ft × 9 ft cube. Three walls used rear-projection and the floor used front-projection, with high-resolution CRT projectors casting stereoscopic images onto each surface. The user wore active stereo LCD shutter glasses synchronized with the projectors, and a Polhemus electromagnetic tracker followed head position so the computer could render the scene from the correct perspective in real time. A wand with 3 buttons and a pressure-sensitive joystick provided navigation and manipulation input.
+
+Unlike head-mounted VR systems of the era, the CAVE let users walk naturally within the room, see their own hands and bodies, and collaborate with 3–4 other people who could see one another's facial expressions and gestures. The system ran on four Silicon Graphics workstations networked together. The demonstration at SIGGRAPH 1992 showed a real-time molecular dynamics visualization and an architectural walkthrough. The CAVE spawned hundreds of installations worldwide and established a paradigm of immersive display that remains influential today.
+
+### Deep dive
+
+* **Origins.** The CAVE was Carolina Cruz-Neira's PhD dissertation at the University of Illinois at Chicago, under advisors Thomas DeFanti and Dan Sandin. DeFanti and Sandin had co-founded EVL in the 1970s as a pioneering computer graphics and video art lab. Cruz-Neira's insight was that head-mounted displays — the dominant VR paradigm of the late 1980s — were isolating, uncomfortable, and limited in field of view. She proposed turning the room itself into the display.
+* **Interaction Model.** The CAVE's defining interaction paradigm was 'bring your own body.' Users walked into the cube unencumbered — no HMD, no cables dragging from their head. The tracked viewpoint rendered correct perspective from wherever they stood, supporting natural proprioceptive walking within the 10-foot volume. A hand-held wand provided 3-button interaction. Multiple users could share the space simultaneously, seeing each other's real bodies inside the virtual environment — a form of co-located collaboration that HMD systems could not match. This was neither desktop computing nor head-mounted VR; it was a third category: room as interface.
+* **Technical Architecture.** The original CAVE used four Electrohome Marquee 8000 CRT projectors (one per surface), active stereo LCD shutter glasses, and Polhemus electromagnetic tracking. Four Silicon Graphics VGX workstations — one master and three rendering slaves — were synchronized via Ethernet networking and hardware genlock. The software framework was written in C with OpenGL and later formalized as the CAVELib API. The frame was built from non-magnetic wood to avoid interference with the electromagnetic tracker. The whole system cost roughly a million dollars.
+* **Legacy.** The CAVE design became a standard in VR labs worldwide. Hundreds of CAVE and CAVE-like installations were built at universities, engineering companies, and museums throughout the 1990s and 2000s. It spawned derivative systems: the ImmersaDesk (single-screen drafting table format), the Infinity Wall (large conference-room display), and eventually CAVE2 (2012, a 320-degree cylindrical LCD-panel system also from EVL). Carolina Cruz-Neira received the IEEE VGTC Virtual Reality Technical Achievement Award in 2007 and was elected to the National Academy of Engineering in 2018.
+
+### Team
+
+* **Carolina Cruz-Neira.** Lead inventor. The CAVE was her PhD dissertation. Now at University of Central Florida. National Academy of Engineering (2018).
+* **Daniel J. Sandin.** Co-inventor, video artist and physicist. Co-founded EVL. Designed projection geometry and image processing.
+* **Thomas A. DeFanti.** Co-inventor, PhD advisor to Cruz-Neira. Co-founded EVL. Computer graphics pioneer (created GRASS language).
+* **Robert V. Kenyon.** Co-author on original CACM 1992 paper. Contributed psychophysics and human factors expertise.
+* **John C. Hart.** Co-author on original CACM 1992 paper. Contributed rendering algorithms.
+
+### Media
+
+![User inside the CAVE with a colorful virtual environment projected on three walls and floor](../assets/wiki/cave-1.jpg)
+*A user inside the CAVE at EVL, surrounded by a virtual environment called 'Crayoland.' The image shows three rear-projected walls and a front-projected floor creating a fully immersive space. Source: Wikimedia Commons (public domain).*
+
+![CAVE installation at Ars Electronica Center showing the projection cube](../assets/wiki/cave-2.jpg)
+*A CAVE installation at the Ars Electronica Center (1996), showing the projection cube and a user interacting with the virtual environment. Source: Wikimedia Commons.*
+
+### Sources
+
+1. Cruz-Neira et al., 'The CAVE: Audio Visual Experience Automatic Virtual Environment,' Communications of the ACM, June 1992 — https://doi.org/10.1145/129888.129892
+2. Wikipedia: CAVE Automatic Virtual Environment — https://en.wikipedia.org/wiki/Cave_automatic_virtual_environment
+3. Wikipedia: Carolina Cruz-Neira — https://en.wikipedia.org/wiki/Carolina_Cruz-Neira
+4. EVL Publications Archive (1992–1993) — https://www.evl.uic.edu/pubs/year/1992/
+5. DeFanti, Sandin, Cruz-Neira, 'A Room with a View,' IEEE Spectrum, October 1993 — https://doi.org/10.1109/6.237582
+6. Johnson et al., 'Electronic Visualization Laboratory's 50th Anniversary Retrospective,' PRESENCE, 2024 — https://doi.org/10.1162/pres_a_00421
+
+---
+
+## Virtual Fixtures (1992)
+
+**By:** Louis Rosenberg — USAF Armstrong Labs, Wright-Patterson Air Force Base (with Stanford Center for Design Research and NASA Ames)  
+**Tags:** `HCI` `Augmented Reality` `Haptic` `Exoskeleton` `Teleoperation`
+
+### Overview
+
+Virtual Fixtures was the first functional, immersive augmented reality system ever built. Developed in 1992 at Wright-Patterson Air Force Base by Louis Rosenberg, it overlaid virtual 3D objects onto a user's real-world environment and provided force feedback through a full upper-body exoskeleton — proving for the first time that computer-generated perceptual overlays could dramatically enhance human performance in dexterous manual tasks.
+
+The core concept was elegantly physical: just as a ruler guides a pencil to draw a straight line, a 'virtual fixture' — a computer-generated surface or cone registered in 3D space — could guide a user's real hand movements with greater speed and accuracy than freehand work. Users wore an exoskeleton covered in sensors and motors, gripped a metal peg, and looked through binocular magnifiers suspended from the ceiling. In their view, virtual cones, barriers, and guide surfaces were overlaid on the real workspace. When their hand contacted a virtual surface, motors in the exoskeleton physically resisted — the sensation of bumping into a solid object that did not exist.
+
+The project was pitched by Rosenberg to the Human Sensory Feedback Group of Armstrong Laboratory in 1991 while he was a Stanford doctoral candidate. The system filled half a room and used nearly $1 million worth of 1992-vintage hardware. Because computer graphics of the era were too slow to render photorealistic AR, Rosenberg devised an ingenious workaround: two real physical robots were controlled by the exoskeleton, and their live camera feeds were merged to create the spatially registered mixed-reality view. This was augmented reality before the term existed — Rosenberg called them 'perceptual overlays' added to a user's 'ambient reality.'
+
+### Deep dive
+
+* **Origins.** Louis Rosenberg was a doctoral student at Stanford's Center for Design Research in 1991 when he pitched the Virtual Fixtures concept to the USAF Armstrong Labs. The military motivation was teleoperation — controlling robots at a distance for hazardous tasks. But Rosenberg's insight was that virtual guides overlaid on the real workspace could make humans better at precision work than either humans alone or robots alone. He worked simultaneously across three institutions: Armstrong Labs (where the full system was assembled), NASA Ames (depth perception and vision research), and Stanford (VR gloves, immersive vision, 3D audio).
+* **The Exoskeleton and Haptics.** The upper-body exoskeleton was a mechanical framework covered in sensors, motors, gears, and bearings. It provided full 6-DOF tracking of the user's arms and hands, plus kinesthetic force feedback: motors physically pushed back when the user's hand contacted a virtual surface. Virtual fixtures rendered included rigid surfaces (preventing overshoot), guiding cones (funneling pegs into target holes), 'magnetically attractive' surfaces (peg snaps to alignment), textured surfaces with corresponding sounds, and viscous resistance — simulating pushing through 'virtual honey.' This was computational haptics combined with augmented vision years before either term was in common use.
+* **The Vision System.** Because 3D computer graphics in 1992 were far too primitive to produce photorealistic AR overlays, Rosenberg devised a workaround. The system used two physical robots controlled by the exoskeleton, with video cameras feeding a pair of binocular magnifiers. The optics were configured so the remote robot arms appeared registered at the exact location of the user's real arms. Virtual overlays were then merged into this pass-through video feed, creating the convincing illusion of virtual objects occupying real space. The cameras themselves were salvaged from a failed parachute test rig — six destroyed in a crash, and Rosenberg pieced together two working units from the wreckage.
+* **Legacy.** The Fitts's Law peg-insertion tests produced the first empirical proof that AR could enhance real-world task performance — over 100% improvement in speed and dexterity. Rosenberg's 1992 technical report (AL-TR-0089) and 1993 IEEE VR paper established the conceptual framework for virtual guides and constraints still used today in robot-assisted surgery systems (da Vinci), satellite repair telerobotics, and hazardous-environment teleoperation. In 1993, Rosenberg founded Immersion Corporation to commercialize haptic feedback; Immersion's technology is now in most smartphones and gaming controllers. He holds over 300 patents and the Virtual Fixtures work is widely recognized as the origin point for both the modern AR industry and the consumer haptics industry.
+
+### Team
+
+* **Louis Barry Rosenberg.** Sole researcher and inventor. PhD candidate at Stanford during the project. Later founded Immersion Corp (1993), MicroScribe 3D (1996), Unanimous AI (2014). 300+ patents.
+* **Larry John Leifer.** Rosenberg's PhD advisor at Stanford Center for Design Research.
+* **USAF Armstrong Labs.** Human Sensory Feedback Group provided funding and facilities at Wright-Patterson AFB.
+* **NASA Ames Research Center.** Advanced Displays and Spatial Perception Lab — Rosenberg conducted depth perception research here.
+
+### Media
+
+![Louis Rosenberg in the Virtual Fixtures exoskeleton, 1992, peering into binocular vision system](../assets/wiki/virtual-fixtures-1.jpg)
+*Louis Rosenberg testing the Virtual Fixtures system at Wright-Patterson AFB in 1992. He wears the upper-body exoskeleton and looks through the binocular magnifier vision system suspended from the ceiling. Source: Louis Rosenberg / Wikimedia Commons (CC-BY-SA 4.0).*
+
+![Virtual fixtures overlaid on a Fitts's Law pegboard showing virtual cones and guide surfaces](../assets/wiki/virtual-fixtures-2.jpg)
+*The Virtual Fixtures workspace: virtual cones and guide surfaces registered to a real pegboard for the Fitts's Law dexterity tests. This photograph shows the actual 1992 test setup. Source: Louis Rosenberg / Wikimedia Commons (CC-BY-SA 4.0).*
+
+![1991 concept drawing showing Virtual Fixtures applied to augmented surgery](../assets/wiki/virtual-fixtures-3.jpg)
+*Original 1991 concept art by Rosenberg showing Virtual Fixtures applied to surgical augmentation — a virtual medical fixture guiding a real scalpel. Source: Louis Rosenberg / Wikimedia Commons (CC-BY-SA 4.0).*
+
+### Sources
+
+1. Rosenberg, 'The Use of Virtual Fixtures as Perceptual Overlays to Enhance Operator Performance in Remote Environments,' USAF AL-TR-0089, 1992 — https://apps.dtic.mil/dtic/tr/fulltext/u2/a292450.pdf
+2. Rosenberg, 'Virtual Fixtures: Perceptual Tools for Telerobotic Manipulation,' IEEE VR 1993 — https://doi.org/10.1109/VRAIS.1993.380795
+3. Louis Rosenberg, 'How a Parachute Accident Helped Jump-start Augmented Reality,' IEEE Spectrum, 2022 — https://spectrum.ieee.org/history-of-augmented-reality
+4. Wikipedia: Virtual Fixture — https://en.wikipedia.org/wiki/Virtual_fixture
+5. Wikipedia: Louis B. Rosenberg — https://en.wikipedia.org/wiki/Louis_B._Rosenberg
+6. Louis Rosenberg personal site: Virtual Fixtures (1991–1994) — https://sites.google.com/view/louisrosenberg/virtual-fixtures-1991-1994
