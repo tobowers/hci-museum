@@ -886,6 +886,30 @@ const exhibitData: Exhibit[] = [
     tags: ["Force Feedback", "Haptics", "Arcade", "Simulation"],
     image: img("hard-drivin-flyer.jpg"),
   },
+  {
+    id: "cauzin-softstrip",
+    slug: "cauzin-softstrip",
+    wikiTitle: "Cauzin Softstrip Reader",
+    year: "1985",
+    sortYear: 1985,
+    title: "Cauzin Softstrip Reader",
+    subtitle: "Before QR codes, this $200 wand turned magazine pages into computer data—one manual 30-second swipe at a time.",
+    blurb: "The Cauzin Softstrip is the most literal 'paper-to-silicon bridge' ever sold as a consumer computer peripheral. You physically dragged this beige wand over a strip of tiny black-and-white squares printed in Byte magazine, and 5,500 bytes of program code materialized on your Apple II. Co-founder Jack Goldman had founded Xerox PARC. It won MacUser's 'Most Innovative Concept of 1986' and died within three years, outrun by floppy disks and modems.",
+    tags: ["Input", "Scanning", "Optical Reader"],
+    image: img("cauzin-softstrip-1.jpeg"),
+  },
+  {
+    id: "reading-epg",
+    slug: "reading-epg",
+    wikiTitle: "Reading Electropalatography (EPG) System",
+    year: "1978",
+    sortYear: 1978,
+    title: "Reading Electropalatography System",
+    subtitle: "A computer worn inside the mouth—62 gold electrodes on a custom acrylic palate turned invisible tongue movements into a real-time visual targeting game.",
+    blurb: "One of the most intimate human-computer interfaces ever built. A custom-molded acrylic plate, clipped to the user's upper teeth like a retainer, carries 62 gold electrodes in an 8-row grid. When the tongue touches the palate during speech, a CRT monitor illuminates dots wherever contact occurs—turning the invisible act of articulation into a visible, teachable skill. Developed at the University of Reading in 1978.",
+    tags: ["Biofeedback", "Speech Therapy", "Accessibility"],
+    image: img("reading-epg-1.jpg"),
+  },
 ];
 
 export const exhibits: Exhibit[] = exhibitData.toSorted((a, b) => b.sortYear - a.sortYear || a.title.localeCompare(b.title));

@@ -1,6 +1,6 @@
 # The HCI Golden Age Wiki
 
-A research compendium for a digital museum of cutting-edge Human-Computer Interaction from the late 1970s through the early 1990s. These seventy-one projects mix canonical experiments with weird, forgotten, and beautiful vaporware — brain control, voice control, gesture, wearable computing, VR, robots, and full-body exertion.
+A research compendium for a digital museum of cutting-edge Human-Computer Interaction from the late 1970s through the early 1990s. These seventy-three projects mix canonical experiments with weird, forgotten, and beautiful vaporware — brain control, voice control, gesture, wearable computing, VR, robots, and full-body exertion.
 
 Each entry includes an overview, a deep dive, a small media gallery, and full source links so the images and facts can always be traced back.
 
@@ -78,6 +78,8 @@ Each entry includes an overview, a deep dive, a small media gallery, and full so
 69. [Vectrex 3D Imager (1983)](#vectrex-3d-imager-1983)
 70. [Soundbeam (1984)](#soundbeam)
 71. [Hard Drivin' / Race Drivin' (1989)](#hard-drivin--race-drivin-1989)
+72. [Cauzin Softstrip Reader (1985)](#cauzin-softstrip-reader-1985)
+73. [Reading Electropalatography (EPG) System (1978)](#reading-electropalatography-epg-system-1978)
 
 ---
 
@@ -3675,3 +3677,117 @@ The car physics model was developed by Doug Milliken, son of William F. Milliken
 6. Arcade-History: Race Drivin' Cockpit — https://www.arcade-history.com/?n=race-drivin-cockpit-model&page=detail&id=2148
 7. Atari Production Numbers Memo (archived) — https://web.archive.org/web/20130120084806/http://www.atarigames.com/index.php?option=com_content&view=article&id=47:atari-production-numbers-memo
 8. Karl Ludvigsen: Bill Milliken biography — http://www.bentleypublishers.com/ludvigsen/aq-milliken-biography.htm
+
+---
+
+## Cauzin Softstrip Reader (1985)
+
+**By:** Cauzin Systems Inc. (Waterbury, Connecticut). Founded by Dr. Jack Goldman (former founder/director of Xerox PARC) and Robert L. Brass.  
+**Tags:** `HCI` `Input` `Scanning` `Paper Data Storage` `2D Barcode` `Optical Reader` `Physical-Digital Bridge` `Magazine Distribution` `Ephemeral Media`
+
+### Overview
+
+The Cauzin Softstrip system, introduced in 1985 by Cauzin Systems of Waterbury, Connecticut, was the world's first commercial two-dimensional barcode format. It consisted of an optical scanning peripheral (the 'Softstrip System Reader') that read densely printed 2D bar codes from paper, and companion encoding software nicknamed the 'Stripper.' A Softstrip was a narrow strip approximately 5/8 inch (16 mm) wide and up to 10 inches (254 mm) long, printed along the edge of a magazine page or book. A single strip could encode up to 5,500 bytes of data — program source code, executable binaries, text, or graphics.
+
+The reader retailed for approximately $200 USD, and supported the Apple II, Macintosh, and IBM PC platforms. Softstrips appeared in computer magazines including Byte, Family Computing, II Computing, and InCider; they were sold in retail stores as 'StripWare' booklets; and they appeared in at least one book, Animated Algorithms (Barnett & Barnett, McGraw-Hill, 1986). The product won MacUser magazine's 'Most Innovative Concept of 1986' award but failed commercially within a few years. The format lived on, re-named Datastrip code, used in identification cards and biometric data encoding into the 2000s. The Cauzin Softstrip anticipated later 2D codes like QR by over a decade, but fell victim to a classic chicken-and-egg adoption dilemma and was outrun by the plummeting cost of floppy disks.
+
+### Deep dive
+
+* **Origins: Xerox PARC Meets Paperback Computing.** The Softstrip was co-founded by two figures from opposite ends of computing. Dr. Jack Goldman was the founder and first director of Xerox PARC — the legendary laboratory that birthed the laser printer, Ethernet, the GUI, object-oriented programming, and the personal computer. After leaving Xerox, Goldman co-founded Cauzin Systems. Bob Brass was a hands-on engineer who tackled the mechanical precision problem with a clever analog solution: a spiral gear driving a phonograph-like tracking arm that could achieve sub-degree positional accuracy without requiring mechanically impossible gear precision. The company was based in Waterbury, Connecticut and later changed its name to Softstrip, Inc. The development team included John Glaberson, Richard W. Mason, Scott Santulli, G. Thomas Roth, and others, all named as inventors on the core US patents (US 4,692,603, US 4,782,221, US 4,728,783).
+* **The Scanning Experience: A 30-Second Ritual.** The interaction was pure embodied ritual. The user obtained a magazine containing a Softstrip-encoded program, positioned the reader over the strip on the page using two alignment marks (a circle and a rectangle), initiated the scan, and waited approximately 30 seconds while the reader's motor drew the strip past an LED-illuminated linear photodiode array. An audible beep confirmed success or signaled an error (smeared ink, misalignment). The data transferred to the host computer, appearing as a file the user could save to disk or run. For multiple-strip publications, the user repeated the entire process, re-aligning for each strip. This was designed as a replacement for the era's dominant software distribution method: typing in BASIC listings character-by-character from magazine pages — an activity notorious for introducing transcription errors. The reader could even be used to transfer data between otherwise-incompatible platforms (Apple II to Mac to PC), since the strip format was platform-agnostic.
+* **How the Data Was Encoded: The Dibit Format.** The fundamental encoding unit was the dibit — a pair of adjacent squares. A black-then-white dibit encoded a 0; white-then-black encoded a 1; black/black and white/white were invalid. This self-clocking scheme ensured every valid dibit contained a transition, providing inherent timing recovery and error detection. Each strip included a horizontal synchronization section (encoding nibbles per row and paper-ink contrast calibration), a vertical synchronization section (encoding dibit height with redundancy), and a data section with dual inline parity and a strip-level checksum. The encoding software ('Stripper,' under $30) calculated optimal strip layout accounting for an 'ink spread index' — an empirical measurement of how much printing ink bleeds on specific paper stock. For magazine-quality reproduction, strips were printed oversize on a dot matrix printer and photographically reduced at 8:1 ratios to achieve final dimensions. A complete digital decoder using convolutional neural networks was published by Michael Reimsbach and John Aycock in 2021, achieving over 91% decode rates across a corpus of 1,229 strips.
+* **Commercial Arc: Award-Winning, Doomed by Timing.** The reader cost $200 — roughly equivalent to a floppy disk drive, which offered vastly more capacity and faster access. Softstrips appeared in magazines from roughly 1985 to 1988, then publications stopped printing them. The product suffered from a classic chicken-and-egg problem (magazines wouldn't dedicate page space without an installed base; consumers wouldn't buy without a steady supply of strips), limited capacity (5.5 KB was fine for short BASIC listings but inadequate as programs grew), physical durability issues (magazine ink smearing, paper curl), and brutal timing: by 1987–88, modems and BBS systems offered a faster and more capacious alternative. Nevertheless, the format won the MacUser Editors' Choice Award for 'Most Innovative Concept of 1986' and was reborn as Datastrip code for ID cards and biometric data.
+
+### Team
+
+* **Dr. Jack Goldman.** Co-founder. Founder and first director of Xerox PARC. Provided vision and credibility to the venture.
+* **Robert L. 'Bob' Brass.** Co-founder and lead inventor on all core patents. Solved the mechanical precision problem with a spiral-gear tracking arm.
+* **John Glaberson.** Co-inventor on reader, data strip, and encoding patents. Later co-inventor of Datastrip card reader (US 4,886,957).
+* **Richard W. Mason.** Co-inventor on core Softstrip patents.
+* **Scott Santulli.** Co-inventor on core Softstrip patents; later co-inventor of Datastrip card reader.
+* **G. Thomas Roth.** Co-inventor on core Softstrip patents.
+* **Peter D'Amato.** Manager of OEM and VAR Support (1984–1988).
+
+### Media
+
+![Cauzin Softstrip Reader — a beige flat rectangular peripheral](../assets/wiki/cauzin-softstrip-1.jpeg)
+*The Cauzin Softstrip System Reader, a flat peripheral with a top-loading strip guide mechanism. The connected cable interfaces to Apple II, Macintosh, or IBM PC computers. Photo by Shelby Jueden, CC BY-SA 4.0, via Wikimedia Commons.*
+
+![Magnified view of a Cauzin Softstrip data pattern](../assets/wiki/cauzin-softstrip-2.jpg)
+*An example Cauzin Softstrip showing the header (left: horizontal and vertical synchronization sections) and data rows (right). Each small black-or-white square encodes part of a dibit pair. From Reimsbach & Aycock (2021), CC BY 4.0.*
+
+![Softstrip positioned in the reader mechanism](../assets/wiki/cauzin-softstrip-3.jpg)
+*A Softstrip positioned in the reader mechanism, showing the scanning head and paper alignment. The circular and rectangular positioning marks ensure proper alignment. From Reimsbach & Aycock (2021), CC BY 4.0.*
+
+![Dibit encoding diagram for the Cauzin Softstrip](../assets/wiki/cauzin-softstrip-4.jpg)
+*Cauzin Softstrip dibit encoding scheme: black-then-white = 0, white-then-black = 1. Every valid dibit contains a transition, providing self-clocking and error detection. From Reimsbach & Aycock (2021), CC BY 4.0.*
+
+### Sources
+
+1. Reimsbach, Michael & Aycock, John. 'Decoding the Cauzin Softstrip: a case study in extracting information from old media.' Archival Science, 2021. PMC 8591774. — https://www.ncbi.nlm.nih.gov/pmc/articles/PMC8591774/
+2. Sandberg-Diment, Erik. 'Supermarket Bar Codes Are Applied to Software.' The New York Times, October 15, 1985. — https://www.nytimes.com/1985/10/15/science/personal-computers-supermarket-bar-codes-are-applied-to-software.html
+3. Wikipedia: Cauzin Softstrip — https://en.wikipedia.org/wiki/Cauzin_Softstrip
+4. US Patent 4,692,603: Optical reader for printed bit-encoded data (Brass, Glaberson, Mason, et al., 1987) — https://patents.google.com/patent/US4692603
+5. ANTIC Interview 115 — Bob Brass and Peter D'Amato, Cauzin Softstrip (2016) — https://ataripodcast.libsyn.com/antic-interview-115-bob-brass-and-peter-damato-cauzin-softstrip
+6. Tebbutt, David. 'Cauzin's Softstrip.' Personal Computer World, January 1987. — https://www.worldradiohistory.com/UK/Personal-Computer-World/80s/PCW-1987-01-S-OCR.pdf
+7. Cauzin Softstrip Archive — Internet Archive (promotional photos, packaging) — https://archive.org/details/CauzinSoftstrip
+8. Sowerbutts, Will. 'Solving the CauzCoin Retro BattleStations Challenge' (2016) — http://sowerbutts.com/cauzcoin/
+9. Reimsbach, Michael. 'Reverse Engineering the Cauzin Softstrip.' Master's thesis, htw saar, 2018. — https://stl.htwsaar.de/tr/STL-TR-2018-03.pdf
+
+---
+
+## Reading Electropalatography (EPG) System (1978)
+
+**By:** W.J. (Bill) Hardcastle, Peter Roach, and Wilf Jones at the University of Reading Speech Research Laboratory (UK)  
+**Tags:** `HCI` `Biofeedback` `Speech Therapy` `Accessibility` `Body-as-Interface` `Electropalatography` `Real-Time Display` `Custom Prosthetic` `Phonetics`
+
+### Overview
+
+The Reading Electropalatography (EPG) System is a pioneering human-computer interface that captures tongue-to-palate contact in real time and displays it as visual biofeedback for articulation training and speech therapy. Developed at the University of Reading (UK) between 1974 and 1978 and refined through the 1980s, the system consists of a custom-molded acrylic artificial palate embedded with 62 gold electrodes, connected via a multiplexer to a computer that renders illuminated contact patterns on a CRT display. The user — often a patient with a speech disorder — wears the palate like a dental retainer and watches the screen as dots illuminate wherever their tongue touches. A target pattern is overlaid, transforming the invisible interior of the mouth into a visible, game-like spatial targeting task.
+
+A small AC signal (<50 µA) passes through the user's body via a reference electrode worn on the neck or wrist. When the tongue touches a palatal electrode, it completes a low-impedance circuit. The 62 electrodes are scanned sequentially at 10 kHz each, yielding binary on/off contact data at 100–200 frames per second. The original system was built around a DEC PDP-8 minicomputer with software written by Peter Roach in machine code; later versions ran on Commodore and IBM-compatible PCs.
+
+The system became the dominant EPG platform in Europe, established clinical protocols still used today, and spawned a commercial lineage through Articulate Instruments' EPG3 and WinEPG (discontinued 2013) and icSpeech's LinguaGraph. It was used for cleft palate therapy, hearing-impaired speech training, dysarthria rehabilitation, second-language pronunciation, and fundamental phonetic research. The LinguaGraph system was even used aboard the International Space Station in 2025 (Axiom Mission 4's Voice in Space programme).
+
+### Deep dive
+
+* **Origins: From Charcoal to Electrodes.** Before electropalatography, phoneticians studied tongue-palate contact by painting a speaker's tongue with charcoal, having them produce a sound, and photographing the resulting marks on the palate. This static palatography could only capture a single moment. W.J. (Bill) Hardcastle (1943–2015), a phonetician at the University of Reading's Department of Linguistic Science, needed to capture the real-time *dynamics* of tongue-palate contact — the fleeting closures, releases, and constrictions that distinguish one speech sound from another. Working with electronics engineer Wilf Jones and programmer/linguist Peter Roach, he developed the Reading EPG system. The first paper describing the computer-based system was published by Roach and Hardcastle in 1976 ('A computer system for the processing of electropalatographic and other data,' *Proceedings of the Vth Phonetics Symposium*, University of Essex). The system was fully operational and photographed by July 1978. Hardcastle went on to become Professor of Speech Science and founding Director of the Speech Science Research Centre at Queen Margaret University, Edinburgh.
+* **The Hardware: A Computer You Wear.** The Reading EPG palate is a horseshoe-shaped custom-molded acrylic baseplate (~1–1.5 mm thick) fabricated from a dental alginate impression of the user's upper palate and teeth. It clips to the upper teeth like an orthodontic retainer. The palate carries 62 gold-plated electrodes arranged in an 8-row grid approximating the anatomy of the human hard palate: Row 1 (alveolar ridge) has 6 electrodes, rows 2–7 have 8 each, and row 8 (velar region) has 8 arranged with the posterolateral corners omitted to fit the dental arch. Electrode diameter is approximately 1.5 mm with center-to-center spacing of 4.5–5 mm.
+
+The signal chain begins with a small AC signal (<50 µA) passed through the user's body via a neck/wrist reference electrode. When the tongue touches a palatal electrode, it completes a low-impedance circuit. A 64-channel FET multiplexer scans all 62 electrodes at 10 kHz per electrode, with a full-palate scan taking approximately 6 ms, providing an effective frame rate of 100–200 Hz. Contact data passes via a parallel interface to the host computer. The original system used a DEC PDP-8 minicomputer running RT-11; by the early 1980s it was reprogrammed for Commodore and later IBM-compatible PCs.
+* **The Interaction: See Your Tongue, Change Your Speech.** A therapy session with the Reading EPG followed a tight biofeedback loop. The user inserted the custom palate. The CRT displayed a static 8-row palate schematic — as if looking up into the mouth from below. The speech therapist selected a target contact pattern (e.g., complete front-row closure for /t/, a central groove with lateral contact for /s/, or full rear-row closure for /k/) displayed as an overlaid template. The user attempted the target sound. In real time — within approximately 10 ms — any tongue-palate contact illuminated the corresponding dot on the screen. The user saw their actual contact pattern superimposed on the target template and made micro-adjustments to tongue posture, place, or groove shape. The display updated continuously at up to 100 frames/second. Early CRTs had phosphor persistence, giving contacts a brief 'trail' that helped users perceive dynamic gestures such as closures and releases. The therapist cuing articulatory goals ('raise the sides,' 'make a groove in the middle') while watching both user and screen. All frames were logged to disk for offline analysis.
+* **Clinical and Research Impact.** The Reading EPG system was used with several populations: children and adults with cleft palate (identifying compensatory articulations invisible to auditory assessment), hearing-impaired individuals (using the visual channel to learn correct articulation when auditory feedback was absent or degraded), people with dysarthria and apraxia from stroke or cerebral palsy, children with persistent speech sound disorders unresponsive to conventional therapy, and second-language learners. Fiona Gibbon, a key clinical researcher, established EPG as an assessment and therapy tool, identifying 'undifferentiated lingual gestures' — tongue movements that sound correct to the ear but are biomechanically abnormal. The system was commercialized by Articulate Instruments Ltd. (founded by engineer Alan Wrench), which released the portable EPG3 around 1990 and WinEPG in 2000. Although Articulate Instruments ceased EPG production in 2013, the technology lineage continues through icSpeech's LinguaGraph (Rose Medical Solutions Ltd., Canterbury), which uses the identical Reading 62-electrode palate design and sells to over 30 countries including Great Ormond Street Hospital and Oxford University Hospitals.
+
+### Team
+
+* **W.J. (Bill) Hardcastle (1943–2015).** Principal investigator; Professor of Speech Science at University of Reading. Intellectual architect of the Reading EPG. Later founding Director of Speech Science Research Centre at Queen Margaret University, Edinburgh.
+* **Peter Roach.** Hardware/software designer; programmed the PDP-8 interface in machine code. Later Professor of Phonetics at Reading and Leeds. Uploaded the 1978 palate photographs to Wikimedia Commons.
+* **Wilf Jones.** Electronics engineer; designed the original EPG hardware, multiplexer, and interface card.
+* **Fiona Gibbon.** Clinical researcher; established EPG as a clinical tool for children with speech disorders, cleft palate, and hearing impairment. Identified 'undifferentiated lingual gestures.'
+* **Alan Wrench.** Engineer; designed EPG3 hardware and WinEPG software. Founded Articulate Instruments Ltd. to commercialize the Reading EPG technology.
+* **Katerina Nicolaidis.** Phonetic researcher; cross-linguistic EPG studies providing crucial normative data on Greek and English coarticulation.
+
+### Media
+
+![Custom-molded acrylic artificial palate with 62 gold electrodes, Reading EPG system, 1978](../assets/wiki/reading-epg-1.jpg)
+*The Reading electropalate — an artificial palate embedded with 62 gold electrodes in an 8-row grid. Each user required a custom-molded palate from a dental impression. Photo dated 28 July 1978 by Peter Roach, CC BY-SA 4.0, Wikimedia Commons.*
+
+![EPG contact-pattern printout for the word 'catkin,' Reading EPG system, 1978](../assets/wiki/reading-epg-2.jpg)
+*A printout from the Reading EPG system showing successive frames of tongue-palate contact for the utterance 'catkin.' 'O' indicates contact; '.' indicates no contact. Frame 344 shows complete alveolar /t/ closure; frame 350 shows velar /k/ closure. Photo by Peter Roach, CC BY-SA 4.0.*
+
+![Modern 62-electrode Reading EPG palate on plaster cast](../assets/wiki/reading-epg-3.jpg)
+*Contemporary Reading EPG palate (LinguaGraph), based on the identical 62-electrode design. The palate clips to the upper teeth; wires exit at the posterior margin. Supported by more than 50 years of published research. (icSpeech)*
+
+![EPG contact pattern for alveolar stop /t/, /d/, /n/](../assets/wiki/reading-epg-4.jpg)
+*EPG display showing complete alveolar contact (front-row electrodes lit) for /t/, /d/, /n/ — the classic 'target template' pattern that therapy patients would try to match. (icSpeech)*
+
+### Sources
+
+1. Hardcastle, W.J. (1972). 'The use of electropalatography in phonetic research.' Phonetica, 25(4), 197–215. — https://doi.org/10.1159/000259342
+2. Roach, P.J. and Hardcastle, W.J. (1976). 'A computer system for the processing of electropalatographic and other data.' Proc. Vth Phonetics Symposium, University of Essex, pp. 127–142. — 
+3. Hardcastle, W.J., Jones, W., Knight, C., Trudgeon, A., and Calder, G. (1989). 'New developments in electropalatography: A state-of-the-art report.' Clinical Linguistics & Phonetics, 3(1), 1–38. — https://doi.org/10.3109/02699208908985268
+4. Wikipedia: Electropalatography — https://en.wikipedia.org/wiki/Electropalatography
+5. Articulate Instruments: A History of EPG — https://articulateinstruments.com/epg-discontinued/
+6. icSpeech: LinguaGraph Electropalatography System (current commercial descendant) — https://icspeech.com/electropalatography.html
+7. icSpeech: Tongue Palate Contact animations (EPG displays for each consonant) — https://icspeech.com/tongue-palate-contact.html
+8. Hardcastle, W.J. and Marchal, A. (Eds.) (1989). Speech Production and Speech Modelling, NATO ASI Series. Kluwer Academic Publishers. — 
