@@ -32,7 +32,7 @@ GitHub operating loop:
 - Close issues only when the corresponding PR is merged or the task is genuinely no longer relevant.
 - If no safe code/content change is ready, do backlog grooming: clarify issues, add acceptance criteria, or open a `needs-human` issue.
 
-Known collection gaps (updated 2026-06-29):
+Known collection gaps (updated 2026-07-03):
 - ~~Haptic/tactile feedback devices~~ — Filled: GROPE-III (1990) and now Minsky Sandpaper (1990), computational haptics origin
 - ~~Eye-tracking interfaces from the era~~ — Filled: EyeTyper (1983), first commercial camera-based eye-typing device
 - ~~Puff/sip or breath-based interfaces~~ — Filled: Nintendo Hands Free Controller (1989), chin joystick + sip-and-puff
@@ -77,6 +77,7 @@ Deferred strong candidates:
 - GreenMan Teleoperator (1983-88): First anthropomorphic telepresence system. Full-body exoskeleton master controller from SSC San Diego (Navy). Spectacular images (operator in exoskeleton, green slave robot). Strong HCI framing (zero autonomy, pure human-machine interface, head-tracked stereoscopic display). Deferred due to military/defense context — different from museum's consumer/research tone. Revisit if scope discussion with Tobowers supports it. (2026-07-01)
 - Roklan Un-Roller Controller (1983): Soft dome controller rocked with palm for 8-directional input. CHM collection. Ultimately an 8-way switch in a novel form factor — interaction model not distinct enough from joysticks. Good source availability. Defer. (2026-07-01)
 - Collins Tactile Vision Vest (1977): Body-worn 1,024-point vibrotactile array + head-mounted camera for vision-to-touch sensory substitution. C.C. Collins at Smith-Kettlewell Institute. Extraordinary interaction model, pioneering wearable computing. Strong academic lineage (Bach-y-Rita Nature 1969, Collins 1977 conference paper). Deferred: ZERO publicly available images found across all sources (SKI website, academic papers, museum collections, patent databases). No photos, no patent drawings, no paper figures. Revisit if images surface from SKI archives or Bach-y-Rita's 1972 monograph. (2026-07-01)
+- Canon Communicator (~1974): Portable wearable thermal-tape-printer keyboard by Canon Inc. Predates both Steve Mann's wearable computing and mainstream AAC. Battery-powered, self-contained, alphabetic keyboard prints to receipt-like tape. Deferred: year (~1974) is outside 1976 window, and interaction model (keyboard→thermal tape) is essentially a portable typewriter — the HCI novelty is in portability/wearability rather than a new input paradigm. One good Wikimedia photo available. FC (facilitated communication) controversy adds curatorial baggage. (2026-07-03)
 
 Promotion gotchas:
 - The erols.com/rwservices image server returns HTML for direct image access (same class of issue as videogamehouse.net). The site is a comprehensive pen computing archive but images must be sourced from Wikimedia or other mirrors. (2026-07-01)

@@ -1,6 +1,6 @@
 # The HCI Golden Age Wiki
 
-A research compendium for a digital museum of cutting-edge Human-Computer Interaction from the late 1970s through the early 1990s. These sixty-eight projects mix canonical experiments with weird, forgotten, and beautiful vaporware — brain control, voice control, gesture, wearable computing, VR, robots, and full-body exertion.
+A research compendium for a digital museum of cutting-edge Human-Computer Interaction from the late 1970s through the early 1990s. These seventy-one projects mix canonical experiments with weird, forgotten, and beautiful vaporware — brain control, voice control, gesture, wearable computing, VR, robots, and full-body exertion.
 
 Each entry includes an overview, a deep dive, a small media gallery, and full source links so the images and facts can always be traced back.
 
@@ -75,6 +75,9 @@ Each entry includes an overview, a deep dive, a small media gallery, and full so
 66. [Interactive Brainwave Visual Analyzer (IBVA) (1991)](#interactive-brainwave-visual-analyzer-ibva-1991)
 67. [CAVE Automatic Virtual Environment (1992)](#cave-automatic-virtual-environment-1992)
 68. [Virtual Fixtures (1992)](#virtual-fixtures-1992)
+69. [Vectrex 3D Imager (1983)](#vectrex-3d-imager-1983)
+70. [Soundbeam (1984)](#soundbeam)
+71. [Hard Drivin' / Race Drivin' (1989)](#hard-drivin--race-drivin-1989)
 
 ---
 
@@ -3517,3 +3520,158 @@ The project was pitched by Rosenberg to the Human Sensory Feedback Group of Arms
 4. Wikipedia: Virtual Fixture — https://en.wikipedia.org/wiki/Virtual_fixture
 5. Wikipedia: Louis B. Rosenberg — https://en.wikipedia.org/wiki/Louis_B._Rosenberg
 6. Louis Rosenberg personal site: Virtual Fixtures (1991–1994) — https://sites.google.com/view/louisrosenberg/virtual-fixtures-1991-1994
+
+---
+
+## Vectrex 3D Imager (1983)
+
+**By:** John Ross / Smith Engineering / General Consumer Electronics (GCE) / Milton Bradley  
+**Tags:** `HCI` `3D Display` `Gaming` `Electromechanical` `Stereoscopic` `Consumer Hardware`
+
+### Overview
+
+The Vectrex 3D Imager was a stereoscopic 3D headset peripheral for the GCE/Milton Bradley Vectrex home console — the first commercially released 3D gaming peripheral in history. Rather than using LCD shutters or electronics in the headset, it used a DC motor spinning a translucent disk directly in front of the wearer's eyes. Half the disk was opaque black; the other half was divided into 60-degree transparent red, green, and blue wedges. The Vectrex 6809 CPU synchronized the disk rotation to its vector-drawing frame rate using PWM motor control, drawing six alternating sub-frames (left-eye RGB, right-eye RGB) per rotation. Each eye saw a slightly different perspective, and the brain fused them into a color stereoscopic 3D image — all from a monochrome vector CRT.
+
+Invented by John Ross at Smith Engineering/Western Technologies (who also conceived the Vectrex itself), the 3D Imager was demonstrated at the June 1983 CES and released in limited quantities in early 1984 for $50 — just as the Vectrex was being discontinued after Milton Bradley lost $31.6 million on the console during the 1983 video game crash. Only about 2,000-3,000 units were produced, and just three games were released: 3D Mine Storm (bundled), 3D Narrow Escape, and 3D Crazy Coaster. Sega later had to retract advertisements for their SegaScope 3D (1987) that claimed to be the world's first 3D gaming system — the Vectrex 3D Imager had beaten them by four years.
+
+### Deep dive
+
+* **Origins.** John Ross, a hardware designer at Western Technologies / Smith Engineering, conceived the 3D Imager after designing the original Vectrex concept in 1980 from a surplus 1-inch CRT. Jay Smith (founder of Smith Engineering, previously designer of the Mattel Microvision in 1979) headed the project. The prototype housing was reportedly built from recycled View-Master casework. Gerry Karr designed the Vectrex's computer and vector generator; John Hall wrote the built-in game Mine Storm; Tom Sloper coined the 'Vectrex' name.
+* **How it works.** The 3D Imager plugs into the second controller port. A small DC motor spins the filter disk at roughly 1,800-2,200 RPM. The disk is divided into a 180° opaque black half and a 180° half segmented into 60° red, green, and blue transparent wedges. As the disk spins, only one eye at a time sees the screen, and each eye sees through a different color filter in sequence. The Vectrex compares its software frame rate to an once-per-revolution index signal from the Imager, dynamically adjusting motor power via PWM to keep the disk phase-locked. For stereo depth, each object is drawn at least twice from slightly different angles — the angular displacement determining perceived depth in front of or behind the screen plane. The system produces 15-18 full stereo frames per second per eye.
+* **Patent.** US Patent 4,630,767, assigned to Ross/Smith Engineering, covers the spinning filter disk and synchronization mechanism. The approach is field-sequential color stereoscopy — the same principle as the CBS field-sequential color television system of the 1940s, miniaturized into a gaming peripheral.
+* **Reception and failure.** John C. Dvorak reported from CES 1983: "You put on some weird spinning glasses, and when you look at the screen, you see a full-color, 3-D image." But by the time it shipped in early 1984, the Vectrex was already dead — destroyed by the 1983 crash, $31.6M in losses, and a price slashed from $199 to $100. Users complained the spinning disk created a gyroscopic effect resisting head movement, causing nausea. Only three games were produced. Today boxed units sell for $500-900+ among collectors.
+* **Legacy.** Sega was forced to pull its 'world's first 3D gaming' advertising for SegaScope 3D (1987) after the Imager's prior existence was pointed out. Modern active-shutter 3D glasses use the same alternating-eye principle. A homebrew community (madtronix, Fury Unlimited) built replacement imagers and new games in the 2000s.
+
+### Team
+
+* **John Ross** — Hardware designer. Invented the Vectrex 3D Imager (and the Vectrex itself). Designed optics, motor drive, and sync electronics.
+* **Jay Smith** — Founder of Smith Engineering / Western Technologies. Previously designed the Mattel Microvision (1979). Project lead.
+* **Gerry Karr** — Vectrex computer and vector generator design, system ROM (RUM).
+* **John Hall** — Early system ROM, wrote built-in game Mine Storm.
+* **Tom Sloper** — Named the Vectrex; game designer, created the Spike mascot.
+* **Walter Nakano and Colin Vowles** — Industrial design and model building.
+* **Bill Hawkins** — Programmed key Vectrex games (Bedlam, Star Castle, Cosmic Chasm).
+* **Duncan Muirhead** — Trigonometry routines for the RUM system ROM.
+* **Manufacturer** — General Consumer Electronics (GCE) / Milton Bradley Company.
+
+### Media
+
+![Vectrex 3D Imager headset, showing the spinning filter disk housing](../assets/wiki/vectrex-3d-imager.jpg)
+*The Vectrex 3D Imager headset, showing the motorized spinning filter disk housing. Source: Wikimedia Commons (CC BY-SA 3.0).*
+
+![Vectrex console set with controller, showing the monochrome vector CRT](../assets/wiki/vectrex-console-set.jpg)
+*The Vectrex console with controller, showing the monochrome vector CRT the 3D Imager transformed into full color. Source: Wikimedia Commons.*
+
+### Sources
+
+1. Wikipedia: Vectrex (3D Imager section) — https://en.wikipedia.org/wiki/Vectrex#3-D_Imager
+2. Vectrex Museum — 3D Imager page — http://vectrexmuseum.com/vectrex-3D-imager.html
+3. Vectrex Museum — History (full team credits) — http://vectrexmuseum.com/vectrexhistory.html
+4. Gamasutra — A History of Gaming Platforms: The Vectrex (Barton & Loguidice, 2007) — https://www.gamedeveloper.com/design/a-history-of-gaming-platforms-the-vectrex
+5. Popular Science, November 1983 — "What's New in Electronics" (p. 116) — https://books.google.com/books?id=EpSrYt9lFLMC&pg=PA116
+6. InfoWorld, July 4, 1983 — John C. Dvorak CES report — https://books.google.com/books?id=yy8EAAAAMBAJ&pg=PA33
+7. Patent US 4,630,767 — Ross/Smith Engineering 3D display system — https://patents.google.com/patent/US4630767A/
+8. Electronic Games, September 1984 — "Farewell To Vectrex" (Joyce Worley) — https://archive.org/details/electronic-games-magazine-1984-09/
+
+---
+
+## Soundbeam
+
+**By:** Edward Williams / Robin Wood / EMS (Electronic Music Studios)  
+**Tags:** `HCI` `Sonar` `Music` `MIDI` `Gestural` `Accessibility` `Embodied`
+
+### Overview
+
+Soundbeam is a touch-free MIDI controller that uses ultrasonic sonar to translate body movement into music. A performer moves within an invisible cone of 50 kHz sound projected into a space; the system measures distance, speed, and direction of movement and converts these into MIDI messages driving any synthesizer, sampler, or DAW. No wearables, no controllers, no physical contact required. Conceived by British composer Edward Williams (1921-2013) as a Theremin descendant enabling dancers to generate their own accompaniment, the prototype was built in 1984 and the first commercial units shipped in 1989.
+
+The hardware was designed and manufactured by Robin Wood and the engineering team at EMS (Electronic Music Studios) in Cornwall — the same legendary company that created the VCS3 "Putney" synthesizer used by Pink Floyd, Brian Eno, and Jean-Michel Jarre. Soundbeam found its most profound impact not on the dance floor but in special education and music therapy, where the extreme sensitivity of the ultrasonic beam meant even children with profound and multiple learning disabilities (PMLD) could play music through minimal movements — a facial twitch, a finger raised, a wheelchair nudged. More than 1,500 systems were in use worldwide by 2001, and the product remains in active production as Soundbeam 6 in 2025.
+
+### Deep dive
+
+* **Origins.** Edward Williams (1921-2013) was a British composer and electronic music pioneer who scored two Oscar-winning documentary shorts and composed the groundbreaking electronic/orchestral score for David Attenborough's 'Life on Earth' (1979) using three EMS VCS3 synthesizers. According to the official Soundbeam history, Williams spent 18 years searching for a device that would enable dancers to create and shape their accompanying music through body movement, inspired by Léon Theremin's 1920 Thereminvox. Unlike the Theremin's capacitive sensing, Williams conceived of using sonar to create an "invisible expanding keyboard in space."
+* **The EMS connection.** By the 1980s, main synthesizer production at EMS had wound down and the company had relocated to Ladock, Cornwall. Williams, already a VCS3 power user, brought the Soundbeam concept to EMS. Engineer Robin Wood and the team — who had built one of the most influential synthesizers in music history — designed the commercial Soundbeam hardware. The company that made the synth on 'Dark Side of the Moon' ended up building ultrasonic controllers for children with cerebral palsy.
+* **How it works.** Each sensor fires a continuous stream of directional 50 kHz ultrasonic tone-bursts into a conical beam (range 0.56m to 6m) and simultaneously listens for echoes. As objects enter the beam, they reflect ultrasound back to the sensor. The controller calculates distance, speed, and direction, translating these into MIDI note, velocity, and continuous controller data. Each beam can trigger up to 64 individual note pitches over its length, divided into equal "divisions" with programmable pitch sequences (pentatonic, harmonic minor, chromatic, or custom). Up to 4 sensors can operate simultaneously, complemented by 8 switch inputs.
+* **From dance to disability.** Designed for avant-garde dance performance, Soundbeam's critical adoption came in special education. Because the beam requires no physical contact, no fine motor control, and no strength to operate, users with PMLD, cerebral palsy, Rett Syndrome, or locked-in conditions could create music independently. Sound on Sound noted in 2001 it was "literally possible to play a MIDI instrument just by facial activity." The device was adopted by Great Ormond Street Hospital, Nordoff Robbins music therapy, Drake Music, RNIB, and dozens of UK special schools and NHS trusts. Dr. Nicholas Bannan at the University of Reading coined the term "elektrokinaesthetic instruments" to describe Soundbeam-like devices.
+* **Artistic use.** Saxophonist David Jackson (Van der Graaf Generator) adopted Soundbeam in 1992 for his 'Tonewall' project, performing with it on the 1997 'Union Chapel Concert' album. Composer Martin Kiszko, a Williams protégé, advocated for Soundbeam in educational and multi-media performance contexts. Led Zeppelin's John Paul Jones later provided a testimonial for Soundbeam 6.
+* **Legacy.** Soundbeam is one of the longest-lived products in electronic music history, now in its sixth generation (Soundbeam 6, 2017-present) with a full touchscreen, built-in sound library, on-board sampler, HDMI film projection, and wireless switches. Its influence extends through Roland's D-Beam, the NIME (New Interfaces for Musical Expression) research community, Drake Music's DMLab accessible instrument network, and conceptually through to Microsoft's Kinect. That a device designed for dancers gave a voice to children who had never been able to make music before is one of the most moving stories in HCI history.
+
+### Team
+
+* **Edward Williams (1921-2013)** — Originator and composer. Conceived Soundbeam as an 18-year quest for a dancer-controlled musical instrument.
+* **Judy Williams** — Co-founder of The Soundbeam Project, business operations.
+* **Robin Wood** — EMS engineer, designed the Soundbeam 1 and 2 hardware.
+* **EMS (Electronic Music Studios)** — Cornwall-based manufacturing partner. Legendary creators of the VCS3 synthesizer.
+* **David Jackson** — Saxophonist (Van der Graaf Generator), early adopter with 'Tonewall' project from 1992.
+* **Martin Kiszko** — Composer, Williams protégé, education advocate.
+* **Dr. Nicholas Bannan** — University of Reading. Coined the term "elektrokinaesthetic instruments."
+
+### Media
+
+![Edward Williams in 1999, composer and originator of Soundbeam](../assets/wiki/soundbeam-edward-williams.jpg)
+*Edward Williams (1921-2013), composer and originator of Soundbeam, photographed in 1999. Source: Wikimedia Commons.*
+
+![Soundbeam 2 system with two ultrasonic sensors, controller, switchbox, and footswitches](../assets/wiki/soundbeam-system.jpg)
+*Soundbeam 2 system: two ultrasonic sensors on boom stands, the controller unit, an 8-input switchbox, and footswitches. Source: Sound on Sound magazine, October 2001.*
+
+### Sources
+
+1. Wikipedia: Soundbeam — https://en.wikipedia.org/wiki/Soundbeam
+2. Wikipedia: Edward Williams (composer) — https://en.wikipedia.org/wiki/Edward_Williams_(composer)
+3. Soundbeam official history — https://www.soundbeam.co.uk/history
+4. Soundbeam: What is Soundbeam? — https://www.soundbeam.co.uk/what-is-soundbeam-1
+5. Sound on Sound: Soundbeam 2 review (October 2001) — https://www.soundonsound.com/reviews/soundbeam-2
+6. The Guardian: Edward Williams obituary (December 2013) — https://www.theguardian.com/music/2013/dec/19/edward-williams-obituary
+7. Drake Music: Technology hub — https://www.drakemusic.org/technology/
+8. Wikipedia: Electronic Music Studios (EMS) — https://en.wikipedia.org/wiki/Electronic_Music_Studios
+
+---
+
+## Hard Drivin' / Race Drivin' (1989)
+
+**By:** Atari Games (Rick Moncrief, Max Behensky, Jed Margolin, Doug Milliken)  
+**Tags:** `HCI` `Force Feedback` `Haptics` `Gaming` `Arcade` `Simulation` `Consumer Hardware`
+
+### Overview
+
+Hard Drivin' was a 1989 arcade driving simulation that represented a triple convergence of HCI firsts: the first commercially released arcade game with continuous force-feedback steering, the first consumer-facing application of real automotive vehicle dynamics equations, and one of the earliest arcade games rendered in filled 3D polygons. The player sat in an adjustable bucket seat with a full manual transmission — ignition key, H-pattern 4-speed shifter, clutch/brake/gas pedals, and a steering wheel powered by a brushed 60-90V DC motor that actively fought the driver based on simulated road forces, cornering, and collisions.
+
+The car physics model was developed by Doug Milliken, son of William F. Milliken Jr. — the Cornell Aeronautical Laboratory engineer who converted aircraft equations of motion into automobile dynamics equations in the 1950s and literally wrote the canonical textbook *Race Car Vehicle Dynamics*. Atari was so protective of this secret that they listed Milliken in the game's credits as a mere "test driver." 3,318 cabinets were manufactured across cockpit and upright variants, selling for $7,995. The sequel Race Drivin' (1990) upgraded to a proper four-wheel physics model using an AT&T DSP32C. Every modern force-feedback racing peripheral — from the Microsoft SideWinder Force Feedback Pro to today's direct-drive sim racing wheels — traces its commercial lineage to this cabinet.
+
+### Deep dive
+
+* **Origins.** Development began in the mid-1980s when Atari Games was still owned by Namco. The two companies collaborated on a 3D arcade hardware prototype, then split to develop separate forks. Project leader Rick Moncrief oversaw a team including hardware designer Jed Margolin, physics programmer Max Behensky, and game programmer Stephanie Mott. The project was nearly cancelled when an Atari VP claimed nobody would buy a $10,000 arcade cabinet, but weeks of market research proved the price acceptable.
+* **The physics secret.** Atari hired Doug Milliken as a consultant to develop the car model using real vehicle dynamics. Doug and his father William had literally written the book on car dynamics. Atari hid Doug's true role by listing him in the credits as a "test driver." Jed Margolin later explained: "Atari didn't want anyone to know we were doing real car modeling." The model described engine, transmission, springs, shock absorbers, and tires — how they react to each other, to the road, and crucially, the forces transmitted back through the steering wheel. A key limitation: the TMS34010 processor running the physics had no floating-point unit, so Behensky could only model two wheels, dynamically switching modes depending on speed.
+* **Force feedback hardware.** The force-feedback motor was a brushed DC motor by Ohio Electric Motors (60-90 VDC) with an opto-isolated motor amp. Safety features included a thermal protector and redundant 12-bit/8-bit ADCs monitoring motor position. A remarkable detail: the adjustable seat position sensor scaled force-feedback strength — seat forward (shorter/younger player) meant less force; seat back (taller/adult) meant more. Unlike earlier arcade cabinets that merely vibrated on collision (TX-1, 1983), Hard Drivin' provided continuous variable resistance based on simulated physics.
+* **Computing architecture.** The cabinet ran six processors: main CPU (Motorola 68010, 8 MHz) for game logic; two TI TMS34010 processors for graphics and physics (Model Signal Processor, ~6 MHz); an ADSP-2100 math co-processor; and separate 68000/TMS32010 for audio. Jed Margolin pulled a memory trick: by pairing 32 VRAMs into 16 banks of 64Kx8 and telling the TMS34010 there was only 1 bit per pixel, the system could fill 16 pixels per operation. He called the custom gate array (designed by Don Paauw) the "34012" — a fake TI part number to mislead hardware pirates.
+* **Reception and legacy.** 3,318 cabinets were manufactured (1,868 cockpits). Commodore User wrote: "Atari can be proud of themselves for producing a coin-op which really does put you in the driving seat — undeniably a major first." Home ports stripped the force feedback entirely, making the arcade hardware the only authentic experience. Jed Margolin later donated his personal Race Drivin' cabinet to The Strong Museum of Play. The project yielded three US patents (moving dashboard, driver training, multi-player competition) and spawned the San Francisco Rush series, establishing a lineage from 1989 arcade physics to modern sim racing — Gran Turismo, iRacing, and every force-feedback wheel used today.
+
+### Team
+
+* **Rick Moncrief** — Project leader, game designer, sound system, mechanical design, force shifter, analog hardware.
+* **Max Behensky** — Software design, car physics model in C, force-feedback steering implementation.
+* **Stephanie Mott** — Game programming, display software, championship lap.
+* **Jed Margolin** — Hardware design, self-test, instant replay, integer 3D rendering, video memory architecture.
+* **Doug Milliken** — Vehicle dynamics consultant (credited as "test driver" to conceal real vehicle modeling).
+* **Erik Durfey** — Technician, mechanical designer, sound recording, dashboard gauge implementation.
+* **Don Paauw** — Custom gate array design (the fake "34012" chip).
+* **Jim Morris** — Display math software.
+* **Publisher** — Atari Games (NA), Namco (Japan). 3,318 units manufactured.
+
+### Media
+
+![Hard Drivin' arcade flyer showing the cockpit cabinet with force-feedback steering wheel](../assets/wiki/hard-drivin-flyer.jpg)
+*The Hard Drivin' arcade flyer, showing the cockpit cabinet with force-feedback steering wheel, H-pattern shifter, and three pedals (clutch, brake, gas). Source: Wikimedia.*
+
+![Hard Drivin' in-game screenshot showing early filled-3D-polygon graphics](../assets/wiki/hard-drivin-screenshot.png)
+*Hard Drivin' gameplay, one of the earliest filled-3D-polygon arcade games, showing the first-person driving view. Source: Wikimedia.*
+
+### Sources
+
+1. Wikipedia: Hard Drivin' — https://en.wikipedia.org/wiki/Hard_Drivin%27
+2. Wikipedia: Race Drivin' — https://en.wikipedia.org/wiki/Race_Drivin%27
+3. Jed Margolin: Schematics & Engineering History — http://jmargolin.com/schem/schems.htm
+4. KLOV / Museum of the Game: Hard Drivin' — https://www.arcade-museum.com/game_detail.php?game_id=8072
+5. Arcade-History: Hard Drivin' — https://www.arcade-history.com/?n=hard-drivin%27&page=detail&id=1083
+6. Arcade-History: Race Drivin' Cockpit — https://www.arcade-history.com/?n=race-drivin-cockpit-model&page=detail&id=2148
+7. Atari Production Numbers Memo (archived) — https://web.archive.org/web/20130120084806/http://www.atarigames.com/index.php?option=com_content&view=article&id=47:atari-production-numbers-memo
+8. Karl Ludvigsen: Bill Milliken biography — http://www.bentleypublishers.com/ludvigsen/aq-milliken-biography.htm
