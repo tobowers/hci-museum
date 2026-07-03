@@ -1,0 +1,94 @@
+{
+  "slug": "reading-epg",
+  "title": "Reading Electropalatography System",
+  "year": "1978",
+  "subtitle": "A computer worn inside the mouth — 62 gold electrodes on a custom acrylic palate turned invisible tongue movements into a real-time visual targeting game.",
+  "why_scout_cares": "This is one of the most intimate human-computer interfaces ever built. A custom-molded acrylic plate, clipped to the user's upper teeth like a retainer, carries 62 gold electrodes in an 8-row grid. When the tongue touches the palate — as it does hundreds of times per minute during speech — a tiny AC signal completes circuits through the tongue, and a CRT monitor illuminates dots wherever contact occurs. The user sees their own tongue position in real time and tries to match a target pattern overlaid on the display. It turns the invisible, automatic act of articulation into a visible, teachable skill. Developed at the University of Reading by phonetician Bill Hardcastle, built by engineer Wilf Jones and programmed by Peter Roach on a DEC PDP-8 minicomputer, the system was first published in 1976 and photographically documented in 1978. It became the dominant electropalatography platform in Europe, was commercialized through Articulate Instruments' EPG3 and WinEPG, and continues today as icSpeech's LinguaGraph — which was even used aboard the International Space Station in 2025. The Reading EPG is a computer you wear *inside your body*, translating the most private human action — speech — into a public, malleable image. It belongs in this museum because no other artifact so completely dissolves the boundary between the biological and the computational.",
+  "search_terms": [
+    "Reading electropalatography system 1978",
+    "WJ Hardcastle EPG tongue palate contact",
+    "Peter Roach electropalate PDP-8",
+    "electropalatography 62 electrode artificial palate",
+    "Articulate Instruments EPG history"
+  ],
+  "research": {
+    "title": "Reading Electropalatography (EPG) System",
+    "year": "1978",
+    "by": "W.J. (Bill) Hardcastle, Peter Roach, and Wilf Jones at the University of Reading Speech Research Laboratory (UK)",
+    "tags": ["HCI", "Biofeedback", "Speech Therapy", "Accessibility", "Body-as-Interface", "Electropalatography", "Real-Time Display", "Custom Prosthetic", "Phonetics"],
+    "overview": "The Reading Electropalatography (EPG) System is a pioneering human-computer interface that captures tongue-to-palate contact in real time and displays it as visual biofeedback for articulation training and speech therapy. Developed at the University of Reading (UK) between 1974 and 1978 and refined through the 1980s, the system consists of a custom-molded acrylic artificial palate embedded with 62 gold electrodes, connected via a multiplexer to a computer that renders illuminated contact patterns on a CRT display. The user — often a patient with a speech disorder — wears the palate like a dental retainer and watches the screen as dots illuminate wherever their tongue touches. A target pattern is overlaid, transforming the invisible interior of the mouth into a visible, game-like spatial targeting task.\n\nA small AC signal (<50 µA) passes through the user's body via a reference electrode worn on the neck or wrist. When the tongue touches a palatal electrode, it completes a low-impedance circuit. The 62 electrodes are scanned sequentially at 10 kHz each, yielding binary on/off contact data at 100–200 frames per second. The original system was built around a DEC PDP-8 minicomputer with software written by Peter Roach in machine code; later versions ran on Commodore and IBM-compatible PCs.\n\nThe system became the dominant EPG platform in Europe, established clinical protocols still used today, and spawned a commercial lineage through Articulate Instruments' EPG3 and WinEPG (discontinued 2013) and icSpeech's LinguaGraph. It was used for cleft palate therapy, hearing-impaired speech training, dysarthria rehabilitation, second-language pronunciation, and fundamental phonetic research. The LinguaGraph system was even used aboard the International Space Station in 2025 (Axiom Mission 4's Voice in Space programme).",
+    "deepDive": [
+      {
+        "heading": "Origins: From Charcoal to Electrodes",
+        "text": "Before electropalatography, phoneticians studied tongue-palate contact by painting a speaker's tongue with charcoal, having them produce a sound, and photographing the resulting marks on the palate. This static palatography could only capture a single moment. W.J. (Bill) Hardcastle (1943–2015), a phonetician at the University of Reading's Department of Linguistic Science, needed to capture the real-time *dynamics* of tongue-palate contact — the fleeting closures, releases, and constrictions that distinguish one speech sound from another. Working with electronics engineer Wilf Jones and programmer/linguist Peter Roach, he developed the Reading EPG system. The first paper describing the computer-based system was published by Roach and Hardcastle in 1976 ('A computer system for the processing of electropalatographic and other data,' *Proceedings of the Vth Phonetics Symposium*, University of Essex). The system was fully operational and photographed by July 1978. Hardcastle went on to become Professor of Speech Science and founding Director of the Speech Science Research Centre at Queen Margaret University, Edinburgh."
+      },
+      {
+        "heading": "The Hardware: A Computer You Wear",
+        "text": "The Reading EPG palate is a horseshoe-shaped custom-molded acrylic baseplate (~1–1.5 mm thick) fabricated from a dental alginate impression of the user's upper palate and teeth. It clips to the upper teeth like an orthodontic retainer. The palate carries 62 gold-plated electrodes arranged in an 8-row grid approximating the anatomy of the human hard palate: Row 1 (alveolar ridge) has 6 electrodes, rows 2–7 have 8 each, and row 8 (velar region) has 8 arranged with the posterolateral corners omitted to fit the dental arch. Electrode diameter is approximately 1.5 mm with center-to-center spacing of 4.5–5 mm.\n\nThe signal chain begins with a small AC signal (<50 µA) passed through the user's body via a neck/wrist reference electrode. When the tongue touches a palatal electrode, it completes a low-impedance circuit. A 64-channel FET multiplexer scans all 62 electrodes at 10 kHz per electrode, with a full-palate scan taking approximately 6 ms, providing an effective frame rate of 100–200 Hz. Contact data passes via a parallel interface to the host computer. The original system used a DEC PDP-8 minicomputer running RT-11; by the early 1980s it was reprogrammed for Commodore and later IBM-compatible PCs."
+      },
+      {
+        "heading": "The Interaction: See Your Tongue, Change Your Speech",
+        "text": "A therapy session with the Reading EPG followed a tight biofeedback loop. The user inserted the custom palate. The CRT displayed a static 8-row palate schematic — as if looking up into the mouth from below. The speech therapist selected a target contact pattern (e.g., complete front-row closure for /t/, a central groove with lateral contact for /s/, or full rear-row closure for /k/) displayed as an overlaid template. The user attempted the target sound. In real time — within approximately 10 ms — any tongue-palate contact illuminated the corresponding dot on the screen. The user saw their actual contact pattern superimposed on the target template and made micro-adjustments to tongue posture, place, or groove shape. The display updated continuously at up to 100 frames/second. Early CRTs had phosphor persistence, giving contacts a brief 'trail' that helped users perceive dynamic gestures such as closures and releases. The therapist cuing articulatory goals ('raise the sides,' 'make a groove in the middle') while watching both user and screen. All frames were logged to disk for offline analysis."
+      },
+      {
+        "heading": "Clinical and Research Impact",
+        "text": "The Reading EPG system was used with several populations: children and adults with cleft palate (identifying compensatory articulations invisible to auditory assessment), hearing-impaired individuals (using the visual channel to learn correct articulation when auditory feedback was absent or degraded), people with dysarthria and apraxia from stroke or cerebral palsy, children with persistent speech sound disorders unresponsive to conventional therapy, and second-language learners. Fiona Gibbon, a key clinical researcher, established EPG as an assessment and therapy tool, identifying 'undifferentiated lingual gestures' — tongue movements that sound correct to the ear but are biomechanically abnormal. The system was commercialized by Articulate Instruments Ltd. (founded by engineer Alan Wrench), which released the portable EPG3 around 1990 and WinEPG in 2000. Although Articulate Instruments ceased EPG production in 2013, the technology lineage continues through icSpeech's LinguaGraph (Rose Medical Solutions Ltd., Canterbury), which uses the identical Reading 62-electrode palate design and sells to over 30 countries including Great Ormond Street Hospital and Oxford University Hospitals."
+      }
+    ],
+    "team": [
+      {"name": "W.J. (Bill) Hardcastle (1943–2015)", "note": "Principal investigator; Professor of Speech Science at University of Reading. Intellectual architect of the Reading EPG. Later founding Director of Speech Science Research Centre at Queen Margaret University, Edinburgh."},
+      {"name": "Peter Roach", "note": "Hardware/software designer; programmed the PDP-8 interface in machine code. Later Professor of Phonetics at Reading and Leeds. Uploaded the 1978 palate photographs to Wikimedia Commons."},
+      {"name": "Wilf Jones", "note": "Electronics engineer; designed the original EPG hardware, multiplexer, and interface card."},
+      {"name": "Fiona Gibbon", "note": "Clinical researcher; established EPG as a clinical tool for children with speech disorders, cleft palate, and hearing impairment. Identified 'undifferentiated lingual gestures.'"},
+      {"name": "Alan Wrench", "note": "Engineer; designed EPG3 hardware and WinEPG software. Founded Articulate Instruments Ltd. to commercialize the Reading EPG technology."},
+      {"name": "Katerina Nicolaidis", "note": "Phonetic researcher; cross-linguistic EPG studies providing crucial normative data on Greek and English coarticulation."}
+    ],
+    "media": [
+      {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/0/0d/Electropalate-vertical.jpg",
+        "alt": "Custom-molded acrylic artificial palate with 62 gold electrodes, Reading EPG system, 1978",
+        "caption": "The Reading electropalate — an artificial palate embedded with 62 gold electrodes in an 8-row grid. Each user required a custom-molded palate from a dental impression. Photo dated 28 July 1978 by Peter Roach, CC BY-SA 4.0, Wikimedia Commons."
+      },
+      {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/9/99/Epg-frames.JPG",
+        "alt": "EPG contact-pattern printout for the word 'catkin,' Reading EPG system, 1978",
+        "caption": "A printout from the Reading EPG system showing successive frames of tongue-palate contact for the utterance 'catkin.' 'O' indicates contact; '.' indicates no contact. Frame 344 shows complete alveolar /t/ closure; frame 350 shows velar /k/ closure. Photo by Peter Roach, CC BY-SA 4.0."
+      },
+      {
+        "src": "https://icspeech.com/images/electropalatography-palate.jpg",
+        "alt": "Modern 62-electrode Reading EPG palate on plaster cast",
+        "caption": "Contemporary Reading EPG palate (LinguaGraph), based on the identical 62-electrode design. The palate clips to the upper teeth; wires exit at the posterior margin. Supported by more than 50 years of published research. (icSpeech)"
+      },
+      {
+        "src": "https://icspeech.com/images/electropalatography-t-d-n.jpg",
+        "alt": "EPG contact pattern for alveolar stop /t/, /d/, /n/",
+        "caption": "EPG display showing complete alveolar contact (front-row electrodes lit) for /t/, /d/, /n/ — the classic 'target template' pattern that therapy patients would try to match. (icSpeech)"
+      }
+    ],
+    "sources": [
+      {"text": "Hardcastle, W.J. (1972). 'The use of electropalatography in phonetic research.' Phonetica, 25(4), 197–215.", "url": "https://doi.org/10.1159/000259342"},
+      {"text": "Roach, P.J. and Hardcastle, W.J. (1976). 'A computer system for the processing of electropalatographic and other data.' Proc. Vth Phonetics Symposium, University of Essex, pp. 127–142."},
+      {"text": "Hardcastle, W.J., Jones, W., Knight, C., Trudgeon, A., and Calder, G. (1989). 'New developments in electropalatography: A state-of-the-art report.' Clinical Linguistics & Phonetics, 3(1), 1–38.", "url": "https://doi.org/10.3109/02699208908985268"},
+      {"text": "Wikipedia: Electropalatography", "url": "https://en.wikipedia.org/wiki/Electropalatography"},
+      {"text": "Articulate Instruments: A History of EPG", "url": "https://articulateinstruments.com/epg-discontinued/"},
+      {"text": "icSpeech: LinguaGraph Electropalatography System (current commercial descendant)", "url": "https://icspeech.com/electropalatography.html"},
+      {"text": "icSpeech: Tongue Palate Contact animations (EPG displays for each consonant)", "url": "https://icspeech.com/tongue-palate-contact.html"},
+      {"text": "Hardcastle, W.J. and Marchal, A. (Eds.) (1989). Speech Production and Speech Modelling, NATO ASI Series. Kluwer Academic Publishers."}
+    ],
+    "imageUrls": [
+      "https://upload.wikimedia.org/wikipedia/commons/0/0d/Electropalate-vertical.jpg",
+      "https://upload.wikimedia.org/wikipedia/commons/9/99/Epg-frames.JPG",
+      "https://icspeech.com/images/electropalatography-palate.jpg",
+      "https://icspeech.com/images/electropalatography-t-d-n.jpg",
+      "https://icspeech.com/images/electropalatography-k-g-ng.jpg",
+      "https://icspeech.com/images/linguaview-classic.jpg",
+      "https://icspeech.com/images/electropalatography-operation.jpg"
+    ]
+  },
+  "savedImages": [
+    "potential/reading-epg/images/electropalate-1978.jpg",
+    "potential/reading-epg/images/epg-frames-catkin.jpg",
+    "potential/reading-epg/images/modern-palate.jpg",
+    "potential/reading-epg/images/epg-tdn-pattern.jpg"
+  ]
+}
