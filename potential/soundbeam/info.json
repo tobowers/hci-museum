@@ -1,0 +1,75 @@
+{
+  "slug": "soundbeam",
+  "title": "Soundbeam (1984/1989)",
+  "year": "1984",
+  "subtitle": "The invisible keyboard in space — an ultrasonic MIDI controller that let dancers shape music with their bodies, then accidentally revolutionized disability music therapy.",
+  "why_scout_cares": "No other artifact in the museum uses sonar as the interaction modality. Soundbeam projects 50 kHz ultrasonic beams into a space; any body part interrupting or moving within the beam is translated in real time to MIDI. No wearables, no controllers, no contact. Conceived by British composer Edward Williams as a Theremin descendant for dancers, the commercial hardware was built by Robin Wood and the EMS team (of legendary VCS3 synthesizer fame) in Cornwall. It then found an unanticipated second life in special education and music therapy, where children with profound physical disabilities could make music independently for the first time. Still in production as Soundbeam 6 in 2025 — one of the longest-lived gestural music interfaces ever.",
+  "search_terms": ["soundbeam ultrasonic", "edward williams soundbeam", "EMS soundbeam", "gestural MIDI controller", "ultrasonic body controller", "music therapy technology"],
+  "research": {
+    "title": "Soundbeam",
+    "year": "1984",
+    "by": "Edward Williams / Robin Wood / EMS (Electronic Music Studios)",
+    "tags": ["HCI", "Music", "Sonar", "Gestural", "Accessibility", "MIDI", "Embodied"],
+    "overview": "Soundbeam is a touch-free MIDI controller that uses ultrasonic sonar to translate body movement into music and control data. A performer moves within an invisible cone of 50 kHz sound; the system measures distance, speed, and direction of movement and converts these into MIDI messages that drive any synthesizer, sampler, or DAW. Conceived by British composer Edward Williams (1921-2013) as a Theremin descendant enabling dancers to generate their own accompaniment, the prototype was built in 1984. The first commercial units shipped in 1989, manufactured by Robin Wood and the engineering team at EMS (Electronic Music Studios) — the Cornwall-based company famous for creating the legendary VCS3 'Putney' synthesizer used by Pink Floyd, Brian Eno, and Jean-Michel Jarre. Soundbeam found its deepest impact not on the dance floor but in special education, where the extreme sensitivity of the ultrasonic beam meant even users with profound and multiple learning disabilities (PMLD) could play music through minimal movements — a facial twitch, a finger raised, a wheelchair nudged. More than 1,500 systems were in use worldwide by 2001, and the product remains in active production as Soundbeam 6 in 2025.",
+    "deepDive": [
+      {
+        "heading": "Origins",
+        "text": "Edward Aneurin Williams (1921-2013) was a British composer and electronic music pioneer. He scored two Oscar-winning documentary shorts, composed the groundbreaking electronic/orchestral score for David Attenborough's 'Life on Earth' (1979) using three EMS VCS3 synthesizers, and lectured on music at the University of Bristol. According to the official Soundbeam history, Williams spent 18 years searching for a device that would enable dancers to create and shape their accompanying music through body movement. He was inspired by the Thereminvox, invented by Léon Theremin in 1920. Unlike the Theremin's capacitive sensing — which requires proximity to antennas and is notoriously difficult to control — Williams conceived of using sonar to create an 'invisible expanding keyboard in space.' He brought the concept to EMS in Cornwall, where engineer Robin Wood and the team (who had built the VCS3) designed the commercial hardware."
+      },
+      {
+        "heading": "How It Works",
+        "text": "Each Soundbeam sensor fires a continuous stream of directional 50 kHz ultrasonic tone-bursts into a conical beam (range 0.56m to 6m) and simultaneously listens for their echoes. As objects — hands, bodies, wheelchairs, heads — enter the beam, they reflect the ultrasound back to the sensor. The controller calculates distance, speed, and direction of movement, then translates these into MIDI note, velocity, and continuous controller data. Each beam can trigger up to 64 individual note pitches over its length, divided into equal 'divisions' with programmable pitch sequences (pentatonic, harmonic minor, chromatic, or custom). Up to 4 sensors can operate simultaneously, complemented by 8 switch or variable controller inputs via an optional switchbox. The system is multitimbral with 24-note polyphony per beam and 127 user presets. The 50 kHz tone-bursts themselves are inaudible to humans."
+      },
+      {
+        "heading": "From Dance Floor to Therapy Room",
+        "text": "Soundbeam was designed for avant-garde dance performance, but it became something far more significant: a lifeline for people with severe disabilities. Because the beam requires no physical contact, no fine motor control, and no strength to operate, even users with profound and multiple learning disabilities (PMLD), cerebral palsy, Rett Syndrome, or locked-in conditions could create music independently. As Sound on Sound noted in 2001, it was 'literally possible to play a MIDI instrument just by facial activity, using your mouth and slight movements of the head.' The device was adopted by Great Ormond Street Hospital, Nordoff Robbins music therapy, Drake Music, RNIB, Leonard Cheshire Disability, and dozens of UK special schools and NHS trusts. Dr. Nicholas Bannan at the University of Reading coined the term 'elektrokinaesthetic instruments' to describe Soundbeam-like devices, and the Qualifications and Curriculum Authority (UK) identified Soundbeam as a key resource for helping children with learning disabilities attain National Curriculum for Music targets."
+      },
+      {
+        "heading": "EMS: The Synthesizer Company's Second Act",
+        "text": "By the 1980s, main synthesizer production at EMS had wound down and the company had relocated to Ladock, Cornwall. The Soundbeam project gave the legendary company an unexpected second life. The same engineering team that built the VCS3 — the portable synthesizer used on Pink Floyd's 'Dark Side of the Moon' — ended up building ultrasonic movement-to-MIDI controllers for children with cerebral palsy. Saxophonist David Jackson (Van der Graaf Generator) became an early adopter in 1992 with his 'Tonewall' project, and Led Zeppelin's John Paul Jones later provided a testimonial for Soundbeam 6: 'It's amazing to see how ingenious people are in using Soundbeam, and also how truly liberating it can be!'"
+      },
+      {
+        "heading": "Legacy",
+        "text": "Soundbeam is one of the longest-lived products in electronic music history, still in production as Soundbeam 6 (2017-present) with a full touchscreen, built-in sound library, on-board sampler, HDMI film projection, and wireless switches. Its influence extends through Roland's D-Beam (1990s), Alesis AirFX, the gestural music controllers studied at NIME (New Interfaces for Musical Expression), and conceptually through to Microsoft's Kinect sensor. The Drake Music DMLab community — a network developing accessible musical instruments — exists in the lineage Soundbeam established. That a device designed for dancers ended up giving a voice to children who had never been able to make music before is one of the most moving stories in HCI history."
+      }
+    ],
+    "team": [
+      {"name": "Edward Williams (1921-2013)", "note": "Originator and composer. Conceived Soundbeam as an 18-year quest for a dancer-controlled musical instrument."},
+      {"name": "Judy Williams", "note": "Co-founder of The Soundbeam Project, business operations."},
+      {"name": "Robin Wood", "note": "EMS engineer, designed the Soundbeam 1 and 2 hardware."},
+      {"name": "EMS (Electronic Music Studios)", "note": "Cornwall-based manufacturing partner. Legendary creators of the VCS3 synthesizer."},
+      {"name": "David Jackson", "note": "Saxophonist (Van der Graaf Generator), early adopter with 'Tonewall' project from 1992."},
+      {"name": "Martin Kiszko", "note": "Composer, Williams protégé, education advocate."},
+      {"name": "Dr. Nicholas Bannan", "note": "University of Reading. Coined the term 'elektrokinaesthetic instruments' for Soundbeam-like devices."}
+    ],
+    "media": [
+      {
+        "src": "https://upload.wikimedia.org/wikipedia/en/thumb/b/b7/Soundbeam.png/250px-Soundbeam.png",
+        "alt": "Soundbeam system in use with performer",
+        "caption": "A performer interacting with Soundbeam ultrasonic sensor beams. (Wikipedia)"
+      },
+      {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e7/Edward-Williams-009.jpg/250px-Edward-Williams-009.jpg",
+        "alt": "Edward Williams in 1999",
+        "caption": "Edward Williams (1921-2013), composer and originator of Soundbeam, photographed in 1999. (Wikimedia Commons)"
+      }
+    ],
+    "sources": [
+      {"text": "Wikipedia — Soundbeam", "url": "https://en.wikipedia.org/wiki/Soundbeam"},
+      {"text": "Wikipedia — Edward Williams (composer)", "url": "https://en.wikipedia.org/wiki/Edward_Williams_(composer)"},
+      {"text": "Soundbeam official history", "url": "https://www.soundbeam.co.uk/history"},
+      {"text": "Soundbeam — What is Soundbeam?", "url": "https://www.soundbeam.co.uk/what-is-soundbeam-1"},
+      {"text": "Soundbeam — How is Soundbeam used?", "url": "https://www.soundbeam.co.uk/how-is-soundbeam-used"},
+      {"text": "Sound on Sound — Soundbeam 2 review (October 2001)", "url": "https://www.soundonsound.com/reviews/soundbeam-2"},
+      {"text": "The Guardian — Edward Williams obituary (Dec 2013)", "url": "https://www.theguardian.com/music/2013/dec/19/edward-williams-obituary"},
+      {"text": "Drake Music — Technology hub", "url": "https://www.drakemusic.org/technology/"},
+      {"text": "Wikipedia — Electronic Music Studios (EMS)", "url": "https://en.wikipedia.org/wiki/Electronic_Music_Studios"}
+    ],
+    "imageUrls": [
+      "https://upload.wikimedia.org/wikipedia/en/thumb/b/b7/Soundbeam.png/250px-Soundbeam.png",
+      "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e7/Edward-Williams-009.jpg/250px-Edward-Williams-009.jpg",
+      "https://dt7v1i9vyp3mf.cloudfront.net/styles/news_large/s3/imagelibrary/2/2001-10-soundbeam-1-q7U2GTTZmUtM6E99nRZqrAM9K8VwHmn2.jpg"
+    ]
+  },
+  "savedImages": []
+}

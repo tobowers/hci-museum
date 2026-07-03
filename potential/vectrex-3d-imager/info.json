@@ -1,0 +1,73 @@
+{
+  "slug": "vectrex-3d-imager",
+  "title": "Vectrex 3D Imager (1983)",
+  "year": "1983",
+  "subtitle": "Color 3D from a black-and-white screen — using a motorized spinning filter disk strapped to your face.",
+  "why_scout_cares": "The earliest commercially released stereoscopic 3D gaming peripheral. Uses an ingenious analog/digital hybrid: a DC motor spins a half-black, half-color-filter disk synced to the Vectrex's 6809 vector-drawing cycle via PWM. Only ~2,000 units escaped before the 1983 crash killed the Vectrex. Represents an electromechanical road not taken for consumer 3D — no LCD shutters, no electronics in the headset beyond a motor. Sega had to pull 'world's first 3D gaming' ads in 1987 when this thing's existence was pointed out.",
+  "search_terms": ["vectrex 3d imager", "vectrex 3d headset", "john ross vectrex", "field-sequential 3d", "spinning color wheel 3d"],
+  "research": {
+    "title": "Vectrex 3D Imager",
+    "year": "1983",
+    "by": "John Ross / Smith Engineering / General Consumer Electronics (GCE) / Milton Bradley",
+    "tags": ["HCI", "3D Display", "Gaming", "Electromechanical", "Stereoscopic", "Consumer Hardware"],
+    "overview": "The Vectrex 3D Imager was a stereoscopic 3D headset peripheral for the GCE/Milton Bradley Vectrex home console (invented 1983, shipped early 1984). It used a DC motor spinning a translucent disk directly in front of the wearer's eyes. Half the disk was opaque black; the other half was divided into 60-degree transparent red, green, and blue wedges. The Vectrex 6809 CPU synchronized the disk rotation to its vector-drawing frame rate using PWM motor control, drawing six alternating sub-frames (left-eye RGB, right-eye RGB) per rotation. Each eye saw a slightly different perspective, and the brain fused them into a color stereoscopic 3D image — all from a monochrome vector CRT. Invented by John Ross at Smith Engineering/Western Technologies (who also conceived the Vectrex itself), the 3D Imager was demonstrated at the June 1983 CES and released in very limited quantities in early 1984 for $50 — just as the Vectrex itself was being discontinued after Milton Bradley lost $31.6 million on it. Only about 2,000-3,000 units were produced, and just three games were released (3D Mine Storm, 3D Narrow Escape, 3D Crazy Coaster). It remains one of the rarest gaming peripherals ever commercially released.",
+    "deepDive": [
+      {
+        "heading": "Origins",
+        "text": "The Vectrex 3D Imager was invented by John Ross, a hardware designer at Western Technologies / Smith Engineering — the same person who conceived the original Vectrex console concept in late 1980 after finding a surplus 1-inch CRT at an electronics warehouse. Jay Smith (founder of Smith Engineering, previously designer of the Mattel Microvision in 1979) headed the Vectrex project and approved Ross's 3D Imager concept. The prototype 3D Imager housing was reportedly built from recycled View-Master casework. Gerry Karr designed the Vectrex's computer and vector generator; John Hall wrote the built-in game Mine Storm; Tom Sloper coined the 'Vectrex' name. The Imager was first demonstrated at the Summer CES in Chicago, June 1983, where John C. Dvorak reported in InfoWorld: 'You put on some weird spinning glasses, and when you look at the screen, you see a full-color, 3-D image.'"
+      },
+      {
+        "heading": "How It Works",
+        "text": "The 3D Imager uses PWM (Pulse Width Modulation) motor control to keep a spinning filter disk phase-locked to the Vectrex's vector-drawing cycle. The disk, spinning at roughly 1,800-2,200 RPM, is divided into a 180° opaque black half and a 180° half segmented into 60° red, green, and blue transparent wedges. As the disk spins, only one eye sees the screen at a time. For each object, the Vectrex draws it at least twice — once from the left eye's perspective and once from the right eye's — with the angular displacement determining perceived depth. The Vectrex compares its software frame rate to a once-per-revolution index signal from the Imager, dynamically adjusting motor power to keep the disk synchronized. Because each eye sees through a different color filter at the corresponding frame, the persistence of vision fuses the alternating-eye images into a single color 3D scene. The system produces 15-18 full stereo frames per second per eye."
+      },
+      {
+        "heading": "Reception and Fate",
+        "text": "The 3D Imager was released in early 1984 at $50, bundled with 3D Mine Storm. By February 1984, Milton Bradley had announced the Vectrex's discontinuation after losing $31.6 million on the console during the 1983 video game crash. The Imager — essentially a launch accessory for a discontinued system — barely shipped. Users complained of discomfort: the spinning disk created a gyroscopic effect resisting head movement, causing nausea. Only three games shipped. Today boxed units sell for $500-900+ among collectors. The homebrew community (madtronix, Fury Unlimited) has kept the technology alive with replacement imagers and new games in the 2000s."
+      },
+      {
+        "heading": "Legacy",
+        "text": "When Sega released its SegaScope 3D LCD shutter glasses for the Master System in 1987, they initially advertised them as 'the world's first 3D gaming system' — but were forced to pull those ads when the Vectrex 3D Imager's prior existence was pointed out. The Imager's alternating-eye shuttering principle is the same used in modern active-shutter 3D glasses. The color-filter disk approach (field-sequential color) also connects back to early color television experiments — the CBS field-sequential color system of the 1940s. Ross's patent (US 4,630,767) covers the spinning filter disk and synchronization mechanism."
+      }
+    ],
+    "team": [
+      {"name": "John Ross", "note": "Hardware designer, invented the Vectrex 3D Imager (and the Vectrex itself). Designed optics, motor drive, and sync electronics."},
+      {"name": "Jay Smith", "note": "Founder of Smith Engineering / Western Technologies. Previously designed the Mattel Microvision (1979). Project lead."},
+      {"name": "Gerry Karr", "note": "Vectrex computer and vector generator design, system ROM (RUM)."},
+      {"name": "John Hall", "note": "Early system ROM, wrote built-in game Mine Storm."},
+      {"name": "Tom Sloper", "note": "Named the Vectrex; game designer, created the Spike mascot."},
+      {"name": "Walter Nakano and Colin Vowles", "note": "Industrial design and model building."},
+      {"name": "Bill Hawkins", "note": "Programmed key Vectrex games."},
+      {"name": "Duncan Muirhead", "note": "Trigonometry routines for the RUM system ROM."},
+      {"name": "Greg Krakauer", "note": "President of GCE who licensed the Vectrex concept."},
+      {"name": "Manufacturer", "note": "General Consumer Electronics (GCE) / Milton Bradley Company."}
+    ],
+    "media": [
+      {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/d/d1/Vectrex_Brille.jpg",
+        "alt": "Vectrex 3D Imager headset",
+        "caption": "The Vectrex 3D Imager headset, showing the spinning filter disk housing. (Wikimedia Commons, CC BY-SA 3.0)"
+      },
+      {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/7/7a/Vectrex-Console-Set.jpg",
+        "alt": "Vectrex console set",
+        "caption": "The Vectrex console with controller, showing the monochrome vector CRT the 3D Imager transformed. (Wikimedia Commons)"
+      }
+    ],
+    "sources": [
+      {"text": "Wikipedia — Vectrex (3D Imager section)", "url": "https://en.wikipedia.org/wiki/Vectrex#3-D_Imager"},
+      {"text": "Vectrex Museum — 3D Imager page", "url": "http://vectrexmuseum.com/vectrex-3D-imager.html"},
+      {"text": "Vectrex Museum — History (team credits)", "url": "http://vectrexmuseum.com/vectrexhistory.html"},
+      {"text": "Gamasutra — A History of Gaming Platforms: The Vectrex (Barton & Loguidice, 2007)", "url": "https://www.gamedeveloper.com/design/a-history-of-gaming-platforms-the-vectrex"},
+      {"text": "Popular Science, November 1983 — 'What's New in Electronics' (p. 116)", "url": "https://books.google.com/books?id=EpSrYt9lFLMC&pg=PA116"},
+      {"text": "InfoWorld, July 4, 1983 — John C. Dvorak CES report", "url": "https://books.google.com/books?id=yy8EAAAAMBAJ&pg=PA33"},
+      {"text": "Patent US 4,630,767 — Ross/Smith Engineering 3D display system", "url": "https://patents.google.com/patent/US4630767A/"},
+      {"text": "Electronic Games, September 1984 — 'Farewell To Vectrex' (Joyce Worley)", "url": "https://archive.org/details/electronic-games-magazine-1984-09/"}
+    ],
+    "imageUrls": [
+      "https://upload.wikimedia.org/wikipedia/commons/d/d1/Vectrex_Brille.jpg",
+      "https://upload.wikimedia.org/wikipedia/commons/7/7a/Vectrex-Console-Set.jpg",
+      "https://upload.wikimedia.org/wikipedia/commons/8/88/GCE-Vectrex-Open-Motherboard.jpg"
+    ]
+  },
+  "savedImages": []
+}

@@ -1,0 +1,73 @@
+{
+  "slug": "hard-drivin",
+  "title": "Hard Drivin' / Race Drivin' (1989)",
+  "year": "1989",
+  "subtitle": "The arcade machine that put a real DC motor behind your steering wheel — and a Milliken-level vehicle physics model under the hood.",
+  "why_scout_cares": "The first commercially released arcade game with continuous force-feedback steering — a brushed 60-90V DC motor that actively fights the player based on simulated road forces, not mere vibration. It married this to a full manual transmission (H-pattern shifter, clutch pedal, ignition key) and, most remarkably, a real vehicle dynamics model built by Doug Milliken (son of the Cornell Aeronautical Lab engineer who literally wrote the book on car physics). Atari was so secretive about using real vehicle dynamics that they credited Milliken as a mere 'test driver.' 3,318 cabinets were built. Every modern force-feedback racing wheel traces its commercial lineage to this cabinet.",
+  "search_terms": ["hard drivin arcade", "atari hard drivin force feedback", "jed margolin hard drivin", "doug milliken hard drivin", "race drivin arcade", "force feedback steering wheel history"],
+  "research": {
+    "title": "Hard Drivin'",
+    "year": "1989",
+    "by": "Atari Games (Rick Moncrief, Max Behensky, Jed Margolin, Doug Milliken)",
+    "tags": ["HCI", "Force Feedback", "Haptics", "Gaming", "Arcade", "Simulation", "Consumer Hardware"],
+    "overview": "Hard Drivin' was a 1989 arcade driving simulation developed by Atari Games. It placed the player in a first-person sports car with a full manual transmission — ignition key, H-pattern 4-speed shifter, clutch/brake/gas pedals, and a force-feedback steering wheel powered by a brushed 60-90V DC motor that actively resisted the player in proportion to simulated road forces, cornering, and collisions. The car model was developed by Doug Milliken, son of William F. Milliken Jr. — the Cornell Aeronautical Laboratory engineer who converted aircraft equations of motion into automobile dynamics in the 1950s. Atari was so protective of this secret that they listed Milliken in the game's credits as a 'test driver.' The cabinet was also one of the earliest arcade games to render its environment in filled 3D polygons. 3,318 cabinets were manufactured across cockpit and upright variants, selling for $7,995. The sequel Race Drivin' (1990) upgraded to a proper four-wheel physics model using an AT&T DSP32C. Every modern force-feedback racing peripheral — from the Microsoft SideWinder Force Feedback Pro to today's direct-drive sim racing wheels — traces its commercial lineage to this cabinet.",
+    "deepDive": [
+      {
+        "heading": "Origins",
+        "text": "Development began in the mid-1980s when Atari Games was still owned by Namco. The two companies collaborated on a 3D arcade hardware prototype, then split to develop separate forks — Atari producing Hard Drivin', Namco building the more advanced System 21 for Winning Run (1988). Project leader Rick Moncrief oversaw a team including hardware designer Jed Margolin, physics programmer Max Behensky, and game programmer Stephanie Mott. The project was nearly cancelled when an Atari VP claimed nobody would buy a $10,000 arcade cabinet, but weeks of market research proved the price acceptable."
+      },
+      {
+        "heading": "The Physics",
+        "text": "This is the most historically significant element. Atari hired Doug Milliken — son of William F. Milliken Jr., who had pioneered vehicle dynamics at the Cornell Aeronautical Laboratory (later Calspan) in the 1950s by converting aircraft equations of motion into automobile dynamics equations. The Millikens literally wrote the canonical textbook: Race Car Vehicle Dynamics. Atari hid Doug's true role by listing him in the credits as a 'test driver.' Jed Margolin later explained: 'Atari didn't want anyone to know we were doing real car modeling.' The car model mathematically described engine, transmission, springs, shock absorbers, and tires — how they react to each other, to the road, and crucially, the forces transmitted back through the steering wheel. A key limitation: the TMS34010 processor running the physics had no floating-point unit, so Max Behensky could only model two wheels. The model dynamically switched modes depending on speed — a car behaves differently at high speed versus when starting to roll. Race Drivin' (1990) upgraded to an AT&T DSP32C with hardware floating-point, and Behensky ported the entire C-based car model in a single afternoon, enabling a proper four-wheel simulation."
+      },
+      {
+        "heading": "The Hardware",
+        "text": "The computing architecture was remarkable: main CPU (Motorola 68010, 8 MHz) for game logic; two TI TMS34010 processors (Graphics Signal Processor and Model Signal Processor at ~6 MHz each); an Analog Devices ADSP-2100 math co-processor; and separate 68000/TMS32010 for audio. Jed Margolin pulled a brilliant memory trick: by pairing 32 VRAMs into 16 banks of 64Kx8 and telling the TMS34010 there was only 1 bit per pixel, the system could fill 16 pixels per memory operation — far faster than the 4 pixels TI intended. He called the custom gate array (designed by Don Paauw) the '34012' — a fake TI part number to mislead hardware pirates. The force-feedback motor was a brushed DC motor by Ohio Electric Motors (60-90 VDC) with an opto-isolated motor amp. Safety features included a thermal protector and redundant 12-bit/8-bit ADCs monitoring motor position. A unique detail: the adjustable seat position sensor scaled force-feedback strength — seat forward (shorter/younger player) meant less force; seat back (taller/adult) meant more."
+      },
+      {
+        "heading": "Reception and Legacy",
+        "text": "3,318 cabinets were sold (1,868 cockpits, remainder upright/compact). Commodore User's Nick Kelly wrote: 'Hard Drivin' is exactly what its name suggests — difficult. You won't master this quickly... But Atari can be proud of themselves for producing a coin-op which really does put you in the driving seat, and that is undeniably a major first.' The cabinet won numerous awards and became Japan's 6th highest-grossing dedicated arcade game of 1990. Home ports stripped the force feedback entirely, making the arcade hardware the only authentic experience. Jed Margolin later donated his personal Race Drivin' cabinet to The Strong Museum of Play. From the project came three US patents covering the moving dashboard, driver training system, and multi-player competition. The lineage runs directly through San Francisco Rush (1996) to modern sim racing — Gran Turismo, iRacing, and every Logitech/Thrustmaster force-feedback wheel."
+      }
+    ],
+    "team": [
+      {"name": "Rick Moncrief", "note": "Project leader, game designer, sound system, mechanical design, force shifter, analog hardware."},
+      {"name": "Max Behensky", "note": "Software design, car physics model (C), force-feedback steering implementation."},
+      {"name": "Stephanie Mott", "note": "Game programming, display software, championship lap."},
+      {"name": "Jed Margolin", "note": "Hardware design, self-test, instant replay, integer 3D rendering, video memory architecture."},
+      {"name": "Doug Milliken", "note": "Vehicle dynamics consultant (credited as 'test driver' to hide real vehicle modeling)."},
+      {"name": "Erik Durfey", "note": "Technician, mechanical designer, sound recording, dashboard gauge implementation."},
+      {"name": "Don Paauw", "note": "Custom gate array design (the fake '34012' chip)."},
+      {"name": "Jim Morris", "note": "Display math software."},
+      {"name": "Publisher", "note": "Atari Games (NA), Namco (Japan). 3,318 units manufactured."}
+    ],
+    "media": [
+      {
+        "src": "https://upload.wikimedia.org/wikipedia/en/d/d7/Hard_Drivin_arcade_flyer.jpg",
+        "alt": "Hard Drivin' arcade flyer",
+        "caption": "The Hard Drivin' arcade flyer, showing the cockpit cabinet with force-feedback steering wheel and manual transmission. (Wikimedia)"
+      },
+      {
+        "src": "https://upload.wikimedia.org/wikipedia/en/a/a6/Hard_Drivin%27_in-game_screenshot_%28Arcade%29.png",
+        "alt": "Hard Drivin' in-game screenshot",
+        "caption": "Hard Drivin' gameplay, one of the earliest filled-3D-polygon arcade games. (Wikimedia)"
+      }
+    ],
+    "sources": [
+      {"text": "Wikipedia — Hard Drivin'", "url": "https://en.wikipedia.org/wiki/Hard_Drivin%27"},
+      {"text": "Wikipedia — Race Drivin'", "url": "https://en.wikipedia.org/wiki/Race_Drivin%27"},
+      {"text": "Jed Margolin — Schematics & Engineering History", "url": "http://jmargolin.com/schem/schems.htm"},
+      {"text": "KLOV / Museum of the Game — Hard Drivin'", "url": "https://www.arcade-museum.com/game_detail.php?game_id=8072"},
+      {"text": "Arcade-History — Hard Drivin'", "url": "https://www.arcade-history.com/?n=hard-drivin%27&page=detail&id=1083"},
+      {"text": "Arcade-History — Race Drivin' Cockpit", "url": "https://www.arcade-history.com/?n=race-drivin-cockpit-model&page=detail&id=2148"},
+      {"text": "Atari Production Numbers Memo (archived)", "url": "https://web.archive.org/web/20130120084806/http://www.atarigames.com/index.php?option=com_content&view=article&id=47:atari-production-numbers-memo"},
+      {"text": "Karl Ludvigsen — Bill Milliken biography (vehicle dynamics pioneer)", "url": "http://www.bentleypublishers.com/ludvigsen/aq-milliken-biography.htm"},
+      {"text": "The Strong Museum of Play (Jed Margolin's cabinet donation)", "url": "https://www.museumofplay.org/"}
+    ],
+    "imageUrls": [
+      "https://upload.wikimedia.org/wikipedia/en/d/d7/Hard_Drivin_arcade_flyer.jpg",
+      "https://upload.wikimedia.org/wikipedia/en/a/a6/Hard_Drivin%27_in-game_screenshot_%28Arcade%29.png",
+      "https://upload.wikimedia.org/wikipedia/en/2/29/Race_Drivin_arcade_flyer.jpg"
+    ]
+  },
+  "savedImages": []
+}
