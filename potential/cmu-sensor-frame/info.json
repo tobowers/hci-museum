@@ -1,0 +1,105 @@
+{
+  "slug": "cmu-sensor-frame",
+  "title": "CMU Sensor Frame",
+  "year": "1985",
+  "subtitle": "the multi-touch system where pinch-to-zoom was born, built from DRAM chips and shown to Steve Jobs",
+  "why_scout_cares": "Before the iPhone, before Fingerworks, before Jeff Han's TED talk, there was a metal frame around a CRT monitor at Carnegie Mellon that could track three fingers simultaneously, detect their approach angle, and recognize gestures — including the canonical pinch-to-zoom, demonstrated with coordinated graphics in 1985. The Sensor Frame used off-the-shelf DRAM memory chips with glass windows as crude image sensors because CCD cameras were unavailable. It was a brilliant hack. Steve Jobs visited the lab in October 1985 and signed an NDA. The technology was patented, a company was founded, NASA funded a 3D variant called the Sensor Cube, and then — nothing. It never shipped. But the idea it proved — that multiple fingers on a surface could form a rich gestural vocabulary — is now in the pocket of every person reading this. Paul McAvinney, the inventor, gave one TEDx talk in 2014 and then returned to obscurity.",
+  "search_terms": ["Paul McAvinney sensor frame CMU 1985", "pinch to zoom origin 1985", "CMU multi-touch sensor frame", "first multi-touch gesture 1985"],
+  "research": {
+    "title": "CMU Sensor Frame",
+    "year": "1985",
+    "by": "Paul McAvinney, Carnegie Mellon University (with Roger B. Dannenberg, M.T. Thomas)",
+    "tags": ["HCI", "Multi-Touch", "Gesture", "Input", "Research"],
+    "overview": "The Sensor Frame was the first multi-touch system to demonstrate gestural interaction with coordinated graphics. Built at Carnegie Mellon University in 1985 by Paul McAvinney, it was a rectangular metal frame surrounding a CRT monitor, using four corner-mounted sensors to detect finger shadows via optical occlusion. The sensors were off-the-shelf Micron IS32 OpticRAM DRAM memory chips — repurposed from stock because CCD cameras were effectively unavailable in 1985. Their ceramic packages had glass windows that made them naturally photosensitive, turning commodity memory into a crude 128x256-pixel camera array.\n\nThe system could track up to three fingers simultaneously, detect the angle at which each finger approached the surface, and recognize a vocabulary of gestures including two-finger rotation, marquee selection, amplitude scaling, and — most notably — **pinch-to-zoom**, demonstrated with coordinated graphics in 1985. A later NASA-funded variant, the Sensor Cube, extended sensing into 3D, allowing each finger to function as a virtual joystick.",
+    "deepDive": [
+      {
+        "heading": "DRAM chips as cameras",
+        "text": "The Sensor Frame's most ingenious technical choice was using Micron IS32 OpticRAM 64K DRAM chips as image sensors. These were standard memory chips in ceramic DIP packages with glass windows — designed for UV-EPROM-style applications, not imaging. McAvinney realized their photosensitivity meant they could serve as crude 2D cameras. Each cell was written to '1', light exposure caused charged cells to leak to '0' at different rates depending on illumination, and the pattern was read back as a shadow image. Four such sensors in the frame's corners tracked finger silhouettes, with angle-side-angle trigonometry computing precise X,Y positions."
+      },
+      {
+        "heading": "The pinch-to-zoom origin",
+        "text": "Canonical pinch-to-zoom — two fingers moving apart to scale an object — was demonstrated on the Sensor Frame with coordinated graphics in 1985. Patent drawings show two fingers scaling the frequency of a displayed waveform (Figs 15a, 15b of US Patent 4,746,770). Other demonstrated gestures included two-finger knob rotation, marquee-style object selection, and amplitude scaling. The gestures were recognized in software running on a host computer at approximately 30Hz refresh rate."
+      },
+      {
+        "heading": "The Steve Jobs visit",
+        "text": "In October 1985, Steve Jobs visited CMU — months after being ousted from Apple, in the process of founding NeXT. According to CMU's The Link magazine (Summer 2017), Jobs signed a non-disclosure agreement before being allowed to tour the Sensor Frame lab and see the multi-touch technology in action. The visit is cited as evidence that Apple had direct, documented exposure to advanced multi-touch at CMU nearly 22 years before the iPhone's launch."
+      },
+      {
+        "heading": "The NASA Sensor Cube",
+        "text": "With NASA SBIR Phase II funding (contract NAS9-18686, circa 1991-92), McAvinney developed the Sensor Cube — a 3D volumetric variant that could detect finger approach angle in three dimensions. Each finger became a virtual joystick with 3D control at the point of contact. NASA was interested for spacecraft crew interfaces and telerobotics control where physical buttons were impractical."
+      }
+    ],
+    "team": [
+      {
+        "name": "Paul McAvinney",
+        "note": "Lead inventor. Designed Sensor Frame hardware and software. Founded Sensor Frame Inc. Later gave TEDxGreenville talk (2014)"
+      },
+      {
+        "name": "Roger B. Dannenberg",
+        "note": "CMU faculty, computer music pioneer, co-creator of Audacity. Co-author on first Sensor Frame paper (ICMC 1984)"
+      },
+      {
+        "name": "M.T. Thomas",
+        "note": "Co-author on 1984 ICMC paper with Dannenberg and McAvinney"
+      },
+      {
+        "name": "Sharon R. Shepard",
+        "note": "Co-assignee on NASA-related patent work"
+      }
+    ],
+    "media": [
+      {
+        "src": "https://www.billbuxton.com/MultitouchAssets/sensorFrameSM.jpg",
+        "alt": "CMU Sensor Frame hardware",
+        "caption": "The Sensor Frame attached to a CRT monitor at CMU, from Bill Buxton's multi-touch overview. (Bill Buxton / Microsoft Research)"
+      },
+      {
+        "src": "https://patentimages.storage.googleapis.com/de/07/e0/ca2e7efbc58e99/US4746770-drawings-page-18.png",
+        "alt": "Patent drawing of pinch-to-scale gesture",
+        "caption": "Patent drawing (Figs 15a-15b) showing two-finger pinch-to-scale gesture on a displayed waveform. (US Patent 4,746,770)"
+      },
+      {
+        "src": "https://patentimages.storage.googleapis.com/8a/80/78/c2f06f36aa0001/US4746770-drawings-page-2.png",
+        "alt": "Sensor Frame system diagram",
+        "caption": "Patent drawing (Fig 1) showing the overall Sensor Frame apparatus surrounding a CRT display. (US Patent 4,746,770)"
+      }
+    ],
+    "sources": [
+      {
+        "text": "Bill Buxton — Multi-Touch Systems that I Have Known and Loved",
+        "url": "https://www.billbuxton.com/multitouchOverview.html"
+      },
+      {
+        "text": "US Patent 4,746,770 — Method and apparatus for isolating and manipulating graphic objects on computer video monitor",
+        "url": "https://patents.google.com/patent/US4746770A/en"
+      },
+      {
+        "text": "Dannenberg, McAvinney & Thomas — 'Carnegie-Mellon University Studio Report' (ICMC 1984)",
+        "url": "https://quod.lib.umich.edu/i/icmc"
+      },
+      {
+        "text": "O'Connell — 'The Untold History of MultiTouch,' The Link, CMU (Summer 2017)",
+        "url": "https://www.cs.cmu.edu/sites/default/files/TheLink_Summer2017.pdf"
+      },
+      {
+        "text": "McAvinney TEDxGreenville 2014 — 'Future of human/computer interface'",
+        "url": "https://www.youtube.com/watch?v=UJ64qmQxDNk"
+      },
+      {
+        "text": "NASA CR-185416 — Sensor Cube SBIR Phase II Final Report",
+        "url": "https://ntrs.nasa.gov/citations/19940003261"
+      },
+      {
+        "text": "Wikipedia — Multi-touch (history section)",
+        "url": "https://en.wikipedia.org/wiki/Multi-touch"
+      }
+    ],
+    "imageUrls": [
+      "https://www.billbuxton.com/MultitouchAssets/sensorFrameSM.jpg",
+      "https://patentimages.storage.googleapis.com/de/07/e0/ca2e7efbc58e99/US4746770-drawings-page-18.png",
+      "https://patentimages.storage.googleapis.com/8a/80/78/c2f06f36aa0001/US4746770-drawings-page-2.png",
+      "https://patentimages.storage.googleapis.com/46/24/88/b14d8994039870/US4746770-drawings-page-17.png"
+    ]
+  },
+  "savedImages": []
+}

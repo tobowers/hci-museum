@@ -1,6 +1,6 @@
 # The HCI Golden Age Wiki
 
-A research compendium for a digital museum of cutting-edge Human-Computer Interaction from the late 1970s through the early 1990s. These seventy-four projects mix canonical experiments with weird, forgotten, and beautiful vaporware — brain control, voice control, gesture, wearable computing, VR, robots, and full-body exertion.
+A research compendium for a digital museum of cutting-edge Human-Computer Interaction from the late 1970s through the early 1990s. These seventy-seven projects mix canonical experiments with weird, forgotten, and beautiful vaporware — brain control, voice control, gesture, wearable computing, VR, robots, and full-body exertion.
 
 Each entry includes an overview, a deep dive, a small media gallery, and full source links so the images and facts can always be traced back.
 
@@ -81,6 +81,9 @@ Each entry includes an overview, a deep dive, a small media gallery, and full so
 72. [Cauzin Softstrip Reader (1985)](#cauzin-softstrip-reader-1985)
 73. [Reading Electropalatography (EPG) System (1978)](#reading-electropalatography-epg-system-1978)
 74. [SynthAxe (1985)](#synthaxe-1985)
+75. [Sega Hang-On (1985)](#sega-hang-on-1985)
+76. [CMU Sensor Frame (1985)](#cmu-sensor-frame-1985)
+77. [UPIC (Unité Polyagogique Informatique CEMAMu) (1977)](#upic-unité-polyagogique-informatique-cemamu-1977)
 
 ---
 
@@ -3847,3 +3850,138 @@ Priced at £10,000 (approximately US $13,000) in 1986, fewer than 100 units were
 5. MATRIXSYNTH: SynthAxe tag (aggregator with photos and videos) — https://www.matrixsynth.com/search/label/SynthAxe
 6. SynthAxe factory demo video (YouTube) — https://www.youtube.com/watch?v=EZopVI9LTOU
 7. Sound on Sound, March 1986: SynthAxe feature (archived at muzines.co.uk) — https://www.muzines.co.uk/articles/synth-axe/3012
+
+---
+
+## CMU Sensor Frame (1985)
+
+**By:** Paul McAvinney, Carnegie Mellon University (with Roger B. Dannenberg, M.T. Thomas)  
+**Tags:** `HCI` `Multi-Touch` `Gesture` `Input` `Research`
+
+### Overview
+
+The Sensor Frame was the first multi-touch system to demonstrate gestural interaction with coordinated graphics. Built at Carnegie Mellon University in 1985 by Paul McAvinney, it was a rectangular metal frame surrounding a CRT monitor, using four corner-mounted sensors to detect finger shadows via optical occlusion. The sensors were off-the-shelf Micron IS32 OpticRAM DRAM memory chips — repurposed from stock because CCD cameras were effectively unavailable in 1985. Their ceramic packages had glass windows that made them naturally photosensitive, turning commodity memory into a crude 128x256-pixel camera array.
+
+The system could track up to three fingers simultaneously, detect the angle at which each finger approached the surface, and recognize a vocabulary of gestures including two-finger rotation, marquee selection, amplitude scaling, and — most notably — **pinch-to-zoom**, demonstrated with coordinated graphics in 1985. A later NASA-funded variant, the Sensor Cube, extended sensing into 3D, allowing each finger to function as a virtual joystick.
+
+### Deep dive
+
+* **DRAM chips as cameras.** The Sensor Frame's most ingenious technical choice was using Micron IS32 OpticRAM 64K DRAM chips as image sensors. These were standard memory chips in ceramic DIP packages with glass windows — designed for UV-EPROM-style applications, not imaging. McAvinney realized their photosensitivity meant they could serve as crude 2D cameras. Each cell was written to '1', light exposure caused charged cells to leak to '0' at different rates depending on illumination, and the pattern was read back as a shadow image. Four such sensors in the frame's corners tracked finger silhouettes, with angle-side-angle trigonometry computing precise X,Y positions.
+* **The pinch-to-zoom origin.** Canonical pinch-to-zoom — two fingers moving apart to scale an object — was demonstrated on the Sensor Frame with coordinated graphics in 1985. Patent drawings show two fingers scaling the frequency of a displayed waveform (Figs 15a, 15b of US Patent 4,746,770). Other demonstrated gestures included two-finger knob rotation, marquee-style object selection, and amplitude scaling. The gestures were recognized in software running on a host computer at approximately 30Hz refresh rate.
+* **The Steve Jobs visit.** In October 1985, Steve Jobs visited CMU — months after being ousted from Apple, in the process of founding NeXT. According to CMU's The Link magazine (Summer 2017), Jobs signed a non-disclosure agreement before being allowed to tour the Sensor Frame lab and see the multi-touch technology in action. The visit is cited as evidence that Apple had direct, documented exposure to advanced multi-touch at CMU nearly 22 years before the iPhone's launch.
+* **The NASA Sensor Cube.** With NASA SBIR Phase II funding (contract NAS9-18686, circa 1991-92), McAvinney developed the Sensor Cube — a 3D volumetric variant that could detect finger approach angle in three dimensions. Each finger became a virtual joystick with 3D control at the point of contact. NASA was interested for spacecraft crew interfaces and telerobotics control where physical buttons were impractical.
+
+### Team
+
+* **Paul McAvinney.** Lead inventor. Designed Sensor Frame hardware and software. Founded Sensor Frame Inc. Later gave TEDxGreenville talk (2014)
+* **Roger B. Dannenberg.** CMU faculty, computer music pioneer, co-creator of Audacity. Co-author on first Sensor Frame paper (ICMC 1984)
+* **M.T. Thomas.** Co-author on 1984 ICMC paper with Dannenberg and McAvinney
+* **Sharon R. Shepard.** Co-assignee on NASA-related patent work
+
+### Media
+
+![CMU Sensor Frame hardware](../assets/wiki/sensor-frame-hardware.jpg)
+*The Sensor Frame attached to a CRT monitor at CMU, from Bill Buxton's multi-touch overview. (Bill Buxton / Microsoft Research)*
+
+![Patent drawing of pinch-to-scale gesture](../assets/wiki/sensor-frame-patent-pinch.jpg)
+*Patent drawing (Figs 15a-15b) showing two-finger pinch-to-scale gesture on a displayed waveform. (US Patent 4,746,770)*
+
+### Sources
+
+1. Bill Buxton — Multi-Touch Systems that I Have Known and Loved — https://www.billbuxton.com/multitouchOverview.html
+2. US Patent 4,746,770 — Method and apparatus for isolating and manipulating graphic objects on computer video monitor — https://patents.google.com/patent/US4746770A/en
+3. Dannenberg, McAvinney & Thomas — 'Carnegie-Mellon University Studio Report' (ICMC 1984) — https://quod.lib.umich.edu/i/icmc
+4. O'Connell — 'The Untold History of MultiTouch,' The Link, CMU (Summer 2017) — https://www.cs.cmu.edu/sites/default/files/TheLink_Summer2017.pdf
+5. McAvinney TEDxGreenville 2014 — 'Future of human/computer interface' — https://www.youtube.com/watch?v=UJ64qmQxDNk
+6. NASA CR-185416 — Sensor Cube SBIR Phase II Final Report — https://ntrs.nasa.gov/citations/19940003261
+7. Wikipedia — Multi-touch (history section) — https://en.wikipedia.org/wiki/Multi-touch
+
+---
+
+## Sega Hang-On (1985)
+
+**By:** Sega (Yu Suzuki / Sega R&D1)  
+**Tags:** `HCI` `Arcade` `Motion` `Full-Body` `Gaming`
+
+### Overview
+
+Hang-On was a 1985 arcade motorcycle racing game that pioneered the **full-body lean as primary control input**. Its deluxe cabinet was a full-size motorcycle body that the player straddled, steering by leaning the entire bike side-to-side. A twist-grip throttle controlled acceleration, and real motorcycle brake levers handled braking. The bike body was mounted on an axle with springs underneath, allowing controlled banking at various angles.
+
+The game was the first **taikan** (体感, 'body sensation') arcade title — a design philosophy created by director Yu Suzuki that moved arcade interaction from finger-operated controls to whole-body physical engagement. Hang-On sold approximately 20,000 arcade units worldwide, was the highest-grossing arcade game in the United States in 1985 and in both Japan and the United States in 1986, and launched Sega's decade of motion simulator dominance.
+
+Suzuki, a dedicated motorcyclist, built the game for '16-year-old males' who wanted to ride but couldn't get a license. The title references Freddie Spencer's 'hanging off' technique in Grand Prix racing. The iconic soundtrack was composed by Hiroshi Kawaguchi, marking the first Sega arcade game to use digitized drum samples.
+
+### Deep dive
+
+* **The taikan philosophy.** Before Hang-On, every arcade game was played with fingers: buttons, joysticks, trackballs, spinners. Hang-On asked: what if the player's whole body was the controller? The deluxe cabinet put the player on a full-size motorcycle replica with a spring-loaded axle that translated body lean into steering angle. Tighter corners required further lean. The twist-grip throttle and brake levers were real motorcycle parts — so real they kept breaking under 12-hour arcade days. Suzuki originally wanted a gyroscope for acceleration tilt, a 50cc engine for authentic sound (rejected due to exhaust), and a fan linked to the throttle for wind. The taikan concept spawned Space Harrier, Out Run, After Burner, Power Drift, and the 360-degree rotating R360 cabinet.
+* **Development and team.** Directed by Yu Suzuki at Sega R&D1 (the nucleus of what became Sega AM2). A colleague brought Suzuki a torsion bar concept and asked him to design a game around it. Suzuki proposed the entire concept on a single densely-packed sheet of paper. Mechanical engineer Masaki Matsuno designed the motorcycle cabinet. Hiroshi Kawaguchi composed four rock tracks including the iconic main theme 'Theme of Love,' using PCM-sampled drums for the first time in a Sega arcade game. The arcade board used two Motorola 68000 CPUs with Sega's Super Scaler sprite-scaling technology.
+* **Commercial impact.** Hang-On was a phenomenon. Approximately 20,000 legitimate units sold worldwide by early 1991, plus an estimated 20,000-30,000 pirate units. Each deluxe cabinet cost approximately $6,700 USD. The game was the highest-grossing arcade video game of 1985 in the United States and the highest-grossing arcade game of 1986 in both Japan and the US. US machines earned so many coins that coin mechanisms had to be modified for higher-value coins. Sega's US arm could not keep up with demand. The game is credited by multiple sources with helping pull arcades out of the 1983 industry downturn.
+
+### Team
+
+* **Yu Suzuki.** Director and lead programmer. Later headed Sega AM2, created Virtua Fighter, Shenmue. AIAS Hall of Fame (2003).
+* **Masaki Matsuno.** Mechanical engineer who designed the motorcycle cabinet and lean mechanism
+* **Hiroshi Kawaguchi.** Composer. Wrote Hang-On's iconic rock soundtrack, the first Sega arcade game to use PCM drum samples
+* **Yoji Ishii.** Designer. Created two of the game's courses and composed 'Goal' and 'Name Entry' tracks
+* **Hiroshi Hamagaki.** Chief artist
+
+### Media
+
+![Hang-On arcade cabinet](../assets/wiki/sega-hang-on-cabinet.jpg)
+*Sega Hang-On upright arcade cabinet. The deluxe ride-on version featured a full-size motorcycle body. (Wikimedia Commons)*
+
+![Yu Suzuki at GDC 2011](../assets/wiki/yu-suzuki-gdc2011.jpg)
+*Yu Suzuki at the Game Developers Conference 2011. (Wikimedia Commons)*
+
+### Sources
+
+1. Wikipedia — Hang-On (GA-class article) — https://en.wikipedia.org/wiki/Hang-On
+2. Sega Retro — Hang-On (production credits, cabinet photos, magazine coverage) — https://segaretro.org/Hang-On
+3. Horowitz, The Sega Arcade Revolution (2018), pp. 92-97 — https://books.google.com/books?id=YKrHDwAAQBAJ
+4. Phantom River Stone — Yu Suzuki SEGA Hard Historia Interview (March 2021) — https://www.phantomriverstone.com/2021/08/mar-2021-yu-suzuki-interview-sega-hard.html
+5. Eurogamer — 'Out Ran: Meeting Yu Suzuki, Sega's original outsider' (2015) — https://www.eurogamer.net/out-ran-meeting-yu-suzuki-segas-original-outsider
+6. Sega-16 — 'Sega Stars: Hiroshi Kawaguchi' by Ken Horowitz (2016) — https://www.sega-16.com/2016/02/sega-stars-hiroshi-kawaguchi/
+
+---
+
+## UPIC (Unité Polyagogique Informatique CEMAMu) (1977)
+
+**By:** Iannis Xenakis / CEMAMu, Paris  
+**Tags:** `HCI` `Music` `Drawing` `Tablet` `Synthesis`
+
+### Overview
+
+The UPIC was a computerized music composition system that translated hand-drawn lines directly into synthesized sound, bypassing all traditional musical notation. Completed in 1977 at CEMAMu (Centre d'Études de Mathématique et Automatique Musicales) in Paris under the direction of composer-architect Iannis Xenakis, it consisted of a large electromagnetic drawing tablet connected to a Hewlett-Packard computer and a vector display.
+
+The fundamental interaction was elegantly simple: the X-axis represented time, the Y-axis represented pitch. A composer drew on the tablet (or on paper that was then digitized), and the computer synthesized the corresponding sound. Three stages: draw a waveform (timbre), draw an amplitude envelope (dynamics), compose on the time/pitch grid. Horizontal lines meant sustained pitches, diagonals meant glissandi, curves meant accelerating pitch changes. A child could use it. Xenakis called the system 'polyagogic' — his coinage from the Greek for 'many expressions' — because it put every musical parameter (pitch, timbre, dynamics, duration, glissandi, transformation) under the direct control of the hand.
+
+### Deep dive
+
+* **From architecture to music.** Xenakis was a trained civil engineer who worked for Le Corbusier's architectural studio for 12 years. He designed the Philips Pavilion for Expo 58 entirely by himself — a sculptural structure of hyperbolic paraboloids. The same mathematical surfaces appeared in his music: the string glissandi in *Metastaseis* (1953-54) were drawn as straight lines on a time-versus-pitch grid, creating the same shapes as the Pavilion's concrete walls. Xenakis had been sketching music since the 1950s. The UPIC gave those sketches a voice.
+* **How it worked.** The UPIC workflow had three stages. Stage 1: draw a single-cycle waveform on the tablet — a sine wave, a sawtooth, a complex squiggle — defining the timbre. Stage 2: draw an amplitude envelope showing how loudness changes over time. Stage 3: on the main composition page (X=time, Y=pitch), draw pitch trajectories and assign saved waveforms/envelopes. The system rendered the sound. Real-time performance was also possible: moving the stylus across the tablet in real time. The entire original software was famously under one megabyte in size.
+* **Democratizing composition.** Xenakis designed UPIC to be usable by anyone, including children with no musical training. He wrote: 'Anybody, even myself or you, or children, can draw lines or graphics with an electromagnetic ballpoint, and they are transformed by computer directly into sound.' At KSYME, the Athens UPIC center founded in 1979, courses for up to 5,000 students aged 10-15 were announced in December 1986.
+* **Legacy and modern successors.** UPIC was the direct ancestor of graphical music creation tools. IanniX, an open-source graphical sequencer inspired by UPIC, is sponsored by the French Ministry of Culture. UPISketch, developed with the Centre Iannis Xenakis, runs on desktop and iOS. HighC continues the 'draw your music' tradition in education. The conceptual lineage extends to Max/MSP, MetaSynth, and image-to-sound software. Over 100 composers have created works with UPIC/UPIX, from Xenakis and Jean-Claude Risset to Aphex Twin.
+
+### Team
+
+* **Iannis Xenakis.** Romanian-born Greek-French composer, architect, and engineer. Founded CEMAMu (1966). Designed UPIC. Composed *Mycènes Alpha* (1978), first UPIC piece
+* **CEMAMu.** Centre d'Études de Mathématique et Automatique Musicales, Paris. Founded by Xenakis with French Ministry of Culture support. Built the UPIC. Now Centre Iannis Xenakis at Université de Rouen
+* **KSYME.** Greek UPIC center founded 1979 in Athens by Xenakis, John G. Papaioannou, and Stefanos Vassiliadis. Acquired its own UPIC system in 1986
+
+### Media
+
+![UPIC system at KSYME Athens](../assets/wiki/upic-system.jpg)
+*The UPIC system at KSYME, Athens, inaugurated in 1986 with Xenakis present. (Wikimedia Commons)*
+
+![Iannis Xenakis in his Paris studio](../assets/wiki/xenakis-studio.jpg)
+*Iannis Xenakis in his Paris studio, c.1970. (Wikimedia Commons)*
+
+### Sources
+
+1. Wikipedia — UPIC — https://en.wikipedia.org/wiki/UPIC
+2. Centre Iannis Xenakis — UPIC Presentation, Technology, Composers — https://www.centre-iannis-xenakis.org/cix_upic_presentation
+3. Wikipedia — Iannis Xenakis — https://en.wikipedia.org/wiki/Iannis_Xenakis
+4. ZKM — From Xenakis's UPIC to Graphic Notation Today (open access PDF) — https://zkm.de/en/from-xenakiss-upic-to-graphic-notation-today
+5. Mode Records — Xenakis, UPIC, Continuum (2-CD compilation, mode 98/99) — https://moderecords.com/catalog/098_9ccmix.html
+6. Aphex Twin interview — Future Music (July 2006), via Music Thing blog — http://musicthing.blogspot.com/2006/07/aphex-twin-interview-in-future-music.html
+7. IanniX — Open-source graphical sequencer inspired by UPIC — https://www.iannix.org

@@ -1,0 +1,102 @@
+{
+  "slug": "sega-hang-on",
+  "title": "Sega Hang-On",
+  "year": "1985",
+  "subtitle": "the arcade motorcycle you rode with your whole body, launching Sega's body-sensation revolution",
+  "why_scout_cares": "Hang-On was the first arcade game to make full-body physical movement the primary control input. Players straddled a full-size motorcycle cabinet, leaned side-to-side to steer, twisted a real throttle grip, and squeezed real brake levers. Before Hang-On, arcade interaction was finger-operated: buttons, joysticks, trackballs. After Hang-On, Sega built an entire generation of taikan ('body sensation') motion cabinets — Space Harrier, Out Run, After Burner — that redefined what it meant to be physically present in a game. Twenty thousand units sold. The man who made it, Yu Suzuki, was a motorcyclist himself who wanted 16-year-old boys to feel what it was like to ride. The interaction model — proprioceptive leaning as spatial input — is the same principle that would reappear in the Wii Balance Board two decades later.",
+  "search_terms": ["Sega Hang-On 1985 arcade", "Yu Suzuki taikan", "Sega deluxe motorcycle arcade", "first motion simulator arcade game"],
+  "research": {
+    "title": "Sega Hang-On",
+    "year": "1985",
+    "by": "Sega (Yu Suzuki / Sega R&D1)",
+    "tags": ["HCI", "Arcade", "Motion", "Full-Body", "Gaming"],
+    "overview": "Hang-On was a 1985 arcade motorcycle racing game that pioneered the **full-body lean as primary control input**. Its deluxe cabinet was a full-size motorcycle body that the player straddled, steering by leaning the entire bike side-to-side. A twist-grip throttle controlled acceleration, and real motorcycle brake levers handled braking. The bike body was mounted on an axle with springs underneath, allowing controlled banking at various angles.\n\nThe game was the first **taikan** (体感, 'body sensation') arcade title — a design philosophy created by director Yu Suzuki that moved arcade interaction from finger-operated controls to whole-body physical engagement. Hang-On sold approximately 20,000 arcade units worldwide, was the highest-grossing arcade game in the United States in 1985 and in both Japan and the United States in 1986, and launched Sega's decade of motion simulator dominance.\n\nSuzuki, a dedicated motorcyclist, built the game for '16-year-old males' who wanted to ride but couldn't get a license. The title references Freddie Spencer's 'hanging off' technique in Grand Prix racing. The iconic soundtrack was composed by Hiroshi Kawaguchi, marking the first Sega arcade game to use digitized drum samples.",
+    "deepDive": [
+      {
+        "heading": "The taikan philosophy",
+        "text": "Before Hang-On, every arcade game was played with fingers: buttons, joysticks, trackballs, spinners. Hang-On asked: what if the player's whole body was the controller? The deluxe cabinet put the player on a full-size motorcycle replica with a spring-loaded axle that translated body lean into steering angle. Tighter corners required further lean. The twist-grip throttle and brake levers were real motorcycle parts — so real they kept breaking under 12-hour arcade days. Suzuki originally wanted a gyroscope for acceleration tilt, a 50cc engine for authentic sound (rejected due to exhaust), and a fan linked to the throttle for wind. The taikan concept spawned Space Harrier, Out Run, After Burner, Power Drift, and the 360-degree rotating R360 cabinet."
+      },
+      {
+        "heading": "Development and team",
+        "text": "Directed by Yu Suzuki at Sega R&D1 (the nucleus of what became Sega AM2). A colleague brought Suzuki a torsion bar concept and asked him to design a game around it. Suzuki proposed the entire concept on a single densely-packed sheet of paper. Mechanical engineer Masaki Matsuno designed the motorcycle cabinet. Hiroshi Kawaguchi composed four rock tracks including the iconic main theme 'Theme of Love,' using PCM-sampled drums for the first time in a Sega arcade game. The arcade board used two Motorola 68000 CPUs with Sega's Super Scaler sprite-scaling technology."
+      },
+      {
+        "heading": "Commercial impact",
+        "text": "Hang-On was a phenomenon. Approximately 20,000 legitimate units sold worldwide by early 1991, plus an estimated 20,000-30,000 pirate units. Each deluxe cabinet cost approximately $6,700 USD. The game was the highest-grossing arcade video game of 1985 in the United States and the highest-grossing arcade game of 1986 in both Japan and the US. US machines earned so many coins that coin mechanisms had to be modified for higher-value coins. Sega's US arm could not keep up with demand. The game is credited by multiple sources with helping pull arcades out of the 1983 industry downturn."
+      }
+    ],
+    "team": [
+      {
+        "name": "Yu Suzuki",
+        "note": "Director and lead programmer. Later headed Sega AM2, created Virtua Fighter, Shenmue. AIAS Hall of Fame (2003)."
+      },
+      {
+        "name": "Masaki Matsuno",
+        "note": "Mechanical engineer who designed the motorcycle cabinet and lean mechanism"
+      },
+      {
+        "name": "Hiroshi Kawaguchi",
+        "note": "Composer. Wrote Hang-On's iconic rock soundtrack, the first Sega arcade game to use PCM drum samples"
+      },
+      {
+        "name": "Yoji Ishii",
+        "note": "Designer. Created two of the game's courses and composed 'Goal' and 'Name Entry' tracks"
+      },
+      {
+        "name": "Hiroshi Hamagaki",
+        "note": "Chief artist"
+      }
+    ],
+    "media": [
+      {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/b/b2/Sega_Hang_on_Arcade_Automat.jpg",
+        "alt": "Hang-On arcade cabinet",
+        "caption": "Sega Hang-On upright arcade cabinet. The deluxe ride-on version featured a full-size motorcycle body. (Wikimedia Commons)"
+      },
+      {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/6/67/Yu_Suzuki_-_Game_Developers_Conference_2011_-_Day_3.jpg",
+        "alt": "Yu Suzuki at GDC 2011",
+        "caption": "Yu Suzuki at the Game Developers Conference 2011. (Wikimedia Commons)"
+      },
+      {
+        "src": "https://upload.wikimedia.org/wikipedia/en/b/b4/Hang_on_arcade_flyer.png",
+        "alt": "Hang-On arcade flyer",
+        "caption": "Japanese arcade flyer for Hang-On, showing the deluxe ride-on cabinet. (Wikipedia)"
+      }
+    ],
+    "sources": [
+      {
+        "text": "Wikipedia — Hang-On (GA-class article)",
+        "url": "https://en.wikipedia.org/wiki/Hang-On"
+      },
+      {
+        "text": "Sega Retro — Hang-On (production credits, cabinet photos, magazine coverage)",
+        "url": "https://segaretro.org/Hang-On"
+      },
+      {
+        "text": "Horowitz, The Sega Arcade Revolution (2018), pp. 92-97",
+        "url": "https://books.google.com/books?id=YKrHDwAAQBAJ"
+      },
+      {
+        "text": "Phantom River Stone — Yu Suzuki SEGA Hard Historia Interview (March 2021)",
+        "url": "https://www.phantomriverstone.com/2021/08/mar-2021-yu-suzuki-interview-sega-hard.html"
+      },
+      {
+        "text": "Eurogamer — 'Out Ran: Meeting Yu Suzuki, Sega's original outsider' (2015)",
+        "url": "https://www.eurogamer.net/out-ran-meeting-yu-suzuki-segas-original-outsider"
+      },
+      {
+        "text": "Sega-16 — 'Sega Stars: Hiroshi Kawaguchi' by Ken Horowitz (2016)",
+        "url": "https://www.sega-16.com/2016/02/sega-stars-hiroshi-kawaguchi/"
+      }
+    ],
+    "imageUrls": [
+      "https://upload.wikimedia.org/wikipedia/commons/b/b2/Sega_Hang_on_Arcade_Automat.jpg",
+      "https://upload.wikimedia.org/wikipedia/commons/6/67/Yu_Suzuki_-_Game_Developers_Conference_2011_-_Day_3.jpg",
+      "https://upload.wikimedia.org/wikipedia/en/b/b4/Hang_on_arcade_flyer.png",
+      "https://upload.wikimedia.org/wikipedia/en/c/c1/Hang-on_arcade.png",
+      "https://segaretro.org/images/0/03/HangOn_Arcade_Cabinet_RideOn.jpg"
+    ]
+  },
+  "savedImages": []
+}
