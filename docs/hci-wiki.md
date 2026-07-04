@@ -1,6 +1,6 @@
 # The HCI Golden Age Wiki
 
-A research compendium for a digital museum of cutting-edge Human-Computer Interaction from the late 1970s through the early 1990s. These seventy-three projects mix canonical experiments with weird, forgotten, and beautiful vaporware — brain control, voice control, gesture, wearable computing, VR, robots, and full-body exertion.
+A research compendium for a digital museum of cutting-edge Human-Computer Interaction from the late 1970s through the early 1990s. These seventy-four projects mix canonical experiments with weird, forgotten, and beautiful vaporware — brain control, voice control, gesture, wearable computing, VR, robots, and full-body exertion.
 
 Each entry includes an overview, a deep dive, a small media gallery, and full source links so the images and facts can always be traced back.
 
@@ -80,6 +80,7 @@ Each entry includes an overview, a deep dive, a small media gallery, and full so
 71. [Hard Drivin' / Race Drivin' (1989)](#hard-drivin--race-drivin-1989)
 72. [Cauzin Softstrip Reader (1985)](#cauzin-softstrip-reader-1985)
 73. [Reading Electropalatography (EPG) System (1978)](#reading-electropalatography-epg-system-1978)
+74. [SynthAxe (1985)](#synthaxe-1985)
 
 ---
 
@@ -3791,3 +3792,58 @@ The signal chain begins with a small AC signal (<50 µA) passed through the user
 6. icSpeech: LinguaGraph Electropalatography System (current commercial descendant) — https://icspeech.com/electropalatography.html
 7. icSpeech: Tongue Palate Contact animations (EPG displays for each consonant) — https://icspeech.com/tongue-palate-contact.html
 8. Hardcastle, W.J. and Marchal, A. (Eds.) (1989). Speech Production and Speech Modelling, NATO ASI Series. Kluwer Academic Publishers. — 
+
+---
+
+## SynthAxe (1985)
+
+**By:** Bill Aitken, Mike Dixon, and Tony Sedivy / Synthaxe Limited (UK), with Virgin Group funding  
+**Tags:** `Music` `MIDI` `Gesture` `Input Device`
+
+### Overview
+
+The **SynthAxe** was a fretted MIDI guitar controller developed in England and launched commercially in 1985–86. Funded as a joint venture by Richard Branson's Virgin Group, it was built by Synthaxe Limited and co-invented by Bill Aitken, Mike Dixon, and Tony Sedivy (US Patent 4,658,690, filed January 1985). It carried no internal sound source; it was a pure MIDI controller that required external synthesizers.
+
+The instrument's defining innovation was the complete decoupling of pitch selection from note triggering. Six pitch strings ran over a 24-fret neck where each fret was divided into 11 conductive sections, continuously scanned by a microprocessor — pressing a string onto a fret closed an electrical switch, just like a keyboard scanning matrix. Six separate trigger strings on the body detected velocity via Hall effect sensors when plucked. The two string sets were mounted at an angle to each other, giving the instrument its distinctive sci-fi silhouette.
+
+String bends were detected by sensor coils embedded in the fingerboard; touch was sensed by an AC waveform superimposed on a DC potential, enabling hammer-ons, pull-offs, and an auto-trigger mode. Nine velocity-sensitive trigger keys with polyphonic aftertouch offered an alternative to picking. The result was six independent MIDI channels — each with per-string pitch bend and aftertouch — capable of crashing most 1980s sequencers.
+
+Priced at £10,000 (approximately US $13,000) in 1986, fewer than 100 units were built from aerospace and military-grade components: a cast metal chassis inside a fibreglass shell with a steel neck. Transporting one required four flight cases. Virgin dropped the product around 1987–88, and Synthaxe Limited entered liquidation. Allan Holdsworth, its most famous user, called it "the only guitar synthesizer that was ever built that really works for me."
+
+### Deep dive
+
+* **The latency problem it solved.** Every competing MIDI guitar system of the mid-1980s — the Roland GR-series, the IVL Pitchrider — worked by analyzing audio waveforms. A string was plucked, the system sampled it, computed its pitch from the waveform, then generated a MIDI note. This took time — typically 10–30 milliseconds, perceptible to a trained musician. The SynthAxe eliminated latency entirely by refusing to do pitch analysis. Its fretboard was an electrical switch matrix: press a string to a fret, and you close a circuit. The note pitch is known instantly, before any note is triggered. The trigger strings (or keys) then initiate the MIDI event with zero computational delay. This architectural decision — decoupling pitch from trigger — was the SynthAxe's single most important HCI insight.
+* **Interaction subsystems.** The SynthAxe had four distinct interaction subsystems. (1) Fretboard scanning: 24 frets, each divided into 11 conductive sections (6 under each string plus 5 inter-string pins), continuously scanned by multiplexing. Non-standard spacing allowed a two-octave range per string. All strings used the same gauge (0.13), giving uniform light action. (2) String bend detection: tiny electromagnetic sensor coils between frets detected lateral string movement by sensing changes in the field around current-carrying strings. (3) Touch sensing: an AC waveform imposed on a DC bias detected finger contact before the string reached the fret, enabling hammer-ons and pull-offs. (4) Triggering: Hall effect sensors on six trigger strings measured plucking velocity and timing; nine velocity-sensitive keys with polyphonic aftertouch provided an alternative; an auto-trigger mode fired notes on fret contact for tapping technique. A separate console/pedestal unit provided individual string tuning, transposition, electronic capo, and foot-pedal control of decay and sustain.
+* **The Virgin gamble.** Richard Branson's Virgin Group funded the SynthAxe as a joint venture, handling distribution through Virgin Games. The 1986 launch price of £10,000 placed it firmly in the professional studio market. Virgin's involvement aligned the SynthAxe with the company's broader push into entertainment technology in the mid-1980s. But when the product failed to find a market beyond a handful of virtuoso guitarists, Virgin pulled out after approximately two years, and Synthaxe Limited entered liquidation. The liquidation left SynthAxe owners without factory support or spare parts — Holdsworth later lamented that "there are maybe two or three guys on the whole planet that could probably fix a SynthAxe now."
+* **The Drumitar: a second life.** The SynthAxe's most unexpected legacy came from Future Man (Roy Wooten), percussionist for Béla Fleck and the Flecktones. Future Man bought Lee Ritenour's SynthAxe and completely rebuilt it into the Drumitar — a guitar-shaped MIDI drum controller. Where the original mapped MIDI data to synthesizers, the Drumitar mapped it to drum machines and samplers. The novel interface (two sets of strings, velocity-sensitive keys) turned out to be equally suited to percussion as to melody. The Drumitar became Future Man's signature instrument through multiple Grammys with the Flecktones, giving the SynthAxe's architecture a creative afterlife far beyond its original design intent.
+* **Notable users.** Allan Holdsworth used the SynthAxe on *Atavachron* (1986) and *Sand* (1987). Lee Ritenour featured it on the cover of *Earth Run* (1986). Christopher Currell used it to control a Synclavier on Michael Jackson's *Bad* tour. Chuck Hammer worked with Lou Reed and David Bowie using the SynthAxe. Gary Moore was briefly shown playing one in the "Out in the Fields" video.
+
+### Team
+
+* **Bill Aitken (William A. Aitken).** Primary inventor; conceived the instrument in the early 1980s.
+* **Mike Dixon (Michael S. Dixon).** Co-inventor, engineering.
+* **Tony Sedivy (Anthony J. Sedivy).** Co-inventor, engineering.
+* **David Fowler.** Designed key toggles; trading as BJ Hopkins Injection and Toolmaking, Littleworth, Oxford. Deceased.
+* **Synthaxe Limited.** UK limited company, London area. Assignee of US patent. Joint venture with Virgin Group.
+* **Richard Branson / Virgin Group.** Joint venture funder; Virgin Games handled distribution.
+
+### Media
+
+![SynthAxe MIDI guitar controller on a stand](../assets/wiki/synthaxe-wikimedia.jpg)
+*The SynthAxe — two sets of strings at an angle, fibreglass body over a cast metal chassis. The upper strings select pitch electrically; the lower strings trigger notes via Hall-effect velocity sensing. Wikimedia Commons.*
+
+![Patent drawing showing SynthAxe instrument architecture](../assets/wiki/synthaxe-patent-front.png)
+*Patent drawing showing the SynthAxe's dual string-angle architecture and internal construction. US Patent 4,658,690, filed 1985, issued 1987. Public domain.*
+
+![Allan Holdsworth performing with the SynthAxe](../assets/wiki/synthaxe-holdsworth.jpg)
+*Allan Holdsworth, the SynthAxe's most famous advocate, performing live. Holdsworth used the instrument on Atavachron (1986) and Sand (1987). Photo from innerviews.org.*
+
+### Sources
+
+1. Wikipedia: SynthAxe — https://en.wikipedia.org/wiki/SynthAxe
+2. US Patent 4,658,690: Electronic musical instrument (SynthAxe) — https://www.freepatentsonline.com/4658690.html
+3. John Hollis: SynthAxe serial #0006 — first-hand owner's page — http://www.hollis.co.uk/john/synthaxe.html
+4. Allan Holdsworth Innerviews interview (discusses SynthAxe) — https://www.innerviews.org/inner/holdsworth.html
+5. MATRIXSYNTH: SynthAxe tag (aggregator with photos and videos) — https://www.matrixsynth.com/search/label/SynthAxe
+6. SynthAxe factory demo video (YouTube) — https://www.youtube.com/watch?v=EZopVI9LTOU
+7. Sound on Sound, March 1986: SynthAxe feature (archived at muzines.co.uk) — https://www.muzines.co.uk/articles/synth-axe/3012

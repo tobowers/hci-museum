@@ -1,0 +1,66 @@
+{
+  "slug": "synthaxe",
+  "title": "SynthAxe",
+  "year": "1985",
+  "subtitle": "The £10,000 MIDI guitar controller that freed pitch from pluck, used two sets of strings at an angle, and crashed sequencers with six simultaneous channels of aftertouch",
+  "why_scout_cares": "The SynthAxe is the most audacious MIDI guitar controller ever built. It did not try to convert guitar audio into MIDI — it threw out acoustic vibration entirely and replaced it with a fretboard that works like a keyboard scanning matrix. Two independent sets of strings at an angle: one for pitch (electrical contact with 11-segment frets scanned by microprocessor), one for triggering (Hall effect velocity sensing). The result was zero latency in an era when all pitch-to-MIDI converters trailed behind the player. It was funded by Richard Branson's Virgin Group, built from aerospace-grade materials, cost the equivalent of a small car, and fewer than 100 were made. Allan Holdsworth called it 'the only guitar synthesizer that was ever built that really works for me.' Then Virgin pulled out, the company went under, and the SynthAxe became a ghost — a handful of instruments scattered among virtuosos who will never sell them. When Future Man bought Lee Ritenour's unit and rebuilt it into the Drumitar for Béla Fleck and the Flecktones, the SynthAxe's DNA jumped species entirely. This is a story about a machine too ambitious for its market, too strange to be forgotten, and too well-engineered to be anything but loved by the few who played it.",
+  "search_terms": ["SynthAxe 1985 MIDI guitar", "Bill Aitken SynthAxe", "SynthAxe Allan Holdsworth", "SynthAxe patent 4658690"],
+  "research": {
+    "title": "SynthAxe",
+    "year": "1985",
+    "by": "Bill Aitken, Mike Dixon, and Tony Sedivy / Synthaxe Limited (UK), with Virgin Group funding",
+    "tags": ["Music", "MIDI", "Gesture", "Input Device"],
+    "overview": "The SynthAxe was a fretted MIDI guitar controller developed in England and launched commercially in 1985–86. Funded as a joint venture by Richard Branson's Virgin Group, it was built by Synthaxe Limited and co-invented by Bill Aitken, Mike Dixon, and Tony Sedivy (US Patent 4,658,690, filed January 1985). It carried no internal sound source; it was a pure MIDI controller that required external synthesizers.\n\nThe instrument's defining innovation was the complete decoupling of pitch selection from note triggering. Six pitch strings ran over a 24-fret neck where each fret was divided into 11 conductive sections, continuously scanned by a microprocessor — pressing a string onto a fret closed an electrical switch, just like a keyboard scanning matrix. Six separate trigger strings on the body detected velocity via Hall effect sensors when plucked. The two string sets were mounted at an angle to each other, giving the instrument its distinctive sci-fi silhouette.\n\nString bends were detected by sensor coils embedded in the fingerboard; touch was sensed by an AC waveform superimposed on a DC potential, enabling hammer-ons, pull-offs, and an auto-trigger mode. Nine velocity-sensitive trigger keys with polyphonic aftertouch offered an alternative to picking. The result was six independent MIDI channels — each with per-string pitch bend and aftertouch — capable of crashing most 1980s sequencers.\n\nPriced at £10,000 (approximately US $13,000) in 1986, fewer than 100 units were built from aerospace and military-grade components: a cast metal chassis inside a fibreglass shell with a steel neck. Transporting one required four flight cases. Virgin dropped the product around 1987–88, and Synthaxe Limited entered liquidation. Used prices later fell to around $5,000. Today, surviving units are extraordinarily rare — Allan Holdsworth estimated 'maybe a hundred' were made, and most remaining instruments are in the hands of collectors who will not sell.",
+    "deepDive": [
+      {
+        "heading": "The Latency Problem It Solved",
+        "text": "Every competing MIDI guitar system of the mid-1980s — the Roland GR-series, the IVL Pitchrider — worked by analyzing audio waveforms. A string was plucked, the system sampled it, computed its pitch from the waveform, then generated a MIDI note. This took time — typically 10–30 milliseconds, which is perceptible to a trained musician and maddening to a virtuoso. The SynthAxe eliminated latency entirely by refusing to do pitch analysis. Its fretboard was an electrical switch matrix: press a string to a fret, and you close a circuit. The note pitch is known instantly, before any note is triggered. The trigger strings (or keys) then initiate the MIDI event with zero computational delay. This architectural decision — decoupling pitch from trigger — was the SynthAxe's single most important HCI insight."
+      },
+      {
+        "heading": "Interaction Mechanics",
+        "text": "The SynthAxe had four distinct interaction subsystems. (1) **Fretboard scanning**: 24 frets, each divided into 11 conductive sections (6 under each string plus 5 inter-string pins), continuously scanned by multiplexing. Non-standard spacing allowed a two-octave range per string. All strings used the same gauge (0.13), giving uniform light action. (2) **String bend detection**: Tiny electromagnetic sensor coils between frets detected lateral string movement by sensing changes in the field around current-carrying strings. (3) **Touch sensing**: An AC waveform imposed on a DC bias detected finger contact before the string reached the fret, enabling hammer-ons and pull-offs. (4) **Triggering**: Hall effect sensors on six trigger strings measured plucking velocity and timing; nine velocity-sensitive keys with polyphonic aftertouch provided an alternative; an auto-trigger mode fired notes on fret contact for tapping technique."
+      },
+      {
+        "heading": "The Virgin Gamble",
+        "text": "Richard Branson's Virgin Group funded the SynthAxe as a joint venture, handling distribution through Virgin Games. The 1986 launch price of £10,000 (about $13,000 US) placed it firmly in the professional studio market. Virgin's involvement aligned the SynthAxe with the company's broader push into entertainment technology in the mid-1980s. But when the product failed to find a market beyond a handful of virtuoso guitarists, Virgin pulled out after approximately two years, and Synthaxe Limited entered liquidation. It was a classic Branson pattern: bold investment in an innovative product, rapid exit when the economics didn't work. The liquidation left SynthAxe owners without factory support or spare parts — Holdsworth later lamented that 'there are maybe two or three guys on the whole planet that could probably fix a SynthAxe now.'"
+      },
+      {
+        "heading": "The Drumitar: A Second Life",
+        "text": "The SynthAxe's most unexpected legacy came from Future Man (Roy Wooten), percussionist for Béla Fleck and the Flecktones. Future Man bought Lee Ritenour's SynthAxe and completely rebuilt it into the Drumitar — a guitar-shaped MIDI drum controller. Where the original mapped MIDI data to synthesizers, the Drumitar mapped it to drum machines and samplers. The novel interface (two sets of strings, velocity-sensitive keys) turned out to be equally suited to percussion as to melody. The Drumitar became Future Man's signature instrument through multiple Grammys with the Flecktones, giving the SynthAxe's architecture a creative afterlife far beyond its original design intent."
+      }
+    ],
+    "team": [
+      { "name": "Bill Aitken (William A. Aitken)", "note": "Primary inventor, conceived the instrument in the early 1980s" },
+      { "name": "Mike Dixon (Michael S. Dixon)", "note": "Co-inventor, engineering" },
+      { "name": "Tony Sedivy (Anthony J. Sedivy)", "note": "Co-inventor, engineering" },
+      { "name": "David Fowler", "note": "Designed key toggles, trading as BJ Hopkins Injection and Toolmaking, Littleworth, Oxford" },
+      { "name": "Synthaxe Limited", "note": "UK limited company, London area. Assignee of US patent. Joint venture with Virgin Group" },
+      { "name": "Richard Branson / Virgin Group", "note": "Joint venture funder; Virgin Games handled distribution" }
+    ],
+    "media": [
+      { "src": "assets/wiki/synthaxe-wikimedia.jpg", "alt": "SynthAxe MIDI guitar controller on a stand", "caption": "The SynthAxe — two sets of strings at an angle, fibreglass body over a cast metal chassis. The upper strings select pitch electrically; the lower strings trigger notes via Hall-effect velocity sensing. Wikimedia Commons." },
+      { "src": "assets/wiki/synthaxe-patent-front.png", "alt": "US Patent 4,658,690 figure showing SynthAxe instrument", "caption": "Patent drawing showing the SynthAxe's dual string-angle architecture and internal construction. US Patent 4,658,690, filed 1985, issued 1987. Public domain." },
+      { "src": "assets/wiki/synthaxe-holdsworth.jpg", "alt": "Allan Holdsworth performing with the SynthAxe", "caption": "Allan Holdsworth, the SynthAxe's most famous advocate, performing live. Holdsworth used the instrument on Atavachron (1986) and Sand (1987). Photo from innerviews.org." }
+    ],
+    "sources": [
+      { "text": "SynthAxe — Wikipedia", "url": "https://en.wikipedia.org/wiki/SynthAxe" },
+      { "text": "US Patent 4,658,690: Electronic musical instrument (SynthAxe)", "url": "https://www.freepatentsonline.com/4658690.html" },
+      { "text": "John Hollis: SynthAxe serial #0006 — first-hand owner's page", "url": "http://www.hollis.co.uk/john/synthaxe.html" },
+      { "text": "Allan Holdsworth Innerviews interview (discusses SynthAxe)", "url": "https://www.innerviews.org/inner/holdsworth.html" },
+      { "text": "MATRIXSYNTH SynthAxe tag (aggregator with photos and videos)", "url": "https://www.matrixsynth.com/search/label/SynthAxe" },
+      { "text": "SynthAxe factory demo video (YouTube)", "url": "https://www.youtube.com/watch?v=EZopVI9LTOU" },
+      { "text": "Sound on Sound, March 1986 — SynthAxe feature (archived at muzines.co.uk)", "url": "https://www.muzines.co.uk/articles/synth-axe/3012" }
+    ],
+    "imageUrls": [
+      "https://upload.wikimedia.org/wikipedia/commons/5/5e/SynthAxe.jpg",
+      "http://www.hollis.co.uk/john/axe1a.jpg",
+      "https://patentimages.storage.googleapis.com/pages/US4658690-4.png",
+      "https://www.innerviews.org/inner/holdsworth/ahsynthaxe.jpg"
+    ]
+  },
+  "savedImages": [
+    "synthaxe-wikimedia.jpg",
+    "synthaxe-patent-front.png",
+    "synthaxe-holdsworth.jpg"
+  ]
+}

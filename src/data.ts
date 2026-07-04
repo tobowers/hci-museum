@@ -910,6 +910,18 @@ const exhibitData: Exhibit[] = [
     tags: ["Biofeedback", "Speech Therapy", "Accessibility"],
     image: img("reading-epg-1.jpg"),
   },
+  {
+    id: "synthaxe",
+    slug: "synthaxe",
+    wikiTitle: "SynthAxe",
+    year: "1985",
+    sortYear: 1985,
+    title: "SynthAxe",
+    subtitle: "The £10,000 MIDI guitar that freed pitch from pluck — crashed sequencers with six channels of aftertouch, and fewer than 100 were made",
+    blurb: "A fretted MIDI guitar controller with two independent sets of strings at an angle: one for pitch (electrical fret scanning, zero latency) and one for triggering (Hall-effect velocity sensing). Funded by Virgin Group, priced like a small car, built from aerospace materials. Allan Holdsworth called it 'the only guitar synthesizer that really works.' Virgin pulled out, the company folded, and the remaining instruments became holy grails.",
+    tags: ["Music", "MIDI", "Gesture"],
+    image: img("synthaxe-wikimedia.jpg"),
+  },
 ];
 
 export const exhibits: Exhibit[] = exhibitData.toSorted((a, b) => b.sortYear - a.sortYear || a.title.localeCompare(b.title));
