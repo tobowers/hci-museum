@@ -1,0 +1,101 @@
+{
+  "slug": "upic",
+  "title": "UPIC",
+  "year": "1977",
+  "subtitle": "Iannis Xenakis's drawing tablet that turned hand-drawn lines directly into synthesized sound, inventing graphical music composition",
+  "why_scout_cares": "Imagine a music composition tool with no keyboard, no notation, no code, and no punched cards — just drawing. Draw a waveform shape with a stylus, and that becomes the timbre. Draw an envelope, and that becomes the dynamics. Draw a line across a time-versus-pitch grid, and that becomes the melody. The UPIC (Unité Polyagogique Informatique CEMAMu), completed in 1977 by avant-garde composer-architect Iannis Xenakis, was a large electromagnetic drawing tablet connected to a Hewlett-Packard computer that translated freehand drawing directly into synthesized sound. Xenakis designed it to be usable by children — he wanted to democratize composition. His first UPIC piece, *Mycènes Alpha* (1978), was written for the Acropolis of Mycenae. Aphex Twin later praised UPIC as putting 'almost everything else to shame. It's under 1mb.' The entire system fit in under a megabyte. Drawing-as-sound is an interaction model so obvious in retrospect that it took a composer with Le Corbusier's drafting table in his muscle memory to actually build it.",
+  "search_terms": ["UPIC Xenakis", "CEMAMu UPIC 1977", "Iannis Xenakis drawing tablet music", "Mycènes Alpha UPIC", "graphical music composition Xenakis"],
+  "research": {
+    "title": "UPIC (Unité Polyagogique Informatique CEMAMu)",
+    "year": "1977",
+    "by": "Iannis Xenakis / CEMAMu, Paris",
+    "tags": ["HCI", "Music", "Drawing", "Tablet", "Synthesis"],
+    "overview": "The UPIC was a computerized music composition system that translated hand-drawn lines directly into synthesized sound, bypassing all traditional musical notation. Completed in 1977 at CEMAMu (Centre d'Études de Mathématique et Automatique Musicales) in Paris under the direction of composer-architect Iannis Xenakis, it consisted of a large electromagnetic drawing tablet connected to a Hewlett-Packard computer and a vector display.\n\nThe fundamental interaction was elegantly simple: the X-axis represented time, the Y-axis represented pitch. A composer drew on the tablet (or on paper that was then digitized), and the computer synthesized the corresponding sound. Three stages: draw a waveform (timbre), draw an amplitude envelope (dynamics), compose on the time/pitch grid. Horizontal lines meant sustained pitches, diagonals meant glissandi, curves meant accelerating pitch changes. A child could use it. Xenakis called the system 'polyagogic' — his coinage from the Greek for 'many expressions' — because it put every musical parameter (pitch, timbre, dynamics, duration, glissandi, transformation) under the direct control of the hand.",
+    "deepDive": [
+      {
+        "heading": "From architecture to music",
+        "text": "Xenakis was a trained civil engineer who worked for Le Corbusier's architectural studio for 12 years. He designed the Philips Pavilion for Expo 58 entirely by himself — a sculptural structure of hyperbolic paraboloids. The same mathematical surfaces appeared in his music: the string glissandi in *Metastaseis* (1953-54) were drawn as straight lines on a time-versus-pitch grid, creating the same shapes as the Pavilion's concrete walls. Xenakis had been sketching music since the 1950s. The UPIC gave those sketches a voice."
+      },
+      {
+        "heading": "How it worked",
+        "text": "The UPIC workflow had three stages. Stage 1: draw a single-cycle waveform on the tablet — a sine wave, a sawtooth, a complex squiggle — defining the timbre. Stage 2: draw an amplitude envelope showing how loudness changes over time. Stage 3: on the main composition page (X=time, Y=pitch), draw pitch trajectories and assign saved waveforms/envelopes. The system rendered the sound. Real-time performance was also possible: moving the stylus across the tablet in real time. The entire original software was famously under one megabyte in size."
+      },
+      {
+        "heading": "Democratizing composition",
+        "text": "Xenakis designed UPIC to be usable by anyone, including children with no musical training. He wrote: 'Anybody, even myself or you, or children, can draw lines or graphics with an electromagnetic ballpoint, and they are transformed by computer directly into sound.' At KSYME, the Athens UPIC center founded in 1979, courses for up to 5,000 students aged 10-15 were announced in December 1986."
+      },
+      {
+        "heading": "Legacy and modern successors",
+        "text": "UPIC was the direct ancestor of graphical music creation tools. IanniX, an open-source graphical sequencer inspired by UPIC, is sponsored by the French Ministry of Culture. UPISketch, developed with the Centre Iannis Xenakis, runs on desktop and iOS. HighC continues the 'draw your music' tradition in education. The conceptual lineage extends to Max/MSP, MetaSynth, and image-to-sound software. Over 100 composers have created works with UPIC/UPIX, from Xenakis and Jean-Claude Risset to Aphex Twin."
+      }
+    ],
+    "team": [
+      {
+        "name": "Iannis Xenakis",
+        "note": "Romanian-born Greek-French composer, architect, and engineer. Founded CEMAMu (1966). Designed UPIC. Composed *Mycènes Alpha* (1978), first UPIC piece"
+      },
+      {
+        "name": "CEMAMu",
+        "note": "Centre d'Études de Mathématique et Automatique Musicales, Paris. Founded by Xenakis with French Ministry of Culture support. Built the UPIC. Now Centre Iannis Xenakis at Université de Rouen"
+      },
+      {
+        "name": "KSYME",
+        "note": "Greek UPIC center founded 1979 in Athens by Xenakis, John G. Papaioannou, and Stefanos Vassiliadis. Acquired its own UPIC system in 1986"
+      }
+    ],
+    "media": [
+      {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/4/4f/Xenakis_UPIC_system_global_view_2.jpg",
+        "alt": "UPIC system at KSYME Athens",
+        "caption": "The UPIC system at KSYME, Athens, inaugurated in 1986 with Xenakis present. (Wikimedia Commons)"
+      },
+      {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/58/XenakisMDaniel_crop.jpg/250px-XenakisMDaniel_crop.jpg",
+        "alt": "Iannis Xenakis in his Paris studio",
+        "caption": "Iannis Xenakis in his Paris studio, c.1970. (Wikimedia Commons)"
+      },
+      {
+        "src": "https://www.centre-iannis-xenakis.org/files/original/75af3a3b2433238c168ce16169a984ed.jpg",
+        "alt": "Mycènes Alpha UPIC manuscript",
+        "caption": "A UPIC manuscript page from Xenakis's *Mycènes Alpha* (1978), the first piece entirely composed with UPIC. (Centre Iannis Xenakis)"
+      }
+    ],
+    "sources": [
+      {
+        "text": "Wikipedia — UPIC",
+        "url": "https://en.wikipedia.org/wiki/UPIC"
+      },
+      {
+        "text": "Centre Iannis Xenakis — UPIC Presentation, Technology, Composers",
+        "url": "https://www.centre-iannis-xenakis.org/cix_upic_presentation"
+      },
+      {
+        "text": "Wikipedia — Iannis Xenakis",
+        "url": "https://en.wikipedia.org/wiki/Iannis_Xenakis"
+      },
+      {
+        "text": "ZKM — From Xenakis's UPIC to Graphic Notation Today (open access PDF)",
+        "url": "https://zkm.de/en/from-xenakiss-upic-to-graphic-notation-today"
+      },
+      {
+        "text": "Mode Records — Xenakis, UPIC, Continuum (2-CD compilation, mode 98/99)",
+        "url": "https://moderecords.com/catalog/098_9ccmix.html"
+      },
+      {
+        "text": "Aphex Twin interview — Future Music (July 2006), via Music Thing blog",
+        "url": "http://musicthing.blogspot.com/2006/07/aphex-twin-interview-in-future-music.html"
+      },
+      {
+        "text": "IanniX — Open-source graphical sequencer inspired by UPIC",
+        "url": "https://www.iannix.org"
+      }
+    ],
+    "imageUrls": [
+      "https://upload.wikimedia.org/wikipedia/commons/4/4f/Xenakis_UPIC_system_global_view_2.jpg",
+      "https://upload.wikimedia.org/wikipedia/commons/thumb/5/58/XenakisMDaniel_crop.jpg/250px-XenakisMDaniel_crop.jpg",
+      "https://www.centre-iannis-xenakis.org/files/original/75af3a3b2433238c168ce16169a984ed.jpg",
+      "https://www.centre-iannis-xenakis.org/files/original/4fdd2a426899355ab89192cf18038622.jpg"
+    ]
+  },
+  "savedImages": []
+}
