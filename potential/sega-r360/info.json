@@ -1,0 +1,82 @@
+{
+  "slug": "sega-r360",
+  "title": "Sega R360",
+  "year": "1990",
+  "subtitle": "The arcade cabinet that barrel-rolled with you inside",
+  "why_scout_cares": "The theoretical extreme of whole-body kinesthetic HCI. A 1,100 kg gyroscopic sphere that rotated freely through 360 degrees on two axes, physically orienting the player's body to match in-game aircraft attitude. Strapped into a four-point harness inside a fiberglass cockpit, you didn't just play the game — the game moved you. Only ~100 units were built. It was so dangerous that Sega required a safety fence, two emergency stop buttons, a light-sensor grid, and a dedicated attendant at every installation. Warning labels barred players with heart conditions, pregnancy, high blood pressure, or intoxication. This is what happens when interface ambition collides with the biological limits of the human body.",
+  "search_terms": ["Sega R360 arcade", "R360 rotating cabinet G-LOC", "Sega motion simulator 1990"],
+  "research": {
+    "title": "Sega R360",
+    "year": "1990",
+    "by": "Sega AM2 (Masao Yoshimoto, Masaki Matsuno), Sega Enterprises",
+    "tags": ["Motion Platform", "Arcade", "Kinesthetic", "VR", "Simulation"],
+    "overview": "The R360 is a motion-based arcade cabinet produced by Sega and released in Japan in November 1990. Short for \"Rotate 360,\" the R360 is a gyroscopic motion simulator capable of rotating a full 360 degrees on two axes, physically orienting the player's body to match in-game vehicle attitude — including complete inversion. The player is strapped into a four-point safety harness inside an enclosed fiberglass cockpit suspended within a gimbal ring. Two 1.5 kW AC servo motors per axis provide motion up to 2Gs. The cabinet weighs 1,100 kg (2,200 lbs), stands 2.4 meters tall, and required a 4.5m × 4.5m installation area with a safety fence and dedicated attendant tower. Two games were officially released: *G-LOC: Air Battle* (1990) and *Wing War* (1994, requiring two linked cabinets). A *Rad Mobile* version was demonstrated but never released. Players could select an \"experience\" mode that simply ran the demo while the cockpit moved — a ride, not a game. With an estimated 100–200 units produced at a cost of approximately $90,000 each, the R360 was a commercial failure that only the largest arcade operators could afford. It was retired within a few years.",
+
+    "deepDive": [
+      {
+        "heading": "Origins",
+        "text": "The R360 was designed by Sega AM2, the legendary development studio led by Yu Suzuki that created *Hang-On*, *Space Harrier*, *Out Run*, *After Burner*, and *Virtua Fighter*. Mechanical engineers Masao Yoshimoto and Masaki Matsuno led the hardware design, with electrical engineering by Futoshi Ito. The R360 was part of Sega's broader strategy to create attraction-like 'taikan' (body sensation) games for Japanese amusement centers — cabinets that were destinations in themselves, not just boxes to stand at. It was first tested in Sega's Tokyo arcades in early 1990 and exhibited internationally at the UK's Amusement Trades Exhibition International in 1991."
+      },
+      {
+        "heading": "Safety as interaction design",
+        "text": "The R360's safety systems are an extraordinary case study in the collision between interface ambition and biological limits. The cabinet incorporated: a four-point safety harness; light sensors that would automatically stop the machine if a player extended an arm or leg outside the cockpit (which caused problems when the R360 sat in direct sunlight); two emergency stop buttons (one inside the cockpit, one on the attendant tower); a sensor grid that triggered an alarm if anyone approached the moving assembly; and a mandatory safety fence. Sega's official warnings barred use by anyone with heart conditions, high or low blood pressure, anyone who was pregnant, intoxicated, or had \"mental or physical problems,\" or anyone who had been \"advised against strenuous activity.\" Despite all precautions, the cabinet made players nauseated — British magazine *The One* noted the motion sickness but still called it \"the greatest sensory overload you are ever likely to get without taking your trousers off.\" At London's Trocadero, a single ride cost £3 in 1991."
+      },
+      {
+        "heading": "Kinesthetic HCI at the extreme",
+        "text": "The R360 represents the theoretical endpoint of mechanical whole-body kinesthetic output in a commercial interface. All in-game physics — pitch, roll, yaw — transposed directly onto the player's physical orientation through direct-drive servo motors. The cabinet did not simulate motion; it performed it. The player's body became payload, carried through the same physical trajectory as the on-screen vehicle. This closed the loop between visual and vestibular sensation more completely than any consumer device before or since. The machine's failure was inseparable from its ambition: it was too expensive to buy ($90,000), too complex to maintain (Sega did not include schematics, and the circuitry was prone to failure), and too physically demanding to play casually. It required a 3-phase industrial power supply (240V US, 200V Japan, 380V Europe) and a trained attendant at all times. In HCI terms, the R360 demonstrates that perfect kinesthetic fidelity is not always desirable — the human body has limits, and exceeding them makes an interface unusable."
+      },
+      {
+        "heading": "Legacy",
+        "text": "Retired within a few years, the R360 became a cult artifact. Retro Gamer magazine called it \"the pinnacle of what could be achieved in videogames at the time\" and said it \"shows the dominance Sega had in the industry.\" A spiritual successor, the R360Z, was introduced by Sega in 2015 at Tokyo Joypolis for *Transformers: Human Alliance*, seating two passengers. The R360's core idea — direct mechanical transposition of game physics onto player orientation — remains unmatched in any consumer-grade device."
+      }
+    ],
+
+    "team": [
+      { "name": "Masao Yoshimoto", "note": "Mechanical engineer, Sega AM2" },
+      { "name": "Masaki Matsuno", "note": "Mechanical engineer, Sega AM2" },
+      { "name": "Futoshi Ito", "note": "Electrical engineer" },
+      { "name": "Sega AM2", "note": "Development studio; Yu Suzuki's division" },
+      { "name": "Sega Enterprises, Ltd.", "note": "Manufacturer and publisher" }
+    ],
+
+    "media": [
+      {
+        "src": "https://segaretro.org/images/e/e7/GLocR360_Arcade_Cabinet.jpg",
+        "alt": "Sega R360 arcade cabinet showing the spherical cockpit within its gyroscopic gimbal ring",
+        "caption": "The R360 arcade cabinet (Sega Retro, CC-BY 4.0)"
+      },
+      {
+        "src": "https://segaretro.org/images/7/78/R360_logo.png",
+        "alt": "R360 logo",
+        "caption": "R360 product logo (Sega Retro)"
+      },
+      {
+        "src": "https://upload.wikimedia.org/wikipedia/en/a/a6/Sega_R-360_machine.png",
+        "alt": "Sega R360 machine with player visible inside the cockpit",
+        "caption": "R360 cabinet at an arcade exhibition (Wikipedia)"
+      }
+    ],
+
+    "sources": [
+      { "text": "R360 — Wikipedia", "url": "https://en.wikipedia.org/wiki/R360" },
+      { "text": "R360 — Sega Retro", "url": "https://segaretro.org/Sega_R360" },
+      { "text": "Horowitz, Ken. The Sega Arcade Revolution (2018), pp. 177–184", "url": "https://books.google.com/books?id=Yj9eDwAAQBAJ" },
+      { "text": "Cook, John. 'Arcades: R360' — The One, May 1991, pp. 74–75", "url": "https://archive.org/details/theone-magazine-32/page/n123" },
+      { "text": "Cash Box, 'Sega's R360', 26 January 1991, p. 22", "url": "https://archive.org/details/cashbox54unse_22/page/22" },
+      { "text": "Time Extension: 'Sega's vomit-inducing R360 is an endangered species'", "url": "https://www.timeextension.com/features/segas-vomit-inducing-r360-is-an-endangered-species-from-a-different-age" },
+      { "text": "Popular Mechanics, 'Tech Update: Coin-Op Simulation Dogfight', April 1991, p. 20", "url": "https://books.google.com/books?id=8pRXAAAAMAAJ" },
+      { "text": "4Gamer: Interview with Masao Yoshimoto and Masaki Matsuno (Japanese)", "url": "https://www.4gamer.net/games/999/G999905/20200704005/" }
+    ],
+
+    "imageUrls": [
+      "https://segaretro.org/Sega_R360",
+      "https://en.wikipedia.org/wiki/R360",
+      "https://commons.wikimedia.org/w/index.php?search=R360+Sega"
+    ]
+  },
+  "savedImages": [
+    "assets/wiki/sega-r360-cabinet.jpg",
+    "assets/wiki/sega-r360-logo.png",
+    "assets/wiki/sega-r360-machine.png"
+  ]
+}

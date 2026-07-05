@@ -1,6 +1,6 @@
 # The HCI Golden Age Wiki
 
-A research compendium for a digital museum of cutting-edge Human-Computer Interaction from the late 1970s through the early 1990s. These seventy-nine projects mix canonical experiments with weird, forgotten, and beautiful vaporware — brain control, voice control, gesture, wearable computing, VR, robots, and full-body exertion.
+A research compendium for a digital museum of cutting-edge Human-Computer Interaction from the late 1970s through the early 1990s. These eighty-one projects mix canonical experiments with weird, forgotten, and beautiful vaporware — brain control, voice control, gesture, wearable computing, VR, robots, and full-body exertion.
 
 Each entry includes an overview, a deep dive, a small media gallery, and full source links so the images and facts can always be traced back.
 
@@ -86,6 +86,8 @@ Each entry includes an overview, a deep dive, a small media gallery, and full so
 77. [UPIC (Unité Polyagogique Informatique CEMAMu) (1977)](#upic-unité-polyagogique-informatique-cemamu-1977)
 78. [AtariLab (1983)](#atarilab-1983)
 79. [SGI Dial and Button Box (1986)](#sgi-dial-and-button-box-1986)
+80. [Sega R360 (1990)](#sega-r360-1990)
+81. [Akai EWI 1000 (1987)](#akai-ewi-1000-1987)
 
 ---
 
@@ -4089,3 +4091,89 @@ In professional 3D software — Alias PowerAnimator, Wavefront Advanced Visualiz
 4. Guiard, Y. "Asymmetric Division of Labor in Human Skilled Bimanual Action: The Kinematic Chain as a Model" (Journal of Motor Behavior, 1987) — https://www.tandfonline.com/doi/abs/10.1080/00222895.1987.10735426
 5. Zhai, S. "Human Performance in Six Degree of Freedom Input Control" (PhD thesis, University of Toronto, 1995) — https://www.cs.toronto.edu/~zhai/thesis.html
 6. Computer History Museum collections (SGI hardware) — https://www.computerhistory.org/collections/
+
+---
+## Sega R360 (1990)
+**Motion-Based Arcade Cabinet**
+
+### Overview
+
+The R360 is a motion-based arcade cabinet produced by Sega and released in Japan in November 1990. Short for "Rotate 360," the R360 is a gyroscopic motion simulator capable of rotating a full 360 degrees on two axes, physically orienting the player's body to match in-game vehicle attitude — including complete inversion. The player is strapped into a four-point safety harness inside an enclosed fiberglass cockpit suspended within a gimbal ring. Two 1.5 kW AC servo motors per axis provide motion up to 2Gs. The cabinet weighs 1,100 kg (2,200 lbs), stands 2.4 meters tall, and required a 4.5m × 4.5m installation area with a safety fence and dedicated attendant tower. Two games were officially released: *G-LOC: Air Battle* (1990) and *Wing War* (1994, requiring two linked cabinets). Players could select an "experience" mode that ran the demo while the cockpit moved — a ride, not a game. With an estimated 100–200 units produced at a cost of approximately $90,000 each (£70,000 in the UK), the R360 was a commercial failure that only the largest arcade operators could afford.
+
+### Deep Dive
+
+**Origins.** The R360 was designed by Sega AM2, the legendary development studio led by Yu Suzuki that created *Hang-On*, *Space Harrier*, *Out Run*, *After Burner*, and *Virtua Fighter*. Mechanical engineers Masao Yoshimoto and Masaki Matsuno led the hardware design, with electrical engineering by Futoshi Ito. The R360 was part of Sega's broader strategy to create attraction-like "taikan" (body sensation) games for Japanese amusement centers — cabinets that were destinations in themselves. It was first tested in Sega's Tokyo arcades in early 1990 and exhibited internationally at the UK's Amusement Trades Exhibition International in 1991.
+
+**Safety as interaction design.** The R360's safety systems are an extraordinary case study in the collision between interface ambition and biological limits. The cabinet incorporated: a four-point safety harness; light sensors that would automatically stop the machine if a player extended an arm or leg outside the cockpit (which caused problems when the R360 sat in direct sunlight); two emergency stop buttons (one inside the cockpit, one on the attendant tower); a sensor grid that triggered an alarm if anyone approached the moving assembly; and a mandatory safety fence. Sega's official warnings barred use by anyone with heart conditions, high or low blood pressure, pregnancy, intoxication, or "mental or physical problems." British magazine *The One* noted the motion sickness but still called it "the greatest sensory overload you are ever likely to get without taking your trousers off." At London's Trocadero, a single ride cost £3 in 1991.
+
+**Kinesthetic HCI at the extreme.** The R360 represents the theoretical endpoint of mechanical whole-body kinesthetic output in a commercial interface. All in-game physics — pitch, roll, yaw — transposed directly onto the player's physical orientation through direct-drive servo motors. The cabinet did not simulate motion; it performed it. The player's body became payload, carried through the same physical trajectory as the on-screen vehicle. The machine's failure was inseparable from its ambition: it was too expensive to buy ($90,000), too complex to maintain (Sega did not include schematics, and the circuitry was prone to failure), and too physically demanding to play casually. It required a 3-phase industrial power supply and a trained attendant at all times. In HCI terms, the R360 demonstrates that perfect kinesthetic fidelity is not always desirable — the human body has limits, and exceeding them makes an interface unusable.
+
+**Legacy.** Retired within a few years, the R360 became a cult artifact. Retro Gamer magazine called it "the pinnacle of what could be achieved in videogames at the time" and said it "shows the dominance Sega had in the industry." A spiritual successor, the R360Z, was introduced by Sega in 2015 at Tokyo Joypolis for *Transformers: Human Alliance*, seating two passengers. The R360's core idea — direct mechanical transposition of game physics onto player orientation — remains unmatched in any consumer-grade device.
+
+### Team
+- **Masao Yoshimoto**: Mechanical engineer, Sega AM2
+- **Masaki Matsuno**: Mechanical engineer, Sega AM2
+- **Futoshi Ito**: Electrical engineer
+- **Sega AM2**: Development studio; Yu Suzuki's division
+- **Sega Enterprises, Ltd.**: Manufacturer and publisher
+
+### Media
+
+![Sega R360 arcade cabinet showing the spherical cockpit within its gyroscopic gimbal ring](../assets/wiki/sega-r360-cabinet.jpg)
+*The R360 arcade cabinet. Sega Retro, CC-BY 4.0.*
+
+![R360 logo](../assets/wiki/sega-r360-logo.png)
+*R360 product logo. Sega Retro.*
+
+![Sega R360 machine with player visible inside the cockpit](../assets/wiki/sega-r360-machine.png)
+*R360 cabinet at an arcade exhibition. Wikipedia.*
+
+### Sources
+
+1. R360 — Wikipedia — https://en.wikipedia.org/wiki/R360
+2. R360 — Sega Retro — https://segaretro.org/Sega_R360
+3. Horowitz, Ken. *The Sega Arcade Revolution* (2018), pp. 177–184
+4. Cook, John. "Arcades: R360" — *The One*, May 1991, pp. 74–75 — https://archive.org/details/theone-magazine-32/page/n123
+5. *Cash Box*, "Sega's R360," 26 January 1991, p. 22 — https://archive.org/details/cashbox54unse_22/page/22
+6. Time Extension: "Sega's vomit-inducing R360 is an endangered species" — https://www.timeextension.com/features/segas-vomit-inducing-r360-is-an-endangered-species-from-a-different-age
+7. *Popular Mechanics*, "Tech Update: Coin-Op Simulation Dogfight," April 1991, p. 20
+8. 4Gamer: Interview with Masao Yoshimoto and Masaki Matsuno (Japanese) — https://www.4gamer.net/games/999/G999905/20200704005/
+
+---
+## Akai EWI 1000 (1987)
+**Electronic Wind Instrument / Capacitive Touch Controller**
+
+### Overview
+
+The Akai EWI 1000 is the first commercially released electronic wind instrument controller, introduced in 1987. Invented by Nyle Steiner of Utah, the EWI (Electronic Wind Instrument) looks something like a soprano saxophone or clarinet — straight, held in front of the body with a neck strap, with a silicone mouthpiece at the top. But instead of mechanical keys, the EWI uses body-capacitance touch sensing on every playing surface. A finger touching a key changes a local capacitance field detected by an oscillator circuit, requiring zero physical travel. The mouthpiece contains a breath pressure sensor (controlling dynamics via MIDI Breath Control) and a bite pressure sensor (controlling vibrato or other modulation parameters). The left thumb selects octave by rolling between four rollers; the right thumb controls pitch bend via two touch plates. The EWI was sold as a two-part system: the handheld controller and a rackmount digitally-controlled analog synthesizer unit. It outputs MIDI, allowing it to control any external synthesizer.
+
+### Deep Dive
+
+**Nyle Steiner and the genesis of capacitive wind control.** Nyle Steiner was a self-taught engineer and trumpet player from Utah who began experimenting with electronic wind instruments in the 1970s. His first design was the EVI (Electronic Valve Instrument), a brass-style fingering controller that used touch-sensitive metal pads instead of mechanical valves. After bringing the EVI to market through his company Steiner-Parker, he developed the EWI — a woodwind-style fingering system with a radically different design philosophy. Instead of closing or opening physical holes (as an acoustic instrument would), each EWI key acts as a pitch modifier that can change note values by plus or minus a half step or whole step. This means fingerings that are impossible on acoustic instruments become possible on the EWI.
+
+**Capacitive touch in 1987.** The EWI's capacitive sensing uses body capacitance — the natural electrical charge of a human finger — to detect contact. The keys are stationary metal plates connected to oscillator circuits. When a finger approaches or touches a key, it alters the local capacitance, changing the oscillator's frequency or amplitude. Because the keys don't move, there is no mechanical travel time, no key noise, no bounce, and no physical wear. This allows faster note onsets than any mechanical switch could achieve. The technology predates capacitive touchscreens in consumer electronics by approximately 20 years. The EWI also allowed "partial touch" — fingers hovering or lightly grazing a key could produce different results than firm contact — a dimension of expression absent from mechanical keyboards and buttons.
+
+**Three simultaneous continuous channels.** The EWI's interaction model combines three independent real-time continuous input channels: breath pressure (controlling volume and dynamics), bite pressure (controlling vibrato or pitch modulation), and capacitive finger position (controlling note pitch and articulation). A saxophone player produces sound through embouchure, breath control, and fingering — the EWI maps each analog dimension to an electronic sensor and transmits the combined signal as MIDI data. The left thumb rolls between octave rollers to shift range, an action analogous to a saxophone's octave key but implemented as a continuous rolling motion. The right thumb operates two pitch-bend plates, allowing smooth glides between notes. This created an instrument where a single human gesture — breathing harder while biting the mouthpiece and sliding a finger — could produce a compound musical expression impossible to achieve with separate knobs and sliders.
+
+**Commercial life and musical impact.** Akai Professional manufactured and distributed the EWI after licensing Steiner's design. The EWI 1000 (1987) was followed by the EWI 3000 and EWI 3020 (mid-1990s), EWI 4000s (2005), EWI 5000 (2014), and EWI SOLO (2020). The instrument found a dedicated following among jazz fusion musicians, particularly in Japan, where T-Square members Takeshi Itoh and Masato Honda used it extensively. Michael Brecker, Bob Mintzer, and other notable saxophonists adopted it. The EWI's unusual fingering system — where the same fingering produces the same note name in every octave — made it easier to learn than acoustic woodwinds, but the lack of mechanical feedback (no keys that "press down") disoriented some traditional players.
+
+### Team
+- **Nyle Steiner**: Inventor of the EWI and EVI; self-taught engineer and trumpet player from Utah
+- **Akai Professional**: Manufacturer and distributor
+
+### Media
+
+![An Akai EWI 3020 electronic wind instrument on a white background](../assets/wiki/akai-ewi-3020.jpg)
+*Akai EWI 3020, a later model in the same lineage. Photo by Funkymac, CC-BY-SA 3.0 / GFDL. Wikimedia Commons.*
+
+![Musician Chase Baird playing an Akai EWI1000 during a 2019 performance](../assets/wiki/akai-ewi-chase-baird.jpg)
+*Chase Baird playing an Akai EWI1000 at LantarenVenster, Rotterdam, 2019. Photo CC-BY 2.0. Wikimedia Commons.*
+
+### Sources
+
+1. Electronic Wind Instrument — Wikipedia — https://en.wikipedia.org/wiki/Electronic_wind_instrument
+2. Nyle Steiner Homepage — Patchman Music — https://www.patchmanmusic.com/NyleSteinerHomepage.html
+3. Walters, John. "The Search For Expression: A History of Wind Synthesizers" — *Sound on Sound*, September 1987 — https://www.muzines.co.uk/articles/the-search-for-expression/2505
+4. Walters, John. "Wind Synthesizers" (EWI vs Yamaha WX7 comparison) — *Sound on Sound*, December 1987 — http://www.muzines.co.uk/articles/wind-synthesizers/2549
+5. Pimentel, Bret. "Flexible EWI fingerings" — https://bretpimentel.com/flexible-ewi-fingerings/
+6. Swallow, Matthew J. "MIDI Electronic Wind Instrument: A Study of the Instrument and Selected Works" — DMA dissertation, West Virginia University, 2016 — https://doi.org/10.33915/etd.6750
