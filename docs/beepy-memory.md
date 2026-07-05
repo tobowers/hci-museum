@@ -32,24 +32,27 @@ GitHub operating loop:
 - Close issues only when the corresponding PR is merged or the task is genuinely no longer relevant.
 - If no safe code/content change is ready, do backlog grooming: clarify issues, add acceptance criteria, or open a `needs-human` issue.
 
-Known collection gaps (updated 2026-07-03):
-- ~~Haptic/tactile feedback devices~~ — Filled: GROPE-III (1990) and now Minsky Sandpaper (1990), computational haptics origin
-- ~~Eye-tracking interfaces from the era~~ — Filled: EyeTyper (1983), first commercial camera-based eye-typing device
-- ~~Puff/sip or breath-based interfaces~~ — Filled: Nintendo Hands Free Controller (1989), chin joystick + sip-and-puff
-- ~~Early speech recognition-only systems~~ — Filled: DragonDictate (1989), first large-vocabulary speech-to-text dictation
-- ~~6-DOF isometric force input~~ — Filled: DLR Control Ball (1981), force-sensing ball from German Aerospace Center
-- ~~Spatial 3D audio as HCI modality~~ — Filled: Convolvotron (1988), first real-time binaural spatializer from NASA VIEW lab
-- ~~Head-operated cursor control~~ — Filled: HeadMaster (1986), ultrasonic head-tracking cursor device by Personics Corp
-- ~~Full-body VR tracking~~ — Filled: VPL DataSuit (1989), fiber-optic full-body suit completing the VPL triptych
-- ~~Professional creative workstation with novel HCI~~ — Filled: Quantel Paintbox (1981), first pressure-sensitive stylus for broadcast graphics
-- ~~Intraoral/tongue-operated interface~~ — Filled: Tongue Touch Keypad (1991), 9-key palatal retainer with magnetic-flux transmitter
-- ~~Pen computing / handwriting recognition~~ — Filled: Pencept PenPad (1982), keyboardless handwriting terminal (2026-07-01)
-- ~~Consumer physiological computing / biofeedback~~ — Filled: Synapse Relax Stress Reduction System (1984), FDA-cleared EMG headband for home computers (2026-07-01)
-- ~~Consumer brain-computer interface (BCI)~~ — Filled: IBVA Interactive Brainwave Visual Analyzer (1991), first commercial wireless EEG-to-MIDI/computer BCI (2026-07-01)
-- ~~Paper-as-storage-medium / physical-digital bridge~~ — Filled: Cauzin Softstrip Reader (1985), first commercial 2D barcode, magazine-to-computer data transfer wand (2026-07-03)
-- ~~Tongue-contact biofeedback visualization~~ — Filled: Reading Electropalatography System (1978), 62-electrode custom palate for real-time speech articulation training (2026-07-03)
+Known collection gaps (updated 2026-07-05):
+- ~~Haptic/tactile feedback devices~~ — Filled: GROPE-III (1990) and Minsky Sandpaper (1990)
+- ~~Eye-tracking interfaces from the era~~ — Filled: EyeTyper (1983)
+- ~~Puff/sip or breath-based interfaces~~ — Filled: Nintendo Hands Free Controller (1989)
+- ~~Early speech recognition-only systems~~ — Filled: DragonDictate (1989)
+- ~~6-DOF isometric force input~~ — Filled: DLR Control Ball (1981)
+- ~~Spatial 3D audio as HCI modality~~ — Filled: Convolvotron (1988)
+- ~~Head-operated cursor control~~ — Filled: HeadMaster (1986)
+- ~~Full-body VR tracking~~ — Filled: VPL DataSuit (1989)
+- ~~Professional creative workstation with novel HCI~~ — Filled: Quantel Paintbox (1981)
+- ~~Intraoral/tongue-operated interface~~ — Filled: Tongue Touch Keypad (1991)
+- ~~Pen computing / handwriting recognition~~ — Filled: Pencept PenPad (1982)
+- ~~Consumer physiological computing / biofeedback~~ — Filled: Synapse Relax Stress Reduction System (1984)
+- ~~Consumer brain-computer interface (BCI)~~ — Filled: IBVA Interactive Brainwave Visual Analyzer (1991)
+- ~~Paper-as-storage-medium / physical-digital bridge~~ — Filled: Cauzin Softstrip Reader (1985)
+- ~~Tongue-contact biofeedback visualization~~ — Filled: Reading Electropalatography System (1978)
+- ~~Sensor-based physical computing / home computer as lab instrument~~ — Filled: AtariLab (1983), joystick port repurposed as general-purpose ADC for science probes (2026-07-05)
+- ~~Dedicated physical control surfaces / instrument-philosophy interfaces~~ — Filled: SGI Dial and Button Box (1986), 8-dial + 32-button bimanual 3D controller (2026-07-05)
 - Speech-to-visual biofeedback for therapy — Identified gap. IBM SpeechViewer (1988) strongly researched but ZERO surviving screenshots found. Revisit if images surface.
 - Body-worn vibrotactile spatial displays — Identified gap. TSAS Vest (1991) researched, images in DTIC PDFs. Collins Tactile Vest (1977) deferred (no images). Revisit when either gets image extraction.
+- Tangible token-based interfaces — Identified gap. Marble Answering Machine (1992) strongly researched but canonical images are copyright-locked in Moggridge's Designing Interactions (MIT Press). No freely-licensed images found. Revisit if image licensing obtained.
 
 Deferred strong candidates:
 - SynthAxe (1985): ~~<100 units, $13K MIDI guitar controller, CHM "curator's wish."~~ — Promoted to collection 2026-07-04
@@ -88,6 +91,7 @@ Deferred strong candidates:
 - Computer-controlled olfactory displays (1976–1992 era): Confirmed dead end. Lab olfactometers existed (computer-controlled valve manifolds for neuroscience experiments) but no HCI-intentional scent displays before ~1993 (Nakamoto, Tokyo Tech). Do not re-scout this angle. (2026-07-04)
 - Konix Multisystem (1988-89): Unreleased British console with force-feedback morphing controller, Power Chair, modular attachments (steering wheel, flight yoke, motorcycle handles). Entire console INSIDE the controller base. Richly documented on konixmultisystem.co.uk with interviews, photos, concept art. Deferred due to never-shipped status and image licensing from fan archive vs. institutional sources. Revisit if a prototyped unit surfaces in a museum or if Tobowers okays fan-archive image sourcing. (2026-07-04)
 - Miracle Piano Teaching System (1990): 49-key MIDI piano as NES/SNES/Genesis/Amiga/Mac/DOS game controller. Real keyboard with built-in speakers + ROM sounds, bi-directional MIDI. Rich sources (Wikipedia, Piano Education Page, Wikimedia photos). Deferred due to music-education focus overlapping with SynthAxe and Radio Drum already in collection. Revisit if music HCI section gets a thematic refresh. (2026-07-04)
+- Marble Answering Machine (1992): Durrell Bishop's RCA graduation project. Wooden box dispensing glass marbles — one per voicemail. Foundational TUI concept: physical tokens as digital data. Most-cited non-academic precedent for tangible user interfaces. Cited explicitly in Ishii & Ullmer's Tangible Bits (CHI 1997). Bishop went on to IDEO, Apple ATG, Interval Research. Deferred: canonical photos in Moggridge's Designing Interactions (MIT Press, copyright-protected). No freely-licensed images on Wikimedia Commons. Richly documented but cannot promote without image licensing. Revisit if images surface or licensing obtained. (2026-07-05)
 
 Promotion gotchas:
 - The erols.com/rwservices image server returns HTML for direct image access (same class of issue as videogamehouse.net). The site is a comprehensive pen computing archive but images must be sourced from Wikimedia or other mirrors. (2026-07-01)

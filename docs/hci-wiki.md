@@ -1,6 +1,6 @@
 # The HCI Golden Age Wiki
 
-A research compendium for a digital museum of cutting-edge Human-Computer Interaction from the late 1970s through the early 1990s. These seventy-seven projects mix canonical experiments with weird, forgotten, and beautiful vaporware — brain control, voice control, gesture, wearable computing, VR, robots, and full-body exertion.
+A research compendium for a digital museum of cutting-edge Human-Computer Interaction from the late 1970s through the early 1990s. These seventy-nine projects mix canonical experiments with weird, forgotten, and beautiful vaporware — brain control, voice control, gesture, wearable computing, VR, robots, and full-body exertion.
 
 Each entry includes an overview, a deep dive, a small media gallery, and full source links so the images and facts can always be traced back.
 
@@ -84,6 +84,8 @@ Each entry includes an overview, a deep dive, a small media gallery, and full so
 75. [Sega Hang-On (1985)](#sega-hang-on-1985)
 76. [CMU Sensor Frame (1985)](#cmu-sensor-frame-1985)
 77. [UPIC (Unité Polyagogique Informatique CEMAMu) (1977)](#upic-unité-polyagogique-informatique-cemamu-1977)
+78. [AtariLab (1983)](#atarilab-1983)
+79. [SGI Dial and Button Box (1986)](#sgi-dial-and-button-box-1986)
 
 ---
 
@@ -3985,3 +3987,105 @@ The fundamental interaction was elegantly simple: the X-axis represented time, t
 5. Mode Records — Xenakis, UPIC, Continuum (2-CD compilation, mode 98/99) — https://moderecords.com/catalog/098_9ccmix.html
 6. Aphex Twin interview — Future Music (July 2006), via Music Thing blog — http://musicthing.blogspot.com/2006/07/aphex-twin-interview-in-future-music.html
 7. IanniX — Open-source graphical sequencer inspired by UPIC — https://www.iannix.org
+
+---
+## AtariLab (1983)
+
+**By:** Priscilla Laws (Dickinson College), David Egolf (software), Leslie Wolf (product manager) / Atari, Inc. Learning Systems  
+**Tags:** `Education` `Sensors` `Physical Computing` `Input Device` `STEM`
+
+### Overview
+
+AtariLab was an educational hardware/software system released by Atari, Inc. in late 1983 that transformed the Atari 8-bit home computer into a real-time scientific data acquisition instrument. The system consisted of a breakout box that plugged into the Atari's joystick port and accepted colour-coded RCA-jack sensor probes — a thermistor-based temperature probe (Starter Set, $89.95) and a photoresistor-based light probe (Light Module, $49.95). The Atari's POKEY chip, originally designed to measure paddle controller position by timing capacitor charging rates, was repurposed to digitize analog sensor readings. Students could measure real-world physical phenomena — a cooling curve of hot water, the friction of rubbing a surface, the temperature of their own skin — and see the results plotted as real-time strip charts, digital thermometers, and animated graphs on a CRT television. A 144-page manual provided over 100 experiments.
+
+The system was the brainchild of Dickinson College physics professor Priscilla Laws, who envisioned the home computer as an affordable laboratory instrument. The software was programmed by 15-year-old middle-school student David Egolf (who later earned a physics PhD from Duke). Atari product manager Leslie Wolf shepherded the project through Atari's Learning Systems division. A Commodore 64 version was completed, and an Apple II port was underway.
+
+AtariLab was killed in July 1984 when Warner Communications sold Atari to Jack Tramiel. Planned modules — Biofeedback (galvanic skin response, heart rate), Motion (ultrasonic sensor), pH, Mechanics, Crimelab, and Robotics — were cancelled. Only small numbers of the Temperature and Light modules shipped commercially. However, the concept survived: Laws later co-developed the Universal Laboratory Interface (ULI) for IBM PCs, manufactured by former Atari colleague Ron Budworth and sold through Vernier Software & Technology, which sold approximately 40,000 units and became the dominant force in science-education probeware.
+
+### Deep dive
+
+* **The Joystick Port Hack.** At the hardware level, AtariLab was a brilliant repurposing of existing consumer electronics. The Atari 8-bit computer's POKEY chip included eight potentiometer (paddle) input lines. Each line worked by timing how long a capacitor took to charge through a variable resistor — in a game controller, this was a potentiometer attached to a paddle knob. AtariLab replaced the potentiometer with a thermistor or photoresistor: as temperature or light changed, the resistance changed, the capacitor charging time changed, and the POKEY chip reported a different value (0–228 in the POT registers). In Atari BASIC, accessing a sensor was as simple as reading `PADDLE(2)`. The colour-coded RCA jacks on the breakout box and matching probes made the system physically legible — no calibration needed, just match the colours and plug in. The interface box also provided joystick-trigger digital inputs and a tap from the computer's +5V power rail, with a red LED to show power status. It was, in essence, an Arduino sensor shield for a 1983 game console.
+* **Real-time Feedback and the Learning Loop.** The pedagogical insight behind AtariLab was temporal: traditional school labs required students to take manual measurements, graph them on paper, and analyze results long after the experiment ended — a 15–20 minute gap that broke the connection between action and understanding. AtariLab collapsed this to real-time. A student dipped the temperature probe in hot water and watched a cooling curve draw itself on screen. They could immediately ask 'what if I add ice?' and watch the curve change. Multiple experiments could be run in a single class period, enabling genuine hypothesis testing. This 'computer as laboratory partner' model was later formalized as microcomputer-based laboratories (MBL), a paradigm that now dominates science education worldwide.
+* **The 15-Year-Old Programmer.** The software for both shipped modules was written by David Egolf, a 15-year-old middle-school student in Carlisle, Pennsylvania — the same town as Dickinson College. Laws discovered Egolf's programming talent and recruited him. He coded the Temperature and Light module software, including the graphical displays, data logging, and experiment frameworks. The software won the 1984 Software of the Year Award from Classroom Computer Learning magazine. Egolf went on to earn a PhD in physics from Duke University and became an associate professor at Georgetown University. His story — a teenager writing production scientific software for a major corporation — captures the era's unusual openness and the proximity of amateur skill to professional opportunity in early microcomputing.
+* **Collapse and Resurrection.** On July 1, 1984, Warner Communications — hemorrhaging over $1 million per day from the video game crash — sold Atari to Jack Tramiel for $50 in cash and $240 million in promissory notes. The AtariLab team was laid off. Product manager Leslie Wolf recalled telling the manufacturing team: 'They don't know you're here. Keep working until you don't get a paycheck anymore.' A small number of Atari 8-bit and Commodore 64 units were pressed; the Apple II version was abandoned. But Priscilla Laws did not stop. She had seen what home-computer sensing could do for education. She partnered with Ron Thornton (Tufts University) and Robert Tinker (TERC) to develop Workshop Physics, a calculus-based curriculum with no lectures — entirely lab-based. Laws contacted former Atari colleague Ron Budworth, who designed a new analog interface called the Universal Laboratory Interface (ULI) for the IBM PC. Vernier Software & Technology handled sales. The ULI sold approximately 40,000 units and launched Vernier as the dominant probeware company in science education — a direct lineage from Atari's joystick port.
+* **The Modules That Never Shipped.** At least twelve additional modules were announced in contemporary press but cancelled when Atari collapsed: Biofeedback (galvanic skin response and heart rate), Motion (ultrasonic distance sensor — the only one under active development at the time of collapse), pH, Mechanics (multiple modules), Crimelab (with a lie detector program), Timekeeper, Advanced Temperature (disk-based, higher temperature range), Reaction Time, Nuclear Radiation, and Robotics (motor/servo output control). A doctor at the University of Pennsylvania planned to replace $1,300 of analytical lab equipment with a $140 AtariLab station for X-ray film analysis. The scope was extraordinary — a planned ecosystem of a dozen+ scientific modules for a consumer game console, killed by market forces that had nothing to do with its educational value.
+
+### Team
+
+* **Dr. Priscilla Watson Laws (1940–2023).** Physics professor, Dickinson College. Conceived AtariLab, designed experiments, wrote the manual. Later won the Millikan Medal (1996) and pioneered Workshop Physics.
+* **David Egolf.** Software developer for Temperature and Light modules, age 15 at the time. Later PhD in physics from Duke, associate professor at Georgetown.
+* **Leslie Wolf.** Atari product manager for Atari Logo and AtariLab, 1981–1984. Shepherded the project through Atari's corporate turmoil.
+* **Mike Nalblah.** Atari internal champion who helped green-light the project.
+* **Ron Budworth.** Former Atari colleague who later designed the Universal Laboratory Interface (ULI) for IBM PC, sold through Vernier Software.
+* **Atari Learning Systems.** Division of Atari, Inc. that produced AtariLab, Atari Logo, and other educational products.
+* **Vernier Software & Technology.** Company that sold ~40,000 ULI units, becoming the dominant science-education probeware supplier — direct descendant of AtariLab.
+
+### Media
+
+![AtariLab temperature module in use with probe in glass of water](../assets/wiki/atarilab-temperature.jpeg)
+*AtariLab Starter Set in use: Atari 800 computer, interface box, temperature probe in a glass of water, and CRT display showing real-time data. Photo by Brian Jepson, CC BY-SA 2.5. Wikimedia Commons.*
+
+![AtariLab hardware: interface box, probe, and cartridge](../assets/wiki/atarilab-hardware.jpg)
+*AtariLab hardware: interface box with colour-coded RCA jacks, temperature probe, and cartridge. From Antic Magazine, October 1984.*
+
+![AtariLab screen display and classroom use](../assets/wiki/atarilab-display.jpg)
+*AtariLab screen display and classroom use. From Antic Magazine, October 1984.*
+
+### Sources
+
+1. Wikipedia — AtariLab — https://en.wikipedia.org/wiki/AtariLab
+2. ANTIC Magazine: "Inside Atari: AtariLab" by Charles Jackson (October 1984) — https://www.atarimagazines.com/v3n6/atarilab.html
+3. ANTIC Interview 86 — Dr. Priscilla Laws (podcast, 2015) — http://ataripodcast.libsyn.com/antic-interview-86-dr-priscilla-laws-atarilab
+4. ANTIC Interview 87 — Leslie Wolf, Product Manager (podcast, 2015) — http://ataripodcast.libsyn.com/antic-interview-87-leslie-wolf-product-manager-for-atari-logo-and-atarilab
+5. Atari Connection Vol. 4 No. 2: "Body Heat" biofeedback article (Summer 1984) — https://archive.org/stream/Atari_Connection_Volume_4_Number_2_1984-06_Atari_US
+6. Priscilla Laws — Wikipedia — https://en.wikipedia.org/wiki/Priscilla_Laws
+7. David Egolf bio and AtariLab history — http://site.physics.georgetown.edu/~egolf/bio.html
+8. Dickinson College Digital Museum: AtariLab Temperature Module — https://web.archive.org/web/20230207182731/https://dh.dickinson.edu/digitalmuseum/exhibit-artifact/defining-the-computer/atarilab-temperature-module
+
+---
+## SGI Dial and Button Box (1986)
+
+**By:** Silicon Graphics, Inc. (SGI), Mountain View, California. OEM-manufactured by Danaher Controls (DLS80-1022) and a Japanese OEM (SN-921)  
+**Tags:** `Input Device` `3D Interaction` `Professional Workstation` `Bimanual` `Physical Controls`
+
+### Overview
+
+The SGI Dial and Button Box was a dedicated 3D input peripheral for Silicon Graphics IRIS workstations, shipping from approximately 1986 through the mid-1990s. It provided eight large continuous-rotation optical encoder dials and thirty-two momentary pushbuttons in a 4×8 grid, housed in a dark grey metal chassis approximately 12–14 inches wide with an angled upright stand.
+
+The dials had no detents and no end stops — they spun freely, each revolution generating 256–1,024 counts depending on driver scaling. The buttons featured removable transparent keycaps for paper labels. Connection was via a single DE-9 RS-232 serial port at 9600 baud (some models required a separate 5V DC power brick). The device reported 6-byte packets containing signed 16-bit dial deltas and button state. Two known production models exist: the DLS80-1022 (manufactured by Danaher Controls, USA) and the SN-921 (Japanese OEM, different chassis design).
+
+In professional 3D software — Alias PowerAnimator, Wavefront Advanced Visualizer, Softimage 3D — the dials were typically mapped to spatial navigation: three axes of rotation, one zoom, two pan, and two auxiliary parameters. The non-dominant hand (usually left) worked the dials for continuous spatial adjustments, while the dominant hand operated the mouse for discrete selection and menu interaction. This asymmetric bimanual workflow, studied by Bill Buxton's HCI group at the University of Toronto, mapped cleanly onto Guiard's Kinematic Chain Model of human bimanual action. The dial box was also rebadged for Sun Microsystems workstations. Driver support persisted in IRIX through the late 1990s, and third-party Linux/Xorg drivers were later developed by the open-source community.
+
+### Deep dive
+
+* **The Instrument Philosophy of Interface Design.** The dial box represents a design philosophy that treats a computing workstation as an instrument, not an appliance. In this worldview, parameters deserve dedicated, physically present controls — each dial has a fixed meaning, and the user's body learns that meaning through proprioception and muscle memory. After weeks of use, an animator could reach for the 'zoom' dial without looking, the way a violinist finds a position on the fingerboard. This philosophy has deep roots: analog scientific instruments, the LINC computer's eight built-in knobs (1962), Evans & Sutherland's custom CAD control panels, and audio mixing consoles all embodied it. The dial box was one of its last mass-produced expressions before everything collapsed into the mouse-and-software-widget model. It asks a question that still hasn't been answered: why do audio engineers still mix on physical consoles, but 3D artists lost their knobs?
+* **Two-Handed Interaction Before It Was Studied.** The dial box shipped years before HCI researchers formalized asymmetric bimanual interaction. When Bill Buxton's group at the University of Toronto began studying two-handed input in the late 1980s, they used SGI dial boxes as their primary experimental platform. The device perfectly embodied what Yves Guiard (1987) described in his Kinematic Chain Model: the non-dominant (left) hand sets and adjusts the spatial frame of reference (coarse, continuous, low-frequency actions on the dials), while the dominant (right) hand performs precise operations within that frame (fine, discrete, high-frequency actions with the mouse). Animators didn't need a theory to tell them this worked — they discovered it through daily practice, developing a fluency with 8-axis simultaneous adjustment that no mouse could replicate.
+* **Muscle Memory as a Design Goal.** Modern UX design rarely treats muscle memory as an explicit design goal for parameter control. The dial box was built around it. Each dial was physically distinct by position — same size and feel, but the spatial layout was fixed and learnable. The 32 buttons had transparent keycaps for paper labels, allowing per-software customization. Professional animators working 8–12 hour sessions developed reflexive, unconscious access to parameters that, in a mouse-only workflow, would require repeated attention-shifting between the model and the toolbar. The dial box acknowledged something that software-only interfaces often forget: when your hands know where something is, your eyes can stay on the work.
+* **The Mapping That Survived.** The dial box died as a product, but its parameter layout became immortal. The standard mapping — three outer dials for X/Y/Z rotation, one for zoom/dolly, two for X/Y pan, and two for auxiliary functions — was adopted by virtually every 3D software package's navigation widget. Maya, Blender, Cinema 4D, Fusion 360: their orbit/zoom/pan tools all inherit the SGI dial box's axis assignments. Even the 3Dconnexion SpaceMouse (which replaced the dial box) offers the same degrees of freedom in a single puck. The physical knobs are gone, but their conceptual layout is burned into every 3D application you use today.
+* **The Modern Spiritual Successors.** In recent years, the dedicated-physical-control philosophy has seen a renaissance through programmable control surfaces: Elgato Stream Deck, Loupedeck, Monogram Creative Console, and MIDI controllers mapped to Blender or Maya. These devices attempt to restore what the dial box offered — dedicated, task-specific physical controls that the user's body can learn. They are not identical (most use buttons and sliders rather than infinite-rotation encoders), but they are direct descendants of the same idea: that creative professionals deserve instruments, not just toolbars.
+
+### Team
+
+* **Silicon Graphics, Inc. (SGI).** Mountain View, CA. Founded by Jim Clark (1981). The dial box was an internal hardware tools-group project.
+* **Danaher Controls.** OEM manufacturer of the DLS80-1022 model. Industrial controls company (now part of Fortive).
+* **Bill Buxton.** HCI researcher at University of Toronto who used the SGI dial box as a platform for foundational bimanual input studies.
+
+### Media
+
+![SGI Dial and Button Box DLS80-1022 front view](../assets/wiki/sgi-dial-box-front.jpg)
+*SGI Dial and Button Box DLS80-1022 model: 8 large machined-aluminum dials and 32 programmable buttons. Manufactured by Danaher Controls. Photo by Tpikonen, CC BY-SA 3.0. Wikimedia Commons.*
+
+![SGI Dial and Button Box DLS80-1022 rear view](../assets/wiki/sgi-dial-box-back.jpg)
+*Rear view showing the DE-9 serial connector and Danaher Controls label. Photo by Tpikonen, CC BY-SA 3.0. Wikimedia Commons.*
+
+![SGI Dial and Button Box SN-921 front view](../assets/wiki/sgi-dial-box-sn921.jpg)
+*Alternate SN-921 model with Japanese OEM chassis and slightly smaller dials. Photo by Tpikonen, CC BY-SA 3.0. Wikimedia Commons.*
+
+### Sources
+
+1. Silicon Graphics — Wikipedia — https://en.wikipedia.org/wiki/Silicon_Graphics
+2. Wikimedia Commons: Silicon Graphics dial box category — https://commons.wikimedia.org/wiki/Category:Silicon_Graphics_dial_box
+3. Buxton, W. & Myers, B. "A Study in Two-Handed Input" (CHI 1986) — https://dl.acm.org/doi/10.1145/22627.22390
+4. Guiard, Y. "Asymmetric Division of Labor in Human Skilled Bimanual Action: The Kinematic Chain as a Model" (Journal of Motor Behavior, 1987) — https://www.tandfonline.com/doi/abs/10.1080/00222895.1987.10735426
+5. Zhai, S. "Human Performance in Six Degree of Freedom Input Control" (PhD thesis, University of Toronto, 1995) — https://www.cs.toronto.edu/~zhai/thesis.html
+6. Computer History Museum collections (SGI hardware) — https://www.computerhistory.org/collections/

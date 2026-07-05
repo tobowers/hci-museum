@@ -1,0 +1,62 @@
+{
+  "slug": "sgi-dial-box",
+  "title": "SGI Dial and Button Box",
+  "year": "1986",
+  "subtitle": "Eight aluminum knobs, thirty-two buttons, one serial port, and a design philosophy that said your tools should feel like instruments, not spreadsheets",
+  "why_scout_cares": "The SGI Dial and Button Box is a physical artifact of a lost philosophy: that professional creative tools deserve dedicated, task-specific physical controls, not generic on-screen widgets. It shipped alongside Silicon Graphics' IRIS workstations starting around 1986 — eight continuous-rotation optical encoders and thirty-two programmable buttons in a metal chassis the size of a small typewriter. Animators at Alias, Wavefront, and Softimage used it to orbit, zoom, and pan through 3D scenes with a fluency that a single mouse could never match. The non-dominant hand controlled spatial parameters on the dials while the dominant hand selected and edited with the mouse — a two-handed, asymmetric bimanual workflow that Bill Buxton's foundational HCI research later formalized at the University of Toronto. After weeks of use, an animator could reach for the 'zoom' dial without conscious thought, the way a pianist reaches for a key. Nobody makes anything like this anymore. The dial box lost to the software widget — on-screen sliders, orbit tools, the 3Dconnexion SpaceMouse that combined everything into one puck. But every modern 3D application's navigation scheme (three rotate axes, zoom, two pan axes) traces directly back to the eight-dial layout that SGI hardware engineers cooked up in Mountain View. It is a fossil from an alternate timeline where computers felt like the cockpit of a ship instead of a filing cabinet.",
+  "search_terms": ["SGI dial box", "Silicon Graphics dial and button box", "SGI DLS80-1022", "SGI 3D input device", "two-handed bimanual 3D interaction"],
+  "research": {
+    "title": "SGI Dial and Button Box",
+    "year": "1986",
+    "by": "Silicon Graphics, Inc. (SGI), Mountain View, California. OEM-manufactured by Danaher Controls (DLS80-1022) and a Japanese OEM (SN-921)",
+    "tags": ["Input Device", "3D Interaction", "Professional Workstation", "Bimanual", "Physical Controls"],
+    "overview": "The SGI Dial and Button Box was a dedicated 3D input peripheral for Silicon Graphics IRIS workstations, shipping from approximately 1986 through the mid-1990s. It provided eight large continuous-rotation optical encoder dials and thirty-two momentary pushbuttons in a 4×8 grid, housed in a dark grey metal chassis approximately 12–14 inches wide with an angled upright stand.\n\nThe dials had no detents and no end stops — they spun freely, each revolution generating 256–1,024 counts depending on driver scaling. The buttons featured removable transparent keycaps for paper labels. Connection was via a single DE-9 RS-232 serial port at 9600 baud (some models required a separate 5V DC power brick). The device reported 6-byte packets containing signed 16-bit dial deltas and button state. Two known production models exist: the DLS80-1022 (manufactured by Danaher Controls, USA) and the SN-921 (Japanese OEM, different chassis design).\n\nIn professional 3D software — Alias PowerAnimator, Wavefront Advanced Visualizer, Softimage 3D — the dials were typically mapped to spatial navigation: three axes of rotation, one zoom, two pan, and two auxiliary parameters. The non-dominant hand (usually left) worked the dials for continuous spatial adjustments, while the dominant hand operated the mouse for discrete selection and menu interaction. This asymmetric bimanual workflow, studied by Bill Buxton's HCI group at the University of Toronto, mapped cleanly onto Guiard's Kinematic Chain Model of human bimanual action. The dial box was also rebadged for Sun Microsystems workstations. Driver support persisted in IRIX through the late 1990s, and third-party Linux/Xorg drivers were later developed by the open-source community.",
+    "deepDive": [
+      {
+        "heading": "The Instrument Philosophy of Interface Design",
+        "text": "The dial box represents a design philosophy that treats a computing workstation as an instrument, not an appliance. In this worldview, parameters deserve dedicated, physically present controls — each dial has a fixed meaning, and the user's body learns that meaning through proprioception and muscle memory. After weeks of use, an animator could reach for the 'zoom' dial without looking, the way a violinist finds a position on the fingerboard. This philosophy has deep roots: analog scientific instruments, the LINC computer's eight built-in knobs (1962), Evans & Sutherland's custom CAD control panels, and audio mixing consoles all embodied it. The dial box was one of its last mass-produced expressions before everything collapsed into the mouse-and-software-widget model. It asks a question that still hasn't been answered: why do audio engineers still mix on physical consoles, but 3D artists lost their knobs?"
+      },
+      {
+        "heading": "Two-Handed Interaction Before It Was Studied",
+        "text": "The dial box shipped years before HCI researchers formalized asymmetric bimanual interaction. When Bill Buxton's group at the University of Toronto began studying two-handed input in the late 1980s, they used SGI dial boxes as their primary experimental platform. The device perfectly embodied what Yves Guiard (1987) described in his Kinematic Chain Model: the non-dominant (left) hand sets and adjusts the spatial frame of reference (coarse, continuous, low-frequency actions on the dials), while the dominant (right) hand performs precise operations within that frame (fine, discrete, high-frequency actions with the mouse). Animators didn't need a theory to tell them this worked — they discovered it through daily practice, developing a fluency with 8-axis simultaneous adjustment that no mouse could replicate."
+      },
+      {
+        "heading": "Muscle Memory as a Design Goal",
+        "text": "Modern UX design rarely treats muscle memory as an explicit design goal for parameter control. The dial box was built around it. Each dial was physically distinct by position — same size and feel, but the spatial layout was fixed and learnable. The 32 buttons had transparent keycaps for paper labels, allowing per-software customization. Professional animators working 8–12 hour sessions developed reflexive, unconscious access to parameters that, in a mouse-only workflow, would require repeated attention-shifting between the model and the toolbar. The dial box acknowledged something that software-only interfaces often forget: when your hands know where something is, your eyes can stay on the work."
+      },
+      {
+        "heading": "The Mapping That Survived",
+        "text": "The dial box died as a product, but its parameter layout became immortal. The standard mapping — three outer dials for X/Y/Z rotation, one for zoom/dolly, two for X/Y pan, and two for auxiliary functions — was adopted by virtually every 3D software package's navigation widget. Maya, Blender, Cinema 4D, Fusion 360: their orbit/zoom/pan tools all inherit the SGI dial box's axis assignments. Even the 3Dconnexion SpaceMouse (which replaced the dial box) offers the same degrees of freedom in a single puck. The physical knobs are gone, but their conceptual layout is burned into every 3D application you use today."
+      },
+      {
+        "heading": "The Modern Spiritual Successors",
+        "text": "In recent years, the dedicated-physical-control philosophy has seen a renaissance through programmable control surfaces: Elgato Stream Deck, Loupedeck, Monogram Creative Console, and MIDI controllers mapped to Blender or Maya. These devices attempt to restore what the dial box offered — dedicated, task-specific physical controls that the user's body can learn. They are not identical (most use buttons and sliders rather than infinite-rotation encoders), but they are direct descendants of the same idea: that creative professionals deserve instruments, not just toolbars."
+      }
+    ],
+    "team": [
+      { "name": "Silicon Graphics, Inc. (SGI)", "note": "Mountain View, CA. Founded by Jim Clark (1981). The dial box was an internal hardware tools-group project" },
+      { "name": "Danaher Controls", "note": "OEM manufacturer of the DLS80-1022 model. Industrial controls company (now part of Fortive)" },
+      { "name": "Bill Buxton", "note": "HCI researcher at University of Toronto who used the SGI dial box as a platform for foundational bimanual input studies" }
+    ],
+    "media": [
+      { "src": "https://upload.wikimedia.org/wikipedia/commons/c/cd/SGI_dialbox_DLS80-1022_front.jpg", "alt": "SGI Dial and Button Box DLS80-1022 front view", "caption": "SGI Dial and Button Box DLS80-1022 model: 8 large machined-aluminum dials and 32 programmable buttons. Manufactured by Danaher Controls. Photo by Tpikonen, CC BY-SA 3.0. Wikimedia Commons." },
+      { "src": "https://upload.wikimedia.org/wikipedia/commons/1/1e/SGI_dialbox_DLS80-1022_back.jpg", "alt": "SGI Dial and Button Box DLS80-1022 rear view", "caption": "Rear view showing the DE-9 serial connector and Danaher Controls label. Photo by Tpikonen, CC BY-SA 3.0. Wikimedia Commons." },
+      { "src": "https://upload.wikimedia.org/wikipedia/commons/7/74/Sgi_dialbox_sn-921_front.jpg", "alt": "SGI Dial and Button Box SN-921 front view", "caption": "Alternate SN-921 model with Japanese OEM chassis and slightly smaller dials. Photo by Tpikonen, CC BY-SA 3.0. Wikimedia Commons." }
+    ],
+    "sources": [
+      { "text": "Silicon Graphics — Wikipedia", "url": "https://en.wikipedia.org/wiki/Silicon_Graphics" },
+      { "text": "Wikimedia Commons: Silicon Graphics dial box category", "url": "https://commons.wikimedia.org/wiki/Category:Silicon_Graphics_dial_box" },
+      { "text": "Buxton, W. & Myers, B. 'A Study in Two-Handed Input' (CHI 1986)", "url": "https://dl.acm.org/doi/10.1145/22627.22390" },
+      { "text": "Guiard, Y. 'Asymmetric Division of Labor in Human Skilled Bimanual Action: The Kinematic Chain as a Model' (Journal of Motor Behavior, 1987)", "url": "https://www.tandfonline.com/doi/abs/10.1080/00222895.1987.10735426" },
+      { "text": "Zhai, S. 'Human Performance in Six Degree of Freedom Input Control' (PhD thesis, University of Toronto, 1995)", "url": "https://www.cs.toronto.edu/~zhai/thesis.html" },
+      { "text": "Computer History Museum collections (SGI hardware)", "url": "https://www.computerhistory.org/collections/" }
+    ],
+    "imageUrls": [
+      "https://upload.wikimedia.org/wikipedia/commons/c/cd/SGI_dialbox_DLS80-1022_front.jpg",
+      "https://upload.wikimedia.org/wikipedia/commons/1/1e/SGI_dialbox_DLS80-1022_back.jpg",
+      "https://upload.wikimedia.org/wikipedia/commons/7/74/Sgi_dialbox_sn-921_front.jpg",
+      "https://upload.wikimedia.org/wikipedia/commons/b/b6/Sgi_dialbox_sn-921_back.jpg"
+    ]
+  },
+  "savedImages": []
+}
