@@ -982,6 +982,32 @@ const exhibitData: Exhibit[] = [
     tags: ["3D Interaction", "Professional Workstation", "Bimanual"],
     image: img("sgi-dial-box-front.jpg"),
   },
+  {
+    id: "sega-r360",
+    slug: "sega-r360",
+    wikiTitle: "Sega R360",
+    year: "1990",
+    sortYear: 1990,
+    title: "Sega R360",
+    subtitle: "The arcade cabinet that barrel-rolled with you inside",
+    blurb:
+      "A 1,100 kg gyroscopic arcade sphere that rotated freely through 360 degrees on two axes, physically inverting the player to match in-game flight. $90,000 per unit. Emergency stops on every installation. Only ~100 were ever built.",
+    tags: ["Motion Platform", "Arcade", "Kinesthetic", "Simulation"],
+    image: img("sega-r360-cabinet.jpg"),
+  },
+  {
+    id: "akai-ewi-1000",
+    slug: "akai-ewi-1000",
+    wikiTitle: "Akai EWI 1000",
+    year: "1987",
+    sortYear: 1987,
+    title: "Akai EWI 1000",
+    subtitle: "The saxophone with no moving keys — just the electricity in your fingers",
+    blurb:
+      "A wind instrument controller from 1987 where every key is a capacitive touch sensor. Zero mechanical travel, zero clicks. Breath pressure, bite pressure, and finger capacitance combined into three continuous MIDI channels. Nyle Steiner invented it in his Utah basement. Akai sold it to jazz musicians who needed more than a keyboard could give.",
+    tags: ["Music", "Capacitive Touch", "Breath Control", "MIDI"],
+    image: img("akai-ewi-3020.jpg"),
+  },
 ];
 
 export const exhibits: Exhibit[] = exhibitData.toSorted((a, b) => b.sortYear - a.sortYear || a.title.localeCompare(b.title));
