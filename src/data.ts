@@ -958,6 +958,30 @@ const exhibitData: Exhibit[] = [
     tags: ["Music", "Drawing", "Tablet", "Synthesis"],
     image: img("upic-system.jpg"),
   },
+  {
+    id: "atarilab",
+    slug: "atarilab",
+    wikiTitle: "AtariLab",
+    year: "1983",
+    sortYear: 1983,
+    title: "AtariLab",
+    subtitle: "The home computer became a scientific instrument when a physics professor plugged a thermistor into the joystick port.",
+    blurb: "In 1983, physics professor Priscilla Laws realized the Atari's joystick port was secretly a general-purpose ADC. She built a breakout box that turned the Atari 800 into a real-time lab instrument: plug in a temperature probe, dip it in water, and watch a cooling curve draw itself on the family TV. The software was written by a 15-year-old. Atari collapsed before a dozen planned modules could ship, but Laws's concept lived on — the Universal Laboratory Interface she later co-developed sold 40,000 units through Vernier Software and launched the modern probeware industry.",
+    tags: ["Education", "Sensors", "Physical Computing"],
+    image: img("atarilab-temperature.jpeg"),
+  },
+  {
+    id: "sgi-dial-box",
+    slug: "sgi-dial-box",
+    wikiTitle: "SGI Dial and Button Box",
+    year: "1986",
+    sortYear: 1986,
+    title: "SGI Dial and Button Box",
+    subtitle: "Eight aluminum knobs, thirty-two buttons, and a design philosophy that said your tools should feel like instruments.",
+    blurb: "A dedicated 3D input peripheral for Silicon Graphics IRIS workstations: eight continuous-rotation optical encoder dials and thirty-two programmable buttons in a metal chassis. Animators used their left hand on the dials (rotate, zoom, pan) while the right hand worked the mouse — an asymmetric bimanual workflow later studied by Bill Buxton at the University of Toronto. The dial box represents a lost design philosophy: that professional creative tools deserve dedicated, task-specific physical controls. Every modern 3D app's orbit/zoom/pan navigation inherits the SGI dial layout, but the physical knobs are gone.",
+    tags: ["3D Interaction", "Professional Workstation", "Bimanual"],
+    image: img("sgi-dial-box-front.jpg"),
+  },
 ];
 
 export const exhibits: Exhibit[] = exhibitData.toSorted((a, b) => b.sortYear - a.sortYear || a.title.localeCompare(b.title));
