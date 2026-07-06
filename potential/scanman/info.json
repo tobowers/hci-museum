@@ -1,0 +1,51 @@
+{
+  "slug": "scanman",
+  "title": "Logitech ScanMan",
+  "year": "1987",
+  "subtitle": "the scanner where the human hand was the motor, and every twitch became a pixel",
+  "why_scout_cares": "The Logitech ScanMan (1987) was one of the first affordable handheld image scanners for personal computers. It was about four inches wide, connected via serial port, and required the user to physically drag the device across a printed page at a steady speed. A small roller on the underside provided a clock signal for synchronization, and an LED warning light would flash if you moved too fast. If your hand wobbled, the image stretched. If you moved unevenly, the text compressed. The human body WAS the scanning mechanism — there was no motor, no automatic feed, nothing between your wrist and the resulting digital image except your own steadiness. This is a brilliant HCI parable in hardware form: when you remove the motor and make the user do the mechanical work, you trade cost for embodiment. The ScanMan also required multiple parallel passes to cover a full letter-size page, with software stitching the strips together afterward. Every scan was a negotiation between the user's manual dexterity and the machine's unforgiving optical sampling rate. The ScanMan Color (1992) added color capability, and today a specimen sits in the Musée Bolo in Lausanne, a museum of computer history.",
+  "search_terms": ["Logitech ScanMan", "handheld scanner 1987", "Logitech ScanMan Color", "hand scanner history"],
+  "research": {
+    "title": "Logitech ScanMan",
+    "year": "1987",
+    "by": "Logitech",
+    "tags": ["HCI", "Input", "Scanner", "Handheld", "Embodied"],
+    "overview": "The Logitech ScanMan was introduced in 1987 as one of the first affordable handheld scanners for personal computers. About 4 inches wide, it connected to a PC via serial port and was physically dragged by the user across the surface of the document to be scanned. The original model (gray, 200 dpi, 1-bit monochrome) was followed by the ScanMan 32 (1990, 32-shade grayscale) and the ScanMan Color (1992, 24-bit color). A specimen of the ScanMan Color is preserved in the Musée Bolo in Lausanne, Switzerland.\n\nThe interaction model was uniquely embodied: the user held the scanner like a fat highlighter pen and manually pulled it down the page at a constant speed. A small roller on the underside generated a clock signal for synchronization with the computer's sampling rate. An LED indicator would warn if the user moved too fast, which would cause horizontal compression in the resulting image. Each pass captured only a strip about 4 inches wide, so scanning a full letter-size page required multiple parallel passes that had to be software-stitched together.\n\nThis made scanning quality a direct function of the user's manual dexterity, steadiness, and patience. Unlike a flatbed scanner — where a motorized carriage does the work — the ScanMan eliminated the motor and made the human arm the scanning actuator, trading automation for embodiment in exchange for a lower price point (typically $200-400 versus $1,000+ for early flatbeds). It was an intriguing case of technological 'simplification' that actually demanded more from the user, not less.",
+    "deepDive": [
+      {
+        "heading": "Interaction Model",
+        "text": "The ScanMan represents a deliberate choice in interaction design: remove the motor and make the human do the mechanical work. The user initiates a scan by pressing and holding a button, then drags the scanner manually across the document. The roller encoder provides a clock — each 'tick' triggers one line of image capture — which means the scanning speed is directly coupled to the speed of the user's hand. Too fast, and pixels are stretched horizontally. Too slow, and they're compressed. Uneven speed produces wavy distortion.\n\nFor full-page documents, the user makes multiple parallel passes and uses accompanying stitching software to align and merge the strips. This introduces a second layer of embodied interaction: spatial judgment (did the passes overlap enough?) and alignment patience. The user learns, through trial and error, to modulate their arm movement to produce acceptable scans. This feedback loop — make a pass, inspect the result, adjust technique, try again — makes scanning an acquired skill rather than a button press."
+      },
+      {
+        "heading": "Market Context",
+        "text": "The ScanMan arrived in 1987, the same year Hewlett-Packard launched the first affordable flatbed scanner, the HP ScanJet. The ScanJet cost $1,990 and produced high-quality grayscale scans automatically. The ScanMan cost a fraction of that — typically $200-400 — but demanded the user's physical participation. This tradeoff created a fascinating market segment: users who needed occasional scanning but couldn't justify the expense of a flatbed. Handheld scanners remained a niche product throughout the 1990s, eventually rendered obsolete as flatbed scanner prices dropped below $300 by the end of the decade."
+      },
+      {
+        "heading": "Legacy",
+        "text": "The ScanMan is an early example of what might be called 'trickle-up interaction design': a cheaper, simpler device that paradoxically requires more skill from its user. The human body fills a gap that in more expensive products would be handled by motors and precision engineering. This pattern reappears periodically in HCI history — consider the difference between a Wacom Cintiq (built-in display, zero parallax) and early graphics tablets where the user learned to draw while looking at a separate screen. The ScanMan is a compact object lesson in the embodied costs of affordability.\n\nToday, the ScanMan Color is preserved as part of the collection of the Musée Bolo (École Polytechnique Fédérale de Lausanne), Switzerland's museum of computer history, where it represents the transitional era between purely analog document handling and the automated digital scanning we now take for granted."
+      }
+    ],
+    "team": [
+      {"name": "Logitech", "note": "Swiss-American computer peripherals manufacturer; developed and marketed the ScanMan line"},
+      {"name": "Musée Bolo", "note": "computer history museum in Lausanne, Switzerland; holds a ScanMan Color in its permanent collection"}
+    ],
+    "media": [
+      {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/9/99/Logitech_ScanMan_Color-P4191193-white.jpg",
+        "alt": "Logitech ScanMan Color handheld scanner, white plastic body shaped like a fat pen, with roller and scan button visible",
+        "caption": "Logitech ScanMan Color (1992), preserved at the Musée Bolo, Lausanne. Photo by Rama, CC BY-SA. Source: Wikimedia Commons."
+      }
+    ],
+    "sources": [
+      {"text": "Image scanner - Wikipedia (Handheld section, includes ScanMan)", "url": "https://en.wikipedia.org/wiki/Image_scanner#Handheld"},
+      {"text": "Gruman, Galen. 'Hand Scanners: Low Cost Route to PC Imaging.' PC Magazine/InfoWorld, 1988", "url": ""},
+      {"text": "Musée Bolo - Logitech ScanMan Color in collection", "url": "https://commons.wikimedia.org/wiki/File:Logitech_ScanMan_Color-P4191193-white.jpg"}
+    ],
+    "imageUrls": [
+      "https://commons.wikimedia.org/wiki/File:Logitech_ScanMan_Color-P4191193-white.jpg",
+      "https://upload.wikimedia.org/wikipedia/commons/9/99/Logitech_ScanMan_Color-P4191193-white.jpg",
+      "https://en.wikipedia.org/wiki/Image_scanner#Handheld"
+    ]
+  },
+  "savedImages": ["potential/scanman/images/scanman-1.jpg"]
+}

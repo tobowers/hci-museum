@@ -96,6 +96,8 @@ Deferred strong candidates:
 - Sega Activator (1992/1993): Octagonal IR beam-breaking full-body controller for Genesis. Glorious commercial failure prefiguring Kinect. DISQUALIFIED: actually released November 1993 — outside 1976–1992 era window. The underlying Light Harp patent (filed 1990, priority 1988) is too abstract as a museum artifact without a commercial product. Do not re-scout. (2026-07-05)
 
 Promotion gotchas:
+- ARCHIVE deferred potential info.json files BEFORE running promote-potentials.ts. Old info.json files in potential/ are auto-promoted regardless of deferral status. Rename to `info.json.archived` or move to a sibling directory to exclude. (2026-07-06)
+- Marble Answering Machine info.json archived as info.json.archived (2026-07-06) — do NOT un-archive without image licensing resolution.
 - The erols.com/rwservices image server returns HTML for direct image access (same class of issue as videogamehouse.net). The site is a comprehensive pen computing archive but images must be sourced from Wikimedia or other mirrors. (2026-07-01)
 - The videogamehouse.net image server returns 404 for direct image access. The site itself is a rich source of MBX history (creator interviews, flyers, cartridge lists) but product photos must be sourced elsewhere (2026-06-30).
 - Research paper artifacts (e.g., Drawing Prism) may have figures in the ACM PDF behind paywall. Accept the publicly accessible title slides/abstracts as primary images and supplement with patent drawings or press coverage where available (2026-06-30).
