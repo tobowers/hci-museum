@@ -1,0 +1,63 @@
+{
+  "slug": "big-trak",
+  "title": "Big Trak",
+  "year": "1979",
+  "subtitle": "a programmable toy tank that taught a generation the gulf between typed commands and physical consequences",
+  "why_scout_cares": "Big Trak is one of the earliest consumer devices to put procedural programming — not coding on a screen, but button-press sequencing executed in physical space — directly into the hands of children. No display, no compiler, no external computer. You typed FORWARD 5, RIGHT 15, FIRE on a membrane keypad, pressed GO, and the tank carried out your orders on the living room floor. The gap between intention and execution was measured in body-lengths and degrees of rotation, and the feedback was entirely physical: either the tank got where you meant it to go, or it rammed the coffee table. It is also one of the few artifacts in the museum that was adopted as a research platform by cognitive scientists — David Klahr's lab at Carnegie Mellon used Big Trak to study how people learn without instructions, making it simultaneously a toy, a robot, and an instrument of scientific discovery.",
+  "search_terms": ["Big Trak", "Milton Bradley programmable toy 1979", "Bigtrak TMS1000", "programmable toy vehicle"],
+  "research": {
+    "title": "Big Trak",
+    "year": "1979",
+    "by": "Milton Bradley Company",
+    "tags": ["HCI", "Robot", "Programming", "Education", "Toy", "Embodied"],
+    "overview": "Big Trak is a programmable six-wheeled toy tank created by Milton Bradley in 1979. Resembling a futuristic sci-fi utility vehicle, it features a front-mounted blue 'photon beam' headlamp and a membrane keypad on top. The toy is powered by a Texas Instruments TMS1000 microcontroller and can remember up to 16 commands — forward/backward in body-lengths, left/right turns in 15-degree increments, pause, fire, and a primitive RPT (repeat) loop instruction — which it then executes in sequence. An optional cargo trailer accessory could be programmed to dump its payload.\n\nThe interaction is entirely self-contained: there is no screen, no external computer, no compiler. The user builds a program by pressing keys on the toy itself, then presses GO to execute it in the physical world. The feedback is purely embodied — success or failure is measured in whether the tank navigates around furniture or collides with it. This made Big Trak one of the earliest consumer devices to introduce non-experts (children) to procedural/logical sequencing and turtle-graphics-style programming concepts.\n\nThe original US version was moulded in gray plastic and labeled 'BIG TRAK', while the UK/European version was white and labeled 'bigtrak' with a different keypad layout. A Soviet clone was produced under the Elektronika IM-11 designation (named 'Lunokhod' after the Soviet Moon rover programme). A licensed replica was released by Zeon Ltd in 2010.",
+    "deepDive": [
+      {
+        "heading": "Origins",
+        "text": "Big Trak was conceived at Milton Bradley, the venerable board game and toy company. The story of its origin became the subject of a 2024 episode of This American Life (Episode 827, Act One), in which Peter Ocko recounts his father's role in the idea and the subsequent lawsuit the family filed against Milton Bradley. The toy launched in 1979, powered by the Texas Instruments TMS1000 — the same 4-bit microcontroller family that powered Speak & Spell — with separate battery supplies for the logic (9V) and motors (4× D cells) to prevent electrical noise from resetting the microcontroller."
+      },
+      {
+        "heading": "Interaction Model",
+        "text": "The programming interface is a membrane keypad on the vehicle's top surface. Commands include: Forward/Backward (in units of one body-length), Left/Right (in units of roughly 1/60th of a full rotation, or 6 degrees — though labelled as 'minutes' on the keypad), HOLD (pause in 1/10 second units), FIRE (activate the photon beam light), CLR (clear program), CLS (clear last step), RPT (repeat a number of steps — a primitive loop construct), TEST (run a short built-in test program), CK (check last instruction), and OUT (activate optional trailer dump). There were no LED displays or any way to review a stored program other than running it. The IN command was reserved for future expansion but was never fully implemented in production hardware.\n\nThe programming model resembles turtle graphics from the Logo programming language — spatial commands that move an agent through the world — but with a crucial difference: Logo turtles live on a screen with instant visual feedback. Big Trak executes in physical space, where friction, carpet pile, battery charge, and furniture all affect the outcome. The gap between the abstract program and its embodied execution is the whole point."
+      },
+      {
+        "heading": "Computer Control and Hacking",
+        "text": "In February 1981, Steve Ciarcia published an article in BYTE magazine ('A Computer-Controlled Tank') detailing how to control Big Trak with a personal computer via a radio interface, effectively turning it into a home robot peripheral. In the 2000s and 2010s, hobbyists reverse-engineered the TMS1000 and developed Arduino and Raspberry Pi interfaces, preserving Big Trak as a platform for modern robotics experimentation. The 2010 Zeon replica uses surface-mount components and hall-effect motor sensors instead of the original optical detectors."
+      },
+      {
+        "heading": "Scientific Research Platform",
+        "text": "In the early 1980s, the psychology of science community led by David Klahr's laboratory at Carnegie Mellon University adopted Big Trak as a research vehicle for studying instructionless learning, scientific discovery, cognitive development, and dual space search. Participants were given a Big Trak with no manual and asked to figure out how it worked. The research was published in Klahr's 2000 book 'Exploring Science: The Cognition and Development of Discovery Processes' (MIT Press). Big Trak remains, to this day, one of the only consumer toys to be adopted as a formal instrument of cognitive science research."
+      }
+    ],
+    "team": [
+      {"name": "Milton Bradley Company", "note": "manufacturer and publisher"},
+      {"name": "Peter Ocko (father)", "note": "claimed originator of the concept; family sued Milton Bradley"},
+      {"name": "Texas Instruments", "note": "supplier of the TMS1000 microcontroller"},
+      {"name": "Steve Ciarcia", "note": "published BYTE magazine article on computer-controlling Big Trak via radio (1981)"},
+      {"name": "David Klahr", "note": "Carnegie Mellon University; used Big Trak for cognitive science research in the 1980s"}
+    ],
+    "media": [
+      {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/f/f2/Big_trak_white_background.jpg",
+        "alt": "A white UK version of Big Trak on a white background, showing the six-wheeled tank form factor and top-mounted keypad",
+        "caption": "UK/European Bigtrak model (white, with different keypad layout from the US gray version). Source: Wikimedia Commons."
+      }
+    ],
+    "sources": [
+      {"text": "Big Trak - Wikipedia", "url": "https://en.wikipedia.org/wiki/Big_Trak"},
+      {"text": "Ciarcia, Steve. 'A Computer-Controlled Tank.' BYTE, February 1981, p. 44", "url": "https://archive.org/stream/byte-magazine-1981-02/1981_02_BYTE_06-02_The_Computer_and_Voice_Synthesis#page/n45/mode/2up"},
+      {"text": "Robot Room: Inside the Bigtrak (reverse engineering, versions, IN/OUT commands)", "url": "http://www.robotroom.com/BigTrak.html"},
+      {"text": "This American Life Episode 827, Act One: 'Toy R Us' (lawsuit story)", "url": "https://www.thisamericanlife.org/827/all-the-kings-horses/act-one-1"},
+      {"text": "Klahr, D. (2000). Exploring Science: The Cognition and Development of Discovery Processes. Cambridge, MA: MIT Press", "url": ""},
+      {"text": "Zeon Ltd Bigtrak 2010 replica", "url": "http://www.zeonltd.co.uk/ads/toy-world-big-trak"}
+    ],
+    "imageUrls": [
+      "https://commons.wikimedia.org/wiki/Category:Big_Trak",
+      "https://upload.wikimedia.org/wikipedia/commons/f/f2/Big_trak_white_background.jpg",
+      "https://upload.wikimedia.org/wikipedia/commons/7/7c/Bigtrakkeypad.jpg",
+      "https://upload.wikimedia.org/wikipedia/commons/6/69/Big_Trak_-_Mother_Board.jpg",
+      "https://upload.wikimedia.org/wikipedia/commons/8/8d/Big_Trak_UK_Keypad.svg"
+    ]
+  },
+  "savedImages": ["potential/big-trak/images/big-trak-1.jpg"]
+}

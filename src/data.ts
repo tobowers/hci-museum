@@ -1008,6 +1008,45 @@ const exhibitData: Exhibit[] = [
     tags: ["Music", "Capacitive Touch", "Breath Control", "MIDI"],
     image: img("akai-ewi-3020.jpg"),
   },
+  {
+    id: "armatron",
+    slug: "armatron",
+    wikiTitle: "Armatron",
+    year: "1984",
+    sortYear: 1984,
+    title: "Armatron",
+    subtitle: "A $40 plastic robot arm that made every ten-year-old a teleoperator, no computer required",
+    blurb:
+      "Tomy/Radio Shack's six-degree-of-freedom tabletop robotic arm, operated through purely mechanical dual joysticks with zero digital electronics. The user's hand movements engage rotating gear drums that map directly onto wrist rotation, elbow bend, shoulder elevation, and gripper — a waldo for the price of a board game.",
+    tags: ["Robot", "Teleoperation", "Mechanical", "Toy"],
+    image: img("armatron-1.jpg"),
+  },
+  {
+    id: "big-trak",
+    slug: "big-trak",
+    wikiTitle: "Big Trak",
+    year: "1979",
+    sortYear: 1979,
+    title: "Big Trak",
+    subtitle: "A programmable toy tank with a membrane keypad and a Texas Instruments brain, executing 16-step programs in the physical world",
+    blurb:
+      "Milton Bradley's six-wheeled programmable tank (1979). A TI TMS1000 microcontroller, 16 command memory, and no screen — you typed FORWARD 5, RIGHT 15, FIRE on the keypad and the tank carried out your orders on the living room floor. Carnegie Mellon psychologists adopted it to study how humans learn without instructions.",
+    tags: ["Robot", "Programming", "Education", "Toy"],
+    image: img("big-trak-1.jpg"),
+  },
+  {
+    id: "scanman",
+    slug: "scanman",
+    wikiTitle: "Logitech ScanMan",
+    year: "1987",
+    sortYear: 1987,
+    title: "Logitech ScanMan",
+    subtitle: "The scanner where your hand was the motor — every twitch came out as a pixel",
+    blurb:
+      "Logitech's 1987 handheld scanner. Four inches wide, 200 dpi, serial port. No motor: the user physically dragged it across the page at a steady speed, with a roller encoder syncing capture and an LED warning if you moved too fast. Scan quality was a direct function of your hand steadiness.",
+    tags: ["Input", "Scanner", "Handheld", "Embodied"],
+    image: img("scanman-1.jpg"),
+  },
 ];
 
 export const exhibits: Exhibit[] = exhibitData.toSorted((a, b) => b.sortYear - a.sortYear || a.title.localeCompare(b.title));

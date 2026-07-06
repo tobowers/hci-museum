@@ -88,6 +88,9 @@ Each entry includes an overview, a deep dive, a small media gallery, and full so
 79. [SGI Dial and Button Box (1986)](#sgi-dial-and-button-box-1986)
 80. [Sega R360 (1990)](#sega-r360-1990)
 81. [Akai EWI 1000 (1987)](#akai-ewi-1000-1987)
+82. [Armatron (1984)](#armatron-1984)
+83. [Big Trak (1979)](#big-trak-1979)
+84. [Logitech ScanMan (1987)](#logitech-scanman-1987)
 
 ---
 
@@ -4177,3 +4180,133 @@ The Akai EWI 1000 is the first commercially released electronic wind instrument 
 4. Walters, John. "Wind Synthesizers" (EWI vs Yamaha WX7 comparison) — *Sound on Sound*, December 1987 — http://www.muzines.co.uk/articles/wind-synthesizers/2549
 5. Pimentel, Bret. "Flexible EWI fingerings" — https://bretpimentel.com/flexible-ewi-fingerings/
 6. Swallow, Matthew J. "MIDI Electronic Wind Instrument: A Study of the Instrument and Selected Works" — DMA dissertation, West Virginia University, 2016 — https://doi.org/10.33915/etd.6750
+
+---
+
+## Armatron (1984)
+
+**By:** Tomy (distributed in the US by Radio Shack)  
+**Tags:** `HCI` `Robot` `Teleoperation` `Toy` `Mechanical` `Embodied`
+
+### Overview
+
+The Armatron is a tabletop robotic arm toy made by Tomy and distributed by Radio Shack in the United States beginning in 1984. It consists of a crane-like arm with a two-fingered gripper that can pick up and manipulate small objects. The arm has six degrees of freedom: wrist rotation (unlimited), vertical wrist flexing, horizontal elbow bending, shoulder horizontal rotation (unlimited), shoulder elevation, and gripper open/close. 
+
+The arm is almost purely mechanical. The only electrical components are a single DC motor, switch contacts in a countdown timer (disguised as an 'energy level' indicator), and the batteries. The dual joysticks selectively engage or disengage gears on a set of rotating gear drums — each joystick intuitively maps to specific axes of the arm. The result is direct, isomorphic kinesthetic control. There is no computer, no programming language, no digital interface whatsoever.
+
+The toy came with a module pack of plastic items: two stepped cones, two spheres, two cylinders, a flat base module, and a hinged-lidded box. The challenge was to use the arm to move the spheres and cones from the top of the box to the flat module, open the box lid, and extract the cylinders — all within the time limit set by the countdown timer. Models with alternate decals or coloring were marketed as the Super Armatron and Armatron II. A mobile version with a wired remote succeeded the original stationary version.
+
+### Deep dive
+
+* **Inventor.** The lead inventor of the Armatron was Hiroyuki Watanabe, a toy designer who worked for Tomy in Tokyo, Japan for 49 years. According to Watanabe, the dual joystick controls were directly inspired by his hobby flying radio-controlled helicopters, where dual joysticks are used to control multiple axes simultaneously. The Armatron is essentially a simplified, ground-based version of the same kinesthetic control paradigm. Canadian patent #1237453 covers the mechanical design. Watanabe's story was featured in MIT Technology Review in April 2025, which called the Armatron a toy that 'inspired modern robotics.'
+* **Interaction Model.** The Armatron's interaction model is pure teleoperation: the user's hands are the master, the arm is the slave, and the mapping is direct and transparent. Each joystick axis corresponds intuitively to an arm axis — moving the left joystick forward/back might control shoulder elevation, while twisting it might rotate the shoulder. The right joystick might control elbow flex and wrist motion, with the trigger operating the gripper. There is no abstraction layer: the mechanical gear train IS the mapping function.
+
+The 'energy level' countdown timer adds a game-like constraint. The user sets an initial level from 1 to 10 units, and the arm shuts off when time runs out. This turns teleoperation into a timed dexterity challenge: can you rearrange all the geometric objects before the power cuts out?
+
+This stands in stark contrast to the digital programming interfaces of other contemporary robotic toys like Big Trak (keypad-programmed) or HERO 1 (computer-programmed). The Armatron eliminates programming entirely in favor of real-time manual control, embodying a philosophy closer to musical instrument design than computer science.
+* **HCI Significance.** The Armatron is significant for two reasons. First, it made teleoperation accessible to consumers at an unprecedented price point. Industrial robot arms of the early 1980s cost tens of thousands of dollars; the Armatron cost $40. It gave children — and curious adults — direct kinesthetic experience with a six-axis manipulator, demystifying the robotic arms they saw on factory floors and in science fiction. Second, the purely mechanical implementation is an elegant counterpoint to digital HCI. In an era when computers were rapidly digitizing every interface, the Armatron demonstrated that precision mechanical linkages could still provide satisfying, intuitive control without a single line of code. It is HCI without the C — human-machine interaction reduced to its physical essence.
+
+### Team
+
+* **Hiroyuki Watanabe.** lead inventor at Tomy, Tokyo; 49-year Tomy veteran; inspired by his RC helicopter hobby
+* **Tomy (now Takara Tomy).** Japanese toy manufacturer; designed and manufactured the Armatron
+* **Radio Shack.** US distributor of the Armatron
+
+### Media
+
+![Tomy Armatron robotic arm with dual joystick controls, showing the arm structure, gripper, and control base](../assets/wiki/armatron-1.jpg)
+*Tomy Armatron with dual joystick controls and two-finger gripper. Source: Wikimedia Commons.*
+
+### Sources
+
+1. Armatron - Wikipedia — https://en.wikipedia.org/wiki/Armatron
+2. Hawkins, William J. 'What's new in Electronics.' Popular Science, March 1984 — https://books.google.com/books?id=rAAAAAAAMBAJ&pg=PA114
+3. Canadian Patent #1237453 (Armatron mechanism) — https://www.ic.gc.ca/opic-cipo/cpd/eng/patent/1237453/summary.html
+4. 'How a 1980s toy robot arm inspired modern robotics.' MIT Technology Review, April 17, 2025 — https://www.technologyreview.com/2025/04/17/1114456/toy-armatron-modern-robotics-ai-nostalgia/
+5. Armatron color/model variants and internal component photos — http://www.theoldrobots.com/armatron2.html
+6. Description of internal mechanical components — http://www.starborneworks.com/?p=22
+
+---
+
+## Big Trak (1979)
+
+**By:** Milton Bradley Company  
+**Tags:** `HCI` `Robot` `Programming` `Education` `Toy` `Embodied`
+
+### Overview
+
+Big Trak is a programmable six-wheeled toy tank created by Milton Bradley in 1979. Resembling a futuristic sci-fi utility vehicle, it features a front-mounted blue 'photon beam' headlamp and a membrane keypad on top. The toy is powered by a Texas Instruments TMS1000 microcontroller and can remember up to 16 commands — forward/backward in body-lengths, left/right turns in 15-degree increments, pause, fire, and a primitive RPT (repeat) loop instruction — which it then executes in sequence. An optional cargo trailer accessory could be programmed to dump its payload.
+
+The interaction is entirely self-contained: there is no screen, no external computer, no compiler. The user builds a program by pressing keys on the toy itself, then presses GO to execute it in the physical world. The feedback is purely embodied — success or failure is measured in whether the tank navigates around furniture or collides with it. This made Big Trak one of the earliest consumer devices to introduce non-experts (children) to procedural/logical sequencing and turtle-graphics-style programming concepts.
+
+The original US version was moulded in gray plastic and labeled 'BIG TRAK', while the UK/European version was white and labeled 'bigtrak' with a different keypad layout. A Soviet clone was produced under the Elektronika IM-11 designation (named 'Lunokhod' after the Soviet Moon rover programme). A licensed replica was released by Zeon Ltd in 2010.
+
+### Deep dive
+
+* **Origins.** Big Trak was conceived at Milton Bradley, the venerable board game and toy company. The story of its origin became the subject of a 2024 episode of This American Life (Episode 827, Act One), in which Peter Ocko recounts his father's role in the idea and the subsequent lawsuit the family filed against Milton Bradley. The toy launched in 1979, powered by the Texas Instruments TMS1000 — the same 4-bit microcontroller family that powered Speak & Spell — with separate battery supplies for the logic (9V) and motors (4× D cells) to prevent electrical noise from resetting the microcontroller.
+* **Interaction Model.** The programming interface is a membrane keypad on the vehicle's top surface. Commands include: Forward/Backward (in units of one body-length), Left/Right (in units of roughly 1/60th of a full rotation, or 6 degrees — though labelled as 'minutes' on the keypad), HOLD (pause in 1/10 second units), FIRE (activate the photon beam light), CLR (clear program), CLS (clear last step), RPT (repeat a number of steps — a primitive loop construct), TEST (run a short built-in test program), CK (check last instruction), and OUT (activate optional trailer dump). There were no LED displays or any way to review a stored program other than running it. The IN command was reserved for future expansion but was never fully implemented in production hardware.
+
+The programming model resembles turtle graphics from the Logo programming language — spatial commands that move an agent through the world — but with a crucial difference: Logo turtles live on a screen with instant visual feedback. Big Trak executes in physical space, where friction, carpet pile, battery charge, and furniture all affect the outcome. The gap between the abstract program and its embodied execution is the whole point.
+* **Computer Control and Hacking.** In February 1981, Steve Ciarcia published an article in BYTE magazine ('A Computer-Controlled Tank') detailing how to control Big Trak with a personal computer via a radio interface, effectively turning it into a home robot peripheral. In the 2000s and 2010s, hobbyists reverse-engineered the TMS1000 and developed Arduino and Raspberry Pi interfaces, preserving Big Trak as a platform for modern robotics experimentation. The 2010 Zeon replica uses surface-mount components and hall-effect motor sensors instead of the original optical detectors.
+* **Scientific Research Platform.** In the early 1980s, the psychology of science community led by David Klahr's laboratory at Carnegie Mellon University adopted Big Trak as a research vehicle for studying instructionless learning, scientific discovery, cognitive development, and dual space search. Participants were given a Big Trak with no manual and asked to figure out how it worked. The research was published in Klahr's 2000 book 'Exploring Science: The Cognition and Development of Discovery Processes' (MIT Press). Big Trak remains, to this day, one of the only consumer toys to be adopted as a formal instrument of cognitive science research.
+
+### Team
+
+* **Milton Bradley Company.** manufacturer and publisher
+* **Peter Ocko (father).** claimed originator of the concept; family sued Milton Bradley
+* **Texas Instruments.** supplier of the TMS1000 microcontroller
+* **Steve Ciarcia.** published BYTE magazine article on computer-controlling Big Trak via radio (1981)
+* **David Klahr.** Carnegie Mellon University; used Big Trak for cognitive science research in the 1980s
+
+### Media
+
+![A white UK version of Big Trak on a white background, showing the six-wheeled tank form factor and top-mounted keypad](../assets/wiki/big-trak-1.jpg)
+*UK/European Bigtrak model (white, with different keypad layout from the US gray version). Source: Wikimedia Commons.*
+
+### Sources
+
+1. Big Trak - Wikipedia — https://en.wikipedia.org/wiki/Big_Trak
+2. Ciarcia, Steve. 'A Computer-Controlled Tank.' BYTE, February 1981, p. 44 — https://archive.org/stream/byte-magazine-1981-02/1981_02_BYTE_06-02_The_Computer_and_Voice_Synthesis#page/n45/mode/2up
+3. Robot Room: Inside the Bigtrak (reverse engineering, versions, IN/OUT commands) — http://www.robotroom.com/BigTrak.html
+4. This American Life Episode 827, Act One: 'Toy R Us' (lawsuit story) — https://www.thisamericanlife.org/827/all-the-kings-horses/act-one-1
+5. Klahr, D. (2000). Exploring Science: The Cognition and Development of Discovery Processes. Cambridge, MA: MIT Press — 
+6. Zeon Ltd Bigtrak 2010 replica — http://www.zeonltd.co.uk/ads/toy-world-big-trak
+
+## Logitech ScanMan (1987)
+
+**By:** Logitech  
+**Tags:** `HCI` `Input` `Scanner` `Handheld` `Embodied`
+
+### Overview
+
+The Logitech ScanMan was introduced in 1987 as one of the first affordable handheld scanners for personal computers. About 4 inches wide, it connected to a PC via serial port and was physically dragged by the user across the surface of the document to be scanned. The original model (gray, 200 dpi, 1-bit monochrome) was followed by the ScanMan 32 (1990, 32-shade grayscale) and the ScanMan Color (1992, 24-bit color). A specimen of the ScanMan Color is preserved in the Musée Bolo in Lausanne, Switzerland.
+
+The interaction model was uniquely embodied: the user held the scanner like a fat highlighter pen and manually pulled it down the page at a constant speed. A small roller on the underside generated a clock signal for synchronization with the computer's sampling rate. An LED indicator would warn if the user moved too fast, which would cause horizontal compression in the resulting image. Each pass captured only a strip about 4 inches wide, so scanning a full letter-size page required multiple parallel passes that had to be software-stitched together.
+
+This made scanning quality a direct function of the user's manual dexterity, steadiness, and patience. Unlike a flatbed scanner — where a motorized carriage does the work — the ScanMan eliminated the motor and made the human arm the scanning actuator, trading automation for embodiment in exchange for a lower price point (typically $200-400 versus $1,000+ for early flatbeds). It was an intriguing case of technological 'simplification' that actually demanded more from the user, not less.
+
+### Deep dive
+
+* **Interaction Model.** The ScanMan represents a deliberate choice in interaction design: remove the motor and make the human do the mechanical work. The user initiates a scan by pressing and holding a button, then drags the scanner manually across the document. The roller encoder provides a clock — each 'tick' triggers one line of image capture — which means the scanning speed is directly coupled to the speed of the user's hand. Too fast, and pixels are stretched horizontally. Too slow, and they're compressed. Uneven speed produces wavy distortion.
+
+For full-page documents, the user makes multiple parallel passes and uses accompanying stitching software to align and merge the strips. This introduces a second layer of embodied interaction: spatial judgment (did the passes overlap enough?) and alignment patience. The user learns, through trial and error, to modulate their arm movement to produce acceptable scans. This feedback loop — make a pass, inspect the result, adjust technique, try again — makes scanning an acquired skill rather than a button press.
+* **Market Context.** The ScanMan arrived in 1987, the same year Hewlett-Packard launched the first affordable flatbed scanner, the HP ScanJet. The ScanJet cost $1,990 and produced high-quality grayscale scans automatically. The ScanMan cost a fraction of that — typically $200-400 — but demanded the user's physical participation. This tradeoff created a fascinating market segment: users who needed occasional scanning but couldn't justify the expense of a flatbed. Handheld scanners remained a niche product throughout the 1990s, eventually rendered obsolete as flatbed scanner prices dropped below $300 by the end of the decade.
+* **Legacy.** The ScanMan is an early example of what might be called 'trickle-up interaction design': a cheaper, simpler device that paradoxically requires more skill from its user. The human body fills a gap that in more expensive products would be handled by motors and precision engineering. This pattern reappears periodically in HCI history — consider the difference between a Wacom Cintiq (built-in display, zero parallax) and early graphics tablets where the user learned to draw while looking at a separate screen. The ScanMan is a compact object lesson in the embodied costs of affordability.
+
+Today, the ScanMan Color is preserved as part of the collection of the Musée Bolo (École Polytechnique Fédérale de Lausanne), Switzerland's museum of computer history, where it represents the transitional era between purely analog document handling and the automated digital scanning we now take for granted.
+
+### Team
+
+* **Logitech.** Swiss-American computer peripherals manufacturer; developed and marketed the ScanMan line
+* **Musée Bolo.** computer history museum in Lausanne, Switzerland; holds a ScanMan Color in its permanent collection
+
+### Media
+
+![Logitech ScanMan Color handheld scanner, white plastic body shaped like a fat pen, with roller and scan button visible](../assets/wiki/scanman-1.jpg)
+*Logitech ScanMan Color (1992), preserved at the Musée Bolo, Lausanne. Photo by Rama, CC BY-SA. Source: Wikimedia Commons.*
+
+### Sources
+
+1. Image scanner - Wikipedia (Handheld section, includes ScanMan) — https://en.wikipedia.org/wiki/Image_scanner#Handheld
+2. Gruman, Galen. 'Hand Scanners: Low Cost Route to PC Imaging.' PC Magazine/InfoWorld, 1988 — 
+3. Musée Bolo - Logitech ScanMan Color in collection — https://commons.wikimedia.org/wiki/File:Logitech_ScanMan_Color-P4191193-white.jpg

@@ -1,0 +1,56 @@
+{
+  "slug": "armatron",
+  "title": "Armatron",
+  "year": "1984",
+  "subtitle": "a $40 plastic robot arm that made every ten-year-old a teleoperator, no computer required",
+  "why_scout_cares": "The Armatron is a six-degree-of-freedom robotic arm sold as a toy in 1984, distributed by Radio Shack and made by Tomy. It contains almost no electronics — just a single DC motor, a countdown timer, and batteries. The dual joysticks mechanically engage a set of rotating gear drums that map your hand movements directly onto the arm's wrist rotation, wrist flex, elbow bend, shoulder rotation, shoulder elevation, and gripper open/close. There is no programming, no digital interface, no screen. The user's hands move the joysticks, and the arm moves. It is a waldo — a master-slave teleoperator — that cost $40 and came with a plastic challenge set (cones, spheres, cylinders, a box with a hinged lid) designed to test your dexterity. The inventor, Hiroyuki Watanabe, modeled the controls after his radio-controlled helicopter hobby and worked at Tomy for 49 years. The Armatron is the purest consumer expression of one of HCI's most fundamental concepts: that a machine can be an extension of the human hand, mapped isomorphically, with nothing between intention and action but gears.",
+  "search_terms": ["Armatron", "Tomy Armatron robot arm", "Radio Shack Armatron 1984", "Hiroyuki Watanabe Armatron"],
+  "research": {
+    "title": "Armatron",
+    "year": "1984",
+    "by": "Tomy (distributed in the US by Radio Shack)",
+    "tags": ["HCI", "Robot", "Teleoperation", "Toy", "Mechanical", "Embodied"],
+    "overview": "The Armatron is a tabletop robotic arm toy made by Tomy and distributed by Radio Shack in the United States beginning in 1984. It consists of a crane-like arm with a two-fingered gripper that can pick up and manipulate small objects. The arm has six degrees of freedom: wrist rotation (unlimited), vertical wrist flexing, horizontal elbow bending, shoulder horizontal rotation (unlimited), shoulder elevation, and gripper open/close. \n\nThe arm is almost purely mechanical. The only electrical components are a single DC motor, switch contacts in a countdown timer (disguised as an 'energy level' indicator), and the batteries. The dual joysticks selectively engage or disengage gears on a set of rotating gear drums — each joystick intuitively maps to specific axes of the arm. The result is direct, isomorphic kinesthetic control. There is no computer, no programming language, no digital interface whatsoever.\n\nThe toy came with a module pack of plastic items: two stepped cones, two spheres, two cylinders, a flat base module, and a hinged-lidded box. The challenge was to use the arm to move the spheres and cones from the top of the box to the flat module, open the box lid, and extract the cylinders — all within the time limit set by the countdown timer. Models with alternate decals or coloring were marketed as the Super Armatron and Armatron II. A mobile version with a wired remote succeeded the original stationary version.",
+    "deepDive": [
+      {
+        "heading": "Inventor",
+        "text": "The lead inventor of the Armatron was Hiroyuki Watanabe, a toy designer who worked for Tomy in Tokyo, Japan for 49 years. According to Watanabe, the dual joystick controls were directly inspired by his hobby flying radio-controlled helicopters, where dual joysticks are used to control multiple axes simultaneously. The Armatron is essentially a simplified, ground-based version of the same kinesthetic control paradigm. Canadian patent #1237453 covers the mechanical design. Watanabe's story was featured in MIT Technology Review in April 2025, which called the Armatron a toy that 'inspired modern robotics.'"
+      },
+      {
+        "heading": "Interaction Model",
+        "text": "The Armatron's interaction model is pure teleoperation: the user's hands are the master, the arm is the slave, and the mapping is direct and transparent. Each joystick axis corresponds intuitively to an arm axis — moving the left joystick forward/back might control shoulder elevation, while twisting it might rotate the shoulder. The right joystick might control elbow flex and wrist motion, with the trigger operating the gripper. There is no abstraction layer: the mechanical gear train IS the mapping function.\n\nThe 'energy level' countdown timer adds a game-like constraint. The user sets an initial level from 1 to 10 units, and the arm shuts off when time runs out. This turns teleoperation into a timed dexterity challenge: can you rearrange all the geometric objects before the power cuts out?\n\nThis stands in stark contrast to the digital programming interfaces of other contemporary robotic toys like Big Trak (keypad-programmed) or HERO 1 (computer-programmed). The Armatron eliminates programming entirely in favor of real-time manual control, embodying a philosophy closer to musical instrument design than computer science."
+      },
+      {
+        "heading": "HCI Significance",
+        "text": "The Armatron is significant for two reasons. First, it made teleoperation accessible to consumers at an unprecedented price point. Industrial robot arms of the early 1980s cost tens of thousands of dollars; the Armatron cost $40. It gave children — and curious adults — direct kinesthetic experience with a six-axis manipulator, demystifying the robotic arms they saw on factory floors and in science fiction. Second, the purely mechanical implementation is an elegant counterpoint to digital HCI. In an era when computers were rapidly digitizing every interface, the Armatron demonstrated that precision mechanical linkages could still provide satisfying, intuitive control without a single line of code. It is HCI without the C — human-machine interaction reduced to its physical essence."
+      }
+    ],
+    "team": [
+      {"name": "Hiroyuki Watanabe", "note": "lead inventor at Tomy, Tokyo; 49-year Tomy veteran; inspired by his RC helicopter hobby"},
+      {"name": "Tomy (now Takara Tomy)", "note": "Japanese toy manufacturer; designed and manufactured the Armatron"},
+      {"name": "Radio Shack", "note": "US distributor of the Armatron"}
+    ],
+    "media": [
+      {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/4/40/TOMY_Armatron_3.jpg",
+        "alt": "Tomy Armatron robotic arm with dual joystick controls, showing the arm structure, gripper, and control base",
+        "caption": "Tomy Armatron with dual joystick controls and two-finger gripper. Source: Wikimedia Commons."
+      }
+    ],
+    "sources": [
+      {"text": "Armatron - Wikipedia", "url": "https://en.wikipedia.org/wiki/Armatron"},
+      {"text": "Hawkins, William J. 'What's new in Electronics.' Popular Science, March 1984", "url": "https://books.google.com/books?id=rAAAAAAAMBAJ&pg=PA114"},
+      {"text": "Canadian Patent #1237453 (Armatron mechanism)", "url": "https://www.ic.gc.ca/opic-cipo/cpd/eng/patent/1237453/summary.html"},
+      {"text": "'How a 1980s toy robot arm inspired modern robotics.' MIT Technology Review, April 17, 2025", "url": "https://www.technologyreview.com/2025/04/17/1114456/toy-armatron-modern-robotics-ai-nostalgia/"},
+      {"text": "Armatron color/model variants and internal component photos", "url": "http://www.theoldrobots.com/armatron2.html"},
+      {"text": "Description of internal mechanical components", "url": "http://www.starborneworks.com/?p=22"}
+    ],
+    "imageUrls": [
+      "https://commons.wikimedia.org/wiki/Category:Armatron",
+      "https://upload.wikimedia.org/wikipedia/commons/4/40/TOMY_Armatron_3.jpg",
+      "https://upload.wikimedia.org/wikipedia/commons/3/33/TOMY_Armatron_5.jpg",
+      "https://upload.wikimedia.org/wikipedia/commons/5/53/TOMY_Armatron_2.jpg"
+    ]
+  },
+  "savedImages": ["potential/armatron/images/armatron-1.jpg"]
+}
