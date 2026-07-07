@@ -91,6 +91,9 @@ Each entry includes an overview, a deep dive, a small media gallery, and full so
 82. [Armatron (1984)](#armatron-1984)
 83. [Big Trak (1979)](#big-trak-1979)
 84. [Logitech ScanMan (1987)](#logitech-scanman-1987)
+85. [BAT Keyboard (1990)](#bat-keyboard-1990)
+86. [NTT ClearBoard-1 (1991)](#ntt-clearboard-1-1991)
+87. [Xerox LiveBoard (1990)](#xerox-liveboard-1990)
 
 ---
 
@@ -4310,3 +4313,123 @@ Today, the ScanMan Color is preserved as part of the collection of the Musée Bo
 1. Image scanner - Wikipedia (Handheld section, includes ScanMan) — https://en.wikipedia.org/wiki/Image_scanner#Handheld
 2. Gruman, Galen. 'Hand Scanners: Low Cost Route to PC Imaging.' PC Magazine/InfoWorld, 1988 — 
 3. Musée Bolo - Logitech ScanMan Color in collection — https://commons.wikimedia.org/wiki/File:Logitech_ScanMan_Color-P4191193-white.jpg
+
+---
+
+## BAT Keyboard (1990)
+
+**By:** Infogrip, Inc. (Baton Rouge, Louisiana) with NASA Stennis Space Center  
+**Tags:** `HCI` `Input` `Accessibility` `Chord Keyboard` `Wearable`
+
+### Overview
+
+The BAT Personal Keyboard, introduced by Infogrip at COMDEX Las Vegas in fall 1990, is a 7-key one-handed chord keyboard. It uses four finger keys and three thumb keys — red, grey, and blue — in a piano-chord arrangement that produces all 101-key keyboard functions through 180+ chord combinations. The keyboard sits on the desk at a 25-degree tilt with an integrated wrist rest, designed for natural hand geometry. Keycaps are mounted backwards (180° rotated) for an ultra-low profile, and the pinky key is taller to compensate for shorter, weaker fingers. Three layers of 1/8-inch EVA foam under each keycap absorb shock. Cherry MX Black switches are modified with exceptionally light springs — lighter than any stock Cherry switch — for minimal actuation force. The BAT originated in Israeli Air Force human-factors research (reducing fighter-jet control sequences from 32 to 12 seconds via chording), was developed with NASA's Stennis Space Center for both spacecraft interaction and assistive technology, and was manufactured by Infogrip from 1990 into the 2000s. Users could learn key combinations in about 45 minutes and reach 45 words per minute after about 45 hours of practice.
+
+### Deep dive
+
+* **Chord Scheme: Three Thumb Layers.** The BAT's chording system uses three thumb-key 'layers' to multiply its 4 finger keys into a full keyboard. Lowercase letters use finger keys plus the grey thumb key. Numbers and symbols are accessed through the red thumb layer. Modifier keys and navigation (Ctrl, Alt, arrows, Home, End, PgUp, PgDn) use the blue thumb layer with sticky-key behavior. This three-layer architecture means the user's hand never leaves the home position — every function is a chord. The keyboard also supported macro programming, with 32KB of battery-backed RAM for custom chord sequences.
+* **NASA Spinoff and Space Heritage.** NASA's Stennis Space Center partnered with Infogrip to develop chordic input technology, documented in the official NASA Spinoff 1993 publication (document ID 20020080924). NASA's dual interest was in faster human-computer interaction for spacecraft and a low-cost tactile training system for disabled users. The Spinoff entry notes: 'Using chordic technology, a data entry operator can finger key combinations for text or graphics input. Because only one hand is needed, a disabled person may use it. Strain and fatigue are less than when using a conventional keyboard; input is faster, and the system can be learned in about an hour.'
+* **InfoWear: The Wearable PC Concept.** In 1992, Infogrip prototyped the InfoWear Hip PC — a PC clone worn in a fanny pack with the miniBAT (a battery-powered chord keyboard companion) and a Reflection Technologies Private Eye head-mounted display. This was one of the earliest documented wearable computing concepts to reach the prototype stage, predating the mainstream wearable computing movement by several years. Infogrip also developed the 'Intelligent Chair' concept with a major office furniture maker, placing BAT wings at the armrest ends.
+
+### Team
+
+* **Ward Bond.** President of Infogrip, Inc., led the BAT launch at COMDEX 1990
+* **Israeli Air Force Human Factors Specialist (unnamed).** Originator of the chord design that reduced fighter-jet control sequences from 32 to 12 seconds
+* **NASA Stennis Space Center.** Development partner for spaceflight and accessibility applications
+* **Robert Ramey.** Later re-engineered BAT firmware as a one-chip PIC solution with USB HID
+
+### Media
+
+![BAT Keyboard at Computer History Museum](../assets/wiki/bat-keyboard-1.jpg)
+*BAT Keyboard in the Computer History Museum's Revolution exhibit. Photo by Mark Richards. Source: CHM.*
+
+### Sources
+
+1. Computer History Museum: BAT Keyboard catalog #102662183 — https://www.computerhistory.org/collections/catalog/102662183
+2. CHM Revolution Exhibit: BAT Keyboard — https://www.computerhistory.org/revolution/input-output/14/355/1738
+3. NASA Spinoff 1993: Chordic Input Technology — https://spinoff.nasa.gov/node/9947
+4. TidBITS Oct 1990: Holy BATKeyboards! (COMDEX launch review) — https://tidbits.com/1990/10/29/holy-batkeyboards/
+5. Hackaday Aug 2020: Inputs of Interest — The Infogrip BAT Chording Keyboard (teardown) — https://hackaday.com/2020/08/18/inputs-of-interest-the-infogrip-bat-chording-keyboard/
+6. Keyboard Wiki: BAT Keyboard (detailed specs and image gallery) — https://wiki.themk.org/index.php/BAT_Keyboard
+7. Wikipedia: BAT keyboard — https://en.wikipedia.org/wiki/BAT_keyboard
+
+---
+
+## NTT ClearBoard-1 (1991)
+
+**By:** Hiroshi Ishii and Minoru Kobayashi, NTT Human Interface Laboratories (Yokosuka, Japan)  
+**Tags:** `HCI` `CSCW` `Video` `Drawing` `Optical`
+
+### Overview
+
+ClearBoard-1 is a shared drawing medium created by Hiroshi Ishii and Minoru Kobayashi at NTT Human Interface Laboratories in 1991, published at CHI 1992. Unlike every other collaborative drawing system of its era, ClearBoard-1 required no computer for the drawing itself — users drew with physical marker pens on a large glass pane. The key innovation was a half-silvered mirror positioned at a 45-degree angle behind the glass, with a video camera behind it. This optical arrangement superimposed the remote collaborator's live video face onto the shared drawing surface, creating the illusion that you were drawing on the same piece of glass as your partner while looking at them through it. Critically, it maintained eye contact and 'gaze awareness' — you could see where your partner was looking on the shared workspace, a capability lost in standard video conferencing. Ishii described the metaphor as 'talking through and drawing on a transparent glass window.' The system used a 'Drafter-Mirror' architecture: two CCD cameras (one for face capture, one for the drawing surface), a video mixer, and the half-silvered mirror. ClearBoard-1 was succeeded by ClearBoard-2 (1994), which added computer-integrated drawing tools via the TeamPaint editor. The original ClearBoard-1 is held in the ICC (NTT InterCommunication Center) Tokyo permanent collection.
+
+### Deep dive
+
+* **The Drafter-Mirror Architecture.** The optical heart of ClearBoard-1 was a half-silvered mirror at a 45-degree angle behind the glass drawing surface. One CCD camera captured the user's face (looking 'through' the mirror from behind), while another captured the drawing surface from above. A video mixer combined the two feeds, and the resulting image was transmitted to the remote site, where it was rear-projected onto the partner's glass board. The half-silvered mirror meant the user saw both their own markers on the glass AND the projected image of their partner's face AND their partner's markers. One quirk: images were mirror-reversed by the optics, requiring video correction to make text appear correctly oriented. The system also had to correct for the fact that one user always saw a mirrored image — an inherent consequence of the 'looking through the same glass' metaphor.
+* **Gaze Awareness: The Missing Dimension of CSCW.** Ishii and Kobayashi identified 'gaze awareness' as a critical missing feature in computer-supported cooperative work. Standard shared whiteboard systems let you see what your partner is drawing, but not where they are looking. Standard video conferencing lets you see your partner's face, but not what they're working on. ClearBoard integrated both: the partner's face appeared superimposed on the shared workspace, so looking at the drawing and looking at your partner were the same act. This was not a feature — it was a consequence of the optical design. The CHI 1992 paper argued that this integration of 'interpersonal space' and 'shared workspace' was essential for seamless remote collaboration.
+* **From NTT to MIT: Ishii's Trajectory.** ClearBoard was Hiroshi Ishii's breakthrough project at NTT Human Interface Laboratories. After its publication at CHI 1992 and CSCW 1992, Ishii joined the MIT Media Lab, where he founded the Tangible Media Group and developed the 'Tangible Bits' vision (published at CHI 1997). ClearBoard's philosophy — that the physical configuration of an interface shapes collaboration in ways no software feature can replicate — directly informed his later work on tangible user interfaces. ClearBoard-1 was exhibited at ICC Tokyo in 2000 as part of Ishii's 'Open Studio: Tangible Bits' exhibition, and ClearBoard-2 was shown at SIGGRAPH 1994.
+
+### Team
+
+* **Hiroshi Ishii.** Lead researcher, NTT Human Interface Laboratories; later founded MIT Media Lab's Tangible Media Group
+* **Minoru Kobayashi.** Co-creator, NTT Human Interface Laboratories
+* **Jonathan Grudin.** Co-author on CSCW 1992 extended paper
+* **Kazuho Arita.** Co-author on ClearBoard iterative design paper (CACM 1994)
+
+### Media
+
+![NTT ClearBoard-1 at ICC Tokyo](../assets/wiki/ntt-clearboard-1.jpg)
+*ClearBoard-1 in the ICC Tokyo permanent collection. © NTT ICC. Source: ICC Tokyo.*
+
+### Sources
+
+1. CHI 1992: ClearBoard: A Seamless Media for Shared Drawing and Conversation with Eye-Contact — https://dl.acm.org/doi/10.1145/142750.142977
+2. CSCW 1992: Integration of Inter-Personal Space and Shared Workspace — https://dl.acm.org/doi/10.1145/143457.143459
+3. ICC Tokyo Collection: ClearBoard-1 — https://www.ntticc.or.jp/en/archive/works/clearboard-1/
+4. MIT Tangible Media Group: ClearBoard Project Page — https://tangible.media.mit.edu/project/clearboard/
+5. Hiroshi Ishii Classic Page: ClearBoard Overview — https://www.media.mit.edu/~ishii/CB.html
+6. CACM 1994: Iterative Design of Seamless Collaboration Media (ClearBoard-1 and -2) — https://dl.acm.org/doi/10.1145/175276.175278
+
+---
+
+## Xerox LiveBoard (1990)
+
+**By:** Xerox PARC Colab Team (Elrod, Bruce, Gold, Goldberg, Halasz, Janssen, Lee, McCall, Pedersen, Pier, Tang, Welch)  
+**Tags:** `HCI` `Input` `Display` `CSCW` `Pen Computing`
+
+### Overview
+
+The Xerox LiveBoard was a 67-inch rear-projection interactive display developed at Xerox PARC's Colab project between 1987 and 1990. Published at CHI 1992 with 12 co-authors, it represented the culmination of PARC's vision for computer-supported collaborative work. The LiveBoard used laser triangulation — with a rotating polygon mirror borrowed from Xerox copier technology — to track multiple cordless pens simultaneously on a wall-sized display. The system supported networked multi-user collaboration: up to 31 LiveBoards could be linked, with remote participants seeing and annotating the same shared workspace in real time. The board connected to a workstation running groupware like Cognoter and Boardnoter, and later Tivoli, a pen-gesture-driven electronic whiteboard application. Xerox spun off LiveWorks, Inc. in 1992 to commercialize the system; over 2,000 units were sold by 2000 at $49,500 each. The Computer History Museum holds a LiveBoard (model LB3, serial 3E1122X) in its permanent collection.
+
+### Deep dive
+
+* **The Colab Room.** The LiveBoard was not a standalone product — it was the centerpiece of the Colab (Collaboration Laboratory), a custom-designed electronic meeting room at Xerox PARC completed in 1987. The room featured motorized desks, specially designed no-glare lighting, an 'electern' (electronic lectern with height-adjustable keyboard), and four networked Dorado workstations. The philosophy was total environmental design: every surface, every light, every piece of furniture was optimized for computer-supported group work. Mark Stefik wrote: 'We did not want to lose the emotional impact of a big whiteboard — something that you view from ten feet rather than ten inches.'
+* **Laser Position Detection.** The LiveBoard's position sensing was brilliantly pragmatic. A laser with a rotating polygon mirror — literally cannibalized from Xerox's copier imaging systems — was mounted in the upper right corner of the board. Mirrors and retro-reflectors on two edges of the board reflected the sweeping laser beam. When a finger or pen touched the surface, it interrupted the beam, and the system triangulated the interruption's position. This was a 'skunkworks' build by a Xerox engineering team in Webster, New York — using their own company's copier parts to build a collaborative computer display. An alternative ultrasonic pen position detection system was also developed and patented (US 4,974,173 and 4,814,552).
+* **From Prototype to Product.** The commercial LiveBoard launched May 18, 1993 at $49,500. It ran on an Intel 486 processor with Microsoft Windows, connected via Ethernet and telephone modems. Early adopters included Daimler-Benz, which used LiveBoards to share product designs between Pittsburgh and Ulm, Germany. By 2000, LiveWorks had sold over 2,000 units. The Tivoli software (Elin Rønby Pedersen, Kim McCall, Thomas P. Moran, Frank G. Halasz, 1993) brought pen gestures — scrubbing to erase, circling to select — to informal meeting whiteboarding, establishing interaction patterns that would influence tablet computing decades later.
+
+### Team
+
+* **Mark Stefik.** Principal Investigator, Colab concept and patents
+* **Scott Elrod.** CHI 1992 lead author
+* **Rich Gold.** CHI 1992 co-author, PARC artist and interaction designer
+* **Frank Halasz.** CHI 1992 co-author, later Tivoli co-creator
+* **Elin Rønby Pedersen.** CHI 1992 co-author, Tivoli software co-creator
+* **John Tang.** CHI 1992 co-author, groupware researcher
+* **Daniel G. Bobrow.** Colab co-PI, software architecture
+* **Lucy Suchman.** Ethnographic studies of meetings at PARC
+* **Xerox Skunkworks (Webster, NY).** Built the first physical LiveBoard prototype using copier laser parts
+
+### Media
+
+![Xerox LiveBoard Skunkworks prototype](../assets/wiki/xerox-liveboard-1.jpg)
+*The Skunkworks prototype LiveBoard built in Webster, New York using copier-derived laser optics. Source: Mark Stefik.*
+
+### Sources
+
+1. CHI 1992: Liveboard: A Large Interactive Display Supporting Group Meetings, Presentations, and Remote Collaboration — https://dl.acm.org/doi/10.1145/142750.143052
+2. Computer History Museum: LiveBoard catalog #102678840 — https://www.computerhistory.org/collections/catalog/102678840
+3. CHM Revolution Exhibit: LiveBoard — https://www.computerhistory.org/revolution/input-output/14/349/1829
+4. Mark Stefik: Colab Electronic Meeting Room (historical photos and narrative) — https://www.markstefik.com/?page_id=155
+5. UPI: Xerox introduces LiveBoard (1993 launch coverage) — https://www.upi.com/Archives/1993/05/18/Xerox-introduces-LiveBoard/1596737697600/
+6. The Independent: Chip chalks up new success (1994 UK launch) — https://www.independent.co.uk/news/business/chip-chalks-up-new-success-1440458.html
