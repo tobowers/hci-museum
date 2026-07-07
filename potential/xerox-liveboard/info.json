@@ -1,0 +1,59 @@
+{
+  "slug": "xerox-liveboard",
+  "title": "Xerox LiveBoard",
+  "year": "1990",
+  "subtitle": "A 67-inch rear-projection wall that turned a meeting room into a shared computer — and put a laser from a copier in the corner to track your pen.",
+  "why_scout_cares": "The LiveBoard was the moment collaborative computing outgrew the desk. A 67-inch rear-projection display with laser-based pen sensing, built from repurposed Xerox copier parts, let multiple people write simultaneously on a shared digital wall. The Colab room that housed it — with motorized desks, no-glare lighting, and four networked workstations — was an entire physical environment designed around a new way of working together. One of the most ambitious HCI artifacts of its era.",
+  "search_terms": ["Xerox LiveBoard PARC", "LiveBoard large interactive display", "Colab electronic meeting room", "Xerox PARC ubiquitous computing"],
+  "research": {
+    "title": "Xerox LiveBoard",
+    "year": "1990",
+    "by": "Xerox PARC Colab Team (Elrod, Bruce, Gold, Goldberg, Halasz, Janssen, Lee, McCall, Pedersen, Pier, Tang, Welch)",
+    "tags": ["HCI", "Input", "Display", "CSCW", "Pen Computing"],
+    "overview": "The Xerox LiveBoard was a 67-inch rear-projection interactive display developed at Xerox PARC's Colab project between 1987 and 1990. Published at CHI 1992 with 12 co-authors, it represented the culmination of PARC's vision for computer-supported collaborative work. The LiveBoard used laser triangulation — with a rotating polygon mirror borrowed from Xerox copier technology — to track multiple cordless pens simultaneously on a wall-sized display. The system supported networked multi-user collaboration: up to 31 LiveBoards could be linked, with remote participants seeing and annotating the same shared workspace in real time. The board connected to a workstation running groupware like Cognoter and Boardnoter, and later Tivoli, a pen-gesture-driven electronic whiteboard application. Xerox spun off LiveWorks, Inc. in 1992 to commercialize the system; over 2,000 units were sold by 2000 at $49,500 each. The Computer History Museum holds a LiveBoard (model LB3, serial 3E1122X) in its permanent collection.",
+    "deepDive": [
+      {
+        "heading": "The Colab Room",
+        "text": "The LiveBoard was not a standalone product — it was the centerpiece of the Colab (Collaboration Laboratory), a custom-designed electronic meeting room at Xerox PARC completed in 1987. The room featured motorized desks, specially designed no-glare lighting, an 'electern' (electronic lectern with height-adjustable keyboard), and four networked Dorado workstations. The philosophy was total environmental design: every surface, every light, every piece of furniture was optimized for computer-supported group work. Mark Stefik wrote: 'We did not want to lose the emotional impact of a big whiteboard — something that you view from ten feet rather than ten inches.'"
+      },
+      {
+        "heading": "Laser Position Detection",
+        "text": "The LiveBoard's position sensing was brilliantly pragmatic. A laser with a rotating polygon mirror — literally cannibalized from Xerox's copier imaging systems — was mounted in the upper right corner of the board. Mirrors and retro-reflectors on two edges of the board reflected the sweeping laser beam. When a finger or pen touched the surface, it interrupted the beam, and the system triangulated the interruption's position. This was a 'skunkworks' build by a Xerox engineering team in Webster, New York — using their own company's copier parts to build a collaborative computer display. An alternative ultrasonic pen position detection system was also developed and patented (US 4,974,173 and 4,814,552)."
+      },
+      {
+        "heading": "From Prototype to Product",
+        "text": "The commercial LiveBoard launched May 18, 1993 at $49,500. It ran on an Intel 486 processor with Microsoft Windows, connected via Ethernet and telephone modems. Early adopters included Daimler-Benz, which used LiveBoards to share product designs between Pittsburgh and Ulm, Germany. By 2000, LiveWorks had sold over 2,000 units. The Tivoli software (Elin Rønby Pedersen, Kim McCall, Thomas P. Moran, Frank G. Halasz, 1993) brought pen gestures — scrubbing to erase, circling to select — to informal meeting whiteboarding, establishing interaction patterns that would influence tablet computing decades later."
+      }
+    ],
+    "team": [
+      {"name": "Mark Stefik", "note": "Principal Investigator, Colab concept and patents"},
+      {"name": "Scott Elrod", "note": "CHI 1992 lead author"},
+      {"name": "Rich Gold", "note": "CHI 1992 co-author, PARC artist and interaction designer"},
+      {"name": "Frank Halasz", "note": "CHI 1992 co-author, later Tivoli co-creator"},
+      {"name": "Elin Rønby Pedersen", "note": "CHI 1992 co-author, Tivoli software co-creator"},
+      {"name": "John Tang", "note": "CHI 1992 co-author, groupware researcher"},
+      {"name": "Daniel G. Bobrow", "note": "Colab co-PI, software architecture"},
+      {"name": "Lucy Suchman", "note": "Ethnographic studies of meetings at PARC"},
+      {"name": "Xerox Skunkworks (Webster, NY)", "note": "Built the first physical LiveBoard prototype using copier laser parts"}
+    ],
+    "media": [
+      {"src": "http://images.computerhistory.org/revonline/images/102678840p-03-01.jpg", "alt": "Xerox LiveBoard at Computer History Museum", "caption": "Xerox LiveBoard LB3 at the Computer History Museum. Photo by Mark Richards. Source: CHM."},
+      {"src": "http://images.computerhistory.org/revonline/images/102678840p-03-02.jpg", "alt": "Xerox LiveBoard alternate view", "caption": "Alternate view of the LiveBoard. Photo by Mark Richards. Source: CHM."},
+      {"src": "https://www.markstefik.com/wp-content/uploads/2011/03/skunkbd.jpg", "alt": "Xerox Skunkworks prototype LiveBoard", "caption": "The Skunkworks prototype LiveBoard built in Webster, New York using copier-derived laser optics. Source: Mark Stefik."}
+    ],
+    "sources": [
+      {"text": "CHI 1992: Liveboard: A Large Interactive Display Supporting Group Meetings, Presentations, and Remote Collaboration", "url": "https://dl.acm.org/doi/10.1145/142750.143052"},
+      {"text": "Computer History Museum: LiveBoard catalog #102678840", "url": "https://www.computerhistory.org/collections/catalog/102678840"},
+      {"text": "CHM Revolution Exhibit: LiveBoard", "url": "https://www.computerhistory.org/revolution/input-output/14/349/1829"},
+      {"text": "Mark Stefik: Colab Electronic Meeting Room (historical photos and narrative)", "url": "https://www.markstefik.com/?page_id=155"},
+      {"text": "UPI: Xerox introduces LiveBoard (1993 launch coverage)", "url": "https://www.upi.com/Archives/1993/05/18/Xerox-introduces-LiveBoard/1596737697600/"},
+      {"text": "The Independent: Chip chalks up new success (1994 UK launch)", "url": "https://www.independent.co.uk/news/business/chip-chalks-up-new-success-1440458.html"}
+    ],
+    "imageUrls": [
+      "http://images.computerhistory.org/revonline/images/102678840p-03-01.jpg",
+      "http://images.computerhistory.org/revonline/images/102678840p-03-02.jpg",
+      "https://www.markstefik.com/wp-content/uploads/2011/03/skunkbd.jpg"
+    ]
+  },
+  "savedImages": []
+}

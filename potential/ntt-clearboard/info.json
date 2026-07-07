@@ -1,0 +1,54 @@
+{
+  "slug": "ntt-clearboard",
+  "title": "NTT ClearBoard-1",
+  "year": "1991",
+  "subtitle": "A shared glass drawing surface where your collaborator appears as a ghostly face, maintaining eye contact through a half-silvered mirror. You draw together, looking at each other through the board.",
+  "why_scout_cares": "ClearBoard-1 is one of the most beautiful and strange interaction models ever built. Two people at remote locations each draw on a large glass pane with marker pens. A half-silvered mirror at a 45-degree angle superimposes the remote collaborator's live video face onto the drawing surface, so you see them 'through' the glass while drawing together. Eye contact is maintained. Gaze awareness — knowing where your partner is looking — becomes part of the collaboration. Hiroshi Ishii called this 'talking through and drawing on a transparent glass window.' The system used no computers for the drawing — just optics, video cameras, and physical markers on glass. It was never a commercial product, but it was exhibited at ICC Tokyo and launched Ishii's career at MIT, where he would later create the Tangible Media Group. A fleeting, perfect artifact.",
+  "search_terms": ["ClearBoard Ishii NTT", "ClearBoard half-silvered mirror", "Hiroshi Ishii shared drawing", "ClearBoard gaze awareness"],
+  "research": {
+    "title": "NTT ClearBoard-1",
+    "year": "1991",
+    "by": "Hiroshi Ishii and Minoru Kobayashi, NTT Human Interface Laboratories (Yokosuka, Japan)",
+    "tags": ["HCI", "CSCW", "Video", "Drawing", "Optical"],
+    "overview": "ClearBoard-1 is a shared drawing medium created by Hiroshi Ishii and Minoru Kobayashi at NTT Human Interface Laboratories in 1991, published at CHI 1992. Unlike every other collaborative drawing system of its era, ClearBoard-1 required no computer for the drawing itself — users drew with physical marker pens on a large glass pane. The key innovation was a half-silvered mirror positioned at a 45-degree angle behind the glass, with a video camera behind it. This optical arrangement superimposed the remote collaborator's live video face onto the shared drawing surface, creating the illusion that you were drawing on the same piece of glass as your partner while looking at them through it. Critically, it maintained eye contact and 'gaze awareness' — you could see where your partner was looking on the shared workspace, a capability lost in standard video conferencing. Ishii described the metaphor as 'talking through and drawing on a transparent glass window.' The system used a 'Drafter-Mirror' architecture: two CCD cameras (one for face capture, one for the drawing surface), a video mixer, and the half-silvered mirror. ClearBoard-1 was succeeded by ClearBoard-2 (1994), which added computer-integrated drawing tools via the TeamPaint editor. The original ClearBoard-1 is held in the ICC (NTT InterCommunication Center) Tokyo permanent collection.",
+    "deepDive": [
+      {
+        "heading": "The Drafter-Mirror Architecture",
+        "text": "The optical heart of ClearBoard-1 was a half-silvered mirror at a 45-degree angle behind the glass drawing surface. One CCD camera captured the user's face (looking 'through' the mirror from behind), while another captured the drawing surface from above. A video mixer combined the two feeds, and the resulting image was transmitted to the remote site, where it was rear-projected onto the partner's glass board. The half-silvered mirror meant the user saw both their own markers on the glass AND the projected image of their partner's face AND their partner's markers. One quirk: images were mirror-reversed by the optics, requiring video correction to make text appear correctly oriented. The system also had to correct for the fact that one user always saw a mirrored image — an inherent consequence of the 'looking through the same glass' metaphor."
+      },
+      {
+        "heading": "Gaze Awareness: The Missing Dimension of CSCW",
+        "text": "Ishii and Kobayashi identified 'gaze awareness' as a critical missing feature in computer-supported cooperative work. Standard shared whiteboard systems let you see what your partner is drawing, but not where they are looking. Standard video conferencing lets you see your partner's face, but not what they're working on. ClearBoard integrated both: the partner's face appeared superimposed on the shared workspace, so looking at the drawing and looking at your partner were the same act. This was not a feature — it was a consequence of the optical design. The CHI 1992 paper argued that this integration of 'interpersonal space' and 'shared workspace' was essential for seamless remote collaboration."
+      },
+      {
+        "heading": "From NTT to MIT: Ishii's Trajectory",
+        "text": "ClearBoard was Hiroshi Ishii's breakthrough project at NTT Human Interface Laboratories. After its publication at CHI 1992 and CSCW 1992, Ishii joined the MIT Media Lab, where he founded the Tangible Media Group and developed the 'Tangible Bits' vision (published at CHI 1997). ClearBoard's philosophy — that the physical configuration of an interface shapes collaboration in ways no software feature can replicate — directly informed his later work on tangible user interfaces. ClearBoard-1 was exhibited at ICC Tokyo in 2000 as part of Ishii's 'Open Studio: Tangible Bits' exhibition, and ClearBoard-2 was shown at SIGGRAPH 1994."
+      }
+    ],
+    "team": [
+      {"name": "Hiroshi Ishii", "note": "Lead researcher, NTT Human Interface Laboratories; later founded MIT Media Lab's Tangible Media Group"},
+      {"name": "Minoru Kobayashi", "note": "Co-creator, NTT Human Interface Laboratories"},
+      {"name": "Jonathan Grudin", "note": "Co-author on CSCW 1992 extended paper"},
+      {"name": "Kazuho Arita", "note": "Co-author on ClearBoard iterative design paper (CACM 1994)"}
+    ],
+    "media": [
+      {"src": "https://www.ntticc.or.jp/uploads/assets/000/85264.276.large.jpg", "alt": "NTT ClearBoard-1 at ICC Tokyo", "caption": "ClearBoard-1 in the ICC Tokyo permanent collection. © NTT ICC. Source: ICC Tokyo."},
+      {"src": "https://web.media.mit.edu/~ishii/ishii-images/CB-1.gif", "alt": "Two users drawing on ClearBoard-1", "caption": "Two users drawing a route map on ClearBoard-1. The remote partner's face is superimposed on the shared glass drawing surface. Source: MIT Tangible Media Group."},
+      {"src": "https://web.media.mit.edu/~ishii/ishii-images/CB-0.gif", "alt": "ClearBoard-0 concept mockup", "caption": "ClearBoard-0 conceptual mockup showing the co-located glass board metaphor that inspired the remote ClearBoard-1 design. Source: MIT Tangible Media Group."}
+    ],
+    "sources": [
+      {"text": "CHI 1992: ClearBoard: A Seamless Media for Shared Drawing and Conversation with Eye-Contact", "url": "https://dl.acm.org/doi/10.1145/142750.142977"},
+      {"text": "CSCW 1992: Integration of Inter-Personal Space and Shared Workspace", "url": "https://dl.acm.org/doi/10.1145/143457.143459"},
+      {"text": "ICC Tokyo Collection: ClearBoard-1", "url": "https://www.ntticc.or.jp/en/archive/works/clearboard-1/"},
+      {"text": "MIT Tangible Media Group: ClearBoard Project Page", "url": "https://tangible.media.mit.edu/project/clearboard/"},
+      {"text": "Hiroshi Ishii Classic Page: ClearBoard Overview", "url": "https://www.media.mit.edu/~ishii/CB.html"},
+      {"text": "CACM 1994: Iterative Design of Seamless Collaboration Media (ClearBoard-1 and -2)", "url": "https://dl.acm.org/doi/10.1145/175276.175278"}
+    ],
+    "imageUrls": [
+      "https://www.ntticc.or.jp/uploads/assets/000/85264.276.large.jpg",
+      "https://web.media.mit.edu/~ishii/ishii-images/CB-1.gif",
+      "https://web.media.mit.edu/~ishii/ishii-images/CB-0.gif"
+    ]
+  },
+  "savedImages": []
+}
