@@ -1,0 +1,56 @@
+{
+  "slug": "versatron-footmouse",
+  "title": "Versatron Footmouse",
+  "year": "1985",
+  "subtitle": "first commercially available foot-operated computer cursor controller, built by a missile-guidance company",
+  "why_scout_cares": "The first commercial foot-operated pointing device for personal computers. Instead of replacing a mouse, it was a keyboard-wedge device that emulated cursor keys — plugging inline between the keyboard and the PC. The company that built it, Versatron Corporation, was primarily a defense contractor manufacturing actuators for Stinger missiles and the Excalibur artillery shell. The footmouse was their only consumer product. A specimen is held by the Computer History Museum. No foot-operated pointing device currently exists in the collection — this fills a distinct interaction-modality gap.",
+  "search_terms": ["Versatron Footmouse", "foot mouse 1985", "foot operated cursor control", "FM-100 footmouse"],
+  "research": {
+    "title": "Versatron Footmouse",
+    "year": "1985",
+    "by": "Versatron Corporation",
+    "tags": ["HCI", "Input", "Foot", "Accessibility", "Cursor Control"],
+    "overview": "The Versatron Footmouse (model FM-100) was the first commercially available foot-operated computer cursor controller, introduced in 1985 by Versatron Corporation of Healdsburg, California. Rather than functioning as a serial-port mouse, it was a keyboard-wedge device: it plugged inline between the keyboard and the PC and injected cursor-key scan codes when the user slid their foot across its surface. The base unit stayed stationary on the floor; the user moved the cursor by sliding their foot over the top in four cardinal directions — up, down, left, and right — with auto-repeat if the foot was held in position. It was designed as an assistive technology for users with disabilities or repetitive strain injuries, years before the Americans with Disabilities Act (1990). Despite its niche, the device was produced into the early 1990s and its design influenced academic research including the landmark CHI '86 paper \"Of Moles and Men\" by Pearson and Weiser. Versatron itself was primarily a defense contractor whose main products included actuators for the Stinger anti-aircraft missile and the precision guidance system for the Excalibur artillery shell — the footmouse was an unusual side-project from a weapons engineering firm.",
+    "deepDive": [
+      {
+        "heading": "Origins",
+        "text": "Versatron Corporation was founded in 1980 by Al Voigt and John Speicher, both formerly of General Dynamics Pomona. The company operated out of Healdsburg, California, and by 1985 employed approximately 75 people. Their primary business was defense contracting: actuators for the Stinger missile and, later, the Control Actuation System (CAS) for the Excalibur precision-guided artillery shell. The Footmouse emerged as a commercial side-project, applying the company's precision mechanical engineering expertise to a consumer computer peripheral. It was first covered in InfoWorld on September 23, 1985, in Cynthia Harriman's article \"Alternatives for cursor control: footmouse, pad, or view system.\""
+      },
+      {
+        "heading": "Hardware and Interaction Model",
+        "text": "The FM-100 Footmouse was a sliding-pedal design rather than a tilting one. The base unit (approximately 4.75 × 4.5 × 2 inches, weighing about 1 pound) sat stationary on the floor. The user placed a foot on its top surface and slid it in the desired direction. The device used a keyboard-wedge architecture: it plugged between the computer's keyboard and the system unit, intercepting and injecting cursor-key scan codes without interfering with normal keyboard operation. This meant it worked with any software that responded to keyboard cursor keys — it did not require mouse drivers or a serial port. The four cardinal directions of movement were supported, with auto-repeat when the foot was held in a position. Unlike a modern mouse, it moved in discrete directional steps rather than providing relative X/Y positioning."
+      },
+      {
+        "heading": "Commercial Fate",
+        "text": "The Footmouse never achieved mainstream adoption. It was referenced by the IBM National Support Center for Persons with Disabilities circa 1991 as an assistive technology product, and by 1996 it was being resold on Usenet as 'weird old computer stuff' in a moving sale. Versatron Corporation continued its defense work, being acquired by Wescam Inc. in 1995 and then by General Dynamics in 2001, where its CAS technology went into production for the Excalibur program. The Footmouse remains a curious footnote: a consumer computer peripheral designed by missile guidance engineers, addressing an accessibility need decades before it was widely recognized."
+      },
+      {
+        "heading": "Academic Impact",
+        "text": "The Versatron Footmouse is referenced in the ACM CHI '86 paper \"Of moles and men: the design of foot controls for workstations\" by Glenn Pearson and Mark Weiser (who later pioneered ubiquitous computing at Xerox PARC). It also appears in the survey \"The Feet in Human–Computer Interaction\" published in ACM Computing Surveys, cementing its place as the starting point for foot-operated computer input research."
+      }
+    ],
+    "team": [
+      {"name": "Al Voigt", "note": "Co-founder of Versatron Corporation, formerly of General Dynamics Pomona"},
+      {"name": "John Speicher", "note": "Co-founder of Versatron Corporation"},
+      {"name": "Versatron Corporation", "note": "Healdsburg, California defense contractor; primary business was missile actuators and artillery guidance systems"}
+    ],
+    "media": [
+      {"src": "https://wiki.preterhuman.net/images/f/f2/Footmouse1.jpg", "alt": "Versatron Footmouse FM-100, top-down view showing the sliding pedal surface", "caption": "Versatron Footmouse FM-100. Source: Preterhuman Vintage Wiki."},
+      {"src": "https://wiki.preterhuman.net/images/2/24/Footmouse2.jpg", "alt": "Versatron Footmouse, side angle view", "caption": "Versatron Footmouse FM-100, side view showing the low-profile floor unit. Source: Preterhuman Vintage Wiki."}
+    ],
+    "sources": [
+      {"text": "Computer History Museum — Catalog entry for Versatron Footmouse FM-100", "url": "https://www.computerhistory.org/collections/catalog/X1081.91"},
+      {"text": "Wikipedia — Footmouse article", "url": "https://en.wikipedia.org/wiki/Footmouse"},
+      {"text": "Preterhuman Vintage Wiki — Versatron Foot Mouse (detailed images and description)", "url": "https://wiki.preterhuman.net/Versatron_Foot_Mouse"},
+      {"text": "SBIR Success Story — Versatron Corp. (extensive company history)", "url": "https://www.sbir.gov/success/sbir-sttr-success-versatron-corp"},
+      {"text": "InfoWorld, Sept 23, 1985 — 'Alternatives for cursor control: footmouse, pad, or view system' by Cynthia Harriman", "url": "https://books.google.com/books?id=tDcEAAAAMBAJ"},
+      {"text": "IBM National Support Center — Footmouse description (Usenet misc.handicap, 1991)", "url": "https://groups.google.com/g/misc.handicap/c/UAuugaqje_4"},
+      {"text": "Pearson & Weiser, 'Of moles and men: the design of foot controls for workstations', CHI 1986", "url": "https://doi.org/10.1145/22627.22392"}
+    ],
+    "imageUrls": [
+      "https://wiki.preterhuman.net/Versatron_Foot_Mouse",
+      "https://www.computerhistory.org/collections/catalog/X1081.91"
+    ]
+  },
+  "savedImages": []
+}

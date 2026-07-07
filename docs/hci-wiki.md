@@ -1,6 +1,6 @@
 # The HCI Golden Age Wiki
 
-A research compendium for a digital museum of cutting-edge Human-Computer Interaction from the late 1970s through the early 1990s. These eighty-one projects mix canonical experiments with weird, forgotten, and beautiful vaporware — brain control, voice control, gesture, wearable computing, VR, robots, and full-body exertion.
+A research compendium for a digital museum of cutting-edge Human-Computer Interaction from the late 1970s through the early 1990s. These ninety projects mix canonical experiments with weird, forgotten, and beautiful vaporware — brain control, voice control, gesture, wearable computing, VR, robots, and full-body exertion.
 
 Each entry includes an overview, a deep dive, a small media gallery, and full source links so the images and facts can always be traced back.
 
@@ -94,6 +94,9 @@ Each entry includes an overview, a deep dive, a small media gallery, and full so
 85. [BAT Keyboard (1990)](#bat-keyboard-1990)
 86. [NTT ClearBoard-1 (1991)](#ntt-clearboard-1-1991)
 87. [Xerox LiveBoard (1990)](#xerox-liveboard-1990)
+88. [Butler in a Box (1983)](#butler-in-a-box-1983)
+89. [Gibson Light Pen System / LPS II (1981)](#gibson-light-pen-system-lps-ii-1981)
+90. [Versatron Footmouse (1985)](#versatron-footmouse-1985)
 
 ---
 
@@ -4433,3 +4436,133 @@ The Xerox LiveBoard was a 67-inch rear-projection interactive display developed 
 4. Mark Stefik: Colab Electronic Meeting Room (historical photos and narrative) — https://www.markstefik.com/?page_id=155
 5. UPI: Xerox introduces LiveBoard (1993 launch coverage) — https://www.upi.com/Archives/1993/05/18/Xerox-introduces-LiveBoard/1596737697600/
 6. The Independent: Chip chalks up new success (1994 UK launch) — https://www.independent.co.uk/news/business/chip-chalks-up-new-success-1440458.html
+
+---
+
+## Butler in a Box (1983)
+
+**By:** Mastervoice (Gus Searcy & Franz Kavan)  
+**Tags:** `HCI` `Voice Control` `Home Automation` `Speech Recognition` `Consumer Electronics`
+
+### Overview
+
+The Butler in a Box was the world's first consumer voice-controlled home automation system, created by professional magician Gus Searcy and former IBM programmer Franz Kavan under their company Mastervoice. Introduced in 1983 and priced at $1,495, it used speaker-dependent speech recognition — each of up to 4 users trained the device to recognize their voice commands using an included cassette tape. The user spoke a wake word (typically a butler name like 'Godfrey' or 'Hobson') and the device responded 'Yes, boss,' then accepted voice commands to control lights (via X10 powerline modules), make and receive phone calls, set up to 16 timers, and function as a security alarm with door/window sensors. It could perform 256 functions, control 42 devices by voice, 42 by timer, and execute macros of up to 16 commands each. It also operated via a membrane keypad, timed schedules, and sensor triggers. The personality was customizable — it could sound like a snobby British butler, Betty Boop, or a seductress. An optional 'Lady' voice cartridge was sold separately. The device predated Amazon Alexa by 30 years, Google Home by 31, and even Ask Jeeves by 13.
+
+### Deep dive
+
+* **Origin Story.** Gus Searcy was a professional magician from Yorba Linda, California. At a Super Bowl party, friends razzed him: 'If you can pull rabbits out of hats, why can't you magically turn the lights on?' The question stuck. Searcy partnered with Franz Kavan, a former IBM programmer from West Germany, and in 1983 they built the first prototype — initially called 'Sidney.' In 1984 they formed Mastervoice, and in 1985 they received $2.3 million in venture capital, establishing offices in Los Alamitos, California. Searcy described his vision: 'I wanted it to be like Thing on The Addams Family — it had to be everywhere, but nowhere.'
+* **Technical Architecture.** The Butler in a Box used a Rockwell R6501Q microprocessor (1 MHz, 6502-compatible) as its main CPU, with an Intel 8748 microcontroller handling telephone functions. Speech data was stored on EPROM chips — two 27256 EPROMs on the main board plus a 2764 EPROM inside a potted (epoxy-sealed) security module designed to prevent tampering. The data bus entering this module was intentionally scrambled (address-line swizzling) to frustrate reverse engineering. A 4-character alphanumeric PIN was required on first power-up; if lost, the unit was rendered inoperable. Speech output used CVSD (Continuously Variable Slope Delta modulation) processed by two custom chips (MV0014 codec and MV0015 filter), believed to be Harris-manufactured military-grade components. Memory was volatile RAM — if power was lost for more than about 3 hours, all settings and voice training were erased. An optional RAM Pack backup module was sold separately. A vacuum fluorescent display provided visual feedback.
+* **The Interaction Model.** Setup was intensive: approximately 25 minutes for a single device. Each user trained all key words ('light,' 'telephone,' etc.) individually using the included cassette tape. Up to 4 different users could each train their own butler name and command set. The device supported four interaction modes: voice command, touch (membrane keypad), time-based scheduling, and situation-based triggers (motion sensors, rain sensors for sprinklers). It incorporated if-then conditional logic — for example, 'turn lights off at 10 p.m. but not if we are having a party.' It knew the day of the week, month of the year, seasons, and holidays. The 134-page owner's manual spoke to the complexity.
+* **Commercial Fate and Recognition.** The Butler in a Box was not a commercial success. Priced at $1,495 in 1983 — approximately $4,100 in 2025 dollars — it was too expensive and too complex for mainstream adoption. Mastervoice later rebranded the product as the Mastervoice ECU (Environmental Control Unit), targeting the accessibility market, at $2,995 in 1996. The company claimed over 26,000 systems delivered over the product's lifetime and maintained a website until around 2008. Despite commercial failure, the device received significant recognition: it is held by the Smithsonian Institution's National Museum of American History (a prototype and production units), was displayed in the 'Future House' at Disney World's Epcot Center, and was installed at the Western Rehabilitation Institute to help patients transitioning to independent living. Notable customers included William Shatner. In March 2024, Gus Searcy — still alive — commented on a Popular Science YouTube video, offering to recreate lost PINs for owners who could prove ownership.
+
+### Team
+
+* **Gus Searcy.** Professional magician turned inventor; conceived the Butler in a Box after friends challenged him to create a device that could 'magically' turn lights on by voice
+* **Franz Kavan.** Former IBM programmer from West Germany; technical co-founder who built the speech recognition system
+* **Mastervoice / Automated Voice Systems Inc..** Los Alamitos, California company; operated from 1984 to approximately 2008
+
+### Media
+
+![Butler in a Box product unit with green vacuum fluorescent display](../assets/wiki/butler-in-a-box-1.jpg)
+*Butler in a Box by Mastervoice, showing the vacuum fluorescent display. Source: Gus Searcy / thecharm.info.*
+
+![Gus Searcy with Smithsonian Institution curator presenting the Butler in a Box](../assets/wiki/butler-in-a-box-2.jpg)
+*Gus Searcy (left) with Smithsonian Institution curator, donating the Butler in a Box to the National Museum of American History. Source: Gus Searcy / thecharm.info.*
+
+### Sources
+
+1. Wikipedia — Butler in a Box — https://en.wikipedia.org/wiki/Butler_in_a_Box
+2. Smithsonian Institution — Prototype Butler in a Box (NMAH 1346931) — https://americanhistory.si.edu/collections/object/nmah_1346931
+3. Popular Science — 'The $15,000 A.I. From 1983' video article (March 2024) — https://www.popsci.com/technology/butler-in-a-box-video/
+4. Hackaday — 'Retrogadgets: Butler In A Box' by Al Williams (March 2024) — https://hackaday.com/2024/03/28/retrogadgets-butler-in-a-box/
+5. Deseret News, April 17, 1988 — 'Magician's Versatile Box Gives New Meaning to Butler Did It' — https://www.deseret.com/1988/4/17/18763718/magician-s-versatile-box-gives-new-meaning-to-butler-did-it/
+6. Seattle Times, April 7, 1996 — 'At Your Command, $3,000 Electronic Butler' — https://archive.seattletimes.com/archive/19960407/2322832/at-your-command-3000-electronic-butler
+7. VCFed Forum — 'Secrets Within' teardown and reverse engineering of Butler in a Box — https://forum.vcfed.org/index.php?threads/secrets-within-the-brains-of-the-butler-in-a-box.1243744/
+8. Gus Searcy's personal site — https://thecharm.info/butler.shtml
+9. Internet Archive — Mastervoice Butler in a Box manual scans — https://archive.org/details/mastervoice-butler-in-a-box-manual-pages
+10. Popular Science, March 1987 (Google Books) — feature article — https://books.google.com/books?id=3AAAAAAAMBAJ&pg=RA1-PA62
+11. Brady Carlson — 'The Butler in a Box was a smart speaker before there were smart speakers' — https://www.bradycarlson.com/the-butler-in-a-box-was-a-smart-speaker-before-there-were-smart-speakers-cool-weird-awesome-487/
+
+---
+
+## Gibson Light Pen System (LPS II) (1981)
+
+**By:** Gibson Laboratories, Inc. (Steve Gibson)  
+**Tags:** `HCI` `Input` `Light Pen` `Apple II` `Drawing`
+
+### Overview
+
+The Gibson Light Pen System II (LPS II) was a professional-grade light pen for the Apple II, introduced in 1981 by Gibson Laboratories, Inc. of Laguna Hills, California. Created by Steve Gibson — who had been hired by the Stanford Artificial Intelligence Laboratory at age 15 and worked on the world's first laser printer interface — the LPS II consisted of a precision light pen, an interface card that plugged into Slot 7 of the Apple II motherboard, and bundled drawing software. The light pen detected the CRT's scanning electron beam with a photodetector in its tip, using timing relative to the video signal to calculate precise X,Y screen coordinates. This gave 1:1 absolute positioning — the user drew directly on the screen surface, and the cursor followed exactly at the point of contact. The bundled software provided freehand drawing, geometric shapes, fill patterns, mirror drawing across X and Y axes, animation tools, and a Pentrak driver that let Applesoft BASIC programs access the light pen. Reviewer John J. Anderson wrote in Creative Computing (December 1983) that 'nothing comes close to the Gibson package. You really feel as if you are drawing.'
+
+### Deep dive
+
+* **The Creator: Steve Gibson.** Steve Gibson (born 1955) had an extraordinary early career. At age 15, he was employed by Stanford University's Artificial Intelligence Laboratory (1970–1972), working alongside post-graduate students on machine learning, speech recognition, and the PDP-10 to Xerox Graphics Printer interface — the world's first laser printer interconnection. After studying EECS at UC Berkeley with a 4.0 GPA, he designed copy protection at California Pacific Computer Company, then founded Gibson Laboratories in June 1981 at age 26 to build the LPS II. When the home computer market softened in late 1983, he sold Gibson Laboratories to Atari Corporation — then recovered all rights to his proprietary technologies after management changes at Atari. A successor product was manufactured under contract to Koala Technologies as the 'Gibson Light Pen by Koala.' Gibson then consulted for Apple, Atari, Microsoft, Amiga, and Sony before founding Gibson Research Corporation in 1985, creating the disk utility SpinRite (continuously updated for nearly 40 years), writing the 'TechTalk' column for InfoWorld (1986–1993), and co-hosting the Security Now! podcast (2005–present, 1,000+ episodes).
+* **Technical Design.** The LPS II's interface card plugged into Slot 7 of the Apple II, which provided access to video timing signals unavailable on other slots. A tethered light pen with a photodetector in the tip detected the CRT beam as it scanned past. Timing the detection against the video sync signal gave precise X,Y position at Apple II hi-res resolution (280×192 pixels). The software included a bootable drawing program with freehand drawing, geometric shapes, custom fill patterns, mirror drawing, and an animation utility. A Pentrak driver allowed Applesoft BASIC programs to read light pen coordinates. Later versions added a tip switch. The physical interaction was described as utterly natural: the eye and hand worked together at the same point on the screen, with no translation between a separate tablet and the display.
+* **Commercial Context and Fate.** Priced at $250 (approximately $800 in 2024 dollars), the LPS II occupied a middle ground between the KoalaPad ($125) and professional CAD digitizers like the Robographics CAD-1 ($1,095). Gibson Laboratories financed its growth entirely from profits. The company was sold to Atari Corporation around December 1983 when the home computer market softened. After Atari's management turnover, Gibson recovered his proprietary technologies and contracted with Koala Technologies to produce a successor. By the mid-1980s, light pens faded as mice, graphics tablets, and GUIs became dominant. Koala Technologies eventually folded. The LPS II remains notable as the finest light pen system produced for an 8-bit microcomputer — and as the launchpad for one of computing's most unusual careers.
+* **Lasting Technical Legacy.** Gibson's deep experience with Apple II graphics through the LPS II informed his later contributions to display technology. In 1998, he published detailed research on sub-pixel font rendering techniques used by Apple II programmers decades before Microsoft's ClearType — work he credited directly to his LPS II development years. He displayed old LPS II advertisements on his website as part of his argument about the history of sub-pixel rendering.
+
+### Team
+
+* **Steve Gibson.** Founder and president of Gibson Laboratories; designed the LPS II hardware and software; later founded Gibson Research Corporation (SpinRite, Security Now!)
+* **Gibson Laboratories, Inc..** Laguna Hills, California company founded June 1981; sold to Atari Corporation December 1983
+
+### Media
+
+![Original Gibson LPS II advertisement showing the light pen and Apple II](../assets/wiki/gibson-light-pen-1.jpg)
+*Original Gibson LPS II advertisement. Source: Steve Gibson / GRC.com.*
+
+![Second Gibson LPS II advertisement with product details](../assets/wiki/gibson-light-pen-2.jpg)
+*Gibson LPS II advertisement with technical specifications. Source: Steve Gibson / GRC.com.*
+
+### Sources
+
+1. Computer History Museum — LPS II Manual and Artifact — https://www.computerhistory.org/collections/catalog/102638722
+2. Computer History Museum — LPS II in Revolution Exhibit — https://www.computerhistory.org/revolution/input-output/14/352/1846
+3. Computer History Museum — Gibson Light Pen by Koala — https://www.computerhistory.org/collections/catalog/102674112
+4. Steve Gibson's Resume (GRC.com) — full career and LPS II history — https://www.grc.com/resume.htm
+5. Creative Computing, Dec 1983 — 'Drawing Conclusions' review of LPS II by John J. Anderson — https://www.atarimagazines.com/creative/v9n12/32_Drawing_conclusions.php
+6. Internet Archive — LPS II Preliminary Software and Manuals — https://archive.org/details/LPSIIPENPRELIM
+7. GRC.com — 'The Origins of Sub-Pixel Font Rendering' (Gibson's technical history connecting LPS II to ClearType) — https://www.grc.com/ctwho.htm
+8. Wikipedia — Steve Gibson (computer programmer) — https://en.wikipedia.org/wiki/Steve_Gibson_(computer_programmer)
+
+---
+
+## Versatron Footmouse (1985)
+
+**By:** Versatron Corporation  
+**Tags:** `HCI` `Input` `Foot` `Accessibility` `Cursor Control`
+
+### Overview
+
+The Versatron Footmouse (model FM-100) was the first commercially available foot-operated computer cursor controller, introduced in 1985 by Versatron Corporation of Healdsburg, California. Rather than functioning as a serial-port mouse, it was a keyboard-wedge device: it plugged inline between the keyboard and the PC and injected cursor-key scan codes when the user slid their foot across its surface. The base unit stayed stationary on the floor; the user moved the cursor by sliding their foot over the top in four cardinal directions — up, down, left, and right — with auto-repeat if the foot was held in position. It was designed as an assistive technology for users with disabilities or repetitive strain injuries, years before the Americans with Disabilities Act (1990). Despite its niche, the device was produced into the early 1990s and its design influenced academic research including the landmark CHI '86 paper "Of Moles and Men" by Pearson and Weiser. Versatron itself was primarily a defense contractor whose main products included actuators for the Stinger anti-aircraft missile and the precision guidance system for the Excalibur artillery shell — the footmouse was an unusual side-project from a weapons engineering firm.
+
+### Deep dive
+
+* **Origins.** Versatron Corporation was founded in 1980 by Al Voigt and John Speicher, both formerly of General Dynamics Pomona. The company operated out of Healdsburg, California, and by 1985 employed approximately 75 people. Their primary business was defense contracting: actuators for the Stinger missile and, later, the Control Actuation System (CAS) for the Excalibur precision-guided artillery shell. The Footmouse emerged as a commercial side-project, applying the company's precision mechanical engineering expertise to a consumer computer peripheral. It was first covered in InfoWorld on September 23, 1985, in Cynthia Harriman's article "Alternatives for cursor control: footmouse, pad, or view system."
+* **Hardware and Interaction Model.** The FM-100 Footmouse was a sliding-pedal design rather than a tilting one. The base unit (approximately 4.75 × 4.5 × 2 inches, weighing about 1 pound) sat stationary on the floor. The user placed a foot on its top surface and slid it in the desired direction. The device used a keyboard-wedge architecture: it plugged between the computer's keyboard and the system unit, intercepting and injecting cursor-key scan codes without interfering with normal keyboard operation. This meant it worked with any software that responded to keyboard cursor keys — it did not require mouse drivers or a serial port. The four cardinal directions of movement were supported, with auto-repeat when the foot was held in a position. Unlike a modern mouse, it moved in discrete directional steps rather than providing relative X/Y positioning.
+* **Commercial Fate.** The Footmouse never achieved mainstream adoption. It was referenced by the IBM National Support Center for Persons with Disabilities circa 1991 as an assistive technology product, and by 1996 it was being resold on Usenet as 'weird old computer stuff' in a moving sale. Versatron Corporation continued its defense work, being acquired by Wescam Inc. in 1995 and then by General Dynamics in 2001, where its CAS technology went into production for the Excalibur program. The Footmouse remains a curious footnote: a consumer computer peripheral designed by missile guidance engineers, addressing an accessibility need decades before it was widely recognized.
+* **Academic Impact.** The Versatron Footmouse is referenced in the ACM CHI '86 paper "Of moles and men: the design of foot controls for workstations" by Glenn Pearson and Mark Weiser (who later pioneered ubiquitous computing at Xerox PARC). It also appears in the survey "The Feet in Human–Computer Interaction" published in ACM Computing Surveys, cementing its place as the starting point for foot-operated computer input research.
+
+### Team
+
+* **Al Voigt.** Co-founder of Versatron Corporation, formerly of General Dynamics Pomona
+* **John Speicher.** Co-founder of Versatron Corporation
+* **Versatron Corporation.** Healdsburg, California defense contractor; primary business was missile actuators and artillery guidance systems
+
+### Media
+
+![Versatron Footmouse FM-100, top-down view showing the sliding pedal surface](../assets/wiki/versatron-footmouse-1.jpg)
+*Versatron Footmouse FM-100. Source: Preterhuman Vintage Wiki.*
+
+![Versatron Footmouse, side angle view](../assets/wiki/versatron-footmouse-2.jpg)
+*Versatron Footmouse FM-100, side view showing the low-profile floor unit. Source: Preterhuman Vintage Wiki.*
+
+### Sources
+
+1. Computer History Museum — Catalog entry for Versatron Footmouse FM-100 — https://www.computerhistory.org/collections/catalog/X1081.91
+2. Wikipedia — Footmouse article — https://en.wikipedia.org/wiki/Footmouse
+3. Preterhuman Vintage Wiki — Versatron Foot Mouse (detailed images and description) — https://wiki.preterhuman.net/Versatron_Foot_Mouse
+4. SBIR Success Story — Versatron Corp. (extensive company history) — https://www.sbir.gov/success/sbir-sttr-success-versatron-corp
+5. InfoWorld, Sept 23, 1985 — 'Alternatives for cursor control: footmouse, pad, or view system' by Cynthia Harriman — https://books.google.com/books?id=tDcEAAAAMBAJ
+6. IBM National Support Center — Footmouse description (Usenet misc.handicap, 1991) — https://groups.google.com/g/misc.handicap/c/UAuugaqje_4
+7. Pearson & Weiser, 'Of moles and men: the design of foot controls for workstations', CHI 1986 — https://doi.org/10.1145/22627.22392
