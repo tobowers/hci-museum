@@ -1,0 +1,57 @@
+{
+  "slug": "bandai-terebikko",
+  "title": "Bandai Terebikko",
+  "year": "1988",
+  "subtitle": "The VHS phone that let cartoon characters call you — Bandai's pre-web interactive television",
+  "why_scout_cares": "A toy telephone that plugged into a VCR's audio jack and decoded inaudible DTMF-like control tones embedded in VHS tapes. When an on-screen character 'called,' the phone rang. The child picked up the handset and answered quiz questions by pressing 1–4 on the colorful buttons. Thirty-three licensed VHS tapes were produced featuring Super Mario, Dragon Ball Z, Sailor Moon, Anpanman, and Hello Kitty — essentially 'lost episodes' made exclusively for this format. The Terebikko represents a pre-web answer to the question 'how do you make passive video interactive?' The answer was: embed audio control signals in the tape, shape the controller like a telephone, and have animated characters call the child by name. Bandai sold it from 1988 to 1994 at ¥5,000; Mattel released it in the US as the 'See 'n Say Video Phone' in 1989. The interaction model is absurdly charming and entirely of its era: the telephone as game controller, the VHS tape as bidirectional medium, the parasocial framing as interaction design.",
+  "search_terms": ["Bandai Terebikko", "interactive VHS phone", "See n Say Video Phone", "Bandai interactive television 1988", "VHS game controller telephone"],
+  "research": {
+    "title": "Bandai Terebikko (See 'n Say Video Phone)",
+    "year": "1988",
+    "by": "Bandai Co., Ltd. (Japan); Mattel (US release)",
+    "tags": ["HCI", "Interactive Television", "Toy", "VHS", "Japan", "Consumer Electronics"],
+    "overview": "The Terebikko was an interactive VHS console system released by Bandai in Japan in 1988 and sold until 1994. The hardware consisted of a toy telephone handset with four large colored buttons (red, blue, green, yellow) that connected to a VCR's audio output jack. Compatible VHS tapes contained inaudible DTMF-like control tones encoded in the audio track. During playback, on-screen animated characters would 'call' the player — the phone would ring, the child would answer, and the character would ask quiz-style questions. The child responded by pressing buttons 1 through 4. The phone decoded the audio signals to validate answers, lighting up for correct or incorrect responses. Thirty-three licensed tapes were produced featuring major anime and video game franchises. Mattel released the system in the United States in 1989 as the 'See 'n Say Video Phone' but it was far less successful there.",
+    "deepDive": [
+      {
+        "heading": "Origins and Technology",
+        "text": "The Terebikko emerged during a brief window when Japanese toy companies were experimenting with VHS as an interactive medium. Bandai's approach was cleverly low-tech: instead of requiring a special VCR or computer interface, the Terebikko simply listened to the audio track. Control tones were embedded at frequencies inaudible through the phone's built-in speaker but detectable by the decoding circuit inside the handset. When the tape reached a decision point in the narrative, it transmitted a specific tone sequence that activated the phone's question mode. The child's button press generated a response tone that the tape's next audio segment would acknowledge ('That's right!' or 'Try again!'). This created the illusion of genuine interactivity using purely analog, one-directional media."
+      },
+      {
+        "heading": "The Interaction Model",
+        "text": "The Terebikko's interaction design is distinctive for its use of the telephone metaphor. Unlike a standard game controller, the Terebikko shaped the player's relationship to the medium through the familiar ritual of answering a phone call. The device literally rang. The child performed the social script of picking up a receiver and responding to a caller — but the caller was an animated character on the television screen. This parasocial framing was central to the experience: characters addressed the child directly, asked personal questions, and expressed delight or disappointment at the answers. The four colored buttons were the sole input mechanism, making the system accessible to pre-literate children. The interaction model was less about dexterity or reaction time and more about participating in a conversation with a cartoon world."
+      },
+      {
+        "heading": "The Tape Library",
+        "text": "Bandai produced 33+ VHS tapes for the Terebikko, many featuring original animation and voice work created exclusively for the format. Notable titles include: Super Mario World: Mario to Yoshi no Bōken Land (with the original Super Mario voice cast), Dragon Ball Z: Gather Together! Goku's World, Sailor Moon S: Kotaete Moon Call, multiple Anpanman educational adventures, Hello Kitty shopping trips, and English-language learning tapes hosted by Japanese idol Yu Hayami. Many of these tapes are now considered 'lost media' — produced in limited quantities, never re-released on any other format, and surviving only in the collections of dedicated enthusiasts."
+      },
+      {
+        "heading": "US Release and Legacy",
+        "text": "Mattel released the Terebikko in the United States in 1989 as the 'See 'n Say Video Phone,' leveraging the See 'n Say brand known for the pull-string talking toy. It was not a success. The US market had little appetite for VHS-based interactive toys by this point, and the licensed Japanese anime characters that drove Terebikko sales had no equivalent recognition among American children. The system was discontinued quickly. Both the Terebikko and See 'n Say Video Phone are now sought-after collector's items. The Terebikko's approach — embedding data in analog media and using a thematic controller — anticipated aspects of later interactive television experiments like the View-Master Interactive Vision (1988) and Action Max (1987), though none achieved Terebikko's tape library breadth."
+      }
+    ],
+    "team": [
+      {"name": "Bandai Co., Ltd.", "note": "Japanese toy and video game company; developed and published the Terebikko in Japan"},
+      {"name": "Mattel, Inc.", "note": "US toy company; released the system as the See 'n Say Video Phone in 1989"}
+    ],
+    "media": [
+      {
+        "src": "https://upload.wikimedia.org/wikipedia/en/2/29/Terebikko_system.jpg",
+        "alt": "Bandai Terebikko system showing the telephone handset controller and VHS tape",
+        "caption": "The Bandai Terebikko system: a telephone-shaped controller (left) and a compatible VHS tape (right). The phone connected to the VCR's audio output. Source: Wikipedia."
+      }
+    ],
+    "sources": [
+      {"text": "Wikipedia: Terebikko", "url": "https://en.wikipedia.org/wiki/Terebikko"},
+      {"text": "Wikibooks: History of Video Games — Terebikko", "url": "https://en.wikibooks.org/wiki/History_of_video_games/Platforms/Terebikko"},
+      {"text": "Lost Media Wiki: Terebikko", "url": "https://lostmediawiki.com/Terebikko"},
+      {"text": "Sly DC Retro Gaming Blog: Deep Dive with Photos", "url": "https://slydc.blogspot.com/2020/12/the-bandai-terebikko-video.html"},
+      {"text": "Emu-France: Terebikko Technical Details", "url": "https://www.emu-france.com/emulateurs/5-consoles-de-salon/375-bandai-terebikko/"},
+      {"text": "Japanese TV Commercial (1988, YouTube)", "url": "https://www.youtube.com/watch?v=0UFqNN0jSHY"}
+    ],
+    "imageUrls": [
+      "https://upload.wikimedia.org/wikipedia/en/2/29/Terebikko_system.jpg",
+      "https://upload.wikimedia.org/wikipedia/en/6/64/Terebikko-logo.png"
+    ]
+  },
+  "savedImages": []
+}

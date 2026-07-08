@@ -1119,6 +1119,30 @@ const exhibitData: Exhibit[] = [
     tags: ["Foot", "Input", "Accessibility", "Cursor Control"],
     image: img("versatron-footmouse-1.jpg"),
   },
+  {
+    id: "segarc-3d",
+    slug: "segarc-3d",
+    wikiTitle: "Sega SubRoc-3D",
+    year: "1982",
+    sortYear: 1982,
+    title: "Sega SubRoc-3D",
+    subtitle: "The arcade cabinet you pressed your face into — first stereoscopic 3D video game with a mechanical spinning-shutter periscope.",
+    blurb: "Sega's SubRoc-3D (1982) was the first commercial stereoscopic 3D video game, featuring a submarine-periscope-shaped viewer with twin spinning disks that alternated left-eye and right-eye images at 30 fps. Players pressed their face against the eyepiece and gripped the controls below — a full upper-body embodied interface designed by Shikanosuke Ochi, the Sega engineer behind the 1966 Periscope and the first arcade trackball. The 3D system was co-developed with Matsushita (Panasonic) from their experimental 3D television technology. The ColecoVision home port stripped the 3D entirely: you cannot port this experience.",
+    tags: ["3D Display", "Arcade", "Embodied Interaction", "Periscope"],
+    image: img("subroc3d-cabinet-upright.jpg"),
+  },
+  {
+    id: "bandai-terebikko",
+    slug: "bandai-terebikko",
+    wikiTitle: "Bandai Terebikko (See 'n Say Video Phone)",
+    year: "1988",
+    sortYear: 1988,
+    title: "Bandai Terebikko",
+    subtitle: "The VHS telephone that let cartoon characters call you — Bandai's pre-web interactive television.",
+    blurb: "The Bandai Terebikko (1988) was an interactive VHS system shaped like a toy telephone. The handset plugged into a VCR's audio jack and decoded inaudible DTMF-like control tones embedded in licensed anime tapes. When a character 'called,' the phone rang — the child answered and pressed colored buttons to respond to quiz questions. Thirty-three tapes were produced featuring Super Mario, Dragon Ball Z, Sailor Moon, and Anpanman. It was pre-web interactive TV: the telephone as game controller, the VHS tape as bidirectional medium, and the parasocial framing of cartoon characters calling you by name.",
+    tags: ["Interactive Television", "VHS", "Toy", "Japan", "Consumer Electronics"],
+    image: img("terebikko-system.jpg"),
+  },
 ];
 
 export const exhibits: Exhibit[] = exhibitData.toSorted((a, b) => b.sortYear - a.sortYear || a.title.localeCompare(b.title));
