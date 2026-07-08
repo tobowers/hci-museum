@@ -97,6 +97,8 @@ Each entry includes an overview, a deep dive, a small media gallery, and full so
 88. [Butler in a Box (1983)](#butler-in-a-box-1983)
 89. [Gibson Light Pen System / LPS II (1981)](#gibson-light-pen-system-lps-ii-1981)
 90. [Versatron Footmouse (1985)](#versatron-footmouse-1985)
+91. [Bandai Terebikko (See 'n Say Video Phone) (1988)](#bandai-terebikko-see-n-say-video-phone-1988)
+92. [Sega SubRoc-3D (1982)](#sega-subroc-3d-1982)
 
 ---
 
@@ -4566,3 +4568,83 @@ The Versatron Footmouse (model FM-100) was the first commercially available foot
 5. InfoWorld, Sept 23, 1985 — 'Alternatives for cursor control: footmouse, pad, or view system' by Cynthia Harriman — https://books.google.com/books?id=tDcEAAAAMBAJ
 6. IBM National Support Center — Footmouse description (Usenet misc.handicap, 1991) — https://groups.google.com/g/misc.handicap/c/UAuugaqje_4
 7. Pearson & Weiser, 'Of moles and men: the design of foot controls for workstations', CHI 1986 — https://doi.org/10.1145/22627.22392
+
+---
+
+## Bandai Terebikko (See 'n Say Video Phone) (1988)
+
+**By:** Bandai Co., Ltd. (Japan); Mattel (US release)  
+**Tags:** `HCI` `Interactive Television` `Toy` `VHS` `Japan` `Consumer Electronics`
+
+### Overview
+
+The Terebikko was an interactive VHS console system released by Bandai in Japan in 1988 and sold until 1994. The hardware consisted of a toy telephone handset with four large colored buttons (red, blue, green, yellow) that connected to a VCR's audio output jack. Compatible VHS tapes contained inaudible DTMF-like control tones encoded in the audio track. During playback, on-screen animated characters would 'call' the player — the phone would ring, the child would answer, and the character would ask quiz-style questions. The child responded by pressing buttons 1 through 4. The phone decoded the audio signals to validate answers, lighting up for correct or incorrect responses. Thirty-three licensed tapes were produced featuring major anime and video game franchises. Mattel released the system in the United States in 1989 as the 'See 'n Say Video Phone' but it was far less successful there.
+
+### Deep dive
+
+* **Origins and Technology.** The Terebikko emerged during a brief window when Japanese toy companies were experimenting with VHS as an interactive medium. Bandai's approach was cleverly low-tech: instead of requiring a special VCR or computer interface, the Terebikko simply listened to the audio track. Control tones were embedded at frequencies inaudible through the phone's built-in speaker but detectable by the decoding circuit inside the handset. When the tape reached a decision point in the narrative, it transmitted a specific tone sequence that activated the phone's question mode. The child's button press generated a response tone that the tape's next audio segment would acknowledge ('That's right!' or 'Try again!'). This created the illusion of genuine interactivity using purely analog, one-directional media.
+* **The Interaction Model.** The Terebikko's interaction design is distinctive for its use of the telephone metaphor. Unlike a standard game controller, the Terebikko shaped the player's relationship to the medium through the familiar ritual of answering a phone call. The device literally rang. The child performed the social script of picking up a receiver and responding to a caller — but the caller was an animated character on the television screen. This parasocial framing was central to the experience: characters addressed the child directly, asked personal questions, and expressed delight or disappointment at the answers. The four colored buttons were the sole input mechanism, making the system accessible to pre-literate children. The interaction model was less about dexterity or reaction time and more about participating in a conversation with a cartoon world.
+* **The Tape Library.** Bandai produced 33+ VHS tapes for the Terebikko, many featuring original animation and voice work created exclusively for the format. Notable titles include: Super Mario World: Mario to Yoshi no Bōken Land (with the original Super Mario voice cast), Dragon Ball Z: Gather Together! Goku's World, Sailor Moon S: Kotaete Moon Call, multiple Anpanman educational adventures, Hello Kitty shopping trips, and English-language learning tapes hosted by Japanese idol Yu Hayami. Many of these tapes are now considered 'lost media' — produced in limited quantities, never re-released on any other format, and surviving only in the collections of dedicated enthusiasts.
+* **US Release and Legacy.** Mattel released the Terebikko in the United States in 1989 as the 'See 'n Say Video Phone,' leveraging the See 'n Say brand known for the pull-string talking toy. It was not a success. The US market had little appetite for VHS-based interactive toys by this point, and the licensed Japanese anime characters that drove Terebikko sales had no equivalent recognition among American children. The system was discontinued quickly. Both the Terebikko and See 'n Say Video Phone are now sought-after collector's items. The Terebikko's approach — embedding data in analog media and using a thematic controller — anticipated aspects of later interactive television experiments like the View-Master Interactive Vision (1988) and Action Max (1987), though none achieved Terebikko's tape library breadth.
+
+### Team
+
+* **Bandai Co., Ltd..** Japanese toy and video game company; developed and published the Terebikko in Japan
+* **Mattel, Inc..** US toy company; released the system as the See 'n Say Video Phone in 1989
+
+### Media
+
+![Bandai Terebikko system showing the telephone handset controller and VHS tape](../assets/wiki/terebikko-system.jpg)
+*The Bandai Terebikko system: a telephone-shaped controller (left) and a compatible VHS tape (right). The phone connected to the VCR's audio output. Source: Wikipedia.*
+
+### Sources
+
+1. Wikipedia: Terebikko — https://en.wikipedia.org/wiki/Terebikko
+2. Wikibooks: History of Video Games — Terebikko — https://en.wikibooks.org/wiki/History_of_video_games/Platforms/Terebikko
+3. Lost Media Wiki: Terebikko — https://lostmediawiki.com/Terebikko
+4. Sly DC Retro Gaming Blog: Deep Dive with Photos — https://slydc.blogspot.com/2020/12/the-bandai-terebikko-video.html
+5. Emu-France: Terebikko Technical Details — https://www.emu-france.com/emulateurs/5-consoles-de-salon/375-bandai-terebikko/
+6. Japanese TV Commercial (1988, YouTube) — https://www.youtube.com/watch?v=0UFqNN0jSHY
+
+---
+
+## Sega SubRoc-3D (1982)
+
+**By:** Sega Enterprises (Shikanosuke Ochi) and Matsushita Electric  
+**Tags:** `HCI` `3D Display` `Arcade` `Embodied Interaction` `Periscope`
+
+### Overview
+
+SubRoc-3D was the first commercial stereoscopic 3D video game, released by Sega in Japanese arcades in March 1982 and North America in August 1982. The cabinet featured a submarine-periscope-shaped viewer containing a mechanical active-shutter system jointly developed with Matsushita Electric (Panasonic): two spinning disks, each painted half opaque and half transparent, synchronized with the CRT display's alternating left-eye and right-eye images. The player pressed their face against the periscope eyepiece and gripped controls below, aiming at enemies with their whole upper body. The game's 3D effect was rendered at 30 frames per second on Sega's VCO Object hardware — the same sprite-scaling board used by Turbo (1981). The ColecoVision home port (October 1983) removed the 3D entirely, making the arcade original the only way to experience the full interaction. At least four publicly playable cabinets survive today.
+
+### Deep dive
+
+* **Origins.** SubRoc-3D was conceived by Shikanosuke Ochi, Sega's technology director and one of the most important early engineers in the company's history. Ochi had previously led development of Sega's 1966 electro-mechanical Periscope game — a submarine-viewer arcade machine that was Sega's first major hit and the direct conceptual ancestor of SubRoc-3D. He also invented the first arcade trackball (World Cup, 1977) and the first game controller with haptic feedback (Bullet Mark, 1975). For SubRoc-3D, Ochi collaborated with Matsushita Electric, which had been developing an experimental active-shutter 3D television system since the late 1970s (unveiled 1981, patented as US 4,393,400). The two companies adapted this television technology for the arcade, creating the first consumer-facing stereoscopic 3D video experience.
+* **The 3D Mechanism.** The periscope viewer contained two motorized spinning disks, each painted half black (opaque) and half clear (transparent). The CRT monitor displayed two slightly offset versions of the same scene in rapid alternation. A synchronization circuit aligned the spinning disks so that when the left-eye image appeared on screen, the right-eye disk was opaque and vice versa. Each eye saw only its intended image, producing stereoscopic depth perception at 30 frames per second (half the standard 60 Hz refresh). The disks were driven by Mabuchi motors — a known weak point; arcade operators reported the disks would sometimes jam and require servicing. The technology directly presaged the LCD-based Sega Master System 3-D Glasses (1987) and, more broadly, all subsequent active-shutter 3D systems.
+* **The Embodied Experience.** Playing SubRoc-3D was a full upper-body commitment. The player pressed their face against the rubber eyepiece of the periscope, blocking out ambient light and creating a private visual space. Hands gripped the control assembly below: moving the periscope side-to-side aimed the in-game weapon, a fire button launched torpedoes and missiles, and elevation controls switched between underwater and aerial combat. The upright cabinet included a pull-out platform for children. An external LED score display above the periscope — separate from the CRT — showed rankings, continuing a convention from Sega's earlier Turbo cabinet. The experience was described by contemporary reviewers as bewildering, with enemies appearing to zoom directly toward the player's face through the stereoscopic depth.
+* **Legacy.** SubRoc-3D's influence extends through multiple lineages. The active-shutter principle was miniaturized into the Sega Master System 3-D Glasses (1987) and echoed in the Famicom 3D System (1987), Vectrex 3D Imager (1983), and eventually modern 3D televisions. The periscope interaction model was revisited in Sega's Poseidon Wars 3D (1989) for the Master System. The cabinet appeared in the 1983 film WarGames. More broadly, SubRoc-3D established the arcade cabinet as an embodied interface — not just a box you stand in front of, but a machine you physically merge with. This philosophy would later animate Sega's R360 (1990) and Virtua Racing cabinets.
+
+### Team
+
+* **Shikanosuke Ochi.** Technology Director at Sega; designer of the 1966 Periscope, first arcade trackball (1977), and first haptic game controller (1975)
+* **Matsushita Electric (Panasonic).** Co-developed the active-shutter 3D system; held US Patent 4,393,400 for the underlying 3D TV technology
+* **Sega Enterprises, Ltd..** Publisher and developer; VCO Object arcade hardware
+
+### Media
+
+![SubRoc-3D upright arcade cabinet showing the submarine periscope viewer](../assets/wiki/subroc3d-cabinet-upright.jpg)
+*SubRoc-3D upright arcade cabinet. The player pressed their face against the periscope-shaped eyepiece at center. Source: Sega Retro (CC-BY 4.0).*
+
+![SubRoc-3D deluxe/environmental cockpit cabinet](../assets/wiki/subroc3d-cabinet-deluxe.png)
+*SubRoc-3D deluxe 'environmental' cockpit cabinet. Source: Sega Retro (CC-BY 4.0).*
+
+### Sources
+
+1. Sega Retro: SubRoc-3D (CC-BY 4.0) — https://segaretro.org/SubRoc-3D
+2. Wikipedia: SubRoc-3D — https://en.wikipedia.org/wiki/SubRoc-3D
+3. Arcade-Museum (KLOV): SubRoc-3D — https://www.arcade-museum.com/Videogame/subroc-3d
+4. US Patent 4,393,400 — 3-D TV Systems (Matsushita, 1983) — https://www.freepatentsonline.com/4393400.html
+5. Sega Retro: Shikanosuke Ochi — https://segaretro.org/Shikanosuke_Ochi
+6. The Escapist: The History of 3D Gaming (2015) — https://www.escapistmagazine.com/the-history-of-3d-in-gaming/
+7. CVG Magazine Review (Feb 1983) — https://solvalou.com/arcade/reviews/173/479
+8. Game Machine No. 185 (JP, April 1982) — https://onitama.tv/gamemachine/pdf/19820401p.pdf
