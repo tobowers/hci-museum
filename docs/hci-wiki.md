@@ -1,6 +1,6 @@
 # The HCI Golden Age Wiki
 
-A research compendium for a digital museum of cutting-edge Human-Computer Interaction from the late 1970s through the early 1990s. These ninety projects mix canonical experiments with weird, forgotten, and beautiful vaporware — brain control, voice control, gesture, wearable computing, VR, robots, and full-body exertion.
+A research compendium for a digital museum of cutting-edge Human-Computer Interaction from the late 1970s through the early 1990s. These ninety-five projects mix canonical experiments with weird, forgotten, and beautiful vaporware — brain control, voice control, gesture, wearable computing, VR, robots, and full-body exertion.
 
 Each entry includes an overview, a deep dive, a small media gallery, and full source links so the images and facts can always be traced back.
 
@@ -99,6 +99,9 @@ Each entry includes an overview, a deep dive, a small media gallery, and full so
 90. [Versatron Footmouse (1985)](#versatron-footmouse-1985)
 91. [Bandai Terebikko (See 'n Say Video Phone) (1988)](#bandai-terebikko-see-n-say-video-phone-1988)
 92. [Sega SubRoc-3D (1982)](#sega-subroc-3d-1982)
+93. [Atari Puffer (1983)](#atari-puffer-1983)
+94. [Coleco Telstar Arcade (1977)](#coleco-telstar-arcade-1977)
+95. [Lucasfilm EditDroid (1984)](#lucasfilm-editdroid-1984)
 
 ---
 
@@ -4648,3 +4651,173 @@ SubRoc-3D was the first commercial stereoscopic 3D video game, released by Sega 
 6. The Escapist: The History of 3D Gaming (2015) — https://www.escapistmagazine.com/the-history-of-3d-in-gaming/
 7. CVG Magazine Review (Feb 1983) — https://solvalou.com/arcade/reviews/173/479
 8. Game Machine No. 185 (JP, April 1982) — https://onitama.tv/gamemachine/pdf/19820401p.pdf
+
+---
+
+## Atari Puffer (1983)
+
+**By:** Atari Inc. Corporate Research Group (Alan Kay, Jim Leiterman)  
+**Tags:** `HCI` `Gaming` `Input Device` `Embodied Interaction` `Physiological Computing`
+
+### Overview
+
+In 1982, Atari's Corporate Research Group — the legendary division overseen by computing visionary Alan Kay — embarked on 'Project Puffer,' a secret mission to bridge the booming home video game market with the era's rising fitness craze. The concept: a hardware add-on that turned any ordinary stationary exercise bicycle into a full game controller for the Atari 5200 console and Atari 400/800 home computers.
+
+The Puffer consisted of three components. First, a magnet + Hall effect sensor assembly: a small magnet affixed to the exercise bike's wheel, with a stationary sensor detecting each passing revolution to generate speed pulses. Second, handlebar-mounted controllers replacing standard bike grips with directional buttons for left/right steering. Third, an optional clip-on heart rate monitor. All signals converged in a junction box, with a single cable running to the console's joystick port. The core interaction principle was elegantly simple: no pedaling, no motion. The faster you pedaled, the faster your on-screen vehicle or character moved.
+
+Atari planned three commercial models: the Pro Model (deluxe gym equipment with heart-rate monitor), the Arcade Model (coin-operated cabinet), and the Home Model (a $150 add-on for existing bikes, with total hardware cost of just $15). Four custom games were developed — Tumbleweeds (first-person desert cycling), Jungle River Cruise (overhead paddleboat rescue), a modified Pole Position, and an abandoned Ms. Pac-Man adaptation. Internal documents projected 68% female purchasers and 84% aged 25+, a radical bet on expanding gaming beyond teenage boys. The prototype was demonstrated to Warner's Board of Directors in September 1983 and revived for a 1984 Olympics tie-in launch. But Warner sold Atari to Sam Tramiel that spring, the new regime pivoted to 'professional home computers,' and the Puffer — weeks from launch — was terminated forever.
+
+### Deep dive
+
+* **Origins — The Atari Research Group Under Alan Kay.** The Puffer was born inside Atari's Corporate Research Group under Alan Kay (the computing pioneer who developed object-oriented programming and the GUI at Xerox PARC before joining Atari). The group was explicitly tasked with blue-sky R&D — exploring what computing and gaming could become. Jim Leiterman joined in April 1982 as a research engineer. He was the primary programmer on Project Puffer, writing custom games (Tumbleweeds, Jungle River Cruise) and adapting existing titles (Pole Position, Ms. Pac-Man). Leiterman also created a sophisticated reverse assembler that he used to rip Atari 5200 cartridge ROMs into labeled source code and port them to the Atari 800 platform — an instrumental tool for quickly adapting Pole Position for Puffer input. Colleagues included Chris Crawford (game design legend), Ann Marion (AI fish tank simulation), and others. Leiterman's direct manager was Dave Mathes. The project was conceived in mid-1982, a period when Atari was still riding high but the seeds of the crash were already germinating.
+* **Interaction Mechanics — No Pedaling, No Motion.** The core transduction mechanism was remarkably elegant for 1982. A small magnet attached to the exercise bike's driven wheel passed a stationary Hall effect sensor, producing an electrical pulse per revolution. These pulses were routed to a junction box that converted them into a signal readable via the computer's joystick port. The computer calculated instantaneous pedaling speed from pulse frequency. The core design rule was absolute: if the user stopped pedaling, the on-screen vehicle stopped moving. Steering was handled by handlebar-mounted push-buttons, redundant on both left and right grips. The first generation used a rotary thumb control (abandoned because it was 'bad for the wrist' during extended play). The controller mounted universally onto as many bike models as possible.
+
+The three custom games were each tailored to the Puffer's continuous-exertion input model. Tumbleweeds was a 'leisurely simulation' — no scoring, just a first-person ride toward mountains with tumbleweeds and cacti to dodge. Leiterman noted a real-world danger: 'If you really got into the game trying to duck and weave, you ran the risk of pitching the bike over, which I did upon occasion.' Jungle River Cruise split the screen between an overhead paddleboat view (pedaling = speed) and a side view showing rescued explorers (up to 6 before sinking). Leiterman credited the APX game Salmon Run as inspiration. Pole Position was adapted by reverse-engineering the 800 version: pedaling speed mapped to car velocity, handlebar buttons to steering. Ms. Pac-Man was briefly attempted but deliberately abandoned — its frantic four-directional maze gameplay was fundamentally incompatible with continuous-motion input, demonstrating what didn't work.
+* **Commercial History — The 1984 Crash.** Atari's internal market-entry plan was sophisticated and phased: launch the concept as a 'healthy and fun-filled game playing exercycle,' then enter the professional exercise and arcade markets, and finally release the consumer home version. Three models were planned: the Pro Model (deluxe gym-grade unit with heart-rate monitor), the Arcade Model (coin-operated cabinet), and the Home Model ($150 MSRP with one bundled game, either as a folding Atari-branded bike or retrofit kit). Atari had contingency plans for rowing machine and foot-pad adapters. Internal marketing data projected 68% female purchasers and 84% aged 25+ — a deliberate bet on expanding beyond teenage males by reframing gaming as healthy exercise.
+
+The timeline of events: mid-1982, Project Puffer conceived. September 1983, working prototype demonstrated to the Warner Communications Board of Directors in Monterey. Late 1983, project shelved as Atari hemorrhaged money (losing over $500 million in 1983 alone). Early 1984, project resurrected with plans for an aggressive Olympics-tie-in marketing campaign (Atari was a major sponsor of the 1984 Los Angeles Summer Olympics). Spring 1984, Warner sells Atari's consumer division to Sam Tramiel, who reorients the company as a 'professional home computer company,' killing virtually all game-console R&D including the Puffer. July–August 1984: the Olympics proceed without the Puffer.
+* **Legacy.** The Puffer is widely cited as the first serious attempt at 'exertainment' — the deliberate fusion of exercise equipment and video games. The Wikipedia article on fitness games identifies it as 'the first true attempt at what would later be called Exertainment.' The term 'exergaming' didn't enter the dictionary until 2007 — nearly 25 years after the Puffer prototype was running. Its DNA is visible in Nintendo's Exertainment System / Life Cycle (SNES, 1990s), Gamercize (2006), Wii Fit (2007, 21+ million homes), and Ring Fit Adventure (2019). The project's documents survive thanks to the Atari Gaming Headquarters archive (atarihq.com), which recovered internal memos, schematics, marketing plans, game sketches, and hardware diagrams. The known surviving prototypes for Tumbleweeds and Jungle River Cruise are non-interactive or incomplete. Jim Leiterman's 2021 interview on the ANTIC podcast provides the most detailed first-hand account.
+
+### Team
+
+* **Jim Leiterman.** Lead programmer, Atari Research Group (April 1982–March 1984). Wrote Tumbleweeds and Jungle River Cruise; adapted Pole Position and Ms. Pac-Man for Puffer input
+* **Alan Kay.** Research Group head; computing pioneer (Xerox PARC, Smalltalk, GUI); led the division under which Puffer was developed
+* **Dave Mathes.** Leiterman's direct manager within the Research Group
+* **Chris Crawford.** Colleague in the Research Group; game design legend (Eastern Front 1941, Balance of Power)
+* **Robert V. Phillips.** Independent inventor; filed US Patent 4512567A (March 1983) for an exercise bicycle video game controller — parallel concept referencing Atari hardware
+
+### Media
+
+![Second-generation Puffer handlebar controller running Tumbleweeds](assets/wiki/atari-puffer-controller.jpg)
+*Second-generation Puffer handlebar controller with push-buttons, running Tumbleweeds. Source: Jim Leiterman.*
+
+![Tumbleweeds game screenshot showing first-person desert view](assets/wiki/atari-puffer-tumbleweeds.png)
+*Tumbleweeds gameplay screenshot — first-person desert cycling with mountains, tumbleweeds, and cacti. Source: AtariProtos.*
+
+### Sources
+
+1. Atari HQ — Project Puffer archive (primary source) — https://www.atarihq.com/othersec/puffer/index.html
+2. Jim Leiterman's Atari page (first-person account) — https://www.leiterman.com/atari.html
+3. ANTIC Interview 421 — Jim Leiterman, Atari Research Group (podcast) — https://ataripodcast.libsyn.com/antic-interview-421-jim-leiterman-atari-research-group
+4. AtariProtos — Tumbleweeds — https://www.atariprotos.com/5200/software/tumbleweeds/tumbleweeds.htm
+5. AtariProtos — Jungle River Cruise — https://www.atariprotos.com/5200/software/jungleriver/jungleriver.htm
+6. US Patent US4512567A — Exercise bicycle apparatus for controlling video games — https://patents.google.com/patent/US4512567A/en
+7. Washington Post — 'Puffer, the great Atari exercise bike that never was' (2014) — https://www.washingtonpost.com/news/to-your-health/wp/2014/12/22/puffer-the-great-atari-exercise-bike-that-never-was/
+
+---
+
+## Coleco Telstar Arcade (1977)
+
+**By:** Coleco Industries (hardware designed by Sanders Associates under Ralph Baer)  
+**Tags:** `HCI` `Gaming` `Input Device` `Embodied Interaction` `Physical Computing`
+
+### Overview
+
+The Coleco Telstar Arcade is a first-generation dedicated home video game console released in 1977 by Coleco Industries. It was the most advanced and final entry in the Coleco Telstar series, a successful line of Pong-based consoles that had sold over a million units. Unlike its predecessors — which used hardwired Pong-on-a-chip logic — the Telstar Arcade was built around MOS Technology's MPS-7600-series microcontroller, a sophisticated chip from the same company that created the legendary 6502 processor.
+
+The console's defining feature is its triangular physical form factor (7.5 × 18 × 16 inches, 4 lbs). Each of the three sides presents a completely different control surface: one side has two rotary paddle dials for Pong-style games, another side houses a detachable light gun in a holster for shooting games, and the third side features a steering wheel with a gear shift lever for driving games. To play a different type of game, the player physically rotates the entire console.
+
+Triangular silver cartridges plug horizontally into the top using a unique latching mechanism, with each cartridge containing its own dedicated MPS-7600 chip variant — the entire CPU lives in the cartridge, not the console. Only four cartridges were released, each containing multiple games targeting all three control surfaces. The system was priced at approximately $50–75 with additional cartridges at $25 each. It was the final and crowning entry in the Telstar series before the programmable cartridge era rendered dedicated consoles obsolete.
+
+### Deep dive
+
+* **Origins — Sanders Associates Meets Coleco.** The Telstar story begins with Ralph Baer, the father of the home video game console. In 1975, Baer met Coleco's Arnold Greenberg through Baer's consulting work at Marvin Glass & Associates. Baer tipped off Greenberg about General Instrument's new AY-3-8500 Pong chip, leading to the original Telstar console. When Coleco wanted a next-generation console — the Telstar Arcade — Baer brought the work into Sanders Associates, the defense contractor where he had invented the original video game. Baer tasked Dunc Withun to assemble an engineering team. As Baer wrote: 'Under this contract, we helped Coleco to develop their triangular Telstar ARCADE game.'
+
+Coleco (Connecticut Leather Company) was founded by Maurice Greenberg and run by his sons by the 1970s: Arnold Greenberg (CEO, the marketing force) and Leonard Greenberg (President, providing engineering and manufacturing expertise). Bert Reiner, Coleco's VP of Product Development, started as the company's only engineer and oversaw the entire Telstar line. The MPS-7600 chip was designed by MOS Technology (later acquired by Commodore). Ken Shirriff's 2022 die analysis confirmed it contained more transistors than the 6502 and was a genuine microcontroller with a serial 9-bit CPU core, mask ROM, and PLA-driven display generation — not hardwired logic.
+* **Interaction Mechanics — Rotate to Change Modes.** The Telstar Arcade's interaction design is fundamentally about physical embodiment. The console is an equilateral triangle approximately 16 inches per side. Each of the three faces contains a different set of controls permanently wired into that side. There is no mode switch — whichever side faces the player determines what game type is active. The experience of physically lifting and rotating a 4-pound console to switch from racing to shooting to Pong is unique in gaming history.
+
+Side 1 — Paddle Side: Two rotary paddle controllers with center 'slam' buttons for Tennis, Hockey, and Handball across Cartridges 1 and 2. Cartridge 2 supports four-player mode via two additional wired paddle controllers.
+
+Side 2 — Shooting Side: A light gun stored in a molded holster, connected via 5-pin DIN plug. Used for Quickdraw, Target, Shooting Gallery, Shoot the Bear, and Blast Away.
+
+Side 3 — Racing Side: A miniature steering wheel with a two-position gear shift lever. Used for Road Race and Speedball. The wheel-and-shifter combination was unusually sophisticated for 1977.
+
+Each triangular cartridge contains the complete MPS-7600 chip — the entire CPU/microcontroller lives in the cartridge, not the console. Multiple contact pins are shorted together on the cartridge PCB to signal which side and control configuration to activate. This inverted architecture — where the console is essentially a shell providing power, controllers, and video output while the cartridge does all computation — is an early and unusual example of the cartridge containing the processor itself, not just ROM.
+* **Commercial History — The Peak Before the Fall.** The original Coleco Telstar sold roughly one million units in 1976, making Coleco the market leader in dedicated Pong consoles. The Telstar Arcade, as the premium model, was the most advanced and most expensive Telstar. Additional cartridges were sold separately for $25 each. The system was released in 1977 in Japan, North America, and Europe.
+
+However, by the time the Arcade reached retail, the market was shifting. The Atari VCS (2600) had launched in September 1977, ushering in the programmable cartridge era. A dock strike at Long Beach stranded Taiwanese-manufactured inventory during the critical 1977 Christmas season. Coleco was left with excess inventory that had to be sold at reduced prices. Commodore discontinued production of the MPS-7600 series around 1978. The Pong market collapsed as programmable consoles took over. Coleco pivoted to handheld electronic games and then, in 1982, launched the far more successful ColecoVision.
+* **Legacy.** The concept of putting different physical controllers on different faces of a geometric object, and having the player rotate the object to change modes, has never been replicated in a mass-market console. It represents a moment of radical experimentation before the industry standardized on the flat box + handheld controller paradigm. The cartridge-as-processor architecture — each cartridge containing a complete microcontroller — remains a fascinating 'what if' in hardware design history. The fact that the hardware was designed by Sanders Associates engineers under Ralph Baer — the inventor of the video game console — adds a remarkable historical footnote. The console is preserved in museum collections including the Centre for Computing History in Cambridge and the Nexon Computer Museum in South Korea.
+
+### Team
+
+* **Arnold Greenberg.** CEO of Coleco; drove the company into video games
+* **Leonard Greenberg.** President of Coleco; provided engineering and manufacturing oversight
+* **Bert Reiner.** VP of Product Development at Coleco (1969–1988); oversaw the entire Telstar line
+* **Ralph H. Baer.** Father of video games; brokered Coleco's relationship with General Instrument and arranged for Sanders Associates to design the Telstar Arcade hardware
+* **Dunc Withun.** Electronic Design Department manager at Sanders Associates; led the engineering team that designed the Telstar Arcade
+* **MOS Technology.** Designed and fabricated the MPS-7600 'Video Game Array' chip; same company that created the MOS 6502 microprocessor
+
+### Media
+
+![Coleco Telstar Arcade with cartridge inserted, paddle side facing forward](assets/wiki/telstar-arcade-paddle.jpg)
+*Coleco Telstar Arcade showing the paddle controller side with triangular cartridge inserted. Source: Wikimedia Commons (CC BY-SA 4.0).*
+
+![Three-side view of the Coleco Telstar Arcade revealing all control surfaces](assets/wiki/telstar-arcade-overview.jpg)
+*Overview of the triangular console showing all three distinct control surfaces. Source: Wikimedia Commons.*
+
+### Sources
+
+1. Wikipedia — Coleco Telstar Arcade — https://en.wikipedia.org/wiki/Coleco_Telstar_Arcade
+2. Pong-Story — Coleco Telstar Arcade (David Winter) — https://www.pong-story.com/coleco_arcade.htm
+3. The Centre for Computing History — Telstar Arcade — https://www.computinghistory.org.uk/det/68446/Coleco-Telstar-Arcade-RTO/
+4. Ralph Baer — 'The Coleco Story' (2000) — https://www.gooddealgames.com/articles/Ralph_Baers_Coleco_Story.html
+5. Time Extension — Interview with Bert Reiner (2023) — https://www.timeextension.com/features/interview-former-coleco-exec-bert-reiner-on-colecovision-nintendo-and-cabbage-patch-kids
+6. Old Vintage Computing Research — 'The Pong you could program' (2022) — http://oldvcr.blogspot.com/2022/08/the-pong-you-could-program-possibly-mos.html
+7. Hackaday — 'The MOS 7600 Video Game Chip Gives Up Its Secrets' (2022) — https://hackaday.com/2022/09/07/the-mos-7600-video-game-chip-gives-up-its-secrets/
+
+---
+
+## Lucasfilm EditDroid (1984)
+
+**By:** Lucasfilm Computer Division / The Droid Works (George Lucas, Ed Catmull, Ralph Guggenheim)  
+**Tags:** `HCI` `Creative Workstation` `Input Device` `Multimedia` `Professional`
+
+### Overview
+
+The EditDroid was a pioneering computerized non-linear editing (NLE) system developed by Lucasfilm's Computer Division between 1980 and 1984, with George Lucas investing an estimated $40 million into the project. It debuted at NAB 1984 — the same year the Macintosh launched — and was demonstrated using footage from Return of the Jedi. The system was built around multiple LaserDisc players, each holding about 30 minutes of footage per side, controlled by a Sun-1 workstation running Unix.
+
+The EditDroid introduced three fundamental concepts that define all modern editing software: the graphical timeline for arranging clips horizontally, picture icons (thumbnails) as visual identifiers for source clips, and a bin-based organizational system for grouping footage. At its heart was the TouchPad — a custom physical controller featuring a KEM-style jog/shuttle knob (replicating the muscle memory of traditional flatbed editors), a trackball for cursor control, and 12 context-sensitive soft keys with LED labels that dynamically changed function based on the editing task.
+
+Despite these innovations, the EditDroid was a commercial failure: only 24 units were produced at $150,000 each, with about 15 sold by 1986. The Droid Works joint venture with Convergence Corporation closed in 1987. A second-generation redesign found brief use on TV productions like Law & Order, and Oliver Stone used it on The Doors (1991). In 1993, Lucasfilm sold the technology to Avid Technology, where the EditDroid's interface DNA influenced Avid Media Composer and, by extension, every NLE that followed.
+
+### Deep dive
+
+* **Origins — Lucasfilm's Computer Division.** In 1979, frustrated by what he called the '19th-century process' of physically cutting and splicing celluloid, George Lucas formed Lucasfilm's Computer Division on Kerner Boulevard in San Rafael, California. He recruited Ed Catmull, a computer scientist from NYIT (and later co-founder of Pixar), to run the division. Catmull in turn recruited Ralph Guggenheim, a Carnegie Mellon alumnus who had built a self-designed degree combining film and computer science, to oversee the non-linear editing project. The division was given carte blanche to explore computers in editing, sound, imaging, and games. It would go on to birth not only EditDroid but also SoundDroid, the Pixar Image Computer, THX sound, and eventually Pixar Animation Studios itself. The EditDroid team spent four years in trial-and-error development, receiving input from traditional film editors to ensure the digital interface mapped to the muscle memory of Steenbeck and KEM flatbed editors.
+* **Interaction Mechanics — The TouchPad Controller.** The TouchPad was the EditDroid's signature physical interaction device — a custom-built console that bridged traditional film editing muscle memory with the new computer-driven paradigm. It was explicitly designed by actual film editors, not computer engineers, to 'feel like a Steenbeck.'
+
+The centerpiece was a large, weighted KEM-style jog/shuttle knob modeled directly on the mechanical transport controls of flatbed editing tables. Rotating the knob scrubbed through LaserDisc footage with frame-accurate precision — the faster you turned, the faster the footage moved. This replicated the exact haptic experience editors had developed over decades, allowing direct transfer of muscle memory.
+
+A trackball adjacent to the shuttle knob provided fluid, single-handed cursor positioning and clip selection on the Sun workstation's graphical UI — the other hand was typically on the shuttle knob. Surrounding both were 12 reconfigurable soft keys with built-in LED labels. Their functions and visible labels changed dynamically based on context: during clip review they might read 'MARK IN,' 'MARK OUT,' 'TRIM HEAD,' 'TRIM TAIL'; during timeline assembly they switched to 'INSERT,' 'OVERWRITE,' 'RIPPLE,' 'SPLICE.' This was a remarkably sophisticated HCI concept for 1984 — a hardware precursor to context-sensitive toolbars and contextual menus.
+
+The system used three coordinated displays: a small source monitor for reviewing raw footage from LaserDisc players (controlled by the shuttle knob), a large rear-projected 'program' monitor showing the assembled sequence, and a Sun-1 graphical display with the timeline, bin system, and editing controls. This three-panel layout — Source, Program/Timeline, and Tools/Metadata — is the direct ancestor of every modern NLE workspace.
+* **Commercial History — 24 Units.** Each EditDroid cost approximately $150,000 (equivalent to roughly $440,000 today), with weekly rentals at $2,500. Lucasfilm and Convergence Corporation formed a joint venture called The Droid Works to commercialize the system. By mid-1986, only 15 units had been sold. Total production reached just 24 units. The system competed with the Montage Picture Processor, another LaserDisc-based NLE.
+
+Several factors conspired against it: each LaserDisc held only ~30 minutes per side, requiring towers of discs for feature films. New cuts meant new discs had to be manufactured, taking days. George Lucas never used EditDroid on a feature film himself — a credibility gap that editors noticed. As colorist Marc Wielage recalled: 'It never worked very well. They had a lot of technical problems with it... Lucasfilm basically said, We've written it off, keep it. They hauled it to the dump.' When Avid Technology showed a hard-drive-based NLE at NAB 1988, eliminating the disc-transfer bottleneck, a Lucasfilm exec recalled thinking: 'These Avid guys are going to eat our shorts.' The Droid Works closed in 1987. Lucas personally funded a more reliable second-generation redesign that was used on The Young Indiana Jones Chronicles and Law & Order.
+* **Legacy.** The EditDroid's significance is not commercial but conceptual. As historian Michael Rubin wrote in Droidmaker: 'By 1984, you can see in that machine an almost perfect simulation of how we work today — in terms of the orientation of the screen, the bit-mapped display with timeline, and the widescreen master display in the middle. It could almost be Final Cut Pro in 2005.' The EditDroid invented the horizontal timeline, picture icons for clips, the bin system, non-destructive editing, the three-panel layout, and machine-readable Edit Decision Lists. Walter Murch's 1997 Oscar for editing The English Patient on Avid represented the ultimate vindication of the paradigm EditDroid first demonstrated. As Rubin reflected: 'George's stamp on nonlinear editing was the EditDroid, while Francis embraced the Montage, but in the end, it was neither of them who won the race. Walter legitimized the Avid.'
+
+### Team
+
+* **George Lucas.** Founder and financier; invested $40 million into the Computer Division
+* **Ed Catmull.** Head of Lucasfilm Computer Division (1979); recruited the team; later co-founded Pixar
+* **Ralph Guggenheim.** NLE project lead; oversaw the design and development of EditDroid; CMU alumnus
+* **Rob Lay.** Core team member; articulated the 'make it feel like a Steenbeck' design philosophy
+* **Andy Cohen.** Hardware/software development team member
+* **Michael Rubin.** Marketing and editorial instructor (1985–87); author of Droidmaker (2005)
+
+### Media
+
+![EditDroid team with George Lucas at the console](assets/wiki/editdroid-team.jpg)
+*The EditDroid team with George Lucas (center) and Ben Burtt (right). Ralph Guggenheim seated behind Lucas. Source: Lucasfilm.*
+
+![The EditDroid console with three-screen system and TouchPad controller](assets/wiki/editdroid-console.jpg)
+*The EditDroid's three-screen console with the custom TouchPad controller featuring KEM-style shuttle knob, trackball, and context-sensitive LED-labeled soft keys. Source: Lucasfilm.*
+
+### Sources
+
+1. Wikipedia — EditDroid — https://en.wikipedia.org/wiki/EditDroid
+2. Lucasfilm Originals — The EditDroid (official, 2021) — https://www.lucasfilm.com/news/lucasfilm-originals-the-editdroid/
+3. The Rough Cut — 'The Lost City of NLEs' (2025) — https://roughcut.heyeddie.ai/p/the-lost-city-of-nles-how-lucasfilm
+4. CineMontage — 'Droidmaker Chronicles the Early Years of Lucasfilm' (2006) — https://cinemontage.org/la-strada-1954/
+5. Grokipedia — EditDroid — https://grokipedia.com/page/editdroid
+6. The Editing System of Choice (original 1985 Droid Works brochure PDF) — http://www.typewritten.org/Articles/DroidWorks/ed-485.pdf
+7. Michael Rubin — Droidmaker (2005) — https://droidmaker.com/

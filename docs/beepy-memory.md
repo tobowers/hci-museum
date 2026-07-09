@@ -32,7 +32,7 @@ GitHub operating loop:
 - Close issues only when the corresponding PR is merged or the task is genuinely no longer relevant.
 - If no safe code/content change is ready, do backlog grooming: clarify issues, add acceptance criteria, or open a `needs-human` issue.
 
-Known collection gaps (updated 2026-07-05):
+Known collection gaps (updated 2026-07-09):
 - ~~Haptic/tactile feedback devices~~ — Filled: GROPE-III (1990) and Minsky Sandpaper (1990)
 - ~~Eye-tracking interfaces from the era~~ — Filled: EyeTyper (1983)
 - ~~Puff/sip or breath-based interfaces~~ — Filled: Nintendo Hands Free Controller (1989)
@@ -41,18 +41,21 @@ Known collection gaps (updated 2026-07-05):
 - ~~Spatial 3D audio as HCI modality~~ — Filled: Convolvotron (1988)
 - ~~Head-operated cursor control~~ — Filled: HeadMaster (1986)
 - ~~Full-body VR tracking~~ — Filled: VPL DataSuit (1989)
-- ~~Professional creative workstation with novel HCI~~ — Filled: Quantel Paintbox (1981)
+- ~~Professional creative workstation with novel HCI~~ — Filled: Quantel Paintbox (1981), Lucasfilm EditDroid (1984)
 - ~~Intraoral/tongue-operated interface~~ — Filled: Tongue Touch Keypad (1991)
 - ~~Pen computing / handwriting recognition~~ — Filled: Pencept PenPad (1982)
 - ~~Consumer physiological computing / biofeedback~~ — Filled: Synapse Relax Stress Reduction System (1984)
 - ~~Consumer brain-computer interface (BCI)~~ — Filled: IBVA Interactive Brainwave Visual Analyzer (1991)
 - ~~Paper-as-storage-medium / physical-digital bridge~~ — Filled: Cauzin Softstrip Reader (1985)
 - ~~Tongue-contact biofeedback visualization~~ — Filled: Reading Electropalatography System (1978)
-- ~~Sensor-based physical computing / home computer as lab instrument~~ — Filled: AtariLab (1983), joystick port repurposed as general-purpose ADC for science probes (2026-07-05)
-- ~~Dedicated physical control surfaces / instrument-philosophy interfaces~~ — Filled: SGI Dial and Button Box (1986), 8-dial + 32-button bimanual 3D controller (2026-07-05)
+- ~~Sensor-based physical computing / home computer as lab instrument~~ — Filled: AtariLab (1983)
+- ~~Dedicated physical control surfaces / instrument-philosophy interfaces~~ — Filled: SGI Dial and Button Box (1986)
+- ~~Exergaming / exertion-based computer interfaces~~ — Filled: Atari Puffer (1983)
 - Speech-to-visual biofeedback for therapy — Identified gap. IBM SpeechViewer (1988) strongly researched but ZERO surviving screenshots found. Revisit if images surface.
 - Body-worn vibrotactile spatial displays — Identified gap. TSAS Vest (1991) researched, images in DTIC PDFs. Collins Tactile Vest (1977) deferred (no images). Revisit when either gets image extraction.
 - Tangible token-based interfaces — Identified gap. Marble Answering Machine (1992) strongly researched but canonical images are copyright-locked in Moggridge's Designing Interactions (MIT Press). No freely-licensed images found. Revisit if image licensing obtained.
+- AAC / dedicated speech-generating devices — Identified gap. Touch Talker (1984) researched with good image sources from Indiana Disability History. Deferred for future run. (2026-07-09)
+- Arcade cabinets with novel 3D physical input mechanisms — Identified gap. Discs of Tron Environmental (1983) with unique 3-axis push/pull/rotate spinner strongly researched. Limited freely-licensed images. Defer for future arcade-themed run. (2026-07-09)
 
 Deferred strong candidates:
 - SynthAxe (1985): ~~<100 units, $13K MIDI guitar controller, CHM "curator's wish."~~ — Promoted to collection 2026-07-04
@@ -97,6 +100,12 @@ Deferred strong candidates:
 - Nintendo Arm Wrestling (1985): Deferred 2026-07-08. NOT true force feedback — passive spring-loaded 3-way joystick (LEFT/RIGHT/UP) with standard Nintendo microswitches. The "force feedback" myth is debunked: no motor, solenoid, or actuator in the joystick assembly. The physical game mechanic (timing-based wrestling against visual tells) is a game design innovation, not an HCI hardware innovation. Do not re-scout.
 - Bandai Terebikko (1988): Promoted 2026-07-08. Interactive VHS telephone — 4 colored buttons decode DTMF-like audio tones from VHS tapes. Characters "call" the child over the phone. 33+ licensed anime tapes by 1994. Mattel US release as "See 'n Say Video Phone." Good Wikipedia images (fair use). Distinct interaction model: telephone metaphor as game controller, VHS audio as data channel, parasocial framing.
 - Sega SubRoc-3D (1982): Promoted 2026-07-08. First commercial stereoscopic 3D video game. Mechanical spinning-shutter periscope + Matsushita 3D TV tech. Player presses face into periscope eyepiece. Designed by Shikanosuke Ochi (also created 1966 Periscope, first arcade trackball). Sega Retro images CC-BY 4.0. At least 4 publicly playable surviving cabinets.
+- Coleco Telstar Arcade (1977): Promoted 2026-07-09. Triangular dedicated console with 3 distinct control surfaces per side — rotate the whole machine to switch modes. Sanders Associates design under Ralph Baer. 4 cartridges, CPU-in-cartridge architecture (MOS MPS-7600). Wikimedia Commons images CC-BY-SA 4.0.
+- Lucasfilm EditDroid (1984): Promoted 2026-07-09. First NLE system. Custom TouchPad controller with KEM-style jog/shuttle knob, trackball, and 12 context-sensitive LED-labeled soft keys. 24 units at $150K each. Lucasfilm Computer Division (later Pixar). Technology sold to Avid 1993. Images from Lucasfilm official site (gray area for reuse licensing).
+- Atari Puffer (1983): Promoted 2026-07-09. Unreleased exercise bike controller from Alan Kay's Atari Research Group. Hall effect pedal sensor, handlebar buttons, optional heart-rate monitor. 4 custom games. Canceled weeks before 1984 Olympics launch. First exergaming system. Images from Jim Leiterman's personal site and AtariProtos.
+- Discs of Tron Environmental (EDOT) (1983): 3-axis push/pull/rotate optical spinner — genuinely unique input mechanism with no close equivalent before or since. EDOT cabinet a rarity. Well-documented in arcade collecting community but limited freely licensed images. Defer for future arcade-themed run. (2026-07-09)
+- Touch Talker (1984): First portable Minspeak AAC device by Prentke Romich Company. Icon sequencing (semantic compaction) as language generation — fundamentally different from spelling or single-meaning symbols. 32-128 multi-meaning icons. Fills AAC/speech-generating-device gap. Good images from Indiana Disability History collection. Defer for future run. (2026-07-09)
+- La Plume / The Feather (1988): Michel Bret, Marie-Hélène Tramus, Edmond Couchot. Breath-blown virtual feather — microphone captures breath pressure, real-time physics model animates feather on screen. Art installation (Université Paris 8). Pure embodied interaction: lung power as sole continuous controller. Source code released as open source. Thin on high-quality images. Defer — more art installation than hardware artifact. (2026-07-09)
 
 Promotion gotchas:
 - ARCHIVE deferred potential info.json files BEFORE running promote-potentials.ts. Old info.json files in potential/ are auto-promoted regardless of deferral status. Rename to `info.json.archived` or move to a sibling directory to exclude. (2026-07-06)
@@ -114,3 +123,5 @@ Promotion gotchas:
 - Subagents may report incorrect years for gaming products. The Sega Activator is widely described as "1992" in retro gaming coverage but was actually released November 1993. Always verify years against primary sources (Sega Retro, Wikipedia release dates) before promotion.
 - Sega Retro (segaretro.org) images are licensed CC-BY 4.0 and are a viable image source for Sega hardware artifacts. Wikimedia Commons Sega images are limited mainly to fair-use screenshots.
 - CHM `images.computerhistory.org/revonline/images/` URLs are inconsistent — some return JPEG, some return HTML. When they fail, try the S3 `chm-cms-media` URL or fall back to other sources. Test each URL with `curl` before committing to it. (2026-07-07)
+- Lucasfilm.com images (EditDroid) are published on their official news site for editorial/historical use but are NOT freely licensed. They work for museum use with attribution but are a gray area. Test with `curl -sI` before downloading. (2026-07-09)
+- AtariHQ (atarihq.com) images are hotlink-protected (403 on curl). Use leiterman.com or atariprotos.com as alternative sources for Atari Puffer images. (2026-07-09)

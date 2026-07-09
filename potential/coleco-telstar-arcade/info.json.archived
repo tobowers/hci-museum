@@ -1,0 +1,62 @@
+{
+  "slug": "coleco-telstar-arcade",
+  "title": "Coleco Telstar Arcade",
+  "year": "1977",
+  "subtitle": "A triangular dedicated console where the physical form IS the interface — rotate the whole machine to switch between a steering wheel, a light gun, and paddle controllers, each on its own face.",
+  "why_scout_cares": "This is quite possibly the most literal embodiment of 'form as interface' in console history. The player doesn't press a button to change modes — they rotate the entire 16-inch triangular console. Triangular cartridges plug into the top, each containing its own microcontroller (the CPU lives in the cartridge, not the console). Three entirely different physical control surfaces are built into the three sides. It is the peak of first-generation dedicated console design and an interaction-design unicorn. Designed by Sanders Associates engineers under Ralph Baer's supervision — the father of the video game console secretly designed one of its most unusual descendants.",
+  "search_terms": ["Coleco Telstar Arcade 1977", "Coleco triangular console", "Telstar Arcade cartridge"],
+  "research": {
+    "title": "Coleco Telstar Arcade",
+    "year": "1977",
+    "by": "Coleco Industries (hardware designed by Sanders Associates under Ralph Baer)",
+    "tags": ["HCI", "Gaming", "Input Device", "Embodied Interaction", "Physical Computing"],
+    "overview": "The Coleco Telstar Arcade is a first-generation dedicated home video game console released in 1977 by Coleco Industries. It was the most advanced and final entry in the Coleco Telstar series, a successful line of Pong-based consoles that had sold over a million units. Unlike its predecessors — which used hardwired Pong-on-a-chip logic — the Telstar Arcade was built around MOS Technology's MPS-7600-series microcontroller, a sophisticated chip from the same company that created the legendary 6502 processor.\n\nThe console's defining feature is its triangular physical form factor (7.5 × 18 × 16 inches, 4 lbs). Each of the three sides presents a completely different control surface: one side has two rotary paddle dials for Pong-style games, another side houses a detachable light gun in a holster for shooting games, and the third side features a steering wheel with a gear shift lever for driving games. To play a different type of game, the player physically rotates the entire console.\n\nTriangular silver cartridges plug horizontally into the top using a unique latching mechanism, with each cartridge containing its own dedicated MPS-7600 chip variant — the entire CPU lives in the cartridge, not the console. Only four cartridges were released, each containing multiple games targeting all three control surfaces. The system was priced at approximately $50–75 with additional cartridges at $25 each. It was the final and crowning entry in the Telstar series before the programmable cartridge era rendered dedicated consoles obsolete.",
+    "deepDive": [
+      {
+        "heading": "Origins — Sanders Associates Meets Coleco",
+        "text": "The Telstar story begins with Ralph Baer, the father of the home video game console. In 1975, Baer met Coleco's Arnold Greenberg through Baer's consulting work at Marvin Glass & Associates. Baer tipped off Greenberg about General Instrument's new AY-3-8500 Pong chip, leading to the original Telstar console. When Coleco wanted a next-generation console — the Telstar Arcade — Baer brought the work into Sanders Associates, the defense contractor where he had invented the original video game. Baer tasked Dunc Withun to assemble an engineering team. As Baer wrote: 'Under this contract, we helped Coleco to develop their triangular Telstar ARCADE game.'\n\nColeco (Connecticut Leather Company) was founded by Maurice Greenberg and run by his sons by the 1970s: Arnold Greenberg (CEO, the marketing force) and Leonard Greenberg (President, providing engineering and manufacturing expertise). Bert Reiner, Coleco's VP of Product Development, started as the company's only engineer and oversaw the entire Telstar line. The MPS-7600 chip was designed by MOS Technology (later acquired by Commodore). Ken Shirriff's 2022 die analysis confirmed it contained more transistors than the 6502 and was a genuine microcontroller with a serial 9-bit CPU core, mask ROM, and PLA-driven display generation — not hardwired logic."
+      },
+      {
+        "heading": "Interaction Mechanics — Rotate to Change Modes",
+        "text": "The Telstar Arcade's interaction design is fundamentally about physical embodiment. The console is an equilateral triangle approximately 16 inches per side. Each of the three faces contains a different set of controls permanently wired into that side. There is no mode switch — whichever side faces the player determines what game type is active. The experience of physically lifting and rotating a 4-pound console to switch from racing to shooting to Pong is unique in gaming history.\n\nSide 1 — Paddle Side: Two rotary paddle controllers with center 'slam' buttons for Tennis, Hockey, and Handball across Cartridges 1 and 2. Cartridge 2 supports four-player mode via two additional wired paddle controllers.\n\nSide 2 — Shooting Side: A light gun stored in a molded holster, connected via 5-pin DIN plug. Used for Quickdraw, Target, Shooting Gallery, Shoot the Bear, and Blast Away.\n\nSide 3 — Racing Side: A miniature steering wheel with a two-position gear shift lever. Used for Road Race and Speedball. The wheel-and-shifter combination was unusually sophisticated for 1977.\n\nEach triangular cartridge contains the complete MPS-7600 chip — the entire CPU/microcontroller lives in the cartridge, not the console. Multiple contact pins are shorted together on the cartridge PCB to signal which side and control configuration to activate. This inverted architecture — where the console is essentially a shell providing power, controllers, and video output while the cartridge does all computation — is an early and unusual example of the cartridge containing the processor itself, not just ROM."
+      },
+      {
+        "heading": "Commercial History — The Peak Before the Fall",
+        "text": "The original Coleco Telstar sold roughly one million units in 1976, making Coleco the market leader in dedicated Pong consoles. The Telstar Arcade, as the premium model, was the most advanced and most expensive Telstar. Additional cartridges were sold separately for $25 each. The system was released in 1977 in Japan, North America, and Europe.\n\nHowever, by the time the Arcade reached retail, the market was shifting. The Atari VCS (2600) had launched in September 1977, ushering in the programmable cartridge era. A dock strike at Long Beach stranded Taiwanese-manufactured inventory during the critical 1977 Christmas season. Coleco was left with excess inventory that had to be sold at reduced prices. Commodore discontinued production of the MPS-7600 series around 1978. The Pong market collapsed as programmable consoles took over. Coleco pivoted to handheld electronic games and then, in 1982, launched the far more successful ColecoVision."
+      },
+      {
+        "heading": "Legacy",
+        "text": "The concept of putting different physical controllers on different faces of a geometric object, and having the player rotate the object to change modes, has never been replicated in a mass-market console. It represents a moment of radical experimentation before the industry standardized on the flat box + handheld controller paradigm. The cartridge-as-processor architecture — each cartridge containing a complete microcontroller — remains a fascinating 'what if' in hardware design history. The fact that the hardware was designed by Sanders Associates engineers under Ralph Baer — the inventor of the video game console — adds a remarkable historical footnote. The console is preserved in museum collections including the Centre for Computing History in Cambridge and the Nexon Computer Museum in South Korea."
+      }
+    ],
+    "team": [
+      { "name": "Arnold Greenberg", "note": "CEO of Coleco; drove the company into video games" },
+      { "name": "Leonard Greenberg", "note": "President of Coleco; provided engineering and manufacturing oversight" },
+      { "name": "Bert Reiner", "note": "VP of Product Development at Coleco (1969–1988); oversaw the entire Telstar line" },
+      { "name": "Ralph H. Baer", "note": "Father of video games; brokered Coleco's relationship with General Instrument and arranged for Sanders Associates to design the Telstar Arcade hardware" },
+      { "name": "Dunc Withun", "note": "Electronic Design Department manager at Sanders Associates; led the engineering team that designed the Telstar Arcade" },
+      { "name": "MOS Technology", "note": "Designed and fabricated the MPS-7600 'Video Game Array' chip; same company that created the MOS 6502 microprocessor" }
+    ],
+    "media": [
+      { "src": "https://upload.wikimedia.org/wikipedia/commons/c/c3/Coleco-Telstar-Arcade-Pongside-L.jpg", "alt": "Coleco Telstar Arcade with cartridge inserted, paddle side facing forward", "caption": "Coleco Telstar Arcade showing the paddle controller side with triangular cartridge inserted. Source: Wikimedia Commons (CC BY-SA 4.0)." },
+      { "src": "https://upload.wikimedia.org/wikipedia/commons/a/af/Coleco_Telstar_Arcade.jpg", "alt": "Three-side view of the Coleco Telstar Arcade revealing all control surfaces", "caption": "Overview of the triangular console showing all three distinct control surfaces. Source: Wikimedia Commons." },
+      { "src": "https://upload.wikimedia.org/wikipedia/commons/1/12/Coleco_Telstar_Arcade_%281%29.jpg", "alt": "Coleco Telstar Arcade museum display at Nexon Computer Museum", "caption": "Telstar Arcade on display at the Nexon Computer Museum, South Korea. Source: Wikimedia Commons (CC BY-SA 4.0)." }
+    ],
+    "sources": [
+      { "text": "Wikipedia — Coleco Telstar Arcade", "url": "https://en.wikipedia.org/wiki/Coleco_Telstar_Arcade" },
+      { "text": "Pong-Story — Coleco Telstar Arcade (David Winter)", "url": "https://www.pong-story.com/coleco_arcade.htm" },
+      { "text": "The Centre for Computing History — Telstar Arcade", "url": "https://www.computinghistory.org.uk/det/68446/Coleco-Telstar-Arcade-RTO/" },
+      { "text": "Ralph Baer — 'The Coleco Story' (2000)", "url": "https://www.gooddealgames.com/articles/Ralph_Baers_Coleco_Story.html" },
+      { "text": "Time Extension — Interview with Bert Reiner (2023)", "url": "https://www.timeextension.com/features/interview-former-coleco-exec-bert-reiner-on-colecovision-nintendo-and-cabbage-patch-kids" },
+      { "text": "Old Vintage Computing Research — 'The Pong you could program' (2022)", "url": "http://oldvcr.blogspot.com/2022/08/the-pong-you-could-program-possibly-mos.html" },
+      { "text": "Hackaday — 'The MOS 7600 Video Game Chip Gives Up Its Secrets' (2022)", "url": "https://hackaday.com/2022/09/07/the-mos-7600-video-game-chip-gives-up-its-secrets/" }
+    ],
+    "imageUrls": [
+      "https://upload.wikimedia.org/wikipedia/commons/c/c3/Coleco-Telstar-Arcade-Pongside-L.jpg",
+      "https://upload.wikimedia.org/wikipedia/commons/a/af/Coleco_Telstar_Arcade.jpg",
+      "https://upload.wikimedia.org/wikipedia/commons/1/12/Coleco_Telstar_Arcade_%281%29.jpg",
+      "https://upload.wikimedia.org/wikipedia/commons/d/d8/Coleco_Telstar_Arcade_%2811%29.jpg"
+    ]
+  },
+  "savedImages": []
+}
