@@ -111,7 +111,7 @@ function failedSteps(meta: RunMeta): string {
 }
 
 function isTransient(log: string): boolean {
-  return /ECONNRESET|ETIMEDOUT|ENOTFOUND|EAI_AGAIN|TLS connection|network timeout|rate limit|secondary rate limit|502 Bad Gateway|503 Service Unavailable|504 Gateway Timeout|runner.*lost|The operation was canceled|Failed to download|Failed to resolve|could not resolve host/i.test(log);
+  return /ECONNRESET|ETIMEDOUT|ENOTFOUND|EAI_AGAIN|TLS connection|network timeout|rate limit|secondary rate limit|502 Bad Gateway|503 Service Unavailable|504 Gateway Timeout|runner.*lost|The operation was canceled|Failed to download|Failed to resolve|could not resolve host|Deployment failed, try again later/i.test(log);
 }
 
 function isModelProviderFailure(log: string): boolean {
@@ -263,6 +263,8 @@ ${failedSteps(meta)}
   );
 
   if (isTransient(log) && tryRerunOnce(meta, "network/platform transient pattern in logs")) return;
+
+  if (workflowName === "Curator Scout" && isModelProviderFailure(log) && tryRerunOnce(meta, "scout model/provider timeout before recoverable output")) return;
 
   if (workflowName === "Beepy Manager" && ["issues", "issue_comment"].includes(failedEvent)) {
     console.log("Issue-triggered Beepy Manager failures are reported to their source issue by the manager workflow.");

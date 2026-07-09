@@ -1,4 +1,5 @@
 #!/usr/bin/env bun
+import { spawnSync } from "node:child_process";
 import fs from "node:fs";
 import path from "node:path";
 import { closeOpencode, opencodeText, resolveModelRef } from "./opencode-runner";
@@ -41,6 +42,43 @@ function runPaths(topic: string): { tracePath: string; summaryPath: string } {
     tracePath: path.join(RUN_DIR, `${stamp}-${slug}.md`),
     summaryPath: path.join(RUN_DIR, `${stamp}-${slug}.summary.md`),
   };
+}
+
+function commandOutput(command: string, args: string[]): { ok: boolean; output: string } {
+  const result = spawnSync(command, args, { encoding: "utf-8", maxBuffer: 50 * 1024 * 1024 });
+  return { ok: result.status === 0, output: `${result.stdout ?? ""}${result.stderr ?? ""}`.trim() };
+}
+
+function gitStatusShort(): string {
+  return commandOutput("git", ["status", "--short"]).output;
+}
+
+function hasSubstantiveGeneratedChanges(status: string): boolean {
+  return status
+    .split("\n")
+    .map((line) => line.slice(3).trim())
+    .filter(Boolean)
+    .some((file) => !file.startsWith("potential/runs/"));
+}
+
+function isRecoverableAbort(error: unknown): boolean {
+  const data = errorData(error);
+  const text = `${String(error)}\n${JSON.stringify(data)}`;
+  return /MessageAbortedError|timed out after|timeout: aborting opencode session|The operation was canceled/i.test(text);
+}
+
+function writeFallbackSummary(summaryPath: string, details: { topic: string; tracePath: string; status: string; checks: Array<{ label: string; ok: boolean; output: string }> }) {
+  const checks = details.checks
+    .map((check) => {
+      const output = check.output ? `\n\n\`\`\`text\n${check.output.slice(-5000)}\n\`\`\`` : "";
+      return `- ${check.ok ? "PASS" : "FAIL"}: \`${check.label}\`${output}`;
+    })
+    .join("\n");
+
+  fs.writeFileSync(
+    summaryPath,
+    `# Agent Scout Partial Summary\n\nTopic: ${details.topic}\n\nThe opencode scout session was aborted by the Actions timeout after producing repository changes. The wrapper treated this as a recoverable partial run because generated output exists and verification passed.\n\nTrace: ${details.tracePath}\n\n## Changed Files\n\n\`\`\`text\n${details.status}\n\`\`\`\n\n## Verification\n\n${checks}\n`,
+  );
 }
 
 async function main() {
@@ -155,6 +193,25 @@ At the end:
     console.error(`agent-scout: failed; trace so far: ${tracePath}`);
     console.error(error);
     await closeOpencode();
+
+    const status = gitStatusShort();
+    if (hasSubstantiveGeneratedChanges(status) && isRecoverableAbort(error)) {
+      console.warn("agent-scout: timeout/abort produced repository changes; verifying partial output before treating as recoverable");
+      const checks = [
+        { label: "bun run typecheck", ...commandOutput("bun", ["run", "typecheck"]) },
+        { label: "bun run build", ...commandOutput("bun", ["run", "build"]) },
+      ];
+      for (const check of checks) {
+        fs.appendFileSync(tracePath, `\n## Recovery Check: ${check.label}\n\nResult: ${check.ok ? "PASS" : "FAIL"}\n\n\`\`\`text\n${check.output.slice(-5000)}\n\`\`\`\n`);
+      }
+      if (checks.every((check) => check.ok)) {
+        writeFallbackSummary(summaryPath, { topic, tracePath, status: gitStatusShort(), checks });
+        console.warn(`agent-scout: recovered partial output; summary = ${summaryPath}`);
+        process.exit(0);
+      }
+      console.error("agent-scout: partial output did not verify; keeping failure state");
+    }
+
     process.exit(1);
   }
 }
