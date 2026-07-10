@@ -1179,6 +1179,30 @@ const exhibitData: Exhibit[] = [
     tags: ["Haptics", "Force Feedback", "VR", "Research", "Input"],
     image: img("iwata-desktop-force-display-1.jpg"),
   },
+  {
+    id: "atari-video-music",
+    slug: "atari-video-music",
+    wikiTitle: "Atari Video Music / C-240",
+    year: "1977",
+    sortYear: 1977,
+    title: "Atari Video Music / C-240",
+    subtitle: "The first commercial music visualizer — five knobs and a walnut box that turned your stereo into abstract television",
+    blurb: "Before Winamp, before iTunes Visualizer, there was a wooden box from Atari with five knobs and twelve buttons. The Atari Video Music (1977) connected between a stereo and a TV, translating audio waveforms into live geometric animations through purely analog circuitry. Designed by Pong engineer Robert Brown, it was discontinued after one year — a glorious commercial failure that established an entire genre. When Sears asked what the developers were smoking, a technician held up a lit joint.",
+    tags: ["Audio-Visual", "Analog", "Consumer Electronics"],
+    image: img("atari-video-music-1.jpg"),
+  },
+  {
+    id: "grimes-data-glove",
+    slug: "grimes-data-glove",
+    wikiTitle: "Grimes Digital Data Entry Glove",
+    year: "1983",
+    sortYear: 1983,
+    title: "Grimes Digital Data Entry Glove",
+    subtitle: "A chorded keyboard you wear — type by touching your fingers together",
+    blurb: "A fabric glove from Bell Labs where touching your fingers together types characters. Unlike position-tracking gloves, the Grimes Glove measures which fingers touch — each fingertip is a switch, your thumb is the common terminal, and typing means tapping finger to thumb in coded patterns. Patented in 1983 by Gary J. Grimes, it reimagined the chorded keyboard as something worn rather than held, years before wearable computing was a term.",
+    tags: ["Wearable", "Chorded Keyboard", "Input", "Glove"],
+    image: img("grimes-data-glove-1.png"),
+  },
 ];
 
 export const exhibits: Exhibit[] = exhibitData.toSorted((a, b) => b.sortYear - a.sortYear || a.title.localeCompare(b.title));
