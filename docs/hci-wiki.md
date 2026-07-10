@@ -4648,3 +4648,125 @@ SubRoc-3D was the first commercial stereoscopic 3D video game, released by Sega 
 6. The Escapist: The History of 3D Gaming (2015) — https://www.escapistmagazine.com/the-history-of-3d-in-gaming/
 7. CVG Magazine Review (Feb 1983) — https://solvalou.com/arcade/reviews/173/479
 8. Game Machine No. 185 (JP, April 1982) — https://onitama.tv/gamemachine/pdf/19820401p.pdf
+
+---
+
+## 2-XL (1978)
+
+**By:** Mego Corporation (invented by Dr. Michael J. Freeman)  
+**Tags:** `Consumer` `Toy` `Audio` `Interactive` `Robot` `Education`
+
+### Overview
+
+2-XL was an educational toy robot marketed from 1978–1981 by the Mego Corporation and revived 1992–1995 by Tiger Electronics. Shaped like a small standing android with flashing red eyes and a slot for 8-track tape cartridges, it was marketed as "the toy with a personality." Children listened to a program on an 8-track tape containing multiple-choice questions, then pressed one of four response buttons (Question, Yes/True, No/False, More Info). The core innovation was that these buttons did not signal a computer — they simply switched between the four parallel audio tracks on the 8-track tape. Because 8-track cartridges play all tracks simultaneously on a continuous loop, carefully synced recordings on each track could simulate branching conversations. The illusion was so convincing that 2-XL was widely perceived as an intelligent machine.
+
+Freeman voiced the robot using a synthesizer to create a high-pitched, excitable character. The scripts were witty and sarcastic: wrong answers might trigger "Perhaps your brain went on strike!" while correct ones earned "It is amazing that big brain of yours fits into the head of a child." The toy won hundreds of awards, was translated into seven languages, and spawned over 40 tape titles. Playthings magazine placed 2-XL on its 75th-anniversary cover as one of the industry's top ten toys of all time. The 1992 Tiger version updated to compact cassettes, using all four tracks (left/right × side A/B) for the same branching effect with licensed properties including Spider-Man and X-Men.
+
+### Deep dive
+
+* **Origins.** 2-XL was invented by Dr. Michael J. Freeman, who filed US Patent 4,078,316 for a "Real Time Conversational Toy" in 1977. Mego Corporation, a publicly traded New York toy company known for action figures and the Micronauts line, manufactured the original version. The name is a pun on "to excel." The toy debuted in 1978 at a time when educational electronic toys were virtually nonexistent. The 1992 revival by Tiger Electronics updated the format and added licensed entertainment properties.
+* **Interaction Model.** An 8-track tape cartridge contains four parallel stereo programs on a single continuous loop. The tape head can read any of the four tracks. 2-XL's four buttons map directly to track selection. The program on each track is carefully timed so that pressing a button plays the appropriate response, and all tracks converge for the next question. This creates a four-way branching tree — effectively a state machine in magnetic tape. The user's participation completes the illusion: press the right button at the right moment, and the robot seems to know what you said. The 1992 cassette version achieved the same effect using the four audio tracks of a standard cassette (left and right for each side), with better sound quality and longer runtime. The device could also play any standard audio tape.
+* **Trilex.** One of the final Mego-era tapes implemented a complete board game played against 2-XL. The tape came with a plastic board overlay that slotted over the robot's front, featuring a pyramid of colored squares. Dropping checkers through the slots also pressed specific buttons, and the audio branching logic tracked game state — a remarkable simulation of game-playing AI using only a four-track audio format.
+* **Cultural Impact.** 2-XL was a significant commercial success and nostalgic touchstone. It spawned a TV game show spinoff (Pick Your Brain, produced by Marc Summers, with 2-XL as co-host) and appeared in public service announcements with Michael Jordan in 1992–1993. Tiger-era tapes included licensed adventures for Batman, Spider-Man, X-Men, Star Trek: The Next Generation, and Jurassic Park. Today, the toy has a dedicated collector community and a working web-based emulator (2xlbot.com). It is held in the collection of The Strong National Museum of Play.
+
+### Team
+
+* **Dr. Michael J. Freeman.** Inventor, voice actor, and scriptwriter for all 2-XL programs
+* **Mego Corporation.** Manufacturer and distributor, 1978–1981
+* **Tiger Electronics.** Manufacturer and distributor of the revived version, 1992–1995
+
+### Media
+
+![The original 1978 Mego Corporation 2-XL educational toy robot, brown plastic body with white face, red eye lights, and four response buttons on its stomach](../assets/wiki/2-XL_Educational_Toy_Robot_Mego_Corporation_1978.jpg)
+*The original Mego Corporation 2-XL robot (1978). The 8-track tape slot is at the bottom; the four red buttons on its stomach switch between parallel audio tracks. (Wikimedia Commons)*
+
+### Sources
+
+1. 2-XL — Wikipedia — https://en.wikipedia.org/wiki/2-XL
+2. Boing Boing: The 1978 Mego 2-XL Talking Robot was a brilliant illusion of interactive computing — https://boingboing.net/2021/03/03/the-1978-mego-2-xl-talking-robot-was-a-brilliant-illusion-of-interactive-computing-based-on-8-track-tapes.html
+3. World of 2-XL (enthusiast site with comprehensive tape list and history) — http://www.2xlrobot.com/
+4. 2-XL Bot (online emulator with dozens of original programs) — https://www.2xlbot.com/
+5. Mental Floss: Remembering the First Smart Toy: 2-XL — https://mentalfloss.com/article/87066/remembering-first-smart-toy-2-xl
+6. The Strong National Museum of Play: 2-XL in collection — https://www.thestrong.org/online-collections/nmop/3/43/107.1036
+7. US Patent 4,078,316: Real Time Conversational Toy — https://patents.google.com/patent/US4078316
+
+---
+
+## Surf Champ (1985)
+
+**By:** New Concepts Ltd. (Dr. Norman McMillan, John Frayne, Prof. Susan McKenna-Lawlor)  
+**Tags:** `Gaming` `Sports` `Input` `Proprioception` `Keyboard Overlay` `Fluid Dynamics`
+
+### Overview
+
+Surf Champ was a surfing simulation game released in 1985 for the ZX Spectrum 48K by New Concepts, a small Irish company founded by physicist Dr. Norman McMillan, academic John Frayne, and astrophysicist Prof. Susan McKenna-Lawlor (who later worked on Mars and Venus missions with NASA and Russia). The game came packaged with a 19-centimeter plastic surfboard that sat on top of the Spectrum's keyboard. The underside of the board had metal 'bobbles' positioned to contact specific keys when the player shifted their hand weight forward, backward, left, or right. This translated physical weight distribution into in-game surfing maneuvers: trimming, bottom turns, and cutbacks.
+
+McMillan, a surfer himself, programmed real fluid-dynamics algorithms to model wave behavior at Fistral Beach in Cornwall. The software accounted for height, weight, board type and length, and wetsuit gear. A decreasing energy bar, designed with input from a doctor, simulated fatigue. Side B contained a tutorial program. The game was endorsed by the International Surfing Association and the European Surfing Association.
+
+At the 1985 European Surfing Championships at Rossnowlagh Beach, Ireland, New Concepts demonstrated the game. When surf went flat, professional surfers played it non-stop and organized an impromptu tournament — the first World Computer Surfing Championship — won by English champion Jed Stone. Pre-sales for 180,000 units were secured, but the Irish Industrial Development Authority limited production to 3,000 copies for "test marketing." Christmas 1985 passed. The Commodore 64 port sold only 600 copies. New Concepts folded, and their planned Ski Champ and motion-sensitive HUCI controller never materialized.
+
+### Deep dive
+
+* **Origins.** Dr. Norman McMillan was a 40-year-old physics and computer science lecturer at Carlow RTC in Ireland. As a surfer, he wanted to create a game with proper mathematical algorithms rather than arcade approximations. He teamed up with John Frayne for the hardware concept and Prof. Susan McKenna-Lawlor, an astrophysicist specializing in ultra-fast programming for space technology. Each invested £20,000 to form New Concepts. The IDA provided additional startup funding. The ZX Spectrum was chosen because its rubber keyboard could be pressed by the bobbles on the underside of the plastic surfboard.
+* **Interaction Model.** The player placed the miniature surfboard on the Spectrum's keyboard, aligning it with a button overlay. The board had conductive metal bobbles on its underside. Leaning weight forward, backward, left, or right depressed specific keyboard keys. The software interpreted these keystrokes as surfing maneuvers: forward weight → trimming down the wave face, back-left → bottom turn, back-right → cutback, centered → neutral glide. The interaction was proprioceptive — the player's body English on the board translated directly to on-screen surfing physics. Because the Spectrum keyboard detected multiple simultaneous key presses, the system supported nuanced weight distributions. Players selected height, weight, board type, and wetsuit before entering the water.
+* **The First Esports Tournament.** At the 1985 European Surfing Championships, with no waves, professional surfers played Surf Champ non-stop. Each country selected four surfers for a 'surf-off.' English champion Jed Stone won with 23,700 points, becoming the first World Computer Surfing Champion. The game also offered a cash prize for any player who could beat Stone's score.
+* **Legacy.** Surf Champ is arguably the most accurate surfing simulation ever made — professional surfers testified to its precision. The World Surf League's mobile game True Surf (2020) was described by its creators as 'the culmination of New Concepts' early endeavours.' Jed Stone played True Surf during lockdown and said, 'It's the same as Surf Champ, only without the feel of the board.' The HUCI motion-sensitive controller prototype, developed alongside Surf Champ, anticipated the Nintendo Wii by 20 years.
+
+### Team
+
+* **Dr. Norman McMillan.** Physics lecturer, surfer, conceived the game and wrote fluid-dynamics algorithms
+* **John Frayne.** Academic collaborator, designed the surfboard keyboard overlay hardware
+* **Prof. Susan McKenna-Lawlor.** Astrophysicist, specialized in ultra-fast programming; later worked on NASA and Russian missions to Mars, Venus, and the Moon
+* **New Concepts Ltd.** Irish company formed by McMillan, Frayne, and McKenna-Lawlor
+
+### Media
+
+![The Surf Champ plastic surfboard controller positioned on a ZX Spectrum keyboard](../assets/wiki/surf-champ-surfboard-1.jpg)
+*The 19cm plastic surfboard controller, showing the metal bobbles on its underside that pressed specific ZX Spectrum keyboard keys when weight was shifted. (Spectrum Computing Archive)*
+
+![Surf Champ packaging with the surfboard controller and cassette tape](../assets/wiki/surf-champ-front.jpg)
+*Surf Champ clamshell case packaging showing the surfboard controller and cassette tape. (Spectrum Computing Archive)*
+
+### Sources
+
+1. BBC Sport: Surf Champ — The surfing simulator 35 years ahead of its time (Chris Bevan, 23 May 2020) — https://www.bbc.com/sport/52682338
+2. Spectrum Computing: Surf Champ entry with screenshots, inlays, and magazine reviews — https://spectrumcomputing.co.uk/entry/5078/ZX-Spectrum/SurfChamp
+3. Computing History: Surf Champ entry — https://www.computinghistory.org.uk/det/3778/Surfchamp/
+
+---
+
+## Iwata Desktop Force Display (1990)
+
+**By:** Hiroo Iwata and Hiroaki Yano, University of Tsukuba, Japan  
+**Tags:** `Haptics` `Force Feedback` `VR` `Research` `Input` `Pantograph Mechanism`
+
+### Overview
+
+The Desktop Force Display, developed by Hiroo Iwata and Hiroaki Yano at the University of Tsukuba and first presented at SIGGRAPH 1990, was the first compact, desktop-scale 6-degree-of-freedom force-feedback device built explicitly for human-computer interaction rather than telerobotics. It used a novel parallel mechanism: three sets of pantograph linkages (parallelogram linkages), each driven by two DC motors, supporting a small triangular platform with a handle. Unlike serial-link force displays that were large, heavy, and friction-ridden, the pantograph-parallel design was inherently back-drivable with exceptionally low inertia. Users felt almost no mechanical resistance when moving through empty virtual space, but crisp, immediate forces upon contacting virtual objects.
+
+The working volume was a sphere approximately 40 centimeters in diameter with a maximum continuous force of about 2.5 kilograms. At SIGGRAPH 1990, Iwata demonstrated three canonical haptic interactions without any accompanying visual display: hard surfaces (impenetrable walls users could trace by feel), elastic surfaces (deformable with proportional resistance), and flow fields (force proportional to fluid velocity, torque proportional to vorticity — users felt currents and whirlpools). This 'blind exploration' paradigm was deliberate, designed to prove that force feedback alone could convey spatial layout, object identity, and material properties. The system processed 20–30 users per hour in 2–3 minute sessions with no calibration or instruction required.
+
+### Deep dive
+
+* **Origins.** Hiroo Iwata was a researcher at the University of Tsukuba working at the intersection of virtual reality, haptics, and HCI. In the late 1980s, force-feedback devices were almost exclusively large robotic arms for telerobotics (such as the JPL Force-Reflecting Hand Controller). These systems were expensive, room-filling, and suffered from high friction that made free-space movement feel sluggish. Iwata's key insight was to abandon the serial-link robot arm architecture and instead use a parallel pantograph mechanism — a design borrowed from drafting tools and mechanical linkages rather than industrial robotics.
+* **Interaction Model.** The user grasped the handle with one hand and explored a purely virtual, invisible space. No visual display was provided. Three modes were demonstrated: (1) Hard surfaces — stiff position-dependent forces prevented penetration; users could trace surface contours and edges by feel. (2) Elastic surfaces — force increased linearly with penetration distance, like pressing into foam. (3) Flow fields — the system computed force from local velocity-field vectors and torque from vorticity; moving through a current felt like wading through water, encountering a vortex twisted the handle against the user's grip. Because the pantograph mechanism had almost no inherent friction or inertia, the transition between empty space and contact was immediate and natural.
+* **Technical Innovation.** The pantograph mechanism was the key advance. Traditional haptic devices used Stewart platforms (octahedron-shaped parallel mechanisms with six linear actuators) or serial-link arms, both with significant drawbacks. Iwata's design used three sets of parallelogram linkages, each driven by two DC motors with rotary encoders. The top end of each pantograph connected to a vertex of the triangular handle platform via a spherical joint. This gave the advantages of a parallel mechanism (compact, high payload-to-weight ratio) while dramatically improving working volume and back-drivability. The moving parts' inertia was so low that no software compensation was needed.
+* **Legacy.** The Desktop Force Display was a foundational contribution to haptic HCI. It demonstrated that force feedback could be compact, affordable, and usable by untrained users — three properties that had eluded earlier systems. The 'blind exploration' paradigm showed haptics alone could support spatial understanding. Iwata's paper has been cited hundreds of times and is considered a landmark in haptics literature. He went on to develop numerous subsequent devices including the GaitMaster locomotion interface. The SIGGRAPH 1990 paper 'Artificial Reality with Force-feedback: Development of Desktop Virtual Space with Compact Master Manipulator' remains essential reading.
+
+### Team
+
+* **Hiroo Iwata.** Lead researcher, University of Tsukuba; designed the pantograph mechanism and haptic rendering algorithms
+* **Hiroaki Yano.** Collaborator, University of Tsukuba; contributed to mechanical design and control software
+* **University of Tsukuba.** Host institution; a major center for VR and haptics research since the 1980s
+
+### Media
+
+![The Iwata Desktop Force Display: a compact parallel mechanism with three pantograph arms supporting a triangular handle platform](../assets/wiki/iwata-desktop-force-display-1.jpg)
+*The Iwata Desktop Force Display at SIGGRAPH 1994 Emerging Technologies. The three pantograph linkages support a triangular handle; users grasped the handle and explored invisible virtual objects by touch alone. (SIGGRAPH History Archives)*
+
+### Sources
+
+1. Iwata, H. (1990). 'Artificial Reality with Force-feedback: Development of Desktop Virtual Space with Compact Master Manipulator.' SIGGRAPH 1990 Proceedings, pp. 165–170 — https://doi.org/10.1145/97880.97897
+2. SIGGRAPH History Archive: Desktop Force Display by Iwata — https://history.siggraph.org/experience/desktop-force-display-by-iwata/
+3. Iwata, H. (1993). 'Pen-based Haptic Virtual Environment.' IEEE VRAIS 1993 — https://doi.org/10.1109/vrais.1993.380767
+4. Hiroo Iwata author profile — https://www.csauthors.net/hiroo-iwata/
