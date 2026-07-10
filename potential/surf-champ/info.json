@@ -1,0 +1,58 @@
+{
+  "slug": "surf-champ",
+  "title": "Surf Champ",
+  "year": "1985",
+  "subtitle": "a ZX Spectrum game that shipped with a miniature plastic surfboard you balanced on the keyboard, translating hand weight shifts into fluid-dynamic surfing physics through conductive 'bobbles' that pressed different keys",
+  "why_scout_cares": "Every now and then, a piece of hardware appears that is so physically specific, so unmistakably the product of someone saying 'I know this thing and I want the computer to know it too,' that it doesn't matter whether it sold 3,000 copies or 3 million. Surf Champ is one of those. It wasn't a joystick repurposed for a surfing game. It was a 19-centimeter plastic surfboard, sculpted like the real thing, with metal bobbles underneath positioned so that shifting your hands forward, backward, and side-to-side depressed different keys on a ZX Spectrum keyboard. The computer ran real fluid-dynamics algorithms modeling wave behavior at Fistral Beach in Cornwall. Professional surfers at the 1985 European Surfing Championships — stuck on a beach with no waves — played it all day and declared it the most accurate surfing simulation they had ever used. The interaction is proprioceptive: you lean into turns on the board with your hands, and the on-screen surfer leans into turns on the wave. Your weight distribution IS the controller. The game came with a tutorial program on Side B. It was endorsed by the International and European Surfing Associations. It held the first-ever esports tournament under the name World Computer Surfing Championship. And then the funding collapsed, only 3,000 copies were made, and the whole thing vanished. This is what the museum is for.",
+  "search_terms": ["Surf Champ", "ZX Spectrum surfboard controller", "New Concepts Norman McMillan", "1985 surfing simulation"],
+  "research": {
+    "title": "Surf Champ",
+    "year": "1985",
+    "by": "New Concepts Ltd. (Dr. Norman McMillan, John Frayne, Prof. Susan McKenna-Lawlor)",
+    "tags": ["Gaming", "Sports", "Input", "Proprioception", "Keyboard Overlay", "Fluid Dynamics"],
+    "overview": "Surf Champ was a surfing simulation game released in 1985 for the ZX Spectrum 48K by New Concepts, a small Irish company founded by physicist Dr. Norman McMillan, academic John Frayne, and astrophysicist Prof. Susan McKenna-Lawlor (who later worked on Mars and Venus missions with NASA and Russia). The game came packaged with a 19-centimeter plastic surfboard that sat on top of the Spectrum's keyboard. The underside of the board had metal 'bobbles' positioned to contact specific keys when the player shifted their hand weight forward, backward, left, or right. This translated physical weight distribution into in-game surfing maneuvers: trimming, bottom turns, and cutbacks.\n\nMcMillan, a surfer himself, programmed real fluid-dynamics algorithms to model wave behavior at Fistral Beach in Cornwall, England. The software accounted for the player's chosen height, weight, board type and length, and wetsuit gear. A decreasing energy bar, designed with input from a medical doctor, simulated fatigue. Side B of the cassette tape contained a tutorial program teaching surfing fundamentals. The game was endorsed by the International Surfing Association and the European Surfing Association.\n\nAt the 1985 European Surfing Championships at Rossnowlagh Beach, Ireland, New Concepts demonstrated the game. When the surf went flat, professional surfers from multiple countries played Surf Champ non-stop. They held an impromptu tournament — the first World Computer Surfing Championship — won by English champion Jed Stone with a score of 23,700. A planned Commodore 64 port sold only 600 copies before New Concepts ran out of funding and folded. The team had also prototyped 'HUCI' (Head-Up Control Interface), a motion-sensitive controller intended for skiing and driving simulators, years before the Nintendo Wii.",
+    "deepDive": [
+      {
+        "heading": "Origins",
+        "text": "Dr. Norman McMillan was a 40-year-old physics and computer science lecturer at Carlow Regional Technical College in Ireland. A surfer since the 1970s, he wanted to create a computer game that used proper mathematical algorithms rather than arcade-style approximations. He teamed up with John Frayne for the hardware concept and Prof. Susan McKenna-Lawlor, a celebrated astrophysicist who specialized in ultra-fast programming for space technology. Each invested £20,000 to form New Concepts Ltd. The Industrial Development Authority of Ireland provided additional startup funding.\n\nMcMillan specifically chose the ZX Spectrum because its rubber keyboard, with keys flush against the surface, could be pressed by the bobbles on the underside of the plastic surfboard. The 19cm board was sculpted to resemble a real shortboard, and its placement on the keyboard was carefully calibrated so that the bobble positions mapped to keys that the software interpreted as surfing controls."
+      },
+      {
+        "heading": "Interaction Model",
+        "text": "The player placed the miniature surfboard on the ZX Spectrum's keyboard, aligning it with a special button overlay. The board had conductive metal bobbles on its underside. When the player pressed their hands onto the board — leaning weight forward, backward, left, or right — the bobbles depressed specific keyboard keys. The software interpreted these keystrokes as surfing maneuvers:\n\n- Leaning forward (weight on the nose) → trimming down the wave face\n- Leaning back-left → bottom turn\n- Leaning back-right → cutback\n- Centered weight → neutral glide\n\nThe interaction was proprioceptive: the player's body English on the board translated directly to on-screen surfing physics. Because the Spectrum keyboard detected multiple simultaneous key presses, the system supported nuanced weight distributions. The game also modeled rip currents, paddle-out mechanics, wave selection, and energy depletion. Players selected height, weight, board type, and wetsuit before entering the water."
+      },
+      {
+        "heading": "The First Esports Tournament",
+        "text": "In autumn 1985, McMillan and his son Doug brought Surf Champ to the European Surfing Championships at Rossnowlagh Beach in Ireland. When the waves went flat, professional surfers had nothing to do — so they played Surf Champ. According to McMillan, 'they played the game non-stop, and all of them said it was absolutely accurate.' An impromptu tournament was organized: each country selected four surfers for a 'surf-off.' English champion Jed Stone won with a score of 23,700 points and was declared the first (and only) World Computer Surfing Champion. The game had pre-sales orders for 180,000 units, but the Irish Industrial Development Authority limited production to 3,000 copies, withholding further funding until a 'test marketing' phase was completed. Christmas 1985 passed. The moment was lost."
+      },
+      {
+        "heading": "Legacy",
+        "text": "New Concepts folded after the Commodore 64 port sold only 600 copies. The team's planned Ski Champ (with miniature skis), sailing, and water-skiing simulations never materialized. The HUCI motion-sensitive controller remained a prototype. But Surf Champ's influence can be traced forward: in 2020, the official World Surf League mobile game True Surf was described by its creators as 'the culmination of New Concepts' early endeavours,' using many of the same principles. Jed Stone, the 1985 world champion, played True Surf during the COVID-19 lockdown and said, 'It's the same as Surf Champ, only without the feel of the board.'"
+      }
+    ],
+    "team": [
+      { "name": "Dr. Norman McMillan", "note": "Physicist, computer science lecturer at Carlow RTC, surfer. Conceived the game, wrote fluid-dynamics algorithms, secured funding" },
+      { "name": "John Frayne", "note": "Academic collaborator. Designed the surfboard keyboard overlay hardware concept" },
+      { "name": "Prof. Susan McKenna-Lawlor", "note": "Astrophysicist. Specialized in ultra-fast programming for space technology; later worked on NASA and Russian missions to Mars, Venus, and the Moon" },
+      { "name": "New Concepts Ltd.", "note": "Irish company formed by McMillan, Frayne, and McKenna-Lawlor to develop and publish Surf Champ" }
+    ],
+    "media": [
+      {
+        "src": "https://ichef.bbci.co.uk/ace/standard/624/cpsprodpb/13288/production/_112327487_surfchamp.jpg",
+        "alt": "Surf Champ running on a ZX Spectrum emulator on an iPad, with the miniature plastic surfboard positioned on the screen area showing game graphics",
+        "caption": "Surf Champ shown running via emulator, with its distinctive 19cm plastic surfboard controller. Weight shifts on the board translated through metal bobbles into keyboard presses. (BBC Sport, 2020)"
+      }
+    ],
+    "sources": [
+      { "text": "BBC Sport: Surf Champ — The surfing simulator 35 years ahead of its time that sank without a trace (Chris Bevan, 23 May 2020)", "url": "https://www.bbc.com/sport/52682338" },
+      { "text": "Computing History: Surf Champ entry", "url": "https://www.computinghistory.org.uk/det/3778/Surfchamp/" },
+      { "text": "MobyGames: Surf Champ", "url": "https://www.mobygames.com/game/63706/surfchamp/" }
+    ],
+    "imageUrls": [
+      "https://www.bbc.com/sport/52682338",
+      "https://ichef.bbci.co.uk/ace/standard/624/cpsprodpb/13288/production/_112327487_surfchamp.jpg",
+      "https://ichef.bbci.co.uk/ace/standard/624/cpsprodpb/9CF6/production/_112328104_bobbles.jpg",
+      "https://ichef.bbci.co.uk/ace/standard/624/cpsprodpb/75E6/production/_112328103_surfingwithsurfchamp.jpg"
+    ]
+  },
+  "savedImages": []
+}
