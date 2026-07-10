@@ -59,7 +59,7 @@ Each saved directory contains an `info.json`; most also contain downloaded image
 - Grok returned a good broad candidate set.
 - Exa + Wikipedia enrichment worked for multiple objects.
 - Page image scraping downloaded more than Wikipedia images for many candidates.
-- `deepseek-v4-pro` now runs through chat-completions mode instead of the unsupported Responses API path.
+- DeepSeek v4 models now run through chat-completions mode instead of the unsupported Responses API path.
 - Typecheck and site build pass after the script additions.
 
 ## What Felt Wrong

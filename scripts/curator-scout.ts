@@ -5,7 +5,7 @@
  * Agents:
  *   1. Scout    (Grok via opencode + Exa + Wikipedia) — broad discovery of candidate objects.
  *   2. Dedupe   — filter out objects already in the museum.
- *   3. Research (DeepSeek V4) — deep-dive each candidate, find multiple images,
+ *   3. Research (DeepSeek V4 Flash by default) — deep-dive each candidate, find multiple images,
  *      build a rich info.json matching the museum's wiki format.
  *   4. Curator  (Beepy via OpenRouter GLM 5.2) — final curation, writeup,
  *      and placement as Field Notes blog posts.
@@ -16,7 +16,7 @@
  *
  * Env overrides:
  *   GROK_MODEL=grok-4.3
- *   DEEPSEEK_MODEL=deepseek-v4-pro
+ *   DEEPSEEK_MODEL=deepseek-v4-flash
  *   OPENROUTER_MODEL=z-ai/glm-5.2
  */
 
@@ -37,7 +37,7 @@ const EXA_ENDPOINT = "https://api.exa.ai/search";
 const WIKI_API = "https://en.wikipedia.org/w/api.php";
 
 const GROK_MODEL = process.env.GROK_MODEL ?? "grok-4.3";
-const DEEPSEEK_MODEL = process.env.DEEPSEEK_MODEL ?? "deepseek-v4-pro";
+const DEEPSEEK_MODEL = process.env.DEEPSEEK_MODEL ?? "deepseek-v4-flash";
 const OPENROUTER_MODEL = process.env.OPENROUTER_MODEL ?? "z-ai/glm-5.2";
 const GROK_PROVIDER = process.env.GROK_PROVIDER ?? "xai";
 const DEEPSEEK_PROVIDER = process.env.DEEPSEEK_PROVIDER ?? "deepseek";
