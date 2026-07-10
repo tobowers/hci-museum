@@ -99,6 +99,8 @@ Each entry includes an overview, a deep dive, a small media gallery, and full so
 90. [Versatron Footmouse (1985)](#versatron-footmouse-1985)
 91. [Bandai Terebikko (See 'n Say Video Phone) (1988)](#bandai-terebikko-see-n-say-video-phone-1988)
 92. [Sega SubRoc-3D (1982)](#sega-subroc-3d-1982)
+93. [Grimes Digital Data Entry Glove (1983)](#grimes-digital-data-entry-glove-1983)
+94. [Atari Video Music / C-240 (1977)](#atari-video-music--c-240-1977)
 
 ---
 
@@ -4770,3 +4772,104 @@ The working volume was a sphere approximately 40 centimeters in diameter with a 
 2. SIGGRAPH History Archive: Desktop Force Display by Iwata — https://history.siggraph.org/experience/desktop-force-display-by-iwata/
 3. Iwata, H. (1993). 'Pen-based Haptic Virtual Environment.' IEEE VRAIS 1993 — https://doi.org/10.1109/vrais.1993.380767
 4. Hiroo Iwata author profile — https://www.csauthors.net/hiroo-iwata/
+
+---
+
+## Atari Video Music / C-240 (1977)
+
+**By:** Robert J. Brown, Atari, Inc.  
+**Tags:** `HCI` `Audio-Visual` `Analog` `Consumer Electronics` `Music Visualization`
+
+### Overview
+
+The Atari Video Music (Model C-240) is the earliest commercial electronic music visualizer ever released. Manufactured by Atari, Inc. and introduced in 1977 for $169.95 (roughly $900 in 2025 dollars), the device connects between a Hi-Fi stereo system and a television set. It interprets the left and right audio waveforms in real time through purely analog circuitry — there is no CPU, no software, no digital processing — and generates abstract, animated geometric color patterns on the TV screen that pulse, morph, and dance in response to the music.
+
+The front panel is a brushed-metal face with five potentiometer knobs (two Gain controls for left/right channels, one Color control, and two Contour controls) plus twelve push-buttons that select shape modes (solid, hole, ring, auto) and multiplicity (1, 2, 3, or 5 horizontal images; 1, 2, 4, or 8 vertical images). The unit broadcasts on VHF channel 3 or 4, connecting through an RF switchbox that — unlike Atari's game consoles — included a pass-through F-connector so users didn't have to disconnect their TV antenna.
+
+Developed under the codename Project Mood by Robert Brown (who also developed the home version of Pong), the Video Music was a commercial failure. It was discontinued after approximately one year on the market. According to Atari engineer Al Alcorn, during a promotional tour, a Sears representative asked what the developers were smoking when they came up with it — at which point a technician stepped forward holding up a lit joint. The device has appeared in music videos by Devo ("The Day My Baby Gave Me a Surprise," "Beautiful World") and Daft Punk ("Robot Rock").
+
+### Deep dive
+
+* **How it worked.** The Video Music is an all-analog device. The left and right audio channels from a stereo amplifier enter through RCA jacks. Inside, the audio waveforms are processed through zero-crossing detectors, envelope followers, and analog multipliers. The system generates video signals by interpreting musical intensity (amplitude) and 'mellowness' (zero-crossing rate) and mapping them to visual parameters.
+
+The basic visual form is a two-part diamond: the outer diamond represents the left audio channel, and the inner diamond represents the right channel. The Gain knobs control how large each diamond appears. The Color knob increases the number of available colors from a single solid hue to a full rainbow — color is derived from the zero-crossing rate of each audio channel. The Contour knobs control the visual 'sharpness' of the shapes, from soft, organic blobs to rigid geometric forms.
+
+The Shape buttons select whether the diamonds appear as solid (filled), hole (one channel as outer shape with the other as a hole in the center), ring (both channels as outline shapes), or auto (cycling through modes). The multiplicity buttons control how many copies of the pattern appear on screen simultaneously — up to five across or eight down, or any combination.
+
+Because it operates on raw analog audio, any sound source works: a record player, a cassette deck, a live microphone, even the audio output of an Atari game console. The Video magazine review from 1978 noted that it could also be recorded to VCR using a balun converter, letting users create music visualization tapes — an idea that prefigures the entire YouTube music visualization genre by 30 years.
+* **The Atari connection.** The Video Music was designed by Robert J. Brown, an Atari engineer who had previously worked on the home version of Pong. Brown filed US Patent 4,081,829 in 1978 for an "Audio activated video display," which describes the system's core architecture: extracting audio energy from stereo channels, using zero-crossing rates to derive color, and presenting the result as objects on an unmodified TV.
+
+This was Atari operating outside its core competency — not making a game, but making a new kind of consumer electronics device that turned sound into sight. It was part of a brief flurry of non-game Atari consumer products that included the Atari 2700 (a prototype wireless console), the Atari Cosmos (a holographic tabletop game), and the Atari Mindlink (an EEG-based controller, already in the museum). All of them failed commercially, but collectively they reveal an Atari that was willing to try almost anything.
+* **Critical reception and legacy.** Video magazine's 1978 "VideoTest Report" gave the device mild but positive marks, describing it as "a well-constructed machine and an interesting component to be used as an adjunct to stereo sound," but warned that "once the novelty wears off the display can become somewhat monotonous." The same report recommended it for "those who find it relaxing, stimulating, or therapeutic to watch psychedelic displays."
+
+The device was discontinued after roughly one year. It is unclear how many units were produced, but surviving examples are rare collector's items. Its legacy, however, is outsized: it established the concept of a dedicated consumer music visualization device, a category that would later explode with digital music players (iTunes Visualizer, 2001), media player plug-ins (MilkDrop, 2001), and — arguably — the entire genre of music-driven generative art. The fact that it was made by a game company, in a wooden box with walnut veneer, using zero digital processing, makes it a perfect artifact of its moment.
+
+### Team
+
+* **Robert J. Brown.** Designer and engineer; also developed the home version of Pong
+* **Atari, Inc..** Manufacturer, Sunnyvale, California
+
+### Media
+
+![Atari Video Music C-240 console with brushed metal faceplate, five knobs, and walnut veneer sides](../assets/wiki/atari-video-music-1.jpg)
+*The Atari Video Music C-240. Five knobs, twelve push-buttons, and a walnut-veneered particle-board cabinet. (Wikimedia Commons, CC-licensed)*
+
+![Atari Video Music / C-240](../assets/wiki/atari-video-music-2.jpg)
+*Atari Video Music / C-240 archival image.*
+
+### Sources
+
+1. Wikipedia: Atari Video Music — https://en.wikipedia.org/wiki/Atari_Video_Music
+2. PC World (2016): "The Atari Video Music is a trippy, psychedelic rarity from the 1970s" by Benj Edwards — https://www.pcworld.com/article/3026252/consumer-electronics/this-old-tech-atari-video-music-is-a-trippy-psychedelic-rarity-from-the-mid-1970s.html
+3. US Patent 4,081,829 — "Audio activated video display" (Robert J. Brown, Atari, filed 1976, granted 1978) — https://patents.google.com/patent/US4081829A/en
+4. Video magazine, Vol. 1 No. 2 (Summer 1978): "VideoTest Report Number 7: Atari's Video Music" — https://archive.org/
+5. Al Alcorn interview — the joint anecdote (reprinted at landley.net) — https://www.landley.net/history/mirror/atari/museum/cut2pin.html
+6. Atari Video Music restoration and history site — https://atarivideomusic.net/
+
+---
+
+## Grimes Digital Data Entry Glove (1983)
+
+**By:** Gary J. Grimes, Bell Telephone Laboratories (AT&T)  
+**Tags:** `HCI` `Input` `Wearable` `Chorded Keyboard` `Glove`
+
+### Overview
+
+The Grimes Digital Data Entry Glove is a fabric glove instrumented with electrical contacts on each fingertip, the thumb, and the palm. When the wearer touches two fingertips together — or touches a fingertip to the thumb or palm — the contact closes a circuit, and the system registers a specific character. The entire alphabet plus numbers can be typed through combinations of finger-to-finger contacts, with no physical keys and no position tracking. The glove was developed at Bell Telephone Laboratories by Gary J. Grimes, and patented in 1983 (US Patent 4,414,537, filed September 1981).
+
+Unlike the VPL DataGlove (which tracks finger bend angles and hand position in space) or the Power Glove (which uses ultrasonic tracking plus resistive flex sensors), the Grimes Glove has zero motion sensing. It is a purely contact-based device — a keyboard worn on the hand, where the "keys" are your own fingers touching each other. This makes it conceptually closer to a chording keyboard (like the Microwriter or BAT Keyboard, already in the museum) than to a gesture-tracking glove. But unlike those devices, which use physical switches or pressure pads, the Grimes Glove uses the body itself as the switching mechanism.
+
+The glove was intended for one-handed, eyes-free text entry in situations where a conventional keyboard was impractical — the patent mentions "situations where the operator is unable to look at his hands" and applications in "hostile environments" where the operator wears protective gear. It was never commercialized as a product, but it represents a distinct branch of the chorded-keyboard family tree: the wearable, keyless, body-as-switch approach that would not be revisited in earnest for decades.
+
+### Deep dive
+
+* **How it worked.** The glove has thin, flexible electrical contacts sewn or adhered to the palmar surfaces of the fingertips, the thumb, and selected locations on the palm. Each contact is wired to a small electronics module worn on the wrist or back of the hand. When the wearer brings two contacts together — say, index fingertip to thumb tip — a circuit is completed. The module detects which pair of contacts has been closed and maps that combination to a character or command.
+
+In Grimes's design, the thumb serves as a common terminal: most characters are typed by touching a specific finger to the thumb (index-to-thumb = one character, middle-to-thumb = another). Touching fingers to the palm or to each other provides additional combinations. A full alphanumeric set requires roughly 30-40 distinct contact patterns, well within the combinatorial space of 5 fingers plus palm locations.
+
+The key insight is that this is not gesture recognition — there is no ambiguity about which fingers are touching. Each contact pair is a discrete switch. The glove knows definitively that index touched thumb, not that index was "near" thumb or that the hand was in a particular pose. This makes it far simpler electronically than any flex-sensing or position-tracking glove.
+* **Relation to other chorded keyboards.** The museum already holds several chorded keyboards: the Microwriter (1980, 6-key handheld), the BAT Keyboard (1990, 7-key desktop), the Twiddler (1992, handheld with 12 keys), and the WriteHander (1978, 12-key stenographic). All of these use physical switches — buttons or keys that the user presses with individual fingers.
+
+The Grimes Glove is the only chorded keyboard in the collection where the user's own body provides the switching mechanism. There are no keys, no buttons, no switches — just electrical contacts on the fingertips. The physical act of typing is touching your own fingers together. This is a fundamentally different tactile experience from pressing a key: it is silent, requires no desk surface, and can be done inside a pocket, under a table, or while wearing protective clothing.
+
+The glove was patented but never manufactured as a commercial product, making it a research artifact rather than a market entry. It was cited in later glove-survey literature (notably Sturman & Zeltzer's 1994 IEEE Computer Graphics & Applications survey of glove-based input) as an early example of a non-positional, contact-sensing glove interface.
+* **Bell Labs context.** Gary J. Grimes was a researcher at Bell Telephone Laboratories in Murray Hill, New Jersey — the same institution that produced the transistor, the laser, the UNIX operating system, and the C programming language. Bell Labs in the early 1980s was one of the world's most prolific industrial research environments, with an unusually broad portfolio that included speech recognition, computer graphics, human factors, and input device research.
+
+The patent was assigned to Bell Telephone Laboratories, Incorporated (later AT&T Bell Laboratories). The assignee at the time of the patent's expiration was AT&T Corp. This places the glove in one of the most storied lineages in computing research history — though Grimes himself is not widely documented beyond this patent.
+
+### Team
+
+* **Gary J. Grimes.** Inventor, Bell Telephone Laboratories
+* **Bell Telephone Laboratories (AT&T).** Assignee and research institution
+
+### Media
+
+![Patent drawing showing the glove with fingertip contacts and wrist electronics module](../assets/wiki/grimes-data-glove-1.png)
+*US Patent 4,414,537, Fig. 1: The data entry glove showing fingertip contacts and wrist-mounted electronics. (Public domain patent drawing, 1983)*
+
+### Sources
+
+1. US Patent 4,414,537 — "Digital data entry glove interface device" (Grimes, Bell Labs, filed 1981, granted 1983) — https://patents.google.com/patent/US4414537A/en
+2. Sturman & Zeltzer, "A Survey of Glove-based Input," IEEE Computer Graphics & Applications, 1994 — cites Grimes Glove as early contact-sensing glove — http://www.cs.columbia.edu/~feiner/courses/mobwear/resources/A%20Survey%20of%20glove%20based%20input.pdf
+3. Rauterberg, HCI History presentation — Slide 66, "Digital Data Entry Glove (1983)" — https://rauterberg.employee.id.tue.nl/presentations/HCI-history/tsld066.htm
+4. Freepatentsonline — Full patent text and drawings — https://www.freepatentsonline.com/4414537.html
