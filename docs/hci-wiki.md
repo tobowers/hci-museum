@@ -101,6 +101,9 @@ Each entry includes an overview, a deep dive, a small media gallery, and full so
 92. [Sega SubRoc-3D (1982)](#sega-subroc-3d-1982)
 93. [Grimes Digital Data Entry Glove (1983)](#grimes-digital-data-entry-glove-1983)
 94. [Atari Video Music / C-240 (1977)](#atari-video-music--c-240-1977)
+95. [Coleco Telstar Arcade (1977)](#coleco-telstar-arcade-1977)
+96. [Street Fighter Pneumatic Controller (1987)](#street-fighter-pneumatic-controller-1987)
+97. [Vectrex Light Pen (1983)](#vectrex-light-pen-1983)
 
 ---
 
@@ -4873,3 +4876,156 @@ The patent was assigned to Bell Telephone Laboratories, Incorporated (later AT&T
 2. Sturman & Zeltzer, "A Survey of Glove-based Input," IEEE Computer Graphics & Applications, 1994 — cites Grimes Glove as early contact-sensing glove — http://www.cs.columbia.edu/~feiner/courses/mobwear/resources/A%20Survey%20of%20glove%20based%20input.pdf
 3. Rauterberg, HCI History presentation — Slide 66, "Digital Data Entry Glove (1983)" — https://rauterberg.employee.id.tue.nl/presentations/HCI-history/tsld066.htm
 4. Freepatentsonline — Full patent text and drawings — https://www.freepatentsonline.com/4414537.html
+
+---
+
+## Coleco Telstar Arcade (1977)
+
+**By:** Coleco (engineering by Sanders Associates / Ralph Baer, led by Dunc Withun)  
+**Tags:** `Gaming` `Input` `Controller` `Hardware` `Console-as-Controller`
+
+### Overview
+
+The Coleco Telstar Arcade was the flagship of Coleco's Telstar series of first-generation home video game consoles. Unlike any other console, it was built as a large triangular prism (7.5 x 18 x 16 inches), with each of its three faces dedicated to a completely different type of game controller: a steering wheel with gear shifter for racing, a light gun with holster for shooting, and two paddle controllers for Pong-style games. To switch game genres, the player physically rotated the entire console to face a different side. 
+
+Even more unusually, the cartridges themselves contained the CPU — MOS Technology MPS-7600 microcontrollers, each with its own ROM. The base console served only as a power supply, RF modulator, and controller interface. Only four triangular cartridges were released, covering 13 games across genres. The system was designed by Ralph H. Baer's engineering team at Sanders Associates under contract to Coleco, with day-to-day engineering led by Dunc Withun. 
+
+The Telstar Arcade embodies the principle of 'form-factor-as-affordance': the physical shape of the device directly communicates its interaction modes. It is a fascinating alternate path in console design — one where the hardware itself, rather than interchangeable peripherals, defines the interaction paradigm. In 1977 it attempted to bridge the dedicated Pong-console era and the cartridge era, but its cartridge-as-CPU architecture made games expensive to manufacture and the library was minuscule compared to the Atari 2600. Today it stands as a uniquely creative and unrepeated experiment in hardware-as-interface design.
+
+### Deep dive
+
+* **Origins and development.** The Telstar Arcade emerged from Ralph H. Baer's relationship with Coleco. After Baer introduced Coleco president Arnold Greenberg to General Instrument's AY-3-8500 Pong-on-a-chip in 1975, Coleco became GI's first customer and launched the original Telstar in 1976 — selling over one million units at $50 each. Following an FCC compliance crisis in 1976 where Baer personally solved a radio-frequency interference problem threatening $30 million in Coleco inventory, Greenberg contracted Baer's team at Sanders Associates to develop next-generation consoles. Baer assembled a small engineering unit led by Dunc Withun at Sanders' Canal Street facility in Nashua, New Hampshire. They developed the triangular Telstar Arcade, the Telstar Combat, and a third console under the contract.
+* **The triangular form factor.** The Telstar Arcade was a triangular prism measuring approximately 7.5 x 18 x 16 inches and weighing 4 pounds. Each of the three faces held permanently integrated controls: Side A had two paddle controllers (rotary knobs) for Pong variants; Side B had a light gun stored in a built-in holster for target shooting games; Side C had a steering wheel and gear shifter for driving games — remarkably advanced for a 1977 home console. The player physically rotated the entire 4-pound console to switch between game modes. There was no separate controller — the console was the controller.
+* **Cartridge-as-CPU architecture.** Unlike conventional cartridges that store ROM data for the console's processor to read, each Telstar Arcade cartridge contained its own dedicated CPU: a MOS Technology MPS-7600 series microcontroller with on-chip ROM. The base console provided only power, an RF modulator, and the controller interface. Four cartridge variants (MPS-7600-001 through -004) were manufactured, each with approximately 512 words of program memory. This meant each 'cartridge' was effectively a self-contained game system — buying a new cartridge was buying an entirely new computer. The architecture was both ahead of its time (prefiguring ideas about distributed computing) and commercially limiting (each cartridge was expensive to manufacture, and only four were released).
+* **Games and cartridges.** Only four cartridges were released: Cartridge 1 (pack-in) featured Road Race, Tennis, and Quickdraw. Cartridge 2 added Hockey, Handball, and Target — plus two additional hand controllers for four-player Tennis. Cartridge 3 featured Bonus Pinball, Shooting Gallery, Shoot the Bear, and Deluxe Pinball. Cartridge 4 offered Naval Battle, Blast Away, and Speedball. Cartridges cost $25 each. Additional games mentioned in contemporary buyer's guides — including a 25-game driving maze cartridge — were planned but never released.
+* **Commercial fate.** The Telstar Arcade arrived at a difficult moment. By 1977 the dedicated Pong console market was fading as cartridge-based programmable systems like the Atari VCS (2600) gained traction. The cartridge-as-CPU architecture made game cards expensive, and with only four cartridges, the library was minuscule. Coleco moved on to handheld electronic games, then to the far more successful ColecoVision in 1982. The Telstar Arcade is remembered today as one of the most creatively engineered consoles of the first generation — an 'undeniably awesome machine for its time' (SVG.com) that took a path no console has retraced.
+* **HCI significance: the console-as-controller.** The Telstar Arcade represents a rarely pursued HCI principle: the physical form of the device IS the controller. Each face provides a fully native interaction surface with dedicated hardware controls for a specific game genre. The triangular shape provides an unambiguous physical affordance — to play a racing game, rotate to the steering wheel. To shoot, face the gun. There is no abstraction of 'controller' as a separate, detachable peripheral. This approach prefigures modern ideas about spatial interaction design: turning the console to access different modes is a purely mechanical version of what modern devices accomplish with accelerometers and software. The design also enforced a hardware-genre coupling — you could not accidentally play a racing game with paddle controllers. The cost was inflexibility: no joystick games, no upgradable controllers. This tension between dedicated, discoverable interfaces and flexible, reconfigurable ones remains central to HCI design.
+
+### Team
+
+* **Ralph H. Baer.** Facilitated Coleco-GI relationship; led Sanders Associates engineering team that developed the Telstar Arcade under contract. Widely recognized as the 'father of video games' for inventing the Magnavox Odyssey.
+* **Dunc Withun.** Led day-to-day engineering at Sanders Associates' Nashua, NH facility, developing the Telstar Arcade hardware for Coleco.
+* **Arnold Greenberg.** President of Coleco Industries. Met Baer through Marvin Glass & Associates; drove the Telstar line.
+* **Leonard Greenberg.** Coleco CEO, brother of Arnold. Involved during the 1976 FCC crisis that led to the Sanders-Coleco partnership.
+* **Ed Saks.** General Manager of General Instrument's Hicksville, Long Island plant. Demonstrated the AY-3-8500 chip to Baer and Greenberg, making the Telstar line possible.
+* **MOS Technology.** Manufactured the MPS-7600 microcontroller series used in the cartridges.
+
+### Media
+
+![Coleco Telstar Arcade showing all three interaction faces](../assets/wiki/coleco-telstar-arcade-1.jpg)
+*The Coleco Telstar Arcade showing all three interaction faces: steering wheel, paddle controllers, and light gun. Source: Wikimedia Commons (CC BY-SA).*
+
+![Coleco Telstar Arcade with cartridge, Pong side](../assets/wiki/coleco-telstar-arcade-2.jpg)
+*Coleco Telstar Arcade with triangular cartridge inserted, showing the Pong side with two paddle controllers. Source: Wikimedia Commons (CC BY-SA).*
+
+### Sources
+
+1. Wikipedia: Coleco Telstar Arcade — https://en.wikipedia.org/wiki/Coleco_Telstar_Arcade
+2. Wikipedia: Coleco Telstar series — https://en.wikipedia.org/wiki/Coleco_Telstar_series
+3. Pong-Story: Coleco Telstar Arcade (David Winter) — http://www.pong-story.com/coleco_arcade.htm
+4. Ralph H. Baer — The Coleco Story (Good Deal Games) — https://www.gooddealgames.com/articles/Ralph_Baers_Coleco_Story.html
+5. Computing History: Coleco Telstar Arcade — https://www.computinghistory.org.uk/det/68446/Coleco-Telstar-Arcade-RTO/
+6. Old-Computers.com: Telstar Arcade (archived) — https://web.archive.org/web/20160306195919/http://www.old-computers.com/museum/computer.asp?c=661&st=1
+7. 6502.org Forum: MPS-7600 chip architecture — http://forum.6502.org/viewtopic.php?f=4&t=2387
+8. SVG.com: Most Bizarre Console Flops — https://www.svg.com/94780/bizarre-console-flops-gaming-history/
+
+---
+
+## Street Fighter Pneumatic Controller (1987)
+
+**By:** Capcom Co., Ltd. (game design) with Atari Games Corp. (cabinet and pneumatic mechatronics); pneumatic pistons by SMC Pneumatics, California  
+**Tags:** `Arcade` `Force Sensing` `Pneumatic` `Haptics` `Input` `Gaming`
+
+### Overview
+
+Released in August 1987, the original *Street Fighter* arcade game is remembered less for its gameplay than for its deluxe cabinet's extraordinary input mechanism. Instead of the six-button layout that would define the fighting game genre, the deluxe crescent-shaped cabinet featured two large rubber-covered pneumatic pads — one red for punch, one blue for kick — flanking a standard joystick. Striking a pad drove a piston into a cylinder, compressing air in a sealed lower chamber. A diffused semiconductor pressure transducer converted the pressure spike into a proportional voltage, which the game software thresholded to determine light, medium, or heavy attack strength. The system was a collaboration between Capcom (Japan), who developed the game, and Atari Games (USA), who designed the cabinet and sourced the pneumatic components from SMC Pneumatics in California.
+
+The pneumatic controller proved disastrous in practice. Players — encouraged by arcade flyers showing closed fists and violent strikes — punched the pads hard enough to draw blood. The cabinets broke down constantly as pneumatic tubes disconnected and components failed. Capcom USA executives feared lawsuits. After approximately 1,000 pneumatic units were sold, Capcom recalled them and replaced the pads with a conventional six-button layout. The six-button version went on to sell tens of thousands of units. The pneumatic ROMs — the specialized software that could interpret pressure-sensor signals — were lost for decades until restoration enthusiast Vincent Pureza reverse-engineered the system between 2019 and 2023, discovering that Capcom had burned entirely different ROMs for the pneumatic and six-button versions.
+
+### Deep dive
+
+* **The Pneumatic Sensing Chain.** The interaction chain is remarkably elegant: (1) Player strikes the rubber bash pad mounted on a metal plate. (2) The strike drives a slider button — a cylindrical piston head connected via ball joint to a piston rod — downward into a cylinder. (3) The piston compresses air in the lower cylinder chamber. A compression coil spring provides resistance and return force. (4) A small-diameter bleed port, always open to atmosphere, allows slow air escape. A fast strike generates high pressure before air can bleed out; a slow push dissipates pressure through the port — making the sensor speed-dependent, preventing cheating by leaning on the pad. (5) A pressure take-out port routes the pressurized air through a flexible silicone tube into a metal Junction Box (a passive pass-through manifold — not a regulator, as long speculated), then to the Pneumatic PCB. (6) A diffused semiconductor pressure transducer on the PCB converts air pressure to voltage. (7) The game software compares the voltage against three preset thresholds to register light, medium, or heavy attacks. The pneumatic hardware required a specific ROM set — the 6-button ROMs simply cannot interpret pressure sensor input.
+* **Why It Failed: Blood, Bruises, and Broken Machines.** The pneumatic controller failed on multiple fronts. Physically: players injured themselves. 'Everybody was getting injured,' recalled Joe Morici, Capcom USA's SVP. 'I hurt my hand a few times. There were times when I had to use my elbow,' said player Tomotaka Suzuki. Director Takashi Nishiyama confirmed the development team knew: 'During development, we had a prototype of the sensor... Our planner, Hiroshi Matsumoto, had his hands swell up... Yoshiki Okamoto tested it and got scratches on his fists.' Commercially: the physical exertion meant players tired too quickly to keep feeding quarters — the opposite of what an arcade operator needs. 'It was basically like exercising. The whole point of monetizing this business was to get people to become repeat customers,' Nishiyama said. Mechanically: the cabinets broke down constantly. 'Capcom didn't know what it was doing — it didn't specialize in mechatronics,' Nishiyama admitted. Legally: Capcom USA feared lawsuits. 'I think we were worried about getting sued as well,' said Aldo Donnaloia, Capcom USA's Western regional sales manager. The correct technique — an open palm hovering directly above the pad with a controlled, soft touch — was explained by Japanese gaming magazine editors, but the arcade flyer showed a closed fist, actively encouraging the damaging behavior.
+* **The ROM Discovery.** A critical technical detail discovered during Vincent Pureza's 2019–2023 restoration: the pneumatic version and the six-button version used entirely different ROM sets. Capcom didn't just swap the hardware — they reprogrammed the game software. When Pureza acquired pneumatic hardware but found it non-functional, he eventually diagnosed that the CPU ROMs at positions 19–24 had been replaced with six-button ROMs. Burning the correct pneumatic ROM set restored function. This means that even if the original pneumatic hardware survived, it also needed the matching software. Starting from zero documentation — no schematics, no known working units — Pureza had to reverse-engineer the entire pneumatic signal chain from patent drawings (US4850591A), surviving arcade manuals, and obscure forum posts. His 2023 Ars Technica article documented the complete restoration.
+* **Atari's Role.** The cabinet was designed by Ken Hata at Atari Games in California — concept sketches are preserved at The Strong Museum of Play in Rochester, New York. Atari sourced the pneumatic pistons from SMC Pneumatics. The End PCB (filter board) was etched 'Atari Games Corp. (C) 1987, Rev B.' Capcom lacked mechatronics expertise: 'We ended up working with Atari, and we worked together to develop the sensor, since they're the ones who had the knowhow to make that happen,' Nishiyama said. The relationship was practical: Capcom was primarily a PCB company selling game boards to arcade operators; SF1 was their first attempt at a dedicated cabinet. Atari handled the physical engineering; Capcom handled the game design. The two companies' names sit side by side on the patent.
+
+### Team
+
+* **Takashi Nishiyama.** Director at Capcom. Credited as 'Piston Takashi.' Conceived the original Street Fighter concept. Left Capcom for SNK after SF1, creating Fatal Fury. Later co-founded Dimps.
+* **Hiroshi Matsumoto.** Planner/designer. Credited as 'Finish Hiroshi.' Designed characters, moves, and fighting styles from real martial arts research. His hands swelled up testing the pneumatic prototype during development.
+* **Keisuke Takezawa, Masatsugu Kamimori, Tsuyoshi Morohashi, Takashi Kubozono.** Patent inventors (US4850591A) — the Capcom engineering team who designed the piston-cylinder pneumatic mechanism, pressure sensor integration, and bleed-port calibration system.
+* **Ken Hata.** Atari Games designer who drew the cabinet concept sketches and designed the crescent-shaped deluxe cabinet. His illustrations are preserved at The Strong Museum of Play.
+* **Yoshiki Okamoto.** Producer who tested the pressure sensor prototype, which left 'scratches on his fists.' Later produced Street Fighter II.
+* **Keiji Inafune.** Character portrait artist for SF1 — his first job at Capcom. Later famous for the Mega Man series.
+
+### Media
+
+![Street Fighter pneumatic control panel with red punch and kick pads](../assets/wiki/sf1-pneumatic-1.jpg)
+*The pneumatic control panel: two large rubber-covered pads (PUNCH and KICK) flanking a joystick, each hiding a piston-cylinder force sensor. (Wikimedia Commons, CC BY-SA 3.0)*
+
+![Cross-section patent drawing of pneumatic piston mechanism](../assets/wiki/sf1-pneumatic-2.png)
+*Cross-section from US Patent 4850591A showing the piston (24), cylinder (16), compression spring (21), air chamber (28), bleed port (32), and pressure take-out port (33). (US Patent, public domain)*
+
+### Sources
+
+1. US Patent US4850591A: 'Pneumatic operating device for game machine' (filed 1987, granted 1989) — https://patents.google.com/patent/US4850591A/en
+2. Ars Technica: 'My quest to recreate Street Fighter's long-lost pneumatic controls' (Vincent Pureza, March 2023) — https://arstechnica.com/gaming/2023/03/my-quest-to-recreate-street-fighters-long-lost-pneumatic-controls/
+3. Polygon: 'Street Fighter 1: An oral history' (July 2020) — interviews with Nishiyama, Matsumoto, Capcom USA staff — https://www.polygon.com/2020/7/7/21270906/street-fighter-1-oral-history-takashi-nishiyama
+4. Street Fighter One blog: Complete restoration documentation (Vincent Pureza, 2019–2023) — https://streetfighterone.wordpress.com/
+5. Wikipedia: Street Fighter (video game) — https://en.wikipedia.org/wiki/Street_Fighter_(video_game)
+6. Shmuplations: 1987 Gamest developer interview with Nishiyama and Matsumoto (translated 2025) — https://shmuplations.com/streetfighter/
+7. Arcade Museum / KLOV: Street Fighter entry and operator's manual — https://www.arcade-museum.com/Videogame/street-fighter
+8. EventHubs: 'Cabinets that hurt people' (July 2020) — https://www.eventhubs.com/news/2020/jul/10/cabinets-hurt-people-and-team-left-make-snk-games-after-hearing-street-fighter-1s-history-were-amazed-street-fighter-2-happened/
+9. Arcade Tokyo: Warehouse Games — The First Street Fighter Deluxe (2019, photos of surviving cabinet in Kawasaki) — https://arcade.tokyo/blog/warehouse-games-the-first-street-fighter-deluxe
+
+---
+
+## Vectrex Light Pen (1983)
+
+**By:** General Consumer Electronics (GCE) / Milton Bradley, invented by John Ross (Western Technologies/Smith Engineering)  
+**Tags:** `Input` `Pointing` `Drawing` `Vector Display` `Gaming`
+
+### Overview
+
+The Vectrex Light Pen was a peripheral for the Vectrex vector-display game console, released in limited quantities in early 1984. The Vectrex was the only home console to use a vector CRT — it drew images as lines of light rather than scanning a full raster grid — which meant that conventional light pens (which work by timing the passing electron beam against the screen refresh rate) could not function on it at all. 
+
+GCE engineer John Ross invented a clever workaround: the software drew a spinning, expanding bullseye pattern centered on the pen's last known position. When the pen's photodetector sensed the beam crossing one of the concentric rings, the system triangulated the pen's new position and re-centered the bullseye. If the user moved too fast, the pen 'lost lock' and the user had to re-acquire by aiming at the crosshair. This turned the Vectrex from a games-only console into a direct-manipulation creative platform — bundled software included Art Master (drawing), AnimAction (frame-by-frame animation with saveable artwork), and Melody Master (music composition by drawing notes on a staff). 
+
+The Light Pen arrived at the end of the Vectrex's life — demonstrated at the Nuremberg Toy Fair in February 1984, just weeks before Milton Bradley discontinued the entire line. Only a few thousand units are believed to exist. An unreleased game, Mail Plane, used the pen for flight control and map navigation; its ROM was dumped and released to the community in 2013.
+
+### Deep dive
+
+* **The vector display problem.** A raster-scanning CRT draws its image by sweeping an electron beam from top to bottom, left to right, 60 times per second. A conventional light pen detects the passing beam and times the interval from the start of the frame to calculate position — simple geometry. The Vectrex used a random-scan vector display: the beam only drew lines where needed, jumping from one endpoint to the next. There was no full-screen raster scan to time against. This rendered conventional light pen technology fundamentally incompatible with the Vectrex's display.
+* **The bullseye tracking hack.** John Ross's solution inverts the tracking paradigm. Instead of the pen passively listening for a predictable beam, the software actively searches for the pen. The algorithm works in two phases: (1) Acquisition — the software draws a crosshair; the user aims the pen at it and presses a button. (2) Tracking — the software draws a rapidly expanding or spinning bullseye pattern of concentric rings centered on the pen's last position. As the user moves the pen across the screen, the photodetector fires each time the vector beam crosses one of the rings. By tracking which ring and at what angle the crossing occurred, the software calculates displacement from the bullseye center and re-centers the pattern. This is a closed-loop sensor-fusion algorithm — the computer hunts for the pen rather than waiting for the pen to report. The method is analogous to modern optical tracking and even early eye-tracking systems.
+* **Hardware design.** The Light Pen contained a photodetector and transistor-based pulse-stretching circuits. John Ross prototyped the first unit in a Marks-A-Lot felt-tip marker pen case. The production pen plugged into controller port 2 of the Vectrex (the left port), while a standard controller occupied port 1 for menu navigation and tool selection. The pen reported light detection as a 'button 4' press on the controller input. It was sold only in the USA.
+* **Released software.** Three cartridges shipped with the Light Pen. Art Master (VT 3601, programmer Richard Moszkowski, 4K ROM) was the pack-in drawing program offering line-art tools, fill patterns, and basic frame-by-frame animation. AnimAction (VT 3604, 8K ROM + 2K RAM) added built-in clip art and the ability to save multi-frame animations — one of very few Vectrex cartridges with onboard RAM. Melody Master (VT 3602, 8K ROM) turned the console into a music workstation: players drew notes on a musical staff with the pen and the Vectrex played the composition through its AY-3-8912 sound chip, which supported three simultaneous channels.
+* **Unreleased: Mail Plane.** Mail Plane (VT 3603, fully completed but never shipped) was the only true game requiring the Light Pen. Players piloted a plane delivering mail to US cities, using a standard controller for flight (throttle/steering) and the Light Pen for route mapping, package loading, and city selection. Screenshots appeared on the Light Pen's retail packaging in 1983, teasing a game that wouldn't reach the public for thirty years. Two prototype cartridges surfaced around 2000; a third appeared on eBay in 2013, purchased by Chris Romero with community support. The ROM was dumped and released publicly.
+* **Commercial fate and legacy.** The Light Pen was demonstrated at the Nuremberg Toy Fair in February 1984, just before Milton Bradley discontinued the entire Vectrex line. Only a few thousand units are believed to have been manufactured, making it one of the rarest Vectrex peripherals. A boxed Light Pen with all three cartridges sold for approximately $300 in 2010. The modern Vectrex homebrew community has created replacement light pens and new software, and the original tracking algorithm is documented in Rob Mitchell's Light Pen FAQ. The device remains a brilliant footnote in the history of pointing devices — a purely software-defined solution to a fundamental hardware incompatibility.
+
+### Team
+
+* **John Ross.** Inventor of the Vectrex Light Pen. Also conceived the Vectrex itself (after spotting a surplus 1-inch CRT) and designed the Vectrex 3D Imager. Hardware engineer at Western Technologies/Smith Engineering. Prototyped the pen in a Marks-A-Lot marker case.
+* **Richard Moszkowski.** Programmer of Art Master, the pack-in Light Pen cartridge (4K ROM). Also programmed Clean Sweep for the Vectrex.
+* **Jay Smith.** Head of Smith Engineering/Western Technologies. Guided the Vectrex project and previously designed the Microvision handheld.
+* **Gerry Karr.** Designed the Vectrex's computer and vector generator hardware.
+* **Tom Sloper.** Coined the name 'Vectrex' (from 'Vector-X'). Part of the Western Technologies team.
+* **Milton Bradley.** Acquired GCE in early 1983; manufactured and distributed the Vectrex and Light Pen; discontinued the line in February 1984.
+
+### Media
+
+![Vectrex Light Pen set with Art Master](../assets/wiki/vectrex-light-pen-1.jpg)
+*Vectrex Light Pen with Art Master cartridge and packaging. Source: Vectrex Museum.*
+
+![Vectrex Light Pen hardware detail](../assets/wiki/vectrex-light-pen-2.jpg)
+*Vectrex Light Pen with bundled Art Master cartridge. Source: Hackaday (2023 feature).*
+
+### Sources
+
+1. Vectrex Museum: Light Pen page (primary) — https://www.vectrexmuseum.com/vectexlightpen.html
+2. PlayVectrex: Light Pen FAQ v1.1 (Rob Mitchell) — https://www.playvectrex.com/vectech/lpfaq10.htm
+3. Hackaday: Vectrex Light Pen Works Without A Raster (2023) — https://hackaday.com/2023/04/26/vectrex-light-pen-works-without-a-raster/
+4. Wikipedia: Vectrex (Light Pen section) — https://en.wikipedia.org/wiki/Vectrex#Light_pen
+5. Vectrex Wiki: John Ross (inventor) — https://www.vectrexmuseum.com/wiki/index_title-John_Ross.html
+6. Game Developer: A History of Gaming Platforms — The Vectrex (Barton & Loguidice, 2007) — https://www.gamedeveloper.com/design/a-history-of-gaming-platforms-the-vectrex
+7. Retro Game Reviews: Mail Plane (unreleased Light Pen game) — https://www.retrogamesreview.co.uk/2017/04/mail-plane-vectrex-review.html
+8. Vectrex FAQ v5.2 (Gregg Woodcock / BaronVR) — https://retrocaderomp.com/reference/vectrex.txt

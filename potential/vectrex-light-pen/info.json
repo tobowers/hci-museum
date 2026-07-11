@@ -1,0 +1,77 @@
+{
+  "slug": "vectrex-light-pen",
+  "title": "Vectrex Light Pen",
+  "year": "1983",
+  "subtitle": "The light pen that shouldn't have worked — a bullseye-tracking hack on a vector display",
+  "why_scout_cares": "Light pens normally require a raster-scanning CRT beam to time position — impossible on a vector display. GCE invented a brilliant software workaround: a growing bullseye pattern that actively hunts for the pen's photodetector. A genuinely novel closed-loop tracking algorithm that turned a vector-display console into a direct-manipulation creative platform for drawing, animation, and music composition. Invented by John Ross, the same engineer behind the Vectrex itself and the 3D Imager.",
+  "search_terms": ["Vectrex light pen", "vector display light pen", "GCE light pen"],
+  "research": {
+    "title": "Vectrex Light Pen",
+    "year": "1983",
+    "by": "General Consumer Electronics (GCE) / Milton Bradley, invented by John Ross (Western Technologies/Smith Engineering)",
+    "tags": ["Input", "Pointing", "Drawing", "Vector Display", "Gaming"],
+    "overview": "The Vectrex Light Pen was a peripheral for the Vectrex vector-display game console, released in limited quantities in early 1984. The Vectrex was the only home console to use a vector CRT — it drew images as lines of light rather than scanning a full raster grid — which meant that conventional light pens (which work by timing the passing electron beam against the screen refresh rate) could not function on it at all. \n\nGCE engineer John Ross invented a clever workaround: the software drew a spinning, expanding bullseye pattern centered on the pen's last known position. When the pen's photodetector sensed the beam crossing one of the concentric rings, the system triangulated the pen's new position and re-centered the bullseye. If the user moved too fast, the pen 'lost lock' and the user had to re-acquire by aiming at the crosshair. This turned the Vectrex from a games-only console into a direct-manipulation creative platform — bundled software included Art Master (drawing), AnimAction (frame-by-frame animation with saveable artwork), and Melody Master (music composition by drawing notes on a staff). \n\nThe Light Pen arrived at the end of the Vectrex's life — demonstrated at the Nuremberg Toy Fair in February 1984, just weeks before Milton Bradley discontinued the entire line. Only a few thousand units are believed to exist. An unreleased game, Mail Plane, used the pen for flight control and map navigation; its ROM was dumped and released to the community in 2013.",
+    "deepDive": [
+      {
+        "heading": "The vector display problem",
+        "text": "A raster-scanning CRT draws its image by sweeping an electron beam from top to bottom, left to right, 60 times per second. A conventional light pen detects the passing beam and times the interval from the start of the frame to calculate position — simple geometry. The Vectrex used a random-scan vector display: the beam only drew lines where needed, jumping from one endpoint to the next. There was no full-screen raster scan to time against. This rendered conventional light pen technology fundamentally incompatible with the Vectrex's display."
+      },
+      {
+        "heading": "The bullseye tracking hack",
+        "text": "John Ross's solution inverts the tracking paradigm. Instead of the pen passively listening for a predictable beam, the software actively searches for the pen. The algorithm works in two phases: (1) Acquisition — the software draws a crosshair; the user aims the pen at it and presses a button. (2) Tracking — the software draws a rapidly expanding or spinning bullseye pattern of concentric rings centered on the pen's last position. As the user moves the pen across the screen, the photodetector fires each time the vector beam crosses one of the rings. By tracking which ring and at what angle the crossing occurred, the software calculates displacement from the bullseye center and re-centers the pattern. This is a closed-loop sensor-fusion algorithm — the computer hunts for the pen rather than waiting for the pen to report. The method is analogous to modern optical tracking and even early eye-tracking systems."
+      },
+      {
+        "heading": "Hardware design",
+        "text": "The Light Pen contained a photodetector and transistor-based pulse-stretching circuits. John Ross prototyped the first unit in a Marks-A-Lot felt-tip marker pen case. The production pen plugged into controller port 2 of the Vectrex (the left port), while a standard controller occupied port 1 for menu navigation and tool selection. The pen reported light detection as a 'button 4' press on the controller input. It was sold only in the USA."
+      },
+      {
+        "heading": "Released software",
+        "text": "Three cartridges shipped with the Light Pen. Art Master (VT 3601, programmer Richard Moszkowski, 4K ROM) was the pack-in drawing program offering line-art tools, fill patterns, and basic frame-by-frame animation. AnimAction (VT 3604, 8K ROM + 2K RAM) added built-in clip art and the ability to save multi-frame animations — one of very few Vectrex cartridges with onboard RAM. Melody Master (VT 3602, 8K ROM) turned the console into a music workstation: players drew notes on a musical staff with the pen and the Vectrex played the composition through its AY-3-8912 sound chip, which supported three simultaneous channels."
+      },
+      {
+        "heading": "Unreleased: Mail Plane",
+        "text": "Mail Plane (VT 3603, fully completed but never shipped) was the only true game requiring the Light Pen. Players piloted a plane delivering mail to US cities, using a standard controller for flight (throttle/steering) and the Light Pen for route mapping, package loading, and city selection. Screenshots appeared on the Light Pen's retail packaging in 1983, teasing a game that wouldn't reach the public for thirty years. Two prototype cartridges surfaced around 2000; a third appeared on eBay in 2013, purchased by Chris Romero with community support. The ROM was dumped and released publicly."
+      },
+      {
+        "heading": "Commercial fate and legacy",
+        "text": "The Light Pen was demonstrated at the Nuremberg Toy Fair in February 1984, just before Milton Bradley discontinued the entire Vectrex line. Only a few thousand units are believed to have been manufactured, making it one of the rarest Vectrex peripherals. A boxed Light Pen with all three cartridges sold for approximately $300 in 2010. The modern Vectrex homebrew community has created replacement light pens and new software, and the original tracking algorithm is documented in Rob Mitchell's Light Pen FAQ. The device remains a brilliant footnote in the history of pointing devices — a purely software-defined solution to a fundamental hardware incompatibility."
+      }
+    ],
+    "team": [
+      {"name": "John Ross", "note": "Inventor of the Vectrex Light Pen. Also conceived the Vectrex itself (after spotting a surplus 1-inch CRT) and designed the Vectrex 3D Imager. Hardware engineer at Western Technologies/Smith Engineering. Prototyped the pen in a Marks-A-Lot marker case."},
+      {"name": "Richard Moszkowski", "note": "Programmer of Art Master, the pack-in Light Pen cartridge (4K ROM). Also programmed Clean Sweep for the Vectrex."},
+      {"name": "Jay Smith", "note": "Head of Smith Engineering/Western Technologies. Guided the Vectrex project and previously designed the Microvision handheld."},
+      {"name": "Gerry Karr", "note": "Designed the Vectrex's computer and vector generator hardware."},
+      {"name": "Tom Sloper", "note": "Coined the name 'Vectrex' (from 'Vector-X'). Part of the Western Technologies team."},
+      {"name": "Milton Bradley", "note": "Acquired GCE in early 1983; manufactured and distributed the Vectrex and Light Pen; discontinued the line in February 1984."}
+    ],
+    "media": [
+      {"src": "https://www.vectrexmuseum.com/collection/_picts/lightpen/vectrex-light-pen-set-big.jpg", "alt": "Vectrex Light Pen set with Art Master", "caption": "Vectrex Light Pen with Art Master cartridge and packaging. Source: Vectrex Museum."},
+      {"src": "https://hackaday.com/wp-content/uploads/2023/04/vectrex-light-pen-featured.jpg", "alt": "Vectrex Light Pen hardware detail", "caption": "Vectrex Light Pen with bundled Art Master cartridge. Source: Hackaday (2023 feature)."},
+      {"src": "https://www.arcadeartwork.org/_data/i/galleries/vectrex/Art-Master--1983---light-pen--me.jpg", "alt": "Art Master box artwork", "caption": "Art Master / Vectrex Light Pen retail box showing screenshots of the unreleased Mail Plane game. Source: ArcadeArtwork.org."},
+      {"src": "https://upload.wikimedia.org/wikipedia/commons/7/7a/Vectrex-Console-Set.jpg", "alt": "Vectrex console with controller", "caption": "Vectrex console with standard controller, for context. The only home vector-display console ever produced. Source: Wikimedia Commons (CC BY-SA)."}
+    ],
+    "sources": [
+      {"text": "Vectrex Museum: Light Pen page (primary)", "url": "https://www.vectrexmuseum.com/vectexlightpen.html"},
+      {"text": "PlayVectrex: Light Pen FAQ v1.1 (Rob Mitchell)", "url": "https://www.playvectrex.com/vectech/lpfaq10.htm"},
+      {"text": "Hackaday: Vectrex Light Pen Works Without A Raster (2023)", "url": "https://hackaday.com/2023/04/26/vectrex-light-pen-works-without-a-raster/"},
+      {"text": "Wikipedia: Vectrex (Light Pen section)", "url": "https://en.wikipedia.org/wiki/Vectrex#Light_pen"},
+      {"text": "Vectrex Wiki: John Ross (inventor)", "url": "https://www.vectrexmuseum.com/wiki/index_title-John_Ross.html"},
+      {"text": "Game Developer: A History of Gaming Platforms — The Vectrex (Barton & Loguidice, 2007)", "url": "https://www.gamedeveloper.com/design/a-history-of-gaming-platforms-the-vectrex"},
+      {"text": "Retro Game Reviews: Mail Plane (unreleased Light Pen game)", "url": "https://www.retrogamesreview.co.uk/2017/04/mail-plane-vectrex-review.html"},
+      {"text": "Vectrex FAQ v5.2 (Gregg Woodcock / BaronVR)", "url": "https://retrocaderomp.com/reference/vectrex.txt"}
+    ],
+    "imageUrls": [
+      "https://www.vectrexmuseum.com/collection/_picts/lightpen/vectrex-light-pen-set-big.jpg",
+      "https://hackaday.com/wp-content/uploads/2023/04/vectrex-light-pen-featured.jpg",
+      "https://www.arcadeartwork.org/_data/i/galleries/vectrex/Art-Master--1983---light-pen--me.jpg",
+      "https://upload.wikimedia.org/wikipedia/commons/7/7a/Vectrex-Console-Set.jpg"
+    ]
+  },
+  "savedImages": [
+    "images/lightpen-set.jpg",
+    "images/lightpen-hackaday.jpg",
+    "images/lightpen-box.jpg",
+    "images/vectrex-console.jpg"
+  ]
+}
