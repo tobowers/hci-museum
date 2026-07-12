@@ -1,0 +1,66 @@
+{
+  "slug": "suncom-aerobics-joystick",
+  "title": "Suncom Aerobics Joystick",
+  "year": "1983",
+  "subtitle": "An exercise bike adapter for the Atari 2600 that translated pedaling speed into proportional game input — cardiovascular exergaming, 35 years before Peloton",
+  "why_scout_cares": "The Suncom Aerobics Joystick represents a genuinely distinct HCI paradigm not covered by the museum's existing exergaming entries: sustained cardiovascular exertion translated into proportional game control. The Amiga Joyboard (1983) maps body tilt to direction — it's about balance. The NES Power Pad (1988) maps foot position to discrete button presses — it's about stepping. The Aerobics Joystick does something different: pedaling speed maps to variable-rate fire button presses. The faster you pedal your stationary exercise bike, the faster your on-screen ship shoots.\n\nAt $39.95, it was an adapter, not a dedicated controller — a magnetic reed switch clamped to the exercise bike's flywheel driving a pulse-to-frequency circuit that plugged into the Atari's joystick port. No dedicated software existed; it worked with any game that benefited from rapid fire (Enduro, Galaxian, Defender, Zaxxon). This creative repurposing of existing hardware — using a bicycle speedometer sensor to drive a game — is exactly the kind of clever, slightly desperate consumer hardware hacking that defines the golden age of weird game peripherals.\n\nThe Aerobics Joystick was extraordinarily obscure. Only one first-person user account survives (a letter to ANTIC magazine in February 1984 from a reader in Arvada, Colorado). No known surviving units exist in collector hands. The product was likely discontinued within a year. But the paradigm it pioneered — continuous physical exertion rate → in-game action rate — is the same principle used by Peloton, Zwift, and every modern smart trainer platform. This obscure 1983 adapter was the conceptual ancestor of an entire fitness-tech industry that would take three decades to arrive.",
+  "search_terms": ["suncom aerobics joystick", "atari 2600 exercise bike controller", "exergaming history 1983", "bicycle game controller atari", "aerobic joystick suncom"],
+  "research": {
+    "title": "Suncom Aerobics Joystick",
+    "year": "1983",
+    "by": "Suncom, Incorporated (Northbrook, Illinois)",
+    "tags": ["HCI", "Input", "Exergaming", "Physical Controller", "Atari 2600"],
+    "overview": "The Suncom Aerobics Joystick, released in 1983 by Suncom, Incorporated of Northbrook, Illinois, was a third-party peripheral for the Atari 2600 and Atari 8-bit computers that interfaced a standard home stationary exercise bicycle with the game console. Priced at $39.95, it consisted of an interface adapter box, a conventional Atari-compatible joystick, a handlebar-mounted fire button, and a magnetic sensor pickup for the exercise bike's flywheel.\n\nThe adapter converted pedaling speed into a variable-rate stream of fire button presses: the faster the player pedaled, the more rapidly the fire button signal was sent to the console. The joystick provided normal directional control, allowing simultaneous steering and pedal-driven shooting. The device worked with any Atari 2600 game that benefited from rapid fire — Enduro (Activision), Galaxian (Atari), Defender (Atari), and Zaxxon (Datasoft) were recommended. Installation was advertised as taking ten minutes.\n\nSuncom was a small controller manufacturer whose other products included the Slik Stik, Starfighter, and TAC-2 joysticks. The company survived the 1983 video game crash and continued making controllers into the early 1990s. The Aerobics Joystick was extraordinarily obscure: only one first-person user account survives (a February 1984 letter to ANTIC magazine), and no known units exist in collector hands today. Despite its commercial failure, it pioneered the paradigm of sustained cardiovascular exertion as proportional game input — the same principle used by modern connected fitness platforms like Peloton and Zwift.",
+    "deepDive": [
+      {
+        "heading": "Origins",
+        "text": "The Aerobics Joystick emerged at the intersection of two early-1980s consumer phenomena: the home exercise bike boom and the Atari 2600's dominance. By 1983, millions of American households had both a stationary exercise bike and a game console. Suncom's insight — that combining them would make both less boring — was prescient. The product was announced in mid-1983 through trade magazines (COMPUTE! July 1983, ANTIC September 1983) and sold through retail alongside Suncom's other controller products. The 1983 video game crash likely killed its commercial prospects within a year."
+      },
+      {
+        "heading": "Technical Operation: Pedaling Speed as Fire Button Rate",
+        "text": "The adapter used a magnetic reed switch pickup mounted on the exercise bike's frame, with a small magnet affixed to the flywheel or pedal crank. Each revolution produced one magnetic pulse. An analog pulse-to-frequency converter circuit (likely a 555 timer or similar RC oscillator) inside the adapter box converted the incoming pulse frequency into a variable-rate square wave that toggled the Fire line of the Atari joystick port. Faster pedaling → higher pulse frequency → faster fire button presses.\n\nThe Atari 2600 joystick port only supports 5 digital on/off lines (Up, Down, Left, Right, Fire), so true analog input was impossible. The Aerobics Joystick worked around this limitation by using fire button auto-fire as a proxy for proportional exertion — a clever hack within severe hardware constraints. The joystick's directional lines passed through conventionally, allowing simultaneous steering and pedal-driven shooting."
+      },
+      {
+        "heading": "The Only Surviving User Account",
+        "text": "In the February 1984 issue of ANTIC magazine, a reader named Helen Phillips from Arvada, Colorado wrote to the I/O Board letters column about her experience with the Aerobics Joystick. Her letter is the only known first-person account of the device in use:\n\n\"The most important thing to remember is that the faster you pedal, the faster the fire button shoots. Also, you can't aim very precisely when you're pedalling away at 20 miles per hour.\"\n\nShe reported playing Galaxian and finding it \"a lot of entertainment\" during exercise sessions. This single paragraph from a 1984 computer magazine is the only surviving testimony of what it felt like to actually use the device — a reminder of how many obscure peripherals have left almost no trace."
+      },
+      {
+        "heading": "Pedigree: The First Exergaming Controller",
+        "text": "The Aerobics Joystick sits at the beginning of a lineage that includes Atari's cancelled Project Puffer (1984, a more ambitious exercise bike interface for the 5200), the ExerVision Bicycle Trainer (1985, an unreleased 2600 prototype), the Autodesk HighCycle (1983, a VR exercise bike concept), and eventually modern platforms like Peloton and Zwift. All use the same core paradigm: sustained physical exertion rate as proportional in-game action. The Aerobics Joystick was the first product to actually ship with this concept — crude, constrained by 1983 hardware, and commercially doomed, but first."
+      }
+    ],
+    "team": [
+      { "name": "Suncom, Incorporated", "note": "Joystick and game controller manufacturer based at 650 E. Anthony Trail, Northbrook, Illinois. Active from approximately 1982 through the early 1990s. No individual designer or engineer for the Aerobics Joystick has been publicly identified." },
+      { "name": "Helen Phillips (Arvada, CO)", "note": "The only documented user of the Aerobics Joystick whose account survives, via a February 1984 letter to ANTIC magazine." }
+    ],
+    "media": [
+      {
+        "src": "https://www.ataricompendium.com/game_library/controllers/faq_controller_aerobics_1.jpg",
+        "alt": "Suncom Aerobics Joystick adapter box and joystick connected to an exercise bike",
+        "caption": "The Suncom Aerobics Joystick product photo showing the adapter box, joystick, and exercise bike connection. Source: Atari Compendium"
+      },
+      {
+        "src": "https://www.atarimagazines.com/v2n6/aerobicsjoystick.JPG",
+        "alt": "ANTIC magazine September 1983 new products listing featuring the Suncom Aerobics Joystick",
+        "caption": "The Aerobics Joystick as it appeared in ANTIC magazine's September 1983 New Products column ($39.95). The listing recommends Enduro from Activision as the best game to use with the device. Source: ANTIC Magazine"
+      }
+    ],
+    "sources": [
+      { "text": "ANTIC Magazine Vol 2 No 6 (Sep 1983) — New Products announcement with price and game recommendation", "url": "https://www.atarimagazines.com/v2n6/newproducts.php" },
+      { "text": "ANTIC Magazine Vol 2 No 11 (Feb 1984) — I/O Board: the only known first-person user account of the Aerobics Joystick in use", "url": "https://www.atarimagazines.com/v2n11/ioboard.php" },
+      { "text": "COMPUTE! Issue 38 (Jul 1983) — Suncom company and product line announcement including the Aerobics Joystick", "url": "https://www.atarimagazines.com/compute/issue38/118_2_NEWS_PRODUCTS_NO-STICK_JOYSTICK.php" },
+      { "text": "AtariHQ Museum — Aerobics Joystick entry with product photo", "url": "http://www.atarihq.com/museum/2678/hardware/aerobics.html" },
+      { "text": "Atari Compendium — VCS/2600 Controllers page with Aerobics Joystick entry and photos", "url": "https://www.ataricompendium.com/game_library/controllers/controllers.html" },
+      { "text": "DVG — Dizionario dei VideoGiochi (Italian) — Aerobic Joystick entry noting limited distribution", "url": "https://www.dizionariovideogiochi.it/doku.php?id=aerobic_joystick" },
+      { "text": "Wikipedia — TAC-2 joystick article (Suncom company context)", "url": "https://en.m.wikipedia.org/wiki/TAC-2" },
+      { "text": "AtariProtos — ExerVision Bicycle Trainer (related unreleased 1985 exergaming prototype)", "url": "http://www.atariprotos.com/2600/software/biketrainer/biketrainer.htm" }
+    ],
+    "imageUrls": [
+      "https://www.ataricompendium.com/game_library/controllers/faq_controller_aerobics_1.jpg",
+      "https://www.ataricompendium.com/game_library/controllers/faq_controller_aerobics_2.jpg",
+      "https://www.ataricompendium.com/game_library/controllers/faq_controller_aerobics_3.jpg",
+      "https://www.atarimagazines.com/v2n6/aerobicsjoystick.JPG"
+    ]
+  },
+  "savedImages": []
+}

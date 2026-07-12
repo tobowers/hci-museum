@@ -1,0 +1,72 @@
+{
+  "slug": "covox-voice-master",
+  "title": "Covox Voice Master",
+  "year": "1984",
+  "subtitle": "Trainable voice command recognition for the Commodore 64 — a consumer speech I/O peripheral that let home computers listen, speak, and obey",
+  "why_scout_cares": "The Covox Voice Master fills the missing link in the museum's speech interaction timeline. DragonDictate (1989) covers continuous dictation; Butler in a Box (1983) covers voice-activated home control. The Voice Master represents something different: trainable voice commands for interactive software control on a home computer. At $89.95, it brought speech recognition — however crude — to the consumer market as a programmable, game-oriented tool. Users trained their own voice templates (up to 31 words), then used spoken commands to play Blackjack, compose music by humming, or write their own voice-controlled programs in BASIC. This is the direct ancestor of voice-controlled gaming and the conceptual bridge between specialized speech hardware and the consumer voice interaction we take for granted today.",
+  "search_terms": ["covox voice master", "voice recognition commodore 64 1984", "early speech recognition home computer", "trainable speech recognition peripheral", "covox commodore 64 speech"],
+  "research": {
+    "title": "Covox Voice Master",
+    "year": "1984",
+    "by": "Covox, Inc. (Larry Stewart, Brad Stewart)",
+    "tags": ["HCI", "Input", "Speech Recognition", "Voice Control", "Home Computer"],
+    "overview": "The Covox Voice Master, released in 1984, was one of the first affordable consumer speech I/O peripherals for home computers. Initially launched for the Commodore 64 at $89.95, later ported to Apple II, Atari 8-bit, and DOS PCs, it combined three functions in one device: digital voice recording, voice playback, and trainable speech recognition. The hardware consisted of a small external ADC box connected to the computer's user port, plus an electret condenser microphone headset and earphone.\n\nUnlike professional speech recognition systems of the era that cost thousands of dollars, the Voice Master used simple template matching: the user trained the computer by speaking each command word, which was digitized and stored. Up to 31 words could be trained for recognition. The device added new commands (LEARN, SPEAK, TRAIN, RECOG) directly into the computer's BASIC language, allowing hobbyist programmers to create their own voice-controlled applications. Bundled software included a voice-controlled Blackjack game, a Talking Calculator and Clock, and the Voice Harp Composer — which let users sing, whistle, or hum into the microphone and see the notes appear on screen.\n\nCovox was founded in Eugene, Oregon by Larry Stewart, an aerospace industry veteran, with his son Brad Stewart responsible for product development. The Voice Master was their first product and established the company as a pioneer in consumer computer audio. Covox later became famous for the Speech Thing (1987), a simple parallel-port DAC for IBM PCs.",
+    "deepDive": [
+      {
+        "heading": "Origins",
+        "text": "Larry Stewart founded SRT, Inc. in Southern California in 1975, working in aerospace before moving the company to Eugene, Oregon in 1982. Covox, Inc. was established as a subsidiary in 1982 with the goal of bringing affordable voice technology to the consumer computer market. The Voice Master debuted at the 1984 Summer CES in Chicago alongside competing voice products like the Chirpee ($179.95) from Eng Manufacturing. At $89.95, it dramatically undercut the competition. InfoWorld covered it in August 1984 in an article titled \"Micros Pick Up Their Ears,\" signaling growing interest in consumer speech technology."
+      },
+      {
+        "heading": "Interaction Model: Trainable Voice Commands",
+        "text": "The Voice Master's speech recognition used template matching — a technique where the computer stores digitized samples of spoken words and compares new utterances against them. The process was explicitly multi-step: (1) TRAIN — speak a word to create a stored template; (2) RECOG — speak a word and the system returns the index number of the closest match. Per-user training was mandatory; each person had to train their own voice for each word they wanted recognized. The recognition vocabulary was up to 31 words, each under 2 seconds. Accuracy depended heavily on consistent pronunciation and choosing acoustically distinct words.\n\nThe system did NOT understand language — it simply matched acoustic patterns. This made it simultaneously impressive (it worked without phoneme models or language rules) and limited (it couldn't generalize across speakers or handle natural variation). The bundled Blackjack game was one of the earliest voice-controlled computer games: players trained words like \"hit\" and \"stand,\" then played using spoken commands."
+      },
+      {
+        "heading": "Speech I/O: A Closed Loop",
+        "text": "A key distinction from later speech recognition systems was the Voice Master's combined input/output capability. The same hardware both digitized the user's voice for recognition AND played back recorded speech. This created a unique feedback loop: the computer spoke back to you in your own voice, and responded to your spoken commands. The Voice Harp Composer demonstrated this elegantly — sing a note into the microphone, see it appear as sheet music on screen, then play it back through the computer's audio output."
+      },
+      {
+        "heading": "Legacy and Why It Matters",
+        "text": "The Voice Master was a bridge product. It wasn't the first speech recognizer, nor the most accurate, nor the most commercially successful. But it was the moment when trainable speech recognition became accessible to home computer users as a programmable, interactive tool — not just a dictation machine or a home automation controller, but a new way to interact with software. It anticipated voice-controlled gaming (\"Hey You, Pikachu!\", Kinect voice commands), consumer voice assistants, and the entire paradigm of speaking to computers as peers rather than operators. Covox's subsequent success with the Speech Thing ensured the company's place in PC audio history, but the Voice Master was their founding vision: a computer that could listen."
+      }
+    ],
+    "team": [
+      { "name": "Larry Stewart", "note": "Founder of SRT, Inc. (1975) and Covox, Inc. (1982). Aerospace industry background. Moved company from Southern California to Eugene, Oregon in 1982." },
+      { "name": "Brad Stewart", "note": "Son of Larry Stewart; VP of Covox. Responsible for development of all Covox products including the Voice Master." },
+      { "name": "Mike Stewart", "note": "Son of Larry Stewart; helped manage the company." }
+    ],
+    "media": [
+      {
+        "src": "https://www.commodorespain.es/wp-content/uploads/2014/10/Voice-Master-covox.png",
+        "alt": "Covox Voice Master hardware unit with microphone headset and Commodore 64 connection cable",
+        "caption": "The Covox Voice Master peripheral: small external ADC box (center), electret condenser microphone headset, and earphone. Connected to the C64 user port. Source: Commodore Spain"
+      },
+      {
+        "src": "https://www.commodorespain.es/wp-content/uploads/2014/10/Voice-Master-funcionando-en-Commodore-64.jpg",
+        "alt": "Covox Voice Master software running on a Commodore 64 with CRT monitor",
+        "caption": "Voice Master software in operation on a Commodore 64. The system added LEARN, SPEAK, TRAIN, and RECOG commands to the computer's BASIC language. Source: Commodore Spain"
+      },
+      {
+        "src": "https://www.vgmpf.com/Wiki/images/thumb/4/48/Covox_Voice_Master.jpg/200px-Covox_Voice_Master.jpg",
+        "alt": "Covox Voice Master product unit with packaging",
+        "caption": "The Voice Master in its product packaging. Bundled software included a voice-controlled Blackjack game, Talking Calculator, and Voice Harp Composer. Source: VGMPF Wiki"
+      }
+    ],
+    "sources": [
+      { "text": "InfoWorld (Aug 13, 1984) — \"Micros Pick Up Their Ears\" — first major press coverage of consumer voice peripherals including the Voice Master", "url": "https://books.google.com/books?id=GS8EAAAAMBAJ&pg=PA41" },
+      { "text": "ANTIC Magazine (Jan 1987) — \"For Sale: Atari Voices\" — detailed review of Voice Master on Atari 8-bit computers", "url": "https://www.atarimagazines.com/v5n9/AtariVoices.php" },
+      { "text": "ANTIC Magazine (Jun 1988) — Voice Master Jr. review", "url": "https://www.atarimagazines.com/v7n2/8BitProductReviews.html" },
+      { "text": "Voice Master Owner's Manual (Apple II, v4.0) — primary technical documentation", "url": "https://archive.org/details/VoiceMasterOwnersManual" },
+      { "text": "Wikipedia — Covox company history", "url": "https://en.wikipedia.org/wiki/Covox" },
+      { "text": "VGMPF Wiki — Voice Master hardware summary", "url": "https://www.vgmpf.com/Wiki/index.php/Voice_Master" },
+      { "text": "Commodore Spain — Spanish-language retrospective with photos and software download", "url": "https://www.commodorespain.es/voice-master-la-grabadora-de-voz-para-commodore-64/" },
+      { "text": "Nerdly Pleasures — Deep technical analysis of all Covox sound devices", "url": "http://nerdlypleasures.blogspot.com/2014/09/the-mysterious-covox-pc-sound-devices.html" }
+    ],
+    "imageUrls": [
+      "https://www.commodorespain.es/wp-content/uploads/2014/10/Voice-Master-covox.png",
+      "https://www.commodorespain.es/wp-content/uploads/2014/10/Voice-Master-funcionando-en-Commodore-64.jpg",
+      "https://www.vgmpf.com/Wiki/images/thumb/4/48/Covox_Voice_Master.jpg/200px-Covox_Voice_Master.jpg",
+      "https://www.commodorespain.es/wp-content/uploads/2014/10/Voice-Master.jpg"
+    ]
+  },
+  "savedImages": []
+}
