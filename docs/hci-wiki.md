@@ -104,6 +104,9 @@ Each entry includes an overview, a deep dive, a small media gallery, and full so
 95. [Coleco Telstar Arcade (1977)](#coleco-telstar-arcade-1977)
 96. [Street Fighter Pneumatic Controller (1987)](#street-fighter-pneumatic-controller-1987)
 97. [Vectrex Light Pen (1983)](#vectrex-light-pen-1983)
+98. [Sega Heavyweight Champ (1976)](#sega-heavyweight-champ-1976)
+99. [Suncom Aerobics Joystick (1983)](#suncom-aerobics-joystick-1983)
+100. [Covox Voice Master (1984)](#covox-voice-master-1984)
 
 ---
 
@@ -5029,3 +5032,158 @@ The Light Pen arrived at the end of the Vectrex's life — demonstrated at the N
 6. Game Developer: A History of Gaming Platforms — The Vectrex (Barton & Loguidice, 2007) — https://www.gamedeveloper.com/design/a-history-of-gaming-platforms-the-vectrex
 7. Retro Game Reviews: Mail Plane (unreleased Light Pen game) — https://www.retrogamesreview.co.uk/2017/04/mail-plane-vectrex-review.html
 8. Vectrex FAQ v5.2 (Gregg Woodcock / BaronVR) — https://retrocaderomp.com/reference/vectrex.txt
+
+---
+
+## Covox Voice Master (1984)
+
+**By:** Covox, Inc. (Larry Stewart, Brad Stewart)  
+**Tags:** `HCI` `Input` `Speech Recognition` `Voice Control` `Home Computer`
+
+### Overview
+
+The Covox Voice Master, released in 1984, was one of the first affordable consumer speech I/O peripherals for home computers. Initially launched for the Commodore 64 at $89.95, later ported to Apple II, Atari 8-bit, and DOS PCs, it combined three functions in one device: digital voice recording, voice playback, and trainable speech recognition. The hardware consisted of a small external ADC box connected to the computer's user port, plus an electret condenser microphone headset and earphone.
+
+Unlike professional speech recognition systems of the era that cost thousands of dollars, the Voice Master used simple template matching: the user trained the computer by speaking each command word, which was digitized and stored. Up to 31 words could be trained for recognition. The device added new commands (LEARN, SPEAK, TRAIN, RECOG) directly into the computer's BASIC language, allowing hobbyist programmers to create their own voice-controlled applications. Bundled software included a voice-controlled Blackjack game, a Talking Calculator and Clock, and the Voice Harp Composer — which let users sing, whistle, or hum into the microphone and see the notes appear on screen.
+
+Covox was founded in Eugene, Oregon by Larry Stewart, an aerospace industry veteran, with his son Brad Stewart responsible for product development. The Voice Master was their first product and established the company as a pioneer in consumer computer audio. Covox later became famous for the Speech Thing (1987), a simple parallel-port DAC for IBM PCs.
+
+### Deep dive
+
+* **Origins.** Larry Stewart founded SRT, Inc. in Southern California in 1975, working in aerospace before moving the company to Eugene, Oregon in 1982. Covox, Inc. was established as a subsidiary in 1982 with the goal of bringing affordable voice technology to the consumer computer market. The Voice Master debuted at the 1984 Summer CES in Chicago alongside competing voice products like the Chirpee ($179.95) from Eng Manufacturing. At $89.95, it dramatically undercut the competition. InfoWorld covered it in August 1984 in an article titled "Micros Pick Up Their Ears," signaling growing interest in consumer speech technology.
+* **Interaction Model: Trainable Voice Commands.** The Voice Master's speech recognition used template matching — a technique where the computer stores digitized samples of spoken words and compares new utterances against them. The process was explicitly multi-step: (1) TRAIN — speak a word to create a stored template; (2) RECOG — speak a word and the system returns the index number of the closest match. Per-user training was mandatory; each person had to train their own voice for each word they wanted recognized. The recognition vocabulary was up to 31 words, each under 2 seconds. Accuracy depended heavily on consistent pronunciation and choosing acoustically distinct words.
+
+The system did NOT understand language — it simply matched acoustic patterns. This made it simultaneously impressive (it worked without phoneme models or language rules) and limited (it couldn't generalize across speakers or handle natural variation). The bundled Blackjack game was one of the earliest voice-controlled computer games: players trained words like "hit" and "stand," then played using spoken commands.
+* **Speech I/O: A Closed Loop.** A key distinction from later speech recognition systems was the Voice Master's combined input/output capability. The same hardware both digitized the user's voice for recognition AND played back recorded speech. This created a unique feedback loop: the computer spoke back to you in your own voice, and responded to your spoken commands. The Voice Harp Composer demonstrated this elegantly — sing a note into the microphone, see it appear as sheet music on screen, then play it back through the computer's audio output.
+* **Legacy and Why It Matters.** The Voice Master was a bridge product. It wasn't the first speech recognizer, nor the most accurate, nor the most commercially successful. But it was the moment when trainable speech recognition became accessible to home computer users as a programmable, interactive tool — not just a dictation machine or a home automation controller, but a new way to interact with software. It anticipated voice-controlled gaming ("Hey You, Pikachu!", Kinect voice commands), consumer voice assistants, and the entire paradigm of speaking to computers as peers rather than operators. Covox's subsequent success with the Speech Thing ensured the company's place in PC audio history, but the Voice Master was their founding vision: a computer that could listen.
+
+### Team
+
+* **Larry Stewart.** Founder of SRT, Inc. (1975) and Covox, Inc. (1982). Aerospace industry background. Moved company from Southern California to Eugene, Oregon in 1982.
+* **Brad Stewart.** Son of Larry Stewart; VP of Covox. Responsible for development of all Covox products including the Voice Master.
+* **Mike Stewart.** Son of Larry Stewart; helped manage the company.
+
+### Media
+
+![Covox Voice Master hardware unit with microphone headset and Commodore 64 connection cable](../assets/wiki/covox-voice-master-1.png)
+*The Covox Voice Master peripheral: small external ADC box (center), electret condenser microphone headset, and earphone. Connected to the C64 user port. Source: Commodore Spain*
+
+![Covox Voice Master software running on a Commodore 64 with CRT monitor](../assets/wiki/covox-voice-master-2.jpg)
+*Voice Master software in operation on a Commodore 64. The system added LEARN, SPEAK, TRAIN, and RECOG commands to the computer's BASIC language. Source: Commodore Spain*
+
+### Sources
+
+1. InfoWorld (Aug 13, 1984) — "Micros Pick Up Their Ears" — first major press coverage of consumer voice peripherals including the Voice Master — https://books.google.com/books?id=GS8EAAAAMBAJ&pg=PA41
+2. ANTIC Magazine (Jan 1987) — "For Sale: Atari Voices" — detailed review of Voice Master on Atari 8-bit computers — https://www.atarimagazines.com/v5n9/AtariVoices.php
+3. ANTIC Magazine (Jun 1988) — Voice Master Jr. review — https://www.atarimagazines.com/v7n2/8BitProductReviews.html
+4. Voice Master Owner's Manual (Apple II, v4.0) — primary technical documentation — https://archive.org/details/VoiceMasterOwnersManual
+5. Wikipedia — Covox company history — https://en.wikipedia.org/wiki/Covox
+6. VGMPF Wiki — Voice Master hardware summary — https://www.vgmpf.com/Wiki/index.php/Voice_Master
+7. Commodore Spain — Spanish-language retrospective with photos and software download — https://www.commodorespain.es/voice-master-la-grabadora-de-voz-para-commodore-64/
+8. Nerdly Pleasures — Deep technical analysis of all Covox sound devices — http://nerdlypleasures.blogspot.com/2014/09/the-mysterious-covox-pc-sound-devices.html
+
+---
+
+## Sega Heavyweight Champ (1976)
+
+**By:** Sega Enterprises, Ltd.  
+**Tags:** `HCI` `Input` `Arcade` `Motion Control` `Physical Controller`
+
+### Overview
+
+Sega Heavyweight Champ, released in Japan in October 1976, is recognized as the first video game to feature hand-to-hand combat and arguably the first motion-controlled video game. The black-and-white arcade cabinet featured two large boxing glove-shaped controllers mounted on articulated, spring-loaded arms — one for each player in this two-player competitive game.
+
+The controllers offered two mechanical degrees of freedom: vertical movement (up/down to target high or low punches) and horizontal inward push (to throw a punch). Springs returned the gloves to a neutral position after each strike. The game ran entirely on discrete TTL logic — no microprocessor, no ROMs, no software — with switch contacts detecting the glove positions. Scoring was binary: right punches were worth double points, and proximity to the opponent affected score values. Matches lasted 45-80 seconds.
+
+The game was priced at ¥620,000 and ranked as the #3 highest-grossing arcade video game of 1976 in Japan. It was licensed to NAT/Europlay in Bologna, Italy, which produced a version called "World Boxe" using original Sega PCBs in locally manufactured cabinets. No functioning original cabinet is known to survive today. However, in September 2025, the Tilt Museum in Bologna rediscovered the original hand-drawn schematics and manual from the NAT/Europlay archives, opening the possibility of reconstruction.
+
+### Deep dive
+
+* **Origins.** Heavyweight Champ emerged during Sega's pre-microprocessor era, when arcade games were built from discrete transistor-transistor logic (TTL) chips. This was hardware design, not software engineering — the game logic was literally wired into the circuit board. No CPU meant no programmability: every interaction had to be anticipated and hardwired into the circuit design. The cabinet was large (92 kg) with a 19-inch black-and-white monitor. It was released in Japan in October 1976 at ¥620,000 and appeared at San Diego's Sega Center arcade by 1977. Sega Arcade History (Enterbrain, 2002) lists it in the 1973-76 section, and the Japanese trade journal Game Machine ranked it #3 for 1976 in its February 1977 issue.
+* **Interaction Mechanics: Switches and Springs.** The glove controllers were the exclusive input method — no joysticks, no buttons. Each controller arm had two degrees of freedom: (1) vertical position, detected by up and down limit switches, and (2) horizontal push-in, detected by a strike switch triggered when the glove was pushed inward toward the cabinet. Springs returned the gloves to a neutral extended position after release.
+
+This is fundamentally different from Exciting Boxing's pneumatic approach. Heavyweight Champ used discrete mechanical displacement: the glove is either at a high position or a low position, and a punch is either thrown or not. The spring-loaded arms provided passive haptic feedback — physical resistance when pushing — making the interaction feel like actual punching rather than just pressing a button. The entire interaction loop was grab, aim (up/down), punch (push in), release (springs return), repeat.
+* **The Lost Game and Its Rediscovery.** For decades, Heavyweight Champ was considered completely lost — no known functioning cabinets, no ROMs to dump (since it had no ROMs), and only a few grainy photographs. The game appeared on the Lost Media Wiki. A Yahoo Japan auction around 2017-2019 showed a cabinet with a broken glass bezel, but its fate is unknown.
+
+In September 2025, everything changed. Federico Croci, founder of the Tilt Museum (Museo del Flipper) in Bologna, Italy, announced that his museum possessed the original hand-drawn schematics and manual for Heavyweight Champ. These came from the archives of NAT/Europlay, the Bologna-based company that manufactured the licensed Italian version "World Boxe." Sega had provided not just PCBs and parts to NAT/Europlay, but complete documentation. The schematics are being cataloged for digitization and eventual public release. This discovery means the game can potentially be reconstructed — a remarkable preservation story for one of the most significant lost artifacts in video game history.
+* **Why Spring-Loaded Mechanics Matter.** The choice of mechanical spring-loaded arms for Heavyweight Champ's controllers was not arbitrary — it was the only practical technology available in 1976 for creating a physically engaging punching interface. Potentiometers and analog joysticks existed but were fragile and expensive. Pneumatic sensors like those in Exciting Boxing (1987) required reliable, cheap pressure transducers that weren't yet available. Optical encoders were industrial equipment. So Sega went mechanical: metal arms, pivot joints, limit switches, and springs. The springs weren't just for return force — they were the physical experience. Punching against a spring feels like punching. The controller didn't simulate boxing; it transduced actual boxing-like motion into binary game signals.
+
+### Team
+
+* **Sega Enterprises, Ltd..** Developer and publisher. Individual designers are not recorded in any available source — common for pre-microprocessor arcade games where attribution was almost never given to individuals.
+* **NAT/Europlay (Bologna, Italy).** Italian licensee that produced the 'World Boxe' variant using original Sega PCBs and parts in locally manufactured cabinets.
+* **Federico Croci / Tilt Museum.** Founder of Museo del Flipper in Bologna. Rediscovered the original schematics in September 2025 from the NAT/Europlay archives.
+
+### Media
+
+![Sega Heavyweight Champ arcade cabinet with two boxing glove controllers on articulated arms](../assets/wiki/heavyweight-champ-1.jpg)
+*The Heavyweight Champ cabinet showing the two spring-loaded boxing glove controllers. Players grabbed the gloves, moved them up/down to aim, and pushed inward to punch. Source: Sega Retro (CC-BY 4.0)*
+
+![Black-and-white screenshot of Heavyweight Champ showing two boxers](../assets/wiki/heavyweight-champ-2.jpg)
+*Heavyweight Champ's black-and-white gameplay. The game ran on discrete TTL logic with no CPU, ROMs, or software — all game behavior was hardwired. Right punches scored double points. Source: Wikipedia (fair use)*
+
+### Sources
+
+1. Sega Retro — Heavyweight Champ (1976) comprehensive entry with technical specs, release history, images, and flyer PDF — https://segaretro.org/Heavyweight_Champ_(1976)
+2. Wikipedia — Heavyweight Champ article with historical context and screenshot — https://en.wikipedia.org/wiki/Heavyweight_Champ
+3. KLOV / Arcade-Museum.com — cabinet entry with census data — https://www.arcade-museum.com/Videogame/heavyweight-champ-1976
+4. Undumped Wiki — technical entry noting discrete logic architecture (no CPU/ROMs) — https://undumped.miraheze.org/wiki/Heavyweight_Champ
+5. Time Extension (Sep 2025) — "Italian Museum Uncovers Blueprints to Historic Lost Sega Game" — coverage of the Bologna schematics discovery — https://www.timeextension.com/news/2025/09/italian-museum-uncovers-blueprints-to-historic-lost-sega-game-from-the-1970s
+6. KLOV Forum — "Sega Heavyweight Champ (1976) — Lost Game, Looking for Clues" — extensive collector discussion with auction photos and schematics discovery thread — https://forums.arcade-museum.com/threads/sega-heavyweight-champ-1976-lost-game-looking-for-clues.445418/
+7. Eurogamer — "The Tao of Beat-em-ups" (2008) — historical article describing controller mechanics — https://www.eurogamer.net/the-tao-of-beat-em-ups-article
+8. CBS 8 San Diego (1977) — News footage of Heavyweight Champ at San Diego's Sega Center arcade — https://www.youtube.com/watch?v=LwfeOu0QsGk
+9. Tilt Museum Bologna — schematics discovery livestream — https://www.youtube.com/live/FuAXHr72XHk
+10. Japanese flyer PDF on Sega Retro — https://segaretro.org/File:HeavyweightChamp_DiscreteLogic_JP_Flyer.pdf
+11. Game Machine #65 (Feb 1977) — ranks Heavyweight Champ #3 arcade game of 1976 — https://onitama.tv/gamemachine/pdf/19770201p.pdf#page=2
+
+---
+
+## Suncom Aerobics Joystick (1983)
+
+**By:** Suncom, Incorporated (Northbrook, Illinois)  
+**Tags:** `HCI` `Input` `Exergaming` `Physical Controller` `Atari 2600`
+
+### Overview
+
+The Suncom Aerobics Joystick, released in 1983 by Suncom, Incorporated of Northbrook, Illinois, was a third-party peripheral for the Atari 2600 and Atari 8-bit computers that interfaced a standard home stationary exercise bicycle with the game console. Priced at $39.95, it consisted of an interface adapter box, a conventional Atari-compatible joystick, a handlebar-mounted fire button, and a magnetic sensor pickup for the exercise bike's flywheel.
+
+The adapter converted pedaling speed into a variable-rate stream of fire button presses: the faster the player pedaled, the more rapidly the fire button signal was sent to the console. The joystick provided normal directional control, allowing simultaneous steering and pedal-driven shooting. The device worked with any Atari 2600 game that benefited from rapid fire — Enduro (Activision), Galaxian (Atari), Defender (Atari), and Zaxxon (Datasoft) were recommended. Installation was advertised as taking ten minutes.
+
+Suncom was a small controller manufacturer whose other products included the Slik Stik, Starfighter, and TAC-2 joysticks. The company survived the 1983 video game crash and continued making controllers into the early 1990s. The Aerobics Joystick was extraordinarily obscure: only one first-person user account survives (a February 1984 letter to ANTIC magazine), and no known units exist in collector hands today. Despite its commercial failure, it pioneered the paradigm of sustained cardiovascular exertion as proportional game input — the same principle used by modern connected fitness platforms like Peloton and Zwift.
+
+### Deep dive
+
+* **Origins.** The Aerobics Joystick emerged at the intersection of two early-1980s consumer phenomena: the home exercise bike boom and the Atari 2600's dominance. By 1983, millions of American households had both a stationary exercise bike and a game console. Suncom's insight — that combining them would make both less boring — was prescient. The product was announced in mid-1983 through trade magazines (COMPUTE! July 1983, ANTIC September 1983) and sold through retail alongside Suncom's other controller products. The 1983 video game crash likely killed its commercial prospects within a year.
+* **Technical Operation: Pedaling Speed as Fire Button Rate.** The adapter used a magnetic reed switch pickup mounted on the exercise bike's frame, with a small magnet affixed to the flywheel or pedal crank. Each revolution produced one magnetic pulse. An analog pulse-to-frequency converter circuit (likely a 555 timer or similar RC oscillator) inside the adapter box converted the incoming pulse frequency into a variable-rate square wave that toggled the Fire line of the Atari joystick port. Faster pedaling → higher pulse frequency → faster fire button presses.
+
+The Atari 2600 joystick port only supports 5 digital on/off lines (Up, Down, Left, Right, Fire), so true analog input was impossible. The Aerobics Joystick worked around this limitation by using fire button auto-fire as a proxy for proportional exertion — a clever hack within severe hardware constraints. The joystick's directional lines passed through conventionally, allowing simultaneous steering and pedal-driven shooting.
+* **The Only Surviving User Account.** In the February 1984 issue of ANTIC magazine, a reader named Helen Phillips from Arvada, Colorado wrote to the I/O Board letters column about her experience with the Aerobics Joystick. Her letter is the only known first-person account of the device in use:
+
+"The most important thing to remember is that the faster you pedal, the faster the fire button shoots. Also, you can't aim very precisely when you're pedalling away at 20 miles per hour."
+
+She reported playing Galaxian and finding it "a lot of entertainment" during exercise sessions. This single paragraph from a 1984 computer magazine is the only surviving testimony of what it felt like to actually use the device — a reminder of how many obscure peripherals have left almost no trace.
+* **Pedigree: The First Exergaming Controller.** The Aerobics Joystick sits at the beginning of a lineage that includes Atari's cancelled Project Puffer (1984, a more ambitious exercise bike interface for the 5200), the ExerVision Bicycle Trainer (1985, an unreleased 2600 prototype), the Autodesk HighCycle (1983, a VR exercise bike concept), and eventually modern platforms like Peloton and Zwift. All use the same core paradigm: sustained physical exertion rate as proportional in-game action. The Aerobics Joystick was the first product to actually ship with this concept — crude, constrained by 1983 hardware, and commercially doomed, but first.
+
+### Team
+
+* **Suncom, Incorporated.** Joystick and game controller manufacturer based at 650 E. Anthony Trail, Northbrook, Illinois. Active from approximately 1982 through the early 1990s. No individual designer or engineer for the Aerobics Joystick has been publicly identified.
+* **Helen Phillips (Arvada, CO).** The only documented user of the Aerobics Joystick whose account survives, via a February 1984 letter to ANTIC magazine.
+
+### Media
+
+![Suncom Aerobics Joystick adapter box and joystick connected to an exercise bike](../assets/wiki/suncom-aerobics-1.jpg)
+*The Suncom Aerobics Joystick product photo showing the adapter box, joystick, and exercise bike connection. Source: Atari Compendium*
+
+![ANTIC magazine September 1983 new products listing featuring the Suncom Aerobics Joystick](../assets/wiki/suncom-aerobics-2.jpg)
+*The Aerobics Joystick as it appeared in ANTIC magazine's September 1983 New Products column ($39.95). The listing recommends Enduro from Activision as the best game to use with the device. Source: ANTIC Magazine*
+
+### Sources
+
+1. ANTIC Magazine Vol 2 No 6 (Sep 1983) — New Products announcement with price and game recommendation — https://www.atarimagazines.com/v2n6/newproducts.php
+2. ANTIC Magazine Vol 2 No 11 (Feb 1984) — I/O Board: the only known first-person user account of the Aerobics Joystick in use — https://www.atarimagazines.com/v2n11/ioboard.php
+3. COMPUTE! Issue 38 (Jul 1983) — Suncom company and product line announcement including the Aerobics Joystick — https://www.atarimagazines.com/compute/issue38/118_2_NEWS_PRODUCTS_NO-STICK_JOYSTICK.php
+4. AtariHQ Museum — Aerobics Joystick entry with product photo — http://www.atarihq.com/museum/2678/hardware/aerobics.html
+5. Atari Compendium — VCS/2600 Controllers page with Aerobics Joystick entry and photos — https://www.ataricompendium.com/game_library/controllers/controllers.html
+6. DVG — Dizionario dei VideoGiochi (Italian) — Aerobic Joystick entry noting limited distribution — https://www.dizionariovideogiochi.it/doku.php?id=aerobic_joystick
+7. Wikipedia — TAC-2 joystick article (Suncom company context) — https://en.m.wikipedia.org/wiki/TAC-2
+8. AtariProtos — ExerVision Bicycle Trainer (related unreleased 1985 exergaming prototype) — http://www.atariprotos.com/2600/software/biketrainer/biketrainer.htm
