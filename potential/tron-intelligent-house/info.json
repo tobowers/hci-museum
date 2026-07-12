@@ -1,0 +1,69 @@
+{
+  "slug": "tron-intelligent-house",
+  "title": "TRON Intelligent House",
+  "year": "1989",
+  "year_guessed": false,
+  "subtitle": "The house that runs on ~1,000 computers, completed two years before anyone coined the term \"ubiquitous computing\"",
+  "why_scout_cares": "In December 1989, Ken Sakamura and a consortium of 18 Japanese companies completed a 333m² house in Tokyo with approximately 1,000 networked computers embedded in its walls, windows, toilets, and kitchen cabinets. The house was the interface: a health-monitoring toilet performed automatic urinalysis, roof-mounted weather sensors opened and closed motorized windows, motion detectors tracked occupants for lighting and HVAC, and an underground warehouse retrieved household items on command. Real families lived in it for three years, providing HMI feedback. Sakamura called it a Highly Functionally Distributed System (HFDS) — his term for what we now call the Internet of Things. It predated Mark Weiser's 'ubiquitous computing' by two years and was recognized as an IEEE Milestone in 2024.",
+  "search_terms": ["TRON Intelligent House", "TRON smart house Sakamura", "HFDS TRON project", "ubiquitous computing precursor", "smart environment 1989", "computer-controlled house Japan", "embedded computing environment"],
+  "research": {
+    "title": "TRON Intelligent House",
+    "year": "1989",
+    "by": "Ken Sakamura / TRON Project (University of Tokyo), consortium of 18 companies",
+    "tags": ["HCI", "Ubiquitous Computing", "Smart Environment", "IoT", "Ambient Intelligence", "Embedded Systems"],
+    "overview": "The TRON Intelligent House (TRON電脳住宅, TRON Dennō Jūtaku — \"TRON Computer Brain House\") was a fully computer-controlled residential house completed in December 1989 in the Nishi-Azabu district of Tokyo. Led by Ken Sakamura, associate professor at the University of Tokyo and leader of the TRON Project, the house was built by a consortium of 18 Japanese companies including TOTO, YAMAHA, NTT, Mitsubishi Electric, and Takenaka Corporation. The 333m² (3,584 sq ft) house contained approximately 1,000 networked computers coordinating sensors and actuators throughout the living space. The entire physical environment functioned as the human-computer interface: motion-detecting footlights, weather-responsive motorized windows, a health-monitoring toilet that performed automatic urinalysis and transmitted results to a doctor, a kitchen that dispensed seasonings in milligram units and replayed recorded recipes, an automated underground storage retrieval system, and standardized wall switches following the TRON Human-Machine Interface Guideline (later published as IEC Technical Report TR 61997 in 2001). Real families lived in the house over three years and provided iterative feedback on the HMI design. The project cost approximately ¥1 billion (~US$6.7 million) for direct construction plus ¥2 billion (~US$13.4 million) in R&D, totaling approximately US$20 million. After about five years of operation, the house was demolished to make way for a high-rise building. In November 2024, it was recognized as IEEE Milestone #263.",
+    "deepDive": [
+      {
+        "heading": "Origins: The TRON Project and HFDS",
+        "text": "The TRON (The Real-time Operating system Nucleus) Project was launched in 1984 by Ken Sakamura at the University of Tokyo as an open-architecture, royalty-free operating system specification for embedded computing. By 1987, Sakamura had proposed the concept of a Highly Functionally Distributed System (HFDS) — a world where everyday objects contained embedded computers, communicated over networks, and cooperated to provide services to humans. This was published in English in 1987, two years before the TRON Intelligent House was completed and four years before Mark Weiser coined 'ubiquitous computing' (1991). To demonstrate HFDS in practice, Sakamura formed the TRON Intelligent House Study Group, bringing together 18 major Japanese companies. Construction began in October 1988 on a site in a model-home village owned by Nippon Homes Corporation. The building was completed in July 1989, with the full computer system integrated by December 1989."
+      },
+      {
+        "heading": "Living in a Computer: The Interaction Model",
+        "text": "The house's core HCI innovation was that the building itself was the interface. Residents did not sit at a terminal to control their environment — the environment sensed and responded to them. Motion detectors and ceiling-mounted infrared thermography tracked how many people were in each room and their body temperatures, feeding data to HVAC controllers. Roof-mounted weather sensors (temperature, humidity, wind, rain, brightness) coordinated motorized windows, curtains, and air conditioning handoffs. When rain was detected, all windows closed automatically and the AC took over. When someone got out of bed at night, soft foot-level lights activated rather than overhead glare. A 'Good Morning'/'Good Night' macro switch in the bedroom controlled lights, curtains, and AC with a single press. All wall switches throughout the house followed a standardized design language (the TRON Design Guideline), making operation intuitive regardless of which room you were in. The health-monitoring toilet performed automatic urinalysis and blood pressure measurement, transmitting data to the resident's family doctor via NTT's ISDN line — essentially telemedicine in 1989."
+      },
+      {
+        "heading": "The Kitchen, Bath, and Storage",
+        "text": "The kitchen featured a BTRON OS computer (color GUI with windowing, running on Intel 80286 processors) with a touch screen and laser disc storage for multimedia recipes. In recording mode, the system tracked every detail — oven duration, seasoning amounts dispensed to the milligram, cooking times. In playback mode, it reproduced the recipe automatically, controlling the oven and dispensing ingredients. The Japanese cypress bathtub had a computer-controlled faucet that adjusted its height, and the bathroom window used electrically controlled transparency glass. An underground storage warehouse, accessed through a monitor and control panel, allowed residents to browse and retrieve stored household items — eliminating conventional storage spaces from living areas. The garden used a computer-controlled hydroponic system with water-level sensors."
+      },
+      {
+        "heading": "Real Residents, Real Feedback",
+        "text": "Unlike most smart-home prototypes, the TRON Intelligent House was not a showpiece — it was a living experiment. Real families lived in the house over approximately three years, providing ongoing feedback about what worked and what didn't. They tested coordinated behaviors (did the automatic window-closing feel helpful or intrusive?), simulated emergencies (computer breakdowns, fires, intruders), and rated the overall experience. According to Sakamura, the volunteer residents gave high marks to the interior impression, living room, semi-outdoor garden space, and bathroom. Many requested to stay again. This user feedback directly shaped revisions to the HFDS framework and the TRON HMI Guideline, which was later published as an IEC international standard (TR 61997, 2001)."
+      },
+      {
+        "heading": "Technology That Became Products",
+        "text": "Many technologies prototyped in the TRON Intelligent House later became commercial products from the consortium members. TOTO developed the Washlet health-monitoring toilet from the bathroom research. Yamagiwa commercialized motion-sensing LED footlights. Nippon Sheet Glass commercialized electrically controlled variable-transparency glass. Sun Wave Industries commercialized computer-controlled kitchen systems. Yamaha's DSP sound-field emulation, prototyped in the house's multi-speaker audio system, became a signature feature of their AV receivers. The house received approximately 10,000 visitors in its first year. IEEE recognized its significance with Milestone #263 in 2024, alongside landmarks like the Shinkansen and the QR Code."
+      }
+    ],
+    "team": [
+      {"name": "Ken Sakamura", "note": "Project leader; associate professor at University of Tokyo; conceived HFDS concept; handled both architectural and computer system design"},
+      {"name": "TRON Intelligent House Study Group", "note": "Consortium of 18 companies: Nihon Homes, Takenaka Corp., Eiraku Electric, ATC, Sun Wave Industries, Tokyo Electric Power, TOTO, Taikisha, Mitsubishi Electric, Yamagiwa, Motoda Electronics, YAMAHA, NTT, Japan Airlines, Daiichi Engei, Sankyo Aluminum, Nippon Sheet Glass, Nisshin Steel, Seibu Department Stores"},
+      {"name": "Chiaki Ishikawa", "note": "IEEE Milestone proposer; long-time TRON Project contributor"}
+    ],
+    "media": [
+      {"src": "https://www.tron.org/wp-content/uploads/2025/06/it.jpg", "alt": "Exterior of the TRON Intelligent House, Nishi-Azabu, Tokyo, 1989", "caption": "TRON Intelligent House exterior. Traditional Japanese wood construction with motorized computer-controlled windows. Source: TRON Forum."},
+      {"src": "https://ethw-images.s3.us-east-va.perf.cloud.ovh.us/ethw/9/93/PopularScience-1990-building-birds-view.jpg", "alt": "Birds-eye architectural drawing of the TRON Intelligent House from Popular Science, September 1990", "caption": "Birds-eye view showing the house layout — the Roman-style atrium at rear could open to an open-air configuration via computer-controlled window systems. Source: Popular Science, September 1990."}
+    ],
+    "sources": [
+      {"text": "IEEE Milestone: The Pioneering TRON Intelligent House, 1989 (Milestone #263, dedicated November 28, 2024)", "url": "https://ethw.org/Milestones:The_Pioneering_TRON_Intelligent_House,_1989"},
+      {"text": "TRON Forum — IEEE Milestone House Page", "url": "https://www.tron.org/ieee-milestones/house/"},
+      {"text": "Sakamura, K. \"The TRON Intelligent House.\" IEEE Micro, Vol. 10, No. 2, April 1990", "url": "https://doi.org/10.1109/40.46769"},
+      {"text": "Normile, Dennis. \"Intelligence with Classic Style.\" Popular Science, September 1990, pp. 56-62", "url": ""},
+      {"text": "Sakamura, K. \"The Objectives of TRON Project: Open-Architecture Computer Systems.\" Proc. Third TRON Project Symposium, Springer, 1987", "url": "https://link.springer.com/chapter/10.1007/978-4-431-68069-7_1"},
+      {"text": "Sakamura, K. \"BTRON: Human-Machine Interface.\" TRON Project 1990, Springer", "url": ""},
+      {"text": "University of Tokyo III News — IEEE Milestone Award Announcement (December 2024)", "url": "https://www.iii.u-tokyo.ac.jp/news/2024120221562"},
+      {"text": "TRON Intelligent House IEEE Milestone PDF (8.3 MB)", "url": "https://www.tron.org/wp-content/uploads/2025/06/milestone-house-en.pdf"},
+      {"text": "TRON Intelligent House YouTube walkthrough (English, 9:25)", "url": "https://www.youtube.com/watch?v=7jPKEyM44GU"}
+    ],
+    "imageUrls": [
+      "https://www.tron.org/wp-content/uploads/2025/06/it.jpg",
+      "https://ethw-images.s3.us-east-va.perf.cloud.ovh.us/ethw/9/93/PopularScience-1990-building-birds-view.jpg",
+      "https://ethw-images.s3.us-east-va.perf.cloud.ovh.us/ethw/d/d1/TRON-IntelligentHouse-Plaque.jpg",
+      "https://ethw-images.s3.us-east-va.perf.cloud.ovh.us/ethw/thumb/f/f2/KEN-1989-computer-wire.jpg/550px-KEN-1989-computer-wire.jpg",
+      "https://ethw-images.s3.us-east-va.perf.cloud.ovh.us/ethw/e/e9/SAKA1990a-switch.jpg"
+    ]
+  },
+  "savedImages": [
+    "images/tron-house-exterior.jpg",
+    "images/tron-house-birds-eye.jpg"
+  ]
+}

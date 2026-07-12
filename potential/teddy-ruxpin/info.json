@@ -1,0 +1,64 @@
+{
+  "slug": "teddy-ruxpin",
+  "title": "Teddy Ruxpin",
+  "year": "1985",
+  "year_guessed": false,
+  "subtitle": "The animatronic bear whose cassette tapes carried audio for the child and servo commands for the machine — a hidden computer program on side B of a storybook tape",
+  "why_scout_cares": "In 1985, ex-Disney Imagineer Ken Forsse put animatronic technology — previously confined to theme parks like the Country Bear Jamboree — into a plush toy bear. Teddy Ruxpin's genius was hiding the computer interaction in plain sight. A standard stereo cassette tape played audio from the left channel while the right channel carried pulse-position modulation data controlling three servo motors that animated the bear's eyes, upper jaw, and lower jaw. The child heard a story. The bear received a robot control program. Inserting a different tape was a form of physical programming — loading new software into a hardware platform — years before most families owned a home computer. Worlds of Wonder sold over a million units in the first six months. Today, Teddy Ruxpin is held by the Powerhouse Museum, the V&A, and the Computer History Museum. The hacked-bear subculture — playing Slayer tapes to make the servos twitch violently — proved that consumers will always find unintended uses for interactive systems.",
+  "search_terms": ["Teddy Ruxpin", "Ken Forsse", "animatronic toy", "Worlds of Wonder", "servo-encoded cassette", "interactive toy 1985", "embedded data analog media"],
+  "research": {
+    "title": "Teddy Ruxpin",
+    "year": "1985",
+    "by": "Ken Forsse / Alchemy II; manufactured by Worlds of Wonder (Don Kingsborough, Mark Goldberg)",
+    "tags": ["HCI", "Animatronics", "Toy", "Robot", "Embedded Systems", "Analog Data"],
+    "overview": "Teddy Ruxpin was the world's first mass-market animatronic consumer toy, released in September 1985. Created by Ken Forsse, a former Disney Imagineer who had worked on Great Moments with Mr. Lincoln, the Enchanted Tiki Room, and the Haunted Mansion, Teddy Ruxpin brought theme-park-quality servo-controlled animation into a child's bedroom. The product retailed for $59–$79 and sold 41,000 units in its first 30 days, surpassing one million units by February 1986. The core innovation was the cassette tape mechanism: standard stereo Compact Cassettes carried the story audio on the left channel and pulse-position modulation (PPM) servo control data on the right channel. Nine pulses per frame controlled three servo motors (eyes, upper jaw, lower jaw) in the bear and additional servos in a companion toy (Grubby). The bear contained no microcontroller — decoding was done with discrete analog electronics (op-amps and comparators), making it a purely analog-digital hybrid. The product was designed by Forsse's Alchemy II and manufactured by Worlds of Wonder, a company founded by former Atari executives Don Kingsborough and Mark Goldberg specifically to produce Teddy Ruxpin. By 1987, 1.4 million bears had been sold, and over 8 million units have been produced across all versions through the present day.",
+    "deepDive": [
+      {
+        "heading": "The Hidden Program: Servo Data on the B-Side of a Story",
+        "text": "Teddy Ruxpin's interaction model was a feat of hidden complexity. A standard stereo cassette tape contains two independent audio tracks. In a Teddy Ruxpin tape, the left track carried the story — voice, music, and sound effects — that played through the bear's internal speaker. The right track, inaudible to the human ear, carried a continuous stream of pulse-position modulation (PPM) data: groups of nine short pulses separated by variable-length gaps. The length of each gap encoded the angular position of a servo motor. This was the same signaling scheme used in radio-controlled model airplanes — 8-channel digital proportional control, recorded raw onto magnetic tape. A microswitch in the tape deck detected knockout tabs in the cassette shell spine (similar to Type IV metal-tape detection holes) to identify legitimate Teddy Ruxpin cassettes. When a standard music cassette was inserted, the right channel's audio was interpreted as corrupted PPM data, causing the servos to twitch violently — the infamous 'Slayer in a Teddy Ruxpin' effect that became a hacker cultural phenomenon."
+      },
+      {
+        "heading": "Programming by Tape Selection",
+        "text": "For a child in 1985, choosing a cassette tape was an act of physical programming. Insert tape A, and the bear tells story A with corresponding facial animations. Insert tape B, and the behavior changes completely. This established a platform/content model — the bear was a hardware platform; the tapes were software — that mirrored the emerging video game console industry and presaged the app-store model by two decades. Worlds of Wonder produced 39 book-and-cassette episodes plus additional special series. Each cassette/book set retailed for $12.95. The interaction was intentionally simple: one playback button, one power/volume knob, and a storybook to follow along with. There was no rewind or fast-forward — tapes had to be rewound by hand with a pencil, making the experience deliberately paced and physical."
+      },
+      {
+        "heading": "From Disney Imagineering to Consumer Electronics",
+        "text": "Ken Forsse's career trajectory represents a direct technology transfer from theme parks to consumer products. At Disney, he worked on animatronic figures that cost millions of dollars and filled entire rooms. At Alchemy II, operating from his garage in Burbank, he miniaturized that technology into a plush toy. The original prototype cost $150, but Worlds of Wonder designer Larry Lynch (another former Atari employee) redesigned it to hit the $70 retail target. Forsse retained creative control through Alchemy II, while Worlds of Wonder handled manufacturing and distribution. The bear's voice was provided by Phil Baron, with Will Ryan voicing companion characters. The success was meteoric — $93 million in first-year sales, $320 million total for fiscal year 1986 — but Worlds of Wonder collapsed into bankruptcy by 1988, a cautionary tale about the difficulty of sustaining a novel-interaction product beyond its initial novelty."
+      }
+    ],
+    "team": [
+      {"name": "Earl Kenneth \"Ken\" Forsse (1936–2014)", "note": "Creator; former Disney Imagineer; founded Alchemy II in 1982; conceived the puppetronic system and the Teddy Ruxpin character"},
+      {"name": "Larry Larsen", "note": "Alchemy II engineer; co-inventor on the electromechanical controller patent (US 4,665,640) and animation recording patent (US 4,949,327)"},
+      {"name": "John Davies", "note": "Alchemy II designer; co-inventor on the controller and recording patents"},
+      {"name": "Don Kingsborough", "note": "Co-founder of Worlds of Wonder; former Atari sales president; saw Forsse's prototype and created WoW to produce it"},
+      {"name": "Mark Robert Goldberg", "note": "Co-founder of Worlds of Wonder; former Atari marketing executive"},
+      {"name": "Larry Lynch", "note": "Former Atari designer; redesigned the $150 prototype to meet the $70 retail price target"},
+      {"name": "Phil Baron", "note": "Voice actor for Teddy Ruxpin on all original cassette tapes and the 1986–87 animated TV series"},
+      {"name": "Will Ryan (d. 2021)", "note": "Voice actor for Grubby and Tweeg"}
+    ],
+    "media": [
+      {"src": "https://framemark.vam.ac.uk/collections/2016JH1857/full/735,/0/default.jpg", "alt": "Teddy Ruxpin animatronic bear with cassette deck, V&A Museum collection", "caption": "Teddy Ruxpin, the first mass-market animatronic consumer toy. The cassette deck in the bear's back reads specially encoded stereo tapes — left channel for audio, right channel for servo control data. V&A Museum, London (B.103-2012)."},
+      {"src": "https://imagedelivery.net/znDGKaxxskgDbNUpqPVRFg/ph-collection-media/images/1677361.jpg/w=1200,q=75", "alt": "Teddy Ruxpin with storybook and cassette, Powerhouse Museum collection", "caption": "Teddy Ruxpin with storybook and cassette tape. Each tape contained both the story audio and the hidden servo program. Powerhouse Museum, Sydney (2011/70/1)."}
+    ],
+    "sources": [
+      {"text": "Wikipedia: Teddy Ruxpin", "url": "https://en.wikipedia.org/wiki/Teddy_Ruxpin"},
+      {"text": "Victoria & Albert Museum Collection: Teddy Ruxpin (B.103-2012)", "url": "https://collections.vam.ac.uk/item/O1256509/"},
+      {"text": "Powerhouse Museum Collection: Teddy Ruxpin (2011/70/1)", "url": "https://collection.powerhouse.com.au/object/417600"},
+      {"text": "Computer History Museum Collection: Teddy Ruxpin (102801415)", "url": "https://www.computerhistory.org/collections/catalog/102801415"},
+      {"text": "illiop.org: How Teddy Ruxpin Works — Technical explanation of the PPM servo encoding", "url": "http://www.illiop.org/workings.html"},
+      {"text": "Hackaday: Teardown of Teddy Ruxpin electronics (July 2022)", "url": "https://hackaday.com/2022/07/21/teardown-how-many-teddy-ruxpins-does-it-take-to-start-a-coven/"},
+      {"text": "US Patent 4,665,640: \"Electromechanical controller\" — Forsse, Larsen, Davies (filed 1985, issued 1987)", "url": "https://patents.google.com/patent/US4665640A/en"},
+      {"text": "Wikipedia: Ken Forsse", "url": "https://en.wikipedia.org/wiki/Ken_Forsse"},
+      {"text": "Time Magazine: \"Intensive Care for a Talking Bear\" (February 10, 1986)", "url": "https://time.com/archive/6705427/toys-intensive-care-for-a-talking-bear/"},
+      {"text": "New York Times: Ken Forsse obituary (April 2014)", "url": "https://www.nytimes.com/2014/04/09/business/ken-forsse-who-brought-a-toy-bear-to-life-dies-at-77.html"}
+    ],
+    "imageUrls": [
+      "https://framemark.vam.ac.uk/collections/2016JH1857/full/735,/0/default.jpg",
+      "https://imagedelivery.net/znDGKaxxskgDbNUpqPVRFg/ph-collection-media/images/1677361.jpg/w=1200,q=75",
+      "https://imagedelivery.net/znDGKaxxskgDbNUpqPVRFg/ph-collection-media/images/1677359.jpg/w=1200,q=75"
+    ]
+  },
+  "savedImages": [
+    "images/teddy-vam.jpg"
+  ]
+}

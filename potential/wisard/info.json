@@ -1,0 +1,60 @@
+{
+  "slug": "wisard",
+  "title": "WISARD Pattern Recognition Machine",
+  "year": "1981",
+  "year_guessed": false,
+  "subtitle": "A 302kg cabinet that recognizes your face using RAM chips instead of neurons — the first machine to make face-as-interface real",
+  "why_scout_cares": "In 1981, Professor Igor Aleksander and his team at Brunel University built WISARD (Wilkie, Stonham, and Aleksander's Recognition Device): a 1.84-meter-tall, 302-kilogram cabinet containing banks of RAM chips configured as a 'weightless' neural network. You walked up to a TV camera, and the machine decided whether it had seen your face before. Unlike modern deep learning systems that use floating-point weights, WISARD stored its knowledge as simple bits in RAM — each memory cell was either a 1 or a 0. It ran at video frame rates (30 fps) in 1981, recognized faces, banknotes, and voice patterns, attracted interest from the UK Home Office for 'covert surveillance,' and remained in operation for over 20 years. It is now on display in the Mathematics: The Winton Gallery at the Science Museum in London. The interaction model — present your face to a machine and be recognized — was science fiction in 1981. Today it unlocks your phone.",
+  "search_terms": ["WISARD neural network", "WISARD pattern recognition", "Igor Aleksander Brunel", "RAM-based neural network", "weightless neural network", "early face recognition machine", "1981 neural network hardware"],
+  "research": {
+    "title": "WISARD Pattern Recognition Machine",
+    "year": "1981",
+    "by": "Igor Aleksander, John Stonham, Bruce Wilkie, Eric Conant — Brunel University, UK; commercialized by Computer Recognition Systems (CRS)",
+    "tags": ["HCI", "Neural Network", "Face Recognition", "Pattern Recognition", "Computer Vision", "AI"],
+    "overview": "WISARD (an acronym for Wilkie, Stonham, and Aleksander's Recognition Device) was one of the world's first hardware neural-network computers, completed at Brunel University in 1981. Housed in a cabinet measuring 1840 × 1110 × 584 mm and weighing 302 kg, it implemented a radically different approach to neural computation: instead of simulating weighted synapses with floating-point mathematics, WISARD used banks of RAM chips where each memory cell was simply a 1 or a 0. This 'weightless' neural network architecture — also called an n-tuple classifier or RAMnet — mapped randomly selected groups of pixels (n-tuples) to RAM addresses, training by writing 1s to the addressed locations. At recognition time, the discriminator with the highest sum of 1 responses won. Because all operations were simple memory lookups, WISARD could process images at full video frame rates (30 fps) using 1981 hardware — a feat that weighted neural networks of the era could not match. The system accepted input from a standard grey-scale TV camera and displayed results on a television monitor. It was demonstrated to the UK Home Office for face recognition in crime scene photographs and for 'covert surveillance.' A commercial version was manufactured by Computer Recognition Systems (CRS) of Wokingham starting in 1984. The machine was donated to the Science Museum, London, in 2002 and is currently on display in the Mathematics: The Winton Gallery.",
+    "deepDive": [
+      {
+        "heading": "How It Worked: RAM Instead of Neurons",
+        "text": "WISARD's architecture was elegant in its simplicity. An image from the TV camera was binarized (reduced to black and white). Groups of n randomly selected pixel locations (n-tuples, typically n=8 addressing 256-location RAMs) were fed to banks of RAM chips. Each class the system could recognize (e.g., a specific person's face) had its own 'discriminator' — a set of RAMs plus a summing device. During training, the image patterns for a class were presented, and a 1 was written to every RAM address addressed by the n-tuples. Multiple training samples accumulated more 1s. During recognition, a new image addressed all RAMs, each returning a 1 or 0, and the discriminator with the highest total response was the classification. A 'bleaching' mechanism raised the threshold to resolve ties. Because every operation was a simple memory access rather than floating-point multiply-accumulate, the system was massively parallel and extremely fast. The 302 kg cabinet contained two 19-inch racks of electronics with a massive linear power supply — 'massive transformer with massive copper busbars and smoothing capacitor,' according to one contemporary observer."
+      },
+      {
+        "heading": "Face-as-Interface: The Interaction Model",
+        "text": "The HCI model was remarkably direct: present your face to the camera, and the machine decides if it recognizes you. The interaction was binary — recognized or not recognized — and the output appeared on a TV monitor. In 1981, the idea that a machine could 'know who you are' by looking at you was the stuff of dystopian fiction. Yet here was a real, working system that did exactly that. The UK Home Office evaluated WISARD for identifying faces in photographs of crime scenes and for covert surveillance applications — directly presaging contemporary debates about facial recognition and privacy. The machine also recognized banknotes (tested for currency verification) and voice patterns (tested for speaker identification). The system came with a physical key for access control, suggesting that even its creators recognized the power of a machine that could identify people."
+      },
+      {
+        "heading": "The Team and Legacy",
+        "text": "Igor Aleksander (b. 1937) was professor at Brunel University from 1974 to 1984, later becoming a prominent figure in neural computing and consciousness studies at Imperial College London. John Stonham was a reader at Brunel and co-author of the foundational 1979 IEE paper on RAM-based pattern recognition. Bruce Wilkie built the WISARD hardware as his PhD project. Eric Conant was the technician who assembled it. The machine remained in use for over 20 years, taking on tasks from banknote recognition to fetal growth monitoring in hospitals. The WISARD architecture influenced later work in weightless neural networks and is still studied today — software implementations exist on GitHub, and papers on the WiSARD classifier continue to appear at machine learning conferences. The Science Museum describes it as one of the earliest working neural network computers, bridging the gap between the theoretical connectionism of the 1960s and the machine learning revolution of the 2010s."
+      }
+    ],
+    "team": [
+      {"name": "Igor Aleksander", "note": "Professor at Brunel University (1974–1984); team leader; later professor of neural systems engineering at Imperial College London; FREng"},
+      {"name": "John Stonham", "note": "Reader at Brunel University; co-inventor of the RAM-based pattern recognition architecture; co-author of foundational 1979 IEE paper"},
+      {"name": "Bruce Wilkie", "note": "PhD student at Brunel University; built the WISARD hardware as his doctoral project; the 'W' in WISARD"},
+      {"name": "Eric Conant", "note": "Technician at Brunel University; assembled the WISARD hardware"},
+      {"name": "Computer Recognition Systems (CRS)", "note": "Wokingham-based company; commercially manufactured and marketed 'CRS WISARD' from 1984"}
+    ],
+    "media": [
+      {"src": "https://coimages.sciencemuseumgroup.org.uk/131/981/large_2002_0297__0001_.jpg", "alt": "CRS WISARD Pattern Recognition Machine in the Science Museum, London", "caption": "The WISARD machine on display at the Science Museum, London, in the Mathematics: The Winton Gallery. The large cabinet (1840 × 1110 × 584 mm, 302 kg) houses the RAM-based neural network hardware. Photo: The Board of Trustees of the Science Museum (CC BY-NC-SA 4.0)."}
+    ],
+    "sources": [
+      {"text": "Science Museum Group Collection: CRS WISARD and key (object co8015551)", "url": "https://collection.sciencemuseumgroup.org.uk/objects/co8015551/crs-wisard-and-key"},
+      {"text": "Aleksander, I., Thomas, W., Bowden, P. \"WISARD, a radical new step forward in image recognition.\" Sensor Review, Vol. 4, No. 3, pp. 120-124, 1984", "url": "https://doi.org/10.1108/eb007637"},
+      {"text": "Aleksander, I., Stonham, J. \"Guide to pattern recognition using random-access memories.\" IEE Journal on Computers and Digital Techniques, 1979", "url": "https://doi.org/10.1049/ij-cdt.1979.0009"},
+      {"text": "Science Museum: \"Mechanical Dreams to Machine Minds — A Brief History of AI\" (features WISARD)", "url": "https://www.sciencemuseum.org.uk/objects-and-stories/mechanical-dreams-machine-minds-brief-history-artificial-intelligence-pt2"},
+      {"text": "Wikipedia: RAMnets (weightless neural networks)", "url": "https://en.wikipedia.org/wiki/RAMnets"},
+      {"text": "Wikipedia: Igor Aleksander", "url": "https://en.wikipedia.org/wiki/Igor_Aleksander"},
+      {"text": "Alegre, L. et al. \"The WiSARD Classifier.\" ESANN 2016 proceedings (contemporary review of WISARD architecture)", "url": "https://www.esann.org/sites/default/files/proceedings/legacy/es2016-63.pdf"},
+      {"text": "GitHub: malcolmbinstead/wisard — Software WISARD demo and historical documentation", "url": "https://github.com/malcolmbinstead/wisard"}
+    ],
+    "imageUrls": [
+      "https://coimages.sciencemuseumgroup.org.uk/131/981/large_2002_0297__0001_.jpg",
+      "https://coimages.sciencemuseumgroup.org.uk/253/888/large_2002_0297__0010_.jpg",
+      "https://coimages.sciencemuseumgroup.org.uk/131/987/medium_2002_0297__0007_.jpg",
+      "https://coimages.sciencemuseumgroup.org.uk/131/985/medium_2002_0297__0005_.jpg"
+    ]
+  },
+  "savedImages": [
+    "images/wisard-cabinet.jpg",
+    "images/wisard-detail.jpg"
+  ]
+}

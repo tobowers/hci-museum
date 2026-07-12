@@ -104,6 +104,12 @@ Each entry includes an overview, a deep dive, a small media gallery, and full so
 95. [Coleco Telstar Arcade (1977)](#coleco-telstar-arcade-1977)
 96. [Street Fighter Pneumatic Controller (1987)](#street-fighter-pneumatic-controller-1987)
 97. [Vectrex Light Pen (1983)](#vectrex-light-pen-1983)
+98. [2-XL (1978)](#2-xl-1978)
+99. [Surf Champ (1985)](#surf-champ-1985)
+100. [Iwata Desktop Force Display (1990)](#iwata-desktop-force-display-1990)
+101. [Teddy Ruxpin (1985)](#teddy-ruxpin-1985)
+102. [TRON Intelligent House (1989)](#tron-intelligent-house-1989)
+103. [WISARD Pattern Recognition Machine (1981)](#wisard-pattern-recognition-machine-1981)
 
 ---
 
@@ -5029,3 +5035,135 @@ The Light Pen arrived at the end of the Vectrex's life — demonstrated at the N
 6. Game Developer: A History of Gaming Platforms — The Vectrex (Barton & Loguidice, 2007) — https://www.gamedeveloper.com/design/a-history-of-gaming-platforms-the-vectrex
 7. Retro Game Reviews: Mail Plane (unreleased Light Pen game) — https://www.retrogamesreview.co.uk/2017/04/mail-plane-vectrex-review.html
 8. Vectrex FAQ v5.2 (Gregg Woodcock / BaronVR) — https://retrocaderomp.com/reference/vectrex.txt
+
+---
+
+## Teddy Ruxpin (1985)
+
+**By:** Ken Forsse / Alchemy II; manufactured by Worlds of Wonder (Don Kingsborough, Mark Goldberg)  
+**Tags:** `HCI` `Animatronics` `Toy` `Robot` `Embedded Systems` `Analog Data`
+
+### Overview
+
+Teddy Ruxpin was the world's first mass-market animatronic consumer toy, released in September 1985. Created by Ken Forsse, a former Disney Imagineer who had worked on Great Moments with Mr. Lincoln, the Enchanted Tiki Room, and the Haunted Mansion, Teddy Ruxpin brought theme-park-quality servo-controlled animation into a child's bedroom. The product retailed for $59–$79 and sold 41,000 units in its first 30 days, surpassing one million units by February 1986. The core innovation was the cassette tape mechanism: standard stereo Compact Cassettes carried the story audio on the left channel and pulse-position modulation (PPM) servo control data on the right channel. Nine pulses per frame controlled three servo motors (eyes, upper jaw, lower jaw) in the bear and additional servos in a companion toy (Grubby). The bear contained no microcontroller — decoding was done with discrete analog electronics (op-amps and comparators), making it a purely analog-digital hybrid. The product was designed by Forsse's Alchemy II and manufactured by Worlds of Wonder, a company founded by former Atari executives Don Kingsborough and Mark Goldberg specifically to produce Teddy Ruxpin. By 1987, 1.4 million bears had been sold, and over 8 million units have been produced across all versions through the present day.
+
+### Deep dive
+
+* **The Hidden Program: Servo Data on the B-Side of a Story.** Teddy Ruxpin's interaction model was a feat of hidden complexity. A standard stereo cassette tape contains two independent audio tracks. In a Teddy Ruxpin tape, the left track carried the story — voice, music, and sound effects — that played through the bear's internal speaker. The right track, inaudible to the human ear, carried a continuous stream of pulse-position modulation (PPM) data: groups of nine short pulses separated by variable-length gaps. The length of each gap encoded the angular position of a servo motor. This was the same signaling scheme used in radio-controlled model airplanes — 8-channel digital proportional control, recorded raw onto magnetic tape. A microswitch in the tape deck detected knockout tabs in the cassette shell spine (similar to Type IV metal-tape detection holes) to identify legitimate Teddy Ruxpin cassettes. When a standard music cassette was inserted, the right channel's audio was interpreted as corrupted PPM data, causing the servos to twitch violently — the infamous 'Slayer in a Teddy Ruxpin' effect that became a hacker cultural phenomenon.
+* **Programming by Tape Selection.** For a child in 1985, choosing a cassette tape was an act of physical programming. Insert tape A, and the bear tells story A with corresponding facial animations. Insert tape B, and the behavior changes completely. This established a platform/content model — the bear was a hardware platform; the tapes were software — that mirrored the emerging video game console industry and presaged the app-store model by two decades. Worlds of Wonder produced 39 book-and-cassette episodes plus additional special series. Each cassette/book set retailed for $12.95. The interaction was intentionally simple: one playback button, one power/volume knob, and a storybook to follow along with. There was no rewind or fast-forward — tapes had to be rewound by hand with a pencil, making the experience deliberately paced and physical.
+* **From Disney Imagineering to Consumer Electronics.** Ken Forsse's career trajectory represents a direct technology transfer from theme parks to consumer products. At Disney, he worked on animatronic figures that cost millions of dollars and filled entire rooms. At Alchemy II, operating from his garage in Burbank, he miniaturized that technology into a plush toy. The original prototype cost $150, but Worlds of Wonder designer Larry Lynch (another former Atari employee) redesigned it to hit the $70 retail target. Forsse retained creative control through Alchemy II, while Worlds of Wonder handled manufacturing and distribution. The bear's voice was provided by Phil Baron, with Will Ryan voicing companion characters. The success was meteoric — $93 million in first-year sales, $320 million total for fiscal year 1986 — but Worlds of Wonder collapsed into bankruptcy by 1988, a cautionary tale about the difficulty of sustaining a novel-interaction product beyond its initial novelty.
+
+### Team
+
+* **Earl Kenneth "Ken" Forsse (1936–2014).** Creator; former Disney Imagineer; founded Alchemy II in 1982; conceived the puppetronic system and the Teddy Ruxpin character
+* **Larry Larsen.** Alchemy II engineer; co-inventor on the electromechanical controller patent (US 4,665,640) and animation recording patent (US 4,949,327)
+* **John Davies.** Alchemy II designer; co-inventor on the controller and recording patents
+* **Don Kingsborough.** Co-founder of Worlds of Wonder; former Atari sales president; saw Forsse's prototype and created WoW to produce it
+* **Mark Robert Goldberg.** Co-founder of Worlds of Wonder; former Atari marketing executive
+* **Larry Lynch.** Former Atari designer; redesigned the $150 prototype to meet the $70 retail price target
+* **Phil Baron.** Voice actor for Teddy Ruxpin on all original cassette tapes and the 1986–87 animated TV series
+* **Will Ryan (d. 2021).** Voice actor for Grubby and Tweeg
+
+### Media
+
+![Teddy Ruxpin animatronic bear with cassette deck, V&A Museum collection](assets/wiki/teddy-ruxpin-vam.jpg)
+*Teddy Ruxpin, the first mass-market animatronic consumer toy. The cassette deck in the bear's back reads specially encoded stereo tapes — left channel for audio, right channel for servo control data. V&A Museum, London (B.103-2012).*
+
+### Sources
+
+1. Wikipedia: Teddy Ruxpin — https://en.wikipedia.org/wiki/Teddy_Ruxpin
+2. Victoria & Albert Museum Collection: Teddy Ruxpin (B.103-2012) — https://collections.vam.ac.uk/item/O1256509/
+3. Powerhouse Museum Collection: Teddy Ruxpin (2011/70/1) — https://collection.powerhouse.com.au/object/417600
+4. Computer History Museum Collection: Teddy Ruxpin (102801415) — https://www.computerhistory.org/collections/catalog/102801415
+5. illiop.org: How Teddy Ruxpin Works — Technical explanation of the PPM servo encoding — http://www.illiop.org/workings.html
+6. Hackaday: Teardown of Teddy Ruxpin electronics (July 2022) — https://hackaday.com/2022/07/21/teardown-how-many-teddy-ruxpins-does-it-take-to-start-a-coven/
+7. US Patent 4,665,640: "Electromechanical controller" — Forsse, Larsen, Davies (filed 1985, issued 1987) — https://patents.google.com/patent/US4665640A/en
+8. Wikipedia: Ken Forsse — https://en.wikipedia.org/wiki/Ken_Forsse
+9. Time Magazine: "Intensive Care for a Talking Bear" (February 10, 1986) — https://time.com/archive/6705427/toys-intensive-care-for-a-talking-bear/
+10. New York Times: Ken Forsse obituary (April 2014) — https://www.nytimes.com/2014/04/09/business/ken-forsse-who-brought-a-toy-bear-to-life-dies-at-77.html
+
+---
+
+## TRON Intelligent House (1989)
+
+**By:** Ken Sakamura / TRON Project (University of Tokyo), consortium of 18 companies  
+**Tags:** `HCI` `Ubiquitous Computing` `Smart Environment` `IoT` `Ambient Intelligence` `Embedded Systems`
+
+### Overview
+
+The TRON Intelligent House (TRON電脳住宅, TRON Dennō Jūtaku — "TRON Computer Brain House") was a fully computer-controlled residential house completed in December 1989 in the Nishi-Azabu district of Tokyo. Led by Ken Sakamura, associate professor at the University of Tokyo and leader of the TRON Project, the house was built by a consortium of 18 Japanese companies including TOTO, YAMAHA, NTT, Mitsubishi Electric, and Takenaka Corporation. The 333m² (3,584 sq ft) house contained approximately 1,000 networked computers coordinating sensors and actuators throughout the living space. The entire physical environment functioned as the human-computer interface: motion-detecting footlights, weather-responsive motorized windows, a health-monitoring toilet that performed automatic urinalysis and transmitted results to a doctor, a kitchen that dispensed seasonings in milligram units and replayed recorded recipes, an automated underground storage retrieval system, and standardized wall switches following the TRON Human-Machine Interface Guideline (later published as IEC Technical Report TR 61997 in 2001). Real families lived in the house over three years and provided iterative feedback on the HMI design. The project cost approximately ¥1 billion (~US$6.7 million) for direct construction plus ¥2 billion (~US$13.4 million) in R&D, totaling approximately US$20 million. After about five years of operation, the house was demolished to make way for a high-rise building. In November 2024, it was recognized as IEEE Milestone #263.
+
+### Deep dive
+
+* **Origins: The TRON Project and HFDS.** The TRON (The Real-time Operating system Nucleus) Project was launched in 1984 by Ken Sakamura at the University of Tokyo as an open-architecture, royalty-free operating system specification for embedded computing. By 1987, Sakamura had proposed the concept of a Highly Functionally Distributed System (HFDS) — a world where everyday objects contained embedded computers, communicated over networks, and cooperated to provide services to humans. This was published in English in 1987, two years before the TRON Intelligent House was completed and four years before Mark Weiser coined 'ubiquitous computing' (1991). To demonstrate HFDS in practice, Sakamura formed the TRON Intelligent House Study Group, bringing together 18 major Japanese companies. Construction began in October 1988 on a site in a model-home village owned by Nippon Homes Corporation. The building was completed in July 1989, with the full computer system integrated by December 1989.
+* **Living in a Computer: The Interaction Model.** The house's core HCI innovation was that the building itself was the interface. Residents did not sit at a terminal to control their environment — the environment sensed and responded to them. Motion detectors and ceiling-mounted infrared thermography tracked how many people were in each room and their body temperatures, feeding data to HVAC controllers. Roof-mounted weather sensors (temperature, humidity, wind, rain, brightness) coordinated motorized windows, curtains, and air conditioning handoffs. When rain was detected, all windows closed automatically and the AC took over. When someone got out of bed at night, soft foot-level lights activated rather than overhead glare. A 'Good Morning'/'Good Night' macro switch in the bedroom controlled lights, curtains, and AC with a single press. All wall switches throughout the house followed a standardized design language (the TRON Design Guideline), making operation intuitive regardless of which room you were in. The health-monitoring toilet performed automatic urinalysis and blood pressure measurement, transmitting data to the resident's family doctor via NTT's ISDN line — essentially telemedicine in 1989.
+* **The Kitchen, Bath, and Storage.** The kitchen featured a BTRON OS computer (color GUI with windowing, running on Intel 80286 processors) with a touch screen and laser disc storage for multimedia recipes. In recording mode, the system tracked every detail — oven duration, seasoning amounts dispensed to the milligram, cooking times. In playback mode, it reproduced the recipe automatically, controlling the oven and dispensing ingredients. The Japanese cypress bathtub had a computer-controlled faucet that adjusted its height, and the bathroom window used electrically controlled transparency glass. An underground storage warehouse, accessed through a monitor and control panel, allowed residents to browse and retrieve stored household items — eliminating conventional storage spaces from living areas. The garden used a computer-controlled hydroponic system with water-level sensors.
+* **Real Residents, Real Feedback.** Unlike most smart-home prototypes, the TRON Intelligent House was not a showpiece — it was a living experiment. Real families lived in the house over approximately three years, providing ongoing feedback about what worked and what didn't. They tested coordinated behaviors (did the automatic window-closing feel helpful or intrusive?), simulated emergencies (computer breakdowns, fires, intruders), and rated the overall experience. According to Sakamura, the volunteer residents gave high marks to the interior impression, living room, semi-outdoor garden space, and bathroom. Many requested to stay again. This user feedback directly shaped revisions to the HFDS framework and the TRON HMI Guideline, which was later published as an IEC international standard (TR 61997, 2001).
+* **Technology That Became Products.** Many technologies prototyped in the TRON Intelligent House later became commercial products from the consortium members. TOTO developed the Washlet health-monitoring toilet from the bathroom research. Yamagiwa commercialized motion-sensing LED footlights. Nippon Sheet Glass commercialized electrically controlled variable-transparency glass. Sun Wave Industries commercialized computer-controlled kitchen systems. Yamaha's DSP sound-field emulation, prototyped in the house's multi-speaker audio system, became a signature feature of their AV receivers. The house received approximately 10,000 visitors in its first year. IEEE recognized its significance with Milestone #263 in 2024, alongside landmarks like the Shinkansen and the QR Code.
+
+### Team
+
+* **Ken Sakamura.** Project leader; associate professor at University of Tokyo; conceived HFDS concept; handled both architectural and computer system design
+* **TRON Intelligent House Study Group.** Consortium of 18 companies: Nihon Homes, Takenaka Corp., Eiraku Electric, ATC, Sun Wave Industries, Tokyo Electric Power, TOTO, Taikisha, Mitsubishi Electric, Yamagiwa, Motoda Electronics, YAMAHA, NTT, Japan Airlines, Daiichi Engei, Sankyo Aluminum, Nippon Sheet Glass, Nisshin Steel, Seibu Department Stores
+* **Chiaki Ishikawa.** IEEE Milestone proposer; long-time TRON Project contributor
+
+### Media
+
+![Exterior of the TRON Intelligent House, Nishi-Azabu, Tokyo, 1989](assets/wiki/tron-house-exterior.jpg)
+*TRON Intelligent House exterior. Traditional Japanese wood construction with motorized computer-controlled windows. Source: TRON Forum.*
+
+![Birds-eye architectural drawing of the TRON Intelligent House from Popular Science, September 1990](assets/wiki/tron-house-birds-eye.jpg)
+*Birds-eye view showing the house layout — the Roman-style atrium at rear could open to an open-air configuration via computer-controlled window systems. Source: Popular Science, September 1990.*
+
+### Sources
+
+1. IEEE Milestone: The Pioneering TRON Intelligent House, 1989 (Milestone #263, dedicated November 28, 2024) — https://ethw.org/Milestones:The_Pioneering_TRON_Intelligent_House,_1989
+2. TRON Forum — IEEE Milestone House Page — https://www.tron.org/ieee-milestones/house/
+3. Sakamura, K. "The TRON Intelligent House." IEEE Micro, Vol. 10, No. 2, April 1990 — https://doi.org/10.1109/40.46769
+4. Normile, Dennis. "Intelligence with Classic Style." Popular Science, September 1990, pp. 56-62 — 
+5. Sakamura, K. "The Objectives of TRON Project: Open-Architecture Computer Systems." Proc. Third TRON Project Symposium, Springer, 1987 — https://link.springer.com/chapter/10.1007/978-4-431-68069-7_1
+6. Sakamura, K. "BTRON: Human-Machine Interface." TRON Project 1990, Springer — 
+7. University of Tokyo III News — IEEE Milestone Award Announcement (December 2024) — https://www.iii.u-tokyo.ac.jp/news/2024120221562
+8. TRON Intelligent House IEEE Milestone PDF (8.3 MB) — https://www.tron.org/wp-content/uploads/2025/06/milestone-house-en.pdf
+9. TRON Intelligent House YouTube walkthrough (English, 9:25) — https://www.youtube.com/watch?v=7jPKEyM44GU
+
+---
+
+## WISARD Pattern Recognition Machine (1981)
+
+**By:** Igor Aleksander, John Stonham, Bruce Wilkie, Eric Conant — Brunel University, UK; commercialized by Computer Recognition Systems (CRS)  
+**Tags:** `HCI` `Neural Network` `Face Recognition` `Pattern Recognition` `Computer Vision` `AI`
+
+### Overview
+
+WISARD (an acronym for Wilkie, Stonham, and Aleksander's Recognition Device) was one of the world's first hardware neural-network computers, completed at Brunel University in 1981. Housed in a cabinet measuring 1840 × 1110 × 584 mm and weighing 302 kg, it implemented a radically different approach to neural computation: instead of simulating weighted synapses with floating-point mathematics, WISARD used banks of RAM chips where each memory cell was simply a 1 or a 0. This 'weightless' neural network architecture — also called an n-tuple classifier or RAMnet — mapped randomly selected groups of pixels (n-tuples) to RAM addresses, training by writing 1s to the addressed locations. At recognition time, the discriminator with the highest sum of 1 responses won. Because all operations were simple memory lookups, WISARD could process images at full video frame rates (30 fps) using 1981 hardware — a feat that weighted neural networks of the era could not match. The system accepted input from a standard grey-scale TV camera and displayed results on a television monitor. It was demonstrated to the UK Home Office for face recognition in crime scene photographs and for 'covert surveillance.' A commercial version was manufactured by Computer Recognition Systems (CRS) of Wokingham starting in 1984. The machine was donated to the Science Museum, London, in 2002 and is currently on display in the Mathematics: The Winton Gallery.
+
+### Deep dive
+
+* **How It Worked: RAM Instead of Neurons.** WISARD's architecture was elegant in its simplicity. An image from the TV camera was binarized (reduced to black and white). Groups of n randomly selected pixel locations (n-tuples, typically n=8 addressing 256-location RAMs) were fed to banks of RAM chips. Each class the system could recognize (e.g., a specific person's face) had its own 'discriminator' — a set of RAMs plus a summing device. During training, the image patterns for a class were presented, and a 1 was written to every RAM address addressed by the n-tuples. Multiple training samples accumulated more 1s. During recognition, a new image addressed all RAMs, each returning a 1 or 0, and the discriminator with the highest total response was the classification. A 'bleaching' mechanism raised the threshold to resolve ties. Because every operation was a simple memory access rather than floating-point multiply-accumulate, the system was massively parallel and extremely fast. The 302 kg cabinet contained two 19-inch racks of electronics with a massive linear power supply — 'massive transformer with massive copper busbars and smoothing capacitor,' according to one contemporary observer.
+* **Face-as-Interface: The Interaction Model.** The HCI model was remarkably direct: present your face to the camera, and the machine decides if it recognizes you. The interaction was binary — recognized or not recognized — and the output appeared on a TV monitor. In 1981, the idea that a machine could 'know who you are' by looking at you was the stuff of dystopian fiction. Yet here was a real, working system that did exactly that. The UK Home Office evaluated WISARD for identifying faces in photographs of crime scenes and for covert surveillance applications — directly presaging contemporary debates about facial recognition and privacy. The machine also recognized banknotes (tested for currency verification) and voice patterns (tested for speaker identification). The system came with a physical key for access control, suggesting that even its creators recognized the power of a machine that could identify people.
+* **The Team and Legacy.** Igor Aleksander (b. 1937) was professor at Brunel University from 1974 to 1984, later becoming a prominent figure in neural computing and consciousness studies at Imperial College London. John Stonham was a reader at Brunel and co-author of the foundational 1979 IEE paper on RAM-based pattern recognition. Bruce Wilkie built the WISARD hardware as his PhD project. Eric Conant was the technician who assembled it. The machine remained in use for over 20 years, taking on tasks from banknote recognition to fetal growth monitoring in hospitals. The WISARD architecture influenced later work in weightless neural networks and is still studied today — software implementations exist on GitHub, and papers on the WiSARD classifier continue to appear at machine learning conferences. The Science Museum describes it as one of the earliest working neural network computers, bridging the gap between the theoretical connectionism of the 1960s and the machine learning revolution of the 2010s.
+
+### Team
+
+* **Igor Aleksander.** Professor at Brunel University (1974–1984); team leader; later professor of neural systems engineering at Imperial College London; FREng
+* **John Stonham.** Reader at Brunel University; co-inventor of the RAM-based pattern recognition architecture; co-author of foundational 1979 IEE paper
+* **Bruce Wilkie.** PhD student at Brunel University; built the WISARD hardware as his doctoral project; the 'W' in WISARD
+* **Eric Conant.** Technician at Brunel University; assembled the WISARD hardware
+* **Computer Recognition Systems (CRS).** Wokingham-based company; commercially manufactured and marketed 'CRS WISARD' from 1984
+
+### Media
+
+![CRS WISARD Pattern Recognition Machine in the Science Museum, London](assets/wiki/wisard-cabinet.jpg)
+*The WISARD machine on display at the Science Museum, London, in the Mathematics: The Winton Gallery. The large cabinet (1840 × 1110 × 584 mm, 302 kg) houses the RAM-based neural network hardware. Photo: The Board of Trustees of the Science Museum (CC BY-NC-SA 4.0).*
+
+### Sources
+
+1. Science Museum Group Collection: CRS WISARD and key (object co8015551) — https://collection.sciencemuseumgroup.org.uk/objects/co8015551/crs-wisard-and-key
+2. Aleksander, I., Thomas, W., Bowden, P. "WISARD, a radical new step forward in image recognition." Sensor Review, Vol. 4, No. 3, pp. 120-124, 1984 — https://doi.org/10.1108/eb007637
+3. Aleksander, I., Stonham, J. "Guide to pattern recognition using random-access memories." IEE Journal on Computers and Digital Techniques, 1979 — https://doi.org/10.1049/ij-cdt.1979.0009
+4. Science Museum: "Mechanical Dreams to Machine Minds — A Brief History of AI" (features WISARD) — https://www.sciencemuseum.org.uk/objects-and-stories/mechanical-dreams-machine-minds-brief-history-artificial-intelligence-pt2
+5. Wikipedia: RAMnets (weightless neural networks) — https://en.wikipedia.org/wiki/RAMnets
+6. Wikipedia: Igor Aleksander — https://en.wikipedia.org/wiki/Igor_Aleksander
+7. Alegre, L. et al. "The WiSARD Classifier." ESANN 2016 proceedings (contemporary review of WISARD architecture) — https://www.esann.org/sites/default/files/proceedings/legacy/es2016-63.pdf
+8. GitHub: malcolmbinstead/wisard — Software WISARD demo and historical documentation — https://github.com/malcolmbinstead/wisard
