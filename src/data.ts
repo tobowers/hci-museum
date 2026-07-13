@@ -1287,6 +1287,18 @@ const exhibitData: Exhibit[] = [
     tags: ["Exergaming", "Fitness", "Rowing", "Game Console"],
     image: img("liferower-1.png"),
   },
+  {
+    id: "sega-ai-computer",
+    slug: "sega-ai-computer",
+    wikiTitle: "Sega AI Computer",
+    year: "1986",
+    sortYear: 1986,
+    title: "Sega AI Computer",
+    subtitle: "A children's computer that understood natural language — touch overlays, speech recognition, and Prolog AI in 1986",
+    blurb: "An extremely rare educational computer released by Sega in Japan in 1986, featuring a touch surface with swappable overlay sheets, speech recognition and synthesis, and a Prolog-based AI engine for natural language processing. Children used physical overlays to interact with lessons; the system's diary app asked about their day and generated grammatically correct entries from one-word answers. Built by Yamaha with software by CSK Research Institute. Only a handful survive; the complete ROM set was preserved and emulated in MAME in 2024.",
+    tags: ["Touch", "Speech Recognition", "Children's Computing", "AI", "Home Computer"],
+    image: img("sega-ai-computer-unit.jpg"),
+  },
 ];
 
 export const exhibits: Exhibit[] = exhibitData.toSorted((a, b) => b.sortYear - a.sortYear || a.title.localeCompare(b.title));

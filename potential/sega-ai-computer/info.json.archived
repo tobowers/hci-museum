@@ -1,0 +1,90 @@
+{
+  "slug": "sega-ai-computer",
+  "title": "Sega AI Computer",
+  "year": "1986",
+  "subtitle": "A children's computer from Sega that understood natural language — in 1986",
+  "why_scout_cares": "The Sega AI Computer combined a touch tablet with swappable physical overlay sheets, speech recognition via microphone, a speech synthesis chip with stored Japanese phonemes, and a Prolog-based AI engine for natural language processing — all in a single machine aimed at 3-to-8-year-olds. Twenty-two known software titles used custom touch overlays that transformed the surface into a different interface for each lesson. The computer would ask children questions about their day and generate grammatically correct diary entries from their one-word answers. It is an artifact of a time when 'AI' meant something specific and earnest: a logic programming language running on 128KB of RAM, built by Sega's R&D Department 6 and the CSK Research Institute, manufactured by Yamaha, and sold quietly to Japanese schools for three years before disappearing entirely. Only a handful of units survived. In 2024, the SMS Power community dumped every ROM, scanned every overlay, and got it running in MAME. The interaction model — physical overlays on a touch surface, combined with speech I/O and Prolog natural language — is unlike anything else in the museum.",
+  "search_terms": ["Sega AI Computer", "Sega AI 1986", "Sega Prolog computer", "セガAIコンピューター"],
+  "research": {
+    "title": "Sega AI Computer",
+    "year": "1986",
+    "by": "Sega Enterprises, Ltd. / CSK Research Institute / Nippon Gakki (Yamaha)",
+    "tags": ["HCI", "Touch", "Speech Recognition", "Children's Computing", "AI"],
+    "overview": "The Sega AI Computer (セガAIコンピューター) was an extremely rare educational home computer released by Sega in Japan in 1986, priced at ¥87,500 (approximately $547). It was the first home computer marketed around the concept of artificial intelligence, running a Prolog-based operating system capable of natural language processing. The system was aimed primarily at children aged 3 to 8, with software distributed on Sega My Cards (128–256KB ROM cartridges) and audio cassette tapes. A planned North American release as the 'SEGA DI 8300' never materialized. The computer was built under contract by Nippon Gakki Co. (Yamaha) and the Prolog interpreter was developed jointly with CSK Research Institute, Sega's corporate parent. Only a handful of units are known to survive today, with the first public sighting in over a decade occurring in a 2014 Yahoo Auctions Japan listing.",
+    "deepDive": [
+      {
+        "heading": "Touch Surface and Overlays",
+        "text": "The system's defining physical interface was a large touch surface built into its sloping upper deck. Rather than a general-purpose digitizer, this surface was designed to work with swappable overlay sheets — each software title shipped with a custom printed overlay that transformed the touch area into a task-specific interface. For example, the Japanese-language learning software provided an overlay with all phonetic syllabary characters (hiragana), allowing young children who couldn't use a keyboard to compose text by tapping characters directly. Other overlays presented piano keyboards, maps, picture selection grids, and drawing canvases. For older children and adults, a full-sized keyboard could be placed on top of the touch surface, converting the machine into a conventional computer."
+      },
+      {
+        "heading": "Speech Recognition and Synthesis",
+        "text": "The Sega AI Computer featured a built-in microphone for speech recognition. Its speech capability was supported by two dedicated 128KB ROM chips: one containing samples for the 46 common sounds of the Japanese language, the other containing pre-recorded full sentences for system prompts. The ADPCM speech decoder could mix synthesized speech with PSG sound (SN76489 chip), and when equipped with the optional Sound Box peripheral, FM synthesis via a Yamaha YM2151 chip. Audio cassettes could play narration and music during software loading, with one stereo channel carrying data at 9600 bps and the other carrying audio — allowing background music during load operations."
+      },
+      {
+        "heading": "Artificial Intelligence: Prolog and Natural Language",
+        "text": "The system's AI capabilities were powered by a Prolog interpreter stored in ROM — jointly developed by Sega and CSK Research Institute (CRI). According to a July 1986 Electronics magazine article, 'Sega Prolog was developed jointly with CSK Research Institute, the AI lab of software house Computer Services Corp.' The Prolog interpreter was used by application software for natural language processing, though it was not exposed to end-users for programming. The diary application was the showcase demo: a child would answer prompts about their daily activities with one- or two-word answers, and the Prolog system would generate a grammatically correct diary entry. The system could also 'parse a user's natural-language inputs and evaluate the person's ability level,' adjusting difficulty accordingly rather than simply advancing one level at a time. BASIC and Logo ROM cards were available for users who wanted to write programs."
+      },
+      {
+        "heading": "Hardware Architecture",
+        "text": "The system was built around a 16-bit NEC V20 CPU (an enhanced Intel 8088 clone in CMOS) running at 5 MHz, with 128KB of RAM and 512KB of ROM distributed across multiple chips: two 64KB system ROMs (operating system + Prolog), two 128KB speech ROMs, and one 128KB character ROM. Video was provided by a Yamaha V9938 (MSX2-compatible, 256×212 resolution) with 64KB VRAM. Software loaded from Sega My Cards (128–256KB) or stereo cassette tapes. The system included an RS-232 Centronics printer port, an 8-direction D-pad with 3 buttons for game-style navigation, and optional peripherals including a keyboard, floppy disk drive, Sound Box (YM2151 FM synthesis), and a planned but unreleased 'Bridge Unit' with an 8-bit CPU for MSX compatibility."
+      },
+      {
+        "heading": "Software and Market Life",
+        "text": "At least 26 software titles have been preserved, spanning four series: Kumon Wonderschool (fairy tale adventures teaching math and logic), Ongaku Wonder School (music composition), English Wonder School (English language learning developed with Linguaphone Institute), and Surasura Moji Wonder School (Japanese literacy). An additional 10+ titles are referenced in flyers but have not been found. Software was released from August 1986 through at least May 1989 — an unusually long lifespan for such an obscure system. The machine was sold primarily to Japanese schools (unit markings reference the Aomori Minami Hoikuen nursery school in Tokyo). A 1986 Copel 21 magazine order form priced the system at ¥87,500, with the full Kumon Wonderschool set available in 17 installments of ¥9,990. The marketing materials described the system as 'equipped with artificial intelligence' and capable of 'expanding the possibilities.'"
+      }
+    ],
+    "team": [
+      { "name": "Sega R&D Department 6", "note": "Lead development division within Sega" },
+      { "name": "Masami Ishikawa", "note": "Sega staff who worked on the AI Computer project" },
+      { "name": "Mika Okada", "note": "Sega staff, game art" },
+      { "name": "Shun Arai", "note": "Sound board programmer (credited in Sound Box ROM)" },
+      { "name": "Yasuhige Kobayashi", "note": "Sound board producer (credited in Sound Box ROM)" },
+      { "name": "CSK Research Institute (CRI)", "note": "Developed Sega Prolog language; CSK was Sega's parent company" },
+      { "name": "Nippon Gakki Co. (Yamaha)", "note": "Hardware manufacturing partner" },
+      { "name": "Marubeni Corporation", "note": "Partner for educational software development" },
+      { "name": "Linguaphone Institute (Japan)", "note": "Partner for English-language software" },
+      { "name": "Kamiya Studio", "note": "Developed the Pinpon Pasokon series of software" },
+      { "name": "Omar Cornut / SMS Power", "note": "Led 2024 preservation effort — acquired hardware, dumped ROMs, organized community research" },
+      { "name": "Chris Covell", "note": "Hardware reverse engineering and ROM dumping for MAME emulation" },
+      { "name": "Wilbert Pol & Fabio Priuli", "note": "MAME driver development" }
+    ],
+    "media": [
+      {
+        "src": "https://www.smspower.org/uploads/SegaAI/Unpacking-01.jpg",
+        "alt": "Sega AI Computer main unit with keyboard and Sound Box",
+        "caption": "The Sega AI Computer, keyboard, and Sound Box peripheral. The large touch surface is visible on the sloping upper deck. (Photo: SMS Power community, 2014)"
+      },
+      {
+        "src": "https://www.smspower.org/uploads/SegaAI/SegaAI-BootScreen.png",
+        "alt": "Sega AI Computer boot screen showing 'SEGA PROLOG... Bringing you into the world of artificial intelligence'",
+        "caption": "The system boot screen, displaying its Prolog heritage. (Screenshot: SMS Power)"
+      },
+      {
+        "src": "https://www.smspower.org/uploads/SegaAI/Gallery-01.jpg",
+        "alt": "Sega AI Computer mainboard close-up",
+        "caption": "Mainboard showing the NEC V20 CPU and multiple ROM chips. (Photo: SMS Power community)"
+      }
+    ],
+    "sources": [
+      { "text": "SMS Power: Sega AI Computer — comprehensive preservation page with ROMs, scans, emulation, and research", "url": "https://www.smspower.org/SegaAI/Index" },
+      { "text": "Electronics magazine, July 24, 1986: 'Children's computer brings AI into the home' — contemporary English-language article describing the system", "url": "https://www.smspower.org/SegaAI/Index (reproduced in full)" },
+      { "text": "Sega Retro: Sega AI Computer wiki page", "url": "https://segaretro.org/Sega_AI_Computer" },
+      { "text": "Ars Technica (Feb 2024): 'Fans preserve and emulate Sega's extremely rare '80s AI computer'", "url": "https://arstechnica.com/gaming/2024/02/fans-preserve-and-emulate-segas-extremely-rare-80s-ai-computer/" },
+      { "text": "Hackaday (Feb 2024): 'Sega's AI Computer Embraces The Artificial Intelligence Revolution'", "url": "https://hackaday.com/2024/02/04/segas-ai-computer-embraces-the-artificial-intelligence-revolution/" },
+      { "text": "Sega Company Profile 1988 (PDF, page 12)", "url": "https://segaretro.org/index.php?title=File:SegaCompanyProfile_JP_1988.pdf&page=12" },
+      { "text": "Sega AI Computer Japanese flyers (PDF, SMS Power)", "url": "https://www.smspower.org/SegaAI/Index#Flyers_Amp_Ads" }
+    ],
+    "imageUrls": [
+      "https://www.smspower.org/uploads/SegaAI/Unpacking-01.jpg",
+      "https://www.smspower.org/uploads/SegaAI/SegaAI-BootScreen.png",
+      "https://www.smspower.org/uploads/SegaAI/Gallery-01.jpg",
+      "https://www.smspower.org/uploads/SegaAI/SegaAI-Cover2.jpg",
+      "https://www.smspower.org/SegaAI/Index"
+    ]
+  },
+  "savedImages": [
+    "images/sega-ai-computer-unit.jpg",
+    "images/sega-ai-computer-boot.png",
+    "images/sega-ai-computer-board.jpg"
+  ]
+}
