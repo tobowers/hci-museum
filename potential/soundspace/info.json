@@ -1,0 +1,115 @@
+{
+  "slug": "soundspace",
+  "title": "SOUND=SPACE",
+  "year": "1984",
+  "subtitle": "A room that listens — ultrasonic echolocation turns the whole body into a musical instrument",
+  "why_scout_cares": "SOUND=SPACE is the first full-room, multi-person, non-contact interactive music environment. Unlike Soundbeam (beam interruption) or camera-based body tracking, it used an array of Polaroid ultrasonic autofocus transducers to echolocate people's positions, speed, and movement direction in real time — like a bat's sonar applied to human presence. No worn devices, no cameras, no contact. The body in space became a musical instrument. Installed permanently at La Villette science museum and exhibited at the Pompidou's landmark Les Immatériaux (1985), it predated the entire field of room-scale interactive environments. Gehlhaar later adapted the technology into Head=Space, which gave a quadriplegic trumpeter the ability to perform again. This sits at the intersection of HCI, music, disability access, and architectural interaction — and it's almost entirely absent from standard HCI history.",
+  "search_terms": ["SOUND=SPACE Rolf Gehlhaar ultrasonic interactive music", "Les Immatériaux Pompidou 1985 interactive", "Gehlhaar sound space room tracking"],
+  "research": {
+    "title": "SOUND=SPACE",
+    "year": "1984",
+    "by": "Rolf Gehlhaar (with Philippe Prevot, ZINGARO Designs Ltd., Per Hartmann)",
+    "tags": ["HCI", "Ultrasonic", "Music", "Room-Scale", "Accessibility", "Interactive Art"],
+    "overview": "SOUND=SPACE was an interactive musical environment created by German-American composer Rolf Gehlhaar in 1984–85. The system used an array of up to 32 Polaroid ultrasonic autofocus transducers mounted around the perimeter of an empty room to track the positions, speed, and direction of one or more people moving within it. The spatial data was fed to a computer — initially an Atari microcomputer, later MAX/MSP on Mac/PC — which mapped it to musical parameters. Different zones of the floor became 'invisible keyboards,' with different pitches, timbres, and rhythms. The result was that any person walking into the room became a musician, producing music through the simple act of moving. The system required no worn devices, no cameras, and no physical contact.",
+    "deepDive": [
+      {
+        "heading": "Origins",
+        "text": "Rolf Gehlhaar (1943–2019) was a composer who had been a personal assistant to Karlheinz Stockhausen, performed in the Stockhausen Ensemble, and co-founded Feedback Studio Cologne. After moving to London in 1976, he became fascinated by the idea of making music through physical movement in space. Inspired by bat echolocation, he conceived the SOUND=SPACE system in 1984. The first prototype was built in 1985 in collaboration with Philippe Prevot and LIMCA (a computer music studio in Gascony, France), running on an Atari microcomputer and covering a 3m × 3m × 2.5m space."
+      },
+      {
+        "heading": "How It Worked",
+        "text": "An array of Polaroid ultrasonic transducers (the same auto-focus ranging units used in Polaroid cameras) was mounted around the room. Each sensor emitted high-frequency pulses and measured time-of-flight of echoes reflected from people and objects. By combining readings from multiple sensors, the system calculated 3D positions in real time. The SOUND=SPACE 'trunk programme' provided the measurement backbone; 'branch programmes' defined musical topographies — mappings from spatial zones and movement parameters to musical output (pitch, timbre, rhythm, spatialisation, MIDI commands). The system could track up to 6–8 people simultaneously (at La Villette). Later versions (1998/99) migrated to MAX/MSP on Mac/PC with parallel Director programs for real-time image manipulation and projection."
+      },
+      {
+        "heading": "Exhibition History",
+        "text": "The first major installation was at the Centre Georges Pompidou in Paris, as part of Les Immatériaux (1985), the landmark postmodern exhibition curated by philosopher Jean-François Lyotard. Titled 'Musicien malgré lui' (Musician Despite Himself), it occupied ~36 m² and received up to 400 visitors per day. In 1986, a permanent installation was commissioned by the Cité des Sciences et de l'Industrie (La Villette), Paris's new national science museum, with a space large enough for 6–8 simultaneous participants. The system was also exhibited at Donaueschinger Musiktage (1985), the Almeida Festival London (1989), Hiroshima (1989), the Sydney Spring Festival (1990), and elsewhere. Permanent SOUND=SPACE centres were established in London (Musicworks) and Edinburgh (ARTLINK at Thistle Foundation)."
+      },
+      {
+        "heading": "Disability and Access",
+        "text": "Gehlhaar discovered SOUND=SPACE's potential for disability during an installation at the Gulbenkian Foundation in Lisbon. Since playing required no manual dexterity and could be tuned to detect very subtle movements, it opened music-making to people who could not play conventional instruments. In 1989, workshops were held for 30 different special needs groups at the Almeida Festival. The Edinburgh ARTLINK centre operated regular workshops for children with physical and learning disabilities. The most dramatic offshoot was Head=Space (2000–2002), developed for trumpeter Clarence Adoo, who became quadriplegic after a car accident. Head=Space miniaturised the tracking technology to respond to head movements combined with a breath-pressure tube, enabling Adoo to perform again. Gehlhaar co-founded Human Instruments in 2010 with his son Vahakn to continue developing accessible music technology."
+      },
+      {
+        "heading": "Legacy",
+        "text": "SOUND=SPACE predated Soundbeam (the better-known ultrasonic MIDI controller for special needs) by several years, and anticipated the field of room-scale interactive environments by decades. Its influence extends through Gehlhaar's own later work (CaDaReMi, Multiverse), through systems like M-SEA at James Cook University (which directly cited it), and through the broader field of accessible music technology. Gehlhaar's 1991 paper in Contemporary Music Review remains the definitive technical description. The system is preserved in the archives at gehlhaar.org and in documentation from the Pompidou's Les Immatériaux exhibition."
+      }
+    ],
+    "team": [
+      {
+        "name": "Rolf Gehlhaar",
+        "note": "Composer and creator. Born Breslau 1943, died London 2019. Personal assistant to Karlheinz Stockhausen, co-founder Feedback Studio Cologne, Professor of Experimental Music at Coventry University. Conceived SOUND=SPACE in 1984 and developed it through multiple versions over two decades."
+      },
+      {
+        "name": "Philippe Prevot",
+        "note": "Collaborator on the first prototype (1985), associated with LIMCA computer music studio, Gascony, France."
+      },
+      {
+        "name": "ZINGARO Designs Ltd.",
+        "note": "Hardware development for the second UK version (1987–89)."
+      },
+      {
+        "name": "Per Hartmann",
+        "note": "Programmer for the second UK version (1987–89)."
+      },
+      {
+        "name": "Centre Georges Pompidou / Jean-François Lyotard",
+        "note": "Les Immatériaux exhibition (1985) hosted the first major public installation."
+      },
+      {
+        "name": "Cité des Sciences et de l'Industrie (La Villette)",
+        "note": "Commissioned permanent installation (1986), Paris."
+      }
+    ],
+    "media": [
+      {
+        "src": "https://www.gehlhaar.org/music/soundspace",
+        "alt": "SOUND=SPACE installation documentation on Rolf Gehlhaar's website",
+        "caption": "Installation photographs and system documentation of SOUND=SPACE at gehlhaar.org."
+      },
+      {
+        "src": "https://www.youtube.com/watch?v=qui1n5kwsT8",
+        "alt": "SOUND=SPACE with Rolf Gehlhaar — Musicworks 1996 documentary",
+        "caption": "Documentary showing participants moving in the SOUND=SPACE environment, Musicworks 1996."
+      }
+    ],
+    "sources": [
+      {
+        "text": "Gehlhaar, R. (1991). 'SOUND=SPACE: An Interactive Musical Environment.' Contemporary Music Review, Vol. 6, Part 1, pp. 59–72.",
+        "url": "https://doi.org/10.1080/07494469100640061"
+      },
+      {
+        "text": "Rolf Gehlhaar's official website — SOUND=SPACE page with photos, publications, and video links",
+        "url": "https://www.gehlhaar.org/music/soundspace"
+      },
+      {
+        "text": "Lowenstein, O. (2000). 'Return to the Body: Techno-Motion Musician Rolf Gehlhaar's Sound=Space.' Musicworks, No. 76 (Spring), pp. 19–24.",
+        "url": ""
+      },
+      {
+        "text": "Broeckmann, A. (2023). The Making of Les Immatériaux. meson press. Documents the 1985 Pompidou installation.",
+        "url": ""
+      },
+      {
+        "text": "SOUND=SPACE with Rolf Gehlhaar — Musicworks 1996 (YouTube documentary)",
+        "url": "https://www.youtube.com/watch?v=qui1n5kwsT8"
+      },
+      {
+        "text": "Gehlhaar, R., Girao, L. M., Rodrigues, P., Penha, R. (2010). 'Instruments for Everyone: Designing New Means of Musical Expression for Disabled Creators.' DRHA 2010 Conference Proceedings.",
+        "url": ""
+      },
+      {
+        "text": "Bannan, N. (2019). 'Rolf Gehlhaar: A Pioneer in Creative Music Technology.' Journal of Creative Music Systems.",
+        "url": ""
+      },
+      {
+        "text": "Wikipedia — Rolf Gehlhaar",
+        "url": "https://en.wikipedia.org/wiki/Rolf_Gehlhaar"
+      }
+    ],
+    "imageUrls": [
+      "https://www.gehlhaar.org/music/soundspace",
+      "https://www.youtube.com/watch?v=qui1n5kwsT8",
+      "https://en.wikipedia.org/wiki/Rolf_Gehlhaar"
+    ]
+  },
+  "savedImages": []
+}

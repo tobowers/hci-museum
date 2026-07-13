@@ -140,3 +140,18 @@ New additions (2026-07-12):
 
 New deferred candidates (2026-07-12):
 - "The Hot Seat" (1984): Universal arcade motion platform by Balance Technology / Colorado Game Exchange (Rich Babich, Howard Letovsky). Platform-agnostic haptic overlay — any arcade PCB could be installed in the moving seat. ~75 units. 2-3 surviving units known. Excellent concept but images are from auction listings (RR Auction) and collector photos — no institutional or CC-licensed images. Category overlaps with Sega R360 despite different philosophy (universal platform vs. dedicated cabinet). Revisit if image licensing resolves or a museum acquires a unit.
+
+New additions (2026-07-13):
+- LifeRower (1986): Promoted 2026-07-13. Bally/Life Fitness commercial rowing machine with built-in CRT and video games. Motorola 6809 CPU, TI TMS9918 VDP, magnetic particle brake. Two built-in games: Pacer competitive boat racing and Shark Chase. Optical encoder measures shaft RPM for on-screen boat speed; mechanical switch detects stroke start for animation sync. US Patent 4,674,741 (six inventors). Preserved at National Videogame Museum UK (SHEVG.2024.11). NVM images downloaded to assets/wiki/. Distinct interaction model: full-body sustained physical exertion as primary continuous game input — the rowing machine IS the game controller. Commercially released product (not prototype), predates Peloton/Ring Fit by 35 years.
+
+New deferred candidates (2026-07-13):
+- SOUND=SPACE (1984-85, Rolf Gehlhaar): Room-scale ultrasonic body tracking for interactive music. Polaroid ultrasonic transducers + Atari computer. Centre Pompidou 1985 (Les Immatériaux), permanent La Villette 1986. Disability applications via Head=Space for quadriplegic musicians. Strongest candidate found in this run — unique modality, nothing like it in museum. DEFERRED: image availability is the blocker. Gehlhaar.org uses Google Sites with hard-to-extract images. YouTube documentary (Musicworks 1996) has footage. No CC-licensed exhibition photos found. Info.json in potential/soundspace/. Revisit when images can be extracted.
+- Atari Project Puffer (1983): Atari Research Group exercise bike controller for 5200/400/800. Jim Leiterman under Alan Kay. Hall effect sensor + handlebar buttons. Three tiers (Pro/Arcade/Home). Cancelled by Tramiel 1984. Rich AtariHQ docs. DEFERRED: overlaps with Suncom Aerobics Joystick as exercise bike → game input. Different philosophy (Puffer = complete game system vs Suncom = fire button adapter). Revisit when exergaming section gets thematic refresh.
+- C-5 Laser Cane (1981): Three GaAs laser diodes in long cane. Nitinol vibrating tactile pin. APH Museum images. DEFERRED: assistive mobility aid rather than general HCI. Info.json not built.
+- Coconuts Japan Pachinko Controller (c. 1987): Spring plunger Famicom controller. DEFERRED: one-axis analog spring, too simple.
+
+Promotion gotchas (2026-07-13):
+- National Videogame Museum UK (thenvm.org) is a reliable source for institutional-quality images of obscure gaming-adjacent hardware. NVM images downloaded successfully via StackCDN.
+- Google Sites-hosted images (gehlhaar.org type) are embedded via lh3.googleusercontent.com URLs that reference Google Drive viewer infrastructure. These are difficult to extract reliably for museum use. When a candidate's primary images are on Google Sites, budget extra time for alternative image sourcing.
+- After archiving 86 stale info.json files, running promote-potentials.ts would only pick up the 2 new candidates (soundspace and liferower). Manual editing was chosen instead to maintain control over wiki formatting.
+- Build count (104 exhibits) exceeds wiki ToC count (101) — expect a small discrepancy from prior promotions where ToC wasn't updated.

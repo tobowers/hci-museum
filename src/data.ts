@@ -1275,6 +1275,18 @@ const exhibitData: Exhibit[] = [
     tags: ["Speech Recognition", "Input", "Home Computer"],
     image: img("covox-voice-master-1.png"),
   },
+  {
+    id: "liferower",
+    slug: "liferower",
+    wikiTitle: "LifeRower",
+    year: "1986",
+    sortYear: 1986,
+    title: "LifeRower",
+    subtitle: "The rowing machine that was also a video game console — full-body exergaming, 20 years before the Wii",
+    blurb: "A commercial rowing machine with a built-in color CRT and video games, released by Bally/Life Fitness in 1986. The rowing mechanism itself was the game controller: an optical encoder measured shaft RPM for on-screen boat speed, a microswitch synchronized the on-screen rower's animation to the user's strokes, and a magnetic particle brake provided constant-torque resistance. Two games built in: competitive boat racing and shark chase. Priced at $2,000–3,000, sold to commercial gyms. Predates Peloton and Ring Fit by 35 years.",
+    tags: ["Exergaming", "Fitness", "Rowing", "Game Console"],
+    image: img("liferower-1.png"),
+  },
 ];
 
 export const exhibits: Exhibit[] = exhibitData.toSorted((a, b) => b.sortYear - a.sortYear || a.title.localeCompare(b.title));
