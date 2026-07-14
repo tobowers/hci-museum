@@ -69,10 +69,12 @@ jobs:
 
       - name: Upload review trace
         if: ${{ always() }}
+        continue-on-error: true
         uses: actions/upload-artifact@v4
         with:
           name: beepy-pr-review-trace
           path: potential/runs/*.pr-review.md
+          retention-days: 1
 
   review-open-beepy-pr:
     if: ${{ github.event_name != 'pull_request_target' }}
@@ -148,8 +150,10 @@ jobs:
         run: git status --short --branch
 
       - name: Upload review trace
-        if: ${{ always() }}
+        if: ${{ always() && steps.resolve_pr.outputs.found == 'true' }}
+        continue-on-error: true
         uses: actions/upload-artifact@v4
         with:
           name: beepy-pr-review-trace
           path: potential/runs/*.pr-review.md
+          retention-days: 1

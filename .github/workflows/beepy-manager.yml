@@ -193,16 +193,6 @@ jobs:
           EOF
           gh issue comment "$SOURCE_ISSUE" --body-file "$body_file"
 
-      - name: Upload manager artifacts
-        if: ${{ always() }}
-        uses: actions/upload-artifact@v4
-        with:
-          name: beepy-manager-output
-          path: |
-            docs/
-            potential/runs/
-            public/
-
       - name: Create manager pull request
         if: ${{ steps.manager_topic.outputs.skip != 'true' && (github.event_name == 'schedule' || github.event_name == 'issues' || github.event_name == 'issue_comment' || inputs.create_pr) && steps.manager_run.outputs.status == 'success' }}
         uses: peter-evans/create-pull-request@v7

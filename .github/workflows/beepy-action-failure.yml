@@ -58,7 +58,9 @@ jobs:
 
       - name: Upload recovery trace
         if: ${{ always() }}
+        continue-on-error: true
         uses: actions/upload-artifact@v4
         with:
           name: beepy-action-failure-trace
           path: potential/runs/*.action-failure.md
+          retention-days: 1

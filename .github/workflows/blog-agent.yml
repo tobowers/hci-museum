@@ -66,17 +66,6 @@ jobs:
         if: ${{ always() }}
         run: git status --short
 
-      - name: Upload blog artifacts
-        if: ${{ always() }}
-        uses: actions/upload-artifact@v4
-        with:
-          name: beepy-blog-output
-          path: |
-            docs/blog/
-            docs/beepy-memory.md
-            potential/runs/
-            public/
-
       - name: Create blog output pull request
         if: ${{ (github.event_name == 'schedule' || inputs.create_pr) && steps.blog_run.outcome == 'success' }}
         uses: peter-evans/create-pull-request@v7
