@@ -1,0 +1,82 @@
+{
+  "slug": "ibutton",
+  "title": "Dallas Semiconductor iButton",
+  "year": "1990",
+  "subtitle": "A 16mm steel can that turned touch into digital identity",
+  "why_scout_cares": "The iButton is a physical token that bridges the physical and digital worlds through nothing more than touch. Each 16mm stainless steel 'button' — shaped exactly like a watch battery — contains a microchip with a unique, factory-lasered 64-bit serial number. To identify yourself to a computer, you don't type a password or swipe a card: you press the button against a reader. Touch = identity. This is the origin of physical token-based computer authentication, preceding NFC and contactless smart cards by years. Dallas Semiconductor's 1-Wire protocol made it possible: data and power travel over a single conductor, so the iButton needs only two contacts (lid and base). The interaction model is radically simple — it collapses authentication into a single physical gesture — yet it spawned an entire category of touch-based digital interaction. Used for access control, time clocks, electronic keys, transit payment (Istanbul's Akbil system), and eventually the Java Ring (1998), which put a Java Virtual Machine into a finger-worn iButton. A 16mm steel button you touched to prove who you were.",
+  "search_terms": ["Dallas Semiconductor iButton", "touch memory", "1-Wire protocol", "DS1990A", "iButton 1990"],
+  "research": {
+    "title": "Dallas Semiconductor iButton",
+    "year": "1990",
+    "by": "Dallas Semiconductor Corporation",
+    "tags": ["HCI", "Tangible", "Identity", "Token", "Touch", "Ubiquitous Computing"],
+    "overview": "The iButton is a microchip enclosed in a 16mm stainless steel can — the same form factor as a watch battery. Invented by Dallas Semiconductor and introduced in 1990, each iButton contains a unique, factory-lasered 64-bit serial number (ROM ID) that is globally unique and unalterable. The device communicates over Dallas Semiconductor's 1-Wire protocol, which sends both power and data over a single electrical conductor, allowing the iButton to function with just two contacts: the 'lid' and 'base' of the steel can.\n\nThe interaction model is touch. You press the iButton against a reader (a pair of spring-loaded contacts), and within milliseconds the computer knows exactly who or what you are. No keyboard, no card swipe, no PIN entry — just physical contact. The steel can is rugged enough to be worn on a keychain, embedded in a ring, or bolted to equipment. Variants soon added memory (up to 64KB), real-time clocks, temperature sensors, and cryptographic coprocessors — but the core interaction remained unchanged: touch and be recognized.\n\niButtons have been used as electronic keys for access control, time clocks for employee check-in, asset tags for equipment inventory, courier verification tokens, and — most visibly — as the Akbil smart ticket for Istanbul's public transit system, where millions of commuters touched their iButton fobs to reader pads for over a decade. The Java Ring (1998) embedded a Java Card 2.0 virtual machine into a finger-worn iButton, letting users carry cryptographic credentials, digital cash, and personal profiles as a ring they touched to readers.",
+    "deepDive": [
+      {
+        "heading": "The 1-Wire Protocol",
+        "text": "The technical enabler of the iButton was Dallas Semiconductor's 1-Wire protocol, a half-duplex serial bus that transmits both data and power over a single conductor (plus ground). Each 1-Wire device includes a small capacitor (~800pF) that stores charge to power the chip during data transmission. This allowed the iButton to function with just two contacts — the stainless steel lid and base — with no battery, no antenna, and no exposed connector.\n\nEach iButton's 64-bit ROM ID includes an 8-bit family code (identifying device type), a 48-bit unique serial number, and an 8-bit CRC for error detection. The address space allows for over 280 trillion unique identities. The 1-Wire bus can support multiple devices on a single wire pair, with a deterministic search algorithm that can discover up to 75 devices per second. Data rates are 16.3 kbit/s in standard mode and 163 kbit/s in 'overdrive' mode.\n\nThis protocol was the foundation for an entire ecosystem: temperature loggers, battery monitors, memory tokens, SHA-1 authenticators, and the Java-powered cryptographic iButtons. The protocol later found its way into Apple MagSafe power connectors (power supply identification), Dell laptop charger authentication, and countless embedded applications.\n\nReferences: Maxim Integrated 'Book of iButton Standards' (2002); Analog Devices 1-Wire technical documentation."
+      },
+      {
+        "heading": "Touch as Identity",
+        "text": "The iButton's interaction model — 'touch and be identified' — was a radical simplification of computer authentication at a time when passwords were still typed on keyboards. There is no cognitive load: you don't remember anything, you don't type anything. You make physical contact with a reader, and the computer recognizes you. This is a fundamentally embodied interaction: identity is stored in a physical object you carry and present through touch.\n\nThe steel can form factor was deliberately designed for durability. The 16mm diameter (slightly larger than a US dime) and 3.1mm–5.9mm thickness meant it fit on keychains, could be riveted to equipment, and survived outdoor conditions from -40°C to +85°C. The stainless steel provided EMI shielding and corrosion resistance. The form factor was so distinctive that iButtons have been worn as earrings, embedded in dog tags, and mounted to shipping containers.\n\nThe touch-based interaction anticipated several later HCI paradigms: the touch-to-pay gesture of contactless cards and mobile payments, the physical token model of YubiKey and hardware security keys, and the 'walk up and be recognized' model of ubiquitous computing. But the iButton required actual contact — not proximity — making the act of identification deliberate and tactile.\n\nReferences: Wikipedia 1-Wire article; Analog Devices EZ Spotlight 'History of the Durable, Versatile iButton'; Istanbul Akbil system documentation."
+      },
+      {
+        "heading": "From Silicon Serial Number to Java Ring",
+        "text": "The first iButton product was the DS1990A Serial Number iButton, which contained only the 64-bit ROM ID — a purely identification-only device. Dallas Semiconductor quickly expanded the line: the DS1991 MultiKey iButton (three 384-bit password-protected memory sections), the DS1994 4K-bit plus time iButton (NV SRAM with real-time clock), the DS1920 temperature iButton (integrated thermometer with logging), and eventually the DS1954 cryptographic iButton with a hardware random number generator and SHA-1 engine.\n\nThe most ambitious iButton was the Java Ring (1998), which embedded a Java Card 2.0 virtual machine and 6KB of applet memory into a finger-worn iButton. Users could carry digital credentials, electronic cash, and personal identity profiles as a ring. Touching the ring to a reader could unlock a door, log into a computer, pay for a coffee, or verify cryptographic signatures. The Java Ring was distributed at the 1998 JavaOne conference and became a symbolic artifact of the era's belief that computation would migrate from desktops into jewelry, clothing, and everyday objects.\n\nDallas Semiconductor was acquired by Maxim Integrated in 2001 for approximately $2.5 billion. iButton products continued to be manufactured and sold under Maxim and later Analog Devices (which acquired Maxim in 2021).\n\nReferences: Stephen M. Curry, 'An introduction to the Java Ring,' JavaWorld (April 1998); fundinguniverse.com 'History of Dallas Semiconductor Corporation.'"
+      }
+    ],
+    "team": [
+      {
+        "name": "Dallas Semiconductor Corporation",
+        "note": "Founded 1984 in Dallas, Texas. Inventor of the 1-Wire protocol and iButton product line. Acquired by Maxim Integrated in 2001."
+      },
+      {
+        "name": "C. Michael Chang",
+        "note": "CEO and co-founder of Dallas Semiconductor"
+      },
+      {
+        "name": "Derrell Coker",
+        "note": "CTO and co-founder; key inventor on early 1-Wire and iButton patents"
+      }
+    ],
+    "media": [
+      {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/5/56/I-button.jpg",
+        "alt": "Dallas Semiconductor iButton in a plastic fob",
+        "caption": "An iButton (the small steel disc inside the fob) as used for Istanbul's Akbil smart ticket system. The user touches the steel can to a reader pad. Source: Wikimedia Commons (CC BY-SA 3.0)."
+      },
+      {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/7/77/Java_Ring.jpg",
+        "alt": "Java Ring with embedded iButton",
+        "caption": "A Java Ring (1998) with an embedded cryptographic iButton in the setting. Touching the ring to a reader could authenticate the wearer. Source: Wikimedia Commons (public domain)."
+      }
+    ],
+    "sources": [
+      {
+        "text": "Wikipedia: 1-Wire (includes iButton history)",
+        "url": "https://en.wikipedia.org/wiki/1-Wire"
+      },
+      {
+        "text": "Analog Devices EZ Spotlight: History of the Durable, Versatile iButton",
+        "url": "https://ez.analog.com/ez-blogs/b/engineerzone-spotlight/posts/history-of-the-durable-versatile-ibutton"
+      },
+      {
+        "text": "Maxim Integrated: Book of iButton Standards (2002)",
+        "url": "https://pdfserv.maximintegrated.com/en/an/AN937.pdf"
+      },
+      {
+        "text": "Stephen M. Curry, 'An introduction to the Java Ring,' JavaWorld, April 1998",
+        "url": "https://web.archive.org/web/20110718071309/http://www.javaworld.com/javaworld/jw-04-1998/jw-04-javadev.html?page=1"
+      },
+      {
+        "text": "FundingUniverse: History of Dallas Semiconductor Corporation",
+        "url": "https://www.fundinguniverse.com/company-histories/dallas-semiconductor-corporation-history/"
+      }
+    ],
+    "imageUrls": [
+      "https://upload.wikimedia.org/wikipedia/commons/5/56/I-button.jpg",
+      "https://upload.wikimedia.org/wikipedia/commons/7/77/Java_Ring.jpg"
+    ]
+  },
+  "savedImages": []
+}
