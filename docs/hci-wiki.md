@@ -1,6 +1,6 @@
 # The HCI Golden Age Wiki
 
-A research compendium for a digital museum of cutting-edge Human-Computer Interaction from the late 1970s through the early 1990s. These one hundred and five projects mix canonical experiments with weird, forgotten, and beautiful vaporware — brain control, voice control, gesture, wearable computing, VR, robots, and full-body exertion.
+A research compendium for a digital museum of cutting-edge Human-Computer Interaction from the late 1970s through the early 1990s. These one hundred and seven projects mix canonical experiments with weird, forgotten, and beautiful vaporware — brain control, voice control, gesture, wearable computing, VR, robots, and full-body exertion.
 
 Each entry includes an overview, a deep dive, a small media gallery, and full source links so the images and facts can always be traced back.
 
@@ -109,6 +109,8 @@ Each entry includes an overview, a deep dive, a small media gallery, and full so
 100. [Covox Voice Master (1984)](#covox-voice-master-1984)
 101. [LifeRower (1986)](#liferower-1986)
 102. [Sega AI Computer (1986)](#sega-ai-computer-1986)
+103. [Dallas Semiconductor iButton (1990)](#dallas-semiconductor-ibutton-1990)
+104. [TRS-80 Voice Synthesizer (1979)](#trs-80-voice-synthesizer-1979)
 
 ---
 
@@ -5292,3 +5294,124 @@ The Sega AI Computer (セガAIコンピューター) was an extremely rare educa
 5. Hackaday (Feb 2024): 'Sega's AI Computer Embraces The Artificial Intelligence Revolution' — https://hackaday.com/2024/02/04/segas-ai-computer-embraces-the-artificial-intelligence-revolution/
 6. Sega Company Profile 1988 (PDF, page 12) — https://segaretro.org/index.php?title=File:SegaCompanyProfile_JP_1988.pdf&page=12
 7. Sega AI Computer Japanese flyers (PDF, SMS Power) — https://www.smspower.org/SegaAI/Index#Flyers_Amp_Ads
+
+---
+
+## Dallas Semiconductor iButton (1990)
+
+**By:** Dallas Semiconductor Corporation  
+**Tags:** `HCI` `Tangible` `Identity` `Token` `Touch` `Ubiquitous Computing`
+
+### Overview
+
+The iButton is a microchip enclosed in a 16mm stainless steel can — the same form factor as a watch battery. Invented by Dallas Semiconductor and introduced in 1990, each iButton contains a unique, factory-lasered 64-bit serial number (ROM ID) that is globally unique and unalterable. The device communicates over Dallas Semiconductor's 1-Wire protocol, which sends both power and data over a single electrical conductor, allowing the iButton to function with just two contacts: the 'lid' and 'base' of the steel can.
+
+The interaction model is touch. You press the iButton against a reader (a pair of spring-loaded contacts), and within milliseconds the computer knows exactly who or what you are. No keyboard, no card swipe, no PIN entry — just physical contact. The steel can is rugged enough to be worn on a keychain, embedded in a ring, or bolted to equipment. Variants soon added memory (up to 64KB), real-time clocks, temperature sensors, and cryptographic coprocessors — but the core interaction remained unchanged: touch and be recognized.
+
+iButtons have been used as electronic keys for access control, time clocks for employee check-in, asset tags for equipment inventory, courier verification tokens, and — most visibly — as the Akbil smart ticket for Istanbul's public transit system, where millions of commuters touched their iButton fobs to reader pads for over a decade. The Java Ring (1998) embedded a Java Card 2.0 virtual machine into a finger-worn iButton, letting users carry cryptographic credentials, digital cash, and personal profiles as a ring they touched to readers.
+
+### Deep dive
+
+* **The 1-Wire Protocol.** The technical enabler of the iButton was Dallas Semiconductor's 1-Wire protocol, a half-duplex serial bus that transmits both data and power over a single conductor (plus ground). Each 1-Wire device includes a small capacitor (~800pF) that stores charge to power the chip during data transmission. This allowed the iButton to function with just two contacts — the stainless steel lid and base — with no battery, no antenna, and no exposed connector.
+
+Each iButton's 64-bit ROM ID includes an 8-bit family code (identifying device type), a 48-bit unique serial number, and an 8-bit CRC for error detection. The address space allows for over 280 trillion unique identities. The 1-Wire bus can support multiple devices on a single wire pair, with a deterministic search algorithm that can discover up to 75 devices per second. Data rates are 16.3 kbit/s in standard mode and 163 kbit/s in 'overdrive' mode.
+
+This protocol was the foundation for an entire ecosystem: temperature loggers, battery monitors, memory tokens, SHA-1 authenticators, and the Java-powered cryptographic iButtons. The protocol later found its way into Apple MagSafe power connectors (power supply identification), Dell laptop charger authentication, and countless embedded applications.
+
+References: Maxim Integrated 'Book of iButton Standards' (2002); Analog Devices 1-Wire technical documentation.
+* **Touch as Identity.** The iButton's interaction model — 'touch and be identified' — was a radical simplification of computer authentication at a time when passwords were still typed on keyboards. There is no cognitive load: you don't remember anything, you don't type anything. You make physical contact with a reader, and the computer recognizes you. This is a fundamentally embodied interaction: identity is stored in a physical object you carry and present through touch.
+
+The steel can form factor was deliberately designed for durability. The 16mm diameter (slightly larger than a US dime) and 3.1mm–5.9mm thickness meant it fit on keychains, could be riveted to equipment, and survived outdoor conditions from -40°C to +85°C. The stainless steel provided EMI shielding and corrosion resistance. The form factor was so distinctive that iButtons have been worn as earrings, embedded in dog tags, and mounted to shipping containers.
+
+The touch-based interaction anticipated several later HCI paradigms: the touch-to-pay gesture of contactless cards and mobile payments, the physical token model of YubiKey and hardware security keys, and the 'walk up and be recognized' model of ubiquitous computing. But the iButton required actual contact — not proximity — making the act of identification deliberate and tactile.
+
+References: Wikipedia 1-Wire article; Analog Devices EZ Spotlight 'History of the Durable, Versatile iButton'; Istanbul Akbil system documentation.
+* **From Silicon Serial Number to Java Ring.** The first iButton product was the DS1990A Serial Number iButton, which contained only the 64-bit ROM ID — a purely identification-only device. Dallas Semiconductor quickly expanded the line: the DS1991 MultiKey iButton (three 384-bit password-protected memory sections), the DS1994 4K-bit plus time iButton (NV SRAM with real-time clock), the DS1920 temperature iButton (integrated thermometer with logging), and eventually the DS1954 cryptographic iButton with a hardware random number generator and SHA-1 engine.
+
+The most ambitious iButton was the Java Ring (1998), which embedded a Java Card 2.0 virtual machine and 6KB of applet memory into a finger-worn iButton. Users could carry digital credentials, electronic cash, and personal identity profiles as a ring. Touching the ring to a reader could unlock a door, log into a computer, pay for a coffee, or verify cryptographic signatures. The Java Ring was distributed at the 1998 JavaOne conference and became a symbolic artifact of the era's belief that computation would migrate from desktops into jewelry, clothing, and everyday objects.
+
+Dallas Semiconductor was acquired by Maxim Integrated in 2001 for approximately $2.5 billion. iButton products continued to be manufactured and sold under Maxim and later Analog Devices (which acquired Maxim in 2021).
+
+References: Stephen M. Curry, 'An introduction to the Java Ring,' JavaWorld (April 1998); fundinguniverse.com 'History of Dallas Semiconductor Corporation.'
+
+### Team
+
+* **Dallas Semiconductor Corporation.** Founded 1984 in Dallas, Texas. Inventor of the 1-Wire protocol and iButton product line. Acquired by Maxim Integrated in 2001.
+* **C. Michael Chang.** CEO and co-founder of Dallas Semiconductor
+* **Derrell Coker.** CTO and co-founder; key inventor on early 1-Wire and iButton patents
+
+### Media
+
+![Dallas Semiconductor iButton in a plastic fob](../assets/wiki/ibutton-token.jpg)
+*An iButton (the small steel disc inside the fob) as used for Istanbul's Akbil smart ticket system. The user touches the steel can to a reader pad. Source: Wikimedia Commons (CC BY-SA 3.0).*
+
+![Java Ring with embedded iButton](../assets/wiki/ibutton-java-ring.jpg)
+*A Java Ring (1998) with an embedded cryptographic iButton in the setting. Touching the ring to a reader could authenticate the wearer. Source: Wikimedia Commons (public domain).*
+
+### Sources
+
+1. Wikipedia: 1-Wire (includes iButton history) — https://en.wikipedia.org/wiki/1-Wire
+2. Analog Devices EZ Spotlight: History of the Durable, Versatile iButton — https://ez.analog.com/ez-blogs/b/engineerzone-spotlight/posts/history-of-the-durable-versatile-ibutton
+3. Maxim Integrated: Book of iButton Standards (2002) — https://pdfserv.maximintegrated.com/en/an/AN937.pdf
+4. Stephen M. Curry, 'An introduction to the Java Ring,' JavaWorld, April 1998 — https://web.archive.org/web/20110718071309/http://www.javaworld.com/javaworld/jw-04-1998/jw-04-javadev.html?page=1
+5. FundingUniverse: History of Dallas Semiconductor Corporation — https://www.fundinguniverse.com/company-histories/dallas-semiconductor-corporation-history/
+
+---
+
+## TRS-80 Voice Synthesizer (1979)
+
+**By:** Radio Shack / Tandy Corporation  
+**Tags:** `HCI` `Speech Synthesis` `TRS-80` `Accessibility` `Peripheral`
+
+### Overview
+
+The TRS-80 Voice Synthesizer (catalog number 26-1180) was a speech synthesis peripheral sold by Radio Shack for the TRS-80 Model I computer. Introduced in 1979 at $399, it was built around the Votrax VSL phoneme module — a potted epoxy block containing the Votrax SC-01-A phoneme synthesis chip. The unit plugged directly into the Model I expansion port and worked with both Level I and Level II BASIC systems.
+
+The device's interaction model was extraordinary: it 'paralleled' 32 bytes of video memory corresponding to the right half of the bottom screen line. Each phoneme was mapped to a different ASCII character. To produce speech, a program would write ASCII phoneme codes to that portion of the screen, bracketing them with question marks. The synthesizer would read the characters and speak the phonemes in sequence. For example, the word 'compute' could be spoken with: `PRINT@992,"?K6MPY(UT?";` The mapping of phonemes to arbitrary ASCII characters was cryptic — '6' represented the UH1 sound, '$' was TH, '+' was NG — making speech programming feel like a secret code.
+
+The unit could produce 60 distinct phonemes and had no text-to-speech capability — every word had to be manually decomposed into phoneme codes by the programmer. Radio Shack sold exactly one dedicated software title (Talking Eliza, catalog number 26-1908), and a handful of third-party programs supported it including Fantastic Software's *Hyperlight Patrol*. The device was discontinued in 1983 with no Model III version ever produced.
+
+### Deep dive
+
+* **Origins and Technology.** The TRS-80 Voice Synthesizer was built around the Votrax VSL (Voice Synthesis Library) module — a potted epoxy brick containing the Votrax SC-01-A phoneme synthesis chip. Votrax, based in Troy, Michigan, had developed the SC-01 in collaboration with the U.S. Naval Research Laboratory's text-to-phoneme algorithm from 1973. The SC-01-A provided 60 phonemes at two pitch levels each, with programmable inflection. The VSL module was the same core technology used in other Votrax products of the era including the Type-N-Talk standalone TTS unit.
+
+Radio Shack's implementation was distinctive. Rather than providing a serial or parallel interface with a command set, they mapped the synthesizer directly onto the TRS-80's video memory. The synthesizer monitored 32 bytes of screen memory (addresses 3E0h–3FFh, which corresponded to the right half of the bottom line in the 64×16 text display). Any ASCII characters between question marks ('?') in that region would be spoken as phonemes. This design eliminated the need for I/O port addressing or interrupt handling, making it trivially accessible from BASIC with simple PRINT@ statements.
+
+References: Matthew Reed, trs-80.org; BYTE Magazine October 1979: 'The TRS-80 Speaks' by Tim Gargagliano and Kathryn Fons.
+* **The Video-Memory Interface.** The video-memory interface was the synthesizer's defining peculiarity. In the TRS-80 Model I, the video display was memory-mapped at addresses 3C00h–3FFFh (1KB of video RAM). The Voice Synthesizer connected directly to the expansion bus and monitored the last 32 bytes (3E0h–3FFh), which displayed as characters 32–63 on the bottom line of the screen.
+
+To speak, a program would:
+1. Write a '?' character to the monitored region to signal the start of a phoneme string
+2. Write ASCII characters representing phonemes (using the mapping table)
+3. Write a closing '?' to signal the end of the utterance
+
+The synthesizer would immediately begin speaking the phoneme sequence. The user could literally *see* the phoneme codes on the screen as the voice spoke them — a visible trace of synthetic speech. This created a unique feedback loop: the programmer debugged speech by watching the screen, not by listening alone.
+
+The phoneme-to-ASCII mapping was arbitrary and non-intuitive. For instance: A = short A (as in 'bat'), E = long E ('beet'), O = long O ('boat'), U = OO ('boot'), but 6 = UH1 ('but'), $ = TH ('the'), + = NG ('sing'), & = ZH ('measure'). Learning this vocabulary was essential to programming speech — there was no abstraction layer, no text-to-speech engine, just raw phoneme codes.
+* **Commercial Life and Legacy.** The TRS-80 Voice Synthesizer sold for $399.00 — roughly $1,700 in 2025 dollars. It was prominently featured in Radio Shack catalogs from 1979 through 1983 under the headline 'Your TRS-80 Speaks!' The product introduction called it 'a peripheral right out of the next century' and explicitly targeted hobbyist programmers who wanted to add speech to their own software.
+
+Radio Shack sold exactly one dedicated software title: Talking Eliza (catalog number 26-1908), a voice-output version of the classic ELIZA chatbot. A handful of third-party programs supported it, including Fantastic Software's *Hyperlight Patrol* (a speech-enhanced arcade game) and Lance Micklus's *Trek III.4*. However, the unit never achieved mass adoption — the requirement to manually encode every spoken word as phonemes was a significant barrier to casual use.
+
+The unit was discontinued in 1983 as Radio Shack transitioned to the TRS-80 Model III, for which no voice synthesizer was ever produced (the Model III used a different expansion bus). The Votrax SC-01-A chip lived on in many other products through the 1980s, including the Votrax Type-N-Talk, the Echo II speech card for Apple II, and various accessibility devices.
+
+References: Matthew Reed, trs-80.org; Radio Shack catalog listings; VCFED forum discussions; Ken Gregg's phoneme table research.
+
+### Team
+
+* **Radio Shack / Tandy Corporation.** Manufacturer and retailer, Fort Worth, Texas
+* **Votrax International, Inc..** Supplier of the VSL phoneme module and SC-01-A speech chip, Troy, Michigan
+* **Richard T. Gagnon.** Original Votrax speech synthesis designer; developed NRL text-to-phoneme algorithm
+* **Tim Gargagliano and Kathryn Fons.** Authored BYTE Magazine article 'The TRS-80 Speaks' (October 1979) documenting the unit
+
+### Media
+
+![TRS-80 Voice Synthesizer peripheral from 1981 Radio Shack catalog](../assets/wiki/trs80-voice-synthesizer.jpg)
+*TRS-80 Voice Synthesizer as shown in a 1981 Radio Shack catalog. The beige box plugged directly into the Model I expansion port. Source: trs-80.org (Matthew Reed).*
+
+### Sources
+
+1. Matthew Reed, 'The TRS-80 Voice Synthesizer' (trs-80.org) — http://www.trs-80.org/trs-80-voice-synthesizer.html
+2. BYTE Magazine, October 1979: 'The TRS-80 Speaks' by Tim Gargagliano and Kathryn Fons — https://archive.org/details/byte-magazine-1979-10/page/n109/mode/2up
+3. Wikipedia: Votrax — https://en.wikipedia.org/wiki/Votrax
+4. Votrax SC-01 Phoneme Speech Synthesizer Data Sheet (1980) — https://cdn.hackaday.io/files/1710357317561440/Votrax_SC-01_Phoneme_Speech_Synthesizer_Data_Sheet_1980.pdf
+5. VCFED forum: TRS Voice Synthesizer discussion with phoneme mapping details — https://forum.vcfed.org/index.php?threads/trs-voice-synthesizer-which-speech-chip-and-link-to-manual.75197/

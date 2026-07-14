@@ -1,0 +1,80 @@
+{
+  "slug": "trs80-voice-synthesizer",
+  "title": "TRS-80 Voice Synthesizer",
+  "year": "1979",
+  "subtitle": "The speech synthesizer you programmed by writing to the screen",
+  "why_scout_cares": "A speech synthesis peripheral with a genuinely bizarre interaction model: you made it talk by writing ASCII-encoded phoneme codes to video memory. The synthesizer read the right half of the bottom screen line and spoke whatever phoneme string it found there. You didn't send it text — you wrote cryptic character sequences like '?K6MPY(UT?' directly onto the display, and the machine would read them back as speech. The mapping of phonemes to arbitrary ASCII characters (6=UH1, $=TH, +=NG) was like a secret language. This was phoneme-to-speech via screen memory — there was no text-to-speech algorithm at all. Built around the Votrax SC-01-A chip inside a potted epoxy module. $399 in 1979, discontinued 1983.",
+  "search_terms": ["TRS-80 Voice Synthesizer", "26-1180", "Votrax SC-01", "Radio Shack speech synthesizer 1979"],
+  "research": {
+    "title": "TRS-80 Voice Synthesizer",
+    "year": "1979",
+    "by": "Radio Shack / Tandy Corporation",
+    "tags": ["HCI", "Speech Synthesis", "TRS-80", "Accessibility", "Peripheral"],
+    "overview": "The TRS-80 Voice Synthesizer (catalog number 26-1180) was a speech synthesis peripheral sold by Radio Shack for the TRS-80 Model I computer. Introduced in 1979 at $399, it was built around the Votrax VSL phoneme module — a potted epoxy block containing the Votrax SC-01-A phoneme synthesis chip. The unit plugged directly into the Model I expansion port and worked with both Level I and Level II BASIC systems.\n\nThe device's interaction model was extraordinary: it 'paralleled' 32 bytes of video memory corresponding to the right half of the bottom screen line. Each phoneme was mapped to a different ASCII character. To produce speech, a program would write ASCII phoneme codes to that portion of the screen, bracketing them with question marks. The synthesizer would read the characters and speak the phonemes in sequence. For example, the word 'compute' could be spoken with: `PRINT@992,\"?K6MPY(UT?\";` The mapping of phonemes to arbitrary ASCII characters was cryptic — '6' represented the UH1 sound, '$' was TH, '+' was NG — making speech programming feel like a secret code.\n\nThe unit could produce 60 distinct phonemes and had no text-to-speech capability — every word had to be manually decomposed into phoneme codes by the programmer. Radio Shack sold exactly one dedicated software title (Talking Eliza, catalog number 26-1908), and a handful of third-party programs supported it including Fantastic Software's *Hyperlight Patrol*. The device was discontinued in 1983 with no Model III version ever produced.",
+    "deepDive": [
+      {
+        "heading": "Origins and Technology",
+        "text": "The TRS-80 Voice Synthesizer was built around the Votrax VSL (Voice Synthesis Library) module — a potted epoxy brick containing the Votrax SC-01-A phoneme synthesis chip. Votrax, based in Troy, Michigan, had developed the SC-01 in collaboration with the U.S. Naval Research Laboratory's text-to-phoneme algorithm from 1973. The SC-01-A provided 60 phonemes at two pitch levels each, with programmable inflection. The VSL module was the same core technology used in other Votrax products of the era including the Type-N-Talk standalone TTS unit.\n\nRadio Shack's implementation was distinctive. Rather than providing a serial or parallel interface with a command set, they mapped the synthesizer directly onto the TRS-80's video memory. The synthesizer monitored 32 bytes of screen memory (addresses 3E0h–3FFh, which corresponded to the right half of the bottom line in the 64×16 text display). Any ASCII characters between question marks ('?') in that region would be spoken as phonemes. This design eliminated the need for I/O port addressing or interrupt handling, making it trivially accessible from BASIC with simple PRINT@ statements.\n\nReferences: Matthew Reed, trs-80.org; BYTE Magazine October 1979: 'The TRS-80 Speaks' by Tim Gargagliano and Kathryn Fons."
+      },
+      {
+        "heading": "The Video-Memory Interface",
+        "text": "The video-memory interface was the synthesizer's defining peculiarity. In the TRS-80 Model I, the video display was memory-mapped at addresses 3C00h–3FFFh (1KB of video RAM). The Voice Synthesizer connected directly to the expansion bus and monitored the last 32 bytes (3E0h–3FFh), which displayed as characters 32–63 on the bottom line of the screen.\n\nTo speak, a program would:\n1. Write a '?' character to the monitored region to signal the start of a phoneme string\n2. Write ASCII characters representing phonemes (using the mapping table)\n3. Write a closing '?' to signal the end of the utterance\n\nThe synthesizer would immediately begin speaking the phoneme sequence. The user could literally *see* the phoneme codes on the screen as the voice spoke them — a visible trace of synthetic speech. This created a unique feedback loop: the programmer debugged speech by watching the screen, not by listening alone.\n\nThe phoneme-to-ASCII mapping was arbitrary and non-intuitive. For instance: A = short A (as in 'bat'), E = long E ('beet'), O = long O ('boat'), U = OO ('boot'), but 6 = UH1 ('but'), $ = TH ('the'), + = NG ('sing'), & = ZH ('measure'). Learning this vocabulary was essential to programming speech — there was no abstraction layer, no text-to-speech engine, just raw phoneme codes."
+      },
+      {
+        "heading": "Commercial Life and Legacy",
+        "text": "The TRS-80 Voice Synthesizer sold for $399.00 — roughly $1,700 in 2025 dollars. It was prominently featured in Radio Shack catalogs from 1979 through 1983 under the headline 'Your TRS-80 Speaks!' The product introduction called it 'a peripheral right out of the next century' and explicitly targeted hobbyist programmers who wanted to add speech to their own software.\n\nRadio Shack sold exactly one dedicated software title: Talking Eliza (catalog number 26-1908), a voice-output version of the classic ELIZA chatbot. A handful of third-party programs supported it, including Fantastic Software's *Hyperlight Patrol* (a speech-enhanced arcade game) and Lance Micklus's *Trek III.4*. However, the unit never achieved mass adoption — the requirement to manually encode every spoken word as phonemes was a significant barrier to casual use.\n\nThe unit was discontinued in 1983 as Radio Shack transitioned to the TRS-80 Model III, for which no voice synthesizer was ever produced (the Model III used a different expansion bus). The Votrax SC-01-A chip lived on in many other products through the 1980s, including the Votrax Type-N-Talk, the Echo II speech card for Apple II, and various accessibility devices.\n\nReferences: Matthew Reed, trs-80.org; Radio Shack catalog listings; VCFED forum discussions; Ken Gregg's phoneme table research."
+      }
+    ],
+    "team": [
+      {
+        "name": "Radio Shack / Tandy Corporation",
+        "note": "Manufacturer and retailer, Fort Worth, Texas"
+      },
+      {
+        "name": "Votrax International, Inc.",
+        "note": "Supplier of the VSL phoneme module and SC-01-A speech chip, Troy, Michigan"
+      },
+      {
+        "name": "Richard T. Gagnon",
+        "note": "Original Votrax speech synthesis designer; developed NRL text-to-phoneme algorithm"
+      },
+      {
+        "name": "Tim Gargagliano and Kathryn Fons",
+        "note": "Authored BYTE Magazine article 'The TRS-80 Speaks' (October 1979) documenting the unit"
+      }
+    ],
+    "media": [
+      {
+        "src": "http://www.trs-80.org/img/trs80voice.jpg",
+        "alt": "TRS-80 Voice Synthesizer peripheral from 1981 Radio Shack catalog",
+        "caption": "TRS-80 Voice Synthesizer as shown in a 1981 Radio Shack catalog. The beige box plugged directly into the Model I expansion port. Source: trs-80.org (Matthew Reed)."
+      }
+    ],
+    "sources": [
+      {
+        "text": "Matthew Reed, 'The TRS-80 Voice Synthesizer' (trs-80.org)",
+        "url": "http://www.trs-80.org/trs-80-voice-synthesizer.html"
+      },
+      {
+        "text": "BYTE Magazine, October 1979: 'The TRS-80 Speaks' by Tim Gargagliano and Kathryn Fons",
+        "url": "https://archive.org/details/byte-magazine-1979-10/page/n109/mode/2up"
+      },
+      {
+        "text": "Wikipedia: Votrax",
+        "url": "https://en.wikipedia.org/wiki/Votrax"
+      },
+      {
+        "text": "Votrax SC-01 Phoneme Speech Synthesizer Data Sheet (1980)",
+        "url": "https://cdn.hackaday.io/files/1710357317561440/Votrax_SC-01_Phoneme_Speech_Synthesizer_Data_Sheet_1980.pdf"
+      },
+      {
+        "text": "VCFED forum: TRS Voice Synthesizer discussion with phoneme mapping details",
+        "url": "https://forum.vcfed.org/index.php?threads/trs-voice-synthesizer-which-speech-chip-and-link-to-manual.75197/"
+      }
+    ],
+    "imageUrls": [
+      "http://www.trs-80.org/img/trs80voice.jpg"
+    ]
+  },
+  "savedImages": []
+}

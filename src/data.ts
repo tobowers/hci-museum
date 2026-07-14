@@ -1299,6 +1299,30 @@ const exhibitData: Exhibit[] = [
     tags: ["Touch", "Speech Recognition", "Children's Computing", "AI", "Home Computer"],
     image: img("sega-ai-computer-unit.jpg"),
   },
+  {
+    id: "ibutton",
+    slug: "ibutton",
+    wikiTitle: "Dallas Semiconductor iButton",
+    year: "1990",
+    sortYear: 1990,
+    title: "Dallas Semiconductor iButton",
+    subtitle: "A 16mm steel can that turned touch into digital identity",
+    blurb: "A microchip in a 16mm stainless steel can — shaped like a watch battery — that contained a unique, factory-lasered 64-bit serial number. To identify yourself to a computer, you pressed the button against a reader. Touch = identity. Invented by Dallas Semiconductor in 1990, the iButton used the 1-Wire protocol (data and power over a single conductor) and spawned an ecosystem of memory, clock, temperature, and cryptographic variants. Used as electronic keys, time clock tokens, Istanbul's Akbil transit smart ticket, and eventually the Java Ring (1998) — a finger-worn iButton with a full Java virtual machine.",
+    tags: ["Tangible", "Identity", "Token", "Touch", "Ubiquitous Computing"],
+    image: img("ibutton-token.jpg"),
+  },
+  {
+    id: "trs80-voice-synthesizer",
+    slug: "trs80-voice-synthesizer",
+    wikiTitle: "TRS-80 Voice Synthesizer",
+    year: "1979",
+    sortYear: 1979,
+    title: "TRS-80 Voice Synthesizer",
+    subtitle: "The speech synthesizer you programmed by writing to the screen",
+    blurb: "A speech synthesis peripheral for the TRS-80 Model I that worked through the strangest interface imaginable: it read phoneme codes directly from video memory. To make it speak, you wrote ASCII phoneme strings like '?K6MPY(UT?' to the right half of the bottom screen line — the synthesizer would read them and produce speech. Each of the 60 phonemes was mapped to an arbitrary ASCII character (6=UH1, $=TH, +=NG), turning speech programming into a secret code. Built around the Votrax SC-01-A chip. Sold for $399 in 1979 by Radio Shack; discontinued in 1983. There was no text-to-speech engine — every word had to be manually decomposed into phonemes.",
+    tags: ["Speech Synthesis", "TRS-80", "Peripheral", "Accessibility"],
+    image: img("trs80-voice-synthesizer.jpg"),
+  },
 ];
 
 export const exhibits: Exhibit[] = exhibitData.toSorted((a, b) => b.sortYear - a.sortYear || a.title.localeCompare(b.title));
