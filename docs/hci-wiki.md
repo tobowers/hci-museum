@@ -1,6 +1,6 @@
 # The HCI Golden Age Wiki
 
-A research compendium for a digital museum of cutting-edge Human-Computer Interaction from the late 1970s through the early 1990s. These one hundred and seven projects mix canonical experiments with weird, forgotten, and beautiful vaporware — brain control, voice control, gesture, wearable computing, VR, robots, and full-body exertion.
+A research compendium for a digital museum of cutting-edge Human-Computer Interaction from the late 1970s through the early 1990s. These one hundred and eight projects mix canonical experiments with weird, forgotten, and beautiful vaporware — brain control, voice control, gesture, wearable computing, VR, robots, and full-body exertion.
 
 Each entry includes an overview, a deep dive, a small media gallery, and full source links so the images and facts can always be traced back.
 
@@ -111,6 +111,7 @@ Each entry includes an overview, a deep dive, a small media gallery, and full so
 102. [Sega AI Computer (1986)](#sega-ai-computer-1986)
 103. [Dallas Semiconductor iButton (1990)](#dallas-semiconductor-ibutton-1990)
 104. [TRS-80 Voice Synthesizer (1979)](#trs-80-voice-synthesizer-1979)
+105. [Stompin' (1986)](#stompin-1986)
 
 ---
 
@@ -5415,3 +5416,51 @@ References: Matthew Reed, trs-80.org; Radio Shack catalog listings; VCFED forum 
 3. Wikipedia: Votrax — https://en.wikipedia.org/wiki/Votrax
 4. Votrax SC-01 Phoneme Speech Synthesizer Data Sheet (1980) — https://cdn.hackaday.io/files/1710357317561440/Votrax_SC-01_Phoneme_Speech_Synthesizer_Data_Sheet_1980.pdf
 5. VCFED forum: TRS Voice Synthesizer discussion with phoneme mapping details — https://forum.vcfed.org/index.php?threads/trs-voice-synthesizer-which-speech-chip-and-link-to-manual.75197/
+
+---
+
+## Stompin' (1986)
+
+**By:** Bally Sente, Inc. (Jon Kinsting, Roger Hector, Nolan Bushnell, Howard Delman, Edward Rotberg)  
+**Tags:** `HCI` `Input` `Arcade` `Foot Controller` `Exergaming` `Floor Interface`
+
+### Overview
+
+Stompin' was a 1986 arcade video game by Bally Sente, Inc. that introduced the first foot-operated grid controller in arcade history. Players stood on a 3×3 matrix of weight-sensitive pads embedded in a floor platform and stomped to squash on-screen bugs, mice, frogs, and fish. Each pad used parallel membrane switches that closed under body weight, read by a 9-bit shift register at the game's M6809 CPU. A ring of 24 individually-addressable LED light segments surrounded the pads, controlled by a second shift register — lighting up around the player's feet during play. The cabinet included a handlebar so players could steady themselves during rapid foot movement. Bally Sente coined the term 'floorplay' to describe this new interaction category. The patent (US 4,720,789, filed 1985) named Nolan K. Bushnell as a co-inventor alongside Roger Hector, Howard Delman, Edward Rotberg, and Jon Kinsting. The patent explicitly described the system as a dual-purpose video game AND exercise apparatus, anticipating the exergaming paradigm by decades. Only 2 dedicated cabinets are known to survive today, but the interaction model it pioneered — a foot-operated grid with real-time position sensing and visual feedback — directly anticipates Dance Dance Revolution (1998) and the entire rhythm-game genre.
+
+### Deep dive
+
+* **Origins.** Bally Sente was founded in 1984 as a subsidiary of Bally Manufacturing, created specifically to develop arcade games using swappable cartridge-based hardware (the SAC-I system). The company was led by Nolan Bushnell's former colleagues from Atari and Chuck E. Cheese. Stompin' was first shown at the AMOA (Amusement & Music Operators Association) show in fall 1985, with an improved model appearing at the ACME (American Coin Machine Exposition) show in March 1986. The concept was branded as 'floorplay' — Bally's term for foot-operated game interfaces.
+* **How It Worked.** The floor controller consisted of nine weight-sensitive pads arranged in a 3×3 matrix. Each pad was supported on a base by resilient foam and activated one of three parallel membrane switches when the player stepped on it, sending a signal to a 9-bit shift register in the game's input interface circuit. The CPU (Motorola 6809 at 1.25 MHz) periodically read this shift register to determine which pads had weight on them. Simultaneously, the CPU wrote to a 24-bit shift register controlling 24 LED light segments arranged in rings around each pad, providing real-time visual feedback at the player's feet. The game unit was a standard Bally Sente SAC-I cabinet with a CRT display, augmented by the floor platform and a handlebar for player stability during rapid stomping.
+* **The 'Floorplay' Concept and Patent.** US Patent 4,720,789 ('Video exercise or game floor controller with position indicating foot pads') was filed October 31, 1985 and granted January 19, 1988. The inventors listed are Roger D. Hector, Nolan K. Bushnell, Howard Delman, Edward Rotberg, and Jon Kinsting. The patent is remarkably forward-looking: it describes not just a game, but an exercise system where 'the processor can be programmed to provide a specific exercise program wherein the video display provides direction for the placement of the operator's feet on the floor controller and the location signals are used by the processor as a measure of success of the operator in following the exercise program.' It even suggests a simplified 3-pad version 'that can be used in an in-place jogging exercise program.'
+* **Legacy.** Stompin' was not a commercial success — the Bally Sente division struggled and was eventually closed. But its core interaction concept — a matrix of foot-operated pads mapped to screen positions with real-time feedback — is the direct ancestor of every dance pad and foot-operated rhythm game controller. Dance Dance Revolution, released by Konami in 1998, used a nearly identical 3×3 pad layout (up/down/left/right arrows). The patent's dual framing as game and exercise apparatus also prefigures the entire exergaming category, from Wii Fit to Ring Fit Adventure. Stompin' is a case study in how a commercial failure can contain a genuinely novel interaction paradigm that takes a decade to find its audience.
+
+### Team
+
+* **Jon Kinsting.** Original concept and programming
+* **Roger D. Hector.** Screen graphics; co-inventor on patent
+* **Nolan K. Bushnell.** Co-inventor on patent; Atari and Chuck E. Cheese founder
+* **Howard Delman.** Co-inventor on patent
+* **Edward Rotberg.** Co-inventor on patent
+* **Bil Maher.** Screen graphics
+* **Gary Johnson.** Screen graphics
+* **Bob Flemate.** Cabinet graphics
+* **Jesse Osborne.** Music and sounds
+* **Owen Rubin.** Technical advisor
+
+### Media
+
+![Patent drawing of Stompin' arcade cabinet with floor controller](../assets/wiki/stompin-patent-fig1.png)
+*US Patent 4,720,789 Figure 1: A perspective view of the video game unit with floor controller, showing the 3×3 pad matrix, CRT display, handlebar, and cabinet housing. (Public domain patent drawing, 1988.)*
+
+![Stompin' arcade promotional flyer, 1986](../assets/wiki/stompin-flyer.jpg)
+*Bally Sente promotional flyer for Stompin', 1986. The flyer depicts a player stomping on the floor pads while the 'SPLAT' display appears on screen. Source: The Arcade Flyer Archive (TAFA), International Arcade Museum.*
+
+### Sources
+
+1. US Patent 4,720,789 — Video exercise or game floor controller with position indicating foot pads (Bushnell, Hector, Delman, Rotberg, Kinsting) — https://patents.google.com/patent/US4720789A/en
+2. Museum of the Game (KLOV) — Stompin' arcade game entry — https://www.arcade-museum.com/Videogame/stompin
+3. Arcade History — Stompin' game database entry (includes team credits) — https://www.arcade-history.com/game/2635/stompin-model-0e38
+4. Arcade Game Manual: Stompin' (22 pages, Internet Archive) — https://archive.org/details/ArcadeGameManualStompin
+5. The Arcade Flyer Archive — Stompin' promotional flyer, 1986 — https://flyers.arcade-museum.com/videogames/show/1032
+6. StrategyWiki — Stompin' — https://strategywiki.org/wiki/Stompin%27

@@ -1323,6 +1323,18 @@ const exhibitData: Exhibit[] = [
     tags: ["Speech Synthesis", "TRS-80", "Peripheral", "Accessibility"],
     image: img("trs80-voice-synthesizer.jpg"),
   },
+  {
+    id: "stompin",
+    slug: "stompin",
+    wikiTitle: "Stompin'",
+    year: "1986",
+    sortYear: 1986,
+    title: "Stompin'",
+    subtitle: "The arcade game you play with your feet — Bushnell's 'floorplay' controller that invented the dance pad",
+    blurb: "A 1986 arcade game by Bally Sente that introduced the first foot-operated grid controller in arcade history — a 3×3 matrix of weight-sensitive pads embedded in a floor platform, each surrounded by individually-addressable LED light segments. To play, you stomped on bugs and mice by placing your feet on the corresponding pads while a Motorola 6809 CPU read a 9-bit shift register to determine your foot position and controlled 24 LED segments through a second shift register. Bally Sente coined the term 'floorplay' for this new interaction category. The patent (US 4,720,789) named Nolan K. Bushnell as co-inventor and explicitly described the system as both a video game and exercise apparatus — anticipating exergaming by decades. This is the direct ancestor of Dance Dance Revolution and every foot-operated rhythm game that followed.",
+    tags: ["Arcade", "Foot Controller", "Exergaming", "Floor Interface", "Input"],
+    image: img("stompin-patent-fig1.png"),
+  },
 ];
 
 export const exhibits: Exhibit[] = exhibitData.toSorted((a, b) => b.sortYear - a.sortYear || a.title.localeCompare(b.title));
