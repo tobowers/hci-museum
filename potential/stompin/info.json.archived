@@ -1,0 +1,80 @@
+{
+  "slug": "stompin",
+  "title": "Stompin'",
+  "year": "1986",
+  "subtitle": "The arcade game you play with your feet — Nolan Bushnell's 'floorplay' controller that invented the dance pad, nine years before DDR",
+  "why_scout_cares": "This is the origin point of the entire foot-operated dance pad / stomp pad interaction paradigm. Bally Sente's 3×3 grid of weight-sensitive pads — each surrounded by processor-controlled LED light segments — transformed foot placement into video game input for the first time in arcades. Nolan Bushnell named as co-inventor on the patent. The patent text explicitly frames it as both a video game AND an exercise apparatus, showing the dual-use intent that would later define exergaming. The game used a M6809 CPU reading a 9-bit shift register from the floor pads while controlling 24 LED segments through a second shift register — a real-time bidirectional physical interface. Bally Sente coined the term 'floorplay' to describe the concept. This is the direct ancestor of Dance Dance Revolution (1998) and every foot-operated rhythm game that followed.",
+  "search_terms": ["Bally Sente Stompin arcade foot controller", "floor controller video game patent Nolan Bushnell", "stompin arcade game 1986"],
+  "research": {
+    "title": "Stompin'",
+    "year": "1986",
+    "by": "Bally Sente, Inc. (Jon Kinsting, Roger Hector, Nolan Bushnell, Howard Delman, Edward Rotberg)",
+    "tags": ["HCI", "Input", "Arcade", "Foot Controller", "Exergaming", "Floor Interface"],
+    "overview": "Stompin' was a 1986 arcade video game by Bally Sente, Inc. that introduced the first foot-operated grid controller in arcade history. Players stood on a 3×3 matrix of weight-sensitive pads embedded in a floor platform and stomped to squash on-screen bugs, mice, frogs, and fish. Each pad used parallel membrane switches that closed under body weight, read by a 9-bit shift register at the game's M6809 CPU. A ring of 24 individually-addressable LED light segments surrounded the pads, controlled by a second shift register — lighting up around the player's feet during play. The cabinet included a handlebar so players could steady themselves during rapid foot movement. Bally Sente coined the term 'floorplay' to describe this new interaction category. The patent (US 4,720,789, filed 1985) named Nolan K. Bushnell as a co-inventor alongside Roger Hector, Howard Delman, Edward Rotberg, and Jon Kinsting. The patent explicitly described the system as a dual-purpose video game AND exercise apparatus, anticipating the exergaming paradigm by decades. Only 2 dedicated cabinets are known to survive today, but the interaction model it pioneered — a foot-operated grid with real-time position sensing and visual feedback — directly anticipates Dance Dance Revolution (1998) and the entire rhythm-game genre.",
+    "deepDive": [
+      {
+        "heading": "Origins",
+        "text": "Bally Sente was founded in 1984 as a subsidiary of Bally Manufacturing, created specifically to develop arcade games using swappable cartridge-based hardware (the SAC-I system). The company was led by Nolan Bushnell's former colleagues from Atari and Chuck E. Cheese. Stompin' was first shown at the AMOA (Amusement & Music Operators Association) show in fall 1985, with an improved model appearing at the ACME (American Coin Machine Exposition) show in March 1986. The concept was branded as 'floorplay' — Bally's term for foot-operated game interfaces."
+      },
+      {
+        "heading": "How It Worked",
+        "text": "The floor controller consisted of nine weight-sensitive pads arranged in a 3×3 matrix. Each pad was supported on a base by resilient foam and activated one of three parallel membrane switches when the player stepped on it, sending a signal to a 9-bit shift register in the game's input interface circuit. The CPU (Motorola 6809 at 1.25 MHz) periodically read this shift register to determine which pads had weight on them. Simultaneously, the CPU wrote to a 24-bit shift register controlling 24 LED light segments arranged in rings around each pad, providing real-time visual feedback at the player's feet. The game unit was a standard Bally Sente SAC-I cabinet with a CRT display, augmented by the floor platform and a handlebar for player stability during rapid stomping."
+      },
+      {
+        "heading": "The 'Floorplay' Concept and Patent",
+        "text": "US Patent 4,720,789 ('Video exercise or game floor controller with position indicating foot pads') was filed October 31, 1985 and granted January 19, 1988. The inventors listed are Roger D. Hector, Nolan K. Bushnell, Howard Delman, Edward Rotberg, and Jon Kinsting. The patent is remarkably forward-looking: it describes not just a game, but an exercise system where 'the processor can be programmed to provide a specific exercise program wherein the video display provides direction for the placement of the operator's feet on the floor controller and the location signals are used by the processor as a measure of success of the operator in following the exercise program.' It even suggests a simplified 3-pad version 'that can be used in an in-place jogging exercise program.'"
+      },
+      {
+        "heading": "Legacy",
+        "text": "Stompin' was not a commercial success — the Bally Sente division struggled and was eventually closed. But its core interaction concept — a matrix of foot-operated pads mapped to screen positions with real-time feedback — is the direct ancestor of every dance pad and foot-operated rhythm game controller. Dance Dance Revolution, released by Konami in 1998, used a nearly identical 3×3 pad layout (up/down/left/right arrows). The patent's dual framing as game and exercise apparatus also prefigures the entire exergaming category, from Wii Fit to Ring Fit Adventure. Stompin' is a case study in how a commercial failure can contain a genuinely novel interaction paradigm that takes a decade to find its audience."
+      }
+    ],
+    "team": [
+      {"name": "Jon Kinsting", "note": "Original concept and programming"},
+      {"name": "Roger D. Hector", "note": "Screen graphics; co-inventor on patent"},
+      {"name": "Nolan K. Bushnell", "note": "Co-inventor on patent; Atari and Chuck E. Cheese founder"},
+      {"name": "Howard Delman", "note": "Co-inventor on patent"},
+      {"name": "Edward Rotberg", "note": "Co-inventor on patent"},
+      {"name": "Bil Maher", "note": "Screen graphics"},
+      {"name": "Gary Johnson", "note": "Screen graphics"},
+      {"name": "Bob Flemate", "note": "Cabinet graphics"},
+      {"name": "Jesse Osborne", "note": "Music and sounds"},
+      {"name": "Owen Rubin", "note": "Technical advisor"}
+    ],
+    "media": [
+      {
+        "src": "https://patentimages.storage.googleapis.com/pages/US4720789-1.png",
+        "alt": "Patent drawing of Stompin' arcade cabinet with floor controller",
+        "caption": "US Patent 4,720,789 Figure 1: A perspective view of the video game unit with floor controller, showing the 3×3 pad matrix, CRT display, handlebar, and cabinet housing. (Public domain patent drawing, 1988.)"
+      },
+      {
+        "src": "https://flyers.arcade-museum.com/videogame-flyers/1/stompin-01032-01.jpg",
+        "alt": "Stompin' arcade promotional flyer, 1986",
+        "caption": "Bally Sente promotional flyer for Stompin', 1986. The flyer depicts a player stomping on the floor pads while the 'SPLAT' display appears on screen. Source: The Arcade Flyer Archive (TAFA), International Arcade Museum."
+      },
+      {
+        "src": "https://patentimages.storage.googleapis.com/pages/US4720789-3.png",
+        "alt": "Patent schematic diagram of Stompin' input interface circuit",
+        "caption": "US Patent 4,720,789 Figure 3: Schematic diagram of the input interface circuit showing the 9-bit shift register for pad switches, the 24-bit shift register for LED segments, and connections to the CPU. (Public domain patent drawing, 1988.)"
+      }
+    ],
+    "sources": [
+      {"text": "US Patent 4,720,789 — Video exercise or game floor controller with position indicating foot pads (Bushnell, Hector, Delman, Rotberg, Kinsting)", "url": "https://patents.google.com/patent/US4720789A/en"},
+      {"text": "Museum of the Game (KLOV) — Stompin' arcade game entry", "url": "https://www.arcade-museum.com/Videogame/stompin"},
+      {"text": "Arcade History — Stompin' game database entry (includes team credits)", "url": "https://www.arcade-history.com/game/2635/stompin-model-0e38"},
+      {"text": "Arcade Game Manual: Stompin' (22 pages, Internet Archive)", "url": "https://archive.org/details/ArcadeGameManualStompin"},
+      {"text": "The Arcade Flyer Archive — Stompin' promotional flyer, 1986", "url": "https://flyers.arcade-museum.com/videogames/show/1032"},
+      {"text": "StrategyWiki — Stompin'", "url": "https://strategywiki.org/wiki/Stompin%27"}
+    ],
+    "imageUrls": [
+      "https://patentimages.storage.googleapis.com/pages/US4720789-1.png",
+      "https://patentimages.storage.googleapis.com/pages/US4720789-3.png",
+      "https://flyers.arcade-museum.com/videogame-flyers/1/stompin-01032-01.jpg"
+    ]
+  },
+  "savedImages": [
+    "images/patent-page-1.png",
+    "images/patent-page-3.png",
+    "images/flyer.jpg"
+  ]
+}
