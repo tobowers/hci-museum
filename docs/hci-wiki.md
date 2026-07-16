@@ -112,6 +112,9 @@ Each entry includes an overview, a deep dive, a small media gallery, and full so
 103. [Dallas Semiconductor iButton (1990)](#dallas-semiconductor-ibutton-1990)
 104. [TRS-80 Voice Synthesizer (1979)](#trs-80-voice-synthesizer-1979)
 105. [Stompin' (1986)](#stompin-1986)
+106. [Flute Playing Machine (1979–1982)](#flute-playing-machine-19791982)
+107. [Johns Hopkins Serial Code Keyboard (1983)](#johns-hopkins-serial-code-keyboard-1983)
+108. [Mouse Systems Optical Mouse (1982)](#mouse-systems-optical-mouse-1982)
 
 ---
 
@@ -5602,3 +5605,50 @@ The performance 'Song for the Living / Dance for the Dead' was inspired by a Min
 1. Columbia University — Song for the Living / Dance for the Dead performance documentation — https://sites.music.columbia.edu/fest99/events/all_round.html
 2. Pinkston, Kerkhoff & McQuilken — 'A touch sensitive dance floor/MIDI controller,' J. Acoust. Soc. Am. 88, S190 (1990) — https://doi.org/10.1121/1.410820
 3. Pinkston — A touch sensitive dance floor/MIDI controller, JASA 96(5), 3302 (1994) — https://doi.org/10.1121/1.410820
+
+---
+
+## Mouse Systems Optical Mouse (1982)
+
+**By:** Mouse Systems Corporation (founded as Rodent Associates), Fremont, California — Steve Kirsch  
+**Tags:** `HCI` `Input` `Pointing` `Optical` `Mouse` `IBM PC`
+
+### Overview
+
+The Mouse Systems optical mouse was the first commercially successful optical mouse and the first mouse for the IBM PC. Designed by Steve Kirsch while at MIT and manufactured by Mouse Systems Corporation (originally Rodent Associates) in Fremont, California, it debuted at Mini/Micro '82 in Anaheim where it won 'best new product.' The mouse relied on a special reflective aluminum mousepad printed with an orthogonal grid of colored lines (typically grey and blue, or red and green in later versions). Two LEDs (infrared and red) pulsed light through the bottom of the mouse onto the pad. The reflected light passed through a spherical lens, bounced off a mirror on the top lid, and struck four-quadrant photodetector sensors. A custom VLSI ASIC decoded the pulse train into X/Y quadrature data sent at 1200 baud over RS-232. Without the pad, the mouse was nonfunctional — the pad was not an accessory but an integral component of the sensing system.
+
+Different models used different grid densities: the M4 ('type 4') used ~60 lines/inch (200 CPI) with steel-blue pads, while the M5 ('type 5') used ~85 lines/inch (300 CPI) with darker pads. Three buttons. Required +5V power, sometimes drawn parasitically from the RS-232 DTR/DSR pins, sometimes from a dedicated Sun connector. The mouse was bundled as the standard pointing device with Sun workstations for years, OEM'd for Data General, VisiCorp (VisiOn GUI), and others. Mouse Systems was acquired by KYE Systems (Genius brand) in 1990.
+
+### Deep dive
+
+* **Origins.** Steve Kirsch, an MIT student, built the first prototype in December 1980 and filed patent US 4,390,873 ('Cursor control device') that same month. He co-founded Rodent Associates in 1982, which was renamed Mouse Systems Corporation shortly after, based in Fremont, California. The mouse was first publicly demonstrated and shipped in 1982 — the same year that John Markoff's May 1982 InfoWorld articles ('Computer mice are scurrying out of R&D labs' and 'Rodent Associates make computer mice') introduced the concept of a mouse to the PC world. At Mini/Micro '82 in October, the mouse attracted crowds running Missile Command on an Atari 400 and won 'best new product.' By 1984, MSC had acquired PCPaint (née Mouse Draw) from Microtex Industries, developed by Doug Wolfgram and John Bridges, and bundled millions of copies with their mice.
+* **How It Worked — The Pad-Coupled Sensor System.** The interaction model is what makes this mouse museum-worthy. Two LEDs (one IR, one red) are pulsed by a 555 timer at 480 kHz. Light shines through the bottom of the mouse onto the reflective aluminum pad, passes back up through a spherical lens, reflects off a mirror attached to the top lid of the case, and lands on two four-quadrant photodetector sensors — one for each axis. The custom VLSI ASIC compares phase between orthogonal sensor pairs to derive direction of movement. Moving across grid lines generates a pulse train: each line crossing increments or decrements the position counter.
+
+The pad itself is a printed aluminum sheet with a precise orthogonal grid. The lines are printed with infrared-absorbing ink visible only to the IR sensor, while the red sensor reads a different set. Different pad types used different color combinations (grey/blue, red/green, green/black) depending on the model. Pad orientation matters — the grid must align with the sensor axes. The pad was not just a mousing surface; it was the encoding disk of a rotary encoder, unrolled into a flat plane. The entire system — mouse + pad — forms a single optical shaft encoder stretched across two dimensions.
+* **Interaction Model.** The user's interaction space is physically bounded by the pad. You cannot use this mouse on a desk, a book, or your leg — only on the grid. This constraint creates a different psychological relationship with the pointing device: the pad defines the territory of digital interaction. It is visible, tangible, and finite. Modern mice have erased this boundary — they work on almost anything — which makes the user forget that a surface is involved at all. The Mouse Systems mouse made the surface visible, essential, and explicitly part of the interaction.
+
+This is a fundamentally different paradigm from the mechanical ball mouse (Xerox, Microsoft) which tracked relative motion on any surface, and from modern optical mice which image arbitrary surface texture. The Mouse Systems approach treats the mouse and pad as a coupled optical encoder — a single instrument whose halves cannot function independently. The user must maintain the pad, orient it correctly, and stay within its borders. This design choice was not a bug but a trade-off: no moving parts meant no ball to clean, no rollers to gum up, and higher reliability — at the cost of being tethered to a specific physical artifact.
+* **The Xerox PARC Counterpart.** Simultaneously, Richard F. Lyon at Xerox PARC developed a different optical mouse (1980-81) that used on-chip image correlation — a 4×4 pixel sensor with dedicated motion detection logic on a single NMOS chip. Lyon's design compared successive 4×4 binary images at 1-2 kHz using dark-field illumination, anticipating the digital image correlation used by all modern optical mice. His was a research prototype that never shipped commercially; Mouse Systems' was the commercial product. Lyon's 1981 PARC technical report (VLSI-81-1) and 1982 patent (US 4,521,772) document the approach. The Xerox Star 8010 shipped with a mechanical ball mouse instead.
+
+### Team
+
+* **Steve Kirsch.** Founder. MIT alumnus, designed the original optical mouse prototype in 1980, filed patent US 4,390,873. Founded Rodent Associates → Mouse Systems Corporation in 1982.
+* **Mouse Systems Corporation.** Fremont, California company. Manufactured the mouse, developed the custom VLSI ASIC, and bundled PCPaint software. Acquired by KYE Systems (Genius) in 1990.
+
+### Media
+
+![Mouse Systems optical mouse on its metal grid mousepad, branded for Sun Microsystems](assets/wiki/mouse-systems-optical-mouse-1.jpg)
+*A Sun-branded Mouse Systems optical mouse on its reflective aluminum grid mousepad. The pad was not optional — without it, the optical sensor had nothing to track. Source: Wikimedia Commons (CC BY-SA 3.0).*
+
+![Close-up detail of the Mouse Systems mousepad showing the printed orthogonal grid of colored lines](assets/wiki/mouse-systems-optical-mouse-2.jpg)
+*Detail of the Mouse Systems mousepad grid. The orthogonal lines are printed with IR-absorbing ink on metallic substrate. The mouse counted line crossings to determine position — essentially an optical shaft encoder unrolled into a flat plane. Source: Wikimedia Commons (CC BY-SA 3.0).*
+
+### Sources
+
+1. Wikipedia: Mouse Systems — https://en.wikipedia.org/wiki/Mouse_Systems
+2. Wikipedia: Optical mouse — https://en.wikipedia.org/wiki/Optical_mouse
+3. KuzyaTech: Optical mouse, the old way (detailed teardown with oscilloscope captures) — https://kuzyatech.com/optical-mouse-the-old-way
+4. Markoff, John. 'Computer mice are scurrying out of R&D labs.' InfoWorld, May 10, 1982 — https://books.google.com/books?id=bDAEAAAAMBAJ&pg=PA10
+5. Mace, Scott. 'Speech tech, mice draw crowds at Mini/Micro 82.' InfoWorld, Oct 11, 1982 — https://books.google.com/books?id=CzAEAAAAMBAJ&pg=PA1
+6. Patent US 4,390,873 — Steve Kirsch, 'Cursor control device,' filed 1980, issued 1983 — https://patents.google.com/patent/US4390873A/en
+7. Retrotechnology: Mouse Systems pad catalog (part numbers, pitch, color guide) — https://www.retrotechnology.com/herbs_stuff/sgi.html#pads
