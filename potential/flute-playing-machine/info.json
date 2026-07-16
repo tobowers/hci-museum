@@ -1,0 +1,103 @@
+{
+  "slug": "flute-playing-machine",
+  "title": "Flute Playing Machine",
+  "year": "1979–1982",
+  "subtitle": "draw a music roll with felt-tip pens; photocells read it and a robot plays an acoustic alto flute",
+  "why_scout_cares": "The interaction model is drawing-as-composition for a physical acoustic instrument. The user programs music not with code, notation, or a piano roll, but with freehand felt-tip pen markings on a transparent scroll. Fifteen photocells read the marks and drive twelve electromagnetic keys on a specially-made alto flute, plus an air valve controlling a blower. The audience sees the hand-drawn marks before they are heard. Composers including Tom Johnson wrote works for it — his 'Reversibles' plays each strip forward, backward, flipped, and played again. The machine is in the permanent collection of the Berlinische Galerie. It is distinct from UPIC (1977, already in the museum) which drove a synthesizer — this drives a real flute with solenoids and compressed air.",
+  "search_terms": ["Martin Riches flute playing machine", "drawing to sound interface", "robot flute", "photocell music roll", "Berlinische Galerie music machine"],
+  "research": {
+    "title": "Flute Playing Machine",
+    "year": "1979–1982",
+    "by": "Martin Riches (electronics by Roland Pfrengle)",
+    "tags": ["HCI", "Input", "Music", "Drawing", "Tangible", "Robot", "Installation"],
+    "overview": "The Flute Playing Machine is an electro-mechanical instrument that lets users compose music by drawing with felt-tip pens on a transparent music roll. A row of 15 photocells reads the hand-drawn markings as the roll advances through the machine. The amplified signals operate 12 electromagnetic keys on a specially-made alto flute (range g to g') and control an air valve from a soundproofed blower. The markings on the music roll are fully visible to the audience before they are played, creating visual anticipation of the sound.\n\nFirst exhibited at Künstlerhaus Bethanien Berlin in 1980 for the Theobald Boehm exhibition, it was shown at the Musée d'Art Moderne de la Ville de Paris in the 'Écoutez par les Yeux' (Listen Through Your Eyes) exhibition the same year, where visitors could draw their own music rolls and immediately hear the results. After touring internationally for five years, it was acquired by the Berlinische Galerie (Museum for Art, Architecture and Photography), which continues to lend it for performances.",
+    "deepDive": [
+      {
+        "heading": "Origins",
+        "text": "Martin Riches is a Berlin-based British artist who has worked since 1972 making music machines, speaking machines, and sound installations. The Flute Playing Machine was built for an exhibition celebrating Theobald Boehm, inventor of the modern flute, at Künstlerhaus Bethanien Berlin in 1980. The dimensions of the specially-made alto flute are based on Boehm's own recommendations. The electronic control circuitry, featuring Schmitt triggers, was designed by composer Roland Pfrengle and built by Riches."
+      },
+      {
+        "heading": "How It Works",
+        "text": "The machine stands 150cm high. On the right is a blower encased in a soundproofed black box (soundproofing designed with advice from artist Stephan von Huene). An air valve admits compressed air into the flute's mouthpiece. The horizontal brass alto flute has 12 electromagnetic keys — each normally held closed by a spring. A single track on the music roll opens the key for that note plus the three keys immediately above it, producing a clear note with minimal mechanical noise.\n\nOn the left, a diagonal slide guides the transparent music roll over 15 photocells. The lowest 12 tracks operate the flute keys; the next controls the air supply; two upper tracks are spare. In duets, spare tracks send cues to live performers via LEDs on the music stand. Small extensions at mark boundaries ensure clean note transitions — equivalent to what a live flutist does intuitively."
+      },
+      {
+        "heading": "Works Written for the Machine",
+        "text": "Several composers created works specifically for the Flute Playing Machine. Tom Johnson, during a three-month DAAD residency in Berlin (1983), created his 'Reversibles' — each strip is played forward and backward, then turned over and again played forward and backward, yielding four unique melody lines. This began a long collaboration between Johnson and Riches. Other works include Schaun Tozer's 'All Change' (1982), a 12-minute flute duet for machine and live player performed at the Philharmonie Essen in 2013; Suguru Goto's 'Zure Study' (1995), exploring transitions between order and randomness; and Phillip Corner's flute duet (1983), where 20-second strips were successively fed in to provide an Alberti bass while Eberhard Blum improvised a treble line."
+      },
+      {
+        "heading": "Interaction Model",
+        "text": "The core HCI paradigm is direct visual-to-acoustic translation. The user draws with felt-tip pens — not writing code or notation — and the machine optically reads and immediately performs the marks. The transparency of the scroll means the audience sees the marks before hearing them, creating a unique mode of visual-musical anticipation. This bridges visual art, composition, and mechanical performance in a single gesture. Unlike UPIC (Xenakis, 1977) which converted drawing into electronic synthesis, the Flute Playing Machine converts drawing into acoustic flute performance — mechanical transduction of human gesture into physical sound."
+      }
+    ],
+    "team": [
+      {
+        "name": "Martin Riches",
+        "note": "Artist, designer, and builder. British, based in Berlin since the 1970s. Built the machine, the flute, the photocell reader, and the power supply/speed controller."
+      },
+      {
+        "name": "Roland Pfrengle",
+        "note": "Composer and electronics designer. Designed the Schmitt trigger control circuitry that translates photocell signals into electromechanical key actuation."
+      },
+      {
+        "name": "Tom Johnson",
+        "note": "Composer. Created 'Reversibles' (1983) and other works for the machine, beginning a decades-long collaboration."
+      },
+      {
+        "name": "Eberhard Blum",
+        "note": "Flutist. Organized the original 1980 Boehm exhibition at Künstlerhaus Bethanien and performed with the machine."
+      }
+    ],
+    "media": [
+      {
+        "src": "https://martinriches.de/fpmc.jpg",
+        "alt": "The Flute Playing Machine — alto flute with electromagnetic keys, blower box, and photocell reader",
+        "caption": "The Flute Playing Machine (1979–1982). 150cm high. Right: soundproofed blower. Center: specially-made alto flute with 12 electromagnetic keys. Left: diagonal slide feeding a transparent music roll over 15 photocells. Photo: Hermann Kiesling. CC BY-NC-ND."
+      },
+      {
+        "src": "https://martinriches.de/flute.jpg",
+        "alt": "Detail of the specially-made alto flute with 12 electromagnetic keys and embouchure",
+        "caption": "Detail of the alto flute's 12 electromagnetic keys, arranged according to Theobald Boehm's formulas. Photo: Hermann Kiesling."
+      },
+      {
+        "src": "https://martinriches.de/fpmcparis.jpg",
+        "alt": "Visitor drawing a music roll at Musée d'Art Moderne de la Ville de Paris, 1980",
+        "caption": "A visitor drawing a new music roll at 'Écoutez par les Yeux', Musée d'Art Moderne de la Ville de Paris (1980). The machine will play whatever you draw. Photo: Hermann Kiesling."
+      },
+      {
+        "src": "https://martinriches.de/fpmcnotes.jpg",
+        "alt": "Score interpretation diagram showing how the machine reads music roll tracks",
+        "caption": "How the machine interprets a music roll — example from 'Afternoon Loop' by Hartmut Westphal (1980). The lowest 12 tracks control flute keys; the 13th controls the air valve."
+      }
+    ],
+    "sources": [
+      {
+        "text": "Martin Riches — Flute Playing Machine (artist's own site, detailed description and photos)",
+        "url": "https://martinriches.de/fpmcmore.html"
+      },
+      {
+        "text": "Martin Riches — Home Page (artist's portfolio, exhibition history)",
+        "url": "https://martinriches.de/main1.html"
+      },
+      {
+        "text": "Berlinische Galerie — Collection (current institutional home of the machine)",
+        "url": "https://berlinischegalerie.de/en/"
+      },
+      {
+        "text": "Tom Johnson — Reversibles (1983), written for the Flute Playing Machine",
+        "url": "https://www.tomjohnson.org/"
+      }
+    ],
+    "imageUrls": [
+      "https://martinriches.de/fpmcmore.html",
+      "https://martinriches.de/main1.html",
+      "https://martinriches.de/fpmc.jpg",
+      "https://martinriches.de/fpmcparis.jpg"
+    ]
+  },
+  "savedImages": [
+    "images/fpmc.jpg",
+    "images/flute-detail.jpg",
+    "images/fpmcparis.jpg",
+    "images/fpmcnotes.jpg"
+  ]
+}

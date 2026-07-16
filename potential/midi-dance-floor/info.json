@@ -1,0 +1,86 @@
+{
+  "slug": "midi-dance-floor",
+  "title": "MIDI Dance Floor",
+  "year": "1989–1990",
+  "subtitle": "a 32-foot dance floor with 128 force-sensing resistors; nuanced body pressure becomes live music and video",
+  "why_scout_cares": "This is a continuous-pressure dance interface that treats the entire floor as a musical instrument. It is fundamentally different from the NES Power Pad (binary rubber switches) and Stompin' (3×3 membrane switch arcade grid). The MIDI Dance Floor uses 128 Force Sensing Resistors arranged in an 8×8 grid beneath a professional Marley dance surface. Each of the 64 two-foot-square zones transmits continuous pressure AND position data — how hard you press and where — as MIDI messages that drive music synthesis and video in real time. A dancer's weight transfers, speed, and pressure gradients across the grid become expressive parameters. Used in performances with Merce Cunningham Dance Studio dancers. Predates DDR by nearly a decade.",
+  "search_terms": ["MIDI dance floor", "touch sensitive dance floor", "Russell Pinkston", "force sensing resistor dance", "dance controller MIDI", "continuous pressure floor interface"],
+  "research": {
+    "title": "MIDI Dance Floor",
+    "year": "1989–1990",
+    "by": "Russell Pinkston, Jim Kerkhoff, and Mark McQuilken — University of Texas at Austin, Department of Music",
+    "tags": ["HCI", "Input", "Music", "Dance", "Pressure", "Embodied", "Whole-body"],
+    "overview": "The MIDI Dance Floor is a 32-foot by 16-foot professional Marley dance surface instrumented with 128 Force Sensing Resistors (FSRs) hidden beneath the floor. The FSRs are arranged in an 8×8 grid, yielding 64 two-foot-square pressure-sensitive regions. Each region transmits continuous analog pressure data — not binary on/off switches — to a custom Voltage/MIDI Interface Box built around a Motorola MC68HC11 microprocessor. The interface converts analog signals to standard MIDI messages that control music synthesis and video processing in real time.\n\nDeveloped at the University of Texas at Austin Department of Music, the floor was used in live performances including 'Song for the Living / Dance for the Dead' at Columbia University's 1999 Music Festival, featuring dancers from the Merce Cunningham Dance Studio. The academic paper was published in the Journal of the Acoustical Society of America in 1990.",
+    "deepDive": [
+      {
+        "heading": "How It Works",
+        "text": "The dance floor surface consists of 128 individual Force Sensing Resistors fastened to four 4-foot by 16-foot strips of material, placed beneath a standard Marley Dance Floor. The FSRs form a grid with 8 rows (front to back) and 8 columns (left to right), creating 64 two-foot-square pressure-sensitive regions. Each region is assigned a separate input channel on a custom Voltage/MIDI Interface Box co-designed by Jim Kerkhoff and Mark McQuilken.\n\nThe interface incorporates a Motorola MC68HC11 microprocessor and can be programmed to convert analog input signals to any desired MIDI messages on multiple MIDI channels. Used with an external MIDI processing system (MAX software), it permits one or more dancers to control music and lighting by the nature of their movements and their precise positions on the surface."
+      },
+      {
+        "heading": "Interaction Model",
+        "text": "The floor is invisible to the audience — it looks like a normal dance floor. In performance, the dancer appears to control music and video simply by dancing. The software interprets signals from the floor in multiple modes: at times, specific dance movements produce individual sounds or musical passages, giving the dancer complete control over timing and expression. At other times, movements trigger extended pre-composed sections, after which the dancer can move freely with no responsibility for controlling playback.\n\nThis dual-mode interaction — precise moment-to-moment control alternating with free expressive movement — treats dance as both instrument and performance simultaneously. The continuous analog pressure sensing (not binary switches) means that the weight, speed, and pressure gradient of each movement become nuanced musical parameters."
+      },
+      {
+        "heading": "Academic and Performance Context",
+        "text": "The floor was designed and built at the Department of Music, University of Texas at Austin. The core research was published as Pinkston, Kerkhoff & McQuilken, 'A touch sensitive dance floor/MIDI controller,' Journal of the Acoustical Society of America 88, S190 (1990). A fuller paper followed in JASA 96(5), 3302 (1994). \n\nThe performance 'Song for the Living / Dance for the Dead' was inspired by a Ming Dynasty poem by Ni Chia-Ch'ing and texts from A.S. Byatt. The music mixed pre-composed and algorithmically-generated materials, controlled by MAX software responding to the floor. Original choreography was by Mata Sakka, video by Anita Pantin, with eight dancers from the Merce Cunningham Dance Studio."
+      }
+    ],
+    "team": [
+      {
+        "name": "Russell Pinkston",
+        "note": "Composer and lead researcher. Department of Music, University of Texas at Austin. Designed the overall system and wrote the MAX performance software."
+      },
+      {
+        "name": "Jim Kerkhoff",
+        "note": "Co-designer of the Voltage/MIDI Interface Box. Implemented the MC68HC11-based analog-to-MIDI conversion hardware."
+      },
+      {
+        "name": "Mark McQuilken",
+        "note": "Co-designer of the Voltage/MIDI Interface Box. Contributed to the hardware engineering."
+      },
+      {
+        "name": "Mata Sakka",
+        "note": "Original choreographer for 'Song for the Living / Dance for the Dead.'"
+      },
+      {
+        "name": "Merce Cunningham Dance Studio",
+        "note": "Eight dancers from the studio performed with the floor at Columbia University."
+      }
+    ],
+    "media": [
+      {
+        "src": "https://sites.music.columbia.edu/fest99/events/images/midifloor1.gif",
+        "alt": "MIDI Dance Floor — grid diagram or performance photo",
+        "caption": "The MIDI Dance Floor, designed and built at the University of Texas at Austin Department of Music. Source: Columbia University Computer Music Center."
+      },
+      {
+        "src": "https://sites.music.columbia.edu/fest99/events/images/midifloor2.gif",
+        "alt": "MIDI Dance Floor — performance or sensor detail",
+        "caption": "The 32′ × 16′ floor with 128 Force Sensing Resistors hidden beneath a Marley dance surface. Source: Columbia University Computer Music Center."
+      }
+    ],
+    "sources": [
+      {
+        "text": "Columbia University — Song for the Living / Dance for the Dead performance documentation",
+        "url": "https://sites.music.columbia.edu/fest99/events/all_round.html"
+      },
+      {
+        "text": "Pinkston, Kerkhoff & McQuilken — 'A touch sensitive dance floor/MIDI controller,' J. Acoust. Soc. Am. 88, S190 (1990)",
+        "url": "https://doi.org/10.1121/1.410820"
+      },
+      {
+        "text": "Pinkston — A touch sensitive dance floor/MIDI controller, JASA 96(5), 3302 (1994)",
+        "url": "https://doi.org/10.1121/1.410820"
+      }
+    ],
+    "imageUrls": [
+      "https://sites.music.columbia.edu/fest99/events/images/midifloor1.gif",
+      "https://sites.music.columbia.edu/fest99/events/images/midifloor2.gif",
+      "https://sites.music.columbia.edu/fest99/events/all_round.html"
+    ]
+  },
+  "savedImages": [
+    "images/midifloor1.gif",
+    "images/midifloor2.gif"
+  ]
+}
