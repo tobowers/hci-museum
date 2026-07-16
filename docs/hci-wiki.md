@@ -5464,3 +5464,141 @@ Stompin' was a 1986 arcade video game by Bally Sente, Inc. that introduced the f
 4. Arcade Game Manual: Stompin' (22 pages, Internet Archive) — https://archive.org/details/ArcadeGameManualStompin
 5. The Arcade Flyer Archive — Stompin' promotional flyer, 1986 — https://flyers.arcade-museum.com/videogames/show/1032
 6. StrategyWiki — Stompin' — https://strategywiki.org/wiki/Stompin%27
+
+---
+
+## Flute Playing Machine (1979–1982)
+
+**By:** Martin Riches (electronics by Roland Pfrengle)  
+**Tags:** `HCI` `Input` `Music` `Drawing` `Tangible` `Robot` `Installation`
+
+### Overview
+
+The Flute Playing Machine is an electro-mechanical instrument that lets users compose music by drawing with felt-tip pens on a transparent music roll. A row of 15 photocells reads the hand-drawn markings as the roll advances through the machine. The amplified signals operate 12 electromagnetic keys on a specially-made alto flute (range g to g') and control an air valve from a soundproofed blower. The markings on the music roll are fully visible to the audience before they are played, creating visual anticipation of the sound.
+
+First exhibited at Künstlerhaus Bethanien Berlin in 1980 for the Theobald Boehm exhibition, it was shown at the Musée d'Art Moderne de la Ville de Paris in the 'Écoutez par les Yeux' (Listen Through Your Eyes) exhibition the same year, where visitors could draw their own music rolls and immediately hear the results. After touring internationally for five years, it was acquired by the Berlinische Galerie (Museum for Art, Architecture and Photography), which continues to lend it for performances.
+
+### Deep dive
+
+* **Origins.** Martin Riches is a Berlin-based British artist who has worked since 1972 making music machines, speaking machines, and sound installations. The Flute Playing Machine was built for an exhibition celebrating Theobald Boehm, inventor of the modern flute, at Künstlerhaus Bethanien Berlin in 1980. The dimensions of the specially-made alto flute are based on Boehm's own recommendations. The electronic control circuitry, featuring Schmitt triggers, was designed by composer Roland Pfrengle and built by Riches.
+* **How It Works.** The machine stands 150cm high. On the right is a blower encased in a soundproofed black box (soundproofing designed with advice from artist Stephan von Huene). An air valve admits compressed air into the flute's mouthpiece. The horizontal brass alto flute has 12 electromagnetic keys — each normally held closed by a spring. A single track on the music roll opens the key for that note plus the three keys immediately above it, producing a clear note with minimal mechanical noise.
+
+On the left, a diagonal slide guides the transparent music roll over 15 photocells. The lowest 12 tracks operate the flute keys; the next controls the air supply; two upper tracks are spare. In duets, spare tracks send cues to live performers via LEDs on the music stand. Small extensions at mark boundaries ensure clean note transitions — equivalent to what a live flutist does intuitively.
+* **Works Written for the Machine.** Several composers created works specifically for the Flute Playing Machine. Tom Johnson, during a three-month DAAD residency in Berlin (1983), created his 'Reversibles' — each strip is played forward and backward, then turned over and again played forward and backward, yielding four unique melody lines. This began a long collaboration between Johnson and Riches. Other works include Schaun Tozer's 'All Change' (1982), a 12-minute flute duet for machine and live player performed at the Philharmonie Essen in 2013; Suguru Goto's 'Zure Study' (1995), exploring transitions between order and randomness; and Phillip Corner's flute duet (1983), where 20-second strips were successively fed in to provide an Alberti bass while Eberhard Blum improvised a treble line.
+* **Interaction Model.** The core HCI paradigm is direct visual-to-acoustic translation. The user draws with felt-tip pens — not writing code or notation — and the machine optically reads and immediately performs the marks. The transparency of the scroll means the audience sees the marks before hearing them, creating a unique mode of visual-musical anticipation. This bridges visual art, composition, and mechanical performance in a single gesture. Unlike UPIC (Xenakis, 1977) which converted drawing into electronic synthesis, the Flute Playing Machine converts drawing into acoustic flute performance — mechanical transduction of human gesture into physical sound.
+
+### Team
+
+* **Martin Riches.** Artist, designer, and builder. British, based in Berlin since the 1970s. Built the machine, the flute, the photocell reader, and the power supply/speed controller.
+* **Roland Pfrengle.** Composer and electronics designer. Designed the Schmitt trigger control circuitry that translates photocell signals into electromechanical key actuation.
+* **Tom Johnson.** Composer. Created 'Reversibles' (1983) and other works for the machine, beginning a decades-long collaboration.
+* **Eberhard Blum.** Flutist. Organized the original 1980 Boehm exhibition at Künstlerhaus Bethanien and performed with the machine.
+
+### Media
+
+![The Flute Playing Machine — alto flute with electromagnetic keys, blower box, and photocell reader](assets/wiki/flute-playing-machine-fpmc.jpg)
+*The Flute Playing Machine (1979–1982). 150cm high. Right: soundproofed blower. Center: specially-made alto flute with 12 electromagnetic keys. Left: diagonal slide feeding a transparent music roll over 15 photocells. Photo: Hermann Kiesling. CC BY-NC-ND.*
+
+![Detail of the specially-made alto flute with 12 electromagnetic keys and embouchure](assets/wiki/flute-playing-machine-detail.jpg)
+*Detail of the alto flute's 12 electromagnetic keys, arranged according to Theobald Boehm's formulas. Photo: Hermann Kiesling.*
+
+![Visitor drawing a music roll at the Musée d'Art Moderne de la Ville de Paris, 1980](assets/wiki/flute-playing-machine-paris.jpg)
+*A visitor draws a new music roll at 'Écoutez par les Yeux', Musée d'Art Moderne de la Ville de Paris (1980). The machine will play whatever you draw. Photo: Hermann Kiesling. CC BY-NC-ND.*
+
+![How the machine interprets a music roll — example from Hartmut Westphal's 'Afternoon Loop'](assets/wiki/flute-playing-machine-notes.jpg)
+*Score interpretation diagram showing how the 12 lowest tracks control flute keys, the 13th controls the air valve, and two upper tracks serve as spares for cue LEDs or note accents.*
+
+### Sources
+
+1. Martin Riches — Flute Playing Machine (artist's own site, detailed description and photos) — https://martinriches.de/fpmcmore.html
+2. Martin Riches — Home Page (artist's portfolio, exhibition history) — https://martinriches.de/main1.html
+3. Berlinische Galerie — Collection (current institutional home of the machine) — https://berlinischegalerie.de/en/
+4. Tom Johnson — Reversibles (1983), written for the Flute Playing Machine — https://www.tomjohnson.org/
+
+---
+
+## Johns Hopkins Serial Code Keyboard (1983)
+
+**By:** Wolfger Schneider — Johns Hopkins University Applied Physics Laboratory, funded by the Veterans Administration  
+**Tags:** `HCI` `Input` `Accessibility` `Morse` `Frequency-encoded` `Apple II`
+
+### Overview
+
+The Serial Code Keyboard is an accessibility input device that operates on a frequency-encoded pseudo-Morse principle. A three-position spring-centered switch connects to the Apple II game port (PB0/PB1). Moving the switch left generates high-frequency 'dits'; moving it right generates low-frequency 'dahs.' Unlike real Morse code, dits and dahs are equal duration — frequency is the sole differentiator. Sound-on time equals sound-off time, making the code faster and less fatiguing to produce than traditional Morse.
+
+The system translates these tone sequences to ASCII characters and implements four keyboard modes: standard typing, shift mode, control mode, and a 'sequence' mode that triggers predefined macros (e.g., CATALOG-RETURN for listing disk files). Firmware versions were also developed for 'dumb' RS-232 terminals. Published in Creative Computing magazine (October 1983), the device was evaluated in rehabilitation centers across the United States and Canada, with potential for commercial production.
+
+### Deep dive
+
+* **Origins.** Developed at the Applied Physics Laboratory of Johns Hopkins University under funding from the Veterans Administration. The project addressed the needs of severely physically handicapped individuals — upper limb amputees, quadriplegics, and others unable to use a standard keyboard. Wolfger Schneider, the engineer behind the system, recognized that many potential computer users needed only the capability to move a single three-position switch to either extreme position. The Serial Code Keyboard was designed as a low-cost, reliable data entry method that could be adapted to whatever switch-lever arrangement suited each user's specific motor capabilities.
+* **The Frequency-Encoded Pseudo-Morse.** This is the central innovation. Traditional Morse code differentiates dits and dahs by duration (dah = 3× dit). Schneider's system throws this out entirely: dits and dahs are equal duration, differentiated only by tone frequency. The user moves the switch left for high tones (dits) and right for low tones (dahs), with sound-on time equal to sound-off time. This departure from Morse was deliberate — equal-duration tones are faster to produce and less fatiguing because the user never has to hold a position for an extended period.
+
+The end of a character is recognized by silence lasting longer than two dah durations. Continuous dahs (more than seven) trigger backspacing; continuous dits (more than seven) trigger the repeat function. Cursor movement uses escape sequences (I, J, K, M) defined as repeating sequences.
+* **Hardware and Software.** The Apple II implementation uses a software approach: machine code loaded at location $9200 (below DOS on a 48K Apple II) intercepts input and links with DOS. The three-position switch connects to the game port using the same bit inputs as game paddle pushbuttons (PB0 for dits, PB1 for dahs), but with opposite polarity. The package included a Hello loader, a tutorial program (explaining code operation with split-screen practice display), and the binary machine code driver.
+
+Predefined macro sequences included: G for greeting guests, H to run the Hello file, M to exit to monitor, C to catalog disk files, S to clear screen, B to sound alarm, and U/D/L/R for cursor movement. A separate firmware version for 'dumb' RS-232 terminals used an external hardware module that logically OR-ed the Serial Code Keyboard's ASCII output with the standard keyboard input.
+* **Interaction Model.** The interaction loop is remarkable: the user produces tone sequences by moving a switch, HEARS those tones as audio feedback, and the system translates them into keystrokes. The user is essentially playing a two-note musical instrument to type. The tones are not just feedback — they ARE the encoding. The tonal feedback loop creates a direct auditory-kinesthetic coupling: the user can hear whether they got the code right before the character appears. This self-monitoring via audio is particularly valuable for users with limited or no visual feedback.
+
+### Team
+
+* **Wolfger Schneider.** Engineer at Johns Hopkins University Applied Physics Laboratory. Designed and implemented the Serial Code Keyboard concept, wrote the Apple II software, and published the Creative Computing article.
+* **Johns Hopkins University Applied Physics Laboratory.** Research institution contracted by the Veterans Administration to develop assistive computer access technology.
+* **Veterans Administration.** Funding agency. Deployed evaluation units to rehabilitation centers across the United States and Canada.
+
+### Media
+
+![Creative Computing magazine October 1983 page 222 — Serial Code Keyboard article with hardware photo](https://archive.org/services/img/creativecomputing-1983-10/page/n221)
+*The Serial Code Keyboard article as published in Creative Computing Vol. 9 No. 10, October 1983, page 222. The article includes Figure 1 (hardware photo), Figure 2 (circuit diagram), Figure 3 (timing diagram), and Table 1 (full code table). Source: Internet Archive.*
+
+### Sources
+
+1. Schneider, W. — 'Communicating in code; the Serial Code Keyboard helps the severely handicapped communicate,' Creative Computing Vol. 9 No. 10, October 1983, p. 222 — https://www.atarimagazines.com/creative/v9n10/222_Communicating_in_code_th.php
+2. Creative Computing October 1983 — full issue scan on Internet Archive — https://archive.org/details/creativecomputing-1983-10
+3. Internet Archive page scan — page 222 with Figure 1 (hardware photo) and diagrams — https://archive.org/stream/creativecomputing-1983-10/Creative_Computing_v09_n10_1983_October#page/n221/mode/2up
+
+---
+
+## MIDI Dance Floor (1989–1990)
+
+**By:** Russell Pinkston, Jim Kerkhoff, and Mark McQuilken — University of Texas at Austin, Department of Music  
+**Tags:** `HCI` `Input` `Music` `Dance` `Pressure` `Embodied` `Whole-body`
+
+### Overview
+
+The MIDI Dance Floor is a 32-foot by 16-foot professional Marley dance surface instrumented with 128 Force Sensing Resistors (FSRs) hidden beneath the floor. The FSRs are arranged in an 8×8 grid, yielding 64 two-foot-square pressure-sensitive regions. Each region transmits continuous analog pressure data — not binary on/off switches — to a custom Voltage/MIDI Interface Box built around a Motorola MC68HC11 microprocessor. The interface converts analog signals to standard MIDI messages that control music synthesis and video processing in real time.
+
+Developed at the University of Texas at Austin Department of Music, the floor was used in live performances including 'Song for the Living / Dance for the Dead' at Columbia University's 1999 Music Festival, featuring dancers from the Merce Cunningham Dance Studio. The academic paper was published in the Journal of the Acoustical Society of America in 1990.
+
+### Deep dive
+
+* **How It Works.** The dance floor surface consists of 128 individual Force Sensing Resistors fastened to four 4-foot by 16-foot strips of material, placed beneath a standard Marley Dance Floor. The FSRs form a grid with 8 rows (front to back) and 8 columns (left to right), creating 64 two-foot-square pressure-sensitive regions. Each region is assigned a separate input channel on a custom Voltage/MIDI Interface Box co-designed by Jim Kerkhoff and Mark McQuilken.
+
+The interface incorporates a Motorola MC68HC11 microprocessor and can be programmed to convert analog input signals to any desired MIDI messages on multiple MIDI channels. Used with an external MIDI processing system (MAX software), it permits one or more dancers to control music and lighting by the nature of their movements and their precise positions on the surface.
+* **Interaction Model.** The floor is invisible to the audience — it looks like a normal dance floor. In performance, the dancer appears to control music and video simply by dancing. The software interprets signals from the floor in multiple modes: at times, specific dance movements produce individual sounds or musical passages, giving the dancer complete control over timing and expression. At other times, movements trigger extended pre-composed sections, after which the dancer can move freely with no responsibility for controlling playback.
+
+This dual-mode interaction — precise moment-to-moment control alternating with free expressive movement — treats dance as both instrument and performance simultaneously. The continuous analog pressure sensing (not binary switches) means that the weight, speed, and pressure gradient of each movement become nuanced musical parameters.
+* **Academic and Performance Context.** The floor was designed and built at the Department of Music, University of Texas at Austin. The core research was published as Pinkston, Kerkhoff & McQuilken, 'A touch sensitive dance floor/MIDI controller,' Journal of the Acoustical Society of America 88, S190 (1990). A fuller paper followed in JASA 96(5), 3302 (1994). 
+
+The performance 'Song for the Living / Dance for the Dead' was inspired by a Ming Dynasty poem by Ni Chia-Ch'ing and texts from A.S. Byatt. The music mixed pre-composed and algorithmically-generated materials, controlled by MAX software responding to the floor. Original choreography was by Mata Sakka, video by Anita Pantin, with eight dancers from the Merce Cunningham Dance Studio.
+
+### Team
+
+* **Russell Pinkston.** Composer and lead researcher. Department of Music, University of Texas at Austin. Designed the overall system and wrote the MAX performance software.
+* **Jim Kerkhoff.** Co-designer of the Voltage/MIDI Interface Box. Implemented the MC68HC11-based analog-to-MIDI conversion hardware.
+* **Mark McQuilken.** Co-designer of the Voltage/MIDI Interface Box. Contributed to the hardware engineering.
+* **Mata Sakka.** Original choreographer for 'Song for the Living / Dance for the Dead.'
+* **Merce Cunningham Dance Studio.** Eight dancers from the studio performed with the floor at Columbia University.
+
+### Media
+
+![MIDI Dance Floor — grid diagram or performance photo](https://sites.music.columbia.edu/fest99/events/images/midifloor1.gif)
+*The MIDI Dance Floor, designed and built at the University of Texas at Austin Department of Music. Source: Columbia University Computer Music Center.*
+
+![MIDI Dance Floor — performance or sensor detail](https://sites.music.columbia.edu/fest99/events/images/midifloor2.gif)
+*The 32′ × 16′ floor with 128 Force Sensing Resistors hidden beneath a Marley dance surface. Source: Columbia University Computer Music Center.*
+
+### Sources
+
+1. Columbia University — Song for the Living / Dance for the Dead performance documentation — https://sites.music.columbia.edu/fest99/events/all_round.html
+2. Pinkston, Kerkhoff & McQuilken — 'A touch sensitive dance floor/MIDI controller,' J. Acoust. Soc. Am. 88, S190 (1990) — https://doi.org/10.1121/1.410820
+3. Pinkston — A touch sensitive dance floor/MIDI controller, JASA 96(5), 3302 (1994) — https://doi.org/10.1121/1.410820
