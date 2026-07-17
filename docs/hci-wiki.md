@@ -1,6 +1,6 @@
 # The HCI Golden Age Wiki
 
-A research compendium for a digital museum of cutting-edge Human-Computer Interaction from the late 1970s through the early 1990s. These one hundred and eight projects mix canonical experiments with weird, forgotten, and beautiful vaporware — brain control, voice control, gesture, wearable computing, VR, robots, and full-body exertion.
+A research compendium for a digital museum of cutting-edge Human-Computer Interaction from the late 1970s through the early 1990s. These one hundred and eleven projects mix canonical experiments with weird, forgotten, and beautiful vaporware — brain control, voice control, gesture, wearable computing, VR, robots, and full-body exertion.
 
 Each entry includes an overview, a deep dive, a small media gallery, and full source links so the images and facts can always be traced back.
 
@@ -112,6 +112,9 @@ Each entry includes an overview, a deep dive, a small media gallery, and full so
 103. [Dallas Semiconductor iButton (1990)](#dallas-semiconductor-ibutton-1990)
 104. [TRS-80 Voice Synthesizer (1979)](#trs-80-voice-synthesizer-1979)
 105. [Stompin' (1986)](#stompin-1986)
+106. [Flute Playing Machine (1979–1982)](#flute-playing-machine-1979–1982)
+107. [Johns Hopkins Serial Code Keyboard (1983)](#johns-hopkins-serial-code-keyboard-1983)
+108. [MIDI Dance Floor (1989–1990)](#midi-dance-floor-1989–1990)
 
 ---
 
@@ -5547,7 +5550,7 @@ Predefined macro sequences included: G for greeting guests, H to run the Hello f
 
 ### Media
 
-![Creative Computing magazine October 1983 page 222 — Serial Code Keyboard article with hardware photo](https://archive.org/services/img/creativecomputing-1983-10/page/n221)
+![Creative Computing magazine October 1983 page 222 — Serial Code Keyboard article with hardware photo](assets/wiki/jhu-serial-code-keyboard-1.jpg)
 *The Serial Code Keyboard article as published in Creative Computing Vol. 9 No. 10, October 1983, page 222. The article includes Figure 1 (hardware photo), Figure 2 (circuit diagram), Figure 3 (timing diagram), and Table 1 (full code table). Source: Internet Archive.*
 
 ### Sources
@@ -5591,10 +5594,10 @@ The performance 'Song for the Living / Dance for the Dead' was inspired by a Min
 
 ### Media
 
-![MIDI Dance Floor — grid diagram or performance photo](https://sites.music.columbia.edu/fest99/events/images/midifloor1.gif)
+![MIDI Dance Floor — grid diagram or performance photo](assets/wiki/midi-dance-floor-1.gif)
 *The MIDI Dance Floor, designed and built at the University of Texas at Austin Department of Music. Source: Columbia University Computer Music Center.*
 
-![MIDI Dance Floor — performance or sensor detail](https://sites.music.columbia.edu/fest99/events/images/midifloor2.gif)
+![MIDI Dance Floor — performance or sensor detail](assets/wiki/midi-dance-floor-2.gif)
 *The 32′ × 16′ floor with 128 Force Sensing Resistors hidden beneath a Marley dance surface. Source: Columbia University Computer Music Center.*
 
 ### Sources
