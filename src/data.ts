@@ -1335,6 +1335,30 @@ const exhibitData: Exhibit[] = [
     tags: ["Arcade", "Foot Controller", "Exergaming", "Floor Interface", "Input"],
     image: img("stompin-patent-fig1.png"),
   },
+  {
+    id: "flute-playing-machine",
+    slug: "flute-playing-machine",
+    wikiTitle: "Flute Playing Machine",
+    year: "1979–1982",
+    sortYear: 1980,
+    title: "Flute Playing Machine",
+    subtitle: "Draw with felt-tip pens on a transparent scroll and a robot plays an acoustic alto flute",
+    blurb: "An electro-mechanical instrument by artist Martin Riches that translates hand-drawn marks into acoustic flute music. Users draw with felt-tip pens on a transparent music scroll; fifteen photocells read the marks and drive twelve electromagnetic keys on a specially-made alto flute plus an air valve controlling a soundproofed blower. The marks are visible to the audience before they're heard — visual anticipation of sound. Exhibited at the Musée d'Art Moderne de la Ville de Paris (1980) where visitors drew their own music rolls. Composers including Tom Johnson wrote works for it. Acquired by the Berlinische Galerie. Distinct from UPIC (1977, already in museum) which drove a synthesizer — this drives a real acoustic flute with solenoids and compressed air.",
+    tags: ["Music", "Drawing", "Robot", "Installation"],
+    image: img("flute-playing-machine-fpmc.jpg"),
+  },
+  {
+    id: "midi-dance-floor",
+    slug: "midi-dance-floor",
+    wikiTitle: "MIDI Dance Floor",
+    year: "1989–1990",
+    sortYear: 1989,
+    title: "MIDI Dance Floor",
+    subtitle: "A 32-foot dance floor with 128 pressure sensors that turns body weight into music and video",
+    blurb: "A 32-foot professional Marley dance surface instrumented with 128 Force Sensing Resistors in an 8×8 grid beneath the floor. Unlike the NES Power Pad's binary switches or Stompin's 3×3 grid, every two-foot-square zone transmits continuous analog pressure — how hard you step, where, and how weight transfers — as MIDI messages. A Motorola MC68HC11 microprocessor in a custom interface box converts pressure gradients to any desired MIDI messages, allowing dancers to control music synthesis and video processing in real time. Used with Merce Cunningham Dance Studio dancers. Published in the Journal of the Acoustical Society of America (1990). Predates commercial dance-game platforms by nearly a decade.",
+    tags: ["Dance", "Pressure", "Music", "Whole-body"],
+    image: img("midi-dance-floor-1.gif"),
+  },
 ];
 
 export const exhibits: Exhibit[] = exhibitData.toSorted((a, b) => b.sortYear - a.sortYear || a.title.localeCompare(b.title));
