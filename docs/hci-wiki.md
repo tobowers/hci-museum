@@ -112,6 +112,9 @@ Each entry includes an overview, a deep dive, a small media gallery, and full so
 103. [Dallas Semiconductor iButton (1990)](#dallas-semiconductor-ibutton-1990)
 104. [TRS-80 Voice Synthesizer (1979)](#trs-80-voice-synthesizer-1979)
 105. [Stompin' (1986)](#stompin-1986)
+106. [Flute Playing Machine (1979–1982)](#flute-playing-machine-19791982)
+107. [Johns Hopkins Serial Code Keyboard (1983)](#johns-hopkins-serial-code-keyboard-1983)
+108. [EDP Wasp (1978)](#edp-wasp-1978)
 
 ---
 
@@ -5547,7 +5550,7 @@ Predefined macro sequences included: G for greeting guests, H to run the Hello f
 
 ### Media
 
-![Creative Computing magazine October 1983 page 222 — Serial Code Keyboard article with hardware photo](https://archive.org/services/img/creativecomputing-1983-10/page/n221)
+![Creative Computing magazine October 1983 page 222 — Serial Code Keyboard article with hardware photo](assets/wiki/jhu-serial-code-keyboard-cc1983.jpg)
 *The Serial Code Keyboard article as published in Creative Computing Vol. 9 No. 10, October 1983, page 222. The article includes Figure 1 (hardware photo), Figure 2 (circuit diagram), Figure 3 (timing diagram), and Table 1 (full code table). Source: Internet Archive.*
 
 ### Sources
@@ -5558,47 +5561,51 @@ Predefined macro sequences included: G for greeting guests, H to run the Hello f
 
 ---
 
-## MIDI Dance Floor (1989–1990)
+## EDP Wasp (1978)
 
-**By:** Russell Pinkston, Jim Kerkhoff, and Mark McQuilken — University of Texas at Austin, Department of Music  
-**Tags:** `HCI` `Input` `Music` `Dance` `Pressure` `Embodied` `Whole-body`
+**By:** Chris Huggett and Adrian Wagner — Electronic Dream Plant, Oxford, UK  
+**Tags:** `HCI` `Input` `Music` `Capacitive Touch` `Synthesizer` `UK`
 
 ### Overview
 
-The MIDI Dance Floor is a 32-foot by 16-foot professional Marley dance surface instrumented with 128 Force Sensing Resistors (FSRs) hidden beneath the floor. The FSRs are arranged in an 8×8 grid, yielding 64 two-foot-square pressure-sensitive regions. Each region transmits continuous analog pressure data — not binary on/off switches — to a custom Voltage/MIDI Interface Box built around a Motorola MC68HC11 microprocessor. The interface converts analog signals to standard MIDI messages that control music synthesis and video processing in real time.
+The EDP Wasp is a low-cost British monophonic synthesizer that replaced traditional mechanical piano keys with a flat capacitive touch keyboard — copper plates hidden under a silk-screened yellow-and-black vinyl sticker. Priced at £199 (roughly $350 USD), it was radically affordable for 1978. The keyboard had no moving parts: notes were triggered by the change in skin capacitance when a player's finger touched a plate. Two octaves of flat 'keys' meant players could glide and trill at speeds impossible on mechanical keyboards, but the total absence of tactile feedback and environmental sensitivity (sweat, humidity) created distinctive failure modes.
 
-Developed at the University of Texas at Austin Department of Music, the floor was used in live performances including 'Song for the Living / Dance for the Dead' at Columbia University's 1999 Music Festival, featuring dancers from the Merce Cunningham Dance Studio. The academic paper was published in the Journal of the Acoustical Society of America in 1990.
+The Wasp used transistor-transistor logic (TTL) digital oscillators, a 12dB/octave multimode filter, and a proprietary 7-pin DIN 'LINK' system for connecting multiple EDP products — predating MIDI by five years. It ran on six C-type batteries or mains power and had a tiny internal speaker. About 3,000 units were produced before EDP went bankrupt in 1982. The Wasp Deluxe variant, made in tiny numbers (~80 units), reverted to a conventional mechanical keyboard — an explicit concession that capacitive touch was inadequate for many musicians. Behringer released a faithful hardware clone in 2019.
 
 ### Deep dive
 
-* **How It Works.** The dance floor surface consists of 128 individual Force Sensing Resistors fastened to four 4-foot by 16-foot strips of material, placed beneath a standard Marley Dance Floor. The FSRs form a grid with 8 rows (front to back) and 8 columns (left to right), creating 64 two-foot-square pressure-sensitive regions. Each region is assigned a separate input channel on a custom Voltage/MIDI Interface Box co-designed by Jim Kerkhoff and Mark McQuilken.
+* **Origins.** Chris Huggett (1949–2020), a British engineer who had worked for Ferrograph and 3M's digital multi-track division, designed the Wasp as a freelance project. Co-founder Adrian Wagner — a descendant of composer Richard Wagner — provided the musical vision and arranged initial financing of £10,000 through Rod Argent's Keyboards, a London music shop. The company, Electronic Dream Plant, was formed in Oxford.
 
-The interface incorporates a Motorola MC68HC11 microprocessor and can be programmed to convert analog input signals to any desired MIDI messages on multiple MIDI channels. Used with an external MIDI processing system (MAX software), it permits one or more dancers to control music and lighting by the nature of their movements and their precise positions on the surface.
-* **Interaction Model.** The floor is invisible to the audience — it looks like a normal dance floor. In performance, the dancer appears to control music and video simply by dancing. The software interprets signals from the floor in multiple modes: at times, specific dance movements produce individual sounds or musical passages, giving the dancer complete control over timing and expression. At other times, movements trigger extended pre-composed sections, after which the dancer can move freely with no responsibility for controlling playback.
+The choice of capacitive touch was cost-driven: mechanical keyboards were expensive, and hitting the £199 price point required eliminating moving parts. Huggett's background in audio electronics rather than traditional instrument building meant he approached the problem without preconceptions about what a keyboard should feel like. The resulting interface was a two-octave array of copper plates covered by a screen-printed vinyl graphic — essentially a flat sticker that looked like a keyboard.
+* **The Capacitive Interface.** The keyboard operated on self-capacitance: each copper plate formed a capacitive sensor that detected the presence of a human finger through changes in capacitance. When a player's finger touched a key area, the CMOS-based logic registered a note-on event. There was no velocity sensitivity, no aftertouch, and no mechanical travel. The keyboard implemented high-note priority — the highest note held always dominated — creating a pseudo-duophonic effect when players held a low note while trilling at the top end.
 
-This dual-mode interaction — precise moment-to-moment control alternating with free expressive movement — treats dance as both instrument and performance simultaneously. The continuous analog pressure sensing (not binary switches) means that the weight, speed, and pressure gradient of each movement become nuanced musical parameters.
-* **Academic and Performance Context.** The floor was designed and built at the Department of Music, University of Texas at Austin. The core research was published as Pinkston, Kerkhoff & McQuilken, 'A touch sensitive dance floor/MIDI controller,' Journal of the Acoustical Society of America 88, S190 (1990). A fuller paper followed in JASA 96(5), 3302 (1994). 
+A notable limitation: the envelope generators would not re-trigger unless the player fully released and re-touched the keys. This made legato playing impossible and frustrated keyboardists accustomed to piano technique. On the other hand, the flat surface was brilliant for fast arpeggios and glissandi — players could simply rub fingers across the surface.
+* **Failure Modes: The HCI Laboratory.** The Wasp's capacitive keyboard proved to be an unplanned experiment in environmental HCI. Several failure modes emerged: (1) 'The Droning Wasp' — in high humidity, moisture altered capacitance readings, causing the synth to produce continuous sound regardless of whether keys were touched; (2) Sweat triggering — Gerald Casale of Devo reported the synth would 'play itself when exposed to sweat' during live performances under hot stage lights; (3) The keyboard calibration drifted with temperature, requiring frequent adjustment via a recessed trim pot; (4) The vinyl overlay degraded over time — a heavily scratched keyboard 'instantly betrays a Wasp that's had plenty of use' (Chris Carter, Sound on Sound).
 
-The performance 'Song for the Living / Dance for the Dead' was inspired by a Ming Dynasty poem by Ni Chia-Ch'ing and texts from A.S. Byatt. The music mixed pre-composed and algorithmically-generated materials, controlled by MAX software responding to the floor. Original choreography was by Mata Sakka, video by Anita Pantin, with eight dancers from the Merce Cunningham Dance Studio.
+These failure modes are informative in retrospect: they prefigure the challenges that capacitive touch interfaces would face for decades — ghost touches, environmental sensitivity, and durability of surface coatings — challenges that were progressively addressed through multi-touch algorithms, palm rejection, and oleophobic coatings in later consumer touch devices.
+* **The Deluxe Retreat.** The Wasp Deluxe variant, produced in very small numbers (~80 units), explicitly addressed the capacitive keyboard's shortcomings: it added wooden end cheeks and replaced the flat capacitive surface with a conventional mechanical keyboard. This was a tacit admission that, for expressive musical performance, capacitive touch without haptic feedback was not adequate. The Deluxe was the last EDP product before the company's bankruptcy in 1982.
+* **Legacy.** Chris Huggett's career after EDP is a microcosm of British electronic instrument design. He co-founded the Oxford Synthesiser Company and designed the OSCar (with Paul Wiffen and Anthony Harrison-Griffin), wrote the operating system for the Akai S1000 sampler, and later joined Novation full-time, designing the Supernova, Bass Station, Bass Station II, Peak, and Summit synthesizers. The Wasp remains celebrated for its distinctive lo-fi sound (used by 808 State, Richard D. James, Add N to (X)), and its capacitive keyboard — though commercially a mixed success — stands as one of the earliest mass-market deployments of capacitive touch.
 
 ### Team
 
-* **Russell Pinkston.** Composer and lead researcher. Department of Music, University of Texas at Austin. Designed the overall system and wrote the MAX performance software.
-* **Jim Kerkhoff.** Co-designer of the Voltage/MIDI Interface Box. Implemented the MC68HC11-based analog-to-MIDI conversion hardware.
-* **Mark McQuilken.** Co-designer of the Voltage/MIDI Interface Box. Contributed to the hardware engineering.
-* **Mata Sakka.** Original choreographer for 'Song for the Living / Dance for the Dead.'
-* **Merce Cunningham Dance Studio.** Eight dancers from the studio performed with the floor at Columbia University.
+* **Chris Huggett.** Engineer and designer (1949–2020). Designed the Wasp's electronics and keyboard. Later designed the OSCar, Akai S1000 OS, and Novation Supernova, Bass Station, Peak, and Summit.
+* **Adrian Wagner.** Musician and co-founder. Descendant of Richard Wagner. Provided musical vision and arranged initial funding through Rod Argent's Keyboards.
+* **Rod Argent.** Musician (The Zombies, Argent) and owner of Argent's Keyboards, London. Financed the Wasp's production and distributed it through his shop.
+* **Steve Evans.** Oxford University engineering technician. Co-designed the EDP Spider digital sequencer with Huggett.
+* **Anthony Harrison-Griffin.** Industrial designer for the Gnat (single-oscillator Wasp variant) and later the OSCar.
 
 ### Media
 
-![MIDI Dance Floor — grid diagram or performance photo](https://sites.music.columbia.edu/fest99/events/images/midifloor1.gif)
-*The MIDI Dance Floor, designed and built at the University of Texas at Austin Department of Music. Source: Columbia University Computer Music Center.*
+![EDP Wasp synthesizer with yellow-and-black flat capacitive touch keyboard, 1978](assets/wiki/edp-wasp-main.jpg)
+*The EDP Wasp (1978). The two-octave yellow-and-black keyboard is completely flat — copper plates beneath a silk-screened vinyl sticker. No moving parts. Notes are triggered by skin capacitance alone. Photo: JulianFincham / CC BY-SA 3.0 / GFDL.*
 
-![MIDI Dance Floor — performance or sensor detail](https://sites.music.columbia.edu/fest99/events/images/midifloor2.gif)
-*The 32′ × 16′ floor with 128 Force Sensing Resistors hidden beneath a Marley dance surface. Source: Columbia University Computer Music Center.*
+![EDP Wasp Deluxe with wooden end cheeks and conventional mechanical keyboard](assets/wiki/edp-wasp-deluxe.jpg)
+*The EDP Wasp Deluxe (c. 1981). Note the wooden end cheeks and the mechanical keyboard — a retreat from the capacitive interface after musician complaints. Only ~80 units produced. Photo: JulianFincham / CC BY-SA 3.0 / GFDL.*
 
 ### Sources
 
-1. Columbia University — Song for the Living / Dance for the Dead performance documentation — https://sites.music.columbia.edu/fest99/events/all_round.html
-2. Pinkston, Kerkhoff & McQuilken — 'A touch sensitive dance floor/MIDI controller,' J. Acoust. Soc. Am. 88, S190 (1990) — https://doi.org/10.1121/1.410820
-3. Pinkston — A touch sensitive dance floor/MIDI controller, JASA 96(5), 3302 (1994) — https://doi.org/10.1121/1.410820
+1. Wikipedia — Electronic Dream Plant (EDP Wasp history, technical details) — https://en.wikipedia.org/wiki/Electronic_Dream_Plant
+2. Wikipedia — Chris Huggett (designer biography) — https://en.wikipedia.org/wiki/Chris_Huggett
+3. Sound on Sound — EDP Wasp retrospective by Chris Carter (February 1995) — https://www.soundonsound.com/reviews/edp-wasp
+4. Wikipedia — Touchscreen (history of capacitive touch technology; E.A. Johnson 1965, CERN 1972–77) — https://en.wikipedia.org/wiki/Touchscreen
+5. Paul Trynka — Rock Hardware (Balafon Books, 1996), notes musician complaints about lack of expression with capacitive keyboard — https://books.google.com/books?id=Qz2MPwAACAAJ

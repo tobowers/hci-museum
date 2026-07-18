@@ -1,0 +1,101 @@
+{
+  "slug": "edp-wasp",
+  "title": "EDP Wasp",
+  "year": "1978",
+  "subtitle": "a $199 synthesizer with a flat capacitive touch keyboard — no moving parts, just skin capacitance and a vinyl sticker",
+  "why_scout_cares": "The Wasp is one of the earliest consumer products to use capacitive touch as its primary input modality, predating the iPhone's multi-touch by nearly 30 years. Its flat, featureless keyboard — copper plates hidden under a silk-screened vinyl sticker — had zero mechanical travel. Players triggered notes by skin capacitance alone. This cost-driven decision ($199 in 1978 was astonishingly cheap for a synthesizer) accidentally created a unique interaction laboratory. Musicians discovered they could glide across the surface in ways impossible on mechanical keys, but also that sweat would trigger false notes, humidity would cause runaway droning, and the total absence of tactile feedback alienated players who expected physical key travel. Devo's Gerald Casale reported the synth would 'play itself when exposed to sweat.' The Deluxe variant — sold in tiny numbers — reverted to a mechanical keyboard, an explicit concession that capacitive touch wasn't enough for expressive musical performance. The Wasp is a case study in the trade-offs between radical cost reduction through novel sensing and the loss of embodied, tactile interaction. Its designer, Chris Huggett, went on to design the OSCar, the Akai S1000 OS, and Novation's Bass Station and Peak synths.",
+  "search_terms": ["EDP Wasp", "Electronic Dream Plant synthesizer", "capacitive touch keyboard synthesizer", "Chris Huggett Wasp", "flat touch music keyboard 1978", "early capacitive sensing consumer product"],
+  "research": {
+    "title": "EDP Wasp",
+    "year": "1978",
+    "by": "Chris Huggett and Adrian Wagner — Electronic Dream Plant, Oxford, UK",
+    "tags": ["HCI", "Input", "Music", "Capacitive Touch", "Synthesizer", "UK"],
+    "overview": "The EDP Wasp is a low-cost British monophonic synthesizer that replaced traditional mechanical piano keys with a flat capacitive touch keyboard — copper plates hidden under a silk-screened yellow-and-black vinyl sticker. Priced at £199 (roughly $350 USD), it was radically affordable for 1978. The keyboard had no moving parts: notes were triggered by the change in skin capacitance when a player's finger touched a plate. Two octaves of flat 'keys' meant players could glide and trill at speeds impossible on mechanical keyboards, but the total absence of tactile feedback and environmental sensitivity (sweat, humidity) created distinctive failure modes.\n\nThe Wasp used transistor-transistor logic (TTL) digital oscillators, a 12dB/octave multimode filter, and a proprietary 7-pin DIN 'LINK' system for connecting multiple EDP products — predating MIDI by five years. It ran on six C-type batteries or mains power and had a tiny internal speaker. About 3,000 units were produced before EDP went bankrupt in 1982. The Wasp Deluxe variant, made in tiny numbers (~80 units), reverted to a conventional mechanical keyboard — an explicit concession that capacitive touch was inadequate for many musicians. Behringer released a faithful hardware clone in 2019.",
+    "deepDive": [
+      {
+        "heading": "Origins",
+        "text": "Chris Huggett (1949–2020), a British engineer who had worked for Ferrograph and 3M's digital multi-track division, designed the Wasp as a freelance project. Co-founder Adrian Wagner — a descendant of composer Richard Wagner — provided the musical vision and arranged initial financing of £10,000 through Rod Argent's Keyboards, a London music shop. The company, Electronic Dream Plant, was formed in Oxford.\n\nThe choice of capacitive touch was cost-driven: mechanical keyboards were expensive, and hitting the £199 price point required eliminating moving parts. Huggett's background in audio electronics rather than traditional instrument building meant he approached the problem without preconceptions about what a keyboard should feel like. The resulting interface was a two-octave array of copper plates covered by a screen-printed vinyl graphic — essentially a flat sticker that looked like a keyboard."
+      },
+      {
+        "heading": "The Capacitive Interface",
+        "text": "The keyboard operated on self-capacitance: each copper plate formed a capacitive sensor that detected the presence of a human finger through changes in capacitance. When a player's finger touched a key area, the CMOS-based logic registered a note-on event. There was no velocity sensitivity, no aftertouch, and no mechanical travel. The keyboard implemented high-note priority — the highest note held always dominated — creating a pseudo-duophonic effect when players held a low note while trilling at the top end.\n\nA notable limitation: the envelope generators would not re-trigger unless the player fully released and re-touched the keys. This made legato playing impossible and frustrated keyboardists accustomed to piano technique. On the other hand, the flat surface was brilliant for fast arpeggios and glissandi — players could simply rub fingers across the surface."
+      },
+      {
+        "heading": "Failure Modes: The HCI Laboratory",
+        "text": "The Wasp's capacitive keyboard proved to be an unplanned experiment in environmental HCI. Several failure modes emerged: (1) 'The Droning Wasp' — in high humidity, moisture altered capacitance readings, causing the synth to produce continuous sound regardless of whether keys were touched; (2) Sweat triggering — Gerald Casale of Devo reported the synth would 'play itself when exposed to sweat' during live performances under hot stage lights; (3) The keyboard calibration drifted with temperature, requiring frequent adjustment via a recessed trim pot; (4) The vinyl overlay degraded over time — a heavily scratched keyboard 'instantly betrays a Wasp that's had plenty of use' (Chris Carter, Sound on Sound).\n\nThese failure modes are informative in retrospect: they prefigure the challenges that capacitive touch interfaces would face for decades — ghost touches, environmental sensitivity, and durability of surface coatings — challenges that were progressively addressed through multi-touch algorithms, palm rejection, and oleophobic coatings in later consumer touch devices."
+      },
+      {
+        "heading": "The Deluxe Retreat",
+        "text": "The Wasp Deluxe variant, produced in very small numbers (~80 units), explicitly addressed the capacitive keyboard's shortcomings: it added wooden end cheeks and replaced the flat capacitive surface with a conventional mechanical keyboard. This was a tacit admission that, for expressive musical performance, capacitive touch without haptic feedback was not adequate. The Deluxe was the last EDP product before the company's bankruptcy in 1982."
+      },
+      {
+        "heading": "Legacy",
+        "text": "Chris Huggett's career after EDP is a microcosm of British electronic instrument design. He co-founded the Oxford Synthesiser Company and designed the OSCar (with Paul Wiffen and Anthony Harrison-Griffin), wrote the operating system for the Akai S1000 sampler, and later joined Novation full-time, designing the Supernova, Bass Station, Bass Station II, Peak, and Summit synthesizers. The Wasp remains celebrated for its distinctive lo-fi sound (used by 808 State, Richard D. James, Add N to (X)), and its capacitive keyboard — though commercially a mixed success — stands as one of the earliest mass-market deployments of capacitive touch."
+      }
+    ],
+    "team": [
+      {
+        "name": "Chris Huggett",
+        "note": "Engineer and designer (1949–2020). Designed the Wasp's electronics and keyboard. Later designed the OSCar, Akai S1000 OS, and Novation Supernova, Bass Station, Peak, and Summit."
+      },
+      {
+        "name": "Adrian Wagner",
+        "note": "Musician and co-founder. Descendant of Richard Wagner. Provided musical vision and arranged initial funding through Rod Argent's Keyboards."
+      },
+      {
+        "name": "Rod Argent",
+        "note": "Musician (The Zombies, Argent) and owner of Argent's Keyboards, London. Financed the Wasp's production and distributed it through his shop."
+      },
+      {
+        "name": "Steve Evans",
+        "note": "Oxford University engineering technician. Co-designed the EDP Spider digital sequencer with Huggett."
+      },
+      {
+        "name": "Anthony Harrison-Griffin",
+        "note": "Industrial designer for the Gnat (single-oscillator Wasp variant) and later the OSCar."
+      }
+    ],
+    "media": [
+      {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/5/54/EDP_Wasp.JPG",
+        "alt": "EDP Wasp synthesizer with yellow-and-black flat capacitive touch keyboard, 1978",
+        "caption": "The EDP Wasp (1978). The two-octave yellow-and-black keyboard is completely flat — copper plates beneath a silk-screened vinyl sticker. No moving parts. Notes are triggered by skin capacitance alone. Photo: JulianFincham / CC BY-SA 3.0 / GFDL."
+      },
+      {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/e/e8/EDP_WASP_Deluxe.jpg",
+        "alt": "EDP Wasp Deluxe with wooden end cheeks and conventional mechanical keyboard",
+        "caption": "The EDP Wasp Deluxe (c. 1981). Note the wooden end cheeks and the mechanical keyboard — a retreat from the capacitive interface after musician complaints. Only ~80 units produced. Photo: JulianFincham / CC BY-SA 3.0 / GFDL."
+      }
+    ],
+    "sources": [
+      {
+        "text": "Wikipedia — Electronic Dream Plant (EDP Wasp history, technical details)",
+        "url": "https://en.wikipedia.org/wiki/Electronic_Dream_Plant"
+      },
+      {
+        "text": "Wikipedia — Chris Huggett (designer biography)",
+        "url": "https://en.wikipedia.org/wiki/Chris_Huggett"
+      },
+      {
+        "text": "Sound on Sound — EDP Wasp retrospective by Chris Carter (February 1995)",
+        "url": "https://www.soundonsound.com/reviews/edp-wasp"
+      },
+      {
+        "text": "Wikipedia — Touchscreen (history of capacitive touch technology; E.A. Johnson 1965, CERN 1972–77)",
+        "url": "https://en.wikipedia.org/wiki/Touchscreen"
+      },
+      {
+        "text": "Paul Trynka — Rock Hardware (Balafon Books, 1996), notes musician complaints about lack of expression with capacitive keyboard",
+        "url": "https://books.google.com/books?id=Qz2MPwAACAAJ"
+      }
+    ],
+    "imageUrls": [
+      "https://commons.wikimedia.org/wiki/File:EDP_Wasp.JPG",
+      "https://commons.wikimedia.org/wiki/File:EDP_WASP_Deluxe.jpg"
+    ]
+  },
+  "savedImages": [
+    "images/EDP_Wasp.JPG",
+    "images/EDP_WASP_Deluxe.jpg"
+  ]
+}
