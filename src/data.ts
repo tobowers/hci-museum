@@ -1335,6 +1335,18 @@ const exhibitData: Exhibit[] = [
     tags: ["Arcade", "Foot Controller", "Exergaming", "Floor Interface", "Input"],
     image: img("stompin-patent-fig1.png"),
   },
+  {
+    id: "electroglottograph",
+    slug: "electroglottograph",
+    wikiTitle: "Kay Visi-Pitch / Electroglottograph",
+    year: "1987",
+    sortYear: 1987,
+    title: "Kay Visi-Pitch / Electroglottograph",
+    subtitle: "A computer that reads what your vocal cords are doing, not what they sound like",
+    blurb: "The Kay Visi-Pitch Model 6300 (1987) connected an electroglottograph (EGG) to an IBM PC via a custom ISA-bus ADC card. Two neck electrodes passed a 2-3 MHz current across the larynx, measuring vocal fold contact impedance — producing a waveform of laryngeal movement even during silent speech, whispering, or subvocalization. This is not a microphone and not EMG: it measures the internal mechanical dance of your vocal cords through tissue impedance. Used in speech therapy clinics as real-time visual biofeedback, patients could see their own vocal fold contact patterns on screen and learn to adjust them. The technology works when you produce no audible sound at all, making it a proto-'silent speech interface' decades before modern BCI research attempted the same. Kay Elemetrics (founded 1949) shipped the Model 6087 standalone Visi-Pitch in 1977 and added PC connectivity with the Model 6300 in 1987.",
+    tags: ["Biosignal Input", "Medical", "Biofeedback", "Speech", "Wearable", "Accessibility"],
+    image: img("eg2-pcx-electroglottograph.jpg"),
+  },
 ];
 
 export const exhibits: Exhibit[] = exhibitData.toSorted((a, b) => b.sortYear - a.sortYear || a.title.localeCompare(b.title));
