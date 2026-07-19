@@ -113,6 +113,8 @@ Each entry includes an overview, a deep dive, a small media gallery, and full so
 104. [TRS-80 Voice Synthesizer (1979)](#trs-80-voice-synthesizer-1979)
 105. [Stompin' (1986)](#stompin-1986)
 106. [Kay Visi-Pitch / Electroglottograph (1987)](#kay-visi-pitch--electroglottograph-1987)
+107. [Tapper (1984)](#tapper-1984)
+108. [Fire Truck (1978)](#fire-truck-1978)
 
 ---
 
@@ -5647,3 +5649,83 @@ The Kay Visi-Pitch, introduced as a standalone instrument in 1977 by Kay Elemetr
 6. Fourcin, A.J. & Abberton, E. (1971). 'First applications of a new laryngograph.' Medical and Biological Illustration, 21(3), 172-182 — original laryngograph paper — https://pubmed.ncbi.nlm.nih.gov/5566821/
 7. Glottal Enterprises — competing EGG manufacturer founded by Martin Rothenberg, with historical product information — https://www.glottal.com/
 8. Kay Elemetrics Visi-Pitch Model 6087 listing on WorthPoint (archived eBay listing with product photo) — https://www.worthpoint.com/worthopedia/kay-elemetrics-visi-pitch-6087-174000000
+
+---
+
+## Fire Truck (1978)
+
+**By:** Atari, Inc.  
+**Tags:** `HCI` `Input` `Arcade` `Cooperative` `Social`
+
+### Overview
+
+Fire Truck is a black-and-white 1978 arcade driving game developed and published by Atari, Inc. Designed by Wendi Allen (credited as Howard Delman) with hardware engineering by John Ray, it was built on the technology created for Atari's earlier Super Bug. The game is notable for being the first arcade title designed from the ground up around two-player cooperative control: the front player sits and steers the tractor of a fire truck, while the rear player stands and steers the tiller controlling the trailer's swing. The two must communicate to navigate traffic without the trailer jackknifing.
+
+A single-player version, Smokey Joe, was released simultaneously with a standard upright cabinet. Fire Truck ranked as the 12th highest-grossing arcade game of 1978, with Smokey Joe placing 9th. Wendi Allen went on to co-design Lunar Lander (1979). The game was distributed in Japan by Namco.
+
+### Deep dive
+
+* **Origins.** Wendi Allen joined Atari in 1976 and had previously designed the arcade game Super Bug (1977). Allen recalled a discussion about developing a co-operative two-player driving game, which led to Fire Truck. The core concept was two players working together for a common goal, a radical departure from the competitive norms of arcade games at the time. Allen used the same technology from Super Bug, adding enhancements including making the ladder end of the truck a separate motion object, additional sounds, and the ability to add a second steering wheel. John Ray, who joined Atari in 1977, was the hardware engineer and created the analogue circuitry for the siren and horn sounds — his first video game project.
+* **Interaction Mechanics.** The cabinet is an elongated sit/stand design. The front player sits at a low steering wheel with gas and brake controls, steering the tractor (cab) of the fire truck. The rear player stands at a second, higher steering wheel that controls the tiller — the articulated rear section of the truck. In single-player mode, the computer controls either the front or back. The two players must cooperate to navigate a maze of city streets without the trailer swinging into parked cars. The cabinet includes bells and horns (purely for fun, with no gameplay function). Players can select easy or hard courses, and are rated at the end: Sorry, So-So, Good, or Ace.
+* **Legacy.** While earlier games such as Pong Doubles (1973) had players team up for a common goal, Fire Truck was designed around the core concept of two players working together cooperatively. The game appeared in Atari 50 (2022) compilation. The same design team went on to create Lunar Lander (1979), which became Atari's first vector graphics game. The cooperative driving paradigm — two humans sharing control of a single articulated vehicle — remains unique in the history of arcade games.
+
+### Team
+
+* **Wendi Allen (credited as Howard Delman).** Game designer and programmer at Atari. Also designed Super Bug (1977) and co-designed Lunar Lander (1979).
+* **John Ray.** Hardware engineer at Atari. Created the analogue sound circuitry for sirens and horns. Fire Truck was his first video game project.
+
+### Media
+
+![Fire Truck arcade flyer showing two players on the elongated cabinet](assets/wiki/fire-truck-flyer.png)
+*North American arcade flyer for Fire Truck (Atari, 1978). Source: Wikipedia.*
+
+![Screenshot of Fire Truck showing the overhead view of a fire truck navigating city streets](assets/wiki/fire-truck-screenshot.png)
+*In-game screenshot showing the fire truck navigating traffic. Source: Wikipedia.*
+
+### Sources
+
+1. Fire Truck (video game) — Wikipedia — https://en.wikipedia.org/wiki/Fire_Truck_(video_game)
+2. Fire Truck at Killer List of Videogames (KLOV) — https://www.arcade-museum.com/game_detail.php?game_id=7814
+3. The Making of Fire Truck — Retro Gamer magazine, Issue 265 (2024) — https://en.wikipedia.org/wiki/Fire_Truck_(video_game)#Sources
+4. DP Interviews Howard Delman (Wendi Allen) — Digital Press — http://www.digitpress.com/library/interviews/interview_howard_delman.html
+
+---
+
+## Tapper (1984)
+
+**By:** Marvin Glass and Associates / Bally Midway  
+**Tags:** `HCI` `Input` `Arcade` `Prop-based` `Physical`
+
+### Overview
+
+Tapper is a 1984 arcade action game developed by Marvin Glass and Associates and published by Bally Midway. Originally sponsored by Anheuser-Busch, the American arcade version featured a Budweiser motif and was intended to be placed in actual bars. The game puts the player in the role of a bartender who must serve drinks to thirsty patrons advancing toward the bar. The control scheme is what makes it extraordinary: a four-position joystick for movement, and a physical beer tap handle as the primary game controller. Pulling the tap handle fills a mug; releasing it slides the mug down the bar toward customers.
+
+Early production machines used actual Budweiser beer tap handles as the controller, later replaced by smaller plastic versions bearing the Budweiser logo. The cabinet was designed as bar furniture, complete with a brass foot rail and drink holders. A family-friendly version, Root Beer Tapper, replaced the alcohol theme with root beer for arcades, but retained the tap handle mechanism. The game was distributed in Japan by Sega under a Suntory beer license.
+
+### Deep dive
+
+* **The Tap Handle as Controller.** The tap handle is not a metaphor — early machines used real, off-the-shelf Budweiser beer tap handles mounted on the control panel. Pulling the handle down fills a mug on screen; releasing it slides the mug toward the customers. The joystick handles the bartender's position across four bars. This is a rare example of a real-world object — designed for a completely different purpose — being co-opted as a computer game interface. The affordance is perfect: pulling a tap handle to pour a drink is what the object was literally made for, and the game simply maps that action to its virtual equivalent.
+* **Bar Furniture as Arcade Cabinet.** The cabinet design was as radical as the controller. Tapper cabinets featured a brass foot rail along the bottom and built-in drink holders, explicitly designed to blend into actual bar environments. Anheuser-Busch sponsored the game as a promotional vehicle, hoping to place machines in bars nationwide. When concerns arose about advertising alcohol to minors, Bally Midway released Root Beer Tapper with a soda jerk theme for family arcades, but retained the tap handle. The cabinet's design philosophy — a game machine disguised as furniture — remains distinctive in arcade history.
+* **Development.** Tapper was developed by Marvin Glass and Associates, the legendary Chicago toy design firm responsible for Rock 'Em Sock 'Em Robots, Mouse Trap, and other iconic toys. Programmers Steve Meyer and Elaine Ditton, artist Scott Morrison, and composer Rick Hicaro (using a Synclavier II synthesizer) created the game on Bally Midway's MCR III hardware. The art style was later reused for Domino Man and Timber.
+
+### Team
+
+* **Marvin Glass and Associates.** Legendary Chicago toy and game design firm. Developed Tapper under contract for Bally Midway. Known for Rock 'Em Sock 'Em Robots, Mouse Trap, Operation, and many other iconic toys.
+* **Steve Meyer and Elaine Ditton.** Programmers. Meyer is listed as co-inventor on US patent 4,643,421 for the Tapper game mechanics.
+* **Scott Morrison.** Artist. Art style later reused in Bally Midway's Domino Man and Timber.
+* **Rick Hicaro.** Music and sound designer. Used a Synclavier II synthesizer running custom software to create the game's audio.
+
+### Media
+
+![Tapper arcade cabinet showing the tap handle controls and Budweiser-themed artwork](assets/wiki/tapper-cabinet.jpg)
+*Tapper arcade cabinet photographed at Flashbacks retro arcade, Seaside Heights, NJ. Photo: Rob DiCaterino / CC BY 2.0 via Wikimedia Commons.*
+
+![Screenshot of Tapper gameplay showing the bartender and customers in the saloon level](assets/wiki/tapper-gameplay.png)
+*In-game screenshot showing the bartender serving customers on the saloon level. Source: Wikipedia (fair use).*
+
+### Sources
+
+1. Tapper (video game) — Wikipedia — https://en.wikipedia.org/wiki/Tapper_(video_game)
+2. A World Without Reality: Inside Marvin Glass's Toy Vault (Paxton, 2019, pp. 462–474) — https://en.wikipedia.org/wiki/Special:BookSources/978-0-578-40526-1
+3. US Patent 4,643,421 — Video game in which a host image repels ravenous images by serving filled vessels — https://worldwide.espacenet.com/textdoc?DB=EPODOC&IDX=US4643421
+4. Tapper at Killer List of Videogames (KLOV) — https://www.arcade-museum.com/game_detail.php?game_id=12839

@@ -1,0 +1,74 @@
+{
+  "slug": "fire-truck",
+  "title": "Fire Truck",
+  "year": "1978",
+  "subtitle": "The arcade game that made two strangers steer one truck together",
+  "why_scout_cares": "Fire Truck is the first arcade game designed around cooperative physical control of a single shared entity. One player sits facing forward, steering the tractor; the other stands facing backward, steering the tiller. No other exhibit in the museum requires two people to coordinate physically in this way — it is a social HCI paradigm, not just a controller design. Wendi Allen (Howard Delman) designed it around the core concept of cooperative play, a radical departure from the competitive norms of 1978 arcades.",
+  "search_terms": ["fire truck atari 1978", "cooperative arcade game", "wendi allen howard delman"],
+  "research": {
+    "title": "Fire Truck",
+    "year": "1978",
+    "by": "Atari, Inc.",
+    "tags": ["HCI", "Input", "Arcade", "Cooperative", "Social"],
+    "overview": "Fire Truck is a black-and-white 1978 arcade driving game developed and published by Atari, Inc. Designed by Wendi Allen (credited as Howard Delman) with hardware engineering by John Ray, it was built on the technology created for Atari's earlier Super Bug. The game is notable for being the first arcade title designed from the ground up around two-player cooperative control: the front player sits and steers the tractor of a fire truck, while the rear player stands and steers the tiller controlling the trailer's swing. The two must communicate to navigate traffic without the trailer jackknifing.\n\nA single-player version, Smokey Joe, was released simultaneously with a standard upright cabinet. Fire Truck ranked as the 12th highest-grossing arcade game of 1978, with Smokey Joe placing 9th. Wendi Allen went on to co-design Lunar Lander (1979). The game was distributed in Japan by Namco.",
+    "deepDive": [
+      {
+        "heading": "Origins",
+        "text": "Wendi Allen joined Atari in 1976 and had previously designed the arcade game Super Bug (1977). Allen recalled a discussion about developing a co-operative two-player driving game, which led to Fire Truck. The core concept was two players working together for a common goal, a radical departure from the competitive norms of arcade games at the time. Allen used the same technology from Super Bug, adding enhancements including making the ladder end of the truck a separate motion object, additional sounds, and the ability to add a second steering wheel. John Ray, who joined Atari in 1977, was the hardware engineer and created the analogue circuitry for the siren and horn sounds — his first video game project."
+      },
+      {
+        "heading": "Interaction Mechanics",
+        "text": "The cabinet is an elongated sit/stand design. The front player sits at a low steering wheel with gas and brake controls, steering the tractor (cab) of the fire truck. The rear player stands at a second, higher steering wheel that controls the tiller — the articulated rear section of the truck. In single-player mode, the computer controls either the front or back. The two players must cooperate to navigate a maze of city streets without the trailer swinging into parked cars. The cabinet includes bells and horns (purely for fun, with no gameplay function). Players can select easy or hard courses, and are rated at the end: Sorry, So-So, Good, or Ace."
+      },
+      {
+        "heading": "Legacy",
+        "text": "While earlier games such as Pong Doubles (1973) had players team up for a common goal, Fire Truck was designed around the core concept of two players working together cooperatively. The game appeared in Atari 50 (2022) compilation. The same design team went on to create Lunar Lander (1979), which became Atari's first vector graphics game. The cooperative driving paradigm — two humans sharing control of a single articulated vehicle — remains unique in the history of arcade games."
+      }
+    ],
+    "team": [
+      {
+        "name": "Wendi Allen (credited as Howard Delman)",
+        "note": "Game designer and programmer at Atari. Also designed Super Bug (1977) and co-designed Lunar Lander (1979)."
+      },
+      {
+        "name": "John Ray",
+        "note": "Hardware engineer at Atari. Created the analogue sound circuitry for sirens and horns. Fire Truck was his first video game project."
+      }
+    ],
+    "media": [
+      {
+        "src": "https://upload.wikimedia.org/wikipedia/en/5/57/Fire_Truck_Poster.png",
+        "alt": "Fire Truck arcade flyer showing two players on the elongated cabinet",
+        "caption": "North American arcade flyer for Fire Truck (Atari, 1978). Source: Wikipedia."
+      },
+      {
+        "src": "https://upload.wikimedia.org/wikipedia/en/0/0c/Atari_Fire_Truck_video_game_screenshot.png",
+        "alt": "Screenshot of Fire Truck showing the overhead view of a fire truck navigating city streets",
+        "caption": "In-game screenshot showing the fire truck navigating traffic. Source: Wikipedia."
+      }
+    ],
+    "sources": [
+      {
+        "text": "Fire Truck (video game) — Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Fire_Truck_(video_game)"
+      },
+      {
+        "text": "Fire Truck at Killer List of Videogames (KLOV)",
+        "url": "https://www.arcade-museum.com/game_detail.php?game_id=7814"
+      },
+      {
+        "text": "The Making of Fire Truck — Retro Gamer magazine, Issue 265 (2024)",
+        "url": "https://en.wikipedia.org/wiki/Fire_Truck_(video_game)#Sources"
+      },
+      {
+        "text": "DP Interviews Howard Delman (Wendi Allen) — Digital Press",
+        "url": "http://www.digitpress.com/library/interviews/interview_howard_delman.html"
+      }
+    ],
+    "imageUrls": [
+      "https://upload.wikimedia.org/wikipedia/en/5/57/Fire_Truck_Poster.png",
+      "https://upload.wikimedia.org/wikipedia/en/0/0c/Atari_Fire_Truck_video_game_screenshot.png"
+    ]
+  },
+  "savedImages": []
+}

@@ -1,0 +1,82 @@
+{
+  "slug": "tapper",
+  "title": "Tapper",
+  "year": "1984",
+  "subtitle": "The arcade game you played with an actual beer tap",
+  "why_scout_cares": "Tapper is the definitive example of a real-world physical prop repurposed as a computer game controller. Early cabinets used actual Budweiser beer tap handles — not a replica, not a metaphor, but the same tap handle you'd find in a bar. The cabinet was designed as bar furniture with a brass foot rail and drink holders. No other exhibit in the museum turns a found object from everyday life into the primary game interface. The interaction model — pull to pour, release to slide — maps a natural physical affordance directly to on-screen action.",
+  "search_terms": ["tapper arcade 1984", "beer tap controller", "bally midway root beer tapper", "marvin glass and associates"],
+  "research": {
+    "title": "Tapper",
+    "year": "1984",
+    "by": "Marvin Glass and Associates / Bally Midway",
+    "tags": ["HCI", "Input", "Arcade", "Prop-based", "Physical"],
+    "overview": "Tapper is a 1984 arcade action game developed by Marvin Glass and Associates and published by Bally Midway. Originally sponsored by Anheuser-Busch, the American arcade version featured a Budweiser motif and was intended to be placed in actual bars. The game puts the player in the role of a bartender who must serve drinks to thirsty patrons advancing toward the bar. The control scheme is what makes it extraordinary: a four-position joystick for movement, and a physical beer tap handle as the primary game controller. Pulling the tap handle fills a mug; releasing it slides the mug down the bar toward customers.\n\nEarly production machines used actual Budweiser beer tap handles as the controller, later replaced by smaller plastic versions bearing the Budweiser logo. The cabinet was designed as bar furniture, complete with a brass foot rail and drink holders. A family-friendly version, Root Beer Tapper, replaced the alcohol theme with root beer for arcades, but retained the tap handle mechanism. The game was distributed in Japan by Sega under a Suntory beer license.",
+    "deepDive": [
+      {
+        "heading": "The Tap Handle as Controller",
+        "text": "The tap handle is not a metaphor — early machines used real, off-the-shelf Budweiser beer tap handles mounted on the control panel. Pulling the handle down fills a mug on screen; releasing it slides the mug toward the customers. The joystick handles the bartender's position across four bars. This is a rare example of a real-world object — designed for a completely different purpose — being co-opted as a computer game interface. The affordance is perfect: pulling a tap handle to pour a drink is what the object was literally made for, and the game simply maps that action to its virtual equivalent."
+      },
+      {
+        "heading": "Bar Furniture as Arcade Cabinet",
+        "text": "The cabinet design was as radical as the controller. Tapper cabinets featured a brass foot rail along the bottom and built-in drink holders, explicitly designed to blend into actual bar environments. Anheuser-Busch sponsored the game as a promotional vehicle, hoping to place machines in bars nationwide. When concerns arose about advertising alcohol to minors, Bally Midway released Root Beer Tapper with a soda jerk theme for family arcades, but retained the tap handle. The cabinet's design philosophy — a game machine disguised as furniture — remains distinctive in arcade history."
+      },
+      {
+        "heading": "Development",
+        "text": "Tapper was developed by Marvin Glass and Associates, the legendary Chicago toy design firm responsible for Rock 'Em Sock 'Em Robots, Mouse Trap, and other iconic toys. Programmers Steve Meyer and Elaine Ditton, artist Scott Morrison, and composer Rick Hicaro (using a Synclavier II synthesizer) created the game on Bally Midway's MCR III hardware. The art style was later reused for Domino Man and Timber."
+      }
+    ],
+    "team": [
+      {
+        "name": "Marvin Glass and Associates",
+        "note": "Legendary Chicago toy and game design firm. Developed Tapper under contract for Bally Midway. Known for Rock 'Em Sock 'Em Robots, Mouse Trap, Operation, and many other iconic toys."
+      },
+      {
+        "name": "Steve Meyer and Elaine Ditton",
+        "note": "Programmers. Meyer is listed as co-inventor on US patent 4,643,421 for the Tapper game mechanics."
+      },
+      {
+        "name": "Scott Morrison",
+        "note": "Artist. Art style later reused in Bally Midway's Domino Man and Timber."
+      },
+      {
+        "name": "Rick Hicaro",
+        "note": "Music and sound designer. Used a Synclavier II synthesizer running custom software to create the game's audio."
+      }
+    ],
+    "media": [
+      {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/2/2e/Tapper_arcade_cabinet_-_Bally_Midway.jpg",
+        "alt": "Tapper arcade cabinet showing the tap handle controls and Budweiser-themed artwork",
+        "caption": "Tapper arcade cabinet photographed at Flashbacks retro arcade, Seaside Heights, NJ. Photo: Rob DiCaterino / CC BY 2.0 via Wikimedia Commons."
+      },
+      {
+        "src": "https://upload.wikimedia.org/wikipedia/en/d/db/TapperGameplay.png",
+        "alt": "Screenshot of Tapper gameplay showing the bartender and customers in the saloon level",
+        "caption": "In-game screenshot showing the bartender serving customers on the saloon level. Source: Wikipedia (fair use)."
+      }
+    ],
+    "sources": [
+      {
+        "text": "Tapper (video game) — Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Tapper_(video_game)"
+      },
+      {
+        "text": "A World Without Reality: Inside Marvin Glass's Toy Vault (Paxton, 2019, pp. 462–474)",
+        "url": "https://en.wikipedia.org/wiki/Special:BookSources/978-0-578-40526-1"
+      },
+      {
+        "text": "US Patent 4,643,421 — Video game in which a host image repels ravenous images by serving filled vessels",
+        "url": "https://worldwide.espacenet.com/textdoc?DB=EPODOC&IDX=US4643421"
+      },
+      {
+        "text": "Tapper at Killer List of Videogames (KLOV)",
+        "url": "https://www.arcade-museum.com/game_detail.php?game_id=12839"
+      }
+    ],
+    "imageUrls": [
+      "https://upload.wikimedia.org/wikipedia/commons/2/2e/Tapper_arcade_cabinet_-_Bally_Midway.jpg",
+      "https://upload.wikimedia.org/wikipedia/en/d/db/TapperGameplay.png"
+    ]
+  },
+  "savedImages": []
+}

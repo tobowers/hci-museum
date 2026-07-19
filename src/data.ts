@@ -1347,6 +1347,30 @@ const exhibitData: Exhibit[] = [
     tags: ["Biosignal Input", "Medical", "Biofeedback", "Speech", "Wearable", "Accessibility"],
     image: img("eg2-pcx-electroglottograph.jpg"),
   },
+  {
+    id: "tapper",
+    slug: "tapper",
+    wikiTitle: "Tapper",
+    year: "1984",
+    sortYear: 1984,
+    title: "Tapper",
+    subtitle: "The arcade game you played with an actual beer tap",
+    blurb: "Tapper is a 1984 Bally Midway arcade game where the primary controller was a real Budweiser beer tap handle — not a replica, not a metaphor, but the same tap handle you'd find in a bar. Developed by Marvin Glass and Associates (the legendary Chicago toy design firm behind Rock 'Em Sock 'Em Robots and Mouse Trap), Tapper was sponsored by Anheuser-Busch and intended to be placed in actual bars. The cabinet featured a brass foot rail, drink holders, and the tap handle as the main game interface: pull down to pour a beer, release to slide the mug toward waiting customers. A family-friendly version, Root Beer Tapper, replaced the alcohol theme but kept the tap handle. This is the definitive example of a found object from everyday life repurposed as a computer game controller — the affordance is perfect because the action is literally what the object was made for.",
+    tags: ["Arcade", "Input", "Prop-based", "Physical"],
+    image: img("tapper-cabinet.jpg"),
+  },
+  {
+    id: "fire-truck",
+    slug: "fire-truck",
+    wikiTitle: "Fire Truck",
+    year: "1978",
+    sortYear: 1978,
+    title: "Fire Truck",
+    subtitle: "The arcade game that made two strangers steer one truck together",
+    blurb: "Fire Truck, a 1978 Atari arcade game designed by Wendi Allen (Howard Delman), is the first arcade title designed from the ground up around cooperative physical control of a single shared entity. One player sits facing forward, steering the tractor of a fire truck; the other stands facing backward, steering the tiller that controls the trailer's swing. The two must communicate to navigate traffic without the trailer jackknifing. A single-player version, Smokey Joe, was released simultaneously. Fire Truck ranked as the 12th highest-grossing arcade game of 1978. No other exhibit in the museum requires two people to coordinate physically in this way — it represents a social HCI paradigm where the interaction model is not the controller design but the cooperative arrangement itself.",
+    tags: ["Arcade", "Input", "Cooperative", "Social"],
+    image: img("fire-truck-flyer.png"),
+  },
 ];
 
 export const exhibits: Exhibit[] = exhibitData.toSorted((a, b) => b.sortYear - a.sortYear || a.title.localeCompare(b.title));
