@@ -30,7 +30,7 @@ jobs:
     env:
       DEEPSEEK_API_KEY: ${{ secrets.DEEPSEEK_API_KEY }}
       OPENROUTER_API_KEY: ${{ secrets.OPENROUTER_API_KEY }}
-      DEEPSEEK_MODEL: openrouter/z-ai/glm-5.2
+      DEEPSEEK_MODEL: deepseek-v4-flash
       SCOUT_AGENT_TIMEOUT_MS: ${{ inputs.agent_timeout_ms || '1200000' }}
     steps:
       - name: Checkout

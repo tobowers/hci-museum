@@ -6,15 +6,17 @@ on:
   workflow_dispatch:
 
 permissions:
+  actions: write
   contents: write
 
 concurrency:
   group: pages
-  cancel-in-progress: false
+  cancel-in-progress: true
 
 jobs:
   deploy:
     runs-on: ubuntu-latest
+    timeout-minutes: 30
     steps:
       - name: Checkout
         uses: actions/checkout@v4
@@ -43,3 +45,49 @@ jobs:
           publish_dir: ./public
           force_orphan: true
           cname: interfacemuseum.com
+
+      - name: Remove deployed Pages artifact
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          read -r published_sha _ < <(git ls-remote origin refs/heads/gh-pages)
+          if [ -z "$published_sha" ]; then
+            echo "Could not resolve the published gh-pages commit."
+            exit 1
+          fi
+
+          pages_run_id=""
+          pages_status=""
+          pages_conclusion=""
+          for attempt in {1..120}; do
+            runs_json="$(gh api "repos/$GITHUB_REPOSITORY/actions/runs?branch=gh-pages&event=dynamic&per_page=10" 2>/dev/null || true)"
+            pages_run_id="$(jq -r --arg sha "$published_sha" '[.workflow_runs[]? | select(.name == "pages build and deployment" and .head_sha == $sha)][0].id // empty' <<< "$runs_json")"
+            pages_status="$(jq -r --arg sha "$published_sha" '[.workflow_runs[]? | select(.name == "pages build and deployment" and .head_sha == $sha)][0].status // empty' <<< "$runs_json")"
+            pages_conclusion="$(jq -r --arg sha "$published_sha" '[.workflow_runs[]? | select(.name == "pages build and deployment" and .head_sha == $sha)][0].conclusion // empty' <<< "$runs_json")"
+            if [ "$pages_status" = "completed" ]; then
+              break
+            fi
+            sleep 5
+          done
+
+          if [ -z "$pages_run_id" ] || [ "$pages_status" != "completed" ] || [ "$pages_conclusion" != "success" ]; then
+            echo "Pages deployment did not complete successfully for $published_sha."
+            exit 1
+          fi
+
+          artifacts_json="$(gh api "repos/$GITHUB_REPOSITORY/actions/runs/$pages_run_id/artifacts" 2>/dev/null || true)"
+          artifact_ids="$(jq -r '.artifacts[]?.id' <<< "$artifacts_json")"
+          for artifact_id in $artifact_ids; do
+            deleted=false
+            for attempt in {1..6}; do
+              if gh api --method DELETE "repos/$GITHUB_REPOSITORY/actions/artifacts/$artifact_id"; then
+                deleted=true
+                break
+              fi
+              sleep 5
+            done
+            if [ "$deleted" != "true" ]; then
+              echo "Could not delete Pages artifact $artifact_id."
+              exit 1
+            fi
+          done
