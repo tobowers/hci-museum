@@ -136,6 +136,26 @@ async function main() {
 
     await page.goto(`${baseUrl}/`, { waitUntil: "networkidle" });
     await page.waitForSelector(".exhibit-card");
+
+    const homeTimelineTitles = await page.$$eval("#gallery-grid .exhibit-card__title", (items) => items.map((item) => item.textContent?.trim() ?? ""));
+    const expectedTimelineTitles = exhibits.map((exhibit) => exhibit.title);
+    const homeTimelineMismatch = homeTimelineTitles.findIndex((title, index) => title !== expectedTimelineTitles[index]);
+    if (homeTimelineMismatch !== -1) {
+      throw new Error(`Homepage timeline order mismatch at ${homeTimelineMismatch}: expected ${expectedTimelineTitles[homeTimelineMismatch]}, got ${homeTimelineTitles[homeTimelineMismatch]}`);
+    }
+
+    await page.getByRole("button", { name: "Newest added" }).click();
+    const homeNewestTitles = await page.$$eval("#gallery-grid .exhibit-card__title", (items) => items.map((item) => item.textContent?.trim() ?? ""));
+    const expectedNewestTitles = exhibitsByNewestAdded.map((exhibit) => exhibit.title);
+    const homeNewestMismatch = homeNewestTitles.findIndex((title, index) => title !== expectedNewestTitles[index]);
+    if (homeNewestMismatch !== -1) {
+      throw new Error(`Homepage newest-added order mismatch at ${homeNewestMismatch}: expected ${expectedNewestTitles[homeNewestMismatch]}, got ${homeNewestTitles[homeNewestMismatch]}`);
+    }
+    if ((await page.getByRole("button", { name: "Newest added" }).getAttribute("aria-pressed")) !== "true") {
+      throw new Error("Homepage newest-added button did not become active");
+    }
+
+    await page.getByRole("button", { name: "Timeline" }).click();
     failures.push(...(await imageFailures(page, "/")));
 
     const { cards, failures: collectionFailures } = await assertCollectionOrder(page);
