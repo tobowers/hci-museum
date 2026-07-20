@@ -113,6 +113,9 @@ Each entry includes an overview, a deep dive, a small media gallery, and full so
 104. [TRS-80 Voice Synthesizer (1979)](#trs-80-voice-synthesizer-1979)
 105. [Stompin' (1986)](#stompin-1986)
 106. [Kay Visi-Pitch / Electroglottograph (1987)](#kay-visi-pitch--electroglottograph-1987)
+107. [Worlds of Wonder Action Max (1987)](#worlds-of-wonder-action-max-1987)
+108. [Toby Churchill Lightwriter SL1 (c. 1985)](#toby-churchill-lightwriter-sl1-c-1985)
+109. [Optacon II (Tactile Reading Machine) (1985)](#optacon-ii-tactile-reading-machine-1985)
 
 ---
 
@@ -5647,3 +5650,132 @@ The Kay Visi-Pitch, introduced as a standalone instrument in 1977 by Kay Elemetr
 6. Fourcin, A.J. & Abberton, E. (1971). 'First applications of a new laryngograph.' Medical and Biological Illustration, 21(3), 172-182 — original laryngograph paper — https://pubmed.ncbi.nlm.nih.gov/5566821/
 7. Glottal Enterprises — competing EGG manufacturer founded by Martin Rothenberg, with historical product information — https://www.glottal.com/
 8. Kay Elemetrics Visi-Pitch Model 6087 listing on WorthPoint (archived eBay listing with product photo) — https://www.worthpoint.com/worthopedia/kay-elemetrics-visi-pitch-6087-174000000
+
+---
+
+## Worlds of Wonder Action Max (1987)
+
+**By:** Worlds of Wonder (Fremont, California)  
+**Tags:** `HCI` `Light Gun` `VHS` `Video Game Console` `Optical Input` `Commercial Failure`
+
+### Overview
+
+The Action Max is a 1987 home "video game console" produced by Worlds of Wonder (WoW) of Fremont, California — the toy startup founded by ex-Atari sales president Don Kingsborough that had already shipped Teddy Ruxpin and Lazer Tag. Rather than read a cartridge, the Action Max is a small plastic base unit that sits between a user-supplied VCR and a CRT television, paired with a jet-fighter–shaped light gun (the "Sonic Fighter"). Game content lives entirely on ordinary VHS tapes: pre-recorded full-motion-video sequences in which targets flash bright at the precise moments they are "shootable." The console itself does not modify the video signal — it only registers trigger pulls, increments a 2-digit 7-segment LED score display, plays hit/miss beeps through an internal speaker or the included stereo headphones, and flashes a separate suction-cup "Score Signal" light attached to the TV bezel. The console is built around a 4-bit Hitachi HD401010 (HMCS40-family) microcontroller — sufficient for trigger sampling, score counting, sound generation, and the score-signal driver. Only five tapes shipped before WoW's December 1987 Chapter 11 filing, making Action Max one of the shortest-lived console ecosystems in history and a textbook example of a light-gun-plus-linear-tape dead-end HCI paradigm.
+
+### Deep dive
+
+* **Origins.** Worlds of Wonder (WoW) was founded in 1985 in Fremont, CA, by Don Kingsborough (1941–2012), former president of sales & marketing at Atari's consumer division. After the Warner-to-Tramiel sale of Atari and the failed Nintendo-Atari distribution negotiation, Kingsborough and several ex-Atari colleagues (Mark Robert Goldberg, David Small, Paul Rago, Steve Race, Larry Lynch, Jim Whims, Mike Needleman, Richard Tuckley) left to form WoW. The company scored early hits with Teddy Ruxpin (1985) and Lazer Tag (1986), both of which used novel interaction technology — animatronic tape-driven storytelling and IR combat, respectively. The Action Max was WoW's quick, low-cost attempt to enter the home video-game hardware market by leveraging the installed base of VHS VCRs already in millions of homes. It launched in late 1987 — the same quarter as the Black Monday stock crash, a Lazer Tag misidentification shooting incident, a Nintendo distribution deal cancellation, and Teddy Ruxpin inventory mis-forecasting that together pushed WoW into Chapter 11 in December 1987. Action Max had effectively no runway.
+* **Interaction Model.** The Action Max stack is unusually simple in hardware and unusually weird in concept. The player supplies their own VCR; the Action Max base unit is connected via an audio patch cord to the VCR's audio output (which feeds the headphones), and the gun is wired to the base unit. The VCR's video output goes directly to the TV — the console does NOT overlay graphics on the picture (a frequent secondary-source error). The Sonic Fighter pistol contains a lensed photocell behind the barrel and a trigger switch; no on-board processor. Pulling the trigger arms the photocell, which samples the brightness of whatever patch of screen it is pointed at on that frame. VHS tapes were authored with timed bright "hot spot" flashes at the moments a target was vulnerable — if the gun is aimed at a bright region at the trigger pull, the photocell voltage crosses threshold and the console registers a hit. Subtle differences in flicker pattern (largely invisible to the human eye) even encode target type — friendly/civilian targets vs. enemies, with hits on friendlies deducting points. The base unit's only outputs are: (1) the 2-character 7-segment LED score counter on its front (max 99), (2) hit/miss sound effects via internal speaker or headphones, and (3) a trigger signal to the suction-cup "Score Signal" lamp affixed to the TV that blinks to acknowledge a hit. The tape plays linearly for ~15 minutes regardless of input; there is no branching, no game state modification. The player cannot win or lose, only accumulate score. Power: 4× C batteries or 9V AC adapter.
+* **Commercial Life.** Five launch tapes shipped: Sonic Fury (aerial jet combat, bundled with the console), .38 Ambush Alley (police target range), Blue Thunder (helicopter gunship tie-in to the 1983 Columbia film), Hydrosub: 2021 (futuristic underwater voyage), and The Rescue of Pops Ghostly (comic haunted-house adventure). Each ran about 15 minutes. After WoW's December 1987 Chapter 11 filing, no further titles were developed. Creditors operated WoW in receivership selling off existing inventory until final closure in late 1990, and Action Max units moved at clearance prices through the early 1990s. The console is now a collector's item, with the Evan-Amos / Vanamo Online Game Museum set on Wikimedia Commons (16 high-resolution photos) providing the canonical visual record.
+* **Why It Matters.** The Action Max occupies a clean third corner of the museum's VHS-interaction design space. Bandai Terebikko (1988) uses VHS as an audio data channel decoded by a 4-button toy telephone — parasocial conversation. The deferred View-Master Interactive Vision (1988) uses VHS as a backdrop for console-generated 8-bit sprite overlay with dual-audio-track branching. The Action Max uses VHS as a visual target stream and the light gun as an optical input that reads brightness on the CRT phosphor — a console-as-score-only design with no game-state modification. The console is also a useful cautionary artifact: a single quarter of commercial life, a hardware ceiling that became obvious after ~15 minutes of play, and dependence on a separate consumer-owned VCR. It pairs naturally with the museum's other light/optical exhibits (Gibson Light Pen, Vectrex Light Pen, Sega SubRoc-3D periscope) and with the NES Zapper (1985, deferred) for a 'two paths for light-gun HCI' comparison. The Action Max is the doomed cousin: not iconic, not successful, but a real idea about what a game console could be.
+
+### Team
+
+* **Worlds of Wonder (WoW).** Fremont, California toy startup founded 1985 by ex-Atari sales president Don Kingsborough; defunct 1991 (operated in receivership from December 1987). Built Teddy Ruxpin, Lazer Tag, and Action Max.
+* **Don Kingsborough.** Founder/CEO of WoW (1941–2012). Former president of sales & marketing at Atari's consumer division. Left Atari in 1984 after the Warner-to-Tramiel sale; founded WoW in 1985.
+* **Ex-Atari engineering team.** WoW's small engineering team included several ex-Atari executives (Mark Robert Goldberg, David Small, Paul Rago, Steve Race, Larry Lynch, Jim Whims, Mike Needleman, Richard Tuckley). No individual product lead for Action Max is publicly credited.
+
+### Media
+
+![Action Max complete system: console, Sonic Fighter light gun, headphones, Score Signal lamp, and Sonic Fury VHS tape laid out on white](../assets/wiki/action-max-set.jpg)
+*The Action Max complete system: base console, jet-shaped Sonic Fighter light gun, headphones, suction-cup Score Signal lamp, and the bundled Sonic Fury VHS tape — the 'cartridge.' Public-domain photo by Evan-Amos (Vanamo Online Game Museum), 2015, via Wikimedia Commons.*
+
+![The Sonic Fighter jet-shaped light gun showing the lensed photocell behind the barrel](../assets/wiki/action-max-gun.jpg)
+*The Sonic Fighter light gun — a jet-shaped plastic pistol with a lensed photocell behind the barrel. Pulling the trigger arms the photocell, which samples the brightness of the screen at the point of aim. Public-domain photo by Evan-Amos via Wikimedia Commons.*
+
+### Sources
+
+1. Wikipedia: Action Max — https://en.wikipedia.org/wiki/Action_Max
+2. Wikipedia: Worlds of Wonder (toy company) — https://en.wikipedia.org/wiki/Worlds_of_Wonder_(toy_company)
+3. Wikimedia Commons: Category:Action Max (16 Evan-Amos photos, PD/CC-BY-SA) — https://commons.wikimedia.org/wiki/Category:Action_Max
+4. Rozenkrantz, Jonathan (2017). 'Action Max: Notes on a Deictic Dispositif,' Residual Media Depot / Milieux Institute, Concordia University — http://residualmedia.net/action-max-notes-on-a-deictic-dispositif/
+5. Gellene, Denise (1987-12-14). 'Big Trouble in Toyland,' Los Angeles Times — https://www.latimes.com/archives/la-xpm-1987-12-14-fi-19281-story.html
+6. Plunkett, Luke (2011). 'Only In The 80s Would They Put Video Games On A VHS Tape,' Kotaku — https://kotaku.com/only-in-the-80s-would-they-put-video-games-on-a-vhs-tap-5786220
+7. Slaven, Andy (2002). Video Game Bible, 1985–2002, p. 352 — https://en.wikipedia.org/wiki/Action_Max
+
+---
+
+## Toby Churchill Lightwriter SL1 (c. 1985)
+
+**By:** Toby Churchill Limited (Cambridge, UK)  
+**Tags:** `HCI` `AAC` `Accessibility` `Speech Synthesis` `Dual Display` `Medical/Clinical` `Wearable-Adjacent`
+
+### Overview
+
+The Lightwriter is a portable augmentative and alternative communication (AAC) device invented by Toby Churchill, a British engineer who lost his own speech and almost all motor function to encephalitis contracted in 1968 at age 21. After rehabilitation at Stoke Mandeville, Churchill — dissatisfied with the rudimentary POSSUM row/column scanner then available — designed a portable typewriter-style aid that displayed text rather than printing on paper, and founded Toby Churchill Ltd in 1973 to manufacture it. The defining form of the device, materialized in the SL1 (c. 1985), pairs two back-to-back LCD displays (one facing the user, one facing the listener) with a compact QWERTY keyboard and a speech synthesizer, so a person who cannot speak can type a message that the conversation partner reads in real time while also hearing it spoken aloud. This face-to-face, shared-visual-workspace design became the canonical British AAC paradigm and remained in production through descendants SL35 (1994) and SL40 (2008) under what is now Abilia Ltd. Churchill received a British Design Award; the company won the Queen's Award for Export (1995, 1996) and appeared four times on BBC's *Tomorrow's World* in the 1970s.
+
+### Deep dive
+
+* **Origins.** Toby Churchill DEng FRSA (born 29 June 1947, Cambridge) was educated at The Perse School and the University of Bath (engineering with French). He contracted encephalitis in 1968 while on a French work placement — swimming in a polluted river left him locked-in within 24 hours. A quirk of history: French President de Gaulle, mistakenly assuming the surname 'Churchill' meant kinship with Winston, arranged a private jet to fly him home to Addenbrooke's Hospital, Cambridge. After six months at Addenbrooke's and nine months at Stoke Mandeville, he regained limited movement (left hand and arm, some leg movement) and never regained speech. Dissatisfied with the rudimentary POSSUM row/column scanner then available to speech-impaired users in the UK, Churchill used his engineering training to design a portable typewriter-style aid that displayed text on a screen rather than printing it on paper. He founded Toby Churchill Limited in 1973 to manufacture the device.
+* **Interaction Model.** The Lightwriter SL1 has three coordinated output channels: (1) a user-facing dot-matrix LCD on which the message is composed with cursor and editing; (2) a listener-facing dot-matrix LCD on the back of the case showing the same text appearing character-by-character, so the partner can begin reading before the user finishes the utterance — eliminating the awkward 'swivel the device' or 'read aloud what I typed' steps that single-display AAC requires; (3) a built-in speech synthesizer that speaks the typed message through a loudspeaker, allowing novel utterances (not just pre-recorded phrases). The input is a compact QWERTY keyboard with a small number row and function keys — direct-selection, not scanning or icon-based, presupposing literacy and usable hand movement. The whole package is battery-powered (rechargeable NiCd), roughly 1.1–1.3 kg, ~220 × 140 × 45 mm, designed to sit on a lap or table. Later models added switch-scanning access and word prediction for users with limited hand movement or to accelerate output. The combination — keyboard input + dual-display shared workspace + spoken output, in a portable package — makes the Lightwriter a distinct HCI paradigm: a speech prosthesis explicitly designed for *face-to-face* conversation rather than just voice substitution.
+* **Commercial Life.** Toby Churchill Ltd (Cambridge; later based in Swavesey) sold the Lightwriter line continuously from 1973. The original 1973 model was a single-display typewriter-style device; the SL1 (c. 1985) was the first dual-LCD model and established the form factor most associated with the Lightwriter name. The SL2 (~1987) and SL3 (~1990) were incremental revisions. The SL35 (1994–2008) used higher-quality DECtalk-class speech synthesis (the same family as Stephen Hawking's later voice) and was the model most widely sold internationally. The SL40 (2008+) added modern connectivity. Toby Churchill Ltd was eventually acquired by the Swedish firm Abilia (formerly part of LJ/Possum UK group); Abilia still sells the Lightwriter SL50 today. Notable users include Diane Pretty (MND patient who used a Lightwriter to argue her right-to-die case before the House of Lords and ECHR), comedian Lee Ridley ('Lost Voice Guy'), and Prof. Sydney Selwyn. In fiction, Helena Bonham Carter's character in *The Theory of Flight* (1998) uses one.
+* **Why It Matters.** The Lightwriter represents a distinct HCI paradigm: the AAC device as a shared visual workspace between two people, not just a one-sided voice prosthesis. Among 1980s–early-1990s AAC, the dual back-to-back LCD + QWERTY + portable combination is genuinely unique. Prentke Romich's Touch Talker and Liberator used single-display + Minspeak icon encoding. Phonic Ear's Say-Master was single-display TTS. Zygo's devices were scanning/switch-based for users with severe motor impairment. None offered the partner-facing display that is the Lightwriter's defining contribution. The museum's collection already includes VersaBraille (Braille terminal for blind users — single-user, tactile output), Tongue Touch Keypad (alternative input peripheral — not a communication device), and Kay Visi-Pitch (clinical voice measurement — not AAC at all). The Lightwriter complements all three by introducing the face-to-face conversational paradigm. The inventor's biography — a young engineer designing for his own locked-in condition after surviving a near-fatal illness — is also an unusually strong exhibit narrative.
+
+### Team
+
+* **Toby Churchill DEng FRSA.** Inventor. Born 29 June 1947, Cambridge. University of Bath engineering graduate. Contracted encephalitis in 1968 at age 21, losing speech and most motor function; regained limited hand and arm movement. Founded Toby Churchill Ltd in 1973. Honorary DEng from the University of Bath (2010).
+* **Toby Churchill Limited.** Cambridge (later Swavesey), UK manufacturing company founded 1973. Won British Design Award; Queen's Award for Export (1995, 1996); DTI Languages for Export Award (1996). Eventually acquired by Swedish firm Abilia.
+* **Abilia Ltd.** Swedish AAC company (formerly part of LJ/Possum UK group) that now owns the Lightwriter line and continues to manufacture descendants (SL40, SL50) today.
+
+### Media
+
+![Lightwriter SL35 (1994) showing dual back-to-back LCD displays and QWERTY keyboard — form factor representative of the SL1](../assets/wiki/lightwriter-sl35.jpg)
+*Lightwriter SL35 (1994–2008), shown to represent the dual-display form factor established by the SL1 (c. 1985). Both back-to-back LCDs and the QWERTY keyboard are visible. Public-domain photo by MrArmstrong2 via Wikimedia Commons.*
+
+![Portrait of Toby Churchill, inventor of the Lightwriter](../assets/wiki/toby-churchill.jpg)
+*Toby Churchill (1947–), inventor of the Lightwriter. After losing his own speech to encephalitis at age 21, he designed the device because the existing POSSUM row/column scanner was inadequate. Public-domain photo by MrArmstrong2 via Wikimedia Commons.*
+
+### Sources
+
+1. Wikipedia: Lightwriter — https://en.wikipedia.org/wiki/Lightwriter
+2. Wikipedia: Toby Churchill — https://en.wikipedia.org/wiki/Toby_Churchill
+3. Wikipedia: Speech-generating device — https://en.wikipedia.org/wiki/Speech-generating_device
+4. Wikimedia Commons: SL35 Lightwriter (public-domain photo) — https://commons.wikimedia.org/wiki/File:SL35_Lightwriter.jpg
+5. Wikimedia Commons: Toby Churchill portrait (public-domain photo) — https://commons.wikimedia.org/wiki/File:Toby_Churchill.jpg
+6. Abilia Ltd (current Lightwriter manufacturer) — https://www.abilia.com/en/our-products/communication
+7. BBC Archive — Tomorrow's World 1970s review — https://www.bbc.co.uk/archive/tomorrowsworld/8019.shtml?all=2&id=8019
+8. University of Bath — honorary DEng citation (Toby Churchill, 2010) — http://www.bath.ac.uk/ceremonies/2010/summer/profiles/
+
+---
+
+## Optacon II (Tactile Reading Machine) (1985)
+
+**By:** Telesensory Systems Inc. (Mountain View, CA) in cooperation with Canon Inc.  
+**Tags:** `HCI` `Accessibility` `Sensory Substitution` `Tactile Output` `Reading Machine` `Wearable-Adjacent` `Piezoelectric`
+
+### Overview
+
+The Optacon (OPtical to TActile CONverter) is an electromechanical sensory-substitution reading machine for the blind, conceived at Stanford University in 1962 by EE professor John G. Linvill — motivated by his daughter Candy, blind from age three — and developed with James C. "Jim" Bliss at the Stanford Research Institute (SRI). The device shipped commercially in 1971 from Telesensory Systems Inc. (TSI) of Mountain View, CA, the startup Linvill and Bliss co-founded around 1970 to commercialize it. The user slides a small handheld camera probe across printed text; a custom 24×6 silicon-retina phototransistor array images a single letter-space, and the thresholded black/white image is mapped 1:1 onto a 24×6 (144-pin) tactile array of piezoelectric bimorph-driven metal rods vibrating against the user's index finger at ~250–300 Hz. The user "reads" by feeling the shape of letters as vibrating dot patterns moving across the fingertip — direct visual-to-tactile substitution with no OCR and no text-to-speech. Reading speeds of 30–100 wpm were typical after extensive training. Roughly 15,000 units were sold over the product's 25-year life. In 1985, TSI partnered with Canon Inc. to release the **Optacon II**, a redesigned model with improved packaging and a computer/terminal interfacing capability, allowing users to read CRT screens via special lens modules. The Optacon II was commercially unsuccessful — a cost-driven decision reduced the tactile array from 144 to 100 pixels, hurting usability. TSI discontinued the Optacon line in 1996 and shut down entirely in 2005.
+
+### Deep dive
+
+* **Origins.** John G. Linvill, then a Stanford EE professor, conceived the Optacon in 1962 during a sabbatical in Switzerland after seeing an IBM pin-printer in Germany. His daughter Candy had been blind since age three, and he wanted a device that would let her read ordinary printed material without waiting for Braille transcription. Linvill filed the foundational patent (US 3,229,387, granted Jan 1966) and co-authored the foundational IEEE paper with Jim Bliss in 1966. Bliss, an SRI researcher with a doctorate in tactile displays, joined the Stanford faculty half-time to lead the tactile psychophysics, bimorph-driven pin array, and optics. Together they co-founded Telesensory Systems Inc. (TSI) around 1970 to commercialize the device; Linvill served as Chairman of the Board.
+* **Interaction Model.** The Optacon is a two-part device. A small handheld camera module (~the size of a penknife) contains a custom monolithic 24×6 silicon-retina array of phototransistors, an LED illuminator, and a simple lens; the user manually slides the camera left-to-right across a line of print. A thin cable runs to the main electronics unit, which contains a 24-row × 6-column matrix of tiny metal rods (144 total), each driven by a piezoelectric bimorph reed vibrating at ~250–300 Hz. Rows are spaced 1 mm apart, columns 2 mm apart — fitting within an index fingertip. Black pixels in the camera image trigger vibration of the corresponding pins; white pixels do not. As the camera moves, tactile letter-shapes flow across the finger, mirroring the printed text in real time. Controls are minimal: an intensity knob (vibration strength), a threshold knob (black/white cutoff), and a polarity switch (dark-on-light vs. light-on-dark text). The Optacon II reduced the array to 100 pins to lower cost but added a computer-interface capability and special lens modules for typewriters, calculators, and CRT screens. Pure sensory substitution: no OCR, no storage, no speech synthesis — the user does the recognition.
+* **Commercial Life.** The original Optacon shipped in 1971 at a price of around $3,500 (later dropping as low as $1,500 with insurance subsidies), with battery operation. The 1972 "one-hand" redesign (suggested by Harry Garland, built by Roger Melen and Max Maginness at Stanford) consolidated the camera and tactile array into a single hand-held unit. Throughout the late 1970s and early 1980s, TSI added lens modules for typewriters, calculator screens, and computer terminals — extending the reading surface beyond paper. The Optacon II (1985), co-developed with Canon Inc., was a substantial redesign with improved packaging and a dedicated computer interface; its tactile array was reduced from 144 to 100 pins in a cost-driven decision that hurt usability and limited its market. Roughly 15,000 total units were sold across the 1971–1996 production life. TSI discontinued the Optacon line in 1996 and shut down entirely in March 2005. The Computer History Museum (Mountain View) holds the S-15 prototype (1971, IR-100 Award winner); the Museo Tiflológico (Madrid) also holds an Optacon in its collection.
+* **Why It Matters.** The Optacon is foundational in two HCI lineages. First, sensory-substitution interfaces: it is one of the earliest and most commercially successful devices to map one human sense onto another in real time, predating modern visual-to-auditory and visual-to-tactile substitution research by decades. The user's finger becomes a live image sensor — the pin array is a tactile retina. Second, assistive technology as a Silicon Valley industry: TSI was an early Bay Area startup explicitly founded to commercialize a disability-focused hardware device, supported by federal Office of Education and ONR funding. The Optacon II (1985) marks the moment the device gained a computer interface, moving it from paper-only to screen-reading and bridging the standalone-instrument era and the PC era. It is also a sobering case study in cost-driven design: the Optacon II's reduction from 144 to 100 pins degraded the user experience so badly that long-time Optacon users largely stuck with the older model.
+
+### Team
+
+* **John G. Linvill.** Stanford EE professor (later EE Dept. Chair). Conceived the Optacon in 1962 during a Swiss sabbatical after seeing an IBM pin-printer; filed foundational patent US 3,229,387 (1966). Motivated by his daughter Candy (blind from age 3). Co-founded Telesensory Systems Inc. (~1970); served as Chairman of the Board.
+* **James C. "Jim" Bliss.** SRI researcher (formerly MIT, doctorate in tactile displays); joined Stanford faculty half-time. Led tactile psychophysics, the bimorph-driven pin array, and the optics. Co-founded TSI with Linvill.
+* **Telesensory Systems Inc. (TSI).** Silicon Valley / Mountain View, CA startup founded by Linvill and Bliss around 1970 specifically to commercialize the Optacon. Manufactured the Optacon 1971–1996; shut down March 2005.
+* **Canon Inc..** Japanese imaging company. Partnered with TSI in 1985 to develop the Optacon II (improved packaging + computer-interface capability).
+* **Stanford & SRI contributors.** Stanford graduate students J.S. Brugler, J.D. Plummer, Roger Melen, P. Salsbury, G.J. Alonzo, John Hill, Charles Rogers, Jon Taenzer worked on the silicon retina, bimorph drivers, tactile frequency, and reading-rate experiments. SRI contributors included James Baer and John Gill (optics & packaging). Harry Garland suggested and Roger Melen & Max Maginness built the 1972 one-hand redesign.
+
+### Media
+
+![Optacon II unit, photo of the redesigned 1985 model with improved packaging](../assets/wiki/optacon-ii.jpg)
+*Optacon II (1985 prototype; commercial release 1985), the redesigned model co-developed by Telesensory Systems and Canon Inc. with computer-interfacing capability. Public-domain photo by DrBliss (Jim Bliss, co-inventor) via Wikimedia Commons.*
+
+![Original 1971 Optacon unit, the long-running commercial product](../assets/wiki/optacon-original.jpg)
+*The original Optacon (1971), shown for lineage. The user holds the small camera probe in one hand and reads with the index finger of the other on the 144-pin tactile array. Photo by DrBliss (Jim Bliss), public domain, via Wikimedia Commons.*
+
+### Sources
+
+1. Wikipedia: Optacon — https://en.wikipedia.org/wiki/Optacon
+2. Linvill, J.G. & Bliss, J.C. (Jan 1966). 'A Direct Translation Reading Aid for the Blind,' Proceedings of the IEEE, Vol. 54, No. 1, pp. 40–51 — https://ieeexplore.ieee.org/document/1447669
+3. Linvill, J.G. (March 1973). Final Report: Research and development of Tactile Facsimile Reading Aid for the Blind. Stanford Electronics Laboratories — https://archive.org/details/OptaconFinalReportJohnLinvill1973
+4. Bliss, J.C. (March 1969). 'A Relatively High-Resolution Reading Aid for the Blind,' IEEE Trans. Man-Machine Systems, Vol. MMS-10, No. 1, pp. 1–9 — https://ieeexplore.ieee.org/document/4083574
+5. Wikimedia Commons: Optacon category (multiple PD/CC-licensed images by DrBliss) — https://commons.wikimedia.org/wiki/Category:Optacon
+6. NFB Braille Monitor: 'The Optacon: Past, Present, and Future' — http://www.nfb.org/bm/bm98/bm980506.htm
+7. Computer History Museum Optacon collection (S-15 prototype) — https://www.computerhistory.org/collections/search/?q=optacon
