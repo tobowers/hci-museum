@@ -1,6 +1,6 @@
 # The HCI Golden Age Wiki
 
-A research compendium for a digital museum of cutting-edge Human-Computer Interaction from the late 1970s through the early 1990s. These one hundred and eight projects mix canonical experiments with weird, forgotten, and beautiful vaporware — brain control, voice control, gesture, wearable computing, VR, robots, and full-body exertion.
+A research compendium for a digital museum of cutting-edge Human-Computer Interaction from the late 1970s through the early 1990s. These one hundred and fifteen projects mix canonical experiments with weird, forgotten, and beautiful vaporware — brain control, voice control, gesture, wearable computing, VR, robots, and full-body exertion.
 
 Each entry includes an overview, a deep dive, a small media gallery, and full source links so the images and facts can always be traced back.
 
@@ -120,6 +120,8 @@ Each entry includes an overview, a deep dive, a small media gallery, and full so
 111. [BBC Domesday Project (1986)](#bbc-domesday-project-1986)
 112. [Sega Hologram Time Traveler (1991)](#sega-hologram-time-traveler-1991)
 113. [Milton Bradley Simon (1978)](#milton-bradley-simon-1978)
+114. [Aspen Movie Map (1978)](#aspen-movie-map-1978)
+115. [Suzuki Omnichord (1981)](#suzuki-omnichord-1981)
 
 ---
 
@@ -5995,3 +5997,93 @@ The patent describes five games, not just one: Game 1 (solo vs. machine, ever-le
 8. Benj Edwards: 'Simon Turns 30' (1up.com, archived) — https://web.archive.org/web/20121004165531/http://www.1up.com/features/simon-turns-30
 9. Smithsonian NMAH: Simon (1978) object record — https://americanhistory.si.edu/collections/object/nmah_1302005
 10. Hasbro: current Simon product page — https://www.hasbro.com/en-us/product/simon-game:6B0A06E3-5056-9047-F532-6A891FAEBA15
+
+---
+
+## Aspen Movie Map (1978)
+
+**By:** MIT Architecture Machine Group (Andrew Lippman, Nicholas Negroponte)  
+**Tags:** `HCI` `Input` `Hypermedia` `Touchscreen` `Laserdisc` `Surrogate Travel` `MIT`
+
+### Overview
+
+The Aspen Movie Map was a hypermedia system developed at MIT's Architecture Machine Group in 1978 that enabled users to take a virtual tour through the city of Aspen, Colorado — a form of surrogate travel. Four 16mm stop-frame film cameras on a gyro-stabilized car rig filmed every street in the city, capturing front, back, and side views every 10 feet. The film was transferred to laserdisc, and a database correlated the video layout with the two-dimensional street plan. Users navigated by touching on-screen directional arrows and could touch any building facade to 'enter' it and see interior video, historical photos, or restaurant menus. A navigation map overlay showed current position and allowed jumping to an aerial view. Users could also switch between fall and winter footage on demand. The system ran on an Interdata minicomputer with a Ramtek 9000 display and pioneered the paradigm of interactive spatial hypermedia — predating Google Street View, DVD menus, and web-based virtual tours by decades.
+
+The Aspen Movie Map demonstrated that a computer could assemble video on the fly in response to user navigation choices, creating the illusion of freely exploring a physical space. It was one of the first systems where touching a specific region of a video image triggered context-sensitive actions (hyperlinked video). The project was funded by DARPA's Cybernetics Technology Office, with the military application being rapid familiarization of soldiers with new territory — inspired by the Israeli commandos' success in Operation Entebbe (1976), where they had built a physical replica of the target airport for rehearsal.
+
+### Deep dive
+
+* **Origins.** The Aspen Movie Map grew out of an earlier MIT project where undergraduate Peter Clay filmed the hallways of MIT with a cart-mounted camera and transferred the footage to laserdisc. This proof-of-concept demonstrated that video could be navigated interactively rather than played linearly. With DARPA funding secured by Nicholas Negroponte, the Architecture Machine Group (precursor to the MIT Media Lab) set out to film an entire city. Aspen, Colorado was chosen for its compact size and grid layout. Principal investigator Andrew Lippman led the technical team; Michael Naimark designed the cinematography; Bob Mohl designed the map overlay and studied the system's effectiveness for his PhD thesis.
+* **Interaction Design.** The interface combined multiple interaction paradigms that were radical for 1978. A touch-sensitive screen overlaid directional arrows on the video image — touch an arrow to move forward, turn left, turn right, or reverse. Touch any building facade to access hyperlinked content: interior photographs, historical images, restaurant menus, or video interviews with city officials. A navigation map appeared above the horizon, showing current position, explored streets, and allowing jump to a 2D city map with both aerial photography and cartoon renderings. Users could change seasons (fall to winter) with a single touch, watching the same street transform. A 3D polygonal model of the city with texture-mapped building facades (using Paul Heckbert's pioneering texture-mapping algorithm) could be viewed as an alternative representation. The system used a client/server architecture: a client process handled user input and overlay graphics, while a server managed the laserdisc players and database.
+* **Technical Implementation.** The filming rig used a gyroscopic stabilizer with four 16mm stop-frame cameras triggered every 10 feet by an optical sensor attached to a bicycle wheel towed behind the vehicle. Filming occurred between 10 am and 2 pm to minimize lighting variance. The car was carefully driven down the center of every street to enable clean match cuts. A Ramtek 9000 series image display (with a custom 32-bit interface to the Interdata minicomputer) provided the display. The system ran on the MagicSix operating system. The metadata for each frame — including its spatial position and hyperlink targets — was encoded as a digital signal within the analog video itself in later implementations. The laserdisc medium was essential: it provided the random-access capability needed to jump instantly between any two frames in response to user navigation.
+* **Legacy.** The Aspen Movie Map directly influenced decades of HCI research. It was the first system to demonstrate interactive surrogate travel, the first to use touch-driven spatial hypermedia at city scale, and an early demonstration of the principle that video could be a database, not just a linear medium. Its touch-to-explore paradigm anticipated web image maps, DVD menu systems, and eventually Google Street View (2007). The project's team members went on to distinguished careers: Andrew Lippman became associate director of the MIT Media Lab; Walter Bender founded the MIT Media Lab's News in the Future consortium and later One Laptop per Child's software division; Scott Fisher became founding director of NASA's VIEW virtual reality project; Michael Naimark became a pioneering new media artist; Bob Mohl's PhD on the cognitive aspects of virtual navigation was one of the first theses on spatial learning in virtual environments.
+
+### Team
+
+* **Andrew Lippman.** Principal investigator; later associate director of MIT Media Lab
+* **Nicholas Negroponte.** Founder and director of the Architecture Machine Group; secured DARPA funding
+* **Michael Naimark.** Cinematography design and production; from MIT Center for Advanced Visual Studies
+* **Bob Mohl.** Map overlay system design; studied system efficacy for PhD thesis on cognitive space in virtual environments
+* **Walter Bender.** Designed and built the interface, client/server model, and animation system; later executive director of MIT Media Lab
+* **Scott Fisher.** Historical photography matching and anamorphic imaging experiments; later founding director of NASA VIEW VR project
+* **Paul Heckbert.** Developed the texture-mapping algorithm used for 3D building facades; pioneering computer graphics researcher
+* **Richard Leacock.** Headed MIT Film/Video section; shot Cinéma Vérité interviews placed behind building facades
+* **John Borden.** Peace River Films; designed the camera stabilization rig
+* **Steve Yelick.** Laserdisc interface and anamorphic rendering
+* **Eric Brown.** Built the metadata encoder/decoder for embedding digital data in analog video
+
+### Media
+
+![QADAS 3D model of Aspen with texture-mapped building facades, used in the Aspen Movie Map](assets/wiki/qadas-aspen-movie-map.jpg)
+*The Quick and Dirty Animation System (QADAS) 3D model of Aspen with texture-mapped building facades, developed for the Movie Map. Image by Walter Bender, CC BY-SA 3.0, via Wikimedia Commons.*
+
+### Sources
+
+1. Wikipedia: Aspen Movie Map — https://en.wikipedia.org/wiki/Aspen_Movie_Map
+2. Michael Naimark project page — http://www.naimark.net/projects/aspen.html
+3. The Interactive Movie Map: A Surrogate Travel System (1981 demo video) — https://www.youtube.com/watch?v=Hf6LkqgXPMU
+4. Lippman, 'Movie-maps: An application of the optical videodisc to computer graphics,' SIGGRAPH 1980 — https://dl.acm.org/doi/10.1145/800250.807465
+5. Naimark, 'Aspen the Verb: Musings on Heritage and Virtuality,' Presence, 2006 — http://www.naimark.net/writing/aspen.html
+6. Domesday86 Project: Aspen Movie Map laserdisc restoration — https://www.domesday86.com/?page_id=3028
+
+---
+
+## Suzuki Omnichord (1981)
+
+**By:** Suzuki Musical Instrument Corporation  
+**Tags:** `HCI` `Input` `Music` `Consumer Electronics` `Touch Interface` `Japanese`
+
+### Overview
+
+The Omnichord is an electronic musical instrument introduced in 1981 by the Suzuki Musical Instrument Corporation of Hamamatsu, Japan. Conceived as an electronic autoharp, its defining feature is the 'Sonic Strings' strum plate — a long touch-sensitive resistive strip that the player strokes with a finger to produce arpeggios. The crucial innovation: the notes produced by the strum plate are always in-key with whichever chord button is currently pressed. Select 'C major' and strum — every note is a C, E, or G. You cannot play a wrong note. This made the Omnichord extraordinarily accessible to people with no musical training, and it became popular in Japanese advertising, music education, and among professional musicians drawn to its distinctive timbre.
+
+The original OM-27 (1981) had 27 chord buttons and a single 'harp' voice, plus preset drum machine rhythms and auto-bass accompaniment. Later models expanded chord selection to 84 chords, added multiple instrument voices (guitar, piano, banjo, vibraphone, brass, organ, flute, synthesizer), and incorporated MIDI output (OM-250, 1989) and input (OM-300, early 1990s). Production of the classic models ceased in 1996, but the Omnichord experienced a major revival in the 2010s–2020s driven by experimental music scenes and vintage instrument collectors. Suzuki released the new OM-108 model in 2024 with analog circuitry, emulations of classic models, and modern features.
+
+The Omnichord was used by Brian Eno and Daniel Lanois on U2's 'The Joshua Tree' and the Apollo soundtrack, by David Bowie at the Concert for New York City (2001), and by Damon Albarn for Gorillaz' 'Clint Eastwood' (using the OM-300's 'Rock 1' preset). In 2024, Meshell Ndegeocello won the inaugural Grammy Award for Best Alternative Jazz Album with 'The Omnichord Real Book,' an album composed entirely on Omnichord.
+
+### Deep dive
+
+* **Origins.** Suzuki, better known for harmonicas and melodicas (and later the Q-Chord), conceived the Omnichord as an electronic autoharp — a way to give non-musicians the experience of playing a stringed instrument. The key insight was the strum plate: instead of having to learn finger positions on strings, you simply stroke a touch-sensitive surface. The chord buttons do the harmonic work. The original OM-27 launched in 1981 alongside a variant called the Tronichord (also known as the Portachord). It was aimed at people intimidated by traditional keyboard instruments — a consumer electronics approach to music-making that treated the interface as the product's core innovation.
+* **Sonic Strings Strum Plate.** The strum plate is the heart of the Omnichord's interaction model. It's a horizontal touch-sensitive strip — early models used a resistive membrane, later ones a refined touch surface — that the player strokes or taps with a finger. The plate spans four octaves, with position determining pitch and velocity responding to touch dynamics (on some models). But the critical design choice is that the plate does not produce arbitrary pitches: it quantizes output to the notes of the currently selected chord. Press a C major chord button and the entire four-octave span contains only C, E, and G at different octaves. Press C minor and you get C, E-flat, G. This 'always in-key' property is what makes the Omnichord unique — it decouples the physical gesture of strumming from the cognitive load of note selection. The strum plate essentially functions as a one-dimensional touch controller with context-sensitive output mapping — a concept that predates modern touch interfaces by decades.
+* **Three Sound Generators.** Every Omnichord has three independent sound engines running simultaneously. The percussion section provides preset drum patterns (rock, waltz, slow rock, Latin, foxtrot, swing) with adjustable tempo and volume. The chord generator produces sustained organ-like chord pads or walking bass lines in the selected chord. The Sonic Strings section produces the strummed arpeggio or individual melody notes. The player can start a rhythm, hold a chord button, and strum along — creating a complete musical arrangement with no musical knowledge. Later models added a chord sequencer (recording up to 51 chords in sequence for automatic playback via footswitch) and MIDI I/O, turning the Omnichord into a capable composition and performance tool.
+* **Cultural Impact and Legacy.** The Omnichord occupies a unique cultural position. It was a mass-market consumer product (sold through music stores and department stores worldwide), yet it was adopted by avant-garde musicians drawn to its unconventional interface and lo-fi charm. Brian Eno and Daniel Lanois used a slowed-down Omnichord recording on 'Deep Blue Day' from the 1983 album Apollo: Atmospheres and Soundtracks — the track later featured in the film Trainspotting. Lanois processed Omnichord through delay effects and guitar amplifiers on U2's 'Trip Through Your Wires' (The Joshua Tree, 1987). David Bowie performed Simon & Garfunkel's 'America' on Omnichord at the 2001 Concert for New York City. Gorillaz' breakthrough hit 'Clint Eastwood' (2001) used the OM-300's 'Rock 1' preset. Tiny Tim claimed his 1985 single was 'the first recording ever played entirely on the Suzuki Omnichord.' The instrument's 2024 Grammy win for Meshell Ndegeocello's 'The Omnichord Real Book' — the first-ever Best Alternative Jazz Album award — confirmed its enduring artistic relevance. Suzuki's 2024 reissue as the OM-108 demonstrates the interface's timeless appeal.
+
+### Team
+
+* **Suzuki Musical Instrument Corporation.** Japanese instrument manufacturer founded 1953 in Hamamatsu; creator of the Omnichord, Q-Chord, melodicas, and harmonicas
+
+### Media
+
+![Suzuki Omnichord OM-150 front panel showing chord buttons, strum plate, and controls](assets/wiki/omnichord-om150.jpg)
+*Suzuki Omnichord OM-150 with Sonic Strings strum plate (horizontal strip) and chord buttons. Public domain image by Hurryman, via Wikimedia Commons.*
+
+![Suzuki Omnichord OM-27, the original 1981 model in brown, showing 27 chord buttons and strum plate](assets/wiki/omnichord-om27.jpg)
+*The original Omnichord OM-27 (1981) with 27 chord buttons. Photo by tico_24, CC BY 2.0, via Wikimedia Commons.*
+
+### Sources
+
+1. Wikipedia: Omnichord — https://en.wikipedia.org/wiki/Omnichord
+2. Omnichord Heaven (comprehensive resource) — https://www.omnichord-heaven.com/
+3. Maymind, 'Blast from the past: Suzuki Omnichord,' MusicRadar, 2023 — https://www.musicradar.com/news/blast-from-past-suzuki-omnichord
+4. Gale, 'Vintage rewind: Suzuki Omnichord,' MusicTech, 2020 — https://musictech.com/features/opinion-analysis/vintage-rewind-suzuki-omnichord/
+5. Ellis, 'Suzuki Omnichord,' Electronics & Music Maker, May 1982 — http://www.muzines.co.uk/articles/suzuki-omnichord/4271

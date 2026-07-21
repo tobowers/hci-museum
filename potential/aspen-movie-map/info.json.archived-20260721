@@ -1,0 +1,68 @@
+{
+  "slug": "aspen-movie-map",
+  "title": "Aspen Movie Map",
+  "year": "1978",
+  "subtitle": "Touch a building on screen to enter it — the first surrogate-travel system, predating Google Street View by 30 years",
+  "why_scout_cares": "This is the direct conceptual ancestor of Google Street View, interactive mapping, and virtual tourism. Users navigated pre-recorded video of Aspen, Colorado by touching on-screen arrows, touching buildings to enter them, and switching seasons on demand — all through a touch-screen + laserdisc system in 1978. The interaction model (spatial hypermedia, touch-to-explore, surrogate travel) was decades ahead of its time and has no equivalent in the museum's collection. It's a landmark MIT Architecture Machine Group project with a richly documented team including Andrew Lippman, Nicholas Negroponte, Michael Naimark, Walter Bender, and Scott Fisher.",
+  "search_terms": ["aspen movie map", "MIT surrogate travel", "interactive laserdisc", "Architecture Machine Group", "Andrew Lippman"],
+  "research": {
+    "title": "Aspen Movie Map",
+    "year": "1978",
+    "by": "MIT Architecture Machine Group (Andrew Lippman, Nicholas Negroponte)",
+    "tags": ["HCI", "Input", "Hypermedia", "Touchscreen", "Laserdisc", "Surrogate Travel", "MIT"],
+    "overview": "The Aspen Movie Map was a hypermedia system developed at MIT's Architecture Machine Group in 1978 that enabled users to take a virtual tour through the city of Aspen, Colorado — a form of surrogate travel. Four 16mm stop-frame film cameras on a gyro-stabilized car rig filmed every street in the city, capturing front, back, and side views every 10 feet. The film was transferred to laserdisc, and a database correlated the video layout with the two-dimensional street plan. Users navigated by touching on-screen directional arrows and could touch any building facade to 'enter' it and see interior video, historical photos, or restaurant menus. A navigation map overlay showed current position and allowed jumping to an aerial view. Users could also switch between fall and winter footage on demand. The system ran on an Interdata minicomputer with a Ramtek 9000 display and pioneered the paradigm of interactive spatial hypermedia — predating Google Street View, DVD menus, and web-based virtual tours by decades.\n\nThe Aspen Movie Map demonstrated that a computer could assemble video on the fly in response to user navigation choices, creating the illusion of freely exploring a physical space. It was one of the first systems where touching a specific region of a video image triggered context-sensitive actions (hyperlinked video). The project was funded by DARPA's Cybernetics Technology Office, with the military application being rapid familiarization of soldiers with new territory — inspired by the Israeli commandos' success in Operation Entebbe (1976), where they had built a physical replica of the target airport for rehearsal.",
+    "deepDive": [
+      {
+        "heading": "Origins",
+        "text": "The Aspen Movie Map grew out of an earlier MIT project where undergraduate Peter Clay filmed the hallways of MIT with a cart-mounted camera and transferred the footage to laserdisc. This proof-of-concept demonstrated that video could be navigated interactively rather than played linearly. With DARPA funding secured by Nicholas Negroponte, the Architecture Machine Group (precursor to the MIT Media Lab) set out to film an entire city. Aspen, Colorado was chosen for its compact size and grid layout. Principal investigator Andrew Lippman led the technical team; Michael Naimark designed the cinematography; Bob Mohl designed the map overlay and studied the system's effectiveness for his PhD thesis."
+      },
+      {
+        "heading": "Interaction Design",
+        "text": "The interface combined multiple interaction paradigms that were radical for 1978. A touch-sensitive screen overlaid directional arrows on the video image — touch an arrow to move forward, turn left, turn right, or reverse. Touch any building facade to access hyperlinked content: interior photographs, historical images, restaurant menus, or video interviews with city officials. A navigation map appeared above the horizon, showing current position, explored streets, and allowing jump to a 2D city map with both aerial photography and cartoon renderings. Users could change seasons (fall to winter) with a single touch, watching the same street transform. A 3D polygonal model of the city with texture-mapped building facades (using Paul Heckbert's pioneering texture-mapping algorithm) could be viewed as an alternative representation. The system used a client/server architecture: a client process handled user input and overlay graphics, while a server managed the laserdisc players and database."
+      },
+      {
+        "heading": "Technical Implementation",
+        "text": "The filming rig used a gyroscopic stabilizer with four 16mm stop-frame cameras triggered every 10 feet by an optical sensor attached to a bicycle wheel towed behind the vehicle. Filming occurred between 10 am and 2 pm to minimize lighting variance. The car was carefully driven down the center of every street to enable clean match cuts. A Ramtek 9000 series image display (with a custom 32-bit interface to the Interdata minicomputer) provided the display. The system ran on the MagicSix operating system. The metadata for each frame — including its spatial position and hyperlink targets — was encoded as a digital signal within the analog video itself in later implementations. The laserdisc medium was essential: it provided the random-access capability needed to jump instantly between any two frames in response to user navigation."
+      },
+      {
+        "heading": "Legacy",
+        "text": "The Aspen Movie Map directly influenced decades of HCI research. It was the first system to demonstrate interactive surrogate travel, the first to use touch-driven spatial hypermedia at city scale, and an early demonstration of the principle that video could be a database, not just a linear medium. Its touch-to-explore paradigm anticipated web image maps, DVD menu systems, and eventually Google Street View (2007). The project's team members went on to distinguished careers: Andrew Lippman became associate director of the MIT Media Lab; Walter Bender founded the MIT Media Lab's News in the Future consortium and later One Laptop per Child's software division; Scott Fisher became founding director of NASA's VIEW virtual reality project; Michael Naimark became a pioneering new media artist; Bob Mohl's PhD on the cognitive aspects of virtual navigation was one of the first theses on spatial learning in virtual environments."
+      }
+    ],
+    "team": [
+      { "name": "Andrew Lippman", "note": "Principal investigator; later associate director of MIT Media Lab" },
+      { "name": "Nicholas Negroponte", "note": "Founder and director of the Architecture Machine Group; secured DARPA funding" },
+      { "name": "Michael Naimark", "note": "Cinematography design and production; from MIT Center for Advanced Visual Studies" },
+      { "name": "Bob Mohl", "note": "Map overlay system design; studied system efficacy for PhD thesis on cognitive space in virtual environments" },
+      { "name": "Walter Bender", "note": "Designed and built the interface, client/server model, and animation system; later executive director of MIT Media Lab" },
+      { "name": "Scott Fisher", "note": "Historical photography matching and anamorphic imaging experiments; later founding director of NASA VIEW VR project" },
+      { "name": "Paul Heckbert", "note": "Developed the texture-mapping algorithm used for 3D building facades; pioneering computer graphics researcher" },
+      { "name": "Richard Leacock", "note": "Headed MIT Film/Video section; shot Cinéma Vérité interviews placed behind building facades" },
+      { "name": "John Borden", "note": "Peace River Films; designed the camera stabilization rig" },
+      { "name": "Steve Yelick", "note": "Laserdisc interface and anamorphic rendering" },
+      { "name": "Eric Brown", "note": "Built the metadata encoder/decoder for embedding digital data in analog video" }
+    ],
+    "media": [
+      {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/4/48/QADAS.jpg",
+        "alt": "QADAS 3D model of Aspen with texture-mapped building facades, used in the Aspen Movie Map",
+        "caption": "The Quick and Dirty Animation System (QADAS) 3D model of Aspen with texture-mapped building facades, developed for the Movie Map. Image by Walter Bender, CC BY-SA 3.0, via Wikimedia Commons."
+      }
+    ],
+    "sources": [
+      { "text": "Wikipedia: Aspen Movie Map", "url": "https://en.wikipedia.org/wiki/Aspen_Movie_Map" },
+      { "text": "Michael Naimark project page", "url": "http://www.naimark.net/projects/aspen.html" },
+      { "text": "The Interactive Movie Map: A Surrogate Travel System (1981 demo video)", "url": "https://www.youtube.com/watch?v=Hf6LkqgXPMU" },
+      { "text": "Lippman, 'Movie-maps: An application of the optical videodisc to computer graphics,' SIGGRAPH 1980", "url": "https://dl.acm.org/doi/10.1145/800250.807465" },
+      { "text": "Naimark, 'Aspen the Verb: Musings on Heritage and Virtuality,' Presence, 2006", "url": "http://www.naimark.net/writing/aspen.html" },
+      { "text": "Domesday86 Project: Aspen Movie Map laserdisc restoration", "url": "https://www.domesday86.com/?page_id=3028" }
+    ],
+    "imageUrls": [
+      "https://upload.wikimedia.org/wikipedia/commons/4/48/QADAS.jpg",
+      "https://en.wikipedia.org/wiki/Aspen_Movie_Map",
+      "http://www.naimark.net/projects/aspen.html",
+      "https://www.youtube.com/watch?v=Hf6LkqgXPMU"
+    ]
+  },
+  "savedImages": []
+}

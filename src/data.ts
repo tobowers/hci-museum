@@ -1431,6 +1431,30 @@ const exhibitData: Exhibit[] = [
     tags: ["Microcontroller", "Audio-Visual", "Memory Game", "Consumer", "Closed-Loop", "TMS1000", "Input"],
     image: img("simon-game.jpg"),
   },
+  {
+    id: "aspen-movie-map",
+    slug: "aspen-movie-map",
+    wikiTitle: "Aspen Movie Map",
+    year: "1978",
+    sortYear: 1978,
+    title: "Aspen Movie Map",
+    subtitle: "Touch a building on screen to enter it — the first surrogate-travel system, predating Google Street View by 30 years",
+    blurb: "The Aspen Movie Map (1978) was a hypermedia system developed at MIT's Architecture Machine Group that enabled users to take a virtual tour through Aspen, Colorado. Four 16mm stop-frame cameras on a gyro-stabilized car filmed every street every 10 feet. The footage was transferred to laserdisc and correlated with a street-plan database. Users navigated by touching on-screen directional arrows on a touch-sensitive display, and could touch any building facade to 'enter' it — accessing interior photos, restaurant menus, or video interviews. A navigation map showed current position; seasons could be switched on demand. The system ran on an Interdata minicomputer with a Ramtek 9000 display. Touch-driven spatial hypermedia at city scale, with hyperlinked video — a landmark that directly anticipated Google Street View, web image maps, and interactive mapping. Funded by DARPA; team included Andrew Lippman, Nicholas Negroponte, Michael Naimark, Walter Bender, and Scott Fisher.",
+    tags: ["Touchscreen", "Hypermedia", "Laserdisc", "Surrogate Travel", "Spatial Navigation", "MIT", "Input"],
+    image: img("qadas-aspen-movie-map.jpg"),
+  },
+  {
+    id: "omnichord",
+    slug: "omnichord",
+    wikiTitle: "Suzuki Omnichord",
+    year: "1981",
+    sortYear: 1981,
+    title: "Suzuki Omnichord",
+    subtitle: "Strum a touch-sensitive plate to play electronic arpeggios — an instrument that makes it impossible to hit a wrong note",
+    blurb: "The Suzuki Omnichord (1981) is an electronic musical instrument whose defining feature is the 'Sonic Strings' strum plate — a long touch-sensitive strip that produces arpeggios always in-key with the currently selected chord button. Press 'C major' and strum: every note is C, E, or G. You cannot play a wrong note. Three independent sound engines (percussion rhythms, chord pads, Sonic Strings arpeggios) run simultaneously, letting non-musicians create complete arrangements instantly. Later models added MIDI I/O, 84 chords, and multiple instrument voices. Used by Brian Eno, David Bowie, Gorillaz, and U2; won a Grammy in 2024 (Meshell Ndegeocello's 'The Omnichord Real Book'). Suzuki reissued it in 2024 as the OM-108. The strum plate is a one-dimensional touch controller with context-sensitive output mapping — an interaction model with no equivalent in any traditional instrument.",
+    tags: ["Music", "Touch Interface", "Consumer Electronics", "Strum Plate", "Japanese", "Input"],
+    image: img("omnichord-om150.jpg"),
+  },
 ];
 
 export const exhibits: Exhibit[] = exhibitData.toSorted((a, b) => b.sortYear - a.sortYear || a.title.localeCompare(b.title));

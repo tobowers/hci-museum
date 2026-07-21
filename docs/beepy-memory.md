@@ -197,3 +197,21 @@ Promotion gotchas (2026-07-20):
 - Wikimedia Commons images released "PD-self" by DrBliss (Jim Bliss, co-inventor of the Optacon) are a clean source for the Optacon — confirmed public-domain. Direct contact uploads by inventors are excellent primary-source images.
 - For AAC/accessibility artifacts where the specific SL1 (1985) has no freely-licensed photo, using a PD photo of a later model (SL35 1994) that visibly demonstrates the defining form factor (dual displays) is acceptable per museum precedent, with honest captioning ("SL35 shown to represent the SL1 form factor").
 - The candidate well remains thin at 112 exhibits. Subagents this round returned 6 STRONG candidates but 3 of those (LEGO TC Logo, Braille 'n Speak, Tomy Verbot) are image-blocked. Image availability is now the dominant bottleneck, not candidate quality. Future runs should expect 1-3 additions per session when image sourcing is budgeted for.
+
+New additions (2026-07-21):
+- Aspen Movie Map (1978): Promoted 2026-07-21. MIT Architecture Machine Group's landmark surrogate-travel hypermedia system. Users navigated pre-recorded video of Aspen, Colorado by touching on-screen arrows and building facades on a touch-sensitive display, accessing hyperlinked content. Interdata minicomputer + Ramtek 9000 + laserdisc. DARPA-funded. Team: Andrew Lippman, Nicholas Negroponte, Michael Naimark, Walter Bender, Scott Fisher, Paul Heckbert, Bob Mohl. CC BY-SA 3.0 image (QADAS.jpg by Walter Bender, via Wikimedia Commons). Interaction model: touch-driven spatial navigation through hyperlinked video — direct ancestor of Google Street View, web image maps, DVD menus. Fills a gap: spatial hypermedia at urban scale, touch-to-explore paradigm. No equivalent in collection.
+- Suzuki Omnichord (1981): Promoted 2026-07-21. Electronic musical instrument by Suzuki Musical Instrument Corp. (Hamamatsu, Japan) with "Sonic Strings" strum plate — a touch-sensitive strip that produces arpeggios always in-key with the selected chord button. Impossible to play a wrong note. Three simultaneous sound engines (rhythms, chord pads, strummed arpeggios). Public domain + CC BY 2.0 images from Wikimedia Commons. Interaction model: one-dimensional touch controller with context-sensitive (chord-dependent) output mapping. Invented an entirely new class of musical interface. Used by Brian Eno/U2, David Bowie, Gorillaz. Grammy winner 2024 (Meshell Ndegeocello). Reissued 2024.
+
+New deferred candidates (2026-07-21):
+- Taito Front Line (1982): Rotary dial joystick with separate aim/movement. Interaction model is incremental (joystick + twist dial), not genuinely new paradigm. Fair-use arcade flyer images only. Do not re-scout.
+- VideoHarp (1988, CMU Rubine/McAvinney): Optical multi-touch musical controller. US Patent 4,988,981. No Wikipedia page, no freely-licensed images. CMU Sensor Frame (already in museum) covers multi-touch from same era/research group. Do not re-scout.
+- Interactive Plant Growing (1992, Sommerer/Mignonneau): Living plants as capacitive touch sensors. Era boundary, art installation more than HCI artifact, sparse documentation. Do not re-scout.
+- Thought Technology ProComp (1986): Multi-channel physiological encoder (8 biosignals → PC). Modality overlaps with BioMuse and Synapse Relax already in collection. Defer unless strong differentiation case emerges.
+
+Promotion gotchas (2026-07-21):
+- Re-reconfirmed: `promote-potentials.ts` still does NOT update data.ts (regex mismatch). Wiki appends correctly but data.ts entries must always be manually added.
+- The wiki count on line 3 ("one hundred and ___") was still "one hundred and eight" despite 113 ToC entries. Must be manually updated every promotion batch.
+- Exa search credits are exhausted (402 Payment Required). Fall back to webfetch and Grok for research.
+- Subagents continue returning already-in-museum or already-deferred candidates despite exclusion lists. Manual verification remains essential.
+- The candidate well is now extremely thin at 118 exhibits. Only 2 candidates promoted (goal was 3). Future runs should expect 0-2 quality candidates per session.
+- Wikimedia Commons API for image URLs works reliably with User-Agent header and 3-second delays. QADAS.jpg and Omnichord images downloaded successfully.

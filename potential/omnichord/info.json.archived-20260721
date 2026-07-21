@@ -1,0 +1,61 @@
+{
+  "slug": "omnichord",
+  "title": "Suzuki Omnichord",
+  "year": "1981",
+  "subtitle": "Strum a touch-sensitive plate to play electronic arpeggios — an instrument that makes it impossible to hit a wrong note",
+  "why_scout_cares": "The Omnichord invented an entirely new class of musical interface — the 'Sonic Strings' strum plate — that has no equivalent in any traditional instrument. You don't need to know chords or notes: press a chord button and strum the touch plate with your finger, and every note you produce is in-key with that chord. It's an instrument for non-musicians that democratized music-making through interface design, became culturally iconic (Brian Eno, David Bowie, Gorillaz), and was reissued in 2024 after decades of collector demand. The interaction model — a one-axis touch surface that quantizes musical output to a selected harmonic context — is genuinely novel in the museum's collection and distinct from keyboards, guitars, theremins, and all other musical controllers.",
+  "search_terms": ["omnichord", "Suzuki Omnichord", "Sonic Strings", "electronic autoharp", "strum plate", "OM-27"],
+  "research": {
+    "title": "Suzuki Omnichord",
+    "year": "1981",
+    "by": "Suzuki Musical Instrument Corporation",
+    "tags": ["HCI", "Input", "Music", "Consumer Electronics", "Touch Interface", "Japanese"],
+    "overview": "The Omnichord is an electronic musical instrument introduced in 1981 by the Suzuki Musical Instrument Corporation of Hamamatsu, Japan. Conceived as an electronic autoharp, its defining feature is the 'Sonic Strings' strum plate — a long touch-sensitive resistive strip that the player strokes with a finger to produce arpeggios. The crucial innovation: the notes produced by the strum plate are always in-key with whichever chord button is currently pressed. Select 'C major' and strum — every note is a C, E, or G. You cannot play a wrong note. This made the Omnichord extraordinarily accessible to people with no musical training, and it became popular in Japanese advertising, music education, and among professional musicians drawn to its distinctive timbre.\n\nThe original OM-27 (1981) had 27 chord buttons and a single 'harp' voice, plus preset drum machine rhythms and auto-bass accompaniment. Later models expanded chord selection to 84 chords, added multiple instrument voices (guitar, piano, banjo, vibraphone, brass, organ, flute, synthesizer), and incorporated MIDI output (OM-250, 1989) and input (OM-300, early 1990s). Production of the classic models ceased in 1996, but the Omnichord experienced a major revival in the 2010s–2020s driven by experimental music scenes and vintage instrument collectors. Suzuki released the new OM-108 model in 2024 with analog circuitry, emulations of classic models, and modern features.\n\nThe Omnichord was used by Brian Eno and Daniel Lanois on U2's 'The Joshua Tree' and the Apollo soundtrack, by David Bowie at the Concert for New York City (2001), and by Damon Albarn for Gorillaz' 'Clint Eastwood' (using the OM-300's 'Rock 1' preset). In 2024, Meshell Ndegeocello won the inaugural Grammy Award for Best Alternative Jazz Album with 'The Omnichord Real Book,' an album composed entirely on Omnichord.",
+    "deepDive": [
+      {
+        "heading": "Origins",
+        "text": "Suzuki, better known for harmonicas and melodicas (and later the Q-Chord), conceived the Omnichord as an electronic autoharp — a way to give non-musicians the experience of playing a stringed instrument. The key insight was the strum plate: instead of having to learn finger positions on strings, you simply stroke a touch-sensitive surface. The chord buttons do the harmonic work. The original OM-27 launched in 1981 alongside a variant called the Tronichord (also known as the Portachord). It was aimed at people intimidated by traditional keyboard instruments — a consumer electronics approach to music-making that treated the interface as the product's core innovation."
+      },
+      {
+        "heading": "Sonic Strings Strum Plate",
+        "text": "The strum plate is the heart of the Omnichord's interaction model. It's a horizontal touch-sensitive strip — early models used a resistive membrane, later ones a refined touch surface — that the player strokes or taps with a finger. The plate spans four octaves, with position determining pitch and velocity responding to touch dynamics (on some models). But the critical design choice is that the plate does not produce arbitrary pitches: it quantizes output to the notes of the currently selected chord. Press a C major chord button and the entire four-octave span contains only C, E, and G at different octaves. Press C minor and you get C, E-flat, G. This 'always in-key' property is what makes the Omnichord unique — it decouples the physical gesture of strumming from the cognitive load of note selection. The strum plate essentially functions as a one-dimensional touch controller with context-sensitive output mapping — a concept that predates modern touch interfaces by decades."
+      },
+      {
+        "heading": "Three Sound Generators",
+        "text": "Every Omnichord has three independent sound engines running simultaneously. The percussion section provides preset drum patterns (rock, waltz, slow rock, Latin, foxtrot, swing) with adjustable tempo and volume. The chord generator produces sustained organ-like chord pads or walking bass lines in the selected chord. The Sonic Strings section produces the strummed arpeggio or individual melody notes. The player can start a rhythm, hold a chord button, and strum along — creating a complete musical arrangement with no musical knowledge. Later models added a chord sequencer (recording up to 51 chords in sequence for automatic playback via footswitch) and MIDI I/O, turning the Omnichord into a capable composition and performance tool."
+      },
+      {
+        "heading": "Cultural Impact and Legacy",
+        "text": "The Omnichord occupies a unique cultural position. It was a mass-market consumer product (sold through music stores and department stores worldwide), yet it was adopted by avant-garde musicians drawn to its unconventional interface and lo-fi charm. Brian Eno and Daniel Lanois used a slowed-down Omnichord recording on 'Deep Blue Day' from the 1983 album Apollo: Atmospheres and Soundtracks — the track later featured in the film Trainspotting. Lanois processed Omnichord through delay effects and guitar amplifiers on U2's 'Trip Through Your Wires' (The Joshua Tree, 1987). David Bowie performed Simon & Garfunkel's 'America' on Omnichord at the 2001 Concert for New York City. Gorillaz' breakthrough hit 'Clint Eastwood' (2001) used the OM-300's 'Rock 1' preset. Tiny Tim claimed his 1985 single was 'the first recording ever played entirely on the Suzuki Omnichord.' The instrument's 2024 Grammy win for Meshell Ndegeocello's 'The Omnichord Real Book' — the first-ever Best Alternative Jazz Album award — confirmed its enduring artistic relevance. Suzuki's 2024 reissue as the OM-108 demonstrates the interface's timeless appeal."
+      }
+    ],
+    "team": [
+      { "name": "Suzuki Musical Instrument Corporation", "note": "Japanese instrument manufacturer founded 1953 in Hamamatsu; creator of the Omnichord, Q-Chord, melodicas, and harmonicas" }
+    ],
+    "media": [
+      {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/4/41/Omnichord.jpg",
+        "alt": "Suzuki Omnichord OM-150 front panel showing chord buttons, strum plate, and controls",
+        "caption": "Suzuki Omnichord OM-150 with Sonic Strings strum plate (horizontal strip) and chord buttons. Public domain image by Hurryman, via Wikimedia Commons."
+      },
+      {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/e/eb/Omnichord_OM27_brown_%282006-01-11_20.38.10_by_tico_24%29.jpg",
+        "alt": "Suzuki Omnichord OM-27, the original 1981 model in brown, showing 27 chord buttons and strum plate",
+        "caption": "The original Omnichord OM-27 (1981) with 27 chord buttons. Photo by tico_24, CC BY 2.0, via Wikimedia Commons."
+      }
+    ],
+    "sources": [
+      { "text": "Wikipedia: Omnichord", "url": "https://en.wikipedia.org/wiki/Omnichord" },
+      { "text": "Omnichord Heaven (comprehensive resource)", "url": "https://www.omnichord-heaven.com/" },
+      { "text": "Maymind, 'Blast from the past: Suzuki Omnichord,' MusicRadar, 2023", "url": "https://www.musicradar.com/news/blast-from-past-suzuki-omnichord" },
+      { "text": "Gale, 'Vintage rewind: Suzuki Omnichord,' MusicTech, 2020", "url": "https://musictech.com/features/opinion-analysis/vintage-rewind-suzuki-omnichord/" },
+      { "text": "Ellis, 'Suzuki Omnichord,' Electronics & Music Maker, May 1982", "url": "http://www.muzines.co.uk/articles/suzuki-omnichord/4271" }
+    ],
+    "imageUrls": [
+      "https://upload.wikimedia.org/wikipedia/commons/4/41/Omnichord.jpg",
+      "https://upload.wikimedia.org/wikipedia/commons/e/eb/Omnichord_OM27_brown_%282006-01-11_20.38.10_by_tico_24%29.jpg",
+      "https://en.wikipedia.org/wiki/Omnichord"
+    ]
+  },
+  "savedImages": []
+}
