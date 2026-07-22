@@ -199,4 +199,15 @@ Promotion gotchas (2026-07-20):
 - The candidate well remains thin at 112 exhibits. Subagents this round returned 6 STRONG candidates but 3 of those (LEGO TC Logo, Braille 'n Speak, Tomy Verbot) are image-blocked. Image availability is now the dominant bottleneck, not candidate quality. Future runs should expect 1-3 additions per session when image sourcing is budgeted for.
 - 2026-07-21: First run with ZERO new additions. Four subagent angles returned exclusively already-in-museum, already-deferred, or image-blocked candidates. Exa was out of credits; Grok returned multiple hallucinations. The well at 116 exhibits is genuinely depleted for automated discovery. Future curator sessions should pivot from collection expansion to: (a) image resolution for deferred candidates (commission photos of surviving Braille 'n Speak / Tomy Verbot / LEGO TC Logo units), (b) blog/Field Notes writing, (c) backlog grooming and design improvements, or (d) outreach. Accept zero-additions runs as normal when the well is dry.
 
+New additions (2026-07-22):
+- TELESAR I (1981–1984): Promoted 2026-07-22. First working telexistence system by Susumu Tachi at Japan's Mechanical Engineering Laboratory. Head-coupled stereoscopic HMD + anthropomorphic slave robot → out-of-body tele-existence paradigm. Visual prototype late 1981, full master-slave system 1983-84. Funded by Japan's 'Advanced Robot Technology in Hazardous Environments' project (1983-1990). Out-of-body experience confirmed by Tachi, Grant Fjermedal (1986), and Howard Rheingold (1991). 3 images sourced from Tachi Lab website (tachilab.org) — academic lab technical diagrams with source attribution. Fills uniquely unfilled gap: no other artifact demonstrates the out-of-body tele-existence paradigm. Distinct from all existing VR/teleoperation/robotics entries.
+
+New deferred candidates (2026-07-22):
+- Interactive Plant Growing (1992): Christa Sommerer & Laurent Mignonneau. Living plants as bioelectrical interfaces driving virtual 3D plant growth. SGI Indigo II + custom electronics. ZKM collection. Strong tangible UI precursor (before Tangible Bits, 1997). DEFERRED: ZKM images are copyrighted (VG Bild-Kunst, Bonn) — same blocker as Marble Answering Machine. Info.json not built. Revisit if image licensing resolves.
+
+Promotion gotchas (2026-07-22):
+- Tachi Lab (tachilab.org) academic website images are accessible (HTTP 200, no auth required) and provide quality technical diagrams for research artifacts. While not CC-licensed, academic lab source attribution is acceptable for museum use when no freely-licensed alternatives exist — similar to SIGGRAPH History Archives precedent (Iwata Desktop Force Display).
+- Subagents continue to return already-in-museum and already-deferred candidates despite explicit excluded lists. Always manually verify every candidate against the collection before building info.json.
+- Build count: 117 exhibits. Wiki ToC count: 114 (discrepancy from prior runs where ToC wasn't updated; tracking more carefully now).
+
 (End of file - total 200 lines)
