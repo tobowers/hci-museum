@@ -1431,6 +1431,18 @@ const exhibitData: Exhibit[] = [
     tags: ["Microcontroller", "Audio-Visual", "Memory Game", "Consumer", "Closed-Loop", "TMS1000", "Input"],
     image: img("simon-game.jpg"),
   },
+  {
+    id: "telesar-i",
+    slug: "telesar-i",
+    wikiTitle: "TELESAR I",
+    year: "1981–1984",
+    sortYear: 1982,
+    title: "TELESAR I",
+    subtitle: "First working telexistence system — a head-coupled stereoscopic telepresence rig that produced a genuine out-of-body sensation in every operator who tried it",
+    blurb: "TELESAR I (1981–1984) was the world's first working telexistence system, developed by Susumu Tachi at Japan's Mechanical Engineering Laboratory in Tsukuba. The operator wore a stereo head-mounted display carried by a counterbalanced 6-DOF link mechanism that tracked head movements in real time, while a parallel-link master arm captured hand and arm motion. On the remote side, an anthropomorphic slave robot (60 kg, 7-DOF arm, stereo CCD cameras on a 3-DOF neck, binaural microphones, gripper hand) replicated the operator's movements. Four Intel 286/386 computers processed the control loops at 10 ms. When Tachi first tested the visual-only prototype in late 1981, he experienced what he described as an out-of-body sensation (yūtai ridatsu) — he could observe his real self raising and lowering hands from the robot's perspective. This was independently confirmed by visitors Grant Fjermedal (documented in The Tomorrow Makers, 1986) and Howard Rheingold (documented in Virtual Reality, 1991). The system was funded through Japan's eight-year national 'Advanced Robot Technology in Hazardous Environments' project (1983–1990). The core HCI principle — that tight visuomotor coupling between human and machine creates genuine presence — predates and underlies all modern VR and telepresence. The 'telexistence' concept (1980) was Tachi's independent Japanese invention, contemporaneous with but distinct from Marvin Minsky's 'telepresence' (1980) — telexistence explicitly includes virtual environments and frames the avatar robot as a virtual exoskeleton, a dialectical synthesis (Aufhebung) of the dangerous physical exoskeleton and autonomous supervised robot paradigms.",
+    tags: ["Telepresence", "Robotics", "VR", "HMD", "Japan", "Out-of-Body", "Master-Slave"],
+    image: img("telesar-i-system.png"),
+  },
 ];
 
 export const exhibits: Exhibit[] = exhibitData.toSorted((a, b) => b.sortYear - a.sortYear || a.title.localeCompare(b.title));

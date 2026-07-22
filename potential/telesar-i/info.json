@@ -1,0 +1,67 @@
+{
+  "slug": "telesar-i",
+  "title": "TELESAR I",
+  "year": "1981–1984",
+  "subtitle": "First telexistence system — head-coupled stereoscopic telepresence that produced an out-of-body sensation in every operator who tried it",
+  "why_scout_cares": "The TELESAR I was the first working system to give a human operator the convincing sensation of existing inside a remote robot body — what Susumu Tachi called 'telexistence.' Operators reported genuine out-of-body experiences: they saw their own hands (the robot's manipulators) moving in the remote scene exactly where their proprioception said their hands should be, creating an uncanny fusion of self and machine. The system was not just a remote camera on a pan-tilt mount; it was a philosophically grounded, rigorously engineered argument that the right visuomotor coupling could project human presence across space. Minsky's 'telepresence' (1980) described the idea; Tachi's TELESAR I (1981–84) was the first hardware to deliver the felt experience of it. This fills a genuinely unfilled gap in the museum: no other artifact demonstrates the out-of-body tele-existence paradigm.",
+  "search_terms": ["TELESAR", "telexistence", "Susumu Tachi", "tele-existence", "telepresence robot 1981"],
+  "research": {
+    "title": "TELESAR I",
+    "year": "1981–1984",
+    "by": "Susumu Tachi, Mechanical Engineering Laboratory (MEL), Tsukuba, Japan",
+    "tags": ["HCI", "Telepresence", "Robotics", "VR", "Japan"],
+    "overview": "TELESAR (TELExistence Surrogate Anthropomorphic Robot) was the world's first working telexistence system, developed by Susumu Tachi at the Mechanical Engineering Laboratory in Tsukuba, Japan. The concept of telexistence — projecting a human operator's sensorimotor experience into a remote robot body so convincingly that the operator feels as if they are actually present in the remote environment — was conceived by Tachi on September 19, 1980. He filed Japanese patents in December 1980 and January 1981.\n\nA visual-only prototype was operational by late 1981. The full master-slave system, with a stereo head-mounted display that tracked the operator's head movements and an anthropomorphic slave robot with 7-DOF arm, stereo cameras, and binaural microphones, was operational by 1983–1984. When Tachi first tested the visual display, he reported an 'out-of-body experience' (yūtai ridatsu) — he could observe his real self raising and lowering hands from the robot's perspective, in real time. This sensation was later confirmed by visitors including Grant Fjermedal (documented in *The Tomorrow Makers*, 1986) and Howard Rheingold (documented in *Virtual Reality*, 1991).\n\nThe system was funded through Japan's eight-year national 'Advanced Robot Technology in Hazardous Environments' project (1983–1990) and established the foundational principle that still governs modern telepresence: tight visuomotor coupling between operator and robot creates a genuine sense of presence. TELESAR I was the proof of concept — the first time a human being experienced virtual exoskeleton embodiment.",
+    "deepDive": [
+      {
+        "heading": "Origins",
+        "text": "Susumu Tachi conceived telexistence on the morning of September 19, 1980, while walking down a corridor at the Mechanical Engineering Laboratory in Tsukuba. He had an 'electrifying realization': if technology could continuously provide a person with the identical retinal images they would receive from direct vision at a remote location, they could essentially 'exist' across space and time. He filed two foundational Japanese patents: 'Evaluation Device for Mobility Aids for the Blind' (filed Dec 26, 1980, patent 1462696) and 'Operation Method of Manipulators with Sensory Information Display Functions' (filed Jan 14, 1981, patent 1458263). The first visual-only prototype was built by late 1981."
+      },
+      {
+        "heading": "Interaction Model",
+        "text": "The operator wore a stereo head-mounted display (two 6-inch LCDs at 720×240 pixels with a convex lens system and mirrors) carried by a counterbalanced 6-DOF link mechanism that followed head movements in a 1.6m × 0.6m × 0.6m workspace. A parallel-link master arm with 10 DOF (7 for the arm, 3 for body compliance) captured arm and hand movements. On the remote side, an anthropomorphic slave robot (60 kg) with a 7-DOF arm, stereo CCD cameras on a 3-DOF neck, binaural microphones, and a gripper hand replicated the operator's movements. Four Intel 286/386 computers processed the control loops at 10ms. The critical design principle: the stereo cameras were positioned exactly where the robot's 'eyes' would be, and the master arm was positioned so the operator saw the slave arm in the HMD exactly where their proprioception expected their own arm to appear."
+      },
+      {
+        "heading": "The Out-of-Body Experience",
+        "text": "When Tachi first used the visual-only prototype in late 1981, he described feeling as if he had an out-of-body experience — seeing his real self from the robot's perspective. 'Was the me who was watching the real me, or was the me being watched the real me?' he wrote later. Grant Fjermedal visited the lab and reported the same sensation in *The Tomorrow Makers* (1986). Howard Rheingold tested the system and wrote about the 'exact same out-of-body sensation' in his 1991 book *Virtual Reality*. This consistently reported phenomenon — heautoscopy induced by tight visuomotor coupling — proved the core hypothesis of telexistence before the term 'presence' had entered the HCI vocabulary."
+      },
+      {
+        "heading": "Evaluation and Legacy",
+        "text": "Tachi conducted rigorous human-factors experiments comparing five display conditions: direct observation, binocular HMD, monocular HMD, aligned CRT, and offset CRT. The binocular HMD with head tracking produced tracking performance closest to direct observation, with significantly higher crossover frequency and lower effective time delay than CRT displays. The results were published in English in 1984 (RoManSy) and later in *Presence* journal (1994). The TELESAR series continued through TELESAR VI (2020, 67-DOF full-body avatar with 10-finger haptics). The telexistence concept directly influenced the Japanese government's Moonshot R&D program (2020, 115 billion yen) and led to the founding of Telexistence Inc. (2017), which deployed avatar robots in Lawson convenience stores."
+      }
+    ],
+    "team": [
+      {"name": "Susumu Tachi", "note": "Inventor of telexistence; conceived the concept Sept 1980, directed the TELESAR project. Later professor at University of Tokyo and Keio University, founding president of Virtual Reality Society of Japan."},
+      {"name": "Kazuo Tanie", "note": "Co-inventor on the foundational patents; collaborated on the mechanical design of the slave robot."},
+      {"name": "Kiyoshi Komoriya", "note": "Co-inventor on the foundational patents; contributed to the control system architecture."},
+      {"name": "Hirohiko Arai", "note": "Contributed to later TELESAR development, co-author on 1985–1991 publications."},
+      {"name": "Mechanical Engineering Laboratory (MEL)", "note": "Japanese national laboratory in Tsukuba Science City where TELESAR I was developed, under the Ministry of International Trade and Industry (MITI)."}
+    ],
+    "media": [
+      {
+        "src": "https://tachilab.org/content/images/projects/telesar_fig_04.png",
+        "alt": "TELESAR robot under operation building blocks",
+        "caption": "TELESAR I surrogate anthropomorphic robot under remote operation, building blocks. Source: Tachi Laboratory, University of Tokyo."
+      },
+      {
+        "src": "https://tachilab.org/content/images/projects/telesar_fig_02.png",
+        "alt": "Telexistence master-slave manipulation system",
+        "caption": "General view of the telexistence master-slave manipulation system showing the operator (right) wearing the head-coupled stereo display and the slave robot (left). Source: Tachi Laboratory, University of Tokyo."
+      }
+    ],
+    "sources": [
+      {"text": "Susumu Tachi Wikipedia", "url": "https://en.wikipedia.org/wiki/Susumu_Tachi"},
+      {"text": "Tachi Lab: Telexistence overview", "url": "https://tachilab.org/en/about/telexistence.html"},
+      {"text": "Tachi Lab: TELESAR project page", "url": "https://tachilab.org/en/projects/telesar.html"},
+      {"text": "Tachi et al., 'Tele-existence (I): Design and Evaluation of a Visual Display with Sensation of Presence,' RoManSy 1984", "url": "https://tachilab.org/content/files/publication/ic/tachi198406RoManSy%282%29.pdf"},
+      {"text": "Tachi and Yasuda, 'Evaluation Experiments of a Telexistence Manipulation System,' Presence, 1994", "url": "https://tachilab.org/content/files/publication/tp/tachi1994presence.pdf"},
+      {"text": "Howard Rheingold, Virtual Reality, 1991 (describes out-of-body experience testing TELESAR)", "url": "https://openlibrary.org/books/OL24976451M/Virtual_reality"},
+      {"text": "Grant Fjermedal, The Tomorrow Makers, 1986 (documents out-of-body experience at Tachi's lab)", "url": "https://www.amazon.ca/Tomorrow-Makers-Brave-Living-Machines/dp/0025385607"}
+    ],
+    "imageUrls": [
+      "https://tachilab.org/content/images/projects/telesar_fig_04.png",
+      "https://tachilab.org/content/images/projects/telesar_fig_02.png",
+      "https://tachilab.org/content/images/projects/telesar_fig_01.png"
+    ]
+  },
+  "savedImages": []
+}
