@@ -1,0 +1,57 @@
+{
+  "slug": "technos-acxel",
+  "title": "Technos Acxel",
+  "year": "1987",
+  "subtitle": "The synthesizer you played by finger-painting on a field of 2,114 glowing LEDs, years before touchscreens existed",
+  "why_scout_cares": "The Acxel's Grapher console was a 32×64 LED matrix behind conductive touch sensors — the display WAS the input surface. In 1987, you drew waveforms, spectral envelopes, and filter shapes directly onto the glowing grid with your fingertip. No keyboard, no mouse, no light pen on a separate CRT. This was direct-touch light-emitting surface interaction for creative work, anticipating the capacitive touchscreen revolution by two decades. Only 39 units were ever made. It failed commercially, and its Quebec inventor (Pierre Guilmette) remains little-known in HCI history.",
+  "search_terms": ["Technos Acxel", "Pierre Guilmette", "resynthesizer touch LED", "Acxel Grapher", "Idarca Acxel"],
+  "research": {
+    "title": "Technos Acxel",
+    "year": "1987",
+    "by": "Technos (Quebec, Canada); invented by Pierre Guilmette; operational design by Nil Parent",
+    "tags": ["HCI", "Input", "Touch", "Music", "LED", "Direct Manipulation", "Canadian"],
+    "overview": "The Technos Acxel was a resynthesizer — a digital sound-sculpting instrument — launched in 1987 by the Quebec-based company Technos. It was the world's first dedicated resynthesizer, capable of analyzing recorded sounds via FFT and resynthesizing them with up to 1,024 sine-wave oscillators. But its true innovation was the Grapher: a 32×64 LED matrix (2,114 LEDs total) mounted behind finger-sized conductive touch sensors. Users drew waveforms, harmonic envelopes, and filter curves directly onto the glowing surface with their fingertip. The display was the input surface — the LEDs shone through holes in the touch-contact panel, and a microcontroller read the touch contacts while lighting the corresponding LEDs beneath. It was an additive synthesizer you played by finger-painting light.\n\nThe system consisted of two components: the Grapher (the console with the LED touch matrix, an 80-character LCD, and control buttons) and the Solitary (a rack-mounted processing unit). It sold for £8,500–£37,930 depending on configuration. Only approximately 39 units were delivered between 1989 and 1992 before Technos went bankrupt. A revival attempt (Acxel II, 2008–2010) by inventor Pierre Guilmette's company Idarca-Audio also failed before shipping any units.",
+    "deepDive": [
+      {
+        "heading": "The Grapher: A Touch-Sensitive LED Matrix in 1987",
+        "text": "The Grapher's interaction surface was a grid of 2,114 LEDs arranged in a 32×64 matrix. Behind this matrix, conductive touch sensors were positioned so that each 5.85mm square contained '4 points of contact, in the center of the squares where a LED display is necessary, a hole lets pass the top part of the corresponding LED' (Idarca history page). When a finger touched the surface, the microcontroller read which contacts were activated and lit the corresponding LEDs. The user could draw waveforms (harmonic amplitude per partial), spectral envelopes (frequency-domain shapes), amplitude envelopes (time-domain shapes), and filter curves directly onto the matrix. There were also touch-sensitive switches surrounding the matrix for mode selection. This was not a cursor-and-screen interface — it was direct, tactile, immediate. Music Technology magazine (March 1988) described it: 'drawing an envelope or a waveform is simple and extremely intuitive.'"
+      },
+      {
+        "heading": "Resynthesis: Analysis into Performance",
+        "text": "The Acxel was a resynthesizer: it performed FFT analysis on recorded sounds (taking about 30 seconds per sound) to extract time-varying spectral data. This data was then resynthesized using additive synthesis with up to 1,024 individually controllable sine-wave oscillators. Users could play back the resynthesized sound, or — crucially — manipulate it in real time by drawing new envelope and harmonic shapes on the Grapher. The Acxel supported 32 oscillators per voice by default (configurable from 8 to 256), up to 1,024-step envelopes, digital COLOR filtering, FM, LFOs, timbre interpolation, and time stretching. The predecessor system, the 16π (1984–1987), was a more conventional keyboard-integrated synthesizer; only 6 units were built (2 version 1, 4 version 2)."
+      },
+      {
+        "heading": "HCI Significance: Direct Manipulation Before Its Time",
+        "text": "The Acxel's Grapher represents one of the earliest examples of direct-touch, light-emitting surface interaction for creative work. It predates the capacitive touchscreen revolution by nearly two decades — the iPhone would not appear until 2007. Unlike the Fairlight CMI (1979), which used a light pen pointed at a CRT monitor for waveform editing, the Acxel eliminated the intermediary between hand and display. The finger touched the light itself. Each 5.85mm touch point mapped directly to a harmonic or temporal parameter, making it an early example of domain-specific tangible computing. The Acxel was also extraordinarily difficult to manufacture — as Idarca notes, 'In the middle and end of the 80s, the assembly of such arrangements in matrix display of 2048 points was a good challenge of design to lead to an efficient manufacture.'"
+      },
+      {
+        "heading": "Commercial Fate",
+        "text": "Priced from £8,500 (starter stage, without Acxelizer) to £37,930 (top of range) in 1988, the Acxel was aimed at professional studios and academic computer music centers. Approximately 39 units were delivered between 1989 and 1992. Technos went bankrupt around 1990. A 2005 Engadget/Music Thing article noted: 'The last time one appeared on eBay was in 2003.' Pierre Guilmette later attempted a revival through Idarca-Audio Inc. (Acxel II project, 2008–2010), but that venture also went bankrupt before shipping any units. As a Quebec innovation, the Acxel represents a significant but overlooked Canadian contribution to HCI and computer music history."
+      }
+    ],
+    "team": [
+      { "name": "Pierre Guilmette", "note": "Inventor of the Acxel and its predecessor 16π; founder of Technos and later Idarca-Audio" },
+      { "name": "Nil Parent", "note": "Responsible for operational design of the Acxel" },
+      { "name": "Technos", "note": "Quebec, Canada-based company; developed and manufactured the Acxel" }
+    ],
+    "media": [
+      { "src": "https://www.idarca.com/pages/images/acxel3_100ppi0.jpg", "alt": "Technos Acxel system with Grapher console and Solitary rack unit", "caption": "The Acxel system: Grapher console (front) and Solitary rack unit (rear). Source: Idarca-Audio / Pierre Guilmette." }
+    ],
+    "sources": [
+      { "text": "Wikipedia: Technos Acxel", "url": "https://en.wikipedia.org/wiki/Technos_Acxel" },
+      { "text": "Idarca-Audio: Acxel History (inventor's own account)", "url": "https://www.idarca.com/pages/acxel-en_hist1.html" },
+      { "text": "Idarca-Audio: Grapher Construction Details", "url": "https://www.idarca.com/pages/acxel-en_hist3b.html" },
+      { "text": "Music Technology magazine, March 1988: Technos Acxel review (Bob O'Donnell)", "url": "https://www.muzines.co.uk/articles/technos-acxel-resynthesiser/1052" },
+      { "text": "Music Technology magazine, May 1988: All About Additive (Chris Meyer)", "url": "https://www.muzines.co.uk/articles/all-about-additive/2268" },
+      { "text": "Engadget / Music Thing (2005): Acxel feature", "url": "https://www.engadget.com/2005/05/06/music-thing-the-technos-acxel/" },
+      { "text": "YouTube: Technos Acxel demonstration", "url": "https://www.youtube.com/watch?v=GtAMYafil2Q" }
+    ],
+    "imageUrls": [
+      "https://www.idarca.com/pages/images/acxel3_100ppi0.jpg",
+      "https://www.idarca.com/pages/images/acxel_grapher-cz400.jpg",
+      "https://www.idarca.com/pages/images/acxel_grapher-tz400.jpg",
+      "https://www.muzines.co.uk/images_mag/articles/mt/MT_88_03_technos_acxe_large.jpg"
+    ]
+  },
+  "savedImages": []
+}

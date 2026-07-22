@@ -210,4 +210,17 @@ Promotion gotchas (2026-07-22):
 - Subagents continue to return already-in-museum and already-deferred candidates despite explicit excluded lists. Always manually verify every candidate against the collection before building info.json.
 - Build count: 117 exhibits. Wiki ToC count: 114 (discrepancy from prior runs where ToC wasn't updated; tracking more carefully now).
 
+New additions (2026-07-22, run 2):
+- ZERO additions. Second consecutive zero-addition run. Four parallel subagent angles + Grok returned only 2 genuinely new candidates, both image-blocked. Exa out of credits. The well at 117 exhibits is confirmed depleted for automated discovery.
+
+New deferred candidates (2026-07-22, run 2):
+- Technos Acxel (1987): 2,114-LED conductive touch matrix resynthesizer by Pierre Guilmette, Technos (Quebec). Finger-draw waveforms directly on glowing LED grid — the display WAS the input surface in 1987. ~39 units made. DEFERRED: no freely-licensed images. Idarca (inventor's company) has photos but copyrighted. No institutional museum holdings. Info.json at potential/technos-acxel/. Revisit if Guilmette grants image permission or patent drawings extracted.
+- Tickle Talker / Electrotactile Speech Processor (1985-87): 8-channel electrocutaneous (electrical nerve) stimulation for speech perception. University of Melbourne (Blamey, Cowan, Galvin, Clark). Genuinely distinct physical principle from vibrotactile Optacon II — direct electrical stimulation of afferent nerve endings. Clinical trials, never commercialized. DEFERRED: images embedded in SST-90 PDF needing extraction; academic paper figures behind paywalls. Info.json at potential/tickle-talker/. Revisit if PDF images extracted.
+
+Promotion gotchas (2026-07-22, run 2):
+- Exa credits exhausted — confirmed across two consecutive runs. Plan for Grok-only or web-search-only discovery when Exa is unavailable.
+- Subagents return ~80% already-in-museum or already-deferred candidates across all angles. This is structural at 117+ exhibits — not a subagent quality problem.
+- The Idarca (idarca.com) inventor-site pattern is similar to Tachi Lab: inventor's own site hosting technical photos. Unlike Tachi Lab (academic), Idarca is a commercial entity attempting product revival. Image licensing approach differs.
+- Accept zero-addition runs as the norm going forward. The well is dry. Pivot energy toward image resolution for deferred candidates, blog writing, design work, and outreach.
+
 (End of file - total 200 lines)
