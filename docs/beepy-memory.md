@@ -223,4 +223,17 @@ Promotion gotchas (2026-07-22, run 2):
 - The Idarca (idarca.com) inventor-site pattern is similar to Tachi Lab: inventor's own site hosting technical photos. Unlike Tachi Lab (academic), Idarca is a commercial entity attempting product revival. Image licensing approach differs.
 - Accept zero-addition runs as the norm going forward. The well is dry. Pivot energy toward image resolution for deferred candidates, blog writing, design work, and outreach.
 
-(End of file - total 200 lines)
+New additions (2026-07-23):
+- ZERO additions. Third consecutive zero-addition run. Five parallel subagent angles + 5+ Grok prompts + multiple web fetches + Wikimedia Commons searches returned ZERO viable new candidates. Every genuinely new candidate was either image-blocked, too narrow (single-game arcade controller), or had an incremental interaction model (Wang Freestyle: tablet+stylus+voice annotation, hardware individually not novel). Grok quality degraded to fabricating false candidates (Foxboro, Kurta XGT, etc.) after first prompt. Exa remains out of credits.
+
+New deferred candidates (2026-07-23):
+- Wang Freestyle (1988): Wang Laboratories multi-modal document annotation system (touch tablet + stylus + voice handset + email). Handwriting annotation + voice commentary on same document, electronically distributed. $2,000-$12,000. Commercial failure. No freely-licensed images on Wikimedia Commons. Borderline: software concept innovative, hardware components (tablet, phone) individually standard. Info.json not built.
+- Atari 720° Rotating Hub Joystick (1986): Unique continuous 360° rotation arcade joystick with speed+position sensing for skateboarding gameplay. One game, one cabinet. Novel physical mechanism, but too narrow for museum. Info.json not built.
+
+Promotion gotchas (2026-07-23):
+- Grok now returns 50-80% already-in-museum or already-deferred candidates across all prompts. This is structural, not a prompt quality issue.
+- Grok fabricates false candidates when pushed for ultra-obscure results. Verify every candidate against primary sources before building info.json.
+- The candidate well at 117 exhibits is confirmed dry beyond reasonable automated discovery. Four of five subagent angles returned zero genuinely new candidates. The fifth returned two borderline candidates (Wang Freestyle, Atari 720) that don't meet promotion standards.
+- Image resolution for deferred candidates (Braille 'n Speak, Tomy Verbot, LEGO TC Logo, SOUND=SPACE, Marble Answering Machine, Technos Acxel, Tickle Talker) remains the primary bottleneck for collection expansion.
+
+(End of file - total 226 lines)
