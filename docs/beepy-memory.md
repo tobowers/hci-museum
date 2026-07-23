@@ -223,8 +223,20 @@ Promotion gotchas (2026-07-22, run 2):
 - The Idarca (idarca.com) inventor-site pattern is similar to Tachi Lab: inventor's own site hosting technical photos. Unlike Tachi Lab (academic), Idarca is a commercial entity attempting product revival. Image licensing approach differs.
 - Accept zero-addition runs as the norm going forward. The well is dry. Pivot energy toward image resolution for deferred candidates, blog writing, design work, and outreach.
 
-New additions (2026-07-23):
+New additions (2026-07-23, morning run):
 - ZERO additions. Third consecutive zero-addition run. Five parallel subagent angles + 5+ Grok prompts + multiple web fetches + Wikimedia Commons searches returned ZERO viable new candidates. Every genuinely new candidate was either image-blocked, too narrow (single-game arcade controller), or had an incremental interaction model (Wang Freestyle: tablet+stylus+voice annotation, hardware individually not novel). Grok quality degraded to fabricating false candidates (Foxboro, Kurta XGT, etc.) after first prompt. Exa remains out of credits.
+
+New additions (2026-07-23, afternoon run):
+- Identimat Hand Geometry Reader (c. 1974): promoted. First commercial biometric system — five metal pegs guide hand into machine-readable posture, optical system measures finger lengths against magstripe card template. Identimation Corporation (NJ), based on Robert Miller's 1971 SRI patent. Deployed at Shearson Hamill on Wall Street 1974, manufactured through 1987. 2 CC-BY-SA 3.0 images from Wikimedia Commons (modern HandKey device showing same peg-guided paradigm + measurement diagram; honest caption per Lightwriter SL1 precedent). 5 parallel research subagents returned ~30 candidates across biometrics, thermal, home computer, telephone, and EMS angles — only the Identimat survived image verification and overlap checks. Build: 118 exhibits, 151 pages.
+
+New deferred candidates (2026-07-23, afternoon):
+- EyeDentify Model 7.5 Retinal Scanner (1981): Robert "Buzz" Hill/EyeDentify Inc. (Beaverton, OR). First commercial retinal scanner — binocular eyepiece, 360 IR LED dual-concentric-ring array scans retina in ~1/30 sec, Motorola 6800 controller. Patent US4109237A with detailed technical drawings. Extraordinary interaction model (most intimate computer input ever commercialized). DEFERRED: era-appropriate photos unavailable — modern Topcon retinal camera photo on Commons but no EyeDentify-specific image. Patent drawings exist but need a photo to anchor the exhibit. Info.json not built. Revisit if EyeDentify unit surfaces in museum collection or archive.
+- Thermal haptic output: confirmed dead category for 1976-1992. Only academic prototypes at 1992 boundary (Ino et al. Japan, Caldwell et al. UK). Medical Peltier thermodes existed but no HCI framing. Do not re-scout.
+- Telephone-computer interfaces: Hayes Smartmodem (1981), Novation CAT (1979), IBM ADS (1981), Dialogic boards (1983+) — all historically significant but interaction models too incremental for museum. Do not re-scout.
+- Medical electrical stimulation: Nucleus 22 Cochlear Implant (1982-85), Ljubljana FES (1977-85), CWRU Hand Grasp FES (1978-90) — significant as computer→body interfaces but blur medical HCI line; not museum-fit. Do not re-scout.
+- dk'tronics Sound Digitizer (1986): ZX Spectrum audio sampler. Novel "capture real-world sound as data" paradigm, no museum overlap. DEFERRED: no CC images. Spectrum Computing community photos exist but licensing unclear. Revisit if image sourcing resolves.
+- Databar Oscar (1983): barcode wand for C64/VIC-20/Apple II. Overlaps with Cauzin Softstrip already in museum. Do not re-scout.
+- Broderbund Science Toolkit (1985): sensor probes for Apple II. Overlaps with AtariLab already in museum. Do not re-scout.
 
 New deferred candidates (2026-07-23):
 - Wang Freestyle (1988): Wang Laboratories multi-modal document annotation system (touch tablet + stylus + voice handset + email). Handwriting annotation + voice commentary on same document, electronically distributed. $2,000-$12,000. Commercial failure. No freely-licensed images on Wikimedia Commons. Borderline: software concept innovative, hardware components (tablet, phone) individually standard. Info.json not built.
@@ -233,7 +245,8 @@ New deferred candidates (2026-07-23):
 Promotion gotchas (2026-07-23):
 - Grok now returns 50-80% already-in-museum or already-deferred candidates across all prompts. This is structural, not a prompt quality issue.
 - Grok fabricates false candidates when pushed for ultra-obscure results. Verify every candidate against primary sources before building info.json.
-- The candidate well at 117 exhibits is confirmed dry beyond reasonable automated discovery. Four of five subagent angles returned zero genuinely new candidates. The fifth returned two borderline candidates (Wang Freestyle, Atari 720) that don't meet promotion standards.
-- Image resolution for deferred candidates (Braille 'n Speak, Tomy Verbot, LEGO TC Logo, SOUND=SPACE, Marble Answering Machine, Technos Acxel, Tickle Talker) remains the primary bottleneck for collection expansion.
+- The candidate well at 118 exhibits remains extremely thin but not completely dry — fresh angles (biometrics) can still yield 1 addition per run. Expect 0-1 additions per session as the norm. Pivot energy toward image resolution for deferred candidates, blog writing, design improvements, and outreach.
+- Image resolution for deferred candidates (Braille 'n Speak, Tomy Verbot, LEGO TC Logo, SOUND=SPACE, Marble Answering Machine, Technos Acxel, Tickle Talker, EyeDentify, dk'tronics Sound Digitizer) remains the primary bottleneck for collection expansion.
+- New angle that worked: biometric identity devices as HCI. Hand geometry, retinal scanning, signature verification, thumbprint scanners — this category was entirely unrepresented in the museum before this run.
 
-(End of file - total 226 lines)
+(End of file)

@@ -1,6 +1,6 @@
 # The HCI Golden Age Wiki
 
-A research compendium for a digital museum of cutting-edge Human-Computer Interaction from the late 1970s through the early 1990s. These one hundred and fourteen projects mix canonical experiments with weird, forgotten, and beautiful vaporware — brain control, voice control, gesture, wearable computing, VR, robots, and full-body exertion.
+A research compendium for a digital museum of cutting-edge Human-Computer Interaction from the late 1970s through the early 1990s. These one hundred and fifteen projects mix canonical experiments with weird, forgotten, and beautiful vaporware — brain control, voice control, gesture, wearable computing, VR, robots, and full-body exertion.
 
 Each entry includes an overview, a deep dive, a small media gallery, and full source links so the images and facts can always be traced back.
 
@@ -121,6 +121,7 @@ Each entry includes an overview, a deep dive, a small media gallery, and full so
 112. [Sega Hologram Time Traveler (1991)](#sega-hologram-time-traveler-1991)
 113. [Milton Bradley Simon (1978)](#milton-bradley-simon-1978)
 114. [TELESAR I (1981–1984)](#telesar-i-19811984)
+115. [Identimat Hand Geometry Reader (c. 1974)](#identimat-hand-geometry-reader-c-1974)
 
 ---
 
@@ -6051,3 +6052,44 @@ When Tachi first tested the visual-only display in late 1981, he reported an out
 7. Howard Rheingold, Virtual Reality, Touchstone, 1991 (describes out-of-body experience testing TELESAR) — https://openlibrary.org/books/OL24976451M/Virtual_reality
 8. Grant Fjermedal, The Tomorrow Makers, Macmillan, 1986 (documents out-of-body experience at Tachi's lab) — https://www.amazon.ca/Tomorrow-Makers-Brave-Living-Machines/dp/0025385607
 9. Tachi Lab: 'The Hour I First Invented Telexistence' — https://tachilab.org/en/about/telexistence.html#point08
+
+---
+
+## Identimat Hand Geometry Reader (1974)
+
+**By:** Identimation Corporation (New Jersey), based on Robert H. Miller's 1971 SRI patent  
+**Tags:** `HCI` `Biometrics` `Input` `Access Control` `Identity`
+
+### Overview
+
+The Identimat was the first automated hand geometry recognition system deployed commercially. Based on research by Robert H. Miller at the Stanford Research Institute (patented 1971), it was manufactured by Identimation Corporation of New Jersey. The device used five metal pegs to guide the user's right hand into a precisely repeatable position, palm-down on a flat platen. An overhead optical system photographed the silhouette and measured finger lengths, widths, and ratios. These measurements were compared against a template stored on a magnetic stripe ID card — a two-factor system combining 'something you have' (the card) with 'something you are' (your hand geometry).
+
+The system was first deployed in 1974 at the Wall Street brokerage Shearson Hamill & Co. to track employee attendance, marking the beginning of commercial biometric technology. Identimat production continued through the mid-1980s, ceasing in 1987. The peg-guided hand-placement paradigm was later adopted by Recognition Systems (founded 1986 by David Sidlauskas) for their HandKey series, which became the dominant hand geometry access control system through the 1990s and 2000s.
+
+### Deep dive
+
+* **Origins at SRI.** Robert H. Miller at the Stanford Research Institute recognized that hand dimensions — particularly length and width, which have a correlation coefficient below 0.4 — could serve as a unique biometric identifier. His 1971 patent described an automated system that measured hand geometry and encoded the measurements onto identification cards. Identimation Corporation licensed and commercialized the technology, creating the Identimat product line.
+* **The peg-guided interaction model.** The defining HCI feature of the Identimat is the peg-guided hand placement. Five fixed metal pegs are arranged between the four fingers (index through little finger). The user places their right hand palm-down on a flat platen, with the webbing between fingers resting against the pegs. This physically enforces a consistent spread-finger posture, making the hand geometry repeatable enough for automated measurement. An overhead camera or optical sensor captures the silhouette; an angled mirror captures the side profile. The entire interaction is about physically constraining the body for machine legibility — a genuinely pre-digital UX metaphor where the user becomes part of the calibration mechanism.
+* **Two-factor biometric authentication.** The Identimat combined hand geometry measurement with a magnetic stripe ID card. The card stored the user's template measurements; at the reader, the user swiped their card and placed their hand on the pegs. The system compared the live measurement against the stored template and returned a pass/fail decision. This two-factor approach — possession (card) + inherence (hand geometry) — anticipated modern multi-factor authentication by decades. It also solved the 'one-to-many' problem that plagued early biometrics: the card narrowed the search space to a single template, making comparison fast and reliable.
+* **Wall Street and beyond.** The first commercial deployment was at Shearson Hamill & Co. on Wall Street, where the Identimat tracked broker attendance — a surprisingly mundane debut for technology that would later guard nuclear facilities and airport security checkpoints. The production run continued until 1987, after which the technology was superseded by more sophisticated 3D hand geometry readers. David Sidlauskas, a major figure in the field, patented the Handkey ID3D — the first hand scanner that worked in three dimensions — and founded Recognition Systems Inc. in 1986. The peg-guided interaction paradigm endured in these successors, which were still being deployed at airport security checkpoints (INSPASS, Ben Gurion) well into the 2000s.
+
+### Team
+
+* **Robert H. Miller.** SRI researcher who patented the first automated hand geometry identification system in 1971
+* **Identimation Corporation.** New Jersey company that commercialized Miller's technology as the Identimat product line
+* **David Sidlauskas.** Patented the Handkey ID3D 3D hand scanner and founded Recognition Systems Inc. (1986), carrying the peg-guided paradigm forward
+
+### Media
+
+![A hand geometry reading device with five metal pegs to guide finger placement, angled mirror for side-profile capture, and numeric keypad below](assets/wiki/Hand_Geometry_Reading_Device.jpg)
+*A hand geometry reading device demonstrating the peg-guided interaction paradigm. Five metal pegs between the fingers enforce a consistent hand posture; the angled mirror on the left captures the side profile. This modern unit (likely a Recognition Systems HandKey) continues the physical interaction model pioneered by the Identimat. Photo: Z22, CC BY-SA 3.0, via Wikimedia Commons.*
+
+![Diagram of a human hand with geometric measurement annotations showing length, width, and finger dimensions](assets/wiki/Hand_Geometry_and_Measurements.jpg)
+*Hand geometry measurements: length, width, deviation, and angle — the features measured by hand geometry readers to identify individuals. Diagram: Z22, CC BY-SA 3.0, via Wikimedia Commons.*
+
+### Sources
+
+1. Wikipedia: Hand geometry — confirms Identimat as first commercial biometric, deployed at Shearson Hamil on Wall Street, production ceased 1987 — https://en.wikipedia.org/wiki/Hand_geometry
+2. Robert Miller's 1971 SRI patent — cited as the foundational hand geometry patent in multiple biometric surveys — https://patents.google.com/
+3. Jain, A. K.; Ross, A.; Pankanti, S. (1999) — early academic paper on hand geometry verification systems, referencing Identimat lineage — https://doi.org/10.1007/3-540-44887-X_78
+4. Biometric Update: Explainer on Hand Geometry Recognition — provides historical overview of Identimat and its successors — https://www.biometricupdate.com/201206/explainer-hand-geometry-recognition

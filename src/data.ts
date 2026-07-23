@@ -1443,6 +1443,18 @@ const exhibitData: Exhibit[] = [
     tags: ["Telepresence", "Robotics", "VR", "HMD", "Japan", "Out-of-Body", "Master-Slave"],
     image: img("telesar-i-system.png"),
   },
+  {
+    id: "identimat",
+    slug: "identimat",
+    wikiTitle: "Identimat Hand Geometry Reader",
+    year: "c.1974",
+    sortYear: 1974,
+    title: "Identimat Hand Geometry Reader",
+    subtitle: "First commercial biometric: five metal pegs that make your hand machine-readable",
+    blurb: "The Identimat was the first automated hand geometry recognition system deployed commercially, first used at the Shearson Hamill brokerage on Wall Street in 1974 to track employee attendance. Built by Identimation Corporation based on Robert H. Miller's 1971 SRI patent. The device used five metal pegs to guide the user's right hand into a precisely repeatable palm-down position, then an overhead optical system measured finger lengths, widths, and ratios against a template stored on a magnetic stripe ID card — a two-factor system combining 'something you have' (the card) with 'something you are' (your hand geometry). Manufactured through 1987, the Identimat marked the beginning of commercial biometric technology.",
+    tags: ["Biometrics", "Input", "Access Control", "Identity"],
+    image: img("Hand_Geometry_Reading_Device.jpg"),
+  },
 ];
 
 export const exhibits: Exhibit[] = exhibitData.toSorted((a, b) => b.sortYear - a.sortYear || a.title.localeCompare(b.title));
