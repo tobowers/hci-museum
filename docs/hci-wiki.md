@@ -1,6 +1,6 @@
 # The HCI Golden Age Wiki
 
-A research compendium for a digital museum of cutting-edge Human-Computer Interaction from the late 1970s through the early 1990s. These one hundred and fourteen projects mix canonical experiments with weird, forgotten, and beautiful vaporware — brain control, voice control, gesture, wearable computing, VR, robots, and full-body exertion.
+A research compendium for a digital museum of cutting-edge Human-Computer Interaction from the late 1970s through the early 1990s. These one hundred and sixteen projects mix canonical experiments with weird, forgotten, and beautiful vaporware — brain control, voice control, gesture, wearable computing, VR, robots, and full-body exertion.
 
 Each entry includes an overview, a deep dive, a small media gallery, and full source links so the images and facts can always be traced back.
 
@@ -121,6 +121,8 @@ Each entry includes an overview, a deep dive, a small media gallery, and full so
 112. [Sega Hologram Time Traveler (1991)](#sega-hologram-time-traveler-1991)
 113. [Milton Bradley Simon (1978)](#milton-bradley-simon-1978)
 114. [TELESAR I (1981–1984)](#telesar-i-19811984)
+115. [Minitel (1982)](#minitel-1982)
+116. [Dycam Model 1 / Logitech Fotoman (1990)](#dycam-model-1--logitech-fotoman-1990)
 
 ---
 
@@ -6051,3 +6053,103 @@ When Tachi first tested the visual-only display in late 1981, he reported an out
 7. Howard Rheingold, Virtual Reality, Touchstone, 1991 (describes out-of-body experience testing TELESAR) — https://openlibrary.org/books/OL24976451M/Virtual_reality
 8. Grant Fjermedal, The Tomorrow Makers, Macmillan, 1986 (documents out-of-body experience at Tachi's lab) — https://www.amazon.ca/Tomorrow-Makers-Brave-Living-Machines/dp/0025385607
 9. Tachi Lab: 'The Hour I First Invented Telexistence' — https://tachilab.org/en/about/telexistence.html#point08
+
+---
+
+## Minitel (1982)
+**By:** France Télécom / PTT (Postes, Télégraphes et Télécommunications)  
+**Tags:** `Public Kiosk` `Videotex` `Telecommunications` `Network Terminal`
+
+### Overview
+
+Minitel was a dedicated videotex terminal distributed free to French telephone subscribers starting in 1982. Combining a 9-inch monochrome CRT, an integrated AZERTY keyboard, and a built-in V.23 modem (1200 bps down, 75 bps up), the terminal connected to the Transpac X.25 packet network through local telephone exchanges. By 1993, 6.5 million terminals were in French homes, with 25,000 services available — from phone directories and train reservations to home banking, online shopping, and the infamous "messageries roses" adult chat services that became the first mass-market computer-mediated social phenomenon. The system survived until June 30, 2012, running for three decades.
+
+### Deep dive
+
+* **Origins and policy.** The 1977 Nora-Minc report *L'informatisation de la société* coined the term *télématique* and warned that France risked becoming an information colony of American computing firms. Gérard Théry, director of the DGT, publicly announced the project at Intelcom 79 in Dallas. Bernard Marti's team at the CCETT research center in Rennes built the technical infrastructure. The PTT's strategic logic was simple: printing and distributing paper phone directories cost 500 million francs annually. Giving away terminals would pay for itself.
+
+* **The terminal.** The Minitel 1 (1982) was a substantial beige ABS plastic appliance — 23 × 25 × 26 cm, 4.6 kg. Its flip-down keyboard folded up to cover the 9-inch monochrome CRT, making it a compact cube when not in use. Inside: an Intel 8052 microcontroller, an EF9345P Videotex display controller, 8.25 KB RAM, and EPROM firmware. The screen displayed 25 rows × 40 columns of text with 8 grayscale levels. The keyboard was full-travel mechanical AZERTY with dedicated function keys: Connexion/Fin (connect/hang up), Envoi (send), Retour (back), Suite (next page), and Sommaire (home). The built-in V.23 modem meant no external box or separate power supply was needed.
+
+* **Interaction model.** Using Minitel required zero computer literacy. The user plugged it in, dialed a short access code (e.g., 3615) on their telephone, heard the modem carrier tone, pressed Connexion/Fin, and hung up the phone. The screen filled with a text-based menu. Users typed numbers to navigate. Pages arrived at ~150 characters per second — a full screen took about 7–8 seconds to fill. The 1984 "kiosk" billing system assigned numeric codes to billing tiers: 3611 for directory assistance, 3614 for user-paid services, 3615 for premium services where France Télécom and the provider split revenue. Billing appeared on the phone bill with no itemization — a privacy feature essential to the chat services' growth.
+
+* **Messageries roses.** The first instant messaging was discovered accidentally during the Gretel experiment in Strasbourg (winter 1981) and quickly represented 85% of traffic. By 1990, half of all Minitel calls were to messageries (chat services), dominated by adult chat. Users paid ~60 francs per hour; services employed *animatrices* to keep users engaged. This was the first mass-market computer-mediated social interaction — millions of French people had their first online conversation through a beige terminal with a built-in modem. Xavier Niel, now billionaire founder of Free/Iliad, started his fortune on Minitel rose.
+
+* **Thirty-year run.** Minitel peaked in 1993 with 6.5 million terminals, then declined slowly against the Internet. In 2007 it still generated €100M in revenue from 220 million connections. France Télécom shut down the Télétel network on June 30, 2012. The system's longevity stemmed from installed-base inertia (9 million free terminals), simplicity (instant-on, no viruses, no complex OS), and the digital divide (older/rural populations without PCs). Critics called it a French embarrassment that delayed Internet adoption; defenders note it pioneered app stores, user-generated content, online banking, and e-commerce — all before the Web.
+
+### Team
+
+* **Bernard Marti** — Chief technical architect at CCETT; directed development of the TITAN terminal and Télétel network infrastructure. Coined the term TITAN for the 1977 Berlin demonstration.
+* **Gérard Théry** — Director of the DGT (Direction Générale des Télécommunications); championed the project and publicly announced it at Intelcom 79 in Dallas.
+* **Jean-Paul Maury** — Director of the "Annuaire Électronique et Minitel" project (1979–1985).
+* **Simon Nora and Alain Minc** — Authors of the 1977 report *L'informatisation de la société* that coined the term *télématique* and provided the intellectual and political framework.
+* **France Télécom / PTT** — French state telecom monopoly that developed, subsidized, and operated the Minitel network from 1982 to 2012.
+
+### Media
+
+![Minitel 1 terminal (1982) with keyboard folded down, beige CRT housing](../assets/wiki/minitel1.jpg)
+*Minitel 1, the original 1982 terminal. Flip-down keyboard reveals a 9-inch monochrome CRT. Built-in V.23 modem, no external computer needed. Photo: Tieum (GFDL/CC BY-SA 3.0).*
+
+![Minitel 1B terminal (1986) powered on, showing Videotex content on the 40-column display](../assets/wiki/minitel-b1.jpg)
+*Minitel 1B terminal (1986) powered on, showing Videotex content with the characteristic 40-column text display. Photo: Philafrenzy (CC BY-SA 4.0).*
+
+![Minitel 1 model NFZ 300 manufactured by La Radiotechnique, front angle view](../assets/wiki/minitel-radiotechnique.jpg)
+*Minitel 1 model NFZ 300 manufactured by La Radiotechnique (Philips subsidiary). Three manufacturers — Télic-Alcatel, Matra, and La Radiotechnique — were contracted to ensure competitive pricing. Photo: DMontagne en résidence (CC BY 4.0).*
+
+### Sources
+
+1. Minitel — Wikipedia — https://en.wikipedia.org/wiki/Minitel
+2. Minitel — French Wikipedia (detailed technical specs and model history) — https://fr.wikipedia.org/wiki/Minitel
+3. Minitel: The Online World France Built Before the Web — IEEE Spectrum (2017) by Julien Mailland & Kevin Driscoll — https://spectrum.ieee.org/minitel-the-online-world-france-built-before-the-web
+4. Minitel: Welcome to the Internet — MIT Press (2017) by Mailland & Driscoll — https://mitpress.mit.edu/books/minitel
+5. Minitel: The rise and fall of the France-wide web — BBC News (June 2012) by Hugh Schofield — https://www.bbc.com/news/magazine-18610692
+6. Minitel Research Lab, USA — largest digital Minitel museum — http://www.minitel.us/
+7. Musée du Minitel — preservation and history — https://www.museeminitel.fr/
+8. Bernard Marti: La naissance du Minitel à Rennes — Place Publique Rennes (2011) — http://placepublique-rennes.com/article/La-naissance-du-Minitel-a-Rennes-par-un-de-ses-inventeurs-1
+
+---
+
+## Dycam Model 1 / Logitech Fotoman (1990)
+**By:** Dycam Inc. (Los Angeles/Pasadena, CA); licensed to Logitech as the Fotoman FM-1  
+**Tags:** `Digital Camera` `Computer Peripheral` `Image Capture` `Input Device`
+
+### Overview
+
+The Dycam Model 1, released in 1990 at $995, was the first commercially sold fully-digital consumer camera in the United States. It used a 1/3-inch CCD sensor capturing 376 × 240-pixel 8-bit grayscale images, stored up to 32 compressed images in 1 MB of volatile DRAM, and connected to a PC or Mac via RS-232 serial cable at 9600 baud. The camera had exactly one physical control — the shutter button. Every other function, including turning the flash on or off, required connecting to a computer and using the bundled software. The most telling HCI detail: the physical shutter sound was fake — a speaker generated a simulated click purely to reassure photographers conditioned by 150 years of mechanical shutters. Logitech licensed the technology for $1 million and released it as the Fotoman FM-1 in Europe, adding image-editing software.
+
+### Deep dive
+
+* **One button, no screen.** The Dycam Model 1 had a single control: the shutter release button. No on/off switch, no mode dial, no LCD preview, no image review — nothing. It could not delete images. It could not adjust flash settings. It could not even report battery status beyond a coded sequence of beeps. As digicamhistory.com notes: "To turn the flash on it was necessary to connect the camera to a computer and use the program that came with the camera. To turn the flash off it was necessary to reconnect the camera to a computer." The design philosophy was radical: this was not a standalone camera that happened to connect to a computer. It was a computer peripheral that happened to be shaped like a camera.
+
+* **Volatile memory and the race against the battery.** Images lived in 1 MB of volatile DRAM — no flash memory, no removable card, no permanent storage. If the internal rechargeable battery died (about 24 hours without charging), all images were permanently lost. The camera firmware was also held in volatile memory: after a full battery drain, it had to be reloaded from the computer. The Digital Camera Museum notes: "Once the batteries were recharged you had to connect your camera to a computer and download the software into the camera to make it work again!" This created an existential relationship between camera and computer — every photo session ended with a race against the battery clock.
+
+* **The fake shutter sound.** The EPI Centre's John Henshall discovered in his January 1993 review that the Fotoman "has one moving part: the shutter release button." The shutter sound was "a simulated sound, generated to serve no purpose other than to reassure the photographer that an exposure has been made." A second beep about eleven seconds later confirmed the image was saved to DRAM. Henshall noted: "Without these sounds, or with the facility to turn them off as required, the camera would be completely silent." This was one of the earliest documented cases of skeuomorphic audio design in consumer electronics — a pattern that persists in every smartphone camera today.
+
+* **Downloading at 9600 baud.** After shooting, the user connected a serial cable to a PC (Windows 3.0/3.1) or Mac. The bundled FotoTouch software displayed a contact-sheet view of all 32 images — complete with sprocket-hole borders mimicking 35mm film strips, a deliberate skeuomorphic choice to make digital images feel familiar. A battery gauge was shown. Downloading all 32 compressed images at 9600 baud took approximately 17 minutes. Images were saved as 8-bit TIFF or PICT 2 files. A "Tripod Camera Code" could be downloaded into the camera, disabling the flash and allowing manual exposure times of 1–640 milliseconds — the camera was user-reprogrammable, a remarkable feature for 1990.
+
+* **Dycam vs. Logitech.** Dycam Inc. was a small Los Angeles-area engineering startup, reportedly founded by former aerospace imaging engineers. In early 1991, Logitech — the computer mouse company — licensed Dycam's technology for $1 million to produce the Fotoman FM-1. Two versions shipped: first-generation units were identical to the Dycam Model 1; second-generation had a revised body and updated firmware. Logitech's project manager was Paul Laughton, previously notable as the programmer of the original Apple DOS for the Apple II. While the Dycam was US-only and limited, the Fotoman was a global market success, establishing the consumer digital camera category before Apple's QuickTake (1994) or Casio's QV-10 (1995).
+
+### Team
+
+* **Dycam Inc.** — Los Angeles/Pasadena startup that designed and manufactured the original Model 1 in 1990. Small team reportedly from aerospace/defense imaging backgrounds. Continued producing cameras through at least 1996.
+* **Paul Laughton** — Project manager for the Logitech Fotoman at Logitech. Wrote the FotoMan/FotoTouch PC software, TWAIN driver, and firmware utilities. Previously programmed the original Apple DOS for the Apple II.
+* **Logitech** — Licensed Dycam technology for $1M in 1991. Marketed the Fotoman FM-1 globally through computer retail channels as a PC peripheral, not a camera product.
+
+### Media
+
+![Logitech Fotoman FM-1, black/Dycam-style body with single shutter button](../assets/wiki/fotoman-black.jpg)
+*Logitech Fotoman FM-1 (first generation), identical to the Dycam Model 1 housing. The single mint-green shutter button was the only physical control on the entire camera. Photo: Rama, Musée Bolo / EPFL (CC BY-SA 3.0).*
+
+![Logitech Fotoman FM-1, white/beige second-generation body](../assets/wiki/fotoman-white.jpg)
+*Logitech Fotoman FM-1 (second generation) with the revised 3-grip body in beige. The Fotoman was marketed through computer stores, not camera shops. Photo: Rama, Musée Bolo / EPFL (CC BY-SA 3.0).*
+
+![Logitech Fotoman detail close-up showing minimal interface: shutter button, viewfinder, flash](../assets/wiki/fotoman-crop.jpg)
+*Close-up of the Fotoman's minimal interface: shutter button, viewfinder, and flash window. No LCD, no menus, no controls — the computer handled everything else. Photo: Rama, Musée Bolo / EPFL (CC BY-SA 3.0).*
+
+### Sources
+
+1. EPI Centre / John Henshall "Chip Shop" review (Jan 1993) — definitive first-hand review of the Fotoman. Source of the fake shutter sound revelation — http://www.epi-centre.com/reports/9301cs.html
+2. Digital Camera Museum — Dycam Model 1 (specs, Tripod Camera Code, firmware detail) — https://www.digitalkameramuseum.de/en/cameras/item/dycam-model-1
+3. Digital Camera Museum — Logitech Fotoman FM-1 ($1M license deal, two generations, Paul Laughton) — https://www.digitalkameramuseum.de/en/cameras/item/logitech-fotoman-fm-1
+4. Digicamhistory.com — 1990 page (authoritative timeline: one-button detail, $995 MSRP) — https://web.archive.org/web/20231022142340/http://www.digicamhistory.com/1990.html
+5. Camera-wiki.org — Logitech Fotoman (consolidated specs) — https://camera-wiki.org/wiki/Logitech_Fotoman
+6. InfoWorld (Aug 12, 1991) — Raphael Needleman contemporaneous review — https://books.google.com/books?id=lFAEAAAAMBAJ&pg=PA54

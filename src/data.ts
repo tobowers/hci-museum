@@ -1443,6 +1443,30 @@ const exhibitData: Exhibit[] = [
     tags: ["Telepresence", "Robotics", "VR", "HMD", "Japan", "Out-of-Body", "Master-Slave"],
     image: img("telesar-i-system.png"),
   },
+  {
+    id: "minitel",
+    slug: "minitel",
+    wikiTitle: "Minitel",
+    year: "1982",
+    sortYear: 1982,
+    title: "Minitel",
+    subtitle: "The terminal France gave away for free — 9 million keyboards brought a nation online a decade before the Web",
+    blurb: "Minitel (1982–2012) was a dedicated videotex terminal distributed free to French telephone subscribers, combining a 9-inch monochrome CRT, an AZERTY keyboard, and a built-in V.23 modem. By 1993, 6.5 million terminals were in French homes with 25,000 services — phone directories, train reservations, home banking, and the 'messageries roses' chat services that became the first mass-market computer-mediated social phenomenon. It ran for 30 years, outliving every other national videotex system.",
+    tags: ["Public Kiosk", "Videotex", "Telecommunications", "Network Terminal"],
+    image: img("minitel1.jpg"),
+  },
+  {
+    id: "dycam-model-1",
+    slug: "dycam-model-1",
+    wikiTitle: "Dycam Model 1 / Logitech Fotoman",
+    year: "1990",
+    sortYear: 1990,
+    title: "Dycam Model 1 / Logitech Fotoman",
+    subtitle: "The camera with one button, no screen, volatile memory, and a fake shutter sound — a computer peripheral that happened to be shaped like a camera",
+    blurb: "The Dycam Model 1 (1990, $995) was the first commercially sold fully-digital consumer camera in the US. It had exactly one physical control — the shutter button. No LCD, no mode dial, no on/off switch. Images lived in volatile DRAM: if the battery died, your photos vanished. Even the shutter sound was fake — a speaker generated a simulated click to reassure photographers. Logitech licensed the design for $1M as the Fotoman FM-1, establishing the consumer digital camera category before Apple's QuickTake.",
+    tags: ["Digital Camera", "Computer Peripheral", "Image Capture", "Input Device"],
+    image: img("fotoman-black.jpg"),
+  },
 ];
 
 export const exhibits: Exhibit[] = exhibitData.toSorted((a, b) => b.sortYear - a.sortYear || a.title.localeCompare(b.title));

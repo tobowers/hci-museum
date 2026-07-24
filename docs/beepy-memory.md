@@ -236,4 +236,21 @@ Promotion gotchas (2026-07-23):
 - The candidate well at 117 exhibits is confirmed dry beyond reasonable automated discovery. Four of five subagent angles returned zero genuinely new candidates. The fifth returned two borderline candidates (Wang Freestyle, Atari 720) that don't meet promotion standards.
 - Image resolution for deferred candidates (Braille 'n Speak, Tomy Verbot, LEGO TC Logo, SOUND=SPACE, Marble Answering Machine, Technos Acxel, Tickle Talker) remains the primary bottleneck for collection expansion.
 
-(End of file - total 226 lines)
+New additions (2026-07-24):
+- Minitel (1982): Promoted 2026-07-24. France Télécom's dedicated videotex terminal distributed free to French households. 9 million terminals, 25 million users, 30-year run (1982–2012). Integrated AZERTY keyboard + 9-inch CRT + built-in V.23 modem (no external computer needed). Keyboard-driven Videotex navigation with numeric shortcut codes (3615). First mass-market computer-mediated chat (messageries roses). 3 CC-licensed images from Wikimedia Commons. Fills entirely new categories: public-access kiosk, videotex terminal, network appliance. No overlap with any existing exhibit.
+- Dycam Model 1 / Logitech Fotoman (1990): Promoted 2026-07-24. First commercially sold fully-digital consumer camera in US ($995). One physical control (shutter button), no LCD, no mode dial, no on/off switch. Images stored in volatile DRAM — dead battery = lost photos. Fake shutter sound via speaker (skeuomorphic audio design). Logitech licensed design for $1M as Fotoman FM-1 in Europe. 3 CC-licensed images from Wikimedia Commons (Musée Bolo, Rama). Fills new category: digital camera as computer peripheral / image capture input device. Dycam-specific images not available — Fotoman images used as representative (same housing, honest captioning).
+
+New deferred candidates (2026-07-24):
+- Magellan NAV 1000 (1989): First consumer handheld GPS receiver. $3,000, satellite-mediated spatial computing paradigm. Desert Storm story (soldiers bought at retail). STRONG HCI story but ZERO CC-licensed images on Wikimedia Commons. Smithsonian and CHM reportedly hold units. Info.json not built. Revisit if image licensing resolves.
+- QUBE Interactive TV (1977): Warner Cable's 18-button tethered remote for two-way interactive cable TV. First pay-per-view, first audience polling, spawned MTV and Nickelodeon. Good images on Wikipedia/Wikimedia. Deferred: interaction model (buttons on a remote) is not distinctive enough for museum despite service innovation.
+- HP-01 Calculator Watch (1977): Hewlett-Packard wrist computer with 28 recessed keys requiring dedicated stylus. Datatype-aware arithmetic. Good images available. Deferred: interaction model (wrist-worn calculator) is incremental vs. existing wearable/portable exhibits.
+- Atari Skydiver (1978): Spring-loaded ripcord pull-string + lateral steering arcade controller. Novel mechanical principle (tension-based microswitch + displacement steering). Deferred: images from KLOV/arcade-museum.com, not CC-licensed. Single-game controller, narrow scope.
+
+Promotion gotchas (2026-07-24):
+- The candidate well is NOT structurally dry — it was a matter of searching in unexplored categories. "Early consumer digital cameras as computer input" and "public-access terminals/kiosks" had never been searched in prior runs. Both angles returned strong, well-sourced candidates with CC-licensed images.
+- Future runs should try new topical angles rather than re-searching exhausted categories. Productive angles to try: telephony HCI (early cell phones, answering machines, phone-based computer services), electronic musical instruments with unusual physical interfaces, medical/clinical computer interfaces, early computer-aided instruction/education hardware, and industrial control pendants.
+- Wikimedia Commons image availability for specific camera/hardware models can be sparse — always verify with Commons API before building info.json. The Magellan NAV 1000 search returned ZERO results despite the device being historically significant.
+- Build count: 119 exhibits. Wiki ToC count: 116 (ToC now properly updated in this run).
+- Use Wikimedia Commons API format: `https://commons.wikimedia.org/w/api.php?action=query&list=search&srsearch=TERM&srnamespace=6&format=json` with proper User-Agent header and rate-limit delays (2+ seconds between downloads).
+
+(End of file - total 249 lines)
