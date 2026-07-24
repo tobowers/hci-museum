@@ -123,6 +123,8 @@ Each entry includes an overview, a deep dive, a small media gallery, and full so
 114. [TELESAR I (1981–1984)](#telesar-i-19811984)
 115. [Minitel (1982)](#minitel-1982)
 116. [Dycam Model 1 / Logitech Fotoman (1990)](#dycam-model-1--logitech-fotoman-1990)
+117. [Logitech 3D Mouse / Fly Mouse (1990)](#logitech-3d-mouse--fly-mouse-1990)
+118. [Roland TR-808 Rhythm Composer (1980)](#roland-tr-808-rhythm-composer-1980)
 
 ---
 
@@ -6153,3 +6155,85 @@ The Dycam Model 1, released in 1990 at $995, was the first commercially sold ful
 4. Digicamhistory.com — 1990 page (authoritative timeline: one-button detail, $995 MSRP) — https://web.archive.org/web/20231022142340/http://www.digicamhistory.com/1990.html
 5. Camera-wiki.org — Logitech Fotoman (consolidated specs) — https://camera-wiki.org/wiki/Logitech_Fotoman
 6. InfoWorld (Aug 12, 1991) — Raphael Needleman contemporaneous review — https://books.google.com/books?id=lFAEAAAAMBAJ&pg=PA54
+
+---
+
+## Logitech 3D Mouse / Fly Mouse (1990)
+
+**By:** Logitech  
+**Tags:** `Input` `3D` `Pointing` `Ultrasonic` `VR` `Mouse`
+
+### Overview
+
+The Logitech 3D Mouse (also known as the Fly Mouse) was a handheld isotonic 6-DOF input device that used ultrasonic triangulation to track absolute 3D position and orientation in space. Three ultrasonic emitters on the mouse body communicated with receivers mounted on a triangular frame attached to the monitor, enabling the system to calculate the mouse's position in X, Y, and Z as well as its pitch, roll, and yaw. It could function as both a standard 2D mouse on a desktop and a 3D spatial controller held in the air.
+
+Unlike the magnetic tracking used by the Polhemus Isotrak (1987), the Logitech 3D Mouse employed acoustic triangulation — a different physical principle entirely. And unlike the isometric force-sensing DLR Control Ball (1981) or SpaceBall (1988), the Logitech moved freely (isotonic). It was part of an early VR setup that also included a Logitech ultrasonic head tracker, anticipating consumer VR by over two decades. Multiple well-preserved units reside at the Musée Bolo (EPFL, Lausanne), documented in high-quality CC-licensed photographs.
+
+### Deep dive
+
+* **Ultrasonic Triangulation.** The device mounted three ultrasonic transmitters in a known geometric arrangement on the mouse body. A triangular receiver frame — attached to the top of the computer monitor — housed three corresponding ultrasonic microphones. By measuring the time-of-flight for each transmitter-to-receiver pair, the system triangulated the mouse's exact 3D position in space. Unlike magnetic trackers (which suffer from metal interference) or optical trackers (which need line-of-sight), ultrasonic tracking worked in an open volume without special wiring or electromagnetic shielding. The trade-off was sensitivity to ambient noise and acoustic reflections, but the approach was genuinely innovative for 1990.
+* **Isotonic 6-DOF Control.** The Logitech 3D Mouse was isotonic — it moved freely in the user's hand with zero resistance, tracking absolute position rather than measuring applied force. The user could hold it in the air and move it through three translational axes (X/Y/Z) while rotating through three rotational axes (pitch/roll/yaw). On the desktop, it functioned as a conventional 2D mouse. This dual-mode operation — desktop 2D and free-space 3D — was unusual for its era. The isometric force-sensing approach of the DLR Control Ball (push/twist a rigid ball) and the magnetic absolute tracking of the Polhemus Isotrak represent the other two major 6-DOF input paradigms of the same period. Between them, these three devices map the complete design space of early 3D spatial input.
+* **Musée Bolo Preservation.** Multiple units of the Logitech 3D Mouse are preserved in the Musée Bolo collection at EPFL (École Polytechnique Fédérale de Lausanne) in Switzerland. The museum has documented them in high-resolution white-background studio photographs, released under Creative Commons licenses. These photographs — showing the mouse body, the triangular receiver frame, and close-up details of the ultrasonic transducers — are among the best-archived images of any early VR input device. The preservation effort reflects the device's significance in the lineage of spatial computing input.
+
+### Team
+
+* **Logitech.** Swiss-American computer peripherals manufacturer, founded 1981
+
+### Media
+
+![Logitech 3D ultrasonic mouse on white background showing the triangular receiver frame and handheld mouse body with three acoustic emitters](assets/wiki/logitech-3d-gradient.jpg)
+*Logitech 3D ultrasonic mouse with triangular receiver frame (top) and handheld mouse body. (Musée Bolo / EPFL, CC-BY-SA, via Wikimedia Commons)*
+
+![Close-up of Logitech 3D Mouse body showing ultrasonic emitter positions on the handheld unit](assets/wiki/logitech-3d-black.jpg)
+*Detail of the Logitech 3D Mouse. (Musée Bolo / EPFL, CC-BY-SA, via Wikimedia Commons)*
+
+### Sources
+
+1. Wikipedia: Computer mouse — 3D mice and isotonic 3D mice section — https://en.wikipedia.org/wiki/Computer_mouse#Isotonic_3D_mice
+2. Wikimedia Commons: Category:Logitech 3D mouse at Musée Bolo — https://commons.wikimedia.org/wiki/Category:Logitech_3D_mouse_at_Mus%C3%A9e_Bolo
+3. Musée Bolo (EPFL) computer museum — https://www.bolo.ch/
+
+---
+
+## Roland TR-808 Rhythm Composer (1980)
+
+**By:** Roland Corporation  
+**Tags:** `Music` `Input` `Grid` `Sequencer` `Pattern` `Button Grid`
+
+### Overview
+
+The Roland TR-808 Rhythm Composer is a programmable drum machine manufactured by Roland Corporation from 1980 to 1983. It was the first drum machine that allowed users to program complete percussion tracks — not just select preset patterns, but compose every beat of a song using a 16-button step-sequencer grid with LEDs. Each button corresponds to a sixteenth-note step; pressing buttons places or removes drum hits for the selected voice. The 808 generates sounds using analog synthesis rather than samples, giving it a distinctive synthetic character.
+
+Though a commercial failure at launch ($1,195, ~12,000 units sold), the 808 found a second life on the used market where it sold for under $100. It became foundational to hip-hop ("Planet Rock" by Afrika Bambaataa, Run-DMC, Public Enemy), electronic music, and pop. By 2015, The New Yorker declared its bass drum sound "part of America's cultural DNA." The 808's step-sequencer grid remains the dominant paradigm for pattern-based composition in every DAW and drum machine that followed.
+
+### Deep dive
+
+* **Origins.** Roland founder Ikutaro Kakehashi hired American musician Don Lewis to help design drum machines after Lewis had extensively modified an Ace Tone drum machine in the early 1970s. By the late 1970s, microprocessors made programmable drum machines viable. Roland's 1978 CompuRhythm CR-78 was the first to allow users to write and save their own patterns. For the next machine, Kakehashi aimed at the professional market. Chief engineer Tadao Kikumoto led the TR-808 project with Makoto Muroi (mechanical design), Hiro Nakamura (voice circuits), and Hisanori Matsuoka (software/hardware).
+* **The Step-Sequencer Interaction Model.** The TR-808's defining HCI feature is its 16-button step-sequencer grid: one button per sixteenth-note step, illuminated by LEDs. The user selects a percussion voice (bass drum, snare, hi-hat, etc.) using dedicated selector switches, then toggles its step buttons on or off to place or remove hits in a looping pattern. Each voice has its own volume knob. The accent trigger adds dynamic articulation across steps. Patterns can be chained into full songs with breaks and rolls — up to 32 patterns of 768 measures. Users can set tempo and unusual time signatures (5/4, 7/8). Three trigger outputs allow synchronization with synthesizers and other equipment via DIN sync (a precursor to MIDI). This physical grid transformed rhythm composition from a real-time performance act to a spatial, visual, tactile act of button placement. It treated rhythm as a program — a set of discrete, editable instructions — years before grid-based editing became the standard in software DAWs.
+* **Commercial Failure and Cult Legacy.** The 808 launched in 1980 at $1,195. Its nearest competitor, the Linn LM-1, used samples of real drums and was preferred by producers who wanted realistic sounds. The 808's analog synthesis produced sounds described as 'clicky,' 'robotic,' and 'toy-like.' Roland discontinued it in 1983 after semiconductors essential to its design became unavailable. Fewer than 12,000 units were built. But on the used market, the 808 sold for under $100, and its idiosyncratic sounds — especially its deep, booming bass drum — attracted underground musicians. It became the rhythmic foundation of hip-hop (Afrika Bambaataa's 'Planet Rock,' 1982), electronic body music, Miami bass, Detroit techno, and eventually trap music. The British group 808 State took its name from the machine. Kanye West's 2008 album '808s & Heartbreak' was an explicit homage. The 808 was eventually used on more hit records than any other drum machine.
+
+### Team
+
+* **Tadao Kikumoto.** Chief engineer, proposed analog synthesis approach instead of samples
+* **Ikutaro Kakehashi.** Roland founder and president, purchased defective transistors to create the distinctive sizzling sound
+* **Makoto Muroi.** Chief engineer, mechanical design
+* **Hiro Nakamura.** Voice circuit designer
+* **Hisanori Matsuoka.** Software and hardware engineering
+* **Don Lewis.** American musician/engineer, consultant on drum machine design
+
+### Media
+
+![Roland TR-808 front panel showing the 16-button step sequencer grid with colored buttons, black knobs, and silver toggle switches](assets/wiki/tr808-mim.jpg)
+*Roland TR-808 front panel at the Musical Instrument Museum, Phoenix, AZ. The 16-button step-sequencer grid dominates the lower half. (Photo: Bryan Pocius, CC-BY-SA, via Wikimedia Commons)*
+
+![Roland TR-808 studio photo showing full front panel with grid buttons and analog control knobs](assets/wiki/tr808-large.jpg)
+*Roland TR-808 Rhythm Composer. (CC-BY-SA 2.0, via Wikimedia Commons)*
+
+### Sources
+
+1. Wikipedia: Roland TR-808 (featured article) — https://en.wikipedia.org/wiki/Roland_TR-808
+2. The Verge: How the 808 drum machine got its cymbal (Wolbe, 2013) — https://www.theverge.com/2013/1/30/3932574/how-the-808-found-its-cymbal-musical-tales-namm-geeky-underbelly
+3. The New Yorker: The 808 Heard Round the World (Norris, 2015) — https://www.newyorker.com/culture/culture-desk/the-808-heard-round-the-world
+4. Slate: 808s and heart eyes (Hamilton, 2016) — https://slate.com/culture/2016/12/808-the-movie-reviewed.html
+5. The Guardian: The Roland TR-808: the drum machine that revolutionised music (Beaumont-Thomas, 2014) — https://www.theguardian.com/music/2014/mar/06/roland-tr-808-drum-machine-revolutionised-music
+6. Roland Articles: Tadao Kikumoto — An Exclusive Conversation (2020) — https://articles.roland.com/tadao-kikumoto-exclusive-conversation/

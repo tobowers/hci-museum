@@ -1,0 +1,62 @@
+{
+  "slug": "roland-tr-808",
+  "title": "Roland TR-808 Rhythm Composer",
+  "year": "1980",
+  "subtitle": "The 16-button step-sequencer grid that taught a generation to think in patterns",
+  "why_scout_cares": "The TR-808 introduced the step-sequencer grid as a physical interaction paradigm — sixteen buttons with LEDs, one per sixteenth-note step, where composing rhythm becomes an act of button-toggling. Nothing else in the museum uses a grid-based pattern programming interface. The 808 was a commercial failure (~12,000 units) that became the most influential drum machine in history, foundational to hip-hop and electronic music. The HCI story isn't the sounds; it's the physical interface that transformed how humans program rhythm.",
+  "search_terms": ["Roland TR-808", "drum machine", "step sequencer", "grid interface", "pattern programming", "1980"],
+  "research": {
+    "title": "Roland TR-808 Rhythm Composer",
+    "year": "1980",
+    "by": "Roland Corporation",
+    "tags": ["Music", "Input", "Grid", "Sequencer", "Pattern", "Button Grid"],
+    "overview": "The Roland TR-808 Rhythm Composer is a programmable drum machine manufactured by Roland Corporation from 1980 to 1983. It was the first drum machine that allowed users to program complete percussion tracks — not just select preset patterns, but compose every beat of a song using a 16-button step-sequencer grid with LEDs. Each button corresponds to a sixteenth-note step; pressing buttons places or removes drum hits for the selected voice. The 808 generates sounds using analog synthesis rather than samples, giving it a distinctive synthetic character.\n\nThough a commercial failure at launch ($1,195, ~12,000 units sold), the 808 found a second life on the used market where it sold for under $100. It became foundational to hip-hop (\"Planet Rock\" by Afrika Bambaataa, Run-DMC, Public Enemy), electronic music, and pop. By 2015, The New Yorker declared its bass drum sound \"part of America's cultural DNA.\" The 808's step-sequencer grid remains the dominant paradigm for pattern-based composition in every DAW and drum machine that followed.",
+    "deepDive": [
+      {
+        "heading": "Origins",
+        "text": "Roland founder Ikutaro Kakehashi hired American musician Don Lewis to help design drum machines after Lewis had extensively modified an Ace Tone drum machine in the early 1970s. By the late 1970s, microprocessors made programmable drum machines viable. Roland's 1978 CompuRhythm CR-78 was the first to allow users to write and save their own patterns. For the next machine, Kakehashi aimed at the professional market. Chief engineer Tadao Kikumoto led the TR-808 project with Makoto Muroi (mechanical design), Hiro Nakamura (voice circuits), and Hisanori Matsuoka (software/hardware)."
+      },
+      {
+        "heading": "The Step-Sequencer Interaction Model",
+        "text": "The TR-808's defining HCI feature is its 16-button step-sequencer grid: one button per sixteenth-note step, illuminated by LEDs. The user selects a percussion voice (bass drum, snare, hi-hat, etc.) using dedicated selector switches, then toggles its step buttons on or off to place or remove hits in a looping pattern. Each voice has its own volume knob. The accent trigger adds dynamic articulation across steps. Patterns can be chained into full songs with breaks and rolls — up to 32 patterns of 768 measures. Users can set tempo and unusual time signatures (5/4, 7/8). Three trigger outputs allow synchronization with synthesizers and other equipment via DIN sync (a precursor to MIDI). This physical grid transformed rhythm composition from a real-time performance act to a spatial, visual, tactile act of button placement. It treated rhythm as a program — a set of discrete, editable instructions — years before grid-based editing became the standard in software DAWs."
+      },
+      {
+        "heading": "Commercial Failure and Cult Legacy",
+        "text": "The 808 launched in 1980 at $1,195. Its nearest competitor, the Linn LM-1, used samples of real drums and was preferred by producers who wanted realistic sounds. The 808's analog synthesis produced sounds described as 'clicky,' 'robotic,' and 'toy-like.' Roland discontinued it in 1983 after semiconductors essential to its design became unavailable. Fewer than 12,000 units were built. But on the used market, the 808 sold for under $100, and its idiosyncratic sounds — especially its deep, booming bass drum — attracted underground musicians. It became the rhythmic foundation of hip-hop (Afrika Bambaataa's 'Planet Rock,' 1982), electronic body music, Miami bass, Detroit techno, and eventually trap music. The British group 808 State took its name from the machine. Kanye West's 2008 album '808s & Heartbreak' was an explicit homage. The 808 was eventually used on more hit records than any other drum machine."
+      }
+    ],
+    "team": [
+      {"name": "Tadao Kikumoto", "note": "Chief engineer, proposed analog synthesis approach instead of samples"},
+      {"name": "Ikutaro Kakehashi", "note": "Roland founder and president, purchased defective transistors to create the distinctive sizzling sound"},
+      {"name": "Makoto Muroi", "note": "Chief engineer, mechanical design"},
+      {"name": "Hiro Nakamura", "note": "Voice circuit designer"},
+      {"name": "Hisanori Matsuoka", "note": "Software and hardware engineering"},
+      {"name": "Don Lewis", "note": "American musician/engineer, consultant on drum machine design"}
+    ],
+    "media": [
+      {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/e/e6/TR-808_-_MIM%2C_Phoenix_%282019-08-30_14.59.26_by_Bryan_Pocius%29_%28cropped%29.jpg",
+        "alt": "Roland TR-808 front panel showing the 16-button step sequencer grid with colored buttons, black knobs, and silver toggle switches",
+        "caption": "Roland TR-808 front panel at the Musical Instrument Museum, Phoenix, AZ. The 16-button step-sequencer grid dominates the lower half. (Photo: Bryan Pocius, CC-BY-SA, via Wikimedia Commons)"
+      },
+      {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/4/4c/Roland_TR-808_%28large%29.jpg",
+        "alt": "Roland TR-808 studio photo showing full front panel with grid buttons and analog control knobs",
+        "caption": "Roland TR-808 Rhythm Composer. (CC-BY-SA 2.0, via Wikimedia Commons)"
+      }
+    ],
+    "sources": [
+      {"text": "Wikipedia: Roland TR-808 (featured article)", "url": "https://en.wikipedia.org/wiki/Roland_TR-808"},
+      {"text": "The Verge: How the 808 drum machine got its cymbal (Wolbe, 2013)", "url": "https://www.theverge.com/2013/1/30/3932574/how-the-808-found-its-cymbal-musical-tales-namm-geeky-underbelly"},
+      {"text": "The New Yorker: The 808 Heard Round the World (Norris, 2015)", "url": "https://www.newyorker.com/culture/culture-desk/the-808-heard-round-the-world"},
+      {"text": "Slate: 808s and heart eyes (Hamilton, 2016)", "url": "https://slate.com/culture/2016/12/808-the-movie-reviewed.html"},
+      {"text": "The Guardian: The Roland TR-808: the drum machine that revolutionised music (Beaumont-Thomas, 2014)", "url": "https://www.theguardian.com/music/2014/mar/06/roland-tr-808-drum-machine-revolutionised-music"},
+      {"text": "Roland Articles: Tadao Kikumoto — An Exclusive Conversation (2020)", "url": "https://articles.roland.com/tadao-kikumoto-exclusive-conversation/"}
+    ],
+    "imageUrls": [
+      "https://en.wikipedia.org/wiki/Roland_TR-808",
+      "https://commons.wikimedia.org/wiki/Category:Roland_TR-808"
+    ]
+  },
+  "savedImages": []
+}

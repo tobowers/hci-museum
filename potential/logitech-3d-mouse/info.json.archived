@@ -1,0 +1,54 @@
+{
+  "slug": "logitech-3d-mouse",
+  "title": "Logitech 3D Mouse / Fly Mouse",
+  "year": "1990",
+  "subtitle": "The ultrasonic mouse that tracked your hand in empty space",
+  "why_scout_cares": "The Logitech 3D Mouse used ultrasonic triangulation — three acoustic emitters on the mouse body communicating with receivers on the monitor frame — to achieve 6-DOF tracking in free space. Unlike the magnetic Polhemus Isotrak (already in the museum), this used sound waves. Unlike the isometric DLR Control Ball (also in the museum), this moved freely in your hand. It was an isotonic ultrasonic 3D position tracker in a mouse form factor, part of Logitech's early VR efforts alongside their head tracker. The physical principle is genuinely distinct, and the Musée Bolo in Lausanne has preserved multiple units with excellent CC-licensed photography.",
+  "search_terms": ["Logitech 3D mouse", "ultrasonic mouse", "Fly Mouse", "6-DOF", "isotonic 3D mouse", "1990"],
+  "research": {
+    "title": "Logitech 3D Mouse / Fly Mouse",
+    "year": "1990",
+    "by": "Logitech",
+    "tags": ["Input", "3D", "Pointing", "Ultrasonic", "VR", "Mouse"],
+    "overview": "The Logitech 3D Mouse (also known as the Fly Mouse) was a handheld isotonic 6-DOF input device that used ultrasonic triangulation to track absolute 3D position and orientation in space. Three ultrasonic emitters on the mouse body communicated with receivers mounted on a triangular frame attached to the monitor, enabling the system to calculate the mouse's position in X, Y, and Z as well as its pitch, roll, and yaw. It could function as both a standard 2D mouse on a desktop and a 3D spatial controller held in the air.\n\nUnlike the magnetic tracking used by the Polhemus Isotrak (1987), the Logitech 3D Mouse employed acoustic triangulation — a different physical principle entirely. And unlike the isometric force-sensing DLR Control Ball (1981) or SpaceBall (1988), the Logitech moved freely (isotonic). It was part of an early VR setup that also included a Logitech ultrasonic head tracker, anticipating consumer VR by over two decades. Multiple well-preserved units reside at the Musée Bolo (EPFL, Lausanne), documented in high-quality CC-licensed photographs.",
+    "deepDive": [
+      {
+        "heading": "Ultrasonic Triangulation",
+        "text": "The device mounted three ultrasonic transmitters in a known geometric arrangement on the mouse body. A triangular receiver frame — attached to the top of the computer monitor — housed three corresponding ultrasonic microphones. By measuring the time-of-flight for each transmitter-to-receiver pair, the system triangulated the mouse's exact 3D position in space. Unlike magnetic trackers (which suffer from metal interference) or optical trackers (which need line-of-sight), ultrasonic tracking worked in an open volume without special wiring or electromagnetic shielding. The trade-off was sensitivity to ambient noise and acoustic reflections, but the approach was genuinely innovative for 1990."
+      },
+      {
+        "heading": "Isotonic 6-DOF Control",
+        "text": "The Logitech 3D Mouse was isotonic — it moved freely in the user's hand with zero resistance, tracking absolute position rather than measuring applied force. The user could hold it in the air and move it through three translational axes (X/Y/Z) while rotating through three rotational axes (pitch/roll/yaw). On the desktop, it functioned as a conventional 2D mouse. This dual-mode operation — desktop 2D and free-space 3D — was unusual for its era. The isometric force-sensing approach of the DLR Control Ball (push/twist a rigid ball) and the magnetic absolute tracking of the Polhemus Isotrak represent the other two major 6-DOF input paradigms of the same period. Between them, these three devices map the complete design space of early 3D spatial input."
+      },
+      {
+        "heading": "Musée Bolo Preservation",
+        "text": "Multiple units of the Logitech 3D Mouse are preserved in the Musée Bolo collection at EPFL (École Polytechnique Fédérale de Lausanne) in Switzerland. The museum has documented them in high-resolution white-background studio photographs, released under Creative Commons licenses. These photographs — showing the mouse body, the triangular receiver frame, and close-up details of the ultrasonic transducers — are among the best-archived images of any early VR input device. The preservation effort reflects the device's significance in the lineage of spatial computing input."
+      }
+    ],
+    "team": [
+      {"name": "Logitech", "note": "Swiss-American computer peripherals manufacturer, founded 1981"}
+    ],
+    "media": [
+      {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/6/62/Logitech_3D_ultrasonice_mouse_1990-IMG_7945-gradient.jpg",
+        "alt": "Logitech 3D ultrasonic mouse on white background showing the triangular receiver frame and handheld mouse body with three acoustic emitters",
+        "caption": "Logitech 3D ultrasonic mouse with triangular receiver frame (top) and handheld mouse body. (Musée Bolo / EPFL, CC-BY-SA, via Wikimedia Commons)"
+      },
+      {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/62/Logitech_3D_ultrasonice_mouse_1990-IMG_7945-gradient.jpg/640px-Logitech_3D_ultrasonice_mouse_1990-IMG_7945-gradient.jpg",
+        "alt": "Close-up of Logitech 3D Mouse body showing ultrasonic emitter positions on the handheld unit",
+        "caption": "Detail of the Logitech 3D Mouse. (Musée Bolo / EPFL, CC-BY-SA, via Wikimedia Commons)"
+      }
+    ],
+    "sources": [
+      {"text": "Wikipedia: Computer mouse — 3D mice and isotonic 3D mice section", "url": "https://en.wikipedia.org/wiki/Computer_mouse#Isotonic_3D_mice"},
+      {"text": "Wikimedia Commons: Category:Logitech 3D mouse at Musée Bolo", "url": "https://commons.wikimedia.org/wiki/Category:Logitech_3D_mouse_at_Mus%C3%A9e_Bolo"},
+      {"text": "Musée Bolo (EPFL) computer museum", "url": "https://www.bolo.ch/"}
+    ],
+    "imageUrls": [
+      "https://commons.wikimedia.org/wiki/Category:Logitech_3D_mouse_at_Mus%C3%A9e_Bolo",
+      "https://en.wikipedia.org/wiki/Computer_mouse#Isotonic_3D_mice"
+    ]
+  },
+  "savedImages": []
+}

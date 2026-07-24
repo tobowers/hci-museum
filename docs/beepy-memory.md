@@ -253,4 +253,19 @@ Promotion gotchas (2026-07-24):
 - Build count: 119 exhibits. Wiki ToC count: 116 (ToC now properly updated in this run).
 - Use Wikimedia Commons API format: `https://commons.wikimedia.org/w/api.php?action=query&list=search&srsearch=TERM&srnamespace=6&format=json` with proper User-Agent header and rate-limit delays (2+ seconds between downloads).
 
-(End of file - total 249 lines)
+New additions (2026-07-24, run 2):
+- Roland TR-808 Rhythm Composer (1980): Promoted 2026-07-24. 16-button step-sequencer grid with LEDs — one button per sixteenth-note step. First drum machine to allow programming complete percussion tracks from beginning to end. Chief engineer Tadao Kikumoto, Roland Corporation. $1,195, ~12,000 units. Commercial flop turned cultural phenomenon: foundational to hip-hop ("Planet Rock" 1982), electronic music, and pop production. 2 CC-licensed Commons images (Musical Instrument Museum Phoenix, studio shot). Distinct interaction model: grid-based pattern programming as physical button-toggling — nothing else in the museum uses a step-grid paradigm.
+- Logitech 3D Mouse / Fly Mouse (1990): Promoted 2026-07-24. Handheld isotonic 6-DOF mouse using ultrasonic triangulation — three acoustic emitters on mouse body triangulated via receiver frame on monitor to track absolute 3D position and orientation. Distinct physical principle (ultrasonic acoustic) from Polhemus Isotrak (magnetic, 1987) and DLR Control Ball (isometric force, 1981). Part of Logitech's early VR efforts. 2 CC-licensed Commons images from Musée Bolo (EPFL). Fills gap: acoustic spatial tracking as a pointing paradigm.
+
+New deferred candidates (2026-07-24, run 2):
+- Gavilan SC (1984): First battery-powered clamshell laptop with a touchpad. Manny Fernandez, Gavilan Computer Corporation. $4,000, ~few thousand units, company bankrupt 1985. Touchpad positioned above keyboard for cursor control and menu selection — described in Design magazine (Nov 1983). Info.json at potential/gavilan-sc/. DEFERRED: interaction model (finger-on-surface → cursor) overlaps with KoalaPad (1984), HP-150 Touchscreen (1983) already in museum. The laptop-touchpad form factor is historically important but the HCI paradigm is incremental. 1 CC-licensed Commons image. Revisit if touchpad/pointing-device section gets a thematic refresh.
+
+Lessons learned (2026-07-24, run 2):
+- Telephony HCI angle returned mostly service-based candidates (Moviefone, IBM voicemail) with no physical artifacts — not a productive angle for artifact-forward museum.
+- Medical/clinical HCI angle is image-blocked. Arthrobot, AutoSyringe, Biostator, Cardiff Palliator all lack CC-licensed images. Nellcor N-100 (1 CC0 image) is the only promising one but sonification-as-clinical-monitoring may be too narrow.
+- Industrial control HCI angle returns mainly military aviation systems (F-16, AH-64, glass cockpit) — excellent documentation but military context and system-scale rather than discrete artifact focus.
+- Electronic musical instruments and unusual pointing devices were the most productive angles this run — both returned CC-licensed, well-documented hardware with genuinely distinct interaction models.
+- Subagents across all angles returned significant overlap with already-deferred candidates (~40%) and already-in-museum candidates (~30%). About 15% of returns were genuinely new candidates worth building info.json for. This is structural, not a subagent quality problem.
+- Build count: 121 exhibits. Wiki ToC: 118 entries.
+- Gavilan SC archived for future revisit (good image, borderline HCI novelty).
+- Musée Bolo (EPFL) Commons images are an excellent source for early computer peripherals — high-quality studio photos under CC licenses. Confirm this pattern for future candidates.

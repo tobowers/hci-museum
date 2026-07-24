@@ -1467,6 +1467,30 @@ const exhibitData: Exhibit[] = [
     tags: ["Digital Camera", "Computer Peripheral", "Image Capture", "Input Device"],
     image: img("fotoman-black.jpg"),
   },
+  {
+    id: "roland-tr-808",
+    slug: "roland-tr-808",
+    wikiTitle: "Roland TR-808 Rhythm Composer",
+    year: "1980",
+    sortYear: 1980,
+    title: "Roland TR-808",
+    subtitle: "The 16-button grid that made rhythm programming a physical act",
+    blurb: "The Roland TR-808 (1980) introduced the 16-button step-sequencer grid — one button per sixteenth note, each with an LED. Users selected a drum voice, then toggled buttons on or off to build patterns. This transformed rhythm composition from real-time performance into a spatial, tactile act of button placement — a paradigm that became the DNA of hip-hop, electronic music, and every DAW piano roll that followed. A commercial flop (~12,000 units), it found a second life for under $100 on the used market and became the most influential drum machine in history.",
+    tags: ["Music", "Grid", "Sequencer", "Button Grid", "Pattern"],
+    image: img("tr808-mim.jpg"),
+  },
+  {
+    id: "logitech-3d-mouse",
+    slug: "logitech-3d-mouse",
+    wikiTitle: "Logitech 3D Mouse / Fly Mouse",
+    year: "1990",
+    sortYear: 1990,
+    title: "Logitech 3D Mouse",
+    subtitle: "The ultrasonic mouse that tracked your hand in empty space",
+    blurb: "The Logitech 3D Mouse (1990) used three ultrasonic emitters on a handheld body and a triangular receiver frame on the monitor to triangulate 6-DOF position in empty space via sound waves. Unlike the magnetic Polhemus Isotrak or the isometric DLR Control Ball, this was acoustic isotonic 3D tracking — you lifted it off the desk, moved it through air, and the computer knew exactly where it was. Part of Logitech's early VR efforts, preserved in excellent condition at Musée Bolo in Lausanne.",
+    tags: ["3D Input", "Ultrasonic", "VR", "Mouse", "Pointing"],
+    image: img("logitech-3d-gradient.jpg"),
+  },
 ];
 
 export const exhibits: Exhibit[] = exhibitData.toSorted((a, b) => b.sortYear - a.sortYear || a.title.localeCompare(b.title));

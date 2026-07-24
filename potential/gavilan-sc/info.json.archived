@@ -1,0 +1,48 @@
+{
+  "slug": "gavilan-sc",
+  "title": "Gavilan SC Touchpad",
+  "year": "1984",
+  "subtitle": "The first laptop with a touchpad — a pointing surface above the keyboard, ten years before Apple made it standard",
+  "why_scout_cares": "The Gavilan SC was the first battery-powered clamshell laptop to include a touchpad — a small capacitive touch-sensitive panel positioned above the keyboard that the user dragged a finger across to move the cursor. This interaction model — finger-on-pad maps to cursor-on-screen — is now universal on laptops but was revolutionary in 1984. The touchpad was described in Design magazine (Nov 1983) as 'a touch-sensitive panel between its text-entry keyboard and its liquid-crystal display. Moving your finger around on this shifts the cursor on the screen to select commands from a menu.' It predates the mainstream laptop touchpad (Apple PowerBook 500, 1994) by a full decade.",
+  "search_terms": ["Gavilan SC", "first touchpad laptop", "Manny Fernandez", "portable computer 1984", "capacitive touchpad"],
+  "research": {
+    "title": "Gavilan SC",
+    "year": "1984",
+    "by": "Gavilan Computer Corporation",
+    "tags": ["Input", "Touchpad", "Laptop", "Portable", "Pointing"],
+    "overview": "The Gavilan SC is an early laptop computer developed by Manuel 'Manny' Fernandez and released by Gavilan Computer Corporation in April 1984. It was one of the first portable computers with a clamshell design (screen folds over keyboard), an internal battery, and a built-in modem. Its most notable HCI feature was a pioneering touchpad — a capacitive touch-sensitive panel mounted above the keyboard — making it among the very first computers to include a touchpad as a pointing device.\n\nThe Gavilan ran MS-DOS on a 5 MHz Intel 8088 with 64 KB of static CMOS RAM and an unusual 400×64 pixel LCD (80 characters by 8 lines). It weighed 4 kg (8.8 lbs). Only a few thousand units shipped before the company filed for Chapter 11 bankruptcy in late 1984, facing cash flow problems and a distributor bankruptcy. The touchpad would not become standard on laptops until Apple's PowerBook 500 series in 1994 — a full decade later.",
+    "deepDive": [
+      {
+        "heading": "The Touchpad Innovation",
+        "text": "The Gavilan SC's touchpad was a small rectangular capacitive sensing panel positioned between the keyboard and the LCD screen. Users moved their finger across the pad surface to position the cursor on screen; tapping selected menu items. The capacitive sensing detected finger position through changes in electrical capacitance, rather than physical switches or resistive pressure — the same principle used in modern touchpads. Design magazine (November 1983, p. 20) described it: 'The Gavilan portable computer uses a touch-sensitive panel between its text-entry keyboard and its liquid-crystal display. Moving your finger around on this shifts the cursor on the screen to select commands from a menu.' This was an absolute-to-relative mapping scheme where the touchpad area corresponded to screen area. The Xerox 860 CAT (Capacitance-Activated Transducer) of 1979 used a circular touchpad on a desktop word processor, and Apple explored touchpad concepts in the early 1980s, but the Gavilan SC was the first to integrate a touchpad into a true portable, battery-powered clamshell laptop."
+      },
+      {
+        "heading": "The Man Behind It",
+        "text": "Manuel 'Manny' Fernandez founded Gavilan Computer Corporation after a career that included founding Zilog (the microprocessor company) and serving as CEO of Gavilan. He envisioned a mobile computer for traveling professionals. The Gavilan was unveiled at COMDEX/Spring '83 to strong early press. BYTE magazine (June 1983) called it 'a traveling professional's dream come true ... promises to set new industry standards, not only for truly portable computers, but also for integration of applications software.' Jack Hall, an award-winning industrial designer, designed the ergonomics and appearance. The compact printer module was developed in collaboration with C. Itoh of Japan."
+      }
+    ],
+    "team": [
+      {"name": "Manuel 'Manny' Fernandez", "note": "Founder of Gavilan Computer Corporation, previously founded Zilog"},
+      {"name": "Jack Hall", "note": "Industrial designer, designed ergonomics, mechanics, and overall appearance"}
+    ],
+    "media": [
+      {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/f/f6/Gavilan_SC.jpg",
+        "alt": "Gavilan SC laptop showing the clamshell design with LCD screen, keyboard, and touchpad panel above the keyboard",
+        "caption": "Gavilan SC laptop. The touchpad is the dark rectangular panel above the keyboard, below the LCD screen. (Photo: Rdc5, CC-BY-SA, via Wikimedia Commons)"
+      }
+    ],
+    "sources": [
+      {"text": "Wikipedia: Gavilan SC", "url": "https://en.wikipedia.org/wiki/Gavilan_SC"},
+      {"text": "Design magazine, November 1983, p. 20 — first description of the Gavilan touchpad", "url": "https://archive.org/details/sim_design_1983-11_419/page/n21/mode/1up"},
+      {"text": "BYTE magazine, June 1983 — Phil Lemmons review", "url": "https://archive.org/stream/byte-magazine-1983-06/1983_06_BYTE_08-06_16-Bit_Designs#page/n75/mode/2up"},
+      {"text": "Wikipedia: Touchpad — History section noting the Xerox CAT and Gavilan as pioneers", "url": "https://en.wikipedia.org/wiki/Touchpad#History"},
+      {"text": "Oldcomputers.net: Gavilan SC", "url": "http://oldcomputers.net/gavilan.html"}
+    ],
+    "imageUrls": [
+      "https://commons.wikimedia.org/wiki/File:Gavilan_SC.jpg",
+      "https://en.wikipedia.org/wiki/Gavilan_SC"
+    ]
+  },
+  "savedImages": []
+}
