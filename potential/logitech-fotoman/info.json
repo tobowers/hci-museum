@@ -1,0 +1,61 @@
+{
+  "slug": "dycam-model-1",
+  "title": "Dycam Model 1 / Logitech Fotoman",
+  "year": "1990",
+  "subtitle": "The camera that was never meant to work alone — one button, volatile memory, and a computer it couldn't live without",
+  "why_scout_cares": "The Dycam Model 1 was the first commercially sold fully-digital consumer camera in the United States, but that's not what makes it a museum artifact. What matters is the interaction model: it had exactly ONE physical control (the shutter button). There was no LCD screen, no mode dial, no flash toggle, no on/off switch. To turn the flash on, you had to connect the camera to a computer and use a menu. Images were stored in volatile DRAM — if the battery died, your photos vanished. The camera even faked its own shutter sound through a speaker, because a completely silent camera felt broken to photographers conditioned by 150 years of mechanical shutters. This was not a camera; it was a computer peripheral shaped like one — the purest expression of 'point at the world → data appears in your PC' ever shipped. The museum has no digital camera, no image-capture input device, and no artifact that so cleanly demonstrates the camera-as-sensor paradigm.",
+  "search_terms": ["Dycam Model 1", "Logitech Fotoman", "first digital camera", "digital photography 1990", "camera peripheral"],
+  "research": {
+    "title": "Dycam Model 1 / Logitech Fotoman",
+    "year": "1990",
+    "by": "Dycam Inc. (Los Angeles/Pasadena, CA); licensed to Logitech for European distribution as the Fotoman FM-1",
+    "tags": ["Digital Camera", "Computer Peripheral", "Image Capture", "Input Device"],
+    "overview": "The Dycam Model 1, released in 1990 at $995, was the first commercially sold fully-digital consumer camera in the United States. It used a 1/3-inch CCD sensor capturing 376 × 240-pixel 8-bit grayscale images, stored up to 32 compressed images in 1 MB of volatile DRAM, and connected to a PC or Mac via RS-232 serial cable at 9600 baud. The camera had exactly one physical control — the shutter button. Every other function, including turning the flash on or off, required connecting to a computer and using the bundled software. Logitech licensed the technology for $1 million and released it as the Fotoman FM-1 in Europe, adding the FotoTouch image-editing software. The most telling HCI detail: the physical shutter sound was fake — a speaker generated a simulated click purely to reassure photographers, because a completely silent camera felt broken.",
+    "deepDive": [
+      {
+        "heading": "One Button, No Screen",
+        "text": "The Dycam Model 1 had a single control: the shutter release button. No on/off switch, no mode dial, no LCD preview, no image review — nothing. The camera could not delete images. It could not adjust flash settings. It could not even report battery status beyond a coded sequence of beeps. As digicamhistory.com notes: 'To turn the flash on it was necessary to connect the camera to a computer and use the program that came with the camera. To turn the flash off it was necessary to reconnect the camera to a computer.' The design philosophy was radical: this was not a standalone camera that happened to connect to a computer. It was a computer peripheral that happened to be shaped like a camera."
+      },
+      {
+        "heading": "Volatile Memory: The Existential Constraint",
+        "text": "Images were stored in 1 MB of volatile DRAM — no flash memory, no removable card, no permanent storage whatsoever. If the internal rechargeable battery died (about 24 hours without charging), all images were permanently lost. The camera firmware was also held in volatile memory: after a full battery drain, the firmware had to be reloaded from the computer. The Digital Camera Museum notes: 'Once the batteries were recharged you had to connect your camera to a computer and download the software into the camera to make it work again!' This created an existential relationship between camera and computer — the PC was not optional, it was urgent. Every photo session ended with a race against the battery clock."
+      },
+      {
+        "heading": "The Fake Shutter Sound",
+        "text": "The EPI Centre's John Henshall discovered in his January 1993 review that the Fotoman 'has one moving part: the shutter release button.' The shutter sound was 'a simulated sound, generated to serve no purpose other than to reassure the photographer that an exposure has been made.' A second beep ~11 seconds later confirmed the image was saved to DRAM. Henshall noted the implications: 'Without these sounds, or with the facility to turn them off as required, the camera would be completely silent. Imagine how useful that would be, for example, on the set of a movie being shot with sync sound.' This was one of the earliest documented cases of skeuomorphic audio design in consumer electronics — a pattern that persists in every smartphone camera today."
+      },
+      {
+        "heading": "Downloading at 9600 Baud",
+        "text": "After shooting, the user connected a serial cable to a PC (Windows 3.0/3.1) or Mac. The bundled FotoTouch software displayed a contact-sheet view of all 32 images — complete with sprocket-hole borders mimicking 35mm film strips, a deliberate skeuomorphic choice to make digital images feel familiar. A battery gauge and percentage were shown. Downloading all 32 compressed images at 9600 baud took approximately 17 minutes. Images were saved as 8-bit TIFF or PICT 2 files. A 'Tripod Camera Code' could be downloaded into the camera, disabling the flash and allowing manual exposure times of 1–640 milliseconds — the camera was user-reprogrammable, an astonishingly forward-looking feature for 1990."
+      },
+      {
+        "heading": "Dycam vs. Logitech",
+        "text": "Dycam Inc. was a small Los Angeles-area engineering startup, reportedly founded by former aerospace imaging engineers. In early 1991, Logitech — the computer mouse company — licensed Dycam's technology for $1 million to produce the Fotoman FM-1. Two versions shipped: first-generation units were identical to the Dycam Model 1 with 4 front grip indentations; second-generation units had 3 indentations and updated firmware. Logitech's project manager was Paul Laughton, previously notable as the programmer of the original Apple DOS for the Apple II. While the Dycam was US-only and limited, the Fotoman was 'a market success' globally, establishing the consumer digital camera category before Apple's QuickTake (1994) or Casio's QV-10 (1995)."
+      }
+    ],
+    "team": [
+      {"name": "Dycam Inc.", "note": "Los Angeles/Pasadena startup; designed and manufactured the original Model 1 in 1990. Small team reportedly from aerospace/defense imaging backgrounds. Continued producing cameras through at least 1996"},
+      {"name": "Paul Laughton", "note": "Project manager for the Logitech Fotoman at Logitech. Wrote FotoMan/FotoTouch PC software, TWAIN driver, and firmware utilities. Previously programmed the original Apple DOS for the Apple II"},
+      {"name": "Logitech", "note": "Licensed Dycam technology for $1M in 1991. Marketed the Fotoman FM-1 globally through computer retail channels as a PC peripheral, not a camera product"}
+    ],
+    "media": [
+      {"src": "https://upload.wikimedia.org/wikipedia/commons/b/ba/Logitech_FotoMan-P4191195-black.jpg", "alt": "Logitech Fotoman FM-1, black/Dycam-style body with single shutter button", "caption": "Logitech Fotoman FM-1 (first generation), identical to the Dycam Model 1 housing. The single mint-green shutter button was the only physical control. Photo: Rama, Musée Bolo (CC BY-SA 3.0)"},
+      {"src": "https://upload.wikimedia.org/wikipedia/commons/3/3a/Logitech_FotoMan-P4191195-white.jpg", "alt": "Logitech Fotoman FM-1, white/beige second-generation body", "caption": "Logitech Fotoman FM-1 (second generation) with the revised 3-grip body in beige. The Fotoman was marketed through computer stores, not camera shops. Photo: Rama, Musée Bolo (CC BY-SA 3.0)"},
+      {"src": "https://upload.wikimedia.org/wikipedia/commons/1/1f/Logitech_FotoMan-P4191195-white_%28cropped%29.jpg", "alt": "Logitech Fotoman detail close-up", "caption": "Close-up of the Fotoman's minimal interface: shutter button, viewfinder, and flash. No LCD, no menus, no controls — the computer handled everything else. Photo: Rama, Musée Bolo (CC BY-SA 3.0)"}
+    ],
+    "sources": [
+      {"text": "EPI Centre / John Henshall 'Chip Shop' review (Jan 1993) — definitive first-hand review of the Fotoman. Source of the fake shutter sound revelation", "url": "http://www.epi-centre.com/reports/9301cs.html"},
+      {"text": "Digital Camera Museum — Dycam Model 1 (specs, Tripod Camera Code, firmware detail)", "url": "https://www.digitalkameramuseum.de/en/cameras/item/dycam-model-1"},
+      {"text": "Digital Camera Museum — Logitech Fotoman FM-1 ($1M license deal, two generations, Paul Laughton)", "url": "https://www.digitalkameramuseum.de/en/cameras/item/logitech-fotoman-fm-1"},
+      {"text": "Digicamhistory.com — 1990 page (authoritative timeline: one-button detail, $995 MSRP)", "url": "https://web.archive.org/web/20231022142340/http://www.digicamhistory.com/1990.html"},
+      {"text": "Camera-wiki.org — Logitech Fotoman (consolidated specs, ISO ratings, ND filter)", "url": "https://camera-wiki.org/wiki/Logitech_Fotoman"},
+      {"text": "InfoWorld (Aug 12, 1991) — Raphael Needleman contemporaneous review", "url": "https://books.google.com/books?id=lFAEAAAAMBAJ&pg=PA54"}
+    ],
+    "imageUrls": [
+      "https://upload.wikimedia.org/wikipedia/commons/b/ba/Logitech_FotoMan-P4191195-black.jpg",
+      "https://upload.wikimedia.org/wikipedia/commons/3/3a/Logitech_FotoMan-P4191195-white.jpg",
+      "https://upload.wikimedia.org/wikipedia/commons/1/1f/Logitech_FotoMan-P4191195-white_%28cropped%29.jpg"
+    ]
+  },
+  "savedImages": []
+}

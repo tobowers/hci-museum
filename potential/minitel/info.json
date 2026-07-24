@@ -1,0 +1,65 @@
+{
+  "slug": "minitel",
+  "title": "Minitel",
+  "year": "1982",
+  "subtitle": "The terminal France gave away for free — 9 million keyboards brought a nation online a decade before the Web",
+  "why_scout_cares": "Minitel is the most successful pre-Web public computer terminal ever deployed. France Télécom distributed 9 million free terminals to households, creating a nationwide interactive network where 25 million citizens shopped, banked, chatted, and dated — all through a dedicated beige CRT-and-keyboard appliance with a built-in modem. The interaction paradigm is purely keyboard-driven, with numeric shortcut codes (3615 for premium services) and text-based Videotex menus, while the 'messageries roses' adult chat services became the first mass-market computer-mediated social phenomenon. The museum has no videotex terminal, no public kiosk, and no network-appliance artifact. Minitel ran for 30 years (1982–2012) — longer than the Web has existed.",
+  "search_terms": ["Minitel", "videotex terminal", "3615", "France Telecom", "Télétel"],
+  "research": {
+    "title": "Minitel",
+    "year": "1982",
+    "by": "France Télécom / PTT (Postes, Télégraphes et Télécommunications)",
+    "tags": ["Public Kiosk", "Videotex", "Telecommunications", "Network Terminal"],
+    "overview": "Minitel was a dedicated videotex terminal distributed free to French telephone subscribers starting in 1982. Combining a 9-inch monochrome CRT, an integrated AZERTY keyboard, and a built-in V.23 modem (1200 bps down, 75 bps up), the terminal connected to the Transpac X.25 packet network through local telephone exchanges. By 1993, 6.5 million terminals were in French homes, with 25,000 services available — from phone directories and train reservations to home banking, online shopping, and the infamous 'messageries roses' adult chat. The system survived until June 30, 2012, outliving its British (Prestel) and German (Bildschirmtext) counterparts by decades, largely because the terminals were free and the billing was built into the phone bill.",
+    "deepDive": [
+      {
+        "heading": "Origins",
+        "text": "The intellectual foundation was the 1977 Nora-Minc report 'L'informatisation de la société,' which coined the term télématique and warned that France risked becoming an information colony of American computing firms unless it built its own public network. Gérard Théry, director of the DGT (Direction Générale des Télécommunications), publicly announced the project in 1979. Bernard Marti's team at the CCETT research center in Rennes built the technical infrastructure, including the TITAN terminal demonstrated in Berlin in 1977. The PTT's strategic logic was economic: printing and distributing paper phone directories cost 500 million francs annually. Giving away terminals would pay for itself through directory savings and service revenue."
+      },
+      {
+        "heading": "The Terminal",
+        "text": "The Minitel 1 (1982) was a substantial beige ABS plastic appliance — 23 × 25 × 26 cm, weighing 4.6 kg. Its flip-down keyboard folded up to cover the 9-inch monochrome CRT, making it a compact cube when not in use. Inside: an Intel 8052-family microcontroller, an EF9345P Videotex display controller, 8.25 KB RAM, and an EPROM. The display showed 25 rows × 40 columns of text with 8 grayscale levels (rendered as colors on later color models). The keyboard was full-travel mechanical AZERTY with dedicated Minitel function keys: Connexion/Fin (connect/hang up), Envoi (send), Retour (back), Suite (next page), and Sommaire (home). The built-in V.23 modem connected via the French T-plug telephone jack — no external modem, no separate power supply, no computer needed."
+      },
+      {
+        "heading": "The Interaction Model",
+        "text": "Using Minitel required no computer literacy. The user plugged it in, dialed a short access code (like 3615) on their telephone, heard the modem carrier tone, pressed Connexion/Fin, and hung up the phone. The screen filled with a text-based menu of numbered options. Users typed numbers to navigate. Pages arrived at ~150 characters per second — a full screen took about 7–8 seconds to fill. Text was entered locally and sent when the user pressed Envoi. The interaction was purely keyboard-driven, with no mouse, no touchscreen, no graphics beyond blocky semigraphic characters. The 1984 'kiosk' billing system assigned numeric access codes to billing tiers: 3611 for directory assistance, 3614 for user-paid services, 3615 for premium services shared between provider and France Télécom. The phone bill recorded usage with no itemization of which services were visited — a privacy feature that proved essential to the chat services' growth."
+      },
+      {
+        "heading": "The Messageries Roses",
+        "text": "The first instant messaging on Minitel was discovered accidentally during the Gretel experiment in Strasbourg (winter 1981) and quickly represented 85% of traffic. By 1990, half of all Minitel calls were to messageries (chat services), dominated by messageries roses (adult chat). The business model was compelling: users paid ~60 francs per hour, services employed 'animatrices' to keep users engaged, and billing was aggregated anonymously on the phone bill. This was the first mass-market computer-mediated social interaction — millions of French people had their first online conversation not through a computer but through a beige terminal with a built-in modem. Xavier Niel, now a billionaire founder of Free/Iliad, started his fortune on Minitel rose."
+      },
+      {
+        "heading": "Thirty-Year Run",
+        "text": "Minitel peaked in 1993 with 6.5 million terminals in homes, then declined slowly against the Internet. In 2007 it still generated €100M in revenue from 220 million connections. France Télécom finally shut down the Télétel network on June 30, 2012. The system's longevity stemmed from installed-base inertia (9 million free terminals), simplicity (instant-on, no booting, no viruses), trusted billing infrastructure (banks and healthcare relied on it), and the digital divide (older and rural populations without PCs). Critics called it a 'French embarrassment' that delayed Internet adoption; defenders point out it pioneered app stores, user-generated content, forums, online banking, and e-commerce — all before the Web."
+      }
+    ],
+    "team": [
+      {"name": "Bernard Marti", "note": "Chief technical architect at CCETT; directed development of the TITAN terminal and the Télétel network infrastructure"},
+      {"name": "Gérard Théry", "note": "Director of the DGT (Direction Générale des Télécommunications); championed the project and announced it publicly at Intelcom 79 in Dallas"},
+      {"name": "Jean-Paul Maury", "note": "Director of the 'Annuaire Électronique et Minitel' project (1979–1985)"},
+      {"name": "Simon Nora and Alain Minc", "note": "Authors of the 1977 report 'L'informatisation de la société' that coined the term télématique and provided the intellectual framework"},
+      {"name": "France Télécom / PTT", "note": "French state telecom monopoly that developed, subsidized, and operated the Minitel network for 30 years"}
+    ],
+    "media": [
+      {"src": "https://upload.wikimedia.org/wikipedia/commons/3/37/Minitel1.jpg", "alt": "Minitel 1 terminal (1982) with keyboard folded down, beige CRT housing", "caption": "Minitel 1, the original 1982 terminal. Flip-down keyboard reveals a 9-inch monochrome CRT. Built-in V.23 modem, no external computer needed. Photo: Tieum (GFDL/CC BY-SA 3.0)"},
+      {"src": "https://upload.wikimedia.org/wikipedia/commons/e/e1/Minitel_B1_terminal_1986_02.JPG", "alt": "Minitel B1 terminal powered on showing text on screen, 1986", "caption": "Minitel 1B terminal (1986) powered on, showing Videotex content on the 40-column display. Photo: Philafrenzy (CC BY-SA 4.0)"},
+      {"src": "https://upload.wikimedia.org/wikipedia/commons/b/b3/Minitel_1_La_Radiotechnique.jpg", "alt": "Minitel 1 manufactured by La Radiotechnique, front angle view", "caption": "Minitel 1 model NFZ 300 manufactured by La Radiotechnique (Philips subsidiary). V.23 standard: 1200 bauds down, 75 bauds up. Photo: DMontagne en résidence (CC BY 4.0)"}
+    ],
+    "sources": [
+      {"text": "Minitel — Wikipedia", "url": "https://en.wikipedia.org/wiki/Minitel"},
+      {"text": "Minitel — French Wikipedia (detailed technical specs)", "url": "https://fr.wikipedia.org/wiki/Minitel"},
+      {"text": "Minitel: The Online World France Built Before the Web — IEEE Spectrum (2017) by Julien Mailland & Kevin Driscoll", "url": "https://spectrum.ieee.org/minitel-the-online-world-france-built-before-the-web"},
+      {"text": "Minitel: Welcome to the Internet — MIT Press (2017) by Mailland & Driscoll", "url": "https://mitpress.mit.edu/books/minitel"},
+      {"text": "Minitel: The rise and fall of the France-wide web — BBC News (June 2012) by Hugh Schofield", "url": "https://www.bbc.com/news/magazine-18610692"},
+      {"text": "Minitel Research Lab, USA — largest digital Minitel museum", "url": "http://www.minitel.us/"},
+      {"text": "Musée du Minitel — preservation and history", "url": "https://www.museeminitel.fr/"},
+      {"text": "Bernard Marti: La naissance du Minitel à Rennes — Place Publique Rennes (2011)", "url": "http://placepublique-rennes.com/article/La-naissance-du-Minitel-a-Rennes-par-un-de-ses-inventeurs-1"}
+    ],
+    "imageUrls": [
+      "https://upload.wikimedia.org/wikipedia/commons/3/37/Minitel1.jpg",
+      "https://upload.wikimedia.org/wikipedia/commons/e/e1/Minitel_B1_terminal_1986_02.JPG",
+      "https://upload.wikimedia.org/wikipedia/commons/b/b3/Minitel_1_La_Radiotechnique.jpg"
+    ]
+  },
+  "savedImages": []
+}
