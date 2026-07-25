@@ -1503,6 +1503,30 @@ const exhibitData: Exhibit[] = [
     tags: ["Robotics", "Education", "Programming", "Physical Computing"],
     image: img("topo-robot.jpg"),
   },
+  {
+    id: "linn-lm1",
+    slug: "linn-lm1",
+    wikiTitle: "Linn LM-1 Drum Computer",
+    year: "1980",
+    sortYear: 1980,
+    title: "Linn LM-1 Drum Computer",
+    subtitle: "the machine that taught a computer to feel like a drum kit",
+    blurb: "The Linn LM-1 Drum Computer (1980) was the first programmable drum machine to use digital samples of real drums — and the first to introduce the pressure-sensitive pad grid as a musical interface. Twelve hard plastic pads respond to strike velocity; built-in quantization corrects timing to sixteenth notes with adjustable swing. Designed by Roger Linn. Only 525 units were built at up to $5,500 each. The pad-grid interaction model directly led to the Akai MPC, which transformed hip-hop production.",
+    tags: ["Music", "Sampling", "Percussion", "Input", "Professional"],
+    image: img("linn-lm1-large.jpg"),
+  },
+  {
+    id: "omnichord",
+    slug: "omnichord",
+    wikiTitle: "Suzuki Omnichord",
+    year: "1981",
+    sortYear: 1981,
+    title: "Suzuki Omnichord",
+    subtitle: "when a strum plate makes everyone a musician",
+    blurb: "The Suzuki Omnichord (1981) is an electronic instrument designed for non-musicians. Hold a chord button with your left hand, strum the 'Sonic Strings' touch plate with your right, and the Omnichord fills in harmony, bassline, and rhythm automatically. The strum plate always produces in-key notes for the active chord — you cannot play wrong. Designed as an electronic autoharp by Suzuki Musical Instrument Corporation. Used by Brian Eno, David Bowie, and Gorillaz. Revived with the OM-108 in 2024.",
+    tags: ["Music", "Touch", "Education", "Consumer"],
+    image: img("omnichord-museum.jpg"),
+  },
 ];
 
 export const exhibits: Exhibit[] = exhibitData.toSorted((a, b) => b.sortYear - a.sortYear || a.title.localeCompare(b.title));

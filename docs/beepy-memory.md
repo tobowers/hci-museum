@@ -274,4 +274,22 @@ Promotion gotchas (2026-07-25):
 - Future unexplored angles to try: early home video game controllers with unusual physical principles (not already covered by Exciting Boxing, Stompin', Heavyweight Champ, U-Force, etc.), early network terminal hardware with unusual interfaces, early scanning/OCR hardware with distinctive physical interaction, and haptic/force-feedback devices beyond what's already in the collection.
 - Build count: 122 exhibits. Wiki ToC count: 119 (updated in this run).
 
-(End of file - total 272 lines)
+New additions (2026-07-25, run 2):
+- Linn LM-1 Drum Computer (1980): Promoted 2026-07-25 (second run). Roger Linn's first programmable sample-based drum machine. 12 velocity-sensitive hard plastic pads as percussion programming interface. 525 units at $4,995-$5,500. Introduced quantization and swing. Direct ancestor of the Akai MPC pad-grid interface that transformed hip-hop. 1 PD image from Wikimedia Commons (GFDL large version). Fills pad-grid percussion programming gap — no other artifact in the museum covers struck-pad-as-computer-input.
+- Suzuki Omnichord (1981): Promoted 2026-07-25 (second run). Electronic autoharp with touch-sensitive 'Sonic Strings' strum plate. Constraint-based musical interface: every position on the strum plate produces an in-key note for the selected chord — impossible to play wrong notes. Suzuki Musical Instrument Corporation. 1981-1996 production, revived 2024. 2 CC images from Wikimedia Commons (CC BY-SA 4.0 museum display, CC BY 2.0 OM-27). Fills constraint-based musical interaction gap — distinct from Cracklebox (body-as-circuit) and all other music exhibits which require technique.
+
+New deferred candidates (2026-07-25, run 2):
+- All subagent candidates across 8 angles that were not-Linn-LM-1/Omnichord: image-blocked, already-deferred, already-in-museum, or too narrow. Zero additional candidates worth tracking individually.
+- Grok continues to return 80%+ already-in-museum or hallucinated candidates. Exa remains out of credits. Grok quality confirmed degraded.
+
+Promotion gotchas (2026-07-25, run 2):
+- Confirmed again: promote-potentials.ts does NOT update src/data.ts (regex still broken). Must be done manually.
+- Confirmed again: images must be manually copied to assets/wiki/. Script does not copy them.
+- Confirmed again: wiki ToC must be manually updated.
+- Subagents continue to return ~70-80% already-in-museum or already-deferred candidates even with explicit excluded lists. This is structural at 122+ exhibits.
+- This run took 8 parallel subagent angles and found only 2 viable promote-able candidates out of ~40 total candidates screened. The ratio is getting worse.
+- New productive angle for this run: pad-grid percussion interfaces (Linn LM-1, distinct from all existing music exhibits). Constraint-based musical interfaces (Omnichord, distinct from all existing).
+- The candidate well at 124 exhibits is increasingly thin. Future runs may need to focus on image resolution for deferred candidates (Braille 'n Speak, Tomy Verbot, LEGO TC Logo, SOUND=SPACE, Marble Answering Machine, Technos Acxel, Tickle Talker) rather than net-new discovery.
+- Build count: 124 exhibits. Wiki ToC count: 121 (updated in this run).
+
+(End of file - total 277 lines)

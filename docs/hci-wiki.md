@@ -1,6 +1,6 @@
 # The HCI Golden Age Wiki
 
-A research compendium for a digital museum of cutting-edge Human-Computer Interaction from the late 1970s through the early 1990s. These one hundred and twenty-two projects mix canonical experiments with weird, forgotten, and beautiful vaporware — brain control, voice control, gesture, wearable computing, VR, robots, and full-body exertion.
+A research compendium for a digital museum of cutting-edge Human-Computer Interaction from the late 1970s through the early 1990s. These one hundred and twenty-four projects mix canonical experiments with weird, forgotten, and beautiful vaporware — brain control, voice control, gesture, wearable computing, VR, robots, and full-body exertion.
 
 Each entry includes an overview, a deep dive, a small media gallery, and full source links so the images and facts can always be traced back.
 
@@ -126,6 +126,8 @@ Each entry includes an overview, a deep dive, a small media gallery, and full so
 117. [Novation CAT (1977)](#novation-cat-1977)
 118. [Cracklebox / Kraakdoos (1978)](#cracklebox--kraakdoos-1978)
 119. [Topo (1983)](#topo-1983)
+120. [Linn LM-1 Drum Computer (1980)](#linn-lm-1-drum-computer-1980)
+121. [Suzuki Omnichord (1981)](#suzuki-omnichord-1981)
 
 ---
 
@@ -6278,3 +6280,79 @@ Topo II (1984) added text-to-speech capability. Topo III (1984) removed the deta
 3. InfoWorld: Robot-maker Androbot pulls stock offering (Nov 1983) — https://books.google.com/books?id=wS8EAAAAMBAJ&dq=topo+robot+1983&pg=PA103
 4. Inc. Magazine: Will The Robot Be Father To The Industry? (March 1983) — http://www.inc.com/magazine/19830301/6181.html
 5. The Old Robots Web Site: Androbot Topo and BOB — http://www.theoldrobots.com/bob3.html
+
+---
+
+## Linn LM-1 Drum Computer (1980)
+
+**By:** Linn Electronics (Roger Linn)  
+**Tags:** `HCI` `Input` `Music` `Percussion` `Sampling`
+
+### Overview
+
+The Linn LM-1 Drum Computer, released in 1980 by Linn Electronics, was the first programmable drum machine to use digital samples of real acoustic drums. Designed by American engineer and guitarist Roger Linn, it was born from his dissatisfaction with existing drum machines that "sounded like crickets" and offered only preset patterns. The LM-1 stored 8-bit percussion samples at 28 kHz — kick, snare, hi-hat, cabasa, tambourine, two toms, two congas, cowbell, claves, and handclaps — and let musicians program their own rhythms by tapping on twelve pressure-sensitive hard plastic pads. It introduced two features now fundamental to electronic music production: quantization ("timing correct") and swing ("shuffle"). Only 525 units were built between 1980 and 1983, priced from $4,995 to $5,500. Despite the tiny production run, the LM-1 became a defining sound of 1980s pop, used by Prince, Michael Jackson, the Human League, Gary Numan, Queen, Tears for Fears, and countless others. It was inducted into the TECnology Hall of Fame in 2005.
+
+### Deep dive
+
+* **Origins.** Roger Linn was a guitarist and songwriter who had toured with Leon Russell in the 1970s. Frustrated with the Roland CR-78 and other early drum machines that offered only preset patterns and synthetic sounds, he wanted to build a machine that played back recordings of real drums. At the suggestion of Toto keyboardist Steve Porcaro, Linn recorded samples of session drummer Art Wood playing individual drum hits onto computer chips. By the late 1970s, digital memory had become small and affordable enough to make sample playback practical in a desktop device. Linn and Alex Moffett founded Linn Moffett Electronics (soon renamed Linn Electronics) in 1979 to develop the design.
+* **The Pad Interface.** The LM-1's twelve hard plastic pads were its defining HCI innovation. Each pad triggered a different sampled drum sound, and the machine measured strike velocity to control dynamics. A musician could tap out a rhythm in real time, and the LM-1 would record it. Linn discovered that his code naturally corrected timing errors — the machine would quantize performances to the nearest sixteenth note. To add human feel back in, he introduced 'shuffle': a delay applied to alternate sixteenth notes, creating the swing feel that became a hallmark of 1980s pop production. Each drum sound had its own individual audio output, allowing studio engineers to process kick, snare, and hi-hat through separate channels of outboard gear — treating the machine like a multi-tracked live drum kit.
+* **Legacy.** The LM-1 was succeeded by the cheaper LinnDrum (1982) and Linn 9000 (1984). When Linn Electronics folded in 1986, Roger Linn partnered with Akai to design the MPC60 (1988), which combined the pad-grid interface with a sampler and MIDI sequencer. The MPC's 4×4 pad grid — directly descended from the LM-1's interface — became one of the most influential music controllers in history, transforming hip-hop, electronic music, and live performance. Roger Linn received a Grammy Award for Lifetime Technical Achievement in 2011. The LM-1's interaction model — real-time percussive programming via velocity-sensitive pads — is now standard in every DAW, every pad controller, and every modern drum machine.
+
+### Team
+
+* **Roger Linn.** Designer. American electronic engineer, guitarist, and songwriter who founded Linn Electronics in 1979. Later designed the Akai MPC series.
+* **Alex Moffett.** Co-founder of Linn Moffett Electronics (later Linn Electronics). Left the company in 1982.
+* **Art Wood.** Session drummer who performed most of the drum samples recorded for the LM-1.
+* **Steve Porcaro.** Toto keyboardist who suggested that Linn use real drum samples instead of synthetic sounds.
+
+### Media
+
+![Linn LM-1 Drum Computer Rev. 3 front panel](assets/wiki/linn-lm1-large.jpg)
+*Linn LM-1 Drum Computer Rev. 3, showing the twelve pressure-sensitive pads, knob-based parameter controls, and LCD display. Only 525 units were built between 1980 and 1983. (Image: GFDL, Wikimedia Commons)*
+
+### Sources
+
+1. Wikipedia: Linn LM-1 — https://en.wikipedia.org/wiki/Linn_LM-1
+2. Wikipedia: Roger Linn — https://en.wikipedia.org/wiki/Roger_Linn
+3. The Guardian: 'Hey, what's that sound: Linn LM-1 Drum Computer' (David McNamee, 2009) — https://www.theguardian.com/music/2009/jun/22/linn-oberheim-drum-machines
+4. The Vinyl Factory: 'An introduction to the Linn LM-1 and 10 records it helped define' (Josh French, 2019) — https://thevinylfactory.com/features/an-introduction-to-the-linn-lm-1-and-10-records-it-helped-define/
+5. Roger Linn Design Past Products Museum — http://www.rogerlinndesign.com/past-products-museum.html
+6. Fact Magazine: 'The 14 drum machines that shaped modern music' (Scott Wilson, 2016) — http://www.factmag.com/2016/09/22/the-14-drum-machines-that-shaped-modern-music/
+
+---
+
+## Suzuki Omnichord (1981)
+
+**By:** Suzuki Musical Instrument Corporation (Japan)  
+**Tags:** `HCI` `Input` `Music` `Touch` `Education`
+
+### Overview
+
+The Suzuki Omnichord, introduced in 1981 by the Suzuki Musical Instrument Corporation, is an electronic musical instrument designed as a portable, fail-safe accompaniment machine. Conceived as an electronic autoharp, it was aimed at people without musical experience who might be intimidated by traditional keyboard instruments. The Omnichord's defining interface is the 'Sonic Strings' strum plate: a touch-sensitive strip that produces harp-like arpeggios from the selected chord across a 4-octave range. The player holds chord buttons (27 on the original OM-27, expanding to 84 on later models) with their left hand and strums the touchplate with their right. The instrument also features preset drum machine rhythms with adjustable tempo and an auto-bass line that follows the chord changes. Because every position on the strum plate maps to an in-key note for the active chord, it is impossible to play a wrong note — a constraint-based design philosophy that makes musical expression accessible to anyone. The Omnichord was produced from 1981 to 1996 across multiple models (OM-27, OM-36, OM-84, OM-100, OM-200M, OM-250M, OM-300), with a redesigned Q-Chord appearing in 1999. A new model, the OM-108, was released in 2024 after a resurgence of interest in vintage electronic instruments.
+
+### Deep dive
+
+* **The Sonic Strings Strum Plate.** The strum plate is the Omnichord's signature HCI innovation. It is a resistive or capacitive touch-sensitive strip that detects the position of the player's finger or strumming motion along its length, mapping position to pitch within the currently selected chord. Unlike a guitar fretboard, where precise fingering determines the note, the Omnichord's plate always produces notes that belong to the active chord — major, minor, or seventh — across four octaves. You can strum it like a harp, tap individual positions for isolated notes, or glide across it for cascading arpeggios. The interaction model is fundamentally different from a keyboard: there is no discrete 'key per note' mapping, just a continuous touch surface that interprets position, velocity, and gesture within a harmonically constrained space. Early models (OM-27) used a simple pressure-sensitive membrane; later models (OM-84 onward) improved the plate's responsiveness and added multiple instrument voices (vibes, brass, organ, guitar, banjo) for the strum sound.
+* **Design Philosophy.** Suzuki explicitly marketed the Omnichord as an instrument for non-musicians. The 1982 Electronics & Music Maker review described it as 'an ideal way to accompany a singer with basic rhythms and the ability to easily play chords with little music theory knowledge.' The chord buttons are labeled with standard chord names, and the auto-bass and rhythm sections provide full backing tracks at the press of a button. This philosophy — constrain the interaction space to guarantee pleasant output — anticipates modern approaches to accessible music-making like collaborative filtering playlists and auto-tune. The Omnichord was particularly popular in Japanese music education, where it was used to create backing tracks for students to sing and play along with, and in advertising, where its instantly recognizable harp arpeggios appeared in commercials for Coca-Cola and the Sony Walkman.
+* **Cultural Impact and Revival.** The Omnichord's distinctive, slightly-cheap sound became a cult favorite. Brian Eno and Daniel Lanois used a slowed-down Omnichord recording on 'Deep Blue Day' from the 1983 album Apollo: Atmospheres and Soundtracks. Lanois also used it on U2's 'Trip Through Your Wires' (1987). David Bowie performed with one at the 2001 Concert for New York City. Damon Albarn used the OM-300's 'Rock 1' preset for Gorillaz' 'Clint Eastwood' (2001). The Omnichord's influence extends to Meshell Ndegeocello's 2023 album The Omnichord Real Book, which won the first-ever Grammy Award for Best Alternative Jazz Album. After production ceased in 1996, vintage Omnichords became sought-after collector's items, and Suzuki released the new OM-108 model in 2024 with analog circuitry and modern features.
+
+### Team
+
+* **Suzuki Musical Instrument Corporation.** Japanese musical instrument manufacturer, founded 1953 by Manji Suzuki in Hamamatsu. Known for melodicas, Omnichords, and educational instruments. Not related to Suzuki Motor Corporation.
+
+### Media
+
+![Suzuki Omnichord at This Museum Is (Not) Obsolete, Ramsgate, Kent](assets/wiki/omnichord-museum.jpg)
+*A Suzuki Omnichord on display at This Museum Is (Not) Obsolete in Ramsgate, Kent, August 2021. The strum plate ('Sonic Strings') is visible as the dark touch-sensitive strip; chord buttons occupy the left panel. (Image: Mutney, CC BY-SA 4.0, Wikimedia Commons)*
+
+![Suzuki Omnichord OM-27, the original 1981 model in brown](assets/wiki/omnichord-om27.jpg)
+*The original Omnichord OM-27 (1981), with 27 chord buttons, a single 'harp' voice, and the first-generation Sonic Strings strum plate. (Image: tico_24, CC BY 2.0, via Wikimedia Commons)*
+
+### Sources
+
+1. Wikipedia: Omnichord — https://en.wikipedia.org/wiki/Omnichord
+2. MusicRadar: 'Blast from the past: Suzuki Omnichord' (Leo Maymind, 2023) — https://www.musicradar.com/news/blast-from-past-suzuki-omnichord
+3. Electronics & Music Maker: 'Suzuki Omnichord' review (David Ellis, May 1982) — http://www.muzines.co.uk/articles/suzuki-omnichord/4271
+4. MusicTech: 'Vintage rewind: Suzuki Omnichord' (Dave Gale, 2020) — https://musictech.com/features/opinion-analysis/vintage-rewind-suzuki-omnichord/
+5. Micro Music: 'Omnichord' review (Chris Renwick, December 1989) — http://www.muzines.co.uk/articles/omnichord/5275
+6. Pitchfork: Meshell Ndegeocello The Omnichord Real Book review (2023) — https://pitchfork.com/reviews/albums/meshell-ndegeocello-the-omnichord-real-book/

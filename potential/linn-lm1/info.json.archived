@@ -1,0 +1,60 @@
+{
+  "slug": "linn-lm1",
+  "title": "Linn LM-1 Drum Computer",
+  "year": "1980",
+  "subtitle": "the machine that taught a computer to feel like a drum kit",
+  "why_scout_cares": "The first programmable drum machine to use digital samples of real drums, and the first to introduce the pressure-sensitive pad grid as a musical programming interface. Twelve hard plastic pads respond to the player's strike velocity; the machine quantizes timing to sixteenth notes with an adjustable 'shuffle' (swing) delay. This is not just a drum machine — it is the ancestral interaction model for every pad controller, every MPC, and every finger-drumming interface that followed. The LM-1 made the drum machine a credible instrument rather than a toy, and the 4x4 pad grid it pioneered directly led to the Akai MPC, which transformed hip-hop production. Only 525 units were built at up to $5,500 each, making this the definition of 'expensive experiment that changed everything.' PD image on Wikimedia Commons.",
+  "search_terms": ["Linn LM-1", "Roger Linn", "first sample-based drum machine", "drum computer 1980", "LM-1 Drum Computer"],
+  "research": {
+    "title": "Linn LM-1 Drum Computer",
+    "year": "1980",
+    "by": "Linn Electronics (Roger Linn)",
+    "tags": ["HCI", "Input", "Music", "Percussion", "Sampling"],
+    "overview": "The Linn LM-1 Drum Computer, released in 1980 by Linn Electronics, was the first programmable drum machine to use digital samples of real acoustic drums. Designed by American engineer and guitarist Roger Linn, it was born from his dissatisfaction with existing drum machines that \"sounded like crickets\" and offered only preset patterns. The LM-1 stored 8-bit percussion samples at 28 kHz — kick, snare, hi-hat, cabasa, tambourine, two toms, two congas, cowbell, claves, and handclaps — and let musicians program their own rhythms by tapping on twelve pressure-sensitive hard plastic pads. It introduced two features now fundamental to electronic music production: quantization (\"timing correct\") and swing (\"shuffle\"). Only 525 units were built between 1980 and 1983, priced from $4,995 to $5,500. Despite the tiny production run, the LM-1 became a defining sound of 1980s pop, used by Prince, Michael Jackson, the Human League, Gary Numan, Queen, Tears for Fears, and countless others. It was inducted into the TECnology Hall of Fame in 2005.",
+
+    "deepDive": [
+      {
+        "heading": "Origins",
+        "text": "Roger Linn was a guitarist and songwriter who had toured with Leon Russell in the 1970s. Frustrated with the Roland CR-78 and other early drum machines that offered only preset patterns and synthetic sounds, he wanted to build a machine that played back recordings of real drums. At the suggestion of Toto keyboardist Steve Porcaro, Linn recorded samples of session drummer Art Wood playing individual drum hits onto computer chips. By the late 1970s, digital memory had become small and affordable enough to make sample playback practical in a desktop device. Linn and Alex Moffett founded Linn Moffett Electronics (soon renamed Linn Electronics) in 1979 to develop the design."
+      },
+      {
+        "heading": "The Pad Interface",
+        "text": "The LM-1's twelve hard plastic pads were its defining HCI innovation. Each pad triggered a different sampled drum sound, and the machine measured strike velocity to control dynamics. A musician could tap out a rhythm in real time, and the LM-1 would record it. Linn discovered that his code naturally corrected timing errors — the machine would quantize performances to the nearest sixteenth note. To add human feel back in, he introduced 'shuffle': a delay applied to alternate sixteenth notes, creating the swing feel that became a hallmark of 1980s pop production. Each drum sound had its own individual audio output, allowing studio engineers to process kick, snare, and hi-hat through separate channels of outboard gear — treating the machine like a multi-tracked live drum kit."
+      },
+      {
+        "heading": "Legacy",
+        "text": "The LM-1 was succeeded by the cheaper LinnDrum (1982) and Linn 9000 (1984). When Linn Electronics folded in 1986, Roger Linn partnered with Akai to design the MPC60 (1988), which combined the pad-grid interface with a sampler and MIDI sequencer. The MPC's 4×4 pad grid — directly descended from the LM-1's interface — became one of the most influential music controllers in history, transforming hip-hop, electronic music, and live performance. Roger Linn received a Grammy Award for Lifetime Technical Achievement in 2011. The LM-1's interaction model — real-time percussive programming via velocity-sensitive pads — is now standard in every DAW, every pad controller, and every modern drum machine."
+      }
+    ],
+
+    "team": [
+      { "name": "Roger Linn", "note": "Designer. American electronic engineer, guitarist, and songwriter who founded Linn Electronics in 1979. Later designed the Akai MPC series." },
+      { "name": "Alex Moffett", "note": "Co-founder of Linn Moffett Electronics (later Linn Electronics). Left the company in 1982." },
+      { "name": "Art Wood", "note": "Session drummer who performed most of the drum samples recorded for the LM-1." },
+      { "name": "Steve Porcaro", "note": "Toto keyboardist who suggested that Linn use real drum samples instead of synthetic sounds." }
+    ],
+
+    "media": [
+      {
+        "src": "assets/wiki/linn-lm1-large.jpg",
+        "alt": "Linn LM-1 Drum Computer Rev. 3 front panel",
+        "caption": "Linn LM-1 Drum Computer Rev. 3, showing the twelve pressure-sensitive pads, knob-based parameter controls, and LCD display. Only 525 units were built between 1980 and 1983. (Image: GFDL, Wikimedia Commons)"
+      }
+    ],
+
+    "sources": [
+      { "text": "Wikipedia: Linn LM-1", "url": "https://en.wikipedia.org/wiki/Linn_LM-1" },
+      { "text": "Wikipedia: Roger Linn", "url": "https://en.wikipedia.org/wiki/Roger_Linn" },
+      { "text": "The Guardian: 'Hey, what's that sound: Linn LM-1 Drum Computer' (David McNamee, 2009)", "url": "https://www.theguardian.com/music/2009/jun/22/linn-oberheim-drum-machines" },
+      { "text": "The Vinyl Factory: 'An introduction to the Linn LM-1 and 10 records it helped define' (Josh French, 2019)", "url": "https://thevinylfactory.com/features/an-introduction-to-the-linn-lm-1-and-10-records-it-helped-define/" },
+      { "text": "Roger Linn Design Past Products Museum", "url": "http://www.rogerlinndesign.com/past-products-museum.html" },
+      { "text": "Fact Magazine: 'The 14 drum machines that shaped modern music' (Scott Wilson, 2016)", "url": "http://www.factmag.com/2016/09/22/the-14-drum-machines-that-shaped-modern-music/" }
+    ],
+
+    "imageUrls": [
+      "https://commons.wikimedia.org/wiki/File:Linn_LM-1_Drum_Computer_large.jpg",
+      "https://commons.wikimedia.org/wiki/File:Linn_LM-1_Drum_Computer.jpg"
+    ]
+  },
+  "savedImages": ["images/linn-lm1-large.jpg"]
+}
