@@ -1,6 +1,6 @@
 # The HCI Golden Age Wiki
 
-A research compendium for a digital museum of cutting-edge Human-Computer Interaction from the late 1970s through the early 1990s. These one hundred and sixteen projects mix canonical experiments with weird, forgotten, and beautiful vaporware — brain control, voice control, gesture, wearable computing, VR, robots, and full-body exertion.
+A research compendium for a digital museum of cutting-edge Human-Computer Interaction from the late 1970s through the early 1990s. These one hundred and twenty-two projects mix canonical experiments with weird, forgotten, and beautiful vaporware — brain control, voice control, gesture, wearable computing, VR, robots, and full-body exertion.
 
 Each entry includes an overview, a deep dive, a small media gallery, and full source links so the images and facts can always be traced back.
 
@@ -123,6 +123,9 @@ Each entry includes an overview, a deep dive, a small media gallery, and full so
 114. [TELESAR I (1981–1984)](#telesar-i-19811984)
 115. [Minitel (1982)](#minitel-1982)
 116. [Dycam Model 1 / Logitech Fotoman (1990)](#dycam-model-1--logitech-fotoman-1990)
+117. [Novation CAT (1977)](#novation-cat-1977)
+118. [Cracklebox / Kraakdoos (1978)](#cracklebox--kraakdoos-1978)
+119. [Topo (1983)](#topo-1983)
 
 ---
 
@@ -6153,3 +6156,125 @@ The Dycam Model 1, released in 1990 at $995, was the first commercially sold ful
 4. Digicamhistory.com — 1990 page (authoritative timeline: one-button detail, $995 MSRP) — https://web.archive.org/web/20231022142340/http://www.digicamhistory.com/1990.html
 5. Camera-wiki.org — Logitech Fotoman (consolidated specs) — https://camera-wiki.org/wiki/Logitech_Fotoman
 6. InfoWorld (Aug 12, 1991) — Raphael Needleman contemporaneous review — https://books.google.com/books?id=lFAEAAAAMBAJ&pg=PA54
+
+---
+
+## Cracklebox / Kraakdoos (1978)
+
+**By:** Michel Waisvisz, Geert Hamelberg, Peter Beyls, Nico Bes — STEIM (Amsterdam)  
+**Tags:** `HCI` `Music` `Circuit Bending` `Touch` `Experimental`
+
+### Overview
+
+The Kraakdoos (Dutch for 'crackle box') is a small wooden box with six exposed metal contacts on top connected directly to an unstable LM709 operational amplifier circuit. When a performer touches the contacts, their body completes the circuit — skin conductivity becomes a variable component in the oscillator's feedback loop. The LM709 is an early op-amp that lacks frequency compensation, meaning it operates unpredictably as a phase-shift oscillator driving transistors in a dead band, producing highly distorted, crackling output. The result is not musical notes but squelches, crackles, pops, and tones that vary wildly based on who is playing, how moist their skin is, and how they press their fingers.
+
+The concept was first conceived by Michel Waisvisz and Geert Hamelberg in the 1960s and developed further in the 1970s when Waisvisz joined the STEIM (Studio for Electro-Instrumental Music) foundation in Amsterdam. The instrument reached wider recognition through the 1978 LP 'Crackle' and subsequent DIY dissemination through STEIM workshops. It became a cult artifact of circuit-bending and experimental electronic music, influencing generations of artists who sought to blur the boundary between performer and instrument.
+
+### Deep dive
+
+* **How It Works.** The cracklebox is built around a single LM709 operational amplifier — one of the earliest op-amp models ever produced. Unlike later op-amps, the LM709 lacks internal frequency compensation, meaning it is inherently unstable and prone to oscillation. The circuit is intentionally left bare: six metal contacts are wired directly to the op-amp's inputs. When a performer touches different combinations of contacts with their fingers, their body's variable resistance and capacitance alter the feedback characteristics of the circuit, sending it into different modes of chaotic oscillation. There is no enclosure to isolate the performer from the electronics — the human body IS part of the circuit path. The output is amplified and sent to a speaker, producing the characteristic crackles, whooshes, and shrieks.
+* **Philosophy of Touch.** Waisvisz described the cracklebox as an instrument where 'the interface is the content.' Unlike a traditional instrument where a keyboard or fretboard mediates between the player and the sound production, the cracklebox removes all mediation: your skin touches bare electronics, and the sound is a direct consequence of that contact. The 'playing technique' is not about learning positions or scales — it is about developing a tactile sensitivity to the instrument's response, entering into what Waisvisz called a 'tactile and sonic dialogue.' This philosophy of direct touch-as-interface would later influence Waisvisz's work on The Hands (1984) and STEIM's broader mission of rethinking the relationship between performer and electronic instrument.
+* **STEIM and DIY Culture.** STEIM (Studio for Electro-Instrumental Music) was founded in 1969 in Amsterdam as a research and development lab for new electronic performance instruments. Waisvisz became its artistic director in 1981. The cracklebox was never sold commercially; instead, STEIM published the schematic and encouraged musicians to build their own. It became one of the foundational artifacts of the circuit-bending movement — the practice of creatively short-circuiting consumer electronics to produce unexpected sounds. The cracklebox's radical simplicity (one op-amp, a battery, a speaker, and six contacts) made it accessible to anyone with basic electronics knowledge, embodying STEIM's ethos of demystifying the electronic instrument.
+
+### Team
+
+* **Michel Waisvisz.** Dutch composer, performer, and inventor; artistic director of STEIM (1981–2008); co-creator of the Cracklebox
+* **Geert Hamelberg.** Co-creator of the original Cracklebox concept in the 1960s
+* **Peter Beyls.** Contributor to Cracklebox development at STEIM
+* **Nico Bes.** Contributor to Cracklebox development at STEIM
+* **STEIM.** Studio for Electro-Instrumental Music, Amsterdam; hosted development and disseminated the design (1970s–1980s)
+
+### Media
+
+![Kraakdoos / Cracklebox - a small wooden box with six metal contacts on top and a speaker grille](../assets/wiki/cracklebox.jpg)
+*The Kraakdoos (Cracklebox). Six exposed metal contacts connect directly to an unstable op-amp circuit. The performer's body completes the circuit. Source: Wikimedia Commons (CC).*
+
+### Sources
+
+1. Wikipedia: Kraakdoos — https://en.wikipedia.org/wiki/Kraakdoos
+2. STEIM: Cracklebox archive page — https://web.archive.org/web/20200513161107/https://steim.org/cracklebox/
+3. Hackaday: The Kraakdoos — Musical Abuser Of An Ancient OpAmp (2015) — https://hackaday.com/2015/09/03/the-kraakdoos-musical-abuser-of-an-ancient-opamp/
+4. DIY Kraakdoos / Crackle Box (schematics and build guide) — https://www.eam.se/kraakdoos/
+5. Wikimedia Commons: Kraakdoos category (8 files) — https://commons.wikimedia.org/wiki/Category:Kraakdoos
+
+---
+
+## Novation CAT (1977)
+
+**By:** Novation, Inc.  
+**Tags:** `HCI` `Telephony` `Modem` `Networking` `Peripheral`
+
+### Overview
+
+The Novation CAT was an external 300 bit/s Bell 103-standard modem that connected computers to telephone lines using an acoustic coupler — two rubber cups into which a standard telephone handset was pressed. Released circa 1977 by Novation, Inc., it became one of the most popular early home computer modems and was rebranded by Apple (as the Modem IIA/IIB), Atari (830 Modem), Texas Instruments (TI Phone Interface), and Radio Shack (TRS-80 Telephone Interface II).
+
+Operating the CAT required a deliberate physical ritual: the user manually dialed a number on a telephone, listened through the handset for the remote modem's answer tone, and then pressed the handset into the rubber cups to acoustically couple the earpiece and mouthpiece to the modem's speaker and microphone. There was no automatic dialing, no call progress detection — hanging up meant physically returning the handset to the telephone cradle. This was the standard mode of home computer telecommunication until the Hayes Smartmodem 300 (1981) introduced direct-connect auto-dial/auto-answer operation with the AT command set that would eventually dominate the market.
+
+Novation also produced the Apple-CAT II, an internal direct-connect modem for the Apple II that could generate and detect telephone network tones, making it a favorite among phone phreakers. The company continued producing modems through the early 1980s but was eclipsed by Hayes and eventually disappeared.
+
+### Deep dive
+
+* **The Physical Ritual.** Using an acoustic coupler was a multi-sensory experience. You'd pick up the telephone handset, dial the number, and listen — really listen — for the characteristic shriek of the remote modem's answer tone. Only when you heard it would you press the handset into the rubber cups, sealing the acoustic path. If the cups didn't form a good seal, ambient noise would corrupt the data. If you bumped the desk, the handset might shift and drop the connection. This wasn't a frictionless interface — it was a ritual that demanded attention, patience, and a quiet room. The entire session was mediated by the physical presence of the telephone: you couldn't leave it off-hook, you had to be there to hang up, and the handset itself became an extension of the computer.
+* **Origins and the Bell System.** The acoustic coupler's design was driven by regulatory constraints. Until the Carterfone decision (1968) and subsequent FCC rulings, AT&T's Bell System monopoly prohibited connecting non-Bell equipment directly to the telephone network. Acoustic coupling — converting data to sound and back without any electrical connection — was the legal workaround. Even after direct connection became legal, acoustic couplers remained popular through the late 1970s because they worked with any standard telephone, required no phone jack, and were portable. The Novation CAT's rubber cups were molded to fit the Western Electric Model 500 handset, which was nearly universal in American homes.
+* **Cultural Impact.** The acoustic coupler modem became a visual shorthand for 'hacking' in 1980s popular culture. The most famous depiction is in the 1983 film WarGames, where David Lightman (Matthew Broderick) presses a telephone handset into an acoustic coupler to break into a military computer. The Novation CAT and its clones were the hardware that enabled the BBS (Bulletin Board System) revolution: thousands of hobbyists running dial-up servers from their homes, creating a distributed social network years before the World Wide Web. The physical act of coupling was the universal initiation rite into online culture.
+* **The Apple-CAT II and Phreaking.** Novation's internal Apple-CAT II modem (for the Apple II's expansion slots) was a remarkable device. Beyond standard modem functions, it could generate and detect telephone network control tones — DTMF, 2600 Hz, MF (blue box) tones, ringing, busy signals, and more. This made it a multi-function telephone hacking tool popular with phone phreakers. Software packages like TSPS, The Cat's Meow, and Phantom Access turned the Apple II into a complete telephone experimentation platform. This dual-use capability — legitimate modem plus tone generator — made the Apple-CAT II one of the most versatile communications peripherals of the early 1980s.
+
+### Team
+
+* **Novation, Inc..** Modem manufacturer based in California; produced the CAT series from ~1977 to early 1980s
+* **Apple Computer.** Rebranded the CAT as Modem IIA and Modem IIB
+* **Atari, Inc..** Rebranded the CAT as Atari 830 Modem
+* **Radio Shack / Tandy.** Rebranded the CAT as TRS-80 Telephone Interface II
+
+### Media
+
+![Novation CAT acoustic coupler modem - a beige box with two black rubber cups on top for coupling a telephone handset](../assets/wiki/novation-cat-coupler.jpg)
+*The original Novation CAT acoustic coupler. The two rubber cups accept a standard telephone handset. Source: Wikimedia Commons (public domain / CC).*
+
+### Sources
+
+1. Wikipedia: Novation CAT — https://en.wikipedia.org/wiki/Novation_CAT
+2. BYTE Magazine: Apple-Cat II Review (January 1983) — https://archive.org/stream/byte-magazine-1983-01/1983_01_BYTE_08-01_Looking_Ahead#page/n119/mode/2up
+3. WarGames (1983 film) — https://en.wikipedia.org/wiki/WarGames
+4. Wikimedia Commons: Novation CAT category (3 files) — https://commons.wikimedia.org/wiki/Category:Novation_CAT
+
+---
+
+## Topo (1983)
+
+**By:** Androbot Inc. (Nolan Bushnell)  
+**Tags:** `HCI` `Robotics` `Education` `Programming` `Physical Computing`
+
+### Overview
+
+Topo is a 36½-inch (93 cm) tall beige plastic humanoid robot designed by Androbot Inc., Nolan Bushnell's robotics startup founded after his departure from Atari. Released in May 1983 at $495 (equivalent to ~$1,600 in 2025), Topo was wirelessly programmable from an Apple II computer using a modified version of BASIC called TopoBASIC (later Forth with TopoFORTH). Communication was via radio or infrared transmitter attached to the host computer. The robot has two drive wheels as feet and could be equipped with plastic accessories like the AndroWagon and AndroFridge for carrying objects.
+
+Crucially, Topo I had no sensors whatsoever — no bump detection, no light sensors, no sonar. It could not sense its environment, could not communicate back to the Apple II, and could not calibrate its own motors. It was a pure output device: a physical avatar for code. The interaction paradigm was write → transmit → watch it move. This sensorless design was deliberate — Bushnell wanted to hit a consumer price point, and the magic was in seeing your program become physical motion.
+
+Topo II (1984) added text-to-speech capability. Topo III (1984) removed the detachable arms in favor of swappable trays and simplified the shell to two pieces. A planned Topo IV with sensors was never completed. Androbot folded in 1984, and the Topo line ended with approximately 650 units of the original model shipped.
+
+### Deep dive
+
+* **Origins.** After selling Atari to Warner Communications in 1976, Nolan Bushnell turned to robotics. He founded Androbot Inc. in 1983 with backing from Merrill Lynch and a vision of consumer personal robots at accessible prices. Topo was designed as an entry-level $495 robot — a fraction of the cost of Heathkit's HERO 1 ($1,500 kit / $2,500 assembled). The original product concept and name were developed by William H.T. La. Androbot's president was Tom Frisina.
+* **Interaction Model.** Topo is controlled exclusively through a host computer. The user writes a program in TopoBASIC on an Apple II; the program compiles geometric movement commands (forward, reverse, turn left/right, pause) which are transmitted wirelessly to the robot. Topo executes the sequence and stops. There is no feedback loop — the user must visually observe whether the robot reached the desired position. This one-way output-only paradigm makes Topo fundamentally different from sensor-equipped educational robots like HERO 1 or later LEGO Mindstorms. It is programming as choreography: the code describes movement, and the robot performs it in physical space.
+* **Hardware.** Topo stands 36½ inches tall with a molded ABS plastic body in beige. It drives on two motorized wheels with a third stabilizing point. Communication hardware: radio transmitter (Topo I) or infrared transmitter (Topo II/III) connected to the Apple II's game port or serial port. The robot contains a receiver, motor controllers, and battery. Topo II added a Votrax-based speech synthesizer. All models were powered by rechargeable batteries.
+* **Commercial Fate.** Androbot's initial public offering was withdrawn in November 1983 after disappointing Topo sales (120 units sold, 650 shipped). The company pivoted to higher-end models (BOB, BOB/XA, FRED) but burned through its capital. Androbot ceased operations in 1984, joining the long list of ambitious 1980s robotics startups that discovered the consumer market was not ready. The company's total lifetime: about 18 months.
+
+### Team
+
+* **Nolan Bushnell.** Founder of Androbot Inc., previously co-founder of Atari
+* **William H.T. La.** Original product concept and name for Topo
+* **Tom Frisina.** President of Androbot Inc.
+
+### Media
+
+![Topo I robot, a 36-inch beige plastic humanoid with two drive wheels, standing against a plain background](../assets/wiki/topo-robot.jpg)
+*Androbot Topo I (1983). The extendable arms are retracted. This 36½-inch robot had no sensors — it was a pure physical output device for code. Source: Wikimedia Commons (CC BY-SA 4.0, The 64th Gamer).*
+
+### Sources
+
+1. Wikipedia: Topo (robot) — https://en.wikipedia.org/wiki/Topo_(robot)
+2. COMPUTE! Magazine Review (November 1983) — http://www.atarimagazines.com/compute/issue42/043_1_REVIEWS.php
+3. InfoWorld: Robot-maker Androbot pulls stock offering (Nov 1983) — https://books.google.com/books?id=wS8EAAAAMBAJ&dq=topo+robot+1983&pg=PA103
+4. Inc. Magazine: Will The Robot Be Father To The Industry? (March 1983) — http://www.inc.com/magazine/19830301/6181.html
+5. The Old Robots Web Site: Androbot Topo and BOB — http://www.theoldrobots.com/bob3.html

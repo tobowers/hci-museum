@@ -1,0 +1,56 @@
+{
+  "slug": "topo",
+  "title": "Topo",
+  "year": "1983",
+  "subtitle": "a 36-inch programmable floor robot that turns code into physical motion",
+  "why_scout_cares": "The interaction model is radically simple: a child types code on an Apple II, and a life-sized humanoid robot across the room executes those commands. Topo has no sensors — it is a pure physical output device, a body for your program to inhabit. This is code made tangible, a direct ancestor of every educational robot from LEGO Mindstorms to Sphero. From Nolan Bushnell's post-Atari venture Androbot, launched May 1983 at $495. Only ~650 units shipped before the company folded. The robot has no autonomy, no sensing, no intelligence — and that is exactly what makes it HCI: the human programs, the robot performs, and the loop closes through observation of physical movement.",
+  "search_terms": ["topo robot androbot", "nolan bushnell personal robot 1983", "apple II programmable floor robot"],
+  "research": {
+    "title": "Topo",
+    "year": "1983",
+    "by": "Androbot Inc. (Nolan Bushnell)",
+    "tags": ["HCI", "Robotics", "Education", "Programming", "Physical Computing"],
+    "overview": "Topo is a 36½-inch (93 cm) tall beige plastic humanoid robot designed by Androbot Inc., Nolan Bushnell's robotics startup founded after his departure from Atari. Released in May 1983 at $495 (equivalent to ~$1,600 in 2025), Topo was wirelessly programmable from an Apple II computer using a modified version of BASIC called TopoBASIC (later Forth with TopoFORTH). Communication was via radio or infrared transmitter attached to the host computer. The robot has two drive wheels as feet and could be equipped with plastic accessories like the AndroWagon and AndroFridge for carrying objects.\n\nCrucially, Topo I had no sensors whatsoever — no bump detection, no light sensors, no sonar. It could not sense its environment, could not communicate back to the Apple II, and could not calibrate its own motors. It was a pure output device: a physical avatar for code. The interaction paradigm was write → transmit → watch it move. This sensorless design was deliberate — Bushnell wanted to hit a consumer price point, and the magic was in seeing your program become physical motion.\n\nTopo II (1984) added text-to-speech capability. Topo III (1984) removed the detachable arms in favor of swappable trays and simplified the shell to two pieces. A planned Topo IV with sensors was never completed. Androbot folded in 1984, and the Topo line ended with approximately 650 units of the original model shipped.",
+    "deepDive": [
+      {
+        "heading": "Origins",
+        "text": "After selling Atari to Warner Communications in 1976, Nolan Bushnell turned to robotics. He founded Androbot Inc. in 1983 with backing from Merrill Lynch and a vision of consumer personal robots at accessible prices. Topo was designed as an entry-level $495 robot — a fraction of the cost of Heathkit's HERO 1 ($1,500 kit / $2,500 assembled). The original product concept and name were developed by William H.T. La. Androbot's president was Tom Frisina."
+      },
+      {
+        "heading": "Interaction Model",
+        "text": "Topo is controlled exclusively through a host computer. The user writes a program in TopoBASIC on an Apple II; the program compiles geometric movement commands (forward, reverse, turn left/right, pause) which are transmitted wirelessly to the robot. Topo executes the sequence and stops. There is no feedback loop — the user must visually observe whether the robot reached the desired position. This one-way output-only paradigm makes Topo fundamentally different from sensor-equipped educational robots like HERO 1 or later LEGO Mindstorms. It is programming as choreography: the code describes movement, and the robot performs it in physical space."
+      },
+      {
+        "heading": "Hardware",
+        "text": "Topo stands 36½ inches tall with a molded ABS plastic body in beige. It drives on two motorized wheels with a third stabilizing point. Communication hardware: radio transmitter (Topo I) or infrared transmitter (Topo II/III) connected to the Apple II's game port or serial port. The robot contains a receiver, motor controllers, and battery. Topo II added a Votrax-based speech synthesizer. All models were powered by rechargeable batteries."
+      },
+      {
+        "heading": "Commercial Fate",
+        "text": "Androbot's initial public offering was withdrawn in November 1983 after disappointing Topo sales (120 units sold, 650 shipped). The company pivoted to higher-end models (BOB, BOB/XA, FRED) but burned through its capital. Androbot ceased operations in 1984, joining the long list of ambitious 1980s robotics startups that discovered the consumer market was not ready. The company's total lifetime: about 18 months."
+      }
+    ],
+    "team": [
+      {"name": "Nolan Bushnell", "note": "Founder of Androbot Inc., previously co-founder of Atari"},
+      {"name": "William H.T. La", "note": "Original product concept and name for Topo"},
+      {"name": "Tom Frisina", "note": "President of Androbot Inc."}
+    ],
+    "media": [
+      {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/3/3a/Topo_I_robot_without_extended_arms.png",
+        "alt": "Topo I robot, a 36-inch beige plastic humanoid with two drive wheels, standing against a plain background",
+        "caption": "Androbot Topo I (1983). The extendable arms are retracted. This 36½-inch robot had no sensors — it was a pure physical output device for code. Source: Wikimedia Commons (CC BY-SA 4.0, The 64th Gamer)."
+      }
+    ],
+    "sources": [
+      {"text": "Wikipedia: Topo (robot)", "url": "https://en.wikipedia.org/wiki/Topo_(robot)"},
+      {"text": "COMPUTE! Magazine Review (November 1983)", "url": "http://www.atarimagazines.com/compute/issue42/043_1_REVIEWS.php"},
+      {"text": "InfoWorld: Robot-maker Androbot pulls stock offering (Nov 1983)", "url": "https://books.google.com/books?id=wS8EAAAAMBAJ&dq=topo+robot+1983&pg=PA103"},
+      {"text": "Inc. Magazine: Will The Robot Be Father To The Industry? (March 1983)", "url": "http://www.inc.com/magazine/19830301/6181.html"},
+      {"text": "The Old Robots Web Site: Androbot Topo and BOB", "url": "http://www.theoldrobots.com/bob3.html"}
+    ],
+    "imageUrls": [
+      "https://upload.wikimedia.org/wikipedia/commons/3/3a/Topo_I_robot_without_extended_arms.png"
+    ]
+  },
+  "savedImages": []
+}
