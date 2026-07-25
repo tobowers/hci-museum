@@ -253,4 +253,25 @@ Promotion gotchas (2026-07-24):
 - Build count: 119 exhibits. Wiki ToC count: 116 (ToC now properly updated in this run).
 - Use Wikimedia Commons API format: `https://commons.wikimedia.org/w/api.php?action=query&list=search&srsearch=TERM&srnamespace=6&format=json` with proper User-Agent header and rate-limit delays (2+ seconds between downloads).
 
-(End of file - total 249 lines)
+New additions (2026-07-25):
+- Novation CAT (1977): Promoted 2026-07-25. The iconic acoustic coupler modem by Novation, Inc. Two rubber cups accept a standard telephone handset; the user dials manually, listens for the carrier tone, and physically presses the handset into the cups to acoustically couple the computer to the phone line. 300 baud, no auto-dial, no AT commands — the physical gateway to BBSes and early online services. Rebranded by Apple, Atari, TI, and Radio Shack. Immortalized in WarGames (1983). 1 CC image from Wikimedia Commons (3 files in Commons category). Fills telephony/computer-interface gap — no other artifact in the collection bridges telephone and computer through a physical coupling ritual.
+- Cracklebox / Kraakdoos (1978): Promoted 2026-07-25. Michel Waisvisz's skin-conductivity electronic instrument developed at STEIM (Amsterdam). Six exposed metal contacts on a wooden box wired directly to a bare, unstable LM709 op-amp. The human body becomes a variable resistor/capacitor in the feedback loop — touch the contacts and your skin conductivity determines the sound. No enclosure isolates the performer from the circuit; you ARE the circuit. Never commercialized; disseminated through DIY workshops. 1978 LP "Crackle" brought wider recognition. 1 CC image from Wikimedia Commons (8 files available). Fills a unique gap: human body as active circuit component — no other artifact does this. Distinct from all music/electronic instrument exhibits.
+- Topo (1983): Promoted 2026-07-25. Nolan Bushnell's 36-inch programmable floor robot from Androbot Inc. Wirelessly programmable from an Apple II via TopoBASIC; the robot executes geometric movement commands in physical space. Topo I had NO sensors — no bump detection, no sonar, no feedback loop. It was a pure output device: a physical avatar for code. $495, ~650 units shipped. Company folded 1984 after ~18 months. 1 CC BY-SA 4.0 image from Wikimedia Commons. Fills programmable-robot-as-physical-output gap — distinct from HERO 1 (sensor-equipped, keyboard-programmed) and all other educational robots. The interaction model is code-made-physical: programming as choreography with visual observation as the only feedback channel.
+
+New deferred candidates (2026-07-25):
+- Lady's Glove (1991, Laetitia Sonami): Multi-sensor performance glove with microswitches, pressure pads, resistive strips, ultrasonic receivers, accelerometers, and microphone. 2 CC images on Commons. Deferred: extremely narrow scope (single-artist performance instrument), more art installation than general HCI artifact.
+- Casio TC500 Touch Sensor Calculator Watch (1983): Capacitive touch sensor on a watch face for calculator input. 2 CC images on Commons. Deferred: interaction model (touch-calculator on wrist) is too incremental. Overlaps with HP-150 Touchscreen and Seiko RC-1000 in the collection.
+- All medical/clinical candidates from this run: image-blocked across the board. CEREC has later-gen images only; ERICA, ISG Viewing Wand, Utah Arm, Handy 1 all lack freely-licensed images.
+- All home automation / environmental control candidates: image-blocked. Unity Systems Home Manager, GE HomeMinder, Hypertek HomeBrain, The Clapper (fair-use only), Possum PSU — none have CC images.
+- Industrial control pendants: images of robots exist but specific vintage teach pendants are scarce on Commons.
+
+Promotion gotchas (2026-07-25):
+- Confirmed again: `promote-potentials.ts` does NOT update src/data.ts (regex mismatch confirmed) and does NOT copy images. Both must be done manually.
+- Confirmed again: the wiki Table of Contents must be manually updated after promotion.
+- Confirmed again: stale info.json files in potential/ WILL be auto-promoted. This run found and archived 2 stale files (minitel, logitech-fotoman) before running the script.
+- New productive angles proven in this run: (a) acoustic coupling / telephony-computer interface, (b) programmable-robot-as-physical-output (vs sensor-equipped educational robots), (c) human-body-as-circuit-component. These are distinct categories from anything previously searched.
+- 8 parallel subagent angles covered; 3 returned viable candidates. Image availability remains the dominant bottleneck — only 3 of ~25 candidates across all angles had CC images.
+- Future unexplored angles to try: early home video game controllers with unusual physical principles (not already covered by Exciting Boxing, Stompin', Heavyweight Champ, U-Force, etc.), early network terminal hardware with unusual interfaces, early scanning/OCR hardware with distinctive physical interaction, and haptic/force-feedback devices beyond what's already in the collection.
+- Build count: 122 exhibits. Wiki ToC count: 119 (updated in this run).
+
+(End of file - total 272 lines)
