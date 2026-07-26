@@ -1,0 +1,51 @@
+{
+  "slug": "att-videophone-2500",
+  "title": "AT&T VideoPhone 2500",
+  "year": "1992",
+  "subtitle": "The telephone that showed faces, in color, over ordinary phone lines",
+  "why_scout_cares": "A consumer telephone with an integrated color LCD screen and video camera — on an ordinary analog phone line. The physical fusion of display, camera, speakerphone, and telephone handset into one appliance was a radical departure from every telephone form factor that came before. $1,499, 2-10 frames per second, commercial failure. The ritual of looking at someone's face while talking on the same device — the video call — was born here in consumer form, decades before smartphones made it ubiquitous.",
+  "search_terms": ["AT&T VideoPhone 2500", "consumer video telephone 1992", "video phone POTS"],
+  "research": {
+    "title": "AT&T VideoPhone 2500",
+    "year": "1992",
+    "by": "AT&T, in partnership with Compression Labs Inc. (CLI)",
+    "tags": ["HCI", "Telephony", "Video", "Consumer Device", "Display"],
+    "overview": "The AT&T VideoPhone 2500 was the first mass-market consumer video telephone. Released in 1992 at $1,499, it was a fully integrated telephone appliance with a 3.3-inch color LCD screen, a built-in video camera, and a standard telephone handset — all in one device. It worked over ordinary analog (POTS) telephone lines, transmitting video at roughly 2-10 frames per second using proprietary video compression technology developed in partnership with Compression Labs Inc.\n\nThe physical interaction was remarkable: the phone had a flip-up lens cover that doubled as a privacy shutter, and the small color screen popped up from the phone body. Making a video call was as simple as dialing a number — if the person on the other end also had a VideoPhone 2500, video would appear. The device included a built-in speakerphone, a snapshot button for capturing still frames, and the ability to show your own image on screen (self-view) so you could see what the other person was seeing.\n\nAT&T's video telephone lineage stretched back to the 1927 ikonophone, through the 1964 Picturephone Mod I demonstrated at the World's Fair, to the 1970 Picturephone Mod II commercial service. The VideoPhone 2500 was the culmination of that 65-year quest: a practical, (relatively) affordable video phone that worked on the existing phone network. Like all its predecessors, it was a commercial failure. But the physical paradigm it established — a single device that fused talking with seeing — eventually became universal with smartphones and FaceTime.",
+    "deepDive": [
+      {
+        "heading": "AT&T's video telephone lineage",
+        "text": "AT&T had been pursuing video telephony since 1927, when Bell Labs demonstrated the ikonophone — a one-way video call between Herbert Hoover in Washington and AT&T executives in New York. The Picturephone Mod I debuted at the 1964 World's Fair; the Mod II launched commercially in Pittsburgh in 1970, costing $160/month for 30 minutes of calls. The VideoPhone 2500 was AT&T's first product to bring video calling to a consumer price point and form factor."
+      },
+      {
+        "heading": "How it worked",
+        "text": "The VideoPhone 2500 used a proprietary video codec (developed with Compression Labs Inc.) that compressed video signals to fit within the ~3.4 kHz bandwidth of analog phone lines. The result was a pixelated, jerky, low-frame-rate image — 2 to 10 frames per second — that users described as looking like 'a color Etch-a-Sketch.' But it worked. The camera was placed above the screen to simulate eye contact, a design concern that had been central to videophone engineering since the 1960s."
+      },
+      {
+        "heading": "The physical object",
+        "text": "The phone was a squat, chunky device in AT&T's consumer beige. The display was a 3.3-inch LCD that flipped up; the camera lens had a sliding privacy cover. A snapshot button captured still frames. The built-in speakerphone meant you could use it hands-free during video calls. The visual design said 'telephone, but more' — the traditional handset was still there, anchoring the user in familiar phone behavior while adding an entirely new sensory channel."
+      }
+    ],
+    "team": [
+      {"name": "AT&T Bell Laboratories", "note": "Research and development, building on 65 years of videophone research"},
+      {"name": "Compression Labs Inc. (CLI)", "note": "Video compression technology partner, developed the low-bitrate codec"},
+      {"name": "Ernest G. DeNigris", "note": "Led AT&T's WorldWorx video services unit, former Picturephone team member"}
+    ],
+    "media": [
+      {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/3/37/Flickr_2615545942_f02a41fed6_b_AT%26T_VideoPhone_2500%2C_attribution_to_Marcin_Wichary.jpg",
+        "alt": "AT&T VideoPhone 2500 with screen and camera visible",
+        "caption": "AT&T VideoPhone 2500, showing the flip-up color LCD screen and built-in camera lens. The device fused telephone, camera, and display into one consumer appliance. Photo by Marcin Wichary (Wikimedia Commons, CC BY 2.0)"
+      }
+    ],
+    "sources": [
+      {"text": "Wikipedia: History of videotelephony (AT&T VideoPhone 2500 section)", "url": "https://en.wikipedia.org/wiki/History_of_videotelephony#Digital_videotelephony:_1985%E2%80%931999"},
+      {"text": "Smithsonian National Museum of American History: AT&T VideoPhone 2500", "url": "https://americanhistory.si.edu/collections/object/nmah_1191586"},
+      {"text": "CNN: The AT&T VideoPhone 2500 story", "url": "https://www.cnn.com/2020/06/12/tech/att-video-phone-vault"},
+      {"text": "Flickr: Marcin Wichary's AT&T VideoPhone 2500 photo", "url": "https://www.flickr.com/photos/mwichary/2615545942/"}
+    ],
+    "imageUrls": [
+      "https://upload.wikimedia.org/wikipedia/commons/3/37/Flickr_2615545942_f02a41fed6_b_AT%26T_VideoPhone_2500%2C_attribution_to_Marcin_Wichary.jpg"
+    ]
+  },
+  "savedImages": []
+}

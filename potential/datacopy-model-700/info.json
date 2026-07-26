@@ -1,0 +1,56 @@
+{
+  "slug": "datacopy-model-700",
+  "title": "Datacopy Model 700",
+  "year": "1985",
+  "subtitle": "The first flatbed scanner for the IBM PC, and the birth of a physical ritual",
+  "why_scout_cares": "Every time you lift a scanner lid, place a document face-down on glass, close the lid, and click 'scan' — you are repeating the physical interaction that the Datacopy Model 700 defined in 1985. This was the first flatbed scanner for personal computers, and it established the form-factor paradigm that dominated for 30+ years. The physical ritual of lid-lift, place, close, scan is an HCI pattern as enduring as the QWERTY keyboard.",
+  "search_terms": ["Datacopy Model 700", "first flatbed scanner IBM PC", "Ricoh IS20 scanner", "Datacopy Corporation"],
+  "research": {
+    "title": "Datacopy Model 700",
+    "year": "1985",
+    "by": "Datacopy Corporation, Palo Alto, California (hardware manufactured by Ricoh)",
+    "tags": ["HCI", "Input", "Scanner", "Document", "Imaging"],
+    "overview": "The Datacopy Model 700 was the first flatbed scanner for the IBM PC, released in early 1985 by Datacopy Corporation of Palo Alto, California. The main flatbed unit was actually manufactured by Ricoh (originally sold by them as the Ricoh IS20), with Datacopy providing the digital processing technology, proprietary ISA interface card, and software. It scanned letter-sized documents at 200 dpi in 1-bit monochrome using a CCD imaging element.\n\nDatacopy was founded in April 1973 by Armin Miller, who previously founded hard disk manufacturer Data Disc. The company spent nearly its first decade as a consulting firm developing imaging products for HP and IBM before releasing products under its own name. An optional OCR software card and package were sold separately, and later products included Microfax (one of the earliest PC fax boards) and their own page description language (PreScript, a would-be PostScript competitor). At its peak in 1987, Datacopy employed 120 people and was the second-largest image scanner manufacturer for PCs, trailing only Canon. Xerox acquired Datacopy in 1988 for $31 million, folding it into Xerox Imaging Systems.\n\nBut the Model 700's real legacy is invisible: the physical interaction model of desktop flatbed scanning. Lift lid. Place document face-down on glass. Close lid. Click scan. This ritual, repeated billions of times across three decades of office life, was first crystallized by this machine.",
+    "deepDive": [
+      {
+        "heading": "From consulting to product",
+        "text": "Datacopy spent 1973-1982 as a contract imaging R&D firm, developing products for HP, IBM, and others. Its first in-house product was a document camera for minicomputers in 1982, followed by the Model 610 CCD camera in 1983. The Model 700, unveiled at COMDEX/Fall 1984 in Las Vegas and released January 1985, was the company's breakthrough — the first product that defined a new category of PC peripheral."
+      },
+      {
+        "heading": "The flatbed interaction model",
+        "text": "Before the Model 700, getting a document into a computer meant either a handheld scanner wand (dragged across the page by hand with inconsistent results), a document camera (requiring careful lighting and framing), or a professional drum scanner (enormous, expensive, and requiring skilled operators). The flatbed scanner inverted the interaction: the user was stationary, the document was stationary, and the machine did the work. The physical ritual — lift glass lid, place document face-down, close lid, press scan — removed motor skill from the equation and made document digitization accessible to non-specialists."
+      },
+      {
+        "heading": "Commercial fate",
+        "text": "Datacopy never achieved sustained profitability. The company recorded only one profitable year (1986, $120,950) against cumulative losses exceeding $2.6 million. By 1988, facing continued losses and intense competition from Canon and HP, Datacopy accepted Xerox's $31 million acquisition offer. The brand survived until 1991 when Xerox closed the Bay Area facility. The flatbed scanner form factor, however, outlived the company by decades."
+      }
+    ],
+    "team": [
+      {"name": "Armin Miller", "note": "Founder, previously founded Data Disc (hard disk manufacturer)"},
+      {"name": "Rolando C. Esteverena", "note": "President 1983-1988, previously of Zilog"},
+      {"name": "Ricoh Company", "note": "OEM manufacturer of the flatbed hardware unit (Ricoh IS20)"}
+    ],
+    "media": [
+      {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/3/32/Datacopy_Model_700.png",
+        "alt": "Datacopy Model 700 flatbed scanner next to an IBM PC",
+        "caption": "The Datacopy Model 700, the first flatbed scanner for the IBM PC, alongside its host computer. The 'lift lid, place document face-down, close lid, scan' ritual started here. (Wikimedia Commons, CC BY-SA 4.0)"
+      },
+      {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/b/b9/Datacopy_Model_700_advertisement.jpg",
+        "alt": "Period advertisement for the Datacopy Model 700",
+        "caption": "Period magazine advertisement for the Datacopy Model 700, emphasizing the new flatbed form factor. (Wikimedia Commons)"
+      }
+    ],
+    "sources": [
+      {"text": "Wikipedia: Datacopy", "url": "https://en.wikipedia.org/wiki/Datacopy"},
+      {"text": "PC Magazine: Datacopy 700 review (June 1985)", "url": "https://books.google.com/books?id=ZFw924nLBSoC&pg=PA60"},
+      {"text": "Vintage Apple: Datacopy scanner information", "url": "https://vintageapple.org/macdrivers/cards/DataCopy_info.html"}
+    ],
+    "imageUrls": [
+      "https://upload.wikimedia.org/wikipedia/commons/3/32/Datacopy_Model_700.png",
+      "https://upload.wikimedia.org/wikipedia/commons/b/b9/Datacopy_Model_700_advertisement.jpg"
+    ]
+  },
+  "savedImages": []
+}

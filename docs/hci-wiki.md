@@ -126,6 +126,9 @@ Each entry includes an overview, a deep dive, a small media gallery, and full so
 117. [Novation CAT (1977)](#novation-cat-1977)
 118. [Cracklebox / Kraakdoos (1978)](#cracklebox--kraakdoos-1978)
 119. [Topo (1983)](#topo-1983)
+120. [AT&T VideoPhone 2500 (1992)](#att-videophone-2500-1992)
+121. [Datacopy Model 700 (1985)](#datacopy-model-700-1985)
+122. [ICL One Per Desk / BT Merlin Tonto (1984)](#icl-one-per-desk--bt-merlin-tonto-1984)
 
 ---
 
@@ -6278,3 +6281,125 @@ Topo II (1984) added text-to-speech capability. Topo III (1984) removed the deta
 3. InfoWorld: Robot-maker Androbot pulls stock offering (Nov 1983) — https://books.google.com/books?id=wS8EAAAAMBAJ&dq=topo+robot+1983&pg=PA103
 4. Inc. Magazine: Will The Robot Be Father To The Industry? (March 1983) — http://www.inc.com/magazine/19830301/6181.html
 5. The Old Robots Web Site: Androbot Topo and BOB — http://www.theoldrobots.com/bob3.html
+
+---
+
+## AT&T VideoPhone 2500 (1992)
+
+**By:** AT&T, in partnership with Compression Labs Inc. (CLI)  
+**Tags:** `HCI` `Telephony` `Video` `Consumer Device` `Display`
+
+### Overview
+
+The AT&T VideoPhone 2500 was the first mass-market consumer video telephone. Released in 1992 at $1,499, it was a fully integrated telephone appliance with a 3.3-inch color LCD screen, a built-in video camera, and a standard telephone handset — all in one device. It worked over ordinary analog (POTS) telephone lines, transmitting video at roughly 2-10 frames per second using proprietary video compression technology developed in partnership with Compression Labs Inc.
+
+The physical interaction was remarkable: the phone had a flip-up lens cover that doubled as a privacy shutter, and the small color screen popped up from the phone body. Making a video call was as simple as dialing a number — if the person on the other end also had a VideoPhone 2500, video would appear. The device included a built-in speakerphone, a snapshot button for capturing still frames, and the ability to show your own image on screen (self-view) so you could see what the other person was seeing.
+
+AT&T's video telephone lineage stretched back to the 1927 ikonophone, through the 1964 Picturephone Mod I demonstrated at the World's Fair, to the 1970 Picturephone Mod II commercial service. The VideoPhone 2500 was the culmination of that 65-year quest: a practical, (relatively) affordable video phone that worked on the existing phone network. Like all its predecessors, it was a commercial failure. But the physical paradigm it established — a single device that fused talking with seeing — eventually became universal with smartphones and FaceTime.
+
+### Deep dive
+
+* **AT&T's video telephone lineage.** AT&T had been pursuing video telephony since 1927, when Bell Labs demonstrated the ikonophone — a one-way video call between Herbert Hoover in Washington and AT&T executives in New York. The Picturephone Mod I debuted at the 1964 World's Fair; the Mod II launched commercially in Pittsburgh in 1970, costing $160/month for 30 minutes of calls. The VideoPhone 2500 was AT&T's first product to bring video calling to a consumer price point and form factor.
+* **How it worked.** The VideoPhone 2500 used a proprietary video codec (developed with Compression Labs Inc.) that compressed video signals to fit within the ~3.4 kHz bandwidth of analog phone lines. The result was a pixelated, jerky, low-frame-rate image — 2 to 10 frames per second — that users described as looking like 'a color Etch-a-Sketch.' But it worked. The camera was placed above the screen to simulate eye contact, a design concern that had been central to videophone engineering since the 1960s.
+* **The physical object.** The phone was a squat, chunky device in AT&T's consumer beige. The display was a 3.3-inch LCD that flipped up; the camera lens had a sliding privacy cover. A snapshot button captured still frames. The built-in speakerphone meant you could use it hands-free during video calls. The visual design said 'telephone, but more' — the traditional handset was still there, anchoring the user in familiar phone behavior while adding an entirely new sensory channel.
+
+### Team
+
+* **AT&T Bell Laboratories.** Research and development, building on 65 years of videophone research
+* **Compression Labs Inc. (CLI).** Video compression technology partner, developed the low-bitrate codec
+* **Ernest G. DeNigris.** Led AT&T's WorldWorx video services unit, former Picturephone team member
+
+### Media
+
+![AT&T VideoPhone 2500 with screen and camera visible](assets/wiki/att-videophone-2500-1.jpg)
+*AT&T VideoPhone 2500, showing the flip-up color LCD screen and built-in camera lens. The device fused telephone, camera, and display into one consumer appliance. Photo by Marcin Wichary (Wikimedia Commons, CC BY 2.0)*
+
+### Sources
+
+1. Wikipedia: History of videotelephony (AT&T VideoPhone 2500 section) — https://en.wikipedia.org/wiki/History_of_videotelephony#Digital_videotelephony:_1985%E2%80%931999
+2. Smithsonian National Museum of American History: AT&T VideoPhone 2500 — https://americanhistory.si.edu/collections/object/nmah_1191586
+3. CNN: The AT&T VideoPhone 2500 story — https://www.cnn.com/2020/06/12/tech/att-video-phone-vault
+4. Flickr: Marcin Wichary's AT&T VideoPhone 2500 photo — https://www.flickr.com/photos/mwichary/2615545942/
+
+---
+
+## Datacopy Model 700 (1985)
+
+**By:** Datacopy Corporation, Palo Alto, California (hardware manufactured by Ricoh)  
+**Tags:** `HCI` `Input` `Scanner` `Document` `Imaging`
+
+### Overview
+
+The Datacopy Model 700 was the first flatbed scanner for the IBM PC, released in early 1985 by Datacopy Corporation of Palo Alto, California. The main flatbed unit was actually manufactured by Ricoh (originally sold by them as the Ricoh IS20), with Datacopy providing the digital processing technology, proprietary ISA interface card, and software. It scanned letter-sized documents at 200 dpi in 1-bit monochrome using a CCD imaging element.
+
+Datacopy was founded in April 1973 by Armin Miller, who previously founded hard disk manufacturer Data Disc. The company spent nearly its first decade as a consulting firm developing imaging products for HP and IBM before releasing products under its own name. An optional OCR software card and package were sold separately, and later products included Microfax (one of the earliest PC fax boards) and their own page description language (PreScript, a would-be PostScript competitor). At its peak in 1987, Datacopy employed 120 people and was the second-largest image scanner manufacturer for PCs, trailing only Canon. Xerox acquired Datacopy in 1988 for $31 million, folding it into Xerox Imaging Systems.
+
+But the Model 700's real legacy is invisible: the physical interaction model of desktop flatbed scanning. Lift lid. Place document face-down on glass. Close lid. Click scan. This ritual, repeated billions of times across three decades of office life, was first crystallized by this machine.
+
+### Deep dive
+
+* **From consulting to product.** Datacopy spent 1973-1982 as a contract imaging R&D firm, developing products for HP, IBM, and others. Its first in-house product was a document camera for minicomputers in 1982, followed by the Model 610 CCD camera in 1983. The Model 700, unveiled at COMDEX/Fall 1984 in Las Vegas and released January 1985, was the company's breakthrough — the first product that defined a new category of PC peripheral.
+* **The flatbed interaction model.** Before the Model 700, getting a document into a computer meant either a handheld scanner wand (dragged across the page by hand with inconsistent results), a document camera (requiring careful lighting and framing), or a professional drum scanner (enormous, expensive, and requiring skilled operators). The flatbed scanner inverted the interaction: the user was stationary, the document was stationary, and the machine did the work. The physical ritual — lift glass lid, place document face-down, close lid, press scan — removed motor skill from the equation and made document digitization accessible to non-specialists.
+* **Commercial fate.** Datacopy never achieved sustained profitability. The company recorded only one profitable year (1986, $120,950) against cumulative losses exceeding $2.6 million. By 1988, facing continued losses and intense competition from Canon and HP, Datacopy accepted Xerox's $31 million acquisition offer. The brand survived until 1991 when Xerox closed the Bay Area facility. The flatbed scanner form factor, however, outlived the company by decades.
+
+### Team
+
+* **Armin Miller.** Founder, previously founded Data Disc (hard disk manufacturer)
+* **Rolando C. Esteverena.** President 1983-1988, previously of Zilog
+* **Ricoh Company.** OEM manufacturer of the flatbed hardware unit (Ricoh IS20)
+
+### Media
+
+![Datacopy Model 700 flatbed scanner next to an IBM PC](assets/wiki/datacopy-model-700-1.png)
+*The Datacopy Model 700, the first flatbed scanner for the IBM PC, alongside its host computer. The 'lift lid, place document face-down, close lid, scan' ritual started here. (Wikimedia Commons, CC BY-SA 4.0)*
+
+![Period advertisement for the Datacopy Model 700](assets/wiki/datacopy-model-700-2.jpg)
+*Period magazine advertisement for the Datacopy Model 700, emphasizing the new flatbed form factor. (Wikimedia Commons)*
+
+### Sources
+
+1. Wikipedia: Datacopy — https://en.wikipedia.org/wiki/Datacopy
+2. PC Magazine: Datacopy 700 review (June 1985) — https://books.google.com/books?id=ZFw924nLBSoC&pg=PA60
+3. Vintage Apple: Datacopy scanner information — https://vintageapple.org/macdrivers/cards/DataCopy_info.html
+
+---
+
+## ICL One Per Desk / BT Merlin Tonto (1984)
+
+**By:** International Computers Limited (ICL), with Sinclair Research and British Telecom  
+**Tags:** `HCI` `Telephony` `Computer` `Phone-Computer Hybrid` `Network`
+
+### Overview
+
+The One Per Desk (OPD) was a British hybrid personal computer and telecommunications terminal built by ICL and launched in 1984. Based on Sinclair QL hardware (Motorola 68008 CPU, 128 KB RAM, dual Microdrives), the OPD added a complete telephony module with built-in telephone handset, dual PSTN lines, V.21/V.23 modem, and a Texas Instruments TMS5220 speech synthesis chip for automatic call answering. The handset literally sat in a cradle molded into the computer's case — you picked it up to make calls, and the computer managed the rest.
+
+Rebadged versions were sold by British Telecom as the Merlin Tonto ("The Outstanding New Telecoms Opportunity") and by Telecom Australia and New Zealand Post Office as the ComputerPhone. The system used plug-in ROM capsules called "capsules" for applications instead of floppy disks, and ran a custom operating system called BFS (Basic Functional Software). Psion's office suite was adapted as "Xchange." It was pitched at non-technical business users who needed a single device for phone calls, directories, messaging, Viewdata terminal access, and basic computing.
+
+Described by Practical Computing magazine as a "wildly visionary product" and an "original concept marred by a woefully inadequate implementation," the OPD was a commercial disappointment. But as a physical object — a computer with a phone handset growing out of its side — it asked a question no other machine asked: what if your desktop computer was also your telephone, not metaphorically but literally?
+
+### Deep dive
+
+* **Origins.** The OPD began in 1983 as a collaboration between ICL, Sinclair Research, and British Telecom. It was based on the Sinclair QL's hardware — 68008 CPU, ZX8301/8302 ULAs — but added a dedicated telephony module with an Intel 8051 microcontroller that managed the keyboard, two phone lines, and the modem. ICL re-engineered Sinclair's unreliable Microdrives for better durability. Initial orders were worth £4.5 million from BT and £8 million from Telecom Australia.
+* **The telephone-computer merger.** The defining feature of the OPD was the telephone handset integrated into the computer case. Unlike separate modems (which you connected to an external phone), or separate telephones with computer features tacked on, the OPD was designed from the start as a single appliance that was simultaneously a computer and a telephone. The TMS5220 speech synthesis chip allowed the OPD to answer incoming calls with synthesized speech, and the BFS operating system provided integrated voice/data call management, phone directories, and Viewdata terminal emulation.
+* **Marketing and failure.** BT marketed the rebadged version as the Merlin M1800 Tonto at £1,500. The name was an acronym for "The Outstanding New Telecoms Opportunity." BT withdrew support in February 1993. An enhanced version called the MegaOPD with 256 KB RAM and RS-232 port was produced for the US market. The device's speech synthesis had "a female voice with a slight New Jersey accent." The OPD found a niche application synchronizing bingo games across hundreds of UK bingo halls via its built-in modem.
+
+### Team
+
+* **International Computers Limited (ICL).** Manufacturer, British mainframe computer company
+* **Sinclair Research.** Provided QL hardware platform (CPU, ULAs, Microdrives)
+* **British Telecom.** Co-development partner, marketed as Merlin Tonto
+
+### Media
+
+![ICL One Per Desk computer with telephone handset visible on right side](assets/wiki/icl-one-per-desk-1.webp)
+*ICL One Per Desk on display at the Science & Industry Museum, Manchester. The telephone handset sits in a cradle molded into the right side of the case. (Wikimedia Commons, CC BY-SA 4.0)*
+
+![Merlin Tonto (BT badged version) at The National Museum of Computing](assets/wiki/icl-one-per-desk-2.jpg)
+*Merlin Tonto, the BT-badged version of the OPD, at The National Museum of Computing, Bletchley Park. (Wikimedia Commons)*
+
+### Sources
+
+1. Wikipedia: One Per Desk — https://en.wikipedia.org/wiki/One_Per_Desk
+2. Science Museum Group: One Per Desk — https://collection.sciencemuseumgroup.org.uk/objects/co8409182/one-per-desk-microcomputer
+3. Binary Dinosaurs: OPD technical breakdown by Murray McCabe — https://binarydinosaurs.co.uk/Museum/icl/murraywriteup.php
+4. The Register: Sinclair's forgotten Australia-only micro revealed — https://www.theregister.com/2013/11/28/telecom_australia_computerphone/

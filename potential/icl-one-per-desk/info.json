@@ -1,0 +1,63 @@
+{
+  "slug": "icl-one-per-desk",
+  "title": "ICL One Per Desk / BT Merlin Tonto",
+  "year": "1984",
+  "subtitle": "The desktop computer with a built-in telephone handset",
+  "why_scout_cares": "A personal computer that physically IS a telephone. The handset sits in a cradle molded into the side of the case. You pick it up to make calls; the computer manages voice/data switching, auto-answers with speech synthesis, and stores directories. No other machine so completely fused computing with telephony into one physical appliance. Anticipated the smartphone concept by two decades at desktop scale.",
+  "search_terms": ["ICL One Per Desk", "Merlin Tonto", "ComputerPhone", "computer telephone hybrid 1980s"],
+  "research": {
+    "title": "ICL One Per Desk / BT Merlin Tonto",
+    "year": "1984",
+    "by": "International Computers Limited (ICL), with Sinclair Research and British Telecom",
+    "tags": ["HCI", "Telephony", "Computer", "Phone-Computer Hybrid", "Network"],
+    "overview": "The One Per Desk (OPD) was a British hybrid personal computer and telecommunications terminal built by ICL and launched in 1984. Based on Sinclair QL hardware (Motorola 68008 CPU, 128 KB RAM, dual Microdrives), the OPD added a complete telephony module with built-in telephone handset, dual PSTN lines, V.21/V.23 modem, and a Texas Instruments TMS5220 speech synthesis chip for automatic call answering. The handset literally sat in a cradle molded into the computer's case — you picked it up to make calls, and the computer managed the rest.\n\nRebadged versions were sold by British Telecom as the Merlin Tonto (\"The Outstanding New Telecoms Opportunity\") and by Telecom Australia and New Zealand Post Office as the ComputerPhone. The system used plug-in ROM capsules called \"capsules\" for applications instead of floppy disks, and ran a custom operating system called BFS (Basic Functional Software). Psion's office suite was adapted as \"Xchange.\" It was pitched at non-technical business users who needed a single device for phone calls, directories, messaging, Viewdata terminal access, and basic computing.\n\nDescribed by Practical Computing magazine as a \"wildly visionary product\" and an \"original concept marred by a woefully inadequate implementation,\" the OPD was a commercial disappointment. But as a physical object — a computer with a phone handset growing out of its side — it asked a question no other machine asked: what if your desktop computer was also your telephone, not metaphorically but literally?",
+    "deepDive": [
+      {
+        "heading": "Origins",
+        "text": "The OPD began in 1983 as a collaboration between ICL, Sinclair Research, and British Telecom. It was based on the Sinclair QL's hardware — 68008 CPU, ZX8301/8302 ULAs — but added a dedicated telephony module with an Intel 8051 microcontroller that managed the keyboard, two phone lines, and the modem. ICL re-engineered Sinclair's unreliable Microdrives for better durability. Initial orders were worth £4.5 million from BT and £8 million from Telecom Australia."
+      },
+      {
+        "heading": "The telephone-computer merger",
+        "text": "The defining feature of the OPD was the telephone handset integrated into the computer case. Unlike separate modems (which you connected to an external phone), or separate telephones with computer features tacked on, the OPD was designed from the start as a single appliance that was simultaneously a computer and a telephone. The TMS5220 speech synthesis chip allowed the OPD to answer incoming calls with synthesized speech, and the BFS operating system provided integrated voice/data call management, phone directories, and Viewdata terminal emulation."
+      },
+      {
+        "heading": "Marketing and failure",
+        "text": "BT marketed the rebadged version as the Merlin M1800 Tonto at £1,500. The name was an acronym for \"The Outstanding New Telecoms Opportunity.\" BT withdrew support in February 1993. An enhanced version called the MegaOPD with 256 KB RAM and RS-232 port was produced for the US market. The device's speech synthesis had \"a female voice with a slight New Jersey accent.\" The OPD found a niche application synchronizing bingo games across hundreds of UK bingo halls via its built-in modem."
+      }
+    ],
+    "team": [
+      {"name": "International Computers Limited (ICL)", "note": "Manufacturer, British mainframe computer company"},
+      {"name": "Sinclair Research", "note": "Provided QL hardware platform (CPU, ULAs, Microdrives)"},
+      {"name": "British Telecom", "note": "Co-development partner, marketed as Merlin Tonto"}
+    ],
+    "media": [
+      {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/b/ba/ICL_One_Per_Desk.webp",
+        "alt": "ICL One Per Desk computer with telephone handset visible on right side",
+        "caption": "ICL One Per Desk on display at the Science & Industry Museum, Manchester. The telephone handset sits in a cradle molded into the right side of the case. (Wikimedia Commons, CC BY-SA 4.0)"
+      },
+      {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/5/5b/MerlinTonto.jpg",
+        "alt": "Merlin Tonto (BT badged version) at The National Museum of Computing",
+        "caption": "Merlin Tonto, the BT-badged version of the OPD, at The National Museum of Computing, Bletchley Park. (Wikimedia Commons)"
+      },
+      {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/d/d0/ICL_One-Per-Desk_keyboard_front_view.JPG",
+        "alt": "ICL One Per Desk keyboard, front view",
+        "caption": "ICL One Per Desk keyboard, front view. (Wikimedia Commons, CC BY-SA 4.0)"
+      }
+    ],
+    "sources": [
+      {"text": "Wikipedia: One Per Desk", "url": "https://en.wikipedia.org/wiki/One_Per_Desk"},
+      {"text": "Science Museum Group: One Per Desk", "url": "https://collection.sciencemuseumgroup.org.uk/objects/co8409182/one-per-desk-microcomputer"},
+      {"text": "Binary Dinosaurs: OPD technical breakdown by Murray McCabe", "url": "https://binarydinosaurs.co.uk/Museum/icl/murraywriteup.php"},
+      {"text": "The Register: Sinclair's forgotten Australia-only micro revealed", "url": "https://www.theregister.com/2013/11/28/telecom_australia_computerphone/"}
+    ],
+    "imageUrls": [
+      "https://upload.wikimedia.org/wikipedia/commons/b/ba/ICL_One_Per_Desk.webp",
+      "https://upload.wikimedia.org/wikipedia/commons/5/5b/MerlinTonto.jpg",
+      "https://upload.wikimedia.org/wikipedia/commons/d/d0/ICL_One-Per-Desk_keyboard_front_view.JPG"
+    ]
+  },
+  "savedImages": []
+}
