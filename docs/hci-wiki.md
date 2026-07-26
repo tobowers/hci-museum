@@ -126,6 +126,8 @@ Each entry includes an overview, a deep dive, a small media gallery, and full so
 117. [Novation CAT (1977)](#novation-cat-1977)
 118. [Cracklebox / Kraakdoos (1978)](#cracklebox--kraakdoos-1978)
 119. [Topo (1983)](#topo-1983)
+120. [ThunderScan (1984)](#thunderscan-1984)
+121. [VOTEM (VOltage TEMperature) (1982)](#votem-voltage-temperature-1982)
 
 ---
 
@@ -6278,3 +6280,92 @@ Topo II (1984) added text-to-speech capability. Topo III (1984) removed the deta
 3. InfoWorld: Robot-maker Androbot pulls stock offering (Nov 1983) — https://books.google.com/books?id=wS8EAAAAMBAJ&dq=topo+robot+1983&pg=PA103
 4. Inc. Magazine: Will The Robot Be Father To The Industry? (March 1983) — http://www.inc.com/magazine/19830301/6181.html
 5. The Old Robots Web Site: Androbot Topo and BOB — http://www.theoldrobots.com/bob3.html
+
+---
+
+## ThunderScan (1984)
+
+**By:** Thunderware Inc. (Tom Petrie, Victor Bull, Andy Hertzfeld)  
+**Tags:** `HCI` `Input` `Scanning` `Macintosh` `Transduction`
+
+### Overview
+
+ThunderScan was a $200 optical sensor cartridge that replaced the ribbon cartridge of an Apple ImageWriter dot-matrix printer, temporarily converting the printer into a high-resolution grayscale scanner. The user removed the ribbon, snapped the ThunderScan cartridge into the print-head carriage, and threaded a document through the printer's paper path. The printer's existing stepper motors — the same ones that positioned the print head for dot-matrix output — now scanned the document one horizontal line at a time. Since the printer could print nine dots simultaneously but the ThunderScan sensor captured only one pixel per pass, scanning was nine times slower than printing, often taking over an hour per page. The hardware was entirely analog: an HP HEDS-1500 reflective optical sensor amplified the reflected light, an Analog Devices voltage-to-frequency converter turned that into a square wave (2.6 kHz for black, 500 Hz for white), and the square wave was wired directly to the Macintosh serial port's handshake/clock-in pin. The software measured the rate at which the pin toggled to determine pixel brightness. There was no ADC, no microcontroller, no framebuffer — just a light sensor, an op-amp, and a V-to-F converter in an aluminum can. The software, written by original Macintosh team member Andy Hertzfeld, used Floyd-Steinberg error-diffusion dithering to render 32 levels of gray on the Mac's 1-bit display, and stored images in a 5-bit-per-pixel internal format before grayscale displays existed. ThunderScan sold approximately 100,000 units between 1984 and 1987, peaking at 7,500 units per month. Hertzfeld earned a $7.50 per-unit royalty. The product was eventually overtaken by falling flatbed scanner prices, but it remains one of the most ingenious hardware hacks in personal computing history.
+
+### Deep dive
+
+* **Origins.** Thunderware Inc. was founded by Tom Petrie and Victor Bull in Orinda, California. Their first product was Thunderclock, an inexpensive calendar/clock card for the Apple II. Bull had previously worked at Apple with Andy Hertzfeld on the Silentype thermal printer project in 1979. In May 1984, during Hertzfeld's leave of absence from Apple, Bull called him with an idea: a device that could temporarily turn the popular ImageWriter printer into a scanner by replacing the ribbon cartridge with an optical sensor. Hertzfeld signed an NDA, saw the demo, and agreed to write the Macintosh software for a $7.50 per-unit royalty.
+* **How It Worked.** The physical interaction was counterintuitive: you removed the printer ribbon (the part that puts ink ON paper) and replaced it with a sensor (the part that reads ink OFF paper). You then fed your document — a photograph, a drawing, a page of text — through the printer's paper path exactly as if you were printing it. But instead of emerging with dots on it, the document emerged unchanged, and its image appeared on the Macintosh screen. The printer's stepper motors, designed to move the print head with sub-dot precision, became the positioning system for the scanner. To prevent paper bunching against the platen during single-line stepping, Thunderware devised a 'three steps forward, two steps back' paper-advance algorithm. A switch on the adapter box toggled between print mode and scan mode.
+* **The Analog Signal Path.** The ThunderScan cartridge contained no digital electronics. An HP HEDS-1500 reflective optical sensor illuminated the paper and measured reflected light through a photodiode. An op-amp amplified the signal. An Analog Devices voltage-to-frequency converter (in a rare TO-100 metal can package) converted the analog voltage to a square wave: approximately 2.6 kHz for black (low reflectance) and 500 Hz for white (high reflectance). This square wave was sent through a single wire to the Macintosh serial port's clock-in/handshake pin. The 8530 SCC (Serial Communications Controller) was configured in synchronous mode with a sync character of all zeros, and the software polled the 'Rx Character Available' flag. The rate at which characters became available was directly proportional to the square-wave frequency, and therefore to pixel brightness. The RS-422 data lines — the ones that normally carry serial data — were passed through untouched for the Mac to communicate with the printer. The scanner used only one pin for data, plus power and ground.
+* **Software Innovation.** Hertzfeld's Macintosh software was critical to ThunderScan's success. The Mac was nearly ten times faster than the Apple II, enabling better horizontal resolution through higher sampling rates. He implemented a modified Floyd-Steinberg error-diffusion dithering algorithm (learned from Bill Atkinson) to render 32 levels of gray on the Mac's 1-bit-per-pixel display. The software stored images internally at 5 bits per pixel — before the Macintosh supported grayscale displays — enabling non-destructive brightness and contrast adjustments. When the Macintosh II arrived with grayscale support, ThunderScan images could be displayed at full fidelity. Hertzfeld also invented 'inertial scrolling' for navigating large scanned images: you could push the image and it would continue scrolling after the mouse button was released, with adjustable speed. This feature predated similar inertial scrolling in modern touch interfaces by decades.
+* **Market Impact.** ThunderScan shipped in December 1984 at under $200, when flatbed scanners cost $2,000 or more. It was the least expensive and highest-quality scanning option for the Macintosh. Sales grew from 1,000 units per month to over 7,500 at their 1987 peak. Approximately 100,000 units were sold over the product's lifetime. The Computer History Museum holds a unit in its collection (catalog #102673216), gifted by Al Kossow. A later version supported the wide-carriage ImageWriter II for scanning larger documents, and optional bidirectional scanning nearly doubled speed at a small quality cost.
+
+### Team
+
+* **Tom Petrie.** Co-founder, Thunderware Inc.; conceived the printer-as-scanner concept
+* **Victor Bull.** Co-founder, Thunderware Inc.; hardware designer; previously worked with Hertzfeld on Apple Silentype printer
+* **Andy Hertzfeld.** Software developer; original Macintosh team member; wrote the Mac scanning software and received $7.50/unit royalty
+* **Thunderware Inc..** Orinda, California company; previously known for Thunderclock Apple II clock/calendar card
+
+### Media
+
+![ThunderScan cartridge installed in an Apple ImageWriter printer, replacing the ribbon cartridge with the optical sensor head](assets/wiki/thunderscan-cartridge.jpg)
+*The ThunderScan cartridge (white plastic unit with cable) replaces the ImageWriter's ribbon cartridge. The optical sensor rides on the printer's carriage. Photo from beefchicken.com reverse-engineering project.*
+
+![ThunderScan adapter box with mode switch and connected cables](assets/wiki/thunderscan-adapter.jpg)
+*The adapter box: a passive switching unit that routes serial signals between the Macintosh and the ImageWriter. The single switch toggles between print and scan modes.*
+
+![Internal view of ThunderScan cartridge PCB showing analog components](assets/wiki/thunderscan-pcb.jpg)
+*Inside the ThunderScan cartridge: no microcontroller, no ADC — just an optical sensor, an op-amp, and a voltage-to-frequency converter in a TO-100 metal can. A purely analog digitizer. Photo from beefchicken.com reverse-engineering project.*
+
+### Sources
+
+1. Folklore.org: Thunderscan — Andy Hertzfeld's first-person account of developing the software — https://www.folklore.org/Thunderscan.html
+2. Hackaday: ThunderScan — The Wild 1980s Product That Turned A Printer Into A Scanner — https://hackaday.com/2023/12/12/thunderscan-the-wild-1980s-product-that-turned-a-printer-into-a-scanner/
+3. Beefchicken Industries: Reverse Engineering the ThunderScan — Complete teardown with signal analysis — https://beefchicken.com/retro/thunderscan/
+4. Computer History Museum: ThunderScan for Apple II catalog entry (102673216) — https://www.computerhistory.org/collections/catalog/102673216
+
+---
+
+## VOTEM (VOltage TEMperature) (1982)
+
+**By:** Down East Computers (Ray Mills, Alger Salt)  
+**Tags:** `HCI` `Input` `Sensor` `Transduction` `Homebrew`
+
+### Overview
+
+The VOTEM was a hardware/software package for Timex/Sinclair ZX80, ZX81, and TS 1000/2068 computers that enabled measurement of real-world analog signals through the computer's cassette tape input. Its name combined VOltage and TEMperature — the two quantities it could measure directly. The core component was an Analog Devices AD537 voltage-to-frequency converter, which produced a square wave whose frequency was proportional to the input DC voltage. This square wave was fed into the computer's cassette port, where the computer 'heard' it as an audio signal and measured its frequency to determine the voltage. A DIP switch selected between three modes: internal temperature sensor (using a thermistor), external temperature probe (included), and external voltage input (via screw terminals). The package included a temperature probe and a 35-page manual. Priced at $59.95 in 1982, it sold a few hundred units, including international sales. One unit was purchased by a college engineering group and flew aboard a Space Shuttle mission to measure temperatures during a zero-gravity manufacturing experiment. Another was incorporated into a medical instrument system by Medi Products of Salt Lake City to monitor the reprocessing and resterilization of artificial kidneys. The VOTEM was developed by Ray Mills and Alger Salt of Down East Computers, with later software contributions from Fred Nachbaur (VDAQ1-HR data acquisition tool). The product is thoroughly documented on timexsinclair.com under a Creative Commons Attribution-ShareAlike 4.0 license.
+
+### Deep dive
+
+* **The Cassette Port as Universal Input.** The Timex/Sinclair 1000 (and ZX81) had remarkably few I/O options: a membrane keyboard, a TV RF modulator for video output, and a cassette tape port. The cassette port was the only practical way to get data into the machine, designed for loading programs saved as audio tones on standard cassette tapes. The VOTEM exploited this by treating the cassette port not as a digital data interface but as a frequency counter. The AD537 V-to-F converter produced a clean square wave whose frequency was linearly proportional to the input voltage. The computer's software measured the frequency — essentially counting zero-crossings or timing the period — and converted it back to a voltage or temperature reading. This was a zero-additional-hardware approach to analog-to-digital conversion: the only 'interface' was the cassette port that every computer already had.
+* **Physical Design and Interaction.** The VOTEM was a small PCB enclosed in a plastic case, approximately the size of a deck of cards, with a DIP switch accessible from the outside. The switch selected between: (1) internal temperature sensor, which used a thermistor on the PCB to measure ambient temperature; (2) external probe, connected via a jack to a separate temperature probe; and (3) voltage input, via screw terminals for connecting any DC voltage source. The output was a single audio cable with a standard 3.5mm mono plug, inserted into the computer's 'EAR' (cassette input) jack. A built-in tape signal conditioner circuit allowed loading standard program tapes at lower volume with less noise — making the VOTEM useful even when not actively measuring. The manual guided users through calibration, measurement techniques, and sample BASIC programs for data logging and display.
+* **The Space Shuttle Experiment.** One of the most remarkable VOTEM stories involves its use in space. A college engineering group at California State University, Northridge (CSUN) purchased a VOTEM and integrated it into an experiment that flew on a Space Shuttle mission. The experiment attempted to manufacture hollow microspheres in zero gravity. While the manufacturing process failed, the VOTEM successfully measured and recorded the temperature inside the Space Shuttle cargo bay throughout the mission — making it quite possibly the only Timex/Sinclair peripheral to have flown in space.
+* **The Kidney Reprocessing System.** Medi Products of Salt Lake City designed a complete medical instrument system around the Timex/Sinclair 1000 and VOTEM. The system monitored the chemical cleaning, rinsing, and resterilization of artificial kidneys for reuse. The VOTEM measured voltages from pH meters, conductivity sensors, and temperature probes throughout the reprocessing cycle. The Timex/Sinclair 1000 — a $99 home computer with 2KB of RAM — controlled the timing, valve sequencing, and data logging for life-critical medical equipment. This application demonstrates the surprising reach of simple, hackable interfaces: a $59.95 sensor board and a toy-like computer performing medical device validation.
+* **Software and Community.** The VOTEM shipped with BASIC software for data acquisition and display on the ZX81/TS 1000's 32×24 character monochrome display. Fred Nachbaur later wrote VDAQ1-HR ('VOTEM Data Acquisition – Hi Res'), an enhanced data acquisition tool supporting multi-screen acquisition, variable timebase and scaling, and frequency measurement without the VOTEM hardware. The Timex/Sinclair community preserved the VOTEM's documentation, software, and history on timexsinclair.com, where all materials are available under CC-BY-SA 4.0 licensing.
+
+### Team
+
+* **Ray Mills.** Co-developer, Down East Computers; designed the VOTEM hardware
+* **Alger Salt.** Co-developer, Down East Computers; collaborated on VOTEM design and documentation
+* **Fred Nachbaur.** Software developer; created VDAQ1-HR enhanced data acquisition tool for the VOTEM
+* **Down East Computers.** Small company that developed and sold the VOTEM; also produced other Timex/Sinclair peripherals
+
+### Media
+
+![VOTEM interface board showing the PCB with DIP switch, temperature probe connector, and voltage input terminals](assets/wiki/votem-main.jpg)
+*The VOTEM interface board. The DIP switch selects between internal temperature, external probe, and voltage input modes. Image from timexsinclair.com (CC BY-SA 4.0).*
+
+![Front view of the VOTEM unit in its case with labels and connectors visible](assets/wiki/votem-front.jpg)
+*Front view of the VOTEM in its enclosure, showing the external connectors and labeling. Image from timexsinclair.com (CC BY-SA 4.0).*
+
+![Back view of the VOTEM showing the PCB traces and components](assets/wiki/votem-back.jpg)
+*Rear view revealing the PCB layout and the Analog Devices AD537 voltage-to-frequency converter chip at the heart of the design. Image from timexsinclair.com (CC BY-SA 4.0).*
+
+### Sources
+
+1. Timex/Sinclair Computers: VOTEM product page — comprehensive history, images, and documentation — https://www.timexsinclair.com/product/votem/
+2. Timex/Sinclair: Timex at the Heart of the Kidney — medical application of VOTEM — https://www.timexsinclair.com/article/timex-at-the-heart-of-the-kidney/
+3. Timex/Sinclair: CSUN Project Finally Getting Slot on Shuttle — https://www.timexsinclair.com/article/csun-project-finally-getting-slot-on-shuttle/
+4. VOTEM User's Manual — 35-page original documentation (PDF) — https://www.timexsinclair.com/document/votem-users-manual/
+5. Analog Devices AD537 datasheet — the voltage-to-frequency converter at the heart of the design — https://www.analog.com/media/en/technical-documentation/data-sheets/AD537.pdf

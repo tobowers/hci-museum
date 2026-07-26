@@ -274,4 +274,28 @@ Promotion gotchas (2026-07-25):
 - Future unexplored angles to try: early home video game controllers with unusual physical principles (not already covered by Exciting Boxing, Stompin', Heavyweight Champ, U-Force, etc.), early network terminal hardware with unusual interfaces, early scanning/OCR hardware with distinctive physical interaction, and haptic/force-feedback devices beyond what's already in the collection.
 - Build count: 122 exhibits. Wiki ToC count: 119 (updated in this run).
 
-(End of file - total 272 lines)
+New additions (2026-07-26):
+- ThunderScan (1984): Promoted 2026-07-26. Thunderware Inc. (Tom Petrie, Victor Bull, Andy Hertzfeld). $200 optical sensor cartridge that replaced the ribbon in an Apple ImageWriter printer, temporarily turning the printer into a grayscale scanner. Purely analog hardware: HP HEDS-1500 optical sensor → op-amp → Analog Devices V-to-F converter → single wire to Mac serial port clock-in pin. No ADC, no microcontroller. All smarts in software by Andy Hertzfeld (Floyd-Steinberg dithering, inertial scrolling). 100,000 units sold. 3 images from beefchicken.com reverse-engineering project (cartridge in printer, adapter box, internal PCB). CHM catalog #102673216 + folklore.org (Hertzfeld's own account, CC-licensed). Distinct interaction model: output device repurposed as input; physical paper-feeding ritual inverted (feed printed paper in, get digital image on screen). The V-to-F → serial port clock hack is breathtakingly clever. No prior museum artifact involves printer hardware as input.
+- VOTEM / VOltage TEMperature (1982): Promoted 2026-07-26. Down East Computers (Ray Mills, Alger Salt). $59.95 sensor interface for Timex/Sinclair ZX80/ZX81/TS 1000. Analog Devices AD537 voltage-to-frequency converter encoded DC voltages as audible tones, piped into computer through cassette tape port. DIP switch selects internal temperature, external probe, or voltage input. Flew on Space Shuttle (CSUN zero-gravity experiment). Used in kidney reprocessing medical system. 3 CC-BY-SA 4.0 images from timexsinclair.com. Distinct interaction model: cassette port as general-purpose ADC — frequency counting as analog-to-digital conversion. Different mechanism from AtariLab (joystick port ADC) despite both being sensor interfaces for home computers.
+
+New deferred candidates (2026-07-26):
+- None built to info.json stage. Multiple subagent candidates noted but not pursued:
+  - TI Touch & Tell (1981): Picture overlay + touch membrane + speech. DataMath images not CC-licensed.
+  - GeoSafari (1987): Electronic quiz with printed cards. Wikipedia CC-BY-SA but interaction model too simple ("type a number").
+  - Databar OSCAR (1983): Barcode wand with template. CC BY-NC from Tangible Media Collection. Overlaps with Cauzin Softstrip.
+  - Mouse Systems PageBrush (1990): "Foggy mirror" wiping scanner metaphor. No CC images.
+  - Caere Typist (1990): "Scanning as typing" via keyboard buffer injection. No CC images.
+  - BTX Colani Terminal (1986): Sculptural organic kiosk by Luigi Colani. Museum images but interaction is basic videotex.
+  - WorldKey Kiosks (1982): EPCOT touch-screen laserdisc kiosks. Blog images only, no institutional holdings.
+
+Promotion gotchas (2026-07-26):
+- The `promote-potentials.ts` script confirmed again to NOT: (a) copy images, (b) update data.ts, (c) update wiki ToC. All three done manually this run. 6 images manually copied to assets/wiki/.
+- The script used only 2 of 3 images per candidate from info.json. Manually added 3rd images for both ThunderScan (PCB internals) and VOTEM (back view).
+- Build count: 124 exhibits. Wiki ToC count: 121 (both updated in this run).
+- New viable image sources: beefchicken.com (reverse-engineering blog, quality teardown photos — acceptable with attribution) and timexsinclair.com (CC-BY-SA 4.0 — confirmed reliable for Timex/Sinclair hardware). Both return HTTP 200 for direct image access unlike some prior sources.
+- New productive angle confirmed: printer peripherals as interactive devices. No prior artifact used printer hardware as input mechanism.
+- The candidate well at 124 exhibits is very thin. 8 parallel subagents returned ~40 candidates; only 2 were new, well-sourced, and image-accessible. Accept 1-2 additions per run as the norm.
+- Grok timed out on 2 attempts with complex queries. Keep Grok prompts short or skip when Exa is also unavailable.
+- Exa remains out of credits (confirmed again 2026-07-26).
+
+(End of file - total 277 lines)

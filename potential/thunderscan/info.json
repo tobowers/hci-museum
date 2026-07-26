@@ -1,0 +1,64 @@
+{
+  "slug": "thunderscan",
+  "title": "ThunderScan",
+  "year": "1984",
+  "subtitle": "The optical sensor cartridge that turned an Apple ImageWriter printer into a grayscale scanner — a purely analog device whose entire intelligence lived in software",
+  "why_scout_cares": "ThunderScan is one of the most profound repurposings in computer peripheral history: turning an OUTPUT device (a dot-matrix printer) into an INPUT device (a scanner). The user removes the printer ribbon, snaps an optical sensor cartridge into the print-head carriage, and feeds a photograph through the printer's paper path. The printer's own stepper motors — designed to position dots on paper with precision — now scan the image one line at a time. The hardware is gloriously, audaciously analog: an HP HEDS-1500 optical sensor feeds an Analog Devices voltage-to-frequency converter, whose square-wave output is wired directly to the Macintosh serial port's clock-in pin. The software simply measures how fast the pin toggles — faster for dark, slower for light. That's it. No ADC, no microcontroller, no framebuffer. The printer's 9-dot print head is replaced by a single sensor, making scanning nine times slower than printing — often an hour per page. 100,000 units sold at under $200, when flatbed scanners cost ten times as much. The software was written by Andy Hertzfeld, who implemented Floyd-Steinberg dithering for grayscale rendering and invented inertial scrolling to navigate the resulting large images. A product that embodies the original Macintosh philosophy: do everything in software, use the hardware you already have, and make it so clever you can't believe it works.",
+  "search_terms": ["ThunderScan scanner", "Thunderware printer scanner", "Andy Hertzfeld ThunderScan", "ImageWriter scanner cartridge", "voltage-to-frequency scanner"],
+  "research": {
+    "title": "ThunderScan",
+    "year": "1984",
+    "by": "Thunderware Inc. (Tom Petrie, Victor Bull, Andy Hertzfeld)",
+    "tags": ["HCI", "Input", "Scanning", "Macintosh", "Transduction"],
+    "overview": "ThunderScan was a $200 optical sensor cartridge that replaced the ribbon cartridge of an Apple ImageWriter dot-matrix printer, temporarily converting the printer into a high-resolution grayscale scanner. The user removed the ribbon, snapped the ThunderScan cartridge into the print-head carriage, and threaded a document through the printer's paper path. The printer's existing stepper motors — the same ones that positioned the print head for dot-matrix output — now scanned the document one horizontal line at a time. Since the printer could print nine dots simultaneously but the ThunderScan sensor captured only one pixel per pass, scanning was nine times slower than printing, often taking over an hour per page. The hardware was entirely analog: an HP HEDS-1500 reflective optical sensor amplified the reflected light, an Analog Devices voltage-to-frequency converter turned that into a square wave (2.6 kHz for black, 500 Hz for white), and the square wave was wired directly to the Macintosh serial port's handshake/clock-in pin. The software measured the rate at which the pin toggled to determine pixel brightness. There was no ADC, no microcontroller, no framebuffer — just a light sensor, an op-amp, and a V-to-F converter in an aluminum can. The software, written by original Macintosh team member Andy Hertzfeld, used Floyd-Steinberg error-diffusion dithering to render 32 levels of gray on the Mac's 1-bit display, and stored images in a 5-bit-per-pixel internal format before grayscale displays existed. ThunderScan sold approximately 100,000 units between 1984 and 1987, peaking at 7,500 units per month. Hertzfeld earned a $7.50 per-unit royalty. The product was eventually overtaken by falling flatbed scanner prices, but it remains one of the most ingenious hardware hacks in personal computing history.",
+    "deepDive": [
+      {
+        "heading": "Origins",
+        "text": "Thunderware Inc. was founded by Tom Petrie and Victor Bull in Orinda, California. Their first product was Thunderclock, an inexpensive calendar/clock card for the Apple II. Bull had previously worked at Apple with Andy Hertzfeld on the Silentype thermal printer project in 1979. In May 1984, during Hertzfeld's leave of absence from Apple, Bull called him with an idea: a device that could temporarily turn the popular ImageWriter printer into a scanner by replacing the ribbon cartridge with an optical sensor. Hertzfeld signed an NDA, saw the demo, and agreed to write the Macintosh software for a $7.50 per-unit royalty."
+      },
+      {
+        "heading": "How It Worked",
+        "text": "The physical interaction was counterintuitive: you removed the printer ribbon (the part that puts ink ON paper) and replaced it with a sensor (the part that reads ink OFF paper). You then fed your document — a photograph, a drawing, a page of text — through the printer's paper path exactly as if you were printing it. But instead of emerging with dots on it, the document emerged unchanged, and its image appeared on the Macintosh screen. The printer's stepper motors, designed to move the print head with sub-dot precision, became the positioning system for the scanner. To prevent paper bunching against the platen during single-line stepping, Thunderware devised a 'three steps forward, two steps back' paper-advance algorithm. A switch on the adapter box toggled between print mode and scan mode."
+      },
+      {
+        "heading": "The Analog Signal Path",
+        "text": "The ThunderScan cartridge contained no digital electronics. An HP HEDS-1500 reflective optical sensor illuminated the paper and measured reflected light through a photodiode. An op-amp amplified the signal. An Analog Devices voltage-to-frequency converter (in a rare TO-100 metal can package) converted the analog voltage to a square wave: approximately 2.6 kHz for black (low reflectance) and 500 Hz for white (high reflectance). This square wave was sent through a single wire to the Macintosh serial port's clock-in/handshake pin. The 8530 SCC (Serial Communications Controller) was configured in synchronous mode with a sync character of all zeros, and the software polled the 'Rx Character Available' flag. The rate at which characters became available was directly proportional to the square-wave frequency, and therefore to pixel brightness. The RS-422 data lines — the ones that normally carry serial data — were passed through untouched for the Mac to communicate with the printer. The scanner used only one pin for data, plus power and ground."
+      },
+      {
+        "heading": "Software Innovation",
+        "text": "Hertzfeld's Macintosh software was critical to ThunderScan's success. The Mac was nearly ten times faster than the Apple II, enabling better horizontal resolution through higher sampling rates. He implemented a modified Floyd-Steinberg error-diffusion dithering algorithm (learned from Bill Atkinson) to render 32 levels of gray on the Mac's 1-bit-per-pixel display. The software stored images internally at 5 bits per pixel — before the Macintosh supported grayscale displays — enabling non-destructive brightness and contrast adjustments. When the Macintosh II arrived with grayscale support, ThunderScan images could be displayed at full fidelity. Hertzfeld also invented 'inertial scrolling' for navigating large scanned images: you could push the image and it would continue scrolling after the mouse button was released, with adjustable speed. This feature predated similar inertial scrolling in modern touch interfaces by decades."
+      },
+      {
+        "heading": "Market Impact",
+        "text": "ThunderScan shipped in December 1984 at under $200, when flatbed scanners cost $2,000 or more. It was the least expensive and highest-quality scanning option for the Macintosh. Sales grew from 1,000 units per month to over 7,500 at their 1987 peak. Approximately 100,000 units were sold over the product's lifetime. The Computer History Museum holds a unit in its collection (catalog #102673216), gifted by Al Kossow. A later version supported the wide-carriage ImageWriter II for scanning larger documents, and optional bidirectional scanning nearly doubled speed at a small quality cost."
+      }
+    ],
+    "team": [
+      {"name": "Tom Petrie", "note": "Co-founder, Thunderware Inc.; conceived the printer-as-scanner concept"},
+      {"name": "Victor Bull", "note": "Co-founder, Thunderware Inc.; hardware designer; previously worked with Hertzfeld on Apple Silentype printer"},
+      {"name": "Andy Hertzfeld", "note": "Software developer; original Macintosh team member; wrote the Mac scanning software and received $7.50/unit royalty"},
+      {"name": "Thunderware Inc.", "note": "Orinda, California company; previously known for Thunderclock Apple II clock/calendar card"}
+    ],
+    "media": [
+      {"src": "https://beefchicken.com/retro/thunderscan/1.jpg", "alt": "ThunderScan cartridge installed in an Apple ImageWriter printer, replacing the ribbon cartridge with the optical sensor head", "caption": "The ThunderScan cartridge (white plastic unit with cable) replaces the ImageWriter's ribbon cartridge. The optical sensor rides on the printer's carriage. Photo from beefchicken.com reverse-engineering project."},
+      {"src": "https://beefchicken.com/retro/thunderscan/4.jpeg", "alt": "ThunderScan adapter box with mode switch and connected cables", "caption": "The adapter box: a passive switching unit that routes serial signals between the Macintosh and the ImageWriter. The single switch toggles between print and scan modes."},
+      {"src": "https://beefchicken.com/retro/thunderscan/7.jpeg", "alt": "Internal view of ThunderScan cartridge PCB showing analog components", "caption": "Inside the ThunderScan cartridge: no microcontroller, no ADC — just an optical sensor, an op-amp, and a voltage-to-frequency converter in a TO-100 metal can (center). A purely analog digitizer."}
+    ],
+    "sources": [
+      {"text": "Folklore.org: Thunderscan — Andy Hertzfeld's first-person account of developing the software", "url": "https://www.folklore.org/Thunderscan.html"},
+      {"text": "Hackaday: ThunderScan — The Wild 1980s Product That Turned A Printer Into A Scanner", "url": "https://hackaday.com/2023/12/12/thunderscan-the-wild-1980s-product-that-turned-a-printer-into-a-scanner/"},
+      {"text": "Beefchicken Industries: Reverse Engineering the ThunderScan — Complete teardown with signal analysis", "url": "https://beefchicken.com/retro/thunderscan/"},
+      {"text": "Computer History Museum: ThunderScan for Apple II catalog entry (102673216)", "url": "https://www.computerhistory.org/collections/catalog/102673216"}
+    ],
+    "imageUrls": [
+      "https://beefchicken.com/retro/thunderscan/1.jpg",
+      "https://beefchicken.com/retro/thunderscan/4.jpeg",
+      "https://beefchicken.com/retro/thunderscan/7.jpeg"
+    ]
+  },
+  "savedImages": [
+    "images/thunderscan-cartridge.jpg",
+    "images/thunderscan-adapter.jpg",
+    "images/thunderscan-pcb.jpg"
+  ]
+}

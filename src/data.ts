@@ -1503,6 +1503,30 @@ const exhibitData: Exhibit[] = [
     tags: ["Robotics", "Education", "Programming", "Physical Computing"],
     image: img("topo-robot.jpg"),
   },
+  {
+    id: "thunderscan",
+    slug: "thunderscan",
+    wikiTitle: "ThunderScan",
+    year: "1984",
+    sortYear: 1984,
+    title: "ThunderScan",
+    subtitle: "The optical sensor cartridge that turned an Apple ImageWriter printer into a grayscale scanner — a purely analog device whose entire intelligence lived in software",
+    blurb: "ThunderScan (1984) was a $200 cartridge that replaced the ribbon in an Apple ImageWriter printer, temporarily turning the printer into a grayscale scanner. Remove the ribbon, snap in an optical sensor, feed a photo through the paper path, and watch its image appear on your Mac — one agonizingly slow scan line at a time. The hardware was brazenly analog: an HP optical sensor fed a voltage-to-frequency converter wired to a single pin on the serial port. No ADC, no microcontroller. Andy Hertzfeld wrote the Mac software. 100,000 units sold before flatbed scanners caught up.",
+    tags: ["Scanning", "Macintosh", "Transduction", "Peripheral"],
+    image: img("thunderscan-cartridge.jpg"),
+  },
+  {
+    id: "votem",
+    slug: "votem",
+    wikiTitle: "VOTEM (VOltage TEMperature)",
+    year: "1982",
+    sortYear: 1982,
+    title: "VOTEM",
+    subtitle: "The $59.95 sensor interface that encoded DC voltages as audible tones and piped them into a computer through its cassette tape port — a Space Shuttle-certified hack",
+    blurb: "VOTEM (1982) was a $59.95 interface board that let Timex/Sinclair computers measure real-world voltages and temperatures — through the cassette port. It used an Analog Devices voltage-to-frequency converter to turn DC voltages into audible tones, which the computer 'heard' through its cassette input. A DIP switch selected between internal temperature, external probe, and voltage terminals. One flew on the Space Shuttle. Another helped reprocess artificial kidneys. The cassette port as general-purpose ADC, years before USB sensors.",
+    tags: ["Sensor", "Transduction", "Interface", "Homebrew"],
+    image: img("votem-main.jpg"),
+  },
 ];
 
 export const exhibits: Exhibit[] = exhibitData.toSorted((a, b) => b.sortYear - a.sortYear || a.title.localeCompare(b.title));

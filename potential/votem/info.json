@@ -1,0 +1,65 @@
+{
+  "slug": "votem",
+  "title": "VOTEM (VOltage TEMperature)",
+  "year": "1982",
+  "subtitle": "The $59.95 sensor interface that encoded DC voltages as audible tones and piped them into a computer through its cassette tape port — a Space Shuttle-certified hack for the Timex/Sinclair 1000",
+  "why_scout_cares": "The VOTEM is a stunning example of the 'no hardware interface? no problem' spirit of early home computing. The Timex/Sinclair 1000 (ZX81) had only one way to get data in: the cassette tape port, designed for loading programs from audio tape. Ray Mills and Alger Salt of Down East Computers realized that if they could encode a DC voltage as an audible frequency, the computer could 'hear' analog measurements through its cassette port. Their $59.95 VOTEM used an Analog Devices AD537 voltage-to-frequency converter chip to transform any DC voltage into a square wave, which was fed directly into the computer's cassette input. A DIP switch selected between an internal temperature sensor, an external probe, or a voltage input terminal. The computer's software simply measured the frequency of the incoming tone — and from that, calculated voltage or temperature. Any physical phenomenon that could be transduced to a DC voltage (pressure, light, pH, strain, magnetic field) could become computer data. One VOTEM flew on the Space Shuttle for a zero-gravity manufacturing experiment. Another was incorporated into a medical system for reprocessing artificial kidneys. This was the cassette port as general-purpose analog-to-digital converter — years before USB sensor interfaces, decades before the 'Internet of Things.' The VOTEM sold a few hundred units and is documented in loving detail on timexsinclair.com under a CC-BY-SA 4.0 license.",
+  "search_terms": ["VOTEM Timex Sinclair", "voltage temperature cassette port", "ZX81 analog input", "AD537 computer interface", "cassette port data acquisition"],
+  "research": {
+    "title": "VOTEM (VOltage TEMperature)",
+    "year": "1982",
+    "by": "Down East Computers (Ray Mills, Alger Salt)",
+    "tags": ["HCI", "Input", "Sensor", "Transduction", "Homebrew"],
+    "overview": "The VOTEM was a hardware/software package for Timex/Sinclair ZX80, ZX81, and TS 1000/2068 computers that enabled measurement of real-world analog signals through the computer's cassette tape input. Its name combined VOltage and TEMperature — the two quantities it could measure directly. The core component was an Analog Devices AD537 voltage-to-frequency converter, which produced a square wave whose frequency was proportional to the input DC voltage. This square wave was fed into the computer's cassette port, where the computer 'heard' it as an audio signal and measured its frequency to determine the voltage. A DIP switch selected between three modes: internal temperature sensor (using a thermistor), external temperature probe (included), and external voltage input (via screw terminals). The package included a temperature probe and a 35-page manual. Priced at $59.95 in 1982, it sold a few hundred units, including international sales. One unit was purchased by a college engineering group and flew aboard a Space Shuttle mission to measure temperatures during a zero-gravity manufacturing experiment. Another was incorporated into a medical instrument system by Medi Products of Salt Lake City to monitor the reprocessing and resterilization of artificial kidneys. The VOTEM was developed by Ray Mills and Alger Salt of Down East Computers, with later software contributions from Fred Nachbaur (VDAQ1-HR data acquisition tool). The product is thoroughly documented on timexsinclair.com under a Creative Commons Attribution-ShareAlike 4.0 license.",
+    "deepDive": [
+      {
+        "heading": "The Cassette Port as Universal Input",
+        "text": "The Timex/Sinclair 1000 (and ZX81) had remarkably few I/O options: a membrane keyboard, a TV RF modulator for video output, and a cassette tape port. The cassette port was the only practical way to get data into the machine, designed for loading programs saved as audio tones on standard cassette tapes. The VOTEM exploited this by treating the cassette port not as a digital data interface but as a frequency counter. The AD537 V-to-F converter produced a clean square wave whose frequency was linearly proportional to the input voltage. The computer's software measured the frequency — essentially counting zero-crossings or timing the period — and converted it back to a voltage or temperature reading. This was a zero-additional-hardware approach to analog-to-digital conversion: the only 'interface' was the cassette port that every computer already had."
+      },
+      {
+        "heading": "Physical Design and Interaction",
+        "text": "The VOTEM was a small PCB enclosed in a plastic case, approximately the size of a deck of cards, with a DIP switch accessible from the outside. The switch selected between: (1) internal temperature sensor, which used a thermistor on the PCB to measure ambient temperature; (2) external probe, connected via a jack to a separate temperature probe; and (3) voltage input, via screw terminals for connecting any DC voltage source. The output was a single audio cable with a standard 3.5mm mono plug, inserted into the computer's 'EAR' (cassette input) jack. A built-in tape signal conditioner circuit allowed loading standard program tapes at lower volume with less noise — making the VOTEM useful even when not actively measuring. The manual guided users through calibration, measurement techniques, and sample BASIC programs for data logging and display."
+      },
+      {
+        "heading": "The Space Shuttle Experiment",
+        "text": "One of the most remarkable VOTEM stories involves its use in space. A college engineering group at California State University, Northridge (CSUN) purchased a VOTEM and integrated it into an experiment that flew on a Space Shuttle mission. The experiment attempted to manufacture hollow microspheres in zero gravity. While the manufacturing process failed, the VOTEM successfully measured and recorded the temperature inside the Space Shuttle cargo bay throughout the mission — making it quite possibly the only Timex/Sinclair peripheral to have flown in space."
+      },
+      {
+        "heading": "The Kidney Reprocessing System",
+        "text": "Medi Products of Salt Lake City designed a complete medical instrument system around the Timex/Sinclair 1000 and VOTEM. The system monitored the chemical cleaning, rinsing, and resterilization of artificial kidneys for reuse. The VOTEM measured voltages from pH meters, conductivity sensors, and temperature probes throughout the reprocessing cycle. The Timex/Sinclair 1000 — a $99 home computer with 2KB of RAM — controlled the timing, valve sequencing, and data logging for life-critical medical equipment. This application demonstrates the surprising reach of simple, hackable interfaces: a $59.95 sensor board and a toy-like computer performing medical device validation."
+      },
+      {
+        "heading": "Software and Community",
+        "text": "The VOTEM shipped with BASIC software for data acquisition and display on the ZX81/TS 1000's 32×24 character monochrome display. Fred Nachbaur later wrote VDAQ1-HR ('VOTEM Data Acquisition – Hi Res'), an enhanced data acquisition tool supporting multi-screen acquisition, variable timebase and scaling, and frequency measurement without the VOTEM hardware. The Timex/Sinclair community preserved the VOTEM's documentation, software, and history on timexsinclair.com, where all materials are available under CC-BY-SA 4.0 licensing."
+      }
+    ],
+    "team": [
+      {"name": "Ray Mills", "note": "Co-developer, Down East Computers; designed the VOTEM hardware"},
+      {"name": "Alger Salt", "note": "Co-developer, Down East Computers; collaborated on VOTEM design and documentation"},
+      {"name": "Fred Nachbaur", "note": "Software developer; created VDAQ1-HR enhanced data acquisition tool for the VOTEM"},
+      {"name": "Down East Computers", "note": "Small company that developed and sold the VOTEM; also produced other Timex/Sinclair peripherals"}
+    ],
+    "media": [
+      {"src": "https://www.timexsinclair.com/wp-content/uploads/2020/12/votem.jpg", "alt": "VOTEM interface board showing the PCB with DIP switch, temperature probe connector, and voltage input terminals", "caption": "The VOTEM interface board. The DIP switch selects between internal temperature, external probe, and voltage input modes. Image from timexsinclair.com (CC BY-SA 4.0)."},
+      {"src": "https://www.timexsinclair.com/wp-content/uploads/2024/05/VOTEM-front.jpg", "alt": "Front view of the VOTEM unit in its case with labels and connectors visible", "caption": "Front view of the VOTEM in its enclosure, showing the external connectors and labeling. Image from timexsinclair.com (CC BY-SA 4.0)."},
+      {"src": "https://www.timexsinclair.com/wp-content/uploads/2024/05/VOTEM-back.jpg", "alt": "Back view of the VOTEM showing the PCB traces and components", "caption": "Rear view revealing the PCB layout and the Analog Devices AD537 voltage-to-frequency converter chip at the heart of the design. Image from timexsinclair.com (CC BY-SA 4.0)."}
+    ],
+    "sources": [
+      {"text": "Timex/Sinclair Computers: VOTEM product page — comprehensive history, images, and documentation", "url": "https://www.timexsinclair.com/product/votem/"},
+      {"text": "Timex/Sinclair: Timex at the Heart of the Kidney — medical application of VOTEM", "url": "https://www.timexsinclair.com/article/timex-at-the-heart-of-the-kidney/"},
+      {"text": "Timex/Sinclair: CSUN Project Finally Getting Slot on Shuttle", "url": "https://www.timexsinclair.com/article/csun-project-finally-getting-slot-on-shuttle/"},
+      {"text": "VOTEM User's Manual — 35-page original documentation (PDF)", "url": "https://www.timexsinclair.com/document/votem-users-manual/"},
+      {"text": "Analog Devices AD537 datasheet — the voltage-to-frequency converter at the heart of the design", "url": "https://www.analog.com/media/en/technical-documentation/data-sheets/AD537.pdf"}
+    ],
+    "imageUrls": [
+      "https://www.timexsinclair.com/wp-content/uploads/2020/12/votem.jpg",
+      "https://www.timexsinclair.com/wp-content/uploads/2024/05/VOTEM-front.jpg",
+      "https://www.timexsinclair.com/wp-content/uploads/2024/05/VOTEM-back.jpg"
+    ]
+  },
+  "savedImages": [
+    "images/votem-main.jpg",
+    "images/votem-front.jpg",
+    "images/votem-back.jpg"
+  ]
+}
