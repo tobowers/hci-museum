@@ -1,0 +1,52 @@
+{
+  "slug": "little-professor",
+  "title": "TI Little Professor",
+  "year": "1976",
+  "subtitle": "The backwards calculator — a machine that asks the questions",
+  "why_scout_cares": "The Little Professor is a calculator that refuses to calculate. You give most calculators a problem; they give you an answer. The Little Professor does the opposite: it generates unsolved equations and waits for you to supply the correct number. This inversion of the calculator paradigm — machine-asks, human-answers — is so simple it barely registers as HCI design, but that's precisely why it's brilliant. The calculator, the most relentlessly subservient of all computing devices, becomes an authority figure. It quizzes you on multiplication. It judges your answer. It says 'EEE' when you're wrong. After three wrong answers, it reveals the truth and moves on. After ten problems, it gives you a score. This is the first electronic educational toy ever made — June 13, 1976, from Texas Instruments — and it sold over a million units at under $20 within its first year. The interaction model is ancestor to every drill-and-practice educational app, every Duolingo lesson, every adaptive quiz engine. But the Little Professor did it without a microprocessor running educational software — it was just a calculator chip, repurposed. The machine had no model of the student; it just randomized problems and counted errors. The pedagogy was entirely in the interaction design, not the code. Multiple CC-licensed images on Wikimedia Commons, including the iconic 1976 version with its owl-eyed LED display.",
+  "search_terms": ["TI Little Professor", "Texas Instruments Little Professor", "backwards calculator", "electronic educational toy 1976"],
+  "research": {
+    "title": "TI Little Professor",
+    "year": "1976",
+    "by": "Texas Instruments",
+    "tags": ["HCI", "Education", "Calculator", "Handheld", "Toy"],
+    "overview": "The Little Professor is a handheld electronic educational toy introduced by Texas Instruments on June 13, 1976. Designed for children ages 5 to 9, it presents itself as a calculator but inverts the fundamental interaction: instead of solving problems entered by the user, it generates random unsolved equations and prompts the user for the answer. This 'backwards calculator' concept made it the first electronic educational toy ever produced.\n\nThe device features an LED display, a four-function operation selector (+, -, ×, ÷), and five difficulty levels. The user selects a difficulty and operation, and the Little Professor presents an incomplete equation such as '3 × 6 ='. The user has three attempts to enter the correct number; after three wrong answers, the display shows 'EEE' and reveals the correct answer. After each set of 10 problems, the device displays the number of correct first-attempt answers as a score.\n\nPriced at under $20, the Little Professor sold more than one million units in 1977 alone. It was a common sight in American households throughout the late 1970s and early 1980s. Multiple revisions followed, including a UK-designed second generation by Mark Bailey at Raffo and Pape, and a solar-powered version in the 2000s. The device remains a cultural touchstone — it is emulated in MESS, taught in Harvard's CS50 course, and collected by calculator enthusiasts worldwide.",
+    "deepDive": [
+      {
+        "heading": "Design Philosophy",
+        "text": "The Little Professor's genius is its radical simplicity. Inside the plastic housing is a standard TI calculator chip — the same technology that powered millions of pocket calculators. But the firmware was rewritten to invert the user-machine relationship. Instead of accepting input and producing output, it produces output and expects input. This shift is so fundamental that it transforms a mathematical tool into a pedagogical one. The design language reinforces the authority role: the device is shaped like a bespectacled professor with an owl-like face, with the LED display positioned where the mouth would be. It is a machine that literally talks at you in the visual language of a stern but friendly teacher."
+      },
+      {
+        "heading": "Interaction Mechanics",
+        "text": "The interaction is entirely button-driven and stateless in the modern sense. The user selects an operation (addition, subtraction, multiplication, or division) and a difficulty level (1 through 5, affecting the magnitude of operands). The device presents a problem. The user types digits and presses the equals key. If the answer matches, a brief affirmation and the next problem. If not, 'EEE' (error) and another try. After three failures, the correct answer is displayed. After ten problems, a score from 0 to 10 appears. There is no memory between sessions — no user model, no adaptation to performance, no long-term progress tracking. All of the 'intelligence' is in the interaction loop, not in the machine."
+      },
+      {
+        "heading": "Cultural Legacy",
+        "text": "The Little Professor established the template for computer-aided instruction: machine-generated problems, human responses, immediate feedback, scored performance. Every flashcard app, every adaptive learning platform, every gamified quiz traces a line back to this beige plastic owl. It was the first time a computer-like device entered a child's life not as a tool for the child to control, but as an authority figure that controlled the interaction. This was a preview of something that would become ubiquitous: the computer as tutor, as coach, as judge. TI followed the Little Professor with Dataman (1977) and the iconic Speak & Spell (1978), extending the educational computing paradigm into new modalities."
+      }
+    ],
+    "team": [
+      {"name": "Texas Instruments", "note": "Dallas-based semiconductor and calculator manufacturer"},
+      {"name": "Mark Bailey", "note": "Designer of the second-generation Little Professor at Raffo and Pape (UK)"}
+    ],
+    "media": [
+      {"src": "https://upload.wikimedia.org/wikipedia/commons/f/f8/Little_Professor.JPG", "alt": "Little Professor calculator with booklet", "caption": "The original 1976 Little Professor with accompanying instructional booklet. Wikimedia Commons (CC BY-SA 3.0)."},
+      {"src": "https://upload.wikimedia.org/wikipedia/commons/8/85/Vintage_Texas_Instruments_%22Little_Professor%22_Game_Calculator%2C_Made_in_USA%2C_Cost_Was_%2416.95%2C_Circa_1976_%288721122402%29.jpg", "alt": "Vintage Little Professor on $16.95 price tag", "caption": "A vintage 1976 Little Professor on its original $16.95 price display card. Wikimedia Commons (CC BY 2.0)."}
+    ],
+    "sources": [
+      {"text": "Wikipedia: Little Professor", "url": "https://en.wikipedia.org/wiki/Little_Professor"},
+      {"text": "Datamath: Little Professor technical details", "url": "http://www.datamath.org/Edu/Professor-76.htm"},
+      {"text": "IEEE Spectrum: What TI's Little Professor Can Teach Us (2022)", "url": "https://spectrum.ieee.org/texas-instruments-calculator"},
+      {"text": "Handheld Museum: Little Professor", "url": "http://www.handheldmuseum.com/TI/LittleProfessor.htm"},
+      {"text": "TI Corporate History: Little Professor introduction", "url": "http://www.ti.com/corp/docs/company/history/timeline/eps/1970/docs/76-little_professor.htm"},
+      {"text": "US Patent 4,225,932: Instructional Calculator (1980)", "url": "https://patents.google.com/patent/US4225932A/"}
+    ],
+    "imageUrls": [
+      "https://commons.wikimedia.org/wiki/Category:Little_Professor"
+    ]
+  },
+  "savedImages": [
+    "images/little-professor-booklet.jpg",
+    "images/little-professor-vintage.jpg"
+  ]
+}

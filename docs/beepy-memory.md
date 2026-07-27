@@ -275,3 +275,23 @@ Promotion gotchas (2026-07-25):
 - Build count: 122 exhibits. Wiki ToC count: 119 (updated in this run).
 
 (End of file - total 272 lines)
+
+New additions (2026-07-27):
+- Famicom Network System / Famicom Modem (1988): Promoted 2026-07-27. Nintendo/Nomura Securities/NTT dial-up modem peripheral for Famicom. Special controller with numeric keypad navigated stock trading, home banking, and horse-race betting services. 130,000 units shipped. At its peak captured 35% of Japan's online horse-betting market. 3 PD/CC0 images from Commons (Evan-Amos). Distinct interaction model: game console as financial information terminal — the collision of toy and telecommunications infrastructure. Fills network-appliance / online-service-terminal gap.
+- Videoface Digitizer (1986): Promoted 2026-07-27. Data-Skip/Romantic Robot real-time video frame capture peripheral for ZX Spectrum. Composite video input → grayscale 256×192 frames at ~4 fps with physical contrast knob. £69 at launch. 1 CC-BY-SA 4.0 image from Commons. Distinct from ScanMan (hand scanner), Dycam Fotoman (digital camera), and Action Max (VHS-as-game). Fills real-time video capture peripheral gap — bridge between analog broadcast and home computer pixel grid.
+- TI Little Professor (1976): Promoted 2026-07-27. Texas Instruments' first electronic educational toy. Inverted calculator paradigm: machine generates problems, human supplies answers. Under $20, sold 1M+ units in 1977. 2 CC images from Commons. Distinct interaction model: backwards calculator as pedagogical authority figure. Direct ancestor of all drill-and-practice educational software.
+
+New deferred candidates (2026-07-27):
+- Deccafax VP1 (1979): British Prestel viewdata terminal. Furniture-grade three-component workstation (CRT monitor + Cherry keyboard + numeric keypad). Used by UK House of Commons until 1994. CC BY-SA 4.0 image on Commons. Deferred: overlaps with Minitel (already in museum) as a second videotex terminal — the national contrast (French consumer vs. British institutional) is interesting but the category is already represented. Revisit if videotex section gets thematic refresh.
+- Penman Robotic Turtle Plotter (1985): Motorized turtle robot that physically crawls across paper to draw, connected via RS-232 to any computer. Distinct from all printers and plotters. Deferred: no CC images found. Computing History UK has photos but licensing unclear. Revisit if image sourcing resolves.
+- X10 CP290 Home Automation Interface (1985): First widely-available computer interface for home automation via power-line signaling. RS-232 to Apple II/C64/DOS. Pioneer of the smart home concept. Deferred: no dedicated CC image of the CP290 found on Commons (Wikipedia has generic X10 module images). Revisit if CP290-specific image surfaces.
+
+Promotion gotchas (2026-07-27):
+- All promotion was done manually. The promote-potentials.ts script was NOT run due to known bugs (doesn't copy images, doesn't update data.ts, doesn't update ToC). Manual edits to docs/hci-wiki.md (ToC + 3 wiki sections), src/data.ts (3 entries), and images (6 files copied to assets/wiki/) were required.
+- The Exhibit type requires id, wikiTitle, year, slug, sortYear, title, subtitle, blurb, tags, and image fields. Missing id, wikiTitle, or year causes TypeScript errors.
+- Commons image URL encoding can be tricky for files with special characters ($, comma, quotes). Use the Commons API to resolve the exact upload URL rather than guessing.
+- Build count: 125 exhibits. Wiki ToC count: 122 (properly updated this run).
+- Productive angle confirmed: telephony/network HCI (Famicom Network System) was previously unexplored. Video capture peripherals (Videoface) was also unexplored.
+- 7 parallel subagents covering fresh angles returned 3 viable candidates with CC images — solid yield. Music HCI and haptics angles are confirmed exhausted.
+
+(End of file - total 320 lines)

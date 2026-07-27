@@ -1,6 +1,6 @@
 # The HCI Golden Age Wiki
 
-A research compendium for a digital museum of cutting-edge Human-Computer Interaction from the late 1970s through the early 1990s. These one hundred and twenty-two projects mix canonical experiments with weird, forgotten, and beautiful vaporware — brain control, voice control, gesture, wearable computing, VR, robots, and full-body exertion.
+A research compendium for a digital museum of cutting-edge Human-Computer Interaction from the late 1970s through the early 1990s. These one hundred and twenty-five projects mix canonical experiments with weird, forgotten, and beautiful vaporware — brain control, voice control, gesture, wearable computing, VR, robots, and full-body exertion.
 
 Each entry includes an overview, a deep dive, a small media gallery, and full source links so the images and facts can always be traced back.
 
@@ -126,6 +126,9 @@ Each entry includes an overview, a deep dive, a small media gallery, and full so
 117. [Novation CAT (1977)](#novation-cat-1977)
 118. [Cracklebox / Kraakdoos (1978)](#cracklebox--kraakdoos-1978)
 119. [Topo (1983)](#topo-1983)
+120. [Famicom Network System / Famicom Modem (1988)](#famicom-network-system--famicom-modem-1988)
+121. [Videoface Digitizer (1986)](#videoface-digitizer-1986)
+122. [TI Little Professor (1976)](#ti-little-professor-1976)
 
 ---
 
@@ -6278,3 +6281,134 @@ Topo II (1984) added text-to-speech capability. Topo III (1984) removed the deta
 3. InfoWorld: Robot-maker Androbot pulls stock offering (Nov 1983) — https://books.google.com/books?id=wS8EAAAAMBAJ&dq=topo+robot+1983&pg=PA103
 4. Inc. Magazine: Will The Robot Be Father To The Industry? (March 1983) — http://www.inc.com/magazine/19830301/6181.html
 5. The Old Robots Web Site: Androbot Topo and BOB — http://www.theoldrobots.com/bob3.html
+
+---
+## Famicom Network System / Famicom Modem (1988)
+**By:** Nintendo (Masayuki Uemura, Nintendo R&D2) with Nomura Securities and NTT  
+**Tags:** `Network` `Console` `Modem` `Telephony` `Online Service`
+
+### Overview
+
+The Famicom Network System, also known as the Famicom Modem, was a dial-up modem peripheral for Nintendo's Family Computer (Famicom) released in September 1988 exclusively in Japan. The modem clipped onto the bottom of the console and connected to NTT's DDX-TP packet-switched network. Users navigated information services using a special controller with an integrated numeric keypad — entering numeric codes to access stock quotes from Nomura Securities, home banking, weather forecasts, game reviews, and online horse-race betting.
+
+The system was the brainchild of Nintendo president Hiroshi Yamauchi, who envisioned the Famicom — already present in one third of Japanese households — becoming an information appliance as essential as the telephone. Famicom designer Masayuki Uemura led hardware development at Nintendo R&D2, with Nomura Securities building the client/server software and NTT providing the network backbone. Approximately 130,000 modems were shipped over its three-year lifespan (1988–1991).
+
+At its peak, the system captured 35% of Japan's online horse-betting market, with 100,000 units used for wagering, plus 15,000-20,000 users for stock trading and 14,000 for home banking. The service was discontinued in 1991 except for the Super Mario Club kiosk review database. The experience directly led to Nintendo's later satellite-based Satellaview network for the Super Famicom.
+
+### Deep dive
+
+* **Origins.** In 1987, Nintendo president Hiroshi Yamauchi foresaw the impending Information Age and wanted to transform Nintendo beyond a toy company into a communications company. The Famicom was in one third of Japanese households. Yamauchi believed it could become an appliance of the future, as pervasive as the telephone. He requested a partnership with Nomura Securities to create an information network service.
+* **Hardware.** The modem attaches to the bottom of the Famicom. A special controller with an orange numeric keypad replaces the standard game pad. Software lives on ROM cards (resembling HuCards) rather than standard Famicom cartridges. The modem connected to NTT's DDX-TP packet-switched network over standard phone lines.
+* **Interaction model.** Users navigate tree-structured information services by entering numeric codes — similar to the Minitel's 3615 system but through a game console. Stock quotes, banking transactions, and horse-race bets all happen through the same interface that might have been running Super Mario Bros. an hour earlier.
+* **Services offered.** Stock trading (Nomura Securities, Daiwa, Nikko), home banking, horse-race betting (JRA PAT system), weather forecasts, game reviews (Super Mario Club), online stamp purchases from the postal service, and a Bridgestone Tire employee fitness program. Five unreleased network-enabled game prototypes were developed.
+* **Commercial fate.** Despite Yamauchi's intense personal commitment — multimillion-dollar advertising, personal meetings with financial industry representatives — the system struggled. NTT's DDX-TP network had reliability problems. The total home networking market was tiny. 130,000 units sold over three years. Its most popular application was horse-race betting. All services shut down by 1991 except Super Mario Club.
+* **Legacy.** Nintendo of America announced plans with AT&T for a US service in 1989 that never materialized. An NES modem was tested with the Minnesota State Lottery but cancelled over concerns about underage gambling. The Famicom Modem experience directly led to the Super Famicom's Satellaview satellite data broadcasting network (1995).
+
+### Team
+
+* **Hiroshi Yamauchi** — Nintendo president who conceived the communications-company vision and personally drove the project.
+* **Masayuki Uemura** — Lead designer of the modem hardware at Nintendo Research & Development 2.
+* **Nomura Securities** — Developed client/server software and the financial information database.
+* **NTT (Nippon Telegraph and Telephone)** — Provided DDX-TP packet-switched network infrastructure.
+
+### Media
+
+![Famicom with Network System modem attached](../assets/wiki/famicom-modem-attached.jpg)
+*Famicom console with the Network System modem clipped onto the bottom. Source: Wikimedia Commons (CC0).*
+
+![Famicom Network System controller with numeric keypad](../assets/wiki/famicom-modem-controller.jpg)
+*The special controller included with the modem, featuring a distinctive orange numeric keypad for navigating information services. Source: Wikimedia Commons (CC0).*
+
+![JRA PAT horse betting software ROM card](../assets/wiki/famicom-modem-horse-betting.jpg)
+*The JRA PAT horse-race betting ROM card — the system's most popular application, capturing 35% of Japan's online horse-betting market. Source: Wikimedia Commons (CC0).*
+
+### Sources
+
+1. Wikipedia: Family Computer Network System — https://en.wikipedia.org/wiki/Family_Computer_Network_System
+2. How the Famicom Modem Was Born (Nikkei Electronics, 1995) — http://www.glitterberri.com/developing-the-famicom-modem/
+3. Game Over by David Sheff (1994), pp. 75–78 — https://archive.org/details/0966961706
+4. NYT: How Nintendo Can Help A.T.&T. (June 8, 1989) — https://www.nytimes.com/1989/06/08/business/talking-deals-how-nintendo-can-help-at-t.html
+5. Famicom World: Famicom Network System — http://famicomworld.com/system/Famicom_Network_System/
+6. Famicom Network System Technical Information (NesDev) — https://www.nesdev.org/wiki/Famicom_Network_System
+
+---
+## Videoface Digitizer (1986)
+**By:** Data-Skip (Netherlands), later Romantic Robot UK Ltd  
+**Tags:** `Video` `Input` `Peripheral` `ZX Spectrum` `Digitizer`
+
+### Overview
+
+The Videoface Digitizer is a video frame capture peripheral for the Sinclair ZX Spectrum home computer, first produced by Data-Skip of the Netherlands in 1986 and later manufactured by Romantic Robot UK Ltd from 1987. The device connects to the Spectrum's expansion port and accepts any standard composite video signal — from a video camera, VCR, laserdisc player, or live television broadcast — and captures grayscale frames at 256×192 pixels with 4-bit (16-level) intensity at just under four frames per second.
+
+A single contrast knob on top of the unit adjusts the digitized image brightness in real time. Captured frames could be saved to disk or tape as still images or assembled into crude animations. Originally sold for £69, the price dropped to £30 within a few years.
+
+The Videoface occupies a unique position among museum peripherals: it is neither a scanner (Logitech ScanMan captures static documents), nor a digital camera (Dycam/Logitech Fotoman captures the world through a lens), nor a video game interface (Worlds of Wonder Action Max uses VHS as game content). It is a real-time video capture peripheral — the bridge between the analog broadcast world and a home computer's digital pixel grid.
+
+### Deep dive
+
+* **Origins.** Developed during the mid-1980s boom in ZX Spectrum peripherals. Data-Skip, a Dutch company, first released the device in 1986. Production later transferred to Romantic Robot UK Ltd, known for the Multiface snapshot/backup peripheral.
+* **Interaction model.** The capture loop: (1) connect a composite video source; (2) load the capture software from cassette; (3) observe the live digitizing feed at ~4 fps; (4) turn the physical contrast knob to adjust brightness; (5) use keyboard controls to shift the capture window; (6) freeze and save the frame. Captured images could be loaded into art programs for pixel editing. Animations could be assembled from sequences of frames.
+* **Hardware.** Edge connector interface for ZX Spectrum. Composite video input jack. Physical contrast knob. Produces 256×192 pixel images at 16 gray levels. Frame rate just under 4 fps.
+* **Reviews.** Reviewed in Crash magazine (February 1987) and Your Sinclair (May 1988, July 1992). Reviewers praised its capability for the price but noted the Spectrum's display resolution limitations.
+* **Historical context.** Arrived at a moment when video digitizers were transitioning from expensive broadcast equipment to consumer peripherals. The Amiga had built-in genlock (1985), but the 48KB ZX Spectrum had to rely on external hardware. Competing products included the DS-69 Digisector for TRS-80 Color Computer.
+
+### Team
+
+* **Data-Skip** — Original Dutch manufacturer, 1986 release.
+* **Romantic Robot UK Ltd** — UK manufacturer from 1987, also known for the Multiface peripheral.
+
+### Media
+
+![Videoface digitizer unit](../assets/wiki/videoface.jpg)
+*The Videoface digitizer, showing the composite video input (left) and contrast knob (top). Source: Wikimedia Commons (CC-BY-SA 4.0).*
+
+### Sources
+
+1. Wikipedia: Videoface — https://en.wikipedia.org/wiki/Videoface
+2. Crash Magazine review (February 1987) — https://archive.org/details/crash-magazine-37/page/n86/mode/1up
+3. Your Sinclair review (May 1988) — https://archive.org/details/Your_Sinclair_029/page/99/mode/1up
+4. Your Sinclair price update (July 1992) — https://archive.org/details/Your_Sinclair_079/page/n41/mode/1up
+5. Spectrum Computing entry — https://spectrumcomputing.co.uk/entry/1000444/Hardware/Videoface
+6. kio's home: technical information — https://k1.spdns.de/Vintage/Sinclair/82/Peripherals/Videoface%20(Romantic%20Robot)/info.txt
+
+---
+## TI Little Professor (1976)
+**By:** Texas Instruments  
+**Tags:** `Education` `Calculator` `Handheld` `Math` `Toy`
+
+### Overview
+
+The Little Professor is a handheld electronic educational toy introduced by Texas Instruments on June 13, 1976. Designed for children ages 5 to 9, it presents itself as a calculator but inverts the fundamental interaction: instead of solving problems entered by the user, it generates random unsolved equations and prompts the user for the answer. This "backwards calculator" concept made it the first electronic educational toy ever produced.
+
+The device features an LED display, a four-function operation selector (+, -, ×, ÷), and five difficulty levels. The user selects a difficulty and operation, and the Little Professor presents an incomplete equation such as "3 × 6 =". The user has three attempts per problem; after three wrong answers, the display shows "EEE" and reveals the correct answer. After each set of 10 problems, the device displays the number of correct first-attempt answers.
+
+Priced at under $20, the Little Professor sold more than one million units in 1977 alone. It remained a common sight in American households through the early 1980s. Multiple revisions followed, including a UK-designed second generation and a solar-powered version in the 2000s. The device is emulated in MESS, taught in Harvard's CS50 course, and collected by calculator enthusiasts worldwide.
+
+### Deep dive
+
+* **Design philosophy.** Inside the plastic housing is a standard TI calculator chip — the same technology that powered millions of pocket calculators. But the firmware was rewritten to invert the user-machine relationship. Instead of accepting input and producing output, it produces output and expects input. The design language reinforces the authority role: the device is shaped like a bespectacled professor with an owl-like face.
+* **Interaction mechanics.** Entirely button-driven and stateless. Select an operation and difficulty level. The device presents a problem. Type digits and press equals. Correct: brief affirmation, next problem. Wrong: "EEE" and another try. After three failures, the correct answer is displayed. After ten problems, a score from 0 to 10. No memory between sessions, no user model, no long-term tracking. All "intelligence" is in the interaction loop, not in the machine.
+* **Cultural legacy.** The Little Professor established the template for computer-aided instruction: machine-generated problems, human responses, immediate feedback, scored performance. Every flashcard app, adaptive learning platform, and gamified quiz traces a line back to this beige plastic owl. It was the first time a computer-like device entered a child's life as an authority figure rather than a tool.
+* **Variants and successors.** TI followed with Dataman (1977) and the iconic Speak & Spell (1978), extending the educational computing paradigm into new modalities. The second generation was designed by Mark Bailey at Raffo and Pape (UK). A solar version appeared in the 2000s. An Android emulator was published in 2012; MESS added support in 2015; Harvard CS50 adopted it as a programming assignment in 2022.
+
+### Team
+
+* **Texas Instruments** — Dallas-based semiconductor and calculator manufacturer. The Little Professor was part of TI's push into educational electronics alongside Dataman and Speak & Spell.
+* **Mark Bailey** — Designer of the second-generation Little Professor at Raffo and Pape (UK), now a professor at Northumbria University.
+
+### Media
+
+![Little Professor with booklet](../assets/wiki/little-professor-booklet.jpg)
+*The original 1976 Little Professor with accompanying instructional booklet. The owl-faced design gives the "professor" a friendly but authoritative presence. Source: Wikimedia Commons (CC BY-SA 3.0).*
+
+![Vintage Little Professor on price display](../assets/wiki/little-professor-vintage.jpg)
+*A vintage 1976 Little Professor on its original $16.95 display card. Over one million units sold in 1977 at under $20 each. Source: Wikimedia Commons (CC BY 2.0).*
+
+### Sources
+
+1. Wikipedia: Little Professor — https://en.wikipedia.org/wiki/Little_Professor
+2. Datamath: Little Professor technical details — http://www.datamath.org/Edu/Professor-76.htm
+3. IEEE Spectrum: What TI's Little Professor Can Teach Us (2022) — https://spectrum.ieee.org/texas-instruments-calculator
+4. Handheld Museum: Little Professor — http://www.handheldmuseum.com/TI/LittleProfessor.htm
+5. TI Corporate History: Little Professor introduction — http://www.ti.com/corp/docs/company/history/timeline/eps/1970/docs/76-little_professor.htm
+6. US Patent 4,225,932: Instructional Calculator (filed 1978, issued 1980) — https://patents.google.com/patent/US4225932A/
