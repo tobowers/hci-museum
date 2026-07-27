@@ -1,6 +1,6 @@
 # The HCI Golden Age Wiki
 
-A research compendium for a digital museum of cutting-edge Human-Computer Interaction from the late 1970s through the early 1990s. These one hundred and twenty-two projects mix canonical experiments with weird, forgotten, and beautiful vaporware — brain control, voice control, gesture, wearable computing, VR, robots, and full-body exertion.
+A research compendium for a digital museum of cutting-edge Human-Computer Interaction from the late 1970s through the early 1990s. These one hundred and twenty-four projects mix canonical experiments with weird, forgotten, and beautiful vaporware — brain control, voice control, gesture, wearable computing, VR, robots, and full-body exertion.
 
 Each entry includes an overview, a deep dive, a small media gallery, and full source links so the images and facts can always be traced back.
 
@@ -126,6 +126,8 @@ Each entry includes an overview, a deep dive, a small media gallery, and full so
 117. [Novation CAT (1977)](#novation-cat-1977)
 118. [Cracklebox / Kraakdoos (1978)](#cracklebox--kraakdoos-1978)
 119. [Topo (1983)](#topo-1983)
+120. [Etch A Sketch Animator (1986)](#etch-a-sketch-animator-1986)
+121. [Linus Write-Top (1988)](#linus-write-top-1988)
 
 ---
 
@@ -6278,3 +6280,80 @@ Topo II (1984) added text-to-speech capability. Topo III (1984) removed the deta
 3. InfoWorld: Robot-maker Androbot pulls stock offering (Nov 1983) — https://books.google.com/books?id=wS8EAAAAMBAJ&dq=topo+robot+1983&pg=PA103
 4. Inc. Magazine: Will The Robot Be Father To The Industry? (March 1983) — http://www.inc.com/magazine/19830301/6181.html
 5. The Old Robots Web Site: Androbot Topo and BOB — http://www.theoldrobots.com/bob3.html
+
+---
+
+## Etch A Sketch Animator (1986)
+
+**By:** Ohio Art Company, Bryan, Ohio  
+**Tags:** `HCI` `Input` `Animation` `Creative Tool` `Toy` `Handheld` `Drawing`
+
+### Overview
+
+The Etch A Sketch Animator, released by the Ohio Art Company in 1986, was a handheld digital animation computer that repurposed the classic Etch A Sketch's dual-knob interface for a new medium. Where the original 1960 toy used aluminum powder and a mechanical stylus to draw lines, the Animator used two blue knobs to control a blinking cursor on a 40×30 dot-matrix LCD screen. Eight red buttons managed animation functions: Draw, Animate, Save, Recall, Erase, Next, Reverse, and On/Move. The device contained 2 KB of memory, capable of storing 12 frames in any combination up to 96 frames total. A built-in speaker provided audio feedback during drawing and animation playback.
+
+The Animator was priced at $89.99 (about $260 in 2025 dollars). It included sample animations — The Walking Robot, The Nosy Spider, The Breakdancing Skeleton — that demonstrated the frame-by-frame animation concept to children who had no prior exposure to computer animation. The 1987 follow-up, the Etch A Sketch Animator 2000, upgraded to a 60×40 LCD, 196 KB of memory, a touchpad instead of knobs, a cartridge slot, and four game cartridges (including a flight simulator and racing game). However, the original 1986 Animator is the purer HCI artifact: the dual-knob drawing interface, inherited from a purely mechanical toy, was adapted as a digital creative interface — a genuinely unusual moment of continuity between analog and digital interaction paradigms.
+
+### Deep dive
+
+* **A Bridge Between Worlds.** The original Etch A Sketch (1960) is a purely mechanical toy: two knobs move a stylus that scrapes aluminum powder off the back of a glass screen. There is no computation, no memory, no program. The Etch A Sketch Animator (1986) preserved the two-knob form factor but replaced everything behind the interface with a microcontroller, RAM, an LCD, and a speaker. A child who had used a mechanical Etch A Sketch could pick up the Animator and immediately understand the knobs — the motor skills transferred. But now their drawings could be saved, recalled, played back as animation sequences, and accompanied by sound. This is a fascinating example of preserving a learned physical interaction while replacing the medium entirely — from aluminum powder to pixels, from static drawings to frame-by-frame animation. The continuity of the interface made the digital transition invisible.
+* **Portable Animation Before It Existed.** In 1986, desktop animation software for personal computers was essentially nonexistent for consumers. The Amiga's Deluxe Paint (1985) offered animation features, but an Amiga cost over $1,000 plus a monitor. The Etch A Sketch Animator provided frame-by-frame animation for $90 and ran on four AA batteries. You could carry it anywhere. The constraints were severe — 40×30 resolution, 12 frames visible at once, 96 frames total — but those constraints made the creative possibilities legible to children. The included sample projects (Walking Robot, Nosy Spider, Breakdancing Skeleton) taught the concept of sequenced frames through imitation rather than instruction. This was a computer animation workstation that didn't call itself one.
+* **The Animator 2000 and the Arc Toward Games.** The 1987 Animator 2000 abandoned the knobs for 'The Magic Touchpad' and adopted a laptop-like form factor with a 60×40 LCD, 196 KB of memory, and a cartridge slot. Four cartridges were released: Fly By (flight simulator), Overdrive (racing), Putt-Nuts (miniature golf), and Memory (expansion). The price rose to $139.99. This evolution from creative tool toward handheld gaming console is itself an interesting HCI story: the same basic platform, when given more memory and a larger screen, shifted from 'make your own animations' to 'play our games.' The original Animator's constraint — just enough memory for a few frames of your own creation — turned out to be the more creatively generative interaction design.
+
+### Team
+
+* **Ohio Art Company.** Toy manufacturer based in Bryan, Ohio; makers of the original Etch A Sketch since 1960
+
+### Media
+
+![Etch A Sketch Animator — light gray handheld unit with two blue knobs and eight red buttons](assets/wiki/etch-a-sketch-animator.jpg)
+*The Etch A Sketch Animator (1986). The two blue knobs control a cursor on the 40×30 LCD; eight red buttons manage animation functions. Photo by Tim Morgan, PD-self. Source: Wikimedia Commons.*
+
+### Sources
+
+1. Wikipedia: Etch A Sketch (Animator section) — https://en.wikipedia.org/wiki/Etch_A_Sketch#Etch_A_Sketch_Animator
+2. Toy Tales: 'The Etch A Sketch Animator from Ohio Art (1986)' (Coopee) — https://toytales.ca/the-etch-a-sketch-animator-from-ohio-art-1986/
+3. ETL Blaze: Etch A Sketch Animator — https://the80sand90s.com/articles/etch-a-sketch-animator
+4. Handheld Museum: Etch-A-Sketch Animator — https://handheldmuseum.org/device/ohio-art-co-etch-sketch/
+5. Wikimedia Commons: Etch A Sketch Animator category — https://commons.wikimedia.org/wiki/Category:Etch_A_Sketch_Animator
+
+---
+
+## Linus Write-Top (1988)
+
+**By:** Linus Technologies, Inc. (Ralph Sklarew, Robert Nadeau, Arthur Rodbell), Reston, Virginia  
+**Tags:** `HCI` `Input` `Pen Computing` `Handwriting Recognition` `Tablet` `Portable`
+
+### Overview
+
+The Linus Write-Top, released in July 1988, was the first tablet computer sold to the public with integrated pen input and handwriting recognition. Developed by Linus Technologies of Reston, Virginia, the Write-Top had no physical keyboard — users wrote directly on its 9.4-inch monochrome LCD with any stylus, and a terminate-and-stay-resident program called Your-Write converted their handwriting into ASCII text in real time. It required a 30-minute training session to learn the user's letterforms. The device ran MS-DOS 3.30 on an NEC V20 (8088-compatible) processor at 7.16 MHz, with 640 KB RAM and a 3.5-inch floppy drive. At $2,795 (upwards of $7,000 in 2025 dollars), it was targeted at professionals. Only about 1,500 units were sold before the company went bankrupt in February 1990.
+
+Linus Technologies was founded in 1985 by Ralph Sklarew (a former NASA environmental monitoring systems developer), Robert Nadeau (a George Mason University English professor who had been prototyping an electronic book reader), and Arthur Rodbell (who provided seed capital and marketing expertise). The company raised $11 million in venture funding. Despite warm press reception — *Manager's Magazine* called it 'the most exciting new technology for sales and management professionals since the invention of the laptop' — the high price, limited pen-capable software, and the sheer unfamiliarity of the keyboardless paradigm doomed it. After Linus folded, its patents were sold to Grid Systems, who released the more successful GRiDPad 1900 later in 1989.
+
+### Deep dive
+
+* **The Keyboardless Paradigm.** The Write-Top was radical not just for its technology but for its philosophy: it had no built-in keyboard. This was not a laptop with a pen option — it was a computer that refused the dominant input paradigm of its era. Users wrote directly on the screen. The Your-Write software occupied 40 KB of RAM and ran as a TSR, capturing handwriting input in a field at the bottom of the screen and injecting ASCII into whatever application was running above. It recognized up to 75 characters — uppercase, lowercase, numbers, and symbols — plus specialized gesture commands for delete, copy, paste, and block selection. Letterforms could not overlap (no cursive), which made the recognition task substantially easier than modern approaches.
+* **Hardware as Philosophy.** The Write-Top was built as a two-piece system: the display/tablet unit and the system unit, which could latch together into a single block. It measured 11 × 11 × 3.5 inches and weighed about 9 pounds. The screen used a resistive sensing technology — a voltage applied to screen edges was detected by the stylus at the contact point, yielding higher resolution and repeatability than early capacitive or IR approaches. The LCD was transflective with an electroluminescent backlight, unusual for 1988. The system could accept a standard PC keyboard (for 'word processing or other uses'), but the design clearly intended the stylus as the primary interaction mode.
+* **Too Early, Too Expensive.** By January 1989, Linus had sold 1,000 units and secured at least one significant third-party developer: Baxter International's Electronic Medical Systems subsidiary built Your-Write compatible charting software for hospitals. But at nearly $3,000, the Write-Top competed with full desktop systems. Founder Ralph Sklarew's post-mortem assessment — 'We were a little too early with not enough staying power' — acknowledges the classic pioneer's dilemma. The company spent its marketing energy explaining what pen computing even was, rather than selling specific workflows. When Linus folded in 1990 after selling approximately 1,500 units, the patents went to Grid Systems, whose GRiDPad would find a more receptive market just months later.
+
+### Team
+
+* **Ralph Sklarew.** Co-founder, lead developer; former NASA environmental monitoring systems developer
+* **Robert Nadeau.** Co-founder, concept originator; George Mason University English professor who prototyped an electronic book reader
+* **Arthur Rodbell.** Co-founder, seed capital and marketing
+* **Richard Mier.** President and CEO (from 1986); former VP of marketing at Atari Corporation
+* **Peter H. Muller.** Industrial designer, Inter4m; responsible for final physical design
+
+### Media
+
+![Linus Write-Top tablet computer in use, showing a hand writing on the screen with a stylus](assets/wiki/linus-write-top.jpg)
+*The Linus Write-Top in use. Image from Linus Technologies 1988 brochure (published without copyright notice, PD). Source: Wikimedia Commons.*
+
+### Sources
+
+1. Wikipedia: Linus Write-Top — https://en.wikipedia.org/wiki/Linus_Write-Top
+2. OldComputers.net: Linus Write-Top — https://oldcomputers.net/linus.html
+3. D&B Reports (Jan 1989): 'Handwriting goes high tech' (Hamilton) — https://www.proquest.com/docview/229571217
+4. PC Magazine (Jun 1988): 'Write on Portable's LCD Screen, Your Handwriting Becomes ASCII' — https://books.google.com/books?id=-9qzy8Z8SKEC&pg=PA52
+5. Design Issues (Autumn 2008): 'A Bitter Pill to Swallow: The Rise and Fall of the Tablet Computer' (Atkinson) — https://doi.org/10.1162/desi.2008.24.4.3
+6. USA Today (Feb 1990): 'New PCs can kiss keyboards goodbye' (Rebello) — https://www.proquest.com/docview/306303477

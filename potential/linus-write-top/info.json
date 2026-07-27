@@ -1,0 +1,58 @@
+{
+  "slug": "linus-write-top",
+  "title": "Linus Write-Top",
+  "year": "1988",
+  "subtitle": "The first keyboardless tablet computer — you wrote on the screen and it learned your handwriting",
+  "why_scout_cares": "The first tablet computer released to the public with pen input and handwriting recognition. No keyboard at all — you wrote directly on the screen with any stylus, even a mechanical pencil, and the Your-Write TSR interpreted your handwriting into ASCII text in real time. It predates the GRiDPad by a year and the Apple Newton by five. Only ~1,500 units were sold before Linus Technologies folded in 1990. The company spent most of its short life 'educating corporate buyers on the pen computing paradigm' — a phrase that captures both the ambition and the tragedy of being too early.",
+  "search_terms": ["Linus Write-Top", "first tablet computer", "handwriting recognition 1988", "pen computing history", "Linus Technologies"],
+  "research": {
+    "title": "Linus Write-Top",
+    "year": "1988",
+    "by": "Linus Technologies, Inc. (Ralph Sklarew, Robert Nadeau, Arthur Rodbell), Reston, Virginia",
+    "tags": ["HCI", "Input", "Pen Computing", "Handwriting Recognition", "Tablet", "Portable"],
+    "overview": "The Linus Write-Top, released in July 1988, was the first tablet computer sold to the public with integrated pen input and handwriting recognition. Developed by Linus Technologies of Reston, Virginia, the Write-Top had no physical keyboard — users wrote directly on its 9.4-inch monochrome LCD with any stylus, and a terminate-and-stay-resident program called Your-Write converted their handwriting into ASCII text in real time. It required a 30-minute training session to learn the user's letterforms. The device ran MS-DOS 3.30 on an NEC V20 (8088-compatible) processor at 7.16 MHz, with 640 KB RAM and a 3.5-inch floppy drive. At $2,795 (upwards of $7,000 in 2025 dollars), it was targeted at professionals. Only about 1,500 units were sold before the company went bankrupt in February 1990.\n\nLinus Technologies was founded in 1985 by Ralph Sklarew (a former NASA environmental monitoring systems developer), Robert Nadeau (a George Mason University English professor who had been prototyping an electronic book reader), and Arthur Rodbell (who provided seed capital and marketing expertise). The company raised $11 million in venture funding. Despite warm press reception — *Manager's Magazine* called it 'the most exciting new technology for sales and management professionals since the invention of the laptop' — the high price, limited pen-capable software, and the sheer unfamiliarity of the keyboardless paradigm doomed it. After Linus folded, its patents were sold to Grid Systems, who released the more successful GRiDPad 1900 later in 1989.",
+    "deepDive": [
+      {
+        "heading": "The Keyboardless Paradigm",
+        "text": "The Write-Top was radical not just for its technology but for its philosophy: it had no built-in keyboard. This was not a laptop with a pen option — it was a computer that refused the dominant input paradigm of its era. Users wrote directly on the screen. The Your-Write software occupied 40 KB of RAM and ran as a TSR, capturing handwriting input in a field at the bottom of the screen and injecting ASCII into whatever application was running above. It recognized up to 75 characters — uppercase, lowercase, numbers, and symbols — plus specialized gesture commands for delete, copy, paste, and block selection. Letterforms could not overlap (no cursive), which made the recognition task substantially easier than modern approaches."
+      },
+      {
+        "heading": "Hardware as Philosophy",
+        "text": "The Write-Top was built as a two-piece system: the display/tablet unit and the system unit, which could latch together into a single block. It measured 11 × 11 × 3.5 inches and weighed about 9 pounds. The screen used a resistive sensing technology — a voltage applied to screen edges was detected by the stylus at the contact point, yielding higher resolution and repeatability than early capacitive or IR approaches. The LCD was transflective with an electroluminescent backlight, unusual for 1988. The system could accept a standard PC keyboard (for 'word processing or other uses'), but the design clearly intended the stylus as the primary interaction mode."
+      },
+      {
+        "heading": "Too Early, Too Expensive",
+        "text": "By January 1989, Linus had sold 1,000 units and secured at least one significant third-party developer: Baxter International's Electronic Medical Systems subsidiary built Your-Write compatible charting software for hospitals. But at nearly $3,000, the Write-Top competed with full desktop systems. Founder Ralph Sklarew's post-mortem assessment — 'We were a little too early with not enough staying power' — acknowledges the classic pioneer's dilemma. The company spent its marketing energy explaining what pen computing even was, rather than selling specific workflows. When Linus folded in 1990 after selling approximately 1,500 units, the patents went to Grid Systems, whose GRiDPad would find a more receptive market just months later."
+      }
+    ],
+    "team": [
+      {"name": "Ralph Sklarew", "note": "Co-founder, lead developer; former NASA environmental monitoring systems developer"},
+      {"name": "Robert Nadeau", "note": "Co-founder, concept originator; George Mason University English professor who prototyped an electronic book reader"},
+      {"name": "Arthur Rodbell", "note": "Co-founder, seed capital and marketing"},
+      {"name": "Richard Mier", "note": "President and CEO (from 1986); former VP of marketing at Atari Corporation"},
+      {"name": "Peter H. Muller", "note": "Industrial designer, Inter4m; responsible for final physical design"}
+    ],
+    "media": [
+      {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/0/00/Linus_Write-Top.jpg",
+        "alt": "Linus Write-Top tablet computer in use, showing a hand writing on the screen with a stylus",
+        "caption": "The Linus Write-Top in use. Image from Linus Technologies 1988 brochure (published without copyright notice, PD). Source: Wikimedia Commons."
+      }
+    ],
+    "sources": [
+      {"text": "Wikipedia: Linus Write-Top", "url": "https://en.wikipedia.org/wiki/Linus_Write-Top"},
+      {"text": "OldComputers.net: Linus Write-Top", "url": "https://oldcomputers.net/linus.html"},
+      {"text": "D&B Reports (Jan 1989): 'Handwriting goes high tech' (Hamilton)", "url": "https://www.proquest.com/docview/229571217"},
+      {"text": "PC Magazine (Jun 1988): 'Write on Portable's LCD Screen, Your Handwriting Becomes ASCII'", "url": "https://books.google.com/books?id=-9qzy8Z8SKEC&pg=PA52"},
+      {"text": "Design Issues (Autumn 2008): 'A Bitter Pill to Swallow: The Rise and Fall of the Tablet Computer' (Atkinson)", "url": "https://doi.org/10.1162/desi.2008.24.4.3"},
+      {"text": "USA Today (Feb 1990): 'New PCs can kiss keyboards goodbye' (Rebello)", "url": "https://www.proquest.com/docview/306303477"}
+    ],
+    "imageUrls": [
+      "https://upload.wikimedia.org/wikipedia/commons/0/00/Linus_Write-Top.jpg",
+      "https://oldcomputers.net/pics/linus-open.jpg",
+      "https://oldcomputers.net/pics/linus-closed.jpg",
+      "https://oldcomputers.net/pics/linus-upright.jpg"
+    ]
+  },
+  "savedImages": []
+}

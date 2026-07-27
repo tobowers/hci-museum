@@ -1,0 +1,51 @@
+{
+  "slug": "etch-a-sketch-animator",
+  "title": "Etch A Sketch Animator",
+  "year": "1986",
+  "subtitle": "A portable digital animation workstation disguised as a toy — two knobs, a dot-matrix screen, and 96 frames of memory",
+  "why_scout_cares": "The Etch A Sketch Animator took the classic dual-knob mechanical drawing interface and transplanted it into a genuine digital computer. In 1986, this was a handheld device with 2 KB of memory, a 40×30 dot-matrix LCD, a speaker for audio feedback during drawing and playback, and the ability to store and animate up to 96 frames. The interaction model is priceless: two knobs control a blinking cursor to draw individual frames; eight red buttons (Animate, Save, Recall, Draw, Erase, etc.) handle the animation controls; and the whole thing runs on four AA batteries. Ohio Art later released the Animator 2000 (1987) with a larger screen, cartridge slot, and actual gameplay cartridges — but the 1986 original is the one that matters: a child's toy that was secretly a computer-animation workstation, years before desktop animation software became accessible.",
+  "search_terms": ["Etch A Sketch Animator", "1986 animation toy", "Ohio Art digital toy", "handheld animation device", "early digital drawing"],
+  "research": {
+    "title": "Etch A Sketch Animator",
+    "year": "1986",
+    "by": "Ohio Art Company, Bryan, Ohio",
+    "tags": ["HCI", "Input", "Animation", "Creative Tool", "Toy", "Handheld", "Drawing"],
+    "overview": "The Etch A Sketch Animator, released by the Ohio Art Company in 1986, was a handheld digital animation computer that repurposed the classic Etch A Sketch's dual-knob interface for a new medium. Where the original 1960 toy used aluminum powder and a mechanical stylus to draw lines, the Animator used two blue knobs to control a blinking cursor on a 40×30 dot-matrix LCD screen. Eight red buttons managed animation functions: Draw, Animate, Save, Recall, Erase, Next, Reverse, and On/Move. The device contained 2 KB of memory, capable of storing 12 frames in any combination up to 96 frames total. A built-in speaker provided audio feedback during drawing and animation playback.\n\nThe Animator was priced at $89.99 (about $260 in 2025 dollars). It included sample animations — The Walking Robot, The Nosy Spider, The Breakdancing Skeleton — that demonstrated the frame-by-frame animation concept to children who had no prior exposure to computer animation. The 1987 follow-up, the Etch A Sketch Animator 2000, upgraded to a 60×40 LCD, 196 KB of memory, a touchpad instead of knobs, a cartridge slot, and four game cartridges (including a flight simulator and racing game). However, the original 1986 Animator is the purer HCI artifact: the dual-knob drawing interface, inherited from a purely mechanical toy, was adapted as a digital creative interface — a genuinely unusual moment of continuity between analog and digital interaction paradigms.",
+    "deepDive": [
+      {
+        "heading": "A Bridge Between Worlds",
+        "text": "The original Etch A Sketch (1960) is a purely mechanical toy: two knobs move a stylus that scrapes aluminum powder off the back of a glass screen. There is no computation, no memory, no program. The Etch A Sketch Animator (1986) preserved the two-knob form factor but replaced everything behind the interface with a microcontroller, RAM, an LCD, and a speaker. A child who had used a mechanical Etch A Sketch could pick up the Animator and immediately understand the knobs — the motor skills transferred. But now their drawings could be saved, recalled, played back as animation sequences, and accompanied by sound. This is a fascinating example of preserving a learned physical interaction while replacing the medium entirely — from aluminum powder to pixels, from static drawings to frame-by-frame animation. The continuity of the interface made the digital transition invisible."
+      },
+      {
+        "heading": "Portable Animation Before It Existed",
+        "text": "In 1986, desktop animation software for personal computers was essentially nonexistent for consumers. The Amiga's Deluxe Paint (1985) offered animation features, but an Amiga cost over $1,000 plus a monitor. The Etch A Sketch Animator provided frame-by-frame animation for $90 and ran on four AA batteries. You could carry it anywhere. The constraints were severe — 40×30 resolution, 12 frames visible at once, 96 frames total — but those constraints made the creative possibilities legible to children. The included sample projects (Walking Robot, Nosy Spider, Breakdancing Skeleton) taught the concept of sequenced frames through imitation rather than instruction. This was a computer animation workstation that didn't call itself one."
+      },
+      {
+        "heading": "The Animator 2000 and the Arc Toward Games",
+        "text": "The 1987 Animator 2000 abandoned the knobs for 'The Magic Touchpad' and adopted a laptop-like form factor with a 60×40 LCD, 196 KB of memory, and a cartridge slot. Four cartridges were released: Fly By (flight simulator), Overdrive (racing), Putt-Nuts (miniature golf), and Memory (expansion). The price rose to $139.99. This evolution from creative tool toward handheld gaming console is itself an interesting HCI story: the same basic platform, when given more memory and a larger screen, shifted from 'make your own animations' to 'play our games.' The original Animator's constraint — just enough memory for a few frames of your own creation — turned out to be the more creatively generative interaction design."
+      }
+    ],
+    "team": [
+      {"name": "Ohio Art Company", "note": "Toy manufacturer based in Bryan, Ohio; makers of the original Etch A Sketch since 1960"}
+    ],
+    "media": [
+      {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/a/a2/Etch-A-Sketch_Animator.jpg",
+        "alt": "Etch A Sketch Animator — light gray handheld unit with two blue knobs and eight red buttons",
+        "caption": "The Etch A Sketch Animator (1986). The two blue knobs control a cursor on the 40×30 LCD; eight red buttons manage animation functions. Photo by Tim Morgan, PD-self. Source: Wikimedia Commons."
+      }
+    ],
+    "sources": [
+      {"text": "Wikipedia: Etch A Sketch (Animator section)", "url": "https://en.wikipedia.org/wiki/Etch_A_Sketch#Etch_A_Sketch_Animator"},
+      {"text": "Toy Tales: 'The Etch A Sketch Animator from Ohio Art (1986)' (Coopee)", "url": "https://toytales.ca/the-etch-a-sketch-animator-from-ohio-art-1986/"},
+      {"text": "ETL Blaze: Etch A Sketch Animator", "url": "https://the80sand90s.com/articles/etch-a-sketch-animator"},
+      {"text": "Handheld Museum: Etch-A-Sketch Animator", "url": "https://handheldmuseum.org/device/ohio-art-co-etch-sketch/"},
+      {"text": "Wikimedia Commons: Etch A Sketch Animator category", "url": "https://commons.wikimedia.org/wiki/Category:Etch_A_Sketch_Animator"}
+    ],
+    "imageUrls": [
+      "https://upload.wikimedia.org/wikipedia/commons/a/a2/Etch-A-Sketch_Animator.jpg",
+      "https://upload.wikimedia.org/wikipedia/commons/b/bf/Etch_A_Sketch_Animator_2000.JPG"
+    ]
+  },
+  "savedImages": []
+}

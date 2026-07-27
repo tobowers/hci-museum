@@ -274,4 +274,22 @@ Promotion gotchas (2026-07-25):
 - Future unexplored angles to try: early home video game controllers with unusual physical principles (not already covered by Exciting Boxing, Stompin', Heavyweight Champ, U-Force, etc.), early network terminal hardware with unusual interfaces, early scanning/OCR hardware with distinctive physical interaction, and haptic/force-feedback devices beyond what's already in the collection.
 - Build count: 122 exhibits. Wiki ToC count: 119 (updated in this run).
 
+New additions (2026-07-27):
+- Etch A Sketch Animator (1986): Promoted 2026-07-27. Ohio Art Company's handheld digital animation computer disguised as a toy. Two classic Etch A Sketch knobs control a blinking cursor on a 40×30 dot-matrix LCD; eight red buttons manage frame-by-frame animation (Draw, Animate, Save, Recall, Erase, etc.). 2 KB memory, 96 frames, 4 AA batteries, $89.99. 1 PD image from Wikimedia Commons (Tim Morgan). Fills creative-tool-as-toy gap — a portable animation workstation years before desktop animation was accessible, with the fascinating HCI detail of preserving a purely mechanical interface (knobs) while replacing the medium entirely (aluminum powder → pixels).
+- Linus Write-Top (1988): Promoted 2026-07-27. First tablet computer released to the public with pen input and handwriting recognition. NO physical keyboard — write directly on the 9.4-inch transflective LCD with any stylus (even a mechanical pencil). Your-Write TSR converts handwriting to ASCII in real time (30-minute training session). MS-DOS 3.30, NEC V20 @ 7.16 MHz, 640 KB RAM. ~1,500 units at $2,795. Linus Technologies (Ralph Sklarew, Robert Nadeau, Arthur Rodbell) folded by 1990. 1 PD image from Wikimedia Commons (1988 brochure, no copyright notice). Predates GRiDPad by a year. Fills keyboardless-computing gap — distinct from GRiDPad 100 (which had a keyboard). The museum now tells a cleaner pen computing story: Pencept PenPad (1982) → Linus Write-Top (1988) → GRiDPad 100 (1989).
+
+New deferred candidates (2026-07-27):
+- ThunderScan (1984): Thunderware Inc. printer-to-scanner conversion — optical sensor head replaces ImageWriter ribbon cartridge, printer's own stepper motors perform the scan, analog signal fed into serial port handshake pin. STRONG interaction model, deeply clever hardware hack. No Wikimedia Commons images. CHM has photos. Info.json not built. Revisit if image licensing resolves.
+- AtariTel Luma Phone / Mitsubishi VisiTel (1987): Consumer still-image videophone. CC-BY 2.0 image on Commons confirmed (Category:Videophones in the 1980s, only 1 image). Deferred: interaction model (freeze frame, transmit B&W still over POTS) is more telecom service than HCI paradigm. Info.json not built.
+
+Promotion gotchas (2026-07-27):
+- Confirmed again: promote-potentials.ts does NOT (a) copy images, (b) update src/data.ts, (c) update wiki ToC. All three done manually.
+- Confirmed again: stale info.json files in potential/ WILL be auto-promoted. Archived 3 stale files from prior run (novation-cat, cracklebox, topo) before running script.
+- Subagents are unreliable on Wikimedia Commons image availability — TWO subagents claimed IXO Telecomputing had a Commons image; verified 0 results. Always verify with Commons API before building info.json.
+- Exa remains out of credits (confirmed since 7/22). All research done via subagent web search + direct fetches.
+- Image availability remains the dominant bottleneck: only 3 of ~40 candidates across 8 subagent angles had confirmed Commons images. The well is not structurally dry in candidate quality, but 90%+ of candidates are image-blocked.
+- New productive angle: "portable computing oddities" (Lineage Write-Top, etc.) returned strong results where "handheld computing" had been exhausted.
+- New productive angle: "interactive creative toys" returned distinct results where "edutainment" had been exhausted.
+- Build count: 124 exhibits. Wiki ToC count: 121 (both updated in this run).
+
 (End of file - total 272 lines)

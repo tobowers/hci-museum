@@ -1503,6 +1503,30 @@ const exhibitData: Exhibit[] = [
     tags: ["Robotics", "Education", "Programming", "Physical Computing"],
     image: img("topo-robot.jpg"),
   },
+  {
+    id: "etch-a-sketch-animator",
+    slug: "etch-a-sketch-animator",
+    wikiTitle: "Etch A Sketch Animator",
+    year: "1986",
+    sortYear: 1986,
+    title: "Etch A Sketch Animator",
+    subtitle: "A portable digital animation workstation disguised as a toy",
+    blurb: "The Etch A Sketch Animator (1986) merged a classic dual-knob mechanical drawing interface with a genuine digital computer. Two blue knobs controlled a blinking cursor on a 40×30 dot-matrix LCD; eight red buttons handled animation functions. With 2 KB of memory and room for 96 frames, the Ohio Art Company created a handheld frame-by-frame animation workstation that ran on four AA batteries — years before desktop animation software was accessible to consumers.",
+    tags: ["HCI", "Input", "Animation", "Creative Tool", "Toy", "Handheld", "Drawing"],
+    image: img("etch-a-sketch-animator.jpg"),
+  },
+  {
+    id: "linus-write-top",
+    slug: "linus-write-top",
+    wikiTitle: "Linus Write-Top",
+    year: "1988",
+    sortYear: 1988,
+    title: "Linus Write-Top",
+    subtitle: "The first keyboardless tablet computer — you wrote on the screen and it learned your handwriting",
+    blurb: "The Linus Write-Top (1988) was the first tablet computer released to the public with pen input and handwriting recognition — and it had no keyboard at all. Users wrote directly on the 9.4-inch transflective LCD with any stylus; the Your-Write TSR converted handwriting into ASCII in real time after a 30-minute training session. It ran MS-DOS 3.30 on an NEC V20 processor. Only ~1,500 units were sold at $2,795 before Linus Technologies went bankrupt in 1990. Predated the GRiDPad by a year and the Apple Newton by five.",
+    tags: ["HCI", "Input", "Pen Computing", "Handwriting Recognition", "Tablet", "Portable"],
+    image: img("linus-write-top.jpg"),
+  },
 ];
 
 export const exhibits: Exhibit[] = exhibitData.toSorted((a, b) => b.sortYear - a.sortYear || a.title.localeCompare(b.title));
