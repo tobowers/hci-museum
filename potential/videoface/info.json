@@ -1,0 +1,50 @@
+{
+  "slug": "videoface",
+  "title": "Videoface Digitizer",
+  "year": "1986",
+  "subtitle": "Real-time video frame capture for the ZX Spectrum, at £69",
+  "why_scout_cares": "The Videoface is a small black box with a composite video input, a contrast knob, and a ZX Spectrum edge connector. Plug in any video source — a camera, a VCR, a laserdisc player — and it digitizes a grayscale 256×192 image at nearly four frames per second. In 1986, this was the cheapest route from the physical world into a home computer's pixel grid. Unlike a scanner (Logitech ScanMan, 1987, already in the museum) or a digital camera (Dycam Fotoman, 1990), the Videoface captured live motion from standard-definition video — it turned the ZX Spectrum into a poor man's video capture workstation. The digitized frames could be saved as stills or assembled into crude animations, then loaded into any drawing program for pixel-by-pixel editing. The contrast knob is the only physical control: twist it and watch the digitized image brighten or darken in real time on the Spectrum's display. Nothing else in the museum captures live video frames as a direct-to-computer peripheral. A single CC-licensed image on Wikimedia Commons shows the device in its stark, no-frills black box.",
+  "search_terms": ["Videoface ZX Spectrum", "Videoface digitizer", "Romantic Robot Videoface", "Data-Skip Videoface", "video digitizer 1986"],
+  "research": {
+    "title": "Videoface Digitizer",
+    "year": "1986",
+    "by": "Data-Skip (Netherlands), later Romantic Robot UK Ltd",
+    "tags": ["HCI", "Input", "Video", "Peripheral", "ZX Spectrum"],
+    "overview": "The Videoface Digitizer is a video frame capture peripheral for the Sinclair ZX Spectrum home computer, first produced by Data-Skip of the Netherlands in 1986 and later manufactured by Romantic Robot UK Ltd from 1987. The device connects to the Spectrum's expansion port and accepts any standard composite video signal — from a video camera, VCR, laserdisc player, or live television broadcast — and captures grayscale frames at 256×192 pixels with 4-bit (16-level) intensity at just under four frames per second.\n\nA single contrast knob on top of the unit adjusts the digitized image brightness in real time. Captured frames could be saved to disk or tape as still images or assembled into crude animations with variable playback speed. The software allowed horizontal and vertical shifting of the capture window. Originally sold for £69, the price dropped to £30 within a few years as the technology matured.\n\nThe Videoface occupies a unique position in the museum's collection: it is neither a scanner (the Logitech ScanMan captures static documents one pass at a time), nor a digital camera (the Dycam/Logitech Fotoman captures the world through a lens), nor a video game interface (the Worlds of Wonder Action Max uses VHS video as game content). It is a real-time video capture peripheral — the bridge between the analog broadcast world and the digital pixel grid of a home computer. The interaction model is starkly physical: plug in a composite cable, load the software, twist the contrast knob while watching live digitized frames, hit save when the image looks right.",
+    "deepDive": [
+      {
+        "heading": "Origins",
+        "text": "The Videoface was developed during the mid-1980s boom in ZX Spectrum peripherals, when the low-cost British home computer had spawned an ecosystem of third-party hardware. Data-Skip, a Dutch company, first released the device in 1986. Production later transferred to Romantic Robot UK Ltd, a London-based company known for the Multiface snapshot/backup peripheral. The Videoface was reviewed in Crash magazine (February 1987) and Your Sinclair (May 1988, July 1992), where reviewers praised its surprising capability for the price point but noted the limitations of the Spectrum's display resolution."
+      },
+      {
+        "heading": "Interaction Model",
+        "text": "The interaction loop: (1) connect a composite video source to the Videoface's input jack; (2) load the capture software from cassette; (3) observe the live digitizing feed on the Spectrum's display at ~4 fps; (4) turn the physical contrast knob to adjust brightness; (5) use keyboard controls to shift the capture window horizontally or vertically; (6) press a key to freeze and save the frame. The captured image — 256×192 pixels in 16 shades of gray — could then be loaded into art programs like The Artist or OCP Art Studio for pixel editing. Animations could be assembled from sequences of captured frames."
+      },
+      {
+        "heading": "Historical Context",
+        "text": "The Videoface arrived at a moment when video digitizers were transitioning from expensive broadcast equipment (like the Quantel Paintbox, already in the museum) to consumer-grade peripherals. The Amiga's built-in genlock capability (1985) made video capture a standard feature on that platform, but the ZX Spectrum — a machine with just 48KB of RAM and no dedicated video hardware — had to rely on peripherals like the Videoface. Competing products included the DS-69 Digisector for the TRS-80 Color Computer and the ComputerEyes for various platforms. The Videoface stands out for its low price point and the sheer improbability of real-time video digitization on such constrained hardware."
+      }
+    ],
+    "team": [
+      {"name": "Data-Skip", "note": "Original Dutch manufacturer, 1986"},
+      {"name": "Romantic Robot UK Ltd", "note": "UK manufacturer from 1987, also known for Multiface peripheral"}
+    ],
+    "media": [
+      {"src": "https://upload.wikimedia.org/wikipedia/commons/5/5e/Videoface.jpg", "alt": "Videoface digitizer unit", "caption": "The Videoface digitizer, showing the composite video input and contrast knob. Wikimedia Commons (CC-BY-SA 4.0)."}
+    ],
+    "sources": [
+      {"text": "Wikipedia: Videoface", "url": "https://en.wikipedia.org/wiki/Videoface"},
+      {"text": "Crash Magazine review (February 1987)", "url": "https://archive.org/details/crash-magazine-37/page/n86/mode/1up"},
+      {"text": "Your Sinclair review (May 1988)", "url": "https://archive.org/details/Your_Sinclair_029/page/99/mode/1up"},
+      {"text": "Your Sinclair price update (July 1992)", "url": "https://archive.org/details/Your_Sinclair_079/page/n41/mode/1up"},
+      {"text": "Spectrum Computing entry", "url": "https://spectrumcomputing.co.uk/entry/1000444/Hardware/Videoface"},
+      {"text": "kio's home: technical info", "url": "https://k1.spdns.de/Vintage/Sinclair/82/Peripherals/Videoface%20(Romantic%20Robot)/info.txt"}
+    ],
+    "imageUrls": [
+      "https://commons.wikimedia.org/wiki/File:Videoface.jpg"
+    ]
+  },
+  "savedImages": [
+    "images/videoface.jpg"
+  ]
+}

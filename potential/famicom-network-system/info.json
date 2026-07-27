@@ -1,0 +1,56 @@
+{
+  "slug": "famicom-network-system",
+  "title": "Famicom Network System (Famicom Modem)",
+  "year": "1988",
+  "subtitle": "Japan's iconic game console becomes a stock trading and horse-betting terminal",
+  "why_scout_cares": "The Famicom Network System is the improbable collision of two worlds: the most popular toy in Japan and the serious infrastructure of NTT's packet-switched data network. This dial-up modem clipped onto the bottom of the Famicom and, instead of playing Mario, let users check stock prices, transfer money between bank accounts, and bet on horse races — all from a game controller with an attached numeric keypad. The modem shipped 130,000 units and at its peak captured 35% of Japan's online horse-betting market. The interaction model is a strange hybrid: boot the console to play Super Mario Bros., or boot it to pay your broker. Nintendo president Hiroshi Yamauchi genuinely believed the Famicom would become an information appliance as pervasive as the telephone. This is the moment a toy company tried to become a communications company — and the fascinating friction between those identities lives in every pixel of that orange numeric-keypad controller. 9+ public-domain images available on Wikimedia Commons.",
+  "search_terms": ["Famicom Network System", "Famicom Modem", "Nintendo online service 1988", "Family Computer Network System"],
+  "research": {
+    "title": "Famicom Network System (Famicom Modem)",
+    "year": "1988",
+    "by": "Nintendo (Masayuki Uemura, Nintendo R&D2) with Nomura Securities and NTT",
+    "tags": ["HCI", "Network", "Console", "Telephony", "Modem"],
+    "overview": "The Family Computer Network System, also known as the Famicom Modem, was a dial-up modem peripheral for Nintendo's Family Computer (Famicom) released in September 1988 exclusively in Japan. The modem clipped onto the bottom of the console and connected to NTT's DDX-TP packet-switched network. Users navigated information services using a special controller with an integrated numeric keypad — entering numeric codes to access stock quotes from Nomura Securities, home banking, weather forecasts, game reviews via the Super Mario Club, and online horse-race betting through the JRA PAT system.\n\nThe system was the brainchild of Nintendo president Hiroshi Yamauchi, who envisioned the Famicom — already present in one third of Japanese households — becoming an information appliance as essential as the telephone. Developed by Famicom designer Masayuki Uemura at Nintendo R&D2, with Nomura Securities building the client/server software and NTT providing the network backbone. Approximately 130,000 modems were shipped over its three-year lifespan (1988–1991).\n\nAt its peak, the system captured 35% of Japan's online horse-betting market with 100,000 units used for wagering, plus 15,000-20,000 users for stock trading and 14,000 for home banking. The service was discontinued in 1991 except for the Super Mario Club kiosk review database. The experience directly led to Nintendo's later satellite-based Satellaview network for the Super Famicom. The modem's software was distributed on ROM cards resembling HuCards, and five unreleased network-enabled game prototypes were developed, including a version of the board game Go favored by Yamauchi.",
+    "deepDive": [
+      {
+        "heading": "Origins",
+        "text": "In 1987, Nintendo president Hiroshi Yamauchi foresaw the impending Information Age and wanted to transform Nintendo beyond a toy company into a communications company. The Famicom was already in one third of Japanese households — a totally unique installed base. Yamauchi believed it could become an appliance of the future, as pervasive as the telephone. He requested a partnership with Nomura Securities to create an information network service. Famicom designer Masayuki Uemura led the hardware development at Nintendo R&D2, while Nomura built the client/server software and information database. NTT provided the DDX-TP packet-switched network gateway."
+      },
+      {
+        "heading": "Interaction Model",
+        "text": "The modem attaches to the bottom of the Famicom. A special controller with an orange numeric keypad replaces the standard game pad. Users navigate tree-structured information services by entering numeric codes — similar to the Minitel's 3615 system but through a game console. Stock quotes, banking transactions, and horse-race bets all happen through the same interface that an hour earlier might have been running Super Mario Bros. The software itself lives on ROM cards (resembling HuCards) rather than standard Famicom cartridges. This physical-token-as-software approach foreshadowed the smart card and downloadable-content paradigms."
+      },
+      {
+        "heading": "Commercial Fate",
+        "text": "Despite Yamauchi's intense personal commitment — he approved a multimillion-dollar advertising budget and personally met with financial industry representatives — the system struggled. NTT's DDX-TP network had reliability problems at launch that Nintendo engineers had to debug house-by-house. The total home networking market was tiny; many users found traditional means just as easy. The system shipped 130,000 units over three years and was discontinued in 1991. Its most popular application was horse-race betting, which captured 35% of Japan's online market. All services shut down except the Super Mario Club, which persisted as a store-kiosk game review database."
+      }
+    ],
+    "team": [
+      {"name": "Hiroshi Yamauchi", "note": "Nintendo president who conceived the communications-company vision"},
+      {"name": "Masayuki Uemura", "note": "Lead designer of the modem hardware at Nintendo R&D2"},
+      {"name": "Nomura Securities", "note": "Developed client/server software and financial information database"},
+      {"name": "NTT (Nippon Telegraph and Telephone)", "note": "Provided DDX-TP packet-switched network infrastructure"}
+    ],
+    "media": [
+      {"src": "https://upload.wikimedia.org/wikipedia/commons/3/33/Nintendo-Famicom-Modem-Network-System-Attached.jpg", "alt": "Famicom with modem attached", "caption": "Famicom console with the Network System modem clipped onto the bottom. Wikimedia Commons (CC0)."},
+      {"src": "https://upload.wikimedia.org/wikipedia/commons/6/6b/Nintendo-Famicom-Modem-Controller.jpg", "alt": "Famicom Network System controller with numeric keypad", "caption": "The special controller included with the modem, featuring a distinctive orange numeric keypad for navigating information services. Wikimedia Commons (CC0)."},
+      {"src": "https://upload.wikimedia.org/wikipedia/commons/6/6b/Nintendo-Famicom-Modem-Network-System-Horse-Betting.jpg", "alt": "JRA PAT horse betting software card", "caption": "The JRA PAT horse-race betting ROM card — the system's most popular application, capturing 35% of Japan's online horse-betting market. Wikimedia Commons (CC0)."}
+    ],
+    "sources": [
+      {"text": "Wikipedia: Family Computer Network System", "url": "https://en.wikipedia.org/wiki/Family_Computer_Network_System"},
+      {"text": "How the Famicom Modem Was Born (Nikkei Electronics, 1995)", "url": "http://www.glitterberri.com/developing-the-famicom-modem/"},
+      {"text": "Game Over by David Sheff (1994), pp. 75-78", "url": "https://archive.org/details/0966961706"},
+      {"text": "NYT: How Nintendo Can Help A.T.&T (June 1989)", "url": "https://www.nytimes.com/1989/06/08/business/talking-deals-how-nintendo-can-help-at-t.html"},
+      {"text": "Famicom World: Famicom Network System", "url": "http://famicomworld.com/system/Famicom_Network_System/"},
+      {"text": "Famicom Network System Technical Information (NesDev)", "url": "https://www.nesdev.org/wiki/Famicom_Network_System"}
+    ],
+    "imageUrls": [
+      "https://commons.wikimedia.org/wiki/Category:Family_Computer_Network_System"
+    ]
+  },
+  "savedImages": [
+    "images/famicom-modem-attached.jpg",
+    "images/famicom-modem-controller.jpg",
+    "images/famicom-modem-horse-betting.jpg"
+  ]
+}
