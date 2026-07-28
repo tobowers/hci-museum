@@ -294,4 +294,27 @@ Promotion gotchas (2026-07-27):
 - Productive angle confirmed: telephony/network HCI (Famicom Network System) was previously unexplored. Video capture peripherals (Videoface) was also unexplored.
 - 7 parallel subagents covering fresh angles returned 3 viable candidates with CC images — solid yield. Music HCI and haptics angles are confirmed exhausted.
 
+New additions (2026-07-28):
+- Sharp Wizard OZ-7000 (1989): Promoted 2026-07-28. Sharp Corporation's first electronic organizer with transparent touch panel (4×5 matrix of 20 touch zones) over swappable physical IC cards. Each card's printed template was visible through the glass; swapping cards physically changed the input surface. IC cards included scientific calculator, thesaurus, 8-language translator, spreadsheet (Lotus compatible), and games. ~$299-399. 2 PD images from Commons, Seinfeld cultural reference. Distinct interaction model: hardware-defined modular UI through transparent touch + swappable physical media. Nothing like it in the museum.
+- Cambridge Z88 (1987): Promoted 2026-07-28. Clive Sinclair's final computer via Cambridge Computer Ltd. Silent rubber membrane keyboard (no click), A4-sized (294x210x23mm), 900g, all-solid-state (no disk drives, 3 proprietary RAM/EPROM slots). Preemptive multitasking OS; switch off at any time without data loss. Designed by Rick Dickinson (ZX Spectrum). PipeDream integrated word processor/spreadsheet/database in one file format. 230 GBP, ~100,000 units. 2 CC-BY-SA images from Commons. Distinct interaction model: silent membrane keyboard + no-moving-parts architecture + instant suspend/resume — the anti-laptop. First Sinclair device in museum.
+- Casio PB-1000 (1987; 1986 in Japan): Promoted 2026-07-28. Casio's first pocket computer with embedded resistive touch digitizer (4x4 matrix of 16 fixed touch zones on LCD). Touch zones changed function contextually. Folding clamshell with lift-up LCD + QWERTY keyboard + 13 capacitive touch keys. Custom Hitachi HD61700 CPU. Programmable in C61 BASIC and assembly via built-in assembler. Strong enthusiast community (emulator, ROM disassembly). 2 device CC images + 4 CPU die shots from Commons. Distinct interaction model: embedded resistive touch on a pocket computer — one of the earliest touch-sensitive handheld displays.
+
+New deferred candidates (2026-07-28):
+- EyeDentify System 7.5 (1984): First commercial retinal scanner. User peers into binocular eyepiece, aligns eye with green-dot target, low-intensity IR beam scans retinal blood-vessel pattern into 96-byte template. CIA/FBI/NASA deployments. EXTREMELY strong HCI concept but ZERO CC images. Brochure PDF exists. Revisit if image licensing resolves.
+- Colonial Data Technologies Call Identifier (1988): First consumer caller ID box. Small standalone box with LCD decoded 1200 baud FSK data burst between rings. Paradigm shift: telephone became data display device. Under $100. BellSouth Memphis trial 1988. No CC images. eBay listings show the device. Revisit if a museum-quality photo surfaces.
+- AT&T Model 1337 Digital Answering Machine (1990): First all-digital consumer answering machine. Frog design (Hartmut Esslinger). Voice-menu interaction. ~$180-220. Triple landmark: first digital answering machine, first mass-market voice-menu interface, canonical frog design. YouTube videos exist but no CC images.
+- OKI Kawaraban / PLUS Boardfax 1300 (1983): First electronic copyboard. Five movable whiteboard sheets scanned by internal optics, printed to thermal paper. 750,000 yen. Spawned an entire product category. OKI history page has period photos but no CC images.
+- All biometric candidates (Identimat, Fingermatrix, Recognition Systems HandKey, Veripen): STRONG HCI concepts, ALL image-blocked except Identix prototype (2 CC images of garage prototype — worth revisiting as standalone).
+- All early touchscreen candidates (Elographics 1977, 1982 World's Fair kiosks, Carroll Touch IR frames, ISI Public Access Terminal 1980): historically foundational but no CC images of specific products — OEM components or deployments without identifiable artifacts.
+
+Promotion gotchas (2026-07-28):
+- All promotion done manually (same as 2026-07-27). promote-potentials.ts NOT run.
+- The img() helper resolves to assets/wiki/filename — images must be in that directory.
+- Always verify downloaded Commons images with `file` command — HTTP error pages can look like valid files.
+- Commons API + curl with proper User-Agent header is the reliable way to get direct image URLs. Add 2-second delays between downloads.
+- Build count: 128 exhibits. Wiki ToC count: 125 (properly updated).
+- Productive angle confirmed: palmtop/electronic organizers — the only angle where ALL 5 candidates had CC images. This category is now well-covered (6 exhibits: Sharp Wizard, Z88, PB-1000, Psion Organiser II, Poqet PC, Seiko RC-1000).
+- Image bottleneck confirmed structural: 5 of 6 angles returned strong candidates with zero CC images. Only the palmtop angle had images. Future runs should focus on image resolution for deferred candidates.
+- Future unexplored angles: early home video game controllers with truly unusual physical principles, early network terminals with unusual interfaces, early scanning/OCR hardware with distinctive physical interaction, haptic/force-feedback devices beyond what's in collection.
+
 (End of file - total 320 lines)

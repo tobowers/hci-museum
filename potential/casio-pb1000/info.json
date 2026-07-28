@@ -1,0 +1,87 @@
+{
+  "slug": "casio-pb1000",
+  "title": "Casio PB-1000",
+  "year": "1987",
+  "subtitle": "A folding pocket computer with 16 touch zones embedded directly in the LCD — one of the earliest touch-sensitive handheld displays",
+  "why_scout_cares": "The Casio PB-1000 put a resistive touch digitizer directly on top of a pocket computer's LCD in 1986 (Japan) / 1987 (international) — years before touchscreens became common on handheld devices. The 4×4 matrix of 16 fixed touch zones rendered as on-screen keys whose functions changed depending on mode: scientific calculation, menu navigation, text editing, or program selection. This was not a modern capacitive touchscreen but a glass-glass resistive panel that the CPU polled for X/Y coordinates, mapping them onto a fixed grid. The folding clamshell design (LCD lifts up, keyboard beneath) was also unusual. Combined with a custom Hitachi HD61700 CPU and an architecture that let users program in both BASIC and assembly language, the PB-1000 represents a brief, strange moment when pocket computing experimented with direct screen interaction before styluses and capacitive touch won. The museum has no artifact demonstrating early embedded resistive touch in a pocket format.",
+  "search_terms": ["Casio PB-1000", "pocket computer", "touch screen", "resistive touch", "Hitachi HD61700"],
+  "research": {
+    "title": "Casio PB-1000",
+    "year": "1987",
+    "by": "Casio Computer Co., Ltd. (Japan)",
+    "tags": ["HCI", "Input", "Touchscreen", "Portable", "Programming"],
+    "overview": "The Casio PB-1000 was a folding pocket computer released by Casio in 1986 in Japan and 1987 internationally. It was Casio's first pocket computer with a touch-sensitive display: a glass-glass resistive digitizer atop a 192×32 pixel monochrome LCD, organized as a 4×4 matrix of 16 touch zones. The touch zones functioned as context-sensitive soft keys — their behavior changed depending on mode, serving as calculation shortcuts, menu navigation, text editing commands, or program selectors. Under the lift-up display sat a full QWERTY keyboard with 64 keys plus 13 dedicated capacitive touch keys.\n\nThe PB-1000 ran on a custom Hitachi HD61700 8-bit CMOS CPU clocked at ~910 kHz, with 8 KB of internal RAM (4 KB user-accessible, expandable to 40 KB via an RP-32 RAM card) and 32 KB of system ROM. It was programmable in Casio's C61 BASIC dialect and HD61700 assembly language via a built-in assembler. A Japan-only educational variant (PB-1000C) replaced assembly with CASL for the COMET educational simulator used in Japanese IT certification exams. Peripherals included the FA-7 cassette/RS-232/printer interface and the rare MD-100 3.5\" floppy disk drive. While not a mass-market hit, the PB-1000 cultivated a dedicated enthusiast community that continues to document it — Piotr Piatek reverse-engineered the HD61700 CPU and built an emulator, Erich Babitsch published a fully commented ROM disassembly, and multiple websites preserve its history in English, German, Japanese, and French.",
+    "deepDive": [
+      {
+        "heading": "The Embedded Resistive Touch Panel",
+        "text": "The PB-1000's touch system used a glass-glass resistive digitizer placed on top of the reflective LCD. Two glass layers with transparent conductive coatings were separated by microdot spacers; pressing a touch zone brought the layers into contact, and the CPU polled the resulting X/Y coordinates, mapping them to the 4×4 grid of fixed zone positions. The touch keys were rendered on the LCD as graphical soft keys whose labels and functions changed with context. This was not a capacitive touchscreen (which detects changes in electrical field from a finger's proximity) but a pressure-sensitive resistive overlay — the same fundamental principle used in early ATM and POS touchscreens, miniaturized into a pocket format years before resistive touch became common on PDAs."
+      },
+      {
+        "heading": "The Folding Clamshell Design",
+        "text": "The PB-1000 used a distinctive folding design: the LCD display lifted up from the keyboard base on a hinge, revealing the full QWERTY keyboard underneath. Closed, it measured 187 × 97 × 24 mm and weighed approximately 435g with batteries. The LCD displayed 32 characters × 4 lines of text (with a virtual 32×8 screen accessible via scrolling). Below the main LCD, a row of 13 dedicated capacitive touch keys provided quick access to common functions — separate from the 16 resistive touch zones on the main display."
+      },
+      {
+        "heading": "A Programmer's Pocket Computer",
+        "text": "The PB-1000 was unusually programmable for a pocket device of its era. It ran Casio's C61 BASIC (based on JIS C6207) with extensive math, trigonometric, and statistical functions. Memory was managed as a 'virtual disk' — multiple BASIC programs, assembly programs, and text files could coexist in RAM. More remarkably, it included a built-in HD61700 assembler: users could type assembly mnemonics directly on the device, 'compile' (assemble) the code, and execute it. The community later reverse-engineered the entire HD61700 instruction set (Casio never publicly released it), developed a Forth implementation (PB_Forth), and built cross-assemblers and emulators."
+      },
+      {
+        "heading": "A Thriving Enthusiast Community",
+        "text": "Despite its commercial obscurity, the PB-1000 has one of the richest post-market documentation efforts of any pocket computer. Piotr Piatek (Poland) reverse-engineered the HD61700 CPU, built a Windows emulator, and designed modern USB and solid-state storage replacements. Erich Babitsch (Germany) published 'PB-1000 Intern,' a fully commented ROM disassembly. Andreas Wichmann maintained a comprehensive homepage. Jun Amano (Japan) runs 'PB-1000 Forever.' Hans-Jürgen Böling published a German-language program collection. This community labor ensures the PB-1000 is one of the best-documented obscure computing platforms of its era."
+      }
+    ],
+    "team": [
+      {
+        "name": "Casio Computer Co., Ltd.",
+        "note": "Japanese electronics manufacturer. The PB-1000 was developed by Casio's handheld computer team, which also produced the PB-700, PB-770, and later PB-2000. No individual designer names have surfaced in public documentation."
+      },
+      {
+        "name": "Hitachi",
+        "note": "Designed the custom HD61700 CMOS microprocessor, integrating CPU, 32 bytes of internal RAM, and 3 KB of on-die ROM on a single chip."
+      }
+    ],
+    "media": [
+      {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/1/15/CasioPB-1000.jpg",
+        "alt": "Casio PB-1000 pocket computer open with LCD display and keyboard visible",
+        "caption": "Casio PB-1000 with its lift-up LCD display, showing the 16 touch zones on screen, 13 capacitive touch keys below, and full QWERTY keyboard. CC BY-SA 3.0 via Wikimedia Commons."
+      },
+      {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/e/e1/Casio_PB-1000.jpg",
+        "alt": "Casio PB-1000 pocket computer from a different angle",
+        "caption": "An alternative angle of the PB-1000 showing the folding clamshell design and the relationship between the display surface and keyboard. CC BY-SA 3.0 via Wikimedia Commons."
+      }
+    ],
+    "sources": [
+      {
+        "text": "Wikipedia: Casio PB-1000",
+        "url": "https://en.wikipedia.org/wiki/Casio_PB-1000"
+      },
+      {
+        "text": "Andreas Wichmann's PB-1000 Homepage",
+        "url": "http://www.itkp.uni-bonn.de/~wichmann/pb1000.html"
+      },
+      {
+        "text": "Piotr Piatek: PB-1000 hardware documentation and emulator",
+        "url": "http://www.pisi.com.pl/piotr433/index.htm#pb1000"
+      },
+      {
+        "text": "Ledudu's Casio Pocket Computer Library",
+        "url": "https://casio.ledudu.com/pockets.asp?type=29&lg=eng"
+      },
+      {
+        "text": "Obsolete Computer Museum: Casio PB-1000",
+        "url": "http://www.obsoletecomputermuseum.org/pb1000/"
+      },
+      {
+        "text": "Wikimedia Commons: Category:Casio PB-1000",
+        "url": "https://commons.wikimedia.org/wiki/Category:Casio_PB-1000"
+      }
+    ],
+    "imageUrls": [
+      "https://upload.wikimedia.org/wikipedia/commons/1/15/CasioPB-1000.jpg",
+      "https://upload.wikimedia.org/wikipedia/commons/e/e1/Casio_PB-1000.jpg",
+      "https://upload.wikimedia.org/wikipedia/commons/e/e9/Hitachi_HD61700_microprocessor_top_metal_die_shot.jpg"
+    ]
+  },
+  "savedImages": []
+}
