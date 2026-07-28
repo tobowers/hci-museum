@@ -1,6 +1,6 @@
 # The HCI Golden Age Wiki
 
-A research compendium for a digital museum of cutting-edge Human-Computer Interaction from the late 1970s through the early 1990s. These one hundred and twenty-five projects mix canonical experiments with weird, forgotten, and beautiful vaporware — brain control, voice control, gesture, wearable computing, VR, robots, and full-body exertion.
+A research compendium for a digital museum of cutting-edge Human-Computer Interaction from the late 1970s through the early 1990s. These one hundred and twenty-eight projects mix canonical experiments with weird, forgotten, and beautiful vaporware — brain control, voice control, gesture, wearable computing, VR, robots, and full-body exertion.
 
 Each entry includes an overview, a deep dive, a small media gallery, and full source links so the images and facts can always be traced back.
 
@@ -129,6 +129,9 @@ Each entry includes an overview, a deep dive, a small media gallery, and full so
 120. [Famicom Network System / Famicom Modem (1988)](#famicom-network-system--famicom-modem-1988)
 121. [Videoface Digitizer (1986)](#videoface-digitizer-1986)
 122. [TI Little Professor (1976)](#ti-little-professor-1976)
+123. [Sharp Wizard OZ-7000 (1989)](#sharp-wizard-oz-7000-1989)
+124. [Cambridge Z88 (1987)](#cambridge-z88-1987)
+125. [Casio PB-1000 (1987)](#casio-pb-1000-1987)
 
 ---
 
@@ -6412,3 +6415,122 @@ Priced at under $20, the Little Professor sold more than one million units in 19
 4. Handheld Museum: Little Professor — http://www.handheldmuseum.com/TI/LittleProfessor.htm
 5. TI Corporate History: Little Professor introduction — http://www.ti.com/corp/docs/company/history/timeline/eps/1970/docs/76-little_professor.htm
 6. US Patent 4,225,932: Instructional Calculator (filed 1978, issued 1980) — https://patents.google.com/patent/US4225932A/
+
+---
+
+## Sharp Wizard OZ-7000 (1989)
+**By:** Sharp Corporation (Japan)  
+**Tags:** `Touchscreen` `Portable` `Organizer` `Modular` `PDA`
+
+### Overview
+
+The Sharp Wizard OZ-7000 was Sharp Corporation's first electronic organizer, launched in 1989. It bridged the world of pocket computers and the emerging PDA category, but its defining innovation was a transparent touch-sensitive overlay panel paired with swappable physical IC cards. Each IC card contained ROM software and a printed template visible through the glass; 20 touch zones on the overlay mapped to card-specific functions. The Wizard was commercially successful, spawning a product line that ran through the mid-1990s, and was immortalized in a 1998 Seinfeld episode ("The Wizard") where Jerry gives one to his father as a gift.
+
+### Deep dive
+
+* **The transparent touch panel.** The OZ-7000's signature interaction model: a transparent plastic touch-sensitive overlay covering a recessed slot in the right-hand section of the device. The overlay registered touch across a 4×5 matrix of 20 zones. When a user inserted an IC card into the slot behind the panel, the card's printed template — showing button labels, icons, or custom layouts — was visible through the glass. The device's firmware mapped each of the 20 touch zones to card-specific functions. Swapping the card immediately transformed not just the software but the visible input surface — a plug-and-play physical UI that predated capacitive touchscreens and app icons.
+* **IC Card ecosystem.** Available cards included: OZ-707 Scientific Computer, Memory Expansion, Thesaurus Dictionary, Time and Expense Manager, Investment Planner, Bilingual and 8-Language Translators, Encyclopaedia of Wine, Spreadsheet (26 columns × 999 rows, Lotus 1-2-3 compatible), and games (Sokoban, Tetris, Chess, Backgammon). A BASIC programming card arrived in 1991. Cards typically cost $50–120 each.
+* **Hardware.** At 163 × 94 × 21.5 mm with a 96×64 dot monochrome LCD (8 lines × 16 characters), 32 KB of non-volatile memory, non-QWERTY custom keyboard, and proprietary serial port. Powered by two CR2032 coin cells. The IC card slot predated the PCMCIA standard and was incompatible with it. The US model prefix "OZ" was a pun on The Wizard of Oz; European/Asian models used the "IQ" prefix.
+* **Seinfeld and cultural legacy.** In "The Wizard" (Season 9, Episode 15, aired February 26, 1998), Jerry gives his father Morty a Sharp Wizard. Morty only uses it as a tip calculator. The episode also references a counterfeit knockoff brand called "Willard." The episode cemented the Wizard in American pop culture as a symbol of late-1990s tech aspiration.
+* **Product line evolution.** The OZ-7000/IQ-7000 (1989) was followed by the IQ-7200 (1991, 64 KB), OZ-8000 (1991, QWERTY landscape), OZ-8200 (128 KB), and models dropping the IC card slot for touch-sensitive displays. The Wizard line eventually evolved into the Sharp Zaurus PDA.
+
+### Team
+
+* **Sharp Corporation** — Japanese electronics manufacturer founded by Tokuji Hayakawa. The Wizard was developed by Sharp's Electronic Organizer division, which later produced the Zaurus PDA line. No individual designer names have surfaced in public documentation.
+
+### Media
+
+![Sharp Wizard OZ-7000 with IC card installed](../assets/wiki/sharp-wizard-OZ-7000.png)
+*An OZ-7000 with the OZ-707 Scientific Computer card installed, showing the 20 soft-button touch zones mapped to the card's functions. The card's printed template is visible through the transparent touch panel. Source: Wikimedia Commons (public domain, Eli the Bearded).*
+
+![Sharp Wizard OZ-7000 open wide view](../assets/wiki/sharp-wizard-OZ-7000-open.jpg)
+*An alternative view showing the full keyboard layout and the transparent touch panel area in the right-hand section. Source: Wikimedia Commons (public domain).*
+
+### Sources
+
+1. Wikipedia: Sharp Wizard — https://en.wikipedia.org/wiki/Sharp_Wizard
+2. New York Times: "A Pocket Organizer That Manages to Be Useful" (June 11, 1989, Peter H. Lewis) — https://www.nytimes.com/1989/06/11/business/the-executive-computer-a-pocket-organizer-that-manages-to-be-useful.html
+3. Wikipedia: The Wizard (Seinfeld episode) — https://en.wikipedia.org/wiki/The_Wizard_(Seinfeld)
+4. Wikimedia Commons: Category:Sharp Wizard — https://commons.wikimedia.org/wiki/Category:Sharp_Wizard
+5. Home Office Computing (October 1989): Wizard review — https://archive.org/details/homeofficecomputing
+
+---
+
+## Cambridge Z88 (1987)
+**By:** Cambridge Computer Ltd. (Clive Sinclair, Rick Dickinson)  
+**Tags:** `Portable` `Sinclair` `Keyboard` `Notebook` `Silent`
+
+### Overview
+
+The Cambridge Z88 was Clive Sinclair's final computer, released in September 1987 by Cambridge Computer Ltd. — a company formed after Sinclair sold his brand name to Amstrad in 1986. At 294 × 210 × 23 mm (A4-sized) and 900g, it was extraordinarily thin for its era, powered by 4 AA batteries delivering 20 hours of use. Industrial designer Rick Dickinson — who had created the iconic looks of the ZX80, ZX81, ZX Spectrum, and Sinclair QL — designed the Z88's wedge-shaped ABS case, sealed rubber membrane keyboard, and all-solid-state architecture. The device contained only 4 chips, had no disk drives, and could be switched off at any time without data loss thanks to capacitor-backed RAM and a preemptive multitasking OS. Approximately 100,000 units were sold at £230.
+
+### Deep dive
+
+* **The silent membrane keyboard.** The Z88 used a custom low-profile rubber membrane keyboard: a thin polyester membrane with conductive tracks, sealed with black rubber waterproofing. Pressing a key forced two membrane layers together through a spacer, registering an electrical contact with no mechanical switch, spring, or click mechanism. The result was near-zero audible feedback — designed for quiet use in meetings and libraries. An optional electronic "click" could be enabled via the Panel popdown for users who missed tactile feedback. The keyboard was spill-resistant. Special modifier keys included a "diamond" key for shortcuts and a "square" key for application switching. Sinclair and Dickinson believed portable computing should not announce itself audibly.
+* **PipeDream and integrated applications.** PipeDream, by Colton Software, was the Z88's bundled ROM-based "killer app" — a combined word processor, spreadsheet, database, and charting program in a unified document format. The same file could contain text, numbers, and formulas simultaneously, with no import/export between modules. Columns defined "slots" referenced by letter+number for spreadsheet-style formulas. A graphical "Map area" showed document layout alongside the editing area. This integrated approach was a radical alternative to the separate-application desktop model.
+* **The Pandora project.** The Z88 evolved from "Pandora," a portable computer under development at Sinclair Research during 1984–85. Pandora was intended to be ZX Spectrum-compatible with a built-in ZX Microdrive and a flat-screen CRT whose image was magnified through folding lenses and mirrors. When Amstrad purchased Sinclair's computer assets in April 1986, Pandora was cancelled. Sinclair formed Cambridge Computer Ltd. and transformed Pandora into the Z88 — replacing the flat CRT with an STN LCD, dropping Spectrum compatibility, and replacing Microdrives with solid-state memory cards. Rick Dickinson documented this evolution in his Flickr album "Pandora to Z88" with 25 photos of sketches, clay models, and production units.
+* **All-solid-state architecture.** The Z88 had no moving parts whatsoever. Three proprietary slots accepted RAM, EPROM, or Flash cards (32 KB to 1 MB each). Slot 3 included a built-in EPROM programmer. The OZ operating system provided preemptive task-switching: any application could be suspended and re-entered exactly where left, even after power-off. An internal capacitor preserved RAM during battery changes for about 30 seconds.
+* **Ecosystem and community.** The 128 KB ROM held PipeDream, Diary, Terminal (VT52 emulation), Printer Editor, BBC BASIC with Z80 assembler, and eight system "Popdowns" (Index, Filer, Calendar, Calculator, Clock, Alarm, Import/Export, Panel). Third-party software included games (Jet Set Willy Z88, Lemmings Z88), programming tools (z88dk C cross-compiler, Forth), and TCP/IP (ZSock). The Z88 Forever website (Garry Lancaster, since 1996) preserves ROM images, technical documentation, and service manuals.
+
+### Team
+
+* **Sir Clive Sinclair (1940–2021)** — Founder and visionary. The Z88 was his last computer product after selling Sinclair Research's computer business to Amstrad in 1986 for £5 million.
+* **Rick Dickinson (1955–2018)** — Industrial designer responsible for the Z88's case, keyboard, and form factor. Previously designed the ZX80, ZX81, ZX Spectrum, and Sinclair QL.
+* **Colton Software** — Developer of PipeDream. Founded by Charles Colton; later produced PipeDream for Acorn Archimedes and other platforms.
+
+### Media
+
+![Cambridge Z88 open with keyboard and LCD visible](../assets/wiki/cambridge-z88-open.jpg)
+*Cambridge Z88 with its distinctive A4 slab form factor, silent membrane keyboard, and 8-line STN LCD display. Source: Wikimedia Commons (CC BY-SA 3.0).*
+
+![Cambridge Z88 from above showing thin profile](../assets/wiki/cambridge-z88-top.jpg)
+*A top-down view highlighting the Z88's spill-resistant rubber keyboard surface and remarkably thin 23mm profile. Source: Wikimedia Commons (CC BY-SA 4.0).*
+
+### Sources
+
+1. Wikipedia: Cambridge Z88 — https://en.wikipedia.org/wiki/Cambridge_Z88
+2. Z88 Forever (Garry Lancaster, maintained since 1996) — https://www.worldofspectrum.org/z88forever/
+3. Rick Dickinson Flickr: Pandora to Z88 (design evolution album, 25 photos) — https://www.flickr.com/photos/9574086@N02/sets/72157600856913881/
+4. Sinclair User No. 61 (April 1987): Launch announcement — https://archive.org/details/Sinclair_User_061/page/86/mode/2up
+5. BYTE Magazine (February 1989): Jerry Pournelle review — https://archive.org/details/eu_BYTE-1989-02_OCR/page/n175/mode/2up
+6. Cambridge Computer Ltd. history and Sinclair Research transition — https://en.wikipedia.org/wiki/Sinclair_Research
+
+---
+
+## Casio PB-1000 (1987)
+**By:** Casio Computer Co., Ltd. (Japan)  
+**Tags:** `Portable` `Touchscreen` `Programming` `Pocket Computer` `Resistive`
+
+### Overview
+
+The Casio PB-1000 was a folding pocket computer released in 1986 in Japan and 1987 internationally. It was Casio's first pocket computer with a touch-sensitive display: a glass-glass resistive digitizer atop a 192×32 pixel monochrome LCD, organized as a 4×4 matrix of 16 touch zones. The touch zones functioned as context-sensitive soft keys — their behavior changed depending on mode, serving as calculation shortcuts, menu navigation, text editing commands, or program selectors. Under the lift-up display sat a full QWERTY keyboard with 64 keys plus 13 dedicated capacitive touch keys. Powered by a custom Hitachi HD61700 CMOS CPU and programmable in both C61 BASIC and assembly language, the PB-1000 represents a brief window when pocket computing experimented with direct screen interaction before styluses and capacitive touch won.
+
+### Deep dive
+
+* **The embedded resistive touch panel.** The PB-1000's touch system used a glass-glass resistive digitizer placed on top of the reflective LCD. Two glass layers with transparent conductive coatings were separated by microdot spacers; pressing a touch zone brought the layers into contact, and the CPU polled the resulting X/Y coordinates, mapping them to the 4×4 grid of fixed zone positions. The touch keys were rendered on the LCD as graphical soft keys whose labels and functions changed with context. This was the same fundamental resistive principle used in early ATM and POS touchscreens, miniaturized into a pocket format years before resistive touch became common on PDAs.
+* **The folding clamshell design.** The PB-1000's LCD display lifted up from the keyboard base on a hinge, revealing the full QWERTY keyboard underneath. Closed, it measured 187 × 97 × 24 mm and weighed approximately 435g with batteries. The LCD displayed 32 characters × 4 lines (with a virtual 32×8 screen accessible via scrolling). Below the main LCD, a row of 13 dedicated capacitive touch keys provided quick access to common functions — separate from the 16 resistive touch zones on the main display.
+* **A programmer's machine.** The PB-1000 was unusually programmable for a pocket device. It ran Casio's C61 BASIC (JIS C6207) with extensive math, trigonometric, and statistical functions. Memory was managed as a "virtual disk" — multiple BASIC programs, assembly programs, and text files could coexist in RAM. More remarkably, it included a built-in HD61700 assembler: users could type assembly mnemonics directly on the device, assemble the code, and execute it. Casio never publicly released the HD61700 instruction set; the community reverse-engineered it decades later.
+* **PB-1000C educational variant.** A Japan-only variant replaced HD61700 assembly with CASL (COMET Assembler Language) for the COMET educational simulator used in Japanese IT certification exams. It added binary and octal support in BASIC and a [TAB] key while keeping identical hardware.
+* **Post-market community.** Despite commercial obscurity, the PB-1000 has one of the richest documentation efforts of any pocket computer. Piotr Piatek (Poland) reverse-engineered the HD61700 CPU, built a Windows emulator, and designed modern USB and solid-state storage replacements. Erich Babitsch (Germany) published "PB-1000 Intern," a fully commented ROM disassembly. Andreas Wichmann maintained a comprehensive homepage. Jun Amano (Japan) runs "PB-1000 Forever." Peripherals included the FA-7 cassette/RS-232/printer interface, the rare MD-100 3.5" floppy drive, and various thermal printers and plotters.
+
+### Team
+
+* **Casio Computer Co., Ltd.** — Japanese electronics manufacturer. The PB-1000 was developed by Casio's handheld computer team, which also produced the PB-700, PB-770, and later PB-2000. No individual designer names have surfaced in public documentation.
+* **Hitachi** — Designed the custom HD61700 CMOS microprocessor, integrating CPU, 32 bytes of internal RAM, and 3 KB of on-die ROM on a single chip.
+
+### Media
+
+![Casio PB-1000 with lift-up LCD and keyboard visible](../assets/wiki/casio-pb1000.jpg)
+*Casio PB-1000 with its lift-up LCD display, showing the 16 touch zones on screen, 13 capacitive touch keys below the display, and full QWERTY keyboard. Source: Wikimedia Commons (CC BY-SA 3.0).*
+
+![Casio PB-1000 from alternate angle showing clamshell design](../assets/wiki/casio-pb1000-angle.jpg)
+*An alternative angle showing the folding clamshell design and the relationship between the display surface and keyboard. Source: Wikimedia Commons (CC BY-SA 3.0).*
+
+### Sources
+
+1. Wikipedia: Casio PB-1000 — https://en.wikipedia.org/wiki/Casio_PB-1000
+2. Andreas Wichmann's PB-1000 Homepage — http://www.itkp.uni-bonn.de/~wichmann/pb1000.html
+3. Piotr Piatek: PB-1000 hardware documentation and emulator — http://www.pisi.com.pl/piotr433/index.htm#pb1000
+4. Ledudu's Casio Pocket Computer Library — https://casio.ledudu.com/pockets.asp?type=29&lg=eng
+5. Obsolete Computer Museum: Casio PB-1000 — http://www.obsoletecomputermuseum.org/pb1000/
+6. Wikimedia Commons: Category:Casio PB-1000 — https://commons.wikimedia.org/wiki/Category:Casio_PB-1000

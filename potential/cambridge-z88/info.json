@@ -1,0 +1,88 @@
+{
+  "slug": "cambridge-z88",
+  "title": "Cambridge Z88",
+  "year": "1987",
+  "subtitle": "Clive Sinclair's A4-sized silent notebook computer — 20mm thin, all solid-state, with a spill-proof membrane keyboard that made no sound",
+  "why_scout_cares": "The Cambridge Z88 embodies Clive Sinclair's most distilled vision of portable computing: a machine as thin as a pad of paper (20mm), with NO moving parts whatsoever — no disk drive, no fan, no clicky keyboard. The silent rubber membrane keyboard (64 keys, full QWERTY) was designed for meetings and libraries where audible typing was unacceptable. An optional electronic 'click' could be enabled for tactile-feedback-minded users. The all-solid-state architecture (3 proprietary RAM/EPROM card slots, capacitor-backed internal RAM) meant you could switch it off at any moment without losing work — a preemptive task-switching OS suspended and resumed applications instantly. No Sinclair devices are in the museum; this is his last computer, the final expression of a design philosophy. The Z88 is the anti-laptop: it doesn't fold, it doesn't click, it doesn't spin — it just lies flat and stays silent.",
+  "search_terms": ["Cambridge Z88", "Clive Sinclair", "silent keyboard", "notebook computer", "PipeDream", "Rick Dickinson"],
+  "research": {
+    "title": "Cambridge Z88",
+    "year": "1987",
+    "by": "Cambridge Computer Ltd. (Clive Sinclair, Rick Dickinson)",
+    "tags": ["HCI", "Portable", "Input", "Sinclair", "Keyboard"],
+    "overview": "The Cambridge Z88 was Clive Sinclair's final computer, released in September 1987 by Cambridge Computer Ltd. — a company formed after Sinclair sold his brand name to Amstrad in 1986. At 294 × 210 × 23 mm (A4-sized) and 900g, it was extraordinarily thin for its era, powered by 4 AA batteries delivering 20 hours of use. The CMOS Z80A CPU ran at 3.2768 MHz with 32 KB of internal RAM (expandable to 3.5 MB via three proprietary card slots), 128 KB of ROM containing the full multitasking OZ operating system and all applications, and a 640×64 pixel super-twisted nematic LCD.\n\nIndustrial designer Rick Dickinson — who had designed the ZX80, ZX81, ZX Spectrum, and Sinclair QL — created the Z88's distinctive wedge-shaped ABS case, sealed rubber keyboard, and all-solid-state architecture. The device contained only 4 chips, had no disk drives (all storage was on RAM, EPROM, or Flash cards), and could be switched off at any time without data loss thanks to capacitor-backed RAM and the OZ operating system's preemptive task-switching. The bundled PipeDream application unified word processing, spreadsheet, database, and charting in a single document format. Approximately 100,000 units were sold at £230 (UK, including VAT).",
+    "deepDive": [
+      {
+        "heading": "The Silent Membrane Keyboard",
+        "text": "The Z88 used a custom low-profile rubber membrane keyboard: a thin polyester membrane with conductive tracks, sealed with black rubber waterproofing. Pressing a key forced two layers of the membrane together through a spacer, registering an electrical contact with no mechanical switch, spring, or click mechanism. The result was near-zero audible feedback — designed for quiet use in meetings and libraries. An optional electronic 'click' could be enabled via the Panel popdown. The keyboard surface was spill-resistant, and special modifier keys included a 'diamond' key (for shortcuts) and a 'square' key (for application switching). This was a deliberate interaction design choice: Sinclair and Dickinson believed that portable computing should not announce itself audibly."
+      },
+      {
+        "heading": "PipeDream and the Integrated Application",
+        "text": "PipeDream, developed by Colton Software, was the Z88's bundled ROM-based 'killer app' — a combined word processor, spreadsheet, database, and charting program in a unified document format. There was no import/export between modules; the same file could contain text, numbers, and formulas simultaneously. Columns defined 'slots' referenced by letter+number (e.g., C12), used in spreadsheet-style formulas. A graphical 'Map area' showed the document's layout alongside the editing area. This integrated approach — one file, one application, all capabilities — was a radical alternative to the separate-application model of desktop computers, anticipating later ideas about document-centric computing."
+      },
+      {
+        "heading": "The Pandora Project",
+        "text": "The Z88 evolved from 'Pandora,' a portable computer under development at Sinclair Research during 1984–85. Pandora was intended to be ZX Spectrum-compatible with a built-in ZX Microdrive and a flat-screen CRT display whose image was magnified through a series of folding lenses and mirrors. When Amstrad purchased Sinclair's computer assets in April 1986, Pandora was cancelled. Sinclair formed Cambridge Computer Ltd. and transformed Pandora's concept into the Z88 — replacing the impractical flat CRT with an STN LCD, dropping Spectrum compatibility, and replacing the unreliable Microdrive with solid-state memory cards. Industrial designer Rick Dickinson documented this entire evolution in his Flickr album 'Pandora to Z88' with 25 photos of sketches, clay models, development models, and production units."
+      }
+    ],
+    "team": [
+      {
+        "name": "Clive Sinclair",
+        "note": "Founder and visionary. The Z88 was his last computer product after selling Sinclair Research's computer business to Amstrad in 1986."
+      },
+      {
+        "name": "Rick Dickinson",
+        "note": "Industrial designer who designed the Z88's case, keyboard, and form factor. Previously designed the ZX80, ZX81, ZX Spectrum, and Sinclair QL."
+      },
+      {
+        "name": "Colton Software",
+        "note": "Developer of PipeDream, the integrated word processor/spreadsheet/database application bundled in ROM."
+      }
+    ],
+    "media": [
+      {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/6/67/CambridgeZ88.jpg",
+        "alt": "Cambridge Z88 notebook computer, open, showing keyboard and LCD display",
+        "caption": "Cambridge Z88 with its distinctive A4 slab form factor, silent membrane keyboard, and 8-line STN LCD. CC BY-SA 3.0 via Wikimedia Commons."
+      },
+      {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/8/88/Cambridge-Z88.jpg",
+        "alt": "Cambridge Z88 from above, showing the sealed rubber keyboard and thin profile",
+        "caption": "A top-down view highlighting the Z88's spill-resistant keyboard surface and remarkably thin profile. CC BY-SA 4.0 via Wikimedia Commons."
+      }
+    ],
+    "sources": [
+      {
+        "text": "Wikipedia: Cambridge Z88",
+        "url": "https://en.wikipedia.org/wiki/Cambridge_Z88"
+      },
+      {
+        "text": "Z88 Forever (Garry Lancaster, maintained since 1996)",
+        "url": "https://www.worldofspectrum.org/z88forever/"
+      },
+      {
+        "text": "Rick Dickinson Flickr: Pandora to Z88 (design evolution)",
+        "url": "https://www.flickr.com/photos/9574086@N02/sets/72157600856913881/"
+      },
+      {
+        "text": "Sinclair User No. 61 (April 1987): Launch announcement",
+        "url": "https://archive.org/details/Sinclair_User_061/page/86/mode/2up"
+      },
+      {
+        "text": "BYTE Magazine (February 1989): Jerry Pournelle review",
+        "url": "https://archive.org/details/eu_BYTE-1989-02_OCR/page/n175/mode/2up"
+      },
+      {
+        "text": "Wikimedia Commons: Category:Cambridge Z88",
+        "url": "https://commons.wikimedia.org/wiki/Category:Cambridge_Z88"
+      }
+    ],
+    "imageUrls": [
+      "https://upload.wikimedia.org/wikipedia/commons/6/67/CambridgeZ88.jpg",
+      "https://upload.wikimedia.org/wikipedia/commons/8/88/Cambridge-Z88.jpg",
+      "https://upload.wikimedia.org/wikipedia/commons/9/95/Cambridge_Z88.JPG",
+      "https://upload.wikimedia.org/wikipedia/commons/c/cb/Cambridge_Z88_%281988%29_%2824493869868%29.jpg"
+    ]
+  },
+  "savedImages": []
+}
