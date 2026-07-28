@@ -1,0 +1,96 @@
+{
+  "slug": "rainbow-sentinel",
+  "title": "Rainbow Sentinel Dongle",
+  "year": "1984",
+  "subtitle": "When software came with a physical key you had to plug into your printer port",
+  "why_scout_cares": "The hardware dongle is one of the strangest interface objects in computing history: a plastic block that lives between your computer and printer, containing a chip with deliberately ground-off part numbers to prevent reverse-engineering. Without this specific physical object plugged in, your expensive CAD software — AutoCAD, CorelDRAW, Cubase — simply refused to run. It wasn't a password, wasn't a license file, wasn't a serial number. It was a physical key, as concrete as the one that opens your front door, for a thing made of pure information. The interaction was brutally simple: no dongle, no software. Multiple dongles could be daisy-chained for users who owned multiple protected programs. Jerry Pournelle wrote in BYTE magazine in July 1988 that he didn't know what the dongle was really doing and worried it might inject a virus into his machine. The company behind the dongle, Rainbow Technologies, even ran a 1992 BYTE ad claiming the word 'dongle' was named after a person called 'Don Gall' — a tongue-in-cheek marketing ploy that spawned an urban legend still circulating today.",
+  "search_terms": ["Rainbow Sentinel dongle", "software protection dongle 1984", "hardware key copy protection", "Rainbow Technologies", "parallel port dongle", "HASP dongle", "Walter Straub Sentinel"],
+  "research": {
+    "title": "Rainbow Sentinel Dongle",
+    "year": "1984",
+    "by": "Rainbow Technologies (Walter W. Straub, Irvine, California)",
+    "tags": ["HCI", "Security", "Physical Token", "Copy Protection", "Peripheral", "Input"],
+    "overview": "The Rainbow Sentinel was the dominant hardware dongle for software copy protection throughout the 1980s and 1990s. A small plastic block that plugged into the parallel (printer) port of an IBM PC or compatible computer, it contained a custom integrated circuit programmed with a unique cryptographic key. The printer cable then plugged into the pass-through port on the back of the dongle. Protected software — typically expensive professional packages like AutoCAD, CorelDRAW, and Cubase — would periodically query the dongle for a cryptographic response. If the dongle was absent, the software either refused to run or operated in crippled demonstration mode. Rainbow Technologies was founded in 1984 in Irvine, California, by Walter W. Straub specifically to develop the Sentinel line. The company went public on NASDAQ in 1990, merged with SafeNet in 2004, which was itself acquired by Gemalto in 2014 and then by Thales Group in 2019. The Sentinel brand — now 'Thales Sentinel' — continues to this day. The main competitor was Aladdin Knowledge Systems, who introduced the HASP (Hardware Against Software Piracy) dongle in 1985, creating what became effectively a Rainbow/Aladdin duopoly in the software protection market.",
+    "deepDive": [
+      {
+        "heading": "Origins",
+        "text": "Rainbow Technologies was founded by Walter W. Straub in Irvine, California, in 1984. The company developed the Sentinel line of hardware protection keys for the IBM PC and compatible market. The term 'dongle' has disputed origins — some sources trace it to 1970s British slang for a plug or connector, while Merriam-Webster dates the first known use to 1981. In a notable 1992 Byte magazine advertisement, Rainbow Technologies claimed the word was derived from the name 'Don Gall', spawning an urban legend. Linguist Ben Zimmer later noted the claim was 'so egregiously false that the company happily owned up to it as a marketing ploy when pressed by Eric S. Raymond.' Rainbow Technologies went public on NASDAQ (ticker RNBO) in 1990. On March 14, 2004, SafeNet, Inc. announced the close of its merger with Rainbow Technologies. The Sentinel brand passed through subsequent acquisitions — Gemalto in August 2014 for $890 million, then Thales Group in April 2019 — and survives today as Thales Sentinel."
+      },
+      {
+        "heading": "The Physical Object",
+        "text": "The Rainbow Sentinel was a rectangular plastic block approximately 2–3 inches long, with a male DB-25 connector on one end and a female DB-25 pass-through on the other. Internally, it contained a custom integrated circuit — typically an EPROM or microcontroller — programmed with a unique identifier and a cryptographic algorithm. As confirmed by the Wikipedia article on software protection dongles, teardowns reveal that the chip part numbers were deliberately ground off to prevent competitors from identifying and reverse-engineering the IC. The dongle was entirely passive from the computer's perspective: it drew power from the parallel port, sat in the data path between computer and printer, and responded only to specific challenge sequences sent by the protected software. Multiple dongles could be daisy-chained if a user owned several protected applications, stacking out from the parallel port."
+      },
+      {
+        "heading": "Interaction Model",
+        "text": "The dongle's interaction model was simultaneously the simplest and most aggravating in computing: without this physical object, your software is useless. Unlike a serial number (which can be shared) or a license file (which can be copied), the dongle enforced copy protection at the physical layer. It could not be duplicated without access to the semiconductor fabrication process. For users, this created a distinctive set of rituals: keeping the dongle in a safe place, bringing it to client sites, scrambling to find it before a deadline. If the dongle was lost or damaged, the user had to contact the software vendor — prove ownership through purchase records — and pay for a replacement. The dongle was also a source of technical problems: it could conflict with other parallel-port devices, fail from static discharge, or simply stop working. In his July 1988 BYTE magazine column, 'Dr. Pournelle vs. The Virus', Jerry Pournelle captured the user anxiety: 'I don't know what the thing is doing ... For all I know, the gizmo may infect my machine with a virus.' The column ran seven full pages (197–207) and expressed a deep unease about plugging an unknown piece of hardware into one's computer."
+      },
+      {
+        "heading": "Legacy",
+        "text": "The hardware dongle represents a philosophical stance in the copy protection debate: that the most reliable security is physical. It persisted through the 1990s and into the 2000s, particularly in high-value professional software markets (audio production, CAD, medical imaging) where the cost of the dongle was negligible compared to the software license. USB dongles eventually replaced parallel-port versions. The iLok, still widely used in professional audio software (Pro Tools, Waves plug-ins), is the direct descendant of the Rainbow Sentinel. Aladdin's HASP dongles similarly evolved and their brand is now also under the Thales umbrella. The concept also influenced broader thinking about hardware-based security: TPM chips, smart card authentication, YubiKeys, and hardware security modules all share conceptual DNA with the humble parallel-port dongle. The dongle turned a software licensing problem into a physical interface challenge — one that users had to touch, manage, and protect."
+      }
+    ],
+    "team": [
+      {
+        "name": "Walter W. Straub",
+        "note": "Founder, Chairman, and CEO of Rainbow Technologies, Irvine, California. Founded the company in 1984 to develop the Sentinel product line."
+      },
+      {
+        "name": "Rainbow Technologies",
+        "note": "Developed the Sentinel line of hardware protection dongles. Went public on NASDAQ (RNBO) in 1990. Merged with SafeNet in March 2004. The Sentinel brand is now owned by Thales Group."
+      },
+      {
+        "name": "Aladdin Knowledge Systems",
+        "note": "Main competitor; introduced the HASP (Hardware Against Software Piracy) dongle in 1985. Acquired by Vector Capital in 2009 and merged under SafeNet, creating a unified dongle business."
+      }
+    ],
+    "media": [
+      {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/b/b8/Parallel-Port-Dongle-Front.jpg",
+        "alt": "A Rainbow Tech parallel port dongle PCB, front side. Note the numbers rubbed off the chips to make reverse engineering harder.",
+        "caption": "Rainbow Tech parallel port dongle PCB, front view showing the custom IC with deliberately ground-off part numbers (Wikipedia: CC BY-SA 4.0)."
+      },
+      {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/7/7a/Parallel-Port-Dongle-Back.jpg",
+        "alt": "A Rainbow Tech parallel port dongle PCB, back side showing the pass-through DB-25 connector.",
+        "caption": "Rainbow Tech parallel port dongle PCB, back view showing the printer pass-through connector (Wikipedia: CC BY-SA 4.0)."
+      },
+      {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/0/0d/Parallel-port-dongle.jpg",
+        "alt": "Daisy-chained parallel port copy protection dongles — multiple dongles stacked together.",
+        "caption": "Multiple parallel-port dongles daisy-chained — one per protected software application (Wikipedia: CC BY-SA 4.0)."
+      }
+    ],
+    "sources": [
+      {
+        "text": "Wikipedia: Software protection dongle",
+        "url": "https://en.wikipedia.org/wiki/Software_protection_dongle"
+      },
+      {
+        "text": "Wikipedia: SafeNet (redirect from Rainbow Technologies)",
+        "url": "https://en.wikipedia.org/wiki/Rainbow_Technologies"
+      },
+      {
+        "text": "Wikipedia: Dongle (etymology and examples)",
+        "url": "https://en.wikipedia.org/wiki/Dongle"
+      },
+      {
+        "text": "BYTE Magazine, July 1988: Jerry Pournelle column 'Dr. Pournelle vs. The Virus', pp. 197–207",
+        "url": "https://archive.org/details/byte-1988-07_202104/page/197/mode/1up?view=theater"
+      },
+      {
+        "text": "BYTE Magazine, August 1992: Rainbow Technologies ad claiming 'Don Gall' origin of the word dongle, p. 133",
+        "url": "https://archive.org/details/byte-magazine-1992-08/page/n147/mode/2up"
+      },
+      {
+        "text": "SafeNet, Inc. Announces Close of Merger with Rainbow Technologies (March 14, 2004)",
+        "url": "https://www.bizjournals.com/baltimore/stories/2004/03/15/daily15.html"
+      }
+    ],
+    "imageUrls": [
+      "https://upload.wikimedia.org/wikipedia/commons/b/b8/Parallel-Port-Dongle-Front.jpg",
+      "https://upload.wikimedia.org/wikipedia/commons/7/7a/Parallel-Port-Dongle-Back.jpg",
+      "https://upload.wikimedia.org/wikipedia/commons/0/0d/Parallel-port-dongle.jpg"
+    ]
+  },
+  "savedImages": []
+}

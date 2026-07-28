@@ -1,0 +1,61 @@
+{
+  "slug": "ti-silent-700",
+  "title": "Texas Instruments Silent 700 Model 745",
+  "year": "1975",
+  "subtitle": "A complete computer terminal in a briefcase — with a telephone handset as its network port",
+  "why_scout_cares": "The Silent 700 was a self-contained portable terminal: keyboard, thermal printer, and acoustic coupler in a single 13-pound briefcase. To go online, you opened the lid, dialed a number on a standard telephone, and when you heard the carrier tone, you pressed the handset into the molded rubber cups built into the terminal's case. The terminal printed received data in near-silence on heat-sensitive paper at 30 characters per second — no CRT, no separate modem, no external cables except a power cord. Field engineers, journalists, and early CompuServe subscribers used it as their window into remote mainframes and time-sharing systems. It represented a moment when 'going online' was a physical ritual involving acoustic handshakes and thermal paper, before networking became invisible.",
+  "search_terms": ["TI Silent 700", "Texas Instruments Silent 700", "Silent 700 Model 745", "portable thermal terminal", "acoustic coupler terminal"],
+  "research": {
+    "title": "Texas Instruments Silent 700 Model 745",
+    "year": "1975",
+    "by": "Texas Instruments",
+    "tags": ["HCI", "Terminal", "Portable Computing", "Telecommunications", "Thermal Printing", "Acoustic Coupler"],
+    "overview": "The Texas Instruments Silent 700 was a family of portable data terminals introduced in 1971, with the Model 745 (introduced in late 1975) becoming the definitive version. Encased in a briefcase-style chassis weighing approximately 13 pounds, it integrated a full keyboard, a 30-character-per-second thermal printer, and an acoustic coupler into a single self-contained device. Built around TI's own TMS 9900 microprocessor, the acoustic coupler was built into the lid: two molded rubber cups designed to accept a standard telephone handset. The user dialed a number manually on the telephone, listened for the remote modem's carrier tone, and pressed the handset into the cups — establishing a data connection through sound alone. Baud rates were switch-selectable at 110, 150, or 300 baud. The thermal printer used heat-sensitive paper rolls, producing 5×7 dot-matrix characters in near-total silence (hence the name). Announced in Computerworld on January 18, 1976 at $1,995, the Model 745 was widely used by field service engineers, journalists filing stories from the road, and early adopters of online services like CompuServe and The Source.",
+    "deepDive": [
+      {
+        "heading": "Origins",
+        "text": "Texas Instruments introduced the Silent 700 series in 1971 with the Model 725 as one of the first models. The line was developed by TI's Terminal Products division, which had expertise in thermal printing technology from its work on calculators and data terminals. The breakthrough was the thermal printhead: a row of tiny heating elements that selectively heated chemically-coated paper, producing 5×7 dot-matrix characters without impact and therefore in near-silence. This was a significant advance over the clattering Teletype machines that dominated the terminal market. The Model 745, introduced in late 1975, added the TMS 9900 microprocessor for control, faster printing (30 characters per second at 300 baud), and the integrated acoustic coupler that made it a truly portable, self-contained terminal. The briefcase form factor — open the lid to reveal keyboard and printer, with the rubber coupler cups visible in the lid — became iconic."
+      },
+      {
+        "heading": "The Acoustic Coupler Ritual",
+        "text": "Using the Silent 700 required a specific physical sequence that defined the experience of 'going online' in the 1970s. First, the user opened the briefcase to reveal the keyboard and printer mechanism. A standard telephone — provided by the user, not TI — was placed nearby. The user dialed the remote computer's number on the telephone and waited, listening through the handset for the characteristic carrier tone. When the tone was heard, the user placed the telephone handset into the two rubber cups built into the terminal's lid — the earpiece into one cup, the mouthpiece into the other. These cups contained a microphone (to receive data from the remote computer) and a speaker (to transmit data), converting the audio tones to and from electrical signals that the terminal's modem circuitry could process. If the connection dropped, the user had to pick up the handset, dial again, and repeat the entire physical ritual. This was computing as a hands-on, acoustic, physical experience — every connection demanded the user's active participation."
+      },
+      {
+        "heading": "Thermal Paper as Ephemeral Output",
+        "text": "The Silent 700 produced all output on rolls of heat-sensitive thermal paper — the same technology used in early fax machines and receipt printers. This output medium had a distinctive physical character: glossy, chemically coated paper that curled tightly at the edges and was highly sensitive to heat and light. A printed page left in sunlight would darken and become illegible within hours. Users learned to photocopy important documents onto plain paper immediately. This created a unique interaction pattern: the terminal's output was inherently ephemeral, forcing users to make explicit decisions about what was worth preserving. The paper also had a distinctive smell — a faint chemical scent from the coating — and made a soft crackling sound as it passed over the heated printhead. The name 'Silent' referred to the lack of impact noise from hammering type elements, but the device was not truly silent: the paper advance motor produced a soft whir, and the thermal paper made a gentle hissing sound during printing."
+      },
+      {
+        "heading": "Who Used It",
+        "text": "The Silent 700 was the go-to portable terminal for several distinct communities. Field service engineers for companies like IBM, DEC, and HP used it to access diagnostic systems at customer sites. Journalists covering political conventions, disasters, and sporting events filed stories remotely by connecting to their newsroom's mainframe. Sales representatives checked inventory and entered orders from hotel rooms. And crucially, the Silent 700 was one of the terminals that early microcomputer enthusiasts used to access CompuServe (founded 1969 as Compu-Serv Network) and The Source (founded 1979) — the first consumer online services. The Model 745 could also reportedly operate from a car cigarette lighter with an adapter, making it genuinely usable anywhere with a telephone line. TI produced the Silent 700 line through the mid-1980s, with later 780-series models using a two-character-wide thermal head to reach 120 characters per second for 1200 baud connections. But the Model 745 — with its built-in acoustic coupler and thermal printer — represents the purest expression of the briefcase-terminal concept."
+      },
+      {
+        "heading": "Legacy",
+        "text": "The Silent 700 represents a transitional moment in computing interaction: after the room-sized mainframe but before the desktop PC, when 'portable computing' meant carrying a 13-pound briefcase that turned any telephone into a computer terminal. The acoustic coupler ritual — dial, listen, press handset into cups — was the defining physical gesture of early online access. The Silent 700's integration of keyboard, printer, and modem into one unit anticipated the all-in-one design philosophy of laptops and tablets. And its thermal printer's ephemeral output prefigured a property that would later become central to digital communication: impermanence. Today, when every smartphone is a terminal, the Silent 700 reminds us that 'going online' was once a physical ceremony involving rubber cups, heat-sensitive paper, and the sound of data traveling through a telephone handset."
+      }
+    ],
+    "team": [
+      {"name": "Texas Instruments, Terminal Products Division", "note": "Developed and manufactured the Silent 700 series from 1971 through the mid-1980s; leveraged TI's thermal printing expertise from calculator manufacturing and the TMS 9900 microprocessor"}
+    ],
+    "media": [
+      {"src": "https://upload.wikimedia.org/wikipedia/commons/2/28/Silent-700.jpg", "alt": "TI Silent 700 terminal with lid open, showing keyboard, thermal printer paper path, and acoustic coupler cups in the lid", "caption": "TI Silent 700 Model 745 portable terminal with lid open, showing the keyboard, thermal printer mechanism, and the acoustic coupler rubber cups built into the lid (Wikimedia Commons, public domain)"},
+      {"src": "https://upload.wikimedia.org/wikipedia/commons/f/f0/TI-Silent-700-745-Case-Front.JPG", "alt": "Front view of the TI Silent 700 Model 745 case showing branding and briefcase-style exterior", "caption": "Front view of the TI Silent 700 Model 745 case — a 13-pound briefcase containing a complete self-contained computer terminal (Wikimedia Commons, CC BY-SA 4.0)"},
+      {"src": "https://upload.wikimedia.org/wikipedia/commons/0/07/TI-Silent-700-745-Rear-View.JPG", "alt": "Rear view of the TI Silent 700 Model 745 showing I/O ports, power connector, and acoustic coupler compartment", "caption": "Rear view of the TI Silent 700 Model 745 showing the interface ports and acoustic coupler housing (Wikimedia Commons, CC BY-SA 4.0)"},
+      {"src": "https://upload.wikimedia.org/wikipedia/commons/f/fe/TI-Silent-700-745-Switches.JPG", "alt": "Detail of the baud rate selector switches and configuration controls on the TI Silent 700 Model 745", "caption": "Detail of the baud rate selector switches — offering 110, 150, or 300 baud (10, 15, or 30 characters per second) — and configuration controls on the TI Silent 700 Model 745 (Wikimedia Commons, CC BY-SA 4.0)"}
+    ],
+    "sources": [
+      {"text": "Wikipedia: Silent 700", "url": "https://en.wikipedia.org/wiki/Silent_700"},
+      {"text": "Wikimedia Commons: Category Texas Instruments Silent 700 (10+ images)", "url": "https://commons.wikimedia.org/wiki/Category:Texas_Instruments_Silent_700"},
+      {"text": "Computer History Museum: TI Silent 700 terminal (physical object, catalog X1612.99)", "url": "https://www.computerhistory.org/collections/catalog/X1612.99"},
+      {"text": "Computer History Museum: Silent 700 Electronic Data Terminals brochure, January 1976 (catalog 102646198)", "url": "https://www.computerhistory.org/collections/catalog/102646198"},
+      {"text": "Terminal Wiki: TI Silent 700 Model 745", "url": "https://terminals-wiki.org/wiki/index.php/TI_Silent_700_Model_745"},
+      {"text": "Computerworld: 'Micro-Based, 13-Lb Model 745 Extends TI Line', January 19, 1976, p. 24 (introduction announcement at $1,995)", "url": "https://books.google.com/books?id=Uy7sCK_QJ9QC&lpg=PT24&pg=PT24"}
+    ],
+    "imageUrls": [
+      "https://commons.wikimedia.org/wiki/File:Silent-700.jpg",
+      "https://commons.wikimedia.org/wiki/File:TI-Silent-700-745-Case-Front.JPG",
+      "https://commons.wikimedia.org/wiki/File:TI-Silent-700-745-Rear-View.JPG",
+      "https://commons.wikimedia.org/wiki/File:TI-Silent-700-745-Switches.JPG"
+    ]
+  },
+  "savedImages": []
+}
