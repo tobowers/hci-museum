@@ -46,7 +46,7 @@ jobs:
       SCOUT_AGENT_TIMEOUT_MS: ${{ inputs.agent_timeout_ms || '600000' }}
     steps:
       - name: Checkout
-        uses: actions/checkout@v4
+        uses: actions/checkout@v5
 
       - name: Setup Bun
         uses: oven-sh/setup-bun@v2
@@ -217,6 +217,7 @@ jobs:
             .github
             assets
             docs
+            bun.lock
             package.json
             scripts
             src

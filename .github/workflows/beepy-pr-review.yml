@@ -18,8 +18,8 @@ on:
         required: false
 
 concurrency:
-  group: beepy-pr-review-${{ github.event.pull_request.number }}
-  cancel-in-progress: true
+  group: beepy-pr-review-${{ github.event.pull_request.number || 'queue' }}
+  cancel-in-progress: ${{ github.event_name == 'pull_request_target' }}
 
 jobs:
   review:
@@ -39,7 +39,7 @@ jobs:
       PR_HEAD_REPO: ${{ github.event.pull_request.head.repo.full_name }}
     steps:
       - name: Checkout PR branch
-        uses: actions/checkout@v4
+        uses: actions/checkout@v5
         with:
           repository: ${{ github.event.pull_request.head.repo.full_name }}
           ref: ${{ github.event.pull_request.head.ref }}
@@ -85,7 +85,7 @@ jobs:
       GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
     steps:
       - name: Checkout repository
-        uses: actions/checkout@v4
+        uses: actions/checkout@v5
         with:
           fetch-depth: 0
           token: ${{ secrets.GITHUB_TOKEN }}

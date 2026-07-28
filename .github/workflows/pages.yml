@@ -11,7 +11,7 @@ permissions:
 
 concurrency:
   group: pages
-  cancel-in-progress: true
+  cancel-in-progress: false
 
 jobs:
   deploy:
@@ -19,7 +19,7 @@ jobs:
     timeout-minutes: 30
     steps:
       - name: Checkout
-        uses: actions/checkout@v4
+        uses: actions/checkout@v5
 
       - name: Setup Bun
         uses: oven-sh/setup-bun@v2
@@ -39,6 +39,7 @@ jobs:
         run: bun run smoke:browser
 
       - name: Publish site
+        id: publish
         uses: peaceiris/actions-gh-pages@v4
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
@@ -47,6 +48,7 @@ jobs:
           cname: interfacemuseum.com
 
       - name: Remove deployed Pages artifact
+        if: ${{ always() && steps.publish.outcome == 'success' }}
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
@@ -70,12 +72,12 @@ jobs:
             sleep 5
           done
 
-          if [ -z "$pages_run_id" ] || [ "$pages_status" != "completed" ] || [ "$pages_conclusion" != "success" ]; then
-            echo "Pages deployment did not complete successfully for $published_sha."
+          if [ -z "$pages_run_id" ] || [ "$pages_status" != "completed" ]; then
+            echo "Pages deployment did not complete for $published_sha."
             exit 1
           fi
 
-          artifacts_json="$(gh api "repos/$GITHUB_REPOSITORY/actions/runs/$pages_run_id/artifacts" 2>/dev/null || true)"
+          artifacts_json="$(gh api "repos/$GITHUB_REPOSITORY/actions/runs/$pages_run_id/artifacts")"
           artifact_ids="$(jq -r '.artifacts[]?.id' <<< "$artifacts_json")"
           for artifact_id in $artifact_ids; do
             deleted=false
@@ -91,3 +93,8 @@ jobs:
               exit 1
             fi
           done
+
+          if [ "$pages_conclusion" != "success" ]; then
+            echo "Pages deployment did not succeed for $published_sha."
+            exit 1
+          fi
