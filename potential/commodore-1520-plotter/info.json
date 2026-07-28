@@ -1,0 +1,141 @@
+{
+  "slug": "commodore-1520-plotter",
+  "title": "Commodore 1520 / Atari 1020 Printer Plotter",
+  "year": "1983",
+  "subtitle": "A miniature four-color mechanical drawing machine that made physical output a spectacle",
+  "why_scout_cares": "A tiny drum plotter using 4.5-inch roll paper, a four-pen rotating turret, and solenoid-driven pen lifts. The audible, visible choreography — paper whipping back and forth, turret clicking between colors, solenoid hammering the pen onto paper — made computer output into a desk-side performance. The ALPS DPG1302 mechanism was rebadged by Commodore, Atari, Tandy, Sharp, Oric, Mattel, and Texas Instruments, making it the most distributed pen plotter of the home computer era.",
+  "search_terms": ["Commodore 1520 plotter", "Atari 1020 plotter", "ALPS DPG1302", "miniature pen plotter", "home computer plotter 1983"],
+  "research": {
+    "title": "Commodore 1520 / Atari 1020 Printer Plotter",
+    "year": "1983",
+    "by": "ALPS Electric Co., Ltd. (mechanism); Commodore, Atari, Tandy, Sharp, Oric, Mattel, Texas Instruments (rebadging)",
+    "tags": ["HCI", "Output", "Plotter", "Physical Computing", "Drawing Machine"],
+    "overview": "The Commodore 1520 (also sold as the Atari 1020, Tandy CGP-115, Oric MCP40, Sharp CE-150, Mattel Aquarius 4615, and Texas Instruments HX-1000) is a miniature color pen plotter built around the ALPS DPG1302 mechanism. Using a 4.5-inch (114 mm) roll of paper, a four-pen rotating turret, and stepper motors driving both paper feed and pen carriage, it produced multicolor vector graphics with a distinctive 'hand-drawn' aesthetic at a resolution of approximately 0.2 mm per step. Text was drawn character by character — the plotter literally 'wrote' each letter, albeit slowly, making the machine look like a mechanical calligrapher. Priced at $199–$299 in 1983, it was the cheapest color output device available for any home computer, and watching it work — the paper shuttling back and forth, the turret audibly clicking between colors, the solenoid hammering the pen down — made computer output into a small-scale mechanical performance.",
+    "deepDive": [
+      {
+        "heading": "Origins: ALPS Electric and the DPG1302",
+        "text": "The DPG1302 mechanism was designed and manufactured by ALPS Electric Co., Ltd. of Japan — the same company that produced floppy disk drives, printer mechanisms, and electronic switches for the global electronics industry. Rather than selling directly to consumers, ALPS licensed the mechanism to multiple computer manufacturers who packaged it with their own branding and interface electronics. Commodore's version (1520 / VC-1520) connected via the IEC serial bus shared with the 1541 disk drive. The Atari 1020 used Atari's proprietary SIO port, daisy-chaining directly into disk drive ports. The Tandy CGP-115 used the Color Computer's serial port. The TI HX-1000 connected via TI's Hex-Bus interface. This multi-vendor strategy made the DPG1302 the most widely distributed pen plotter in home computing history."
+      },
+      {
+        "heading": "How It Worked: The Mechanical Spectacle",
+        "text": "Unlike silent thermal or impact dot-matrix printers, the ALPS plotter was an audiovisual event. Three stepper motors operated simultaneously: one advanced the roll paper through a rubber-coated friction drum (Y-axis, continuous feed in both directions), one shuttled the lightweight pen carriage along a round rail (X-axis, 480 discrete positions), and a third indexed the four-pen turret between colors. A solenoid-driven pen lift mechanism produced a sharp 'thwack' each time a pen touched or lifted from the paper. The paper could whip back and forth at surprising speed, and the four-pen turret rotated with audible mechanical clicks. Dotted and dashed line styles (1–15) were possible through programmed pen lift patterns. Because it drew in vectors rather than raster lines, the plotter produced a distinctive hand-drawn aesthetic with slightly wavering lines and visible pen-start/stop artifacts — a look impossible to achieve with any other output device. The COMPUTE! magazine reviewer in May 1983 described text printing as 'the patience of a monk—tediously but precisely, the plotter scrolls the paper back and forth under the pen to carefully scribe each letter.'"
+      },
+      {
+        "heading": "Interaction Model: Loading, Commanding, Watching",
+        "text": "Using the plotter required a different mental model from using a printer. The user had to thread 4.5-inch roll paper through the friction drum, insert four miniature ballpoint pens (standard: black, red, blue, green; eight additional colors were also available) into the spring-loaded rotating turret, and send plot commands from their computer. Topside buttons provided manual paper feed, pen color selection, and pen change. Each pen had a finite ink supply and could dry out between uses — pen caps were essential for storage. The plotter was slow — a complex drawing could take 10–20 minutes — but the process of watching shapes emerge line by line, color by color, became part of the appeal. Text modes offered 20, 40, or 80 columns; text could be rotated in 90° increments. The graphics coordinate system provided 480 steps horizontally (X: 0 to 480) and, on the Atari 1020, Y coordinates from -999 to 999. Commands included DRAW (pen down and move), MOVE (pen up and move), HOME (return carriage), color selection (C0–C3), and line style (L0–L15). Software like KoalaPainter (via Koala Pad), AtariArtist, commercial charting packages, and custom BASIC programs could drive the plotter to produce small graphs, logos, banners, and decorative illustrations."
+      },
+      {
+        "heading": "The Rebadged Variants",
+        "text": "The ALPS DPG1302 mechanism appeared under at least eight different brandings: Commodore 1520 / VC-1520 (IEC serial bus, for VIC-20 and C64, $199.95), Atari 1020 (SIO port, for Atari 400/800/XL/XE, $299), Tandy/Radio Shack CGP-115 (Color Computer serial, $249.95), Texas Instruments HX-1000 (Hex-Bus, portable with 2.25-inch paper, 5×AA batteries, $199.95), Oric MCP40 (for Oric-1 and Oric Atmos), Sharp CE-150 (for Sharp PC-1500 pocket computer), and Mattel Aquarius 4615. All shared the same core drawing mechanism — a rotating four-pen turret and bidirectional friction paper feed — but differed in interface electronics, case styling, and power supply. The TI HX-1000 was notably smaller and portable, using narrower 2.25-inch paper and capable of running on AA batteries. By 1985–86, the Atari 1020 was being cleared for under $50, according to contemporary ANTIC magazine coverage."
+      },
+      {
+        "heading": "Specifications at a Glance",
+        "text": "Mechanism: ALPS DPG1302. Paper width: 4.5 inches (114 mm) on roll, friction-fed (TI HX-1000: 2.25 inches). Pens: 4 in rotating spring-loaded turret (black, blue, green, red standard). Resolution: ~0.2 mm per step, 480 steps horizontal. Text speed: ~10–12 characters per second. Text modes: 20, 40, 80 columns; rotatable in 90° increments. Graphics: vector-based with 15 selectable line styles. Dimensions: approximately 270 × 160 × 65 mm. Interface: varies by rebadge — IEC serial (Commodore), SIO (Atari), proprietary serial (Tandy), Hex-Bus (TI). Power: external AC adapter (TI version: 5×AA batteries or AC adapter). Price at launch: $199–$299 depending on variant."
+      },
+      {
+        "heading": "Legacy",
+        "text": "The ALPS DPG1302 represents a brief, extraordinary moment when mechanical drawing was a viable consumer output technology. Within a few years, inkjet printers rendered pen plotters obsolete for home use (though large-format pen plotters persisted in CAD and engineering into the 1990s). The mechanism's widespread rebadging means surviving units are relatively common among vintage computer collectors, and the Atari 1020 variant in particular is extraordinarily well-documented on Wikimedia Commons with 14 high-quality photographs showing every angle, the internal mechanism, and example printouts. The Commodore 1520 category on Commons contains 3 photographs, all public domain. For HCI researchers, the DPG1302 is a case study in physical output as performance: the machine's slowness and audibility, rather than being flaws, transformed computer output from an instantaneous, invisible act into a watchable, listenable mechanical ceremony."
+      }
+    ],
+    "team": [
+      {
+        "name": "ALPS Electric Co., Ltd.",
+        "note": "Japanese manufacturer of the DPG1302 plotter mechanism. Also known for floppy disk drives, printer mechanisms, and electronic switches and potentiometers for the global electronics industry."
+      },
+      {
+        "name": "Commodore International",
+        "note": "Rebadged as Commodore 1520 / VC-1520 for VIC-20 and Commodore 64. Used IEC serial bus interface; daisy-chainable with disk drives. Announced at Winter CES 1983, priced at $199.95."
+      },
+      {
+        "name": "Atari Inc.",
+        "note": "Rebadged as Atari 1020 for Atari 400/800/XL/XE 8-bit computers. Used proprietary SIO interface, daisy-chaining directly into disk drive ports. Priced at $299 at launch, later cleared for under $50."
+      },
+      {
+        "name": "Tandy / RadioShack",
+        "note": "Rebadged as Tandy CGP-115 Color Graphics Printer for TRS-80 Color Computer. Priced at $249.95."
+      },
+      {
+        "name": "Texas Instruments",
+        "note": "Rebadged as HX-1000 Printer/Plotter for TI-99/4A (via Hex-Bus Interface, $59.95 extra) and TI-99/2. Portable variant using 2.25-inch paper and 5×AA batteries. Priced at $199.95."
+      },
+      {
+        "name": "Oric Products International",
+        "note": "Rebadged as Oric MCP40 for Oric-1 and Oric Atmos computers."
+      },
+      {
+        "name": "Sharp Corporation",
+        "note": "Rebadged as Sharp CE-150 for the Sharp PC-1500 pocket computer."
+      },
+      {
+        "name": "Mattel Electronics",
+        "note": "Rebadged as Mattel Aquarius 4615 for the Mattel Aquarius home computer."
+      }
+    ],
+    "media": [
+      {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/7/79/Commodore_1520_printer_plotter_%28adjusted%29.jpg",
+        "alt": "Commodore 1520 printer plotter with paper loaded and pens inserted in the four-color turret",
+        "caption": "Commodore 1520 (VC-1520) printer plotter. The four-pen rotating turret is visible through the clear cover. Public domain (Wikimedia Commons)."
+      },
+      {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/4/48/Atari_1020_plotter.jpg",
+        "alt": "Atari 1020 four-color printer plotter, front view with Atari branding",
+        "caption": "Atari 1020 plotter — the most photographically documented variant. CC BY-SA 4.0, Multicherry (Wikimedia Commons)."
+      },
+      {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/f/f0/Atari_1020_plotter_%28top_view_with_cover_off%29.jpg",
+        "alt": "Atari 1020 plotter with cover removed, showing the pen carriage mechanism, turret, and paper drum",
+        "caption": "Atari 1020 with cover removed, revealing the four-pen turret, solenoid pen-lift mechanism, and friction paper drum. CC BY-SA 4.0, Multicherry (Wikimedia Commons)."
+      },
+      {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/c/c7/Atari_1020_Plotter_Example_Printout.jpg",
+        "alt": "Composite of multicolor vector graphics printouts on 4.5-inch roll paper, demonstrating the plotter's hand-drawn aesthetic",
+        "caption": "Example printouts from an Atari 1020 showing multicolor vector graphics, text in multiple sizes and rotations, and the distinctive hand-drawn line quality. CC0 / public domain dedication, Multicherry (Wikimedia Commons)."
+      }
+    ],
+    "sources": [
+      {
+        "text": "Wikipedia: Atari 1020",
+        "url": "https://en.wikipedia.org/wiki/Atari_1020"
+      },
+      {
+        "text": "COMPUTE! Magazine Issue 36, May 1983: The New Low-Cost Printer/Plotters (Tom R. Halfhill)",
+        "url": "https://archive.org/details/1983-05-compute-magazine/page/20/mode/2up"
+      },
+      {
+        "text": "ANTIC Magazine Vol. 4 No. 10, February 1986: Mastering the Atari 1020 Plotter (Kris Cruz)",
+        "url": "https://www.atarimagazines.com/v4n10/atari1020plotter.html"
+      },
+      {
+        "text": "Hexbus.com: TI HX-1000 Printer/Plotter (ALPS DPG1302 variants list)",
+        "url": "http://www.hexbus.com/TI-99_4A_Home_Computer_Page/Hexbus_HX-1000_Printer_Plotter.html"
+      },
+      {
+        "text": "Wikipedia: Commodore 64 Peripherals (1520 Plotter section)",
+        "url": "https://en.wikipedia.org/wiki/Commodore_64_peripherals#Plotter"
+      },
+      {
+        "text": "Atari 8-Bit FAQ: What are the Atari 1020, 1025, 1027, and 1029 Printers?",
+        "url": "http://www.faqs.org/faqs/atari-8-bit/faq/section-32.html"
+      },
+      {
+        "text": "Wikimedia Commons: Category:Atari 1020 (14 CC-licensed images)",
+        "url": "https://commons.wikimedia.org/wiki/Category:Atari_1020"
+      },
+      {
+        "text": "Wikimedia Commons: Category:Commodore 1520 (3 public domain images)",
+        "url": "https://commons.wikimedia.org/wiki/Category:Commodore_1520"
+      }
+    ],
+    "imageUrls": [
+      "https://upload.wikimedia.org/wikipedia/commons/7/79/Commodore_1520_printer_plotter_%28adjusted%29.jpg",
+      "https://upload.wikimedia.org/wikipedia/commons/4/48/Atari_1020_plotter.jpg",
+      "https://upload.wikimedia.org/wikipedia/commons/f/f0/Atari_1020_plotter_%28top_view_with_cover_off%29.jpg",
+      "https://upload.wikimedia.org/wikipedia/commons/c/c7/Atari_1020_Plotter_Example_Printout.jpg",
+      "https://upload.wikimedia.org/wikipedia/commons/c/c3/Cbm1520-2.jpg",
+      "https://upload.wikimedia.org/wikipedia/commons/2/28/Atari_1020_plotter_transp.png",
+      "https://upload.wikimedia.org/wikipedia/commons/5/56/Atari_1020_plotter_%28angle%29_%28shadow%29_%28xparent_bg%29.png"
+    ]
+  },
+  "savedImages": []
+}

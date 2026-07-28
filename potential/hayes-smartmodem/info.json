@@ -1,0 +1,56 @@
+{
+  "slug": "hayes-smartmodem",
+  "title": "Hayes Smartmodem 300",
+  "year": "1981",
+  "subtitle": "The modem that taught computers to dial the phone — and created the language every modem still speaks",
+  "why_scout_cares": "Before the Hayes Smartmodem, using a modem meant manually dialing a phone, listening for the carrier tone, and pressing the handset into rubber acoustic cups. The Smartmodem replaced this entire ritual with a single command: ATDT. The Hayes AT command set — strings like ATDT5551212 sent from the computer over RS-232 — became the universal language of modem control, turning the telephone network into a programmable computer peripheral. The internal speaker let users hear the negotiation tones as audio feedback, and the +++ escape sequence (with guard-time pauses) allowed switching between data and command modes without hanging up. Within two years of launch, Hayes was selling 140,000 modems annually, and the BBS revolution had its standard-bearer.",
+  "search_terms": ["Hayes Smartmodem 300", "Hayes AT command set", "Hayes Microcomputer Products", "Dennis Hayes", "Dale Heatherington", "Smartmodem 1981"],
+  "research": {
+    "title": "Hayes Smartmodem 300",
+    "year": "1981",
+    "by": "Hayes Microcomputer Products (Dennis Hayes and Dale Heatherington)",
+    "tags": ["HCI", "Modem", "Telephony", "Networking", "Telecommunications"],
+    "overview": "The Hayes Smartmodem 300, introduced in April 1981, was the first modem that could be fully controlled by the computer it was connected to, eliminating the need for manual telephone operation. Housed in the distinctive extruded aluminum 'Hayes Stack' case sized to sit beneath a desktop telephone, it connected to the computer via RS-232 and to the phone line via RJ-11 jack. Its revolutionary AT command set allowed software to dial numbers (ATDT), answer calls (ATA), and hang up (ATH) — transforming the telephone from a human-operated voice device into a fully programmable computer peripheral. The Smartmodem also introduced the +++ escape sequence, enabling in-band switching between data and command modes, and included a speaker with volume control so users could hear the modem tones as auditory confirmation of connection status. Priced at $279, it used a Zilog Z8 microcontroller running at 8 MHz to interpret commands from the host computer.",
+    "deepDive": [
+      {
+        "heading": "Origins",
+        "text": "Dennis Hayes and Dale Heatherington met at National Data Corporation in Atlanta, where they worked on modem technology for electronic money transfers and credit card authorizations. They founded D.C. Hayes Associates in January 1978 with a $5,000 investment, initially selling the Hayes 80-103A modem board for S-100 bus computers — hand-assembled on Hayes's dining room table. The company renamed to Hayes Microcomputer Products in 1980. The breakthrough came in April 1981 with the Smartmodem 300, the first external modem with a built-in microcontroller (a Zilog Z8) that could interpret commands from the host computer. The extruded aluminum case — the 'Hayes Stack' — was sized to allow a standard desktop telephone to rest on top. Within two years, Hayes was selling 140,000 modems annually with $12 million in yearly sales."
+      },
+      {
+        "heading": "The AT Command Set",
+        "text": "The AT (ATtention) command set was the Smartmodem's most enduring contribution. Every command began with the characters 'AT' followed by one or more command characters and ended with a carriage return. Heatherington chose 'AT' because it was a recognizable character pair that let the modem auto-detect the host computer's serial port speed. ATDT5551212 meant 'dial the number 555-1212 using touch-tones.' ATDP used pulse dialing. ATA answered an incoming call. ATH hung up. The +++ escape sequence — three plus signs with a one-second guard-time pause before and after — switched the modem from data mode back to command mode without disconnecting, a critical feature that allowed software to change modem settings mid-connection. Heatherington arrived at this design after six months of struggling with an underpowered PIC microcontroller; switching to an 8 MHz Zilog Z8 solved the problem. The AT command set became the industry standard, implemented (with various extensions) by essentially every modem manufactured from 1981 through the end of the dial-up era."
+      },
+      {
+        "heading": "Interaction Model",
+        "text": "The Smartmodem transformed the user experience of going online. Previously, a user had to: pick up the phone handset, dial the number manually, listen for the carrier tone (a high-pitched screech), press the handset into rubber acoustic coupler cups, and then — and only then — start using their terminal software. If the connection dropped, they had to repeat the entire physical sequence. The Smartmodem reduced this to a single software action: the user typed a command or selected a phonebook entry, and the modem did the rest. The built-in speaker provided crucial audio feedback — users could hear the dial tone, the DTMF digits being sent, the remote modem's answer tone, and the negotiation handshake — without having to pick up a physical handset. This audio feedback solved the 'black box' problem of earlier direct-connect modems that provided no indication of what was happening on the line."
+      },
+      {
+        "heading": "Legacy",
+        "text": "The Hayes Smartmodem 300 created the BBS revolution. Before 1981, running a bulletin board system required specialized hardware and deep technical knowledge. The Smartmodem made it practical for hobbyists: connect it to your computer, write (or download) BBS software that speaks AT commands, and leave a phone line connected overnight. At Spring Comdex 1982, Hayes introduced the Smartmodem 1200 at $699, adding 1200 baud support. The Hayes-compatible modem market exploded, with dozens of manufacturers reverse-engineering the AT command set. By the late 1980s, 'Hayes-compatible' was a mandatory feature for any PC modem. Heatherington retired in 1985 at age 37, selling his stake for approximately $20 million. Dennis Hayes became a multimillionaire, and the company's rise and fall — from startup to billion-dollar public company to Chapter 11 bankruptcy in 1994 and again in 1998, followed by liquidation in 1999 — mirrored the arc of the dial-up modem industry itself."
+      }
+    ],
+    "team": [
+      {"name": "Dennis C. Hayes", "note": "Co-founder of Hayes Microcomputer Products in 1978; conceived the Smartmodem and AT command set; left Georgia Tech to work at National Data Corp before starting the company on his dining room table with a $5,000 investment"},
+      {"name": "Dale Heatherington", "note": "Co-founder and lead engineer; designed the Smartmodem hardware and the +++ escape sequence with guard-time mechanism; retired in 1985 at age 37 after selling his stake for approximately $20 million"}
+    ],
+    "media": [
+      {"src": "https://upload.wikimedia.org/wikipedia/commons/8/84/Hayes_Smartmodem_1982_%282%29.jpg", "alt": "Hayes Smartmodem 300 in its aluminum case, angled front view showing status LEDs and speaker grille", "caption": "Hayes Smartmodem 300 showing the extruded aluminum 'Hayes Stack' case with LED status indicators and speaker grille (Wikimedia Commons, CC-BY-SA 4.0, photo by Aeroid)"},
+      {"src": "https://upload.wikimedia.org/wikipedia/commons/3/3f/Hayes_Smartmodem_1982_%285%29.jpg", "alt": "Rear panel of the Hayes Smartmodem showing DB-25 RS-232 port, RJ-11 phone jack, power connector, and manual volume control", "caption": "Rear view of the Hayes Smartmodem 300 showing the DB-25 RS-232 serial port, RJ-11 telephone line jack, power connector, and volume knob (Wikimedia Commons, CC-BY-SA 4.0, photo by Aeroid)"},
+      {"src": "https://upload.wikimedia.org/wikipedia/commons/c/c6/Hayes_Smartmodem_1982_%286%29.jpg", "alt": "End profile of the Hayes Smartmodem showing the extruded aluminum casing and accessible front DIP switch configuration block", "caption": "Hayes Smartmodem 300 profile view, showing the iconic aluminum extrusion design with slide-out circuit board and front-mounted DIP switch block for configuration (Wikimedia Commons, CC-BY-SA 4.0, photo by Aeroid)"}
+    ],
+    "sources": [
+      {"text": "Wikipedia: Hayes Microcomputer Products", "url": "https://en.wikipedia.org/wiki/Hayes_Microcomputer_Products"},
+      {"text": "Wikipedia: Hayes command set", "url": "https://en.wikipedia.org/wiki/Hayes_command_set"},
+      {"text": "Wikipedia: Dale Heatherington", "url": "https://en.wikipedia.org/wiki/Dale_Heatherington"},
+      {"text": "Wikipedia: Dennis Hayes (businessman)", "url": "https://en.wikipedia.org/wiki/Dennis_Hayes_(businessman)"},
+      {"text": "NYT/IHT: The Rise and Fall of the Modem King (Victoria Shannon, Jan. 1999)", "url": "https://web.archive.org/web/20191217114803/https://www.nytimes.com/1999/01/07/news/the-rise-and-fall-of-the-modem-king.html"},
+      {"text": "Hayes Smartmodem on Wikimedia Commons (11 CC-BY-SA 4.0 images by Aeroid)", "url": "https://commons.wikimedia.org/wiki/Category:Hayes_Smartmodem"}
+    ],
+    "imageUrls": [
+      "https://commons.wikimedia.org/wiki/File:Hayes_Smartmodem_1982_(2).jpg",
+      "https://commons.wikimedia.org/wiki/File:Hayes_Smartmodem_1982_(5).jpg",
+      "https://commons.wikimedia.org/wiki/File:Hayes_Smartmodem_1982_(6).jpg"
+    ]
+  },
+  "savedImages": []
+}

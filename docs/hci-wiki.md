@@ -1,6 +1,6 @@
 # The HCI Golden Age Wiki
 
-A research compendium for a digital museum of cutting-edge Human-Computer Interaction from the late 1970s through the early 1990s. These one hundred and twenty-eight projects mix canonical experiments with weird, forgotten, and beautiful vaporware — brain control, voice control, gesture, wearable computing, VR, robots, and full-body exertion.
+A research compendium for a digital museum of cutting-edge Human-Computer Interaction from the late 1970s through the early 1990s. These one hundred and thirty-two projects mix canonical experiments with weird, forgotten, and beautiful vaporware — brain control, voice control, gesture, wearable computing, VR, robots, and full-body exertion.
 
 Each entry includes an overview, a deep dive, a small media gallery, and full source links so the images and facts can always be traced back.
 
@@ -132,6 +132,10 @@ Each entry includes an overview, a deep dive, a small media gallery, and full so
 123. [Sharp Wizard OZ-7000 (1989)](#sharp-wizard-oz-7000-1989)
 124. [Cambridge Z88 (1987)](#cambridge-z88-1987)
 125. [Casio PB-1000 (1987)](#casio-pb-1000-1987)
+126. [TI Silent 700 Model 745 (1975)](#ti-silent-700-model-745-1975)
+127. [Hayes Smartmodem 300 (1981)](#hayes-smartmodem-300-1981)
+128. [Commodore 1520 / Atari 1020 Printer Plotter (1983)](#commodore-1520--atari-1020-printer-plotter-1983)
+129. [Rainbow Sentinel Dongle (1984)](#rainbow-sentinel-dongle-1984)
 
 ---
 
@@ -6534,3 +6538,175 @@ The Casio PB-1000 was a folding pocket computer released in 1986 in Japan and 19
 4. Ledudu's Casio Pocket Computer Library — https://casio.ledudu.com/pockets.asp?type=29&lg=eng
 5. Obsolete Computer Museum: Casio PB-1000 — http://www.obsoletecomputermuseum.org/pb1000/
 6. Wikimedia Commons: Category:Casio PB-1000 — https://commons.wikimedia.org/wiki/Category:Casio_PB-1000
+
+---
+
+## TI Silent 700 Model 745 (1975)
+**By:** Texas Instruments  
+**Tags:** `Terminal` `Portable Computing` `Telecommunications` `Thermal Printing` `Acoustic Coupler`
+
+### Overview
+
+The Texas Instruments Silent 700 Model 745 was a self-contained portable data terminal in a 13-pound briefcase. It integrated a full keyboard, a 30-character-per-second thermal printer, and an acoustic coupler — two rubber cups built into the lid that accepted a standard telephone handset. To go online, the user opened the briefcase, dialed a number on a telephone, listened for the carrier tone, and pressed the handset into the molded cups. Data flowed through sound alone, at switchable speeds of 110, 150, or 300 baud. Priced at $1,995 in 1976, the Model 745 was used by field engineers, journalists filing stories from the road, and early adopters of CompuServe and The Source — making "going online" a physical ceremony involving rubber cups, thermal paper, and acoustic handshakes.
+
+### Deep dive
+
+* **Origins.** Texas Instruments introduced the Silent 700 series in 1971, drawing on its thermal printing expertise from calculator manufacturing. The Model 745, introduced in late 1975, was the definitive version: it added TI's TMS 9900 16-bit microprocessor and the integrated acoustic coupler that made it a truly self-contained portable terminal.
+* **The acoustic coupler ritual.** Each connection demanded the user's active participation. After dialing manually and listening for the carrier tone, the telephone handset was pressed into the two rubber cups — earpiece into one (containing a microphone to receive data), mouthpiece into the other (containing a speaker to transmit). If the connection dropped, the user had to pick up the handset, dial again, and repeat the entire physical sequence. This was computing as a hands-on, acoustic experience.
+* **Thermal paper as ephemeral output.** The Silent 700 printed on rolls of chemically-coated thermal paper that curled at the edges and darkened when exposed to light or heat. A page left in sunlight could become illegible within hours, forcing users to photocopy important documents onto plain paper. The ephemeral nature of the output created a unique interaction pattern: the terminal itself communicated impermanence.
+* **Who used it.** Field service engineers for IBM, DEC, and HP accessed diagnostic systems from customer sites. Journalists filed stories from political conventions and disaster zones. Sales representatives checked inventory from hotel rooms. The Model 745 could operate from a car cigarette lighter, making it genuinely usable anywhere with a telephone line.
+* **Legacy.** The Silent 700 represents a transitional moment: after the room-sized mainframe but before the desktop PC, when "portable computing" meant carrying a 13-pound briefcase that turned any telephone into a computer terminal. TI produced Silent 700 models through the mid-1980s, with the 780 series reaching 120 characters per second for 1200 baud connections.
+
+### Team
+
+* **Texas Instruments, Terminal Products Division** — Developed and manufactured the Silent 700 series from 1971 through the mid-1980s. Leveraged TI's thermal printing expertise and TMS 9900 microprocessor.
+
+### Media
+
+![TI Silent 700 Model 745 open, showing keyboard, thermal printer, and acoustic coupler cups in the lid](../assets/wiki/ti-silent-700-open.jpg)
+*TI Silent 700 Model 745 portable terminal with lid open, showing the keyboard, thermal printer mechanism, and the acoustic coupler rubber cups built into the lid. Source: Wikimedia Commons (public domain).*
+
+![TI Silent 700 Model 745 briefcase closed](../assets/wiki/ti-silent-700-closed.jpg)
+*Front view of the TI Silent 700 Model 745 closed — a 13-pound briefcase containing a complete self-contained computer terminal. Source: Wikimedia Commons (CC BY-SA 4.0).*
+
+![Rear view showing I/O ports and acoustic coupler housing](../assets/wiki/ti-silent-700-rear.jpg)
+*Rear view of the TI Silent 700 Model 745 showing interface ports and acoustic coupler housing. Source: Wikimedia Commons (CC BY-SA 4.0).*
+
+### Sources
+
+1. Wikipedia: Silent 700 — https://en.wikipedia.org/wiki/Silent_700
+2. Terminal Wiki: TI Silent 700 Model 745 — https://terminals-wiki.org/wiki/index.php/TI_Silent_700_Model_745
+3. Computer History Museum: TI Silent 700 terminal (catalog X1612.99) — https://www.computerhistory.org/collections/catalog/X1612.99
+4. Computerworld, January 19, 1976, p. 24: "Micro-Based, 13-Lb Model 745 Extends TI Line" — introduction announcement
+5. Computer History Museum: Silent 700 brochure, January 1976 (catalog 102646198)
+6. Wikimedia Commons: Category Texas Instruments Silent 700 (10+ images) — https://commons.wikimedia.org/wiki/Category:Texas_Instruments_Silent_700
+
+---
+
+## Hayes Smartmodem 300 (1981)
+**By:** Hayes Microcomputer Products (Dennis Hayes and Dale Heatherington)  
+**Tags:** `Modem` `Telephony` `Networking` `Telecommunications` `AT Commands`
+
+### Overview
+
+The Hayes Smartmodem 300, introduced in April 1981, was the first modem that could be fully controlled by the computer it was connected to, eliminating the need for manual telephone operation. Before the Smartmodem, going online meant manually dialing a phone, listening for the carrier tone, and pressing the handset into rubber acoustic cups. The Smartmodem replaced this entire ritual with a single software command: ATDT. Its AT command set — strings like ATDT5551212 sent from the computer over RS-232 — became the universal language of modem control. The internal speaker let users hear the negotiation tones as audio feedback, and the +++ escape sequence allowed switching between data and command modes without hanging up. Housed in the distinctive extruded aluminum "Hayes Stack" case and priced at $279, it used a Zilog Z8 microcontroller. Within two years, Hayes was selling 140,000 modems annually and the BBS revolution had its standard-bearer.
+
+### Deep dive
+
+* **Origins.** Dennis Hayes and Dale Heatherington met at National Data Corporation in Atlanta, where they worked on modem technology for credit card authorizations. They founded D.C. Hayes Associates in January 1978 with $5,000, hand-assembling modem boards on Hayes's dining room table. The Smartmodem 300 launched in April 1981 with a Zilog Z8 microcontroller — after Heatherington spent six months struggling with an underpowered PIC microcontroller and switched to the Z8.
+* **The AT command set.** Every command began with "AT" followed by command characters. ATDT dialed with touch-tones, ATDP with pulse dialing, ATA answered, ATH hung up. The "AT" prefix also let the modem auto-detect the host computer's serial port speed. The +++ escape sequence — three plus signs with one-second guard-time pauses — switched from data mode back to command mode without disconnecting.
+* **Interaction model transformation.** The Smartmodem turned the telephone network into a programmable computer peripheral. The built-in speaker provided critical audio feedback — users could hear dial tone, DTMF digits, remote answer tone, and negotiation handshake — solving the "black box" problem of earlier direct-connect modems. The physical ritual of going online (pick up phone, dial, listen, place in cups) collapsed into a software action.
+* **The BBS revolution.** The Smartmodem made bulletin board systems practical for hobbyists: connect it to your computer, run BBS software, leave a phone line connected overnight. The Smartmodem 1200 followed in 1982 at $699. By the late 1980s, "Hayes-compatible" was mandatory for any PC modem.
+* **Legacy.** Heatherington retired in 1985 at age 37, selling his stake for ~$20 million. Hayes became a multimillionaire and the company grew to a billion-dollar public company before dual bankruptcies in 1994 and 1998. The AT command set remains a living standard — every modem made since 1981 speaks a variant of it.
+
+### Team
+
+* **Dennis C. Hayes** — Co-founder. Conceived the Smartmodem and AT command set. Left Georgia Tech to work at National Data Corp before starting the company on his dining room table.
+* **Dale Heatherington** — Co-founder and lead engineer. Designed the Smartmodem hardware and the +++ escape sequence with guard-time mechanism. Retired in 1985.
+
+### Media
+
+![Hayes Smartmodem 300 in its aluminum case, angled front view showing status LEDs and speaker grille](../assets/wiki/hayes-smartmodem-hero.jpg)
+*Hayes Smartmodem 300 showing the extruded aluminum "Hayes Stack" case with LED status indicators and speaker grille. Source: Wikimedia Commons (CC BY-SA 4.0, photo by Aeroid).*
+
+![Rear panel of the Hayes Smartmodem showing DB-25 RS-232 port, RJ-11 jack, and volume control](../assets/wiki/hayes-smartmodem-rear.jpg)
+*Rear view showing the DB-25 RS-232 serial port, RJ-11 telephone line jack, power connector, and manual volume knob. Source: Wikimedia Commons (CC BY-SA 4.0).*
+
+![End profile showing the extruded aluminum casing with DIP switch configuration block](../assets/wiki/hayes-smartmodem-profile.jpg)
+*Hayes Smartmodem 300 profile view, showing the iconic aluminum extrusion design with slide-out circuit board and front-mounted DIP switch block. Source: Wikimedia Commons (CC BY-SA 4.0).*
+
+### Sources
+
+1. Wikipedia: Hayes Microcomputer Products — https://en.wikipedia.org/wiki/Hayes_Microcomputer_Products
+2. Wikipedia: Hayes command set — https://en.wikipedia.org/wiki/Hayes_command_set
+3. NYT / IHT: "The Rise and Fall of the Modem King" (Victoria Shannon, Jan. 1999) — https://web.archive.org/web/20191217114803/https://www.nytimes.com/1999/01/07/news/the-rise-and-fall-of-the-modem-king.html
+4. Hayes Smartmodem on Wikimedia Commons (11 CC-BY-SA 4.0 images) — https://commons.wikimedia.org/wiki/Category:Hayes_Smartmodem
+
+---
+
+## Commodore 1520 / Atari 1020 Printer Plotter (1983)
+**By:** ALPS Electric Co., Ltd. (mechanism); Commodore, Atari, Tandy, Sharp, Oric, Mattel, TI (rebadging)  
+**Tags:** `Output` `Plotter` `Physical Computing` `Drawing Machine` `Mechanical`
+
+### Overview
+
+The Commodore 1520 — also sold as the Atari 1020, Tandy CGP-115, and several other rebadged variants — was a miniature color pen plotter built around the Japanese ALPS DPG1302 mechanism. Using 4.5-inch roll paper, a four-pen rotating turret, and stepper motors driving both paper feed and pen carriage, it produced multicolor vector graphics at ~0.2 mm resolution with a distinctive hand-drawn aesthetic. Priced at $199–$299 in 1983, it was the cheapest color output device available for any home computer. But the real draw was the spectacle: the paper whipping back and forth, the turret audibly clicking between colors, the solenoid hammering the pen down with a sharp "thwack" — computer output as a watchable, listenable mechanical performance.
+
+### Deep dive
+
+* **Origins: ALPS Electric and the DPG1302.** The DPG1302 mechanism was designed by ALPS Electric of Japan, known for floppy drives, printer mechanisms, and electronic components. Rather than selling directly to consumers, ALPS licensed the mechanism to multiple computer manufacturers, each adding their own interface electronics and branding. Commodore's version ($199.95) used the IEC serial bus, Atari's ($299) used SIO, and Tandy's ($249.95) used the Color Computer serial port. This multi-vendor strategy made the DPG1302 the most widely distributed pen plotter in home computing history.
+* **The mechanical spectacle.** Three stepper motors operated simultaneously: paper feed via rubber-coated friction drum (Y-axis), pen carriage along a round rail (X-axis, 480 discrete positions), and a motor indexing the four-pen turret between colors. A solenoid produced a sharp "thwack" for pen lift/drop. The plotter offered 15 line styles through programmed pen-lift patterns. COMPUTE! magazine in 1983 described text printing as requiring "the patience of a monk — tediously but precisely, the plotter scrolls the paper back and forth under the pen to carefully scribe each letter."
+* **Interaction model.** Users threaded roll paper, inserted four miniature ballpoint pens (black, red, blue, green standard; eight additional colors available), and sent plot commands. Text modes offered 20, 40, or 80 columns, rotatable in 90° increments. The graphics coordinate system provided 480 horizontal steps with Y coordinates from -999 to 999. Each pen had a finite ink supply and could dry out — pen caps were essential. Complex drawings could take 10–20 minutes, turning output into a watchable ceremony.
+* **The rebadged variants.** At least eight brandings appeared: Commodore 1520/VC-1520, Atari 1020 (the best photographically documented), Tandy CGP-115, TI HX-1000 (portable, 2.25-inch paper, AA batteries, $199.95), Oric MCP40, Sharp CE-150, and Mattel Aquarius 4615. By 1986, the Atari 1020 was being cleared for under $50.
+* **Legacy.** The DPG1302 represents a brief moment when mechanical drawing was viable consumer technology. Inkjet printers soon rendered pen plotters obsolete for home use, though large-format plotters persisted in CAD. For HCI, the plotter is a case study in physical output as performance: its slowness and audibility transformed computer output into a mechanical ceremony.
+
+### Team
+
+* **ALPS Electric Co., Ltd.** — Japanese manufacturer of the DPG1302 mechanism. Also known for floppy disk drives, printer mechanisms, and electronic switches.
+* **Commodore International** — Rebadged as Commodore 1520 for VIC-20 and C64 via IEC serial bus. Announced at Winter CES 1983.
+* **Atari Inc.** — Rebadged as Atari 1020 for 8-bit computers via SIO port. Best photographically documented variant (14 CC images on Commons).
+
+### Media
+
+![Commodore 1520 printer plotter with paper loaded and pens inserted in the four-color turret](../assets/wiki/commodore-1520-hero.jpg)
+*Commodore 1520 (VC-1520) printer plotter. The four-pen rotating turret is visible through the clear cover. Public domain (Wikimedia Commons).*
+
+![Atari 1020 four-color printer plotter, front view with Atari branding](../assets/wiki/atari-1020-front.jpg)
+*Atari 1020 plotter — the most photographically documented variant. CC BY-SA 4.0 (Wikimedia Commons).*
+
+![Atari 1020 with cover removed, showing the pen carriage mechanism, turret, and paper drum](../assets/wiki/atari-1020-internals.jpg)
+*Atari 1020 with cover removed, revealing the four-pen turret, solenoid pen-lift mechanism, and friction paper drum. CC BY-SA 4.0 (Wikimedia Commons).*
+
+![Example printouts from an Atari 1020 showing multicolor vector graphics on roll paper](../assets/wiki/atari-1020-printout.jpg)
+*Example printouts showing multicolor vector graphics, text in multiple sizes and rotations, and the distinctive hand-drawn line quality. CC0 public domain (Wikimedia Commons).*
+
+### Sources
+
+1. Wikipedia: Atari 1020 — https://en.wikipedia.org/wiki/Atari_1020
+2. COMPUTE! Magazine Issue 36, May 1983: "The New Low-Cost Printer/Plotters" — https://archive.org/details/1983-05-compute-magazine/page/20/mode/2up
+3. ANTIC Magazine Vol. 4 No. 10, February 1986: "Mastering the Atari 1020 Plotter" — https://www.atarimagazines.com/v4n10/atari1020plotter.html
+4. Hexbus.com: TI HX-1000 Printer/Plotter (ALPS DPG1302 variants list) — http://www.hexbus.com/TI-99_4A_Home_Computer_Page/Hexbus_HX-1000_Printer_Plotter.html
+5. Wikimedia Commons: Category:Atari 1020 (14 CC-licensed images) — https://commons.wikimedia.org/wiki/Category:Atari_1020
+6. Wikimedia Commons: Category:Commodore 1520 (3 public domain images) — https://commons.wikimedia.org/wiki/Category:Commodore_1520
+
+---
+
+## Rainbow Sentinel Dongle (1984)
+**By:** Rainbow Technologies (Walter W. Straub, Irvine, California)  
+**Tags:** `Security` `Physical Token` `Copy Protection` `Peripheral` `Input`
+
+### Overview
+
+The Rainbow Sentinel was a hardware key for software: a small plastic block that plugged into the parallel (printer) port of an IBM PC. Without this specific physical object, protected software — typically expensive packages like AutoCAD, CorelDRAW, and Cubase — simply refused to run. It wasn't a password, a license file, or a serial number. It was a physical lock for a thing made of pure information. Internally, a custom integrated circuit with deliberately ground-off part numbers responded to cryptographic challenges from the host software. Multiple dongles could be daisy-chained. Jerry Pournelle captured the user experience in BYTE magazine in 1988: "I don't know what the thing is doing... For all I know, the gizmo may infect my machine with a virus." The Sentinel line continues today as Thales Sentinel, and its descendants — including the iLok used by professional audio software — still enforce the principle that the most reliable security is something you can touch.
+
+### Deep dive
+
+* **Origins.** Rainbow Technologies was founded in 1984 by Walter W. Straub in Irvine, California. The Sentinel hardware key plugged into a PC's DB-25 parallel port, with a pass-through connector for the printer. The main competitor was Aladdin Knowledge Systems, who introduced the HASP dongle in 1985, creating a Rainbow/Aladdin duopoly. Rainbow went public on NASDAQ in 1990 and merged with SafeNet in 2004; the brand passed through Gemalto to Thales Group.
+* **The physical object.** A rectangular plastic block 2–3 inches long with male DB-25 on one end, female on the other. Inside: a custom EPROM or microcontroller with a unique ID and cryptographic algorithm. Teardowns reveal deliberately ground-off chip numbers — physical anti-reverse-engineering. The dongle drew power from the parallel port and sat transparently in the data path, responding only to challenge sequences.
+* **The dongle as interaction.** The dongle's interaction model was brutally simple: no dongle, no software. It enforced copy protection at the physical layer in a way no serial number could. Users developed rituals around dongle management: safekeeping, transporting to client sites, panicking before deadlines. Lost or damaged dongles meant contacting the vendor with purchase records and paying for replacements. The dongle was also a source of technical conflicts — it could interfere with other parallel-port devices or fail from static discharge.
+* **The "Don Gall" urban legend.** In a 1992 BYTE magazine ad, Rainbow Technologies claimed the word "dongle" was named after a person called "Don Gall." Linguist Ben Zimmer later noted the claim was so egregiously false that the company admitted it was a marketing ploy when pressed — spawning an urban legend that persists today. The actual etymology is disputed, with sources pointing to 1970s British slang for a plug or connector.
+* **Legacy.** The hardware dongle persisted through the 1990s into the 2000s, with USB replacing parallel ports. The iLok, widely used in professional audio (Pro Tools, Waves plug-ins), is the direct descendant. The concept also influenced hardware-based security more broadly: TPM chips, smart card authentication, YubiKeys, and hardware security modules all share conceptual DNA with the parallel-port Sentinel dongle.
+
+### Team
+
+* **Walter W. Straub** — Founder, Chairman, and CEO of Rainbow Technologies. Founded the company in 1984 to develop the Sentinel product line.
+* **Rainbow Technologies** — Irvine, California company. Went public (NASDAQ: RNBO) in 1990. Merged with SafeNet in 2004. The Sentinel brand is now owned by Thales Group.
+
+### Media
+
+![Rainbow Tech parallel port dongle PCB, front side with ground-off chip numbers](../assets/wiki/rainbow-sentinel-front.jpg)
+*Rainbow Tech parallel port dongle PCB, front view showing the custom IC with deliberately ground-off part numbers. Source: Wikimedia Commons (CC BY-SA 4.0).*
+
+![Rainbow Tech parallel port dongle PCB, back side showing the pass-through DB-25 connector](../assets/wiki/rainbow-sentinel-back.jpg)
+*Rainbow Tech parallel port dongle PCB, back view showing the printer pass-through connector. Source: Wikimedia Commons (CC BY-SA 4.0).*
+
+![Multiple parallel-port dongles daisy-chained — one per protected application](../assets/wiki/rainbow-sentinel-chain.jpg)
+*Multiple parallel-port dongles daisy-chained — one per protected software application. Source: Wikimedia Commons (CC BY-SA 4.0).*
+
+### Sources
+
+1. Wikipedia: Software protection dongle — https://en.wikipedia.org/wiki/Software_protection_dongle
+2. Wikipedia: Rainbow Technologies (redirect to SafeNet) — https://en.wikipedia.org/wiki/Rainbow_Technologies
+3. BYTE Magazine, July 1988: Jerry Pournelle column "Dr. Pournelle vs. The Virus", pp. 197–207 — https://archive.org/details/byte-1988-07_202104/page/197/mode/1up
+4. BYTE Magazine, August 1992: Rainbow Technologies ad claiming "Don Gall" origin, p. 133 — https://archive.org/details/byte-magazine-1992-08/page/n147/mode/2up
+5. Wikipedia: Dongle (etymology and examples) — https://en.wikipedia.org/wiki/Dongle
