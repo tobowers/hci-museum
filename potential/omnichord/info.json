@@ -1,0 +1,56 @@
+{
+  "slug": "omnichord",
+  "title": "Suzuki Omnichord",
+  "year": "1981",
+  "subtitle": "The electronic autoharp that taught you to strum a touch strip",
+  "why_scout_cares": "The Omnichord replaced strings with a capacitive touch plate and chord theory with a grid of buttons. You pressed a chord with your left hand and strummed the 'Sonic Strings' touch strip with your right — a genuinely novel bimanual interaction that required learning a new physical skill neither keyboardists nor guitarists already had. It was aimed at people who'd never touched an instrument, and it worked: Bowie played one, Eno slowed one down into ambient beauty, Gorillaz built a hit around its 'Rock 1' preset. Mass-market, musically consequential, and one of the earliest consumer devices where a capacitive touch strip was the primary expressive surface.",
+  "search_terms": ["Suzuki Omnichord", "electronic autoharp", "strum plate", "Sonic Strings", "1981"],
+  "research": {
+    "title": "Suzuki Omnichord",
+    "year": "1981",
+    "by": "Suzuki Musical Instrument Corporation (Japan)",
+    "tags": ["HCI", "Music", "Input", "Touch", "Capacitive"],
+    "overview": "The Omnichord is an electronic musical instrument introduced in 1981 by the Suzuki Musical Instrument Corporation. Conceived as an electronic autoharp, it allows users to play harp-like arpeggios through an electronic strum plate — a capacitive touch strip branded 'Sonic Strings' — while selecting chords from a grid of buttons. The original OM-27 featured 27 chord buttons, preset drum machine rhythms, and a single 'harp' sound. Successive models added more chords (up to 84), MIDI connectivity, a chord sequencer, and multiple instrument voices. Production continued through the OM-300 in 1996, with a revival model (OM-108) released in 2024.",
+
+    "deepDive": [
+      {
+        "heading": "Origins",
+        "text": "Suzuki, known primarily for educational musical instruments like the Melodion, created the Omnichord to democratize music-making. It was aimed at people without musical experience who might be intimidated by traditional keyboard instruments. The first model, OM-27, launched in 1981 alongside the Tronichord (also known as the Portachord). The OM-27 featured only 27 chord shapes and a single harp timbre. By 1984, the OM-36 and OM-84 expanded the chord palette, and the OM-100 repositioned the strum plate for comfort while adding guitar, piano, banjo, organ, flute, brass, and synth voices."
+      },
+      {
+        "heading": "Interaction Model",
+        "text": "The Omnichord requires a distinctive bimanual coordination unlike any traditional instrument. The left hand presses chord buttons (major, minor, 7th) arranged in a grid. The right hand strums the capacitive touch plate — the 'Sonic Strings.' The touch strip maps chord-degree arpeggios across a 4-octave span, and the notes are always in key with the selected chord button. You cannot play a wrong note; the instrument constrains output to the chosen harmonic context. A built-in rhythm machine and auto-bass line provide accompaniment. The result is an instrument where the physical gesture (strumming) is preserved from acoustic autoharps, but the interaction surface is entirely electronic — a touch-sensitive ribbon replacing strings."
+      },
+      {
+        "heading": "Cultural Impact",
+        "text": "The Omnichord was used by David Bowie (2001 Concert for New York City), Brian Eno and Daniel Lanois (slowed-down Omnichord on 'Deep Blue Day' from Apollo: Atmospheres and Soundtracks), Eurythmics ('Love Is a Stranger'), Talking Heads, Devo, and The Human League. Gorillaz used the OM-300's 'Rock 1' preset for their 2001 hit 'Clint Eastwood.' Tiny Tim claimed his 1985 single was 'the first recording ever played entirely on the Suzuki Omnichord.' In 2024, Meshell Ndegeocello's album The Omnichord Real Book won the inaugural Grammy Award for Best Alternative Jazz Album."
+      },
+      {
+        "heading": "Legacy",
+        "text": "The Omnichord was one of the earliest mass-market consumer devices where a capacitive touch strip served as the primary expressive surface — years before touchscreens became ubiquitous. Its design philosophy — constraining the musical output to guarantee pleasant results regardless of skill — anticipated everything from Guitar Hero to GarageBand's Smart Instruments. The 2024 OM-108 revival, with its analog circuitry and model emulations, confirms the instrument's enduring appeal across generations of musicians and non-musicians alike."
+      }
+    ],
+
+    "team": [
+      {"name": "Suzuki Musical Instrument Corporation", "note": "Japanese manufacturer based in Hamamatsu, primarily known for educational instruments like the Melodion"}
+    ],
+
+    "media": [
+      {"src": "https://upload.wikimedia.org/wikipedia/commons/e/eb/Omnichord_OM27_brown_%282006-01-11_20.38.10_by_tico_24%29.jpg", "alt": "Suzuki Omnichord OM-27 in brown finish", "caption": "Suzuki Omnichord OM-27 (1981), the first model. Photo by tico_24, CC BY 2.0, via Flickr/Wikimedia Commons."},
+      {"src": "https://upload.wikimedia.org/wikipedia/commons/f/fb/Suzuki_Omnichord%2C_This_Museum_Is_%28Not%29_Obsolete%2C_Ramsgate%2C_Kent_-_August_2021.jpg", "alt": "Suzuki Omnichord on display at This Museum Is (Not) Obsolete", "caption": "Suzuki Omnichord at This Museum Is (Not) Obsolete, Ramsgate, Kent, August 2021. CC BY-SA 4.0, via Wikimedia Commons."}
+    ],
+
+    "sources": [
+      {"text": "Omnichord - Wikipedia", "url": "https://en.wikipedia.org/wiki/Omnichord"},
+      {"text": "MusicRadar: Blast from the past - Suzuki Omnichord (2023)", "url": "https://www.musicradar.com/news/blast-from-past-suzuki-omnichord"},
+      {"text": "MusicTech: Vintage Rewind - Suzuki Omnichord (2020)", "url": "https://musictech.com/features/opinion-analysis/vintage-rewind-suzuki-omnichord/"},
+      {"text": "Omnichord Heaven (resource site)", "url": "https://www.omnichord-heaven.com/"}
+    ],
+
+    "imageUrls": [
+      "https://upload.wikimedia.org/wikipedia/commons/e/eb/Omnichord_OM27_brown_%282006-01-11_20.38.10_by_tico_24%29.jpg",
+      "https://upload.wikimedia.org/wikipedia/commons/f/fb/Suzuki_Omnichord%2C_This_Museum_Is_%28Not%29_Obsolete%2C_Ramsgate%2C_Kent_-_August_2021.jpg"
+    ]
+  },
+  "savedImages": []
+}
