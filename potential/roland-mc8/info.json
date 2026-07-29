@@ -1,0 +1,58 @@
+{
+  "slug": "roland-mc8",
+  "title": "Roland MC-8 MicroComposer",
+  "year": "1977",
+  "subtitle": "The music machine you programmed with a calculator keypad",
+  "why_scout_cares": "A $4,795 box with no piano keyboard — just a numeric keypad for typing notes as computer code. In 1977, this was how you programmed music: not played it, programmed it. The MC-8 blurred the line between computer terminal and musical instrument in a way nothing else did. Only 200 units were ever sold, but every one of them went to someone who changed the sound of pop music: Kraftwerk, Yellow Magic Orchestra, Giorgio Moroder, Hans Zimmer. It's the purest expression of 'music as computation' from the era when that idea was genuinely radical.",
+  "search_terms": ["Roland MC-8", "MicroComposer", "1977 music sequencer", "calculator keypad music", "Ralph Dyck"],
+  "research": {
+    "title": "Roland MC-8 MicroComposer",
+    "year": "1977",
+    "by": "Roland Corporation (Ralph Dyck, prototype; Ikutaro Kakehashi, founder)",
+    "tags": ["HCI", "Music", "Input", "Sequencer", "Roland"],
+    "overview": "The Roland MC-8 MicroComposer was one of the earliest stand-alone microprocessor-driven CV/Gate music sequencers, introduced in early 1977 at a list price of US$4,795 (¥1,200,000 JPY). Roland called it a 'computer music composer.' It featured a calculator-style numeric keypad for entering note data and 16 kilobytes of RAM allowing a maximum sequence length of 5,200 notes — a huge leap from the 8-16 step sequencers of the time. Only 200 units were sold worldwide due to the high price, but it was used by Kraftwerk, Yellow Magic Orchestra, Giorgio Moroder, Hans Zimmer, Tangerine Dream, and The Human League. It was one of the first devices where making music meant programming it like software, not playing it like an instrument.",
+
+    "deepDive": [
+      {
+        "heading": "Origins",
+        "text": "The MC-8 was based on a prototype developed by Canadian composer and technologist Ralph Dyck, who did R&D for Roland. Roland switched to the then brand-new Intel 8080A 8-bit microprocessor and increased the RAM from 512 bytes to 16KB. The memory was volatile — a loss of power meant complete loss of all data. Backup was via cassette tape and could take 45 minutes to an hour for a three- or four-minute piece of music."
+      },
+      {
+        "heading": "Interaction Model",
+        "text": "The MC-8 had no piano keyboard. Instead, notes were entered via the calculator-style numeric keypad — the preferred method. Real-time recording was possible but awkward. The keypad was the interface: you typed numbers to specify pitch, duration, and timing. All parameters were variable, so the scale and time-base could be assigned number values. This made the machine extremely versatile but somewhat unfriendly — it was a programmer's instrument, not a performer's. The MC-8 provided eight control voltage outputs and eight gate outputs, plus a six-bit multiplex output for portamento control."
+      },
+      {
+        "heading": "Cultural Impact",
+        "text": "Yellow Magic Orchestra was the earliest known band to use the MC-8 in 1978. Billboard noted that the use of such computer-based technology allowed YMO to create sounds that were not possible before. The band described the MC-8 and its programmer Hideki Matsutake as an 'inevitable factor' in both their music production and live performances. Kraftwerk used it on The Man-Machine. Richard James Burgess used it to drive the prototype Simmons SDS5 electronic drums. Hans Zimmer learned electronic music composition on the MC-8."
+      },
+      {
+        "heading": "Legacy",
+        "text": "The MC-8 introduced the idea that a numeric keypad could be a musical interface — a paradigm that influenced Roland's subsequent MC-4 and the entire concept of the 'music workstation.' Its approach of separating programming from performance anticipated the DAW-based production workflows that would dominate music decades later. The idea that you could type music rather than play it was controversial in 1977 and represents a genuinely radical HCI moment: the collision of the programmer's terminal with the musician's instrument."
+      }
+    ],
+
+    "team": [
+      {"name": "Ralph Dyck", "note": "Canadian composer and technologist who developed the prototype for Roland's R&D division"},
+      {"name": "Ikutaro Kakehashi", "note": "Founder of Roland Corporation; oversaw the MC-8's development"},
+      {"name": "Hideki Matsutake", "note": "Programmer who operated the MC-8 for Yellow Magic Orchestra, became known as the 'fourth member'"}
+    ],
+
+    "media": [
+      {"src": "https://upload.wikimedia.org/wikipedia/commons/7/77/Roland_MC-8.jpg", "alt": "Roland MC-8 MicroComposer front panel showing numeric keypad", "caption": "Roland MC-8 MicroComposer. Photo by Strettamgd, CC BY-SA 2.5, via Wikimedia Commons."},
+      {"src": "https://upload.wikimedia.org/wikipedia/commons/7/72/Roland_MicroComposer_MC-8_%281977%29%2C_Synthesizer_Festa_2012_in_Shinjuku.jpg", "alt": "Roland MC-8 displayed at Synthesizer Festa 2012", "caption": "Roland MC-8 at Synthesizer Festa 2012, Shinjuku. Photo by Kazuhisa OTSUBO, CC BY 2.0, via Flickr/Wikimedia Commons."}
+    ],
+
+    "sources": [
+      {"text": "Roland MC-8 Microcomposer - Wikipedia", "url": "https://en.wikipedia.org/wiki/Roland_MC-8_Microcomposer"},
+      {"text": "Sound on Sound: The History of Roland Part 1 (2004)", "url": "https://www.soundonsound.com/sos/nov04/articles/roland.htm"},
+      {"text": "Sound on Sound: Roland MC8 Retrospective (March 1997)", "url": "https://web.archive.org/web/20150924115650/http://www.soundonsound.com/sos/1997_articles/mar97/rolandmc8.html"},
+      {"text": "Roland MC-8 MicroComposer Blog", "url": "http://www.rolandmc8.wordpress.com"}
+    ],
+
+    "imageUrls": [
+      "https://upload.wikimedia.org/wikipedia/commons/7/77/Roland_MC-8.jpg",
+      "https://upload.wikimedia.org/wikipedia/commons/7/72/Roland_MicroComposer_MC-8_%281977%29%2C_Synthesizer_Festa_2012_in_Shinjuku.jpg"
+    ]
+  },
+  "savedImages": []
+}

@@ -336,4 +336,22 @@ Promotion gotchas (2026-07-28):
 - 3 of 7 subagent angles were productive; 4 returned image-blocked or duplicate candidates. This is a normal yield rate at 128+ exhibits.
 - Future unexplored angles: early scanning/OCR hardware (ThunderScan category), early home video game controllers with truly unusual physical principles, early network terminals with unusual interfaces, haptic/force-feedback devices beyond what's in collection.
 
+New additions (2026-07-29):
+- Roland MC-8 MicroComposer (1977): Promoted 2026-07-29. Roland Corporation music sequencer with calculator-style numeric keypad as the primary interface — no piano keyboard. Intel 8080A, 16KB RAM, 5,200-note capacity. $4,795 (¥1.2M), ~200 units worldwide. Used by Kraftwerk, Yellow Magic Orchestra, Giorgio Moroder, Hans Zimmer, Tangerine Dream. 2 CC images from Commons. Distinct interaction model: music-as-data-entry, programming-as-performance. Fills music-as-computation gap.
+- Suzuki Omnichord (1981): Promoted 2026-07-29. Suzuki Musical Instrument Corp electronic autoharp with capacitive "Sonic Strings" strum plate + chord button grid. Left hand selects chords, right hand strums touch strip — always in key. Mass-market, used by Bowie, Eno, Eurythmics, Gorillaz. OM-108 revival 2024. 2 CC images from Commons. Distinct interaction model: constrained capacitive-touch strumming as musical expression. Fills touch-strip-as-primary-expressive-surface gap.
+- Linus Write-Top (1988): Promoted 2026-07-29. First commercially released tablet computer with handwriting recognition. Linus Technologies (Reston, VA). Two-piece clamshell, NEC V20, MS-DOS 3.30, NO keyboard. Your-Write TSR converted handwriting to ASCII. 30-min training. $3,000, ~1,500 units, bankrupt Feb 1990. 1 PD image from Commons. Distinct: keyboard-free tablet with live handwriting recognition — five years before Newton.
+
+New deferred candidates (2026-07-29):
+- Bloomberg Terminal / Market Master (1982): Original dedicated hardware terminal with custom financial keyboard. CC images exist but mostly 2012-era modern setups, not 1982 period hardware. Revisit if period images surface.
+- IBM 3279 Color Display Terminal (1979): First color mainframe terminal. 23+ CC images. Deferred: interaction model (keyboard+screen) not distinctive enough despite visual prominence. Revisit if professional terminal section develops.
+- NABU Network PC (1982): Cable-TV-connected thin client, 6.4 Mbit/s in 1982. CC images exist. Deferred: essentially a home computer with cable modem; interaction model incremental. Revisit if network appliance section gets refresh.
+
+Promotion gotchas (2026-07-29):
+- All promotion done manually. promote-potentials.ts NOT run.
+- Build count: 135 exhibits (+3). Wiki ToC: 132.
+- 7 subagents launched; 4 angles returned viable candidates, 3 had CC images.
+- Excluded-list problem persists: subagents returned already-in-museum candidates despite explicit exclusion lists. Manual verification essential.
+- Productive angles: music HCI (MC-8, Omnichord), pen computing (Write-Top). Unproductive: scanning/OCR, biometric, medical, game controllers.
+- Future unexplored: early dedicated-purpose information appliances with strong CC images, early musical instruments where the body becomes a novel circuit element, early consumer electronic devices where the physical ritual of use was the HCI innovation.
+
 (End of file - total 320 lines)

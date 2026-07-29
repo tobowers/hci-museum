@@ -1,6 +1,6 @@
 # The HCI Golden Age Wiki
 
-A research compendium for a digital museum of cutting-edge Human-Computer Interaction from the late 1970s through the early 1990s. These one hundred and thirty-two projects mix canonical experiments with weird, forgotten, and beautiful vaporware — brain control, voice control, gesture, wearable computing, VR, robots, and full-body exertion.
+A research compendium for a digital museum of cutting-edge Human-Computer Interaction from the late 1970s through the early 1990s. These one hundred and thirty-five projects mix canonical experiments with weird, forgotten, and beautiful vaporware — brain control, voice control, gesture, wearable computing, VR, robots, and full-body exertion.
 
 Each entry includes an overview, a deep dive, a small media gallery, and full source links so the images and facts can always be traced back.
 
@@ -136,6 +136,9 @@ Each entry includes an overview, a deep dive, a small media gallery, and full so
 127. [Hayes Smartmodem 300 (1981)](#hayes-smartmodem-300-1981)
 128. [Commodore 1520 / Atari 1020 Printer Plotter (1983)](#commodore-1520--atari-1020-printer-plotter-1983)
 129. [Rainbow Sentinel Dongle (1984)](#rainbow-sentinel-dongle-1984)
+130. [Roland MC-8 MicroComposer (1977)](#roland-mc-8-microcomposer-1977)
+131. [Suzuki Omnichord (1981)](#suzuki-omnichord-1981)
+132. [Linus Write-Top (1988)](#linus-write-top-1988)
 
 ---
 
@@ -6710,3 +6713,114 @@ The Rainbow Sentinel was a hardware key for software: a small plastic block that
 3. BYTE Magazine, July 1988: Jerry Pournelle column "Dr. Pournelle vs. The Virus", pp. 197–207 — https://archive.org/details/byte-1988-07_202104/page/197/mode/1up
 4. BYTE Magazine, August 1992: Rainbow Technologies ad claiming "Don Gall" origin, p. 133 — https://archive.org/details/byte-magazine-1992-08/page/n147/mode/2up
 5. Wikipedia: Dongle (etymology and examples) — https://en.wikipedia.org/wiki/Dongle
+
+## Roland MC-8 MicroComposer (1977)
+**By:** Roland Corporation (Ralph Dyck, prototype; Ikutaro Kakehashi, founder)  
+**Tags:** `Music` `Input` `Sequencer` `Roland` `Programming`
+
+### Overview
+
+The Roland MC-8 MicroComposer was one of the earliest stand-alone microprocessor-driven CV/Gate music sequencers, introduced in early 1977 at US$4,795 (¥1,200,000 JPY). It had no piano keyboard — just a calculator-style numeric keypad. Roland called it a "computer music composer." Notes were entered by typing numbers via the keypad (the preferred method), backed by 16KB of RAM allowing a maximum sequence of 5,200 notes — a huge leap from the 8-16 step sequencers of the era. Backup was via cassette tape and could take 45 minutes to an hour; the memory was volatile, so power loss meant total data loss. Only 200 units were sold worldwide, but each went to a major figure in electronic music: Kraftwerk, Yellow Magic Orchestra, Giorgio Moroder, Hans Zimmer, Tangerine Dream, The Human League, and Suzanne Ciani.
+
+### Deep dive
+
+* **Origins.** The MC-8 was based on a prototype by Canadian composer and technologist Ralph Dyck, who did R&D for Roland. Roland switched to the Intel 8080A 8-bit microprocessor and increased Dyck's RAM from 512 bytes to 16KB. The machine provided eight control voltage outputs, eight gate outputs, and a six-bit multiplex output with a special seventh bit for portamento control. All parameters were variable — scale and time-base could be assigned number values to suit the piece being programmed, making the machine versatile but unfriendly.
+* **The keypad as interface.** The calculator-style numeric keypad was the primary interaction surface. Real-time recording was possible but awkward. The workflow was: study the piece, break it into numerical parameters, type them in. A programmer's approach to music. The 1981 follow-up MC-4 continued this paradigm in a smaller, cheaper package, but the MC-8's radical "music as code" philosophy was never as pure again.
+* **The "fourth member."** Yellow Magic Orchestra was the earliest band known to use the MC-8, on their 1978 self-titled debut and Ryuichi Sakamoto's *Thousand Knives*. Hideki Matsutake operated it as programmer — the band called him and the MC-8 an "inevitable factor" in both production and live performance. *Billboard* noted in 1979 that computer-based technology allowed YMO to create sounds not possible before.
+* **Cultural reach.** Kraftwerk used the MC-8 on *The Man-Machine* (1978). Richard James Burgess triggered prototype Simmons SDS5 electronic drums via the multiplex outputs for Landscape's *From the Tea-rooms of Mars* (1981). The duo demonstrated the MC-8 on BBC TV's *Tomorrow's World*. Tangerine Dream owned three. Hans Zimmer learned electronic composition on it. Giorgio Moroder's *From Here to Eternity* was sequenced with it.
+* **Legacy.** The MC-8 collapsed the distinction between programmer and musician in a way no device had before. The numeric keypad-as-musical-interface paradigm influenced Roland's subsequent MC-4, the broader workstation concept, and the DAW-based production workflows that would dominate decades later. Its approach — music as data entry, separated from real-time performance — remains controversial and fertile.
+
+### Team
+
+* **Ralph Dyck** — Canadian composer and technologist who developed the prototype for Roland. Interviewed in 2010 as "Godfather of the MC-8."
+* **Ikutaro Kakehashi** — Founder of Roland Corporation; oversaw development and brought the MC-8 to market.
+* **Hideki Matsutake** — Programmer who operated the MC-8 for Yellow Magic Orchestra; known as their "fourth member."
+
+### Media
+
+![Roland MC-8 MicroComposer front panel showing numeric keypad and controls](../assets/wiki/roland-mc8-front.jpg)
+*Roland MC-8 MicroComposer. Photo by Strettamgd, CC BY-SA 2.5, via Wikimedia Commons.*
+
+![Roland MC-8 displayed at Synthesizer Festa 2012, Shinjuku, Tokyo](../assets/wiki/roland-mc8-festa.jpg)
+*Roland MC-8 at Synthesizer Festa 2012 in Shinjuku. Photo by Kazuhisa OTSUBO, CC BY 2.0, via Flickr/Wikimedia Commons.*
+
+### Sources
+
+1. Wikipedia: Roland MC-8 Microcomposer — https://en.wikipedia.org/wiki/Roland_MC-8_Microcomposer
+2. Sound on Sound: The History Of Roland Part 1: 1930-1978 (Nov 2004) — https://www.soundonsound.com/sos/nov04/articles/roland.htm
+3. Sound on Sound: Roland MC8 retrospective (March 1997, archived) — https://web.archive.org/web/20150924115650/http://www.soundonsound.com/sos/1997_articles/mar97/rolandmc8.html
+4. Ralph Dyck interview: Godfather of the MC-8 (2010) — https://rolandmc8.wordpress.com/2010/01/25/exclusive-interview-with-ralph-dyck-godfather-of-the-mc-8/
+5. Roland MC-8 Instruction Manual (1979) — https://archive.org/details/synthmanual-roland-mc-8-owners-manual
+
+## Suzuki Omnichord (1981)
+**By:** Suzuki Musical Instrument Corporation (Japan)  
+**Tags:** `Music` `Input` `Touch` `Capacitive` `Consumer`
+
+### Overview
+
+The Omnichord is an electronic musical instrument introduced in 1981 by Suzuki, the Japanese manufacturer known for educational instruments like the Melodion. Conceived as an electronic autoharp, it replaced strings with a capacitive touch plate (branded "Sonic Strings") and chord theory with a grid of buttons. The left hand selected chords from a grid (27 on the original OM-27, up to 84 on later models); the right hand strummed the touch strip. The notes produced were always in key with the selected chord. Built-in rhythm machine and auto-bass line provided accompaniment. The OM-27 had only a single "harp" sound. Successive models added voices (guitar, piano, banjo, organ, vibes, brass, synth), MIDI connectivity, chord sequencing, and more rhythms. Production ran through the OM-300 in 1996, with a revival OM-108 released in 2024.
+
+### Deep dive
+
+* **Origins.** Suzuki designed the Omnichord for people without musical experience who might be intimidated by traditional keyboard instruments. The OM-27 launched in 1981 alongside the Tronichord (also called the Portachord). At the time, this was a genuinely new idea: a mass-market electronic instrument where you literally could not play a wrong note. The constrained output was the feature.
+* **The strum plate.** The "Sonic Strings" capacitive touch strip maps chord-degree arpeggios across a 4-octave span, always harmonically constrained by the currently selected chord button. The physical gesture — strumming — is preserved from acoustic autoharps, but the interaction surface is purely electronic. The strip detects finger position and velocity, translating them into MIDI or internal sound generation. This is one of the earliest mass-market consumer devices where a capacitive touch strip served as the primary expressive surface.
+* **Bimanual coordination.** The Omnichord requires a distinctive two-handed coordination unlike any traditional instrument: chord selection with the left hand, strumming expression with the right. Neither guitarists nor keyboardists had this exact skill; everyone learned it fresh.
+* **Cultural reach.** David Bowie used an Omnichord for his performance of "America" at the 2001 Concert for New York City. Brian Eno and Daniel Lanois slowed down Omnichord recordings for "Deep Blue Day" from *Apollo: Atmospheres and Soundtracks* (1983), creating what Lanois called a "beautiful, deep, jukebox sound." Eurythmics used the harp sound on "Love Is a Stranger" (1982). Gorillaz used the OM-300's "Rock 1" preset for "Clint Eastwood" (2001). Meshell Ndegeocello's album *The Omnichord Real Book* won the inaugural Grammy Award for Best Alternative Jazz Album (2024).
+* **Legacy.** The Omnichord's design philosophy — constrain output to guarantee pleasant results regardless of skill — anticipated Guitar Hero, Rock Band, and GarageBand's Smart Instruments by decades. Its approach to musical democratization through interaction design rather than simplified instruction represents a distinct HCI tradition that runs parallel to the more technical instrument-controller lineage. The 2024 OM-108 revival confirms its enduring appeal.
+
+### Team
+
+* **Suzuki Musical Instrument Corporation** — Hamamatsu, Japan-based manufacturer of educational musical instruments. The Omnichord was their most distinctive electronic product line.
+
+### Media
+
+![Suzuki Omnichord OM-27 (1981), the original model with 27 chord buttons and analog sound](../assets/wiki/omnichord-om27.jpg)
+*Suzuki Omnichord OM-27 (1981), the first model with 27 chord buttons. Photo by tico_24, CC BY 2.0, via Flickr/Wikimedia Commons.*
+
+![Suzuki Omnichord on display at This Museum Is (Not) Obsolete, Ramsgate, Kent, August 2021](../assets/wiki/omnichord-museum.jpg)
+*Suzuki Omnichord at This Museum Is (Not) Obsolete, Ramsgate, Kent. Photo CC BY-SA 4.0, via Wikimedia Commons.*
+
+### Sources
+
+1. Wikipedia: Omnichord — https://en.wikipedia.org/wiki/Omnichord
+2. MusicRadar: Blast from the past: Suzuki Omnichord (April 2023) — https://www.musicradar.com/news/blast-from-past-suzuki-omnichord
+3. MusicTech: Vintage rewind: Suzuki Omnichord (February 2020) — https://musictech.com/features/opinion-analysis/vintage-rewind-suzuki-omnichord/
+4. Electronics & Music Maker: Suzuki Omnichord review (May 1982) — http://www.muzines.co.uk/articles/suzuki-omnichord/4271
+5. Omnichord Heaven resource website — https://www.omnichord-heaven.com/
+
+## Linus Write-Top (1988)
+**By:** Linus Technologies, Inc. (Ralph Sklarew, Robert Nadeau, Arthur Rodbell), Reston, Virginia  
+**Tags:** `Pen Computing` `Tablet` `Handwriting Recognition` `Input` `Portable`
+
+### Overview
+
+The Linus Write-Top was the first tablet computer released to the public with support for pen input and handwriting recognition software. Released in July 1988 by Linus Technologies, it was an IBM PC-compatible two-piece clamshell (system unit + pen display) with an NEC V20 CPU at 7.16 MHz, 640 KB of static RAM, a 9.4-inch monochrome transflective STN LCD at 640×200 CGA resolution, and MS-DOS 3.30. It had no built-in physical keyboard. Instead, a TSR program called Your-Write converted handwriting entered via a zone at the bottom of the screen into ASCII text, injected live into any DOS application. The recognizer required a 30-minute training session. Priced at $3,000, the Write-Top sold approximately 1,500 units before Linus Technologies went bankrupt in February 1990. The patents were sold to GRiD Systems.
+
+### Deep dive
+
+* **Origins.** Linus Technologies was founded in 1985 by Ralph Sklarew (who had developed NASA environmental monitoring systems), Robert Nadeau (an English professor at George Mason University working on an e-book reader prototype), and Arthur Rodbell (seed capital and marketing). The two met as neighbors in Virginia when Sklarew discovered Nadeau's e-book prototype. They developed a handwriting digitization system in GW-BASIC and raised $11 million from Venture First of Winston-Salem, NC. Former Atari VP of marketing Richard Mier was brought in as CEO. The final industrial design was executed by Peter H. Muller of Inter4m.
+* **The pen.** The digitizer used electromagnetic sensing, but the stylus could be nearly any material — the manual specifically noted a mechanical pencil would work. This was an unusual flexibility: most digitizers required a powered or specifically shaped stylus. Handwriting was entered in a dedicated zone at screen bottom; letterforms could not overlap or connect (no cursive recognition). Special pen symbols represented commands: delete-word, copy-paste, and text block selection.
+* **Your-Write.** The handwriting recognition engine occupied 40 KB of RAM. Training took 30 minutes: the user wrote multiple samples of their handwriting to build a personal model. Once trained, the recognizer injected recognized ASCII into whatever application was in focus — a word processor, spreadsheet, database. Linus also shipped Just-Write, an 80-column word processor optimized for pen input, and sold Code-Write, an SDK for developers wanting handwriting recognition in their own apps (licensing fee: $5,000).
+* **Commercial failure.** The Write-Top was marketed to real estate appraisers, actuaries, medical professionals, and construction managers — not consumers. By January 1989, 1,000 units had been sold and Baxter International was developing compatible medical software. But at $3,000 with sparse pen software, the market was tiny. By February 1990, after ~1,500 total units, Linus went bankrupt. Sklarew said: "We were a little too early with not enough staying power." Most of the company's time was spent educating corporate buyers on what pen computing even was.
+* **Legacy.** The Write-Top introduced the core pen-tablet interaction model: a dedicated handwriting zone feeding recognized text into applications. This exact paradigm — scaled and refined — would reappear in the Apple Newton (1993), Palm Graffiti, and eventually iPad Scribble. The patents went to GRiD Systems, whose GridPad 1900 (1989) found the market the Write-Top couldn't. The Write-Top was too early by about five years and too expensive by about $2,000 — but its vision was exactly what eventually became tablet computing.
+
+### Team
+
+* **Ralph Sklarew** — Co-founder. Previously developed environmental monitoring systems for NASA and founded a chemical plant monitoring company in 1977.
+* **Robert Nadeau** — Co-founder. English professor at George Mason University. Developed the early e-book reader prototype that sparked the Write-Top.
+* **Arthur Rodbell** — Co-founder. Handled seed capital raising and marketing.
+* **Richard Mier** — President and CEO (from 1986). Former VP of marketing at Atari Corporation.
+* **Peter H. Muller** — Industrial designer at Inter4m. Executed the final two-piece clamshell design.
+
+### Media
+
+![Linus Write-Top tablet computer from 1988, showing the pen display unit with stylus](../assets/wiki/linus-writetop.jpg)
+*Linus Write-Top (1988), action shot showing the pen display unit with a stylus. Public domain (published without copyright notice 1978–1989), via Wikimedia Commons.*
+
+### Sources
+
+1. Wikipedia: Linus Write-Top — https://en.wikipedia.org/wiki/Linus_Write-Top
+2. OldComputers.net: Linus Write-Top — https://oldcomputers.net/linus.html
+3. InfoWorld, April 4, 1988: "Linus Write-Top Lets Users Write on Display Screen" — https://books.google.com/books?id=6D4EAAAAMBAJ&pg=PA22
+4. PC Magazine, June 28, 1988: "Write on Portable's LCD Screen, Your Handwriting Becomes ASCII" — https://books.google.com/books?id=-9qzy8Z8SKEC&pg=PA52
+5. Atkinson, Paul. "A Bitter Pill to Swallow: The Rise and Fall of the Tablet Computer." Design Issues 24(4), 2008 — https://doi.org/10.1162/desi.2008.24.4.3
