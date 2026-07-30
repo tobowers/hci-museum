@@ -37,9 +37,8 @@ jobs:
       DEEPSEEK_MODEL: deepseek-v4-pro
       OPENROUTER_MODEL: z-ai/glm-5.2
       SCOUT_AGENT_TIMEOUT_MS: ${{ inputs.agent_timeout_ms || '1800000' }}
-      # Broad search can fan out internally, so cap the generated subqueries
-      # across every agent in the run.
-      OCTEN_MAX_QUERIES_PER_RUN: "12"
+      # Share one focused-search budget across the primary agent and subagents.
+      OCTEN_MAX_REQUESTS_PER_RUN: "7"
     steps:
       - name: Checkout
         uses: actions/checkout@v5

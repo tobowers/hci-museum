@@ -14,7 +14,7 @@ const BEEPY_MEMORY = "docs/beepy-memory.md";
 const DEEPSEEK_MODEL = process.env.DEEPSEEK_MODEL ?? "deepseek-v4-pro";
 const DEEPSEEK_PROVIDER = process.env.DEEPSEEK_PROVIDER ?? "deepseek";
 const MODEL = resolveModelRef(DEEPSEEK_MODEL, DEEPSEEK_PROVIDER);
-const OCTEN_QUERY_LIMIT = Number(process.env.OCTEN_MAX_QUERIES_PER_RUN ?? 12);
+const OCTEN_REQUEST_LIMIT = Number(process.env.OCTEN_MAX_REQUESTS_PER_RUN ?? 7);
 
 function die(message: string): never {
   console.error(`agent-scout: ${message}`);
@@ -114,14 +114,15 @@ Use subagents to speed up research without multiplying search costs:
 - Launch no more than 3 research subagents in parallel, each with one focused angle.
 
 Available CLI tools for you and subagents through bash:
-- Octen broad search: bun scripts/tools/octen.ts search "full research question" --max-queries 3 --num 5 --json
+- Octen focused search: bun scripts/tools/octen.ts search "precise query" --num 8 --json
 - Grok helper: bun scripts/tools/grok.ts "prompt" --json
 
 Discovery/query behavior:
 - Come up with your own search queries based on the goal, current collection gaps, and Beepy memory.
 - Do not wait for a prewritten candidate list. Use Grok for broad ideation only if helpful; use Octen/source pages for grounding.
-- The entire run, including all subagents, has a shared hard limit of ${OCTEN_QUERY_LIMIT} generated Octen search queries. Never bypass scripts/tools/octen.ts with curl or another client.
-- Give each research subagent at most one Octen broad-search call with at most 3 generated queries. Pass the full research question as-is; Octen expands it, so do not pre-split it. Treat an exhausted Octen budget as final and continue with existing sources, Wikipedia, and direct page fetches.
+- The entire run, including all subagents, has a shared hard limit of ${OCTEN_REQUEST_LIMIT} Octen requests. Never bypass scripts/tools/octen.ts with curl or another client.
+- Give each research subagent at most 2 focused Octen searches. Author each query yourself and preserve the concrete artifact class, 1976-1992 date range, unusual interaction requirement, and useful source terms such as prototype, patent, proceedings, manual, brochure, museum, or archive.
+- Treat an exhausted Octen budget as final and continue with existing sources, Wikipedia, and direct page fetches.
 - Try up to 3 query angles in parallel through subagents, then choose what deserves promotion.
 
 Memory behavior:

@@ -3,7 +3,7 @@ import os from "node:os";
 import path from "node:path";
 import { fetchWithTimeout } from "./concurrency";
 
-const DEFAULT_ENDPOINT = "https://api.octen.ai/broad-search";
+const DEFAULT_ENDPOINT = "https://api.octen.ai/search";
 const LOCK_TIMEOUT_MS = 5_000;
 const STALE_LOCK_MS = 10_000;
 
@@ -14,18 +14,13 @@ export type OctenSearchResult = {
   full_content?: string;
 };
 
-type OctenBroadSearchResponse = {
+type OctenSearchResponse = {
   code: number;
   msg?: string;
   request_id?: string;
   data?: {
     query?: string;
-    queries?: string[];
-    search_results?: Array<{
-      query?: string;
-      results?: OctenSearchResult[];
-      latency?: number;
-    }>;
+    results?: OctenSearchResult[];
   };
   meta?: {
     usage?: {
@@ -45,7 +40,7 @@ export type SearchResult = {
 export class OctenBudgetExceededError extends Error {
   constructor(limit: number) {
     super(
-      `Octen search-query budget exhausted (${limit} per run). Use existing sources, Wikipedia, or direct page fetches; do not retry Octen.`,
+      `Octen request budget exhausted (${limit} per run). Use existing sources, Wikipedia, or direct page fetches; do not retry Octen.`,
     );
     this.name = "OctenBudgetExceededError";
   }
@@ -64,12 +59,12 @@ type BudgetClaim = {
 };
 
 function configuredBudget(): { limit: number; file: string } | undefined {
-  const rawLimit = process.env.OCTEN_MAX_QUERIES_PER_RUN;
+  const rawLimit = process.env.OCTEN_MAX_REQUESTS_PER_RUN;
   if (rawLimit === undefined || rawLimit === "") return undefined;
 
   const limit = Number(rawLimit);
   if (!Number.isInteger(limit) || limit < 1) {
-    throw new Error(`OCTEN_MAX_QUERIES_PER_RUN must be a positive integer; received "${rawLimit}"`);
+    throw new Error(`OCTEN_MAX_REQUESTS_PER_RUN must be a positive integer; received "${rawLimit}"`);
   }
 
   const runID = process.env.GITHUB_RUN_ID ?? String(process.ppid);
@@ -137,10 +132,7 @@ function writeBudget(file: string, state: BudgetState) {
   }
 }
 
-export async function claimOctenBudget(queryCount: number): Promise<BudgetClaim | undefined> {
-  if (!Number.isInteger(queryCount) || queryCount < 1) {
-    throw new Error(`Octen budget claim must be a positive integer; received "${queryCount}"`);
-  }
+export async function claimOctenBudget(): Promise<BudgetClaim | undefined> {
   const budget = configuredBudget();
   if (!budget) return undefined;
 
@@ -149,9 +141,9 @@ export async function claimOctenBudget(queryCount: number): Promise<BudgetClaim 
   const lockFD = await acquireLock(lockFile);
   try {
     const state = readBudget(budget.file, budget.limit);
-    if (state.used + queryCount > budget.limit) throw new OctenBudgetExceededError(budget.limit);
+    if (state.used >= budget.limit) throw new OctenBudgetExceededError(budget.limit);
 
-    state.used += queryCount;
+    state.used += 1;
     state.updatedAt = new Date().toISOString();
     writeBudget(budget.file, state);
     return { used: state.used, limit: budget.limit };
@@ -168,13 +160,12 @@ export async function claimOctenBudget(queryCount: number): Promise<BudgetClaim 
 export async function searchOcten(options: {
   query: string;
   numResults: number;
-  maxQueries: number;
   timeoutMs: number;
 }): Promise<SearchResult[]> {
   const apiKey = process.env.OCTEN_API_KEY;
   if (!apiKey) throw new Error("OCTEN_API_KEY missing");
 
-  const claim = await claimOctenBudget(options.maxQueries);
+  const claim = await claimOctenBudget();
   const res = await fetchWithTimeout(
     process.env.OCTEN_ENDPOINT ?? DEFAULT_ENDPOINT,
     {
@@ -182,44 +173,37 @@ export async function searchOcten(options: {
       headers: { "X-Api-Key": apiKey, "Content-Type": "application/json" },
       body: JSON.stringify({
         query: options.query,
-        max_queries: options.maxQueries,
-        search_options: {
-          count: options.numResults,
-          highlight: { enable: true, max_tokens: 300 },
-          full_content: { enable: false },
-          format: "text",
-          safesearch: "strict",
-        },
+        count: options.numResults,
+        highlight: { enable: true, max_tokens: 300 },
+        full_content: { enable: false },
+        format: "text",
+        safesearch: "strict",
       }),
     },
     options.timeoutMs,
   );
-  if (!res.ok) throw new Error(`Octen broad search failed: ${res.status} ${res.statusText}\n${await res.text()}`);
+  if (!res.ok) throw new Error(`Octen search failed: ${res.status} ${res.statusText}\n${await res.text()}`);
 
-  const data = (await res.json()) as OctenBroadSearchResponse;
+  const data = (await res.json()) as OctenSearchResponse;
   if (data.code !== 0) {
-    throw new Error(`Octen broad search failed: code=${data.code} ${data.msg ?? "unknown error"}`);
+    throw new Error(`Octen search failed: code=${data.code} ${data.msg ?? "unknown error"}`);
   }
 
   const results = new Map<string, SearchResult>();
-  for (const group of data.data?.search_results ?? []) {
-    for (const result of group.results ?? []) {
-      if (!result.url || results.has(result.url)) continue;
-      results.set(result.url, {
-        title: result.title || "Untitled",
-        url: result.url,
-        text: result.highlight ?? result.full_content,
-      });
-    }
+  for (const result of data.data?.results ?? []) {
+    if (!result.url || results.has(result.url)) continue;
+    results.set(result.url, {
+      title: result.title || "Untitled",
+      url: result.url,
+      text: result.highlight ?? result.full_content,
+    });
   }
 
-  const budgetLabel = claim ? ` queries=${claim.used}/${claim.limit}` : "";
+  const budgetLabel = claim ? ` requests=${claim.used}/${claim.limit}` : "";
   const actualQueries = data.meta?.usage?.num_search_queries;
   const usageLabel = typeof actualQueries === "number" ? ` actual_queries=${actualQueries}` : "";
   const latency = data.meta?.latency;
   const latencyLabel = typeof latency === "number" ? ` latency=${latency}ms` : "";
-  console.error(
-    `octen: broad max_queries=${options.maxQueries} results=${results.size}${budgetLabel}${usageLabel}${latencyLabel}`,
-  );
+  console.error(`octen: focused results=${results.size}${budgetLabel}${usageLabel}${latencyLabel}`);
   return [...results.values()];
 }

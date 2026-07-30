@@ -177,7 +177,6 @@ async function octenSearch(query: string, num = 5): Promise<WebSource[]> {
   const data = await searchOcten({
     query,
     numResults: Math.min(num, 10),
-    maxQueries: 3,
     timeoutMs: FETCH_TIMEOUT_MS,
   });
   return data.map((r) => ({
@@ -338,7 +337,9 @@ async function researchAgent(candidate: Candidate): Promise<ResearchResult> {
   const query = candidate.search_terms[0] ?? candidate.title;
 
   const [octenSources, wikiTitle] = await Promise.all([
-    octenSearch(`${query} ${candidate.year} HCI hardware`, 5).catch(() => [] as WebSource[]),
+    octenSearch(`${query} ${candidate.year} HCI hardware prototype patent manual museum archive`, 8).catch(
+      () => [] as WebSource[],
+    ),
     wikiSearch(query).catch(() => undefined),
   ]);
 

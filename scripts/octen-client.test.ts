@@ -8,7 +8,7 @@ const originalEnv = {
   OCTEN_API_KEY: process.env.OCTEN_API_KEY,
   OCTEN_BUDGET_FILE: process.env.OCTEN_BUDGET_FILE,
   OCTEN_ENDPOINT: process.env.OCTEN_ENDPOINT,
-  OCTEN_MAX_QUERIES_PER_RUN: process.env.OCTEN_MAX_QUERIES_PER_RUN,
+  OCTEN_MAX_REQUESTS_PER_RUN: process.env.OCTEN_MAX_REQUESTS_PER_RUN,
 };
 const tempDirs: string[] = [];
 
@@ -26,22 +26,22 @@ afterEach(() => {
   for (const dir of tempDirs.splice(0)) fs.rmSync(dir, { recursive: true, force: true });
 });
 
-test("the shared budget caps generated queries across parallel broad searches", async () => {
-  process.env.OCTEN_MAX_QUERIES_PER_RUN = "12";
+test("the shared budget caps parallel focused-search requests", async () => {
+  process.env.OCTEN_MAX_REQUESTS_PER_RUN = "7";
   process.env.OCTEN_BUDGET_FILE = tempBudgetFile();
 
-  const results = await Promise.allSettled(Array.from({ length: 30 }, () => claimOctenBudget(3)));
+  const results = await Promise.allSettled(Array.from({ length: 30 }, () => claimOctenBudget()));
   const accepted = results.filter((result) => result.status === "fulfilled");
   const rejected = results.filter((result) => result.status === "rejected");
 
-  expect(accepted).toHaveLength(4);
-  expect(rejected).toHaveLength(26);
+  expect(accepted).toHaveLength(7);
+  expect(rejected).toHaveLength(23);
   expect(rejected.every((result) => result.reason instanceof OctenBudgetExceededError)).toBe(true);
 });
 
-test("search uses bounded Octen broad search and deduplicates results", async () => {
+test("search uses the focused Octen endpoint and deduplicates results", async () => {
   process.env.OCTEN_API_KEY = "test-key";
-  process.env.OCTEN_MAX_QUERIES_PER_RUN = "3";
+  process.env.OCTEN_MAX_REQUESTS_PER_RUN = "1";
   process.env.OCTEN_BUDGET_FILE = tempBudgetFile();
 
   let requestBody: Record<string, unknown> = {};
@@ -54,21 +54,13 @@ test("search uses bounded Octen broad search and deduplicates results", async ()
       return Response.json({
         code: 0,
         data: {
-          search_results: [
-            {
-              query: "first",
-              results: [{ title: "Example", url: "https://example.com", highlight: "Useful context" }],
-            },
-            {
-              query: "second",
-              results: [
-                { title: "Duplicate", url: "https://example.com", highlight: "Duplicate context" },
-                { title: "Second", url: "https://example.org", highlight: "More context" },
-              ],
-            },
+          results: [
+            { title: "Example", url: "https://example.com", highlight: "Useful context" },
+            { title: "Duplicate", url: "https://example.com", highlight: "Duplicate context" },
+            { title: "Second", url: "https://example.org", highlight: "More context" },
           ],
         },
-        meta: { usage: { num_search_queries: 3 }, latency: 42 },
+        meta: { usage: { num_search_queries: 1 }, latency: 42 },
       });
     },
   });
@@ -77,8 +69,7 @@ test("search uses bounded Octen broad search and deduplicates results", async ()
   try {
     const results = await searchOcten({
       query: "HCI history",
-      numResults: 5,
-      maxQueries: 3,
+      numResults: 8,
       timeoutMs: 1_000,
     });
     expect(results).toHaveLength(2);
@@ -86,14 +77,11 @@ test("search uses bounded Octen broad search and deduplicates results", async ()
     expect(apiKeyHeader).toBe("test-key");
     expect(requestBody).toEqual({
       query: "HCI history",
-      max_queries: 3,
-      search_options: {
-        count: 5,
-        highlight: { enable: true, max_tokens: 300 },
-        full_content: { enable: false },
-        format: "text",
-        safesearch: "strict",
-      },
+      count: 8,
+      highlight: { enable: true, max_tokens: 300 },
+      full_content: { enable: false },
+      format: "text",
+      safesearch: "strict",
     });
   } finally {
     server.stop(true);
