@@ -23,6 +23,7 @@
 import fs from "node:fs";
 import path from "node:path";
 import { envInt, fetchWithTimeout, mapLimit, withTimeout } from "./concurrency";
+import { searchExa } from "./exa-client";
 import { closeOpencode, opencodeText, resolveModelRef } from "./opencode-runner";
 import { RunTrace, errorData } from "./run-trace";
 import { exhibits } from "../src/data";
@@ -33,7 +34,6 @@ const TRACE_DIR = `${POTENTIAL_DIR}/runs`;
 const BEEPY_CHARTER = "docs/beepy.md";
 const WIKI_PATH = "docs/hci-wiki.md";
 
-const EXA_ENDPOINT = "https://api.exa.ai/search";
 const WIKI_API = "https://en.wikipedia.org/w/api.php";
 
 const GROK_MODEL = process.env.GROK_MODEL ?? "grok-4.3";
@@ -174,11 +174,7 @@ function extractJsonArray(text: string): unknown[] {
 }
 
 async function exaSearch(query: string, num = 10): Promise<WebSource[]> {
-  const data = (await fetchJson(EXA_ENDPOINT, {
-    method: "POST",
-    headers: { Authorization: `Bearer ${process.env.EXA_API_KEY}`, "Content-Type": "application/json" },
-    body: JSON.stringify({ query, numResults: num, type: "auto" }),
-  })) as { results?: { title: string; url: string; text?: string }[] };
+  const data = await searchExa({ query, numResults: Math.min(num, 8), timeoutMs: FETCH_TIMEOUT_MS });
   return (data.results ?? []).map((r) => ({
     title: r.title,
     url: r.url,

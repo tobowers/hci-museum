@@ -14,6 +14,7 @@ const BEEPY_MEMORY = "docs/beepy-memory.md";
 const DEEPSEEK_MODEL = process.env.DEEPSEEK_MODEL ?? "deepseek-v4-pro";
 const DEEPSEEK_PROVIDER = process.env.DEEPSEEK_PROVIDER ?? "deepseek";
 const MODEL = resolveModelRef(DEEPSEEK_MODEL, DEEPSEEK_PROVIDER);
+const EXA_REQUEST_LIMIT = Number(process.env.EXA_MAX_REQUESTS_PER_RUN ?? 7);
 
 function die(message: string): never {
   console.error(`agent-scout: ${message}`);
@@ -107,10 +108,10 @@ Find about 3 promising new HCI hardware/interface artifacts from roughly 1976-19
 Already in the museum. Do not duplicate these:
 ${existing}
 
-Use subagents to speed up research:
+Use subagents to speed up research without multiplying search costs:
 - Use the task tool with subagent_type "hci-research-subagent" for candidate research.
 - Use the task tool with subagent_type "hci-image-subagent" for image/source leads when useful.
-- Launch several research subagents in parallel when you have multiple candidates.
+- Launch no more than 3 research subagents in parallel, each with one focused angle.
 
 Available CLI tools for you and subagents through bash:
 - Exa search: bun scripts/tools/exa.ts search "query" --num 8 --json
@@ -119,7 +120,9 @@ Available CLI tools for you and subagents through bash:
 Discovery/query behavior:
 - Come up with your own search queries based on the goal, current collection gaps, and Beepy memory.
 - Do not wait for a prewritten candidate list. Use Grok for broad ideation only if helpful; use Exa/source pages for grounding.
-- Try several query angles in parallel through subagents, then choose what deserves promotion.
+- The entire run, including all subagents, has a shared hard limit of ${EXA_REQUEST_LIMIT} Exa requests. Never bypass scripts/tools/exa.ts with curl or another client.
+- Give each research subagent at most 2 Exa searches. Treat an exhausted Exa budget as final: do not retry it. Continue with existing sources, Wikipedia, and direct page fetches.
+- Try up to 3 query angles in parallel through subagents, then choose what deserves promotion.
 
 Memory behavior:
 - Read docs/beepy-memory.md as durable guidance.

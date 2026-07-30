@@ -1,11 +1,12 @@
 #!/usr/bin/env bun
 
-import { envInt, fetchWithTimeout } from "../concurrency";
+import { envInt } from "../concurrency";
+import { searchExa } from "../exa-client";
 
-const ENDPOINT = "https://api.exa.ai/search";
+const MAX_RESULTS = 8;
 
 function usage(): never {
-  console.error('usage: bun scripts/tools/exa.ts search "query" [--num 10] [--timeout-ms 20000] [--json]');
+  console.error('usage: bun scripts/tools/exa.ts search "query" [--num 8] [--timeout-ms 20000] [--json]');
   process.exit(1);
 }
 
@@ -23,20 +24,13 @@ async function main() {
   const query = args.find((arg, index) => index > 0 && !arg.startsWith("--") && args[index - 1] !== "--num");
   if (!query) usage();
 
-  const apiKey = process.env.EXA_API_KEY;
-  if (!apiKey) throw new Error("EXA_API_KEY missing");
-
-  const numResults = Number(argValue(args, "--num") ?? 10);
+  const numResults = Number(argValue(args, "--num") ?? MAX_RESULTS);
+  if (!Number.isInteger(numResults) || numResults < 1 || numResults > MAX_RESULTS) {
+    throw new Error(`--num must be an integer between 1 and ${MAX_RESULTS}`);
+  }
   const timeoutMs = Number(argValue(args, "--timeout-ms") ?? envInt("SCOUT_FETCH_TIMEOUT_MS", 20_000));
   const json = args.includes("--json");
-  const res = await fetchWithTimeout(ENDPOINT, {
-    method: "POST",
-    headers: { Authorization: `Bearer ${apiKey}`, "Content-Type": "application/json" },
-    body: JSON.stringify({ query, numResults, type: "auto" }),
-  }, timeoutMs);
-  if (!res.ok) throw new Error(`Exa search failed: ${res.status} ${res.statusText}\n${await res.text()}`);
-
-  const data = (await res.json()) as { results?: { title?: string; url?: string; text?: string }[] };
+  const data = await searchExa({ query, numResults, timeoutMs });
   const results = (data.results ?? []).map((result) => ({
     title: result.title ?? "Untitled",
     url: result.url ?? "",
