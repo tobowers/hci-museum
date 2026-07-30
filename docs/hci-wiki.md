@@ -139,6 +139,9 @@ Each entry includes an overview, a deep dive, a small media gallery, and full so
 130. [Roland MC-8 MicroComposer (1977)](#roland-mc-8-microcomposer-1977)
 131. [Suzuki Omnichord (1981)](#suzuki-omnichord-1981)
 132. [Linus Write-Top (1988)](#linus-write-top-1988)
+133. [Casio SK-1 Sampling Keyboard (1985)](#casio-sk-1-sampling-keyboard-1985)
+134. [Casio VL-1 / VL-Tone (1981)](#casio-vl-1--vl-tone-1981)
+135. [Rockwell AIM-65 (1978)](#rockwell-aim-65-1978)
 
 ---
 
@@ -6824,3 +6827,122 @@ The Linus Write-Top was the first tablet computer released to the public with su
 3. InfoWorld, April 4, 1988: "Linus Write-Top Lets Users Write on Display Screen" — https://books.google.com/books?id=6D4EAAAAMBAJ&pg=PA22
 4. PC Magazine, June 28, 1988: "Write on Portable's LCD Screen, Your Handwriting Becomes ASCII" — https://books.google.com/books?id=-9qzy8Z8SKEC&pg=PA52
 5. Atkinson, Paul. "A Bitter Pill to Swallow: The Rise and Fall of the Tablet Computer." Design Issues 24(4), 2008 — https://doi.org/10.1162/desi.2008.24.4.3
+
+---
+
+## Casio SK-1 Sampling Keyboard (1985)
+
+**By:** Casio Computer Co., Ltd. (Tokyo, Japan)  
+**Tags:** `HCI` `Input` `Music` `Sampling` `Consumer Electronics` `Circuit Bending`
+
+### Overview
+
+The Casio SK-1, released in 1985 for $99.95, was a miniature sampling keyboard that democratized digital audio sampling for consumers. Its defining interaction was breathtakingly simple: slide a switch to sampling mode, hold one button, make a sound into the built-in microphone, release — and the captured sound is now mapped across 32 miniature piano keys, playable chromatically. At 8-bit PCM, 9.38 kHz sample rate, and 1.4 seconds of memory, the fidelity was lo-fi by design, but the interaction model was revolutionary: any sound in the world could become a musical instrument with one gesture. The SK-1 also became the most famous circuit-bending platform in history — its exposed PCB traces made it trivially modifiable by touching bare fingers to the board, spawning an entire subculture of hardware hacking.
+
+### Deep dive
+
+* **One-Button Sampling.** The SK-1's sampling workflow is the essence of accessibility in hardware design. There is no menu, no file system, no waveform display, no editing. The user slides a switch to 'Record,' holds the sampling button, makes a sound (speaking, singing, tapping, or using the line-in jack), and releases. The captured 1.4-second sample is immediately assigned to the keyboard — press any of the 32 mini keys and the sound plays back at the corresponding pitch. In an era when professional samplers cost $10,000+ and required manual reading, the SK-1 reduced the act of sampling to a single physical gesture. This interaction model — point, press, play — anticipated the one-touch capture paradigm of smartphone cameras and voice memos by decades.
+* **Circuit Bending: The Accidental Interface.** The SK-1 achieved its most famous legacy through an unintended interaction: circuit bending. Reed Ghazala, the father of circuit bending, published the first guide to modifying the SK-1 in Experimental Musical Instruments magazine in the early 1990s, but Keyboard Magazine had already published MIDI modification instructions in 1987. The SK-1's exposed PCB traces — a consequence of its low-cost construction, not a design feature — meant that touching different points on the board with bare fingers would create short circuits that produced unexpected, glitchy sounds. Users discovered that bridging specific solder points with wires, resistors, or their own skin turned the SK-1 into a completely new instrument, capable of sounds its designers never imagined. This accidental interface — the hand on the naked circuit board — created an entire subculture of hardware hacking that continues today.
+* **Full-Featured Consumer Synth.** Beyond sampling, the SK-1 was an unusually capable synthesizer for its price. It included 4-note polyphony, 13 preset amplitude envelopes, portamento (glide between notes), vibrato, a rudimentary step sequencer, preset rhythms, and chord accompaniment. An additive synthesis mode allowed users to build custom timbres from harmonic partials. The built-in speaker and line-out jack made it both a self-contained instrument and a studio tool. The 'Demo' button played the Toy Symphony — the factory-programmed showcase piece. The RadioShack rebranded version was sold as the Realistic Concertmate 500.
+* **Cultural Legacy.** The SK-1 was used by a remarkable range of artists: Autechre used it in their earliest recordings; Blur's Damon Albarn played it on 'Advert' from Modern Life Is Rubbish; jungle pioneer DJ Hype used it for seminal productions; Large Professor sampled with it in early beat-making; Mount Eerie's Eleven Old Songs used only SK-1 and voice; composer Samuel Andreyev wrote demanding chamber music parts for it. Soccer Mommy's 2017 album Collection features an SK-1 on the cover. The SK-1 represents a rare convergence: a mass-market consumer product that became a professional tool, a hacker platform, and a cultural icon — all because of an interaction model that reduced sampling to one button press.
+
+### Team
+
+* **Casio Computer Co., Ltd..** Japanese electronics manufacturer; designed and manufactured the SK-1
+* **RadioShack (Tandy Corporation).** North American distributor; sold rebranded version as Realistic Concertmate 500
+* **Reed Ghazala.** Father of circuit bending; published the first SK-1 bending guide in Experimental Musical Instruments magazine
+
+### Media
+
+![Casio SK-1 sampling keyboard, front view showing 32 mini keys, sampling button, and built-in speaker](../assets/wiki/casio-sk1-front.jpg)
+*Casio SK-1 front view. The sampling button (upper right) and built-in microphone (upper left) are the defining physical interface. Source: Vlad Spears / Clusternote, CC BY-SA 2.0, via Wikimedia Commons.*
+
+![Casio SK-1 angled view showing keyboard, controls, and Sampling label](../assets/wiki/casio-sk1-angle.jpg)
+*Angled view showing the 32-key miniature keyboard, rhythm controls, and 'Sampling' function label. Source: Vlad Spears, CC BY-SA 2.0, via Wikimedia Commons.*
+
+### Sources
+
+1. Wikipedia: Casio SK-1 — https://en.wikipedia.org/wiki/Casio_SK-1
+2. Sonic State: Casio SK-1 specifications and reviews — https://sonicstate.com/synth/casio_sk-1/
+3. Reed Ghazala: Circuit Bending (official site) — https://www.anti-theory.com/
+4. Keyboard Magazine (1987): Adding MIDI to the SK-1 — https://en.wikipedia.org/wiki/Casio_SK-1#References
+5. Wikimedia Commons: Casio SK-1 category — https://commons.wikimedia.org/wiki/Category:Casio_SK-1
+
+---
+
+## Casio VL-1 / VL-Tone (1981)
+
+**By:** Casio Computer Co., Ltd. (Tokyo, Japan)  
+**Tags:** `HCI` `Input` `Music` `Consumer Electronics` `Modal Interface`
+
+### Overview
+
+The Casio VL-1, also sold as the VL-Tone and rebranded by RadioShack as the Realistic Concertmate 200, is a landmark in modal consumer electronics design. Released internationally in 1981 for $69.95, it combined a 4-function calculator with a monophonic digital synthesizer in a single pocket-sized device. Its defining HCI feature is the dual-labeled 29-button keypad: each key serves as both a calculator digit/operator AND a musical note, with a physical mode switch toggling the entire keyboard between two completely different functional worlds. The VL-1 was also arguably the first affordable commercial digital synthesizer, featuring 5 preset voices, 5 hidden voices accessible only via ADSR codes, 10 rhythm patterns, and a 100-note step sequencer — all programmed through the calculator keypad.
+
+### Deep dive
+
+* **Modal Hardware Design.** The VL-1's 29-button membrane keypad is the heart of its HCI story. Every key is physically dual-labeled: the number 1 key is also 'Do', 2 is 'Re', the addition key is also 'Sol', and so on. A physical slider switch selects between Calculator (CAL) and Play/Record modes. In calculator mode, the keypad performs arithmetic and the 8-character LCD shows numbers. In play mode, the same keys produce musical notes and the LCD shows note names. An octave switch extends range to 2.5 octaves. This mode-dependent keypad — where a single physical switch fundamentally rewires the meaning of every input — is one of consumer electronics' purest examples of modal interface design.
+* **Sound Design as Arithmetic.** ADSR synthesis parameters on the VL-1 are entered not with knobs or sliders, but as an 8-digit numeric code typed into the calculator. Each digit position encodes a specific parameter: the first digit selects waveform (9 types including Piano, Flute, Fantasy, Violin, and Guitar), digits 2-8 control Attack, Decay, Sustain Level, Sustain Time, Release Time, Vibrato, and Tremolo respectively. For example, the code '90099914' produces waveform 9 with rapid attack and heavy vibrato. This mapping of sound design onto numeric abstraction — turning timbre into a number you type — created an unusual creative constraint that musicians learned to exploit.
+* **Monophonic Sequencer.** The VL-1 includes a 100-note monophonic step sequencer programmed note-by-note using the musical keypad. A dedicated 'One Key Play' button triggers sequential playback — press once to advance one note at a time, or hold for continuous playback at the tempo set by the rhythm section. The sequencer plus 10 preset rhythms (using only 3 PCM drum sounds internally named 'Po', 'Pi', and 'Sha') made the VL-1 a complete lo-fi music production tool.
+* **Cultural Impact.** The VL-1 achieved iconic status through German band Trio's 1982 hit 'Da Da Da', which used the Rock-1 rhythm preset and Piano voice as its core instrumental track. The Human League used it on their landmark album 'Dare' (1981). Its deliberately cheap, kitsch sound became an aesthetic choice — musicians embraced its limitations, creating a tradition of 'toy instrument' music that continues today. The VL-1 exemplifies constrained creativity: limitations in the interface produced unexpected cultural outcomes. A VST software emulator (PolyValens VL1) keeps the sound alive in modern production.
+
+### Team
+
+* **Casio Computer Co., Ltd..** Japanese electronics manufacturer; designed and manufactured the VL-1
+* **RadioShack (Tandy Corporation).** North American distributor; sold rebranded version as Realistic Concertmate 200
+
+### Media
+
+![Casio VL-1 front-facing product shot on white background](../assets/wiki/casio-vl1-front.jpg)
+*Casio VL-Tone, front view showing dual-labeled keypad and mode switch. Source: Dontpanic, CC BY-SA 3.0, via Wikimedia Commons.*
+
+![Casio VL-1 in the Vienna Technical Museum collection, inventory number 81934](../assets/wiki/casio-vl1-museum.jpg)
+*Casio VL-1 held by the Technisches Museum Wien. Source: Reinraum, CC0, via Wikimedia Commons.*
+
+### Sources
+
+1. Wikipedia: Casio VL-1 — https://en.wikipedia.org/wiki/Casio_VL-1
+2. Casio 40th Anniversary: VL-1 history (official) — https://web.casio.com/emi/40th/history/vl-1.html
+3. Sound Programming: VL-1 specifications and manual — https://soundprogramming.net/keyboards/casio/casio-vl-1/
+4. Happy Mag: The Casio VL-1 — creating with limitations — https://happymag.tv/the-casio-vl-1-creating-with-limitations-and-the-power-of-toy-keyboards/
+5. Technisches Museum Wien: VL-1 object record — https://commons.wikimedia.org/wiki/File:Casio_VL-1_Inv_Nr_81934.jpg
+6. PolyValens VL1 VST emulator — http://www.polyvalens.com/vl1/
+
+---
+
+## Rockwell AIM-65 (1978)
+
+**By:** Rockwell International (Semiconductor Products Division)  
+**Tags:** `HCI` `Output` `Single-Board Computer` `Paper Interface` `Laboratory`
+
+### Overview
+
+The Rockwell AIM-65, introduced in 1978, was a single-board microcomputer that integrated a full QWERTY keyboard, a 20-character alphanumeric LED display, and — most distinctively — a built-in 20-column thermal printer, all on a single circuit board. Based on the MOS Technology 6502 microprocessor, it was sold as a development system, laboratory controller, and educational platform. Its defining HCI feature was the thermal printer: in an era of glass CRTs, the AIM-65 used paper as its primary output medium. Every interaction — typing a command, running a program, reading sensor data — produced a physical, scrolled record. The machine didn't show you results; it wrote them to you.
+
+### Deep dive
+
+* **Paper as Display.** The AIM-65's thermal printer is not an optional peripheral — it is the primary output mechanism. The 20-character LED display serves only as a small status readout; the printer provides the full interaction record. When you type a BASIC command or assembly instruction, the printer scrolls it onto thermal paper. When the computer responds, it prints the answer. This creates a tangible, accumulating artifact of the human-machine conversation — a paradigm that predates the 'glass teletype' and CRT terminals that would soon dominate. The thermal paper roll captures everything: commands, output, errors, and sensor readings, in chronological order.
+* **Laboratory and Industrial Use.** The AIM-65 was widely adopted in laboratory and industrial settings where its integrated I/O and self-contained design made it ideal for data logging and equipment control. With built-in analog-to-digital conversion capability, parallel I/O ports, and expansion connectors, scientists could connect temperature probes, pressure sensors, and other instruments directly to the board. The thermal printer provided immediate hardcopy of measurement data — a self-contained 'measure, compute, print' pipeline in a single board. It was used in university engineering labs, process control, and as a teaching platform for microprocessor programming.
+* **Built-in Software.** The AIM-65 shipped with a ROM-resident monitor program (providing debug and memory manipulation commands), an assembler for 6502 machine code, and an optional BASIC interpreter on ROM. The monitor allowed direct inspection and modification of memory, register dumps, and single-step program execution — all communicated through the keyboard and thermal printer. A built-in cassette interface allowed program storage on standard audio tapes. The ROM software suite made the AIM-65 a self-contained development system with no external dependencies.
+* **Physical Design.** The entire system fit on a single large printed circuit board, roughly 14 × 17 inches, with all components exposed. There was no case, no enclosure — the board IS the computer. This exposed design was intentional: engineers and students were expected to probe, modify, and interface with the hardware directly. The thermal printer mechanism sits in the upper-left corner, fed by a roll of thermal paper. The full-stroke QWERTY keyboard occupies the lower portion. Cassette connectors, expansion ports, and power regulation circuitry fill the remaining real estate. It is a computer laid bare — every component visible, every signal accessible.
+
+### Team
+
+* **Rockwell International.** Semiconductor Products Division; designed and manufactured the AIM-65
+* **MOS Technology.** Provided the 6502 microprocessor at the heart of the system
+
+### Media
+
+![Rockwell AIM-65 single-board computer with exposed PCB, keyboard, LED display, and thermal printer at Vintage Computer Festival Berlin](../assets/wiki/aim65-vcfb.jpg)
+*Rockwell AIM-65 at Vintage Computer Festival Berlin 2017. The thermal printer (upper left) was the primary output mechanism. Source: Wolfgang Stief, CC0, via Wikimedia Commons.*
+
+![Rockwell AIM-65 at Musée Bolo, EPFL, showing full board with keyboard and printer](../assets/wiki/aim65-bolo.jpg)
+*Rockwell AIM-65 held by the Musée Bolo, EPFL Lausanne. Source: Rama, CC BY-SA 2.0 fr, via Wikimedia Commons.*
+
+### Sources
+
+1. Wikipedia: Rockwell AIM-65 — https://en.wikipedia.org/wiki/AIM-65
+2. Old-Computers.com: AIM-65 — https://old-computers.com/museum/computer.asp?c=557
+3. Musée Bolo (EPFL): AIM-65 collection — https://commons.wikimedia.org/wiki/File:Rockwell_AIM-65-IMG_0472.jpg
+4. Vintage Computer Festival Berlin: AIM-65 exhibit — https://commons.wikimedia.org/wiki/File:Single_Board_Computer_AIM-65_(1978)_(26589109399).jpg
+5. Rockwell AIM-65 User's Manual (bitsavers.org) — http://www.bitsavers.org/components/rockwell/AIM-65/
