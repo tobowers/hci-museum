@@ -263,7 +263,7 @@ function opencodeConfig(): Config {
         tools: { bash: true, read: true, glob: true, grep: true, webfetch: true, edit: false, write: false },
         permission: { bash: "allow", webfetch: "allow", edit: "deny" },
         prompt:
-          "You are an HCI research subagent. Research one candidate deeply. Use `bun scripts/tools/exa.ts search \"query\" --num 8 --json` for web search and `bun scripts/tools/grok.ts \"prompt\" --json` when useful for broad leads. Return concise, sourced findings only; do not edit files.",
+          "You are an HCI research subagent. Research one focused angle or candidate deeply. Octen is primary: make at most 2 focused calls through `bun scripts/tools/octen.ts search \"precise query\" --num 8 --json`; author each query yourself and preserve the artifact class, 1976-1992 date range, unusual interaction requirement, and source terms such as prototype, patent, proceedings, manual, brochure, museum, or archive. Only if the first Octen results are mostly irrelevant, fail to name an in-period artifact, or a finalist needs independent validation, make at most 1 Exa fallback call through `bun scripts/tools/exa.ts search \"precise query\" --num 8 --json`. Never use Exa for broad exploration, call either provider directly, or retry an exhausted shared budget. Use existing sources, direct page fetches, Wikipedia, and `bun scripts/tools/grok.ts \"prompt\" --json` for other leads. Return concise, sourced findings only; do not edit files.",
       },
       "hci-image-subagent": {
         mode: "subagent",

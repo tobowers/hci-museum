@@ -28,6 +28,7 @@ jobs:
     runs-on: ubuntu-latest
     timeout-minutes: 90
     env:
+      OCTEN_API_KEY: ${{ secrets.OCTEN_API_KEY }}
       EXA_API_KEY: ${{ secrets.EXA_API_KEY }}
       GROK_API_KEY: ${{ secrets.GROK_API_KEY }}
       XAI_API_KEY: ${{ secrets.XAI_API_KEY }}
@@ -37,6 +38,9 @@ jobs:
       DEEPSEEK_MODEL: deepseek-v4-pro
       OPENROUTER_MODEL: z-ai/glm-5.2
       SCOUT_AGENT_TIMEOUT_MS: ${{ inputs.agent_timeout_ms || '1800000' }}
+      # Octen is the primary search path. Exa is a tightly capped quality fallback.
+      OCTEN_MAX_REQUESTS_PER_RUN: "7"
+      EXA_MAX_REQUESTS_PER_RUN: "2"
     steps:
       - name: Checkout
         uses: actions/checkout@v5
@@ -49,6 +53,9 @@ jobs:
 
       - name: Install dependencies
         run: bun install --frozen-lockfile
+
+      - name: Test search spend guards
+        run: bun test scripts/octen-client.test.ts scripts/exa-client.test.ts
 
       - name: Typecheck
         run: bun run typecheck

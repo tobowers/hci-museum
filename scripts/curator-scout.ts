@@ -3,7 +3,7 @@
  * Curator Scout — multi-agent research pipeline
  *
  * Agents:
- *   1. Scout    (Grok via opencode + Exa + Wikipedia) — broad discovery of candidate objects.
+ *   1. Scout    (Grok via opencode + Octen/Exa + Wikipedia) — broad discovery of candidate objects.
  *   2. Dedupe   — filter out objects already in the museum.
  *   3. Research (DeepSeek V4 Flash by default) — deep-dive each candidate, find multiple images,
  *      build a rich info.json matching the museum's wiki format.
@@ -23,6 +23,8 @@
 import fs from "node:fs";
 import path from "node:path";
 import { envInt, fetchWithTimeout, mapLimit, withTimeout } from "./concurrency";
+import { ExaBudgetExceededError, searchExa } from "./exa-client";
+import { searchOcten } from "./octen-client";
 import { closeOpencode, opencodeText, resolveModelRef } from "./opencode-runner";
 import { RunTrace, errorData } from "./run-trace";
 import { exhibits } from "../src/data";
@@ -33,7 +35,6 @@ const TRACE_DIR = `${POTENTIAL_DIR}/runs`;
 const BEEPY_CHARTER = "docs/beepy.md";
 const WIKI_PATH = "docs/hci-wiki.md";
 
-const EXA_ENDPOINT = "https://api.exa.ai/search";
 const WIKI_API = "https://en.wikipedia.org/w/api.php";
 
 const GROK_MODEL = process.env.GROK_MODEL ?? "grok-4.3";
@@ -111,7 +112,7 @@ function die(msg: string): never {
 }
 
 function loadEnv() {
-  const required = ["EXA_API_KEY", "DEEPSEEK_API_KEY", "OPENROUTER_API_KEY"];
+  const required = ["OCTEN_API_KEY", "EXA_API_KEY", "DEEPSEEK_API_KEY", "OPENROUTER_API_KEY"];
   for (const key of required) {
     if (!process.env[key]) die(`${key} missing. run: source .env`);
   }
@@ -173,17 +174,52 @@ function extractJsonArray(text: string): unknown[] {
   }
 }
 
-async function exaSearch(query: string, num = 10): Promise<WebSource[]> {
-  const data = (await fetchJson(EXA_ENDPOINT, {
-    method: "POST",
-    headers: { Authorization: `Bearer ${process.env.EXA_API_KEY}`, "Content-Type": "application/json" },
-    body: JSON.stringify({ query, numResults: num, type: "auto" }),
-  })) as { results?: { title: string; url: string; text?: string }[] };
-  return (data.results ?? []).map((r) => ({
+async function octenSearch(query: string, num = 5): Promise<WebSource[]> {
+  const data = await searchOcten({
+    query,
+    numResults: Math.min(num, 10),
+    timeoutMs: FETCH_TIMEOUT_MS,
+  });
+  return data.map((r) => ({
     title: r.title,
     url: r.url,
     snippet: (r.text ?? "").slice(0, 800),
   }));
+}
+
+async function exaSearch(query: string, num = 5): Promise<WebSource[]> {
+  const data = await searchExa({
+    query,
+    numResults: Math.min(num, 8),
+    timeoutMs: FETCH_TIMEOUT_MS,
+  });
+  return (data.results ?? []).map((result) => ({
+    title: result.title || "Untitled",
+    url: result.url,
+    snippet: (result.text ?? "").slice(0, 800),
+  }));
+}
+
+function isStrongResearchSource(source: WebSource): boolean {
+  try {
+    const host = new URL(source.url).hostname.toLowerCase();
+    return (
+      /\.(edu|gov)$/.test(host) ||
+      /\.ac\.[a-z]{2}$/.test(host) ||
+      /(^|\.)((acm|ieee)\.org|doi\.org|archive\.org|bitsavers\.org|patents\.google\.com)$/.test(host) ||
+      /(museum|smithsonian|computerhistory|sciencehistory)/.test(host)
+    );
+  } catch {
+    return false;
+  }
+}
+
+function mergeSources(...groups: WebSource[][]): WebSource[] {
+  const sources = new Map<string, WebSource>();
+  for (const source of groups.flat()) {
+    if (source.url && !sources.has(source.url)) sources.set(source.url, source);
+  }
+  return [...sources.values()];
 }
 
 async function wikiSearch(query: string): Promise<string | undefined> {
@@ -276,7 +312,7 @@ Return ONLY a JSON array. Each item must have:
 - year: year or range
 - subtitle: one-sentence hook
 - why_scout_cares: why it might belong in the HCI Museum
-- search_terms: 2-4 strings for Exa/Wikipedia lookup
+- search_terms: 2-4 strings for Octen/Wikipedia lookup
 
 Example:
 [
@@ -336,10 +372,34 @@ async function researchAgent(candidate: Candidate): Promise<ResearchResult> {
   trace("research", "starting candidate research", { slug: candidate.slug, title: candidate.title, year: candidate.year });
   const query = candidate.search_terms[0] ?? candidate.title;
 
-  const [exaSources, wikiTitle] = await Promise.all([
-    exaSearch(`${query} ${candidate.year} HCI hardware`, 8).catch(() => [] as WebSource[]),
+  const [octenSources, wikiTitle] = await Promise.all([
+    octenSearch(`${query} ${candidate.year} HCI hardware prototype patent manual museum archive`, 8).catch(
+      () => [] as WebSource[],
+    ),
     wikiSearch(query).catch(() => undefined),
   ]);
+  let webSources = octenSources;
+  if (octenSources.filter(isStrongResearchSource).length < 2) {
+    try {
+      const exaSources = await exaSearch(
+        `"${candidate.title}" ${candidate.year} HCI hardware prototype patent manual museum archive`,
+        8,
+      );
+      webSources = mergeSources(octenSources, exaSources);
+      trace("research", "used capped Exa fallback after weak Octen source set", {
+        slug: candidate.slug,
+        octenSources: octenSources.length,
+        exaSources: exaSources.length,
+      });
+    } catch (error) {
+      if (!(error instanceof ExaBudgetExceededError)) {
+        trace("research", "Exa fallback failed; continuing with Octen sources", {
+          slug: candidate.slug,
+          error: String(error),
+        });
+      }
+    }
+  }
 
   let wikiExtractText = "";
   let wikiImage = "";
@@ -350,7 +410,7 @@ async function researchAgent(candidate: Candidate): Promise<ResearchResult> {
   }
 
   const pageImages = (
-    await Promise.all(exaSources.slice(0, 4).map((s) => extractPageImages(s.url).catch(() => [])))
+    await Promise.all(webSources.slice(0, 4).map((s) => extractPageImages(s.url).catch(() => [])))
   ).flat();
 
   const allImageUrls = [...(wikiImage ? [wikiImage] : []), ...pageImages];
@@ -361,7 +421,7 @@ Candidate object: "${candidate.title}" (${candidate.year})
 Scout's note: ${candidate.why_scout_cares}
 
 Web sources found:
-${exaSources.map((s) => `- ${s.title}: ${s.url}\n  ${s.snippet ?? ""}`).join("\n")}
+${webSources.map((s) => `- ${s.title}: ${s.url}\n  ${s.snippet ?? ""}`).join("\n")}
 
 Wikipedia page: ${wikiTitle ?? "none found"}
 Wikipedia extract: ${wikiExtractText}
@@ -435,7 +495,7 @@ Rules:
       ? (result.sources as Record<string, string>[])
           .filter((s) => s.url)
           .map((s) => ({ text: String(s.text ?? ""), url: String(s.url) }))
-      : exaSources.map((s) => ({ text: s.title, url: s.url })),
+      : webSources.map((s) => ({ text: s.title, url: s.url })),
     imageUrls: Array.isArray(result.imageUrls)
       ? (result.imageUrls as unknown[]).map((u) => String(u)).filter(isImageUrl)
       : allImageUrls,

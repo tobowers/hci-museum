@@ -1,12 +1,12 @@
 #!/usr/bin/env bun
 
 import { envInt } from "../concurrency";
-import { searchExa } from "../exa-client";
+import { searchOcten } from "../octen-client";
 
-const MAX_RESULTS = 8;
+const MAX_RESULTS = 10;
 
 function usage(): never {
-  console.error('usage: bun scripts/tools/exa.ts search "query" [--num 8] [--timeout-ms 20000] [--json]');
+  console.error('usage: bun scripts/tools/octen.ts search "query" [--num 8] [--timeout-ms 20000] [--json]');
   process.exit(1);
 }
 
@@ -27,14 +27,14 @@ async function main() {
   );
   if (!query) usage();
 
-  const numResults = Number(argValue(args, "--num") ?? MAX_RESULTS);
+  const numResults = Number(argValue(args, "--num") ?? 8);
   if (!Number.isInteger(numResults) || numResults < 1 || numResults > MAX_RESULTS) {
     throw new Error(`--num must be an integer between 1 and ${MAX_RESULTS}`);
   }
   const timeoutMs = Number(argValue(args, "--timeout-ms") ?? envInt("SCOUT_FETCH_TIMEOUT_MS", 20_000));
   const json = args.includes("--json");
-  const data = await searchExa({ query, numResults, timeoutMs });
-  const results = (data.results ?? []).map((result) => ({
+  const data = await searchOcten({ query, numResults, timeoutMs });
+  const results = data.map((result) => ({
     title: result.title ?? "Untitled",
     url: result.url ?? "",
     snippet: (result.text ?? "").slice(0, 1000),
