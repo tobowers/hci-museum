@@ -15,6 +15,7 @@ const DEEPSEEK_MODEL = process.env.DEEPSEEK_MODEL ?? "deepseek-v4-pro";
 const DEEPSEEK_PROVIDER = process.env.DEEPSEEK_PROVIDER ?? "deepseek";
 const MODEL = resolveModelRef(DEEPSEEK_MODEL, DEEPSEEK_PROVIDER);
 const OCTEN_REQUEST_LIMIT = Number(process.env.OCTEN_MAX_REQUESTS_PER_RUN ?? 7);
+const EXA_REQUEST_LIMIT = Number(process.env.EXA_MAX_REQUESTS_PER_RUN ?? 2);
 
 function die(message: string): never {
   console.error(`agent-scout: ${message}`);
@@ -24,6 +25,7 @@ function die(message: string): never {
 function requireEnv() {
   if (!process.env.DEEPSEEK_API_KEY) die("DEEPSEEK_API_KEY missing");
   if (!process.env.OCTEN_API_KEY) die("OCTEN_API_KEY missing");
+  if (!process.env.EXA_API_KEY) die("EXA_API_KEY missing");
   if (!process.env.XAI_API_KEY && !process.env.GROK_API_KEY) die("XAI_API_KEY or GROK_API_KEY missing");
 }
 
@@ -115,14 +117,18 @@ Use subagents to speed up research without multiplying search costs:
 
 Available CLI tools for you and subagents through bash:
 - Octen focused search: bun scripts/tools/octen.ts search "precise query" --num 8 --json
+- Exa quality fallback: bun scripts/tools/exa.ts search "precise query" --num 8 --json
 - Grok helper: bun scripts/tools/grok.ts "prompt" --json
 
 Discovery/query behavior:
 - Come up with your own search queries based on the goal, current collection gaps, and Beepy memory.
 - Do not wait for a prewritten candidate list. Use Grok for broad ideation only if helpful; use Octen/source pages for grounding.
 - The entire run, including all subagents, has a shared hard limit of ${OCTEN_REQUEST_LIMIT} Octen requests. Never bypass scripts/tools/octen.ts with curl or another client.
+- Octen is the primary web search. Always try a precise Octen query before considering Exa.
 - Give each research subagent at most 2 focused Octen searches. Author each query yourself and preserve the concrete artifact class, 1976-1992 date range, unusual interaction requirement, and useful source terms such as prototype, patent, proceedings, manual, brochure, museum, or archive.
 - Treat an exhausted Octen budget as final and continue with existing sources, Wikipedia, and direct page fetches.
+- The entire run also has a shared hard limit of ${EXA_REQUEST_LIMIT} Exa fallback requests. Never bypass scripts/tools/exa.ts with curl or another client, and never retry an exhausted Exa budget.
+- Use Exa only when the first Octen result set is mostly irrelevant, fails to name a plausible in-period artifact, or when one final candidate needs independent source validation. Never use Exa for broad exploration. Give any one subagent at most 1 Exa call.
 - Try up to 3 query angles in parallel through subagents, then choose what deserves promotion.
 
 Memory behavior:

@@ -3,7 +3,7 @@
  * Curator Scout — multi-agent research pipeline
  *
  * Agents:
- *   1. Scout    (Grok via opencode + Octen + Wikipedia) — broad discovery of candidate objects.
+ *   1. Scout    (Grok via opencode + Octen/Exa + Wikipedia) — broad discovery of candidate objects.
  *   2. Dedupe   — filter out objects already in the museum.
  *   3. Research (DeepSeek V4 Flash by default) — deep-dive each candidate, find multiple images,
  *      build a rich info.json matching the museum's wiki format.
@@ -23,6 +23,7 @@
 import fs from "node:fs";
 import path from "node:path";
 import { envInt, fetchWithTimeout, mapLimit, withTimeout } from "./concurrency";
+import { ExaBudgetExceededError, searchExa } from "./exa-client";
 import { searchOcten } from "./octen-client";
 import { closeOpencode, opencodeText, resolveModelRef } from "./opencode-runner";
 import { RunTrace, errorData } from "./run-trace";
@@ -111,7 +112,7 @@ function die(msg: string): never {
 }
 
 function loadEnv() {
-  const required = ["OCTEN_API_KEY", "DEEPSEEK_API_KEY", "OPENROUTER_API_KEY"];
+  const required = ["OCTEN_API_KEY", "EXA_API_KEY", "DEEPSEEK_API_KEY", "OPENROUTER_API_KEY"];
   for (const key of required) {
     if (!process.env[key]) die(`${key} missing. run: source .env`);
   }
@@ -184,6 +185,41 @@ async function octenSearch(query: string, num = 5): Promise<WebSource[]> {
     url: r.url,
     snippet: (r.text ?? "").slice(0, 800),
   }));
+}
+
+async function exaSearch(query: string, num = 5): Promise<WebSource[]> {
+  const data = await searchExa({
+    query,
+    numResults: Math.min(num, 8),
+    timeoutMs: FETCH_TIMEOUT_MS,
+  });
+  return (data.results ?? []).map((result) => ({
+    title: result.title || "Untitled",
+    url: result.url,
+    snippet: (result.text ?? "").slice(0, 800),
+  }));
+}
+
+function isStrongResearchSource(source: WebSource): boolean {
+  try {
+    const host = new URL(source.url).hostname.toLowerCase();
+    return (
+      /\.(edu|gov)$/.test(host) ||
+      /\.ac\.[a-z]{2}$/.test(host) ||
+      /(^|\.)((acm|ieee)\.org|doi\.org|archive\.org|bitsavers\.org|patents\.google\.com)$/.test(host) ||
+      /(museum|smithsonian|computerhistory|sciencehistory)/.test(host)
+    );
+  } catch {
+    return false;
+  }
+}
+
+function mergeSources(...groups: WebSource[][]): WebSource[] {
+  const sources = new Map<string, WebSource>();
+  for (const source of groups.flat()) {
+    if (source.url && !sources.has(source.url)) sources.set(source.url, source);
+  }
+  return [...sources.values()];
 }
 
 async function wikiSearch(query: string): Promise<string | undefined> {
@@ -342,6 +378,28 @@ async function researchAgent(candidate: Candidate): Promise<ResearchResult> {
     ),
     wikiSearch(query).catch(() => undefined),
   ]);
+  let webSources = octenSources;
+  if (octenSources.filter(isStrongResearchSource).length < 2) {
+    try {
+      const exaSources = await exaSearch(
+        `"${candidate.title}" ${candidate.year} HCI hardware prototype patent manual museum archive`,
+        8,
+      );
+      webSources = mergeSources(octenSources, exaSources);
+      trace("research", "used capped Exa fallback after weak Octen source set", {
+        slug: candidate.slug,
+        octenSources: octenSources.length,
+        exaSources: exaSources.length,
+      });
+    } catch (error) {
+      if (!(error instanceof ExaBudgetExceededError)) {
+        trace("research", "Exa fallback failed; continuing with Octen sources", {
+          slug: candidate.slug,
+          error: String(error),
+        });
+      }
+    }
+  }
 
   let wikiExtractText = "";
   let wikiImage = "";
@@ -352,7 +410,7 @@ async function researchAgent(candidate: Candidate): Promise<ResearchResult> {
   }
 
   const pageImages = (
-    await Promise.all(octenSources.slice(0, 4).map((s) => extractPageImages(s.url).catch(() => [])))
+    await Promise.all(webSources.slice(0, 4).map((s) => extractPageImages(s.url).catch(() => [])))
   ).flat();
 
   const allImageUrls = [...(wikiImage ? [wikiImage] : []), ...pageImages];
@@ -363,7 +421,7 @@ Candidate object: "${candidate.title}" (${candidate.year})
 Scout's note: ${candidate.why_scout_cares}
 
 Web sources found:
-${octenSources.map((s) => `- ${s.title}: ${s.url}\n  ${s.snippet ?? ""}`).join("\n")}
+${webSources.map((s) => `- ${s.title}: ${s.url}\n  ${s.snippet ?? ""}`).join("\n")}
 
 Wikipedia page: ${wikiTitle ?? "none found"}
 Wikipedia extract: ${wikiExtractText}
@@ -437,7 +495,7 @@ Rules:
       ? (result.sources as Record<string, string>[])
           .filter((s) => s.url)
           .map((s) => ({ text: String(s.text ?? ""), url: String(s.url) }))
-      : octenSources.map((s) => ({ text: s.title, url: s.url })),
+      : webSources.map((s) => ({ text: s.title, url: s.url })),
     imageUrls: Array.isArray(result.imageUrls)
       ? (result.imageUrls as unknown[]).map((u) => String(u)).filter(isImageUrl)
       : allImageUrls,
