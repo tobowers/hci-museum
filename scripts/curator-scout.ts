@@ -3,7 +3,7 @@
  * Curator Scout — multi-agent research pipeline
  *
  * Agents:
- *   1. Scout    (Grok via opencode + Exa + Wikipedia) — broad discovery of candidate objects.
+ *   1. Scout    (Grok via opencode + Octen + Wikipedia) — broad discovery of candidate objects.
  *   2. Dedupe   — filter out objects already in the museum.
  *   3. Research (DeepSeek V4 Flash by default) — deep-dive each candidate, find multiple images,
  *      build a rich info.json matching the museum's wiki format.
@@ -23,7 +23,7 @@
 import fs from "node:fs";
 import path from "node:path";
 import { envInt, fetchWithTimeout, mapLimit, withTimeout } from "./concurrency";
-import { searchExa } from "./exa-client";
+import { searchOcten } from "./octen-client";
 import { closeOpencode, opencodeText, resolveModelRef } from "./opencode-runner";
 import { RunTrace, errorData } from "./run-trace";
 import { exhibits } from "../src/data";
@@ -111,7 +111,7 @@ function die(msg: string): never {
 }
 
 function loadEnv() {
-  const required = ["EXA_API_KEY", "DEEPSEEK_API_KEY", "OPENROUTER_API_KEY"];
+  const required = ["OCTEN_API_KEY", "DEEPSEEK_API_KEY", "OPENROUTER_API_KEY"];
   for (const key of required) {
     if (!process.env[key]) die(`${key} missing. run: source .env`);
   }
@@ -173,9 +173,14 @@ function extractJsonArray(text: string): unknown[] {
   }
 }
 
-async function exaSearch(query: string, num = 10): Promise<WebSource[]> {
-  const data = await searchExa({ query, numResults: Math.min(num, 8), timeoutMs: FETCH_TIMEOUT_MS });
-  return (data.results ?? []).map((r) => ({
+async function octenSearch(query: string, num = 5): Promise<WebSource[]> {
+  const data = await searchOcten({
+    query,
+    numResults: Math.min(num, 10),
+    maxQueries: 3,
+    timeoutMs: FETCH_TIMEOUT_MS,
+  });
+  return data.map((r) => ({
     title: r.title,
     url: r.url,
     snippet: (r.text ?? "").slice(0, 800),
@@ -272,7 +277,7 @@ Return ONLY a JSON array. Each item must have:
 - year: year or range
 - subtitle: one-sentence hook
 - why_scout_cares: why it might belong in the HCI Museum
-- search_terms: 2-4 strings for Exa/Wikipedia lookup
+- search_terms: 2-4 strings for Octen/Wikipedia lookup
 
 Example:
 [
@@ -332,8 +337,8 @@ async function researchAgent(candidate: Candidate): Promise<ResearchResult> {
   trace("research", "starting candidate research", { slug: candidate.slug, title: candidate.title, year: candidate.year });
   const query = candidate.search_terms[0] ?? candidate.title;
 
-  const [exaSources, wikiTitle] = await Promise.all([
-    exaSearch(`${query} ${candidate.year} HCI hardware`, 8).catch(() => [] as WebSource[]),
+  const [octenSources, wikiTitle] = await Promise.all([
+    octenSearch(`${query} ${candidate.year} HCI hardware`, 5).catch(() => [] as WebSource[]),
     wikiSearch(query).catch(() => undefined),
   ]);
 
@@ -346,7 +351,7 @@ async function researchAgent(candidate: Candidate): Promise<ResearchResult> {
   }
 
   const pageImages = (
-    await Promise.all(exaSources.slice(0, 4).map((s) => extractPageImages(s.url).catch(() => [])))
+    await Promise.all(octenSources.slice(0, 4).map((s) => extractPageImages(s.url).catch(() => [])))
   ).flat();
 
   const allImageUrls = [...(wikiImage ? [wikiImage] : []), ...pageImages];
@@ -357,7 +362,7 @@ Candidate object: "${candidate.title}" (${candidate.year})
 Scout's note: ${candidate.why_scout_cares}
 
 Web sources found:
-${exaSources.map((s) => `- ${s.title}: ${s.url}\n  ${s.snippet ?? ""}`).join("\n")}
+${octenSources.map((s) => `- ${s.title}: ${s.url}\n  ${s.snippet ?? ""}`).join("\n")}
 
 Wikipedia page: ${wikiTitle ?? "none found"}
 Wikipedia extract: ${wikiExtractText}
@@ -431,7 +436,7 @@ Rules:
       ? (result.sources as Record<string, string>[])
           .filter((s) => s.url)
           .map((s) => ({ text: String(s.text ?? ""), url: String(s.url) }))
-      : exaSources.map((s) => ({ text: s.title, url: s.url })),
+      : octenSources.map((s) => ({ text: s.title, url: s.url })),
     imageUrls: Array.isArray(result.imageUrls)
       ? (result.imageUrls as unknown[]).map((u) => String(u)).filter(isImageUrl)
       : allImageUrls,

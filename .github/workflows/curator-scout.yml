@@ -28,7 +28,7 @@ jobs:
     runs-on: ubuntu-latest
     timeout-minutes: 90
     env:
-      EXA_API_KEY: ${{ secrets.EXA_API_KEY }}
+      OCTEN_API_KEY: ${{ secrets.OCTEN_API_KEY }}
       GROK_API_KEY: ${{ secrets.GROK_API_KEY }}
       XAI_API_KEY: ${{ secrets.XAI_API_KEY }}
       DEEPSEEK_API_KEY: ${{ secrets.DEEPSEEK_API_KEY }}
@@ -37,9 +37,9 @@ jobs:
       DEEPSEEK_MODEL: deepseek-v4-pro
       OPENROUTER_MODEL: z-ai/glm-5.2
       SCOUT_AGENT_TIMEOUT_MS: ${{ inputs.agent_timeout_ms || '1800000' }}
-      # Search is $0.007/request. Seven requests per run x two daily runs keeps
-      # the normal daily maximum just under $0.10.
-      EXA_MAX_REQUESTS_PER_RUN: "7"
+      # Broad search can fan out internally, so cap the generated subqueries
+      # across every agent in the run.
+      OCTEN_MAX_QUERIES_PER_RUN: "12"
     steps:
       - name: Checkout
         uses: actions/checkout@v5
@@ -53,8 +53,8 @@ jobs:
       - name: Install dependencies
         run: bun install --frozen-lockfile
 
-      - name: Test Exa spend guard
-        run: bun test scripts/exa-client.test.ts
+      - name: Test Octen spend guard
+        run: bun test scripts/octen-client.test.ts
 
       - name: Typecheck
         run: bun run typecheck

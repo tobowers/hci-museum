@@ -263,7 +263,7 @@ function opencodeConfig(): Config {
         tools: { bash: true, read: true, glob: true, grep: true, webfetch: true, edit: false, write: false },
         permission: { bash: "allow", webfetch: "allow", edit: "deny" },
         prompt:
-          "You are an HCI research subagent. Research one focused angle or candidate deeply. Make at most 2 Exa calls through `bun scripts/tools/exa.ts search \"query\" --num 8 --json`; never call Exa directly or retry an exhausted shared budget. Use existing sources, direct page fetches, Wikipedia, and `bun scripts/tools/grok.ts \"prompt\" --json` for other leads. Return concise, sourced findings only; do not edit files.",
+          "You are an HCI research subagent. Research one focused angle or candidate deeply. Make at most one Octen broad-search call through `bun scripts/tools/octen.ts search \"full research question\" --max-queries 3 --num 5 --json`; pass the full question as-is, never call Octen directly, and never retry an exhausted shared budget. Use existing sources, direct page fetches, Wikipedia, and `bun scripts/tools/grok.ts \"prompt\" --json` for other leads. Return concise, sourced findings only; do not edit files.",
       },
       "hci-image-subagent": {
         mode: "subagent",
