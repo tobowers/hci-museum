@@ -1,0 +1,56 @@
+{
+  "slug": "casio-vl1",
+  "title": "Casio VL-1 / VL-Tone",
+  "year": "1981",
+  "subtitle": "The calculator that became a musical instrument — and vice versa",
+  "why_scout_cares": "A 29-button keypad where every key wears two hats: digit/operator AND musical note. A mode switch toggles the entire keyboard between calculator and synthesizer, making this one of the purest examples of modal hardware design in consumer electronics. ADSR synthesis parameters are entered as 8-digit numeric codes — sound design through arithmetic. $69.95 in 1981, used by The Human League, Trio ('Da Da Da'), and a generation of bedroom musicians exploiting its lo-fi kitsch. Held by the Vienna Technical Museum. 3 CC-licensed photos available including a CC0 museum piece.",
+  "search_terms": ["Casio VL-1", "VL-Tone", "calculator synthesizer", "Casio keyboard 1981"],
+  "research": {
+    "title": "Casio VL-1 / VL-Tone",
+    "year": "1981",
+    "by": "Casio Computer Co., Ltd. (Tokyo, Japan)",
+    "tags": ["HCI", "Input", "Music", "Consumer Electronics", "Modal Interface"],
+    "overview": "The Casio VL-1, also sold as the VL-Tone and rebranded by RadioShack as the Realistic Concertmate 200, is a landmark in modal consumer electronics design. Released internationally in 1981 for $69.95, it combined a 4-function calculator with a monophonic digital synthesizer in a single pocket-sized device. Its defining HCI feature is the dual-labeled 29-button keypad: each key serves as both a calculator digit/operator AND a musical note, with a physical mode switch toggling the entire keyboard between two completely different functional worlds. The VL-1 was also arguably the first affordable commercial digital synthesizer, featuring 5 preset voices, 5 hidden voices accessible only via ADSR codes, 10 rhythm patterns, and a 100-note step sequencer — all programmed through the calculator keypad.",
+    "deepDive": [
+      {
+        "heading": "Modal Hardware Design",
+        "text": "The VL-1's 29-button membrane keypad is the heart of its HCI story. Every key is physically dual-labeled: the number 1 key is also 'Do', 2 is 'Re', the addition key is also 'Sol', and so on. A physical slider switch selects between Calculator (CAL) and Play/Record modes. In calculator mode, the keypad performs arithmetic and the 8-character LCD shows numbers. In play mode, the same keys produce musical notes and the LCD shows note names. An octave switch extends range to 2.5 octaves. This mode-dependent keypad — where a single physical switch fundamentally rewires the meaning of every input — is one of consumer electronics' purest examples of modal interface design."
+      },
+      {
+        "heading": "Sound Design as Arithmetic",
+        "text": "ADSR synthesis parameters on the VL-1 are entered not with knobs or sliders, but as an 8-digit numeric code typed into the calculator. Each digit position encodes a specific parameter: the first digit selects waveform (9 types including Piano, Flute, Fantasy, Violin, and Guitar), digits 2-8 control Attack, Decay, Sustain Level, Sustain Time, Release Time, Vibrato, and Tremolo respectively. For example, the code '90099914' produces waveform 9 with rapid attack and heavy vibrato. This mapping of sound design onto numeric abstraction — turning timbre into a number you type — created an unusual creative constraint that musicians learned to exploit."
+      },
+      {
+        "heading": "Monophonic Sequencer",
+        "text": "The VL-1 includes a 100-note monophonic step sequencer programmed note-by-note using the musical keypad. A dedicated 'One Key Play' button triggers sequential playback — press once to advance one note at a time, or hold for continuous playback at the tempo set by the rhythm section. The sequencer plus 10 preset rhythms (using only 3 PCM drum sounds internally named 'Po', 'Pi', and 'Sha') made the VL-1 a complete lo-fi music production tool."
+      },
+      {
+        "heading": "Cultural Impact",
+        "text": "The VL-1 achieved iconic status through German band Trio's 1982 hit 'Da Da Da', which used the Rock-1 rhythm preset and Piano voice as its core instrumental track. The Human League used it on their landmark album 'Dare' (1981). Its deliberately cheap, kitsch sound became an aesthetic choice — musicians embraced its limitations, creating a tradition of 'toy instrument' music that continues today. The VL-1 exemplifies constrained creativity: limitations in the interface produced unexpected cultural outcomes. A VST software emulator (PolyValens VL1) keeps the sound alive in modern production."
+      }
+    ],
+    "team": [
+      {"name": "Casio Computer Co., Ltd.", "note": "Japanese electronics manufacturer; designed and manufactured the VL-1"},
+      {"name": "RadioShack (Tandy Corporation)", "note": "North American distributor; sold rebranded version as Realistic Concertmate 200"}
+    ],
+    "media": [
+      {"src": "https://upload.wikimedia.org/wikipedia/commons/f/f5/Casio_vl_tone.jpg", "alt": "Casio VL-1 front-facing product shot on white background", "caption": "Casio VL-Tone, front view showing dual-labeled keypad and mode switch. Source: Dontpanic, CC BY-SA 3.0, via Wikimedia Commons."},
+      {"src": "https://upload.wikimedia.org/wikipedia/commons/c/cf/Casio_VL-1_Inv_Nr_81934.jpg", "alt": "Casio VL-1 in the Vienna Technical Museum collection, inventory number 81934", "caption": "Casio VL-1 held by the Technisches Museum Wien. Source: Reinraum, CC0, via Wikimedia Commons."},
+      {"src": "https://upload.wikimedia.org/wikipedia/commons/5/5f/Casio_VL-Tone_VL-1_-_right_angled_view_1.jpg", "alt": "Casio VL-1 angled view showing keypad layout and mode slider clearly", "caption": "Angled view emphasizing the dual-labeled keypad and physical mode switch. Source: Marcel van Schooten, CC BY 2.0, via Wikimedia Commons."}
+    ],
+    "sources": [
+      {"text": "Wikipedia: Casio VL-1", "url": "https://en.wikipedia.org/wiki/Casio_VL-1"},
+      {"text": "Casio 40th Anniversary: VL-1 history (official)", "url": "https://web.casio.com/emi/40th/history/vl-1.html"},
+      {"text": "Sound Programming: VL-1 specifications and manual", "url": "https://soundprogramming.net/keyboards/casio/casio-vl-1/"},
+      {"text": "Happy Mag: The Casio VL-1 — creating with limitations", "url": "https://happymag.tv/the-casio-vl-1-creating-with-limitations-and-the-power-of-toy-keyboards/"},
+      {"text": "Technisches Museum Wien: VL-1 object record", "url": "https://commons.wikimedia.org/wiki/File:Casio_VL-1_Inv_Nr_81934.jpg"},
+      {"text": "PolyValens VL1 VST emulator", "url": "http://www.polyvalens.com/vl1/"}
+    ],
+    "imageUrls": [
+      "https://upload.wikimedia.org/wikipedia/commons/f/f5/Casio_vl_tone.jpg",
+      "https://upload.wikimedia.org/wikipedia/commons/c/cf/Casio_VL-1_Inv_Nr_81934.jpg",
+      "https://upload.wikimedia.org/wikipedia/commons/5/5f/Casio_VL-Tone_VL-1_-_right_angled_view_1.jpg"
+    ]
+  },
+  "savedImages": []
+}

@@ -1,0 +1,55 @@
+{
+  "slug": "rockwell-aim65",
+  "title": "Rockwell AIM-65",
+  "year": "1978",
+  "subtitle": "The single-board computer that talks back on paper",
+  "why_scout_cares": "A complete computer on one board where the 20-column thermal printer IS the primary display — no CRT, no glass screen. Type a command and the machine literally prints its response onto a scrolling paper roll, creating a permanent physical record of the human-machine conversation. Used in laboratories, engineering classrooms, and as a development system for the 6502 microprocessor. The AIM-65 makes visible a paradigm that died: computation-as-paper-trail. 4 CC-licensed photos available including a CC0 image from Vintage Computer Festival Berlin.",
+  "search_terms": ["Rockwell AIM-65", "single board computer 1978", "6502 development system", "thermal printer computer"],
+  "research": {
+    "title": "Rockwell AIM-65",
+    "year": "1978",
+    "by": "Rockwell International (Semiconductor Products Division)",
+    "tags": ["HCI", "Output", "Single-Board Computer", "Paper Interface", "Laboratory"],
+    "overview": "The Rockwell AIM-65, introduced in 1978, was a single-board microcomputer that integrated a full QWERTY keyboard, a 20-character alphanumeric LED display, and — most distinctively — a built-in 20-column thermal printer, all on a single circuit board. Based on the MOS Technology 6502 microprocessor, it was sold as a development system, laboratory controller, and educational platform. Its defining HCI feature was the thermal printer: in an era of glass CRTs, the AIM-65 used paper as its primary output medium. Every interaction — typing a command, running a program, reading sensor data — produced a physical, scrolled record. The machine didn't show you results; it wrote them to you.",
+    "deepDive": [
+      {
+        "heading": "Paper as Display",
+        "text": "The AIM-65's thermal printer is not an optional peripheral — it is the primary output mechanism. The 20-character LED display serves only as a small status readout; the printer provides the full interaction record. When you type a BASIC command or assembly instruction, the printer scrolls it onto thermal paper. When the computer responds, it prints the answer. This creates a tangible, accumulating artifact of the human-machine conversation — a paradigm that predates the 'glass teletype' and CRT terminals that would soon dominate. The thermal paper roll captures everything: commands, output, errors, and sensor readings, in chronological order."
+      },
+      {
+        "heading": "Laboratory and Industrial Use",
+        "text": "The AIM-65 was widely adopted in laboratory and industrial settings where its integrated I/O and self-contained design made it ideal for data logging and equipment control. With built-in analog-to-digital conversion capability, parallel I/O ports, and expansion connectors, scientists could connect temperature probes, pressure sensors, and other instruments directly to the board. The thermal printer provided immediate hardcopy of measurement data — a self-contained 'measure, compute, print' pipeline in a single board. It was used in university engineering labs, process control, and as a teaching platform for microprocessor programming."
+      },
+      {
+        "heading": "Built-in Software",
+        "text": "The AIM-65 shipped with a ROM-resident monitor program (providing debug and memory manipulation commands), an assembler for 6502 machine code, and an optional BASIC interpreter on ROM. The monitor allowed direct inspection and modification of memory, register dumps, and single-step program execution — all communicated through the keyboard and thermal printer. A built-in cassette interface allowed program storage on standard audio tapes. The ROM software suite made the AIM-65 a self-contained development system with no external dependencies."
+      },
+      {
+        "heading": "Physical Design",
+        "text": "The entire system fit on a single large printed circuit board, roughly 14 × 17 inches, with all components exposed. There was no case, no enclosure — the board IS the computer. This exposed design was intentional: engineers and students were expected to probe, modify, and interface with the hardware directly. The thermal printer mechanism sits in the upper-left corner, fed by a roll of thermal paper. The full-stroke QWERTY keyboard occupies the lower portion. Cassette connectors, expansion ports, and power regulation circuitry fill the remaining real estate. It is a computer laid bare — every component visible, every signal accessible."
+      }
+    ],
+    "team": [
+      {"name": "Rockwell International", "note": "Semiconductor Products Division; designed and manufactured the AIM-65"},
+      {"name": "MOS Technology", "note": "Provided the 6502 microprocessor at the heart of the system"}
+    ],
+    "media": [
+      {"src": "https://upload.wikimedia.org/wikipedia/commons/6/61/Single_Board_Computer_AIM-65_%281978%29_%2826589109399%29.jpg", "alt": "Rockwell AIM-65 single-board computer with exposed PCB, keyboard, LED display, and thermal printer at Vintage Computer Festival Berlin", "caption": "Rockwell AIM-65 at Vintage Computer Festival Berlin 2017. The thermal printer (upper left) was the primary output mechanism. Source: Wolfgang Stief, CC0, via Wikimedia Commons."},
+      {"src": "https://upload.wikimedia.org/wikipedia/commons/0/09/Rockwell_AIM-65-IMG_0472.jpg", "alt": "Rockwell AIM-65 at Musée Bolo, EPFL, showing full board with keyboard and printer", "caption": "Rockwell AIM-65 held by the Musée Bolo, EPFL Lausanne. Source: Rama, CC BY-SA 2.0 fr, via Wikimedia Commons."},
+      {"src": "https://upload.wikimedia.org/wikipedia/commons/d/db/Rockwell_AIM-65.jpg", "alt": "Rockwell AIM-65 at CC IN2P3 museum, showing full board layout", "caption": "Rockwell AIM-65 showing the complete single-board layout: printer (upper left), LED display, keyboard, and expansion ports. Source: Fwernli, CC BY 4.0, via Wikimedia Commons."}
+    ],
+    "sources": [
+      {"text": "Wikipedia: Rockwell AIM-65", "url": "https://en.wikipedia.org/wiki/AIM-65"},
+      {"text": "Old-Computers.com: AIM-65", "url": "https://old-computers.com/museum/computer.asp?c=557"},
+      {"text": "Musée Bolo (EPFL): AIM-65 collection", "url": "https://commons.wikimedia.org/wiki/File:Rockwell_AIM-65-IMG_0472.jpg"},
+      {"text": "Vintage Computer Festival Berlin: AIM-65 exhibit", "url": "https://commons.wikimedia.org/wiki/File:Single_Board_Computer_AIM-65_(1978)_(26589109399).jpg"},
+      {"text": "Rockwell AIM-65 User's Manual (bitsavers.org)", "url": "http://www.bitsavers.org/components/rockwell/AIM-65/"}
+    ],
+    "imageUrls": [
+      "https://upload.wikimedia.org/wikipedia/commons/6/61/Single_Board_Computer_AIM-65_%281978%29_%2826589109399%29.jpg",
+      "https://upload.wikimedia.org/wikipedia/commons/0/09/Rockwell_AIM-65-IMG_0472.jpg",
+      "https://upload.wikimedia.org/wikipedia/commons/d/db/Rockwell_AIM-65.jpg"
+    ]
+  },
+  "savedImages": []
+}
