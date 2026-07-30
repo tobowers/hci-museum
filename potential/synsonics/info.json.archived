@@ -1,0 +1,50 @@
+{
+  "slug": "synsonics",
+  "title": "Mattel Synsonics Drums",
+  "year": "1981",
+  "subtitle": "the toy drum machine that Kraftwerk took seriously",
+  "why_scout_cares": "Hybrid manual/automatic interface: play with sticks OR program patterns with auto-repeat buttons OR layer both in real time. A toy company made an all-analog drum synth with velocity-sensitive pads and a tap-tempo microprocessor, and professional musicians adopted it. The bass drum can only be played automatically — a design choice that reveals the ambiguous identity between toy and instrument. Distinct from every existing music exhibit: no other collection artifact fuses stick-pad drumming, auto-sequencing, and analog synthesis in a single handheld box.",
+  "search_terms": ["Mattel Synsonics", "vintage drum machine", "analog drum synthesizer", "Kraftwerk drum machine", "electronic toy instrument"],
+  "research": {
+    "title": "Mattel Synsonics Drums",
+    "year": "1981",
+    "by": "Mattel Electronics (USA)",
+    "tags": ["HCI", "Music", "Input", "Toy"],
+    "overview": "The Mattel Synsonics Drums is an electronic drum synthesizer released by Mattel Electronics in 1981. Housed in a black plastic case (8 × 9 × 2 inches), it features four 3-inch rubber velocity-sensitive pads on the top surface, designed to be played with drumsticks. Beneath the pads are piezo pickups, and the unit is built sturdy enough to withstand heavy stick playing — demonstrated by keyboardist Patrick Moraz at a trade show. The sounds (two toms, snare, cymbal, bass drum) are fully analog — no PCM samples — producing distinctive synthetic drum tones. Despite its toy origins and £99 price tag, the Synsonics was adopted by professional musicians including Kraftwerk. A custom LSI chip handles all sound generation, sequencing, and memory functions internally.",
+    "deepDive": [
+      {
+        "heading": "The Hybrid Interface",
+        "text": "The Synsonics offers a unique hybrid manual/automatic interaction model. In manual mode, the player strikes the four rubber pads with drumsticks — piezo pickups detect velocity and trigger analog drum sounds. In automatic mode, each of the four sounds has three auto-repeat buttons that produce 2×, 4×, or 8× repetitions per beat. Combinations of these buttons create named patterns: Rock (slow + medium), Waltz (medium + fast), and Offbeat (slow + fast). The bass drum can *only* be played automatically — there is no dedicated bass drum pad. A tap-tempo feature synchronizes the unit to external music by rhythmically pressing two buttons. The player can layer manual stick playing over running auto-patterns, creating a performance mode somewhere between drumming and conducting."
+      },
+      {
+        "heading": "The Sounds",
+        "text": "All sounds are fully analog: Tom Tom 2 is a low-pitched syndrum sound with a downward bend; the Snare combines an oscillator thump with a chiff of white noise; the Cymbal is a burst of high-pitched pink noise (described by one reviewer as sounding \"like someone chucking a trayful of Waterford crystal through a plate glass bus shelter\"); and Tom Tom 1 is tuneable over five octaves via a thumbwheel — from subsonic bass to bird-call effects. The bass drum is a brief thump. A domino display of 5 LEDs occupies the centre of the playing surface, and the unit runs on six HP11 batteries or a 9V DC adapter."
+      },
+      {
+        "heading": "Toy Becomes Instrument",
+        "text": "The Synsonics occupies an unusual position between toy and professional instrument. Mattel Electronics had been expanding into digital electronics and computers; the Synsonics was marketed as a toy but taken seriously by musicians. Kraftwerk famously used the Synsonics. Keyboardist Patrick Moraz demonstrated its durability at a live trade show by attacking the pads with full-force drumstick playing — the pads weren't even marked. The 1983 review in *Electronics & Music Maker* identified six distinct performance modes: Manual Play with sticks, Manual Play with Repeat Buttons, Unaccompanied Memory Play, Accompanied Memory Play with sticks or Repeat Buttons, and Additive Memory Play (where the memory runs and subsequently played strokes are added to the pattern). The main limitation was that memory contents were lost on power-off — no battery backup."
+      }
+    ],
+    "team": [
+      {"name": "Mattel Electronics", "note": "consumer electronics division of the toy company; expanding into digital electronics and computers in the early 1980s"}
+    ],
+    "media": [
+      {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/1/1a/Mattel_SynSonics_Drums.jpg",
+        "alt": "Mattel Synsonics Drums — black plastic case with four grey rubber drum pads, row of auto-repeat buttons, and LED display on top surface",
+        "caption": "Mattel Synsonics Drums. CC BY 2.0 by Peter Morgan via Wikimedia Commons."
+      }
+    ],
+    "sources": [
+      {"text": "Electronics & Music Maker, February 1983 — full review", "url": "https://www.muzines.co.uk/articles/mattel-synsonics/5887"},
+      {"text": "Electronic Soundmaker, February 1984 — 'Beat on the Cheap' comparison", "url": "https://www.muzines.co.uk/articles/beat-on-the-cheap/3249"},
+      {"text": "Electronic Music Wiki — Synsonics entry", "url": "https://electronicmusic.fandom.com/wiki/Synsonics"},
+      {"text": "Sonicstate — Kraftwerk's use of Synsonics", "url": "https://sonicstate.com/news/2011/08/05/free-mattel-synsonics-kit"},
+      {"text": "Wikimedia Commons image", "url": "https://commons.wikimedia.org/wiki/File:Mattel_SynSonics_Drums.jpg"}
+    ],
+    "imageUrls": [
+      "https://upload.wikimedia.org/wikipedia/commons/1/1a/Mattel_SynSonics_Drums.jpg"
+    ]
+  },
+  "savedImages": []
+}

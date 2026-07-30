@@ -354,4 +354,21 @@ Promotion gotchas (2026-07-29):
 - Productive angles: music HCI (MC-8, Omnichord), pen computing (Write-Top). Unproductive: scanning/OCR, biometric, medical, game controllers.
 - Future unexplored: early dedicated-purpose information appliances with strong CC images, early musical instruments where the body becomes a novel circuit element, early consumer electronic devices where the physical ritual of use was the HCI innovation.
 
-(End of file - total 320 lines)
+New additions (2026-07-30):
+- Mattel Synsonics Drums (1981): Promoted 2026-07-30. Mattel Electronics toy drum synthesizer with hybrid manual/automatic interface: playable with drumsticks on four velocity-sensitive rubber pads, programmable with three auto-repeat buttons per sound (2×/4×/8×) and tap-tempo, or both layered simultaneously. Bass drum exists only as programmed pattern. All-analog sounds via custom LSI. Kraftwerk adopted it professionally. £99. 1 CC BY 2.0 image from Commons (Peter Morgan). Distinct interaction model: hybrid pad-drumming + auto-sequencing in a single handheld box. No other artifact in the collection fuses live stick playing and pattern programming in the same physical interface.
+- AEA PK-232 Pakratt 232 (1986): Promoted 2026-07-30. AEA/Mike Lamb N7ML multimode amateur radio data controller. 21-LED front panel dashboard with status indicators for Packet/RTTY/CW/AMTOR/Fax modes, dual radio ports (HF+VHF simultaneously), Zilog Z80A CPU. Connects between computer (RS-232) and radio transceivers — decodes packet radio, RTTY, Morse, WEFAX, Navtex. Physical ritual: twist VFO knob while watching LED tuning indicators, see text emerge from radio static. Made the radio spectrum feel like a data network before the web. $319.95 (1987), best-selling multimode TNC in amateur radio history. 1 CC BY-SA 3.0 image from Commons (Gerry Ashton; PK-232MBX ~1991 variant shown, same form factor). Fills entirely new category: amateur radio/packet radio computer interface. No other artifact bridges radio and computing in this way. Distinct from all modem/telephony/network exhibits.
+
+New deferred candidates (2026-07-30):
+- ComputerEyes (1984): Digital Vision/David Pratt video digitizer for Apple II/C64/Atari. First affordable video capture device for home computers. Physical contrast knob, slow-scan digitization (6-50 sec), blank-screen anticipation. Strong HCI story but ZERO CC images on Commons. Founder's website on Internet Archive has product photos. Revisit if image licensing resolves.
+- Casio DG-20 Digital Guitar (1987): Rubber-string guitar with fretboard switch matrix — eliminates pitch tracking latency by hardwiring each fret contact to a specific pitch. Nylon trigger strings + rubber membrane fretboard. DG-10 (non-MIDI) £225, DG-20 £279. No CC images on Commons. Product photos on review sites and auction listings. Revisit if museum-quality photo surfaces.
+- Palmtree Instruments Airdrums (1986): First free-air gestural drum controller. Two IR-sensing wand-like tubes detect position, velocity, and direction in 3D — player drums in empty air. ~$2,000, commercial failure. Predates Wii by 20 years. EXTREMELY rare — very few units survive, no CC images. Revisit if images ever surface.
+- TAPR TNC-1 (1983): Origin of amateur packet radio. Bare-PCB kit, public-domain design. ~1,200-1,500 kits. Licensed to Heathkit as HD-4040. No CC images on Commons. Photos on TAPR website. Revisit if image sourcing resolves.
+
+Promotion gotchas (2026-07-30):
+- All promotion done manually (same as prior runs). promote-potentials.ts NOT run.
+- 9 candidates found across 3 angles; only 2 had CC images (22% yield). Consistent with structural image bottleneck noted in prior runs.
+- New productive angle proven: amateur radio/packet radio computer interfaces — completely unexplored in prior runs. PK-232 is the first radio-data-interface artifact in the museum.
+- Build reports 140 exhibits; wiki ToC has 137. Pre-existing 3-exhibit discrepancy noted but not fixed (rooted in prior runs where ToC wasn't updated).
+- Future unexplored angles: computer-controlled industrial/scientific instruments with distinctive physical interfaces, early computer-based telephones/answering machines with CC images, early barcode/OCR scanning hardware (ThunderScan category still unresolved), early electronic toys with computer-like interaction.
+
+(End of file - total 357 lines)

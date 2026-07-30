@@ -1695,6 +1695,30 @@ const exhibitData: Exhibit[] = [
     tags: ["HCI", "Input", "Music", "Sampling", "Consumer Electronics", "Circuit Bending"],
     image: img("casio-sk1-front.jpg"),
   },
+  {
+    id: "synsonics",
+    slug: "synsonics",
+    sortYear: 1981,
+    wikiTitle: "Mattel Synsonics Drums",
+    year: "1981",
+    title: "Mattel Synsonics Drums",
+    subtitle: "The toy drum machine that Kraftwerk took seriously",
+    blurb: "The Mattel Synsonics Drums (1981) is an electronic drum synthesizer from Mattel Electronics that fuses three interaction modes in one handheld box: play it with drumsticks on four velocity-sensitive rubber pads, program patterns with auto-repeat buttons, or layer live stick playing over running auto-sequences. The bass drum can ONLY be played automatically — there is no dedicated pad. A tap-tempo feature syncs to external music by rhythmically pressing two buttons. Despite its toy origins and £99 price, the Synsonics was adopted by professional musicians including Kraftwerk. The all-analog sounds — tuneable tom spanning five octaves, white-noise snare and cymbal — are produced by a custom LSI chip. The 1983 review in Electronics & Music Maker identified six distinct performance modes, from pure manual to additive layering. A toy company making a drum machine that professional musicians adopted, where half the sounds can only exist as programmed patterns — that ambiguity between toy and instrument is the entire point.",
+    tags: ["HCI", "Input", "Music", "Toy", "Analog"],
+    image: img("synsonics.jpg"),
+  },
+  {
+    id: "pk232",
+    slug: "pk232",
+    sortYear: 1986,
+    wikiTitle: "AEA PK-232 Pakratt 232",
+    year: "1986",
+    title: "AEA PK-232 Pakratt 232",
+    subtitle: "The box that made the radio spectrum feel like a data network",
+    blurb: "The AEA PK-232 'Pakratt 232' (1986) is a multimode amateur radio data controller — a metal box with 21 status LEDs that sits between a personal computer and two radio transceivers, translating the invisible radio spectrum into text on your screen. Connect your computer via RS-232, plug in an HF and a VHF radio, type arcane terminal commands, and tune across the dial until the green tuning-indicator LEDs lock onto a signal. Text scrolls in: a packet radio message from across the continent, a RTTY weather bulletin, a Morse code transmission, or a weather satellite image resolving line by line. The PK-232 treated the radio spectrum as a data network years before the public web existed, decoding packet radio (AX.25), radioteletype, Morse code, AMTOR, WEFAX, and Navtex — all from a single $319.95 box. Built by AEA (Mike Lamb, N7ML) in Hong Kong, the PK-232 became the best-selling multimode controller in amateur radio history. The physical ritual — twisting a VFO knob while watching LEDs flicker, then seeing text emerge from static — made the radio spectrum feel like a network you could touch.",
+    tags: ["HCI", "Network", "Radio", "Communication", "LED"],
+    image: img("pk232.jpg"),
+  },
 ];
 
 export const exhibits: Exhibit[] = exhibitData.toSorted((a, b) => b.sortYear - a.sortYear || a.title.localeCompare(b.title));

@@ -1,0 +1,57 @@
+{
+  "slug": "pk232",
+  "title": "AEA PK-232 Pakratt 232",
+  "year": "1986",
+  "subtitle": "the box that made the radio spectrum feel like a data network",
+  "why_scout_cares": "A 21-LED dashboard on a metal box, sitting between your computer and two radios, translating the invisible radio spectrum into text on your screen. The PK-232 decoded packet radio, RTTY, Morse code, weather fax, and AMTOR — all from a single unit. The physical ritual: fire up a terminal program, type arcane commands, tune your radio until the green tuning-indicator LEDs lock on, and watch text or weather satellite images materialize out of static. This was the pre-web internet — a network made of radio waves and volunteer operators — and the PK-232 was the box that made it accessible. No other museum artifact bridges radio and computing in this way.",
+  "search_terms": ["AEA PK-232", "Pakratt", "terminal node controller", "packet radio TNC", "amateur radio data controller"],
+  "research": {
+    "title": "AEA PK-232 Pakratt 232",
+    "year": "1986",
+    "by": "Advanced Electronic Applications, Inc. (AEA) — Mike Lamb, N7ML",
+    "tags": ["HCI", "Network", "Radio", "Communication"],
+    "overview": "The AEA PK-232 'Pakratt 232' is a multimode amateur radio data controller (Terminal Node Controller, or TNC) introduced in 1986 by Advanced Electronic Applications, Inc. of Lynnwood, Washington. Housed in a substantial metal box (11.4 × 2.4 × 8.4 inches, 3 lbs), it sits between a personal computer and one or two radio transceivers, functioning as a universal translator for the radio spectrum. The front panel features 21 status LEDs indicating mode (Packet, RTTY, CW, AMTOR, Fax), port activity, tuning lock, and data flow. The PK-232 decodes packet radio (AX.25), radioteletype (RTTY), Morse code (CW), AMTOR, SITOR, weather fax (WEFAX), and Navtex — making the radio spectrum feel like a data network years before the public internet. It was the best-selling multimode data controller in amateur radio history.",
+    "deepDive": [
+      {
+        "heading": "The 21-LED Dashboard",
+        "text": "The PK-232's front panel is a miniature information dashboard that makes the invisible radio spectrum visible. Status LEDs indicate which mode is active (Packet, RTTY, CW, AMTOR, Fax), which radio port is in use, and the connection state: DCD (Data Carrier Detect — a signal is being received), CON (Connected to another station), STA (Status), TFC (Traffic — data is flowing), and XMT (Transmitting). Tuning indicator LEDs help the operator zero in on a signal: as you tune your radio across the dial, the LEDs flicker brighter when a valid data signal locks on. The experience is tactile and visual — twisting a VFO knob while watching LEDs, then seeing text scroll onto your green-screen CRT as if by magic."
+      },
+      {
+        "heading": "Dual Radio, Multi-Mode",
+        "text": "The PK-232's back panel features two 5-pin Molex radio ports, allowing connection to BOTH an HF (shortwave) and a VHF radio simultaneously. A single DB-25 RS-232 serial port connects to a computer or dumb terminal. The operator switches modes with simple keyboard commands: type 'R' for RTTY, tune to a shortwave teletype frequency, and press — text scrolls in. Switch to packet mode, connect to a distant BBS, and you're reading messages left by hams across the continent. Switch to WEFAX and weather satellite images resolve line by line out of the ionosphere. An optional mailbox daughterboard lets the PK-232 store messages while the operator is away, turning it into a personal radio BBS. Inside: a Zilog Z80A CPU, up to 128KB EPROM, 32KB RAM with lithium battery backup, and a custom modem capable of 45–1200 baud over the air."
+      },
+      {
+        "heading": "The Pre-Internet Network",
+        "text": "Before the public internet, there was packet radio. Amateur radio operators built their own digital network using AX.25 protocol, a derivative of X.25. The PK-232 was the device that made this network accessible — the first TNC to pack so many modes into one affordable box ($319.95 at introduction in 1987). The physical ritual of use is what makes it an HCI artifact: connecting a computer to a radio through a box covered in LEDs, typing arcane terminal commands, tuning across the dial, and watching as lights flicker and text emerges. The PK-232 treated the radio spectrum as a data network — an idea that prefigures Wi-Fi, cellular data, and every form of wireless digital communication, but made tangible in a metal box with 21 indicator lights. The amateur packet radio network covered North America by the late 1980s, with BBSes, email gateways, and even TCP/IP experiments running over radio."
+      },
+      {
+        "heading": "AEA and the TNC Market",
+        "text": "AEA was founded by Mike Lamb, N7ML, a ham radio enthusiast who saw the opportunity to commercialize TNC technology after the nonprofit Tucson Amateur Packet Radio (TAPR) open-sourced their TNC-1 design in 1984. AEA first produced the PK-64 (for Commodore 64) and the PK-232 as dedicated packet controllers, then evolved into multimode controllers. The PK-232 became the best-selling multimode data controller in amateur radio history. Its descendant, the PK-232MBX (~1991), added an integrated mailbox. AEA was later acquired by Timewave Technology, which continued producing DSP-based descendants (DSP-1232, DSP-2232) into the 2000s. The PK-232 was manufactured in Hong Kong from 1986 through the 1990s."
+      }
+    ],
+    "team": [
+      {"name": "Mike Lamb, N7ML", "note": "founder of Advanced Electronic Applications, Inc. (AEA), Lynnwood, Washington; ham radio enthusiast who commercialized TNC technology"},
+      {"name": "TAPR (Tucson Amateur Packet Radio)", "note": "nonprofit amateur radio R&D group whose public-domain TNC-1 (1983) and TNC-2 designs were licensed to commercial manufacturers including AEA; led by Lyle Johnson WA7GXD and Harold Price NK6K"}
+    ],
+    "media": [
+      {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/f/f3/Terminal_Node_Controller.jpg",
+        "alt": "AEA PK-232MBX — metal box with 21 status LEDs on front panel, DB-25 serial connector and two 5-pin Molex radio ports on rear",
+        "caption": "AEA PK-232MBX (~1991), the mailbox-equipped successor to the original PK-232. Same form factor and 21-LED dashboard as the 1986 original. CC BY-SA 3.0 by Gerry Ashton via Wikimedia Commons."
+      }
+    ],
+    "sources": [
+      {"text": "Wikipedia — Terminal node controller", "url": "https://en.wikipedia.org/wiki/Terminal_node_controller"},
+      {"text": "RigPix Database — AEA PK-232 specifications, price, and dates", "url": "https://rigpix.com/textandimaging/aea_pk232.htm"},
+      {"text": "Radiomuseum — AEA PK-232 entry", "url": "https://www.radiomuseum.org/r/advance_el_pakratt_pk_232.html"},
+      {"text": "Universal Radio — PK-232 catalog page", "url": "https://www.universal-radio.com/catalog/decoders/pk232.html"},
+      {"text": "TAPR — Tucson Amateur Packet Radio history", "url": "https://www.tapr.org/"},
+      {"text": "Larry Kenney — Introduction to packet radio (TNC history)", "url": "http://www.choisser.com/packet/part01.html"},
+      {"text": "Wikimedia Commons image", "url": "https://commons.wikimedia.org/wiki/File:Terminal_Node_Controller.jpg"}
+    ],
+    "imageUrls": [
+      "https://upload.wikimedia.org/wikipedia/commons/f/f3/Terminal_Node_Controller.jpg"
+    ]
+  },
+  "savedImages": []
+}

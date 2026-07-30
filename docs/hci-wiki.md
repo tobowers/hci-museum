@@ -1,6 +1,6 @@
 # The HCI Golden Age Wiki
 
-A research compendium for a digital museum of cutting-edge Human-Computer Interaction from the late 1970s through the early 1990s. These one hundred and thirty-five projects mix canonical experiments with weird, forgotten, and beautiful vaporware — brain control, voice control, gesture, wearable computing, VR, robots, and full-body exertion.
+A research compendium for a digital museum of cutting-edge Human-Computer Interaction from the late 1970s through the early 1990s. These one hundred and thirty-seven projects mix canonical experiments with weird, forgotten, and beautiful vaporware — brain control, voice control, gesture, wearable computing, VR, robots, and full-body exertion.
 
 Each entry includes an overview, a deep dive, a small media gallery, and full source links so the images and facts can always be traced back.
 
@@ -142,6 +142,8 @@ Each entry includes an overview, a deep dive, a small media gallery, and full so
 133. [Casio SK-1 Sampling Keyboard (1985)](#casio-sk-1-sampling-keyboard-1985)
 134. [Casio VL-1 / VL-Tone (1981)](#casio-vl-1--vl-tone-1981)
 135. [Rockwell AIM-65 (1978)](#rockwell-aim-65-1978)
+136. [Mattel Synsonics Drums (1981)](#mattel-synsonics-drums-1981)
+137. [AEA PK-232 Pakratt 232 (1986)](#aea-pk-232-pakratt-232-1986)
 
 ---
 
@@ -6946,3 +6948,79 @@ The Rockwell AIM-65, introduced in 1978, was a single-board microcomputer that i
 3. Musée Bolo (EPFL): AIM-65 collection — https://commons.wikimedia.org/wiki/File:Rockwell_AIM-65-IMG_0472.jpg
 4. Vintage Computer Festival Berlin: AIM-65 exhibit — https://commons.wikimedia.org/wiki/File:Single_Board_Computer_AIM-65_(1978)_(26589109399).jpg
 5. Rockwell AIM-65 User's Manual (bitsavers.org) — http://www.bitsavers.org/components/rockwell/AIM-65/
+
+---
+
+## Mattel Synsonics Drums (1981)
+
+**By:** Mattel Electronics (USA)  
+**Tags:** `HCI` `Input` `Music` `Toy` `Analog`
+
+### Overview
+
+The Mattel Synsonics Drums is an electronic drum synthesizer released by Mattel Electronics in 1981. Housed in a black plastic case (8 × 9 × 2 inches), it features four 3-inch rubber velocity-sensitive pads on the top surface, designed to be played with drumsticks. Beneath the pads are piezo pickups, and the unit is built sturdy enough to withstand heavy stick playing — demonstrated by keyboardist Patrick Moraz at a trade show. The sounds (two toms, snare, cymbal, bass drum) are fully analog — no PCM samples — producing distinctive synthetic drum tones: the snare is "a short splash of white noise," the cymbal a burst of high-pitched pink noise (described by one reviewer as sounding "like someone chucking a trayful of Waterford crystal through a plate glass bus shelter"). Despite its toy origins and £99 price tag, the Synsonics was adopted by professional musicians including Kraftwerk. A custom LSI chip handles all sound generation, sequencing, and memory functions internally.
+
+### Deep dive
+
+* **The Hybrid Interface.** The Synsonics offers a unique hybrid manual/automatic interaction model. In manual mode, the player strikes the four rubber pads with drumsticks — piezo pickups detect velocity and trigger analog drum sounds. In automatic mode, each of the four sounds has three auto-repeat buttons that produce 2×, 4×, or 8× repetitions per beat. Combinations of these buttons create named patterns: Rock (slow + medium), Waltz (medium + fast), Offbeat (slow + fast), and more. The bass drum can *only* be played automatically — there is no dedicated bass drum pad, a design choice that reveals the instrument's ambiguous identity between drum machine and drum kit. A tap-tempo feature synchronizes the unit to external music by rhythmically pressing two buttons together; after a few repetitions, the microprocessor averages the intervals and resets the clock.
+* **Performance Modes.** The 1983 review in *Electronics & Music Maker* identified six distinct performance modes: (1) Manual Play with sticks, (2) Manual Play with Repeat Buttons only, (3) Unaccompanied Memory Play (auto-pattern playback), (4) Accompanied Memory Play with sticks layered over running patterns, (5) Accompanied Memory Play with Repeat Buttons layered over patterns, and (6) Additive Memory Play — where the memory loop runs and subsequently played strokes are added to the pattern in real time. The player could layer manual stick playing over running auto-patterns, creating a performance mode somewhere between drumming and conducting.
+* **The Sounds.** Tom Tom 1 is tuneable over five octaves via a thumbwheel on the side — from subsonic bass to bird-call effects. Tom Tom 2 is a low-pitched syndrum sound with a downward bend. The cymbal can be changed to a closed hi-hat using the Accent button. Three memory slots store entire patterns, switchable during performance, but memory contents are lost on power-off — no battery backup. A domino display of 5 LEDs occupies the centre of the playing surface. The unit runs on six HP11 batteries or a 9V DC adapter, with stereo ¼-inch line out on RCA phono jacks.
+* **Toy Becomes Instrument.** Kraftwerk famously used the Synsonics, integrating its distinctive analog drum sounds into their live and studio setups. Mattel Electronics, expanding from toys into digital electronics and computers, produced a device that sat uneasily between consumer and professional categories. The internal construction uses a custom LSI chip for all sound generation, sequencing, and memory — making modification difficult. A "Pro" model was later released with improved pad design and memory backup. The Synsonics proved that a toy company could build a drum synthesizer that professional musicians would adopt, and its hybrid pad-plus-sequencer interface remains unique in the history of electronic percussion.
+
+### Team
+
+* **Mattel Electronics.** Consumer electronics division of Mattel, Inc.; expanding into digital electronics and computers in the early 1980s
+* **Patrick Moraz.** Keyboardist/percussionist who demonstrated the Synsonics' durability at the 1982 'Hands On Show'
+* **Kraftwerk.** German electronic music group who adopted and used the Synsonics in professional recordings
+
+### Media
+
+![Mattel Synsonics Drums — black plastic case with four grey rubber drum pads, row of auto-repeat buttons, and LED display on top surface](../assets/wiki/synsonics.jpg)
+*Mattel Synsonics Drums. The four grey pads are designed to be played with drumsticks; the bank of 19 pushbuttons below implements the auto-repeat sequencing and memory functions. Source: Peter Morgan, CC BY 2.0, via Wikimedia Commons.*
+
+### Sources
+
+1. Electronics & Music Maker, February 1983 review — https://www.muzines.co.uk/articles/mattel-synsonics/5887
+2. Electronic Soundmaker, February 1984 — 'Beat on the Cheap' comparison — https://www.muzines.co.uk/articles/beat-on-the-cheap/3249
+3. Electronic Music Wiki — Synsonics — https://electronicmusic.fandom.com/wiki/Synsonics
+4. Sonicstate — Kraftwerk's use of Synsonics — https://sonicstate.com/news/2011/08/05/free-mattel-synsonics-kit
+5. Wikimedia Commons image — https://commons.wikimedia.org/wiki/File:Mattel_SynSonics_Drums.jpg
+
+---
+
+## AEA PK-232 Pakratt 232 (1986)
+
+**By:** Advanced Electronic Applications, Inc. (AEA) — Mike Lamb, N7ML  
+**Tags:** `HCI` `Network` `Radio` `Communication` `LED`
+
+### Overview
+
+The AEA PK-232 'Pakratt 232' is a multimode amateur radio data controller (Terminal Node Controller, or TNC) introduced in 1986 by Advanced Electronic Applications, Inc. of Lynnwood, Washington. Housed in a substantial metal box (11.4 × 2.4 × 8.4 inches, 3 lbs), it sits between a personal computer and one or two radio transceivers, functioning as a universal translator for the radio spectrum. The front panel features 21 status LEDs indicating mode (Packet, RTTY, CW, AMTOR, Fax), port activity, tuning lock, and data flow. The PK-232 decodes packet radio (AX.25), radioteletype (RTTY), Morse code (CW), AMTOR, SITOR, weather fax (WEFAX), and Navtex — making the radio spectrum feel like a data network years before the public internet. It was the best-selling multimode data controller in amateur radio history, priced at $319.95 at introduction in 1987.
+
+### Deep dive
+
+* **The 21-LED Dashboard.** The PK-232's front panel is a miniature information dashboard that makes the invisible radio spectrum visible. Status LEDs indicate which mode is active (Packet, RTTY, CW, AMTOR, Fax), which radio port is in use, and the connection state: DCD (Data Carrier Detect — a signal is being received), CON (Connected to another station), STA (Status), TFC (Traffic — data is flowing), and XMT (Transmitting). Tuning indicator LEDs help the operator zero in on a signal: as you tune your radio across the dial, the LEDs flicker brighter when a valid data signal locks on. The experience is tactile and visual — twisting a VFO knob while watching LEDs, then seeing text scroll onto your green-screen CRT as if by magic.
+* **Dual Radio, Multi-Mode.** The PK-232's back panel features two 5-pin Molex radio ports, allowing connection to BOTH an HF (shortwave) and a VHF radio simultaneously. A single DB-25 RS-232 serial port connects to a computer or dumb terminal at 110–9600 baud. The operator switches modes with simple keyboard commands — type 'R' for RTTY, 'C' for CW — and the device handles the rest. Over the air, data rates range from 45 to 1200 baud. Inside: a Zilog Z80A CPU, up to 128KB EPROM, 32KB RAM with lithium battery backup, and a custom modem. An optional mailbox daughterboard lets the PK-232 store messages while the operator is away, turning it into a personal radio BBS.
+* **The Pre-Internet Network.** Before the public internet, there was packet radio. Amateur radio operators built their own digital network using the AX.25 protocol, a derivative of X.25. By the late 1980s, packet radio BBSes, email gateways, and even TCP/IP experiments ran over radio across North America. The PK-232 was the device that made this network accessible — the first TNC to pack so many modes into one affordable box. The physical ritual of use is what makes it an HCI artifact: connecting a computer to a radio through a box covered in LEDs, typing arcane terminal commands, tuning across the shortwave dial, and watching as lights flicker and text emerges from the static.
+* **AEA and the TNC Market.** The TNC market emerged from the nonprofit Tucson Amateur Packet Radio (TAPR) group, which open-sourced their TNC-1 design in 1984. TAPR's design was licensed to Heathkit (as the HD-4040) and spawned an industry of commercial manufacturers including MFJ, Kantronics, and AEA. AEA, founded by ham radio enthusiast Mike Lamb (N7ML), saw the opportunity to commercialize TNC technology. The PK-232 became the definitive product in the category — the best-selling multimode controller in amateur radio history. Its descendant, the PK-232MBX (~1991), added an integrated mailbox. AEA was later acquired by Timewave Technology, which continued producing DSP-based descendants into the 2000s. The PK-232 was manufactured in Hong Kong from 1986 through the 1990s.
+
+### Team
+
+* **Mike Lamb, N7ML.** Founder of Advanced Electronic Applications, Inc. (AEA), Lynnwood, Washington; ham radio enthusiast who commercialized TNC technology
+* **TAPR (Tucson Amateur Packet Radio).** Nonprofit amateur radio R&D group whose public-domain TNC-1 (1983) and TNC-2 designs were licensed to commercial manufacturers; led by Lyle Johnson (WA7GXD) and Harold Price (NK6K)
+* **Doug Lockhart, VE7APU.** Vancouver Area Digital Communications Group; designed the VADCG board, the first amateur radio TNC (1978)
+
+### Media
+
+![AEA PK-232MBX — metal box with 21 status LEDs on front panel, DB-25 serial connector and two 5-pin Molex radio ports on rear](../assets/wiki/pk232.jpg)
+*AEA PK-232MBX (~1991), the mailbox-equipped successor to the original PK-232. Same form factor and 21-LED dashboard as the 1986 original. Source: Gerry Ashton, CC BY-SA 3.0, via Wikimedia Commons.*
+
+### Sources
+
+1. Wikipedia — Terminal node controller — https://en.wikipedia.org/wiki/Terminal_node_controller
+2. RigPix Database — AEA PK-232 specifications, price, and dates — https://rigpix.com/textandimaging/aea_pk232.htm
+3. Radiomuseum — AEA PK-232 entry — https://www.radiomuseum.org/r/advance_el_pakratt_pk_232.html
+4. TAPR — Tucson Amateur Packet Radio history — https://www.tapr.org/
+5. Larry Kenney — Introduction to packet radio (TNC history) — http://www.choisser.com/packet/part01.html
+6. Universal Radio — PK-232 catalog page — https://www.universal-radio.com/catalog/decoders/pk232.html
+7. Wikimedia Commons image — https://commons.wikimedia.org/wiki/File:Terminal_Node_Controller.jpg
