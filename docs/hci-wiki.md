@@ -1,6 +1,6 @@
 # The HCI Golden Age Wiki
 
-A research compendium for a digital museum of cutting-edge Human-Computer Interaction from the late 1970s through the early 1990s. These one hundred and thirty-seven projects mix canonical experiments with weird, forgotten, and beautiful vaporware — brain control, voice control, gesture, wearable computing, VR, robots, and full-body exertion.
+A research compendium for a digital museum of cutting-edge Human-Computer Interaction from the late 1970s through the early 1990s. These one hundred and forty projects mix canonical experiments with weird, forgotten, and beautiful vaporware — brain control, voice control, gesture, wearable computing, VR, robots, and full-body exertion.
 
 Each entry includes an overview, a deep dive, a small media gallery, and full source links so the images and facts can always be traced back.
 
@@ -144,6 +144,9 @@ Each entry includes an overview, a deep dive, a small media gallery, and full so
 135. [Rockwell AIM-65 (1978)](#rockwell-aim-65-1978)
 136. [Mattel Synsonics Drums (1981)](#mattel-synsonics-drums-1981)
 137. [AEA PK-232 Pakratt 232 (1986)](#aea-pk-232-pakratt-232-1986)
+138. [TI Magic Wand Speaking Reader (1982)](#ti-magic-wand-speaking-reader-1982)
+139. [Tektronix 7854 Waveform Processing Oscilloscope (1980)](#tektronix-7854-waveform-processing-oscilloscope-1980)
+140. [Buick Riviera Graphic Control Center (1986)](#buick-riviera-graphic-control-center-1986)
 
 ---
 
@@ -7024,3 +7027,119 @@ The AEA PK-232 'Pakratt 232' is a multimode amateur radio data controller (Termi
 5. Larry Kenney — Introduction to packet radio (TNC history) — http://www.choisser.com/packet/part01.html
 6. Universal Radio — PK-232 catalog page — https://www.universal-radio.com/catalog/decoders/pk232.html
 7. Wikimedia Commons image — https://commons.wikimedia.org/wiki/File:Terminal_Node_Controller.jpg
+
+## TI Magic Wand Speaking Reader (1982)
+**By:** Texas Instruments Consumer Products Division (Lubbock, TX)
+**Tags:** `HCI` `Input` `Speech` `Education` `Barcode`
+
+### Overview
+
+The TI Magic Wand Speaking Reader, introduced June 1982, was an educational toy from Texas Instruments that fused barcode scanning with speech synthesis. A disc-shaped base unit (reminiscent of an LP record) contained TI's TMS5220 Voice Synthesis Processor — the same chip used in the iconic Speak & Spell. A thick pen-shaped barcode wand, attached by a coiled cable, was swiped across barcode strips printed beneath the text in specially printed picture books. The base unit decoded the barcodes into LPC allophone strings and spoke the words aloud through a built-in speaker. At $120 for the base and $12 per book, with licensed titles including Spider-Man, E.T., and Berenstain Bears, the Magic Wand was an ambitious attempt to make books interactive before the concept of "interactive" existed. Renamed "Speak & Learn" shortly before discontinuation when TI shuttered its Consumer Products Division in 1983.
+
+### Deep dive
+
+**Origins.** The Magic Wand emerged from TI's Consumer Products Division in Lubbock, Texas, which had previously produced the Speak & Spell (1978), Speak & Math, and Speak & Read. The division was riding the success of TI's LPC (Linear Predictive Coding) speech synthesis technology, which encoded spoken words as streams of allophones — the atomic sound units of speech — stored in ROM. For the Magic Wand, these allophone strings were encoded as barcodes printed directly in children's books. Kathleen M. Goudie Marshall, a Member of Technical Staff at TI's Consumer Products Division from 1979-1983, confirmed that text-to-speech capability was used during book development to generate first-pass allophone strings, which were then hand-edited for optimal prosody before encoding into barcodes.
+
+**The Physical Ritual.** The interaction was embodied in a way that modern touchscreens cannot replicate. A child grasped the wand, aligned it with the start of a barcode strip, and pulled it steadily left-to-right. The wand's IR LED and phototransistor behind a black infrared-transmissive tip read the reflectance pattern. Successful reads produced spoken words, sound effects, or music. Each book ended with comprehension questions: the base unit asked a question, and the child answered by swiping the wand over the correct answer's barcode — turning reading into a reciprocal dialogue. The long coiled cable allowed the wand to reach any corner of the large-format books but tethered the child to the base unit in a way that defined the play space. The base was powered by 4 D-cell batteries, weighed 26 ounces, and measured 11\" × 11\" × 2.3\".
+
+**Technical Architecture.** Internally, the system used just three main ICs: a C14007 4-bit microcontroller (likely a TMS1000 derivative), the TMS5220 Voice Synthesis Processor with updated LPC-10 table, and a TMC0355/CD2228 32-kilobit Voice Synthesis Memory. The wand contained an infrared LED transmitter and phototransistor receiver. TI published at least 14 books across three reading levels — Toddler, Preschool, and Early Elementary — including licensed titles like "The Amazing Spider-Man in Skyscraper Caper" (Marvel), "Talking E.T. Wordbook" (Universal), and "The Berenstain Bears Olympics."
+
+**Legacy.** The Magic Wand's disappearance had nothing to do with the product itself. In 1983, TI exited consumer products entirely, shutting down the Lubbock division. The wand, the books, and the manufacturing tooling all vanished. The product was briefly renamed "Speak & Learn" — aligning it with the Speak & Spell brand — before discontinuation. TIME Magazine featured the Magic Wand in June 1982 alongside a voice-controlled ship engine, capturing a moment when speech synthesis seemed poised to transform everything. It wouldn't — not yet — but the Magic Wand's paradigm of wand-swiping to trigger speech would resurface two decades later in the LeapFrog LeapPad.
+
+### Team
+
+* **Texas Instruments Consumer Products Division (Lubbock, TX).** Produced the Speak & Spell family and the Magic Wand; division shuttered in 1983.
+* **Kathleen M. Goudie Marshall.** Member of Technical Staff, TI Consumer Products Division (1979-1983); documented the allophone-based speech development process for the Magic Wand.
+
+### Media
+
+![TI Magic Wand Speaking Reader — disc-shaped base unit with barcode wand attached by coiled cable, circa 1982](../assets/wiki/magic-wand.jpg)
+*TI Magic Wand Speaking Reader, circa 1982. The LP-shaped base houses the TMS5220 speech synthesizer; the barcode wand is connected via a long coiled cable. CC BY-SA 2.0 — Joe Haupt via Flickr / Wikimedia Commons.*
+
+### Sources
+
+1. Datamath Calculator Museum — Magic Wand page (comprehensive collector reference with teardown photos and book list) — http://www.datamath.org/Speech/MagicWand.htm
+2. TIME Magazine, June 7, 1982 — "Now Hear This: Full Ahead!" (contemporary press coverage) — http://www.time.com/time/magazine/article/0,9171,951786,00.html
+3. Wikipedia — Texas Instruments LPC Speech Chips (TMS5220 used in Magic Wand) — https://en.wikipedia.org/wiki/Texas_Instruments_LPC_Speech_Chips
+4. Wikimedia Commons image — Joe Haupt, CC BY-SA 2.0 — https://commons.wikimedia.org/wiki/File:Texas_Instruments_Magic_Wand_Speak_%26_Learn_(Speaking_Reader),_Made_In_USA,_Circa_1982.jpg
+
+## Tektronix 7854 Waveform Processing Oscilloscope (1980)
+**By:** Tektronix, Inc. (Beaverton, OR) — Project Manager Tom Rousseau
+**Tags:** `HCI` `Scientific` `Hybrid` `Input` `Laboratory`
+
+### Overview
+
+The Tektronix 7854, introduced in 1980, was a 400 MHz combined analog/digital oscilloscope mainframe with a defining feature: a detachable Waveform Calculator Keyboard using Reverse Polish Notation that allowed operators to write waveform-processing programs directly on the instrument. Internally codenamed the "Smart Scope," it used a Texas Instruments TMS9900 16-bit microprocessor — the same CPU as the TI-99/4 home computer — with 32KB ROM, 8KB RAM, a 10-bit digitizer sampling at 500 kHz, and storage for up to 1,024 waveform points. The keyboard's operators (add, multiply, square root, log, FFT, integration) worked on entire waveforms as operands. The 7854 was not a computer with a scope card added; it was a scope that had been taught to compute. Priced at $10,500 in 1981 ($38,600 in 2026), it was produced for a decade (1980-1990) and became a mainstay of research laboratories worldwide.
+
+### Deep dive
+
+**The Two-Mode Interface.** The 7854's interface was schizophrenic by design. In analog mode, the operator used it like any other 7000-series scope: turn vertical sensitivity knobs, adjust the timebase, position the trace with horizontal and vertical offset controls. The CRT displayed conventional real-time waveforms. But entering digital mode transformed the instrument: the CRT showed stored waveforms, alphanumeric readouts, and programmable text. The detachable keyboard — connected by cable — became the primary input device. Typing "WAVEFORM A WAVEFORM B +" added two captured signals point-by-point. The keyboard used postfix notation because Tektronix engineers found it mapped naturally onto signal processing workflow: acquire waveform, acquire another waveform, apply transformation.
+
+**The Keyboard as Instrument Redefinition.** The Waveform Calculator Keyboard was not an afterthought — a dedicated 1981 Application Note (AX-4864) was devoted entirely to the keyboard guide. It contained keys for waveform storage/recall, arithmetic operators, signal processing functions (average, integrate, differentiate, FFT), cursor measurement control, and macro programming. Option 2D expanded memory to 40 waveforms and 2,000 keystrokes of user programming. The keyboard was explicitly designed to be detachable so the instrument could revert to being a conventional scope when mathematical work was unnecessary. A companion WP1310 Waveform Processing System combined the 7854 with a Tektronix 4052 desktop computer for even more sophisticated analysis — but the keyboard made the scope self-contained.
+
+**HCI Significance.** The 7854 matters for HCI history because it forced two entirely different interaction paradigms to coexist in one physical instrument. The analog interaction was continuous, spatial, and embodied — hands on knobs, eyes on a glowing trace. The digital interaction was discrete, symbolic, and abstract — fingers on keys, mind on mathematical transforms. The operator had to negotiate the boundary between these modes, and the 7854's design made that boundary explicit rather than hiding it behind software abstraction. In an era when most instruments were either analog OR digital, the 7854 insisted on being both.
+
+### Team
+
+* **Tom Rousseau.** Project Manager, Tektronix 7854.
+* **Val Garuts.** Instrument concept.
+* **Jim Tallman.** System architecture, testability, and training.
+* **Les Larson.** Digitizer design.
+* **Clark Foley.** Applications specialist; authored Tekniques magazine articles on the 7854.
+* **Burt Johnson / Jim Schlegel / Ellen Deleganes.** Firmware development.
+* **Hiro Moriyasu / Jack Gilmore / Wim Velsink / Luis Navarro.** Patent US 4225940A (1978) — oscilloscope system for acquiring, processing, and displaying information; foundational to 7854.
+
+### Media
+
+![Tektronix 7854 Waveform Processing Oscilloscope — 400 MHz analog/digital mainframe with plug-in modules](../assets/wiki/tektronix-7854.jpg)
+*Tektronix 7854 Waveform Processing Oscilloscope (1980). A 400 MHz combined analog/digital mainframe with a built-in waveform processor and detachable RPN calculator keyboard. CC BY-SA 4.0 — User:Glrx / Wikimedia Commons.*
+
+![Tektronix 7854 on lab cart with four smaller measurement and test devices underneath](../assets/wiki/tektronix-7854-cart.jpg)
+*Tektronix 7854 on a Tektronix lab cart with companion instruments. The detachable Waveform Calculator Keyboard is visible. CC BY-SA 4.0 — User:Glrx / Wikimedia Commons.*
+
+### Sources
+
+1. TekWiki — 7854 comprehensive reference (specifications, full design team, manuals, internal photos) — https://w140.com/tekwiki/wiki/7854
+2. Tektronix Tekniques Vol.4 No.8 (Dec 1980) — 7854 introduction and programming article by Clark Foley — https://w140.com/tekwiki/images/4/47/Tekniques_15Dec1980_vol4_no8_7854excerpt.pdf
+3. Tekscope 1980 V12 N3 — "Digital Waveform Processing in a High-Performance 7000-Series Oscilloscope" by Tom Rousseau and Bill Cox — https://w140.com/tekwiki/wiki/File:Tekscope_1980_V12_N3.pdf
+4. 7854 Operators Manual (PDF) — https://w140.com/tekwiki/images/2/2d/070-2873-00.pdf
+5. Patent US 4225940A (1978) — Oscilloscope system for acquiring, processing, and displaying information — https://patents.google.com/patent/US4225940A
+6. CuriousMarc — Tek 7854 page with restoration videos — https://www.curiousmarc.com/instruments/tek-7854-oscilloscope
+7. Wikimedia Commons image — User:Glrx, CC BY-SA 4.0 — https://commons.wikimedia.org/wiki/File:Oscilloscope_Tektronix_7854.jpg
+
+## Buick Riviera Graphic Control Center (1986)
+**By:** Buick Motor Division, General Motors — AC Spark Plug, Delco Electronics, Delco Systems Operation (Santa Barbara, CA)
+**Tags:** `HCI` `Touchscreen` `Automotive` `Embedded`
+
+### Overview
+
+The Buick Riviera Graphic Control Center (GCC), introduced as standard equipment on the 1986 Buick Riviera, was the first production touchscreen interface in any automobile. A 5-inch green-phosphor cathode ray tube (CRT) covered by an invisible Mylar resistive-touch membrane replaced conventional knobs, buttons, and sliders with six context-dependent soft-key zones. The system controlled automatic climate control, AM/FM radio with graphic equalizer, trip calculations, vehicle gauges, and complete diagnostic information. Its development began in November 1980 under GM Chairman Roger B. Smith's enthusiastic approval; a test fleet of 100 1984 Rivieras evaluated the experimental system before its 1986 debut. The GCC also appeared in the 1988-89 Buick Reatta and a modified version (Visual Information Center) in the 1989-92 Oldsmobile Toronado. GM abandoned the system shortly thereafter — not because it failed, but because the public wasn't ready. It would take the auto industry another 15+ years to catch up.
+
+### Deep dive
+
+**How It Worked.** The GCC used a Sony-sourced green-phosphor CRT with a transparent Mylar resistive-touch membrane using row-and-column-encoded transparent conductors. Each of six soft-key zones changed function contextually: the same spot on the screen could be "temperature up" on the climate page and "seek forward" on the radio page. The CRT required several seconds to warm up, so Buick engineers designed the GCC to begin warming when the driver touched the door handle — an early example of context-aware computing. If the screen wasn't touched within 30 seconds of door opening, it shut off. When the ignition was switched on, the display advanced from the Buick logo splash screen to a home page covering 90% of routine driver interactions.
+
+**The Software-Defined Dashboard.** The GCC represented a fundamental shift in automotive interface philosophy: the dashboard was no longer a fixed array of dedicated hardware controls but a reconfigurable software surface. Tapping "Gauges" brought up a digital instrument panel. Tapping "Radio" revealed a graphic equalizer with touch-adjustable frequency bands. Tapping "Diagnostics" displayed powertrain, electrical system, and brake status. Each tap drilled deeper into nested menus. Physical controls that remained (steering wheel, gear selector, turn signals) were those where tactile feedback was essential for safety. For everything else, Buick bet on glass — decades before Tesla made the same bet.
+
+**HCI Significance.** The GCC is significant for three reasons. First, it deployed touchscreen interaction in an environment where the user's primary task was NOT operating the computer — the driver was driving, and the touchscreen was a secondary interface. This forced design constraints (large touch zones, minimal menu depth, no keyboard) that anticipated mobile and automotive UI design. Second, the pre-warming behavior triggered by door handle touch was an early example of context-aware computing, anticipating user intent before explicit interaction. Third, the GCC demonstrated that reconfigurable software interfaces could replace fixed hardware controls in safety-critical environments — a debate that continues in modern automotive design.
+
+### Team
+
+* **Buick Motor Division (Flint, MI).** Initiated the GCC project in November 1980; championed by Buick executive Cary Wilson.
+* **Roger B. Smith.** GM Chairman who enthusiastically approved the project in early 1981, believing this technology would keep GM the world's leading automaker.
+* **AC Spark Plug / Delco Electronics.** Hardware development for the GCC system.
+* **Delco Systems Operation (Santa Barbara, CA).** Independently developed the automotive touch-sensitive CRT; handled all software design.
+* **Cary Wilson.** Buick executive who championed the GCC concept; predicted touchscreens would eventually reach lower-price cars.
+
+### Media
+
+![1986 Buick Riviera Graphic Control Center — green-phosphor CRT touchscreen with context-dependent soft keys](../assets/wiki/buick-gcc.jpg)
+*1986 Buick Riviera Graphic Control Center (GCC). The 5-inch green-phosphor CRT with six context-dependent soft-key zones, controlling climate, radio, trip computer, gauges, and diagnostics. CC BY-SA 4.0 — User:Tamas Szabo / Wikimedia Commons.*
+
+### Sources
+
+1. Hagerty — "Infotainment systems? That's so 1986" by Larry Printz (Dec 2017) — detailed GCC development history — https://hagerty.com/media/archived/1986-buick-riviera-gcc-touchscreen
+2. Automotive History — "The First Car with a Touchscreen is from 1986" — https://automotivehistory.org/the-first-car-with-a-touchscreen-is-from-1986
+3. Top Gear — "Here's how car screens have grown through history" — https://topgear.com/car-news/electric/heres-how-car-screens-have-grown-through-history
+4. Wikipedia — Buick Riviera (seventh generation, 1986-1993) — https://en.wikipedia.org/wiki/Buick_Riviera
+5. Wikimedia Commons image — User:Tamas Szabo, CC BY-SA 4.0 — https://commons.wikimedia.org/wiki/File:Buick-TouchScreen-x.jpg

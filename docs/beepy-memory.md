@@ -371,4 +371,22 @@ Promotion gotchas (2026-07-30):
 - Build reports 140 exhibits; wiki ToC has 137. Pre-existing 3-exhibit discrepancy noted but not fixed (rooted in prior runs where ToC wasn't updated).
 - Future unexplored angles: computer-controlled industrial/scientific instruments with distinctive physical interfaces, early computer-based telephones/answering machines with CC images, early barcode/OCR scanning hardware (ThunderScan category still unresolved), early electronic toys with computer-like interaction.
 
-(End of file - total 357 lines)
+New additions (2026-07-31):
+- TI Magic Wand Speaking Reader (1982): Promoted 2026-07-31. Texas Instruments educational toy combining barcode wand with Speak & Spell speech synthesis chip (TMS5220). Child swipes wand across barcode strips printed in picture books and the LP-shaped base unit speaks the words aloud. $120 + $12 books including Spider-Man, E.T., Berenstain Bears. 14 books published. Discontinued within 18 months when TI shuttered Consumer Products Division (1983). Renamed "Speak & Learn" before discontinuation. 1 CC BY-SA 2.0 image from Commons (Joe Haupt via Flickr). Distinct interaction model: wand-swiping as a reading act, barcode-as-speech-trigger — genuinely novel. Fills barcode-scanning-for-consumer-education gap. No overlap with Cauzin Softstrip (barcode for data storage) or Barcode Battler (barcode for game stats).
+- Tektronix 7854 Waveform Processing Oscilloscope (1980): Promoted 2026-07-31. 400 MHz combined analog/digital oscilloscope with detachable Waveform Calculator Keyboard using Reverse Polish Notation. TMS9900 CPU (same as TI-99/4). Keyboard operators (add, multiply, FFT, log, integration) work on entire waveforms as operands. Keyboard detachable so scope reverts to conventional analog mode. $10,500 in 1981 (~$38,600 today), produced 1980-1990. Project manager: Tom Rousseau. 2 CC BY-SA 4.0 images from Commons (User:Glrx). Fills entirely new category: scientific instrument HCI. First lab instrument in museum. Distinct interaction model: hybrid analog knobs + RPN keyboard on one device — operator must negotiate boundary between continuous/spatial and discrete/symbolic modes.
+- Buick Riviera Graphic Control Center (1986): Promoted 2026-07-31. First production touchscreen in any automobile. 5-inch green-phosphor CRT with Mylar resistive-touch membrane; six context-dependent soft-key zones. Controlled climate, radio, trip computer, gauges, diagnostics. Pre-warmed when driver touched door handle (context-aware computing, 1986). Developed from 1980 under GM Chairman Roger B. Smith; test fleet of 100 Rivieras. Also in 1988-89 Reatta and 1989-92 Toronado. 1 CC BY-SA 4.0 image from Commons (User:Tamas Szabo). Distinct interaction model: touchscreen-as-dashboard, software-defined automotive interface — touchescreen paradigm is represented (HP-150) but automotive safety-critical context + context-aware prewarming + reconfigurable soft keys make this sufficiently distinct. Fills automotive HCI gap (distinct from Etak Navigator which is navigation, not dashboard).
+
+New deferred candidates (2026-07-31):
+- Databar OSCAR (1983): Barcode wand for software distribution via specialty magazine. User swipes wand across barcodes printed in Databar Magazine to load BASIC programs into Atari/C64/TI-99/4A. Strong interaction model but ZERO CC images. Internet Archive has box scans. Revisit if image licensing resolves.
+- HP 82153A Optical Wand (1981): Barcode wand accessory for HP-41C calculator. CC image exists on Commons. Deferred: calculator accessory, narrow scope, overlaps with Cauzin Softstrip.
+- HP 16500A Logic Analysis System (1987): Color touchscreen on modular lab instrument mainframe. Good HCI concept but NO CC images on Commons. Revisit if images surface.
+- Aston Martin Lagonda Electronic Dashboard (1976): First production car with digital instrumentation and membrane touch panels. Deferred: only Commons image shows disassembled dash ("where's the dashboard?") — not museum quality.
+
+Promotion gotchas (2026-07-31):
+- All promotion done manually (same as prior runs). promote-potentials.ts NOT run.
+- All 3 promoted candidates had CC-licensed images on Commons — 100% yield this run (unusually high).
+- Pre-existing 3-exhibit discrepancy between wiki ToC (140) and data.ts (143) maintained.
+- New productive angles proven: (a) scientific/lab instrument HCI — Tektronix 7854 is first lab instrument in museum, (b) automotive dashboard HCI — Buick GCC fills previously empty category, (c) barcode-as-consumer-education — TI Magic Wand bridges barcode scanning and speech synthesis in a unique way.
+- Build reports 143 exhibits; wiki ToC has 140. Same 3-exhibit gap from prior runs.
+
+(End of file - total 374 lines)
