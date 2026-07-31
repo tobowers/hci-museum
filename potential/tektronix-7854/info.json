@@ -1,0 +1,62 @@
+{
+  "slug": "tektronix-7854",
+  "title": "Tektronix 7854 Waveform Processing Oscilloscope",
+  "year": "1980",
+  "subtitle": "A 400 MHz oscilloscope with a detachable RPN calculator keyboard — the lab instrument as programmable computer",
+  "why_scout_cares": "A collision of two interface paradigms in one 42-pound instrument. The engineer uses traditional analog knobs for signal viewing AND a detachable calculator-style keyboard for waveform mathematics — adding, multiplying, taking FFTs, computing logs — in Reverse Polish Notation, like an HP-41C bolted to the side of a premium oscilloscope. Macros could be bound to physical function keys. The keyboard was physically detachable, acknowledging that an oscilloscope must transform between two completely distinct operational modes. This was not a computer with a scope card added; this was a scope that had been taught to compute. The same TMS9900 CPU that powered the TI-99/4 home computer ran the waveform processor. Fills a gap: no scientific instruments in the museum's 140 exhibits, and no device where the hybrid analog/digital interface collision is the entire point.",
+  "search_terms": ["Tektronix 7854 waveform processing oscilloscope", "detachable RPN keyboard oscilloscope", "Tek 7854 smart scope"],
+  "research": {
+    "title": "Tektronix 7854 Waveform Processing Oscilloscope",
+    "year": "1980",
+    "by": "Tektronix, Inc. (Beaverton, OR) — Project Manager: Tom Rousseau",
+    "tags": ["HCI", "Scientific", "Hybrid", "Input", "Laboratory"],
+    "overview": "The Tektronix 7854, introduced in 1980, was a 400 MHz combined analog/digital oscilloscope mainframe in Tektronix's 7000-series. What distinguished it from every other oscilloscope ever made was its detachable Waveform Calculator Keyboard — a calculator-style keypad using Reverse Polish Notation that allowed the operator to write short waveform-processing programs directly on the instrument. While conventional oscilloscopes were purely visual instruments (turn knobs, watch the trace), the 7854 was a hybrid: the same physical device served as both a precision analog measurement tool and a programmable digital waveform computer.\n\nInternally codenamed the \"Smart Scope\" during development, the 7854 used a Texas Instruments TMS9900 16-bit microprocessor — famously also used in the TI-99/4 home computer — with 32KB of ROM and 8KB of RAM. The digitizer sampled at 500 kHz with 10-bit resolution, storing up to 1,024 waveform points. With the optional 2D memory expansion, the scope could hold 40 waveforms and record 2,000 keystrokes of user programming. The keyboard's operators (add, multiply, square root, log, absolute value, integration, differentiation) worked on entire waveforms as operands, not individual numbers — a paradigm more like MATLAB than a calculator.\n\nPriced at $10,500 in 1981 (approximately $38,600 in 2026 dollars), the 7854 was produced for a decade (1980-1990) and became a mainstay of research laboratories. Its GPIB interface allowed remote control from desktop computers, making it an early example of an instrument designed for automated test environments.",
+    "deepDive": [
+      {
+        "heading": "The Two-Mode Interface",
+        "text": "The 7854's interface was schizophrenic by design. In analog mode, the operator interacted with it like any other 7000-series scope: turn the vertical sensitivity knobs, adjust the timebase, position the trace with horizontal and vertical offset controls. The CRT displayed conventional real-time waveforms. But press a button to enter digital mode, and the instrument transformed: the CRT showed stored waveforms, alphanumeric readouts, and programmable text. The detachable keyboard — connected by a cable — became the primary input device. Typing \"WAVEFORM A WAVEFORM B +\" added two captured signals point-by-point and displayed the result. The keyboard used postfix (RPN) notation specifically because Tektronix engineers found it mapped naturally onto the order of operations in signal processing: acquire waveform, acquire another waveform, apply transformation."
+      },
+      {
+        "heading": "The Keyboard as Instrument Redefinition",
+        "text": "The Waveform Calculator Keyboard was not an afterthought — it was the 7854's defining feature. A separate Application Note (AX-4864, 1981) was devoted entirely to the keyboard guide. The keyboard contained dedicated keys for: waveform storage and recall, arithmetic operators, signal processing functions (average, integrate, differentiate, FFT), cursor measurement control, and macro programming. A companion accessory, the WP1310 Waveform Processing System, combined the 7854 with a Tektronix 4052 desktop computer for even more sophisticated analysis — but the keyboard made the scope self-contained. Tektronix engineers explicitly designed the keyboard to be \"detachable\" so that the instrument could revert to being a conventional scope when mathematical work was not needed."
+      },
+      {
+        "heading": "Design Team Legacy",
+        "text": "The 7854 had an unusually large design team for an oscilloscope — over 30 named engineers, technicians, and support staff, reflecting the complexity of merging analog and digital domains. Project manager Tom Rousseau oversaw a team that included Val Garuts (instrument concept), Jim Tallman (system architecture), Les Larson (digitizer), and Clark Foley (applications). Firmware was developed by Burt Johnson, Jim Schlegel, and Ellen Deleganes. The development was documented in unusual detail: internal photos show a 1978 prototype with a different keyboard layout, and a Tektronix internal document titled '7854 Design Team' includes a photo of the engineering release cake — with a graduation cap symbolizing that this was the 'Smart Scope.'"
+      },
+      {
+        "heading": "What Made It HCI",
+        "text": "The 7854 matters for HCI history not because it was a good oscilloscope (it was) but because it forced two entirely different interaction paradigms to coexist in one physical instrument. The analog interaction was continuous, spatial, and embodied — hands on knobs, eyes on a glowing trace. The digital interaction was discrete, symbolic, and abstract — fingers on keys, mind on mathematical transforms. Bridging those modes was the operator's responsibility, and the 7854's design made that bridge explicit rather than hiding it behind software abstraction. In an era when most instruments were either analog OR digital, the 7854 insisted on being both, and made the user negotiate the boundary."
+      }
+    ],
+    "team": [
+      {"name": "Tom Rousseau", "note": "Project Manager, Tektronix 7854"},
+      {"name": "Val Garuts", "note": "Instrument concept"},
+      {"name": "Jim Tallman", "note": "System architecture, testability, and training"},
+      {"name": "Les Larson", "note": "Digitizer design"},
+      {"name": "Clark Foley", "note": "Applications specialist; authored Tekniques magazine articles on 7854"},
+      {"name": "Burt Johnson / Jim Schlegel / Ellen Deleganes", "note": "Firmware development"},
+      {"name": "Hiro Moriyasu / Jack Gilmore / Wim Velsink / Luis Navarro", "note": "Patent US 4225940A (1978) — oscilloscope system for acquiring, processing, and displaying information; foundational to 7854"}
+    ],
+    "media": [
+      {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/9/92/Oscilloscope_Tektronix_7854.jpg",
+        "alt": "Tektronix 7854 Waveform Processing Oscilloscope — 400 MHz analog/digital mainframe",
+        "caption": "Tektronix 7854 Waveform Processing Oscilloscope (1980). A 400 MHz combined analog/digital mainframe with built-in waveform processor. CC BY-SA 4.0 — User:Glrx / Wikimedia Commons."
+      }
+    ],
+    "sources": [
+      {"text": "TekWiki — 7854 comprehensive reference (specifications, manuals, design team, photos)", "url": "https://w140.com/tekwiki/wiki/7854"},
+      {"text": "Tektronix Tekniques Vol.4 No.8 (Dec 1980) — 7854 introduction and programming article by Clark Foley", "url": "https://w140.com/tekwiki/images/4/47/Tekniques_15Dec1980_vol4_no8_7854excerpt.pdf"},
+      {"text": "Tekscope 1980 V12 N3 — 'Digital Waveform Processing in a High-Performance 7000-Series Oscilloscope' by Tom Rousseau and Bill Cox", "url": "https://w140.com/tekwiki/wiki/File:Tekscope_1980_V12_N3.pdf"},
+      {"text": "7854 Operators Manual (PDF)", "url": "https://w140.com/tekwiki/images/2/2d/070-2873-00.pdf"},
+      {"text": "Patent US 4225940A (1978) — Oscilloscope system for acquiring, processing, and displaying information", "url": "https://patents.google.com/patent/US4225940A"},
+      {"text": "CuriousMarc — Tek 7854 page with restoration videos", "url": "https://www.curiousmarc.com/instruments/tek-7854-oscilloscope"}
+    ],
+    "imageUrls": [
+      "https://upload.wikimedia.org/wikipedia/commons/9/92/Oscilloscope_Tektronix_7854.jpg",
+      "https://w140.com/tekwiki/wiki/7854"
+    ]
+  },
+  "savedImages": []
+}

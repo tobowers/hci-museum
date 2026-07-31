@@ -1,0 +1,55 @@
+{
+  "slug": "ti-magic-wand",
+  "title": "TI Magic Wand Speaking Reader",
+  "year": "1982",
+  "subtitle": "The barcode wand that read children's books aloud, three decades before LeapFrog",
+  "why_scout_cares": "A child swipes a thick pen-shaped wand across barcode strips printed beneath the text in a picture book, and the base unit speaks the words aloud using the same LPC speech synthesis chip as TI's Speak & Spell. The physical ritual — careful left-to-right wand swiping as a reading act — is a genuinely novel HCI paradigm that bridges barcode scanning, speech synthesis, and literacy education. Released June 1982 at $120 with $12 books (Spider-Man, E.T., Berenstain Bears), discontinued within 18 months when TI shuttered its Consumer Products Division. This was the CueCat of children's books — fifteen years before the LeapPad.",
+  "search_terms": ["TI Magic Wand Speaking Reader 1982", "Texas Instruments barcode wand children's books", "Speak & Learn barcode reader"],
+  "research": {
+    "title": "TI Magic Wand Speaking Reader",
+    "year": "1982",
+    "by": "Texas Instruments Consumer Products Division (Lubbock, TX)",
+    "tags": ["HCI", "Input", "Speech", "Education", "Barcode", "Children"],
+    "overview": "The TI Magic Wand Speaking Reader, introduced June 1982, was an educational toy from Texas Instruments that combined barcode scanning with speech synthesis. The system consisted of a disc-shaped base unit (reminiscent of an LP record) and a thick pen-shaped barcode wand attached by a coiled cable. Specially printed picture books contained barcode strips beneath the text; a child swiped the wand left-to-right across the barcodes, and the base unit decoded them into LPC allophone strings which were spoken aloud by TI's TMS5220 Voice Synthesis Processor — the same chip used in the iconic Speak & Spell.\n\nAt $120 for the base unit and $12 per book, the Magic Wand was positioned as a breakthrough in educational technology. TIME Magazine featured it in June 1982 alongside a voice-controlled ship engine and a robot employment service. TI published at least 14 books across three reading levels, including licensed titles like \"The Amazing Spider-Man in Skyscraper Caper,\" \"Talking E.T. Wordbook,\" and \"The Berenstain Bears Olympics.\" Each book ended with a reading comprehension quiz conducted through wand swipes.\n\nDespite the technological ambition, the product was discontinued within 18 months — not because of poor reception, but because TI abruptly shuttered its entire Consumer Products Division in 1983. The Magic Wand was renamed \"Speak & Learn\" in a last-ditch rebranding but still vanished. Today it is exceptionally rare, remembered primarily through the Datamath Calculator Museum's detailed preservation work.",
+    "deepDive": [
+      {
+        "heading": "Origins",
+        "text": "The Magic Wand emerged from TI's Consumer Products Division in Lubbock, Texas, which had previously produced the Speak & Spell (1978), Speak & Math, and Speak & Read. The division was riding the success of TI's LPC (Linear Predictive Coding) speech synthesis technology, which encoded spoken words as streams of allophones — the atomic sound units of speech — stored in ROM. For the Magic Wand, these allophone strings were encoded as barcodes printed directly in children's books. The concept was text-to-speech in reverse: instead of a computer generating speech from text, the barcodes stored pre-composed allophone sequences that the wand decoded and the synthesizer spoke. Kathleen M. Goudie Marshall, a Member of Technical Staff at TI's Consumer Products Division from 1979-1983, confirmed that text-to-speech capability was used during book development to generate first-pass allophone strings, which were then hand-edited for optimal prosody before being encoded into barcodes."
+      },
+      {
+        "heading": "How It Worked",
+        "text": "The wand contained an infrared LED transmitter and a phototransistor receiver behind an infrared-transmissive black plastic tip. As the child swiped the wand across a printed barcode strip, the IR light reflected differently from the black bars and white spaces, generating a pulse train. The base unit — housing a C14007 4-bit microcontroller (likely a TMS1000 derivative), the TMS5220 Voice Synthesis Processor, and a TMC0355/CD2228 32-kilobit Voice Synthesis Memory — decoded the pulses into allophone sequences and drove a built-in speaker. The base was powered by 4 D-cell batteries and weighed 26 ounces, with dimensions of 11\" × 11\" × 2.3\" — deliberately LP-shaped to sit flat alongside a book."
+      },
+      {
+        "heading": "The Physical Ritual",
+        "text": "The interaction was embodied in a way that modern touchscreens cannot replicate. A child had to grasp the wand, align it with the start of a barcode strip, and pull it steadily left-to-right — too fast or too slow, and the read would fail. Successful reads produced spoken words, sound effects, or music. Each book ended with comprehension questions: the base unit would ask a question, and the child would answer by swiping the wand over the correct answer's barcode. This turned reading into a reciprocal dialogue — the machine asked, the child responded through the same physical gesture. The long coiled cable allowed the wand to reach any corner of the large-format books, but also tethered the child to the base unit in a way that defined the play space."
+      },
+      {
+        "heading": "Failure and Afterlife",
+        "text": "The Magic Wand's disappearance had nothing to do with the product itself. In 1983, Texas Instruments exited the consumer products business entirely, shutting down the Lubbock division that had produced the Speak & Spell family and the Magic Wand. The wand, the books, and the manufacturing tooling all vanished. The product was briefly renamed \"Speak & Learn\" before discontinuation. Collector Joerg Woerner of the Datamath Calculator Museum has preserved detailed documentation including internal PCB photographs, a complete book list, and the TIME Magazine feature — making the Magic Wand one of the better-documented failed educational technologies of the 1980s."
+      }
+    ],
+    "team": [
+      {"name": "Texas Instruments Consumer Products Division", "note": "Lubbock, TX; developed Speak & Spell family and Magic Wand"},
+      {"name": "Kathleen M. Goudie Marshall", "note": "Member of Technical Staff, TI Consumer Products Division (1979-1983); documented allophone-based speech development process"}
+    ],
+    "media": [
+      {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/f/f4/Texas_Instruments_Magic_Wand_Speak_%26_Learn_%28Speaking_Reader%29%2C_Made_In_USA%2C_Circa_1982.jpg",
+        "alt": "TI Magic Wand Speaking Reader — disc-shaped base unit with wand attached by coiled cable",
+        "caption": "TI Magic Wand Speaking Reader, circa 1982. The LP-shaped base unit houses the speech synthesizer; the barcode wand is connected by a long coiled cable. CC BY-SA 2.0 — Joe Haupt via Flickr / Wikimedia Commons."
+      }
+    ],
+    "sources": [
+      {"text": "Datamath Calculator Museum — Magic Wand page (comprehensive collector reference)", "url": "http://www.datamath.org/Speech/MagicWand.htm"},
+      {"text": "TIME Magazine, June 7, 1982 — 'Now Hear This: Full Ahead!' (contemporary press coverage)", "url": "http://www.time.com/time/magazine/article/0,9171,951786,00.html"},
+      {"text": "Datamath — Speak & Learn variant page", "url": "http://www.datamath.org/Speech/MagicWand_1.htm"},
+      {"text": "Wikipedia — Texas Instruments TMS5220 (speech synthesis chip used in Magic Wand)", "url": "https://en.wikipedia.org/wiki/Texas_Instruments_LPC_Speech_Chips"}
+    ],
+    "imageUrls": [
+      "https://upload.wikimedia.org/wikipedia/commons/f/f4/Texas_Instruments_Magic_Wand_Speak_%26_Learn_%28Speaking_Reader%29%2C_Made_In_USA%2C_Circa_1982.jpg",
+      "http://www.datamath.org/Speech/MagicWand.htm"
+    ]
+  },
+  "savedImages": []
+}
