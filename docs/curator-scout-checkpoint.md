@@ -9,7 +9,7 @@ Build an agentic discovery and curation pipeline for adding about 15 more HCI Mu
 Desired flow:
 
 1. **Discovery / scout** uses Exa, Grok, and Wikipedia to find candidate HCI hardware objects.
-2. **Research agent** uses DeepSeek V4 Pro to research each object deeply, collect sources, find people/organizations, and download images from more than Wikipedia.
+2. **Research agent** uses DeepSeek V4 Flash to research each object deeply, collect sources, find people/organizations, and download images from more than Wikipedia.
 3. **Dedupe** removes candidates already represented in the museum.
 4. **Beepy curator** uses OpenRouter `z-ai/glm-5.2` for final curation, writeup, and placement.
 
@@ -21,7 +21,7 @@ Files added or changed:
   - Multi-stage scout/research/curation script.
   - Uses Grok for broad discovery.
   - Uses Exa + Wikipedia for source/image discovery.
-  - Uses DeepSeek V4 Pro for research JSON generation.
+  - Uses DeepSeek V4 Flash for research JSON generation.
   - Uses OpenRouter `z-ai/glm-5.2` for Beepy curation and blog writing.
   - Writes candidate bundles to `potential/{slug}/`.
 

@@ -29,7 +29,7 @@ const OUT_DIR = "potential/evals";
 const BEEPY_CHARTER = "docs/beepy.md";
 
 const EVAL_RESEARCH_MODEL = process.env.EVAL_RESEARCH_MODEL ?? "z-ai/glm-5.2";
-const EVAL_CURATION_MODEL = process.env.EVAL_CURATION_MODEL ?? "deepseek-v4-pro";
+const EVAL_CURATION_MODEL = process.env.EVAL_CURATION_MODEL ?? "deepseek-v4-flash";
 const EVAL_RESEARCH_PROVIDER = process.env.EVAL_RESEARCH_PROVIDER ?? "openrouter";
 const EVAL_CURATION_PROVIDER = process.env.EVAL_CURATION_PROVIDER ?? "deepseek";
 const EVAL_RESEARCH_MODEL_REF = resolveModelRef(EVAL_RESEARCH_MODEL, EVAL_RESEARCH_PROVIDER);

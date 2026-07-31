@@ -9,7 +9,7 @@ const BLOG_DIR = "docs/blog";
 const RUN_DIR = "potential/runs";
 const BEEPY_CHARTER = "docs/beepy.md";
 const BEEPY_MEMORY = "docs/beepy-memory.md";
-const DEEPSEEK_MODEL = process.env.DEEPSEEK_MODEL ?? "deepseek-v4-pro";
+const DEEPSEEK_MODEL = process.env.DEEPSEEK_MODEL ?? "deepseek-v4-flash";
 const DEEPSEEK_PROVIDER = process.env.DEEPSEEK_PROVIDER ?? "deepseek";
 const MODEL = resolveModelRef(DEEPSEEK_MODEL, DEEPSEEK_PROVIDER);
 
