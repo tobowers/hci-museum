@@ -147,6 +147,12 @@ Each entry includes an overview, a deep dive, a small media gallery, and full so
 138. [TI Magic Wand Speaking Reader (1982)](#ti-magic-wand-speaking-reader-1982)
 139. [Tektronix 7854 Waveform Processing Oscilloscope (1980)](#tektronix-7854-waveform-processing-oscilloscope-1980)
 140. [Buick Riviera Graphic Control Center (1986)](#buick-riviera-graphic-control-center-1986)
+141. [Sony Data Discman / Electronic Book Player (1990)](#sony-data-discman--electronic-book-player-1990)
+142. [Fidelity Voice Sensory Chess Challenger (1980)](#fidelity-voice-sensory-chess-challenger-1980)
+143. [AT&T VideoPhone 2500 (1992)](#att-videophone-2500-1992)
+144. [Flute Playing Machine (1979–1982)](#flute-playing-machine-1979-1982)
+145. [Johns Hopkins Serial Code Keyboard (1983)](#johns-hopkins-serial-code-keyboard-1983)
+146. [MIDI Dance Floor (1989–1990)](#midi-dance-floor-1989-1990)
 
 ---
 
@@ -7143,3 +7149,133 @@ The Buick Riviera Graphic Control Center (GCC), introduced as standard equipment
 3. Top Gear — "Here's how car screens have grown through history" — https://topgear.com/car-news/electric/heres-how-car-screens-have-grown-through-history
 4. Wikipedia — Buick Riviera (seventh generation, 1986-1993) — https://en.wikipedia.org/wiki/Buick_Riviera
 5. Wikimedia Commons image — User:Tamas Szabo, CC BY-SA 4.0 — https://commons.wikimedia.org/wiki/File:Buick-TouchScreen-x.jpg
+
+---
+
+## Sony Data Discman / Electronic Book Player (1990)
+
+**By:** Sony Corporation  
+**Tags:** `E-Reader` `Information Appliance` `Portable` `Optical Disc`
+
+### Overview
+
+The Sony Data Discman (DD-1, launched in Japan July 1990; the DD-1EX for Western markets in 1991-92) was the first purpose-built portable electronic book reader. It was not a computer you program — it was a book machine. Content arrived on 3.15-inch CD-ROM discs in Sony's Electronic Book (EB) format, each holding up to 100,000 pages or 32,000 images, and the device existed to search and display that content.
+
+The interaction model is the strange, gentle part. A small QWERTY keyboard accepts search terms, and dedicated Yes/No keys drive a scripted, dialogue-style retrieval flow — the machine asks, you answer, the book opens. A grayscale 256x200 LCD showed 30 characters by 10 lines. Early models could not play audio files at all; later models could play audio CDs. Sony's Electronic Book Authoring System (SEBAS, licensed to publishers for $9,000) defined the EBG/EBXA formats, and more than 240 titles were eventually released: dictionaries, encyclopedias, travel references, and exactly one literary title.
+
+In Japan it was a modest hit — 90,000 units in the first eight months — but the West bought very few. The DD-1EX now lives in the permanent collection of the Victoria and Albert Museum, and the DD-10EX appeared in the museum's 1995 exhibition 'The Book and Beyond: Electronic Publishing and the Art of the Book'.
+
+### Deep dive
+
+* **The e-reader before the e-reader.** Seventeen years before the Kindle, Sony shipped a dedicated reading device with replaceable media and a non-expert search interface. The prompt-driven Yes/No retrieval model was explicitly designed for people who had never touched a computer — you type a word and answer questions instead of learning a query language.
+* **The media made the machine.** The 3.15-inch CD-ROM discs and the EB/EBXA formats (standardized with the Electronic Book Committee) were the real product. Sony sold the authoring system to publishers rather than trying to write the library itself — a $9,000 fee that became one of the key barriers to Western adoption.
+
+### Team
+
+* **Sony Corporation.** Designer and manufacturer of the Data Discman line.
+* **Electronic Book Committee / EBXA.** Standardized the Electronic Book formats across manufacturers.
+* **Victoria and Albert Museum.** Holds the DD-1EX in its permanent collection (W.11:1-13-2015).
+
+### Media
+
+![Sony Data Discman DD-10EX on display at the Victoria and Albert Museum](../assets/wiki/data-discman-1.jpg)
+*A Sony Data Discman DD-10EX on display at the Victoria and Albert Museum (1995 exhibition The Book and Beyond). Public domain, Wikimedia Commons.*
+
+![Sony Data Discman DD-8 electronic book player](../assets/wiki/data-discman-2.jpg)
+*Sony Data Discman DD-8, a later slim-line model in the same product line. CC BY 4.0, Wikimedia Commons.*
+
+![German Duden dictionary disc for the Data Discman](../assets/wiki/data-discman-3.jpg)
+*A German Duden dictionary disc for the Data Discman (1992). CC0, Wikimedia Commons.*
+
+![Sony Data Discman DD-8 with packaging](../assets/wiki/data-discman-4.jpg)
+*The DD-8 with its packaging, showing the clamshell design family. CC BY-SA 3.0, Wikimedia Commons.*
+
+### Sources
+
+1. Wikipedia — Data Discman — https://en.wikipedia.org/wiki/Data_Discman
+2. Victoria and Albert Museum — Sony DD-1EX Electronic Book Player collection record — https://collections.vam.ac.uk/item/O1325440/sony-dd1-ex-electronic-book-electronic-book-reader-sony-corporation/
+3. Electronic Book FAQ (archived) — 電子ブックFAQ — https://web.archive.org/web/20000511072934/http://www.ebxa.gr.jp/faq/index.html
+4. Techmoan — E-books in the '90s with Sony's Data Discman (YouTube) — https://www.youtube.com/watch?v=MXXiRJAKC4w
+5. Wikimedia Commons image (public domain) — https://commons.wikimedia.org/wiki/File:Data_discman_dd10ex.jpg
+
+---
+
+## Fidelity Voice Sensory Chess Challenger (1980)
+
+**By:** Fidelity Electronics, Ltd. (Chicago)  
+**Tags:** `Games` `Voice` `Sensory Input` `Embedded`
+
+### Overview
+
+Fidelity Electronics of Chicago built the first commercial chess computer, the Chess Challenger 1 (1977), designed by programmer Ron Nelson. The line evolved rapidly: the 1979 Voice Chess Challenger was the first talking chess computer, and the 1980 Voice Sensory Chess Challenger added the pressure-sensing board. It ran on a Z80 at 4 MHz with 1 KB of RAM and 20 KB of ROM, plus a dedicated speech ROM.
+
+The interaction model is what makes it a museum piece. To move, you press a piece down on its destination square: the 64 pressure-sensing squares read the move directly. There is no keypad, no coordinate entry, no typing — the chessboard itself is the input device. The computer replies by speaking its own move aloud through the speech ROM, with an LED display confirming the position.
+
+The Chess Challenger lineage is preserved across major museums: the Victoria and Albert Museum holds a Fidelity Mini Sensory Chess Challenger (1981), the Computer History Museum holds a Sensory Chess Challenger (1982), and MAME — the arcade emulator — even carries a Voice Sensory Chess Challenger (German) ROM set, keeping the 1980 software alive decades later.
+
+### Deep dive
+
+* **The board is the interface.** Before sensory boards, playing a computer meant typing coordinates into a keypad. The Chess Challenger sensory line inverted that: the physical board became the input, so the player's hands stayed where chess is played. Press the square and the machine knows. The paradigm outlived Fidelity — nearly every chess computer since, from Novag to modern Bluetooth boards, inherited the press-the-square interaction.
+* **A machine that talks about chess.** The 1979 Voice Chess Challenger was the first talking chess computer; the 1980 model joined voice output to the sensory board. Announcing moves in speech is a tiny thing and a strange one — the machine asserts a presence in the room, an opponent rather than a box. It also presaged the speech-ROM era that the decade's toys and appliances would flood into.
+
+### Team
+
+* **Fidelity Electronics, Ltd.** Chicago manufacturer of the Chess Challenger line and the first commercial chess computer (1977).
+* **Ron Nelson.** Programmer of the Chess Challenger series including the Voice Sensory model.
+* **Victoria and Albert Museum.** Holds a Fidelity Mini Sensory Chess Challenger (1981).
+* **Computer History Museum.** Holds a Fidelity Sensory Chess Challenger (1982), gift of Tony Marsland.
+
+### Media
+
+![Fidelity Voice Chess Challenger chess computer](../assets/wiki/fidelity-voice-chess-1.jpg)
+*Fidelity Voice Chess Challenger (1979), the first talking chess computer, photographed at the Deutsches Museum. CC BY-SA 3.0, Wikimedia Commons. The 1980 Voice Sensory model adds the pressure-sensing board to this same family.*
+
+![A Fidelity Chess Challenger chess computer](../assets/wiki/fidelity-voice-chess-2.jpg)
+*A Fidelity Chess Challenger chess computer of the same generation. CC BY-SA 3.0, Wikimedia Commons.*
+
+### Sources
+
+1. Wikimedia Commons — Fidelity Chess Challenger Voice (Deutsches Museum) — https://commons.wikimedia.org/wiki/File:Fidelity_Chess_Challenger_Voice.jpg
+2. Schachcomputer.info Wiki — Fidelity Voice Sensory Chess Challenger (German) — https://www.schach-computer.info/wiki/index.php?title=Fidelity_Voice_Sensory_Chess_Challenger
+3. Victoria and Albert Museum — Mini Sensory Chess Challenger — https://collections.vam.ac.uk/item/O1346764/mini-sensory-chess-challenger-computer-chess-game-fidelity-electronics-ltd
+4. Computer History Museum — Sensory Chess Challenger — https://www.computerhistory.org/chess/art-431614f446c99/
+5. Gadgetify — Fidelity Advanced Voice Chess Challenger 1979 — https://gadgetify.com/fidelity-advanced-voice-chess-challenger
+
+---
+
+## AT&T VideoPhone 2500 (1992)
+
+**By:** AT&T (with Compression Labs Incorporated)  
+**Tags:** `Telephony` `Video` `Consumer` `Communication`
+
+### Overview
+
+Announced at a news conference on January 6, 1992, and sold from 1992 to 1995, the AT&T VideoPhone 2500 looked like a normal desk phone until you flipped up its 3.3-inch color LCD. A camera sat above the screen, a privacy shutter covered the lens, and the ritual was simple: dial normally, then press a key to activate video.
+
+The engineering feat was fitting compressed color video onto an ordinary POTS phone line. The analog connection ran at roughly 19 kilobits per second, of which the video stream used about 11,200 bit/s, achieving at most 10 frames per second and often far less — a jerky, smeared but real moving image of the person you were talking to. AT&T used its proprietary Global VideoPhone Standard (GVS), developed with Compression Labs Incorporated, the company behind the era's videoconferencing codecs.
+
+Priced at $1,500 (later $1,000), the VideoPhone 2500 sold only about 30,000 units, mostly outside the United States. It was the direct descendant of Bell Labs' Picturephone — which AT&T itself had concluded was 'a concept looking for a market' — finally small and cheap enough to try, and still a flop. FaceTime would arrive eighteen years later.
+
+### Deep dive
+
+* **The physical ritual of the visible call.** The VideoPhone 2500 made 'seeing the call' a deliberate, physical act: unfold the screen, decide whether the shutter stays open, dial, then press the video key. The privacy shutter — a small physical object controlling whether the other person could see you — is the kind of hardware affordance that vanished when video calling collapsed into software.
+* **Video through the phone-line bottleneck.** The 11,200 bit/s video stream on a ~19 Kbps analog line is a portrait of compression at its heroic limit. The device had to decide what mattered most about a face at under a third of a frame per second, and it chose: you could see your caller move, and that was the whole point.
+
+### Team
+
+* **AT&T Consumer Products.** Marketed the VideoPhone 2500 from 1992 to 1995; Robert M. Kavner, group executive, announced it.
+* **Compression Labs Incorporated (CLI).** Partner on the low-bit-rate video compression technology.
+* **AT&T Bell Laboratories.** Institutional lineage from the Picturephone program that preceded it.
+
+### Media
+
+![AT&T VideoPhone 2500](../assets/wiki/att-videophone-2500-1.jpg)
+*The AT&T VideoPhone 2500 with its color LCD. CC BY 2.0, photo by Marcin Wichary, Wikimedia Commons.*
+
+### Sources
+
+1. Wikipedia — History of videotelephony (incl. AT&T VideoPhone 2500) — https://en.wikipedia.org/wiki/History_of_videotelephony
+2. CNN Business — The AT&T videophone, 1992 — https://www.cnn.com/2020/06/12/tech/att-video-phone-vault
+3. Encyclopaedia Britannica — VideoPhone 2500 — https://www.britannica.com/technology/videophone
+4. Baltimore Sun — AT&T's video phone announcement (Jan 7, 1992) — https://www.baltimoresun.com/
+5. Wikimedia Commons image — Marcin Wichary, CC BY 2.0 — https://commons.wikimedia.org/wiki/File:Flickr_2615545942_f02a41fed6_b_AT%26T_VideoPhone_2500,_attribution_to_Marcin_Wichary.jpg

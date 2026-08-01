@@ -1,0 +1,50 @@
+{
+  "slug": "fidelity-voice-chess",
+  "title": "Fidelity Voice Sensory Chess Challenger",
+  "year": "1980",
+  "subtitle": "The chess computer that felt your move and talked back",
+  "why_scout_cares": "A consumer chess computer whose interaction model is the board itself: press a piece on a square and the machine feels your move — no coordinates, no typing — then announces its reply aloud through a speech ROM. The first pairing of a pressure-sensing board with voice, from the Chicago company that invented the commercial chess computer.",
+  "search_terms": ["Fidelity Voice Sensory Chess Challenger", "Fidelity Chess Challenger Voice", "sensory chess board 1980", "Ron Nelson chess computer", "talking chess computer"],
+  "research": {
+    "title": "Fidelity Voice Sensory Chess Challenger",
+    "year": "1980",
+    "by": "Fidelity Electronics, Ltd. (Chicago)",
+    "tags": ["Games", "Voice", "Sensory Input", "Embedded"],
+    "overview": "Fidelity Electronics of Chicago built the first commercial chess computer, the Chess Challenger 1 (1977), designed by programmer Ron Nelson. The line evolved rapidly: the 1979 Voice Chess Challenger was the first talking chess computer, and the 1980 Voice Sensory Chess Challenger added the pressure-sensing board. It ran on a Z80 at 4 MHz with 1 KB of RAM and 20 KB of ROM, plus a dedicated speech ROM.\n\nThe interaction model is what makes it a museum piece. To move, you press a piece down on its destination square: the 64 pressure-sensing squares read the move directly. There is no keypad, no coordinate entry, no typing — the chessboard itself is the input device. The computer replies by speaking its own move aloud through the speech ROM, with an LED display confirming the position.\n\nThe Chess Challenger lineage is preserved across major museums: the Victoria and Albert Museum holds a Fidelity Mini Sensory Chess Challenger (1981), the Computer History Museum holds a Sensory Chess Challenger (1982), and MAME — the arcade emulator — even carries a Voice Sensory Chess Challenger (German) ROM set, keeping the 1980 software alive decades later.",
+    "deepDive": [
+      {
+        "heading": "The board is the interface",
+        "text": "Before sensory boards, playing a computer meant typing coordinates into a keypad. The Chess Challenger sensory line inverted that: the physical board became the input, so the player's hands stayed where chess is played. Press the square and the machine knows. The paradigm outlived Fidelity — nearly every chess computer since, from Novag to modern Bluetooth boards, inherited the press-the-square interaction."
+      },
+      {
+        "heading": "A machine that talks about chess",
+        "text": "The 1979 Voice Chess Challenger was the first talking chess computer; the 1980 model joined voice output to the sensory board. Announcing moves in speech is a tiny thing and a strange one — the machine asserts a presence in the room, an opponent rather than a box. It also presaged the speech-ROM era that the decade's toys and appliances would flood into."
+      }
+    ],
+    "team": [
+      { "name": "Fidelity Electronics, Ltd.", "note": "Chicago manufacturer of the Chess Challenger line and the first commercial chess computer (1977)" },
+      { "name": "Ron Nelson", "note": "Programmer of the Chess Challenger series including the Voice Sensory model" },
+      { "name": "Victoria and Albert Museum", "note": "Holds a Fidelity Mini Sensory Chess Challenger (1981)" },
+      { "name": "Computer History Museum", "note": "Holds a Fidelity Sensory Chess Challenger (1982), gift of Tony Marsland" }
+    ],
+    "media": [
+      { "src": "https://upload.wikimedia.org/wikipedia/commons/0/06/Fidelity_Chess_Challenger_Voice.jpg", "alt": "Fidelity Voice Chess Challenger chess computer", "caption": "Fidelity Voice Chess Challenger (1979), the first talking chess computer, photographed at the Deutsches Museum. CC BY-SA 3.0, Wikimedia Commons. The 1980 Voice Sensory model adds the pressure-sensing board to this same family." },
+      { "src": "https://upload.wikimedia.org/wikipedia/commons/1/12/Schachcomputer_Chess_Challenger.jpg", "alt": "A Fidelity Chess Challenger chess computer", "caption": "A Fidelity Chess Challenger chess computer of the same generation. CC BY-SA 3.0, Wikimedia Commons." }
+    ],
+    "sources": [
+      { "text": "Wikimedia Commons — Fidelity Chess Challenger Voice (Deutsches Museum)", "url": "https://commons.wikimedia.org/wiki/File:Fidelity_Chess_Challenger_Voice.jpg" },
+      { "text": "Schachcomputer.info Wiki — Fidelity Voice Sensory Chess Challenger (German)", "url": "https://www.schach-computer.info/wiki/index.php?title=Fidelity_Voice_Sensory_Chess_Challenger" },
+      { "text": "Victoria and Albert Museum — Mini Sensory Chess Challenger", "url": "https://collections.vam.ac.uk/item/O1346764/mini-sensory-chess-challenger-computer-chess-game-fidelity-electronics-ltd" },
+      { "text": "Computer History Museum — Sensory Chess Challenger", "url": "https://www.computerhistory.org/chess/art-431614f446c99/" },
+      { "text": "Gadgetify — Fidelity Advanced Voice Chess Challenger 1979", "url": "https://gadgetify.com/fidelity-advanced-voice-chess-challenger" }
+    ],
+    "imageUrls": [
+      "https://upload.wikimedia.org/wikipedia/commons/0/06/Fidelity_Chess_Challenger_Voice.jpg",
+      "https://upload.wikimedia.org/wikipedia/commons/1/12/Schachcomputer_Chess_Challenger.jpg"
+    ]
+  },
+  "savedImages": [
+    "potential/fidelity-voice-chess/images/fidelity-voice-chess-1.jpg",
+    "potential/fidelity-voice-chess/images/fidelity-voice-chess-2.jpg"
+  ]
+}
