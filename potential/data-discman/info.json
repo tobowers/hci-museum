@@ -1,0 +1,55 @@
+{
+  "slug": "data-discman",
+  "title": "Sony Data Discman / Electronic Book Player",
+  "year": "1990",
+  "subtitle": "The first dedicated e-book reader, three years before the word meant anything",
+  "why_scout_cares": "A purpose-built portable CD-ROM reader with a QWERTY keyboard and Yes/No prompt-driven search — the interaction model of the e-reader category, born in 1990 and dead in the West. One unit sits in the permanent collection of the Victoria and Albert Museum.",
+  "search_terms": ["Sony Data Discman", "DD-1", "Electronic Book Player", "EBXA", "e-book 1990"],
+  "research": {
+    "title": "Sony Data Discman / Electronic Book Player (DD-1)",
+    "year": "1990",
+    "by": "Sony Corporation",
+    "tags": ["E-Reader", "Information Appliance", "Portable", "Optical Disc"],
+    "overview": "The Sony Data Discman (DD-1, launched in Japan July 1990; the DD-1EX for Western markets in 1991-92) was the first purpose-built portable electronic book reader. It was not a computer you program — it was a book machine. Content arrived on 3.15-inch CD-ROM discs in Sony's Electronic Book (EB) format, each holding up to 100,000 pages or 32,000 images, and the device existed to search and display that content.\n\nThe interaction model is the strange, gentle part. A small QWERTY keyboard accepts search terms, and dedicated Yes/No keys drive a scripted, dialogue-style retrieval flow — the machine asks, you answer, the book opens. A grayscale 256x200 LCD showed 30 characters by 10 lines. Early models could not play audio files at all; later models could play audio CDs. Sony's Electronic Book Authoring System (SEBAS, licensed to publishers for $9,000) defined the EBG/EBXA formats, and more than 240 titles were eventually released: dictionaries, encyclopedias, travel references, and exactly one literary title.\n\nIn Japan it was a modest hit — 90,000 units in the first eight months — but the West bought very few. The DD-1EX now lives in the permanent collection of the Victoria and Albert Museum, and the DD-10EX appeared in the museum's 1995 exhibition 'The Book and Beyond: Electronic Publishing and the Art of the Book'.",
+    "deepDive": [
+      {
+        "heading": "The e-reader before the e-reader",
+        "text": "Seventeen years before the Kindle, Sony shipped a dedicated reading device with replaceable media and a non-expert search interface. The prompt-driven Yes/No retrieval model was explicitly designed for people who had never touched a computer — you type a word and answer questions instead of learning a query language."
+      },
+      {
+        "heading": "The media made the machine",
+        "text": "The 3.15-inch CD-ROM discs and the EB/EBXA formats (standardized with the Electronic Book Committee) were the real product. Sony sold the authoring system to publishers rather than trying to write the library itself — a $9,000 fee that became one of the key barriers to Western adoption."
+      }
+    ],
+    "team": [
+      { "name": "Sony Corporation", "note": "Designer and manufacturer of the Data Discman line" },
+      { "name": "Electronic Book Committee / EBXA", "note": "Standardized the Electronic Book formats across manufacturers" },
+      { "name": "Victoria and Albert Museum", "note": "Holds the DD-1EX in its permanent collection (W.11:1-13-2015)" }
+    ],
+    "media": [
+      { "src": "https://upload.wikimedia.org/wikipedia/commons/0/0a/Data_discman_dd10ex.jpg", "alt": "Sony Data Discman DD-10EX on display at the Victoria and Albert Museum", "caption": "A Sony Data Discman DD-10EX on display at the Victoria and Albert Museum (1995 exhibition The Book and Beyond). Public domain, Wikimedia Commons." },
+      { "src": "https://upload.wikimedia.org/wikipedia/commons/f/ff/Sony_Data_Discman_DD-8.jpg", "alt": "Sony Data Discman DD-8 electronic book player", "caption": "Sony Data Discman DD-8, a later slim-line model in the same product line. CC BY 4.0, Wikimedia Commons." },
+      { "src": "https://upload.wikimedia.org/wikipedia/commons/4/47/Sony-ebook2.jpg", "alt": "German Duden dictionary disc for the Data Discman", "caption": "A German Duden dictionary disc for the Data Discman (1992). CC0, Wikimedia Commons." },
+      { "src": "https://upload.wikimedia.org/wikipedia/commons/f/fb/DD_8_Electronic_Book_Player_1.jpg", "alt": "Sony Data Discman DD-8 with packaging", "caption": "The DD-8 with its packaging, showing the clamshell design family. CC BY-SA 3.0, Wikimedia Commons." }
+    ],
+    "sources": [
+      { "text": "Wikipedia — Data Discman", "url": "https://en.wikipedia.org/wiki/Data_Discman" },
+      { "text": "Victoria and Albert Museum — Sony DD-1EX Electronic Book Player collection record", "url": "https://collections.vam.ac.uk/item/O1325440/sony-dd1-ex-electronic-book-electronic-book-reader-sony-corporation/" },
+      { "text": "Electronic Book FAQ (archived) — 電子ブックFAQ", "url": "https://web.archive.org/web/20000511072934/http://www.ebxa.gr.jp/faq/index.html" },
+      { "text": "Techmoan — E-books in the '90s with Sony's Data Discman (YouTube)", "url": "https://www.youtube.com/watch?v=MXXiRJAKC4w" },
+      { "text": "Wikimedia Commons images (PD, CC BY 4.0, CC0, CC BY-SA 3.0)", "url": "https://commons.wikimedia.org/wiki/File:Data_discman_dd10ex.jpg" }
+    ],
+    "imageUrls": [
+      "https://upload.wikimedia.org/wikipedia/commons/0/0a/Data_discman_dd10ex.jpg",
+      "https://upload.wikimedia.org/wikipedia/commons/f/ff/Sony_Data_Discman_DD-8.jpg",
+      "https://upload.wikimedia.org/wikipedia/commons/4/47/Sony-ebook2.jpg",
+      "https://upload.wikimedia.org/wikipedia/commons/f/fb/DD_8_Electronic_Book_Player_1.jpg"
+    ]
+  },
+  "savedImages": [
+    "potential/data-discman/images/data-discman-1.jpg",
+    "potential/data-discman/images/data-discman-2.jpg",
+    "potential/data-discman/images/data-discman-3.jpg",
+    "potential/data-discman/images/data-discman-4.jpg"
+  ]
+}

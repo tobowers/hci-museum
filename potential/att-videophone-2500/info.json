@@ -1,0 +1,46 @@
+{
+  "slug": "att-videophone-2500",
+  "title": "AT&T VideoPhone 2500",
+  "year": "1992",
+  "subtitle": "A $1,500 color videophone that squeezed 10 frames a second out of a phone line",
+  "why_scout_cares": "The first videophone sold to consumers over ordinary copper phone lines: a normal desk phone with a fold-up color LCD and camera, a privacy shutter, and a dial-then-press ritual to make the call visible. The century-old dream of seeing your caller finally shipped as a product — and flopped. Direct descendant of Bell Labs' Picturephone.",
+  "search_terms": ["AT&T VideoPhone 2500", "videophone 1992 POTS", "Global VideoPhone Standard", "AT&T video compression 1992", "first consumer videophone"],
+  "research": {
+    "title": "AT&T VideoPhone 2500",
+    "year": "1992",
+    "by": "AT&T (with Compression Labs Incorporated)",
+    "tags": ["Telephony", "Video", "Consumer", "Communication"],
+    "overview": "Announced at a news conference on January 6, 1992, and sold from 1992 to 1995, the AT&T VideoPhone 2500 looked like a normal desk phone until you flipped up its 3.3-inch color LCD. A camera sat above the screen, a privacy shutter covered the lens, and the ritual was simple: dial normally, then press a key to activate video.\n\nThe engineering feat was fitting compressed color video onto an ordinary POTS phone line. The analog connection ran at roughly 19 kilobits per second, of which the video stream used about 11,200 bit/s, achieving at most 10 frames per second and often far less — a jerky, smeared but real moving image of the person you were talking to. AT&T used its proprietary Global VideoPhone Standard (GVS), developed with Compression Labs Incorporated, the company behind the era's videoconferencing codecs.\n\nPriced at $1,500 (later $1,000), the VideoPhone 2500 sold only about 30,000 units, mostly outside the United States. It was the direct descendant of Bell Labs' Picturephone — which AT&T itself had concluded was 'a concept looking for a market' — finally small and cheap enough to try, and still a flop. FaceTime would arrive eighteen years later.",
+    "deepDive": [
+      {
+        "heading": "The physical ritual of the visible call",
+        "text": "The VideoPhone 2500 made 'seeing the call' a deliberate, physical act: unfold the screen, decide whether the shutter stays open, dial, then press the video key. The privacy shutter — a small physical object controlling whether the other person could see you — is the kind of hardware affordance that vanished when video calling collapsed into software."
+      },
+      {
+        "heading": "Video through the phone-line bottleneck",
+        "text": "The 11,200 bit/s video stream on a ~19 Kbps analog line is a portrait of compression at its heroic limit. The device had to decide what mattered most about a face at under a third of a frame per second, and it chose: you could see your caller move, and that was the whole point."
+      }
+    ],
+    "team": [
+      { "name": "AT&T Consumer Products", "note": "Marketed the VideoPhone 2500 from 1992 to 1995; Robert M. Kavner, group executive, announced it" },
+      { "name": "Compression Labs Incorporated (CLI)", "note": "Partner on the low-bit-rate video compression technology" },
+      { "name": "AT&T Bell Laboratories", "note": "Institutional lineage from the Picturephone program that preceded it" }
+    ],
+    "media": [
+      { "src": "https://upload.wikimedia.org/wikipedia/commons/3/37/Flickr_2615545942_f02a41fed6_b_AT%26T_VideoPhone_2500%2C_attribution_to_Marcin_Wichary.jpg", "alt": "AT&T VideoPhone 2500", "caption": "The AT&T VideoPhone 2500 with its color LCD. CC BY 2.0, photo by Marcin Wichary, Wikimedia Commons." }
+    ],
+    "sources": [
+      { "text": "Wikipedia — History of videotelephony (incl. AT&T VideoPhone 2500)", "url": "https://en.wikipedia.org/wiki/History_of_videotelephony" },
+      { "text": "CNN Business — The AT&T videophone, 1992", "url": "https://www.cnn.com/2020/06/12/tech/att-video-phone-vault" },
+      { "text": "Encyclopaedia Britannica — VideoPhone 2500", "url": "https://www.britannica.com/technology/videophone" },
+      { "text": "Baltimore Sun — AT&T's video phone announcement (Jan 7, 1992)", "url": "https://www.baltimoresun.com/" },
+      { "text": "Wikimedia Commons image — Marcin Wichary, CC BY 2.0", "url": "https://commons.wikimedia.org/wiki/File:Flickr_2615545942_f02a41fed6_b_AT%26T_VideoPhone_2500,_attribution_to_Marcin_Wichary.jpg" }
+    ],
+    "imageUrls": [
+      "https://upload.wikimedia.org/wikipedia/commons/3/37/Flickr_2615545942_f02a41fed6_b_AT%26T_VideoPhone_2500%2C_attribution_to_Marcin_Wichary.jpg"
+    ]
+  },
+  "savedImages": [
+    "potential/att-videophone-2500/images/att-videophone-2500-1.jpg"
+  ]
+}
