@@ -1,0 +1,54 @@
+{
+  "slug": "sony-typecorder",
+  "title": "Sony Typecorder / OA-S1100",
+  "year": "1980",
+  "subtitle": "A three-pound typewriter that stored up to 120 pages of text on a microcassette — and could fax it over a phone line",
+  "why_scout_cares": "Sony's 1980 answer to the office was a briefcase-sized typewriter with a 40-character LCD whose only permanent storage was a standard audio microcassette. Text was typed, checked on one glowing line, and recorded as digital data on tape — then printed, transcribed, punched to telex tape, or transmitted over a phone line through an acoustic coupler. A word processor that lived on tape, pitched by Akio Morita at journalists and lawyers, and preserved in the Computer History Museum. The museum has acoustic-coupler modems and tape-storage machines, but nothing that makes a cassette the working memory of a text machine.",
+  "search_terms": ["Sony Typecorder", "OA-S1100", "TCM-100", "microcassette word processor", "Sony office automation 1980"],
+  "research": {
+    "title": "Sony Typecorder / OA-S1100",
+    "year": "1980",
+    "by": "Sony Corporation (Office Products Division)",
+    "tags": ["Word Processing", "Portable", "Magnetic Media", "Information Appliance"],
+    "overview": "The Sony Typecorder, announced 17 December 1980 in New York and marketed from mid-1981 at around $1,400, was Sony's first move into office automation: a three-pound machine the size of a briefcase (about 8 x 11 x 1 inches) with a standard QWERTY keyboard, a single-line 40-character liquid crystal display, and — the defining oddity — no other output at all. Words typed on the keyboard were written as digital data onto a standard magnetic microcassette. Sony claimed a cassette could hold up to 120 standard pages of typing. Because the storage was an ordinary audio cassette, the machine doubled as a dictation and meeting recorder: press another mode and the same tape that holds your document holds your voice.\n\nThe Typecorder's interaction model is a chain of physical transfers. Once text was captured on the cassette, Sony's ecosystem moved it around by hand and by wire: print it on paper, process it on the companion Series 35 word processor (around $9,000, featuring newly developed 3.5-inch microfloppy drives that Sony also offered to other manufacturers on an OEM basis), retype it on conventional electric typewriters, punch it out as telex tape, or transmit it over telephone lines to a central office through an acoustic coupler. Chairman Akio Morita pitched the machine at 'businessmen, journalists, lawyers, professors — anyone who depends on efficient typing,' and at travelers working on airplanes and trains.\n\nThe Typecorder quietly prefigured the portable text-capture appliance: the typewriter-recorder hybrid, cassette-as-storage, and the acoustic-coupler upload ritual would all feel familiar a decade later in portable computers and personal digital assistants. It was not a commercial success — dedicated word processors and cheap portable computers swallowed the niche — but as an interface concept it is remarkable for making the physical medium, not the screen, the heart of the system. A 1980 unit is preserved in the Computer History Museum, and the US model OA-S1100 survives in photographs.",
+    "deepDive": [
+      {
+        "heading": "The cassette is the hard drive",
+        "text": "Sony stored text as digital signals on ordinary microcassettes, the same tape stock as its dictation machines — up to 120 standard pages per cassette. The marriage of a typewriter and a tape recorder in one chassis means the same medium holds documents and voice, and the machine is a meeting recorder when it is not a word processor. No hard disk, no floppy in the base unit; the removable magnetic tape is the memory."
+      },
+      {
+        "heading": "The ritual of transfer",
+        "text": "There is no printer in the Typecorder and no network jack. Text leaves the machine by a chain of physical rituals: hand the cassette to a companion processor, punch it to telex tape, or place a telephone handset into an acoustic coupler and dial — the same coupler ritual as the museum's Novation CAT. The device turns writing into an object that is carried, plugged, and dialed."
+      },
+      {
+        "heading": "Context and legacy",
+        "text": "Announced the same week in December 1980, the Typecorder and the Series 35 word processor marked Sony's entry into office automation, with 3.5-inch microfloppy drives that Sony touted as the highest-density floppy format of the era. The Typecorder anticipated by a decade the idea of the portable text appliance that syncs through a cradle or a phone line — the shape of the Psion, the Palm, and the BlackBerry."
+      }
+    ],
+    "team": [
+      { "name": "Sony Corporation", "note": "Designer and manufacturer; Office Products Division created to sell the line" },
+      { "name": "Akio Morita", "note": "Sony chairman; publicly pitched the Typecorder at journalists, lawyers, and traveling professionals" },
+      { "name": "Computer History Museum", "note": "Preserves a 1980 Typecorder unit" }
+    ],
+    "media": [
+      { "src": "https://upload.wikimedia.org/wikipedia/commons/3/30/Sony_Typecorder%2C_1980%2C_Computer_History_Museum.jpg", "alt": "Sony Typecorder from 1980 on display at the Computer History Museum", "caption": "A 1980 Sony Typecorder preserved at the Computer History Museum. CC BY-SA 4.0, Wikimedia Commons." },
+      { "src": "https://upload.wikimedia.org/wikipedia/commons/1/1f/Sony_Typecorder_OA-S1100.jpg", "alt": "Sony Typecorder OA-S1100 portable computer and word processor", "caption": "Sony Typecorder OA-S1100, the US-market model, showing the QWERTY keyboard and 40-character display. CC BY-SA 2.0, Wikimedia Commons." },
+      { "src": "https://upload.wikimedia.org/wikipedia/commons/9/9b/CHM_Artifacts_Sony_Typecorder_from_1980_%282376634748%29.jpg", "alt": "Sony Typecorder from 1980 among Computer History Museum artifacts", "caption": "The 1980 Typecorder photographed among CHM artifacts. CC BY 2.0, Wikimedia Commons." }
+    ],
+    "sources": [
+      { "text": "UPI Archives — 'Sony enters into office automation business with typecorder', 17 Dec 1980", "url": "https://www.upi.com/Archives/1980/12/17/Sony-enters-into-office-automation-business-with-typecorder/2452183907057/" },
+      { "text": "Wikimedia Commons — Sony Typecorder, 1980, Computer History Museum (CC BY-SA 4.0)", "url": "https://commons.wikimedia.org/wiki/File:Sony_Typecorder,_1980,_Computer_History_Museum.jpg" },
+      { "text": "Wikimedia Commons — Sony Typecorder OA-S1100 (CC BY-SA 2.0)", "url": "https://commons.wikimedia.org/wiki/File:Sony_Typecorder_OA-S1100.jpg" }
+    ],
+    "imageUrls": [
+      "https://upload.wikimedia.org/wikipedia/commons/3/30/Sony_Typecorder%2C_1980%2C_Computer_History_Museum.jpg",
+      "https://upload.wikimedia.org/wikipedia/commons/1/1f/Sony_Typecorder_OA-S1100.jpg",
+      "https://upload.wikimedia.org/wikipedia/commons/9/9b/CHM_Artifacts_Sony_Typecorder_from_1980_%282376634748%29.jpg"
+    ]
+  },
+  "savedImages": [
+    "potential/sony-typecorder/images/typecorder-1.jpg",
+    "potential/sony-typecorder/images/typecorder-2.jpg",
+    "potential/sony-typecorder/images/typecorder-3.jpg"
+  ]
+}

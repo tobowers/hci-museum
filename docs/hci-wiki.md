@@ -153,6 +153,9 @@ Each entry includes an overview, a deep dive, a small media gallery, and full so
 144. [Flute Playing Machine (1979–1982)](#flute-playing-machine-1979-1982)
 145. [Johns Hopkins Serial Code Keyboard (1983)](#johns-hopkins-serial-code-keyboard-1983)
 146. [MIDI Dance Floor (1989–1990)](#midi-dance-floor-1989-1990)
+147. [Parker Brothers Merlin / The Electronic Wizard (1978)](#parker-brothers-merlin--the-electronic-wizard-1978)
+148. [Etch A Sketch Animator (1986)](#etch-a-sketch-animator-1986)
+149. [Sony Typecorder / OA-S1100 (1980)](#sony-typecorder--oa-s1100-1980)
 
 ---
 
@@ -7279,3 +7282,145 @@ Priced at $1,500 (later $1,000), the VideoPhone 2500 sold only about 30,000 unit
 3. Encyclopaedia Britannica — VideoPhone 2500 — https://www.britannica.com/technology/videophone
 4. Baltimore Sun — AT&T's video phone announcement (Jan 7, 1992) — https://www.baltimoresun.com/
 5. Wikimedia Commons image — Marcin Wichary, CC BY 2.0 — https://commons.wikimedia.org/wiki/File:Flickr_2615545942_f02a41fed6_b_AT%26T_VideoPhone_2500,_attribution_to_Marcin_Wichary.jpg
+
+---
+
+## Parker Brothers Merlin / The Electronic Wizard (1978)
+
+**By:** Parker Brothers (designed by Bob Doyle, Holly Doyle, and Wendl Thomis)  
+**Tags:** `Games` `Embedded` `LED` `Handheld`
+
+### Overview
+
+Merlin — full name Merlin The Electronic Wizard — is a handheld electronic game released by Parker Brothers in 1978 at around $25. Inside a red, phone-shaped plastic case about nine and a half inches long sit a Texas Instruments TMS1000 four-bit microcontroller, 48 bytes of RAM, a small speaker, and the whole of its interface: a matrix of eleven keys, each a button with a red LED inside. The keys are simultaneously the game's only display and its only input. Merlin communicates by lighting them in patterns; you answer by pressing them. A row of four control buttons below selects games.
+
+The interaction model is the museum's point. These eleven dual-use keys support six games: Tic-Tac-Toe against the computer, Music Machine (each key plays a note and sequences can be recorded and played back — one of the earliest consumer digital sequencers), Echo (a Simon-style memory game), Blackjack 13 (the machine deals), Magic Square (a Lights Out-style pattern-reversal puzzle), and Mindbender, a Mastermind-like game in which the machine secretly picks a number and you deduce it by interrogation. Win, lose, or tie, Merlin answers in a vocabulary of twenty synthesized sounds. Children did not just play Merlin — they questioned it.
+
+Merlin was a phenomenon. The Toy Manufacturers of America named it the best-selling toy SKU in America in 1980, when it sold 2.2 million units; lifetime sales passed five million, making it Parker Brothers' most successful product until Frogger in 1982. It was invented by Bob Doyle, a former NASA engineer with a Harvard PhD, with his wife Holly Doyle and brother-in-law Wendl Thomis; the case was drawn by Arthur Venditti. A 2004 Milton Bradley re-release kept the toy alive, and a 1995 sequel, Merlin: The 10th Quest, added a dungeon maze and nine fantasy games.
+
+### Deep dive
+
+* **The keys are the screen.** Merlin has no display separate from its input. Eleven LED-backlit buttons are the entire output surface — games are represented by which lights flash, in what order, and at what tempo. This is the same design inversion as the museum's Coleco Telstar Arcade (where the body is the controller), applied to output: the buttons are the display. A grid of lights you touch, in a 1978 toy.
+* **The machine as an opponent.** Three of the six games — Tic-Tac-Toe, Blackjack 13, and Mindbender — cast the machine as an adversary with hidden state. In Mindbender the box picks a secret number and answers yes/no questions with lights. For millions of children this was the first time they argued with a computer rather than operated one. Designer Bob Doyle, coming from NASA systems work, said the goal was a game that 'wants to play with you.'
+* **The music machine.** In Music Machine mode each key plays a note and the unit records sequences for playback — a step sequencer hiding in a toy store, contemporary with the earliest professional sequencers.
+* **Documentation.** Merlin is richly documented: design patent USD256139 (Venditti, Kjellman, Doyle) covers the casing, the TMS1100 die is photographed in teardowns, and the Centre for Computing History and the Computer History Museum both hold units. The Handheld Museum preserves Bob Doyle's handmade prototypes, only some of which became production games.
+
+### Team
+
+* **Bob Doyle.** Lead designer; former NASA engineer with a Harvard PhD.
+* **Holly Doyle and Wendl Thomis.** Co-inventors of the family design team.
+* **Arthur Venditti.** Case designer, named on design patent USD256139 (also named the Nerf Ball).
+* **Samuel T. Kjellman.** Hardware engineer named on the design patent.
+* **Parker Brothers.** Publisher; CPG Products (General Mills) held the patent assignment.
+
+### Media
+
+![Parker Brothers Merlin handheld electronic game](../assets/wiki/merlin-1.jpg)
+*Parker Brothers Merlin, the 1978 handheld electronic game. CC BY-SA 2.5, K. Pomakis, Wikimedia Commons.*
+
+![Merlin showing the Magic Square pattern game](../assets/wiki/merlin-2.jpg)
+*A Merlin unit playing Magic Square, the Lights Out-style pattern game. CC0, Wikimedia Commons.*
+
+![Merlin in its red phone-shaped case](../assets/wiki/merlin-3.jpg)
+*Merlin in its iconic red case with the 11-key LED matrix. CC BY 2.0, Wikimedia Commons.*
+
+### Sources
+
+1. Wikipedia — Merlin (console) — https://en.wikipedia.org/wiki/Merlin_(game)
+2. The Handheld Museum — Merlin prototype gallery — https://www.handheldmuseum.com/Parker/Merlin.htm
+3. Google Patents — USD256139 Electronic game casing — https://patents.google.com/patent/USD256139S/en
+4. Zito, Tom — 'Wired-Up Wizards', Washington Post, 19 Dec 1978
+5. Centre for Computing History — Merlin, the Electronic Wizard — https://www.computinghistory.org.uk/det/5259/Merlin,-the-Electronic-Wizard/
+
+---
+
+## Etch A Sketch Animator (1986)
+
+**By:** The Ohio Art Company (inventors James C. Wickstead and Gerald P. Selden)  
+**Tags:** `Creative Tool` `LCD` `Input` `Animation` `Consumer`
+
+### Overview
+
+The Etch A Sketch Animator, released by The Ohio Art Company in 1986 at an initial price of $89.99, is the most famous mechanical drawing toy rebuilt as a computer. The classic Etch A Sketch — two knobs moving a stylus through aluminum powder behind a gray screen — was digitized into a handheld box with a 40x30 dot-matrix reflective LCD, two blue knobs, and eight function buttons. Turning the knobs still feels like turning the knobs; but beneath each one sits a slotted cup interrupting an infrared emitter and a pair of photodetectors, generating a quadrature code that a 4-bit Sanyo LC6523A microcontroller decodes into X or Y cursor motion. The device plays a static-like tone from its piezoelectric speaker while you draw, an auditory echo of the powder-grating sound of the original.
+
+The deeper innovation is time. The Animator holds twelve frames of drawing in two kilobytes of SRAM, each frame a 40x30 bitmap, and plays them back as animation in sequences up to 96 steps long. You draw a frame, press SAVE, recall it as a base, modify it, save again — building a hand-made flip-book in memory. Eight buttons handle the workflow: On/Move, Draw, Erase, Save, Recall, Next, Animate, and Reverse (which XOR-inverts the image). Children built small film loops — a walking robot, a spider, a breakdancing skeleton were among Ohio Art's sample animations preserved at The Strong museum.
+
+Precision matters here: the Animator does not tween. Every frame is hand-drawn; the toy stores and sequences them but never generates in-betweens. The remarkable HCI fact is the pairing of an utterly familiar analog ritual with a genuinely new computational one — frame-based time editing — in a consumer toy that sold well enough to lift Ohio Art's profits fivefold in a year. The Animator 2000 (1987-88) replaced the knobs with a stylus-and-touchpad and became a cartridge game system, dropping the very ritual that made the original special.
+
+### Deep dive
+
+* **The knob becomes an encoder.** US Patent 4,764,763 'Electronic sketching device' (filed 13 December 1985, granted 16 August 1988; continuation US 4,887,968) describes the input: each knob drives a slotted cup passing between an IR source and two detectors. The two channels produce a quadrature phase difference, so the CPU reads both direction and distance of rotation with no mechanical contact — the physical feel of the Etch A Sketch preserved while the sensing becomes optical. One of the earliest consumer uses of rotary encoders as a drawing interface.
+* **Frames as a toy feature.** Two kilobytes of SRAM hold twelve 40x30 frames, and playback sequences step through them up to 96 times. SAVE accumulates the sequence; ANIMATE loops it; REVERSE flips the whole image with an XOR mask. The toy is effectively a frame-based animation editor with pen-up/pen-down drawing — the conceptual model of a cel animator's exposure sheet, compressed into eight buttons for children.
+* **Auditory feedback.** A piezoelectric speaker makes static-like sounds tied to cursor motion and noises during playback — an early example of sonified input in a consumer device, using the audio channel as continuous confirmation of drawing.
+* **Legacy and sources.** The Animator is documented by its patent, a complete 17-page scanned instruction manual on the Internet Archive, a The Strong museum object record (sample animations like 'Breakdancing Skeleton' appear in Google Arts & Culture), and a public-domain photograph of a surviving unit. Production ran until roughly 1989-90, when video game competition ended the line.
+
+### Team
+
+* **The Ohio Art Company.** Bryan, Ohio; manufacturer of the Etch A Sketch since 1960.
+* **James C. Wickstead.** Co-inventor, US Patent 4,764,763.
+* **Gerald P. Selden.** Co-inventor, US Patent 4,764,763.
+* **The Strong National Museum of Play.** Holds Animator objects including sample animation cards.
+
+### Media
+
+![Etch A Sketch Animator handheld drawing toy](../assets/wiki/etch-a-sketch-animator-1.jpg)
+*The Etch A Sketch Animator (1986) with its two blue knob-encoders and 40x30 LCD. Public domain, Wikimedia Commons.*
+
+![Etch A Sketch Animator instruction manual cover](../assets/wiki/etch-a-sketch-animator-2.jpg)
+*Etch A Sketch Animator instruction manual, cover page. Scanned manual on the Internet Archive.*
+
+![Etch A Sketch Animator instruction page showing knobs and buttons](../assets/wiki/etch-a-sketch-animator-3.jpg)
+*Instruction manual page showing the Animator's eight buttons and two drawing knobs. Scanned manual on the Internet Archive.*
+
+### Sources
+
+1. Wikipedia — Etch A Sketch (Animator section) — https://en.wikipedia.org/wiki/Etch_A_Sketch
+2. Google Patents — US 4,764,763 Electronic sketching device — https://patents.google.com/patent/US4764763/en
+3. ToyTales — The Etch A Sketch Animator from Ohio Art (1986) — https://toytales.ca/the-etch-a-sketch-animator-from-ohio-art-1986/
+4. FundingUniverse — The Ohio Art Company history — http://www.fundinguniverse.com/company-histories/the-ohio-art-company-history/
+5. Internet Archive — Etch A Sketch Animator Instructions (scanned manual) — https://archive.org/details/etch-a-sketch-anamator-instructions-page-05
+6. TechCrunch — Disappointing gifts: the Etch A Sketch Animator — https://techcrunch.com/2009/12/11/disappointing-gifts-the-etch-a-sketch-animator/
+
+---
+
+## Sony Typecorder / OA-S1100 (1980)
+
+**By:** Sony Corporation (Office Products Division)  
+**Tags:** `Word Processing` `Portable` `Magnetic Media` `Information Appliance`
+
+### Overview
+
+The Sony Typecorder, announced 17 December 1980 in New York and marketed from mid-1981 at around $1,400, was Sony's first move into office automation: a three-pound machine the size of a briefcase (about 8 x 11 x 1 inches) with a standard QWERTY keyboard, a single-line 40-character liquid crystal display, and — the defining oddity — no other output at all. Words typed on the keyboard were written as digital data onto a standard magnetic microcassette. Sony claimed a cassette could hold up to 120 standard pages of typing. Because the storage was an ordinary audio cassette, the machine doubled as a dictation and meeting recorder: in another mode the same tape that holds your document holds your voice.
+
+The Typecorder's interaction model is a chain of physical transfers. Once text was captured on the cassette, Sony's ecosystem moved it around by hand and by wire: print it on paper, process it on the companion Series 35 word processor (around $9,000, featuring newly developed 3.5-inch microfloppy drives that Sony also offered to other manufacturers on an OEM basis), retype it on conventional electric typewriters, punch it out as telex tape, or transmit it over telephone lines to a central office through an acoustic coupler. Chairman Akio Morita pitched the machine at 'businessmen, journalists, lawyers, professors — anyone who depends on efficient typing,' and at travelers working on airplanes and trains.
+
+The Typecorder quietly prefigured the portable text-capture appliance: the typewriter-recorder hybrid, cassette-as-storage, and the acoustic-coupler upload ritual would all feel familiar a decade later in portable computers and personal digital assistants. It was not a commercial success — dedicated word processors and cheap portable computers swallowed the niche — but as an interface concept it is remarkable for making the physical medium, not the screen, the heart of the system. A 1980 unit is preserved in the Computer History Museum, and the US model OA-S1100 survives in photographs.
+
+### Deep dive
+
+* **The cassette is the hard drive.** Sony stored text as digital signals on ordinary microcassettes, the same tape stock as its dictation machines — up to 120 standard pages per cassette. The marriage of a typewriter and a tape recorder in one chassis means the same medium holds documents and voice, and the machine is a meeting recorder when it is not a word processor. No hard disk, no floppy in the base unit; the removable magnetic tape is the memory.
+* **The ritual of transfer.** There is no printer in the Typecorder and no network jack. Text leaves the machine by a chain of physical rituals: hand the cassette to a companion processor, punch it to telex tape, or place a telephone handset into an acoustic coupler and dial — the same coupler ritual as the museum's Novation CAT. The device turns writing into an object that is carried, plugged, and dialed.
+* **Context and legacy.** Announced the same week in December 1980, the Typecorder and the Series 35 word processor marked Sony's entry into office automation, with 3.5-inch microfloppy drives that Sony touted as the highest-density floppy format of the era. The Typecorder anticipated by a decade the idea of the portable text appliance that syncs through a cradle or a phone line — the shape of the Psion, the Palm, and the BlackBerry.
+
+### Team
+
+* **Sony Corporation.** Designer and manufacturer; Office Products Division created to sell the line.
+* **Akio Morita.** Sony chairman; publicly pitched the Typecorder at journalists, lawyers, and traveling professionals.
+* **Computer History Museum.** Preserves a 1980 Typecorder unit.
+
+### Media
+
+![Sony Typecorder from 1980 at the Computer History Museum](../assets/wiki/sony-typecorder-1.jpg)
+*A 1980 Sony Typecorder preserved at the Computer History Museum. CC BY-SA 4.0, Wikimedia Commons.*
+
+![Sony Typecorder OA-S1100 portable computer and word processor](../assets/wiki/sony-typecorder-2.jpg)
+*Sony Typecorder OA-S1100, the US-market model, showing the QWERTY keyboard and 40-character display. CC BY-SA 2.0, Wikimedia Commons.*
+
+![Sony Typecorder from 1980 among CHM artifacts](../assets/wiki/sony-typecorder-3.jpg)
+*The 1980 Typecorder photographed among Computer History Museum artifacts. CC BY 2.0, Wikimedia Commons.*
+
+### Sources
+
+1. UPI Archives — 'Sony enters into office automation business with typecorder', 17 Dec 1980 — https://www.upi.com/Archives/1980/12/17/Sony-enters-into-office-automation-business-with-typecorder/2452183907057/
+2. Wikimedia Commons — Sony Typecorder, 1980, Computer History Museum (CC BY-SA 4.0) — https://commons.wikimedia.org/wiki/File:Sony_Typecorder,_1980,_Computer_History_Museum.jpg
+3. Wikimedia Commons — Sony Typecorder OA-S1100 (CC BY-SA 2.0) — https://commons.wikimedia.org/wiki/File:Sony_Typecorder_OA-S1100.jpg
