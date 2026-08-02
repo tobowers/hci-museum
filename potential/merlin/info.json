@@ -1,0 +1,62 @@
+{
+  "slug": "merlin",
+  "title": "Parker Brothers Merlin / The Electronic Wizard",
+  "year": "1978",
+  "subtitle": "The toy that played games with you — eleven glowing keys that were both your input and its only screen",
+  "why_scout_cares": "The best-selling toy in America in 1980 was a computer that talked in lights and tried to read your mind. Merlin's eleven LED keys double as display and input, it beats you at Tic-Tac-Toe, plays Blackjack against you, sequences music, and runs Mindbender, a Mastermind-style game in which the machine secretly picks a number and you interrogate it. A genuine machine-as-opponent interaction model from a $25 box with 48 bytes of RAM, five million sold, and a design patent to prove it. No existing exhibit covers an electronic game that plays games with you.",
+  "search_terms": ["Parker Brothers Merlin", "Merlin electronic game 1978", "Bob Doyle Merlin", "TMS1000 Merlin", "Mindbender game"],
+  "research": {
+    "title": "Parker Brothers Merlin / The Electronic Wizard",
+    "year": "1978",
+    "by": "Parker Brothers (designed by Bob Doyle, Holly Doyle, and Wendl Thomis)",
+    "tags": ["Games", "Embedded", "LED", "Handheld"],
+    "overview": "Merlin (full name: Merlin The Electronic Wizard) is a handheld electronic game released by Parker Brothers in 1978 and sold for roughly $25-35. Inside a red phone-shaped plastic case about nine and a half inches long sit a Texas Instruments TMS1000 four-bit microcontroller, 48 bytes of RAM, a small speaker, and the whole interface: a matrix of eleven keys, each of which is a button with a red LED inside it. The keys are simultaneously the game's only display and its only input — Merlin communicates by lighting them up in patterns, and you respond by pressing them. A row of four control buttons below selects games.\n\nThe interaction model is the museum's point. These eleven dual-use keys support six games: Tic-Tac-Toe against the computer, Music Machine (each key plays a note; sequences can be recorded and played back, making Merlin one of the earliest consumer digital sequencers), Echo (a Simon-style memory game), Blackjack 13 (against the house — the machine deals), Magic Square (a Lights Out-style pattern-reversal puzzle), and Mindbender, a Mastermind-like game in which the machine secretly picks a number or color and you deduce it by asking questions. Win, lose, or tie, Merlin answers in a vocabulary of twenty synthesized sounds. Children did not just play Merlin — they interrogated it. The 'mind-reading' Mindbender was the headline trick.\n\nMerlin was a commercial phenomenon. The Toy Manufacturers of America named it the best-selling toy SKU in the country in 1980, when it sold 2.2 million units; lifetime sales passed five million, making it Parker Brothers' most successful product until Frogger in 1982. It was designed by Bob Doyle, a former NASA employee with a Harvard PhD, together with his wife Holly and brother-in-law Wendl Thomis, and the distinctive case was drawn by Arthur Venditti. A 2004 re-release by Milton Bradley kept the toy alive, and a 1995 sequel, Merlin: The 10th Quest, added a dungeon maze and nine fantasy games.",
+    "deepDive": [
+      {
+        "heading": "The keys are the screen",
+        "text": "Merlin has no display separate from its input. Eleven LED-backlit buttons are the entire output surface — games are represented by which lights flash, in what order, and at what tempo. This is the same principle as the museum's Coleco Telstar Arcade (the body is the controller) but inverted for output: the buttons are the display. A modern 'grid of lights you touch' interaction in a 1978 toy."
+      },
+      {
+        "heading": "The machine as an opponent",
+        "text": "Three of Merlin's six games — Tic-Tac-Toe, Blackjack 13, and Mindbender — cast the machine as an adversary with hidden state. In Mindbender the box picks a secret number and answers yes/no questions about it with lights. For millions of children this was the first time they argued with a computer, not just operated one. Bob Doyle, the designer, came to toy design from NASA systems work and said the goal was to make a game that 'wants to play with you.'"
+      },
+      {
+        "heading": "The music machine",
+        "text": "In Music Machine mode each key plays a note and the unit records sequences for playback — a step sequencer hiding inside a toy, three years before Roland's MC-8 made sequencing famous in professional studios. It is a genuinely early consumer digital sequencer, sold in toy stores."
+      },
+      {
+        "heading": "Documentation and legacy",
+        "text": "Merlin is one of the best-documented handheld games of the era: design patent USD256139 covers the casing (Venditti, Kjellman, Doyle, assigned to CPG Products), the TMS1100 die is photographed and documented, and the Centre for Computing History and Computer History Museum both hold units. The Handheld Museum documents Bob Doyle's handmade prototypes, only some of which became production games."
+      }
+    ],
+    "team": [
+      { "name": "Bob Doyle", "note": "Lead designer; former NASA engineer with a Harvard PhD" },
+      { "name": "Holly Doyle and Wendl Thomis", "note": "Co-inventors, family design team" },
+      { "name": "Arthur Venditti", "note": "Case designer (named on design patent USD256139; also named the Nerf Ball)" },
+      { "name": "Samuel T. Kjellman", "note": "Hardware engineer named on the design patent" },
+      { "name": "Parker Brothers", "note": "Publisher; CPG Products (General Mills) held the patent assignment" }
+    ],
+    "media": [
+      { "src": "https://upload.wikimedia.org/wikipedia/commons/1/1d/Parker_Brothers_Merlin.jpg", "alt": "Parker Brothers Merlin handheld electronic game", "caption": "Parker Brothers Merlin, the 1978 handheld electronic game. CC BY-SA 2.5, K. Pomakis, Wikimedia Commons." },
+      { "src": "https://upload.wikimedia.org/wikipedia/commons/d/d0/Parker_brothers_merlin_hand_held_electronic_game.jpg", "alt": "Merlin showing the Magic Square pattern game", "caption": "A Merlin unit playing Magic Square, the Lights Out-style pattern game. CC0, Wikimedia Commons." },
+      { "src": "https://upload.wikimedia.org/wikipedia/commons/4/4d/Merlin%2C_1978_%2831126307784%29.jpg", "alt": "Merlin from 1978 in its red phone-shaped case", "caption": "Merlin in its iconic red case with the 11-key LED matrix. CC BY 2.0, Wikimedia Commons." }
+    ],
+    "sources": [
+      { "text": "Wikipedia — Merlin (console)", "url": "https://en.wikipedia.org/wiki/Merlin_(game)" },
+      { "text": "The Handheld Museum — Merlin prototype gallery", "url": "https://www.handheldmuseum.com/Parker/Merlin.htm" },
+      { "text": "Google Patents — USD256139 Electronic game casing", "url": "https://patents.google.com/patent/USD256139S/en" },
+      { "text": "Zito, Tom — 'Wired-Up Wizards', Washington Post, 19 Dec 1978", "url": "https://www.washingtonpost.com/" },
+      { "text": "Centre for Computing History — Merlin, the Electronic Wizard", "url": "https://www.computinghistory.org.uk/det/5259/Merlin,-the-Electronic-Wizard/" }
+    ],
+    "imageUrls": [
+      "https://upload.wikimedia.org/wikipedia/commons/1/1d/Parker_Brothers_Merlin.jpg",
+      "https://upload.wikimedia.org/wikipedia/commons/d/d0/Parker_brothers_merlin_hand_held_electronic_game.jpg",
+      "https://upload.wikimedia.org/wikipedia/commons/4/4d/Merlin%2C_1978_%2831126307784%29.jpg"
+    ]
+  },
+  "savedImages": [
+    "potential/merlin/images/merlin-1.jpg",
+    "potential/merlin/images/merlin-2.jpg",
+    "potential/merlin/images/merlin-3.jpg"
+  ]
+}

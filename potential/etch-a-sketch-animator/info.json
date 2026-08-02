@@ -1,0 +1,62 @@
+{
+  "slug": "etch-a-sketch-animator",
+  "title": "Etch A Sketch Animator",
+  "year": "1986",
+  "subtitle": "The classic knob-drawing ritual, digitized — a $90 toy with infrared rotary encoders and a frame-based animation engine",
+  "why_scout_cares": "Ohio Art took the two-knob ritual of the mechanical Etch A Sketch and rebuilt it with infrared rotary encoders that feed a 4-bit CPU: turn the knobs, hear static-like tones, and draw on a 40x30 dot-matrix LCD. Then the real trick — the device stores up to 12 hand-drawn frames and plays them back as animation in sequences up to 96 long. A frame-based animation authoring tool in a children's toy, documented by US Patent 4,764,763 and a full scanned instruction manual. Nothing in the museum digitizes a beloved physical drawing ritual into optical sensing while also teaching the concept of animation frames.",
+  "search_terms": ["Etch A Sketch Animator", "Ohio Art Animator 1986", "US 4764763", "electronic sketching device", "LCD animation toy"],
+  "research": {
+    "title": "Etch A Sketch Animator",
+    "year": "1986",
+    "by": "The Ohio Art Company (inventors James C. Wickstead and Gerald P. Selden)",
+    "tags": ["Creative Tool", "LCD", "Input", "Animation", "Consumer"],
+    "overview": "The Etch A Sketch Animator, released by The Ohio Art Company in 1986 at an initial price of US $89.99, is the most famous mechanical drawing toy rebuilt as a computer. The classic Etch A Sketch — two knobs that move a stylus through aluminum powder behind a gray screen — was digitized into a handheld box with a 40x30 dot-matrix reflective LCD, two blue knobs, and eight function buttons. Turning the knobs still feels like turning the knobs; but beneath each one sits a slotted cup interrupting an infrared emitter and a pair of photodetectors, generating a quadrature code that a 4-bit Sanyo LC6523A microcontroller decodes into X or Y cursor motion. The device plays a static-like tone from its piezoelectric speaker while you draw, an auditory echo of the powder-grating sound of the original.\n\nThe deeper innovation is time. The Animator holds twelve frames of drawing in two kilobytes of SRAM, each frame a 40x30 bitmap, and plays them back as animation in sequences up to 96 steps long. You draw a frame, press SAVE, recall it as a base, modify it, save again — building a hand-made flip-book in memory. Eight buttons handle the workflow: On/Move, Draw, Erase, Save, Recall, Next, Animate, and Reverse (which XOR-inverts the image). A sequence can reverse, and the loop plays over and over. Children built small film loops — a walking robot, a spider, a breakdancing skeleton were among Ohio Art's sample animations preserved at The Strong museum.\n\nIt is important to be precise about what the Animator does not do: it does not tween. Every frame is hand-drawn; the toy stores and sequences them, it never generates in-betweens. The remarkable HCI fact is the pairing of an utterly familiar analog ritual with a genuinely new computational one — frame-based time editing — in a consumer toy that sold well enough to lift Ohio Art's profits fivefold in a year. The Animator's successor, the Animator 2000 (1987-88), replaced the knobs with a stylus-and-touchpad and became a cartridge game system, dropping the very ritual that made the original special.",
+    "deepDive": [
+      {
+        "heading": "The knob becomes an encoder",
+        "text": "US Patent 4,764,763 'Electronic sketching device' (filed 13 December 1985, granted 16 August 1988; continuation US 4,887,968) describes the input: each knob drives a slotted opaque cup that passes between an IR source and two detectors. The two channels produce a quadrature phase difference, so the CPU reads both direction and distance of rotation with no mechanical contact — the physical feel of the Etch A Sketch is preserved while the sensing becomes optical. This is one of the earliest consumer uses of rotary encoders as a drawing interface."
+      },
+      {
+        "heading": "Frames as a toy feature",
+        "text": "Two kilobytes of SRAM hold twelve 40x30 frames, and playback sequences can step through them up to 96 times. SAVE accumulates the sequence; ANIMATE loops it; REVERSE flips the whole image with an XOR mask. The toy is effectively a frame-based animation editor with pen-up/pen-down drawing — the same conceptual model as a cel animator's exposure sheet, compressed into eight buttons and marketed to children for $89.99."
+      },
+      {
+        "heading": "Auditory feedback",
+        "text": "A piezoelectric speaker makes static-like sounds tied to cursor motion and noises during playback. The audio channel is used as continuous confirmation of drawing, an early example of sonified input in a consumer device."
+      },
+      {
+        "heading": "Legacy and sources",
+        "text": "The Animator is documented by its patent, a complete 17-page scanned instruction manual on the Internet Archive, a The Strong museum object record (samples like 'Breakdancing Skeleton' are in Google Arts & Culture), and a public-domain photograph of a surviving unit. Production continued until roughly 1989-90, when video game competition ended the line."
+      }
+    ],
+    "team": [
+      { "name": "The Ohio Art Company", "note": "Bryan, Ohio; manufacturer of the Etch A Sketch since 1960" },
+      { "name": "James C. Wickstead", "note": "Co-inventor, US Patent 4,764,763" },
+      { "name": "Gerald P. Selden", "note": "Co-inventor, US Patent 4,764,763" },
+      { "name": "The Strong National Museum of Play", "note": "Holds Animator objects including sample animation cards" }
+    ],
+    "media": [
+      { "src": "https://upload.wikimedia.org/wikipedia/commons/a/a2/Etch-A-Sketch_Animator.jpg", "alt": "Etch A Sketch Animator handheld drawing toy with two blue knobs", "caption": "The Etch A Sketch Animator (1986) with its two blue knob-encoders and 40x30 LCD. Public domain, Wikimedia Commons." },
+      { "src": "https://archive.org/download/etch-a-sketch-anamator-instructions-page-05/Etch%20A%20Sketch%20Anamator%20Instructions%20_Page_01.jpg", "alt": "Etch A Sketch Animator instruction manual cover", "caption": "Etch A Sketch Animator instruction manual, cover page. Scanned manual on the Internet Archive." },
+      { "src": "https://archive.org/download/etch-a-sketch-anamator-instructions-page-05/Etch%20A%20Sketch%20Anamator%20Instructions%20_Page_03.jpg", "alt": "Etch A Sketch Animator instruction manual page showing the knobs and buttons", "caption": "Instruction manual page showing the Animator's eight buttons and two drawing knobs. Scanned manual on the Internet Archive." }
+    ],
+    "sources": [
+      { "text": "Wikipedia — Etch A Sketch (Animator section)", "url": "https://en.wikipedia.org/wiki/Etch_A_Sketch" },
+      { "text": "Google Patents — US 4,764,763 Electronic sketching device", "url": "https://patents.google.com/patent/US4764763/en" },
+      { "text": "ToyTales — The Etch A Sketch Animator from Ohio Art (1986)", "url": "https://toytales.ca/the-etch-a-sketch-animator-from-ohio-art-1986/" },
+      { "text": "FundingUniverse — The Ohio Art Company history", "url": "http://www.fundinguniverse.com/company-histories/the-ohio-art-company-history/" },
+      { "text": "Internet Archive — Etch A Sketch Animator Instructions (scanned manual)", "url": "https://archive.org/details/etch-a-sketch-anamator-instructions-page-05" },
+      { "text": "TechCrunch — Disappointing gifts: the Etch A Sketch Animator", "url": "https://techcrunch.com/2009/12/11/disappointing-gifts-the-etch-a-sketch-animator/" }
+    ],
+    "imageUrls": [
+      "https://upload.wikimedia.org/wikipedia/commons/a/a2/Etch-A-Sketch_Animator.jpg",
+      "https://archive.org/download/etch-a-sketch-anamator-instructions-page-05/Etch%20A%20Sketch%20Anamator%20Instructions%20_Page_01.jpg",
+      "https://archive.org/download/etch-a-sketch-anamator-instructions-page-05/Etch%20A%20Sketch%20Anamator%20Instructions%20_Page_03.jpg"
+    ]
+  },
+  "savedImages": [
+    "potential/etch-a-sketch-animator/images/animator-1.jpg",
+    "potential/etch-a-sketch-animator/images/animator-manual-p01.jpg",
+    "potential/etch-a-sketch-animator/images/animator-manual-p03.jpg"
+  ]
+}
