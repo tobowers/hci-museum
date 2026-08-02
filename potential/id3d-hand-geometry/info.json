@@ -1,0 +1,62 @@
+{
+  "slug": "id3d-hand-geometry",
+  "title": "Recognition Systems ID-3D Hand Geometry Verifier",
+  "year": "1986",
+  "subtitle": "A machine that reads your whole hand as a password — retro-reflective road-sign optics, a memory chip tricked into being a camera, and a ritual printed on the platen",
+  "why_scout_cares": "The ID-3D turned the human hand into a living password. The user types a PIN, then performs a printed choreography on a retro-reflective platen — slide the hand forward until it bumps the web pegs, press flat, close fingers against the pins, hold until the lamp goes out — and the machine builds a three-dimensional silhouette of the hand using a Micron IS-32 'Optic RAM': a dynamic RAM chip in a clear-window package, where photons charge the memory capacitors and the bit pattern becomes the image. Two orthogonal views (plan + side via a 45-degree mirror) defeat the cardboard-tracing attack that fooled 2D readers. First commercial hand-geometry systems appeared in 1986; the line became the HandKey and later admitted people to Disney World turnstiles and the 1996 Atlanta Olympics. The museum has tokens, cards, and codes — but no artifact whose whole point is that your body, measured in three dimensions, is the key. Nothing else in the collection turns the user into the credential.",
+  "search_terms": ["Recognition Systems ID-3D", "hand geometry identity verifier 1986", "David Sidlauskas hand geometry", "US 4736203", "HandKey hand geometry", "Optic RAM Micron IS-32"],
+  "research": {
+    "title": "Recognition Systems ID-3D Hand Geometry Verifier",
+    "year": "1986",
+    "by": "Recognition Systems, Inc. (San Jose, CA) — invented by David P. Sidlauskas",
+    "tags": ["Biometrics", "Identity", "Access Control", "Embodied"],
+    "overview": "The ID-3D Hand Geometry Identity Verifier, shipped by Recognition Systems Inc. of San Jose beginning in 1986, is a machine that reads a human hand the way a barcode scanner reads a label — except the label is your body. To use it, you enter a claimed identity on a twelve-button keypad, then place your hand on a platen whose instructions are printed right on the device: READ FINGERS. SLIDE HAND FORWARD UNTIL IT BUMPS AGAINST WEB PEGS. PRESS HAND FLAT AGAINST SURFACE. CLOSE FINGERS AGAINST PINS. HOLD UNTIL LAMP GOES OUT. The platen is faced with retro-reflective sheeting — the same microscopic-glass-bead material used on road signs and night-reflective clothing — so a light source aimed coaxially at the platen is bounced straight back to the camera, making the platen glow 1,600 times brighter than white paper. Anything on it, including your hand, appears as a black silhouette.\n\nThe clever part is dimensional. A 45-degree mirror mounted beside the platen gives the single digitizing camera a second, perpendicular view: a side profile of the hand as well as its plan view. From the two views the machine extracts roughly ninety measurements — finger lengths and widths, hand thickness, area, perimeter, and ratios among them — and compresses them into a small template (the Naval Postgraduate School evaluation reports feature vectors of 48 physical characteristics, on the order of a 9-byte or 18-byte template). The claimed identity is then compared against stored templates, and a lamp or door lock reports the verdict. The 1987 NPS thesis studying the device measured an equal-error rate around 0.5-0.6%.\n\nUnder the hood sits one of the era's most delightfully improvised components: the camera's image sensor is a Micron IS-32 'Optic RAM' — a dynamic RAM chip with a clear window, used as an imaging array. Photons hitting the exposed storage capacitors charge them like film; when refresh is suspended for an 'exposure,' the memory bit pattern literally becomes the picture. The ID-3D's design also anticipated its own spoofing: the patent argues that two-dimensional cardboard tracings defeat earlier 2D hand readers, so the side view demands that any fake hand be correct in all three dimensions. The ID-3D line evolved into the HandKey, which found its way into nuclear plants, Disney World season-pass turnstiles, and the athletes' village of the 1996 Atlanta Olympics.",
+    "deepDive": [
+      {
+        "heading": "The body is the password",
+        "text": "The ID-3D is built on an explicit inversion: access control systems of the era depended on keys, cards, and PINs — transferable objects anyone can lose, steal, or pass along. The patent frames the alternative: biometric characteristics unique to a person, compared directly against stored data. In the ID-3D interaction, the keypad claims an identity and the hand proves it. There is nothing to carry, nothing to remember, nothing to share — only a body part placed exactly where the printed instructions say."
+      },
+      {
+        "heading": "Road-sign optics",
+        "text": "The platen is covered in retro-reflective sheeting, the same glass-microsphere material used for road signs and safety vests. Because each sphere reflects light straight back toward its source, coaxial illumination and viewing makes the platen appear 1,600 times brighter than a pure white surface. A hand on the platen blocks the return light and scatters it, so it reads as a black shape against a blazing background — a high-contrast shadow image ideal for precise dimensional measurement. The machine sees people the way a road sign sees headlights."
+      },
+      {
+        "heading": "A memory chip as camera",
+        "text": "The imaging array is a Micron IS-32 'Optic Ram,' a dynamic random-access memory chip packaged with a transparent window. Each DRAM cell stores a capacitor charge; in normal operation refresh circuits restore the charge constantly. In the ID-3D, refresh is suspended for an exposure interval, and photons from the focused image generate electrons that charge the cells — brighter image regions charge their cells more. When refresh resumes, cells holding enough charge flip logical state, and the chip's bit pattern is a readout of the picture. The same improvisation, using DRAM as a light sensor, appears elsewhere in the museum's era (the Cromemco Cyclops made a camera out of DRAM); the ID-3D used it for identity."
+      },
+      {
+        "heading": "The cardboard-tracing problem",
+        "text": "The patent is explicit about the arms race in spoofing: simple two-dimensional hand readers could be defeated by a cardboard tracing of an authorized user's hand, easily obtained surreptitiously or with the user's cooperation. The ID-3D's answer is the side view — a second silhouette perpendicular to the plan view, delivered by a 45-degree mirror inside the platen. A fake now has to be correct in three dimensions. This security argument, written in 1985, is also a lovely statement of interface philosophy: trust nothing that can be flat."
+      },
+      {
+        "heading": "The choreographed ritual",
+        "text": "The machine does not ask the user to learn anything abstract. Its operating instructions are printed on the platen surface itself: slide forward until the hand bumps the web pegs, press flat, close fingers against the pins, hold until the lamp goes out. The body is aligned by physical contact with the device — pegs, pins, and a flat surface — so the geometry of the user's body is presented consistently to the camera every time. Identity verification as a small, repeatable physical ceremony."
+      },
+      {
+        "heading": "Legacy",
+        "text": "The ID-3D evolved into the HandKey line and made hand geometry one of the first biometrics to reach mass use: season-pass holders at Disney World entered through hand readers, and the 1996 Atlanta Olympic Village used them to admit accredited personnel. Later generations shifted to infrared illumination and palm geometry, but the core insight — that a hand, measured in three dimensions, is a pass — survived intact for decades."
+      }
+    ],
+    "team": [
+      { "name": "David P. Sidlauskas", "note": "Inventor of the ID-3D; sole named inventor on US Patent 4,736,203 (filed 17 July 1985, granted 5 April 1988); founded and led Recognition Systems Inc." },
+      { "name": "Recognition Systems, Inc.", "note": "San Jose, California company that built and shipped the ID-3D and its HandKey successors; later became part of Ingersoll Rand's Schlage division." }
+    ],
+    "media": [
+      { "src": "https://commons.wikimedia.org/wiki/File:Hand_Geometry_Reading_Device.jpg", "alt": "Hand geometry reader with finger pegs, platen, and keypad", "caption": "A hand geometry reader of the ID-3D/HandKey family, showing the platen, finger positioning pegs, keypad, and result lamp. CC BY-SA 3.0, Wikimedia Commons." },
+      { "src": "https://patents.google.com/patent/US4736203A/en", "alt": "US Patent 4,736,203 drawing page", "caption": "Drawing page from US Patent 4,736,203 '3D hand profile identification apparatus' (David P. Sidlauskas, Recognition Systems, 1988). Public domain." },
+      { "src": "https://patents.google.com/patent/US4736203A/en", "alt": "US Patent 4,736,203 drawing page with plan and side views", "caption": "Further drawings from US Patent 4,736,203 showing the measuring platen, the 45-degree mirror producing the side view, and the calibration reference target. Public domain." }
+    ],
+    "sources": [
+      { "text": "US Patent 4,736,203 '3D hand profile identification apparatus' (Sidlauskas, filed 1985, granted 1988)", "url": "https://patents.google.com/patent/US4736203A/en" },
+      { "text": "Bright, 'Examining the reliability of a hand geometry identity verification device for use in access control,' Naval Postgraduate School master's thesis (1987)", "url": "https://archive.org/details/examiningreliabi00brig" },
+      { "text": "Wikipedia — Hand geometry", "url": "https://en.wikipedia.org/wiki/Hand_geometry" },
+      { "text": "Biometric Update — 'Explainer: hand geometry recognition' (2012)", "url": "https://www.biometricupdate.com/201206/explainer-hand-geometry-recognition" }
+    ],
+    "imageUrls": [
+      "https://upload.wikimedia.org/wikipedia/commons/c/ce/Hand_Geometry_Reading_Device.jpg",
+      "https://patentimages.storage.googleapis.com/3b/01/6e/4661b4e01bf4e3/US4736203-drawings-page-3.png",
+      "https://patentimages.storage.googleapis.com/4d/ce/e6/4acb933c7d23d1/US4736203-drawings-page-4.png"
+    ]
+  },
+  "savedImages": []
+}
