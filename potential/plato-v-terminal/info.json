@@ -1,0 +1,65 @@
+{
+  "slug": "plato-v-terminal",
+  "title": "PLATO V Terminal",
+  "year": "1981",
+  "subtitle": "The orange-glowing touchscreen terminal that split a mainframe",
+  "why_scout_cares": "The PLATO V terminal (1981) is the hardware face of the first networked online community: a 512x512 orange gas-plasma display you could reach out and touch, an infrared touch panel, and an Intel 8080 inside that downloaded and ran courseware from a CDC mainframe — the first terminal to split processing between host and local micro. It turns the mouse-and-window story upside down: a touchscreen plasma panel on a time-sharing network, twenty years before the web.",
+  "search_terms": ["PLATO V terminal", "plasma display touchscreen", "CERL PLATO terminal", "Control Data PLATO terminal 1981"],
+  "research": {
+    "title": "PLATO V Terminal",
+    "year": "1981",
+    "by": "Control Data Corporation / CERL, University of Illinois (terminal designed by J. E. Stifle)",
+    "tags": ["Terminal", "Touchscreen", "Plasma", "Network", "Education"],
+    "overview": "The PLATO V terminal was the last major terminal of the PLATO computer-assisted-instruction system, deployed by Control Data Corporation starting around 1980-81 and built at the Computer-based Education Research Laboratory (CERL) of the University of Illinois. Its design began at CERL in 1976 (CERL report X-46), and by 1981 the terminal served the RankTrek application shown in its most famous photograph. Inside, the terminal carried an Intel 8080 microprocessor with enough memory to download and execute small courseware modules locally — a genuine split between host mainframe and local micro, and the first terminal to combine the two. The terminal's display was Donald Bitzer's orange gas-plasma panel: a flat, monochrome 512x512 bitmap with hardwired character and vector plotting. Over that glow sat an infrared touch panel — a 16x16 grid of light beams around the screen that detected a finger anywhere on the display, turning the terminal itself into a touchscreen.\n\nThe interaction model is the strange, embodied part. Students did not push a mouse around a desk; they reached up and pressed the luminous orange panel, and the distant CDC Cyber mainframe answered through the same panel — or through a small program that had just been downloaded into the terminal's own 8080 to animate, play sound, or draw. PLATO's touchscreen, plasma display, chat rooms (Talkomatic), message boards (PLATO Notes), and multiplayer games (Avatar, Empire) made it the first mass online community, and the PLATO V terminal was the physical door into that world.",
+    "deepDive": [
+      {
+        "heading": "Origins",
+        "text": "PLATO (Programmed Logic for Automatic Teaching Operations) began at the University of Illinois in 1960 on the ILLIAC I. Donald Bitzer invented the plasma display around 1964 to give PLATO a cheap, reliable graphics screen, and the PLATO IV terminal (1972) added the infrared touch panel and microfiche image projection. PLATO IV is outside this museum's window; the PLATO V terminal, designed at CERL from 1976 and deployed from 1980-81, is the in-window refinement — and the version that added the local Intel 8080 microprocessor."
+      },
+      {
+        "heading": "The interaction model",
+        "text": "The PLATO V was a networked appliance you operated with your hands on the screen itself. The infrared touch panel was a 16x16 grid of emitter/sensor pairs around the display bezel; breaking a beam reported the touch square, with an audible beep. In courseware, students answered by touching multiple-choice boxes, moving objects by touch, or drawing with a finger — a direct-manipulation interface a decade before general-purpose touch screens. The terminal also received a keyboard from Regency Systems, a Champaign company founded by CERL alumni."
+      },
+      {
+        "heading": "The host/micro split",
+        "text": "The PLATO V's Intel 8080 could download small executable modules from the mainframe and run them locally, offloading animation and computation from the time-sharing host. The Wikipedia-cited RankTrek application was 'one of the first to combine simultaneous local microprocessor-based computing with remote mainframe computing.' This split — fat client and thin client at once — is the same architecture question that defines the web today."
+      },
+      {
+        "heading": "The network behind it",
+        "text": "PLATO was the first mass online community: Talkomatic (1973) was real-time text chat, PLATO Notes (1973) was the ancestor of newsgroups and Lotus Notes, and games like Empire (1974) and Avatar (1979) pioneered networked multiplayer. Thousands of terminals on a dozen networked mainframes served schools, prisons, and universities. The terminal was the door into that world — a touchscreen window onto chat, mail, and multiplayer gaming in 1981."
+      },
+      {
+        "heading": "Commerce and legacy",
+        "text": "CDC's William Norris licensed PLATO in 1976 and invested an estimated $600 million, betting that computer-based education would be a major market. It was a commercial failure — CDC charged $50/hour for access and courseware cost roughly $300,000 per delivery hour to develop — yet the last production PLATO system ran until 2006. The terminal line is preserved at the Computer History Museum and the Living Computers Museum, and the Cyber1 project still hosts PLATO courseware."
+      }
+    ],
+    "team": [
+      { "name": "J. E. Stifle", "note": "CERL engineer who designed the PLATO V terminal (CERL reports X-46 and ED200244)" },
+      { "name": "Donald Bitzer", "note": "Founder of CERL and inventor of the plasma display and PLATO touchscreen" },
+      { "name": "Control Data Corporation", "note": "Licensed PLATO in 1976 and commercialized it under William Norris" },
+      { "name": "Regency Systems, Inc.", "note": "CERL-alumni company that manufactured the PLATO V keyboard" }
+    ],
+    "media": [
+      { "src": "https://upload.wikimedia.org/wikipedia/commons/e/ed/Platovterm1981.jpg", "alt": "PLATO V terminal in 1981 running the RankTrek application", "caption": "A PLATO V terminal in 1981 running the RankTrek application, showing the orange plasma glow and the infrared touch frame around the display. CC BY 3.0, Wikimedia Commons." },
+      { "src": "https://upload.wikimedia.org/wikipedia/commons/0/02/Living_Computer_Museum_Seattle_Visit_2018_%2843693562294%29.jpg", "alt": "Working PLATO V terminal at the Living Computers Museum", "caption": "A working PLATO V terminal at the Living Computers Museum in 2018. CC BY 2.0, Wikimedia Commons." },
+      { "src": "https://upload.wikimedia.org/wikipedia/commons/4/44/PLATO4kb.jpg", "alt": "PLATO IV standard keyboard", "caption": "The PLATO IV standard keyboard (c. 1976) used with the terminal family; the PLATO V keyboard was manufactured by Regency Systems. Public domain, Wikimedia Commons." }
+    ],
+    "sources": [
+      { "text": "Wikipedia — PLATO (computer system)", "url": "https://en.wikipedia.org/wiki/PLATO_(computer_system)" },
+      { "text": "ERIC ED200244 — The PLATO V Terminal (J. E. Stifle, CERL, April 1978)", "url": "https://eric.ed.gov/?id=ED200244" },
+      { "text": "CERL X-46 — A Preliminary Report on the PLATO V Terminal (April 1976)", "url": "https://archive.org/details/ERIC_ED125554" },
+      { "text": "Woolley — PLATO: The Emergence of Online Community (Computer History Museum)", "url": "https://www.thinkofit.com/plato/dwplato.htm" },
+      { "text": "Computer History Museum — PLATO V keyboard (object 102654833)", "url": "https://www.computerhistory.org/collections/catalog/102654833" }
+    ],
+    "imageUrls": [
+      "https://upload.wikimedia.org/wikipedia/commons/e/ed/Platovterm1981.jpg",
+      "https://upload.wikimedia.org/wikipedia/commons/0/02/Living_Computer_Museum_Seattle_Visit_2018_%2843693562294%29.jpg",
+      "https://upload.wikimedia.org/wikipedia/commons/4/44/PLATO4kb.jpg"
+    ]
+  },
+  "savedImages": [
+    "potential/plato-v-terminal/images/plato-v-terminal-1981.jpg",
+    "potential/plato-v-terminal/images/plato-v-terminal-lcm.jpg",
+    "potential/plato-v-terminal/images/plato-v-keyboard.jpg"
+  ]
+}
