@@ -1,0 +1,86 @@
+{
+  "slug": "mavica",
+  "title": "Sony Mavica (1981 prototype)",
+  "year": "1981",
+  "subtitle": "The world's first electronic still camera — film replaced by a floppy disk and a TV playback ritual",
+  "why_scout_cares": "The 1981 Mavica prototype is the moment photography left film, and its interaction model is gloriously strange: a conventional SLR-style body whose shutter writes one analog NTSC video field as FM-modulated magnetic tracks onto a 2-inch Mavipak floppy disk — 50 images per disk, each a television signal, not a file. To see your photos you remove the disk and carry it to a separate playback viewer unit plugged into a television; capture and review are two physically separate devices. It is analog, not digital — the museum's Dycam Fotoman records real digital files, but the Mavica records a TV picture to a disk. Nothing else in the collection captures images onto removable magnetic media as an analog broadcast signal, and the camera-to-viewer handoff ritual is uniquely embodied.",
+  "search_terms": ["Sony Mavica 1981 prototype", "first electronic still camera", "Mavipak 2 inch video floppy", "Akio Morita Mavica unveiling 1981", "Mavica analog video floppy camera"],
+  "research": {
+    "title": "Sony Mavica (1981 prototype)",
+    "year": "1981",
+    "by": "Sony Corporation — unveiled by Akio Morita, August 25, 1981",
+    "tags": ["Camera", "Input", "Magnetic Media", "Prototype", "Analog"],
+    "overview": "On August 25, 1981, Sony unveiled a prototype of the Mavica — short for Magnetic Video Camera — as the world's first electronic still video camera. Despite the modern associations of 'video camera,' the 1981 Mavica was not digital. Its CCD sensor produced an analog video signal in NTSC format at 570x490 resolution, and pressing the shutter wrote a single frame as FM-modulated magnetic tracks onto a 2-inch Mavipak floppy disk, 50 images per disk.\n\nThe interaction model is the strange, embodied part. The camera body was a conventional single-lens-reflex with three interchangeable bayonet lenses (a 25mm f/2, a 50mm f/1.4, and a 16-65mm f/1.4 zoom). Instead of film, the floppy disk was the medium. To see your pictures, you removed the disk and inserted it into a special playback viewer unit plugged into a television. Capture and review lived on two different devices, connected only by a physical disk you carried between them. The image was not a file but a TV picture.\n\nSony also demonstrated a thermal transfer printer called the Mavigraph, which printed the captured images on A5 paper in a five-minute process. Japanese news professionals reportedly 'plagued the firm with requests for the camera.' The Mavipak disk format was later adopted industry-wide as the Video Floppy (VF) standard, and the Mavica name continued through analog ProMavica models in the late 1980s before being reused for digital cameras in the 1990s.",
+    "deepDive": [
+      {
+        "heading": "Film becomes a floppy disk",
+        "text": "The Mavica replaced film with a 2-inch Mavipak magnetic disk holding 50 still frames. The shutter wrote one analog NTSC video field per frame as FM-modulated tracks — the same physical principle as a VCR, but for a single photograph. The disk was the film: removable, rewritable, and later standardized industry-wide as the Video Floppy (VF) format."
+      },
+      {
+        "heading": "Two devices, one handoff",
+        "text": "There was no onboard screen on the 1981 prototype. To review a picture you took the disk out of the camera and inserted it into a separate playback viewer unit connected to a television. The interaction is a physical handoff — the disk is the only thing that travels between capture and display. This two-device loop is the museum's clearest example of the camera as a medium-changing instrument rather than a self-contained computer."
+      },
+      {
+        "heading": "Analog, not digital",
+        "text": "The Mavica's image was an analog video signal — a TV picture written to a magnetic disk — not a digital file. This distinguishes it cleanly from the museum's Dycam Model 1 (1990), which stored real digital image data. The Mavica sits at the hinge between film and digital: photography as a broadcast signal you can hold in your hand."
+      },
+      {
+        "heading": "The impact",
+        "text": "The prototype stunned the photographic world and created the still-video category. Sony demonstrated the Mavigraph thermal printer alongside it, and news professionals clamored for units that would make pictures immediately compatible with computing and telecommunications. The Mavica name survived through analog ProMavica models (MVC-2000 through MVC-7000, 1989-1992) before being reused for the digital floppy-disk and CD cameras of the late 1990s and 2000s."
+      },
+      {
+        "heading": "Legacy",
+        "text": "The 1981 prototype was never sold in that form — it exists in the museum's record as the ur-camera of electronic photography, preserved only through the surviving prototype and its documentation. Its floppy-disk medium became the Video Floppy standard used by Canon's RC-701 and other still-video cameras of the 1980s, making it the ancestor of an entire brief industry."
+      }
+    ],
+    "team": [
+      {
+        "name": "Sony Corporation",
+        "note": "Developed and unveiled the Mavica prototype on August 25, 1981; established the Mavipak/Video Floppy medium."
+      },
+      {
+        "name": "Akio Morita",
+        "note": "Sony chairman who presented the Mavica at the 1981 unveiling."
+      }
+    ],
+    "media": [
+      {
+        "src": "https://commons.wikimedia.org/wiki/File:Sony_Mavica_1981_prototype_CP%2B_2011.jpg",
+        "alt": "Sony Mavica 1981 prototype with interchangeable lens",
+        "caption": "The surviving 1981 Sony Mavica prototype, SLR-style body with the Mavipak disk mechanism. CC BY-SA 3.0, Wikimedia Commons."
+      },
+      {
+        "src": "https://commons.wikimedia.org/wiki/File:Sony_Mavica_1981_prototype_CP%2B_2011_(filter_crop_soerfm).jpg",
+        "alt": "Sony Mavica 1981 prototype detail",
+        "caption": "Detail of the 1981 Mavica prototype, showing the lens and body of the first electronic still camera. CC BY-SA 3.0, Wikimedia Commons."
+      }
+    ],
+    "sources": [
+      {
+        "text": "Wikipedia — Sony Mavica",
+        "url": "https://en.wikipedia.org/wiki/Sony_Mavica"
+      },
+      {
+        "text": "Wikipedia — Still video camera",
+        "url": "https://en.wikipedia.org/wiki/Still_video_camera"
+      },
+      {
+        "text": "Camera-wiki — Sony Mavica (1981)",
+        "url": "https://camera-wiki.org/wiki/Sony_Mavica_(1981)"
+      },
+      {
+        "text": "Popham, 'Sony's video snap-shooter,' Design (November 1981)",
+        "url": "https://designmagazine.org"
+      },
+      {
+        "text": "ABC News footage of the August 1981 Morita unveiling (YouTube)",
+        "url": "https://www.youtube.com/watch?v=3t7svq2kXGI"
+      }
+    ],
+    "imageUrls": [
+      "https://upload.wikimedia.org/wikipedia/commons/a/a1/Sony_Mavica_1981_prototype_CP%2B_2011.jpg",
+      "https://upload.wikimedia.org/wikipedia/commons/2/2d/Sony_Mavica_1981_prototype_CP%2B_2011_%28filter_crop_soerfm%29.jpg"
+    ]
+  },
+  "savedImages": ["images/mavica-1.jpg"]
+}

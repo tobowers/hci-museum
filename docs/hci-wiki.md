@@ -156,6 +156,10 @@ Each entry includes an overview, a deep dive, a small media gallery, and full so
 147. [Parker Brothers Merlin / The Electronic Wizard (1978)](#parker-brothers-merlin--the-electronic-wizard-1978)
 148. [Etch A Sketch Animator (1986)](#etch-a-sketch-animator-1986)
 149. [Sony Typecorder / OA-S1100 (1980)](#sony-typecorder--oa-s1100-1980)
+150. [Recognition Systems ID-3D Hand Geometry Verifier (1986)](#recognition-systems-id-3d-hand-geometry-verifier-1986)
+151. [Mattel Auto Race (1976)](#mattel-auto-race-1976)
+152. [Milton Bradley Microvision (1979)](#milton-bradley-microvision-1979)
+153. [Sony Mavica (1981 prototype)](#sony-mavica-1981-prototype)
 
 ---
 
@@ -7424,3 +7428,180 @@ The Typecorder quietly prefigured the portable text-capture appliance: the typew
 1. UPI Archives — 'Sony enters into office automation business with typecorder', 17 Dec 1980 — https://www.upi.com/Archives/1980/12/17/Sony-enters-into-office-automation-business-with-typecorder/2452183907057/
 2. Wikimedia Commons — Sony Typecorder, 1980, Computer History Museum (CC BY-SA 4.0) — https://commons.wikimedia.org/wiki/File:Sony_Typecorder,_1980,_Computer_History_Museum.jpg
 3. Wikimedia Commons — Sony Typecorder OA-S1100 (CC BY-SA 2.0) — https://commons.wikimedia.org/wiki/File:Sony_Typecorder_OA-S1100.jpg
+
+## Recognition Systems ID-3D Hand Geometry Verifier (1986)
+
+**By:** Recognition Systems, Inc. (San Jose, CA) — invented by David P. Sidlauskas  
+**Tags:** `Biometrics` `Identity` `Access Control` `Embodied`
+
+### Overview
+
+The ID-3D Hand Geometry Identity Verifier, shipped by Recognition Systems Inc. of San Jose beginning in 1986, is a machine that reads a human hand the way a barcode scanner reads a label — except the label is your body. To use it, you enter a claimed identity on a twelve-button keypad, then place your hand on a platen whose instructions are printed right on the device: slide the hand forward until it bumps against the web pegs, press flat against the surface, close fingers against the pins, hold until the lamp goes out. The platen is faced with retro-reflective sheeting — the same microscopic-glass-bead material used on road signs — so a light source aimed coaxially at the platen bounces straight back to the camera, making the platen glow 1,600 times brighter than white paper. Anything on it, including your hand, appears as a black silhouette.
+
+The clever part is dimensional. A 45-degree mirror mounted beside the platen gives the single digitizing camera a second, perpendicular view: a side profile of the hand as well as its plan view. From the two views the machine extracts roughly ninety measurements — finger lengths and widths, hand thickness, area, perimeter, and ratios among them — and compresses them into a small template compared against stored identities. A lamp or door lock reports the verdict. A 1987 Naval Postgraduate School thesis studying the device measured an equal-error rate around 0.5-0.6%.
+
+Under the hood sits one of the era's most delightfully improvised components: the camera's image sensor is a Micron IS-32 'Optic RAM' — a dynamic RAM chip with a clear window, used as an imaging array. Photons hitting the exposed storage capacitors charge them like film; when refresh is suspended for an 'exposure,' the memory bit pattern literally becomes the picture. The ID-3D line evolved into the HandKey, which found its way into nuclear plants, Disney World season-pass turnstiles, and the athletes' village of the 1996 Atlanta Olympics.
+
+### Deep dive
+
+* **The body is the password.** The ID-3D is built on an explicit inversion: access control systems of the era depended on keys, cards, and PINs — transferable objects anyone can lose, steal, or pass along. The patent frames the alternative: biometric characteristics unique to a person, compared directly against stored data. The keypad claims an identity; the hand proves it. There is nothing to carry, nothing to remember — only a body part placed exactly where the printed instructions say.
+* **Road-sign optics.** The platen's retro-reflective sheeting reflects light straight back toward its source, making the platen appear 1,600 times brighter than a white surface. A hand on the platen blocks the return light and reads as a black shape against a blazing background — a high-contrast shadow image ideal for precise dimensional measurement. The machine sees people the way a road sign sees headlights.
+* **A memory chip as camera.** The imaging array is a Micron IS-32 'Optic RAM': a dynamic RAM chip in a clear-window package. Refresh is suspended for an exposure interval, photons charge the cells proportionally to brightness, and when refresh resumes the memory bit pattern is a readout of the picture. The same improvisation — DRAM as a light sensor — appears in the museum's era in the Cromemco Cyclops; the ID-3D used it for identity.
+* **The cardboard-tracing problem.** The patent is explicit about the arms race in spoofing: simple two-dimensional hand readers could be defeated by a cardboard tracing of an authorized user's hand. The ID-3D's answer is the side view — a second silhouette perpendicular to the plan view, delivered by a 45-degree mirror inside the platen. A fake now has to be correct in three dimensions. Trust nothing that can be flat.
+* **The choreographed ritual.** The machine does not ask the user to learn anything abstract. Its operating instructions are printed on the platen surface itself: slide, press, close, hold. The body is aligned by physical contact with the device — pegs, pins, and a flat surface — so the user's geometry is presented consistently to the camera every time. Identity verification as a small, repeatable physical ceremony.
+
+### Team
+
+* **David P. Sidlauskas.** Inventor of the ID-3D; sole named inventor on US Patent 4,736,203 (filed 17 July 1985, granted 5 April 1988); founded and led Recognition Systems Inc.
+* **Recognition Systems, Inc.** San Jose company that built and shipped the ID-3D and its HandKey successors; later became part of Ingersoll Rand's Schlage division.
+
+### Media
+
+![Hand geometry reader with finger pegs, platen, and keypad](../assets/wiki/id3d-hand-geometry-1.jpg)
+*A hand geometry reader of the ID-3D/HandKey family, showing the platen, finger positioning pegs, keypad, and result lamp. CC BY-SA 3.0, Wikimedia Commons.*
+
+![US Patent 4,736,203 drawing page](../assets/wiki/id3d-hand-geometry-2.png)
+*Drawing page from US Patent 4,736,203 '3D hand profile identification apparatus' (David P. Sidlauskas, Recognition Systems, 1988). Public domain.*
+
+![US Patent 4,736,203 drawing page with plan and side views](../assets/wiki/id3d-hand-geometry-3.png)
+*Further drawings from US Patent 4,736,203 showing the measuring platen, the 45-degree mirror producing the side view, and the calibration reference target. Public domain.*
+
+### Sources
+
+1. US Patent 4,736,203 '3D hand profile identification apparatus' (Sidlauskas, filed 1985, granted 1988) — https://patents.google.com/patent/US4736203A/en
+2. Bright, 'Examining the reliability of a hand geometry identity verification device for use in access control,' Naval Postgraduate School master's thesis (1987) — https://archive.org/details/examiningreliabi00brig
+3. Wikipedia — Hand geometry — https://en.wikipedia.org/wiki/Hand_geometry
+4. Biometric Update — 'Explainer: hand geometry recognition' (2012) — https://www.biometricupdate.com/201206/explainer-hand-geometry-recognition
+
+---
+
+## Mattel Auto Race (1976)
+
+**By:** Mattel Electronics — designed by George J. Klose, programmed by Mark Lesser (Rockwell International)  
+**Tags:** `Games` `Handheld` `Input` `Embedded` `LED`
+
+### Overview
+
+Mattel Electronics Auto Race was released in 1976 as the first handheld electronic game to use only solid-state electronics — no mechanical elements except the controls and the on/off switch. Cars are red LEDs on a small playfield covering only part of the case; the audio consists of beeps. Powered by a nine-volt battery, the game runs on hardware repurposed from calculators.
+
+The interaction model is the point. There are no buttons: the player steers with a three-position lane switch that toggles the car between three lanes, and shifts speed with a separate four-position gear switch — and the higher the gear, the faster the oncoming cars come. Both hands stay on the levers while the eyes track a tiny field of red dots, making a 99-second dash up a three-lane road four times to win.
+
+George J. Klose, a product development engineer at Mattel, conceived of repurposing calculator hardware into a game. He built a proof of concept on an LED display without a microprocessor to get approval, then partnered with Rockwell International's Microelectronics Division, a leader in calculator chips. Rockwell engineer Mark Lesser modified the B5000 calculator chip into the B6000, adding a display driver multiplexing scheme and a custom sound driver, then wrote the entire game in 512 bytes of assembly — spending eighteen months making the code fit. Sound is produced by toggling the speaker from within embedded timing loops. The game sold for US$24.99, exceeded expectations, and convinced Mattel to create its Electronics division in 1978.
+
+### Deep dive
+
+* **Two levers, no buttons.** Auto Race's entire interface is a pair of slide switches: a 4-position gear lever (1-4) and a 3-position lane lever. There is no button anywhere on the device. Thumb-on-lever driving was a completely new posture for electronic games — the player performs the whole interaction through two discrete mechanical gestures while reading a field of LEDs. The manual grades lap times from 'World Champion Driver' (under 30 seconds) to 'Leave Car In Garage' (75 seconds or more).
+* **Calculator silicon, a 512-byte game.** The game runs on a Rockwell B6000 chip derived from the B5000 calculator controller — a 4-bit architecture never meant to run games. Mark Lesser wrote the game in assembly in 512 bytes of ROM and took eighteen months to fit the program into that budget. The piezo sound is generated by toggling the speaker inside timing loops. A complete video game living inside the memory footprint of a pocket calculator.
+* **Genre-defining, then cloned.** Auto Race pioneered the category of handheld electronic video games. It spawned a line of Mattel sports handhelds (Football, Baseball, Basketball), was reworked into Missile Attack (1976) and Battlestar Galactica Space Alert (1978), reskinned as Ski Slalom (1980), and was even cloned in the Soviet Union as the Elektronika IER-01 (1983). Its place in the lineage of handheld gaming is foundational.
+* **Legacy.** The success of Auto Race convinced Mattel to proceed with Football — often sold out and in short supply — and led to the creation of the Mattel Electronics Division in 1978. The game remains playable today through emulators and is preserved in the Internet Archive's handheld game collections.
+
+### Team
+
+* **George J. Klose.** Mattel product development engineer; conceived Auto Race as a repurposing of calculator hardware, designed the gameplay and proof-of-concept prototype.
+* **Mark Lesser.** Circuit design engineer at Rockwell International's Microelectronics Division; modified the B5000 into the B6000 and wrote the 512-byte game program.
+* **Mattel Electronics.** Publisher; formed the division in 1978 on the strength of Auto Race and Football sales.
+
+### Media
+
+![Mattel Auto Race handheld game with red LED playfield](../assets/wiki/auto-race-1.jpg)
+*The Mattel Auto Race handheld (1976) showing the red LED playfield and the gear and lane slide switches. Public domain, Wikimedia Commons.*
+
+### Sources
+
+1. Wikipedia — Mattel Auto Race — https://en.wikipedia.org/wiki/Mattel_Auto_Race
+2. Mattel Auto Race manual (1976), Internet Archive — https://ia800704.us.archive.org/5/items/manuals-handheld-games-Mattel-AutoRace/Mattel-AutoRace_text.pdf
+3. Derene, 'Remembering the First Handheld Games,' Popular Mechanics (2013) — https://www.popularmechanics.com/culture/gaming/a9459/game-boys-grandfather-remembering-the-first-handheld-games-15987495/
+4. Handheld Museum — Mattel Auto Race — https://handheldmuseum.com/Mattel/AutoRace.htm
+5. Scott Stilphen, 'DP Interviews... Mark Lesser,' Digital Press — https://www.digitpress.com/library/interviews/interview_mark_lesser.html
+
+---
+
+## Milton Bradley Microvision (1979)
+
+**By:** Milton Bradley Company — designed by Jay Smith (later of Vectrex fame)  
+**Tags:** `Games` `Handheld` `Input` `Embedded` `LCD`
+
+### Overview
+
+The Microvision (aka Milton Bradley Microvision or MB Microvision), released in November 1979 at US$49.99, is the first handheld game console that used interchangeable ROM cartridges. Unlike most later consoles, it contained no onboard processor: each game cartridge carried its own CPU — an Intel 8021 or a Texas Instruments TMS1100 — with the game code in masked ROM inside the processor. The console itself was effectively just the controls, a 16x16-pixel LCD panel, and an LCD controller chip made by Hughes.
+
+The input layout is the remarkable part. A twelve-button keypad sits under a thick layer of flexible plastic, with the switches hidden beneath. Each cartridge has cutouts in its bottom that align over the keypad, and printed plastic overlays relabel the buttons for that game; the player presses through the cartridge to reach the hidden switches. A rotary analog paddle provides continuous input for games like Block Buster, where it sweeps the bat, and Star Trek: Phaser Strike, where it aims.
+
+The Microvision was designed by Jay Smith, who later designed the Vectrex. Smith Engineering grossed $15 million in the first year. It was discontinued in 1981 after a small library of twelve games. Satoru Okada, former head of Nintendo's R&D1, credited the Microvision with inspiring the Game Boy — Nintendo designed around its limitations.
+
+### Deep dive
+
+* **The cartridge is the computer.** There is no CPU in the Microvision unit. Each game cartridge contains its own processor — an Intel 8021 (cross-licensed by Signetics) or a Texas Instruments TMS1100 — running at 100 kHz, with 64 bytes of RAM and 2K of ROM integrated into the chip. Plugging in a cartridge is literally plugging in a different computer. Milton Bradley later switched entirely to the TMS1100 and reprogrammed the 8021 games.
+* **Press-through-the-cartridge input.** The twelve-button keypad sits buried under thick flexible plastic. Each game cartridge has cutouts in its bottom aligned over the keypad, and a thin printed plastic overlay labels the buttons' functions. The player presses through the overlay and cartridge to hit the hidden switches. The design stretched and tore the printed plastic over time. Many early games were also programmed to register keypresses on release rather than press, because the prototype keypad had tactile feedback the production keypad lacked — teaching users to press harder and tear faster.
+* **An analog paddle on a digital grid.** Alongside the keypad, the Microvision carries a rotary analog paddle — a potentiometer dial providing continuous input. Combining a continuous rotary control with a discrete button grid on a 16x16 LCD was unusual for the era.
+* **Failure as interface.** The Microvision suffered three famous failure modes: 'screen rot' (the primitive LCD sealing leaked and permanently darkened), ESD damage (the cartridge's unprotected CPU pins could be killed by an unnoticed static charge of a few dozen volts — engineer John Elder Robison described up to 60% of units returned as defective during the 1979 holiday season), and keypad destruction from the press-through overlay design. These failures shaped Nintendo's approach when building the Game Boy.
+* **Legacy.** Satoru Okada of Nintendo R&D1 said Nintendo designed the Game Boy around the Microvision's limitations — its small screen, fragile keypad, and cartridge carrying its own processor. The Microvision is the hinge between single-game handhelds like Auto Race and the cartridge-based handhelds that followed.
+
+### Team
+
+* **Jay Smith.** Designed the Microvision at Smith Engineering; later designed the Vectrex console.
+* **Milton Bradley Company.** Manufacturer and publisher; released the Microvision in November 1979 at US$49.99.
+* **John Elder Robison.** Milton Bradley engineer who redesigned later Microvision units to reduce ESD failures; documented the 1979 return rate in his memoir Look Me in the Eye.
+
+### Media
+
+![Milton Bradley Microvision handheld console with cartridge](../assets/wiki/microvision-1.jpg)
+*A Milton Bradley Microvision with a game cartridge inserted; the keypad and rotary paddle sit below the LCD. Public domain, Wikimedia Commons.*
+
+![Microvision handheld console](../assets/wiki/microvision-2.jpg)
+*The Microvision handheld console showing the 16x16 LCD and cartridge slot. CC0, Wikimedia Commons.*
+
+![Microvision motherboard](../assets/wiki/microvision-3.jpg)
+*The Microvision main board — the console contains only controls, LCD, and display controller; the computer lives in each cartridge. Public domain, Wikimedia Commons.*
+
+### Sources
+
+1. Wikipedia — Microvision — https://en.wikipedia.org/wiki/Microvision
+2. US Patent 4,359,222 — Microcomputer-controlled game (Jay Smith) — https://patents.google.com/patent/US4359222
+3. Handheld Museum — Milton Bradley Microvision (U.S.) — https://www.handheldmuseum.com/MB/uVUS.htm
+4. The Video Game Kraken — Microvision — https://videogamekraken.com/microvision
+5. Robison, Look Me in the Eye, ch. 21 (1979 Microvision returns) — https://archive.org/details/lookmeineyemyl00robi/page/197
+
+---
+
+## Sony Mavica (1981 prototype)
+
+**By:** Sony Corporation — unveiled by Akio Morita, August 25, 1981  
+**Tags:** `Camera` `Input` `Magnetic Media` `Prototype` `Analog`
+
+### Overview
+
+On August 25, 1981, Sony unveiled a prototype of the Mavica — short for Magnetic Video Camera — as the world's first electronic still video camera. Despite the modern associations of 'video camera,' the 1981 Mavica was not digital. Its CCD sensor produced an analog video signal in NTSC format at 570x490 resolution, and pressing the shutter wrote a single frame as FM-modulated magnetic tracks onto a 2-inch Mavipak floppy disk, 50 images per disk.
+
+The interaction model is the strange, embodied part. The camera body was a conventional single-lens-reflex with three interchangeable bayonet lenses (a 25mm f/2, a 50mm f/1.4, and a 16-65mm f/1.4 zoom). Instead of film, the floppy disk was the medium. To see your pictures, you removed the disk and inserted it into a special playback viewer unit plugged into a television. Capture and review lived on two different devices, connected only by a physical disk you carried between them. The image was not a file but a TV picture.
+
+Sony also demonstrated a thermal transfer printer called the Mavigraph, which printed the captured images on A5 paper in a five-minute process. Japanese news professionals reportedly 'plagued the firm with requests for the camera.' The Mavipak disk format was later adopted industry-wide as the Video Floppy (VF) standard, and the Mavica name continued through analog ProMavica models in the late 1980s before being reused for digital cameras in the 1990s.
+
+### Deep dive
+
+* **Film becomes a floppy disk.** The Mavica replaced film with a 2-inch Mavipak magnetic disk holding 50 still frames. The shutter wrote one analog NTSC video field per frame as FM-modulated tracks — the same physical principle as a VCR, but for a single photograph. The disk was the film: removable, rewritable, and later standardized industry-wide as the Video Floppy (VF) format.
+* **Two devices, one handoff.** There was no onboard screen on the 1981 prototype. To review a picture you took the disk out of the camera and inserted it into a separate playback viewer unit connected to a television. The interaction is a physical handoff — the disk is the only thing that travels between capture and display.
+* **Analog, not digital.** The Mavica's image was an analog video signal — a TV picture written to a magnetic disk — not a digital file. This distinguishes it cleanly from the museum's Dycam Model 1 (1990), which stored real digital image data. The Mavica sits at the hinge between film and digital: photography as a broadcast signal you can hold in your hand.
+* **The impact.** The prototype stunned the photographic world and created the still-video category. Sony demonstrated the Mavigraph thermal printer alongside it, and news professionals clamored for units that would make pictures immediately compatible with computing and telecommunications.
+* **Legacy.** The 1981 prototype was never sold in that form. Its floppy-disk medium became the Video Floppy standard used by Canon's RC-701 and other still-video cameras of the 1980s, making it the ancestor of an entire brief industry.
+
+### Team
+
+* **Sony Corporation.** Developed and unveiled the Mavica prototype on August 25, 1981; established the Mavipak/Video Floppy medium.
+* **Akio Morita.** Sony chairman who presented the Mavica at the 1981 unveiling.
+
+### Media
+
+![Sony Mavica 1981 prototype with interchangeable lens](../assets/wiki/mavica-1.jpg)
+*The surviving 1981 Sony Mavica prototype, SLR-style body with the Mavipak disk mechanism. CC BY-SA 3.0, Wikimedia Commons.*
+
+![Sony Mavica 1981 prototype detail](../assets/wiki/mavica-2.jpg)
+*Detail of the 1981 Mavica prototype, showing the lens and body of the first electronic still camera. CC BY-SA 3.0, Wikimedia Commons.*
+
+### Sources
+
+1. Wikipedia — Sony Mavica — https://en.wikipedia.org/wiki/Sony_Mavica
+2. Wikipedia — Still video camera — https://en.wikipedia.org/wiki/Still_video_camera
+3. Camera-wiki — Sony Mavica (1981) — https://camera-wiki.org/wiki/Sony_Mavica_(1981)
+4. Popham, 'Sony's video snap-shooter,' Design (November 1981) — https://www.designmagazine.org
+5. ABC News footage of the August 1981 Morita unveiling (YouTube) — https://www.youtube.com/watch?v=3t7svq2kXGI

@@ -1,0 +1,96 @@
+{
+  "slug": "microvision",
+  "title": "Milton Bradley Microvision",
+  "year": "1979",
+  "subtitle": "The first cartridge handheld — a console with no CPU, where each game cartridge is a different computer",
+  "why_scout_cares": "The Microvision inverts the normal console architecture: there is no microprocessor in the unit at all. The console is only controls, an LCD, and a display controller; each cartridge contains its own CPU (an Intel 8021 or TI TMS1100) with the game burned into its ROM. Input is equally strange — a twelve-button keypad buried under a thick flexible plastic layer, plus an analog rotary paddle, where each game's printed overlay relabels the buttons and the player presses through the cartridge to reach the hidden switches. It is the direct ancestor of the Game Boy (Satoru Okada of Nintendo R&D1 credited it as inspiration), and it failed in instructive ways: keypads tore, unprotected CPU pins died from static electricity in alarming numbers, and games registered keypresses on release rather than press. The museum has home consoles and single-game handhelds, but nothing where the software literally is the silicon you plug in.",
+  "search_terms": ["Milton Bradley Microvision 1979", "first handheld cartridge console", "CPU in cartridge TMS1100 8021", "Jay Smith Microvision Vectrex", "Microvision keypad destruction ESD"],
+  "research": {
+    "title": "Milton Bradley Microvision",
+    "year": "1979",
+    "by": "Milton Bradley Company — designed by Jay Smith (later of Vectrex fame)",
+    "tags": ["Games", "Handheld", "Input", "Embedded", "LCD"],
+    "overview": "The Microvision (aka Milton Bradley Microvision or MB Microvision), released in November 1979 at US$49.99, is the first handheld game console that used interchangeable ROM cartridges. Unlike most later consoles, it contained no onboard processor: each game cartridge carried its own CPU — an Intel 8021 or a Texas Instruments TMS1100 — with the game code in masked ROM inside the processor. The console itself was effectively just the controls, a 16x16-pixel LCD panel, and an LCD controller chip made by Hughes.\n\nThe input layout is the remarkable part. A twelve-button keypad sits under a thick layer of flexible plastic, with the switches hidden beneath. Each cartridge has cutouts in its bottom that align over the keypad, and printed plastic overlays relabel the buttons for that game; the player presses through the cartridge to reach the hidden switches. A rotary analog paddle provides continuous input for games like Block Buster, where it sweeps the bat, and Star Trek: Phaser Strike, where it aims.\n\nThe Microvision was designed by Jay Smith, who later designed the Vectrex. Smith Engineering grossed $15 million in the first year. It was discontinued in 1981 after a small library of twelve games. Satoru Okada, former head of Nintendo's R&D1, credited the Microvision with inspiring the Game Boy — Nintendo designed around its limitations.",
+    "deepDive": [
+      {
+        "heading": "The cartridge is the computer",
+        "text": "There is no CPU in the Microvision unit. Each game cartridge contains its own processor — an Intel 8021 (cross-licensed by Signetics) or a Texas Instruments TMS1100 — running at 100 kHz, with 64 bytes of RAM and 2K of ROM integrated into the chip. Plugging in a cartridge is literally plugging in a different computer. Milton Bradley later switched entirely to the TMS1100 and reprogrammed the 8021 games. This is software as a physical, swappable piece of silicon."
+      },
+      {
+        "heading": "Press-through-the-cartridge input",
+        "text": "The twelve-button keypad sits buried under thick flexible plastic. Each game cartridge has cutouts in its bottom aligned over the keypad, and a thin printed plastic overlay labels the buttons' functions for that game. The player presses through the overlay and cartridge to hit the hidden switches. The design stretched and tore the printed plastic over time — long fingernails made it worse. Many early games were also programmed to register keypresses on release rather than press, because the prototype keypad had tactile feedback the production keypad lacked, teaching users to press harder and tear faster."
+      },
+      {
+        "heading": "An analog paddle on a digital grid",
+        "text": "Alongside the keypad, the Microvision carries a rotary analog paddle — a potentiometer dial providing continuous input. In Block Buster it sweeps a Breakout-style bat; in Star Trek: Phaser Strike it aims the phaser. Combining a continuous rotary control with a discrete button grid on a 16x16 LCD was unusual for the era and gives the device a strange hybrid feel."
+      },
+      {
+        "heading": "Failure as interface",
+        "text": "The Microvision suffered three famous failure modes: 'screen rot' (the primitive LCD sealing leaked and permanently darkened), ESD damage (the cartridge's unprotected CPU pins, directly exposed behind a sliding door, could be killed by an unnoticed static charge of a few dozen volts — Milton Bradley engineer John Elder Robison described up to 60% of units returned as defective during the 1979 holiday season), and keypad destruction from the press-through overlay design. These failures shaped Nintendo's approach when building the Game Boy."
+      },
+      {
+        "heading": "Legacy",
+        "text": "The Microvision inspired the Game Boy. Satoru Okada, then head of Nintendo's R&D1, said Nintendo designed the Game Boy around the Microvision's limitations — its small screen, fragile keypad, and cartridge carrying its own processor. In the museum it is the hinge between single-game handhelds like Auto Race and the cartridge-based handhelds that followed, and its CPU-in-cartridge architecture is unique in the collection."
+      }
+    ],
+    "team": [
+      {
+        "name": "Jay Smith",
+        "note": "Designed the Microvision at Smith Engineering; later designed the Vectrex console."
+      },
+      {
+        "name": "Milton Bradley Company",
+        "note": "Manufacturer and publisher; released the Microvision in November 1979 at US$49.99."
+      },
+      {
+        "name": "John Elder Robison",
+        "note": "Milton Bradley engineer who redesigned later Microvision units to reduce ESD failures; documented the 1979 return rate in his memoir Look Me in the Eye."
+      }
+    ],
+    "media": [
+      {
+        "src": "https://commons.wikimedia.org/wiki/File:Milton-Bradley-Microvision-Handheld-FL.jpg",
+        "alt": "Milton Bradley Microvision handheld console with cartridge",
+        "caption": "A Milton Bradley Microvision with a game cartridge inserted; the keypad and rotary paddle sit below the LCD. Public domain, Wikimedia Commons."
+      },
+      {
+        "src": "https://commons.wikimedia.org/wiki/File:MicroVision_handheld_console.jpg",
+        "alt": "Microvision handheld console",
+        "caption": "The Microvision handheld console showing the 16x16 LCD and cartridge slot. CC0, Wikimedia Commons."
+      },
+      {
+        "src": "https://commons.wikimedia.org/wiki/File:Milton-Bradley-Microvision-Motherboard-Top.jpg",
+        "alt": "Microvision motherboard",
+        "caption": "The Microvision main board — the console contains only controls, LCD, and display controller; the computer lives in each cartridge. Public domain, Wikimedia Commons."
+      }
+    ],
+    "sources": [
+      {
+        "text": "Wikipedia — Microvision",
+        "url": "https://en.wikipedia.org/wiki/Microvision"
+      },
+      {
+        "text": "US Patent 4,359,222 — Microcomputer-controlled game (Jay Smith)",
+        "url": "https://patents.google.com/patent/US4359222"
+      },
+      {
+        "text": "Handheld Museum — Milton Bradley Microvision (U.S.)",
+        "url": "https://www.handheldmuseum.com/MB/uVUS.htm"
+      },
+      {
+        "text": "The Video Game Kraken — Microvision",
+        "url": "https://videogamekraken.com/microvision"
+      },
+      {
+        "text": "Robison, Look Me in the Eye, ch. 21 (1979 Microvision returns)",
+        "url": "https://archive.org/details/lookmeineyemyl00robi/page/197"
+      }
+    ],
+    "imageUrls": [
+      "https://upload.wikimedia.org/wikipedia/commons/5/5a/Milton-Bradley-Microvision-Handheld-FL.jpg",
+      "https://upload.wikimedia.org/wikipedia/commons/4/4f/MicroVision_handheld_console.jpg",
+      "https://upload.wikimedia.org/wikipedia/commons/5/5f/Milton-Bradley-Microvision-Motherboard-Top.jpg"
+    ]
+  },
+  "savedImages": ["images/microvision-1.jpg", "images/microvision-2.jpg", "images/microvision-3.jpg"]
+}
