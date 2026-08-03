@@ -1,0 +1,49 @@
+{
+  "slug": "milton-talking-game",
+  "title": "Milton (Electronic Talking Game)",
+  "year": "1980",
+  "subtitle": "The talking game that memorized phrases and insulted you",
+  "why_scout_cares": "Milton (1980) is the first competitive electronic talking game — per its own patent, the first talking game where two humans play against each other, not just a teaching device. It is Simon rebuilt around speech: the machine recites three-word phrases, you press buttons to match beginnings to endings, and when you are wrong it laughs, razzes, and calls your attempt 'Garbage.' Its voice was squeezed into 15 bytes of control data with reused wave samples ('ersatz speech'). A talking memory adversary in a $20 toy.",
+  "search_terms": ["Milton Bradley Milton electronic talking game 1980", "Milton talking game speech synthesis patent", "Jeffrey Breslow Milton game"],
+  "research": {
+    "title": "Milton (Electronic Talking Game)",
+    "year": "1980",
+    "by": "Milton Bradley Company (invented by Jeffrey D. Breslow and Erick E. Erickson)",
+    "tags": ["Speech", "Games", "Toy", "Memory", "Embodied"],
+    "overview": "Milton was an electronic talking game manufactured by the Milton Bradley Company in 1980. According to the inventors' patent (US 4,326,710), it was the first electronic talking game that allowed two people to play against each other — a deliberate break from earlier talking devices like Texas Instruments' Speak & Spell, which were primarily teaching tools. The game is a single electronic unit, powered by an AC adapter, with seven red buttons and seven yellow buttons and a built-in speech synthesizer.\n\nThe gameplay is memory played with voices. Milton recites seven completed three-word phrases. A player presses one of the top red buttons to hear the beginning half of a phrase, then one of the bottom yellow buttons to hear its ending. Match them correctly and you score a point; match them wrong and Milton answers with a sarcastic laugh, a razz sound, or the words 'Garbage,' 'Ridiculous,' 'Absurd,' or 'No Way.' Because every phrase's beginning and ending are locked to specific buttons, the game becomes an adversarial memory contest — and the machine is the one holding the answers.",
+    "deepDive": [
+      {
+        "heading": "The interaction model",
+        "text": "Milton is Simon's premise re-expressed as speech: instead of echoing light and tone patterns, the machine becomes a talking memory partner. Two players take turns matching phrase fragments while Milton judges each attempt aloud. Wrong answers are punished with insults — an early, mass-produced instance of a machine with a personality and an attitude. The voice was designed to sound more human by using an accent and casual dialect, and the speech synthesizer reused wave samples across contexts to fit the limited memory, producing what Popular Mechanics called 'ersatz speech.'"
+      },
+      {
+        "heading": "The engineering",
+        "text": "Per Electronics magazine's 1981 account, 'Squeezing Milton's voice into memory,' the game's chip accepted only 15 bytes of input. Using all 15 bytes at full precision would have required roughly 700K of read-only memory at a bit rate of 12,000 to produce a 100 Hz frame rate — impractical in 1980. The designers instead sampled waveforms and reused speech segments that occurred in only one context, an early feat of lossy compression-by-necessity that let a toy talk."
+      },
+      {
+        "heading": "Reception and legacy",
+        "text": "Milton was one of seven games featured on the April 1980 cover of Playthings magazine's Special Toy Fair issue. Popular Mechanics wrote in September 1980: 'We would have played more with Milton from Milton-Bradley, but the long line of people waiting to be insulted by this talking wonder discouraged us.' It never matched Simon's success, but it stands as the first competitive talking game and a milestone in making synthesized speech playful rather than instructional."
+      }
+    ],
+    "team": [
+      { "name": "Jeffrey D. Breslow", "note": "Co-inventor (US Patent 4,326,710), Milton Bradley design studio" },
+      { "name": "Erick E. Erickson", "note": "Co-inventor (US Patent 4,326,710)" },
+      { "name": "Milton Bradley Company", "note": "Manufacturer and publisher, 1980" }
+    ],
+    "media": [
+      { "src": "https://upload.wikimedia.org/wikipedia/commons/7/75/Milton_Electronic_Talking_Game_by_Milton_Bradley%2C_Made_in_the_USA%2C_Circa_1980_-_First_Competitive_Talking_Game.jpg", "alt": "Milton electronic talking game with seven red and seven yellow buttons", "caption": "The Milton electronic talking game unit with its seven red and seven yellow buttons. CC BY-SA 2.0 photo by Joe Haupt, Wikimedia Commons." }
+    ],
+    "sources": [
+      { "text": "Wikipedia — Milton (game)", "url": "https://en.wikipedia.org/wiki/Milton_(game)" },
+      { "text": "US Patent 4,326,710 — Electronic game with speech synthesis (Breslow & Erickson, granted April 27, 1982)", "url": "https://www.freepatentsonline.com/4326710.html" },
+      { "text": "Popular Mechanics, September 1980 — 'Toys do more than beep'", "url": "https://books.google.com/books?id=PdQDAAAAMBAJ" },
+      { "text": "Electronics, Vol. 54 (1981) — 'Squeezing Milton's voice into memory'", "url": "https://books.google.com/books?id=MEpWAAAAMAAJ" }
+    ],
+    "imageUrls": [
+      "https://upload.wikimedia.org/wikipedia/commons/7/75/Milton_Electronic_Talking_Game_by_Milton_Bradley%2C_Made_in_the_USA%2C_Circa_1980_-_First_Competitive_Talking_Game.jpg"
+    ]
+  },
+  "savedImages": [
+    "potential/milton-talking-game/images/milton-talking-game.jpg"
+  ]
+}

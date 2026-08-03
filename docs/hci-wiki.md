@@ -160,6 +160,9 @@ Each entry includes an overview, a deep dive, a small media gallery, and full so
 151. [Mattel Auto Race (1976)](#mattel-auto-race-1976)
 152. [Milton Bradley Microvision (1979)](#milton-bradley-microvision-1979)
 153. [Sony Mavica (1981 prototype)](#sony-mavica-1981-prototype)
+154. [PLATO V Terminal (1981)](#plato-v-terminal-1981)
+155. [Milton (Electronic Talking Game) (1980)](#milton-electronic-talking-game-1980)
+156. [Stop Thief (Electronic Crime Scanner) (1979)](#stop-thief-electronic-crime-scanner-1979)
 
 ---
 
@@ -7605,3 +7608,126 @@ Sony also demonstrated a thermal transfer printer called the Mavigraph, which pr
 3. Camera-wiki — Sony Mavica (1981) — https://camera-wiki.org/wiki/Sony_Mavica_(1981)
 4. Popham, 'Sony's video snap-shooter,' Design (November 1981) — https://www.designmagazine.org
 5. ABC News footage of the August 1981 Morita unveiling (YouTube) — https://www.youtube.com/watch?v=3t7svq2kXGI
+
+---
+
+## Milton (Electronic Talking Game) (1980)
+
+**By:** Milton Bradley Company (invented by Jeffrey D. Breslow and Erick E. Erickson)  
+**Tags:** `Speech` `Games` `Toy` `Memory` `Embodied`
+
+### Overview
+
+Milton was an electronic talking game manufactured by the Milton Bradley Company in 1980. According to the inventors' patent (US 4,326,710), it was the first electronic talking game that allowed two people to play against each other — a deliberate break from earlier talking devices like Texas Instruments' Speak & Spell, which were primarily teaching tools. The game is a single electronic unit, powered by an AC adapter, with seven red buttons and seven yellow buttons and a built-in speech synthesizer.
+
+The gameplay is memory played with voices. Milton recites seven completed three-word phrases. A player presses one of the top red buttons to hear the beginning half of a phrase, then one of the bottom yellow buttons to hear its ending. Match them correctly and you score a point; match them wrong and Milton answers with a sarcastic laugh, a razz sound, or the words 'Garbage,' 'Ridiculous,' 'Absurd,' or 'No Way.' Because every phrase's beginning and ending are locked to specific buttons, the game becomes an adversarial memory contest — and the machine is the one holding the answers.
+
+### Deep dive
+
+* **The interaction model.** Milton is Simon's premise re-expressed as speech: instead of echoing light and tone patterns, the machine becomes a talking memory partner. Two players take turns matching phrase fragments while Milton judges each attempt aloud. Wrong answers are punished with insults — an early, mass-produced instance of a machine with a personality and an attitude. The voice was designed to sound more human by using an accent and casual dialect, and the speech synthesizer reused wave samples across contexts to fit the limited memory, producing what Popular Mechanics called 'ersatz speech.'
+* **The engineering.** Per Electronics magazine's 1981 account, 'Squeezing Milton's voice into memory,' the game's chip accepted only 15 bytes of input. Using all 15 bytes at full precision would have required roughly 700K of read-only memory at a bit rate of 12,000 to produce a 100 Hz frame rate — impractical in 1980. The designers instead sampled waveforms and reused speech segments that occurred in only one context, an early feat of lossy compression-by-necessity that let a toy talk.
+* **Reception and legacy.** Milton was one of seven games featured on the April 1980 cover of Playthings magazine's Special Toy Fair issue. Popular Mechanics wrote in September 1980: 'We would have played more with Milton from Milton-Bradley, but the long line of people waiting to be insulted by this talking wonder discouraged us.' It never matched Simon's success, but it stands as the first competitive talking game and a milestone in making synthesized speech playful rather than instructional.
+
+### Team
+
+* **Jeffrey D. Breslow.** Co-inventor (US Patent 4,326,710), Milton Bradley design studio
+* **Erick E. Erickson.** Co-inventor (US Patent 4,326,710)
+* **Milton Bradley Company.** Manufacturer and publisher, 1980
+
+### Media
+
+![Milton electronic talking game with seven red and seven yellow buttons](../assets/wiki/milton-talking-game-1.jpg)
+*The Milton electronic talking game unit with its seven red and seven yellow buttons. CC BY-SA 2.0 photo by Joe Haupt, Wikimedia Commons.*
+
+### Sources
+
+1. Wikipedia — Milton (game) — https://en.wikipedia.org/wiki/Milton_(game)
+2. US Patent 4,326,710 — Electronic game with speech synthesis (Breslow & Erickson, granted April 27, 1982) — https://www.freepatentsonline.com/4326710.html
+3. Popular Mechanics, September 1980 — 'Toys do more than beep' — https://books.google.com/books?id=PdQDAAAAMBAJ
+4. Electronics, Vol. 54 (1981) — 'Squeezing Milton's voice into memory' — https://books.google.com/books?id=MEpWAAAAMAAJ
+
+---
+
+## PLATO V Terminal (1981)
+
+**By:** Control Data Corporation / CERL, University of Illinois (terminal designed by J. E. Stifle)  
+**Tags:** `Terminal` `Touchscreen` `Plasma` `Network` `Education`
+
+### Overview
+
+The PLATO V terminal was the last major terminal of the PLATO computer-assisted-instruction system, deployed by Control Data Corporation starting around 1980-81 and built at the Computer-based Education Research Laboratory (CERL) of the University of Illinois. Its design began at CERL in 1976 (CERL report X-46), and by 1981 the terminal served the RankTrek application shown in its most famous photograph. Inside, the terminal carried an Intel 8080 microprocessor with enough memory to download and execute small courseware modules locally — a genuine split between host mainframe and local micro, and the first terminal to combine the two. The terminal's display was Donald Bitzer's orange gas-plasma panel: a flat, monochrome 512x512 bitmap with hardwired character and vector plotting. Over that glow sat an infrared touch panel — a 16x16 grid of light beams around the screen that detected a finger anywhere on the display, turning the terminal itself into a touchscreen.
+
+The interaction model is the strange, embodied part. Students did not push a mouse around a desk; they reached up and pressed the luminous orange panel, and the distant CDC Cyber mainframe answered through the same panel — or through a small program that had just been downloaded into the terminal's own 8080 to animate, play sound, or draw. PLATO's touchscreen, plasma display, chat rooms (Talkomatic), message boards (PLATO Notes), and multiplayer games (Avatar, Empire) made it the first mass online community, and the PLATO V terminal was the physical door into that world.
+
+### Deep dive
+
+* **Origins.** PLATO (Programmed Logic for Automatic Teaching Operations) began at the University of Illinois in 1960 on the ILLIAC I. Donald Bitzer invented the plasma display around 1964 to give PLATO a cheap, reliable graphics screen, and the PLATO IV terminal (1972) added the infrared touch panel and microfiche image projection. PLATO IV is outside this museum's window; the PLATO V terminal, designed at CERL from 1976 and deployed from 1980-81, is the in-window refinement — and the version that added the local Intel 8080 microprocessor.
+* **The interaction model.** The PLATO V was a networked appliance you operated with your hands on the screen itself. The infrared touch panel was a 16x16 grid of emitter/sensor pairs around the display bezel; breaking a beam reported the touch square, with an audible beep. In courseware, students answered by touching multiple-choice boxes, moving objects by touch, or drawing with a finger — a direct-manipulation interface a decade before general-purpose touch screens. The terminal also received a keyboard from Regency Systems, a Champaign company founded by CERL alumni.
+* **The host/micro split.** The PLATO V's Intel 8080 could download small executable modules from the mainframe and run them locally, offloading animation and computation from the time-sharing host. The Wikipedia-cited RankTrek application was 'one of the first to combine simultaneous local microprocessor-based computing with remote mainframe computing.' This split — fat client and thin client at once — is the same architecture question that defines the web today.
+* **The network behind it.** PLATO was the first mass online community: Talkomatic (1973) was real-time text chat, PLATO Notes (1973) was the ancestor of newsgroups and Lotus Notes, and games like Empire (1974) and Avatar (1979) pioneered networked multiplayer. Thousands of terminals on a dozen networked mainframes served schools, prisons, and universities. The terminal was the door into that world — a touchscreen window onto chat, mail, and multiplayer gaming in 1981.
+* **Commerce and legacy.** CDC's William Norris licensed PLATO in 1976 and invested an estimated $600 million, betting that computer-based education would be a major market. It was a commercial failure — CDC charged $50/hour for access and courseware cost roughly $300,000 per delivery hour to develop — yet the last production PLATO system ran until 2006. The terminal line is preserved at the Computer History Museum and the Living Computers Museum, and the Cyber1 project still hosts PLATO courseware.
+
+### Team
+
+* **J. E. Stifle.** CERL engineer who designed the PLATO V terminal (CERL reports X-46 and ED200244)
+* **Donald Bitzer.** Founder of CERL and inventor of the plasma display and PLATO touchscreen
+* **Control Data Corporation.** Licensed PLATO in 1976 and commercialized it under William Norris
+* **Regency Systems, Inc..** CERL-alumni company that manufactured the PLATO V keyboard
+
+### Media
+
+![PLATO V terminal in 1981 running the RankTrek application](../assets/wiki/plato-v-terminal-1.jpg)
+*A PLATO V terminal in 1981 running the RankTrek application, showing the orange plasma glow and the infrared touch frame around the display. CC BY 3.0, Wikimedia Commons.*
+
+![Working PLATO V terminal at the Living Computers Museum](../assets/wiki/plato-v-terminal-2.jpg)
+*A working PLATO V terminal at the Living Computers Museum in 2018. CC BY 2.0, Wikimedia Commons.*
+
+![PLATO IV standard keyboard](../assets/wiki/plato-v-terminal-3.jpg)
+*The PLATO IV standard keyboard (c. 1976) used with the terminal family; the PLATO V keyboard was manufactured by Regency Systems. Public domain, Wikimedia Commons.*
+
+### Sources
+
+1. Wikipedia — PLATO (computer system) — https://en.wikipedia.org/wiki/PLATO_(computer_system)
+2. ERIC ED200244 — The PLATO V Terminal (J. E. Stifle, CERL, April 1978) — https://eric.ed.gov/?id=ED200244
+3. CERL X-46 — A Preliminary Report on the PLATO V Terminal (April 1976) — https://archive.org/details/ERIC_ED125554
+4. Woolley — PLATO: The Emergence of Online Community (Computer History Museum) — https://www.thinkofit.com/plato/dwplato.htm
+5. Computer History Museum — PLATO V keyboard (object 102654833) — https://www.computerhistory.org/collections/catalog/102654833
+
+---
+
+## Stop Thief (Electronic Crime Scanner) (1979)
+
+**By:** Parker Brothers (designed by Robert Doyle)  
+**Tags:** `Games` `Board Game` `Audio` `Embodied` `Hidden State`
+
+### Overview
+
+Stop Thief was a crime-deduction board game published by Parker Brothers in 1979 and designed by Robert Doyle. Its centerpiece is the Electronic Crime Scanner, a handheld battery-powered computer that plays the part of the thief. The scanner hides the thief's position across a numbered city grid of buildings, streets, and subway stops, and moves that position according to its own rules — doubling back to confuse the players, breaking a window and then not going through it. It communicates its movements not with a screen but with sound: an alarm, two footsteps, a door creak, glass breaking, rapid footsteps, a subway rumble.
+
+Each turn begins when a player presses the C (Clue) button and listens. Players must map the sounds to locations on the board, then move their detective pawn toward the deduced spot. To arrest, a player types a three-digit location code into the scanner and presses A (Arrest); the scanner responds with a sound verdict — a machine-gun burst followed by a two-tone siren for a successful collar, a machine-gun burst with a mocking 'na-na-na-na-na' when the thief has slipped away, and a raspberry for a false arrest that costs you your detective's license. If the thief commits three crimes uncaptured, it gets away and nobody wins.
+
+### Deep dive
+
+* **The hidden-state computer.** The Electronic Crime Scanner is an opponent with private state: the thief's position is a secret the machine holds and mutates on its own. Players never see it — they must infer it from an audio channel. This is a genuinely adversarial interface, not a quiz box: the scanner actively tries to evade the players, and its sound effects are deliberately ambiguous evidence. It is one of the first consumer games with a true hidden-state electronic opponent, predating Milton Bradley's Dark Tower (1981).
+* **Audio as the only data channel.** The scanner's output is almost entirely non-verbal sound design. Different sound effects encode different thief behaviors — a door creak means the thief entered a building, breaking glass means a window, a rumble means the subway. The scanner also kept the last ten actions in an audio memory buffer, replayable by number keys. Players effectively perform an auditory version of a signal-triangulation task, which is why the game was described as easy to understand and hard to master.
+* **The arrest ritual.** The interface's most theatrical moment is the arrest attempt: you type a three-digit code and commit. The scanner judges your guess audibly and with consequences — false arrests cost money and, on the third one, your license. The game's tension comes from the fact that the machine knows the truth and will mock you when you are wrong. The thief's escape condition — three crimes and it vanishes, leaving no winner — means the computer can beat all the players at once.
+* **Reception and legacy.** Stop Thief was the third most-requested Christmas toy of 1979 according to Toy and Hobby magazine. A unit is held in the Victoria and Albert Museum's Palitoy Archive (accession B.1290:1 to 6-1999), and Restoration Games reissued the game in 2017 with a smartphone app replacing the scanner. The scanner itself remains an early example of an embodied, adversarial, audio-only computer interface.
+
+### Team
+
+* **Robert Doyle.** Designer of Stop Thief for Parker Brothers
+* **Parker Brothers.** Publisher, 1979
+* **Palitoy.** UK distributor; the V&A Palitoy Archive holds a unit (B.1290:1 to 6-1999)
+
+### Media
+
+![Stop Thief game contents including the Electronic Crime Scanner](../assets/wiki/stop-thief-1.jpg)
+*Stop Thief box contents, showing the Electronic Crime Scanner — the handheld computer that hides the thief. Period photo, source: The Retroist (archived), used under fair use with attribution.*
+
+### Sources
+
+1. The Retroist — Stop Thief by Parker Brothers (2011) — https://www.retroist.com/2011/03/31/stop-thief-by-parker-brothers/
+2. Victoria and Albert Museum — Stop Thief record (Palitoy Archive, B.1290:1 to 6-1999) — https://collections.vam.ac.uk/item/O41380/stop-thief-board-game-parker-brothers/
+3. WikiMili — Stop Thief (full rules, sounds, and display codes) — https://wikimili.com/en/Stop_Thief
+4. Toy Tales — Stop Thief from Parker Brothers (1979) — https://toytales.ca/stop-thief-from-parker-brothers-1979/
+5. Restoration Games — Stop Thief (2017 reissue) — https://restorationgames.com/stopthief/
