@@ -92,8 +92,15 @@ jobs:
 
       - name: Resolve Beepy PR
         id: resolve_pr
+        env:
+          REQUESTED_PR_NUMBER: ${{ inputs.pr_number || '' }}
         run: |
-          number="${{ inputs.pr_number }}"
+          fail() {
+            echo "::error::$1"
+            exit 1
+          }
+
+          number="$REQUESTED_PR_NUMBER"
           if [ -z "$number" ]; then
             number="$(gh pr list --state open --limit 30 --json number,author,isDraft,reviewDecision,labels,createdAt --jq '[.[] | select(.author.login == "app/github-actions" and (.isDraft | not) and (.reviewDecision != "APPROVED") and ((.labels | map(.name) | index("needs-human")) | not))] | sort_by(.createdAt) | .[0].number // ""')"
           fi
@@ -104,25 +111,47 @@ jobs:
             exit 0
           fi
 
-          head_repo="$(gh pr view "$number" --json headRepository --jq '.headRepository.nameWithOwner')"
+          [[ "$number" =~ ^[0-9]+$ ]] || fail "PR number must contain digits only."
+
+          metadata="$(gh pr view "$number" --json title,url,author,baseRefName,headRefName,headRefOid,headRepository)"
+          head_repo="$(jq -r '.headRepository.nameWithOwner' <<< "$metadata")"
           if [ "$head_repo" != "$GITHUB_REPOSITORY" ]; then
             echo "PR #$number comes from $head_repo, not $GITHUB_REPOSITORY; skipping."
             echo "found=false" >> "$GITHUB_OUTPUT"
             exit 0
           fi
 
-          echo "found=true" >> "$GITHUB_OUTPUT"
-          echo "PR_NUMBER=$number" >> "$GITHUB_ENV"
-          echo "PR_TITLE=$(gh pr view "$number" --json title --jq '.title')" >> "$GITHUB_ENV"
-          echo "PR_URL=$(gh pr view "$number" --json url --jq '.url')" >> "$GITHUB_ENV"
-          echo "PR_AUTHOR=$(gh pr view "$number" --json author --jq '.author.login')" >> "$GITHUB_ENV"
-          echo "PR_BASE_REF=$(gh pr view "$number" --json baseRefName --jq '.baseRefName')" >> "$GITHUB_ENV"
-          echo "PR_HEAD_REF=$(gh pr view "$number" --json headRefName --jq '.headRefName')" >> "$GITHUB_ENV"
-          echo "PR_HEAD_SHA=$(gh pr view "$number" --json headRefOid --jq '.headRefOid')" >> "$GITHUB_ENV"
-          echo "PR_HEAD_REPO=$head_repo" >> "$GITHUB_ENV"
+          pr_url="$(jq -r '.url' <<< "$metadata")"
+          pr_author="$(jq -r '.author.login' <<< "$metadata")"
+          base_ref="$(jq -r '.baseRefName' <<< "$metadata")"
+          head_ref="$(jq -r '.headRefName' <<< "$metadata")"
+          head_sha="$(jq -r '.headRefOid' <<< "$metadata")"
+          title_b64="$(jq -r '.title | @base64' <<< "$metadata")"
+
+          [ "$pr_url" = "https://github.com/${GITHUB_REPOSITORY}/pull/${number}" ] || fail "Unexpected PR URL."
+          [ "$pr_author" = "app/github-actions" ] || fail "Only GitHub Actions-authored PRs may enter automated review."
+          [[ "$base_ref" =~ ^[A-Za-z0-9][A-Za-z0-9._/-]*$ ]] || fail "Unsafe base branch name."
+          [[ "$head_ref" =~ ^[A-Za-z0-9][A-Za-z0-9._/-]*$ ]] || fail "Unsafe head branch name."
+          [[ "$head_sha" =~ ^[0-9a-f]{40}$ ]] || fail "Unsafe head commit SHA."
+          [[ "$title_b64" =~ ^[A-Za-z0-9+/]*={0,2}$ ]] || fail "Could not safely encode PR title."
+
+          {
+            echo "found=true"
+            echo "number=$number"
+            echo "title_b64=$title_b64"
+            echo "url=$pr_url"
+            echo "author=$pr_author"
+            echo "base_ref=$base_ref"
+            echo "head_ref=$head_ref"
+            echo "head_sha=$head_sha"
+            echo "head_repo=$head_repo"
+          } >> "$GITHUB_OUTPUT"
 
       - name: Checkout PR branch
         if: ${{ steps.resolve_pr.outputs.found == 'true' }}
+        env:
+          PR_BASE_REF: ${{ steps.resolve_pr.outputs.base_ref }}
+          PR_HEAD_REF: ${{ steps.resolve_pr.outputs.head_ref }}
         run: |
           git fetch origin "${PR_HEAD_REF}:refs/remotes/origin/${PR_HEAD_REF}" "${PR_BASE_REF}:refs/remotes/origin/${PR_BASE_REF}"
           git checkout -B "$PR_HEAD_REF" "refs/remotes/origin/$PR_HEAD_REF"
@@ -143,6 +172,15 @@ jobs:
 
       - name: Run deterministic Beepy PR review
         if: ${{ steps.resolve_pr.outputs.found == 'true' }}
+        env:
+          PR_NUMBER: ${{ steps.resolve_pr.outputs.number }}
+          PR_TITLE_B64: ${{ steps.resolve_pr.outputs.title_b64 }}
+          PR_URL: ${{ steps.resolve_pr.outputs.url }}
+          PR_AUTHOR: ${{ steps.resolve_pr.outputs.author }}
+          PR_BASE_REF: ${{ steps.resolve_pr.outputs.base_ref }}
+          PR_HEAD_REF: ${{ steps.resolve_pr.outputs.head_ref }}
+          PR_HEAD_SHA: ${{ steps.resolve_pr.outputs.head_sha }}
+          PR_HEAD_REPO: ${{ steps.resolve_pr.outputs.head_repo }}
         run: bun run beepy:pr-review:auto
 
       - name: Show final git state

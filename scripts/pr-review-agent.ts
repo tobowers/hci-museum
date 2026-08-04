@@ -23,6 +23,14 @@ function requireEnv(name: string): string {
   return value;
 }
 
+function requirePrTitle(): string {
+  const encoded = process.env.PR_TITLE_B64?.trim();
+  if (!encoded) return requireEnv("PR_TITLE");
+  const title = Buffer.from(encoded, "base64").toString("utf-8");
+  if (!title) die("PR_TITLE_B64 decoded to an empty title");
+  return title;
+}
+
 function readIfExists(file: string): string {
   return fs.existsSync(file) ? fs.readFileSync(file, "utf-8") : "";
 }
@@ -54,7 +62,7 @@ async function main() {
   requireEnv("GH_TOKEN");
 
   const prNumber = requireEnv("PR_NUMBER");
-  const prTitle = requireEnv("PR_TITLE");
+  const prTitle = requirePrTitle();
   const prUrl = requireEnv("PR_URL");
   const prAuthor = requireEnv("PR_AUTHOR");
   const baseRef = requireEnv("PR_BASE_REF");
