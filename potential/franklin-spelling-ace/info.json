@@ -1,0 +1,60 @@
+{
+  "slug": "franklin-spelling-ace",
+  "title": "Franklin Spelling Ace",
+  "year": "1986",
+  "subtitle": "The $90 device that let you type the word wrong and still find the spelling",
+  "why_scout_cares": "The Franklin Spelling Ace (late 1986) inverts the fundamental contract of lookup: the user is expected to enter garbage, and the machine's whole competence is fuzzy matching — comparing your misspelling against a phonetic and typographical error model and ranking the plausible correct words. 'Type it as it sounds' retrieval, two decades before autocorrect made fuzzy matching a mass-market reflex. It is also the artifact that created the 'handheld electronic book' category: a company famous for Apple II clones, bankrupted by a copyright suit, pivoted on the strength of Peter Yianilos' and Proximity Technology's spelling-correction algorithm and sold 800,000+ units in two years. The physical device is a small alphabetical keyboard and LCD; the interaction model — a machine that says 'you probably meant this' — is the point.",
+  "search_terms": ["Franklin Spelling Ace", "SA-88", "Proximity Technology spelling", "electronic spelling machine patent", "Franklin handheld electronic book"],
+  "research": {
+    "title": "Franklin Spelling Ace (SA-88 / SA-98)",
+    "year": "1986",
+    "by": "Franklin Computer Corporation; spelling correction engine by Proximity Technology (Peter N. Yianilos)",
+    "tags": ["Reference", "Handheld", "Retrieval", "Language", "Consumer"],
+    "overview": "The Franklin Spelling Ace was the world's first electronic speller and the product that created the 'handheld electronic book' category. Franklin Computer Corporation, founded in 1981 by three Philadelphia-area computer professionals (Joel Shusterman, Russell Bower, and R. Barry Borden), had built its business on Apple II clones — until Apple won a landmark copyright suit and Franklin paid $2.5 million, filing for Chapter 11 protection in June 1984. The company emerged in 1985 under new chairman and CEO Morton David with a new strategy: instead of one computer in every home, five small specialized computers in every home. In May 1986 Franklin acquired Proximity Technology, the country's largest supplier of linguistic software, whose CEO Peter N. Yianilos became Franklin's chief scientist. The result, introduced later that year at around $90 retail, was the Spelling Ace: a pocket device with an alphabetical keyboard, an 80,000-word English lexicon, and an algorithm that could correct a misspelling even when the user could not spell the word at all.\n\nThe interaction model is the strange part. On a conventional dictionary, you must already know how to spell a word to find it. The Spelling Ace reverses the burden: you type the word the way it sounds — 'fonettickally' — and the machine, applying a correction algorithm that 'considers both typographical and phonetic misspelling' (Yianilos), returns the likely correct spellings, ranked. A '?' wildcard matched unknown letters, and later models added a 'second-guess' key that successively showed words differing in one, then two, positions (US patent 5,249,965). The device also played games (Hangman) and taught spelling instead of merely correcting it. Retailers like K Mart and Sears stocked it after the price dropped to $70; Franklin sold more than 800,000 units in the first two years, posting its first profitable quarter since 1984.",
+    "deepDive": [
+      {
+        "heading": "Origins",
+        "text": "Franklin Computer Corporation (Burlington County, New Jersey) was founded in 1981 by Joel Shusterman, Russell Bower, and R. Barry Borden. Its Apple II clones were commercially successful but legally fatal: Apple sued for copyright infringement, and the precedent-setting ruling — that Apple's ROM operating system was protected expression — pushed Franklin to a $2.5 million settlement and a June 1984 Chapter 11 filing. Morton David took over as chairman and CEO in May 1984 and pivoted the company from clones to handheld publishing. The missing ingredient was a genuinely good spelling-correction algorithm, which arrived with the May 1986 acquisition of Proximity Technology."
+      },
+      {
+        "heading": "Proximity Technology and the algorithm",
+        "text": "Proximity Technology was co-founded in 1979 by Peter N. Yianilos and James H. Simons (who would go on to found Renaissance Technologies). Proximity licensed spell-check and linguistic software to typewriter and computer makers, over a million licenses a year. Its contribution to the Spelling Ace was a correction algorithm that modeled both how people misspell (phonetic substitutions — 'f' for 'ph', dropped vowels) and how they mistype (adjacent keys, transpositions), then ranked candidate words from the Merriam-Webster-derived lexicon. Yianilos himself became Franklin's chief scientist; his personal archive documents the speller series from 1986 onward, including the '?' wildcard and the 'second-guess' key that revealed words differing by one character, then two — a stepwise relaxation of the match that is now a standard interaction in search engines."
+      },
+      {
+        "heading": "The inverted retrieval contract",
+        "text": "The Spelling Ace expects you to be wrong. You type 'definately' or 'fonettickally' or 'acomodate' and the machine responds not with 'NOT FOUND' but with 'definitely', 'phonetically', 'accommodate'. That inversion — a lookup device whose whole value is guessing what you meant — is the HCI point, and it appeared on a $90 keychain-sized consumer device in 1986, years before spell-checkers became standard in word processors and two decades before 'did you mean?' became the most-used feature on the web. The patent (US 4,830,618, 'Electronic spelling machine') explicitly describes the pattern-matching functions: spelling validation, override to list all plausible corrections, and 'place indicia' wildcards that check an input word against every dictionary word with variables."
+      },
+      {
+        "heading": "Commerce and legacy",
+        "text": "The Spelling Ace debuted around $90, dropped to $70, and sold more than 800,000 units in its first two years — triggering Franklin's first profitable quarter since 1984. Franklin commemorated its millionth speller on October 6, 1988. The product line launched the 'handheld electronic book' category that produced Franklin's electronic dictionaries, thesauruses, and the KJ-21 Electronic Bible (1989); by 1998 the company had sold more than 15 million handheld electronic books. Proximity's phonetic-correction lineage is visible today in every search box's 'did you mean', every phone keyboard's autocorrect, and every spell-checker that knows you meant 'definitely'."
+      }
+    ],
+    "team": [
+      { "name": "Joel Shusterman, Russell Bower, R. Barry Borden", "note": "Founders of Franklin Computer Corporation (1981)" },
+      { "name": "Morton David", "note": "Chairman and CEO from May 1984; led the pivot to handheld electronic publishing" },
+      { "name": "Peter N. Yianilos", "note": "Co-founder of Proximity Technology; designer of the spelling-correction algorithm; Franklin chief scientist after the May 1986 acquisition" },
+      { "name": "Proximity Technology", "note": "Linguistic-software company (co-founded 1979 with James H. Simons) acquired by Franklin in 1986" },
+      { "name": "Merriam-Webster", "note": "Licensor of the 80,000-word lexicon" }
+    ],
+    "media": [
+      { "src": "https://web.archive.org/web/20140305102455im_/http://www.pnylab.com/pny/products/spellers/ph/sa98.71p.jpg", "alt": "Franklin Spelling Ace SA-98 handheld", "caption": "A Franklin Spelling Ace. The SA-88 (1986) was the first model; the SA-98 shown here is the successor with the same form factor and interaction. Photo: Peter N. Yianilos / pnylab.com (archived)." },
+      { "src": "https://patentimages.storage.googleapis.com/64/90/0c/10de38deb5c736/US4830618-drawings-page-2.png", "alt": "Figure from US patent 4,830,618 'Electronic spelling machine'", "caption": "Figures from US patent 4,830,618, 'Electronic spelling machine' (assigned to Franklin Computer Corporation), showing the handheld spelling corrector. Public domain, USPTO." }
+    ],
+    "sources": [
+      { "text": "FundingUniverse — Franklin Electronic Publishers, Inc. company history", "url": "http://www.fundinguniverse.com/company-histories/franklin-electronic-publishers-inc-history/" },
+      { "text": "Yianilos — The Franklin Spellers (archived)", "url": "https://web.archive.org/web/20140305102455/http://www.pnylab.com/pny/products/spellers/main.html" },
+      { "text": "Yianilos — About Proximity and Franklin (archived)", "url": "https://web.archive.org/web/20131020102736/http://pnylab.com/pny/products/about/main.html" },
+      { "text": "Wikipedia — Franklin Electronic Publishers", "url": "https://en.wikipedia.org/wiki/Franklin_Electronic_Publishers" },
+      { "text": "US Patent 4,830,618 — Electronic spelling machine (Google Patents)", "url": "https://patents.google.com/patent/US4830618/en" },
+      { "text": "The Ledger — Spelling Ace Is Great Tool for Kids (2008 retrospective)", "url": "https://www.theledger.com/story/news/2008/04/12/spelling-ace-is-great-tool-for-kids/25925552007/" }
+    ],
+    "imageUrls": [
+      "https://web.archive.org/web/20140305102455im_/http://www.pnylab.com/pny/products/spellers/ph/sa98.71p.jpg",
+      "https://patentimages.storage.googleapis.com/64/90/0c/10de38deb5c736/US4830618-drawings-page-2.png"
+    ]
+  },
+  "savedImages": [
+    "potential/franklin-spelling-ace/images/spelling-ace-sa98-1.jpg",
+    "potential/franklin-spelling-ace/images/spelling-ace-patent-2.png"
+  ]
+}

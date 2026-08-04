@@ -1,0 +1,63 @@
+{
+  "slug": "craig-m100-translator",
+  "title": "Craig M100 Hand-Held Translator and Information Center",
+  "year": "1979",
+  "subtitle": "The 1979 pocket translator that flashed two question marks when it got confused",
+  "why_scout_cares": "The Craig M100 (1979) is a genuinely strange machine: a pocket translator whose 'search' key made uncertainty visible. When the dictionary lookup hit a homograph like 'watch', the device signaled its puzzlement with flashing question marks and handed the disambiguation choice back to the user ('WATCH (SEE)' vs 'WATCH (CLOCK)'). That is explicit machine-hesitation as an interface feature, in 1979, two decades before disambiguation became a normal design problem. Nothing else in the museum demonstrates a machine that visibly admits it has multiple hypotheses and asks the human to choose. It also runs on swappable single-language 'Memory Capsules' and has programmed idioms printed on the back of the unit — a strange physical-phrasebook design.",
+  "search_terms": ["Craig M100 translator", "Friends Ami translator", "pocket electronic translator 1979", "Craig Corporation hand-held translator"],
+  "research": {
+    "title": "Craig M100 Hand-Held Translator and Information Center",
+    "year": "1979",
+    "by": "Craig Corporation; built by Friends Ami; invented by Ron Gordon",
+    "tags": ["Translation", "Handheld", "Consumer", "Language", "Uncertainty"],
+    "overview": "The Craig M100 'Hand-Held Translator and Information Center' was one of the two first pocket electronic translators to reach the American market, arriving in early 1979 at $199.95. It was built for Craig Corporation, a California consumer-electronics firm, by a Japanese concern called Friends Ami, and its design is credited to inventor Ron Gordon. The New York Times test-drove it alongside the rival Lexicon LK-3000 in March 1979, calling it 'a tiny electronic machine that translates English into French, German or Spanish.' The same unit was sold by Friends Ami under its own brand as the 'ami MEMORY System.'\n\nPhysically it is a calculator-sized slab with an alphabetical A-Z keyboard (no QWERTY), an LED display, and up to three single-language 'Memory Capsules' installed at once — one for English, one for French, one for German — each holding roughly 9,500 words. Because the capsules are single-language rather than language-pair, all three languages live in the machine simultaneously. Programmed idiomatic expressions are printed on the back of the unit and recalled with a phrase key; a 'learn' key supports language study; a 'hold' key keeps proper names untranslated.\n\nThe strange part is the 'search' key. The M100's dictionary model was literal word-for-word substitution, so homographs were a genuine problem: the machine could not tell a watch (you look at it) from a watch (you wear it). Rather than guessing silently, the NYT described the device signaling 'its puzzlement with question marks' and then letting the user choose — 'WATCH (SEE)' versus 'WATCH (CLOCK)'. The user's manual documents a related wildcard: a '-?-' entry means the word breaks into two phrases. Explicit uncertainty handling, embodied in a $200 pocket gadget in 1979.",
+    "deepDive": [
+      {
+        "heading": "Origins",
+        "text": "Electronic language translation arrived at retail in a burst in late 1978 and early 1979. The Craig M100 was 'expected to begin reaching stores here this month' per the New York Times in March 1979, with unfilled orders dating back to October 1978. Craig Corporation, best known as a consumer audio/electronics brand, contracted the manufacturing to Friends Ami, which also sold the identical hardware as the ami MEMORY System. Inventor Ron Gordon is credited with the design. The M100 sat at the collision of two consumer-electronic dreams of the era: the talking calculator's miniaturization and the science-fiction promise of the universal translator."
+      },
+      {
+        "heading": "The interaction model",
+        "text": "Input is via a compact alphabetical keyboard, not QWERTY — the letters are arranged A-Z, a deliberate choice for a device whose primary audience would not be typists. Output is a small LED display. The three swappable Memory Capsules are the physical brain-swap: the same slab, slotted with different capsules, becomes a different language machine, and because they are single-language capsules up to three can coexist, so the device never needs 'modes' — every installed language is always available. Programmed idioms such as 'How much does it cost?' are printed on the back cover and recalled with a dedicated phrase key, a physical-phrasebook design that treats the printed label on the hardware as part of the interface."
+      },
+      {
+        "heading": "The machine that admits confusion",
+        "text": "The M100's standout interaction is its 'search' key and the visible question marks. Word-for-word translation breaks on homographs, and the M100's designers chose to surface that failure rather than hide it: when the machine hit an ambiguous word, it flashed question marks, and the user pressed search to step through the alternatives ('WATCH (SEE)', 'WATCH (CLOCK)'). This is the 1979 version of 'did you mean?' — except the machine does not offer a guess, it asks you to decide. The manual's '-?-' wildcard extends the same honesty to phrase boundaries. As an HCI artifact, it demonstrates that uncertainty handling was a design question long before speech recognizers and search engines made it a familiar one."
+      },
+      {
+        "heading": "The 1979 press test and its rivals",
+        "text": "The New York Times (Ralph Blumenthal, 'Testing Out Two Pocket Electronic Translators,' March 25, 1979) ran both the Craig M100 and the Lexicon LK-3000 through their paces. The review's sample translation was typical of the state of the art: asking how to buy a gift produced literal word-by-word output that read as strangely as a bad machine translation today. Both devices were the same category, but they embodied opposite philosophies: the LK-3000 stored word-pairs on modules each carrying its own microprocessor; the M100 stored single-language capsules and made its uncertainty explicit on screen."
+      },
+      {
+        "heading": "Commerce and legacy",
+        "text": "The M100 retailed at $199.95 with one capsule, with extra capsules at $29.95 and an AC adapter at $9.95. It was one of the opening shots of the pocket-translator market, which Lexicon, Sharp, and others pushed through the 1980s. The M100 is documented today by the Grolier Club's 'Hardly Harmless Drudgery' exhibition (item 4479), the Handheld Computer Museum (which holds and photographs a working unit), and a scanned copy of the 1979 user manual on the Internet Archive — a rare complete primary record for an obscure consumer device."
+      }
+    ],
+    "team": [
+      { "name": "Ron Gordon", "note": "Inventor credited with the Craig M100 design" },
+      { "name": "Craig Corporation", "note": "California consumer-electronics maker that sold the M100 under the Craig brand" },
+      { "name": "Friends Ami", "note": "The concern that built the device for Craig; also sold it as the 'ami MEMORY System'" },
+      { "name": "Ralph Blumenthal", "note": "New York Times reporter whose March 25, 1979 test-drive is the key period source" }
+    ],
+    "media": [
+      { "src": "https://handheldmuseum.org/images/devices/craig-translator-information-center-m100-0.jpg", "alt": "Craig M100 Hand-Held Translator and Information Center", "caption": "A Craig M100 'Hand-Held Translator and Information Center' (1979). Photo: Handheld Computer Museum." },
+      { "src": "https://archive.org/download/cm_Craig_M100/__ia_thumb.jpg", "alt": "Cover of the Craig M100 user manual", "caption": "Cover of the 1979 Craig M100 user manual. Scanned by the Internet Archive." }
+    ],
+    "sources": [
+      { "text": "New York Times — Testing Out Two Pocket Electronic Translators (March 25, 1979)", "url": "https://www.nytimes.com/1979/03/25/archives/testing-out-two-pocket-electronic-translators.html" },
+      { "text": "Grolier Club — Hardly Harmless Drudgery, item 4479 (Craig M100)", "url": "https://grolierclub.omeka.net/items/show/4479" },
+      { "text": "Handheld Computer Museum — Craig Translator & Information Center M100", "url": "https://handheldmuseum.org/device/craig-translator-information-center-m100/" },
+      { "text": "Internet Archive — Craig M100 user manual (1979)", "url": "https://archive.org/details/cm_Craig_M100" },
+      { "text": "The Paleotechnologist — hands-on retrospective on the Craig M100", "url": "https://www.paleotechnologist.net/?p=5137" },
+      { "text": "CALCUSEUM — Craig M100 / ami MEMORY System notes", "url": "https://www.calcuseum.com/scrapbook/BONUS/46001/1.htm" }
+    ],
+    "imageUrls": [
+      "https://handheldmuseum.org/images/devices/craig-translator-information-center-m100-0.jpg",
+      "https://archive.org/download/cm_Craig_M100/__ia_thumb.jpg"
+    ]
+  },
+  "savedImages": [
+    "potential/craig-m100-translator/images/craig-m100-1.jpg",
+    "potential/craig-m100-translator/images/craig-m100-manual-cover.jpg"
+  ]
+}
