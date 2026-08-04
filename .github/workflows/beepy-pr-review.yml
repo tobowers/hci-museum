@@ -7,8 +7,6 @@ permissions:
   issues: write
 
 on:
-  pull_request_target:
-    types: [opened, reopened, synchronize, ready_for_review]
   schedule:
     - cron: "17,47 * * * *"
   workflow_dispatch:
@@ -18,66 +16,11 @@ on:
         required: false
 
 concurrency:
-  group: beepy-pr-review-${{ github.event.pull_request.number || 'queue' }}
-  cancel-in-progress: ${{ github.event_name == 'pull_request_target' }}
+  group: beepy-pr-review-queue
+  cancel-in-progress: false
 
 jobs:
-  review:
-    if: ${{ github.event.pull_request.head.repo.full_name == github.repository && !github.event.pull_request.draft }}
-    runs-on: ubuntu-latest
-    timeout-minutes: 30
-    env:
-      GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-      GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-      PR_NUMBER: ${{ github.event.pull_request.number }}
-      PR_TITLE: ${{ github.event.pull_request.title }}
-      PR_URL: ${{ github.event.pull_request.html_url }}
-      PR_AUTHOR: ${{ github.event.pull_request.user.login }}
-      PR_BASE_REF: ${{ github.event.pull_request.base.ref }}
-      PR_HEAD_REF: ${{ github.event.pull_request.head.ref }}
-      PR_HEAD_SHA: ${{ github.event.pull_request.head.sha }}
-      PR_HEAD_REPO: ${{ github.event.pull_request.head.repo.full_name }}
-    steps:
-      - name: Checkout PR branch
-        uses: actions/checkout@fbc6f3992d24b796d5a048ff273f7fcc4a7b6c09 # v5
-        with:
-          repository: ${{ github.event.pull_request.head.repo.full_name }}
-          ref: ${{ github.event.pull_request.head.ref }}
-          fetch-depth: 0
-          token: ${{ secrets.GITHUB_TOKEN }}
-
-      - name: Fetch base branch
-        run: git fetch origin "${PR_BASE_REF}:refs/remotes/origin/${PR_BASE_REF}"
-
-      - name: Setup git identity
-        run: |
-          git config user.name "github-actions[bot]"
-          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-
-      - name: Setup Bun
-        uses: oven-sh/setup-bun@0c5077e51419868618aeaa5fe8019c62421857d6 # v2
-
-      - name: Install dependencies
-        run: bun install --frozen-lockfile
-
-      - name: Run deterministic Beepy PR review
-        run: bun run beepy:pr-review:auto
-
-      - name: Show final git state
-        if: ${{ always() }}
-        run: git status --short --branch
-
-      - name: Upload review trace
-        if: ${{ always() }}
-        continue-on-error: true
-        uses: actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02 # v4
-        with:
-          name: beepy-pr-review-trace
-          path: potential/runs/*.pr-review.md
-          retention-days: 1
-
   review-open-beepy-pr:
-    if: ${{ github.event_name != 'pull_request_target' }}
     runs-on: ubuntu-latest
     timeout-minutes: 35
     env:
