@@ -1,0 +1,57 @@
+{
+  "slug": "nortel-displayphone",
+  "title": "Northern Telecom Displayphone",
+  "year": "1982",
+  "subtitle": "The executive phone with a CRT built in — a telephone that was also a terminal",
+  "why_scout_cares": "The Displayphone (1982) is the purest example of the 'phone as computer terminal' idea: a fully functional POTS desk phone with a 7-inch monochrome CRT, a retractable QWERTY keyboard tucked into the base, a 300 bps modem, and soft keys whose functions changed with on-screen labels. You dialed by typing and watched the number echo on the screen, then flipped the keyboard down to become a data user — on the same object, at the same desk. It is the only artifact in the museum that puts the screen on the desk rather than in your hand while keeping the telephone as the frame of the interaction, and its changing-soft-key screen paradigm predates by a decade the LCD softkey phones that later became normal. Verified against the manufacturer's own June 1981 User Guide on the Internet Archive, the Centre for Computing History's preserved NT6K80 unit, and a 1984 Government of Canada report calling it 'the first on the market to integrate voice and data.'",
+  "search_terms": ["Northern Telecom Displayphone", "BNR Displayphone", "integrated voice data terminal 1982", "Nortel NT6K00 NT6K80"],
+  "research": {
+    "title": "Northern Telecom Displayphone",
+    "year": "1982",
+    "by": "Bell-Northern Research (BNR); manufactured by Northern Telecom; marketed by Bell Canada Computer Communications Group",
+    "tags": ["Telephony", "Terminal", "Display", "Business", "Communication"],
+    "overview": "The Northern Telecom Displayphone was an integrated business telephone and data terminal — a single desk object that was simultaneously a two-line POTS phone and a CRT terminal. It was developed by Bell-Northern Research (BNR) in Ottawa, manufactured by Northern Telecom, and marketed by the Computer Communications Group of Bell Canada, which registered 'Displayphone' as a trademark for 'the integrated voice and data terminal.' The first model, the NT6K00, carried a 7-inch monochrome CRT, a retractable QWERTY keyboard stored in the base, a 300 bps modem, a speakerphone, and support for two phone lines. A Government of Canada report on the communications equipment industry (1984) called it 'the first on the market to integrate voice and data.'\n\nIts defining interaction is the marriage of two desks. You dial by pressing keys and watch the number echo in the corner of the CRT; five soft keys change function with on-screen labels (NEXT, PREV, INDEX, CHANGE for paging a 90-number directory; KEEP, RECALL for a call worklist); then the keyboard folds down from under the phone and the same object becomes a data terminal, dialing into remote databases with its built-in modem while the other line carries a voice call. The User Guide (June 1981) sums it up: 'talk to someone while accessing a data base and viewing information on the CRT display.' A self-instructing device 'through its visual prompts and changing soft keys that lead the user from one operation to another.'",
+    "deepDive": [
+      {
+        "heading": "Origins",
+        "text": "The Displayphone came out of Bell-Northern Research in Ottawa, the joint Bell Canada / Northern Electric lab that produced the SL-1 PBX and later the DMS line. BNR and Northern Telecom's long bet of the early 1980s was that voice and data would converge on the desk, and the Displayphone was that convergence made physical — before ISDN, before the desktop PC displaced the terminal, before softkeys were a design trope. The device's conceptual ancestor was Bell Labs' Picturephone, a 'concept looking for a market'; the Displayphone dropped the camera and bet instead that executives wanted a phone with a screen."
+      },
+      {
+        "heading": "The interaction model",
+        "text": "The screen sits on the desk, not in your hand. Dialing is typing: numbers echo in the upper-left of the CRT as you press them. The keyset includes five soft keys whose functions are re-labeled on the display — NEXT, PREV, INDEX and CHANGE page through a 9-category, 90-number directory; KEEP and RECALL manage a call worklist. The # key provides on-screen last-number redial. On-hook dialing and a RELEASE key handle calls without the handset, and a clock, call timer and reminder service turn the phone into a small desktop appliance. Then the retractable keyboard folds down and the phone becomes a terminal: type to access remote services, with the CRT showing both your keystrokes and the remote's responses."
+      },
+      {
+        "heading": "Voice and data at once",
+        "text": "The Displayphone supported two line keys, so a user could hold a voice call on one line while running a data session on the other with the built-in 300 bps modem. The June 1981 User Guide is explicit: 'You can talk to someone while accessing a data base and viewing information on the CRT display.' Simultaneous voice-plus-data on a single desk phone, in the era when a modem still meant an acoustic coupler and a telephone handset pushed into rubber cups. The data side predates the computer-and-modem-as-separate-boxes pattern that became the norm later in the decade."
+      },
+      {
+        "heading": "Commerce and legacy",
+        "text": "The Displayphone was positioned as an executive workstation, sold through Bell Canada's Computer Communications Group; the Centre for Computing History holds an NT6K80 (serial 003164, December 1985) donated by William McDowell. The line did not conquer the market — the desktop PC absorbed the terminal role, and the softkey phone trope took another decade to normalize — but the pattern it set (screen on the phone, changing soft labels, integrated voice and data) became the standard for digital desk phones and, eventually, unified communications. The Centre for Computing History describes it as 'an early attempt to integrate voice and data communication into a single desktop device.'"
+      }
+    ],
+    "team": [
+      { "name": "Bell-Northern Research (BNR)", "note": "The Ottawa lab that developed the Displayphone" },
+      { "name": "Northern Telecom", "note": "Manufacturer of the Displayphone (NT6K00, then NT6K80)" },
+      { "name": "Bell Canada Computer Communications Group", "note": "Marketed the Displayphone; registered the Displayphone trademark" },
+      { "name": "William McDowell", "note": "Donor of the preserved NT6K80 unit at The Centre for Computing History" }
+    ],
+    "media": [
+      { "src": "https://www.computinghistory.org.uk/userdata/images/large/42/78/product-74278.jpg", "alt": "Northern Telecom NT6K80 Displayphone at The Centre for Computing History", "caption": "A Northern Telecom NT6K80 Displayphone (December 1985). Photo: The Centre for Computing History, Cambridge, UK." },
+      { "src": "https://archive.org/download/NorthernTelecom_PO615136_317911_Displayphone_UseGuide_June81/__ia_thumb.jpg", "alt": "Cover of the Displayphone User Guide, June 1981", "caption": "Cover of the Displayphone User Guide, June 1981 (Bell-Northern Research / Northern Telecom). Internet Archive." }
+    ],
+    "sources": [
+      { "text": "Internet Archive — Northern Telecom Displayphone User Guide (June 1981)", "url": "https://archive.org/details/NorthernTelecom_PO615136_317911_Displayphone_UseGuide_June81" },
+      { "text": "The Centre for Computing History — Northern Telecom NT6K80 Displayphone (CH6833)", "url": "https://www.computinghistory.org.uk/det/6833/Northern-Telecom-NT6K80-Displayphone" },
+      { "text": "TERMIUM Plus — 'Displayphone' registered trademark record", "url": "https://www.btb.termiumplus.gc.ca/tpv2alpha/alpha-eng.html?lang=eng&index=enr&srchtxt=DISPLAYPHONE" },
+      { "text": "Government of Canada — The Supply of Communications Equipment in Canada (1984)", "url": "https://archive.org/details/micro_IA40243514_0246" }
+    ],
+    "imageUrls": [
+      "https://www.computinghistory.org.uk/userdata/images/large/42/78/product-74278.jpg",
+      "https://archive.org/download/NorthernTelecom_PO615136_317911_Displayphone_UseGuide_June81/__ia_thumb.jpg"
+    ]
+  },
+  "savedImages": [
+    "potential/nortel-displayphone/images/displayphone-1.jpg",
+    "potential/nortel-displayphone/images/displayphone-manual-cover.jpg"
+  ]
+}

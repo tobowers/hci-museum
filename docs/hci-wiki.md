@@ -163,6 +163,9 @@ Each entry includes an overview, a deep dive, a small media gallery, and full so
 154. [PLATO V Terminal (1981)](#plato-v-terminal-1981)
 155. [Milton (Electronic Talking Game) (1980)](#milton-electronic-talking-game-1980)
 156. [Stop Thief (Electronic Crime Scanner) (1979)](#stop-thief-electronic-crime-scanner-1979)
+157. [Craig M100 Hand-Held Translator and Information Center (1979)](#craig-m100-hand-held-translator-and-information-center-1979)
+158. [Northern Telecom Displayphone (1982)](#northern-telecom-displayphone-1982)
+159. [Franklin Spelling Ace (1986)](#franklin-spelling-ace-1986)
 
 ---
 
@@ -7731,3 +7734,136 @@ Each turn begins when a player presses the C (Clue) button and listens. Players 
 3. WikiMili — Stop Thief (full rules, sounds, and display codes) — https://wikimili.com/en/Stop_Thief
 4. Toy Tales — Stop Thief from Parker Brothers (1979) — https://toytales.ca/stop-thief-from-parker-brothers-1979/
 5. Restoration Games — Stop Thief (2017 reissue) — https://restorationgames.com/stopthief/
+
+---
+
+## Craig M100 Hand-Held Translator and Information Center (1979)
+
+**By:** Craig Corporation; built by Friends Ami; invented by Ron Gordon  
+**Tags:** `Translation` `Handheld` `Consumer` `Language` `Uncertainty`
+
+### Overview
+
+The Craig M100 'Hand-Held Translator and Information Center' was one of the two first pocket electronic translators to reach the American market, arriving in early 1979 at $199.95. It was built for Craig Corporation, a California consumer-electronics firm, by a concern called Friends Ami, and its design is credited to inventor Ron Gordon. The New York Times test-drove it alongside the rival Lexicon LK-3000 in March 1979; the identical hardware was also sold by Friends Ami as the 'ami MEMORY System.'
+
+Physically it is a calculator-sized slab with an alphabetical A-Z keyboard, an LED display, and up to three single-language 'Memory Capsules' installed at once — one each for English, French and German — holding roughly 9,500 words. Because the capsules are single-language rather than language-pair, all installed languages are available simultaneously with no 'mode' switching. Programmed idioms are printed on the back of the unit and recalled with a phrase key; a 'learn' key supports study; a 'hold' key keeps proper names untranslated.
+
+The strange part is the 'search' key. The M100's dictionary model was literal word-for-word substitution, so homographs were a real problem: the machine could not tell a watch (you look at it) from a watch (you wear it). Rather than guessing silently, the device signaled its puzzlement with question marks and handed the choice back to the user — 'WATCH (SEE)' versus 'WATCH (CLOCK)'. The manual documents a related wildcard: a '-?-' entry means the word breaks into two phrases. Explicit uncertainty handling, embodied in a $200 pocket gadget in 1979.
+
+### Deep dive
+
+* **The machine that admits confusion.** The M100's standout interaction is its 'search' key and the visible question marks. When the dictionary lookup hit an ambiguous word, the device flashed question marks and the user stepped through the alternatives. This is the 1979 version of 'did you mean?' — except the machine does not offer a guess, it asks you to decide. It demonstrates that uncertainty handling was a design question long before speech recognizers and search engines made it a familiar one.
+* **Physical brain-swapping with single-language capsules.** The three swappable Memory Capsules are the hardware brain: slotting a different capsule into the same slab changes its language. Because they are single-language, up to three coexist, so the machine is simultaneously an English-French, English-German, and French-German translator with no modes. Programmed idioms printed on the back cover and recalled with a phrase key treat the printed label on the hardware as part of the interface.
+* **Literal translation and its failures.** Word-for-word substitution produced wonderfully strange output. The NYT test-drive of the era's translators captured the state of the art: asking how to buy a gift produced literal, oddly-worded translations. The M100's honesty about ambiguity was the counterpoint — when its model could not decide, it said so.
+* **The 1979 press test.** Ralph Blumenthal's New York Times article 'Testing Out Two Pocket Electronic Translators' (March 25, 1979) ran the M100 against the Lexicon LK-3000. The two devices embodied opposite philosophies: the LK-3000 stored word-pairs on modules each carrying its own microprocessor; the M100 stored single-language capsules and made its uncertainty visible on screen.
+
+### Team
+
+* **Ron Gordon.** Inventor credited with the Craig M100 design.
+* **Craig Corporation.** California consumer-electronics maker that sold the M100 under the Craig brand.
+* **Friends Ami.** The concern that built the device for Craig; also sold it as the 'ami MEMORY System.'
+* **Ralph Blumenthal.** New York Times reporter whose March 25, 1979 test-drive is the key period source.
+
+### Media
+
+![Craig M100 Hand-Held Translator and Information Center](../assets/wiki/craig-m100-translator-1.jpg)
+*A Craig M100 'Hand-Held Translator and Information Center' (1979). Photo: Handheld Computer Museum.*
+
+![Cover of the Craig M100 user manual](../assets/wiki/craig-m100-translator-manual-cover.jpg)
+*Cover of the 1979 Craig M100 user manual. Scanned by the Internet Archive.*
+
+### Sources
+
+1. New York Times — Testing Out Two Pocket Electronic Translators (March 25, 1979) — https://www.nytimes.com/1979/03/25/archives/testing-out-two-pocket-electronic-translators.html
+2. Grolier Club — Hardly Harmless Drudgery, item 4479 (Craig M100) — https://grolierclub.omeka.net/items/show/4479
+3. Handheld Computer Museum — Craig Translator & Information Center M100 — https://handheldmuseum.org/device/craig-translator-information-center-m100/
+4. Internet Archive — Craig M100 user manual (1979) — https://archive.org/details/cm_Craig_M100
+5. The Paleotechnologist — hands-on retrospective on the Craig M100 — https://www.paleotechnologist.net/?p=5137
+6. CALCUSEUM — Craig M100 / ami MEMORY System notes — https://www.calcuseum.com/scrapbook/BONUS/46001/1.htm
+
+---
+
+## Northern Telecom Displayphone (1982)
+
+**By:** Bell-Northern Research (BNR); manufactured by Northern Telecom; marketed by Bell Canada Computer Communications Group  
+**Tags:** `Telephony` `Terminal` `Display` `Business` `Communication`
+
+### Overview
+
+The Northern Telecom Displayphone was an integrated business telephone and data terminal — a single desk object that was simultaneously a two-line POTS phone and a CRT terminal. It was developed by Bell-Northern Research (BNR) in Ottawa, manufactured by Northern Telecom, and marketed by the Computer Communications Group of Bell Canada, which registered 'Displayphone' as a trademark for 'the integrated voice and data terminal.' The first model, the NT6K00, carried a 7-inch monochrome CRT, a retractable QWERTY keyboard stored in the base, a 300 bps modem, a speakerphone, and two phone-line keys. A 1984 Government of Canada report on the communications equipment industry called it 'the first on the market to integrate voice and data.'
+
+Its defining interaction is the marriage of two desks. You dial by pressing keys and watch the number echo in the corner of the CRT; five soft keys change function with on-screen labels (NEXT, PREV, INDEX, CHANGE for paging a 90-number directory; KEEP, RECALL for a call worklist); then the keyboard folds down from under the phone and the same object becomes a data terminal, dialing into remote databases with its built-in modem while the other line carries a voice call. The June 1981 User Guide sums it up: 'talk to someone while accessing a data base and viewing information on the CRT display.' It was, per the same guide, 'self-instructing through its visual prompts and changing soft keys that lead the user from one operation to another.'
+
+### Deep dive
+
+* **The screen on the desk, not in your hand.** The Displayphone is the purest 'phone as terminal' object of the era: dialing is typing, numbers echo on the CRT, and the keyset includes five soft keys whose functions are re-labeled on the display. The 90-number directory is paged with NEXT/PREV/INDEX/CHANGE soft keys; the # key provides on-screen last-number redial; a clock, call timer and reminder service turn the phone into a small desktop appliance.
+* **Voice and data at once.** Two line keys let a user hold a voice call on one line while running a data session on the other with the built-in 300 bps modem — simultaneous voice-plus-data on a single desk phone in the era when a modem still meant an acoustic coupler and a telephone handset pushed into rubber cups. The data side predates the computer-and-modem-as-separate-boxes pattern that became normal later in the decade.
+* **The keyboard folds out.** The retractable QWERTY keyboard stored in the base is the hinge between the two personas: flip it down and the telephone becomes a terminal, with the CRT showing both keystrokes and the remote's responses. One object, two interaction regimes, no separate box.
+* **Commerce and legacy.** The Displayphone was positioned as an executive workstation, sold through Bell Canada's Computer Communications Group. The line did not conquer the market — the desktop PC absorbed the terminal role — but the pattern it set (screen on the phone, changing soft labels, integrated voice and data) became the standard for digital desk phones and, eventually, unified communications. A preserved NT6K80 (December 1985) lives at The Centre for Computing History in Cambridge, UK.
+
+### Team
+
+* **Bell-Northern Research (BNR).** The Ottawa lab that developed the Displayphone.
+* **Northern Telecom.** Manufacturer of the Displayphone (NT6K00, then NT6K80).
+* **Bell Canada Computer Communications Group.** Marketed the Displayphone; registered the Displayphone trademark.
+* **William McDowell.** Donor of the preserved NT6K80 unit at The Centre for Computing History.
+
+### Media
+
+![Northern Telecom NT6K80 Displayphone at The Centre for Computing History](../assets/wiki/nortel-displayphone-1.jpg)
+*A Northern Telecom NT6K80 Displayphone (December 1985). Photo: The Centre for Computing History, Cambridge, UK.*
+
+![Cover of the Displayphone User Guide, June 1981](../assets/wiki/nortel-displayphone-manual-cover.jpg)
+*Cover of the Displayphone User Guide, June 1981 (Bell-Northern Research / Northern Telecom). Internet Archive.*
+
+### Sources
+
+1. Internet Archive — Northern Telecom Displayphone User Guide (June 1981) — https://archive.org/details/NorthernTelecom_PO615136_317911_Displayphone_UseGuide_June81
+2. The Centre for Computing History — Northern Telecom NT6K80 Displayphone (CH6833) — https://www.computinghistory.org.uk/det/6833/Northern-Telecom-NT6K80-Displayphone
+3. TERMIUM Plus — 'Displayphone' registered trademark record — https://www.btb.termiumplus.gc.ca/tpv2alpha/alpha-eng.html?lang=eng&index=enr&srchtxt=DISPLAYPHONE
+4. Government of Canada — The Supply of Communications Equipment in Canada (1984) — https://archive.org/details/micro_IA40243514_0246
+
+---
+
+## Franklin Spelling Ace (1986)
+
+**By:** Franklin Computer Corporation; spelling correction engine by Proximity Technology (Peter N. Yianilos)  
+**Tags:** `Reference` `Handheld` `Retrieval` `Language` `Consumer`
+
+### Overview
+
+The Franklin Spelling Ace was the world's first electronic speller and the product that created the 'handheld electronic book' category. Franklin Computer Corporation, founded in 1981 by three Philadelphia-area computer professionals (Joel Shusterman, Russell Bower, and R. Barry Borden), had built its business on Apple II clones — until Apple won a landmark copyright suit and Franklin paid $2.5 million, filing for Chapter 11 protection in June 1984. The company emerged in 1985 under new chairman and CEO Morton David with a new strategy: instead of one computer in every home, five small specialized computers in every home. In May 1986 Franklin acquired Proximity Technology, the country's largest supplier of linguistic software, whose CEO Peter N. Yianilos became Franklin's chief scientist. The result, introduced later that year at around $90 retail, was the Spelling Ace: a pocket device with an alphabetical keyboard, an 80,000-word English lexicon, and an algorithm that could correct a misspelling even when the user could not spell the word at all.
+
+The interaction model is the strange part. On a conventional dictionary, you must already know how to spell a word to find it. The Spelling Ace reverses the burden: you type the word the way it sounds — 'fonettickally' — and the machine, applying a correction algorithm that 'considers both typographical and phonetic misspelling,' returns the likely correct spellings, ranked. A '?' wildcard matched unknown letters, and later models added a 'second-guess' key that successively showed words differing in one, then two, positions. Retailers like K Mart and Sears stocked it after the price dropped to $70; Franklin sold more than 800,000 units in the first two years, posting its first profitable quarter since 1984.
+
+### Deep dive
+
+* **The inverted retrieval contract.** The Spelling Ace expects you to be wrong. You type 'definately' or 'fonettickally' and the machine responds not with 'NOT FOUND' but with 'definitely' and 'phonetically'. That inversion — a lookup device whose whole value is guessing what you meant — is the HCI point, on a $90 keychain-sized consumer device in 1986, years before spell-checkers became standard in word processors and two decades before 'did you mean?' became the most-used feature on the web.
+* **Proximity Technology and the algorithm.** Proximity was co-founded in 1979 by Peter N. Yianilos and James H. Simons (who would go on to found Renaissance Technologies). Its contribution was a correction algorithm that modeled both how people misspell (phonetic substitutions) and how they mistype (adjacent keys, transpositions), then ranked candidate words from the Merriam-Webster-derived lexicon. US patent 4,830,618, 'Electronic spelling machine,' explicitly describes the pattern-matching functions: spelling validation, a mode listing all plausible corrections, and 'place indicia' wildcards that check an input word against every dictionary word with variables.
+* **Stepwise relaxation of the match.** The '?' wildcard and the 'second-guess' key — showing words differing by one character, then two — are a manual version of edit-distance search: the machine relaxes the match one step at a time until the user recognizes the word. That is now a standard interaction in search engines; on the Spelling Ace it was shipped as a physical key labeled for a child.
+* **Commerce and legacy.** The Spelling Ace debuted around $90, dropped to $70, and sold more than 800,000 units in its first two years — triggering Franklin's first profitable quarter since 1984 and a commemorated millionth speller on October 6, 1988. The line launched the 'handheld electronic book' category that produced Franklin's electronic dictionaries and the KJ-21 Electronic Bible (1989); by 1998 the company had sold more than 15 million handheld electronic books.
+
+### Team
+
+* **Joel Shusterman, Russell Bower, R. Barry Borden.** Founders of Franklin Computer Corporation (1981).
+* **Morton David.** Chairman and CEO from May 1984; led the pivot to handheld electronic publishing.
+* **Peter N. Yianilos.** Co-founder of Proximity Technology; designer of the spelling-correction algorithm; Franklin chief scientist after the May 1986 acquisition.
+* **Proximity Technology.** Linguistic-software company (co-founded 1979 with James H. Simons) acquired by Franklin in 1986.
+* **Merriam-Webster.** Licensor of the 80,000-word lexicon.
+
+### Media
+
+![Franklin Spelling Ace SA-98 handheld](../assets/wiki/franklin-spelling-ace-1.jpg)
+*A Franklin Spelling Ace. The SA-88 (1986) was the first model; the SA-98 shown here is the successor with the same form factor and interaction. Photo: Peter N. Yianilos / pnylab.com (archived).*
+
+![Figures from US patent 4,830,618 'Electronic spelling machine'](../assets/wiki/franklin-spelling-ace-patent-2.png)
+*Figures from US patent 4,830,618, 'Electronic spelling machine' (assigned to Franklin Computer Corporation), showing the handheld spelling corrector. Public domain, USPTO.*
+
+### Sources
+
+1. FundingUniverse — Franklin Electronic Publishers, Inc. company history — http://www.fundinguniverse.com/company-histories/franklin-electronic-publishers-inc-history/
+2. Yianilos — The Franklin Spellers (archived) — https://web.archive.org/web/20140305102455/http://www.pnylab.com/pny/products/spellers/main.html
+3. Yianilos — About Proximity and Franklin (archived) — https://web.archive.org/web/20131020102736/http://pnylab.com/pny/products/about/main.html
+4. Wikipedia — Franklin Electronic Publishers — https://en.wikipedia.org/wiki/Franklin_Electronic_Publishers
+5. US Patent 4,830,618 — Electronic spelling machine (Google Patents) — https://patents.google.com/patent/US4830618/en
+6. The Ledger — Spelling Ace Is Great Tool for Kids (2008 retrospective) — https://www.theledger.com/story/news/2008/04/12/spelling-ace-is-great-tool-for-kids/25925552007/
