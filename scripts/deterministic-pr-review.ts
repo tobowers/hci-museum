@@ -10,7 +10,7 @@ type CommandResult = {
 };
 
 const prNumber = requireEnv("PR_NUMBER");
-const prTitle = requireEnv("PR_TITLE");
+const prTitle = requirePrTitle();
 const prUrl = requireEnv("PR_URL");
 const prAuthor = requireEnv("PR_AUTHOR");
 const baseRef = requireEnv("PR_BASE_REF");
@@ -25,6 +25,14 @@ function requireEnv(name: string): string {
   const value = process.env[name]?.trim();
   if (!value) throw new Error(`${name} missing`);
   return value;
+}
+
+function requirePrTitle(): string {
+  const encoded = process.env.PR_TITLE_B64?.trim();
+  if (!encoded) return requireEnv("PR_TITLE");
+  const title = Buffer.from(encoded, "base64").toString("utf-8");
+  if (!title) throw new Error("PR_TITLE_B64 decoded to an empty title");
+  return title;
 }
 
 function sh(command: string, args: string[], options: { allowFailure?: boolean; maxBuffer?: number } = {}): string {
