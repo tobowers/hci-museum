@@ -1,0 +1,53 @@
+{
+  "slug": "disklavier",
+  "title": "Yamaha Disklavier",
+  "year": "1987",
+  "subtitle": "A real acoustic piano that records your touch to a floppy disk — then plays it back by physically moving the keys",
+  "why_scout_cares": "The Disklavier is a reproducing piano made of sensors and solenoids: fiber-optic sensors watch the keys, hammers, and pedals during a performance and save the data to a 3.5-inch floppy disk; on playback, electromechanical solenoids physically push the keys and pedals of the same acoustic instrument. It is the first mass-market machine in which human performance — including the touch, the half-pedal, the in-between dynamics — becomes data, and data becomes human movement again.",
+  "search_terms": ["Disklavier", "Yamaha reproducing piano", "E-SEQ", "MX100A", "player piano MIDI", "Jean-Claude Risset Duet For One Pianist"],
+  "research": {
+    "title": "Yamaha Disklavier",
+    "year": "1987",
+    "by": "Yamaha Corporation",
+    "tags": ["Music", "Performance Capture", "Sensors", "Physical Output", "MIDI", "Consumer"],
+    "overview": "The Yamaha Disklavier, introduced in the United States in 1987 with the studio upright MX100A, is a real acoustic piano fitted with an electronic recording and playback system. Sensors attached to the keys, hammers, and pedals record a performance and store it on a 3.5-inch double-density floppy disk in Yamaha's E-SEQ format, a forerunner of the Standard MIDI File. On playback, electromechanical solenoids move the keys and pedals of the same acoustic instrument, reproducing the original performance with its actual hammer strikes — no speakers, no samples, just the piano itself playing.\n\nYamaha's earlier 'Piano Player' upright of 1982 and the Japan-market MX100R of 1985 pioneered the record-and-playback floppy-disk system, but the 1987 US-launch MX100A (identified by its red LED display, later models switched to green) made it a mass-market product. The Bösendorfer SE of 1984-1987, built by Wayne Stahnke at around $100,000 for a handful of buyers, had demonstrated studio-grade capture; Yamaha's contribution was to make the reproducing piano a factory option. The Disklavier has since become a standard tool in music education and performance, used by conservatories, composers, and competition organizers.\n\nIts strangest use is as a self-playing instrument with a ghost inside. In 1989 Jean-Claude Risset composed Duet For One Pianist, in which the pianist's notes are processed by an algorithm and sent back to the same piano in real time — the machine answers the performer. Later work by Kyle Gann, Dan Tepfer, and others treats the Disklavier as a composing partner. The Smithsonian's National Museum of American History holds a Disklavier PRO 2000 concept piano.",
+    "deepDive": [
+      {
+        "heading": "Performance as data, keys as actuators",
+        "text": "The core interaction is a capture-and-replay loop through a real acoustic mechanism. Fiber-optic sensors measure the movement of keys, hammers, and pedals during a performance; the data is written to a 3.5-inch floppy in E-SEQ format, the proprietary precursor of Standard MIDI Files. On playback, solenoids physically push the keys and pedals, so the piano's own hammers strike its own strings. Early models recorded hammer velocity; later PRO models captured key-up velocity and sub-MIDI-resolution touch, because normal MIDI's 0-127 velocity range could not express a pianist's full dynamic range."
+      },
+      {
+        "heading": "The machine plays the pianist back",
+        "text": "The Disklavier's defining cultural moment came in 1989, when Jean-Claude Risset wrote Duet For One Pianist at the Laboratoire de mécanique et d'acoustique in Marseille. The pianist's notes are algorithmically transformed — mirrored, delayed, arpeggiated — and sent back to the same piano in real time, so the performer duets with a machine that is literally the same instrument being played by the ghost of their own hands. Risset and Simon Bolzinger built the DKompose library for Max/MSP around this idea. Later composers like Kyle Gann (three Disklaviers tuned to microtonal intervals) and Dan Tepfer (Natural Machines) explored the same 'the piano answers you' paradigm."
+      },
+      {
+        "heading": "From player piano to network instrument",
+        "text": "The Disklavier descends from the pneumatic player piano — the 19th-century instrument that played itself from punched paper rolls — rebuilt with digital sensors and solenoids. Yamaha's later experiments connected Disklaviers over the Internet: in 1997 Ryuichi Sakamoto transmitted a performance to thousands of locations; the Minnesota International Piano-e-Competition used synchronized Disklavier PROs on two continents so a jury member in Japan could experience a pianist playing live in St. Paul. The mechanical delay between MIDI data and audible hammer strike is about a quarter of a second — a physical latency built into the interface itself."
+      }
+    ],
+    "team": [
+      { "name": "Yamaha Corporation", "note": "Manufacturer; introduced the Disklavier in the US in 1987 (MX100A)." },
+      { "name": "Jean-Claude Risset", "note": "Composer; wrote Duet For One Pianist (1989) for live algorithmic interaction with the Disklavier." },
+      { "name": "Simon Bolzinger", "note": "Pianist and researcher; co-developed the DKompose Max/MSP library for interactive Disklavier composition." },
+      { "name": "Wayne Stahnke", "note": "Builder of the Bösendorfer SE (1984-87), the studio-grade reproducing piano that preceded the mass-market Disklavier." }
+    ],
+    "media": [
+      { "src": "https://commons.wikimedia.org/wiki/File:DisklavierView2.jpg", "alt": "Yamaha Disklavier grand piano", "caption": "A Yamaha Disklavier grand piano (photo of the reproducing system in place). Photo: Jsteeber, CC BY 3.0." },
+      { "src": "https://commons.wikimedia.org/wiki/File:Disklavier_internal.jpg", "alt": "Disklavier internal mechanism", "caption": "The Disklavier's internal mechanism — solenoids and sensors mounted above the piano action. Photo: Tjako, CC BY-SA 3.0." },
+      { "src": "https://commons.wikimedia.org/wiki/File:DisklavierPlayer.jpg", "alt": "Disklavier solenoid assembly close-up", "caption": "Close view of the solenoid rail that physically depresses the piano keys during playback. Photo: Kowloonese, CC BY-SA 3.0." }
+    ],
+    "sources": [
+      { "text": "Wikipedia — Disklavier", "url": "https://en.wikipedia.org/wiki/Disklavier" },
+      { "text": "Yamaha — History of the Disklavier (Litterst)", "url": "http://yamahaden.com/history-of-the-disklavier" },
+      { "text": "Smithsonian NMAH — Disklavier PRO 2000 (nmah_1190516)", "url": "https://americanhistory.si.edu/collections/search/object/nmah_1190516" },
+      { "text": "Bolzinger, S. — DKompose: A Package for Interactive Composition in the Max Environment Adapted to the Acoustic MIDI Disklavier Piano (ICMC 1992)", "url": "http://hdl.handle.net/2027/spo.bbp2372.1992.043" },
+      { "text": "Los Angeles Times — Innovative Grand Piano Could Tune Up a Flat Industry (Apr 27 1993)", "url": "https://www.latimes.com/archives/la-xpm-1993-04-27-fi-27871-story.html" }
+    ],
+    "imageUrls": [
+      "https://commons.wikimedia.org/wiki/File:DisklavierView2.jpg",
+      "https://commons.wikimedia.org/wiki/File:Disklavier_internal.jpg",
+      "https://commons.wikimedia.org/wiki/File:DisklavierPlayer.jpg"
+    ]
+  },
+  "savedImages": []
+}
