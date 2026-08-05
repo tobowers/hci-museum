@@ -166,6 +166,8 @@ Each entry includes an overview, a deep dive, a small media gallery, and full so
 157. [Craig M100 Hand-Held Translator and Information Center (1979)](#craig-m100-hand-held-translator-and-information-center-1979)
 158. [Northern Telecom Displayphone (1982)](#northern-telecom-displayphone-1982)
 159. [Franklin Spelling Ace (1986)](#franklin-spelling-ace-1986)
+160. [Fisher-Price PXL2000 / Pixelvision (1987)](#fisher-price-pxl2000--pixelvision-1987)
+161. [Yamaha Disklavier (1987)](#yamaha-disklavier-1987)
 
 ---
 
@@ -7867,3 +7869,100 @@ The interaction model is the strange part. On a conventional dictionary, you mus
 4. Wikipedia — Franklin Electronic Publishers — https://en.wikipedia.org/wiki/Franklin_Electronic_Publishers
 5. US Patent 4,830,618 — Electronic spelling machine (Google Patents) — https://patents.google.com/patent/US4830618/en
 6. The Ledger — Spelling Ace Is Great Tool for Kids (2008 retrospective) — https://www.theledger.com/story/news/2008/04/12/spelling-ace-is-great-tool-for-kids/25925552007/
+
+---
+
+## Fisher-Price PXL2000 / Pixelvision (1987)
+
+**By:** Fisher-Price; invented by James Wickstead  
+**Tags:** `Camera` `Video` `Magnetic Media` `Consumer` `Analog` `Toy`
+
+### Overview
+
+The PXL2000, marketed as Pixelvision, was a toy black-and-white video camera introduced by Fisher-Price at the 1987 International Toy Fair. It recorded both images and sound onto ordinary Compact Cassette tapes, and after roughly one year and about 400,000 units it was pulled from the market. It is the strangest possible answer to the question 'what is a video recorder made of?' — no camcorder tape format, no proprietary cartridge, just a standard audio cassette pushed to nine times its normal speed.
+
+The tape is the whole point of the interaction. The machine runs the cassette at roughly 16.875 inches per second instead of the usual 1.875, fitting eleven minutes of video onto a C90. Video is recorded as a frequency-modulated signal on the left audio channel; the audio commentary lives on the right. A 120x90 CCD is scanned fifteen times per second through a custom Sanyo ASIC (the LA 7306M) and written to the tape, and for viewing the camera outputs through an RF modulator to a television on channel 3 or 4. Inventor James Wickstead sold the rights to Fisher-Price in 1987; US Patent 4,875,107 documents storing video signals on an audio cassette.
+
+After it flopped as a toy, the PXL2000 was rediscovered in the 1990s by low-budget filmmakers who loved its grainy, shimmering monochrome. Sadie Benning made acclaimed video diaries with one as a teenager, Peggy Ahwesh shot Strange Weather entirely on it, Richard Linklater used it in Slacker, and in 1990 Gerry Fialka founded PXL THIS, a film festival devoted entirely to the camera that still runs today. A unit is preserved in the Science Museum Group's collection.
+
+### Deep dive
+
+* **An audio cassette as a video recorder.** The PXL2000 stores eleven minutes of moving image on a C90 audio cassette by running the tape at about nine times normal speed. Because video needs far more bandwidth than audio, the machine sacrifices resolution to fit: a 120x90 CCD scanned 15 times per second, encoded as FM and written to the left channel, with the sound on the right. The same cassette your family used for mixtapes became a video format — capture, storage, and playback all keyed to the most ubiquitous magnetic medium in the house.
+* **The film-format afterlife.** The PXL2000 is a rare case where a product's failure became its interface identity. Its low resolution, soft focus, and image shimmer became an aesthetic. Gerry Fialka founded the PXL THIS festival in 1990; Sadie Benning's teenaged video diaries, Peggy Ahwesh's Strange Weather (1993), and sequences in Richard Linklater's Slacker (1990) and Michael Almereyda's Nadja (1994) all treat the toy's limitations as a way of seeing. Artists wrote about the camera's mortality — each use brings the format closer to extinction — and in 2021 the University of California, Santa Barbara began processing Fialka's PXL THIS archive for preservation.
+* **The economics of a doomed toy.** Introduced at about $179 and later sold as model #3300 at $100 (camera only) and #3305 at $150 (adding a 4.5-inch portable black-and-white TV monitor), the PXL2000 was too expensive for a child's toy and too crude for a serious camcorder. It survived about one year and roughly 400,000 units. Variants appeared under the Fisher-Price PixelVision name and as the Sanwa Sanpix1000, KiddieCorder, and Georgia. A textbook case of ambition outrunning its market.
+
+### Team
+
+* **James Wickstead.** Inventor; sold the PXL2000 rights to Fisher-Price at the 1987 American International Toy Fair.
+* **Fisher-Price.** Toy manufacturer that released and then pulled the PXL2000.
+* **Gerry Fialka.** Founded the PXL THIS festival in 1990; his archive is held at UC Santa Barbara.
+* **Sadie Benning.** Video artist who made acclaimed PXL2000 diaries as a teenager.
+
+### Media
+
+![Fisher-Price PXL2000 Pixelvision toy camcorder](../assets/wiki/pxl2000-1.jpg)
+*The Fisher-Price PXL2000 Pixelvision camcorder (1987). Photo: EB Morse, CC BY 2.0, Wikimedia Commons.*
+
+![PXL2000 held with its cassette media](../assets/wiki/pxl2000-2.jpg)
+*A PXL2000 held with its cassette media. Photo: Bullenwächter, CC BY-SA 4.0, Wikimedia Commons.*
+
+![PXL2000 camera on a light background](../assets/wiki/pxl2000-3.jpg)
+*PXL2000 camera on a light background. Public domain, Wikimedia Commons.*
+
+![PixelVision PXL2000 with its viewfinder/monitor](../assets/wiki/pxl2000-4.jpg)
+*PixelVision PXL2000 with its small viewfinder/monitor. Photo: Joe Lillibridge, CC BY-SA 2.0, Wikimedia Commons.*
+
+### Sources
+
+1. Wikipedia — PXL2000 — https://en.wikipedia.org/wiki/PXL2000
+2. New York Times — As Simple as Black and White (Revkin, Jan 22 2000) — https://www.nytimes.com/2000/01/22/nyregion/simple-black-white-children-s-toy-reborn-avant-garde-filmmaking-tool.html
+3. US Patent 4875107 — Apparatus for storing video signals on audio cassette — http://www.freepatentsonline.com/4875107.html
+4. IndieWire — Pixelvision: How a Failed '80s Fisher-Price Toy Camera Became One of Auteurs' Favorite '90s Tools — https://www.indiewire.com/2018/08/pixelvision-pxl-2000-fisher-price-toy-experimental-film-camera-lincoln-center-series-1201991348/
+5. UCSB Library — Gerry Fialka PXL THIS Archive (PA Mss 231) — https://www.library.ucsb.edu/gerry-fialka-pxl-archive-pa-mss-231
+
+---
+
+## Yamaha Disklavier (1987)
+
+**By:** Yamaha Corporation  
+**Tags:** `Music` `Performance Capture` `Sensors` `Physical Output` `MIDI` `Consumer`
+
+### Overview
+
+The Yamaha Disklavier, introduced in the United States in 1987 with the studio upright MX100A, is a real acoustic piano fitted with an electronic recording and playback system. Sensors attached to the keys, hammers, and pedals record a performance and store it on a 3.5-inch double-density floppy disk in Yamaha's E-SEQ format, a forerunner of the Standard MIDI File. On playback, electromechanical solenoids move the keys and pedals of the same acoustic instrument, reproducing the original performance with its actual hammer strikes — no speakers, no samples, just the piano itself playing.
+
+Yamaha's earlier 'Piano Player' upright of 1982 and the Japan-market MX100R of 1985 pioneered the record-and-playback floppy-disk system, but the 1987 US-launch MX100A (identified by its red LED display; later models switched to green) made it a mass-market product. The Bösendorfer SE of 1984-1987, built by Wayne Stahnke at around $100,000 for a handful of buyers, had demonstrated studio-grade capture; Yamaha's contribution was to make the reproducing piano a factory option. The Disklavier has since become a standard tool in music education and performance, used by conservatories, composers, and competition organizers.
+
+Its strangest use is as a self-playing instrument with a ghost inside. In 1989 Jean-Claude Risset composed Duet For One Pianist, in which the pianist's notes are processed by an algorithm and sent back to the same piano in real time — the machine answers the performer. Later work by Kyle Gann, Dan Tepfer, and others treats the Disklavier as a composing partner. The Smithsonian's National Museum of American History holds a Disklavier PRO 2000 concept piano.
+
+### Deep dive
+
+* **Performance as data, keys as actuators.** The core interaction is a capture-and-replay loop through a real acoustic mechanism. Fiber-optic sensors measure the movement of keys, hammers, and pedals during a performance; the data is written to a 3.5-inch floppy in E-SEQ format, the proprietary precursor of Standard MIDI Files. On playback, solenoids physically push the keys and pedals, so the piano's own hammers strike its own strings. Early models recorded hammer velocity; later PRO models captured key-up velocity and sub-MIDI-resolution touch, because normal MIDI's 0-127 velocity range could not express a pianist's full dynamic range.
+* **The machine plays the pianist back.** The Disklavier's defining cultural moment came in 1989, when Jean-Claude Risset wrote Duet For One Pianist at the Laboratoire de mécanique et d'acoustique in Marseille. The pianist's notes are algorithmically transformed — mirrored, delayed, arpeggiated — and sent back to the same piano in real time, so the performer duets with a machine that is literally the same instrument being played by the ghost of their own hands. Risset and Simon Bolzinger built the DKompose library for Max/MSP around this idea. Later composers like Kyle Gann (three Disklaviers tuned to microtonal intervals) and Dan Tepfer (Natural Machines) explored the same 'the piano answers you' paradigm.
+* **From player piano to network instrument.** The Disklavier descends from the pneumatic player piano — the 19th-century instrument that played itself from punched paper rolls — rebuilt with digital sensors and solenoids. Yamaha's later experiments connected Disklaviers over the Internet: in 1997 Ryuichi Sakamoto transmitted a performance to thousands of locations, and the Minnesota International Piano-e-Competition used synchronized Disklavier PROs on two continents so a jury member in Japan could experience a pianist playing live in St. Paul. The mechanical delay between MIDI data and audible hammer strike is about a quarter of a second — a physical latency built into the interface itself.
+
+### Team
+
+* **Yamaha Corporation.** Manufacturer; introduced the Disklavier in the US in 1987 (MX100A).
+* **Jean-Claude Risset.** Composer; wrote Duet For One Pianist (1989) for live algorithmic interaction with the Disklavier.
+* **Simon Bolzinger.** Pianist and researcher; co-developed the DKompose Max/MSP library for interactive Disklavier composition.
+* **Wayne Stahnke.** Builder of the Bösendorfer SE (1984-87), the studio-grade reproducing piano that preceded the mass-market Disklavier.
+
+### Media
+
+![Yamaha Disklavier grand piano](../assets/wiki/disklavier-1.jpg)
+*A Yamaha Disklavier grand piano with the reproducing system in place. Photo: Jsteeber, CC BY 3.0, Wikimedia Commons.*
+
+![Disklavier internal mechanism](../assets/wiki/disklavier-2.jpg)
+*The Disklavier's internal mechanism — solenoids and sensors mounted above the piano action. Photo: Tjako, CC BY-SA 3.0, Wikimedia Commons.*
+
+![Disklavier solenoid assembly close-up](../assets/wiki/disklavier-3.jpg)
+*Close view of the solenoid rail that physically depresses the piano keys during playback. Photo: Kowloonese, CC BY-SA 3.0, Wikimedia Commons.*
+
+### Sources
+
+1. Wikipedia — Disklavier — https://en.wikipedia.org/wiki/Disklavier
+2. Yamaha — History of the Disklavier (Litterst) — http://yamahaden.com/history-of-the-disklavier
+3. Smithsonian NMAH — Disklavier PRO 2000 (nmah_1190516) — https://americanhistory.si.edu/collections/search/object/nmah_1190516
+4. Bolzinger, S. — DKompose: A Package for Interactive Composition in the Max Environment Adapted to the Acoustic MIDI Disklavier Piano (ICMC 1992) — http://hdl.handle.net/2027/spo.bbp2372.1992.043
+5. Los Angeles Times — Innovative Grand Piano Could Tune Up a Flat Industry (Apr 27 1993) — https://www.latimes.com/archives/la-xpm-1993-04-27-fi-27871-story.html
