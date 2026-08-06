@@ -1,0 +1,64 @@
+{
+  "slug": "pfaff-creative-1471",
+  "title": "Pfaff Creative 1471",
+  "year": "1984",
+  "subtitle": "The first domestic computer that sewed",
+  "why_scout_cares": "A microprocessor-driven home sewing machine with an LCD readout, push-button stitch selection, and user-programmable stitch memory — the first domestic embedded computer the collection has ever had. Millions of households, mostly women, interacted daily with a programmable memory-equipped machine years before 'ubiquitous computing' had a name. Genuinely 'commercially odd': a computer that sews, whose programming model visibly bleeds into the physical world (stitch-count buttonholes that drift when the fabric bunches). Fills a completely empty niche.",
+  "search_terms": [
+    "Pfaff Creative 1471",
+    "computerized sewing machine",
+    "first programmable sewing machine",
+    "Bernina 1130",
+    "Husqvarna Viking computerized",
+    "IDT integrated dual transport"
+  ],
+  "research": {
+    "title": "Pfaff Creative 1471",
+    "year": "1984",
+    "by": "G.M. Pfaff AG, Kaiserslautern, West Germany",
+    "tags": ["Domestic Appliance", "Embedded Computing", "Physical Output", "Consumer"],
+    "overview": "The Pfaff Creative 1471 was the first Pfaff sewing machine with a built-in computer, a display readout, and the ability for the user to program in their own stitches. Pfaff's official corporate history dates the milestone to 1984: 'PFAFF released their first computerized sewing machine with IDT and the ability to program in your own stitches.' (A 1979 Pfaff was the world's first 'programmable' sewing machine — electronic pattern memory without a display; the 1984 model added the computer proper, display, and user programming.) The machine was made by G.M. Pfaff AG in Kaiserslautern, West Germany, and sold for roughly US$1,000–1,400 at launch.\n\nThe interaction model is what makes it an HCI artifact rather than just an appliance. Where earlier machines had stitch patterns cut into physical cams, the 1471's microprocessor selected stitch shapes in software. The user picked from 99+ built-in stitches via push-buttons on a control panel, read the stitch number and settings off an LCD display, and could chain stitches into a sequence, store it in memory, and recall it later — the machine then executed the programmed decorative stitch run. It also carried Pfaff's signature IDT (Integrated Dual Transport) feed dogs for even fabric feeding, and a one-step buttonhole that worked by counting stitches rather than stitching to a mechanical end-stop — a quirk owners document: if the fabric bunched, the count drifted and the buttonhole came out wrong. A computer's counting model, leaking into the physical world.\n\nThe Creative 1471's line continued through the 1473 and the 1475CD (1991, which added 214 stitches and Creative design software on floppy disk). Its era rivals were the Bernina 1130 (1986, the first computerized Bernina) and the Husqvarna Viking 'Computer' series. The Pfaff brand later passed to Husqvarna Viking (1999) and then to SVP Worldwide (2006), which still produces Pfaff machines today.",
+    "deepDive": [
+      {
+        "heading": "From cams to software",
+        "text": "Before the 1471, decorative stitches were cut into metal cams — a physical, mechanical pattern library. The 1471 replaced cams with a microprocessor: stitch shapes became data, selected by buttons and executed by the motor under software control. This is the same conceptual shift the museum tracks elsewhere — physical encoding becoming digital — but in the most domestic context imaginable."
+      },
+      {
+        "heading": "Programmable stitch sequences",
+        "text": "The 'computer' part of the machine was its memory. Users could chain stitches into a sequence, store the sequence, and recall it to run a programmed decorative pattern. Pfaff's 1988 follow-up, the creative Designer feature, let users create and copy their own stitches — user-authored pattern data, a decade before embroidery software on home PCs."
+      },
+      {
+        "heading": "The stitch-count buttonhole",
+        "text": "The 1471 made one-step buttonholes by counting stitches from the start point rather than stitching to a mechanical stop. Owners document that if the fabric bunched under the foot, the count drifted and the buttonhole came out wrong. It is a perfect example of a digital abstraction (counting) imperfectly mapped onto a physical process (sewing) — the texture of early embedded computing in the home."
+      },
+      {
+        "heading": "Who used computers",
+        "text": "The sewing machine market was enormous and overwhelmingly female. Pfaff machines sold in the hundreds of thousands; a computerized Pfaff in the mid-1980s meant a domestic computer in households that might never touch a PC. The museum's collection is otherwise full of computers for work, school, and play — this is the first one that lived in the sewing room."
+      }
+    ],
+    "team": [
+      { "name": "G.M. Pfaff AG", "note": "Manufacturer, Kaiserslautern, West Germany. Founded 1862 by Georg Michael Pfaff; the founding machine is in the Deutsches Museum, Munich." },
+      { "name": "Pfaff engineers", "note": "No individual engineers are named in accessible sources for the 1471; the German corporate history (Rolf Müller, 'Pfaff Dokumentation') would be the primary lead." }
+    ],
+    "media": [
+      { "src": "https://upload.wikimedia.org/wikipedia/commons/c/c5/Pfaff_select_1538.jpg", "alt": "Pfaff select 1538 computerized sewing machine", "caption": "A later computerized Pfaff (select 1538) shown as representative of the push-button + display control panel family introduced with the Creative 1471. Photo: CC BY-SA 3.0, Wikimedia Commons." },
+      { "src": "https://upload.wikimedia.org/wikipedia/commons/8/82/1130_sw_ori.jpg", "alt": "Bernina 1130 computerized sewing machine", "caption": "The Bernina 1130 (1986), the first computerized Bernina and the era rival of the Creative 1471. Photo: BERNINA International AG, CC BY-SA 3.0, Wikimedia Commons." }
+    ],
+    "sources": [
+      { "text": "PFAFF official history (SVP Worldwide/Singer Europe) — 1979 programmable, 1984 computerized", "url": "https://europe.singer.com/pages/pfaff-about-us" },
+      { "text": "PatternReview — Pfaff 1471 owner reports and pricing", "url": "https://sewing.patternreview.com/SewingMachine/135" },
+      { "text": "Wikipedia — Pfaff (company history)", "url": "https://en.wikipedia.org/wiki/Pfaff" },
+      { "text": "Wikipedia — Bernina International (1130, 1986–89, first computerized Bernina)", "url": "https://en.wikipedia.org/wiki/Bernina_International" },
+      { "text": "Wikipedia — Sewing machine (electronic machines section)", "url": "https://en.wikipedia.org/wiki/Sewing_machine" },
+      { "text": "ISMACS — History of the Pfaff Sewing Machine Company", "url": "https://ismacs.net/pfaff/history-of-the-pfaff-sewing-machine-company.html" }
+    ],
+    "imageUrls": [
+      "https://upload.wikimedia.org/wikipedia/commons/c/c5/Pfaff_select_1538.jpg",
+      "https://upload.wikimedia.org/wikipedia/commons/8/82/1130_sw_ori.jpg"
+    ]
+  },
+  "savedImages": [
+    "images/pfaff-select-1538.jpg",
+    "images/bernina-1130.jpg"
+  ]
+}

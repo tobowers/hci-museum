@@ -1,0 +1,67 @@
+{
+  "slug": "strand-light-palette",
+  "title": "Strand Light Palette",
+  "year": "1978",
+  "subtitle": "The lighting designer's command line",
+  "why_scout_cares": "The archetype of a dedicated computer whose interface is a domain-specific command language for a non-programmer creative professional. The Light Palette was the first lighting console to put a CRT display on a theatre desk and let designers type sentences like 'CH 1 @ 5' on a dedicated keypad to record and play back lighting cues. Its command-line and tracking philosophy became the US industry standard and still lives in every modern ETC lighting desk. Direct sibling of the museum's SGI Dial and Button Box, Tektronix 7854, and Aesthedes — a professional specialized computer interface, in a category (entertainment/performance HCI) the museum has never covered.",
+  "search_terms": [
+    "Strand Light Palette",
+    "Strand Century lighting console",
+    "David Cunningham lighting designer",
+    "computerized lighting control memory console",
+    "Light Palette history"
+  ],
+  "research": {
+    "title": "Strand Light Palette",
+    "year": "1978",
+    "by": "Strand Century, Inc. (designed by David Cunningham)",
+    "tags": ["Professional Interface", "Command Language", "Physical Output", "Theatre"],
+    "overview": "The Strand Century Light Palette, introduced in 1978, was the first lighting control console to make a CRT readout and command-line input the working tools of the commercial theatre. Designed by David Cunningham at Strand Century (the US arm of Rank Strand), it was a microprocessor-based memory system controlling 512 dimmers on 256 control channels, with electronic dimmer-to-channel patching, eight submasters, and up to 200 stored cues. Strand's own 1987 retrospective, 'The Three Hundredth Milestone,' describes it as implementing 'a Command Line control technique in which most instructions were entered digitally in a sentence format' and says the console 'launched an entire philosophy of control — a philosophy which is now the US industry standard.' The Light Palette's design was based on the familiar two-scene-preset 'piano board' approach to lighting control, translated into computer memory.\n\nA lighting designer worked with the Palette by typing instructions on a dedicated keypad — channel numbers, levels, and timings in sentence format — watching the cue sheet and levels on the console's CRT, and pressing GO to execute. Cues could contain up to six simultaneously active parts, each with its own fade time, split up/down times, delay, and fade profile. Features like 'group' recording, electronic (soft) patching, and computerized cue sheets were considered revolutionary at the time. Strand's slogan for the machine was 'Painting with Light.'\n\nThe first Light Palette was installed at the Goodspeed Opera House in East Haddam, Connecticut; its Broadway premiere came during the 1977–78 season, first used on Beatlemania (lit by Jules Fisher). By 1987, nine years after launch, 300 Light Palette family systems had been sold; the Light Palette 90 alone sold over 700 units. The family grew to include the MiniPalette (1980), Mini Light Palette (1982), Light Palette II (1984), LP/3 (1987), and Light Palette 90 (1989). LP/3 let the operator choose tracking vs. cue-only recording and the number of playback faders versus submasters — the interaction personality itself became software. The Light Palette I was discontinued in April 1988 after a decade. Its command-line philosophy is the direct ancestor of the ETC Eos command line still used on professional lighting desks today.",
+    "deepDive": [
+      {
+        "heading": "The command line on Broadway",
+        "text": "Lighting designers are not programmers, yet the Palette asked them to type channel/level sentences on a dedicated keypad and read the state of the show on a CRT. This was the first time a theatre console presented its state on a screen ('the first use of VDUs in lighting control,' per Theatrecrafts) rather than on physical faders. The interaction was deliberately built on the piano-board model designers already knew — the computer was a means to artistic control, not a replacement for the human element."
+      },
+      {
+        "heading": "Cues as software",
+        "text": "A cue on the Palette could contain up to six simultaneous parts, each with independent fade time, split up/down times, delay, and fade profile. Group recording, electronic patching, and computerized cue sheets let a designer build a show as structured data. LP/3 (1987) went further: the operator selected tracking versus cue-only recording, and the number of playback faders versus submasters — the console's interaction personality became a user-selectable software mode."
+      },
+      {
+        "heading": "Syntax carried between venues",
+        "text": "Designers specifically requested Mini Light Palettes on rental jobs because they wanted a tracking console that shared syntax with the big Palette — they carried the command language in their heads between venues, like a natural language. This is the strongest possible evidence that the interface was genuinely a language, not just a panel layout."
+      },
+      {
+        "heading": "Lineage and legacy",
+        "text": "The Palette descended from Strand's earlier Multi-Q (1976) and Micro-Q (1977) memory consoles and was competed against by Gordon Pearlman's EDI LS-8 (1975, used on A Chorus Line) and Kliegl Performance (1977). Its command-line + tracking paradigm became the US industry standard and survives in every modern ETC Eos desk. The Light Palette name was revived by Strand on modern hardware in 2006."
+      }
+    ],
+    "team": [
+      { "name": "David Cunningham", "note": "Designer of the Light Palette at Strand Century; earlier Multi-Q (1976) and Micro-Q (1977); later designed the ETC Source Four fixture. Awarded the 2015 Parnelli Visionary Award." },
+      { "name": "Strand Century, Inc.", "note": "Manufacturer; the US arm of Rank Strand (a Rank Organisation company), based in New York." },
+      { "name": "Anne Morris", "note": "Strand Lighting control product manager; author of the 1987 retrospective 'The Three Hundredth Milestone.'" }
+    ],
+    "media": [
+      { "src": "https://www.theatrecrafts.com/archive/documents/photo_light_palette_1978.jpg", "alt": "Strand Light Palette 1978 period photograph", "caption": "The Strand Light Palette (1978), period photograph. Source: Strand Archive, via Theatrecrafts Backstage Heritage Collection." },
+      { "src": "https://www.theatrecrafts.com/archive/documents/lightpalette1_01.jpg", "alt": "Light Palette console with command-line keypad and CRT", "caption": "Light Palette console with its dedicated command-line keypad and CRT readout. Source: David Cunningham Collection, via Theatrecrafts Backstage Heritage Collection." },
+      { "src": "https://www.theatrecrafts.com/archive/documents/lightpalette1_02.jpg", "alt": "Light Palette playback faders and keypad detail", "caption": "Close view of the Light Palette's playback surface. Source: David Cunningham Collection, via Theatrecrafts Backstage Heritage Collection." }
+    ],
+    "sources": [
+      { "text": "Theatrecrafts BHC — Light Palette equipment page (includes Strand's 1987 'The Three Hundredth Milestone')", "url": "https://www.theatrecrafts.com/bhc/equipment/strand-light-palette" },
+      { "text": "The Strand Archive — Light Palette catalogue page", "url": "http://www.strandarchive.co.uk/control/c_memory/lightpalette/lightpalette.html" },
+      { "text": "Theatrecrafts BHC — David Cunningham biography", "url": "https://www.theatrecrafts.com/pages/home/archive/people/david-cunningham/" },
+      { "text": "ControlBooth — Memory Lighting Control Systems, History (industry timeline)", "url": "http://controlbooth.com/threads/memory-lighting-control-systems-history.9203/" },
+      { "text": "Theatrecrafts BHC — Kliegl Performer page (Gordon Pearlman's first-person account, competitive context)", "url": "https://www.theatrecrafts.com/bhc/equipment/kliegl-performer" },
+      { "text": "Theatrecrafts BHC — Skirpan Autocue (1973), predecessor context", "url": "https://www.theatrecrafts.com/bhc/equipment/skirpan-autocue" }
+    ],
+    "imageUrls": [
+      "https://www.theatrecrafts.com/archive/documents/photo_light_palette_1978.jpg",
+      "https://www.theatrecrafts.com/archive/documents/lightpalette1_01.jpg",
+      "https://www.theatrecrafts.com/archive/documents/lightpalette1_02.jpg"
+    ]
+  },
+  "savedImages": [
+    "images/lightpalette-1978-photo.jpg",
+    "images/lightpalette-console-1.jpg",
+    "images/lightpalette-console-2.jpg"
+  ]
+}
