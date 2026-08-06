@@ -168,6 +168,9 @@ Each entry includes an overview, a deep dive, a small media gallery, and full so
 159. [Franklin Spelling Ace (1986)](#franklin-spelling-ace-1986)
 160. [Fisher-Price PXL2000 / Pixelvision (1987)](#fisher-price-pxl2000--pixelvision-1987)
 161. [Yamaha Disklavier (1987)](#yamaha-disklavier-1987)
+162. [Yamaha CX5M Music Computer (1984)](#yamaha-cx5m-music-computer-1984)
+163. [Pfaff Creative 1471 (1984)](#pfaff-creative-1471-1984)
+164. [Strand Light Palette (1978)](#strand-light-palette-1978)
 
 ---
 
@@ -895,6 +898,14 @@ HandyKey was acquired by Canadian firm Tek Gear in 2007. In 2024 the Twiddler 4 
 | Mandala | `mandala-video-thumb-2.jpg` | Demo thumbnail | [YouTube](https://www.youtube.com/watch?v=h6xHpyJQ6GQ) |
 | Twiddler | `twiddler-original-1.png` | Original 1992 Twiddler | [Wikimedia Commons](https://en.wikipedia.org/wiki/Twiddler) |
 | Twiddler | `twiddler-lgr-thumb-2.jpg` | LGR overview thumbnail | [YouTube](https://www.youtube.com/watch?v=HhJGrATZCl0) |
+| Yamaha CX5M | `cx5m-mim-brussels.jpg` | CX5M set at MIM Brussels | [Wikimedia Commons](https://commons.wikimedia.org/wiki/Category:Yamaha_CX5M) |
+| Yamaha CX5M | `cx5m-angled.jpg` | Personal Computer Museum, Brantford | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:YAMAHA_CX5M_MSX_Music_Computer_(angled).jpg) |
+| Yamaha CX5M | `cx5m-sfg01-board.jpg` | SFG-01 internals, YM2151 chip | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:SFG-01_00A.jpg) |
+| Pfaff Creative 1471 | `pfaff-select-1538.jpg` | Representative later Pfaff (select 1538) | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Pfaff_select_1538.jpg) |
+| Pfaff Creative 1471 | `bernina-1130.jpg` | Bernina 1130 (era rival) | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:1130_sw_ori.jpg) |
+| Strand Light Palette | `lightpalette-1978-photo.jpg` | 1978 period photograph | [Theatrecrafts BHC](https://www.theatrecrafts.com/bhc/equipment/strand-light-palette) |
+| Strand Light Palette | `lightpalette-console-1.jpg` | Console with keypad and CRT | [Theatrecrafts BHC](https://www.theatrecrafts.com/bhc/equipment/strand-light-palette) |
+| Strand Light Palette | `lightpalette-console-2.jpg` | Playback surface | [Theatrecrafts BHC](https://www.theatrecrafts.com/bhc/equipment/strand-light-palette) |
 
 ---
 
@@ -7966,3 +7977,144 @@ Its strangest use is as a self-playing instrument with a ghost inside. In 1989 J
 3. Smithsonian NMAH — Disklavier PRO 2000 (nmah_1190516) — https://americanhistory.si.edu/collections/search/object/nmah_1190516
 4. Bolzinger, S. — DKompose: A Package for Interactive Composition in the Max Environment Adapted to the Acoustic MIDI Disklavier Piano (ICMC 1992) — http://hdl.handle.net/2027/spo.bbp2372.1992.043
 5. Los Angeles Times — Innovative Grand Piano Could Tune Up a Flat Industry (Apr 27 1993) — https://www.latimes.com/archives/la-xpm-1993-04-27-fi-27871-story.html
+
+---
+
+## Yamaha CX5M Music Computer (1984)
+
+**By:** Yamaha Corporation  
+**Tags:** `Music` `MSX` `Computer Music` `MIDI` `Consumer`
+
+### Overview
+
+The Yamaha CX5M, introduced in 1984, is an MSX-standard computer built around a Yamaha FM synthesizer. It was one of only two MSX machines ever sold in North America (alongside Spectravideo's), and it was marketed not as a computer but as a Music Computer — sold in music stores, not computer shops. The machine boots to Microsoft MSX BASIC; a built-in SFG-01 module carries the 8-voice, 4-operator YM2151 FM chip (the voice architecture family of the DX9/DX21/DX100), with stereo audio outputs, a connector for Yamaha's YK-10 music keyboard, and MIDI ports. The whole point of the machine was making music, and the QWERTY computer keyboard was the primary composition instrument.
+
+Music was made through software cartridges rather than piano-style playing. The YRM-101 FM Music Composer cartridge presented a musical-stave editing screen where the user entered notes step-time from the QWERTY keyboard — no real-time recording. The YRM-104 Music Macro cartridge made the synthesizer programmable from BASIC with commands like `_INST(1)` and `_PHRASE(1,"cdefg")`. YRM-102/502 let you program banks of 48 voices; YRM-103 was a DX7 voicing cartridge that gave the notoriously cryptic DX7 a real screen for editing patches. First CX5M units could only send MIDI out (to a DX7); the CX5M II / CX7M-128 (1986) added the SFG-05 module with MIDI input, and the FB-01 (1986) was essentially the SFG-05 in a standalone box.
+
+The CX5M sold for about £1,000 in the UK in 1985 and was a commercial niche product that failed to crack the US market. Its cartridge software and ROMs are preserved and emulated today; a complete CX5M set is in the collection of the Musée des Instruments de Musique in Brussels, and another is held by the HomeComputerMuseum in the Netherlands.
+
+### Deep dive
+
+* **Composition by typing.** The defining interaction is step-time text entry as music composition. In FM Music Composer, notes were placed on a stave using QWERTY keys; in Music Macro, whole phrases were typed as strings inside BASIC (`_PHRASE(1,"cdefg")`). Contemporaries described it as a daunting task — everything had to be entered via the keyboard. This inverts the Fairlight's professional graphical composition into a consumer textual one, and it anchors the 'text keyboard as music input' tradition that runs down to Csound-style programming. The piano-style YK-10 was an optional bolt-on, not the point.
+* **The DX7 voicing story.** The DX7 — the best-selling synthesizer in history — had a famously cryptic two-line LCD for programming its FM voices. The CX5M's YRM-103 DX7 Voicing cartridge connected the computer to a DX7 over MIDI and let the user edit the synth's patches on the CX5M's full screen. The machine's headline pitch to musicians was literally that a computer could fix the worst interface in electronic music.
+* **MSX in America.** Yamaha was a founding member of the MSX consortium (launched 1983 by Kazuhiko Nishi's ASCII and Microsoft Japan). MSX BASIC is Microsoft's, the standard was driven by Nishi, and the CX5M's international release made it the canonical consumer 'music computer' — one of only two MSX machines ever sold in the US.
+* **Commercial fate and preservation.** MSX flopped in the US and the CX5M became a cult collector's item. The CX5M II (1986) added MIDI input via the SFG-05; the FB-01 (1986) was the SFG-05 as a standalone desktop module. Cartridge ROM images and the SFG-01/05 firmware are preserved and emulated today via the cx5m.net archive, and the machine is exhibited in Brussels and the Netherlands.
+
+### Team
+
+* **Yamaha Corporation.** Manufacturer; the CX line came from Yamaha's digital musical instrument group, which also produced the YM2151 'OPM' FM chip.
+* **MSX consortium.** Yamaha was a founding member; MSX BASIC 1.0 is Microsoft's, and the standard was driven by Kazuhiko Nishi (ASCII/Microsoft Japan).
+* **Digital Music Systems Ltd.** UK third-party maker of the D.M.S.1 cartridge, which added real-time 8-track sequencing of internal and external MIDI in 1985.
+
+### Media
+
+![Yamaha CX5M Music Computer set on display at MIM Brussels](../assets/wiki/cx5m-mim-brussels.jpg)
+*Yamaha CX5M Music Computer set on display at the Musée des Instruments de Musique, Brussels. Photo: Ashley via Flickr, CC BY-SA 2.0, Wikimedia Commons.*
+
+![Yamaha CX5M angled view](../assets/wiki/cx5m-angled.jpg)
+*Yamaha CX5M at the Personal Computer Museum, Brantford, Ontario. Photo: Marcin Wichary, CC BY 2.0, Wikimedia Commons.*
+
+![Internals of the SFG-01 FM synthesizer unit](../assets/wiki/cx5m-sfg01-board.jpg)
+*Internals of the SFG-01 FM synthesizer unit, showing the YM2151 8-voice 4-operator FM chip. Photo: Yaca2671, CC BY-SA 3.0, Wikimedia Commons.*
+
+### Sources
+
+1. Wikipedia — Yamaha CX5M — https://en.wikipedia.org/wiki/Yamaha_CX5M
+2. Eirik Lie — CX5M FAQ (owner since 1985) — http://www.eiriklie.no/CX5MFAQ.html
+3. Nuts & Volts — 'Micro Memories: The Yamaha CX5M: The Music Computer — 80's Style' (2005) — https://www.nutsvolts.com/magazine/article/the_yamaha_cx5m_the_music_computer_80s_style
+4. MSX Wiki — Yamaha CX5M specifications and regional models — https://www.msx.org/wiki/Yamaha_CX5M
+5. cx5m.net — The Yamaha CX5M Music Computer Resource (archived) — http://www.cx5m.net/
+6. SonicState — Yamaha CX5M Music Computer — https://www.sonicstate.com/synth/cx5m/
+7. HomeComputerMuseum — Yamaha CX5M Music Computer — https://www.homecomputermuseum.nl/en/collectie/yamaha/yamaha-cx5m-music-computer/
+
+---
+
+## Pfaff Creative 1471 (1984)
+
+**By:** G.M. Pfaff AG, Kaiserslautern, West Germany  
+**Tags:** `Domestic Appliance` `Embedded Computing` `Physical Output` `Consumer`
+
+### Overview
+
+The Pfaff Creative 1471 was the first Pfaff sewing machine with a built-in computer, a display readout, and the ability for the user to program in their own stitches. Pfaff's official corporate history dates the milestone to 1984: 'PFAFF released their first computerized sewing machine with IDT and the ability to program in your own stitches.' A 1979 Pfaff had been the world's first 'programmable' sewing machine — electronic pattern memory without a display; the 1984 model added the computer proper, the display, and user programming. The machine was made by G.M. Pfaff AG in Kaiserslautern, West Germany, and sold for roughly US$1,000–1,400 at launch.
+
+The interaction model is what makes it an HCI artifact rather than just an appliance. Where earlier machines had stitch patterns cut into physical cams, the 1471's microprocessor selected stitch shapes in software. The user picked from 99+ built-in stitches via push-buttons on a control panel, read the stitch number and settings off an LCD, and could chain stitches into a sequence, store it in memory, and recall it later — the machine then executed the programmed decorative stitch run. It also carried Pfaff's signature IDT (Integrated Dual Transport) feed dogs for even fabric feeding, and a one-step buttonhole that worked by counting stitches rather than stitching to a mechanical end-stop — a quirk owners document: if the fabric bunched, the count drifted and the buttonhole came out wrong. A computer's counting model, leaking into the physical world.
+
+The Creative 1471's line continued through the 1473 and the 1475CD (1991, which added 214 stitches and Creative design software on floppy disk). Its era rivals were the Bernina 1130 (1986, the first computerized Bernina) and the Husqvarna Viking 'Computer' series. The Pfaff brand later passed to Husqvarna Viking (1999) and then to SVP Worldwide (2006), which still produces Pfaff machines today.
+
+### Deep dive
+
+* **From cams to software.** Before the 1471, decorative stitches were cut into metal cams — a physical, mechanical pattern library. The 1471 replaced cams with a microprocessor: stitch shapes became data, selected by buttons and executed by the motor under software control. The same conceptual shift the museum tracks elsewhere — physical encoding becoming digital — but in the most domestic context imaginable.
+* **Programmable stitch sequences.** The 'computer' part of the machine was its memory. Users could chain stitches into a sequence, store the sequence, and recall it to run a programmed decorative pattern. Pfaff's 1988 creative Designer feature let users create and copy their own stitches — user-authored pattern data, a decade before embroidery software on home PCs.
+* **The stitch-count buttonhole.** The 1471 made one-step buttonholes by counting stitches from the start point rather than stitching to a mechanical stop. Owners document that if the fabric bunched under the foot, the count drifted and the buttonhole came out wrong. It is a perfect example of a digital abstraction (counting) imperfectly mapped onto a physical process (sewing) — the texture of early embedded computing in the home.
+* **Who used computers.** The sewing machine market was enormous and overwhelmingly female. Pfaff machines sold in the hundreds of thousands; a computerized Pfaff in the mid-1980s meant a domestic computer in households that might never touch a PC. The museum's collection is otherwise full of computers for work, school, and play — this is the first one that lived in the sewing room.
+
+### Team
+
+* **G.M. Pfaff AG.** Manufacturer, Kaiserslautern, West Germany. Founded 1862 by Georg Michael Pfaff; the founding machine is in the Deutsches Museum, Munich.
+* **Pfaff engineers.** No individual engineers are named in accessible sources for the 1471; the German corporate history (Rolf Müller, 'Pfaff Dokumentation') would be the primary lead.
+
+### Media
+
+![A later computerized Pfaff sewing machine](../assets/wiki/pfaff-select-1538.jpg)
+*A later computerized Pfaff (select 1538) shown as representative of the push-button + display control panel family introduced with the Creative 1471. Photo: CC BY-SA 3.0, Wikimedia Commons.*
+
+![Bernina 1130 computerized sewing machine](../assets/wiki/bernina-1130.jpg)
+*The Bernina 1130 (1986), the first computerized Bernina and the era rival of the Creative 1471. Photo: BERNINA International AG, CC BY-SA 3.0, Wikimedia Commons.*
+
+### Sources
+
+1. PFAFF official history (SVP Worldwide/Singer Europe) — 1979 programmable, 1984 computerized — https://europe.singer.com/pages/pfaff-about-us
+2. PatternReview — Pfaff 1471 owner reports and pricing — https://sewing.patternreview.com/SewingMachine/135
+3. Wikipedia — Pfaff (company history) — https://en.wikipedia.org/wiki/Pfaff
+4. Wikipedia — Bernina International (1130, 1986–89, first computerized Bernina) — https://en.wikipedia.org/wiki/Bernina_International
+5. Wikipedia — Sewing machine (electronic machines section) — https://en.wikipedia.org/wiki/Sewing_machine
+6. ISMACS — History of the Pfaff Sewing Machine Company — https://ismacs.net/pfaff/history-of-the-pfaff-sewing-machine-company.html
+
+---
+
+## Strand Light Palette (1978)
+
+**By:** Strand Century, Inc. (designed by David Cunningham)  
+**Tags:** `Professional Interface` `Command Language` `Physical Output` `Theatre`
+
+### Overview
+
+The Strand Century Light Palette, introduced in 1978, was the first lighting control console to make a CRT readout and command-line input the working tools of the commercial theatre. Designed by David Cunningham at Strand Century (the US arm of Rank Strand), it was a microprocessor-based memory system controlling 512 dimmers on 256 control channels, with electronic dimmer-to-channel patching, eight submasters, and up to 200 stored cues. Strand's own 1987 retrospective, 'The Three Hundredth Milestone,' describes it as implementing 'a Command Line control technique in which most instructions were entered digitally in a sentence format' and says the console 'launched an entire philosophy of control — a philosophy which is now the US industry standard.' The Light Palette's design was based on the familiar two-scene-preset 'piano board' approach to lighting control, translated into computer memory.
+
+A lighting designer worked with the Palette by typing instructions on a dedicated keypad — channel numbers, levels, and timings in sentence format — watching the cue sheet and levels on the console's CRT, and pressing GO to execute. Cues could contain up to six simultaneously active parts, each with its own fade time, split up/down times, delay, and fade profile. Features like 'group' recording, electronic (soft) patching, and computerized cue sheets were considered revolutionary at the time. Strand's slogan for the machine was 'Painting with Light.'
+
+The first Light Palette was installed at the Goodspeed Opera House in East Haddam, Connecticut; its Broadway premiere came during the 1977–78 season, first used on Beatlemania (lit by Jules Fisher). By 1987, nine years after launch, 300 Light Palette family systems had been sold; the Light Palette 90 alone sold over 700 units. The family grew to include the MiniPalette (1980), Mini Light Palette (1982), Light Palette II (1984), LP/3 (1987), and Light Palette 90 (1989). LP/3 let the operator choose tracking vs. cue-only recording and the number of playback faders versus submasters — the interaction personality itself became software. The Light Palette I was discontinued in April 1988 after a decade. Its command-line philosophy is the direct ancestor of the ETC Eos command line still used on professional lighting desks today.
+
+### Deep dive
+
+* **The command line on Broadway.** Lighting designers are not programmers, yet the Palette asked them to type channel/level sentences on a dedicated keypad and read the state of the show on a CRT. This was the first time a theatre console presented its state on a screen ('the first use of VDUs in lighting control,' per Theatrecrafts) rather than on physical faders. The interaction was deliberately built on the piano-board model designers already knew — the computer was a means to artistic control, not a replacement for the human element.
+* **Cues as software.** A cue on the Palette could contain up to six simultaneous parts, each with independent fade time, split up/down times, delay, and fade profile. Group recording, electronic patching, and computerized cue sheets let a designer build a show as structured data. LP/3 (1987) went further: the operator selected tracking versus cue-only recording, and the number of playback faders versus submasters — the console's interaction personality became a user-selectable software mode.
+* **Syntax carried between venues.** Designers specifically requested Mini Light Palettes on rental jobs because they wanted a tracking console that shared syntax with the big Palette — they carried the command language in their heads between venues, like a natural language. This is the strongest possible evidence that the interface was genuinely a language, not just a panel layout.
+* **Lineage and legacy.** The Palette descended from Strand's earlier Multi-Q (1976) and Micro-Q (1977) memory consoles and was competed against by Gordon Pearlman's EDI LS-8 (1975, used on A Chorus Line) and Kliegl Performance (1977). Its command-line + tracking paradigm became the US industry standard and survives in every modern ETC Eos desk. The Light Palette name was revived by Strand on modern hardware in 2006.
+
+### Team
+
+* **David Cunningham.** Designer of the Light Palette at Strand Century; earlier Multi-Q (1976) and Micro-Q (1977); later designed the ETC Source Four fixture. Awarded the 2015 Parnelli Visionary Award.
+* **Strand Century, Inc.** Manufacturer; the US arm of Rank Strand (a Rank Organisation company), based in New York.
+* **Anne Morris.** Strand Lighting control product manager; author of the 1987 retrospective 'The Three Hundredth Milestone.'
+
+### Media
+
+![Strand Light Palette period photograph](../assets/wiki/lightpalette-1978-photo.jpg)
+*The Strand Light Palette (1978), period photograph. Source: Strand Archive, via Theatrecrafts Backstage Heritage Collection.*
+
+![Light Palette console with command-line keypad and CRT](../assets/wiki/lightpalette-console-1.jpg)
+*Light Palette console with its dedicated command-line keypad and CRT readout. Source: David Cunningham Collection, via Theatrecrafts Backstage Heritage Collection.*
+
+![Light Palette playback surface](../assets/wiki/lightpalette-console-2.jpg)
+*Close view of the Light Palette's playback surface. Source: David Cunningham Collection, via Theatrecrafts Backstage Heritage Collection.*
+
+### Sources
+
+1. Theatrecrafts BHC — Light Palette equipment page (includes Strand's 1987 'The Three Hundredth Milestone') — https://www.theatrecrafts.com/bhc/equipment/strand-light-palette
+2. The Strand Archive — Light Palette catalogue page — http://www.strandarchive.co.uk/control/c_memory/lightpalette/lightpalette.html
+3. Theatrecrafts BHC — David Cunningham biography — https://www.theatrecrafts.com/pages/home/archive/people/david-cunningham/
+4. ControlBooth — Memory Lighting Control Systems, History (industry timeline) — http://controlbooth.com/threads/memory-lighting-control-systems-history.9203/
+5. Theatrecrafts BHC — Kliegl Performer page (Gordon Pearlman's first-person account, competitive context) — https://www.theatrecrafts.com/bhc/equipment/kliegl-performer
+6. Theatrecrafts BHC — Skirpan Autocue (1973), predecessor context — https://www.theatrecrafts.com/bhc/equipment/skirpan-autocue

@@ -1,0 +1,69 @@
+{
+  "slug": "yamaha-cx5m",
+  "title": "Yamaha CX5M Music Computer",
+  "year": "1984",
+  "subtitle": "The whole computer is a synthesizer",
+  "why_scout_cares": "A full MSX home computer whose entire reason for existing was being a musical instrument, sold in music stores. You composed by TYPING notes into a stave editor and BASIC music macros on a QWERTY keyboard, or booting to MSX BASIC and calling CALL MUSIC. Fills the consumer instrument-as-computer-appliance category — none of the museum's ten music exhibits is a mass-market computer sold as an instrument, and none uses typing as the primary composition path. Also carries the DX7-voicing story: a computer fixing the best-selling synth's worst interface.",
+  "search_terms": [
+    "Yamaha CX5M",
+    "MSX music computer",
+    "SFG-01 FM synthesizer unit",
+    "YRM-101 FM Music Composer",
+    "YRM-104 Music Macro",
+    "Yamaha DX7 voicing cartridge"
+  ],
+  "research": {
+    "title": "Yamaha CX5M Music Computer",
+    "year": "1984",
+    "by": "Yamaha Corporation",
+    "tags": ["Music", "MSX", "Computer Music", "MIDI", "Consumer"],
+    "overview": "The Yamaha CX5M, introduced in 1984, is an MSX-standard computer built around a Yamaha FM synthesizer. It was one of only two MSX machines ever sold in North America (alongside Spectravideo's), and it was marketed not as a computer but as a 'Music Computer' — sold in music stores, not computer shops. The machine boots to Microsoft MSX BASIC; a built-in SFG-01 module carries the 8-voice, 4-operator YM2151 FM chip (the same voice architecture family as the DX9/DX21/DX100), with stereo audio outputs, a connector for Yamaha's YK-10 music keyboard, and MIDI ports. The whole point of the machine was making music: the QWERTY computer keyboard was the primary composition instrument.\n\nMusic was made through software cartridges rather than piano-style playing. The YRM-101 FM Music Composer cartridge presented a musical-stave editing screen where the user entered notes step-time from the QWERTY keyboard — no real-time recording. The YRM-104 Music Macro cartridge made the synthesizer programmable from BASIC with commands like `_INST(1)` and `_PHRASE(1,\"cdefg\")`. YRM-102/502 let you program banks of 48 voices; YRM-103 was a DX7 voicing cartridge that gave the notoriously cryptic DX7 a real screen for editing patches. First CX5M units could only send MIDI out (to a DX7); the CX5M II / CX7M-128 (1986) added the SFG-05 module with MIDI input, and the FB-01 (1986) was essentially the SFG-05 in a standalone box.\n\nThe CX5M sold for about £1,000 in the UK in 1985 and was a commercial niche product that failed to crack the US market. Its cartridge software and ROMs are preserved and emulated today; a complete CX5M set is in the collection of the Musée des Instruments de Musique in Brussels, and another is held by the HomeComputerMuseum in the Netherlands.",
+    "deepDive": [
+      {
+        "heading": "Origins",
+        "text": "Yamaha was a founding member of the MSX consortium (launched 1983 by Kazuhiko Nishi's ASCII and Microsoft Japan) and used it to fuse its two identities: the world's dominant synthesizer maker — the DX7 shipped in 1983 — and a computer manufacturer. The CX line (CX5 in Japan, CX5F in France, CX5M international, CX11 Japan-only) were MSX machines dedicated to music and sound production. The CX5M's 1984 international release made it the canonical consumer 'music computer.'"
+      },
+      {
+        "heading": "Interaction model: composition by typing",
+        "text": "The defining interaction is step-time text entry as music composition. In the FM Music Composer, notes were placed on a stave using QWERTY keys; in Music Macro, whole phrases were typed as strings inside BASIC (`_PHRASE(1,\"cdefg\")`). Contemporaries described it as a daunting task — everything had to be entered via the keyboard. This inverts the Fairlight's professional graphical composition (a light pen on a pro workstation) into a consumer textual one, and it anchors the 'text keyboard as music input' tradition that runs down to Csound-style programming. The piano-style YK-10 keyboard was an optional bolt-on, not the point."
+      },
+      {
+        "heading": "The DX7 voicing story",
+        "text": "The DX7 — the best-selling synthesizer in history — had a famously cryptic two-line LCD for programming its FM voices. The CX5M's YRM-103 DX7 Voicing cartridge connected the computer to a DX7 over MIDI and let the user edit the synth's patches on the CX5M's full screen. The machine's headline pitch to musicians was literally that a computer could fix the worst interface in electronic music."
+      },
+      {
+        "heading": "Commercial fate",
+        "text": "MSX flopped in the US, and the CX5M became a cult collector's item. It was sold in music-trade magazines for about two years. The CX5M II (1986) added MIDI input via the SFG-05 module; the FB-01 (1986) was the SFG-05 released as a standalone desktop module. Cartridge ROM images and the SFG-01/05 firmware are preserved and emulated today via the cx5m.net archive."
+      }
+    ],
+    "team": [
+      { "name": "Yamaha Corporation", "note": "Manufacturer; the CX line came from Yamaha's digital musical instrument group, which also produced the YM2151 'OPM' FM chip." },
+      { "name": "MSX consortium", "note": "Yamaha was a founding member; MSX BASIC 1.0 is Microsoft's, and the standard was driven by Kazuhiko Nishi (ASCII/Microsoft Japan)." },
+      { "name": "Digital Music Systems Ltd", "note": "UK third-party maker of the D.M.S.1 cartridge, which added real-time 8-track sequencing of internal and external MIDI in 1985." }
+    ],
+    "media": [
+      { "src": "https://upload.wikimedia.org/wikipedia/commons/3/35/Yamaha_CX5M_Music_Computer_set%2C_MIM_Brussels.jpg", "alt": "Yamaha CX5M Music Computer set on display at MIM Brussels", "caption": "Yamaha CX5M Music Computer set on display at the Musée des Instruments de Musique, Brussels. Photo: Ashley via Flickr, CC BY-SA 2.0, Wikimedia Commons." },
+      { "src": "https://upload.wikimedia.org/wikipedia/commons/4/4e/YAMAHA_CX5M_MSX_Music_Computer_%28angled%29.jpg", "alt": "Yamaha CX5M angled view, Personal Computer Museum, Brantford", "caption": "Yamaha CX5M at the Personal Computer Museum, Brantford, Ontario. Photo: Marcin Wichary, CC BY 2.0, Wikimedia Commons." },
+      { "src": "https://upload.wikimedia.org/wikipedia/commons/a/ab/SFG-01_00A.jpg", "alt": "Internal board of the Yamaha SFG-01 FM synthesizer unit showing the YM2151 chip", "caption": "Internals of the SFG-01 FM synthesizer unit, showing the YM2151 8-voice 4-operator FM chip. Photo: Yaca2671, CC BY-SA 3.0, Wikimedia Commons." }
+    ],
+    "sources": [
+      { "text": "Wikipedia — Yamaha CX5M", "url": "https://en.wikipedia.org/wiki/Yamaha_CX5M" },
+      { "text": "Eirik Lie — CX5M FAQ (owner since 1985)", "url": "http://www.eiriklie.no/CX5MFAQ.html" },
+      { "text": "Nuts & Volts — 'Micro Memories: The Yamaha CX5M: The Music Computer — 80's Style' (2005)", "url": "https://www.nutsvolts.com/magazine/article/the_yamaha_cx5m_the_music_computer_80s_style" },
+      { "text": "MSX Wiki — Yamaha CX5M specifications and regional models", "url": "https://www.msx.org/wiki/Yamaha_CX5M" },
+      { "text": "cx5m.net — The Yamaha CX5M Music Computer Resource (archived)", "url": "http://www.cx5m.net/" },
+      { "text": "SonicState — Yamaha CX5M Music Computer", "url": "https://www.sonicstate.com/synth/cx5m/" },
+      { "text": "HomeComputerMuseum — Yamaha CX5M Music Computer", "url": "https://www.homecomputermuseum.nl/en/collectie/yamaha/yamaha-cx5m-music-computer/" }
+    ],
+    "imageUrls": [
+      "https://upload.wikimedia.org/wikipedia/commons/3/35/Yamaha_CX5M_Music_Computer_set%2C_MIM_Brussels.jpg",
+      "https://upload.wikimedia.org/wikipedia/commons/4/4e/YAMAHA_CX5M_MSX_Music_Computer_%28angled%29.jpg",
+      "https://upload.wikimedia.org/wikipedia/commons/a/ab/SFG-01_00A.jpg"
+    ]
+  },
+  "savedImages": [
+    "images/cx5m-mim-brussels.jpg",
+    "images/cx5m-angled.jpg",
+    "images/cx5m-sfg01-board.jpg"
+  ]
+}
