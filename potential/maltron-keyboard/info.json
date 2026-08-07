@@ -1,0 +1,82 @@
+{
+  "slug": "maltron-keyboard",
+  "title": "Maltron Keyboard",
+  "year": "1977",
+  "subtitle": "Two concave key wells that the hand falls into — the keyboard as a physical theory about hands.",
+  "why_scout_cares": "The Maltron is the purest 'shape is the interface' artifact of the era. Where almost every keyboard redesign rearranges the legends on the keys, Maltron rearranged the keys themselves in physical space: two deep concave bowls for the hands, the bowls rotated slightly inward against wrist pronation, each key staggered in height and angle to match the differing lengths of the fingers, and the thumbs promoted from a single space bar to a cluster of real keys. It was designed from 1974 onward by Lillian Malt — a South African-born keyboard-training expert whose methods had been used by thousands of secretaries — and built by Stephen Hobday's PCD, debuting at the News Tec exhibition in Brighton in December 1976 and spun into PCD Maltron Ltd in 1977. It is handmade even today, and serial-numbered units from the 1977-1987 period survive in the Science Museum (serial 529) and the Computer History Museum. The interaction model is the body: the keyboard encodes an ergonomic hypothesis about the lengths of fingers and the resting angles of wrists into injection-moulded plastic. It is the ancestor of the Kinesis Advantage, and it deserves a wall because it is the one keyboard in the window that treats the shape of the device as the primary channel of communication with the user.",
+  "search_terms": [
+    "Maltron keyboard 1977 Lillian Malt",
+    "PCD Maltron ergonomic keyboard keywell",
+    "Maltron concave key bowl keyboard history",
+    "Lillian Malt keyboard design electronic era PIRA 1977",
+    "Maltron keyboard Science Museum Computer History Museum"
+  ],
+  "research": {
+    "title": "Maltron Keyboard",
+    "year": "1977",
+    "by": "Lillian Malt (designer) with Stephen Hobday / PCD Maltron Ltd, Farnborough, UK",
+    "tags": ["HCI", "Input", "Keyboard", "Ergonomics", "Physical Design", "Body-as-Interface", "Accessibility", "Consumer"],
+    "overview": "The Maltron keyboard is a sculpted, two-concave-keywell keyboard designed to fit the anatomy of the human hand. Developed from 1974 and shown publicly at the News Tec exhibition in Brighton in December 1976, it was commercialized as PCD Maltron Ltd in 1977 and has been hand-built ever since, with each switch hand-wired into a vacuum-formed case. The core innovation is physical: the left and right hands rest in deep dish-shaped key wells, the bowls are split and rotated slightly upward in the centre to reduce wrist pronation, and keys are staggered in depth and angle to compensate for the different lengths and positions of the fingers. The result is a keyboard whose layout legend (QWERTY, Dvorak, or the frequency-optimised Maltron layout) is secondary to the sculpted case itself.\n\nThe design was driven by Lillian Malt, a keyboard-training expert who had spent decades retraining Linotype operators for the printing industry and had long wanted a keyboard whose keys matched differing finger lengths — an idea no manufacturer would build. In 1974, electronics manufacturer Stephen Hobday (1916-2014), whose firm Printed Circuit Design Ltd made keyboards, brought her a one-handed keyboard he had designed; her suggestions led to the collaboration that produced the Maltron. Malt presented 'Keyboard design in the electronic era' to the Printing Industry Research Association in September 1977. Historian Autumn Stanley has noted that Malt was nearly erased from the record: only one of two 1979 articles about the invention in the journal Inventor credited her, the other crediting Hobday alone.\n\nSerial-numbered examples trace the line through the museum window: No 500 (c. 1980, the original), No 504 (1980, PCB dated 1977), No 555 (1984, a Design Council Awards entry), No 644 (1985, a new shell further reducing wrist abduction and pronation), and No 705 (1987, a mouth-stick variant). The Science Museum holds serial 529 (1979-1986); the Computer History Museum holds an example dated c. 1980. The key-well concept was later commercialised by Kinesis in 1992 as the Advantage, which is directly derived from the Maltron.",
+    "deepDive": [
+      {
+        "heading": "Origins: A trainer who wanted better keys",
+        "text": "Lillian Malt ran a secretarial training business from 1955 and retrained Linotype operators for the printing trade — people whose livelihoods depended on speed and accuracy at the keyboard. Watching hundreds of hands, she became convinced the flat, evenly-spaced QWERTY keyboard ignored the obvious fact that fingers are not the same length and hands do not naturally lie flat. She lobbied manufacturers for a keyboard shaped to the hands and was ignored for years. In 1974, electronics manufacturer Stephen Hobday — who had built a one-handed keyboard of his own design — showed it to her. Her detailed critique prompted him to say, in effect, 'you tell me what you want and I'll tell you whether I can build it.' A local company's request for a computer keyboard led to discussions with Farnborough Technical College, and the collaboration produced the first Maltron. It was exhibited at the News Tec show in Brighton in December 1976 and 'created a big stir'; PCD Maltron Ltd was formed in 1977 to meet demand."
+      },
+      {
+        "heading": "The shape is the interface",
+        "text": "The Maltron's interaction model is almost entirely physical. Each hand rests in its own concave key well, with keys arranged so that shorter fingers (the outer ones) reach lower, nearer keys and longer fingers reach keys set higher and farther out. The two bowls are separated so the hands are not forced together, removing wrist abduction; each bowl is slightly rotated upward toward the centre, counteracting wrist pronation. Thumbs are given a real job: on the Maltron layout the very common letter 'E' sits under the left thumb, and on PC-era models the arrow keys were split between the two thumbs. The system even encodes handed semantics — backspace, page-up and leftward moves are keyed to the left hand, rightward and downward to the right. Only one key sits below the home row for the ring finger, relieving the shared-tendon strain of the little finger. Because the body is the invention, the same case ships with different layouts — QWERTY, Dvorak, or the frequency-optimised Maltron layout — demonstrating that the legends are incidental to the geometry."
+      },
+      {
+        "heading": "Handmade, in tiny numbers",
+        "text": "The Maltron was never a mass-market product. Units were hand-assembled: vacuum-formed cases and hand-wired switches, one at a time, in Farnborough. Serial numbers in the company's own archive — No 500, 504, 517, 555, 644, 705, 788 — suggest roughly a thousand units over the first fourteen years. It carried a premium price (a single-hand right-handed model was listed at US$413 in a 2009 PC World round-up) and found its enduring market among people with repetitive strain injury and special access needs, plus the occasional design-conscious enthusiast. The company still trades today. Its one famous commercial legacy is indirect: Kinesis, founded 1992, built the Advantage contoured keyboard on the same concave-keywell principle, making the Maltron the founding artifact of an entire class of 'shaped' keyboards."
+      },
+      {
+        "heading": "Museum holdings and preservation",
+        "text": "The Maltron is unusually well preserved for a boutique product. The Science Museum Group holds serial number 529 (accession 1979-507, type KPPQ, dated 1979-1986) — one of the earliest production units, catalogued at the height of the era. The Computer History Museum holds a 'Maltron left-handed keyboard' dated c. 1980 (object 102716194) photographed in three views. PCD Maltron's own website maintains a serial-numbered legacy archive with photographs of the 1976-1994 units, including the original News Tec-era keyboard, plus a hi-res press image page for researchers and journalists. The company also holds the Lillian Malt Papers, including the 1977 PIRA symposium paper, preserving the documentary record of an inventor who almost vanished from her own invention's history."
+      }
+    ],
+    "team": [
+      {"name": "Lillian Malt", "note": "Designer and ergonomics researcher; South African-born keyboard-training expert who devised the Maltron key geometry from decades of watching typists and Linotype operators. Author of the 1977 PIRA paper 'Keyboard design in the electronic era.'"},
+      {"name": "Stephen Hobday (1916-2014)", "note": "Electronics manufacturer and founder of Printed Circuit Design Ltd, Farnborough; engineered the Maltron keyboards and co-founded PCD Maltron Ltd in 1977. Later entered the Maltron keyboard in the Design Council Awards (No 555, 1984)."},
+      {"name": "PCD Maltron Ltd", "note": "Company formed 1977 to build and sell the Maltron; still trading today from Stafford, UK, making hand-built ergonomic keyboards."},
+      {"name": "Autumn Stanley", "note": "Historian who documented Malt's near-erasure from the invention record in 'Mothers and Daughters of Invention' (the 1979 Inventor journal credit dispute)."}
+    ],
+    "media": [
+      {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/4/45/Maltron_Dual_Hand_keyboard_with_Malt_Key_distribution.jpg",
+        "alt": "Maltron dual-hand keyboard with Malt key distribution, showing the two concave key wells",
+        "caption": "The Maltron dual-hand keyboard with the frequency-optimised Malt key distribution. The two concave key wells, hand separation, and rotated bowls are visible. CC0, Wikimedia Commons."
+      },
+      {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/4/47/One_handed_ergonomic_keyboard.jpg",
+        "alt": "One-handed Maltron ergonomic keyboard from Bill Buxton's collection",
+        "caption": "A one-handed Maltron ergonomic keyboard photographed from Bill Buxton's collection (4288x2848). Single-hand units were built for users with one functional hand. CC0, Wikimedia Commons."
+      },
+      {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/5/56/KB_Maltron_3D_US.svg",
+        "alt": "Layout diagram of the Maltron 3D keyboard",
+        "caption": "Key layout diagram of the Maltron 3D US keyboard. The thumb clusters (E on the left thumb) and bowl-based geometry are part of the layout. CC BY-SA 3.0, Wikimedia Commons."
+      }
+    ],
+    "sources": [
+      {"text": "Wikipedia — Maltron keyboard", "url": "https://en.wikipedia.org/wiki/Maltron"},
+      {"text": "Maltron official history (News Tec 1976 debut, 1977 company formation)", "url": "https://www.maltron.com/maltron-history.html"},
+      {"text": "Maltron legacy serial-numbered keyboard archive", "url": "https://www.maltron.com/legacy-maltron-keyboards--archive.html"},
+      {"text": "Science Museum Group — Maltron ergonomic keyboard, serial 529 (1979-1986)", "url": "https://collection.sciencemuseumgroup.org.uk/objects/co38160/maltron-ergonomic-high-speed-keyboard-1979-1986"},
+      {"text": "Computer History Museum — Maltron keyboard (c. 1980)", "url": "https://www.computerhistory.org/revolution/input-output/14/355/1850"},
+      {"text": "Hackaday — 'Handmade Keyboards For Hands' (2017)", "url": "https://hackaday.com/2017/02/03/handmade-keyboards-for-hands/"},
+      {"text": "Lillian Malt Papers (incl. 1977 PIRA symposium paper)", "url": "https://www.maltron.com/uploads/6/1/2/5/61250099/lillian_kditee_006.pdf"},
+      {"text": "Wikimedia Commons — Category:Maltron", "url": "https://commons.wikimedia.org/wiki/Category:Maltron"}
+    ],
+    "imageUrls": [
+      "https://upload.wikimedia.org/wikipedia/commons/4/45/Maltron_Dual_Hand_keyboard_with_Malt_Key_distribution.jpg",
+      "https://upload.wikimedia.org/wikipedia/commons/4/47/One_handed_ergonomic_keyboard.jpg",
+      "https://upload.wikimedia.org/wikipedia/commons/5/56/KB_Maltron_3D_US.svg"
+    ]
+  },
+  "savedImages": [
+    "images/maltron-dual-hand.jpg",
+    "images/maltron-one-handed.jpg",
+    "images/maltron-layout.svg"
+  ]
+}

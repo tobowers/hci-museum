@@ -1,0 +1,80 @@
+{
+  "slug": "canon-rc-701",
+  "title": "Canon RC-701 Still Video Camera",
+  "year": "1986",
+  "subtitle": "The first camera you could buy that stored pictures on a magnetic floppy — analog video fields you watched on TV, not a computer.",
+  "why_scout_cares": "The RC-701 is the moment the filmless camera stopped being a demo and became something you could buy. Canon marketed it in July 1986 as the first still-video camera: a 2/3-inch CCD whose output is FM-recorded as analog composite-video fields onto a 2-inch video floppy — a magnetic disk in a sliding-shutter cartridge that no computer drive could mount. You saw your pictures on a television through a dedicated player, printed them with a video printer, or sacrificed them to a frame grabber. Fifty stills per disk in field mode, twenty-five in full-frame mode, on a standardized industry medium (EIAJ CP-3901, proposed 1985). It is a machine whose entire 'where does my picture go?' interaction is television-shaped, not computer-shaped — the crucial difference from the digital Dycam Model 1 (1990) already in the museum, and from the 1981 Sony Mavica prototype (a never-sold demo unit) that the museum also holds. USA Today shot the 1986 World Series with one. It is the commercialization and standardization chapter of the filmless-camera story, and it fills the museum's image-capture narrative with an artifact whose interaction model — analog magnetic storage as a TV medium — genuinely differs from everything else on the walls.",
+  "search_terms": [
+    "Canon RC-701 1986 first still video camera",
+    "Canon RC-701 video floppy CP-3901",
+    "Canon RC-701 USA Today World Series 1986",
+    "still video camera analog floppy disk history",
+    "Canon RC-701 specifications CCD"
+  ],
+  "research": {
+    "title": "Canon RC-701 Still Video Camera",
+    "year": "1986",
+    "by": "Canon Inc (Canon Camera Co., Inc.)",
+    "tags": ["HCI", "Input", "Image Capture", "Analog Computing", "Media", "Consumer", "Commercial"],
+    "overview": "The Canon RC-701, marketed in July 1986, is described by Canon's own Camera Museum as 'the very first Still Video Camera marketed.' The 'RC' stands for Realtime Camera. Inside, a 2/3-inch CCD sensor (from Texas Instruments) with roughly 780 horizontal pixels and an ISO-200-equivalent sensitivity captures an image; instead of converting it to digital storage, the camera writes it as FM-modulated analog composite-video fields onto a 2-inch video floppy. The disk — a 47mm magnetic disc in a 60x54x3.6mm cartridge with a sliding shutter — carries 52 concentric tracks, holding 50 stills in field mode or 25 in full-frame mode, and conforms to the EIAJ CP-3901 standard proposed by the Electronic Still Camera Conference in 1985.\n\nThe interaction model is television-shaped. The disk is not mountable in any computer drive; you view images by plugging a dedicated player into a TV, print them with a video printer, or capture them into a computer through a frame grabber or video capture card. The camera body itself is an SLR-system camera: interchangeable SV-mount lenses (an 11-66mm f/1.2 zoom, 50-150mm f/2.8, 6mm f/1.8, plus 60+ Canon FD lenses via the LA-RC adapter), a focal-plane shutter to 1/2000s, 10 fps motor-drive bursts, field/frame recording modes, and exposure data on an LCD panel. List price was 390,000 yen (roughly US$2,400-2,500 in 1986; a full system with lenses, printer and phone-transmission unit ran much higher).\n\nIts first big newsroom use was by USA Today at the 1986 World Series, transmitting images over phone lines. The analog still-video line continued through the RC-250 'ION'/Xapshot (1988) and RC-760 (1988), but the paradigm never displaced film and died with the arrival of consumer digital cameras (Dycam, 1990). A useful myth-correction for the museum: Canon's famous 1984 Los Angeles Olympics image-transmission tests used the earlier D413 prototype, not the RC-701.",
+    "deepDive": [
+      {
+        "heading": "The commercialization of the filmless camera",
+        "text": "Sony had unveiled its Mavica still-video prototype in 1981 to enormous publicity, but it was never sold. The RC-701, five years later, is the first time the concept became a purchasable object with a price tag, a lens system, a motor drive, and working photojournalists. Where the Mavica prototype was a fixed-lens compact shooting onto a proprietary Mavipak, the RC-701 was a professional SLR-style body using a standardized disk — EIAJ CP-3901, proposed by the Electronic Still Camera Conference in 1985 — so disks were interchangeable across manufacturers. This is the story of an interaction paradigm passing from concept to product to standard, and it is the museum's strongest 'first one you could actually buy' artifact in the image-capture line."
+      },
+      {
+        "heading": "Analog television as the output channel",
+        "text": "The RC-701's pictures are analog video fields written to a magnetic disk. That single fact shapes the entire user experience: the disk can't be read by a computer drive, so the camera's natural display is a television, reached through a dedicated player; prints come from a video printer; and any transfer to a computer costs you a frame grabber and one video field at a time. The camera is thus a bridge artifact — it digitizes light (CCD) but keeps the image in the analog video domain, deliberately, because in 1986 the video ecosystem (TV, VCR, video printer) was where moving and still pictures lived. This is the interaction model the museum should exhibit: not 'a camera,' but a camera whose storage medium is a television format."
+      },
+      {
+        "heading": "A professional tool, a niche fate",
+        "text": "At 390,000 yen and up, the RC-701 was aimed at photojournalists, and its landmark deployment was USA Today's coverage of the 1986 World Series, with images transmitted over phone lines. The analog still-video paradigm attracted other manufacturers (Sony's MVC-C1 of 1988, Nikon's QV-1000C of 1988) but never displaced film, and consumer digital storage — the Dycam Model 1 in 1990, which stored images in DRAM and downloaded to a PC over serial — rendered the analog video floppy obsolete within a few years. The RC-701's place in history is therefore exact: the moment filmless imaging became real and purchasable, standing between the never-sold 1981 Mavica prototype and the PC-centric digital camera of 1990."
+      },
+      {
+        "heading": "Preservation and provenance",
+        "text": "The RC-701 is preserved in the Science Museum Group collection (object 2016-5011, with the SV 11-66mm lens and a set of video floppy disks), and three freely-licensed photographs of the camera exist on Wikimedia Commons, including Canon's own display at the CP+ 2011 '30th Anniversary Exhibition of the Digital Camera' and studio photographs by Rama. The museum's hero image can therefore be a period-accurate, freely-licensed photograph of the actual first commercial still-video camera."
+      }
+    ],
+    "team": [
+      {"name": "Canon Inc / Canon Camera Co., Inc.", "note": "Marketed the RC-701 in July 1986 as the first still-video camera. Canon's Camera Museum documents the product and the D413 prototype used in the 1984 Olympics tests."},
+      {"name": "Electronic Still Camera Conference (1985)", "note": "Industry body that proposed the EIAJ CP-3901 video-floppy standard adopted by the RC-701 and its contemporaries."},
+      {"name": "USA Today photo staff", "note": "First major newsroom users of the RC-701, at the 1986 World Series."}
+    ],
+    "media": [
+      {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/7/77/Canon_RC-701_CP%2B_2011.jpg",
+        "alt": "Canon RC-701 still video camera on display at CP+ 2011, 30th Anniversary Exhibition of the Digital Camera",
+        "caption": "The Canon RC-701 on display at CP+ 2011's '30th Anniversary Exhibition of the Digital Camera.' Canon's own retrospective labels it the first marketed still-video camera. Photo by Morio, CC BY-SA 3.0, Wikimedia Commons."
+      },
+      {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/e/e9/Canon_RC-701_img_0828.jpg",
+        "alt": "Studio photograph of the Canon RC-701 with lens",
+        "caption": "Studio photograph of the Canon RC-701 with its SV lens mounted, showing the SLR-style body and the disk slot. Photo by Rama, CC BY-SA 2.0 fr, Wikimedia Commons."
+      },
+      {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/5/54/Canon_RC-701_img_0829.jpg",
+        "alt": "Angled view of the Canon RC-701 still video camera",
+        "caption": "Angled view of the Canon RC-701, showing the electronic control panel and shutter. Photo by Rama, CC BY-SA 2.0 fr, Wikimedia Commons."
+      }
+    ],
+    "sources": [
+      {"text": "Canon Camera Museum — RC-701", "url": "https://global.canon/en/c-museum/product/svc443.html"},
+      {"text": "Camera-wiki — Canon RC-701", "url": "https://camera-wiki.org/wiki/Canon_RC-701"},
+      {"text": "Wikipedia — Video Floppy (CP-3901 standard, 52 tracks, 50 fields)", "url": "https://en.wikipedia.org/wiki/Video_Floppy"},
+      {"text": "Wikipedia — Sony Mavica (dates: MVC-A7AF 1987, MVC-C1 1988)", "url": "https://en.wikipedia.org/wiki/Sony_Mavica"},
+      {"text": "Digital Camera Museum — RC-701 (D413/1984-Olympics correction, TI CCD)", "url": "https://digitalkameramuseum.de/en/esvc/item/rc-701-1986"},
+      {"text": "Science Museum Group — Canon RC-701 collection object (2016-5011)", "url": "https://collection.sciencemuseumgroup.org.uk/objects/co8577036"},
+      {"text": "Wikimedia Commons — Category:Canon RC-701", "url": "https://commons.wikimedia.org/wiki/Category:Canon_RC-701"}
+    ],
+    "imageUrls": [
+      "https://upload.wikimedia.org/wikipedia/commons/7/77/Canon_RC-701_CP%2B_2011.jpg",
+      "https://upload.wikimedia.org/wikipedia/commons/e/e9/Canon_RC-701_img_0828.jpg",
+      "https://upload.wikimedia.org/wikipedia/commons/5/54/Canon_RC-701_img_0829.jpg"
+    ]
+  },
+  "savedImages": [
+    "images/rc701-cp2011.jpg",
+    "images/rc701-0828.jpg",
+    "images/rc701-0829.jpg"
+  ]
+}

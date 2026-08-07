@@ -171,6 +171,9 @@ Each entry includes an overview, a deep dive, a small media gallery, and full so
 162. [Yamaha CX5M Music Computer (1984)](#yamaha-cx5m-music-computer-1984)
 163. [Pfaff Creative 1471 (1984)](#pfaff-creative-1471-1984)
 164. [Strand Light Palette (1978)](#strand-light-palette-1978)
+165. [Maltron Keyboard (1977)](#maltron-keyboard-1977)
+166. [Gyration GyroPoint (1991)](#gyration-gyropoint-1991)
+167. [Canon RC-701 Still Video Camera (1986)](#canon-rc-701-still-video-camera-1986)
 
 ---
 
@@ -8118,3 +8121,149 @@ The first Light Palette was installed at the Goodspeed Opera House in East Hadda
 4. ControlBooth — Memory Lighting Control Systems, History (industry timeline) — http://controlbooth.com/threads/memory-lighting-control-systems-history.9203/
 5. Theatrecrafts BHC — Kliegl Performer page (Gordon Pearlman's first-person account, competitive context) — https://www.theatrecrafts.com/bhc/equipment/kliegl-performer
 6. Theatrecrafts BHC — Skirpan Autocue (1973), predecessor context — https://www.theatrecrafts.com/bhc/equipment/skirpan-autocue
+---
+
+## Maltron Keyboard (1977)
+
+**By:** Lillian Malt (designer) with Stephen Hobday / PCD Maltron Ltd, Farnborough, UK  
+**Tags:** `HCI` `Input` `Keyboard` `Ergonomics` `Physical Design` `Body-as-Interface` `Accessibility` `Consumer`
+
+### Overview
+
+The Maltron is the purest "shape is the interface" artifact of the era. Where almost every keyboard redesign rearranges the legends on the keys, Maltron rearranged the keys themselves in physical space: two deep concave bowls for the hands, the bowls split and rotated slightly upward in the centre to counter wrist pronation, each key staggered in height and angle to match the differing lengths of the fingers, and the thumbs promoted from a single space bar to a cluster of real keys. It was designed from 1974 onward by Lillian Malt, a keyboard-training expert who had spent decades retraining Linotype operators, and built by Stephen Hobday's Printed Circuit Design Ltd. It debuted at the News Tec exhibition in Brighton in December 1976 and was spun into PCD Maltron Ltd in 1977.
+
+The interaction model is the body. Because the sculpted case is the invention, the same case ships with different layouts — QWERTY, Dvorak, or the frequency-optimised Maltron layout (with the letter E under the left thumb) — proving the legends are incidental to the geometry. Each unit is handmade, with hand-wired switches in a vacuum-formed case, and it still is today.
+
+Serial-numbered units trace the line through the museum window: No 500 (c. 1980), No 504 (1980, PCB dated 1977), No 555 (1984, a Design Council Awards entry), No 644 (1985, a shell further reducing abduction and pronation), and No 705 (1987, a mouth-stick variant). The Science Museum holds serial 529 (1979–1986); the Computer History Museum holds one dated c. 1980. The concave-keywell concept was later commercialised by Kinesis in 1992 as the Advantage, making the Maltron the founding artifact of an entire class of shaped keyboards.
+
+### Deep dive
+
+* **A trainer who wanted better keys.** Lillian Malt ran a secretarial training business from 1955 and retrained Linotype operators for the printing trade. Watching hundreds of hands convinced her the flat, evenly-spaced QWERTY keyboard ignored the obvious fact that fingers are not the same length and hands do not naturally lie flat. Manufacturers ignored her for years. In 1974, electronics manufacturer Stephen Hobday brought her a one-handed keyboard he had designed; her critique prompted a collaboration, and the first Maltron was shown at the News Tec exhibition in Brighton in December 1976, where it "created a big stir." Malt presented "Keyboard design in the electronic era" to the Printing Industry Research Association in September 1977.
+* **The shape is the interface.** Each hand rests in its own concave key well, with shorter fingers reaching lower, nearer keys and longer fingers reaching keys set higher and farther out. The bowls are separated to remove wrist abduction and rotated inward to counter pronation. Thumbs get a real job: on the Maltron layout the common letter E sits under the left thumb, and on PC-era models the arrow keys were split between the two thumbs. Backspace, page-up and leftward moves are keyed to the left hand; rightward and downward to the right. Only one key sits below the home row for the ring finger, relieving shared-tendon strain.
+* **Handmade, in tiny numbers.** Units were hand-assembled one at a time — vacuum-formed cases, hand-wired switches — in Farnborough. The company's serial archive suggests roughly a thousand units in the first fourteen years, at a premium price, finding its enduring market among people with repetitive strain injury and special access needs. The company still trades today from Stafford.
+* **An inventor nearly erased.** Historian Autumn Stanley documented that of the two 1979 articles about the invention in the journal *Inventor*, only one credited Malt — the other credited Hobday alone. Her near-disappearance from the record is part of the artifact's story.
+
+### Team
+
+* **Lillian Malt.** Designer and ergonomics researcher; devised the Maltron key geometry from decades of watching typists and Linotype operators. Author of the 1977 PIRA paper "Keyboard design in the electronic era."
+* **Stephen Hobday (1916–2014).** Electronics manufacturer, founder of Printed Circuit Design Ltd, Farnborough; engineered the Maltron and co-founded PCD Maltron Ltd in 1977.
+* **PCD Maltron Ltd.** Company formed 1977 to build and sell the Maltron; still trading today, making hand-built ergonomic keyboards.
+
+### Media
+
+![Maltron dual-hand keyboard with the Malt key distribution, showing the two concave key wells](../assets/wiki/maltron-keyboard-1.jpg)
+*The Maltron dual-hand keyboard with the frequency-optimised Malt key distribution — two concave key wells, hand separation, and rotated bowls. CC0, Wikimedia Commons.*
+
+![One-handed Maltron ergonomic keyboard from Bill Buxton's collection](../assets/wiki/maltron-keyboard-2.jpg)
+*A one-handed Maltron ergonomic keyboard from Bill Buxton's collection. Single-hand units were built for users with one functional hand. CC0, Wikimedia Commons.*
+
+![Layout diagram of the Maltron 3D keyboard](../assets/wiki/maltron-keyboard-3.svg)
+*Key layout of the Maltron 3D US keyboard; the thumb clusters and bowl geometry are part of the design. CC BY-SA 3.0, Wikimedia Commons.*
+
+### Sources
+
+1. Wikipedia — Maltron keyboard — https://en.wikipedia.org/wiki/Maltron
+2. Maltron official history (News Tec 1976 debut, 1977 company formation) — https://www.maltron.com/maltron-history.html
+3. Maltron legacy serial-numbered keyboard archive — https://www.maltron.com/legacy-maltron-keyboards--archive.html
+4. Science Museum Group — Maltron ergonomic keyboard, serial 529 (1979–1986) — https://collection.sciencemuseumgroup.org.uk/objects/co38160/maltron-ergonomic-high-speed-keyboard-1979-1986
+5. Computer History Museum — Maltron keyboard (c. 1980) — https://www.computerhistory.org/revolution/input-output/14/355/1850
+6. Hackaday — "Handmade Keyboards For Hands" (2017) — https://hackaday.com/2017/02/03/handmade-keyboards-for-hands/
+7. Lillian Malt Papers (incl. 1977 PIRA symposium paper) — https://www.maltron.com/uploads/6/1/2/5/61250099/lillian_kditee_006.pdf
+8. Wikimedia Commons — Category:Maltron — https://commons.wikimedia.org/wiki/Category:Maltron
+
+---
+
+## Gyration GyroPoint (1991)
+
+**By:** Gyration Inc (Tom Quinn, Steve Hotelling), Saratoga, California  
+**Tags:** `HCI` `Input` `Pointing` `Gesture` `Inertial Sensing` `Wireless` `Consumer` `Commercial`
+
+### Overview
+
+The GyroPoint is the first pointing device that throws away the surface — generally regarded as the world's first gyroscopic mouse. Inside the handheld unit, a brushless DC motor spins a flywheel whose spin axis is held nominally vertical by gravity; the flywheel lives inside two pairs of orthogonal gimbals, and electro-optical shaft encoders read machined optical patterns on the gimbal frames with LEDs and quad photodiodes, measuring the housing's own pitch and roll. Cursor motion is a function of orientation, not displacement: you don't slide it, you gesture with it. The mechanism is described in US Patent 5,898,421 ("Gyroscopic pointer and method"), with priority 21 March 1990, invented by Tom Quinn and assigned to Gyration Inc.
+
+Gyration was founded in June 1989 in Saratoga, California, by Tom Quinn; Steve Hotelling — later the principal engineer behind Apple's multitouch — was VP of R&D. The first product, shipped in 1991, was a radio-frequency (RF) wireless pointing device for professionals, the device that first demonstrated "GyroPoint Technology." The company raised tens of millions of dollars (investors included Intel, Olivetti, and Prudential), licensed the design to Diamond Multimedia in 1997 as the GyroMouse, and later pivoted to OEM inertial sensors (the MicroGyro 100). The consumer GyroPoint Desk and GyroPoint Pro lines arrived in October 1995.
+
+The interaction model is a complete inversion of the mouse paradigm — translating hand orientation rather than hand position. It is the ancestor of modern presentation remotes, air mice, and the Wii Remote, which shipped fifteen years later on the same physical insight. In the museum's collection it is the first exhibit whose input channel is pure inertial self-sensing.
+
+### Deep dive
+
+* **A gyroscope as a mouse.** A spinning gyroscope resists changes to its spin axis. The GyroPoint exploits this: a motor spins a flywheel whose axle is kept vertical by a pendulous, gravity-aligned mount. Tilting the housing tries to tilt the flywheel's axis; the gimbals let the housing rotate freely around the gyroscope while optical encoders measure exactly how far. Two orthogonal gimbal pairs give pitch and roll; a quad photodiode watches the projected optical pattern and converts rotation into cursor X/Y. A second, horizontal gyroscope could add yaw for three-dimensional output. The prototype resolution was around 100 counts per inch; the unit connected through an interface box over RS-232, with the gyro motor powered from a wall adapter and the hand unit running on batteries.
+* **Inverting the mouse paradigm.** A conventional mouse is a position transducer: roll it two inches and the cursor moves two inches. The GyroPoint is an orientation transducer: rotate your wrist and the cursor moves, more with greater speed or angle, in the direction of the rotation. There is no desk, no pad, no receiver array, and no tracking of where the device is in space at all. The patent explicitly frames this as the advantage over ultrasonic triangulation systems (citing the Power Glove and Milner's sonic positioning work): it is self-contained, immune to noise and obstruction, and has no range limit.
+* **The people.** Tom Quinn founded Gyration in June 1989 and is the named inventor on the fundamental patents. Steve Hotelling, whose later Apple work defined the multitouch gestural vocabulary of the iPhone, served as VP of R&D — a direct line from inertial pointing to modern gestural interfaces. The 1997 corporate profile described GyroPoint Technology as "the world's first pointing technology to transform in-air wrist movement into cursor movement through gestural control."
+* **Legacy.** Presenter remotes, air mice, and the motion sensing of the Wii Remote all trace back to the same idea of reading the device's own orientation rather than its position. In the museum, the GyroPoint complements rather than duplicates the existing pointing exhibits: the DLR Control Ball (1981) is isometric and force-driven, the Summagraphics Bit Pad (1977) is a surface digitizer, and the Power Glove (1989) needs a transmitter and receiver grid. Because no physical product photographs are freely licensed, the exhibit uses the public-domain drawings of US Patent 5,898,421 — the definitive record of how the device works.
+
+### Team
+
+* **Tom Quinn.** Founder, CEO and principal inventor of Gyration Inc; named inventor on US 5,898,421 "Gyroscopic pointer and method" (priority 21 March 1990).
+* **Steve Hotelling.** VP of R&D at Gyration; later principal engineer behind Apple's multitouch technology.
+* **Gyration Inc.** Founded June 1989, Saratoga CA; shipped the GyroPoint RF pointer in 1991, the GyroPoint Desk/Pro consumer line in 1995, licensed the GyroMouse to Diamond Multimedia in 1997, and pivoted to OEM inertial sensors.
+
+### Media
+
+![Patent drawing FIGS. 1-2 of the GyroPoint: expanded perspective views of the gyroscopic pointer](../assets/wiki/gyration-gyropoint-1.png)
+*FIGS. 1–2 of US Patent 5,898,421: expanded perspective views of the gyroscopic pointer, showing the gimbal-mounted gyroscope, optical pattern, and photodiode sensing. Public domain (US patent).*
+
+![Patent drawing FIGS. 3-4 of the GyroPoint: optical pattern and quad photodiode](../assets/wiki/gyration-gyropoint-2.png)
+*FIGS. 3–4 of US Patent 5,898,421: the optical pattern on the gimbal frame and the quad photodiode arrangement that reads housing pitch and roll. Public domain (US patent).*
+
+![Patent drawing FIGS. 6-8 of the GyroPoint: handheld controller with directional gyroscope](../assets/wiki/gyration-gyropoint-3.png)
+*FIGS. 6–8 of US Patent 5,898,421: the handheld controller embodiment and the directional gyroscope used for three-dimensional output. Public domain (US patent).*
+
+### Sources
+
+1. US Patent 5,898,421 — "Gyroscopic pointer and method" (priority 21 Mar 1990) — https://patents.google.com/patent/US5898421A/en
+2. Gyration corporate profile (1997, Internet Archive) — http://web.archive.org/web/19971211203919/http://www.gyration.com/html/corp_profile.html
+3. Gyration "GyroPoint Technology" page (1997, Internet Archive) — http://web.archive.org/web/19971211200754/http://www.gyration.com/html/gyropoint.html
+4. Los Angeles Times — "A Mouse That Won't Need a Pad" (4 Oct 1995) — https://www.latimes.com/archives/la-xpm-1995-10-04-fi-53258-story.html
+5. PC Perspective — Gyration Ultra GT review (company history) — https://pcper.com/2004/09/gyration-ultra-gt-review/
+6. US Patent 4,862,152 — Milner "Sonic positioning device" (the ultrasonic contrast case) — https://patents.google.com/patent/US4862152A/en
+
+---
+
+## Canon RC-701 Still Video Camera (1986)
+
+**By:** Canon Inc (Canon Camera Co., Inc.)  
+**Tags:** `HCI` `Input` `Image Capture` `Analog Computing` `Media` `Consumer` `Commercial`
+
+### Overview
+
+The Canon RC-701, marketed in July 1986, is described by Canon's own Camera Museum as "the very first Still Video Camera marketed" — the moment the filmless camera stopped being a demo and became something you could buy. The "RC" stands for Realtime Camera. Inside, a 2/3-inch CCD sensor (from Texas Instruments) with roughly 780 horizontal pixels captures an image; instead of converting it to digital storage, the camera writes it as FM-modulated analog composite-video fields onto a 2-inch video floppy — a 47mm magnetic disc in a sliding-shutter cartridge that no computer drive could mount. The disk carries 52 concentric tracks, holding 50 stills in field mode or 25 in full-frame mode, and conforms to the EIAJ CP-3901 standard proposed by the Electronic Still Camera Conference in 1985.
+
+The interaction model is television-shaped. You see your pictures on a television through a dedicated player, print them with a video printer, or sacrifice them to a frame grabber — one video field at a time. The camera body itself is an SLR-system camera: interchangeable SV lenses (an 11–66mm f/1.2 zoom, 50–150mm f/2.8, 6mm f/1.8, plus 60+ Canon FD lenses via an adapter), a focal-plane shutter to 1/2000s, 10 fps motor-drive bursts, field/frame recording modes, and exposure data on an LCD panel. List price was 390,000 yen (roughly US$2,400 in 1986; a full system ran much higher).
+
+Its first big newsroom use was by USA Today at the 1986 World Series, transmitting images over phone lines. The analog still-video line continued through the RC-250 "ION"/Xapshot (1988) and RC-760 (1988), but the paradigm never displaced film and died with the arrival of consumer digital cameras. A useful myth-correction for the museum: Canon's famous 1984 Los Angeles Olympics image-transmission tests used the earlier D413 prototype, not the RC-701.
+
+### Deep dive
+
+* **The commercialization of the filmless camera.** Sony's Mavica still-video prototype made headlines in 1981 but was never sold. The RC-701, five years later, is the first time the concept became a purchasable object with a price tag, a lens system, a motor drive, and working photojournalists. Where the Mavica prototype was a fixed-lens compact shooting onto a proprietary Mavipak, the RC-701 was a professional SLR-style body using a standardized disk (EIAJ CP-3901), so disks were interchangeable across manufacturers. This is the story of an interaction paradigm passing from concept to product to standard.
+* **Analog television as the output channel.** The RC-701's pictures are analog video fields written to a magnetic disk — deliberately, because in 1986 the video ecosystem (TV, VCR, video printer) was where still pictures lived. The disk can't be read by a computer drive, so the camera's natural display is a television. It is a bridge artifact: it digitizes light with a CCD but keeps the image in the analog domain. The "where does my picture go?" interaction is genuinely different from the PC-centric Dycam Model 1 (1990) already in the museum.
+* **A professional tool, a niche fate.** At 390,000 yen and up, the RC-701 was aimed at photojournalists, and its landmark deployment was USA Today's coverage of the 1986 World Series. The analog still-video paradigm attracted other manufacturers (Sony's MVC-C1 of 1988, Nikon's QV-1000C of 1988) but never displaced film; consumer digital storage rendered the analog video floppy obsolete within a few years. The RC-701 stands between the never-sold 1981 Mavica prototype and the PC-centric digital camera of 1990.
+* **Preservation and provenance.** The RC-701 is preserved in the Science Museum Group collection (object 2016-5011, with the SV 11–66mm lens and a set of video floppy disks), and three freely-licensed photographs exist on Wikimedia Commons — including Canon's own display at the CP+ 2011 "30th Anniversary Exhibition of the Digital Camera."
+
+### Team
+
+* **Canon Inc / Canon Camera Co., Inc.** Marketed the RC-701 in July 1986 as the first still-video camera. Canon's Camera Museum documents the product and the D413 prototype used in the 1984 Olympics tests.
+* **Electronic Still Camera Conference (1985).** Industry body that proposed the EIAJ CP-3901 video-floppy standard adopted by the RC-701 and its contemporaries.
+* **USA Today photo staff.** First major newsroom users of the RC-701, at the 1986 World Series.
+
+### Media
+
+![Canon RC-701 still video camera on display at CP+ 2011](../assets/wiki/canon-rc-701-1.jpg)
+*The Canon RC-701 on display at CP+ 2011's "30th Anniversary Exhibition of the Digital Camera." Canon's own retrospective labels it the first marketed still-video camera. Photo by Morio, CC BY-SA 3.0, Wikimedia Commons.*
+
+![Studio photograph of the Canon RC-701 with lens](../assets/wiki/canon-rc-701-2.jpg)
+*Studio photograph of the Canon RC-701 with its SV lens mounted, showing the SLR-style body. Photo by Rama, CC BY-SA 2.0 fr, Wikimedia Commons.*
+
+![Angled view of the Canon RC-701 still video camera](../assets/wiki/canon-rc-701-3.jpg)
+*Angled view of the Canon RC-701, showing the electronic control panel and shutter. Photo by Rama, CC BY-SA 2.0 fr, Wikimedia Commons.*
+
+### Sources
+
+1. Canon Camera Museum — RC-701 — https://global.canon/en/c-museum/product/svc443.html
+2. Camera-wiki — Canon RC-701 — https://camera-wiki.org/wiki/Canon_RC-701
+3. Wikipedia — Video Floppy (CP-3901 standard, 52 tracks, 50 fields) — https://en.wikipedia.org/wiki/Video_Floppy
+4. Wikipedia — Sony Mavica (dates: MVC-A7AF 1987, MVC-C1 1988) — https://en.wikipedia.org/wiki/Sony_Mavica
+5. Digital Camera Museum — RC-701 (D413/1984-Olympics correction, TI CCD) — https://digitalkameramuseum.de/en/esvc/item/rc-701-1986
+6. Science Museum Group — Canon RC-701 collection object (2016-5011) — https://collection.sciencemuseumgroup.org.uk/objects/co8577036
+7. Wikimedia Commons — Category:Canon RC-701 — https://commons.wikimedia.org/wiki/Category:Canon_RC-701

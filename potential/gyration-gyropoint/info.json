@@ -1,0 +1,79 @@
+{
+  "slug": "gyration-gyropoint",
+  "title": "Gyration GyroPoint",
+  "year": "1991",
+  "subtitle": "The mouse you wave in the air — a spinning gyroscope turned wrist rotation into cursor movement, no desk required.",
+  "why_scout_cares": "The GyroPoint is the first pointing device that throws away the surface. Inside the handheld unit, a brushless-DC motor spins a flywheel whose axis is kept vertical by gravity; two gimbal rings carry optical patterns read by quad photodiodes, so the housing's own pitch and roll are measured directly as the user rotates their wrist. Cursor motion is a function of orientation, not displacement: you don't slide it, you gesture with it. Patent priority 21 March 1990 (US 5,898,421, inventor Tom Quinn, assignee Gyration Inc), first shipped 1991 as a wireless RF pointer — the company's founding product, two years before the firm even had a consumer line. That makes it, by most accounts, the world's first gyroscopic mouse, the direct ancestor of every presentation 'air mouse' and of the Wii Remote's inertial trick fifteen years later. Gyration was founded June 1989 in Saratoga, California, by Tom Quinn; its VP of R&D was Steve Hotelling, later the architect of Apple's multitouch engineering. The interaction model is a complete inversion of the mouse paradigm — translating hand orientation rather than hand position — and nothing else in the museum demonstrates inertial pointing. Patent drawings, which are public domain, provide the exhibit imagery.",
+  "search_terms": [
+    "Gyration GyroPoint 1991 gyroscopic mouse history",
+    "US 5898421 Gyroscopic pointer and method patent",
+    "Tom Quinn Steve Hotelling Gyration Inc",
+    "first gyroscopic mouse free-air pointing",
+    "GyroPoint RF wireless pointer 1991"
+  ],
+  "research": {
+    "title": "Gyration GyroPoint",
+    "year": "1991",
+    "by": "Gyration Inc (Tom Quinn, Steve Hotelling), Saratoga, California",
+    "tags": ["HCI", "Input", "Pointing", "Gesture", "Inertial Sensing", "Wireless", "Consumer", "Commercial"],
+    "overview": "The GyroPoint, introduced in 1991 by Gyration Inc, is generally regarded as the first gyroscopic computer pointing device. Instead of translating the hand's displacement across a desk, it measures the housing's orientation — pitch and roll — as the user rotates their wrist in the air, and maps those angles to cursor velocity and direction. The mechanism, described in US Patent 5,898,421 ('Gyroscopic pointer and method', priority 21 March 1990), is elegant and entirely self-contained: a brushless DC motor spins a flywheel whose spin axis is held nominally vertical by gravity; the flywheel and motor live inside two pairs of orthogonal gimbals; and electro-optical shaft encoders read machined optical patterns on the gimbal frames with LEDs and quad photodiodes, converting the housing's tilt into signals that drive the cursor over RS-232. The patent argues explicitly that this beats ultrasonic position-tracking systems because it needs no external receiver array, no line of sight, and no surface.\n\nGyration Inc was founded in June 1989 in Saratoga, California by Tom Quinn, who became CEO and is the named inventor on the fundamental patents; Steve Hotelling, later the principal engineer behind Apple's multitouch, was VP of R&D. The first product was a radio-frequency (RF) wireless pointer for professionals — the device that first demonstrated 'GyroPoint Technology'. The company raised tens of millions of dollars (investors included Intel, Olivetti, Prudential, Madge Networks and New York Life), licensed the design to Diamond Multimedia in 1997 as the GyroMouse, and later pivoted to OEM inertial sensors (the MicroGyro 100). The consumer GyroPoint Desk and GyroPoint Pro lines arrived in October 1995, and the Pro was rated the number-one presenter remote by Presentations magazine in 1996.\n\nThe interaction model is the museum's first example of inertial, surface-free pointing: the user rocks the unit in their hand and the cursor responds to the vector of wrist rotation. It is the ancestor of modern presentation remotes, air mice, and the Wii Remote, which shipped fifteen years later on the same physical insight.",
+    "deepDive": [
+      {
+        "heading": "A gyroscope as a mouse",
+        "text": "A spinning gyroscope resists changes to its spin axis — that is what keeps a bicycle upright. The GyroPoint exploits this: a brushless DC motor spins a flywheel whose axle is kept vertical by a pendulous, gravity-aligned mount. Because the user holds the housing, tilting the device tries to tilt the flywheel's axis; the gimbals let the housing rotate freely around the gyroscope while optical encoders measure exactly how far. Two pairs of orthogonal gimbals give pitch and roll, and a quad photodiode watches the projected image of an optical pattern on the gimbal frame, converting rotation into cursor X/Y. A second, horizontally-mounted gyroscope could add yaw for three-dimensional output. The prototype resolution was around 100 counts per inch; the unit connected to the computer through an interface box and RS-232, and the gyro motor itself was powered from a wall adapter, while the hand unit ran on batteries. The rounded bottom let it rock on a desk like a trackball when not in the air — it was, deliberately, both."
+      },
+      {
+        "heading": "Inverting the mouse paradigm",
+        "text": "A conventional mouse is a position transducer: roll it two inches and the cursor moves two inches. The GyroPoint is an orientation transducer: rotate your wrist and the cursor moves — the farther and faster you rotate, the more it moves, in the direction of the rotation. There is no desk, no pad, no receiver array, and no tracking of where the device is in space at all. The patent explicitly frames this as the advantage over ultrasonic triangulation systems (citing the Power Glove and Milner's sonic positioning work): it is self-contained, immune to noise and obstruction, and has no range limit. This inversion — displacement becomes rotation, position becomes gesture — is precisely the kind of interaction-model shift the museum exists to exhibit, and it is why the GyroPoint, not the superficially similar ultrasonic AirMouse, is the stronger artifact."
+      },
+      {
+        "heading": "The company and the people",
+        "text": "Gyration Inc was founded June 1989 by Tom Quinn in Saratoga, California. Quinn was CEO and the lead inventor; the 1990 priority filing became US 5,440,326 and its continuation US 5,898,421. Steve Hotelling, whose later Apple work defined the multitouch gestural vocabulary of the iPhone and trackpad, served as VP of R&D. The 1991 launch product was an RF wireless pointing device for professional presenters — the first showcase of GyroPoint Technology. The company's 1997 corporate profile describes it as 'the world's first pointing technology to transform in-air wrist movement into cursor movement through gestural control.' With roughly US$27 million raised and a licensing deal that put a GyroPoint inside Diamond Multimedia's GyroMouse, the technology outlived the product line, and Gyration's OEM inertial-sensing business continues the lineage."
+      },
+      {
+        "heading": "Legacy and placement in the collection",
+        "text": "The GyroPoint sits at the root of inertial, free-air pointing: presenter remotes, air mice, and the motion sensing of the Wii Remote (2006) all trace back to the same idea of reading the device's own orientation rather than its position. In the museum's own terms, it complements rather than duplicates the existing pointing exhibits: the DLR Control Ball (1981) is isometric and force-driven, the Summagraphics Bit Pad (1977) is a surface digitizer, and the Power Glove (1989) needs a transmitter and receiver grid. The GyroPoint is the first exhibit whose input channel is pure inertial self-sensing. Because no physical product photographs are freely licensed, the exhibit uses the public-domain drawings of US Patent 5,898,421 — the definitive record of how the device works, and itself a period document of 1990-1991 engineering."
+      }
+    ],
+    "team": [
+      {"name": "Tom Quinn", "note": "Founder, CEO and principal inventor of Gyration Inc; named inventor on US 5,898,421 'Gyroscopic pointer and method' (priority 21 March 1990)."},
+      {"name": "Steve Hotelling", "note": "VP of R&D at Gyration; later principal engineer behind Apple's multitouch technology. Embodies the direct line from inertial pointing to modern gestural interfaces."},
+      {"name": "Gyration Inc", "note": "Founded June 1989, Saratoga CA; shipped the GyroPoint RF pointer in 1991, the GyroPoint Desk/Pro consumer line in 1995, licensed the GyroMouse to Diamond Multimedia in 1997, and pivoted to OEM inertial sensors."}
+    ],
+    "media": [
+      {
+        "src": "https://patentimages.storage.googleapis.com/7b/db/7a/c22a852c6cdb6c/US5898421-drawings-page-2.png",
+        "alt": "Patent drawings of the GyroPoint: expanded perspective views of the gyroscopic pointer",
+        "caption": "FIGS. 1-2 of US Patent 5,898,421: expanded perspective views of the gyroscopic pointer. The gimbal-mounted gyroscope, optical pattern, and photodiode sensing are visible. Public domain (US patent)."
+      },
+      {
+        "src": "https://patentimages.storage.googleapis.com/f8/bc/55/f266a6e84342a9/US5898421-drawings-page-4.png",
+        "alt": "Patent drawings showing the optical pattern and quad photodiode of the GyroPoint",
+        "caption": "FIGS. 3-4 of US Patent 5,898,421: the optical pattern on the gimbal frame and the quad photodiode arrangement that reads housing pitch and roll. Public domain (US patent)."
+      },
+      {
+        "src": "https://patentimages.storage.googleapis.com/dc/8c/89/31b3a6085fc9f4/US5898421-drawings-page-7.png",
+        "alt": "Patent drawings of the handheld GyroPoint controller embodiment with directional gyroscope",
+        "caption": "FIGS. 6-8 of US Patent 5,898,421: the handheld controller embodiment and the directional gyroscope used for three-dimensional output. Public domain (US patent)."
+      }
+    ],
+    "sources": [
+      {"text": "US Patent 5,898,421 — 'Gyroscopic pointer and method' (priority 21 Mar 1990)", "url": "https://patents.google.com/patent/US5898421A/en"},
+      {"text": "Gyration corporate profile (1997, Internet Archive)", "url": "http://web.archive.org/web/19971211203919/http://www.gyration.com/html/corp_profile.html"},
+      {"text": "Gyration 'GyroPoint Technology' page (1997, Internet Archive)", "url": "http://web.archive.org/web/19971211200754/http://www.gyration.com/html/gyropoint.html"},
+      {"text": "Los Angeles Times — 'A Mouse That Won't Need a Pad' (4 Oct 1995)", "url": "https://www.latimes.com/archives/la-xpm-1995-10-04-fi-53258-story.html"},
+      {"text": "PC Perspective — Gyration Ultra GT review (company history)", "url": "https://pcper.com/2004/09/gyration-ultra-gt-review/"},
+      {"text": "US Patent 4,862,152 — Milner 'Sonic positioning device' (the ultrasonic contrast case)", "url": "https://patents.google.com/patent/US4862152A/en"}
+    ],
+    "imageUrls": [
+      "https://patentimages.storage.googleapis.com/7b/db/7a/c22a852c6cdb6c/US5898421-drawings-page-2.png",
+      "https://patentimages.storage.googleapis.com/f8/bc/55/f266a6e84342a9/US5898421-drawings-page-4.png",
+      "https://patentimages.storage.googleapis.com/dc/8c/89/31b3a6085fc9f4/US5898421-drawings-page-7.png"
+    ]
+  },
+  "savedImages": [
+    "images/gyropoint-patent-figs1-2.png",
+    "images/gyropoint-patent-figs3-5.png",
+    "images/gyropoint-patent-figs6-8.png"
+  ]
+}
