@@ -1,0 +1,55 @@
+{
+  "slug": "tr808",
+  "title": "Roland TR-808 Rhythm Composer",
+  "year": "1980",
+  "subtitle": "The 16-step LED grid that taught a generation to think in sequences",
+  "why_scout_cares": "The canonical legible step-sequencer grid — 16 buttons, one LED per step, timbre rows instead of a keyboard. The interface that made rhythm programmable and became the most-used drum machine in history. Direct ancestor of every modern step-sequencer UI, and the perfect contrast to its sibling the TB-303.",
+  "search_terms": ["Roland TR-808", "Rhythm Composer", "step sequencer 1980", "Tadao Kikumoto", "drum machine programming", "Planet Rock"],
+  "research": {
+    "title": "Roland TR-808 Rhythm Composer",
+    "year": "1980",
+    "by": "Roland Corporation",
+    "tags": ["Music", "Input", "Sequencer", "Roland", "Programming"],
+    "overview": "The Roland TR-808 Rhythm Composer is a drum machine manufactured by Roland Corporation from 1980 to 1983 and designed by a team led by Tadao Kikumoto (chief engineer; Makoto Muroi, Hiro Nakamura, and Hisanori Matsuoka also credited). Rather than store samples, it synthesizes its percussion sounds from analog circuits, and founder Ikutaro Kakehashi deliberately bought a lot of slightly faulty transistors because their quirks gave the machine its signature sizzle. It listed at US$1,195 and fewer than 12,000 were made — a commercial failure, discontinued in 1983 when the faulty transistors ran out.\n\nIts real invention is the interface. The TR-808 was the first drum machine that let you program rhythms instead of choosing presets. The front panel is a grid: 16 step keys, each with an LED that lights in turn as the pattern plays; 12 instrument-select buttons; a mode selector for pattern write, manual play, compose, and song mode; tempo controls; an accent control; and a bank of 27 knobs and 8 switches shaping the sound of each voice. You select an instrument, put the machine in pattern-write mode, and tap the step buttons to place hits on the grid — with an accent option per step, A/B parts of up to 16 steps each, and a full song mode chaining patterns across 768 measures. It was also first to offer DIN-sync output, the precursor of MIDI.\n\nCulturally it is the most-used drum machine in history: 'Planet Rock' (1982), Marvin Gaye's 'Sexual Healing' (1982), then the bedrock of hip-hop, Miami bass, Detroit techno, and trap — Kanye West's 808s & Heartbreak is an explicit tribute. The New Yorker's history of the machine argues its influence is really the influence of sequence-thinking: music conceived as patterns to be repeated and revised ad infinitum. The 808's grid UI is why the 808 is a way of thinking, not just a sound.",
+    "deepDive": [
+      {
+        "heading": "The grid as interface",
+        "text": "The 808 replaced the drum pads of its expensive rival, the Linn LM-1 ($5,000, played in real time) with a grid: 16 columns of time, one row per instrument, LEDs walking across the columns as the pattern loops. To program a beat you are literally writing in a two-dimensional matrix — timbre on one axis, time on the other. This is the ancestor of every step-sequencer interface in modern music software. Where the TB-303 is the same idea made illegible (no display, two-pass entry), the 808 is the idea made visible: the LED tells you exactly where in the bar you are."
+      },
+      {
+        "heading": "Rhythm you could think in",
+        "text": "Before the 808, drum machines played preset patterns; rhythm was performed, not written. The 808's write mode, pattern-chaining song mode, and per-step accent made rhythm a compositional language. Writers on the machine argue this is the true source of its cultural power — the 808 changed not what music sounded like but how music was conceived, as infinitely revisable sequences. The machine's grid UI is the mechanism of that change."
+      },
+      {
+        "heading": "Failure as destiny",
+        "text": "Like its sibling the TB-303, the 808 failed commercially — fewer than 12,000 units, discontinued in 1983, used units under $100 by 1984. And like the 303 it was adopted precisely because it was cheap and weird: the 'wrong' transistor-sizzled cymbals and the thumping sine-wave kick became the sound of hip-hop and house. Roland reissued it as software and hardware countless times; the 808's low-shelf boom remains the single most imitated drum sound in popular music."
+      }
+    ],
+    "team": [
+      { "name": "Roland Corporation", "note": "Manufacturer of the TR-808 (1980–1983); founded by Ikutaro Kakehashi" },
+      { "name": "Tadao Kikumoto", "note": "Chief engineer of the TR-808; proposed an analog drum synthesizer when sampling memory was too costly" },
+      { "name": "Ikutaro Kakehashi", "note": "Roland founder who deliberately bought faulty transistors for the 808's signature sound" },
+      { "name": "Makoto Muroi, Hiro Nakamura, Hisanori Matsuoka", "note": "TR-808 engineering team (sound circuits, hardware, software)" }
+    ],
+    "media": [
+      { "src": "https://upload.wikimedia.org/wikipedia/commons/4/4c/Roland_TR-808_%28large%29.jpg", "alt": "Roland TR-808 front panel", "caption": "The TR-808 front panel: 16 step keys with LED feedback, instrument rows, mode selector, and 27 knobs. CC BY-SA 2.0, Wikimedia Commons." },
+      { "src": "https://upload.wikimedia.org/wikipedia/commons/b/bb/Roland_TR-808_Drum_Machine_at_SMEM_Playroom_07.jpg", "alt": "TR-808 on display at the Swiss Museum of Electronic Music Instruments", "caption": "A TR-808 at the Swiss Museum of Electronic Music Instruments (SMEM), whose collection preserves the machine's grid. CC BY 4.0, Wikimedia Commons." }
+    ],
+    "sources": [
+      { "text": "Wikipedia — Roland TR-808 (featured article)", "url": "https://en.wikipedia.org/wiki/Roland_TR-808" },
+      { "text": "Fact Magazine — Roland TR-808: a beginner's guide", "url": "https://www.factmag.com/2014/01/16/roland-tr-808-beginners-guide-everything-you-ever-wanted-to-know-introduction/" },
+      { "text": "The New Yorker — The 808 heard round the world", "url": "https://www.newyorker.com/culture/culture-desk/the-808-heard-round-the-world" },
+      { "text": "Polynominal.com — TR-808 physical control inventory", "url": "https://www.polynominal.com/m/roland-tr-808.htm" },
+      { "text": "Roland support — TR-808 technical specifications", "url": "https://support.roland.com/hc/en-us/articles/201963539-TR-808-Technical-Specifications" },
+      { "text": "Wikimedia Commons images (CC BY-SA 2.0, CC BY 4.0)", "url": "https://commons.wikimedia.org/wiki/File:Roland_TR-808_(large).jpg" }
+    ],
+    "imageUrls": [
+      "https://upload.wikimedia.org/wikipedia/commons/4/4c/Roland_TR-808_%28large%29.jpg",
+      "https://upload.wikimedia.org/wikipedia/commons/b/bb/Roland_TR-808_Drum_Machine_at_SMEM_Playroom_07.jpg"
+    ]
+  },
+  "savedImages": [
+    "potential/tr808/images/tr808-panel.jpg",
+    "potential/tr808/images/tr808-museum.jpg"
+  ]
+}

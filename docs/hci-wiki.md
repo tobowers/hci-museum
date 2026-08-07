@@ -171,6 +171,9 @@ Each entry includes an overview, a deep dive, a small media gallery, and full so
 162. [Yamaha CX5M Music Computer (1984)](#yamaha-cx5m-music-computer-1984)
 163. [Pfaff Creative 1471 (1984)](#pfaff-creative-1471-1984)
 164. [Strand Light Palette (1978)](#strand-light-palette-1978)
+165. [Roland TB-303 Bass Line (1981)](#roland-tb-303-bass-line-1981)
+166. [Roland TR-808 Rhythm Composer (1980)](#roland-tr-808-rhythm-composer-1980)
+167. [Photon (1984)](#photon-1984)
 
 ---
 
@@ -8118,3 +8121,138 @@ The first Light Palette was installed at the Goodspeed Opera House in East Hadda
 4. ControlBooth — Memory Lighting Control Systems, History (industry timeline) — http://controlbooth.com/threads/memory-lighting-control-systems-history.9203/
 5. Theatrecrafts BHC — Kliegl Performer page (Gordon Pearlman's first-person account, competitive context) — https://www.theatrecrafts.com/bhc/equipment/kliegl-performer
 6. Theatrecrafts BHC — Skirpan Autocue (1973), predecessor context — https://www.theatrecrafts.com/bhc/equipment/skirpan-autocue
+
+## Roland TB-303 Bass Line (1981)
+**By:** Roland Corporation — Tadao Kikumoto
+**Tags:** `Music` `Input` `Sequencer` `Roland` `Programming`
+
+### Overview
+
+The Roland TB-303 Bass Line is a bass synthesizer released by Roland Corporation in 1981 and discontinued in 1984. Designed by Tadao Kikumoto — who also designed the TR-909 and led the TR-808 team — it was marketed as a 'computerised bass machine' meant to replace the bass guitarist in a band. It failed completely at that job, selling poorly at US$395 (UK £234), and Roland shipped it in the US without an English-language manual. It is remembered instead as the machine whose interface birthed acid house.
+
+The TB-303 has no display at all — no screen, no readout of what is programmed. Notes are entered in two separate passes over the same 16 multi-purpose keys: a pitch pass that taps out the melodic order without regard to timing, then a time pass that walks step by step through the measure setting three switches per step (start sound / continue sound / no sound), plus per-step accent and slide buttons and a large mode knob. An April 1982 review in Electronics & Music Maker told readers they 'really have to write things down at an early stage,' and described losing programs and swearing as part of the process.
+
+The cheap second-hand units that survived became instruments of discovery. Chicago's Phuture twisted the five tone knobs while a pattern looped and recorded 'Acid Tracks' (1987), the first acid house record. Charanjit Singh's Synthesizing: Ten Ragas to a Disco Beat (1982, recorded on a 303 and an 808) is the recognized precursor. Orange Juice's 'Rip It Up' (1983) took the 303 into the UK top ten. The Guardian named its release one of the 50 key events in the history of dance music.
+
+### Deep dive
+
+* **Two-pass programming with no eyes.** The 303's sequencer is the strangest input model in the collection's music section: you program a bassline twice. First a pitch pass — press the pitch-mode button and tap the keys in melodic order, not caring about timing. Then a time pass — step through the memorized measure and set each step's switch to start, continue, or silence. There is no display anywhere on the machine; the pattern lives in your head, on paper, or not at all. In Chicago, where the manual was missing entirely, kids programmed by looping a pattern and turning the cutoff, resonance, envelope-mod, decay, and accent knobs live — which is exactly how 'Acid Tracks' was made.
+* **The failed product as found object.** Roland sold the 303 to bassists; it sounded nothing like a bass guitar and was discontinued in 1984. Second-hand units fell to around $50 and were picked up by musicians who had no interest in what it was supposed to do. The machine's design ambition — a computerised bass player — was inverted by its users into a lead instrument defined by its artificiality: the squelch of the 24 dB/octave resonant filter.
+* **Pairing with the TR-808.** The 303 and the 808 were released a year apart and are often heard together (Charanjit Singh's 1982 Ten Ragas, Phuture's Acid Tracks). Their interfaces are deliberate opposites: the 808 is a legible grid of 16 steps with an LED showing where you are; the 303 is the same grid concept with zero feedback. Each failure of legibility — and each triumph of it — produced a genre. Together they bracket the step-sequencer paradigm the museum previously only touched in passing via the Casio VL-1's toy 100-note sequencer.
+
+### Team
+
+* **Roland Corporation.** Manufacturer of the TB-303 (1981–1984); founded by Ikutaro Kakehashi
+* **Tadao Kikumoto.** Chief engineer and designer of the TB-303; also designed the TR-909 and led the TR-808 team
+* **Phuture (Chicago).** House trio whose looping-knob-tweaking on a cheap 303 produced Acid Tracks (1987), founding acid house
+* **Charanjit Singh.** Indian musician whose 1982 album Synthesizing: Ten Ragas to a Disco Beat anticipated acid house on a 303 and an 808
+
+### Media
+
+![Roland TB-303 front panel](../assets/wiki/tb303-panel.jpg)
+*The TB-303's front panel: 16 multi-purpose keys, a large mode knob, and five tone knobs — and no display at all. CC0, Wikimedia Commons.*
+
+![Closeup of the TB-303 key and knob layout](../assets/wiki/tb303-closeup.jpg)
+*Closeup of the TB-303's programming surface. Public domain, Wikimedia Commons.*
+
+![TB-303 on display at the Swedish National Museum of Science and Technology](../assets/wiki/tb303-museum.jpg)
+*A TB-303 on display at the Swedish National Museum of Science and Technology (Tekniska museet). CC BY 2.0, Wikimedia Commons.*
+
+### Sources
+
+1. Wikipedia — Roland TB-303 — https://en.wikipedia.org/wiki/Roland_TB-303
+2. Electronics & Music Maker, April 1982 — TB-303 review (programming ritual) — https://www.muzines.co.uk/articles/roland-tb-303-bass-line/4250
+3. Vintage Synth Explorer — Roland TB-303 — https://vintagesynth.com/roland/tb-303
+4. Attack Magazine — Roland TB-303: not a real bass guitar — https://www.attackmagazine.com/technique/hardware-focus/roland-tb-303/
+5. The Guardian — Tadao Kikumoto invents the Roland TB-303 (50 key events in dance music) — https://www.theguardian.com/music/2011/jun/15/tadao-kikumoto-roland
+6. Wikimedia Commons images (CC0, public domain, CC BY 2.0) — https://commons.wikimedia.org/wiki/File:Roland_TB-303_Panel.jpg
+
+## Roland TR-808 Rhythm Composer (1980)
+**By:** Roland Corporation — Tadao Kikumoto
+**Tags:** `Music` `Input` `Sequencer` `Roland` `Programming`
+
+### Overview
+
+The Roland TR-808 Rhythm Composer is a drum machine manufactured by Roland Corporation from 1980 to 1983, designed by a team led by chief engineer Tadao Kikumoto (with Makoto Muroi, Hiro Nakamura, and Hisanori Matsuoka credited alongside). Rather than store samples, it synthesizes its percussion from analog circuits, and founder Ikutaro Kakehashi deliberately bought a lot of slightly faulty transistors because their quirks gave the machine its signature sizzle. It listed at US$1,195 and fewer than 12,000 were made — a commercial failure, discontinued in 1983 when the faulty transistors ran out.
+
+Its real invention is the interface. The 808 was the first drum machine that let you program rhythms instead of choosing presets. The front panel is a grid: 16 step keys, each with an LED that lights in turn as the pattern plays; 12 instrument-select buttons; a mode selector for pattern write, manual play, compose, and song mode; tempo controls; an accent control; and a bank of 27 knobs and 8 switches shaping the sound of each voice. Select an instrument, put the machine in pattern-write mode, and tap the step buttons to place hits on the grid — with an accent option per step, A/B parts of up to 16 steps each, and a song mode chaining patterns across 768 measures. It also offered DIN-sync output, the precursor of MIDI.
+
+Culturally it is the most-used drum machine in history: 'Planet Rock' (1982), Marvin Gaye's 'Sexual Healing' (1982), then the bedrock of hip-hop, Miami bass, Detroit techno, and trap — Kanye West's 808s & Heartbreak is an explicit tribute. The New Yorker's history of the machine argues its influence is really the influence of sequence-thinking: music conceived as patterns to be repeated and revised ad infinitum. The 808's grid UI is why the 808 is a way of thinking, not just a sound.
+
+### Deep dive
+
+* **The grid as interface.** The 808 replaced the drum pads of its expensive rival, the Linn LM-1 ($5,000, played in real time) with a grid: 16 columns of time, one row per instrument, LEDs walking across the columns as the pattern loops. To program a beat you are literally writing in a two-dimensional matrix — timbre on one axis, time on the other. This is the ancestor of every step-sequencer interface in modern music software. Where the TB-303 is the same idea made illegible (no display, two-pass entry), the 808 is the idea made visible: the LED tells you exactly where in the bar you are.
+* **Rhythm you could think in.** Before the 808, drum machines played preset patterns; rhythm was performed, not written. The 808's write mode, pattern-chaining song mode, and per-step accent made rhythm a compositional language. The machine's grid UI is the mechanism of its cultural power — it changed not just what music sounded like but how music was conceived, as infinitely revisable sequences.
+* **Failure as destiny.** Like its sibling the 303, the 808 failed commercially — fewer than 12,000 units, discontinued in 1983, used units under $100 by 1984. And like the 303 it was adopted precisely because it was cheap and weird: the 'wrong' transistor-sizzled cymbals and the thumping sine-wave kick became the sound of hip-hop and house. The 808's low-shelf boom remains the single most imitated drum sound in popular music.
+
+### Team
+
+* **Roland Corporation.** Manufacturer of the TR-808 (1980–1983); founded by Ikutaro Kakehashi
+* **Tadao Kikumoto.** Chief engineer of the TR-808; proposed an analog drum synthesizer when sampling memory was too costly
+* **Ikutaro Kakehashi.** Roland founder who deliberately bought faulty transistors for the 808's signature sound
+* **Makoto Muroi, Hiro Nakamura, Hisanori Matsuoka.** TR-808 engineering team (sound circuits, hardware, software)
+
+### Media
+
+![Roland TR-808 front panel](../assets/wiki/tr808-panel.jpg)
+*The TR-808 front panel: 16 step keys with LED feedback, instrument rows, mode selector, and 27 knobs. CC BY-SA 2.0, Wikimedia Commons.*
+
+![TR-808 on display at the Swiss Museum of Electronic Music Instruments](../assets/wiki/tr808-museum.jpg)
+*A TR-808 at the Swiss Museum of Electronic Music Instruments (SMEM), whose collection preserves the machine's grid. CC BY 4.0, Wikimedia Commons.*
+
+### Sources
+
+1. Wikipedia — Roland TR-808 (featured article) — https://en.wikipedia.org/wiki/Roland_TR-808
+2. Fact Magazine — Roland TR-808: a beginner's guide — https://www.factmag.com/2014/01/16/roland-tr-808-beginners-guide-everything-you-ever-wanted-to-know-introduction/
+3. The New Yorker — The 808 heard round the world — https://www.newyorker.com/culture/culture-desk/the-808-heard-round-the-world
+4. Polynominal.com — TR-808 physical control inventory — https://www.polynominal.com/m/roland-tr-808.htm
+5. Roland support — TR-808 technical specifications — https://support.roland.com/hc/en-us/articles/201963539-TR-808-Technical-Specifications
+6. Wikimedia Commons images (CC BY-SA 2.0, CC BY 4.0) — https://commons.wikimedia.org/wiki/File:Roland_TR-808_(large).jpg
+
+## Photon (1984)
+**By:** Photon — George Carter III
+**Tags:** `Embodied Interaction` `Arcade` `IR` `Multiplayer` `Body Interface`
+
+### Overview
+
+Photon was the first commercial laser-tag arena, the direct descendant of the US military's MILES laser-training system and the ancestor of every laser-tag venue and console-based body interface that followed. The idea came to founder George Carter III while watching Star Wars in 1977; research and development began in earnest in 1982, and the first Photon center opened in the Dallas suburb of Garland, Texas in March 1984. The original prototype was architected by J.C. Collins; a production engineering team led by Kirk Gay, Dan Sellari, and Roger Hunter of Dallas redesigned it for manufacture. The first franchise opened in Toronto in June 1985.
+
+The experience is the interaction model. Players wore roughly fifteen pounds of battery packs and equipment: an infrared phaser gun (which fired encoded IR beams, not lasers), a sensor vest, and a helmet — the entire body becomes the input and output surface. Arenas featured multiple levels, catwalks, mazes, and an observation deck with token-operated spectator guns. Games lasted six minutes, cued by a Ken Caillat soundtrack with strobes and smoke machines. A computer scored everything: points for shooting opponents and the enemy base, penalties for shooting teammates (which auto-zapped the offender), a limit of three consecutive zaps on the same player, and a weapon that went inert for five to ten seconds after each hit. Live monitors showed scoring under each player's self-chosen handle.
+
+Commercially Photon peaked fast and died hard: by 1987, 70 franchise licenses had been sold and 45 arenas were operating; lack of financing and lost franchise revenue forced the corporation to sell its assets and cease operations in 1989. Home units followed in 1986 under the Entertech brand, and a Takara Famicom game based on Photon appeared in Japan in 1987. The 2021 documentary Let There Be Light chronicled the system's creation and legacy.
+
+### Deep dive
+
+* **The body as interface.** Photon is the purest 'body-as-I/O' artifact of its decade. The gun is the output channel (IR beams encoded with a player signature), the vest and helmet are the input channels (photosensors), and the six-minute game loop is a real-time computer-mediated feedback cycle: beam → sensor → scoreboard → strategy. There is no screen to watch — the arena, with its fog, strobes, and catwalks, is the display. Rules were enforced in hardware: the three-consecutive-zap limit forced target variety, and the inert-weapon window after each hit prevented camping. Players countered the machine's rules with bodily workarounds — cocking the helmet back, covering the breastplate with a hand, leaning into walls to block sensors — a lived, physical negotiation with a scoring algorithm.
+* **Computer-scored competition under a handle.** Long before online gaming, Photon ran a persistent identity system: each player bought a photo ID badge ($10–35) and competed under a self-chosen handle displayed on arena monitors. Leagues and tournaments formed, and the machine tracked each shot, each hit, and each friendly-fire violation in real time — a computer referee, scorekeeper, and matchmaker in one. It is the arcade cabinet's scoring logic turned inside out and worn on the body.
+* **From MILES to the arena.** Photon's technology lineage is the US Army's Multiple Integrated Laser Engagement System (MILES), a late-1970s IR laser-and-sensor training system — the same physical principle (beam → detector vest → adjudication) transplanted from combat training to play. Home laser-tag sets (WoW Lazer Tag 1986, Entertech 1986) shrank the arena to the backyard, and the IR signature-encoded beam remains the basis of laser tag to this day. The museum's other body-tracking exhibits (VIDEOPLACE, Mandala, U-Force) are camera-based; Photon is the only one that puts the sensors on the players themselves.
+
+### Team
+
+* **George Carter III.** Founder; conceived Photon after watching Star Wars in 1977, began R&D in 1982
+* **J.C. Collins.** Original arena architect; installed the prototype in the Garland, Texas center in early 1984
+* **Kirk Gay, Dan Sellari, Roger Hunter.** Dallas engineering team that redesigned the prototype for production and performance
+* **Ken Caillat.** Composed the dramatic arena soundtrack used to cue six-minute games
+
+### Media
+
+![Original Photon infrared phaser gun](../assets/wiki/photon-gun.jpg)
+*The original Photon infrared phaser gun carried by arena players. CC BY-SA 3.0, Wikimedia Commons.*
+
+![Players inside a Photon arena, 1984](../assets/wiki/photon-arena-1984.jpg)
+*A player suited up in vest, helmet, and gun inside a 1984 Photon arena (Computer Gaming World scan). Public domain, Wikimedia Commons.*
+
+![The multi-level fog-filled Photon arena interior, 1984](../assets/wiki/photon-arena2-1984.jpg)
+*The multi-level, fog-filled Photon arena interior with its catwalks and mazes, 1984 (Computer Gaming World scan). Public domain, Wikimedia Commons.*
+
+![Photon center photo ID badge](../assets/wiki/photon-id-badge.jpg)
+*A Photon center photo ID badge — the persistent identity under which players competed. CC BY-SA 4.0, Wikimedia Commons.*
+
+### Sources
+
+1. Wikipedia — Photon: The Ultimate Game on Planet Earth — https://en.wikipedia.org/wiki/Photon:_The_Ultimate_Game_on_Planet_Earth
+2. International Laser Tag Association — History of Laser Tag (archived) — https://web.archive.org/web/20071011163339/http://lasertag.org/general/history.html
+3. The Dallas Morning News (May 7, 2014) — Who knew? Laser tag was invented in Dallas — https://www.dallasnews.com/
+4. Let There Be Light: Photon and the Birth, Life, and Legacy of Laser Tag (2021 documentary) — https://www.imdb.com/title/tt14125120/
+5. Wikipedia — Multiple Integrated Laser Engagement System (MILES) — https://en.wikipedia.org/wiki/Multiple_Integrated_Laser_Engagement_System
+6. Wikimedia Commons images (CC BY-SA 3.0, CC BY-SA 4.0, public domain) — https://commons.wikimedia.org/wiki/File:Photon_Gun.jpg

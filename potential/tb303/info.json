@@ -1,0 +1,58 @@
+{
+  "slug": "tb303",
+  "title": "Roland TB-303 Bass Line",
+  "year": "1981",
+  "subtitle": "The bass machine that failed so badly its programming became a genre",
+  "why_scout_cares": "A display-less two-pass step sequencer whose inscrutable programming ritual created acid house. The purest case in the collection of an illegible interface becoming a creative affordance — and the perfect dark twin to the legible LED grid of the TR-808.",
+  "search_terms": ["Roland TB-303", "Bass Line", "acid house", "Tadao Kikumoto", "step sequencer 1981", "computerised bass machine"],
+  "research": {
+    "title": "Roland TB-303 Bass Line",
+    "year": "1981",
+    "by": "Roland Corporation",
+    "tags": ["Music", "Input", "Sequencer", "Roland", "Programming"],
+    "overview": "The Roland TB-303 Bass Line is a bass synthesizer released by Roland Corporation in 1981 and discontinued in 1984. Designed by Tadao Kikumoto — who also designed the TR-909 and led the TR-808 team — it was marketed as a 'computerised bass machine' meant to replace the bass guitarist in a band. It failed completely at that job, sold poorly at US$395 (UK £234), and Roland shipped it in the US without an English-language manual.\n\nIt is remembered instead as the machine whose interface birthed acid house. The TB-303 has no display at all — no screen, no readout of what is programmed. Notes are entered in two separate passes over the same 16 multi-purpose keys: a pitch pass that taps out the melodic order without regard to timing, then a time pass that walks step by step through the measure setting three switches per step (start sound / continue sound / no sound), plus per-step accent and slide buttons and a large mode knob. A contemporary 1982 review in Electronics & Music Maker told readers they 'really have to write things down at an early stage' and that making mistakes and losing programs was part of the process.\n\nThe handful of cheap second-hand units that survived became instruments of discovery. Chicago's Phuture bought one, twisted the five tone knobs while a pattern looped, and recorded 'Acid Tracks' (1987), the first acid house record. Charanjit Singh's Ten Ragas to a Disco Beat (1982, recorded on a 303 and 808) is the recognized precursor. Orange Juice's 'Rip It Up' (1983) took the 303 to the UK top ten. The Guardian named its release one of the 50 key events in the history of dance music.",
+    "deepDive": [
+      {
+        "heading": "Two-pass programming with no eyes",
+        "text": "The TB-303's sequencer is the strangest input model in the collection's music section: you program a bassline twice. First a pitch pass — press the pitch-mode button and tap the keys in melodic order, not caring about timing. Then a time pass — step through the memorized measure and set each step's switch to start, continue, or silence. There is no display anywhere on the machine. The pattern lives in your head, on paper, or not at all. An April 1982 Electronics & Music Maker review described losing programs, swearing, and 'things which seemed like stupid idiosyncracies at first.' In Chicago, where the manual was missing entirely, kids programmed by looping a pattern and turning the cutoff, resonance, envelope-mod, decay, and accent knobs live — which is exactly how 'Acid Tracks' was made."
+      },
+      {
+        "heading": "The failed product as found object",
+        "text": "Roland sold the 303 to bassists; it sounded nothing like a bass guitar and was discontinued in 1984. Second-hand units fell to around $50 and were picked up by musicians who had no interest in what it was supposed to do. The machine's design ambitions — a computerised bass player — were inverted by its users into a lead instrument defined by its artificiality: the 24 dB/octave resonant filter, the squelch, the squawk. This is the museum's central 'failed ambition' story told in audio form."
+      },
+      {
+        "heading": "Pairing with the TR-808",
+        "text": "The TB-303 and TR-808 were released a year apart and are often heard together (Charanjit Singh's 1982 Ten Ragas, Phuture's Acid Tracks). Their interfaces are deliberate opposites: the 808 is a legible grid of 16 steps with an LED showing where you are; the 303 is the same grid concept with zero feedback. Each failure of legibility and each triumph of it produced a genre. Together they bracket the step-sequencer paradigm the museum previously only touched in passing via the Casio VL-1's toy 100-note sequencer."
+      }
+    ],
+    "team": [
+      { "name": "Roland Corporation", "note": "Manufacturer of the TB-303 (1981–1984); founded by Ikutaro Kakehashi" },
+      { "name": "Tadao Kikumoto", "note": "Chief engineer and designer of the TB-303; also designed the TR-909 and led the TR-808 team" },
+      { "name": "Phuture (Chicago)", "note": "House trio whose looping-knob-tweaking on a cheap 303 produced Acid Tracks (1987), founding acid house" },
+      { "name": "Charanjit Singh", "note": "Indian musician whose 1982 album Synthesizing: Ten Ragas to a Disco Beat anticipated acid house on a 303 and 808" }
+    ],
+    "media": [
+      { "src": "https://upload.wikimedia.org/wikipedia/commons/f/fd/Roland_TB-303_Panel.jpg", "alt": "Roland TB-303 front panel", "caption": "The TB-303's front panel: 16 multi-purpose keys, a large mode knob, and five tone knobs — and no display at all. CC0, Wikimedia Commons." },
+      { "src": "https://upload.wikimedia.org/wikipedia/commons/e/ee/Tb303_closeup.jpg", "alt": "Closeup of the TB-303 key and knob layout", "caption": "Closeup of the TB-303's programming surface. Public domain, Wikimedia Commons." },
+      { "src": "https://upload.wikimedia.org/wikipedia/commons/4/4e/Roland_TB-303_%40_nordcafe_Teknisca_Museet.jpg", "alt": "TB-303 on display at the Swedish National Museum of Science and Technology", "caption": "A TB-303 on display at the Swedish National Museum of Science and Technology (Tekniska museet). CC BY 2.0, Wikimedia Commons." }
+    ],
+    "sources": [
+      { "text": "Wikipedia — Roland TB-303", "url": "https://en.wikipedia.org/wiki/Roland_TB-303" },
+      { "text": "Electronics & Music Maker, April 1982 — TB-303 review (programming ritual)", "url": "https://www.muzines.co.uk/articles/roland-tb-303-bass-line/4250" },
+      { "text": "Vintage Synth Explorer — Roland TB-303", "url": "https://vintagesynth.com/roland/tb-303" },
+      { "text": "Attack Magazine — Roland TB-303: not a real bass guitar", "url": "https://www.attackmagazine.com/technique/hardware-focus/roland-tb-303/" },
+      { "text": "The Guardian — Tadao Kikumoto invents the Roland TB-303 (50 key events in dance music)", "url": "https://www.theguardian.com/music/2011/jun/15/tadao-kikumoto-roland" },
+      { "text": "Wikimedia Commons images (CC0, PD, CC BY 2.0)", "url": "https://commons.wikimedia.org/wiki/File:Roland_TB-303_Panel.jpg" }
+    ],
+    "imageUrls": [
+      "https://upload.wikimedia.org/wikipedia/commons/f/fd/Roland_TB-303_Panel.jpg",
+      "https://upload.wikimedia.org/wikipedia/commons/e/ee/Tb303_closeup.jpg",
+      "https://upload.wikimedia.org/wikipedia/commons/4/4e/Roland_TB-303_%40_nordcafe_Teknisca_Museet.jpg"
+    ]
+  },
+  "savedImages": [
+    "potential/tb303/images/tb303-panel.jpg",
+    "potential/tb303/images/tb303-closeup.jpg",
+    "potential/tb303/images/tb303-museum.jpg"
+  ]
+}

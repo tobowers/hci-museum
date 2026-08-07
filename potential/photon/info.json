@@ -1,0 +1,61 @@
+{
+  "slug": "photon",
+  "title": "Photon",
+  "year": "1984",
+  "subtitle": "The Ultimate Game on Planet Earth — the first commercial laser-tag arena, and the whole body as interface",
+  "why_scout_cares": "Fifteen pounds of IR gear — phaser, sensor vest, helmet — worn into a fog-filled, multi-level arena where a computer scored every beam you fired and every beam you took. The entire body was the I/O device, decades before Kinect, and the only candidate in the collection that puts players inside the display.",
+  "search_terms": ["Photon laser tag", "George Carter III", "Garland Texas 1984", "IR phaser sensor vest", "laser tag arena history"],
+  "research": {
+    "title": "Photon: The Ultimate Game on Planet Earth",
+    "year": "1984",
+    "by": "Photon (George Carter III)",
+    "tags": ["Embodied Interaction", "Arcade", "IR", "Multiplayer", "Body Interface"],
+    "overview": "Photon was the first commercial laser-tag arena, the direct descendant of the US military's MILES laser-training system and the ancestor of every laser-tag venue and console-based body interface that followed. The idea came to founder George Carter III while watching Star Wars in 1977; research and development began in earnest in 1982, and the first Photon center opened in the Dallas suburb of Garland, Texas in March 1984. The original prototype was architected by J.C. Collins; a production engineering team led by Kirk Gay, Dan Sellari, and Roger Hunter of Dallas redesigned it for manufacture. The first franchise opened in Toronto in June 1985.\n\nThe experience is the interaction model. Players wore roughly fifteen pounds of battery packs and equipment: an infrared phaser gun (which fired encoded IR beams, not lasers), a sensor vest, and a helmet — the entire body becomes the input and output surface. Arenas featured multiple levels, catwalks, mazes, and an observation deck with token-operated spectator guns. Games lasted six minutes, cued by a Ken Caillat soundtrack with strobes and smoke machines. A computer scored everything: points for shooting opponents and the enemy base, penalties for shooting teammates (which auto-zapped the offender), a limit of three consecutive zaps on the same player, and a weapon that went inert for five to ten seconds after each hit. Live monitors showed scoring under each player's self-chosen handle, and the machine even enforced balance rules that players exploited with physical 'cocking' strategies.\n\nCommercially Photon peaked fast and died hard: by 1987, 70 franchise licenses had been sold and 45 arenas were operating; lack of financing and lost franchise revenue forced the corporation to sell its assets and cease operations in 1989. Home units followed in 1986 under the Entertech brand. A Takara Famicom game based on Photon appeared in Japan in 1987, and the 2021 documentary Let There Be Light chronicled the system's creation and legacy. The IR arms race it started persists in every laser-tag venue and in the sensor vests of virtual-reality arenas today.",
+    "deepDive": [
+      {
+        "heading": "The body as interface",
+        "text": "Photon is the purest 'body-as-I/O' artifact of its decade. The gun is the output channel (IR beams encoded with a player signature), the vest and helmet are the input channels (photosensors), and the six-minute game loop is a real-time computer-mediated feedback cycle: beam → sensor → scoreboard → strategy. There is no screen to watch — the arena, with its fog, strobes, and catwalks, is the display. Rules were enforced in hardware: the three-consecutive-zap limit forced target variety, and the inert-weapon window after each hit prevented camping. Players countered the machine's rules with bodily workarounds — cocking the helmet back, covering the breastplate with a hand, leaning into walls to block sensors — a lived, physical negotiation with a scoring algorithm."
+      },
+      {
+        "heading": "Computer-scored competition under a handle",
+        "text": "Long before online gaming, Photon ran a persistent identity system: each player bought a photo ID badge ($10–35) and competed under a self-chosen handle displayed on arena monitors. Leagues and tournaments formed, and tactics became a documented discipline. The machine tracked each shot, each hit, and each friendly-fire violation in real time — a computer referee, scorekeeper, and matchmaker in one. It is the arcade cabinet's scoring logic turned inside out and worn on the body."
+      },
+      {
+        "heading": "From MILES to the arena",
+        "text": "Photon's technology lineage is the US Army's Multiple Integrated Laser Engagement System (MILES), a late-1970s IR laser-and-sensor training system — the same physical principle (beam → detector vest → adjudication) transplanted from combat training to play. Home laser-tag sets (WoW Lazer Tag 1986, Entertech 1986) shrank the arena to the backyard, and the IR signature-encoded beam remains the basis of laser-tag to this day. The museum's other body-tracking exhibits (VIDEOPLACE, Mandala, U-Force) are camera-based; Photon is the only one that puts the sensors on the players themselves."
+      }
+    ],
+    "team": [
+      { "name": "George Carter III", "note": "Founder; conceived Photon after watching Star Wars in 1977, began R&D in 1982" },
+      { "name": "J.C. Collins", "note": "Original arena architect; installed the prototype in the Garland, Texas center in early 1984" },
+      { "name": "Kirk Gay, Dan Sellari, Roger Hunter", "note": "Dallas engineering team that redesigned the prototype for production and performance" },
+      { "name": "Ken Caillat", "note": "Composed the dramatic arena soundtrack used to cue six-minute games" }
+    ],
+    "media": [
+      { "src": "https://upload.wikimedia.org/wikipedia/commons/c/c2/Photon_Gun.jpg", "alt": "Original Photon infrared phaser gun", "caption": "The original Photon infrared phaser gun carried by arena players. CC BY-SA 3.0, Wikimedia Commons." },
+      { "src": "https://upload.wikimedia.org/wikipedia/commons/5/58/Computer_Gaming_World_issue_4.2_%28page_41_Photon_1%29.jpg", "alt": "Players inside a Photon arena, 1984", "caption": "A player suited up in vest, helmet, and gun inside a 1984 Photon arena (Computer Gaming World scan). Public domain, Wikimedia Commons." },
+      { "src": "https://upload.wikimedia.org/wikipedia/commons/a/aa/Computer_Gaming_World_issue_4.2_%28page_41_Photon_2%29.jpg", "alt": "The multi-level fog-filled Photon arena interior, 1984", "caption": "The multi-level, fog-filled Photon arena interior with its catwalks and mazes, 1984 (Computer Gaming World scan). Public domain, Wikimedia Commons." },
+      { "src": "https://upload.wikimedia.org/wikipedia/commons/e/eb/Photon_Center_ID_Badge.jpg", "alt": "Photon center photo ID badge", "caption": "A Photon center photo ID badge — the persistent identity under which players competed. CC BY-SA 4.0, Wikimedia Commons." }
+    ],
+    "sources": [
+      { "text": "Wikipedia — Photon: The Ultimate Game on Planet Earth", "url": "https://en.wikipedia.org/wiki/Photon:_The_Ultimate_Game_on_Planet_Earth" },
+      { "text": "International Laser Tag Association — History of Laser Tag (archived)", "url": "https://web.archive.org/web/20071011163339/http://lasertag.org/general/history.html" },
+      { "text": "The Dallas Morning News — Who knew? Laser tag was invented in Dallas (May 7, 2014)", "url": "https://www.dallasnews.com/" },
+      { "text": "Let There Be Light: Photon and the Birth, Life, and Legacy of Laser Tag (2021 documentary)", "url": "https://www.imdb.com/title/tt14125120/" },
+      { "text": "Wikipedia — Multiple Integrated Laser Engagement System (MILES)", "url": "https://en.wikipedia.org/wiki/Multiple_Integrated_Laser_Engagement_System" },
+      { "text": "Wikimedia Commons images (CC BY-SA 3.0, CC BY-SA 4.0, public domain)", "url": "https://commons.wikimedia.org/wiki/File:Photon_Gun.jpg" }
+    ],
+    "imageUrls": [
+      "https://upload.wikimedia.org/wikipedia/commons/c/c2/Photon_Gun.jpg",
+      "https://upload.wikimedia.org/wikipedia/commons/5/58/Computer_Gaming_World_issue_4.2_%28page_41_Photon_1%29.jpg",
+      "https://upload.wikimedia.org/wikipedia/commons/a/aa/Computer_Gaming_World_issue_4.2_%28page_41_Photon_2%29.jpg",
+      "https://upload.wikimedia.org/wikipedia/commons/e/eb/Photon_Center_ID_Badge.jpg"
+    ]
+  },
+  "savedImages": [
+    "potential/photon/images/photon-gun.jpg",
+    "potential/photon/images/photon-arena-1984.jpg",
+    "potential/photon/images/photon-arena2-1984.jpg",
+    "potential/photon/images/photon-id-badge.jpg"
+  ]
+}

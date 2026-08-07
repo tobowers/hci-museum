@@ -1,0 +1,48 @@
+{
+  "slug": "editdroid",
+  "title": "Lucasfilm EditDroid",
+  "year": "1984",
+  "subtitle": "The $93,000 laserdisc editing machine that invented the timeline — the missing link between the flatbed and Final Cut",
+  "why_scout_cares": "The first nonlinear video editing system, with a physical controller (KEM-style shuttle knob + trackball + relegendable LED soft keys) driving a touchscreen timeline over racks of industrial laserdisc players. 'It could almost be Final Cut Pro in 2005.' Only 24 units, $93,000, sold to Avid in 1993. DEFERRED: zero freely-licensed images exist (only © Lucasfilm blog and auction photos).",
+  "search_terms": ["Lucasfilm EditDroid", "Droid Works", "nonlinear editing 1984", "shuttle knob timeline", "laserdisc editing system", "The Droid Works Convergence"],
+  "research": {
+    "title": "Lucasfilm EditDroid",
+    "year": "1984",
+    "by": "Lucasfilm Ltd. / The Droid Works (Lucasfilm + Convergence Corp.)",
+    "tags": ["Video", "Editing", "Tangible Input", "Timeline", "Laserdisc", "GUI"],
+    "overview": "The EditDroid was the first nonlinear video editing system, developed by Lucasfilm's Computer Division — the group Ed Catmull built after leaving NYIT, with Ralph Guggenheim overseeing nonlinear editing — and commercialized through The Droid Works, a joint venture of Lucasfilm Ltd. and Convergence Corporation of Irvine, California. It debuted at the 62nd NAB annual meeting in Las Vegas in 1984, the same year as the Macintosh. The first commercial unit sold to Complete Post Inc. of Hollywood; only 24 units were ever produced, at a price of roughly $93,000.\n\nThe EditDroid treated film as data. Rushes were transferred to videotape and pressed onto industrial laserdiscs (each holding about 30 minutes of film); a database of multiple laserdisc players queued the discs in the most efficient order, finding any frame in two to five seconds against the 45 to 60 seconds a tape machine took. Clips lived in an Electronic Trim Bin, metadata in an Electronic Logbook (scene, take, durations, edge numbers, SMPTE timecode), and the output was an edit decision list for lab conforming. It introduced the horizontal graphical timeline and digitized picture icons for source clips — the interface every modern editor uses.\n\nThe physical interface is the HCI story. The editor sat at a large slanted console nicknamed 'the Death Star,' containing a KEM-style shuttle knob (a big rotary wheel inherited from German flatbed editing tables and the ancestor of every jog/shuttle wheel since), a trackball, and roughly a dozen buttons whose LED labels changed function contextually depending on what the system was doing. There was no typing required for the core cut — the system fused flatbed muscle-memory with a reconfigurable software console, displayed across a Sun-1 workstation bitmap screen, a preview monitor, and a large rear-projected 'the cut' monitor. As Michael Rubin put it in CineMontage: 'by 1984, you can see in that machine an almost perfect simulation of how we work today... It could almost be Final Cut Pro in 2005.'",
+    "deepDive": [
+      {
+        "heading": "The shuttle knob and the soft keys",
+        "text": "The EditDroid controller was a deliberate hybrid of physical and software interaction. The large KEM-style shuttle knob gave editors the tactile scrubbing motion they knew from flatbed tables, while the reconfigurable soft keys (LED labels changing meaning per context) and trackball made the same console behave as a software UI. The Droid Works' own 1985 documents describe the controller as a shuttle knob plus twelve reconfigurable keys. This is the transitional artifact between the physical editing room and the GUI timeline — before Avid made the mouse the editor's only instrument."
+      },
+      {
+        "heading": "The Death Star in the room",
+        "text": "The console was nicknamed 'the Death Star' by the Lucasfilm team, and the 1984 NAB demo (which included footage of the desert chase from Return of the Jedi — demo material, not an actual edit) became legend. The 2013 auction of a surviving unit revealed a 'Return of the Jedi EditDroid Demo Laserdisc' with 50 raw Dagobah takes. Only 24 units were made; about 15 had sold by late 1986. Used on television (Viacom's Matlock, CBS's Twilight Zone) and eventually on Lucasfilm's own The Young Indiana Jones Chronicles (1992–93). George Lucas never edited a film on it, and it was a commercial failure — but its software lineage ran directly into Avid Technology, which bought the assets in 1993."
+      },
+      {
+        "heading": "Why it matters (and why it's deferred)",
+        "text": "The EditDroid is the strongest post-production HCI candidate found in this run: a physical editing instrument fused with a graphical timeline, fifteen years before Avid made the paradigm standard. However, the museum promotes only exhibits with locally-hosted, license-clean images, and every surviving EditDroid image is copyrighted — Lucasfilm's own blog photos and auction-listing photos, with zero CC-licensed images on Wikimedia Commons. It is therefore deferred pending image licensing (Lucasfilm/Disney archives, the Academy of Motion Picture Arts and Sciences, or the documentary EditDroid: Rise and Fall, 2014)."
+      }
+    ],
+    "team": [
+      { "name": "Lucasfilm Computer Division", "note": "Developed the EditDroid under Ed Catmull; Ralph Guggenheim oversaw nonlinear editing; engineers Andy Cohen, Rob Lay, Kate Smith-Greenfield, John Lynch, David Blomgren, Steve Schwartz, Pete Ronzoni; Ben Burtt consulted" },
+      { "name": "The Droid Works", "note": "Joint venture of Lucasfilm Ltd. and Convergence Corporation that commercialized the EditDroid and SoundDroid; CEO Robert Doris; closed 1987" },
+      { "name": "Complete Post Inc.", "note": "First commercial purchaser of an EditDroid" },
+      { "name": "Avid Technology", "note": "Acquired the EditDroid software lineage in 1993" }
+    ],
+    "media": [
+      { "src": "https://www.lucasfilm.com/app/uploads/marquee-1_edit.jpg", "alt": "EditDroid console at Lucasfilm (copyright image)", "caption": "The EditDroid console. (© Lucasfilm — deferred pending licensing; shown for reference only.)" }
+    ],
+    "sources": [
+      { "text": "Wikipedia — EditDroid", "url": "https://en.wikipedia.org/wiki/EditDroid" },
+      { "text": "Lucasfilm — Lucasfilm Originals: The EditDroid (2021)", "url": "https://www.lucasfilm.com/news/lucasfilm-originals-the-editdroid/" },
+      { "text": "Fortune (Aug 5, 1985) — Droids for Sale", "url": "https://web.archive.org/web/20080417194820/http://money.cnn.com/magazines/fortune/fortune_archive/1985/08/05/66242/index.htm" },
+      { "text": "The New York Times (Oct 19, 1986) — Film Editing Goes Electronic", "url": "https://www.nytimes.com/1986/10/19/business/film-editing-goes-electronic.html" },
+      { "text": "The Droid Works documents, April 1985 (ed-485.pdf, qa-485.pdf)", "url": "http://typewritten.org/Articles/DroidWorks/" },
+      { "text": "CineMontage / Editors Guild (2006) — Digital Dreamcatcher", "url": "https://web.archive.org/web/20160613014038/http://editorsguild.com/v2/magazine/archives/0106/features_article01.htm" }
+    ],
+    "imageUrls": []
+  },
+  "savedImages": []
+}
