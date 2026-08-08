@@ -174,6 +174,8 @@ Each entry includes an overview, a deep dive, a small media gallery, and full so
 165. [Roland TB-303 Bass Line (1981)](#roland-tb-303-bass-line-1981)
 166. [Roland TR-808 Rhythm Composer (1980)](#roland-tr-808-rhythm-composer-1980)
 167. [Photon (1984)](#photon-1984)
+168. [Novag Robot Adversary (1982)](#novag-robot-adversary-1982)
+169. [Unimation PUMA Teach Pendant / VAL (1980)](#unimation-puma-teach-pendant--val-1980)
 
 ---
 
@@ -8256,3 +8258,93 @@ Commercially Photon peaked fast and died hard: by 1987, 70 franchise licenses ha
 4. Let There Be Light: Photon and the Birth, Life, and Legacy of Laser Tag (2021 documentary) — https://www.imdb.com/title/tt14125120/
 5. Wikipedia — Multiple Integrated Laser Engagement System (MILES) — https://en.wikipedia.org/wiki/Multiple_Integrated_Laser_Engagement_System
 6. Wikimedia Commons images (CC BY-SA 3.0, CC BY-SA 4.0, public domain) — https://commons.wikimedia.org/wiki/File:Photon_Gun.jpg
+
+## Novag Robot Adversary (1982)
+**By:** Novag Industries (Hong Kong) — hardware by California R&D Center
+**Tags:** `Robotics` `Games` `Mechanical` `Consumer` `Embodied`
+
+### Overview
+
+The Novag Robot Adversary (1982) was the first commercially released chess computer with a visible robotic arm. Where earlier machines announced their moves with lights or speech, the Adversary physically picked up its own pieces with a two-segment gripper arm on a rotating base post and placed them on the board — captures, castling, everything — while you played across the table on a real board.
+
+The board was itself a sensor. Every piece carried a magnet in its base, and under each square a complementary magnet lifted to close a two-layer flexible-polyester switch matrix (64 board squares plus 32 'parking field' positions): press a piece onto a square and the machine knew exactly what you had done. The same field self-centered pieces for reliable gripping. The arm was driven by four DC Mabuchi motors — base slew, elbow via belt and cable against a torsion spring, vertical lift via bell crank, fingers via cam pulley — with optical encoders and home microswitches tracking position. The chess program was David Kittinger's MyChess: 32 KiB of Z80B code at 6 MHz with 5 KiB of RAM and a separate 8 KiB mechanics ROM.
+
+Roughly 2,000–2,500 units were built at about DM 2,698 in Germany (roughly US$1,100–1,500), with a defect rate near 50% at launch; today a fraction of a percent still play a full game. The Computer History Museum holds one (accession 102645420, gift of computer-chess researcher Monroe Newborn) in its 'Mastering the Game' chess exhibit.
+
+### Deep dive
+
+* **The arm as interface.** The Adversary turned chess output into physical action. Beyond making its moves, the arm performed a small theater: it pointed at a suggested move when you asked for a hint, gestured to indicate skill level, and could play itself — moving both sides and then resetting the board. Contemporary reviews and owner accounts describe the arm's 'emotions': picking up a piece and putting it down with emphasis, shaking, sounding tones, flashing LEDs — playing the part of a frustrated or triumphant opponent. An optional thermal printer recorded games. The machine did not tell you what it had decided; it reached out and did it.
+* **Magnetic sensing and the patent.** US Patent 4,398,720 (filed January 5, 1981, granted August 16, 1983) covers the piece-sensing and movement system. Where Fidelity's sensory boards required you to press down on a square, each Adversary piece's base magnet interacts with a floating magnet in the board cavity: placing a piece draws the board magnet up and closes a flexible switch matrix. That gave the machine both reliable move detection and a self-centering mechanism that kept pieces exactly where the gripper expected them. Inventors include David Kittinger and Richard Hollander, assigned to California R&D Center.
+* **A collector's machine.** German magazine Der Spiegel reviewed the Adversary in December 1982 under the headline 'Lästig, nicht lustig' ('Annoying, not funny'), noting the mechanical drama and the price. The machine is now documented in the chessprogramming wiki, in repair teardowns (the four Mabuchi motors are no longer obtainable), and in the Computer History Museum's collection. It is remembered as the moment a consumer computer put a hand on the board — a contrast to the museum's Fidelity Voice Sensory Chess Challenger, which senses and speaks but never touches.
+
+### Team
+
+* **Novag Industries.** Manufacturer; Peter and Gabrielle Auge's Hong Kong chess computer company
+* **David Kittinger.** Chess programmer; the MyChess engine used in the Adversary, Savant, and Savant II
+* **California R&D Center.** Robot hardware and sensing design; patent assignee (US 4,398,720)
+* **Monroe Newborn.** Computer-chess researcher whose donation placed the Adversary in the Computer History Museum
+
+### Media
+
+![Novag Robot Adversary at the Computer History Museum](../assets/wiki/novag-robot-adversary-chm.jpg)
+*The Novag Robot Adversary in the Computer History Museum's 'Mastering the Game' chess exhibit (accession 102645420). Source: Computer History Museum.*
+
+![Novag Robot Adversary with the board set up](../assets/wiki/novag-robot-adversary-chesscomputeruk.jpg)
+*The Adversary with the board set up, showing the articulated gripper arm that physically moves the machine's pieces. Source: Chess Computer UK (Mike Watters).*
+
+![Novag Robot Adversary repair teardown](../assets/wiki/novag-robot-adversary-teardown.jpg)
+*A collector's repair-teardown photograph of the arm and board mechanism. Source: Kikuyumoja blog.*
+
+### Sources
+
+1. US Patent 4,398,720 — Robot computer chess game — https://patents.google.com/patent/US4398720A/en
+2. Computer History Museum — 'Mastering the Game' collection record — http://www.computerhistory.org/chess/stl-431f4cc1863c0/
+3. Chess Computer UK — Novag Robot Adversary page (Mike Watters) — http://www.chesscomputeruk.com/html/novag_robot_adversary.html
+4. Chess Programming Wiki — Robot Adversary — https://www.chessprogramming.org/Robot_Adversary
+5. Der Spiegel 49/1982 — 'Lästig, nicht lustig' — https://www.spiegel.de/spiegel/print/d-14356596.html
+6. Kikuyumoja — repair teardown post — http://kikuyumoja.com/2011/10/23/novag-robot-adversary-chess-computer/
+7. ChessEval — Robot Adversary collection page (Maurice Ohayon) — http://www.chesseval.com/Robots/RobotAdversary.htm
+
+## Unimation PUMA Teach Pendant / VAL (1980)
+**By:** Unimation Inc. — Victor Scheinman
+**Tags:** `Robotics` `Industrial` `Programming` `Embodied`
+
+### Overview
+
+The PUMA (Programmable Universal Machine for Assembly) was Unimation's electric robot arm, designed by Victor Scheinman out of his Stanford arm for General Motors and introduced around 1978. Its defining interface was the handheld 'manual control unit' — the teach pendant — and VAL, the first robot programming language to see wide industrial use. The VAL User's Guide (June 1980, version 12) documents the pendant in detail.
+
+The pendant carried six mode buttons along one edge — OFF, COMP (computer), JOINT, FREE, WORLD, TOOL — a speed knob with a full-counterclockwise INC (increment) setting, joint-select toggle switches held toward '+' or '−', a RECORD button, and a small display. In JOINT mode you jogged individual joints; WORLD mode moved the arm along world axes; TOOL mode moved along the tool's own orientation. FREE mode released the servos: 'the servo system releases control of that joint, and you can move it to a new position by pushing on the members of the robot.' Press RECORD and the controller inserted a MOVET or MOVEST instruction into the program, naming the point NEW1, NEW2, NEW3… The OFF button was the panic halt.
+
+VAL ran on a DEC LSI-11 inside the Unimation controller and grew into a full environment — teach-mode move recording, joint-level commands, and edit/execute sessions (.EDIT DEMO.1, .HERE PART, EXECUTE). Nokia built roughly 1,500 PUMA robots in the 1980s; General Motors donated the original prototype to the Smithsonian in 2002; a Unimate 500 PUMA (1983) with control unit and terminal is exhibited at the Deutsches Museum in Munich.
+
+### Deep dive
+
+* **Programming by manipulation.** The teach pendant's deepest idea was that an assembly robot would be programmed by a human's hands, not a compiler. In teach mode you steered the arm to a position — jog toggles for coarse motion, the INC setting for servo-resolution increments — and pressed RECORD to save the point. FREE mode went further: it let the operator physically push the arm through a motion while the controller captured the path. This is programming-by-manipulation, the ancestor of today's kinesthetic teaching in collaborative robotics, and it made the boundary between human and machine physical — the OFF panic button, and a philosophy in which the robot is never autonomous while a person shares its space.
+* **The pendant's anatomy.** The manual control unit was a heavy handheld box tethered to the controller. Mode switches ran along the edge, the speed control doubled as an increment dial, and the joint toggles had to be held, so every programmed move was deliberate. The display reported teach mode, errors, and calibration status, and the pendant's commands mapped onto VAL instructions the operator never typed. Later pendants added the three-position dead-man/enabling switch that became an industry safety standard — a direct descendant of the PUMA pendant's hold-to-operate logic.
+* **VAL: robot programming as an HCI artifact.** VAL bridged pendant and program, combining a motion command language ('MOVE TO PART', 'APPRO', 'DEPART') with an editor and executor. MIT's AI Lab famously ran a PUMA 600 from a Lisp Machine via VAL in 1982 ('Talking to the Puma'). Its significance for HCI is that the program was written in the machine's own joint and world coordinates, captured from the human's gestures rather than from text — the teach-pendant-plus-script pattern that still defines how industrial robots are configured today.
+
+### Team
+
+* **Victor Scheinman.** Designer of the PUMA arm; earlier the Stanford arm
+* **Unimation Inc.** Manufacturer (Danbury, CT); the PUMA was developed with General Motors
+* **Bruce Shimano.** VAL language developer at Unimation (VAL User's Guide version 12, June 1980)
+* **General Motors.** Original sponsor of the PUMA program; donated the prototype to the Smithsonian in 2002
+
+### Media
+
+![Unimate 500 PUMA with control unit and terminal at Deutsches Museum](../assets/wiki/puma-deutsches-museum.jpg)
+*Unimate 500 PUMA (1983) with control unit and computer terminal, Deutsches Museum, Munich. The teach pendant (manual control unit) hangs from the controller. CC BY-SA 3.0, Wikimedia Commons.*
+
+![Unimate PUMA 500 and 560 robots in a 1986 archive photograph](../assets/wiki/puma-cms-1986.jpg)
+*Unimate PUMA 500 and 560 robots in a 1986 Computer Integrated Manufacturing Systems archive photograph. Public domain, Wikimedia Commons.*
+
+![PUMA arm at NASA Ames Research Center](../assets/wiki/puma-nasa.jpg)
+*PUMA arm at NASA Ames Research Center — the arm the teach pendant steers. Public domain, Wikimedia Commons.*
+
+### Sources
+
+1. User's Guide to VAL (398H2A), Unimation Inc., June 1980 — teach pendant and FREE-mode documentation — https://pdfcoffee.com/users-guide-to-val-398h2a-pdf-free.html
+2. Wikipedia — Programmable Universal Machine for Assembly — https://en.wikipedia.org/wiki/Programmable_Universal_Machine_for_Assembly
+3. MIT AI Lab — 'Talking to the Puma' (1982) — https://dspace.mit.edu/handle/1721.1/41183
+4. Wikimedia Commons — Unimate 500 PUMA at Deutsches Museum (CC BY-SA 3.0) — https://commons.wikimedia.org/wiki/File:Unimate_500_PUMA_Deutsches_Museum.jpg
+5. Richard Voyles' PUMA page — manuals and retrofit documentation — https://www.cs.cmu.edu/~deadslug/puma.html

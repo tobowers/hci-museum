@@ -2043,6 +2043,30 @@ const exhibitData: Exhibit[] = [
     tags: ["Embodied Interaction", "Arcade", "IR", "Multiplayer", "Body Interface"],
     image: img("photon-gun.jpg"),
   },
+  {
+    id: "novag-robot-adversary",
+    slug: "novag-robot-adversary",
+    sortYear: 1982,
+    wikiTitle: "Novag Robot Adversary",
+    year: "1982",
+    title: "Novag Robot Adversary",
+    subtitle: "The chess computer with a robot arm that moves your pieces for you",
+    blurb: "The Novag Robot Adversary (1982) was the first commercially released chess computer with a visible robotic arm: a two-segment gripper on a rotating base lifted the machine's pieces and played them on a real magnetic-sensing board — captures, castling, everything — while you played across the table. The board read your moves through magnets in the pieces' bases; the arm could point at suggested moves, play itself, and throw theatrical 'tantrums.' Built by Novag Industries with David Kittinger's MyChess engine, it cost about US$1,100–1,500 and roughly 2,000–2,500 were made. The Computer History Museum holds one.",
+    tags: ["Robotics", "Games", "Mechanical", "Consumer", "Embodied"],
+    image: img("novag-robot-adversary-chm.jpg"),
+  },
+  {
+    id: "unimation-puma-teach-pendant",
+    slug: "unimation-puma-teach-pendant",
+    sortYear: 1980,
+    wikiTitle: "Unimation PUMA Teach Pendant / VAL",
+    year: "1980",
+    title: "Unimation PUMA Teach Pendant / VAL",
+    subtitle: "Programming a robot by grabbing it — jog buttons, a limp-mode arm, and a record key",
+    blurb: "The Unimation PUMA's handheld 'manual control unit' (1980) taught an industrial robot by manipulation: six mode buttons (OFF, COMP, JOINT, FREE, WORLD, TOOL), a speed knob with an increment setting, joint-select toggles, and a RECORD key. In FREE mode the servos went limp and the operator physically pushed the arm while the controller recorded positions into VAL — the first widely used robot programming language — on a DEC LSI-11. 'The servo system releases control of that joint, and you can move it to a new position by pushing on the members of the robot.' Programming-by-manipulation, before collaborative robots had a name.",
+    tags: ["Robotics", "Industrial", "Programming", "Embodied"],
+    image: img("puma-deutsches-museum.jpg"),
+  },
 ];
 
 export const exhibits: Exhibit[] = exhibitData.toSorted((a, b) => b.sortYear - a.sortYear || a.title.localeCompare(b.title));
