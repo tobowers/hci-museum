@@ -1,0 +1,56 @@
+{
+  "slug": "unimation-puma-teach-pendant",
+  "title": "Unimation PUMA Teach Pendant / VAL",
+  "year": "1980",
+  "subtitle": "Programming a robot by grabbing it — jog buttons, a limp-mode arm, and a record key",
+  "why_scout_cares": "Industrial HCI and programming-by-manipulation: the PUMA's handheld 'manual control unit' lets a human jog a six-axis arm in joint or world space, then push it by hand in FREE (limp) mode while the controller records positions into a VAL program. The first widely used robot programming language, taught not by typing but by physically guiding the machine. Nothing in the museum covers industrial robotics or physical programming-by-example.",
+  "search_terms": ["Unimation PUMA teach pendant", "VAL programming language 1980", "manual control unit robot", "lead-through programming robot", "PUMA 560"],
+  "research": {
+    "title": "Unimation PUMA Teach Pendant / VAL",
+    "year": "1980",
+    "by": "Unimation Inc. — Victor Scheinman; VAL by Bruce Shimano et al.",
+    "tags": ["HCI", "Robotics", "Industrial", "Programming", "Embodied"],
+    "overview": "The PUMA (Programmable Universal Machine for Assembly) was Unimation's electric robot arm, designed by Victor Scheinman out of his Stanford arm for General Motors and introduced around 1978. Its defining interface was a handheld 'manual control unit' — the teach pendant — and VAL, the first robot programming language widely used in industry. The VAL User's Guide (June 1980, version 12, document 398H2A) describes the pendant in detail.\n\nThe pendant carried six mode buttons along one side — OFF, COMP (computer), JOINT, FREE, WORLD, TOOL — a speed knob with a full-counterclockwise INC (increment) setting, joint-select toggle switches held toward '+' or '−', a RECORD button, and a small display. In JOINT mode you jogged individual joints; in WORLD mode the arm moved along world axes; TOOL mode moved along the tool's own orientation. FREE mode released the servos: 'the servo system releases control of that joint, and you can move it to a new position by pushing on the members of the robot.' Press RECORD and the controller inserted a MOVET or MOVEST instruction into the program, naming the position NEW1, NEW2, NEW3… The OFF button was the panic halt.\n\nVAL itself ran on a DEC LSI-11 inside the Unimation controller and grew into a full programming environment — teach-mode move recording, joint-level commands, and edit/execute sessions (.EDIT DEMO.1, .HERE PART, EXECUTE). Nokia built roughly 1,500 PUMA robots during the 1980s; General Motors donated the original prototype to the Smithsonian in 2002; a Unimate 500 PUMA (1983) with control unit and terminal is exhibited at the Deutsches Museum in Munich.",
+    "deepDive": [
+      {
+        "heading": "Programming by manipulation",
+        "text": "The teach pendant's deepest idea was that an assembly robot would be programmed by a human's hands, not a compiler. In teach mode you steered the arm to a position — with joystick-style jog toggles for fine motion, the INC setting for servo-resolution increments — and pressed RECORD to save the point. FREE mode went further: it let the operator physically push the arm through a motion, and the controller could capture the path. This is programming-by-manipulation, an ancestor of today's kinesthetic teaching in collaborative robotics. The interface also encoded the boundary between human and machine: the OFF panic button, and a philosophy in which the robot is never autonomous while a human shares its space."
+      },
+      {
+        "heading": "The pendant's anatomy",
+        "text": "The manual control unit was a heavy handheld box tethered to the controller. Its design shows how seriously Unimation treated the physicality of programming: mode switches along the edge, a speed control that doubled as an increment dial, and switches that had to be held, so a programmed move was always deliberate. The display reported teach mode, errors, and calibration status, and the pendant's commands mapped onto VAL instructions the operator never had to type. Later pendants added the three-position dead-man/enabling switch that became a safety standard across the industry — a direct descendant of the PUMA pendant's hold-to-operate logic."
+      },
+      {
+        "heading": "VAL: robot programming as an HCI artifact",
+        "text": "VAL was the bridge between the pendant and the program. It combined a command language for motion ('MOVE TO PART', 'APPRO', 'DEPART') with an editor and executor, and MIT's AI Lab famously ran a PUMA 600 from a Lisp Machine via VAL in 1982 ('Talking to the Puma'). The system's significance for HCI is that the program was written in the machine's own joint and world coordinates, captured from the human's gestures rather than from text. VAL established the teach pendant + scripting-language pattern that still defines how industrial robots are configured today."
+      }
+    ],
+    "team": [
+      { "name": "Victor Scheinman", "note": "Designer of the PUMA arm; earlier the Stanford arm" },
+      { "name": "Unimation Inc.", "note": "Manufacturer (Danbury, CT); PUMA developed with General Motors" },
+      { "name": "Bruce Shimano et al.", "note": "VAL language developers at Unimation (VAL manual version 12, June 1980)" }
+    ],
+    "media": [
+      { "src": "https://upload.wikimedia.org/wikipedia/commons/b/b8/Unimate_500_PUMA_Deutsches_Museum.jpg", "alt": "Unimate 500 PUMA with control unit and terminal at Deutsches Museum", "caption": "Unimate 500 PUMA (1983) with control unit and computer terminal, Deutsches Museum, Munich. The teach pendant (manual control unit) hangs from the controller. Source: Wikimedia Commons, CC BY-SA 3.0." },
+      { "src": "https://upload.wikimedia.org/wikipedia/commons/8/8a/Computer_Integrated_Manufacturing_Systems%28CMS%29Unimate_Pumo_500_%26_Pumo_560_robots_1986%281%29.jpg", "alt": "Unimate PUMA 500 and 560 robots in a 1986 manufacturing systems facility", "caption": "Unimate PUMA 500 and 560 robots in a 1986 Computer Integrated Manufacturing Systems archive photograph. Source: Wikimedia Commons, public domain." },
+      { "src": "https://upload.wikimedia.org/wikipedia/commons/7/7f/Puma_Robotic_Arm_-_GPN-2000-001817.jpg", "alt": "NASA Ames PUMA robotic arm", "caption": "PUMA arm at NASA Ames Research Center. Source: Wikimedia Commons, public domain (NASA GPN-2000-001817)." }
+    ],
+    "sources": [
+      { "text": "User's Guide to VAL (398H2A), Unimation Inc., June 1980 — teach pendant and FREE-mode documentation", "url": "https://pdfcoffee.com/users-guide-to-val-398h2a-pdf-free.html" },
+      { "text": "Wikipedia — Programmable Universal Machine for Assembly", "url": "https://en.wikipedia.org/wiki/Programmable_Universal_Machine_for_Assembly" },
+      { "text": "MIT AI Lab — 'Talking to the Puma' (1982)", "url": "https://dspace.mit.edu/handle/1721.1/41183" },
+      { "text": "Wikimedia Commons — Unimate 500 PUMA at Deutsches Museum (CC BY-SA 3.0)", "url": "https://commons.wikimedia.org/wiki/File:Unimate_500_PUMA_Deutsches_Museum.jpg" },
+      { "text": "Richard Voyles' PUMA page — manuals and retrofit documentation", "url": "https://www.cs.cmu.edu/~deadslug/puma.html" }
+    ],
+    "imageUrls": [
+      "https://upload.wikimedia.org/wikipedia/commons/b/b8/Unimate_500_PUMA_Deutsches_Museum.jpg",
+      "https://upload.wikimedia.org/wikipedia/commons/8/8a/Computer_Integrated_Manufacturing_Systems%28CMS%29Unimate_Pumo_500_%26_Pumo_560_robots_1986%281%29.jpg",
+      "https://upload.wikimedia.org/wikipedia/commons/7/7f/Puma_Robotic_Arm_-_GPN-2000-001817.jpg"
+    ]
+  },
+  "savedImages": [
+    "images/puma-deutsches-museum.jpg",
+    "images/puma-cms-1986.jpg",
+    "images/puma-nasa.jpg"
+  ]
+}

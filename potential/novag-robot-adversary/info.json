@@ -1,0 +1,58 @@
+{
+  "slug": "novag-robot-adversary",
+  "title": "Novag Robot Adversary",
+  "year": "1982",
+  "subtitle": "The chess computer with a robot arm that moves your pieces for you",
+  "why_scout_cares": "Machine as physical opponent: a visible gripper arm lifts the machine's pieces and moves them on a real magnetic-sensing board, plays itself to demonstrate, even throws tantrums. Mechanical output plus magnetic-actuated input — a physical artifact of the machine-becoming-other, distinct from the museum's sensory-board Fidelity Voice Sensory Chess Challenger (no arm).",
+  "search_terms": ["Novag Robot Adversary", "chess robot arm 1982", "robot chess computer arm", "US4398720", "Novag magnetic sensory board"],
+  "research": {
+    "title": "Novag Robot Adversary",
+    "year": "1982",
+    "by": "Novag Industries (Hong Kong); hardware by California R&D Center",
+    "tags": ["HCI", "Robotics", "Games", "Mechanical", "Consumer"],
+    "overview": "The Novag Robot Adversary (1982) was the first commercially released chess computer with a visible robotic arm. Where earlier machines announced moves with lights or speech, the Adversary physically picked up its own pieces with a two-segment gripper arm on a rotating base post and placed them on the board — captures, castling, everything — while you played on a real board across the table.\n\nThe board was itself a sensor: every piece carried a magnet in its base, and under each square a complementary magnet lifted to close a two-layer flexible-polyester switch matrix (64 board squares plus 32 'parking field' positions). Press a piece onto a square and the machine knew exactly what you had done; the same field self-centered pieces for reliable gripping. The arm was driven by four DC Mabuchi motors (base slew, elbow via belt and cable against a torsion spring, vertical lift via bell crank, fingers via cam pulley), with optical encoders and home microswitches tracking position.\n\nThe chess program was David Kittinger's MyChess, a 32 KiB Z80B program at 6 MHz with 5 KiB RAM and a separate 8 KiB mechanics ROM. It sold for about DM 2,698 in Germany (roughly US$1,100–1,500) — the price of a serious machine — and roughly 2,000–2,500 units were built, with a defect rate around 50% at launch. Today a fraction of a percent still play a full game. The Computer History Museum holds one (accession 102645420, gift of computer-chess researcher Monroe Newborn).",
+    "deepDive": [
+      {
+        "heading": "The arm as interface",
+        "text": "The Adversary turned chess output into physical action. Beyond making its moves, the arm performed a small theater: it would point at a suggested move when you asked for a hint, gesture to indicate skill level, and could play itself — moving both sides and then resetting the board. Contemporary reviews and owner accounts describe the arm's 'emotions': it would pick up a piece and put it down with emphasis, shake, sound tones, and flash LEDs, playing the part of a frustrated or triumphant opponent. An optional thermal printer recorded games. The visible, grumbling arm is the whole point: the machine did not tell you what it had decided, it reached out and did it."
+      },
+      {
+        "heading": "Magnetic sensing and the patent",
+        "text": "US Patent 4,398,720 (filed January 5, 1981, granted August 16, 1983) covers the piece-sensing and movement system. Rather than press-sensing (as in Fidelity's sensory boards, where you push down on a square), each piece's base magnet interacts with a floating magnet in the board cavity: when a piece is placed, the board magnet is drawn up and closes a flexible switch matrix. This gave the machine both reliable move detection and a self-centering mechanism that kept pieces exactly where the gripper expected them. The patent names inventors including David Kittinger and Richard Hollander, assigned to California R&D Center, which built the robot hardware for Novag."
+      },
+      {
+        "heading": "Built by Novag, played by collectors",
+        "text": "Novag Industries was the Hong Kong company of Peter and Gabrielle Auge, makers of a respected line of sensory-board chess computers; the Adversary was its most extravagant product. German magazine Der Spiegel reviewed it in December 1982 under the headline 'Lästig, nicht lustig' ('Annoying, not funny'), noting the mechanical drama and the price. The machine is now a collector's object: it is documented in the chessprogramming wiki, in multiple repair teardowns (the four Mabuchi motors are no longer obtainable), and in the Computer History Museum's 'Mastering the Game' chess exhibit. Fragile and largely inoperable today, it is remembered as the moment a consumer computer put a hand on the board."
+      }
+    ],
+    "team": [
+      { "name": "Novag Industries", "note": "Manufacturer; Peter and Gabrielle Auge's Hong Kong chess computer company" },
+      { "name": "David Kittinger", "note": "Chess programmer; MyChess engine used in the Adversary, Savant, and Savant II" },
+      { "name": "California R&D Center", "note": "Robot hardware and sensing design; patent assignee (US 4,398,720)" }
+    ],
+    "media": [
+      { "src": "https://images.computerhistory.org/chess/novag-chess-1.102645420.newborn.jpg", "alt": "Novag Robot Adversary at the Computer History Museum", "caption": "Novag Robot Adversary in the Computer History Museum's 'Mastering the Game' chess exhibit (accession 102645420). Source: Computer History Museum." },
+      { "src": "http://www.chesscomputeruk.com/assets/images/Novag_Robot_Adversary_7_80_x_80.jpg", "alt": "Novag Robot Adversary with pieces set up", "caption": "Novag Robot Adversary with the board set up, showing the articulated gripper arm. Source: Chess Computer UK (Mike Watters)." },
+      { "src": "https://kikuyumoja.com/wp-content/uploads/2011/10/novagrobotadversarychesscomputer.jpg", "alt": "Novag Robot Adversary repair teardown", "caption": "Collector's repair-teardown photograph of the Novag Robot Adversary. Source: Kikuyumoja blog." }
+    ],
+    "sources": [
+      { "text": "US Patent 4,398,720 — Robot computer chess game", "url": "https://patents.google.com/patent/US4398720A/en" },
+      { "text": "Computer History Museum — 'Mastering the Game' collection record", "url": "http://www.computerhistory.org/chess/stl-431f4cc1863c0/" },
+      { "text": "Chess Computer UK — Novag Robot Adversary page (Mike Watters)", "url": "http://www.chesscomputeruk.com/html/novag_robot_adversary.html" },
+      { "text": "Chess Programming Wiki — Robot Adversary", "url": "https://www.chessprogramming.org/Robot_Adversary" },
+      { "text": "Der Spiegel 49/1982 — 'Lästig, nicht lustig'", "url": "https://www.spiegel.de/spiegel/print/d-14356596.html" },
+      { "text": "Kikuyumoja — repair teardown post", "url": "http://kikuyumoja.com/2011/10/23/novag-robot-adversary-chess-computer/" },
+      { "text": "ChessEval — Robot Adversary collection page (Maurice Ohayon)", "url": "http://www.chesseval.com/Robots/RobotAdversary.htm" }
+    ],
+    "imageUrls": [
+      "https://images.computerhistory.org/chess/novag-chess-1.102645420.newborn.jpg",
+      "http://www.chesscomputeruk.com/assets/images/Novag_Robot_Adversary_7_80_x_80.jpg",
+      "https://kikuyumoja.com/wp-content/uploads/2011/10/novagrobotadversarychesscomputer.jpg"
+    ]
+  },
+  "savedImages": [
+    "images/novag-robot-adversary-chm.jpg",
+    "images/novag-robot-adversary-chesscomputeruk.jpg",
+    "images/novag-robot-adversary-teardown.jpg"
+  ]
+}
