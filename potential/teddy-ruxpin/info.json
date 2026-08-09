@@ -1,0 +1,64 @@
+{
+  "slug": "teddy-ruxpin",
+  "title": "Teddy Ruxpin",
+  "year": "1985",
+  "subtitle": "The animatronic bear that read stories off a cassette tape",
+  "why_scout_cares": "A plush bear with a cassette deck in its back — and the cassette is a data cartridge. One track carries the narration, the other a pulse-position-modulated control stream that moves the bear's eyes and jaw in sync with the words. The user's whole interaction is choosing a tape and watching the machine perform a story: an analog data medium driving animatronic output, sold eight million times and launched by a company of ex-Atari executives. It is the missing third corner of the museum's cassette-interaction triptych alongside 2-XL (branching quiz) and PXL2000 (cassette video), and it is held in a museum's permanent collection.",
+  "search_terms": ["Teddy Ruxpin", "Worlds of Wonder cassette toy", "animatronic talking toy 1985", "Ken Forsse animatronics", "cassette data track toy"],
+  "research": {
+    "title": "Teddy Ruxpin",
+    "year": "1985",
+    "by": "Worlds of Wonder (Fremont, CA); invented by Ken Forsse",
+    "tags": ["Toy", "Audio", "Animatronics", "Consumer", "Embedded"],
+    "overview": "Teddy Ruxpin is an animatronic children's toy in the form of a talking bear-like 'Illiop.' A cassette deck is built into its back: the user inserts a story tape, presses play, and the bear 'reads' the story aloud while its eyes and jaw move in sync. Worlds of Wonder, the Fremont, California company launched by ex-Atari executives Don Kingsborough and Mark Robert Goldberg, shipped it in September 1985 at about $70. It became the best-selling toy of 1985 and 1986, drove roughly $320 million in fiscal-1986 sales, and over eight million units were produced before the company's overreach on Ruxpin inventory helped push WoW into bankruptcy in 1988.\n\nThe cassette is the interface. A standard compact cassette carries two tracks: narration audio on one, and on the other a control data stream — described in collector teardowns as a pulse-position-modulated 'eight channel digital proportion system using groups of nine pulses separated by silence.' The data channels drive servo motors in the bear's head (three in the first generation: eyes, upper jaw, lower jaw), and can route audio between Teddy and his companion Grubby so the two toys hold pre-recorded conversations. The cassette shell itself is read by the toy: Ruxpin tapes have holes in the housing that align with the deck's bias-sensing position, so the bear can tell a Ruxpin tape from an ordinary one — on a plain tape it simply plays the audio and keeps still.\n\nKen Forsse, a former Disney animatronics designer who had worked on the Hall of Presidents, developed the bear at his company Alchemy II, Inc. with Larry Larsen and John Davies; ex-Atari designer Larry Lynch re-engineered it down to the $70 price point. The platform spun out Talking Snoopy, Talking Mickey Mouse, Talking Mother Goose, Baby Teddy Ruxpin, and Julie (1987, with voice recognition), plus accessories including Grubby (1986), the Picture Show cassette-driven slide projector, and the Answer Box quiz system. The Science History Institute holds a 1985 Teddy Ruxpin in its permanent exhibition.",
+    "deepDive": [
+      {
+        "heading": "The cassette as data cartridge",
+        "text": "Before ROM cartridges were universal, Teddy Ruxpin made the humble audio cassette carry software: narration on one channel, a pulse-position-modulated control stream on the other, decoded into an eight-channel proportion system of pulse groups. The tape was the program, the program was a performance. The bear's servos — eyes and jaw in the first generation — were choreographed by the data stream, so every tape was a distinct animation score, not just an audio book."
+      },
+      {
+        "heading": "The shell tells the machine what to do",
+        "text": "The interface even extended to the plastic cassette housing. Ruxpin tapes were molded with holes that lined up with the deck's Type-II bias-sensing switches, letting the toy detect a 'real' Ruxpin tape. On an ordinary music tape the right channel was ignored and the bear played it as plain audio. The medium itself carried a physical handshake."
+      },
+      {
+        "heading": "A platform, not a toy",
+        "text": "WoW treated the data-track mechanism as a chassis: Talking Snoopy, Talking Mickey Mouse, Talking Mother Goose, and Baby Teddy Ruxpin all used it, and Grubby connected to Teddy through a cable so the two-toy dialogue could be choreographed on one tape. The Picture Show projected cassette-driven slide reels; the Answer Box added button input for quiz tapes. Third-party tape makers even cloned the data-track format until WoW won injunctions in 1986."
+      },
+      {
+        "heading": "The rise and the overreach",
+        "text": "Teddy Ruxpin made WoW the toy industry's fastest-growing company: $320M in FY1986 sales and the NES distribution deal leveraged on the bear's retail pull. But 1987's overproduction of Ruxpin inventory, an attempted junk-bond rescue, and the Lazer Tag follow-up ended in Chapter 11 in 1988. The bear outlived the company — preserved in the Science History Institute's permanent collection."
+      }
+    ],
+    "team": [
+      { "name": "Ken Forsse", "note": "Inventor; ex-Disney animatronics designer (Hall of Presidents), developed the bear at Alchemy II, Inc." },
+      { "name": "Larry Lynch", "note": "Ex-Atari designer who re-engineered the prototype to the $70 price point" },
+      { "name": "Don Kingsborough", "note": "Co-founder of Worlds of Wonder; ex-Atari sales president" },
+      { "name": "Mark Robert Goldberg", "note": "Co-founder of Worlds of Wonder; ex-Atari employee" },
+      { "name": "Worlds of Wonder (Fremont, CA)", "note": "Manufacturer; launched the toy September 1985" },
+      { "name": "Science History Institute", "note": "Holds a 1985 Teddy Ruxpin in its Handling Collection, permanent exhibition" }
+    ],
+    "media": [
+      { "src": "https://upload.wikimedia.org/wikipedia/commons/0/0c/Teddy_Ruxpin_Mechanical_Animal_-_DPLA_-_25ec4b9fcc42f658529b1b4072586a84_%28page_1%29.jpg", "alt": "Teddy Ruxpin animatronic bear photographed by the Science History Institute", "caption": "Teddy Ruxpin, the animatronic storyteller, photographed by the Science History Institute (2021). CC BY 4.0, courtesy of Science History Institute." },
+      { "src": "https://upload.wikimedia.org/wikipedia/commons/e/e7/Teddy_Ruxpin_Mechanical_Animal_-_DPLA_-_25ec4b9fcc42f658529b1b4072586a84_%28page_9%29.jpg", "alt": "Teddy Ruxpin storybook cover", "caption": "A Teddy Ruxpin storybook cover from the system's cassette library. Public domain via DPLA / Science History Institute." },
+      { "src": "https://upload.wikimedia.org/wikipedia/commons/a/a2/Teddy_Ruxpin_Mechanical_Animal_-_DPLA_-_25ec4b9fcc42f658529b1b4072586a84_%28page_13%29.jpg", "alt": "Digitized Teddy Ruxpin materials", "caption": "Digitized materials from the Teddy Ruxpin system — cassettes, manual, and warranty card — from the Science History Institute. Public domain via DPLA." }
+    ],
+    "sources": [
+      { "text": "Science History Institute Digital Collections — Teddy Ruxpin Mechanical Animal (1985)", "url": "https://digital.sciencehistory.org/works/v3nxlnz" },
+      { "text": "Wikipedia — Teddy Ruxpin", "url": "https://en.wikipedia.org/wiki/Teddy_Ruxpin" },
+      { "text": "Wikipedia — Worlds of Wonder (toy company)", "url": "https://en.wikipedia.org/wiki/Worlds_of_Wonder_(toy_company)" },
+      { "text": "RobotsAndComputers.com — Teddy Ruxpin teardown and data-track encoding details", "url": "http://www.robotsandcomputers.com/robots/ruxpin.htm" },
+      { "text": "Wikimedia Commons — Teddy Ruxpin Mechanical Animal (DPLA / Science History Institute)", "url": "https://commons.wikimedia.org/wiki/File:Teddy_Ruxpin_Mechanical_Animal_-_DPLA_-_25ec4b9fcc42f658529b1b4072586a84_(page_1).jpg" },
+      { "text": "TheOldRobots.com — Teddy Ruxpin collector photos and history", "url": "https://theoldrobots.com/Teddy_Ruxpin.html" }
+    ],
+    "imageUrls": [
+      "https://digital.sciencehistory.org/works/v3nxlnz",
+      "https://commons.wikimedia.org/wiki/File:Teddy_Ruxpin_Mechanical_Animal_-_DPLA_-_25ec4b9fcc42f658529b1b4072586a84_(page_9).jpg",
+      "https://commons.wikimedia.org/wiki/File:Teddy_Ruxpin_Mechanical_Animal_-_DPLA_-_25ec4b9fcc42f658529b1b4072586a84_(page_13).jpg"
+    ]
+  },
+  "savedImages": [
+    "potential/teddy-ruxpin/images/teddy-ruxpin-bear.jpg",
+    "potential/teddy-ruxpin/images/teddy-ruxpin-story-cover.jpg",
+    "potential/teddy-ruxpin/images/teddy-ruxpin-accessories.jpg"
+  ]
+}

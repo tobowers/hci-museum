@@ -1,0 +1,59 @@
+{
+  "slug": "apricot-portable",
+  "title": "Apricot Portable",
+  "year": "1984",
+  "subtitle": "The first portable computer with a built-in ear — teach it your voice, then dictate to it",
+  "why_scout_cares": "ACT's 1984 portable was the first to ship with built-in speech recognition, and the interaction was a training ritual: you repeated each word into a clip-on microphone until the machine could hear you, then switched between dictation and command modes. It also came with an infrared wireless keyboard and the first 25-line LCD on a portable. Three genuinely strange interface ideas in one commercially doomed box — and unlike most of its era's voice experiments, it survives on Wikipedia with four freely-licensed photographs.",
+  "search_terms": ["Apricot Portable voice recognition", "ACT Apricot Portable 1984", "Apricot Portable speech recognition", "Apricot wireless keyboard infrared", "Apricot portable computer history"],
+  "research": {
+    "title": "Apricot Portable",
+    "year": "1984",
+    "by": "ACT (Applied Computer Techniques) Ltd, UK",
+    "tags": ["Portable", "Voice", "Input", "Consumer"],
+    "overview": "The Apricot Portable, released by British company ACT Ltd in November 1984, was the first portable computer with built-in speech recognition — and also the first with a 25-line LCD screen and an infrared wireless keyboard. The base model cost £1,695. A clip-on microphone attached to the front of the unit; users trained the machine by repeating each word aloud, and more repetitions improved accuracy. The vocabulary could reach 4,096 words, of which 64 were held in RAM at a time, and speech worked in two modes: dictation, where spoken words were transcribed into the word processor, and command mode, where a spoken term triggered an action.\n\nACT (Applied Computer Techniques), founded by Roger Foster and based in Birmingham, had made its name with small-business accounting computers before the Apricot line. The Portable was the third machine in the series and the first with the voice feature; it was followed in 1985 by the Apricot xi, which became the machine the company is best remembered for. The Portable itself was not a success — the voice recognition was a hard sell, the infrared keyboard could be broken by blocking the beam, and the British portable market was small.\n\nThe interaction model is the museum's point of interest: a portable computer whose primary novelty is an ear. The user speaks to it as a physical ritual — clip the microphone, repeat a word several times, test, repeat again. This is speaker-dependent recognition a year before DragonDictate's commercial launch, built into hardware rather than delivered as software.",
+    "deepDive": [
+      {
+        "heading": "Training the machine by repetition",
+        "text": "The Apricot's recognition was speaker-dependent: the owner taught it each word by speaking it into the microphone while the machine built a template, with more repetitions yielding better matches. This is the same enrollment ritual that personal assistants and dictation software still use decades later, but in 1984 it ran on a portable's CPU with a 64-word active vocabulary."
+      },
+      {
+        "heading": "Dictation and command as separate modes",
+        "text": "The system split speech into two roles: dictation, where words became text in the word processor, and command mode, where a spoken term executed a function. The split anticipated the division between continuous dictation and voice control that still structures speech interfaces today."
+      },
+      {
+        "heading": "A stack of strange interfaces",
+        "text": "The Portable paired its ear with two more oddities: a 25-line LCD (the first on a portable) and an infrared wireless keyboard whose link broke if you blocked the beam between desk and screen. Voice, wireless, and a flat display — each an interface idea ahead of its market, and each commercially awkward in 1984."
+      },
+      {
+        "heading": "The commercial quiet",
+        "text": "The Portable and its successors sold modestly in the UK while the company's larger xi model earned the brand's legacy. The voice feature faded into the background of the line, a footnote to the era's larger speech story — but it remains the first shipped portable computer that listened."
+      }
+    ],
+    "team": [
+      { "name": "ACT (Applied Computer Techniques) Ltd", "note": "British computer company, Birmingham, founded by Roger Foster; manufacturer of the Apricot line" },
+      { "name": "Roger Foster", "note": "Founder of ACT" }
+    ],
+    "media": [
+      { "src": "https://upload.wikimedia.org/wikipedia/commons/e/ec/Apricot_portable.JPG", "alt": "Apricot Portable with its infrared wireless keyboard", "caption": "Apricot Portable with its infrared wireless keyboard, the first portable with built-in speech recognition. CC BY 2.5, Wikimedia Commons." },
+      { "src": "https://upload.wikimedia.org/wikipedia/commons/e/e1/Apricot_Portable_1984.jpg", "alt": "Apricot Portable open, showing the 25-line LCD and keyboard", "caption": "Apricot Portable with its 25-line LCD display open. CC BY 2.0, Wikimedia Commons." },
+      { "src": "https://upload.wikimedia.org/wikipedia/commons/5/59/Apricot_Portable_by_Moehre1992.jpg", "alt": "Apricot Portable computer", "caption": "Apricot Portable computer. CC BY-SA 3.0, Wikimedia Commons." }
+    ],
+    "sources": [
+      { "text": "Wikipedia — Apricot Portable (Voice recognition system section)", "url": "https://en.wikipedia.org/wiki/Apricot_Portable" },
+      { "text": "Personal Computer World, November 1984 — contemporary review by Peter Bright", "url": "https://archive.org/details/PersonalComputerWorld1984-11" },
+      { "text": "Apricot Portable Technical Reference Manual (228 pp., archive.org)", "url": "https://archive.org/details/hack42_Apricot_Portable_Technical_Reference_Manual_Sections" },
+      { "text": "Centre for Computing History — Apricot Portable", "url": "http://www.computinghistory.org.uk/det/2143/apricot-portable/" },
+      { "text": "Old-Computers.com — Apricot Portable museum entry", "url": "https://www.old-computers.com/museum/computer.asp?c=492" }
+    ],
+    "imageUrls": [
+      "https://commons.wikimedia.org/wiki/File:Apricot_portable.JPG",
+      "https://commons.wikimedia.org/wiki/File:Apricot_Portable_1984.jpg",
+      "https://commons.wikimedia.org/wiki/File:Apricot_Portable_by_Moehre1992.jpg"
+    ]
+  },
+  "savedImages": [
+    "potential/apricot-portable/images/apricot-portable.JPG",
+    "potential/apricot-portable/images/apricot-portable-1984.jpg",
+    "potential/apricot-portable/images/apricot-portable-moehre.jpg"
+  ]
+}

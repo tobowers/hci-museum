@@ -2067,6 +2067,32 @@ const exhibitData: Exhibit[] = [
     tags: ["Robotics", "Industrial", "Programming", "Embodied"],
     image: img("puma-deutsches-museum.jpg"),
   },
+  {
+    id: "teddy-ruxpin",
+    slug: "teddy-ruxpin",
+    sortYear: 1985,
+    wikiTitle: "Teddy Ruxpin",
+    year: "1985",
+    title: "Teddy Ruxpin",
+    subtitle: "The animatronic bear that read stories off a cassette tape",
+    blurb:
+      "A plush bear with a cassette deck in its back — and the cassette is a data cartridge. One track carries the narration, the other a pulse-position-modulated control stream that moves the bear's eyes and jaw in sync with the words. Worlds of Wonder shipped eight million of them from 1985, turning a tape you chose and inserted into an animatronic performance of a story.",
+    tags: ["Toy", "Audio", "Animatronics", "Consumer"],
+    image: img("teddy-ruxpin-bear.jpg"),
+  },
+  {
+    id: "apricot-portable",
+    slug: "apricot-portable",
+    sortYear: 1984,
+    wikiTitle: "Apricot Portable",
+    year: "1984",
+    title: "Apricot Portable",
+    subtitle: "The first portable computer with a built-in ear — teach it your voice",
+    blurb:
+      "ACT's 1984 portable was the first to ship with built-in speech recognition: you clipped on a microphone, repeated each word until the machine learned your voice, then dictated or spoke commands. It also had the first 25-line LCD on a portable and an infrared wireless keyboard you could break the link on just by raising your hand. Three strange interface ideas in one commercially doomed box.",
+    tags: ["Portable", "Voice", "Input", "Consumer"],
+    image: img("apricot-portable.jpg"),
+  },
 ];
 
 export const exhibits: Exhibit[] = exhibitData.toSorted((a, b) => b.sortYear - a.sortYear || a.title.localeCompare(b.title));
