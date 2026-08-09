@@ -176,6 +176,8 @@ Each entry includes an overview, a deep dive, a small media gallery, and full so
 167. [Photon (1984)](#photon-1984)
 168. [Novag Robot Adversary (1982)](#novag-robot-adversary-1982)
 169. [Unimation PUMA Teach Pendant / VAL (1980)](#unimation-puma-teach-pendant--val-1980)
+170. [Teddy Ruxpin (1985)](#teddy-ruxpin-1985)
+171. [Apricot Portable (1984)](#apricot-portable-1984)
 
 ---
 
@@ -8348,3 +8350,100 @@ VAL ran on a DEC LSI-11 inside the Unimation controller and grew into a full env
 3. MIT AI Lab — 'Talking to the Puma' (1982) — https://dspace.mit.edu/handle/1721.1/41183
 4. Wikimedia Commons — Unimate 500 PUMA at Deutsches Museum (CC BY-SA 3.0) — https://commons.wikimedia.org/wiki/File:Unimate_500_PUMA_Deutsches_Museum.jpg
 5. Richard Voyles' PUMA page — manuals and retrofit documentation — https://www.cs.cmu.edu/~deadslug/puma.html
+
+---
+## Teddy Ruxpin (1985)
+
+**By:** Worlds of Wonder (Fremont, CA); invented by Ken Forsse
+
+**Tags:** `Toy` `Audio` `Animatronics` `Consumer` `Embedded`
+
+### Overview
+
+Teddy Ruxpin is an animatronic children's toy in the form of a talking bear-like 'Illiop.' A cassette deck is built into its back: the user inserts a story tape, presses play, and the bear 'reads' the story aloud while its eyes and jaw move in sync. Worlds of Wonder, the Fremont, California company launched by ex-Atari executives Don Kingsborough and Mark Robert Goldberg, shipped it in September 1985 at about $70. It became the best-selling toy of 1985 and 1986, drove roughly $320 million in fiscal-1986 sales, and over eight million units were produced before the company's overreach on Ruxpin inventory helped push WoW into bankruptcy in 1988.
+
+The cassette is the interface. A standard compact cassette carries two tracks: narration audio on one, and on the other a control data stream — described in collector teardowns as a pulse-position-modulated 'eight channel digital proportion system using groups of nine pulses separated by silence.' The data channels drive servo motors in the bear's head (three in the first generation: eyes, upper jaw, lower jaw), and can route audio between Teddy and his companion Grubby so the two toys hold pre-recorded conversations. The cassette shell itself is read by the toy: Ruxpin tapes have holes in the housing that align with the deck's bias-sensing position, so the bear can tell a Ruxpin tape from an ordinary one — on a plain tape it simply plays the audio and keeps still.
+
+Ken Forsse, a former Disney animatronics designer who had worked on the Hall of Presidents, developed the bear at his company Alchemy II, Inc. with Larry Larsen and John Davies; ex-Atari designer Larry Lynch re-engineered it down to the $70 price point. The platform spun out Talking Snoopy, Talking Mickey Mouse, Talking Mother Goose, Baby Teddy Ruxpin, and Julie (1987, with voice recognition), plus accessories including Grubby (1986), the Picture Show cassette-driven slide projector, and the Answer Box quiz system. The Science History Institute holds a 1985 Teddy Ruxpin in its permanent exhibition.
+
+### Deep dive
+
+* **The cassette as data cartridge.** Before ROM cartridges were universal, Teddy Ruxpin made the humble audio cassette carry software: narration on one channel, a pulse-position-modulated control stream on the other, decoded into an eight-channel proportion system of pulse groups. The tape was the program, the program was a performance. The bear's servos — eyes and jaw in the first generation — were choreographed by the data stream, so every tape was a distinct animation score, not just an audio book.
+* **The shell tells the machine what to do.** The interface even extended to the plastic cassette housing. Ruxpin tapes were molded with holes that lined up with the deck's Type-II bias-sensing switches, letting the toy detect a 'real' Ruxpin tape. On an ordinary music tape the right channel was ignored and the bear played it as plain audio. The medium itself carried a physical handshake.
+* **A platform, not a toy.** WoW treated the data-track mechanism as a chassis: Talking Snoopy, Talking Mickey Mouse, Talking Mother Goose, and Baby Teddy Ruxpin all used it, and Grubby connected to Teddy through a cable so the two-toy dialogue could be choreographed on one tape. The Picture Show projected cassette-driven slide reels; the Answer Box added button input for quiz tapes. Third-party tape makers even cloned the data-track format until WoW won injunctions in 1986.
+* **The rise and the overreach.** Teddy Ruxpin made WoW the toy industry's fastest-growing company: $320M in FY1986 sales and the NES distribution deal leveraged on the bear's retail pull. But 1987's overproduction of Ruxpin inventory, an attempted junk-bond rescue, and the Lazer Tag follow-up ended in Chapter 11 in 1988. The bear outlived the company — preserved in the Science History Institute's permanent collection.
+
+### Team
+
+* **Ken Forsse** — Inventor; ex-Disney animatronics designer (Hall of Presidents), developed the bear at Alchemy II, Inc.
+* **Larry Lynch** — Ex-Atari designer who re-engineered the prototype to the $70 price point
+* **Don Kingsborough** — Co-founder of Worlds of Wonder; ex-Atari sales president
+* **Mark Robert Goldberg** — Co-founder of Worlds of Wonder; ex-Atari employee
+* **Worlds of Wonder (Fremont, CA)** — Manufacturer; launched the toy September 1985
+* **Science History Institute** — Holds a 1985 Teddy Ruxpin in its Handling Collection, permanent exhibition
+
+### Media
+
+![Teddy Ruxpin, the animatronic storyteller, photographed by the Science History Institute](../assets/wiki/teddy-ruxpin-bear.jpg)
+*Teddy Ruxpin, the animatronic storyteller, photographed by the Science History Institute (2021). CC BY 4.0, courtesy of Science History Institute.*
+
+![A Teddy Ruxpin storybook cover from the system's cassette library](../assets/wiki/teddy-ruxpin-story-cover.jpg)
+*A Teddy Ruxpin storybook cover from the system's cassette library. Public domain via DPLA / Science History Institute.*
+
+![Digitized materials from the Teddy Ruxpin system — cassettes, manual, and warranty card](../assets/wiki/teddy-ruxpin-accessories.jpg)
+*Digitized materials from the Teddy Ruxpin system — cassettes, manual, and warranty card — from the Science History Institute. Public domain via DPLA.*
+
+### Sources
+
+1. Science History Institute Digital Collections — Teddy Ruxpin Mechanical Animal (1985) — https://digital.sciencehistory.org/works/v3nxlnz
+2. Wikipedia — Teddy Ruxpin — https://en.wikipedia.org/wiki/Teddy_Ruxpin
+3. Wikipedia — Worlds of Wonder (toy company) — https://en.wikipedia.org/wiki/Worlds_of_Wonder_(toy_company)
+4. RobotsAndComputers.com — Teddy Ruxpin teardown and data-track encoding details — http://www.robotsandcomputers.com/robots/ruxpin.htm
+5. Wikimedia Commons — Teddy Ruxpin Mechanical Animal (DPLA / Science History Institute) — https://commons.wikimedia.org/wiki/File:Teddy_Ruxpin_Mechanical_Animal_-_DPLA_-_25ec4b9fcc42f658529b1b4072586a84_(page_1).jpg
+6. TheOldRobots.com — Teddy Ruxpin collector photos and history — https://theoldrobots.com/Teddy_Ruxpin.html
+
+---
+## Apricot Portable (1984)
+
+**By:** ACT (Applied Computer Techniques) Ltd, UK
+
+**Tags:** `Portable` `Voice` `Input` `Consumer`
+
+### Overview
+
+The Apricot Portable, released by British company ACT Ltd in November 1984, was the first portable computer with built-in speech recognition — and also the first with a 25-line LCD screen and an infrared wireless keyboard. The base model cost £1,695. A clip-on microphone attached to the front of the unit; users trained the machine by repeating each word aloud, and more repetitions improved accuracy. The vocabulary could reach 4,096 words, of which 64 were held in RAM at a time, and speech worked in two modes: dictation, where spoken words were transcribed into the word processor, and command mode, where a spoken term triggered an action.
+
+ACT (Applied Computer Techniques), founded by Roger Foster and based in Birmingham, had made its name with small-business accounting computers before the Apricot line. The Portable was the third machine in the series and the first with the voice feature; it was followed in 1985 by the Apricot xi, which became the machine the company is best remembered for. The Portable itself was not a success — the voice recognition was a hard sell, the infrared keyboard could be broken by blocking the beam, and the British portable market was small.
+
+The interaction model is the museum's point of interest: a portable computer whose primary novelty is an ear. The user speaks to it as a physical ritual — clip the microphone, repeat a word several times, test, repeat again. This is speaker-dependent recognition a year before DragonDictate's commercial launch, built into hardware rather than delivered as software.
+
+### Deep dive
+
+* **Training the machine by repetition.** The Apricot's recognition was speaker-dependent: the owner taught it each word by speaking it into the microphone while the machine built a template, with more repetitions yielding better matches. This is the same enrollment ritual that personal assistants and dictation software still use decades later, but in 1984 it ran on a portable's CPU with a 64-word active vocabulary.
+* **Dictation and command as separate modes.** The system split speech into two roles: dictation, where words became text in the word processor, and command mode, where a spoken term executed a function. The split anticipated the division between continuous dictation and voice control that still structures speech interfaces today.
+* **A stack of strange interfaces.** The Portable paired its ear with two more oddities: a 25-line LCD (the first on a portable) and an infrared wireless keyboard whose link broke if you blocked the beam between desk and screen. Voice, wireless, and a flat display — each an interface idea ahead of its market, and each commercially awkward in 1984.
+* **The commercial quiet.** The Portable and its successors sold modestly in the UK while the company's larger xi model earned the brand's legacy. The voice feature faded into the background of the line, a footnote to the era's larger speech story — but it remains the first shipped portable computer that listened.
+
+### Team
+
+* **ACT (Applied Computer Techniques) Ltd** — British computer company, Birmingham, founded by Roger Foster; manufacturer of the Apricot line
+* **Roger Foster** — Founder of ACT
+
+### Media
+
+![Apricot Portable with its infrared wireless keyboard](../assets/wiki/apricot-portable.jpg)
+*Apricot Portable with its infrared wireless keyboard, the first portable with built-in speech recognition. CC BY 2.5, Wikimedia Commons.*
+
+![Apricot Portable with its 25-line LCD display open](../assets/wiki/apricot-portable-1984.jpg)
+*Apricot Portable with its 25-line LCD display open. CC BY 2.0, Wikimedia Commons.*
+
+![Apricot Portable computer](../assets/wiki/apricot-portable-moehre.jpg)
+*Apricot Portable computer. CC BY-SA 3.0, Wikimedia Commons.*
+
+### Sources
+
+1. Wikipedia — Apricot Portable (Voice recognition system section) — https://en.wikipedia.org/wiki/Apricot_Portable
+2. Personal Computer World, November 1984 — contemporary review by Peter Bright — https://archive.org/details/PersonalComputerWorld1984-11
+3. Apricot Portable Technical Reference Manual (228 pp., archive.org) — https://archive.org/details/hack42_Apricot_Portable_Technical_Reference_Manual_Sections
+4. Centre for Computing History — Apricot Portable — http://www.computinghistory.org.uk/det/2143/apricot-portable/
+5. Old-Computers.com — Apricot Portable museum entry — https://www.old-computers.com/museum/computer.asp?c=492
