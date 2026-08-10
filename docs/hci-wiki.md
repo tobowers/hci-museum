@@ -181,6 +181,9 @@ Each entry includes an overview, a deep dive, a small media gallery, and full so
 172. [TI Voyager (1988)](#ti-voyager-1988)
 173. [Pioneer LaserBarcode System (c. 1985)](#pioneer-laserbarcode-system-c-1985)
 174. [Sony VIEW System (1984)](#sony-view-system-1984)
+175. [RCA Studio II (1977)](#rca-studio-ii-1977)
+176. [Philips CD-i (1991)](#philips-cd-i-1991)
+177. [TI-59 (1977)](#ti-59-1977)
 
 ---
 
@@ -8592,3 +8595,157 @@ The interaction model is the museum's point of interest: a portable computer who
 3. Apricot Portable Technical Reference Manual (228 pp., archive.org) — https://archive.org/details/hack42_Apricot_Portable_Technical_Reference_Manual_Sections
 4. Centre for Computing History — Apricot Portable — http://www.computinghistory.org.uk/det/2143/apricot-portable/
 5. Old-Computers.com — Apricot Portable museum entry — https://www.old-computers.com/museum/computer.asp?c=492
+
+---
+
+## RCA Studio II (1977)
+
+**By:** RCA (Radio Corporation of America), built at the Swannanoa, NC plant  
+**Tags:** `Games` `Input` `Keypad` `Console` `Consumer`
+
+### Overview
+
+Released January 1977 at US$149.95, the RCA Studio II was RCA's cartridge game console built around the company's own RCA 1802 "COSMAC" microprocessor, with graphics from the CDP1861 "Pixie" video chip driving a strictly black-and-white 64×32 display. It shipped with five built-in games (Addition, Bowling, Doodle, Freeway, Patterns) stored in 2KB of ROM, with eleven cartridges sold across four themed series (TV Arcade, TV Casino, TV Mystic, TV Schoolhouse). Its defining and strangest feature was its input: all gameplay happened through two wired ten-button numeric keypads built into the console body, with arrows molded into the bezel for directional play and a separate clear reset button wired to the CPU's clear line. There was no joystick, and a player could push two adjacent keys together to register a diagonal — one of only two consoles of the era to claim 16-directional control.
+
+RCA had famously passed on Ralph Baer's original Odyssey in 1971, and the Studio II was its attempt to re-enter home games. It arrived months after the Fairchild Channel F and a year before the Atari 2600, with no color, no detachable controllers, and cartridges that loaded "backwards" — rods on the console plugged into holes in the cartridge. An internal RCA sales document records roughly 53,000 to 64,000 units sold between February 1977 and January 1978. After the poor Christmas 1977 season, RCA shut the line down, laid off 120 workers at the Swannanoa, North Carolina plant, and sold remaining inventory to Radio Shack, which unloaded Studio II bundles for $59.95. RCA never released another console; a color-capable Studio III was completed but only appeared in licensed clones such as the Toshiba Visicom COM-100 and the Hanimex MPT-02.
+
+The interaction model is the museum's point of interest: a home console that bet home computing would be a button-pushing activity, not a movement one. The Studio II is a complete, coherent alternative vision of game input — telephone-keypad grammar, discrete button presses, results read off a monochrome screen — that lost decisively to the analog joystick.
+
+### Deep dive
+
+* **The button-pushing bet.** The Studio II's keypads encoded a specific assumption about what home computing would feel like: a sequence of discrete button presses, like a telephone or a cash register, not continuous analog movement. Games were designed around that grammar — enter numbers, press keys, read results on the monochrome screen. RCA even argued the keypad was a feature: the 16-direction claim (two adjacent keys at once) was used to claim the console could out-maneuver joystick rivals. The assumption lost. Atari's 2600 joystick, released ten months later, made analog thumb movement the industry's default input for forty years.
+* **A failure of timing.** The Studio II was obsolete at launch: monochrome in a color era, non-detachable controllers, and a year behind the joystick paradigm. After the poor Christmas 1977 season, RCA exited home games entirely, laid off 120 workers in North Carolina, and fire-sold the remaining inventory through Radio Shack at $59.95. A color-capable Studio III was finished but only shipped as licensed clones (Toshiba Visicom COM-100, Hanimex MPT-02, Academy Apollo 80).
+* **The chip that went to Jupiter.** The Studio II's CPU, the RCA 1802, was a radiation-tolerant CMOS design that found its true market far from the living room: six 1802s flew on NASA's Galileo Jupiter orbiter, and the chip also served aboard Magellan, Hubble's wide-field camera, Ulysses, and AMSAT satellites. The same microprocessor that made a failed console's Bowling game run helped a spacecraft reach the Galilean moons. (A common internet claim that Voyager used the 1802 is explicitly flagged as erroneous on the Voyager program's Wikipedia article.)
+* **Joyce Weisbecker.** The Studio II has one more first: its cartridge library was partly written by Joyce Weisbecker, daughter of RCA engineer Joseph Weisbecker, who designed the console and the 1802. She wrote School House I (a math quiz) and Speedway/Tag for the Studio II in 1976–77, making her the first woman to develop commercial video games. The Hagley Museum & Library has recorded an oral history of the console's development from her perspective.
+
+### Team
+
+* **RCA (Radio Corporation of America)** — Design and distribution via the RCA Distributor & Special Products Division, Deptford, NJ; built at the Swannanoa, NC plant
+* **Joseph Weisbecker** — RCA engineer; designer of the RCA 1802 COSMAC microprocessor and the Studio II architecture
+* **Joyce Weisbecker** — Wrote School House I and Speedway/Tag — the first commercial video games by a woman
+
+### Media
+
+![RCA Studio II console, front-left view showing the two built-in numeric keypads](../assets/wiki/rca-studio-ii-console.jpg)
+*RCA Studio II with its two built-in numeric keypads — no joystick exists on this console. Public domain, Evan-Amos, Wikimedia Commons.*
+
+![RCA Studio II opened, showing the RCA 1802 motherboard and keypad wiring](../assets/wiki/rca-studio-ii-opened.jpg)
+*The Studio II opened: RCA 1802 "COSMAC" board and keypad wiring. Public domain, Evan-Amos, Wikimedia Commons.*
+
+![Studio II Bowling screenshot in black and white](../assets/wiki/rca-studio-ii-bowling.png)
+*Bowling, one of the five built-in games, in the console's 64×32 monochrome display. Public domain, Wikimedia Commons.*
+
+![The Studio II's power/switch box](../assets/wiki/rca-studio-ii-switchbox.jpg)
+*The switchbox — the Studio II has no power button of its own; the box is the power switch. Public domain, Evan-Amos, Wikimedia Commons.*
+
+### Sources
+
+1. Wikipedia — RCA Studio II — https://en.wikipedia.org/wiki/RCA_Studio_II
+2. Wikipedia — RCA 1802 — https://en.wikipedia.org/wiki/RCA_1802
+3. The Dot Eaters — Studio II: Two Little, Too Late — https://thedoteaters.com/?bitstory=console/studio-ii
+4. iFixit — RCA Studio II Teardown — https://www.ifixit.com/Teardown/RCA+Studio+II+Teardown/3527
+5. Hagley Museum & Library — An Oral History of the RCA Studio II — https://www.hagley.org/research/history-hangout-14
+6. Digital Press — RCA Studio II FAQ by Jack Spencer Jr. — http://www.digitpress.com/faq/rca.txt
+7. Internet Archive — Studio II Owner's Manual — https://archive.org/details/studio-ii-owners-manual
+8. IT History Society — RCA Studio II — https://ithistory.org/db/hardware/rca/rca-studio-ii
+
+---
+
+## Philips CD-i (1991)
+
+**By:** Philips / Magnavox (Philips Interactive Media Systems; CD-i format co-developed with Sony)  
+**Tags:** `Consumer` `Multimedia` `Appliance` `Games` `Input`
+
+### Overview
+
+The CD-i (Compact Disc Interactive) was Philips' consumer interactive multimedia system: a compact disc player with a 16/32-bit Signetics SCC68070 processor, a dedicated graphics chip, 1MB of RAM, and the Green Book CD-i disc format co-developed with Sony. Development began in 1984 and was publicly announced in March 1986; the first consumer players reached North America on December 3, 1991 under the Magnavox brand (the CDI 910, a rebadged Philips CDI 205), with Europe and Japan following in 1992. The system ran a cursor-driven operating system called CD-RTOS (based on Microware's OS-9), and the primary input device was an infrared remote control with a built-in thumb-operated trackball: users rolled the ball to drive a cursor around the screen and pressed action buttons to select. Philips positioned it as a non-expert appliance — "a computer for people who don't want to touch a computer" — for interactive encyclopedias, museum tours, karaoke, education, and later games.
+
+Philips invested enormously in CD-i — contemporary coverage and later histories report figures on the order of a billion dollars, much of it spent on content. By late 1994 Philips claimed roughly 570,000 players worldwide; US sales reached about 400,000 by 1996, and the format was abandoned in the US that year and discontinued entirely in 1998. Analysts and rivals were brutal: Bill Gates called it "a terrible game machine, and it was a terrible PC." Its strangest legacy comes from console politics: after Nintendo broke its SNES CD-ROM deal with Sony at CES in 1991 and signed with Philips instead — a deal that also fell apart — Philips kept the rights to Nintendo characters and produced the notorious Hotel Mario, Link: The Faces of Evil, Zelda: The Wand of Gamelon, and Zelda's Adventure. None were made by Nintendo; all were widely derided; all are now memes.
+
+The interaction model is the museum's point of interest: the most complete attempt of the era to make the computer a living-room appliance, with the television remote — trackball and all — as the computer's pointer.
+
+### Deep dive
+
+* **The remote as the mouse.** The CD-i's defining interface decision was to make the living-room remote the computer's pointer. The Shell 1 remote (22ER9051) carried a small thumb-operated ball; the later "CD-i Commander" (22ER9055) was pressure-sensitive, so pressing harder on the ball accelerated the cursor. Philips bundled a separate full-size wired Trackerball (22ER9013), a mouse, a Touchpad, and a gamepad for precision tasks, and co-developed a children's Roller Controller with the Children's Television Workshop. The bet was that cursor-and-click on a television, operated like an appliance, would let ordinary families drive a computer. It worked technically and failed commercially — IGN later ranked the controller family among the worst ever, precisely because the appliance model was wrong for games.
+* **A billion-dollar vision.** Philips fought to position interactive media as a mainstream home entertainment category: the Los Angeles Times described the machine in 1990 as "the next wave in home electronics." The content ecosystem was real and ambitious — interactive encyclopedias, museum tours, TV game-show tie-ins (Jeopardy!, Name That Tune), karaoke, education titles, Todd Rundgren's No World Order (1993, the first fully interactive music album), and later CD-Online internet access in 1995. Electronic Arts briefly ran a CD-i division before halting it, and early backer Matsushita pulled out; the machine's FMV ambitions were delayed by competition from Intel's DVI standard, pushing launch from the original 1987 target to late 1991.
+* **The Nintendo deal that produced Zelda CD-i.** After Nintendo's broken Sony deal at CES 1991, Philips acquired rights to Nintendo characters and produced the CD-i Zelda and Mario games itself. They became the most visible tombstone of the interactive-television dream — and, in Hotel Mario's case, the source of the famous cutscene line "all toasters toast toast!"
+* **An ecosystem that almost existed.** The whole future of interactive home media was attempted a decade early and at enormous cost: 570,000 players worldwide against a billion-dollar investment, US abandonment in 1996, discontinuation in 1998. The CD-i is the cautionary canon: the appliance-computer dream, tried with real hardware, real money, and real television-friendly input.
+
+### Team
+
+* **Philips Interactive Media Systems** — CD-i developer; players sold under the Philips brand in Europe and Magnavox (a Philips subsidiary) in the US
+* **Sony** — Co-developed the Green Book CD-i format with Philips
+* **Microware** — Provided the OS-9 foundation for the CD-RTOS operating system
+
+### Media
+
+![The US launch model Magnavox CDI 910 with its Touchpad controller](../assets/wiki/cdi-910-console-set.jpg)
+*The Magnavox CDI 910, the December 1991 US launch unit, with its bundled controller. Public domain, Evan-Amos, Wikimedia Commons.*
+
+![The CD-i Commander remote control with its thumb-operated trackball](../assets/wiki/cdi-commander-remote.jpg)
+*The "CD-i Commander" remote — the living-room computer's mouse, a thumb-operated trackball in an infrared remote. CC0, Wikimedia Commons.*
+
+![Philips CD-i 220 player with a controller in front](../assets/wiki/cdi-220-with-controller.jpg)
+*A Philips CD-i 220 with controller — the machine looked exactly like a CD player. Public domain, Evan-Amos, Wikimedia Commons.*
+
+![The CD-i Rollerball trackball controller](../assets/wiki/cdi-rollerball-controller.jpg)
+*The full-size wired Trackerball peripheral, for when the remote's thumb-ball wasn't precise enough. Public domain, Evan-Amos, Wikimedia Commons.*
+
+### Sources
+
+1. Wikipedia — CD-i — https://en.wikipedia.org/wiki/CD-i
+2. Time Extension — Uncovering The Tragic Tale Of The Philips CD-i — https://www.timeextension.com/features/flashback-uncovering-the-tragic-tale-of-the-philips-cd-i
+3. The World of CD-i — Find the best CD-i controller! — https://theworldofcdi.com/console-purist-chronicles/find-the-best-cd-i-controller
+4. The Centre for Computing History — Philips CD-i 205 — https://computinghistory.org.uk/det/65978/Philips-CD-i-205-Multimedia-Console
+5. Los Angeles Times (June 5, 1990) — Audiovisual Device: The Next Wave in Home Electronics? — https://www.latimes.com/archives/la-xpm-1990-06-05-fi-582-story.html
+6. The New York Times (April 2, 1992) — Company News; New Philips CD — https://www.nytimes.com/1992/04/02/business/company-news-new-philips-cd.html
+
+---
+
+## TI-59 (1977)
+
+**By:** Texas Instruments (TI-59; with TI-58/58C cut-down siblings)  
+**Tags:** `Calculator` `Programming` `Physical Media` `Consumer`
+
+### Overview
+
+Introduced May 24, 1977 at a suggested retail price of $299.95, the Texas Instruments TI-59 was the flagship of TI's second generation of programmable calculators. It had a 10-digit red LED display, used TI's Algebraic Operating System (AOS) parenthesized infix entry, and was built from the TMS0500 chip family — a TMC0501 arithmetic chip plus scanning ROMs, RAM chips, and a dedicated TMC0594 Magnetic I/O chip that drove the card reader. Its memory partition was adjustable between 960 program steps (with zero memories) and 100 data registers (with 160 program steps), and its keystroke programming language was Turing-complete. Programs were stored on small magnetic cards (up to 480 steps per card) read and written through a slot in the calculator's side; programs also came in removable "Solid State Software" ROM modules holding up to 5,000 steps, the first handheld calculators to use such modules. The Master Library module with 25 programs shipped in the box, and dozens more application modules followed.
+
+The interaction model is the museum's point of interest: the TI-59 is the clearest mass-market expression of the idea that your program is a physical object. The machine recorded your keystrokes into memory, and to keep a program you slid a magnetically striped card through a slot in the calculator's side — the card was the software. And then the design doubled the idea: the card you just read also slipped into the gap between the display and the keyboard, where its printed side served as the legend telling you what the five user-defined keys A–E (and their shifted A'–E' forms) did in the loaded program. Storage medium, documentation, and interface label were the same strip of plastic.
+
+### Deep dive
+
+* **The card as program, legend, and documentation.** The TI-59's magnetic cards were a triple-use medium. Sliding a card through the side reader loaded or saved a program (the machine's motor pulled the card through; one quarter of memory was stored on each side). The card's top surface was left writable, so the programmer could hand-write the program name and notes. And once read, the card slipped into a slot between the display and the keyboard, where its printed side became the live legend for the five user-defined label keys A–E and their shifted A'–E' forms. Storage, manual, and interface label were the same physical strip of plastic — a compact, tactile answer to the problem of software documentation.
+* **Keystroke programming.** Programming the TI-59 meant simply switching to learn mode and pressing keys: the calculator recorded the keystroke sequence as the program, merging up to eleven keypresses into single instruction steps. It supported labels, conditional branches, loops (increment/decrement and skip on zero), indirect addressing, user flags, subroutines, and alphanumeric output through the PC-100 printer cradle. Because the language was Turing-complete, hobbyists wrote games — BYTE published "Darth Vader's Force Battle," a type-in program for the TI-58/59, in October 1980 — and professionals used it for everything from real-estate calculations to aviation. The TI-58 (no card reader, half the memory) was even used aboard the Hawker Harrier for stabilization during takeoff and landing.
+* **Solid State Software and the PPX-59 app store.** TI packaged expertise as physical modules: the Solid State Software ROM cartridges, which plugged into a compartment on the calculator's back, ran directly from ROM so they did not consume the user's program memory. The Master Library (25 programs) was included; modules for statistics, real estate, investment, surveying, and aviation were sold separately, each shipping with plastic overlay cards that labeled the user-defined keys. From November 1977, TI also ran the PPX-59 (Professional Program Exchange): users submitted programs and bought back packs of magnetic cards by mail — software distribution as a physical, postal system, a decade and a half before the internet app store.
+* **The calculator as the personal computer.** The TI-59 sat at the hinge where the calculator stopped being a calculating machine and became a pocket computer: Turing-complete, externally storable, expandable, with a printer, a program exchange, and a large community. It was available from 1977 through 1983, and institutions kept it longer — the Science Museum Group holds books of TI-59 program cards in its collection, and The Henry Ford holds a TI-59. It is the ancestor of every pocket computer and laptop that followed, and the last mass-market device where your program lived on a strip of plastic you could hold in your hand.
+
+### Team
+
+* **Texas Instruments** — Manufacturer; TI Programmable 59 flagship of the TMS0500 building-block calculator line
+* **TI Professional Program Exchange (PPX-59)** — Started November 1977; mail-order distribution of programs on magnetic cards
+
+### Media
+
+![A TI-59 with a magnetic storage card being inserted into the side card reader](../assets/wiki/ti-59-card-inserted.jpg)
+*A TI-59 with a magnetic card entering the reader in the side of the calculator — the program physically slides into the machine. CC BY-SA 4.0, Wikimedia Commons.*
+
+![TI-59 Solid State Software module with its plastic key-overlay cards](../assets/wiki/ti-59-module-and-cards.jpg)
+*A Solid State Software module with the plastic overlay cards that label the user-defined keys. CC BY-SA 2.0, Wikimedia Commons.*
+
+![The TI-59 Master Library ROM module](../assets/wiki/ti-59-master-library.jpg)
+*The Master Library module that shipped with the TI-59 — 25 programs in a removable ROM cartridge. CC BY-SA 4.0, Wikimedia Commons.*
+
+![A TI-59 docked on the PC-100 thermal printer cradle](../assets/wiki/ti-59-pc100-printer.jpg)
+*A TI-59 docked on the PC-100 thermal printer cradle, which also powered it and printed alphanumeric output. CC BY-SA 3.0, Wikimedia Commons.*
+
+### Sources
+
+1. Wikipedia — TI-59 / TI-58 — https://en.wikipedia.org/wiki/TI-59_/_TI-58
+2. Datamath Calculator Museum — Texas Instruments TI-59 — http://www.datamath.org/Sci/WEDGE/TI-59.htm
+3. Datamath Calculator Museum — TMC0594 Magnetic I/O chip — http://www.datamath.org/Chips/TMC0594.htm
+4. Just Solve the File Format Problem — TI-59 magnetic card — http://justsolve.archiveteam.org/index.php?title=TI-59_magnetic_card
+5. Science Museum Group collection — books of TI-59 programme cards — https://collection.sciencemuseumgroup.org.uk/api/objects/co8782602
+6. The Henry Ford — Texas Instruments TI-59 calculator — https://thehenryford.org/collections/explore/artifact/331842
+7. Byte Magazine, October 1980 — Darth Vader's Force Battle — https://archive.org/stream/byte-magazine-1980-10/1980_10_BYTE_05-10_Software
+8. TI-59 home page (Dejan Ristanović) — https://www.ti59.com/

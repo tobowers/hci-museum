@@ -1,0 +1,70 @@
+{
+  "slug": "rca-studio-ii",
+  "title": "RCA Studio II",
+  "year": "1977",
+  "subtitle": "The home console with no joystick — every game played on telephone-style numeric keypads",
+  "why_scout_cares": "The RCA Studio II is the cleanest example of a lost interaction bet: a 1977 home game console whose only controller is the console itself. Two wired ten-button telephone-style numeric keypads sit built into the machine's body — there is no joystick and no detachable controller of any kind, because RCA bet that home computing would be a button-pushing activity, not a movement one. Every game, from Bowling to the TV Casino card games, is played by pressing digits; the case molds directional arrows into the keypad bezel, and pressing two adjacent keys together yields diagonal movement. The console was obsolete at launch — monochrome 64x32 graphics in a color era, months after the Fairchild Channel F and a year before the Atari 2600 — and RCA abandoned it within a year, selling remaining stock to Radio Shack at a fire-sale price. Then the story gets strange: the same RCA 1802 'COSMAC' chip that powered the worst-selling console flew to Jupiter inside NASA's Galileo spacecraft. The Studio II is also where the industry's first female commercial game developer, Joyce Weisbecker, wrote her games.",
+  "search_terms": [
+    "RCA Studio II 1977 numeric keypad console",
+    "RCA 1802 COSMAC home console Galileo",
+    "Joyce Weisbecker first female game developer Studio II"
+  ],
+  "research": {
+    "title": "RCA Studio II",
+    "year": "1977",
+    "by": "RCA (Radio Corporation of America), built at the Swannanoa, NC plant",
+    "tags": ["Games", "Input", "Keypad", "Console", "Consumer"],
+    "overview": "Released January 1977 at US$149.95, the RCA Studio II was RCA's cartridge game console built around the company's own RCA 1802 'COSMAC' microprocessor, with graphics from the CDP1861 'Pixie' video chip driving a strictly black-and-white 64x32 display. It shipped with five built-in games (Addition, Bowling, Doodle, Freeway, Patterns) stored in 2KB of ROM, with eleven cartridges sold across four themed series (TV Arcade, TV Casino, TV Mystic, TV Schoolhouse). Its defining and strangest feature was its input: all gameplay happened through two wired ten-button numeric keypads built into the console body, with arrows molded into the bezel for directional play and a separate clear reset button wired to the CPU's clear line. There was no joystick, and a player could push two adjacent keys together to register a diagonal — one of only two consoles of the era to claim 16-directional control.",
+    "deepDive": [
+      {
+        "heading": "The button-pushing bet",
+        "text": "The Studio II's keypads encoded a specific assumption about what home computing would feel like: a sequence of discrete button presses, like a telephone or a cash register, not continuous analog movement. Games were designed around that grammar — enter numbers, press keys, read results on the monochrome screen. RCA even considered the keypad a feature: the 16-direction claim (two adjacent keys at once) was used to argue the console could out-maneuver joystick rivals. The assumption lost. Atari's 2600 joystick, released ten months later, made analog thumb movement the industry's default input for forty years. The keypad console is now a curiosity, but it is a complete, coherent alternative vision of game input."
+      },
+      {
+        "heading": "A failure of timing",
+        "text": "RCA had famously passed on Ralph Baer's original Odyssey in 1971, and the Studio II was its attempt to re-enter home games. It arrived months after the Fairchild Channel F and a year before the Atari 2600, with no color, no detachable controllers, and cartridges that loaded 'backwards' — rods on the console plugged into holes in the cartridge. An internal RCA sales document records roughly 53,000 to 64,000 units sold between February 1977 and January 1978. After the poor Christmas 1977 season, RCA shut the line down, laid off 120 workers at the Swannanoa, North Carolina plant, and sold remaining inventory to Radio Shack, which unloaded Studio II bundles for $59.95. RCA never released another console; a color-capable Studio III was completed but only appeared in licensed clones such as the Toshiba Visicom COM-100 and the Hanimex MPT-02."
+      },
+      {
+        "heading": "The chip that went to Jupiter",
+        "text": "The Studio II's CPU, the RCA 1802, was a radiation-tolerant CMOS design that found its true market far from the living room: six 1802s flew on NASA's Galileo Jupiter orbiter, and the chip also served aboard Magellan, Hubble's wide-field camera, Ulysses, and AMSAT satellites. The same microprocessor that made a failed console's Bowling game run also helped a spacecraft reach the Galilean moons. (A common internet claim that Voyager used the 1802 is explicitly flagged as erroneous on the Voyager program's Wikipedia article.)"
+      },
+      {
+        "heading": "Joyce Weisbecker",
+        "text": "The Studio II has one more first: its cartridge library was partly written by Joyce Weisbecker, daughter of RCA engineer Joseph Weisbecker, who designed the console and the 1802. She wrote School House I (a math quiz) and Speedway/Tag for the Studio II in 1976-77, making her the first woman to develop commercial video games. The Hagley Museum & Library has recorded an oral history of the console's development from her perspective."
+      }
+    ],
+    "team": [
+      { "name": "RCA (Radio Corporation of America)", "note": "Design and distribution via the RCA Distributor & Special Products Division, Deptford, NJ; built at Swannanoa, NC" },
+      { "name": "Joseph Weisbecker", "note": "RCA engineer; designer of the RCA 1802 COSMAC microprocessor and the Studio II architecture" },
+      { "name": "Joyce Weisbecker", "note": "Wrote School House I and Speedway/Tag — the first commercial video games by a woman" }
+    ],
+    "media": [
+      { "src": "https://commons.wikimedia.org/wiki/File:RCA-Studio-II-FL.jpg", "alt": "RCA Studio II console, front-left view showing the two built-in numeric keypads", "caption": "RCA Studio II with its two built-in numeric keypads — no joystick exists on this console. Public domain, Evan-Amos, Wikimedia Commons." },
+      { "src": "https://commons.wikimedia.org/wiki/File:RCA-Studio-II-Opened-FL.jpg", "alt": "RCA Studio II opened, showing the RCA 1802 motherboard and keypad wiring", "caption": "The Studio II opened: RCA 1802 'COSMAC' board and keypad wiring. Public domain, Evan-Amos, Wikimedia Commons." },
+      { "src": "https://commons.wikimedia.org/wiki/File:Rca_studio2_bowling_ss.png", "alt": "Studio II Bowling screenshot in black and white", "caption": "Bowling, one of the five built-in games, in the console's 64x32 monochrome display. Public domain, Wikimedia Commons." },
+      { "src": "https://commons.wikimedia.org/wiki/File:RCA-Studio-II-Switchbox.jpg", "alt": "The Studio II's power/switch box", "caption": "The switchbox — the Studio II has no power button of its own; the box is the power switch. Public domain, Evan-Amos, Wikimedia Commons." }
+    ],
+    "sources": [
+      { "text": "Wikipedia — RCA Studio II", "url": "https://en.wikipedia.org/wiki/RCA_Studio_II" },
+      { "text": "Wikipedia — RCA 1802", "url": "https://en.wikipedia.org/wiki/RCA_1802" },
+      { "text": "The Dot Eaters — Studio II: Two Little, Too Late", "url": "https://thedoteaters.com/?bitstory=console/studio-ii" },
+      { "text": "iFixit — RCA Studio II Teardown", "url": "https://www.ifixit.com/Teardown/RCA+Studio+II+Teardown/3527" },
+      { "text": "Hagley Museum & Library — An Oral History of the RCA Studio II", "url": "https://www.hagley.org/research/history-hangout-14" },
+      { "text": "Digital Press — RCA Studio II FAQ by Jack Spencer Jr.", "url": "http://www.digitpress.com/faq/rca.txt" },
+      { "text": "Internet Archive — Studio II Owner's Manual", "url": "https://archive.org/details/studio-ii-owners-manual" },
+      { "text": "IT History Society — RCA Studio II", "url": "https://ithistory.org/db/hardware/rca/rca-studio-ii" }
+    ],
+    "imageUrls": [
+      "https://upload.wikimedia.org/wikipedia/commons/c/c1/RCA-Studio-II-FL.jpg",
+      "https://upload.wikimedia.org/wikipedia/commons/a/a5/RCA-Studio-II-Opened-FL.jpg",
+      "https://upload.wikimedia.org/wikipedia/commons/d/d2/Rca_studio2_bowling_ss.png",
+      "https://upload.wikimedia.org/wikipedia/commons/5/5e/RCA-Studio-II-Switchbox.jpg"
+    ]
+  },
+  "savedImages": [
+    "images/rca-studio-ii-console.jpg",
+    "images/rca-studio-ii-opened.jpg",
+    "images/rca-studio-ii-bowling.png",
+    "images/rca-studio-ii-switchbox.jpg"
+  ]
+}

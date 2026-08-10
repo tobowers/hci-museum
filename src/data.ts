@@ -2129,6 +2129,45 @@ const exhibitData: Exhibit[] = [
     tags: ["Portable", "Voice", "Input", "Consumer"],
     image: img("apricot-portable.jpg"),
   },
+  {
+    id: "rca-studio-ii",
+    slug: "rca-studio-ii",
+    wikiTitle: "RCA Studio II",
+    year: "1977",
+    sortYear: 1977,
+    title: "RCA Studio II",
+    subtitle: "The home console with no joystick — every game played on telephone-style numeric keypads",
+    blurb:
+      "The RCA Studio II (1977) is the cleanest example of a lost interaction bet: a cartridge console whose only controller is the console itself. Two wired ten-button telephone-style keypads sit built into the machine's body — no joystick exists, because RCA bet home computing would be a button-pushing activity, not a movement one. Pressing two adjacent keys together even yields a diagonal. Monochrome 64x32 graphics in a color era, it sold about 53,000-64,000 units against the Fairchild Channel F and Atari 2600, and RCA abandoned it within a year. Then the story gets strange: the same RCA 1802 'COSMAC' chip that powered the worst-selling console flew to Jupiter inside NASA's Galileo spacecraft. It is also where the industry's first female commercial game developer, Joyce Weisbecker, wrote her games.",
+    tags: ["Games", "Input", "Keypad", "Console", "Consumer"],
+    image: img("rca-studio-ii-console.jpg"),
+  },
+  {
+    id: "philips-cdi",
+    slug: "philips-cdi",
+    wikiTitle: "Philips CD-i",
+    year: "1991",
+    sortYear: 1991,
+    title: "Philips CD-i",
+    subtitle: "The living-room computer you operate like a TV — a remote with a thumb-trackball for a mouse",
+    blurb:
+      "The Philips CD-i (US launch December 3, 1991 as the Magnavox CDI 910) is the most complete attempt of the era to make the computer a living-room appliance, and its input device is the point: a handheld infrared remote control with a built-in thumb-operated trackball. You rolled the ball to move a cursor and pressed a button to select, on a machine that looked like a CD player and connected to your television. Philips is believed to have spent around a billion dollars on the vision — and it became a famous disaster, a 'terrible game machine and a terrible PC' (Bill Gates) that nonetheless shipped roughly 570,000 players and produced the derided Zelda and Mario CD-i games, which are now memes. The interactive-television dream made weirdly, magnificently physical.",
+    tags: ["Consumer", "Multimedia", "Appliance", "Games", "Input"],
+    image: img("cdi-910-console-set.jpg"),
+  },
+  {
+    id: "ti-59",
+    slug: "ti-59",
+    wikiTitle: "TI-59",
+    year: "1977",
+    sortYear: 1977,
+    title: "TI-59",
+    subtitle: "The programmable calculator whose programs were physical cards you slid into the machine",
+    blurb:
+      "The TI-59 (May 1977, $299.95) is the clearest mass-market expression of a strange and lovely HCI idea: your program is a physical object. The machine recorded your keystrokes into memory, and to keep a program you slid a magnetically striped card through a slot in the calculator's side — the card was the software. Then the design doubled the idea: the card you just read also slipped into the gap between the display and the keyboard, where its printed side served as the legend for the five user-defined keys A-E and their shifted A'-E' forms. Storage medium, documentation, and interface label were the same strip of plastic. Programs also shipped as plug-in ROM modules, and from 1977 TI ran the PPX-59 program exchange — software distributed by mail as physical card sets.",
+    tags: ["Calculator", "Programming", "Physical Media", "Consumer"],
+    image: img("ti-59-card-inserted.jpg"),
+  },
 ];
 
 export const exhibits: Exhibit[] = exhibitData.toSorted((a, b) => b.sortYear - a.sortYear || a.title.localeCompare(b.title));
