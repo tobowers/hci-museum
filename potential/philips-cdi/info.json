@@ -1,0 +1,68 @@
+{
+  "slug": "philips-cdi",
+  "title": "Philips CD-i",
+  "year": "1991",
+  "subtitle": "The living-room computer you operate like a TV — a remote with a thumb-trackball for a mouse",
+  "why_scout_cares": "The Philips CD-i (US launch December 3, 1991 as the Magnavox CDI 910) is the most complete attempt of the era to make the computer a living-room appliance, and its input device is the point: a handheld infrared remote control with a built-in thumb-operated trackball. You rolled the ball to move a cursor and pressed a button to select, on a machine that looked like a CD player and connected to your television. Philips marketed it not as a computer but as a family entertainment center for interactive encyclopedias, museum tours, karaoke, and edutainment, downplaying games entirely at first. The company is believed to have spent around a billion dollars building the vision — and it became a famous disaster: a 'terrible game machine and a terrible PC' (Bill Gates) that nevertheless shipped roughly 570,000 players and produced the derided Zelda and Mario CD-i games, which are now memes. It is the interactive-television dream made weirdly, magnificently physical.",
+  "search_terms": [
+    "Philips CD-i 1991 launch Magnavox CDI 910 remote trackball",
+    "CD-i interactive multimedia player living room computer history",
+    "CD-i Commander controller thumbstick ball cursor"
+  ],
+  "research": {
+    "title": "Philips CD-i",
+    "year": "1991",
+    "by": "Philips / Magnavox (Philips Interactive Media Systems; CD-i format co-developed with Sony)",
+    "tags": ["Consumer", "Multimedia", "Appliance", "Games", "Input"],
+    "overview": "The CD-i (Compact Disc Interactive) was Philips' consumer interactive multimedia system: a compact disc player with a 16/32-bit Signetics SCC68070 processor, a dedicated graphics chip, 1MB of RAM, and the Green Book CD-i disc format co-developed with Sony. Development began in 1984 and was publicly announced in March 1986; the first consumer players reached North America on December 3, 1991 under the Magnavox brand (the CDI 910, a rebadged Philips CDI 205), with Europe and Japan following in 1992. The system ran a cursor-driven operating system called CD-RTOS (based on Microware's OS-9), and the primary input device was an infrared remote control with a thumb-operated trackball: users rolled the ball to drive a cursor around the screen and pressed action buttons to select. Philips positioned it as a non-expert appliance — 'a computer for people who don't want to touch a computer' — for interactive encyclopedias, museum tours, karaoke, education, and later games.",
+    "deepDive": [
+      {
+        "heading": "The remote as the mouse",
+        "text": "The CD-i's defining interface decision was to make the living-room remote the computer's pointer. The Shell 1 remote (22ER9051) carried a small thumb-operated ball; the later 'CD-i Commander' (22ER9055) was pressure-sensitive, so pressing harder on the ball accelerated the cursor. Philips bundled a separate full-size wired Trackerball (22ER9013), a mouse, a Touchpad, and a gamepad for precision tasks, and co-developed a children's Roller Controller with the Children's Television Workshop. The bet was that cursor-and-click on a television, operated like an appliance, would let ordinary families drive a computer. It worked technically and failed commercially — IGN later ranked the controller family among the worst ever, precisely because the appliance model was wrong for games."
+      },
+      {
+        "heading": "A billion-dollar vision",
+        "text": "Philips invested enormously in CD-i — contemporary coverage and later histories report figures on the order of a billion dollars, much of it spent on content. The company fought to position interactive media as a mainstream home entertainment category: the Los Angeles Times described the machine in 1990 as 'the next wave in home electronics.' By late 1994 Philips claimed roughly 570,000 players worldwide; US sales reached about 400,000 by 1996, and the format was abandoned in the US that year and discontinued entirely in 1998. Analysts and rivals were brutal: Bill Gates called it 'a terrible game machine, and it was a terrible PC.'"
+      },
+      {
+        "heading": "The Nintendo deal that produced Zelda CD-i",
+        "text": "CD-i's strangest legacy comes from console politics. After Nintendo broke its SNES CD-ROM deal with Sony at CES in 1991 and signed with Philips instead — a deal that also fell apart — Philips kept the rights to Nintendo characters and produced the notorious CD-i games itself: Hotel Mario, Link: The Faces of Evil, Zelda: The Wand of Gamelon, and Zelda's Adventure. None were made by Nintendo, all were widely derided, and they have become meme-famous (Hotel Mario's cutscene catchphrase 'all toasters toast toast!'). The games remain the most visible tombstone of the interactive-television dream."
+      },
+      {
+        "heading": "An ecosystem that almost existed",
+        "text": "Underneath the failure was a real, ambitious content ecosystem: interactive encyclopedias, museum tours, TV game-show tie-ins (Jeopardy!, Name That Tune), karaoke, education titles, Todd Rundgren's No World Order (1993, the first fully interactive music album), and later CD-Online internet access in 1995. Electronic Arts briefly ran a CD-i division before halting it, and early backer Matsushita pulled out; the machine's FMV ambitions were delayed by competition from Intel's DVI standard, pushing launch from the original 1987 target to late 1991. It is, in short, the whole future of interactive home media attempted a decade too early and a billion dollars too late."
+      }
+    ],
+    "team": [
+      { "name": "Philips Interactive Media Systems", "note": "CD-i developer; players sold under the Philips brand in Europe and Magnavox (a Philips subsidiary) in the US" },
+      { "name": "Sony", "note": "Co-developed the Green Book CD-i format with Philips" },
+      { "name": "Microware", "note": "Provided the OS-9 foundation for the CD-RTOS operating system" }
+    ],
+    "media": [
+      { "src": "https://commons.wikimedia.org/wiki/File:CD-i-910-Console-Set.jpg", "alt": "The US launch model Magnavox CDI 910 with its Touchpad controller", "caption": "The Magnavox CDI 910, the December 1991 US launch unit, with its bundled controller. Public domain, Evan-Amos, Wikimedia Commons." },
+      { "src": "https://commons.wikimedia.org/wiki/File:CD-i_Remote_3_Philips.jpg", "alt": "The CD-i Commander remote control with its thumb-operated trackball", "caption": "The 'CD-i Commander' remote — the living-room computer's mouse, a thumb-operated trackball in an infrared remote. CC0, Wikimedia Commons." },
+      { "src": "https://commons.wikimedia.org/wiki/File:Philips-CDi-220-wController-FL.jpg", "alt": "Philips CD-i 220 player with a controller in front", "caption": "A Philips CD-i 220 with controller — the machine looked exactly like a CD player. Public domain, Evan-Amos, Wikimedia Commons." },
+      { "src": "https://commons.wikimedia.org/wiki/File:Philips-CDi-Controller-Rollerball.jpg", "alt": "The CD-i Rollerball trackball controller", "caption": "The full-size wired Trackerball peripheral, for when the remote's thumb-ball wasn't precise enough. Public domain, Evan-Amos, Wikimedia Commons." }
+    ],
+    "sources": [
+      { "text": "Wikipedia — CD-i", "url": "https://en.wikipedia.org/wiki/CD-i" },
+      { "text": "Time Extension — Uncovering The Tragic Tale Of The Philips CD-i", "url": "https://www.timeextension.com/features/flashback-uncovering-the-tragic-tale-of-the-philips-cd-i" },
+      { "text": "The World of CD-i — Find the best CD-i controller!", "url": "https://theworldofcdi.com/console-purist-chronicles/find-the-best-cd-i-controller" },
+      { "text": "The Centre for Computing History — Philips CD-i 205", "url": "https://computinghistory.org.uk/det/65978/Philips-CD-i-205-Multimedia-Console" },
+      { "text": "Los Angeles Times (June 5, 1990) — Audiovisual Device: The Next Wave in Home Electronics?", "url": "https://www.latimes.com/archives/la-xpm-1990-06-05-fi-582-story.html" },
+      { "text": "The New York Times (April 2, 1992) — Company News; New Philips CD", "url": "https://www.nytimes.com/1992/04/02/business/company-news-new-philips-cd.html" }
+    ],
+    "imageUrls": [
+      "https://upload.wikimedia.org/wikipedia/commons/6/6b/CD-i-910-Console-Set.jpg",
+      "https://upload.wikimedia.org/wikipedia/commons/4/4a/CD-i_Remote_3_Philips.jpg",
+      "https://upload.wikimedia.org/wikipedia/commons/b/b0/Philips-CDi-220-wController-FL.jpg",
+      "https://upload.wikimedia.org/wikipedia/commons/1/13/Philips-CDi-Controller-Rollerball.jpg"
+    ]
+  },
+  "savedImages": [
+    "images/cdi-910-console-set.jpg",
+    "images/cdi-commander-remote.jpg",
+    "images/cdi-220-with-controller.jpg",
+    "images/cdi-rollerball-controller.jpg"
+  ]
+}

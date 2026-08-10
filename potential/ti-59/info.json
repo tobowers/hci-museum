@@ -1,0 +1,69 @@
+{
+  "slug": "ti-59",
+  "title": "TI-59",
+  "year": "1977",
+  "subtitle": "The programmable calculator whose programs were physical cards you slid into the machine",
+  "why_scout_cares": "The TI-59 (May 1977, $299.95) is the clearest mass-market expression of a strange and lovely HCI idea: your program is a physical object. The machine recorded your keystrokes into memory, and to keep a program you slid a magnetically striped card through a slot in the calculator's side — the card was the software. And then the design doubled the idea: the card you just read also slipped into the gap between the display and the keyboard, where its printed side served as the legend telling you what the five user-defined keys A–E (and their shifted A'–E' forms) did in the loaded program. Storage medium, documentation, and interface label were the same strip of plastic. Programs also shipped as plug-in 'Solid State Software' ROM modules, and from November 1977 TI ran the PPX-59 Professional Program Exchange — software distributed by mail as physical card sets, a pre-web app store. The TI-59 was Turing-complete keystroke programming that sold a calculator-size personal computer years before the PC was a category.",
+  "search_terms": [
+    "TI-59 1977 programmable calculator magnetic card reader",
+    "Texas Instruments TI-59 Solid State Software module PPX-59",
+    "TI-59 keystroke programming magnetic card documentation legend"
+  ],
+  "research": {
+    "title": "TI-59",
+    "year": "1977",
+    "by": "Texas Instruments (TI-59; with TI-58/58C cut-down siblings)",
+    "tags": ["Calculator", "Programming", "Physical Media", "Consumer"],
+    "overview": "Introduced May 24, 1977 at a suggested retail price of $299.95, the Texas Instruments TI-59 was the flagship of TI's second generation of programmable calculators. It had a 10-digit red LED display, used TI's Algebraic Operating System (AOS) parenthesized infix entry, and was built from the TMS0500 chip family — a TMC0501 arithmetic chip plus scanning ROMs, RAM chips, and a dedicated TMC0594 Magnetic I/O chip that drove the card reader. Its memory partition was adjustable between 960 program steps (with zero memories) and 100 data registers (with 160 program steps), and its keystroke programming language was Turing-complete. Programs were stored on small magnetic cards (up to 480 steps per card) read and written through a slot in the calculator's side; programs also came in removable 'Solid State Software' ROM modules holding up to 5,000 steps, the first handheld calculators to use such modules. The Master Library module with 25 programs shipped in the box, and dozens more application modules followed.",
+    "deepDive": [
+      {
+        "heading": "The card as program, legend, and documentation",
+        "text": "The TI-59's magnetic cards were a triple-use medium. Sliding a card through the side reader loaded or saved a program (the machine's motor pulled the card through; one quarter of memory was stored on each side). The card's top surface was left writable, so the programmer could hand-write the program name and notes. And once read, the card slipped into a slot between the display and the keyboard, where its printed side became the live legend for the five user-defined label keys A–E and their shifted A'–E' forms. Storage, manual, and interface label were the same physical strip of plastic — a compact, tactile answer to the problem of software documentation."
+      },
+      {
+        "heading": "Keystroke programming",
+        "text": "Programming the TI-59 meant simply switching to learn mode and pressing keys: the calculator recorded the keystroke sequence as the program, merging up to eleven keypresses into single instruction steps. It supported labels, conditional branches, loops (increment/decrement and skip on zero), indirect addressing, user flags, subroutines, and alphanumeric output through the PC-100 printer cradle. Because the language was Turing-complete, hobbyists wrote games — BYTE published 'Darth Vader's Force Battle,' a type-in program for the TI-58/59, in October 1980 — and professionals used it for everything from real-estate calculations to aviation. The TI-58 (no card reader, half the memory) was even used aboard the Hawker Harrier for stabilization during takeoff and landing."
+      },
+      {
+        "heading": "Solid State Software and the PPX-59 app store",
+        "text": "TI packaged expertise as physical modules: the Solid State Software ROM cartridges, which plugged into a compartment on the calculator's back, ran directly from ROM so they did not consume the user's program memory. The Master Library (25 programs) was included; modules for statistics, real estate, investment, surveying, and aviation were sold separately, each shipping with plastic overlay cards that labeled the user-defined keys. From November 1977, TI also ran the PPX-59 (Professional Program Exchange): users submitted programs and bought back packs of magnetic cards by mail — software distribution as a physical, postal system, a decade and a half before the internet app store."
+      },
+      {
+        "heading": "The calculator as the personal computer",
+        "text": "The TI-59 sat at the hinge where the calculator stopped being a calculating machine and became a pocket computer: Turing-complete, externally storable, expandable, with a printer, program exchange, and a large community. It was available from 1977 through 1983, and institutions kept it longer — the Science Museum Group holds books of TI-59 program cards in its collection, and The Henry Ford holds a TI-59. It is the ancestor of every pocket computer and laptop that followed, and the last mass-market device where your program lived on a strip of plastic you could hold in your hand."
+      }
+    ],
+    "team": [
+      { "name": "Texas Instruments", "note": "Manufacturer; TI Programmable 59 flagship of the TMS0500 building-block calculator line" },
+      { "name": "TI Professional Program Exchange (PPX-59)", "note": "Started November 1977; mail-order distribution of programs on magnetic cards" }
+    ],
+    "media": [
+      { "src": "https://commons.wikimedia.org/wiki/File:TI-59_programmable_calculator_with_magnetic_card.jpg", "alt": "A TI-59 with a magnetic storage card being inserted into the side card reader", "caption": "A TI-59 with a magnetic card entering the reader in the side of the calculator — the program physically slides into the machine. CC BY-SA 4.0, Wikimedia Commons." },
+      { "src": "https://commons.wikimedia.org/wiki/File:TI-59_with_Electr._Eng._software_module,_manual_and_plastic_cards_w._keyboard_codes.jpg", "alt": "TI-59 Solid State Software module with its plastic key-overlay cards", "caption": "A Solid State Software module with the plastic overlay cards that label the user-defined keys. CC BY-SA 2.0, Wikimedia Commons." },
+      { "src": "https://commons.wikimedia.org/wiki/File:WIKI_TI-59_Master_Library_20161212.jpg", "alt": "The TI-59 Master Library ROM module", "caption": "The Master Library module that shipped with the TI-59 — 25 programs in a removable ROM cartridge. CC BY-SA 4.0, Wikimedia Commons." },
+      { "src": "https://commons.wikimedia.org/wiki/File:Printer_PC-100_with_TI-59.jpg", "alt": "A TI-59 docked on the PC-100 thermal printer cradle", "caption": "A TI-59 docked on the PC-100 thermal printer cradle, which also powered it and printed alphanumeric output. CC BY-SA 3.0, Wikimedia Commons." }
+    ],
+    "sources": [
+      { "text": "Wikipedia — TI-59 / TI-58", "url": "https://en.wikipedia.org/wiki/TI-59_/_TI-58" },
+      { "text": "Datamath Calculator Museum — Texas Instruments TI-59", "url": "http://www.datamath.org/Sci/WEDGE/TI-59.htm" },
+      { "text": "Datamath Calculator Museum — TMC0594 Magnetic I/O chip", "url": "http://www.datamath.org/Chips/TMC0594.htm" },
+      { "text": "Just Solve the File Format Problem — TI-59 magnetic card", "url": "http://justsolve.archiveteam.org/index.php?title=TI-59_magnetic_card" },
+      { "text": "Science Museum Group collection — books of TI-59 programme cards", "url": "https://collection.sciencemuseumgroup.org.uk/api/objects/co8782602" },
+      { "text": "The Henry Ford — Texas Instruments TI-59 calculator", "url": "https://thehenryford.org/collections/explore/artifact/331842" },
+      { "text": "Byte Magazine, October 1980 — Darth Vader's Force Battle", "url": "https://archive.org/stream/byte-magazine-1980-10/1980_10_BYTE_05-10_Software" },
+      { "text": "TI-59 home page (Dejan Ristanović)", "url": "https://www.ti59.com/" }
+    ],
+    "imageUrls": [
+      "https://upload.wikimedia.org/wikipedia/commons/5/59/TI-59_programmable_calculator_with_magnetic_card.jpg",
+      "https://upload.wikimedia.org/wikipedia/commons/5/54/TI-59_with_Electr._Eng._software_module%2C_manual_and_plastic_cards_w._keyboard_codes.jpg",
+      "https://upload.wikimedia.org/wikipedia/commons/b/b7/WIKI_TI-59_Master_Library_20161212.jpg",
+      "https://upload.wikimedia.org/wikipedia/commons/a/ad/Printer_PC-100_with_TI-59.jpg"
+    ]
+  },
+  "savedImages": [
+    "images/ti-59-card-inserted.jpg",
+    "images/ti-59-module-and-cards.jpg",
+    "images/ti-59-master-library.jpg",
+    "images/ti-59-pc100-printer.jpg"
+  ]
+}
