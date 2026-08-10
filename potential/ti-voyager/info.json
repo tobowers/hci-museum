@@ -1,0 +1,99 @@
+{
+  "slug": "ti-voyager",
+  "title": "TI Voyager",
+  "year": "1988",
+  "subtitle": "A talking toy with no keyboard — the only way in is to answer aloud",
+  "why_scout_cares": "The Voyager is the rare mainstream consumer toy where speech is the ONLY input. Texas Instruments stripped away the position-sensitive membrane keyboard of the Speak & Spell family and replaced it with a microphone-and-speaker headset on a flexible printed circuit. The toy speaks a lesson, the child answers 'yes / no / true / false' aloud, and a speech recognizer gates the game. Eight swappable speech-ROM cartridges ('Journey to Exotic Animals', 'Journey into Space', 'Journey to U.S. Presidents'...) made it a platform. It sits in the museum's voice narrative between Butler in a Box (voice commands to a home appliance), Covox Voice Master (voice commands to a PC), and DragonDictate (continuous dictation) — a consumer toy that made speaking the entire interaction channel, five years before the toy aisle generally learned to listen.",
+  "search_terms": ["Texas Instruments Voyager 1988 voice recognition toy", "TI Voyager TSP50C41 speech recognition educational toy", "TI Voyager Journey modules speech ROM"],
+  "research": {
+    "title": "TI Voyager",
+    "year": "1988",
+    "by": "Texas Instruments (Consumer Products Group, USA)",
+    "tags": ["HCI", "Voice", "Recognition", "Toy", "Educational"],
+    "overview": "The Texas Instruments Voyager (1988) is an educational toy that abandons the keyboard entirely. Where the Speak & Spell family used a position-sensitive membrane keyboard, the Voyager's entire user interface is a soft headset built from a flexible printed circuit (Flex-PCB), combining a microphone and a speaker. The toy speaks a question or mini-lesson using a TSP50C41 voice synthesis processor; the child answers by speaking one of four simple words — 'yes', 'no', 'true', or 'false' — and a speech-recognition stage decides whether the game continues. Eight exchangeable speech-ROM cartridges ('Journey to Exotic Animals', 'Journey into Space', 'Journey to U.S. Presidents', 'Journey to Human Anatomy', and more) swapped the voice and the content, turning the unit into a small platform rather than a one-shot toy.",
+    "deepDive": [
+      {
+        "heading": "Origins",
+        "text": "Texas Instruments' Consumer Products Group built the talking-toy category with the Speak & Spell family from 1978 onward, all keyed around a membrane keyboard and a synthesis chip. By 1988, with the TSP50C4x speech processor line mature, TI tried a genuinely different interface: a toy with no keys at all. The Voyager (the surviving unit at the Datamath Calculator Museum was manufactured week 39 of 1988 in the USA) replaced the position-sensitive pad of products like Touch & Tell with a microphone. Recognition of simple words became the game input — synthesis alone was no longer the novelty, listening was."
+      },
+      {
+        "heading": "The Interface",
+        "text": "There is no keypad, no touch panel, no switches beyond power. A flexible PCB headset connects the speaker and microphone to the main board, so the child wears a soft plastic-and-copper interface as they play. The recognition vocabulary is tiny and speaker-independent — 'yes', 'no', 'true', 'false' — but the toy chains these four words through structured story-lessons and quizzes. The hardware behind it: a TSP50C41 Voice Synthesis Processor (8-bit microcontroller with 8KB mask ROM for program and voice, 128 bytes plus 16 nibbles of RAM), an external TSP60C19 Voice Synthesis Memory (256K bits) for recorded voices, and a TLC274 quad operational amplifier. Four AAA batteries powered the whole thing."
+      },
+      {
+        "heading": "The Cartridge Platform",
+        "text": "Eight Voyager cartridges are documented, each a speech-ROM module (TSP60C21) carrying recorded voices and lesson content in an expansion port: Journey to Exotic Animals, Journey to Birds & Reptiles, Journey to Human Anatomy, Journey to Language Arts, Journey to The Prehistoric World, Journey into Space, Journey across The United States, and Journey to U.S. Presidents. Each cartridge shipped with printed booklets (e.g. 'Eating and Breathing' and 'Moving and Sensing' for the anatomy module), all scanned and preserved by the Datamath museum."
+      },
+      {
+        "heading": "Why It Faded",
+        "text": "Recognition was fragile, the vocabulary was trivial, and a toy whose only input is your voice had to compete with louder, more visual toys in a market TI had already retreated from — the company's consumer electronics division had been shuttered in 1983, and the Voyager appeared under a diminished product group. It vanished without the cultural footprint of its keyboarded siblings. That obscurity is part of its interest: it is a reminder that voice-first interaction was tried, commercially, in the toy aisle in 1988."
+      },
+      {
+        "heading": "Place in the Collection",
+        "text": "The Voyager fills the consumer voice-RECOGNITION gap in the museum's speech narrative. Butler in a Box listens for commands to appliances; Covox Voice Master adds trained commands to a Commodore 64; DragonDictate transcribes continuous dictation; the TRS-80 Voice Synthesizer only speaks. The Voyager is the odd one out: a mass-produced toy whose only input channel is the child's voice, with a headset made of flexible circuit board — literally a computer reduced to ears and a mouth."
+      }
+    ],
+    "team": [
+      {
+        "name": "Texas Instruments Consumer Products Group",
+        "note": "Designer and manufacturer of the Voyager (1988), maker of the Speak & Spell talking-toy family and the TSP50C41/TSP60C19 speech chips it was built around."
+      },
+      {
+        "name": "Joerg Woerner / Datamath Calculator Museum",
+        "note": "Preservation: documentation, disassembly photographs, module list, and scanned US manuals for all eight cartridges."
+      }
+    ],
+    "media": [
+      {
+        "src": "http://www.datamath.org/Speech/Images/Voyager.jpg",
+        "alt": "TI Voyager toy unit",
+        "caption": "TI Voyager unit. Photo courtesy Joerg Woerner / Datamath Calculator Museum."
+      },
+      {
+        "src": "http://www.datamath.org/Speech/Images/Voyager_1.jpg",
+        "alt": "Three exchangeable speech ROM cartridges for the Voyager",
+        "caption": "Three exchangeable speech-ROM cartridges. Photo courtesy Joerg Woerner / Datamath Calculator Museum."
+      },
+      {
+        "src": "http://www.datamath.org/Speech/Images/Voyager_PCB.jpg",
+        "alt": "Voyager main PCB with TSP50C41 speech synthesizer and CMM19005 speech ROM",
+        "caption": "Main PCB: TSP50C41 speech synthesizer and CMM19005 speech ROM. Photo courtesy Joerg Woerner / Datamath Calculator Museum."
+      },
+      {
+        "src": "http://www.datamath.org/Speech/Images/Voyager_PCB1.jpg",
+        "alt": "Flex-PCB headset connecting microphone and speaker to the Voyager main board",
+        "caption": "Flex-PCB headset — microphone and speaker connect to the main board through flexible printed circuit. Photo courtesy Joerg Woerner / Datamath Calculator Museum."
+      }
+    ],
+    "sources": [
+      {
+        "text": "Datamath Calculator Museum — TI Voyager",
+        "url": "http://www.datamath.org/Speech/Voyager.htm"
+      },
+      {
+        "text": "Datamath — Voyager additional pictures (ROMs, PCB, Flex-PCB)",
+        "url": "http://www.datamath.org/Speech/JPEG_Voyager.htm"
+      },
+      {
+        "text": "TI Voyager US manual (Datamath manual archive)",
+        "url": "http://www.datamath.net/Manuals/Voyager_US.pdf"
+      },
+      {
+        "text": "Facele TI Museum — Voyager entry",
+        "url": "https://facele.eu/index.php/ti-museum/educational/983-educational-68"
+      }
+    ],
+    "imageUrls": [
+      "http://www.datamath.org/Speech/Images/Voyager.jpg",
+      "http://www.datamath.org/Speech/Images/Voyager_1.jpg",
+      "http://www.datamath.org/Speech/Images/Voyager_PCB.jpg",
+      "http://www.datamath.org/Speech/Images/Voyager_PCB1.jpg"
+    ]
+  },
+  "savedImages": [
+    "images/voyager-unit.jpg",
+    "images/voyager-roms.jpg",
+    "images/voyager-pcb.jpg",
+    "images/voyager-flex-pcb.jpg"
+  ]
+}

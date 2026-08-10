@@ -1,0 +1,92 @@
+{
+  "slug": "pioneer-laserbarcode",
+  "title": "Pioneer LaserBarcode",
+  "year": "c.1985",
+  "subtitle": "Swipe a printed strip of barcodes to command full-motion laserdisc video",
+  "why_scout_cares": "The Pioneer LaserBarcode system turned the printed page into a remote control for full-motion video. Teachers and trainers swiped a light-tipped pen wand across a strip of printed barcodes — trace, hold the read button, and the industrial laserdisc player jumped to an exact frame, chapter, or timed segment of a training disc. Publishers printed barcoded guides for hundreds of educational discs; a whole software ecosystem (BarKoder for Windows, Bar 'n Coder for Mac/HyperCard) let anyone print custom command sheets for any existing disc. It is a physical-object-as-interface paradigm at professional scale: the barcode strip is literally the control surface, and the expensive hardware is the actuator. It complements TI Magic Wand (barcode-to-speech toy, in collection) and Cauzin Softstrip (barcode-as-data, in collection) as the third corner of the museum's barcode triptych — this one driving full-motion video in classrooms and training kiosks.",
+  "search_terms": ["Pioneer LaserBarcode UC-V109BC barcode reader laserdisc", "Pioneer CLD-V1000 barcode controller interactive video training", "Pioneer BarKoder barcode command software laserdisc"],
+  "research": {
+    "title": "Pioneer LaserBarcode System",
+    "year": "c.1985",
+    "by": "Pioneer Video / Pioneer Electronics (USA) — Industrial Products",
+    "tags": ["HCI", "Barcode", "Video", "Education", "Kiosk"],
+    "overview": "Pioneer's industrial laserdisc players began as computer-controlled Level III training machines (the MCA DiscoVision PR-7820 era). In the mid-1980s Pioneer developed a far simpler control path aimed at classrooms: printed barcodes encoding the LaserBarcode command language. A pen-type wand (UC-V109BC) with a light-tipped end was traced across a barcode while holding the read button, giving 'instantaneous access to any frame' of the disc — jump to a chapter, a time code, a still, or play a pre-selected segment. A scan-type wand (UC-V108BC) worked similarly with a read button at the scanning end. The wands doubled as wireless remotes with play, pause, scan, still/step, and skip buttons.",
+    "deepDive": [
+      {
+        "heading": "Origins",
+        "text": "Pioneer's industrial laserdisc players (PR-7820, then the CLD-V line) were the backbone of interactive video training in the 1980s. Early Level III systems required an external computer wired to the player through a 24-pin interface. The LaserBarcode system stripped that requirement away for most classroom uses: the barcode reader was the control surface, and no computer was needed to run prepared discs. The CLD-V1000 (c.1985) and the later CLD-V2400/V2600 'BARCODE' players (1990-91) shipped with barcode readers and a printed sheet of basic barcode commands."
+      },
+      {
+        "heading": "The Interaction",
+        "text": "The interaction is a physical ritual. The user holds the wand and literally traces its light-tipped end across a printed strip of black bars, holding the 'read' button. The player decodes the pattern into a LaserBarcode command and jumps to the addressed frame — instant access to anywhere on a video disc by time, track, chapter, or frame, plus play/pause of specific segments and normal transport control. Because the commands live on paper, the control surface can be photocopied, pasted into textbooks, laminated, or stuck to a desk."
+      },
+      {
+        "heading": "The Software Ecosystem",
+        "text": "Pioneer sold barcode-authoring software rather than a closed system: BarKoder for Windows (LBC-WIN1) and Bar 'n Coder for Macintosh/HyperCard (LBC-NC3) generated command barcodes conforming to the LaserBarcode, LaserBarcode 2, and Bar Code CD standards. Commands covered chapter/frame/time search, segment play, slow-reverse, audio channel select, and more. Codes could be rehearsed against a player over RS-232 or printed straight from the computer with a two-line text label per barcode, on any inkjet or laser printer, pasted into any document or Avery label layout."
+      },
+      {
+        "heading": "Use in the Field",
+        "text": "The system was 'compatible with hundreds of educational discs with barcoded guides from major publishers.' Science and language textbooks came with barcoded margin strips; teachers ran discs for the whole class from the front of the room; corporations built barcoded training and presentation media. Point-of-information kiosks and museum exhibits also used the strip-and-wand interaction, letting visitors command a video program by swiping a printed menu."
+      },
+      {
+        "heading": "Place in the Collection",
+        "text": "The LaserBarcode system completes the museum's barcode triptych. TI Magic Wand (1982, in collection) swipes barcodes to trigger speech in a children's book toy; Cauzin Softstrip (1985, in collection) prints data as barcodes a computer can read back; Pioneer LaserBarcode (c.1985-1992) swipes barcodes to command full-motion laserdisc video for education and training. It also stands opposite the BBC Domesday Project (in collection) as the interactive-videodisc story told from the hardware/control side. The physical insight — a printed strip of bars as a direct manipulation surface for expensive video hardware — is a genuinely embodied interaction paradigm."
+      }
+    ],
+    "team": [
+      {
+        "name": "Pioneer Video / Pioneer Electronics (USA)",
+        "note": "Developer of the industrial CLD-V laserdisc players, the LaserBarcode command standard, and the UC-V109BC/UC-V108BC barcode readers."
+      },
+      {
+        "name": "GeoData Systems Management Inc.",
+        "note": "Long-time Pioneer Industrial reseller and documentation preservationist; source of the surviving product photography and system documentation."
+      }
+    ],
+    "media": [
+      {
+        "src": "http://www.geodatasys.com/TECH/DVD/109bcode.jpg",
+        "alt": "Pioneer UC-V109BC pen-type barcode reader and remote control",
+        "caption": "Pioneer UC-V109BC pen-type barcode reader & remote. Product photo via GeoData Systems."
+      },
+      {
+        "src": "http://www.geodatasys.com/TECH/DVD/108bcode.jpg",
+        "alt": "Pioneer UC-V108BC scan-type barcode reader",
+        "caption": "Pioneer UC-V108BC scan-type barcode reader. Product photo via GeoData Systems."
+      },
+      {
+        "src": "http://www.geodatasys.com/TECH/DVD/108rmte.jpg",
+        "alt": "Detail view of the Pioneer barcode reader wand with transport buttons",
+        "caption": "Detail of the barcode reader wand with play/pause/scan/still buttons. Product photo via GeoData Systems."
+      }
+    ],
+    "sources": [
+      {
+        "text": "GeoData Systems — Pioneer Industrial Barcode Accessories",
+        "url": "http://www.geodatasys.com/barcode.htm"
+      },
+      {
+        "text": "Pioneer TP107 LD-V1000 Interface Guide (bitsavers)",
+        "url": "https://bitsavers.org/pdf/pioneer/laserdisc/TP107_LD-V1000_Interface_Guide.pdf"
+      },
+      {
+        "text": "GeoData Systems — CLD-V5000 with LaserBarcode Mode 2",
+        "url": "http://www.geodatasys.com/cldv5000.htm"
+      },
+      {
+        "text": "Wikipedia — Pioneer PR7820 (industrial videodisc player lineage)",
+        "url": "https://en.wikipedia.org/wiki/Pioneer_PR7820"
+      }
+    ],
+    "imageUrls": [
+      "http://www.geodatasys.com/TECH/DVD/109bcode.jpg",
+      "http://www.geodatasys.com/TECH/DVD/108bcode.jpg",
+      "http://www.geodatasys.com/TECH/DVD/108rmte.jpg"
+    ]
+  },
+  "savedImages": [
+    "images/laserbarcode-pen-wand.jpg",
+    "images/laserbarcode-scan-wand.jpg",
+    "images/laserbarcode-detailed.jpg"
+  ]
+}

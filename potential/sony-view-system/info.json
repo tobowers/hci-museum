@@ -1,0 +1,110 @@
+{
+  "slug": "sony-view-system",
+  "title": "Sony VIEW System",
+  "year": "1984",
+  "subtitle": "A PC with a laserdisc for a hard drive — courseware delivered as analog video frames",
+  "why_scout_cares": "The Sony VIEW System is the strangest serious attempt to make the laserdisc a computer medium. A full PC (SMC-2000, then 80286-based VIW models) with a videodisc player bolted into the same chassis, it was built to Sony's bid for the US Army's EIDS training-simulator contract. The disc was simultaneously a 54,000-frame analog video carrier and a bootable software medium: MS-DOS program files and digitized audio were encoded as black-and-white patterns inside individual video frames (4KB/frame, with CD-style block correction and interleaving), so a single pressed disc delivered both the motion picture and the executable courseware. The EIDS configuration had no floppy drive at all — the machine powered on and ran its training software from the videodisc, a DVD-like fiction forced through analog video years before DVD. Sony lost the bid to Matrox, and the VIEW is now a footnote preserved by collectors — precisely the kind of ambitious, commercially odd bridge between analog and digital that belongs in this museum.",
+  "search_terms": ["Sony VIEW System SMC-2000 LDP-2000 videodisc computer", "Sony EIDS Electronic Information Delivery System single media boot", "Sony VIW-5000A interactive video laserdisc PC"],
+  "research": {
+    "title": "Sony VIEW System",
+    "year": "1984",
+    "by": "Sony Corporation (SMC-2000 / VIEW series, with LDP-2000 videodisc player)",
+    "tags": ["HCI", "Videodisc", "Media", "Education", "Training"],
+    "overview": "The Sony VIEW System (introduced with the SMC-2000 computer, 1984-85) combined a personal computer and a videodisc player in one chassis to deliver interactive training. Its defining feature was 'single-media' delivery: the laserdisc carried not just analog video but also digital data — MS-DOS program files, courseware, and still-frame audio — recorded as black-and-white image patterns within video frames at 4KB per frame, using the same block-correction and interleaving techniques as CD-ROM. A pressed disc could therefore hold 30 minutes of analog motion video, 54,000 individually addressable frames, digital audio for stills, and the executable software that drove the lesson. The machine ran it all without a floppy disk in the EIDS configuration.",
+    "deepDive": [
+      {
+        "heading": "Origins: The EIDS Contract",
+        "text": "VIEW was developed for a specific project: the US Army's EIDS (Electronic Information Delivery System), a simulator for equipment-operation training. Sony, US-based Emerson, and Canadian Matrox all submitted proposals and prototypes in response to the RFQ; Matrox won, and Sony never supplied the contract. Sony had been a major U-Matic videotape supplier to the US military, and VIEW grew out of that relationship. The requirements pushed the state of the art: the disc itself had to carry the application software the PC runs — 'single-media' launch — plus 'still-frame audio,' digitally recorded sound played under analog still frames."
+      },
+      {
+        "heading": "The Disc as a Computer Medium",
+        "text": "Because adding a standard digital data mode to the LaserVision spec was impractical, Sony encoded digital data as video: each frame of the CAV disc stored a 4KB pattern of black-and-white cells that the player's expansion board decoded into program data or audio. Error resilience came from CD-style block correction and interleaving, since an analog recording path is noisy. The master for an EIDS disc was a 1-inch videotape cut at Sony's Hamamatsu videodisc plant, which produced the stampers and pressed discs — an entire software pipeline built on video tape."
+      },
+      {
+        "heading": "The Hardware",
+        "text": "The VIEW station paired the SMC-2000 (later 80286-based VIW-5000A/3015A/3020) PC with an LDP-2000 series player mounted in the same enclosure. The LDP-2000 carried an expansion board to read the disc's digital data, output still-frame audio, and transfer data to the PC over IEEE-488. The EIDS configuration omitted the floppy drive entirely: MS-DOS booted from a built-in ROM disk, and the training software loaded from the videodisc. The result is a machine whose 'hard drive' is a 12-inch optical video disc full of moving pictures."
+      },
+      {
+        "heading": "After the Army",
+        "text": "When the Army contract went to Matrox, Sony sold the VIEW system into education and training markets instead, into the early 1990s. Later models added touchscreen monitors; ERIC documents describe the VIEW 5000 as a high-resolution color touch-screen station used for nursing simulation. The software-and-disc production process was so complex that the whole project remained experimental — Matrox's winning system did not exactly flood the market either. The VIEW is now preserved by a handful of collectors and documented in Japanese retro-computing blogs and the VCFED forums."
+      },
+      {
+        "heading": "Place in the Collection",
+        "text": "The VIEW System is the museum's 'optical disc as operating medium' artifact. It pairs with the BBC Domesday Project (in collection) as the two most serious 1980s attempts to make the videodisc a general-purpose computer medium — Domesday from the publishing side, VIEW from the hardware side — and with Pioneer LaserBarcode as the industrial interactive-videodisc family. Where Cauzin Softstrip printed data on paper and the Sony Typecorder wrote memory to cassette, the VIEW recorded executable software as black-and-white patterns inside analog video frames: data hiding in plain sight on a screen you could watch."
+      }
+    ],
+    "team": [
+      {
+        "name": "Sony Corporation",
+        "note": "Designer of the SMC-2000/VIEW computer-videodisc system, the LDP-2000 player with digital-data expansion board, and the EIDS proposal."
+      },
+      {
+        "name": "US Army / EIDS program",
+        "note": "Sponsor of the Electronic Information Delivery System RFQ that drove the single-media and still-frame-audio requirements."
+      },
+      {
+        "name": "VintageComputer.ca (Good Old Bits)",
+        "note": "Preservation: surviving VIW-5000A hardware photography, EIDS documentation, and the disc-format diagrams."
+      }
+    ],
+    "media": [
+      {
+        "src": "https://vintagecomputer.ca/wp-content/uploads/2018/04/Sony-VIW-5000A-front.jpg",
+        "alt": "Sony VIW-5000A VIEW system front view — PC with laserdisc player built in",
+        "caption": "Sony VIW-5000A VIEW station: a PC with a laserdisc player built in. Photo by VintageComputer.ca."
+      },
+      {
+        "src": "https://vintagecomputer.ca/wp-content/uploads/2018/04/Sony-VIW-5000A-laser-drive-removed.jpg",
+        "alt": "Sony VIW-5000A with the LDP-1450W laser drive removed",
+        "caption": "The LDP-1450W laserdisc drive removed from the VIEW chassis. Photo by VintageComputer.ca."
+      },
+      {
+        "src": "https://vintagecomputer.ca/wp-content/uploads/2018/04/Sony-VIW-5000A-boot-to-DOS.jpg",
+        "alt": "Sony VIEW system booting to DOS",
+        "caption": "A VIEW station booting to DOS — the training computer as a videodisc appliance. Photo by VintageComputer.ca."
+      },
+      {
+        "src": "https://vintagecomputer.ca/wp-content/uploads/2018/04/Sony-VIW-5000A-top-cover-removed.jpg",
+        "alt": "Sony VIW-5000A with top cover removed showing computer and drive internals",
+        "caption": "VIEW internals with the top cover off. Photo by VintageComputer.ca."
+      },
+      {
+        "src": "https://vintagecomputer.ca/wp-content/uploads/2018/04/Sony-VIW-5000A-laser-disk-ejected.jpg",
+        "alt": "Laserdisc ejected from the Sony VIEW system",
+        "caption": "A laserdisc ejected from the VIEW — 30 minutes of video, 54,000 frames, and MS-DOS courseware on one pressed disc. Photo by VintageComputer.ca."
+      }
+    ],
+    "sources": [
+      {
+        "text": "VintageComputer.ca — Sony VIEW System: PC with a Laser Disc Player built in",
+        "url": "https://www.vintagecomputer.ca/sony-view-system-pc-with-a-laser-disc-player-built-in/"
+      },
+      {
+        "text": "Good Old Bits — SMC-2000 (3) EIDS 米陸軍仕様 (EIDS/US Army spec, with disc-format diagrams)",
+        "url": "https://goodoldbits.wordpress.com/2015/12/14/smc-2000-3-eids-usarmy/"
+      },
+      {
+        "text": "VCFED Forums — Sony VIEW System thread (brochure scans and photos)",
+        "url": "https://forum.vcfed.org/index.php?threads/sony-view-system.64209"
+      },
+      {
+        "text": "ERIC ED350043 — interactive video systems including the VIEW 5000 in nursing education",
+        "url": "https://eric.ed.gov/?id=ED350043"
+      }
+    ],
+    "imageUrls": [
+      "https://vintagecomputer.ca/wp-content/uploads/2018/04/Sony-VIW-5000A-front.jpg",
+      "https://vintagecomputer.ca/wp-content/uploads/2018/04/Sony-VIW-5000A-laser-drive-removed.jpg",
+      "https://vintagecomputer.ca/wp-content/uploads/2018/04/Sony-VIW-5000A-boot-to-DOS.jpg",
+      "https://vintagecomputer.ca/wp-content/uploads/2018/04/Sony-VIW-5000A-top-cover-removed.jpg",
+      "https://vintagecomputer.ca/wp-content/uploads/2018/04/Sony-VIW-5000A-laser-disk-ejected.jpg"
+    ]
+  },
+  "savedImages": [
+    "images/view-front.jpg",
+    "images/view-laser-drive.jpg",
+    "images/view-boot-to-dos.jpg",
+    "images/view-top-cover-removed.jpg",
+    "images/view-disc-ejected.jpg"
+  ]
+}

@@ -178,6 +178,9 @@ Each entry includes an overview, a deep dive, a small media gallery, and full so
 169. [Unimation PUMA Teach Pendant / VAL (1980)](#unimation-puma-teach-pendant--val-1980)
 170. [Teddy Ruxpin (1985)](#teddy-ruxpin-1985)
 171. [Apricot Portable (1984)](#apricot-portable-1984)
+172. [TI Voyager (1988)](#ti-voyager-1988)
+173. [Pioneer LaserBarcode System (c. 1985)](#pioneer-laserbarcode-system-c-1985)
+174. [Sony VIEW System (1984)](#sony-view-system-1984)
 
 ---
 
@@ -7312,6 +7315,148 @@ Priced at $1,500 (later $1,000), the VideoPhone 2500 sold only about 30,000 unit
 3. Encyclopaedia Britannica — VideoPhone 2500 — https://www.britannica.com/technology/videophone
 4. Baltimore Sun — AT&T's video phone announcement (Jan 7, 1992) — https://www.baltimoresun.com/
 5. Wikimedia Commons image — Marcin Wichary, CC BY 2.0 — https://commons.wikimedia.org/wiki/File:Flickr_2615545942_f02a41fed6_b_AT%26T_VideoPhone_2500,_attribution_to_Marcin_Wichary.jpg
+
+---
+
+## TI Voyager (1988)
+
+**By:** Texas Instruments (Consumer Products Group, USA)  
+**Tags:** `HCI` `Voice` `Recognition` `Toy`
+
+### Overview
+
+The Texas Instruments Voyager (1988) is an educational toy that abandons the keyboard entirely. Where the Speak & Spell family used a position-sensitive membrane keyboard, the Voyager's entire user interface is a soft headset built from a flexible printed circuit (Flex-PCB), combining a microphone and a speaker. The toy speaks a question or mini-lesson using a TSP50C41 voice synthesis processor; the child answers by speaking one of four simple words — "yes", "no", "true", or "false" — and a speech-recognition stage decides whether the game continues.
+
+Inside, the Voyager runs on a TSP50C41 single-chip Voice Synthesis Processor (an 8-bit microcontroller with 8KB mask ROM and 128 bytes plus 16 nibbles of RAM), an external TSP60C19 Voice Synthesis Memory (256K bits) carrying the recorded voices, and a TLC274 quad operational amplifier. Four AAA batteries powered it; the surviving unit documented by the Datamath Calculator Museum was manufactured in week 39 of 1988 in the United States.
+
+Eight exchangeable speech-ROM cartridges (TSP60C21 modules) swapped the voice and the content through an expansion port — "Journey to Exotic Animals", "Journey to Birds & Reptiles", "Journey to Human Anatomy", "Journey to Language Arts", "Journey to The Prehistoric World", "Journey into Space", "Journey across The United States", and "Journey to U.S. Presidents" — each shipped with printed booklets. The Voyager is almost entirely forgotten compared to its keyboarded sibling, Speak & Spell, and that obscurity is part of its interest: it is proof that Texas Instruments pushed recognition, not just synthesis, into the toy aisle in the late 1980s.
+
+### Deep dive
+
+* **A computer reduced to ears and a mouth.** The headset is a flexible printed circuit connecting speaker and microphone to the main board. There is no keypad, no touch panel, no switches beyond power — the child interacts purely by listening and answering aloud. The recognition vocabulary is tiny and speaker-independent, but the toy chains those four words through structured story-lessons and quizzes, making speech the entire input channel.
+* **The cartridge platform.** The eight speech-ROM modules turned a one-shot toy into a small platform with recorded voices and lesson content, plus printed booklets per module — a physical-media library model decades before app stores.
+* **Why it faded.** Recognition was fragile, the vocabulary was trivial, and a toy whose only input is your voice had to compete with louder, more visual toys in a market TI had largely retreated from after shuttering its consumer electronics division in 1983. The Voyager vanished without the cultural footprint of its siblings.
+
+### Team
+
+* **Texas Instruments Consumer Products Group.** Designer and manufacturer of the Voyager (1988) and the Speak & Spell family, and of the TSP50C41/TSP60C19 speech chips it was built around.
+* **Joerg Woerner / Datamath Calculator Museum.** Preservation: documentation, disassembly photographs, module list, and scanned US manuals for all eight cartridges.
+
+### Media
+
+![TI Voyager toy unit](../assets/wiki/ti-voyager-1.jpg)
+*TI Voyager unit. Photo courtesy Joerg Woerner / Datamath Calculator Museum.*
+
+![Three exchangeable speech ROM cartridges for the Voyager](../assets/wiki/ti-voyager-2.jpg)
+*Three exchangeable speech-ROM cartridges. Photo courtesy Joerg Woerner / Datamath Calculator Museum.*
+
+![Voyager main PCB with TSP50C41 speech synthesizer and speech ROM](../assets/wiki/ti-voyager-3.jpg)
+*Main PCB: TSP50C41 speech synthesizer and CMM19005 speech ROM. Photo courtesy Joerg Woerner / Datamath Calculator Museum.*
+
+![Flex-PCB headset connecting microphone and speaker to the Voyager main board](../assets/wiki/ti-voyager-4.jpg)
+*Flex-PCB headset — microphone and speaker connect to the main board through flexible printed circuit. Photo courtesy Joerg Woerner / Datamath Calculator Museum.*
+
+### Sources
+
+1. Datamath Calculator Museum — TI Voyager — http://www.datamath.org/Speech/Voyager.htm
+2. Datamath — Voyager additional pictures (ROMs, PCB, Flex-PCB) — http://www.datamath.org/Speech/JPEG_Voyager.htm
+3. Datamath — TI Voyager US manual (PDF) — http://www.datamath.net/Manuals/Voyager_US.pdf
+4. Facele TI Museum — Voyager entry — https://facele.eu/index.php/ti-museum/educational/983-educational-68
+
+---
+
+## Pioneer LaserBarcode System (c. 1985)
+
+**By:** Pioneer Video / Pioneer Electronics (USA) — Industrial Products  
+**Tags:** `HCI` `Barcode` `Video` `Education`
+
+### Overview
+
+Pioneer's industrial laserdisc players began as computer-controlled Level III training machines (the MCA DiscoVision PR-7820 era). In the mid-1980s Pioneer developed a far simpler control path aimed at classrooms: printed barcodes encoding the LaserBarcode command language. A pen-type wand (UC-V109BC) with a light-tipped end was traced across a barcode while holding the read button, giving "instantaneous access to any frame" of the disc — jump to a chapter, a time code, a still, or play a pre-selected segment. A scan-type wand (UC-V108BC) worked the same way with a read button at the scanning end. Both doubled as wireless remotes with play, pause, scan, still/step, and skip buttons.
+
+The interaction is a physical ritual: the user holds the wand and literally traces its light-tipped end across a printed strip of black bars. Because the commands live on paper, the control surface can be photocopied, pasted into textbooks, laminated, or taped to a desk. The players — the CLD-V1000 (c. 1985) and later the CLD-V2400/V2600 "BARCODE" players (1990-91) — shipped with barcode readers and a printed sheet of basic commands.
+
+Pioneer sold the authoring side as software rather than a closed system: BarKoder for Windows (LBC-WIN1) and Bar 'n Coder for Macintosh/HyperCard (LBC-NC3) generated command barcodes conforming to the LaserBarcode, LaserBarcode 2, and Bar Code CD standards. Commands covered chapter/frame/time search, segment play, slow-reverse, audio channel select, and more. The system was "compatible with hundreds of educational discs with barcoded guides from major publishers," and found use in classrooms, corporate training, and point-of-information kiosks.
+
+### Deep dive
+
+* **The printed page as remote control.** The barcode strip is the interface; the expensive player is just the actuator. A teacher could run a training disc from the front of a classroom with nothing more than a wand and a laminated sheet — no computer, no keyboard, no programming. This is physical-object-as-interface at professional scale.
+* **The authoring ecosystem.** Any trainer could print custom command barcodes for any existing disc using BarKoder or Bar 'n Coder, rehearse them against a player over RS-232, and paste them into documents or Avery label sheets. The "software" of an interactive video lesson was literally printed on paper.
+* **Place in the barcode triptych.** TI Magic Wand (1982) swipes barcodes to trigger speech in a children's book toy; Cauzin Softstrip (1985) prints data as barcodes a computer can read back; Pioneer LaserBarcode swipes barcodes to command full-motion laserdisc video for education and training — the third corner of the museum's barcode story.
+
+### Team
+
+* **Pioneer Video / Pioneer Electronics (USA).** Developer of the industrial CLD-V laserdisc players, the LaserBarcode command standard, and the UC-V109BC/UC-V108BC barcode readers.
+* **GeoData Systems Management Inc.** Long-time Pioneer Industrial reseller and documentation preservationist; source of the surviving product photography and system documentation.
+
+### Media
+
+![Pioneer UC-V109BC pen-type barcode reader and remote control](../assets/wiki/pioneer-laserbarcode-1.jpg)
+*Pioneer UC-V109BC pen-type barcode reader and remote. Product photo via GeoData Systems.*
+
+![Pioneer UC-V108BC scan-type barcode reader](../assets/wiki/pioneer-laserbarcode-2.jpg)
+*Pioneer UC-V108BC scan-type barcode reader. Product photo via GeoData Systems.*
+
+![Detail of the Pioneer barcode reader wand with transport buttons](../assets/wiki/pioneer-laserbarcode-3.jpg)
+*Detail of the barcode reader wand with play/pause/scan/still buttons. Product photo via GeoData Systems.*
+
+### Sources
+
+1. GeoData Systems — Pioneer Industrial Barcode Accessories — http://www.geodatasys.com/barcode.htm
+2. Pioneer TP107 LD-V1000 Interface Guide (bitsavers) — https://bitsavers.org/pdf/pioneer/laserdisc/TP107_LD-V1000_Interface_Guide.pdf
+3. GeoData Systems — CLD-V5000 with LaserBarcode Mode 2 — http://www.geodatasys.com/cldv5000.htm
+4. Wikipedia — Pioneer PR7820 (industrial videodisc player lineage) — https://en.wikipedia.org/wiki/Pioneer_PR7820
+
+---
+
+## Sony VIEW System (1984)
+
+**By:** Sony Corporation (SMC-2000 / VIEW series, with LDP-2000 videodisc player)  
+**Tags:** `HCI` `Videodisc` `Media` `Training`
+
+### Overview
+
+The Sony VIEW System (introduced with the SMC-2000 computer, 1984-85) combined a personal computer and a videodisc player in one chassis to deliver interactive training. Its defining feature was "single-media" delivery: the laserdisc carried not just analog video but also digital data — MS-DOS program files, courseware, and still-frame audio — recorded as black-and-white image patterns within video frames at 4KB per frame, using the same block-correction and interleaving techniques as CD-ROM. A pressed disc could therefore hold 30 minutes of analog motion video, 54,000 individually addressable frames, digital audio for stills, and the executable software that drove the lesson.
+
+VIEW was built for a specific project: the US Army's EIDS (Electronic Information Delivery System), a simulator for equipment-operation training. Sony, US-based Emerson, and Canadian Matrox all submitted proposals and prototypes in response to the RFQ; Matrox won, and Sony never supplied the contract. The requirements pushed the state of the art: the disc itself had to carry the application software the PC runs — "single-media" launch — plus "still-frame audio," digitally recorded sound played under analog still frames.
+
+Because adding a standard digital data mode to the LaserVision spec was impractical, Sony encoded digital data as video: each frame of the CAV disc stored a 4KB pattern of black-and-white cells decoded by an expansion board inside the LDP-2000 player, which also output still-frame audio and transferred data to the PC over IEEE-488. The EIDS configuration omitted the floppy drive entirely — MS-DOS booted from a built-in ROM disk while the training software loaded from the videodisc. The master for an EIDS disc was a 1-inch videotape cut at Sony's Hamamatsu videodisc plant, which produced the stampers and pressed the discs. Later 80286-based models (VIW-5000A/3015A/3020) with touchscreen options sold into education and training markets into the early 1990s.
+
+### Deep dive
+
+* **Data hiding in plain sight.** The disc was simultaneously a movie you could watch and a bootable software medium. Cauzin Softstrip printed data on paper and the Sony Typecorder wrote memory to cassette; the VIEW recorded executable software as black-and-white patterns inside analog video frames — a DVD-like fiction forced through analog video years before DVD existed.
+* **The EIDS gamble.** The software-and-disc production process was so complex that the whole project remained experimental — the winning Matrox system did not exactly flood the market either. VIEW is preserved today by a handful of collectors and documented in Japanese retro-computing blogs and the VCFED forums.
+* **Place in the collection.** The VIEW pairs with the BBC Domesday Project as the two most serious 1980s attempts to make the videodisc a general-purpose computer medium — Domesday from the publishing side, VIEW from the hardware side — and with Pioneer LaserBarcode as the industrial interactive-videodisc family.
+
+### Team
+
+* **Sony Corporation.** Designer of the SMC-2000/VIEW computer-videodisc system, the LDP-2000 player with digital-data expansion board, and the EIDS proposal.
+* **US Army / EIDS program.** Sponsor of the Electronic Information Delivery System RFQ that drove the single-media and still-frame-audio requirements.
+* **VintageComputer.ca (Good Old Bits).** Preservation: surviving VIW-5000A hardware photography, EIDS documentation, and disc-format diagrams.
+
+### Media
+
+![Sony VIW-5000A VIEW station front view](../assets/wiki/sony-view-system-1.jpg)
+*Sony VIW-5000A VIEW station: a PC with a laserdisc player built in. Photo by VintageComputer.ca.*
+
+![Sony VIW-5000A with the LDP-1450W laser drive removed](../assets/wiki/sony-view-system-2.jpg)
+*The LDP-1450W laserdisc drive removed from the VIEW chassis. Photo by VintageComputer.ca.*
+
+![Sony VIEW system booting to DOS](../assets/wiki/sony-view-system-3.jpg)
+*A VIEW station booting to DOS — the training computer as a videodisc appliance. Photo by VintageComputer.ca.*
+
+![Sony VIW-5000A with top cover removed showing internals](../assets/wiki/sony-view-system-4.jpg)
+*VIEW internals with the top cover off. Photo by VintageComputer.ca.*
+
+![Laserdisc ejected from the Sony VIEW system](../assets/wiki/sony-view-system-5.jpg)
+*A laserdisc ejected from the VIEW — 30 minutes of video, 54,000 frames, and MS-DOS courseware on one pressed disc. Photo by VintageComputer.ca.*
+
+### Sources
+
+1. VintageComputer.ca — Sony VIEW System: PC with a Laser Disc Player built in — https://www.vintagecomputer.ca/sony-view-system-pc-with-a-laser-disc-player-built-in/
+2. Good Old Bits — SMC-2000 (3) EIDS / US Army spec (disc-format diagrams) — https://goodoldbits.wordpress.com/2015/12/14/smc-2000-3-eids-usarmy/
+3. VCFED Forums — Sony VIEW System thread (brochure scans and photos) — https://forum.vcfed.org/index.php?threads/sony-view-system.64209
+4. ERIC ED350043 — interactive video systems including the VIEW 5000 in nursing education — https://eric.ed.gov/?id=ED350043
 
 ---
 
