@@ -1,0 +1,52 @@
+{
+  "slug": "ti-touch-tell",
+  "title": "Texas Instruments Touch & Tell",
+  "year": "1981",
+  "subtitle": "The toddler computer with no keyboard — you answer by pointing at the picture",
+  "why_scout_cares": "The TI Touch & Tell (1981) is a speech-synthesis learning toy whose entire input is a fingertip on a picture. The child slides a printed panel onto a 'position sensitive keyboard' — a membrane touch pad — and the machine asks a random question; the child answers by pointing at the cow, the elephant, or the number four on the panel. It is a touch-to-answer interface for pre-literate children three years before the HP-150 touchscreen, and its seven overlay libraries included an E.T. pack. The museum has the keyboard-era Speak & Spell, the barcode-wand Magic Wand, and the voice-only Voyager — but nothing where the answer is given by touching the printed page. A clean, strange, and genuinely influential dead end of consumer touch input.",
+  "search_terms": ["TI Touch & Tell", "Texas Instruments Touch & Tell 1981", "position sensitive keyboard", "Speak & Spell touch", "E.T. Touch & Tell overlay", "Le Livre Magique", "Tipp & Sprich", "Libro Parlante"],
+  "research": {
+    "title": "Texas Instruments Touch & Tell",
+    "year": "1981",
+    "by": "Texas Instruments (Consumer Products Group, USA)",
+    "tags": ["Education", "Toy", "Speech", "Touch", "Children"],
+    "overview": "The Texas Instruments Touch & Tell is a speech-synthesis learning toy introduced in 1981, shortly after the Speak & Spell line. It has no screen and no alphanumeric keyboard. One of several printed picture panels is placed over a large flat 'position sensitive keyboard' — a membrane touch pad — and the toy asks a random question ('Where is the cow?') using its voice synthesizer; the child answers by pointing at the picture with a fingertip. Musical tones and sound effects reward correct answers.",
+    "deepDive": [
+      {
+        "heading": "Origins",
+        "text": "DATAMATH's calculator museum dates the introduction to 1981, rated by Texas Instruments for children aged 2 to 5. Inside, the toy is built around three integrated circuits: a CD8012 (a 4-bit TMS1100 microcontroller with 2KB ROM and 128×4 bits RAM), a TMC0280/CD2802 (the TMS5110A Voice Synthesis Processor from the Speak & Spell family), and a TMC0355/CD2601 Voice Synthesis Memory with 16K bits. The same housing and technology were reused for a medical aid, the Vocaid, which let mute people speak by pressing picture keys."
+      },
+      {
+        "heading": "Interaction",
+        "text": "The interaction model is the point: the printed overlay IS the interface. The machine's question is randomized, the answer surface is the picture itself, and the child's body — a finger — is the pointer. Seven Touch & Tell Picture Panel Libraries were released at $17.95 each: Alphabet Fun, Animal Friends, All About Me, Number Fun, Little Creatures, World of Transportation, and an E.T. pack teaching character recognition and object identification from the film."
+      },
+      {
+        "heading": "The family",
+        "text": "Texas Instruments shipped country-specific variants in the same housing — the UK Touch & Tell, France's Le Livre Magique, Germany's Tipp & Sprich, and Italy's Libro Parlante. The idea evolved into the more advanced Touch & Discover, and later the Super Speak & Read with two position-sensitive keyboards and the smaller Teddy Touch & Tell. The same 'answer by pointing' logic without any keyboard appears in the museum's TI Voyager."
+      },
+      {
+        "heading": "Why it matters",
+        "text": "Touch & Tell is a consumer touch-input device for toddlers from 1981: direct manipulation of a picture by pointing, long before multitouch tablets made tap-the-answer the default interaction for preschool software. It belongs to the museum's TI speech-toy lineage (Speak & Spell, Magic Wand, Voyager, Little Professor) while being the only one whose input is pure pointing at a printed surface."
+      }
+    ],
+    "team": [
+      { "name": "Texas Instruments Consumer Products Group", "note": "Designer and manufacturer (1981); speech lineage from Speak & Spell" },
+      { "name": "Joerg Woerner / DATAMATH Calculator Museum", "note": "Preservation: documentation, teardown photographs, overlay manual PDFs" }
+    ],
+    "media": [
+      { "src": "http://www.datamath.org/Speech/TouchnTell.htm", "alt": "TI Touch & Tell unit", "caption": "The TI Touch & Tell with picture panel. Photo courtesy Joerg Woerner / Datamath Calculator Museum." },
+      { "src": "http://www.datamath.org/Speech/JPEG_TouchnTell.htm", "alt": "Touch & Tell PCB", "caption": "Touch & Tell main PCB: TMS1100 microcontroller, TMS5110A voice synthesis processor, and voice synthesis memory. Photo courtesy Joerg Woerner / Datamath Calculator Museum." }
+    ],
+    "sources": [
+      { "text": "DATAMATH Calculator Museum — TI Touch & Tell", "url": "http://www.datamath.org/Speech/TouchnTell.htm" },
+      { "text": "DATAMATH — Touch & Tell overlay manuals (PDFs)", "url": "http://www.datamath.net/Manuals/TouchAndTell_OVL_US.pdf" },
+      { "text": "DATAMATH — Vocaid (same housing, medical speech aid)", "url": "http://www.datamath.org/Speech/Vocaid.htm" },
+      { "text": "DATAMATH — Touch & Tell PCB photos", "url": "http://www.datamath.org/Speech/JPEG_TouchnTell.htm" }
+    ],
+    "imageUrls": [
+      "http://www.datamath.org/Speech/Images/TouchnTell.jpg",
+      "http://www.datamath.org/Speech/Images/TouchnTell_PCB.jpg"
+    ]
+  },
+  "savedImages": []
+}

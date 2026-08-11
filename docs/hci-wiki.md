@@ -184,6 +184,9 @@ Each entry includes an overview, a deep dive, a small media gallery, and full so
 175. [RCA Studio II (1977)](#rca-studio-ii-1977)
 176. [Philips CD-i (1991)](#philips-cd-i-1991)
 177. [TI-59 (1977)](#ti-59-1977)
+178. [VTech Socrates (1988)](#vtech-socrates-1988)
+179. [GRAF/PEN GrafBar Sonic Digitizer (1983–84)](#grafpen-grafbar-sonic-digitizer-198384)
+180. [TI Touch & Tell (1981)](#ti-touch--tell-1981)
 
 ---
 
@@ -8749,3 +8752,133 @@ The interaction model is the museum's point of interest: the TI-59 is the cleare
 6. The Henry Ford — Texas Instruments TI-59 calculator — https://thehenryford.org/collections/explore/artifact/331842
 7. Byte Magazine, October 1980 — Darth Vader's Force Battle — https://archive.org/stream/byte-magazine-1980-10/1980_10_BYTE_05-10_Software
 8. TI-59 home page (Dejan Ristanović) — https://www.ti59.com/
+
+---
+
+## VTech Socrates (1988)
+
+**By:** VTech (Video Technology Ltd.), Hong Kong  
+**Tags:** `Education` `Console` `Wireless` `IR` `Children` `Stylus`
+
+### Overview
+
+The VTech Socrates is an 8-bit educational home video game console released by Hong Kong's VTech in 1988 and discontinued in 1996. Its defining trait is that every input device is wireless: the full QWERTY keyboard and two game controllers communicate with the console through infrared reception, and the optional Mouse tablet and Touch Pad — a stylus drawing surface — also talk to the main system over infrared. A Z80A at 3.57 MHz drives custom graphics, and games ship as cartridges shaped like 3.5-inch floppy disks.
+
+The bundled software spans math problems, word problems, word games (hangman, anagrams, spelling races), music games, and Super Painter, a drawing program VTech later spun off into its Video Painter line of toys. The Touch Pad lets younger students practice writing letters and numbers and drawing shapes, and can also drive Super Painter; the CAD Professor cartridge runs on the Mouse tablet for architectural, textile, and fashion design. A separate voice cartridge adds speech to every game title.
+
+### Deep dive
+
+* **Origins and team.** VTech (Video Technology Ltd.) was the Hong Kong electronics maker behind the CreatiVision (1981) and the Laser home-computer line. The Socrates was its successor in the console space, a self-contained educational machine named after the Greek philosopher; the console's robot mascot resembles Johnny 5 from *Short Circuit*. In Europe it was distributed by Yeno as the Prof. Weiss-Alles (Germany) and Professeur Saitout (France), and in Canada as the Socrates Saitout.
+* **The wireless bet.** In 1988, making a children's console's entire input stack wireless was exceptional. The keyboard beams keypresses over infrared to a receiver on the console, with real-world range varying from twelve feet to barely line-of-sight depending on the unit. The Mouse and Touch Pad peripherals use infrared too.
+* **Interaction.** The Touch Pad gives the museum a rare consumer example of stylus-drawing input aimed at pre-readers: children practice writing letters, numbers, and shapes with a stylus on a pad while the drawing appears on screen. Super Painter provides brushes, colors, backgrounds, and clip art.
+* **Slowness as personality.** The system "draws" its static images line by line, filling the screen slowly enough that several seconds can pass before a picture appears, and there is latency between input and response — VTech's sluggish refresh gives the machine its patient, distinctive screen behavior.
+* **Hardware.** The main unit runs off six D batteries or an optional AC adapter. The system is the successor to the VTech CreatiVision and the predecessor of the V.Smile.
+
+### Team
+
+* **VTech (Video Technology Ltd.).** Manufacturer and distributor (1988–1996); also distributed the system in Canada as the Socrates Saitout.
+* **Yeno.** European distributor (Prof. Weiss-Alles in Germany, Professeur Saitout in France).
+
+### Media
+
+![VTech Socrates console set](../assets/wiki/vtech-socrates-set.jpg)
+*The VTech Socrates console with keyboard and controllers. Public domain, Wikimedia Commons.*
+
+![Socrates console with its wireless infrared controller](../assets/wiki/vtech-socrates-console-wcontroller.jpg)
+*The Socrates console with its wireless infrared controller. Public domain, Wikimedia Commons.*
+
+![Socrates main unit front view](../assets/wiki/vtech-socrates-console.jpg)
+*Socrates main unit front view. Public domain, Wikimedia Commons.*
+
+![Socrates motherboard with the Z80A](../assets/wiki/vtech-socrates-motherboard.jpg)
+*Socrates motherboard with the Z80A. Public domain, Wikimedia Commons.*
+
+### Sources
+
+1. Wikipedia — VTech Socrates — https://en.wikipedia.org/wiki/VTech_Socrates
+2. Wikimedia Commons — Category:VTech Socrates — https://commons.wikimedia.org/wiki/Category:VTech_Socrates
+3. Internet Archive — VTech Socrates games (browser playable) — https://archive.org/details/socrates_library
+4. Yeno Prof. Weiss-Alles (1988) — Flickr — https://www.flickr.com/photos/sameli/3468271655/
+
+---
+
+## GRAF/PEN GrafBar Sonic Digitizer (1983–84)
+
+**By:** Science Accessories Corporation (Southport, Connecticut)  
+**Tags:** `HCI` `Input` `Digitizer` `Acoustic` `CAD`
+
+### Overview
+
+The GRAF/PEN GrafBar is a sonic digitizer built by Science Accessories Corporation (SAC) of Southport, Connecticut. Its stylus tip fires a spark gap — in early models a literal electrical spark, in the 1989 Mark II a 70 kHz acoustic signal — several times per second, and two linear microphones in an "instrumentation bar" along the top edge time the arrival of each click. The controller triangulates the pen's X/Y position from the speed of sound and streams coordinates out a serial port. The drawing surface itself is completely passive: no grid, no wires, no embedded sensors.
+
+Because the surface is acoustically transparent, users could lay a real drawing or blueprint on an ordinary table and digitize directly from it. AutoCAD 1.x and 2.x supported the GP-7 (18×24-inch active area) and the GP-8 (60×72-inch, for blueprint- and map-scale work), and a three-dimensional GP-8-3D variant added microphones to track the pen's height above the surface — volumetric input as early as 1984.
+
+### Deep dive
+
+* **The spark pen.** The lineage begins with SAC's Spark Pen patent, US 3,626,483 (Whetstone, Fine, Banks, and Philips; filed July 16, 1969, granted December 7, 1971): a ball-point pen whose conductive cartridge carries high voltage to a spark gap, producing a "continuous series of fast rise time shock energy sound waves" picked up by "coordinately spaced microphones coupled to a data digitizer." The GRAF/PEN line followed, and the GrafBar GP-7 was reviewed in *Microcomputing* magazine in February 1984 for the Apple II and IBM PC.
+* **The embodied weirdness.** John Walker, Autodesk's co-founder, remembered the early sonic pens in The Autodesk File: the sparks "created ozone, which contributed to the electric feeling of pioneering desktop CAD," and the pen was "also handy for chasing away pesky cats." A digitizer that doubles as a cat-deterrent is the kind of detail this museum exists to keep.
+* **Why it mattered.** Acoustic tablets solved a real economic problem: scaling a digitizer to full-size drawings by adding microphones rather than a grid of wires. The tradeoff was environmental — room noise, drafts, and air-temperature gradients could corrupt the time-of-flight measurements. The paradigm faded by the early 1990s as electromagnetic tablets became cheaper and more robust, a clean 1976–1992 arc.
+* **Distinction from the collection.** The GrafBar is the museum's only acoustic time-of-flight input device. Summagraphics' Bit Pad uses a magnetostrictive grid; the Pencept PenPad and Linus Write-Top are electromagnetic; the Polhemus Isotrak is magnetic; the VPL DataGlove uses ultrasonic bend sensing. None of them make the pen itself a loudspeaker and the drawing surface a passive acoustic window.
+
+### Team
+
+* **Science Accessories Corporation.** Manufacturer of the GRAF/PEN line, Southport, Connecticut.
+* **Albert Whetstone, Samuel Fine, William Banks, Stanley Philips.** Inventors of the Spark Pen patent US 3,626,483 (1971).
+* **John Walker.** Autodesk co-founder; documented the GrafBar in The Autodesk File.
+
+### Media
+
+![Spark Pen patent drawing — the pen whose tip fires the spark gap](../assets/wiki/grafbar-patent-fig1.png)
+*Spark Pen patent US 3,626,483 — the pen whose tip fires the spark gap. Public domain patent drawing, Google Patents.*
+
+![Spark Pen patent drawing — second figure sheet](../assets/wiki/grafbar-patent-fig2.png)
+*Spark Pen patent US 3,626,483 — second figure sheet. Public domain patent drawing, Google Patents.*
+
+### Sources
+
+1. Wikipedia — Acoustic tablet — https://en.wikipedia.org/wiki/Acoustic_tablet
+2. The Autodesk File (John Walker) — GrafBar footnote — https://www.fourmilab.ch/autofile/www/f/11306.html
+3. US Patent 3,626,483 — Spark Pen (Science Accessories Corp., 1971) — https://patents.google.com/patent/US3626483A/en
+4. SAC GP-8-3D Grafbar Technical Bulletin (1984-12-15), via Ward pen-computing bibliography — http://users.erols.com/rwservices/pens/biblio85.html
+5. Jean Renard Ward — annotated pen computing bibliography (SAC Grafbar Mark II, 70 kHz) — http://users.erols.com/rwservices/pens/biblio90.html
+6. AtariAge — GrafBar digitizer thread — https://forums.atariage.com/topic/311824-grafbar-digitizer/
+
+---
+
+## TI Touch & Tell (1981)
+
+**By:** Texas Instruments (Consumer Products Group, USA)  
+**Tags:** `Education` `Toy` `Speech` `Touch` `Children`
+
+### Overview
+
+The Texas Instruments Touch & Tell is a speech-synthesis learning toy introduced in 1981, shortly after the Speak & Spell line. It has no screen and no alphanumeric keyboard. One of several printed picture panels is placed over a large flat "position sensitive keyboard" — a membrane touch pad — and the toy asks a random question with its voice synthesizer; the child answers by pointing at the picture with a fingertip. Musical tones and sound effects reward correct answers.
+
+The toy is built around the Speak & Spell speech lineage: a 4-bit TMS1100 microcontroller (2KB ROM, 128×4 bits RAM), a TMS5110A voice synthesis processor, and a 16K-bit voice synthesis memory. Texas Instruments rated it for children aged 2 to 5, and the same housing and technology served as the Vocaid, a medical speech aid that let mute people "speak" by pressing picture keys.
+
+### Deep dive
+
+* **Point at the picture.** The interaction model is the point: the printed overlay IS the interface. The machine's question is randomized, the answer surface is the picture itself, and the child's finger is the pointer. This is a touch-to-answer interface for pre-literate children three years before the HP-150 touchscreen, and the direct ancestor of the modern tap-the-answer tablet toy.
+* **Seven libraries.** Touch & Tell Picture Panel Libraries sold for $17.95 each: Alphabet Fun, Animal Friends, All About Me, Number Fun, Little Creatures, World of Transportation, and an E.T. pack teaching character recognition and object identification from the film.
+* **The family.** Texas Instruments shipped country-specific variants in the same housing — the UK Touch & Tell, France's Le Livre Magique, Germany's Tipp & Sprich, and Italy's Libro Parlante. The idea evolved into the more advanced Touch & Discover and, later, the Super Speak & Read with two position-sensitive keyboards and the smaller Teddy Touch & Tell.
+* **The museum's TI speech-toy lineage.** Touch & Tell completes the picture beside the keyboard-era Speak & Spell, the barcode-wand Magic Wand, the keypad Q&A Little Professor, and the voice-only Voyager: it is the one where input is pure pointing at a printed surface.
+
+### Team
+
+* **Texas Instruments Consumer Products Group.** Designer and manufacturer (1981).
+* **Joerg Woerner / DATAMATH Calculator Museum.** Preservation: documentation, teardown photographs, and overlay manual PDFs.
+
+### Media
+
+![TI Touch & Tell with a picture panel over its position-sensitive keyboard](../assets/wiki/ti-touch-tell.jpg)
+*The TI Touch & Tell with a picture panel over its position-sensitive keyboard. Photo courtesy Joerg Woerner / Datamath Calculator Museum.*
+
+![Touch & Tell main PCB](../assets/wiki/ti-touch-tell-pcb.jpg)
+*Touch & Tell main PCB: TMS1100 microcontroller, TMS5110A voice synthesis processor, and voice synthesis memory. Photo courtesy Joerg Woerner / Datamath Calculator Museum.*
+
+### Sources
+
+1. DATAMATH Calculator Museum — TI Touch & Tell — http://www.datamath.org/Speech/TouchnTell.htm
+2. DATAMATH — Touch & Tell overlay manuals (PDFs) — http://www.datamath.net/Manuals/TouchAndTell_OVL_US.pdf
+3. DATAMATH — Vocaid (same housing, medical speech aid) — http://www.datamath.org/Speech/Vocaid.htm
+4. DATAMATH — Touch & Tell PCB photos — http://www.datamath.org/Speech/JPEG_TouchnTell.htm

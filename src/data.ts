@@ -2168,6 +2168,45 @@ const exhibitData: Exhibit[] = [
     tags: ["Calculator", "Programming", "Physical Media", "Consumer"],
     image: img("ti-59-card-inserted.jpg"),
   },
+  {
+    id: "vtech-socrates",
+    slug: "vtech-socrates",
+    wikiTitle: "VTech Socrates",
+    year: "1988",
+    sortYear: 1988,
+    title: "VTech Socrates",
+    subtitle: "The kids' console that cut every wire — keyboard, controllers, mouse, and drawing pad all talked over infrared",
+    blurb:
+      "VTech's 1988 educational console made its entire input stack wireless: a full QWERTY keyboard, two game controllers, a mouse tablet, and a stylus drawing pad all beam signals to the console over infrared. The Touch Pad let young children practice writing letters and numbers with a stylus, feeding the built-in Super Painter drawing program. Sold in Europe as Prof. Weiss-Alles and Professeur Saitout.",
+    tags: ["Education", "Wireless", "Children", "Stylus"],
+    image: img("vtech-socrates-set.jpg"),
+  },
+  {
+    id: "grafbar-sonic-digitizer",
+    slug: "grafbar-sonic-digitizer",
+    wikiTitle: "GRAF/PEN GrafBar Sonic Digitizer",
+    year: "1983–84",
+    sortYear: 1984,
+    title: "GRAF/PEN GrafBar Sonic Digitizer",
+    subtitle: "The pen that made sparks — a digitizer whose stylus is a loudspeaker and whose tablet is just a table",
+    blurb:
+      "Science Accessories' sonic digitizer had no grid and no wires in the drawing surface: the pen's tip fired a spark several times a second, and two microphones in a bar along the top edge timed each click to triangulate the pen's position. You could digitize from paper laid loose on a desk — and, per Autodesk's John Walker, the sparks made ozone and were handy for chasing away cats.",
+    tags: ["Input", "Digitizer", "Acoustic", "CAD"],
+    image: img("grafbar-patent-fig1.png"),
+  },
+  {
+    id: "ti-touch-tell",
+    slug: "ti-touch-tell",
+    wikiTitle: "TI Touch & Tell",
+    year: "1981",
+    sortYear: 1981,
+    title: "TI Touch & Tell",
+    subtitle: "The toddler computer with no keyboard — you answer by pointing at the picture",
+    blurb:
+      "Texas Instruments' 1981 speech toy asked a random question and the child answered by pointing at a picture on a printed panel laid over a position-sensitive touch pad. Seven overlay libraries — including an E.T. pack — made the printed page the interface, years before the HP-150 touchscreen.",
+    tags: ["Education", "Toy", "Speech", "Touch"],
+    image: img("ti-touch-tell.jpg"),
+  },
 ];
 
 export const exhibits: Exhibit[] = exhibitData.toSorted((a, b) => b.sortYear - a.sortYear || a.title.localeCompare(b.title));
