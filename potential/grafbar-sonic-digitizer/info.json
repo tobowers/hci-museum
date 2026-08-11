@@ -1,0 +1,55 @@
+{
+  "slug": "grafbar-sonic-digitizer",
+  "title": "GRAF/PEN GrafBar Sonic Digitizer",
+  "year": "1983–84",
+  "subtitle": "The pen that made sparks — a digitizer where the stylus is a loudspeaker and the tablet is just a table",
+  "why_scout_cares": "The Science Accessories GRAF/PEN GrafBar is the cleanest representative of a whole input paradigm the museum does not yet have: acoustic time-of-flight position sensing. There is no grid, no wire, no sensor inside the drawing surface — the pen's tip contains a spark gap that fires a sharp ultrasonic 'tick' several times a second, and two linear microphones in a bar along the top edge time the sound's arrival to compute the pen's position. Because the surface is acoustically transparent, you can digitize from paper laid loose on an ordinary table. John Walker, Autodesk's co-founder, remembered that the sparks 'created ozone, which contributed to the electric feeling of pioneering desktop CAD' and that the pen was 'also handy for chasing away pesky cats.' A delightfully embodied, weird, and genuinely commercial input device.",
+  "search_terms": ["GRAF/PEN", "GrafBar", "Science Accessories Corporation", "spark pen", "sonic digitizer", "acoustic tablet", "US 3626483", "GP-7", "GP-8-3D", "spark gap stylus digitizer"],
+  "research": {
+    "title": "GRAF/PEN GrafBar Sonic Digitizer",
+    "year": "1983–84",
+    "by": "Science Accessories Corporation (Southport, Connecticut)",
+    "tags": ["Input", "Digitizer", "Acoustic", "CAD", "HCI", "Professional"],
+    "overview": "The GRAF/PEN GrafBar is a sonic digitizer built by Science Accessories Corporation (SAC) of Southport, Connecticut. Its stylus (or puck) fires a spark gap at its tip — in early models a literal electrical spark, in the 1989 Mark II a 70 kHz acoustic signal generated in the stylus — several times per second. Two linear microphones in an 'instrumentation bar' along the top edge of the unit time the arrival of each click, and the controller triangulates the pen's X/Y position using the speed of sound, streaming coordinates out a serial port.",
+    "deepDive": [
+      {
+        "heading": "Origins",
+        "text": "The sonic approach to computer input is older than the GrafBar. SAC's Spark Pen patent, US 3,626,483 (Albert Whetstone, Samuel Fine, William Banks, Stanley Philips; filed July 16, 1969, granted December 7, 1971), describes a ball-point pen whose conductive cartridge carries high voltage to a spark gap; the shock wave from each spark is picked up by 'coordinately spaced microphones coupled to a data digitizer.' The GRAF/PEN line followed, and the GrafBar GP-7 was reviewed in Microcomputing magazine in February 1984 for the Apple II and IBM PC."
+      },
+      {
+        "heading": "How it works",
+        "text": "The drawing surface is completely passive — no grid, no wires, no embedded sensors. The pen tip contains the spark gap and a microswitch that fires the digitizing circuit when the pen is pressed. Because the surface is acoustically transparent, users could lay a real drawing or blueprint on the table and digitize directly from it. The tradeoff was environmental: room noise, drafts, and air-temperature gradients could corrupt the time-of-flight measurements, an inherent weakness of the acoustic approach."
+      },
+      {
+        "heading": "The family",
+        "text": "AutoCAD 1.x and 2.x supported the GP-7 (18×24-inch active area) and the GP-8 (60×72-inch, for blueprint- and map-scale work). A three-dimensional variant, the GP-8-3D, added microphones to track the pen's height above the surface, giving volumetric input as early as 1984. The GP-10 (1985–88) emulated GP-7, GP-8, and competing tablet formats."
+      },
+      {
+        "heading": "Why it matters",
+        "text": "Acoustic tablets solved a real economic problem: scaling a digitizer to full-size drawings by adding microphones instead of a grid of wires. John Walker's Autodesk File memoir captures the embodied weirdness of early desktop CAD: the pens 'created ozone, which contributed to the electric feeling of pioneering desktop CAD,' and were 'also handy for chasing away pesky cats.' The paradigm faded by the early 1990s as electromagnetic tablets got cheaper and more robust — a clean 1976–1992 arc."
+      }
+    ],
+    "team": [
+      { "name": "Science Accessories Corporation", "note": "Manufacturer of the GRAF/PEN line, Southport, Connecticut" },
+      { "name": "Albert Whetstone, Samuel Fine, William Banks, Stanley Philips", "note": "Inventors of the Spark Pen patent US 3,626,483 (1971)" },
+      { "name": "John Walker", "note": "Autodesk co-founder; documented the GrafBar in The Autodesk File" }
+    ],
+    "media": [
+      { "src": "https://patents.google.com/patent/US3626483A/en", "alt": "Spark Pen patent drawing", "caption": "Spark Pen patent US 3,626,483, Fig. 1 — the pen whose tip fires the spark gap. Public domain patent drawing." },
+      { "src": "https://patents.google.com/patent/US3626483A/en", "alt": "Spark Pen patent drawing page 2", "caption": "Spark Pen patent US 3,626,483, second figure sheet. Public domain patent drawing." }
+    ],
+    "sources": [
+      { "text": "Wikipedia — Acoustic tablet", "url": "https://en.wikipedia.org/wiki/Acoustic_tablet" },
+      { "text": "The Autodesk File (John Walker) — GrafBar footnote", "url": "https://www.fourmilab.ch/autofile/www/f/11306.html" },
+      { "text": "US Patent 3,626,483 — Spark Pen (SAC, 1971)", "url": "https://patents.google.com/patent/US3626483A/en" },
+      { "text": "SAC GP-8-3D Grafbar Technical Bulletin (1984-12-15), via Ward pen-computing bibliography", "url": "http://users.erols.com/rwservices/pens/biblio85.html" },
+      { "text": "Jean Renard Ward — annotated pen computing bibliography (SAC 1989 Grafbar Mark II, 70 kHz)", "url": "http://users.erols.com/rwservices/pens/biblio90.html" },
+      { "text": "AtariAge — GrafBar digitizer thread", "url": "https://forums.atariage.com/topic/311824-grafbar-digitizer/" }
+    ],
+    "imageUrls": [
+      "https://patents.google.com/patent/US3626483A/en",
+      "https://patents.google.com/patent/US3626483A/en"
+    ]
+  },
+  "savedImages": []
+}

@@ -1,0 +1,56 @@
+{
+  "slug": "vtech-socrates",
+  "title": "VTech Socrates",
+  "year": "1988",
+  "subtitle": "The kids' console that cut every wire — keyboard, controllers, mouse, and drawing pad all talked over infrared in 1988",
+  "why_scout_cares": "The Socrates is the first edutainment console to make its entire input stack wireless: a full QWERTY keyboard, two game controllers, a mouse tablet, and a stylus drawing pad all communicate with the console by infrared. For a children's machine from 1988, that is a strange and prescient bet on the living room — no cables, line-of-sight quirks and all. The Touch Pad accessory gave young children a stylus-drawing input (letters, numbers, shapes) that plugs into a built-in Super Painter art program. It sits between the museum's Sega AI Computer (overlay touch + speech) and Etch A Sketch Animator (drawing), but nothing else in the collection is a fully wireless-input consumer machine.",
+  "search_terms": ["VTech Socrates", "Prof. Weiss-Alles", "Professeur Saitout", "educational console infrared keyboard", "Socrates Touch Pad", "Socrates Mouse CAD Professor", "Super Painter"],
+  "research": {
+    "title": "VTech Socrates",
+    "year": "1988",
+    "by": "VTech (Video Technology Ltd.), Hong Kong",
+    "tags": ["Education", "Console", "Wireless", "IR", "Children", "Stylus"],
+    "overview": "The VTech Socrates is an 8-bit educational home video game console released by Hong Kong's VTech in 1988 and discontinued in 1996. It is built around a Z80A CPU running at 3.57 MHz and a cast of kid-shaped peripherals whose defining trait is that they are all wireless: the full QWERTY keyboard and the two wired-on game controllers communicate with the console through infrared reception, and the optional Mouse and Touch Pad peripherals also talk to the main system over infrared.",
+    "deepDive": [
+      {
+        "heading": "Origins",
+        "text": "VTech (Video Technology Ltd.) was the Hong Kong electronics maker behind the CreatiVision (1981) and the Laser home-computer line. The Socrates was its successor in the console space, a self-contained educational machine named after the Greek philosopher — the console's robot mascot resembles Johnny 5 from Short Circuit. It was distributed by Yeno in Europe (as Prof. Weiss-Alles in Germany, Professeur Saitout in France) and by VTech itself in Canada as the Socrates Saitout."
+      },
+      {
+        "heading": "Hardware",
+        "text": "A Z80A at 3.57 MHz drives custom graphics. The main unit runs off six D batteries or an optional AC adapter. Games ship as cartridges shaped like 3.5-inch floppy disks, and a separate voice cartridge adds speech to every title. The system 'draws' its static images line by line, filling the screen slowly enough that several seconds can pass before a picture appears — VTech's sluggish refresh gives the machine its distinctive, patient screen behavior."
+      },
+      {
+        "heading": "Interaction",
+        "text": "The interaction story is the wireless input stack. The full keyboard beams keypresses over infrared to a receiver on the console, with real-world range varying from twelve feet to barely line-of-sight depending on the unit. The Mouse tablet drives the CAD Professor cartridge (architectural, textile, and fashion design for children), while the Touch Pad — a stylus surface — lets younger students practice writing letters and numbers and drawing shapes, and can also drive the built-in Super Painter art program. The bundled software spans math problems, word problems, word games (hangman, anagrams, spelling races), music games, and Super Painter."
+      },
+      {
+        "heading": "Why it matters",
+        "text": "In 1988 the idea that a children's console's every input device — keyboard, controllers, mouse, drawing pad — should be cordless was exceptional, and it stayed unusual for another generation of consoles. The Socrates also gives the museum a rare consumer example of stylus-drawing input aimed at pre-readers, via the Touch Pad. VTech spun the Super Painter program off into its Video Painter line of toys, and the Socrates' line ends with the V.Smile."
+      }
+    ],
+    "team": [
+      { "name": "VTech (Video Technology Ltd.)", "note": "Manufacturer and distributor (1988–1996); also distributed in Canada" },
+      { "name": "Yeno", "note": "European distributor (Germany as Prof. Weiss-Alles, France as Professeur Saitout)" }
+    ],
+    "media": [
+      { "src": "https://commons.wikimedia.org/wiki/File:VTech-Socrates-Set-FL.jpg", "alt": "VTech Socrates console set", "caption": "The VTech Socrates console with keyboard and controllers. Public domain, Wikimedia Commons." },
+      { "src": "https://commons.wikimedia.org/wiki/File:VTech-Socrates-Console-wController-FL.jpg", "alt": "Socrates console with infrared controller", "caption": "Socrates console with its wireless infrared controller. Public domain, Wikimedia Commons." },
+      { "src": "https://commons.wikimedia.org/wiki/File:VTech-Socrates-Console-FL.jpg", "alt": "Socrates console front", "caption": "Socrates main unit front view. Public domain, Wikimedia Commons." },
+      { "src": "https://commons.wikimedia.org/wiki/File:VTech-Socrates-Motherboard-Flat.jpg", "alt": "Socrates motherboard", "caption": "Socrates motherboard with the Z80A. Public domain, Wikimedia Commons." }
+    ],
+    "sources": [
+      { "text": "Wikipedia — VTech Socrates", "url": "https://en.wikipedia.org/wiki/VTech_Socrates" },
+      { "text": "Wikimedia Commons — Category:VTech Socrates", "url": "https://commons.wikimedia.org/wiki/Category:VTech_Socrates" },
+      { "text": "Internet Archive — VTech Socrates games (browser playable)", "url": "https://archive.org/details/socrates_library" },
+      { "text": "Yeno Prof. Weiss-Alles (1988) — Flickr photo", "url": "https://www.flickr.com/photos/sameli/3468271655/" }
+    ],
+    "imageUrls": [
+      "https://commons.wikimedia.org/wiki/File:VTech-Socrates-Set-FL.jpg",
+      "https://commons.wikimedia.org/wiki/File:VTech-Socrates-Console-wController-FL.jpg",
+      "https://commons.wikimedia.org/wiki/File:VTech-Socrates-Console-FL.jpg",
+      "https://commons.wikimedia.org/wiki/File:VTech-Socrates-Motherboard-Flat.jpg"
+    ]
+  },
+  "savedImages": []
+}
