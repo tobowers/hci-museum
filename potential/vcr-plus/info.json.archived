@@ -1,0 +1,60 @@
+{
+  "slug": "vcr-plus",
+  "title": "VCR Plus+",
+  "year": "1990",
+  "subtitle": "A whole recording schedule compressed into a printed number you type into a box",
+  "why_scout_cares": "VCR Plus+ (Gemstar, $60 retail, November 1990) is one of the strangest and most successful physical-ritual interfaces of the era: TV listings printed a bold 4-to-8 digit 'PlusCode' next to every program, and you looked up the number in print, typed it into a small box, and pressed Once/Daily/Weekly — the box then fired the IR remote codes of your particular VCR at the scheduled moment to record the show. The printed digits were a compressed encoding of channel, date, start time and duration (the G-Code/PlusCode algorithm), so typing one number replaced the infamous 1980s chore of VCR programming menus. The algorithm was reverse-engineered and published in the journal Cryptologia in 1992 by Ken Shirriff. It sold in the tens of millions, grew into the ShowView and Japanese G-Code variants, and the company merged with TV Guide itself. The museum has barcodes (Cauzin Softstrip, TI Magic Wand, Barcode Battler) but nothing where the human reads printed decimal digits and types them as a machine command.",
+  "search_terms": [
+    "VCR Plus+ 1990 Gemstar PlusCode G-Code VCR programming remote",
+    "PlusCode algorithm compressed code channel date time Cryptologia Shirriff",
+    "Gemstar Henry Yuen Daniel Kwoh TV Guide PlusCode history"
+  ],
+  "research": {
+    "title": "VCR Plus+",
+    "year": "1990",
+    "by": "Gemstar Development Corp. (Pasadena / Monterey Park, CA)",
+    "tags": ["Home Automation", "Programming", "Input", "Consumer", "Printed Media"],
+    "overview": "The VCR Plus+ is a small set-top box that let a viewer program a VCR by typing a short number found printed next to a program in the TV listings. It was created by Gemstar Development Corp., founded in 1989 by Henry C. Yuen and Daniel S. Kwoh. The origin story: in the fall of 1988, Yuen — a Caltech-trained applied mathematician — failed to record a Red Sox game because he could not face the VCR's programming menus, and concluded that 'taping a program should be as easy as dialing a telephone.' The patent he and Kwoh filed, 'Apparatus and method using compressed codes for scheduling broadcast information recording' (priority date December 23, 1988), describes how a 1-to-8-digit code (typically 5) can encode a program's channel, start time, duration, and day of the month; month and year are not encoded because the unit's own clock supplies them, which is why the codes changed monthly.\n\nThe device retailed for about $60 starting in November 1990, and the New York Times began printing PlusCodes in its listings on November 25, 1990. Newspapers and then TV Guide magazine printed the bold '+' codes; a one-time setup taught the box which local channels matched which numbers and which IR codes its owner's VCR understood. At the scheduled time the box simply beamed those codes: power on, select channel, record. It became 'the hottest accessory item in the country,' and by the late 1990s the company that made it earned $40 million in profit on $126 million in sales and had merged with TV Guide itself.",
+    "deepDive": [
+      {
+        "heading": "The printed number as machine command",
+        "text": "PlusCode is the museum's clearest example of printed language as a compressed machine command. The digits encode channel, half-hour start slot, duration (from a table of 48 possible start times), and day of the month; decoding is done with a no-carry multiply against a fixed key and table lookups. Ken Shirriff, Curt Welch, and Andrew Kinsman reverse-engineered the commercial algorithm and published it as 'Decoding a VCR Controller Code' in Cryptologia 16(3), July 1992 — a consumer product's secret encoding treated as a code to be broken. The human-side interaction is the ritual: find the bold '+' number in the newspaper, punch the digits into the box, press Once/Daily/Weekly, and aim the box at the TV. The machine did the rest."
+      },
+      {
+        "heading": "Killing the worst interface of the 1980s",
+        "text": "VCR programming was the era's most notorious interface failure — 'blinking 12:00' became shorthand for a whole category of gadget anxiety. Yuen's insight was to move programming out of the machine entirely: the schedule lives in print, the code is a compressed pointer, and the box only needs to emit infrared at the right moment. The scheme inverted the data flow — instead of navigating menus on a tiny screen, the user performs a lookup in the most reliable database of the 1980s, the newspaper. It worked precisely because it was dumber: the box emulated each household's own VCR remote, learned once during setup."
+      },
+      {
+        "heading": "The two-sided business",
+        "text": "Gemstar sold the hardware to consumers and the codes to publishers — newspapers and TV Guide charged (or gave) the PlusCodes that made the boxes useful. The company later merged with TV Guide Inc. in 1999 and the listings service ran until the last PlusCode was published in 2010. The G-Code variant took the same scheme to Japan, and ShowView did the same for much of Europe; both survived as physical rituals into the 2000s. The idea that a short printed number could encode a whole schedule — a compressed command intended for human fingers — is the same quiet magic as a barcode, but read by eyes instead of lasers."
+      },
+      {
+        "heading": "Distinction from the collection",
+        "text": "The museum's other printed-media devices are machine-scanned: Cauzin Softstrip and Pioneer LaserBarcode are read by a wand, and the TI Magic Wand reads barcodes. VCR Plus+ requires the human to read the code and type it — a hand-transcription ritual between print and machine, closer in spirit to a telephone number than a barcode. It is the museum's only example of a compressed machine command designed to be read by people."
+      }
+    ],
+    "team": [
+      { "name": "Gemstar Development Corp.", "note": "Founded 1989 by Henry C. Yuen and Daniel S. Kwoh; maker of VCR Plus+" },
+      { "name": "Henry C. Yuen", "note": "Co-founder and CEO; Caltech-trained applied mathematician; the 'taping should be as easy as dialing a telephone' origin story" },
+      { "name": "Daniel S. Kwoh", "note": "Co-founder; co-inventor of the PlusCode compressed-code system" },
+      { "name": "Ken Shirriff, Curt Welch, Andrew Kinsman", "note": "Reverse-engineered the PlusCode algorithm; published in Cryptologia 16(3), 1992" }
+    ],
+    "media": [
+      { "src": "https://commons.wikimedia.org/wiki/File:Video-plus.JPG", "alt": "The Video Plus (G-Code) VCR reservation unit", "caption": "The Video Plus / G-Code VCR reservation unit — VCR Plus+ under its Japanese name. CC BY-SA 3.0, Wikimedia Commons." }
+    ],
+    "sources": [
+      { "text": "Ken Shirriff — Decoding a VCR Controller Code (Cryptologia 16(3), 1992)", "url": "http://www.righto.com/papers/vcr.html" },
+      { "text": "Wikipedia — Gemstar–TV Guide International", "url": "https://en.wikipedia.org/wiki/Gemstar%E2%80%93TV_Guide_International" },
+      { "text": "Los Angeles Times (Nov 16, 1990) — VCR Plus+ now available for about $60", "url": "https://www.latimes.com/archives/la-xpm-1990-11-16-ca-4529-story.html" },
+      { "text": "Sun-Sentinel (Dec 16, 1990) — Here's the scoop on Gemstar", "url": "https://www.sun-sentinel.com/1990/12/16/heres-the-scoop-on-gemstar/" },
+      { "text": "Newsweek — VCR Plus: Dial M for Late Night Movie", "url": "https://www.newsweek.com/vcr-plus-dial-m-late-night-movie-204156" },
+      { "text": "The Straight Dope — How do TV program codes for VCR Plus work", "url": "https://www.straightdope.com/21341952/how-do-the-tv-program-codes-for-vcr-plus-work" },
+      { "text": "Google Patents — Apparatus and method using compressed codes (priority 1988-12-23)", "url": "https://patents.google.com/patent/US6091882A/en" },
+      { "text": "Wikimedia Commons — File:Video-plus.JPG", "url": "https://commons.wikimedia.org/wiki/File:Video-plus.JPG" }
+    ],
+    "imageUrls": [
+      "https://upload.wikimedia.org/wikipedia/commons/a/af/Video-plus.JPG"
+    ]
+  },
+  "savedImages": []
+}

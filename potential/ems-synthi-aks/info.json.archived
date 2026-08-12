@@ -1,0 +1,68 @@
+{
+  "slug": "ems-synthi-aks",
+  "title": "EMS Synthi AKS",
+  "year": "1972–1984",
+  "subtitle": "A synthesizer in a briefcase whose programs are pins and whose keyboard is a touchplate",
+  "why_scout_cares": "The EMS Synthi AKS (March 1972, £420 launch; £1,452 in the 1979 catalogue, production through c.1984) is the museum's strangest music machine and one of its strangest interfaces: a complete synthesizer studio in a padded briefcase whose two signature input methods are both physically bizarre. The synth face is a pin-matrix patch panel — a grid of ~16×16 sockets into which you push resistive pins to route signals, so the 'program' is literally the physical arrangement of pins on the board, a plugboard/tangible-routing interface descended from telephone exchanges. In the lid sits a 30-note, 2.5-octave flat capacitive touch keyboard with no moving keys — you trigger notes by touching a printed board (finger capacitance of 10–100 pF), and a 256-step digital sequencer is programmed by touching the Record pad and playing in real time. Alan Parsons confirmed the sequence on Pink Floyd's 'On the Run' was 'laboriously programmed using the AKS's membrane keyboard' and played back at high speed. The museum has knobs and drum pads and light pens, but nothing where inserting pins routes your sounds and a printed touchplate is your keyboard.",
+  "search_terms": [
+    "EMS Synthi AKS 1972 portable synthesizer briefcase touch keyboard pin matrix",
+    "Synthi AKS digi-sequencer 256 steps touch keyboard programming EMS London",
+    "Pink Floyd On the Run Synthi AKS Alan Parsons EMS Zinovieff Cockerell"
+  ],
+  "research": {
+    "title": "EMS Synthi AKS",
+    "year": "1972–1984",
+    "by": "EMS (Electronic Music Studios) London — Peter Zinovieff, David Cockerell, Tristram Cary",
+    "tags": ["Music", "Input", "Tangible Programming", "Touch", "Instrument"],
+    "overview": "The EMS Synthi AKS is a portable analog synthesizer built by Electronic Music Studios (London), the company Peter Zinovieff founded in 1969 with designer David Cockerell and composer Tristram Cary. The AKS combined the Synthi A — the VCS3's circuitry repackaged into a Spartanite briefcase — with the KS keyboard/sequencer module built into the lid, debuting in March 1972 at £420. It was the 'portable studio in a briefcase': battery powered, with a small speaker, so an entire synthesizer could be carried to a gig. It remained in the EMS catalogue through the museum's window — the 1979 product guide lists it at £1,452 — and EMS's successor company continued building occasional units into the mid-1980s.\n\nIts two signature interfaces are both physically unusual. On the synth face is a pin-matrix patch panel: a grid of sockets into which the player pushes resistive pins (red and white 2,700 Ω pins for full-level routing, green 68,000 Ω attenuating pins) to connect modules — the pins themselves are the patch program. In the lid, a 30-note, two-and-a-half-octave flat touchplate keyboard has no moving parts; touching a printed contact triggers a note via finger capacitance (10–100 pF on each plate), with position-sweeping that varies pulse width and a piezoelectric crystal that gives a velocity 'click.' A 256-step digital sequencer is recorded by touching the Record pad and playing the touch keyboard in real time. Pink Floyd's 'On the Run' (Dark Side of the Moon, 1973) was famously recorded on an AKS; Brian Eno, Tangerine Dream, Klaus Schulze, and Cabaret Voltaire were among the many users.",
+    "deepDive": [
+      {
+        "heading": "Pins as program",
+        "text": "The pin matrix is a tangible programming surface. Signal routing on the Synthi is done not by patch cords but by pushing pins into a printed grid of sockets; each pin position electrically connects one circuit node to another, with the pin's resistance value choosing the signal level. The pattern of pins in the matrix IS the patch — read it back and you can see the instrument's wiring. It is the same plugboard idea as a telephone exchange or an IBM control panel, applied to sound, and a direct ancestor of the tangible-programming ideas the museum collects elsewhere."
+      },
+      {
+        "heading": "The touchplate keyboard",
+        "text": "The AKS keyboard is a flat printed circuit board — 30 touch plates in two and a half octaves, with no levers, springs, or contacts in the piano sense. Touch triggers a note capacitively: a finger on a plate adds 10–100 pF and flips a TTL multiplexer input, latching the note (highest note wins). The design allowed 'dynamic' playing: sweeping a finger along a plate changes pulse width for pitch, and a piezoelectric crystal produces a velocity 'click' when a key is struck. Record, Play, Random (a spin-and-touch random note selector) and Transposition pads complete the lid's controls. The museum's other touch interfaces (Cracklebox, Omnichord) are noise boxes or strum strips; this is the earliest commercial flat-capacitance musical keyboard in the collection."
+      },
+      {
+        "heading": "Record-by-playing sequencing",
+        "text": "The KS digi-sequencer stores 256 events in 6-bit shift-register memory (5 bits for the note, 1 bit for the trigger). Programming means performing: press the Record pad and play the touch keyboard in real time while the sequence is clocked into memory at a variable rate (from 700 ms to 100 seconds for a full cycle); then Play recirculates the stored phrase, with a skip mode that ignores empty storage. The sequence is a recording of your fingers on a touchplate — a bridge between performance and program, years before step-entry sequencing culture."
+      },
+      {
+        "heading": "The machine on the record",
+        "text": "Alan Parsons told Sound on Sound that the 'On the Run' sequence on Dark Side of the Moon was 'laboriously programmed using the AKS's membrane keyboard,' then played back at high speed for the famous 8/8 sprint across the album. Eno used EMS instruments through Roxy Music and his ambient work; Tangerine Dream, Klaus Schulze, Cabaret Voltaire, and others carried the AKS on stage and into studios through the late 1970s. Depeche Mode's Alan Wilder remembered the AKS fondly on Music for the Masses (1987): 'it comes in a briefcase, like a businessman's case.' The AKS is a boundary case for the museum's 1976–1992 window — launched 1972, it was on sale and in active use throughout the late 1970s."
+      },
+      {
+        "heading": "Distinction from the collection",
+        "text": "The museum's music exhibits program by numeric keypad (Roland MC-8), step buttons (TR-808), knobs and sliders (TB-303), light pen (Fairlight), strings (SynthAxe), or mallets (Radio Drum). None of them program by pushing pins into a socket grid, and none play a flat printed capacitance board as a keyboard. The AKS also differs from the museum's Cracklebox (a touch-noise box, not a programmable instrument): the AKS is a complete instrument whose primary interfaces are a plugboard and a touchplate."
+      }
+    ],
+    "team": [
+      { "name": "EMS (Electronic Music Studios) London", "note": "Founded 1969 by Peter Zinovieff, David Cockerell, and Tristram Cary; makers of the VCS3, Synthi A, and Synthi AKS" },
+      { "name": "Peter Zinovieff", "note": "Founder and financier; composer and pioneer of computer music (MUSYS system)" },
+      { "name": "David Cockerell", "note": "Electronics designer of the AKS, KS sequencer, and the separate EMS Sequencer 256" },
+      { "name": "Tristram Cary", "note": "Composer; contributed to VCS3 industrial design" },
+      { "name": "Gerry Rogers", "note": "Industrial design of the AKS briefcase" }
+    ],
+    "media": [
+      { "src": "https://commons.wikimedia.org/wiki/File:EMS_Synthi_AKS_(opened).jpg", "alt": "An opened EMS Synthi AKS briefcase showing the pin-matrix synthesizer face and the touch keyboard/sequencer in the lid", "caption": "An opened EMS Synthi AKS: the pin-matrix patch panel on the synth face, with the touch keyboard and sequencer in the lid. CC BY-SA 3.0 (Guy Hatton), Wikimedia Commons." },
+      { "src": "https://commons.wikimedia.org/wiki/File:EMS_Synthi_AKS.jpg", "alt": "The EMS Synthi AKS closed as a suitcase", "caption": "The AKS as a piece of luggage — the portable studio in a briefcase. CC BY 3.0, Wikimedia Commons." },
+      { "src": "https://commons.wikimedia.org/wiki/File:EMS_VCS3_Mk_II_routing_matrix.jpg", "alt": "The pin-matrix routing panel of an EMS VCS3, the AKS's sibling", "caption": "The same pin-matrix routing panel on the AKS's sibling, the VCS3 — pins in sockets are the patch program. CC BY-SA 3.0, Wikimedia Commons (Musikinstrumentenmuseum, Berlin)." }
+    ],
+    "sources": [
+      { "text": "Wikipedia — EMS Synthi AKS", "url": "https://en.wikipedia.org/wiki/EMS_Synthi_AKS" },
+      { "text": "Wikipedia — EMS VCS 3", "url": "https://en.wikipedia.org/wiki/EMS_VCS_3" },
+      { "text": "Graham Hinton — A Guide to the EMS Product Range 1969–1979 (archived)", "url": "https://web.archive.org/web/20131031040324/http://www.ems-synthi.demon.co.uk/emsprods.html" },
+      { "text": "Sound on Sound — All About EMS, Part 2 (Dec 2000, archived)", "url": "https://web.archive.org/web/20110908053257/http://www.soundonsound.com/sos/dec00/articles/retrozone.asp" },
+      { "text": "EMS KS Repair Guide transcription (shift-register sequencer details)", "url": "http://www.burningimage.net/synthesisers/EMS/ks%20how%20to/aks_how2.html" },
+      { "text": "Vintage Synth Explorer — EMS Synthi AKS", "url": "https://www.vintagesynth.com/electronic-music-studios-ems/synthi" },
+      { "text": "Wikimedia Commons — File:EMS Synthi AKS (opened).jpg", "url": "https://commons.wikimedia.org/wiki/File:EMS_Synthi_AKS_(opened).jpg" }
+    ],
+    "imageUrls": [
+      "https://upload.wikimedia.org/wikipedia/commons/a/a9/EMS_Synthi_AKS_%28opened%29.jpg",
+      "https://upload.wikimedia.org/wikipedia/commons/9/96/EMS_Synthi_AKS.jpg",
+      "https://upload.wikimedia.org/wikipedia/commons/2/20/EMS_VCS3_Mk_II_routing_matrix.jpg"
+    ]
+  },
+  "savedImages": []
+}

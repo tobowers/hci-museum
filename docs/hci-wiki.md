@@ -187,6 +187,9 @@ Each entry includes an overview, a deep dive, a small media gallery, and full so
 178. [VTech Socrates (1988)](#vtech-socrates-1988)
 179. [GRAF/PEN GrafBar Sonic Digitizer (1983–84)](#grafpen-grafbar-sonic-digitizer-198384)
 180. [TI Touch & Tell (1981)](#ti-touch--tell-1981)
+181. [VCR Plus+ (1990)](#vcr-plus-1990)
+182. [EMS Synthi AKS (1972–1984)](#ems-synthi-aks-1972-1984)
+183. [Meade LX200 (1992)](#meade-lx200-1992)
 
 ---
 
@@ -8882,3 +8885,142 @@ The toy is built around the Speak & Spell speech lineage: a 4-bit TMS1100 microc
 2. DATAMATH — Touch & Tell overlay manuals (PDFs) — http://www.datamath.net/Manuals/TouchAndTell_OVL_US.pdf
 3. DATAMATH — Vocaid (same housing, medical speech aid) — http://www.datamath.org/Speech/Vocaid.htm
 4. DATAMATH — Touch & Tell PCB photos — http://www.datamath.org/Speech/JPEG_TouchnTell.htm
+
+---
+
+## VCR Plus+ (1990)
+
+**By:** Gemstar Development Corp. (Pasadena / Monterey Park, California)  
+**Tags:** `Home Automation` `Programming` `Input` `Consumer` `Printed Media`
+
+### Overview
+
+The VCR Plus+ is a small set-top box that let a viewer program a VCR by typing a short number printed next to a program in the TV listings. It was created by Gemstar Development Corp., founded in 1989 by Henry C. Yuen and Daniel S. Kwoh. The origin story: in the fall of 1988, Yuen — a Caltech-trained applied mathematician — failed to record a Red Sox game because he could not face the VCR's programming menus, and concluded that "taping a program should be as easy as dialing a telephone." The patent he and Kwoh filed, "Apparatus and method using compressed codes for scheduling broadcast information recording" (priority date December 23, 1988), describes how a 1-to-8-digit code (typically 5) can encode a program's channel, start time, duration, and day of the month; month and year are not encoded because the unit's own clock supplies them, which is why the codes changed monthly.
+
+The device retailed for about $60 starting in November 1990, and the New York Times began printing PlusCodes in its listings on November 25, 1990. Newspapers and then TV Guide magazine printed the bold "+" codes; a one-time setup taught the box which local channels matched which numbers and which infrared codes its owner's VCR understood. At the scheduled time the box simply beamed those codes: power on, select channel, record. It became "the hottest accessory item in the country," and by the late 1990s the company behind it earned $40 million in profit on $126 million in sales and had merged with TV Guide itself.
+
+### Deep dive
+
+* **The printed number as machine command.** PlusCode is the museum's clearest example of printed language as a compressed machine command. The digits encode channel, half-hour start slot, duration (from a table of 48 possible start times), and day of the month; decoding uses a no-carry multiply against a fixed key plus table lookups. Ken Shirriff, Curt Welch, and Andrew Kinsman reverse-engineered the commercial algorithm and published it as "Decoding a VCR Controller Code" in *Cryptologia* 16(3), July 1992 — a consumer product's secret encoding treated as a code to be broken. The human-side interaction is the ritual: find the bold "+" number in the newspaper, punch the digits into the box, press Once/Daily/Weekly, and aim the box at the TV.
+* **Killing the worst interface of the 1980s.** VCR programming was the era's most notorious interface failure — "blinking 12:00" became shorthand for a whole category of gadget anxiety. Yuen's insight was to move programming out of the machine entirely: the schedule lives in print, the code is a compressed pointer, and the box only needs to emit infrared at the right moment. The user performs a lookup in the most reliable database of the 1980s, the newspaper, instead of navigating menus on a tiny screen. The box emulated each household's own VCR remote, learned once during setup.
+* **The two-sided business.** Gemstar sold the hardware to consumers and the codes to publishers — the PlusCodes that made the boxes useful. The company merged with TV Guide Inc. in 1999, and the listings service ran until the last PlusCode was published in 2010. The G-Code variant took the same scheme to Japan and ShowView did the same for much of Europe; both survived as physical rituals into the 2000s.
+* **Distinction from the collection.** The museum's other printed-media devices are machine-scanned: Cauzin Softstrip and Pioneer LaserBarcode are read by a wand, and the TI Magic Wand reads barcodes. VCR Plus+ requires the human to read the code and type it — a hand-transcription ritual between print and machine, closer in spirit to a telephone number than a barcode.
+
+### Team
+
+* **Gemstar Development Corp.** Founded 1989 by Henry C. Yuen and Daniel S. Kwoh; maker of VCR Plus+.
+* **Henry C. Yuen.** Co-founder and CEO; Caltech-trained applied mathematician; the "taping should be as easy as dialing a telephone" origin story.
+* **Daniel S. Kwoh.** Co-founder; co-inventor of the PlusCode compressed-code system.
+* **Ken Shirriff, Curt Welch, Andrew Kinsman.** Reverse-engineered the PlusCode algorithm; published in *Cryptologia* 16(3), 1992.
+
+### Media
+
+![Video Plus G-Code VCR reservation unit](../assets/wiki/vcr-plus-1.jpg)
+*The Video Plus / G-Code VCR reservation unit — VCR Plus+ under its Japanese name. CC BY-SA 3.0, Wikimedia Commons.*
+
+### Sources
+
+1. Ken Shirriff — Decoding a VCR Controller Code (Cryptologia 16(3), 1992) — http://www.righto.com/papers/vcr.html
+2. Wikipedia — Gemstar–TV Guide International — https://en.wikipedia.org/wiki/Gemstar%E2%80%93TV_Guide_International
+3. Los Angeles Times (Nov 16, 1990) — VCR Plus+ now available for about $60 — https://www.latimes.com/archives/la-xpm-1990-11-16-ca-4529-story.html
+4. Sun-Sentinel (Dec 16, 1990) — Here's the scoop on Gemstar — https://www.sun-sentinel.com/1990/12/16/heres-the-scoop-on-gemstar/
+5. Newsweek — VCR Plus: Dial M for Late Night Movie — https://www.newsweek.com/vcr-plus-dial-m-late-night-movie-204156
+6. The Straight Dope — How do the TV program codes for VCR Plus work — https://www.straightdope.com/21341952/how-do-the-tv-program-codes-for-vcr-plus-work
+7. Google Patents — Apparatus and method using compressed codes (priority 1988-12-23) — https://patents.google.com/patent/US6091882A/en
+8. Wikimedia Commons — File:Video-plus.JPG — https://commons.wikimedia.org/wiki/File:Video-plus.JPG
+
+---
+
+## EMS Synthi AKS (1972–1984)
+
+**By:** EMS (Electronic Music Studios) London — Peter Zinovieff, David Cockerell, Tristram Cary  
+**Tags:** `Music` `Input` `Tangible Programming` `Touch` `Instrument`
+
+### Overview
+
+The EMS Synthi AKS is a portable analog synthesizer built by Electronic Music Studios (London), the company Peter Zinovieff founded in 1969 with designer David Cockerell and composer Tristram Cary. The AKS combined the Synthi A — the VCS3's circuitry repackaged into a Spartanite briefcase — with the KS keyboard/sequencer module built into the lid, debuting in March 1972 at £420. It was the "portable studio in a briefcase": battery powered, with a small speaker, so an entire synthesizer could be carried to a gig. It remained in the EMS catalogue through the museum's window — the 1979 product guide lists it at £1,452 — and EMS's successor company continued building occasional units into the mid-1980s.
+
+Its two signature interfaces are both physically unusual. On the synth face is a pin-matrix patch panel: a grid of sockets into which the player pushes resistive pins (red and white 2,700 Ω pins for full-level routing, green 68,000 Ω attenuating pins) to connect modules — the pins themselves are the patch program. In the lid, a 30-note, two-and-a-half-octave flat touchplate keyboard has no moving parts; touching a printed contact triggers a note via finger capacitance (10–100 pF on each plate), with position-sweeping that varies pulse width and a piezoelectric crystal that gives a velocity "click." A 256-step digital sequencer is recorded by touching the Record pad and playing the touch keyboard in real time. Pink Floyd's "On the Run" (Dark Side of the Moon, 1973) was famously recorded on an AKS; Brian Eno, Tangerine Dream, Klaus Schulze, and Cabaret Voltaire were among the many users.
+
+### Deep dive
+
+* **Pins as program.** The pin matrix is a tangible programming surface. Signal routing on the Synthi is done not by patch cords but by pushing pins into a printed grid of sockets; each pin position electrically connects one circuit node to another, with the pin's resistance value choosing the signal level. The pattern of pins in the matrix IS the patch — read it back and you can see the instrument's wiring. It is the same plugboard idea as a telephone exchange or an IBM control panel, applied to sound, and a direct ancestor of the tangible-programming ideas the museum collects elsewhere.
+* **The touchplate keyboard.** The AKS keyboard is a flat printed circuit board — 30 touch plates in two and a half octaves, with no levers, springs, or contacts in the piano sense. Touch triggers a note capacitively: a finger on a plate adds 10–100 pF and flips a TTL multiplexer input, latching the note (highest note wins). The design allowed "dynamic" playing: sweeping a finger along a plate changes pulse width for pitch, and a piezoelectric crystal produces a velocity "click" when a key is struck. Record, Play, Random (a spin-and-touch random note selector) and Transposition pads complete the lid's controls.
+* **Record-by-playing sequencing.** The KS digi-sequencer stores 256 events in 6-bit shift-register memory (5 bits for the note, 1 bit for the trigger). Programming means performing: press the Record pad and play the touch keyboard in real time while the sequence is clocked into memory at a variable rate (from 700 ms to 100 seconds for a full cycle); then Play recirculates the stored phrase, with a skip mode that ignores empty storage. The sequence is a recording of your fingers on a touchplate — a bridge between performance and program, years before step-entry sequencing culture.
+* **The machine on the record.** Alan Parsons told Sound on Sound that the "On the Run" sequence on Dark Side of the Moon was "laboriously programmed using the AKS's membrane keyboard," then played back at high speed for the famous 8/8 sprint across the album. Eno used EMS instruments through Roxy Music and his ambient work; Tangerine Dream, Klaus Schulze, and Cabaret Voltaire carried the AKS on stage and into studios through the late 1970s. Depeche Mode's Alan Wilder remembered it fondly on Music for the Masses (1987): "it comes in a briefcase, like a businessman's case." The AKS is a boundary case for the museum's 1976–1992 window — launched 1972, it was on sale and in active use throughout the late 1970s.
+* **Distinction from the collection.** The museum's music exhibits program by numeric keypad (Roland MC-8), step buttons (TR-808), knobs and sliders (TB-303), light pen (Fairlight), strings (SynthAxe), or mallets (Radio Drum). None program by pushing pins into a socket grid, and none play a flat printed capacitance board as a keyboard. The AKS also differs from the museum's Cracklebox (a touch-noise box, not a programmable instrument): the AKS is a complete instrument whose primary interfaces are a plugboard and a touchplate.
+
+### Team
+
+* **EMS (Electronic Music Studios) London.** Founded 1969 by Peter Zinovieff, David Cockerell, and Tristram Cary; makers of the VCS3, Synthi A, and Synthi AKS.
+* **Peter Zinovieff.** Founder and financier; composer and pioneer of computer music (MUSYS system).
+* **David Cockerell.** Electronics designer of the AKS, the KS sequencer, and the separate EMS Sequencer 256.
+* **Tristram Cary.** Composer; contributed to VCS3 industrial design.
+* **Gerry Rogers.** Industrial design of the AKS briefcase.
+
+### Media
+
+![Opened EMS Synthi AKS showing the pin-matrix face and touch keyboard in the lid](../assets/wiki/synthi-aks-opened.jpg)
+*An opened EMS Synthi AKS: the pin-matrix patch panel on the synth face, with the touch keyboard and sequencer in the lid. CC BY-SA 3.0 (Guy Hatton), Wikimedia Commons.*
+
+![The EMS Synthi AKS closed as a suitcase](../assets/wiki/synthi-aks-closed.jpg)
+*The AKS as a piece of luggage — the portable studio in a briefcase. CC BY 3.0, Wikimedia Commons.*
+
+![EMS VCS3 pin-matrix routing panel](../assets/wiki/synthi-pin-matrix.jpg)
+*The same pin-matrix routing panel on the AKS's sibling, the VCS3 — pins in sockets are the patch program. CC BY-SA 3.0, Wikimedia Commons (Musikinstrumentenmuseum, Berlin).*
+
+### Sources
+
+1. Wikipedia — EMS Synthi AKS — https://en.wikipedia.org/wiki/EMS_Synthi_AKS
+2. Wikipedia — EMS VCS 3 — https://en.wikipedia.org/wiki/EMS_VCS_3
+3. Graham Hinton — A Guide to the EMS Product Range 1969–1979 (archived) — https://web.archive.org/web/20131031040324/http://www.ems-synthi.demon.co.uk/emsprods.html
+4. Sound on Sound — All About EMS, Part 2 (Dec 2000, archived) — https://web.archive.org/web/20110908053257/http://www.soundonsound.com/sos/dec00/articles/retrozone.asp
+5. EMS KS Repair Guide transcription (shift-register sequencer details) — http://www.burningimage.net/synthesisers/EMS/ks%20how%20to/aks_how2.html
+6. Vintage Synth Explorer — EMS Synthi AKS — https://www.vintagesynth.com/electronic-music-studios-ems/synthi
+7. Wikimedia Commons — File:EMS Synthi AKS (opened).jpg — https://commons.wikimedia.org/wiki/File:EMS_Synthi_AKS_(opened).jpg
+
+---
+
+## Meade LX200 (1992)
+
+**By:** Meade Instruments Corporation (Irvine, California)  
+**Tags:** `Scientific Instrument` `Input` `Keypad` `Database` `Consumer`
+
+### Overview
+
+The Meade LX200 is a line of Schmidt-Cassegrain telescopes on computer-controlled altazimuth mounts, introduced in 1992 by Meade Instruments of Irvine, California. Meade was founded in 1972 by John Diebel, a Caltech-trained electrical engineer; after a near-collapse under the Harbor Group, Diebel and three partners bought the company back in February 1991 for $1,000 and spent roughly $1 million developing the LX200. The result — an 8-inch or 10-inch telescope with a hand controller that knows 64,359 objects — sold for about $2,000, roughly half the cost of comparable computer-controlled systems and the first time such capability was priced for the average consumer.
+
+The hand controller is a 16-key keypad with a 2-line LCD: dedicated Object keys (M for Messier, STAR for alignment stars, CNGC for the NGC and other catalogs), PREV/NEXT, GO TO, MODE, ENTER, N/S/E/W direction keys, FOCUS, a MAP key that turns the red LEDs into a flashlight for reading charts, and four speed keys (SLEW 4°/second, FIND 1°/second, CNTR 16× sidereal, GUIDE 2× sidereal). The workflow replaced star-hopping: pick an object, type its catalog number, press GO TO, and the mount slews up to 8°/second and settles it in the eyepiece, then two-axis tracking holds it there. An RS-232 port allowed PC control, and the LX200's command protocol became a de-facto standard for amateur telescope automation. The line was used by Project Galileo and dozens of observatories, and later "GPS" models carried the name into the 2000s.
+
+### Deep dive
+
+* **The database as the telescope's mind.** In 1992, a consumer device with a two-line LCD contained 64,359 objects: 110 Messier, 7,840 NGC, 8 planets, 351 alignment stars, and 56,050 entries from the SAO, UGC, IC, and GCVS catalogs. The interaction is catalog-driven: type a number, and the telescope does the pointing. This is the same shift that database terminals brought to business computing, applied to the night sky — the amateur astronomer's task changes from finding an object to selecting one.
+* **An interface designed for darkness.** The LX200's keypad was engineered for a dark outdoor environment: red-LED backlighting preserves scotopic (night) vision, beeps confirm entries without looking, and the speed keys give graded manual control — slew to rough position, find, then center and guide by hand, a physical gradient from machine to human control. The MAP key doubles as a red flashlight for reading star charts. Few interfaces of the era were designed around a specific physiological constraint the way the LX200 was.
+* **The protocol that became a standard.** The LX200's RS-232 command set — simple text commands over serial — became the de-facto standard for amateur telescope control, implemented by later vendors and hobbyist projects for decades. The telescope was also one of the first consumer instruments to make "computerized pointing" the norm rather than the expensive exception: what had cost $4,000+ as a retrofit option was now the base product.
+* **Distinction from the collection.** The museum's Tektronix 7854 (1980) is a lab instrument whose RPN keyboard works on waveforms; the LX200 is a consumer instrument whose keypad works on the sky. Where the 7854 turns the oscilloscope into a computer, the LX200 turns the computer into the telescope's pointing system. No other exhibit is a database-driven pointing instrument, and none designs its interface around night vision.
+
+### Team
+
+* **Meade Instruments Corporation.** Manufacturer, Irvine, CA; founded 1972 by John Diebel; ~$1M LX200 development budget.
+* **John Diebel.** Founder; Caltech-trained electrical engineer; led the 1991 buyback and LX200 development.
+* **Steven Murdock.** Meade COO during the LX200 launch era.
+
+### Media
+
+![Meade LX200 on its motorized altazimuth mount at Jiamusi University Observatory](../assets/wiki/lx200-jiamusi.jpg)
+*A Meade LX200 on its motorized altazimuth mount. CC BY-SA 4.0, Wikimedia Commons.*
+
+![Meade LX200 at an observatory](../assets/wiki/lx200-emc.jpg)
+*A Meade LX200 set up at an observatory. CC BY-SA 4.0, Wikimedia Commons.*
+
+![Meade LX200 Schmidt-Cassegrain telescope](../assets/wiki/lx200-kl.jpg)
+*Meade LX200 Schmidt-Cassegrain telescope. Public domain, Wikimedia Commons. (Exhibit images show the instrument; the interface is the coiled keypad hand controller that connects to the fork arm.)*
+
+### Sources
+
+1. Wikipedia — Meade LX200 — https://en.wikipedia.org/wiki/Meade_LX200
+2. Meade LX200 Classic manual (1996, Internet Archive) — https://archive.org/details/manualsonline-id-3552f73c-8fce-46c5-9e30-f9af9e391457
+3. FundingUniverse / International Directory of Company Histories — Meade Instruments — https://www.fundinguniverse.com/company-histories/meade-instruments-corporation-history/
+4. Wikimedia Commons — File:Meade LX200 in Jiamusi University Observatory.jpg — https://commons.wikimedia.org/wiki/File:Meade_LX200_in_Jiamusi_University_Observatory.jpg
+5. Wikimedia Commons — File:Meade LX 200 emc.jpg — https://commons.wikimedia.org/wiki/File:Meade_LX_200_emc.jpg
+6. Wikimedia Commons — File:Meadelx200 kl.jpg — https://commons.wikimedia.org/wiki/File:Meadelx200_kl.jpg
