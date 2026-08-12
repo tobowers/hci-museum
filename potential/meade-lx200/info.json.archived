@@ -1,0 +1,61 @@
+{
+  "slug": "meade-lx200",
+  "title": "Meade LX200",
+  "year": "1992",
+  "subtitle": "The first telescope you point by keying a catalog number into a red-lit keypad",
+  "why_scout_cares": "The Meade LX200 (1992, ~$2,000) was the first computer-controlled 'GoTo' telescope priced for the ordinary amateur: a Schmidt-Cassegrain on a motorized altazimuth mount driven by a 16-key hand controller with a 2-line LCD and a database of 64,359 celestial objects. You press an Object key, type a catalog number (M31, NGC 891, or 901–909 for planets), press ENTER then GO TO, and the mount slews up to 8°/second and settles the object in the eyepiece. The interface was designed for the dark: red-LED backlighting that preserves night vision, speed-graded manual control (SLEW / FIND / CNTR / GUIDE), and beep feedback. The LX200 protocol over RS-232 became the de-facto standard for amateur telescope control. The museum's other instruments (Tektronix 7854) are lab devices; the LX200 is the museum's first database-driven consumer instrument — pointing a 40-pound telescope by typing a number.",
+  "search_terms": [
+    "Meade LX200 1992 computerized GoTo telescope hand controller database",
+    "LX200 Classic keypad hand controller 16-key 64359 objects RS-232 protocol",
+    "Meade Instruments John Diebel LX200 history amateur astronomy computer"
+  ],
+  "research": {
+    "title": "Meade LX200",
+    "year": "1992",
+    "by": "Meade Instruments Corporation (Irvine, California)",
+    "tags": ["Scientific Instrument", "Input", "Keypad", "Database", "Consumer"],
+    "overview": "The Meade LX200 is a line of Schmidt-Cassegrain telescopes on computer-controlled altazimuth mounts, introduced in 1992 by Meade Instruments of Irvine, California. Meade was founded in 1972 by John Diebel, a Caltech-trained electrical engineer; after a near-collapse under the Harbor Group, Diebel and three partners bought the company back in February 1991 for $1,000 and spent roughly $1 million developing the LX200. The result — an 8-inch or 10-inch telescope with a hand controller that knows 64,359 objects — sold for about $2,000, roughly half the cost of comparable computer-controlled systems and the first time such capability was priced for the average consumer.\n\nThe hand controller is a 16-key keypad with a 2-line LCD: dedicated Object keys (M for Messier, STAR for alignment stars, CNGC for the NGC and other catalogs), PREV/NEXT, GO TO, MODE, ENTER, N/S/E/W direction keys, FOCUS, a MAP key that turns the red LEDs into a flashlight for reading charts, and four speed keys (SLEW 4°/second, FIND 1°/second, CNTR 16× sidereal, GUIDE 2× sidereal). The workflow replaced star-hopping: pick an object, type its catalog number, press GO TO, and the mount slews up to 8°/second and settles it in the eyepiece, then two-axis tracking holds it there. An RS-232 port allowed PC control, and the LX200's command protocol became a de-facto standard for amateur telescope automation. The line was used by Project Galileo and dozens of observatories, and later 'GPS' models carried the name into the 2000s.",
+    "deepDive": [
+      {
+        "heading": "The database as the telescope's mind",
+        "text": "In 1992, a consumer device with a two-line LCD contained 64,359 objects: 110 Messier, 7,840 NGC, 8 planets, 351 alignment stars, and 56,050 entries from the SAO, UGC, IC, and GCVS catalogs. The interaction is catalog-driven: type a number, and the telescope does the pointing. This is the same shift that database terminals brought to business computing, applied to the night sky — the amateur astronomer's task changes from finding an object to selecting one."
+      },
+      {
+        "heading": "An interface designed for darkness",
+        "text": "The LX200's keypad was engineered for a dark outdoor environment: red-LED backlighting preserves scotopic (night) vision, beeps confirm entries without looking, and the speed keys give graded manual control — slew to rough position, find, then center and guide by hand, a physical gradient from machine to human control. The MAP key doubles as a red flashlight for reading star charts. Few interfaces of the era were designed around a specific physiological constraint the way the LX200 was."
+      },
+      {
+        "heading": "The protocol that became a standard",
+        "text": "The LX200's RS-232 command set — simple text commands over serial — became the de-facto standard for amateur telescope control, implemented by later vendors and hobbyist projects for decades. The telescope was also one of the first consumer instruments to make 'computerized pointing' the norm rather than the expensive exception: what had cost $4,000+ as a retrofit option was now the base product."
+      },
+      {
+        "heading": "Distinction from the collection",
+        "text": "The museum's Tektronix 7854 (1980) is a lab instrument whose RPN keyboard works on waveforms; the LX200 is a consumer instrument whose keypad works on the sky. Where the 7854 turns the oscilloscope into a computer, the LX200 turns the computer into the telescope's pointing system. No other exhibit is a database-driven pointing instrument, and none designs its interface around night vision."
+      }
+    ],
+    "team": [
+      { "name": "Meade Instruments Corporation", "note": "Manufacturer, Irvine, CA; founded 1972 by John Diebel; ~$1M LX200 development budget" },
+      { "name": "John Diebel", "note": "Founder; Caltech-trained electrical engineer; led the 1991 buyback and LX200 development" },
+      { "name": "Steven Murdock", "note": "Meade COO during the LX200 launch era" }
+    ],
+    "media": [
+      { "src": "https://commons.wikimedia.org/wiki/File:Meade_LX200_in_Jiamusi_University_Observatory.jpg", "alt": "A Meade LX200 telescope on its computerized altazimuth mount at Jiamusi University Observatory", "caption": "A Meade LX200 on its motorized altazimuth mount. CC BY-SA 4.0, Wikimedia Commons." },
+      { "src": "https://commons.wikimedia.org/wiki/File:Meade_LX_200_emc.jpg", "alt": "A Meade LX200 set up at an observatory", "caption": "A Meade LX200 at an observatory. CC BY-SA 4.0, Wikimedia Commons." },
+      { "src": "https://commons.wikimedia.org/wiki/File:Meadelx200_kl.jpg", "alt": "A Meade LX200 Schmidt-Cassegrain telescope", "caption": "Meade LX200 Schmidt-Cassegrain telescope. Public domain, Wikimedia Commons. (Exhibit images show the instrument; the interface is the coiled keypad hand controller that connects to the fork arm.)" }
+    ],
+    "sources": [
+      { "text": "Wikipedia — Meade LX200", "url": "https://en.wikipedia.org/wiki/Meade_LX200" },
+      { "text": "Meade LX200 Classic manual (1996, Internet Archive)", "url": "https://archive.org/details/manualsonline-id-3552f73c-8fce-46c5-9e30-f9af9e391457" },
+      { "text": "FundingUniverse / International Directory of Company Histories — Meade Instruments", "url": "https://www.fundinguniverse.com/company-histories/meade-instruments-corporation-history/" },
+      { "text": "Wikimedia Commons — File:Meade LX200 in Jiamusi University Observatory.jpg", "url": "https://commons.wikimedia.org/wiki/File:Meade_LX200_in_Jiamusi_University_Observatory.jpg" },
+      { "text": "Wikimedia Commons — File:Meade LX 200 emc.jpg", "url": "https://commons.wikimedia.org/wiki/File:Meade_LX_200_emc.jpg" },
+      { "text": "Wikimedia Commons — File:Meadelx200 kl.jpg", "url": "https://commons.wikimedia.org/wiki/File:Meadelx200_kl.jpg" }
+    ],
+    "imageUrls": [
+      "https://upload.wikimedia.org/wikipedia/commons/2/20/Meade_LX200_in_Jiamusi_University_Observatory.jpg",
+      "https://upload.wikimedia.org/wikipedia/commons/7/70/Meade_LX_200_emc.jpg",
+      "https://upload.wikimedia.org/wikipedia/commons/c/c4/Meadelx200_kl.jpg"
+    ]
+  },
+  "savedImages": []
+}

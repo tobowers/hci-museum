@@ -2207,6 +2207,45 @@ const exhibitData: Exhibit[] = [
     tags: ["Education", "Toy", "Speech", "Touch"],
     image: img("ti-touch-tell.jpg"),
   },
+  {
+    id: "vcr-plus",
+    slug: "vcr-plus",
+    wikiTitle: "VCR Plus+",
+    year: "1990",
+    sortYear: 1990,
+    title: "VCR Plus+",
+    subtitle: "A whole recording schedule compressed into a printed number you type into a box",
+    blurb:
+      "In 1990 the newspaper itself became the program guide's database: Gemstar's $60 box recorded any show you typed in from the bold PlusCode number printed next to the listing — channel, date, time and duration packed into a handful of digits, decoded in secret and beamed to your VCR as infrared. An algorithm good enough to reverse-engineer and publish in a cryptography journal.",
+    tags: ["Home Automation", "Programming", "Input", "Consumer", "Printed Media"],
+    image: img("vcr-plus-1.jpg"),
+  },
+  {
+    id: "ems-synthi-aks",
+    slug: "ems-synthi-aks",
+    wikiTitle: "EMS Synthi AKS",
+    year: "1972–1984",
+    sortYear: 1972,
+    title: "EMS Synthi AKS",
+    subtitle: "A synthesizer in a briefcase whose programs are pins and whose keyboard is a touchplate",
+    blurb:
+      "EMS's portable studio in a briefcase (1972, still in the catalogue through the late 1970s) programmed its patch with pins pushed into a socket grid and played its notes on a flat 30-key capacitance touchplate with no moving parts — the sequence behind Pink Floyd's 'On the Run' was laboriously finger-recorded on it.",
+    tags: ["Music", "Input", "Tangible Programming", "Touch", "Instrument"],
+    image: img("synthi-aks-opened.jpg"),
+  },
+  {
+    id: "meade-lx200",
+    slug: "meade-lx200",
+    wikiTitle: "Meade LX200",
+    year: "1992",
+    sortYear: 1992,
+    title: "Meade LX200",
+    subtitle: "The first telescope you point by keying a catalog number into a red-lit keypad",
+    blurb:
+      "Meade's 1992 GoTo telescope put a 64,359-object star database in a 16-key hand controller with a red-LED keypad built for night vision: press M for Messier, type a catalog number, hit GO TO, and the mount slewed itself to the eyepiece. Its RS-232 protocol became the amateur astronomy standard.",
+    tags: ["Scientific Instrument", "Input", "Keypad", "Database", "Consumer"],
+    image: img("lx200-jiamusi.jpg"),
+  },
 ];
 
 export const exhibits: Exhibit[] = exhibitData.toSorted((a, b) => b.sortYear - a.sortYear || a.title.localeCompare(b.title));
