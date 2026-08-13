@@ -2246,6 +2246,45 @@ const exhibitData: Exhibit[] = [
     tags: ["Scientific Instrument", "Input", "Keypad", "Database", "Consumer"],
     image: img("lx200-jiamusi.jpg"),
   },
+  {
+    id: "fairchild-channel-f",
+    slug: "fairchild-channel-f",
+    wikiTitle: "Fairchild Channel F",
+    year: "1976",
+    sortYear: 1976,
+    title: "Fairchild Channel F",
+    subtitle: "The first cartridge console, steered and fired by one knob you push, twist, and pull",
+    blurb:
+      "The first microprocessor cartridge console hid an extraordinary controller in plain sight: a base-less pistol grip whose triangular cap tilts in eight directions, twists to act as a digital paddle, and pushes down or pulls up to fire. One knob, three grammars — invented under Jerry Lawson, one of the first Black engineers to lead a Silicon Valley consumer product.",
+    tags: ["Console", "Input", "Games", "Joystick", "Consumer"],
+    image: img("fairchild-channel-f-1.jpg"),
+  },
+  {
+    id: "bbn-spacegraph",
+    slug: "bbn-spacegraph",
+    wikiTitle: "BBN Spacegraph",
+    year: "1977",
+    sortYear: 1977,
+    title: "BBN Spacegraph",
+    subtitle: "A true 3D display — a vibrating mirror sweeps a CRT image through a volume of air you point into",
+    blurb:
+      "BBN's varifocal-mirror display rendered real points floating in a 33.8 cm-deep volume of space — no stereo glasses, no mirror trick — with parallax that survived head movement. The strangest part was the input: a pulsed laser beam aimed directly INTO the image to point at and select floating light buttons.",
+    tags: ["Display", "3D", "Volumetric", "Input", "Research"],
+    image: img("spacegraph-photo-airplane.jpg"),
+  },
+  {
+    id: "bally-professional-arcade",
+    slug: "bally-professional-arcade",
+    wikiTitle: "Bally Professional Arcade / Astrocade",
+    year: "1978",
+    sortYear: 1978,
+    title: "Bally Professional Arcade / Astrocade",
+    subtitle: "A console you program by typing into the pixels — Bally BASIC lived inside the video RAM",
+    blurb:
+      "Bally's 1978 console joined a pistol-grip controller (trigger, 8-way joystick, and a shaft that rotates into a paddle) with a 24-key keypad — and Bally BASIC, whose interpreter stored every program bit-interleaved inside the display's own RAM, hidden in plain sight by remapping two colors to the same white. The screen you watched was the memory your program occupied.",
+    tags: ["Console", "Input", "Programming", "Games", "Consumer"],
+    image: img("bally-arcade-1.jpg"),
+  },
 ];
 
 export const exhibits: Exhibit[] = exhibitData.toSorted((a, b) => b.sortYear - a.sortYear || a.title.localeCompare(b.title));
