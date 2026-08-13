@@ -1,0 +1,45 @@
+{
+  "slug": "bally-professional-arcade",
+  "title": "Bally Professional Arcade / Astrocade",
+  "year": "1978",
+  "subtitle": "A pistol-grip console you program by typing into the pixels — Bally BASIC lived bit-interleaved inside the display's own RAM",
+  "why_scout_cares": "The museum has consoles programmed by keypad (RCA Studio II), by body (Coleco Telstar Arcade), and by twist-grip (Fairchild Channel F). Bally's is the only one whose program code is physically woven into the display: Bally BASIC stored every program bit-interleaved in video RAM, invisible to the eye because two colors were remapped to the same white. You entered BASIC on a calculator keypad through a plastic overlay with four colored shift keys. The pistol-grip controller also twists to double as a paddle.",
+  "search_terms": ["Bally Professional Arcade 1978", "Bally Astrocade", "Bally BASIC video RAM interleaved", "Astro BASIC Jamie Fenton", "ZGRASS"],
+  "research": {
+    "title": "Bally Professional Arcade / Astrocade",
+    "year": "1978",
+    "by": "Dave Nutting Associates / Midway (Bally) — Bally BASIC by Jamie Fenton",
+    "tags": ["Console", "Input", "Programming", "Games", "Consumer"],
+    "overview": "The Bally Professional Arcade (announced October 1977 as the 'Bally Home Library Computer', released to stores April 1978 at $299) is a Zilog Z80-powered home video game console and simple computer, designed by Dave Nutting Associates for Midway, Bally's video game division. It was re-released by third parties as the Bally Computer System (1981) and the Astrocade (1982-85). The system has 4 KB RAM, 8 KB ROM, a 160x102 display with color registers (4 colors from a 256-color palette, expandable to 8 via a line-split trick), and built-in games plus a Calculator and a Scribbling doodle program.\n\nThe controller is a pistol-style grip with a trigger switch on the front, a small 8-way joystick on top, and a potentiometer in the shaft so the stick rotates to double as a paddle — three input modes in one hand. The console front has a 24-key hex keypad. The defining oddity, though, is Bally BASIC (by Jamie Fenton, an expanded version of Li-Chen Wang's Palo Alto Tiny BASIC, first published 1978): because the 160x102 display consumed almost all RAM, the interpreter stored BASIC program code bit-interleaved inside the video RAM itself — even bits for program, odd bits for display, rendered invisible by remapping two of the four colors to the same white. This squeezed out 1,760 bytes of BASIC RAM. Programs were entered on the calculator keypad through a plastic overlay with four colored shift keys.",
+    "deepDive": [
+      {"heading": "Your program IS the pixels", "text": "The display at 160x102 with 2 bits per pixel consumed 4,080 bytes — virtually all of the machine's 4 KB of RAM. To fit a BASIC interpreter at all, Fenton interleaved every bit of the program with the display: BASIC used the even-numbered bits, the display used the odd-numbered bits, and the interpreter read two bytes, dropped every odd bit, and reassembled one byte of code. The program was hidden in plain sight by setting two of the color register values to the same white, so the presence or absence of a program bit had no visible effect. Scavenging a few display lines (88 instead of 102) yielded 1,760 bytes for BASIC programs. The screen you watched was also the memory your program occupied — an extreme version of the 'the program lives in the display' idea."},
+      {"heading": "Programming through a keypad overlay", "text": "Programs were entered on the 24-key hex keypad with a plastic overlay mapping letters, symbols, and BASIC keywords, selected through four colored shift keys: typing WORD (gold shift) then '+' produced GOTO. A simple line editor was supported — after typing a line number, each press of the PAUSE key loaded the next character from memory. The machine was designed to be programmed the way you'd use a calculator, on a TV, in a living room. The keyboard layout and bit-interleaved memory are the museum's strangest programming ritual outside the TI-59's magnetic cards."},
+      {"heading": "Three input modes in one grip", "text": "The controller is a pistol grip with a trigger switch on the front, a small 4-switch/8-way joystick on top, and a shaft connected to a potentiometer so the stick rotates to double as a paddle controller. This hybrid — trigger, joystick, and rotating paddle in one hand — is the same 'one grip, several grammars' idea as the Fairchild Channel F's twist-grip (both from 1976-78), but executed with a trigger plus a rotary joystick rather than a twist cap. Bally BASIC even exposes the inputs as functions: JX()/JY() for the joystick, KN() for the knob, TR() for the trigger."},
+      {"heading": "Distinction from the collection", "text": "The museum's RCA Studio II (1977) has keypads on the console; the Coleco Telstar Arcade (1977) is a triangular body-as-controller; the Fairchild Channel F (1976) has a twist-grip. Bally adds a programmable console whose code is physically interleaved with its own display — no other exhibit makes the program memory and the picture the same RAM. The ZGRASS expansion (with its full keyboard and GRASS language, later released as the Datamax UV-1) completes the story of a console that tried to become a computer."}
+    ],
+    "team": [
+      {"name": "Dave Nutting Associates", "note": "Designed the Bally system for Midway; led by Dave Nutting, designer of Bally arcade games like Wizard of Wor."},
+      {"name": "Jamie Fenton", "note": "Wrote Bally BASIC (1978), expanded from Li-Chen Wang's Palo Alto Tiny BASIC; later co-authored GRASS for ZGRASS."},
+      {"name": "Midway / Bally Manufacturing", "note": "Bally's video game division; announced and first released the system."},
+      {"name": "Astrovision", "note": "Third-party company that re-released the system as the Astrocade (1982-85)."}
+    ],
+    "media": [
+      {"src": "assets/wiki/bally-arcade-1.jpg", "alt": "Bally Professional Arcade pistol-grip controller", "caption": "The Bally Professional Arcade pistol-grip controller: trigger switch on the front, 8-way joystick on top, and a shaft that rotates to double as a paddle. Public domain (Evan-Amos), Wikimedia Commons."},
+      {"src": "assets/wiki/bally-console.jpg", "alt": "Bally Professional Arcade console", "caption": "The Bally Professional Arcade console with its 24-key hex keypad on the front face. CC BY-SA 3.0 (Evan-Amos), Wikimedia Commons."},
+      {"src": "assets/wiki/bally-motherboard.jpg", "alt": "Bally Professional Arcade motherboard", "caption": "Bally Professional Arcade motherboard, showing the Z80 CPU and the video display hardware. Public domain (Evan-Amos), Wikimedia Commons."}
+    ],
+    "sources": [
+      {"text": "Wikipedia — Bally Astrocade", "url": "https://en.wikipedia.org/wiki/Bally_Astrocade"},
+      {"text": "Astro BASIC manual (Dick Ainsworth, 1982) — interleaved program/display memory details", "url": "https://en.wikipedia.org/wiki/Bally_Astrocade#Astro_BASIC"},
+      {"text": "Bally Alley — service manual and documentation archive", "url": "https://ballyalley.com/"},
+      {"text": "Radio-Electronics (April 1982) — Bally Arcade review by Marc Stern", "url": "https://archive.org/details/radio_electronics_1982-04"},
+      {"text": "The Dot Eaters — Bally Professional Arcade history", "url": "https://thedoteaters.com/?bitstory=bally-professional-arcade"}
+    ],
+    "imageUrls": [
+      "https://upload.wikimedia.org/wikipedia/commons/c/cf/Bally-Professional-Arcade-Controller.jpg",
+      "https://upload.wikimedia.org/wikipedia/commons/5/5d/Bally-Arcade-Console.jpg",
+      "https://upload.wikimedia.org/wikipedia/commons/a/a2/Bally-Professional-Arcade-Deconstructed-01.jpg"
+    ]
+  },
+  "savedImages": []
+}
