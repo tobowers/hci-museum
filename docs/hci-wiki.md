@@ -9024,3 +9024,144 @@ The hand controller is a 16-key keypad with a 2-line LCD: dedicated Object keys 
 4. Wikimedia Commons — File:Meade LX200 in Jiamusi University Observatory.jpg — https://commons.wikimedia.org/wiki/File:Meade_LX200_in_Jiamusi_University_Observatory.jpg
 5. Wikimedia Commons — File:Meade LX 200 emc.jpg — https://commons.wikimedia.org/wiki/File:Meade_LX_200_emc.jpg
 6. Wikimedia Commons — File:Meadelx200 kl.jpg — https://commons.wikimedia.org/wiki/File:Meadelx200_kl.jpg
+
+---
+
+## Fairchild Channel F (1976)
+
+**By:** Fairchild Camera and Instrument — Jerry Lawson (hardware lead), Nicholas Talesfore (industrial design), Ronald A. Smith (cartridge & controller mechanics)  
+**Tags:** `Console` `Input` `Games` `Joystick` `Consumer`
+
+### Overview
+
+The Fairchild Channel F (short for "Channel Fun") is the first home video game console to be built around a microprocessor and the first to use ROM cartridges — "Videocarts" — instead of games baked into the hardware. Released in November 1976 at $169.95, it ran on a Fairchild F8 8-bit CPU with 64 bytes of scratchpad RAM and a 2 KB video buffer (about 104×60 visible pixels). Fairchild sold roughly 350,000 units by 1979, when the line was sold to Zircon, which continued it as the Channel F System II until 1983.
+
+The hardware was led by Jerry Lawson, a self-taught engineer who joined Fairchild Semiconductor in 1970 and became head of the video game division's engineering. Fairchild licensed the "Project RAVEN" prototype from Alpex Computer Corporation in January 1976, and Lawson's team brought it to market. The controller is the artifact's heart: a base-less pistol-style handgrip with a triangular cap on top that tilts in eight directions, twists left and right, and can be pushed down or pulled up — eight switch functions wired through a 9-pin plug, so the same grip is simultaneously a joystick, a digital paddle, and a two-state fire control. The Channel F was also the first console with a pause ("Hold") function and hardwired detachable controllers.
+
+### Deep dive
+
+* **The twist that steers and shifts.** The Channel F controller's 9-pin pinout (documented in the Channel F FAQ by Dyer & Webb, 1997) lists eight distinct switch functions: twist left, twist right, pull up, push down, and four directional switches. Wikipedia (citing Rev. Rob Vinciguerra) describes the interaction: "the main body is a large handgrip with a triangular 'cap' on top, which can move in eight directions. It could be used as both a joystick and paddle (twist), and not only could it be pushed down to operate as a fire button, it could be pulled up as well." The twist is a contact-based digital paddle rather than an analog potentiometer, which is why Wikipedia's infobox calls the input "Joystick/digital paddle." In the built-in Hockey game the reflecting bar is re-angled by twisting the knob; in Videocart-9 Drag Race the same triangular knob that steers the car is twisted to shift gears. One knob, two jobs, zero dedicated buttons.
+* **Jerry Lawson and the first cartridge.** Lawson conceived the stick controller (rendered for production by Talesfore, with Ronald A. Smith named sole inventor on the cartridge patent, US 4,095,791 "Cartridge programmable video game apparatus", filed August 23, 1976). Lawson — one of the only Black engineers in Silicon Valley at the time and the only Black member of the Homebrew Computer Club — was the subject of a Google Doodle (2022), an IGDA honor (2011), and a World Video Game Hall of Fame exhibit at The Strong. The cartridge design itself was the interaction revolution: ROM cartridges the size of 8-track tapes, $19.95 each, sold as "Videocarts."
+* **Firsts and the fall.** The Channel F introduced the pause function and detachable hardwired controllers, predating the Atari VCS by a year. But it lost the format war: the Atari 2600's larger library and Fairchild's own exit from consumer electronics capped sales around 350,000. Zircon's System II (1979) swapped in removable Atari-style DE-9 controllers — losing the twist-grip entirely. No later mass-market controller ever replicated the push-twist-pull grammar.
+* **Distinction from the collection.** The museum's RCA Studio II (1977) has keypads built into the console and no joystick; Coleco Telstar Arcade (1977) makes the console body the controller. The Channel F is the first cartridge console and the only collection exhibit whose primary input is a single hybrid grip that combines directional, rotational, and two-state vertical control — a proto context-dependent input, nine years before the NES D-pad.
+
+### Team
+
+* **Jerry Lawson.** Chief hardware engineer / director of engineering for the Fairchild video game division; conceived the Channel F controller and the consumer cartridge; one of the first Black engineers in Silicon Valley.
+* **Wallace Kirschner & Lawrence Haskel.** Alpex Computer Corporation employees who created the Project RAVEN prototype licensed by Fairchild.
+* **Nicholas Talesfore.** Industrial designer of the console styling and controllers.
+* **Ronald A. Smith.** Mechanical engineer; sole inventor of US Patent 4,095,791 for the cartridge-programmable console.
+
+### Media
+
+![Fairchild Channel F console with its two twist-grip controllers](../assets/wiki/fairchild-channel-f-1.jpg)
+*Fairchild Channel F with its two pistol-grip twist controllers. CC BY-SA 3.0 (Evan-Amos), Wikimedia Commons.*
+
+![Fairchild Channel F at the Computer History Museum](../assets/wiki/fairchild-channel-f-2.jpg)
+*Fairchild Channel F on display at the Computer History Museum. CC BY-SA 4.0, Wikimedia Commons.*
+
+![Period photo of two people playing the Fairchild Channel F](../assets/wiki/fairchild-channel-f-3.jpg)
+*Period photograph of two people playing the Channel F. Public domain (Electronic Engineering Times), Wikimedia Commons.*
+
+### Sources
+
+1. Wikipedia — Fairchild Channel F — https://en.wikipedia.org/wiki/Fairchild_Channel_F
+2. The Henry Ford — The F Stands for Fun: Jerry Lawson & the Fairchild Channel F — https://thehenryford.org/collections/explore/articles/jerry-lawson-and-the-fairchild-channel-f-video-entertainment-system
+3. Channel F FAQ (Dyer & Webb, 1997) — controller pinout and repair — http://web.archive.org/web/20070407211621/http://www.classicgaming.com:80/gamingmuseum/channelffaq.htm
+4. Rev. Rob Vinciguerra — The first modern game console (2007) — https://web.archive.org/web/20150314024817/http://www.revrob.com/sci-a-tech-topmenu-52/66-fairchild-channel-f-video-entertainment-system-the-first-modern-game-console
+5. US Patent 4,095,791 — Cartridge programmable video game apparatus — https://patents.google.com/patent/US4095791A/en
+6. NPR — Remembering Jerry Lawson (2021) — https://npr.org/2021/09/17/1037911107/jerry-lawson-video-game-fairchild-channel-f-black-engineer
+7. Fast Company (Benj Edwards, 2015) — The untold story of the invention of the game cartridge — https://www.fastcompany.com/3040889/the-untold-story-of-the-invention-of-the-game-cartridge
+
+---
+
+## BBN Spacegraph (1977)
+
+**By:** Bolt, Beranek and Newman (BBN) — invented by Lawrence D. Sher  
+**Tags:** `Display` `3D` `Volumetric` `Input` `Research`
+
+### Overview
+
+The BBN Spacegraph is one of the earliest true volumetric 3D displays: a varifocal (vibrating) mirror system built at Bolt, Beranek and Newman (BBN) in Cambridge, Massachusetts, starting around 1977. A CRT image is reflected off a circular front-silvered acrylic plate mirror about 40 cm in diameter that vibrates resonantly at ~30 Hz, driven by a woofer. Because the mirror flexes as a spherical cap, the reflected image sweeps through a display volume 33.8 cm deep, with each image element refreshed every ~33 ms (about 230 Hz refresh) on a low-persistence-phosphor CRT. Geometry correction follows Alan Traub's method (MITRE, 1968).
+
+Lawrence D. Sher is the sole named inventor on US Patent 4,130,832 "Three-dimensional display" (filed July 11, 1977; granted December 19, 1978; assignee Bolt Beranek and Newman Inc.). By 1981 the system was mature enough for a 35-page Air Force Human Resources Laboratory final report (AFHRL-TR-80-60) documenting its use in flight-simulator instructor/operator stations — and for a third result described in that report: a pulsed laser beam aimed into the image volume for pointing and selecting "light buttons." The technology was licensed to Genisco for its commercial SpaceGraph product line (c. 1982–83), used at the Mayo Clinic for tomographic volume display and at Stanford for craniofacial surgery planning.
+
+### Deep dive
+
+* **A volume of light, not a picture.** Most "3D" displays of the era were stereoscopic pairs or mirror tricks. The Spacegraph produces actual three-dimensional points in space: the vibrating mirror's changing curvature sweeps the CRT's image plane back and forth, so each vector is written at the depth where the mirror focuses it. Hidden-line elimination "in the usual 2-D sense does not work here, since a line may or may not be hidden depending on the viewer's head movement" — meaning the display had genuine view-dependent parallax. The mirror's rim carried 50 segmented weights so it flexed as a spherical cap with one circular node; mirror deflection was only 0.4 cm peak-to-peak, but a leverage factor of 85 produced the 33.8 cm image sweep. Two viewers could see the same 3D image simultaneously, and the report notes that "interactivity distinguishes SpaceGraph images from holographic images."
+* **Reaching into the image.** The 1981 AFHRL report's third result: "a new means was designed and brought near to operational status whereby the viewer can easily direct a pulsed laser beam into the image for the dual purposes of pointing and of selecting light buttons." This is a genuine reach-into-the-volume selection paradigm — the user aims a physical laser into floating 3D space and the machine reads which "light button" the beam strikes. A machine-erected cursor was listed as a future refinement, but the laser pointing was the interaction mechanism actually pursued. Applications documented in the report include outside-in views of aircraft and a 3D "bulls-eye" landing-approach display with error-bound volumes.
+* **Lineage: Traub, BBN, Genisco, and beyond.** The patent explicitly cites Alan C. Traub's varifocal work (US 3,493,290, 1970; MITRE M68-4, 1968) and adopts Traub's geometry correction. BBN's contribution was the stiff rim-weighted plate mirror replacing the tensioned membrane — enabling larger size, quieter operation, and writing on both half-cycles of the vibration. Genisco licensed the patent for its commercial SpaceGraph (6100/6600 series, ~$60–90k), which reached the Mayo Clinic's Dynamic Spatial Reconstructor group (IEEE Trans. Medical Imaging, 1986), Stanford, and geophysical users. A later BBN/Spacegraph Ltd. patent (US 4,462,044, 1984) covered the timing system, and a 1988 SPIE paper documented a PC-peripheral incarnation.
+* **Distinction from the collection.** Every other 3D exhibit in the museum is either stereoscopic (Sega SubRoc-3D, Vectrex 3D Imager, Fakespeare BOOM), head-tracked 2D (TELESAR), or a mirror illusion (Sega Hologram Time Traveler). The Spacegraph is the collection's only true volumetric display: real 3D points in air, view-dependent parallax, and a laser pointer aimed into the volume. It is the ancestor of every later volumetric display and, conceptually, of 3D spatial UIs.
+
+### Team
+
+* **Lawrence D. Sher.** BBN engineer; sole inventor of US Patent 4,130,832 "Three-dimensional display" (1977/1978); author of the 1981 AFHRL final report on the SpaceGraph in flight simulation.
+* **Bolt, Beranek and Newman (BBN).** Cambridge, MA research company; built the Spacegraph display and conducted the Air Force flight-simulator research (contract F33615-79-C-0013).
+* **Alan C. Traub.** MITRE engineer whose 1968–70 varifocal mirror work is the cited prior art and geometry-correction basis.
+* **Genisco Technology Corp.** Licensed the patent and sold the commercial SpaceGraph (1982–83), used at Mayo Clinic, Stanford, and elsewhere.
+
+### Media
+
+![Spacegraph display showing a space-filling image of an airplane model](../assets/wiki/spacegraph-photo-airplane.jpg)
+*Spacegraph space-filling image showing an airplane model used as a primitive display element. The transparency causes front-back confusion in the photograph but not in the actual 3D image. Figure 1, AFHRL-TR-80-60 (US Air Force, public domain).*
+
+![Spacegraph display showing two airplanes in true 3D](../assets/wiki/spacegraph-photo-two-planes.jpg)
+*Spacegraph space-filling image presenting the locations of two airplanes in true 3D — apparent from the actual display but not from a flat photograph. Figures 3–4, AFHRL-TR-80-60 (public domain).*
+
+![Spacegraph display showing an aerobatic maneuver in three dimensions](../assets/wiki/spacegraph-photo-aerobatic.jpg)
+*Spacegraph space-filling image showing an aerobatic maneuver with none of the confusion present in a 2D photograph. Figure 6, AFHRL-TR-80-60 (public domain).*
+
+### Sources
+
+1. US Patent 4,130,832 — Three-dimensional display (Sher, BBN, 1977/1978) — https://patents.google.com/patent/US4130832A/en
+2. AFHRL-TR-80-60 — Flight Simulator: Use of SpaceGraph Display in an Instructor/Operator Station (Sher, BBN, July 1981) — https://archive.org/details/micro_IA41153519_0766
+3. SPIE Proceedings 902 (1988) — Spacegraph, a true 3-D PC peripheral — https://ui.adsabs.harvard.edu/abs/1988SPIE..902...10S/abstract
+4. Harris, Camp, Ritman, Robb — IEEE Trans. Medical Imaging 1986 (Mayo Clinic varifocal display) — https://pubmed.ncbi.nlm.nih.gov/18243989/
+5. US Patent 4,462,044 — Timing system for a three dimensional vibrating mirror display (1984) — https://www.freepatentsonline.com/4462044.html
+6. Wikipedia — Volumetric display — https://en.wikipedia.org/wiki/Volumetric_display
+
+---
+
+## Bally Professional Arcade / Astrocade (1978)
+
+**By:** Dave Nutting Associates / Midway (Bally) — Bally BASIC by Jamie Fenton  
+**Tags:** `Console` `Input` `Programming` `Games` `Consumer`
+
+### Overview
+
+The Bally Professional Arcade (announced October 1977 as the "Bally Home Library Computer", released to stores April 1978 at $299) is a Zilog Z80-powered home video game console and simple computer, designed by Dave Nutting Associates for Midway, Bally's video game division. It was re-released by third parties as the Bally Computer System (1981) and the Astrocade (1982–85). The system has 4 KB RAM, 8 KB ROM, a 160×102 display with color registers (4 colors from a 256-color palette, expandable to 8 via a line-split trick), and built-in games plus a Calculator and a Scribbling doodle program.
+
+The controller is a pistol-style grip with a trigger switch on the front, a small 8-way joystick on top, and a potentiometer in the shaft so the stick rotates to double as a paddle — three input modes in one hand. The console front has a 24-key hex keypad. The defining oddity, though, is Bally BASIC (by Jamie Fenton, an expanded version of Li-Chen Wang's Palo Alto Tiny BASIC, first published 1978): because the 160×102 display consumed almost all RAM, the interpreter stored BASIC program code bit-interleaved inside the video RAM itself — even bits for program, odd bits for display, rendered invisible by remapping two of the four colors to the same white. This squeezed out 1,760 bytes of BASIC RAM. Programs were entered on the calculator keypad through a plastic overlay with four colored shift keys.
+
+### Deep dive
+
+* **Your program IS the pixels.** The display at 160×102 with 2 bits per pixel consumed 4,080 bytes — virtually all of the machine's 4 KB of RAM. To fit a BASIC interpreter at all, Fenton interleaved every bit of the program with the display: BASIC used the even-numbered bits, the display used the odd-numbered bits, and the interpreter read two bytes, dropped every odd bit, and reassembled one byte of code. The program was hidden in plain sight by setting two of the color register values to the same white, so the presence or absence of a program bit had no visible effect. Scavenging a few display lines (88 instead of 102) yielded 1,760 bytes for BASIC programs. The screen you watched was also the memory your program occupied — an extreme version of "the program lives in the display."
+* **Programming through a keypad overlay.** Programs were entered on the 24-key hex keypad with a plastic overlay mapping letters, symbols, and BASIC keywords, selected through four colored shift keys: typing WORD (gold shift) then "+" produced GOTO. A simple line editor was supported — after typing a line number, each press of the PAUSE key loaded the next character from memory. The machine was designed to be programmed the way you'd use a calculator, on a TV, in a living room. The keypad layout and bit-interleaved memory are the museum's strangest programming ritual outside the TI-59's magnetic cards.
+* **Three input modes in one grip.** The controller is a pistol grip with a trigger switch on the front, a small 4-switch/8-way joystick on top, and a shaft connected to a potentiometer so the stick rotates to double as a paddle controller. This hybrid — trigger, joystick, and rotating paddle in one hand — is the same "one grip, several grammars" idea as the Fairchild Channel F's twist-grip (both from 1976–78), but executed with a trigger plus a rotary joystick rather than a twist cap. Bally BASIC even exposes the inputs as functions: JX()/JY() for the joystick, KN() for the knob, TR() for the trigger.
+* **Distinction from the collection.** The museum's RCA Studio II (1977) has keypads on the console; the Coleco Telstar Arcade (1977) is a triangular body-as-controller; the Fairchild Channel F (1976) has a twist-grip. Bally adds a programmable console whose code is physically interleaved with its own display — no other exhibit makes the program memory and the picture the same RAM. The ZGRASS expansion (with its full keyboard and GRASS language, later released as the Datamax UV-1) completes the story of a console that tried to become a computer.
+
+### Team
+
+* **Dave Nutting Associates.** Designed the Bally system for Midway; led by Dave Nutting, designer of Bally arcade games like Wizard of Wor.
+* **Jamie Fenton.** Wrote Bally BASIC (1978), expanded from Li-Chen Wang's Palo Alto Tiny BASIC; later co-authored GRASS for ZGRASS.
+* **Midway / Bally Manufacturing.** Bally's video game division; announced and first released the system.
+* **Astrovision.** Third-party company that re-released the system as the Astrocade (1982–85).
+
+### Media
+
+![Bally Professional Arcade pistol-grip controller](../assets/wiki/bally-arcade-1.jpg)
+*The Bally Professional Arcade pistol-grip controller: trigger switch on the front, 8-way joystick on top, and a shaft that rotates to double as a paddle. Public domain (Evan-Amos), Wikimedia Commons.*
+
+![Bally Professional Arcade console](../assets/wiki/bally-console.jpg)
+*The Bally Professional Arcade console with its 24-key hex keypad on the front face. CC BY-SA 3.0 (Evan-Amos), Wikimedia Commons.*
+
+![Bally Professional Arcade motherboard](../assets/wiki/bally-motherboard.jpg)
+*Bally Professional Arcade motherboard, showing the Z80 CPU and the video display hardware. Public domain (Evan-Amos), Wikimedia Commons.*
+
+### Sources
+
+1. Wikipedia — Bally Astrocade — https://en.wikipedia.org/wiki/Bally_Astrocade
+2. Astro BASIC manual (Dick Ainsworth, 1982) — interleaved program/display memory details — https://en.wikipedia.org/wiki/Bally_Astrocade#Astro_BASIC
+3. Bally Alley — service manual and documentation archive — https://ballyalley.com/
+4. Radio-Electronics (April 1982) — Bally Arcade review by Marc Stern — https://archive.org/details/radio_electronics_1982-04
+5. The Dot Eaters — Bally Professional Arcade history — https://thedoteaters.com/?bitstory=bally-professional-arcade
