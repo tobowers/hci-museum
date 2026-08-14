@@ -192,7 +192,9 @@ Each entry includes an overview, a deep dive, a small media gallery, and full so
 183. [Meade LX200 (1992)](#meade-lx200-1992)
 184. [Fairchild Channel F (1976)](#fairchild-channel-f-1976)
 185. [BBN Spacegraph (1977)](#bbn-spacegraph-1977)
-186. [Bally Professional Arcade / Astrocade (1978)](#bally-professional-arcade--astrocade-1978)
+ 186. [Bally Professional Arcade / Astrocade (1978)](#bally-professional-arcade--astrocade-1978)
+ 187. [Minolta Talker (1984)](#minolta-talker-1984)
+ 188. [TSI Speech+ Talking Calculator (1976)](#tsi-speech-talking-calculator-1976)
 
 ---
 
@@ -9168,3 +9170,83 @@ The controller is a pistol-style grip with a trigger switch on the front, a smal
 3. Bally Alley — service manual and documentation archive — https://ballyalley.com/
 4. Radio-Electronics (April 1982) — Bally Arcade review by Marc Stern — https://archive.org/details/radio_electronics_1982-04
 5. The Dot Eaters — Bally Professional Arcade history — https://thedoteaters.com/?bitstory=bally-professional-arcade
+
+---
+
+## Minolta Talker (1984)
+
+**By:** Minolta Camera Co., Ltd.  
+**Tags:** `Speech` `Camera` `Consumer` `Voice` `Output`
+
+### Overview
+
+The Minolta Talker (model AF-Sv) is a 35mm point-and-shoot camera launched in 1984 and widely credited as the first talking camera. It is mechanically identical to the popular Minolta AF-S — 35mm f/2.8 Rokkor lens, active infrared autofocus, CdS programmed auto-exposure, Seiko two-blade shutter (1/8–1/625 s), pop-up flash, ISO 25–1000 — with a voice module added to the body, switched by an on/off control on the back door. Sold as the Talker in the United States and the Talkman in Japan (the Talkman, from September 1984, added a date back and a handgrip), it listed at about $129.50 in a 1984 New York City advertisement.
+
+The voice module speaks exactly three phrases, each wired to a sensor state: "Load film" (half-press with no film loaded), "Too dark, use flash" (flash down, slow shutter), and "Check distance" (flash up, subject beyond flash range). The shutter fires regardless of whether the photographer heeds the advice — the speech is guidance, not a gate. Period advertising sold the machine as "the world's easiest 35mm"; collectors later nicknamed it "the Minolta Mother-in-Law." A talking camera appears in the museum's speech-output family, but it is the only one whose speech watches the physical world and coaches a physical craft.
+
+### Deep dive
+
+* **The three phrases.** The Talker's entire vocabulary is three sentences, and each one is a sensor reading rendered as speech. "Load film" triggers when the film-pressure switch reports no film and the shutter is half-pressed. "Too dark, use flash" triggers when the meter reads a slow shutter speed with the flash down — the camera simultaneously lights a red LED in the viewfinder, so hearing and seeing work in parallel. "Check distance" triggers when the flash is up but the active-infrared rangefinder reports the subject beyond flash range. Because the shutter always fires, the machine never blocks the user; it announces what it thinks is wrong, and the photographer either fixes it or takes the picture anyway.
+* **Speech as an interface layer.** The Talker watches the same sensors every camera watches, but instead of only showing LEDs it narrates. The design intent — explicit in period advertising and reviews — was to make the 35mm camera usable by novices who would not think to look for a blinking viewfinder light. The voice module has an on/off switch so experienced photographers could silence it. Japanese-market units carried a three-position English/Japanese selector, and two independent owners report that US units speak Japanese if the switch is wedged to a middle position — evidence the hardware carried both language ROMs.
+* **Hardware.** The base camera is the Minolta AF-S, a fixed-lens autofocus compact with a 35mm f/2.8 Rokkor, active IR autofocus, CdS programmed AE, Seiko two-blade shutter, pop-up flash, and 2× AA batteries. The Talker adds a voice module powered by the same batteries, with its own small speaker. The speech IC is not publicly documented; period material and teardown reviews describe only "a voice chip." The camera sold at roughly $129.50 in 1984 and shipped with a standard instruction booklet.
+* **Legacy.** The Talker is generally credited as the first talking camera, and it is the best-known of the handful that followed; Polaroid's talking cameras (OneStep Talking, 636 Talking) came a decade later, in 1995–1998. Mike Eckman's 2021 review demonstrates all three phrases with audio, PetaPixel covered the camera in 2017, and camera-wiki and CollectiBlend document the AF-Sv/Talkman line. Working units still surface for a few dollars, and the camera appears regularly in discussions of speech synthesis in consumer devices — the same 1980s moment that produced the museum's TRS-80 Voice Synthesizer and the first talking calculators.
+
+### Team
+
+* **Minolta Camera Co., Ltd.** Manufacturer of the AF-S/AF-Sv/Talkman line; the engineers behind the voice module are unnamed in available sources.
+
+### Media
+
+![The Minolta Talker (AF-Sv) talking camera](../assets/wiki/minolta-talker.jpg)
+*The Minolta Talker (AF-Sv), the world's first talking 35mm camera. CC BY 2.0 (Joost J. Bakker), Wikimedia Commons.*
+
+### Sources
+
+1. Mike Eckman — Minolta AF-Sv Talker review (2021), with audio of all three phrases — https://mikeeckman.com/2021/08/minolta-af-sv-talker-review/
+2. PetaPixel — The Minolta Talker: the world's first talking camera (2017) — https://petapixel.com/2017/01/19/minolta-talker-worlds-first-talking-camera/
+3. camera-wiki.org — Minolta AF-Sv — https://camera-wiki.org/wiki/Minolta_AF-Sv
+4. Butkus camera manual archive — Minolta Talker manual PDF (primary source) — https://www.butkus.org/chinon/minolta/minolta_talker/minolta_talker.htm
+5. Jim Grey — Down the Road: Minolta Talker — https://www.jimgrey.net/2016/06/20/
+
+---
+
+## TSI Speech+ Talking Calculator (1976)
+
+**By:** Telesensory Systems Inc. (TSI), Palo Alto, California  
+**Tags:** `Speech` `Accessibility` `Calculator` `Consumer` `Output`
+
+### Overview
+
+The TSI Speech+ is the first commercial hand-held talking calculator. It went on sale in 1976 at US$395 (Popular Electronics covered it as "A Talking Calculator" in May 1976), made by Telesensory Systems Inc. of Palo Alto — the company behind the Optacon tactile reading machine and, later, the Optacon II (both in this museum). The Computer History Museum dates its example to c. 1975 and holds it in its permanent collection (object 102628744).
+
+The calculator has an 8-digit red LED display and speaks both the keys pressed and the displayed number through a small speaker. The keypad deliberately uses the layout of a touch-tone telephone (1 at top-left, 9 at bottom-right) rather than a conventional calculator layout, because TSI reasoned that blind users would already be familiar with a telephone keypad. Power is a knob at the top that is pulled to switch on and then acts as the volume control. Below the "=" key sits a loudspeaker-symbol key that speaks the display; a slide switch turns off speech for all keys except that speaker key, so experienced users can work silently while still being able to ask "what's the answer?" The machine says "clear" on power-up, and a word in progress is interrupted immediately when a new key is pressed.
+
+### Deep dive
+
+* **Interaction model: a calculator you hear.** The Speech+ treats sound as the primary output channel. Every keystroke is spoken — digits and operators, and cleverly, the change-sign key, which says "times minus" because its two-word reading cost only two extra bytes in the ROM. A dedicated speaker key announces the displayed value at any time, regardless of the mute-switch setting. Because any new word interrupts the current one, rapid keying produces a fast staccato readout rather than a backlog. This auditory-verification loop — type, hear, correct — is exactly how a sighted user reads a display, transposed into a modality a blind user can monitor. The operating instructions shipped on an audio cassette tape: even the manual was audio-first.
+* **The telephone keypad decision.** TSI's choice to arrange the keys like a telephone (1 at top-left) rather than a calculator (7 at top-left) is a deliberate, documented, accessibility-first ergonomic decision. Ed Bernard, the S14001A designer, recorded it: "This was an intentional decision by TSI as it was felt that the blind would already be familiar with a phone, but not a calculator." The phone layout became a small convention of its own in later talking calculators aimed at blind users.
+* **The S14001A and Mozer's algorithm.** Silicon Systems Inc. was approached in March 1975 to integrate Forrest Mozer's speech-synthesis algorithm into a single chip. The S14001A was a p-channel, depletion-load, two-phase dynamic-logic chip of about 1,500 transistors running at 13 kHz, with an on-board 4-bit D/A converter built from four parallel capacitors. Mozer's compression exploited properties of human hearing: voiced speech repeats its waveform each pitch period and the ear is insensitive to phase, so only a quarter of each pitch period was stored — the second quarter played the first in reverse, and the second half of the period was silence. Levels were quantized to 4 bits and stored as 2-bit deltas. The result: a 24-word vocabulary in a 4K mask ROM. The calculator chip, a TI TMC1007NL, is from the same TMS1000 family that powers the museum's Simon, Merlin, and Little Professor.
+* **Legacy and the Tonight Show.** The Speech+ was "the first commercial hand-held speaking calculator and a very early use of speech synthesis in a consumer product" (Nigel Tout's Vintage Calculators) — predating the Speak & Spell by two years. A demo unit loaned to Johnny Carson for a Tonight Show "new gadget" segment so delighted him that he refused to return it. The S14001A lives on in emulation: Sean Riddle has decapped and fully documented the chip with die shots and ROM dumps, and the speech chip is emulated in MAME. The device anchors the story TSI told across two decades of assistive computing: the same company gave blind users the Optacon (tactile), the Speech+ (aural), and later the Optacon II — a coherent family of sensory-substitution interfaces, three corners of which now sit in this museum.
+* **Distinction from the collection.** TI-59 (1977) and TI Little Professor (1976) are silent; TRS-80 Voice Synthesizer (1979) is a computer peripheral that reads screen memory; Minolta Talker (1984) is a camera that advises. The Speech+ is the museum's only hand-held computer whose primary output channel is speech — and it is the earliest speech-synthesis consumer product in the collection.
+
+### Team
+
+* **Telesensory Systems Inc. (TSI).** Palo Alto manufacturer of the Speech+ and the Optacon; commissioned the S14001A and custom-programmed the TMC1007NL calculator chip.
+* **Forrest S. Mozer.** UC Berkeley physics professor; author of the speech-synthesis algorithm licensed for the Speech+, compressing 24 words into 4K of ROM.
+* **Ed Bernard.** Silicon Systems Inc. design engineer for the S14001A speech chip (1975); documented the chip's architecture in detail for Vintage Calculators (2015).
+* **Grant Still Shatto II.** Silicon Systems lead mask designer for the S14001A; the demo unit he was given appeared on the Johnny Carson Show.
+* **Silicon Systems Inc. (SSi).** Tustin, CA IC design house that developed and supplied the S14001A and the S14007 mask ROM.
+
+### Media
+
+![The TSI Speech+ talking calculator](../assets/wiki/tsi-speech-plus.jpg)
+*The TSI Speech+ (S1C model), the first commercial talking calculator, with its telephone-layout keypad. CC BY-SA 3.0 (MaltaGC), Wikimedia Commons.*
+
+### Sources
+
+1. Vintage Calculators (Nigel Tout) — TSI Speech+ and other speaking calculators — https://www.vintagecalculators.com/html/speech-.html
+2. Vintage Calculators (Nigel Tout) — The Development of the TSI Speech+ (Ed Bernard, Grant Still Shatto, 2015) — https://www.vintagecalculators.com/html/development_of_the_tsi_speech-.html
+3. Computer History Museum — TSI SPEECH+ (revolution exhibit page) — https://www.computerhistory.org/revolution/calculators/1/63/253
+4. Computer History Museum collection — TSI Speech+ model S1C (102662875) — https://www.computerhistory.org/collections/catalog/102662875
+5. Sean Riddle — TSI Speech+ teardown, die shots, and ROM dumps — http://seanriddle.com/tsispeechplus.html
+6. Popular Electronics, May 1976 — "A Talking Calculator" (period source, cited via Vintage Calculators) — https://www.vintagecalculators.com/html/speech-.html

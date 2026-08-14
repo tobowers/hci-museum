@@ -2285,6 +2285,32 @@ const exhibitData: Exhibit[] = [
     tags: ["Console", "Input", "Programming", "Games", "Consumer"],
     image: img("bally-arcade-1.jpg"),
   },
+  {
+    id: "minolta-talker",
+    slug: "minolta-talker",
+    wikiTitle: "Minolta Talker",
+    year: "1984",
+    sortYear: 1984,
+    title: "Minolta Talker",
+    subtitle: "The camera that talks back — three spoken phrases coach your photography",
+    blurb:
+      "Minolta's 1984 point-and-shoot watched its own sensors and spoke guidance at you mid-gesture: 'Load film,' 'Too dark, use flash,' 'Check distance.' The shutter always fired regardless, so the voice was pure advice — the world's first talking camera, a kind machine with a mother-in-law's mouth.",
+    tags: ["Speech", "Camera", "Consumer", "Voice", "Output"],
+    image: img("minolta-talker.jpg"),
+  },
+  {
+    id: "tsi-speech-plus",
+    slug: "tsi-speech-plus",
+    wikiTitle: "TSI Speech+ Talking Calculator",
+    year: "1976",
+    sortYear: 1976,
+    title: "TSI Speech+ Talking Calculator",
+    subtitle: "The first talking calculator — you hear every key you press",
+    blurb:
+      "Telesensory Systems sold this $395 calculator in 1976 for blind users, and made its keypad a telephone layout on purpose. Every keystroke was spoken back, a speaker key read the display aloud, and the instruction manual came on cassette. Its S14001A speech chip fit 24 words into 4K of ROM — and predated Speak & Spell by two years.",
+    tags: ["Speech", "Accessibility", "Calculator", "Consumer", "Output"],
+    image: img("tsi-speech-plus.jpg"),
+  },
 ];
 
 export const exhibits: Exhibit[] = exhibitData.toSorted((a, b) => b.sortYear - a.sortYear || a.title.localeCompare(b.title));
