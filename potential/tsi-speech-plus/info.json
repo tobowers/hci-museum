@@ -1,0 +1,106 @@
+{
+  "slug": "tsi-speech-plus",
+  "title": "TSI Speech+ Talking Calculator",
+  "year": "1976",
+  "subtitle": "the first speaking calculator, designed so the blind could hear every keystroke",
+  "why_scout_cares": "The museum loves the moment a consumer machine chooses its output channel. The TSI Speech+, sold in 1976 for $395 by Telesensory Systems — the same Palo Alto company that built the Optacon — is the first commercial hand-held talking calculator and arguably the first consumer product built around speech synthesis (it predates Speak & Spell by two years). Its interaction model is a quiet revolution in layout: the keypad is arranged like a TELEPHONE, not a calculator, because the intended users — blind people — know phones. Every key you press is spoken back to you, and a dedicated loudspeaker button reads the display aloud. Power is a knob you pull out, which doubles as the volume control. There is even a mute switch for experts that still lets the readout key speak. It is a calculator whose primary interface is your ears, and it came with its instruction manual recorded on an audio cassette.",
+  "search_terms": [
+    "TSI Speech+",
+    "Telesensory speech calculator",
+    "first talking calculator 1976",
+    "S14001A speech chip",
+    "Mozer speech synthesis"
+  ],
+  "research": {
+    "title": "TSI Speech+ Talking Calculator",
+    "year": "1976",
+    "by": "Telesensory Systems Inc. (TSI), Palo Alto, California",
+    "tags": [
+      "Speech",
+      "Accessibility",
+      "Calculator",
+      "Consumer",
+      "Output"
+    ],
+    "overview": "The TSI Speech+ is the first commercial hand-held talking calculator. It went on sale in 1976 at US$395 (Popular Electronics covered it as 'A Talking Calculator' in May 1976), made by Telesensory Systems Inc. of Palo Alto — the company that produced the Optacon tactile reading machine and, later, the Optacon II (already in this museum). The Computer History Museum dates its example to c. 1975 and holds it in its permanent collection (object 102628744).\n\nThe calculator has an 8-digit red LED display and speaks both the keys pressed and the displayed number through a small speaker. The keypad deliberately uses the layout of a touch-tone telephone (1 at top-left, 9 at bottom-right) rather than a conventional calculator layout, because TSI reasoned that blind users would already be familiar with a telephone keypad. Power is a knob at the top that is pulled to switch on and then acts as the volume control. Below the '=' key sits a loudspeaker-symbol key that speaks the display; a slide switch below it turns off the speech for all keys except that speaker key — so experienced users could work silently while still being able to ask 'what's the answer?' The machine says 'clear' on power-up, and a word in progress is interrupted immediately when a new key is pressed.\n\nThe hardware is a study in early speech synthesis. The calculator is built on a Texas Instruments TMC1007NL — a TMS1000-family 4-bit microcontroller that TSI custom-programmed 'so that we could dictate the way the calculator works and design the keyboard.' The speech comes from a TSI S14001A speech-synthesis chip designed by Silicon Systems Inc. (lead engineer Ed Bernard) plus a General Instrument S14007 mask ROM holding the spoken data. The speech algorithm was licensed from Forrest S. Mozer, a UC Berkeley physics professor, and it compressed the 24-word vocabulary into a 4K ROM using a quarter-period-mirroring and 2-bit-delta scheme. The device came with its operating instructions recorded on an audio cassette tape. A German-language ROM version followed in 1976–77, and the American Printing House for the Blind distributed a version (model S1D) to schools.",
+    "deepDive": [
+      {
+        "heading": "Interaction model: a calculator you hear",
+        "text": "The Speech+ treats sound as the primary output channel. Every keystroke is spoken — digits, operators, and cleverly, the change-sign key, which says 'times minus' because its two-word reading cost only two extra bytes in the ROM. A dedicated speaker key (marked with a loudspeaker symbol, below '=') announces the displayed value at any time, regardless of the mute switch setting. The speech can be silenced with a slide switch for experienced users, but even then the speaker key still works. Because any new word interrupts the current one, rapid keying produces a fast staccato readout rather than a backlog. On power-up the machine says 'clear,' putting the synthesizer into a known state. This auditory-verification loop — type, hear, correct — is exactly how a sighted user reads a display, transposed into a modality a blind user can monitor."
+      },
+      {
+        "heading": "The telephone keypad decision",
+        "text": "TSI's choice to arrange the keys like a telephone (1 at top-left, 9 at bottom-right) rather than a calculator (7 at top-left, 3 at bottom-right) is the museum's favorite kind of design detail: a deliberate, documented, accessibility-first ergonomic decision. Ed Bernard, the S14001A designer, recorded it explicitly: 'Note that it is not the conventional calculator keypad... Rather it matches that of a touch tone telephone. This was an intentional decision by TSI as it was felt that the blind would already be familiar with a phone, but not a calculator.' The phone layout became a small convention of its own in talking calculators aimed at blind users."
+      },
+      {
+        "heading": "The S14001A and Mozer's algorithm",
+        "text": "Silicon Systems Inc. was approached in March 1975 to integrate Forrest Mozer's speech-synthesis algorithm into a single chip. The S14001A was a p-channel, depletion-load, two-phase dynamic-logic chip of about 1,500 transistors running at 13 kHz, with an on-board 4-bit D/A converter built from four parallel capacitors (16, 8, 4, and 2 pF). Mozer's compression exploited properties of human hearing: voiced speech repeats its waveform each pitch period, and the ear is insensitive to phase, so only a quarter of each pitch period was stored — the second quarter played the first in reverse, and the second half of the period was silence. Levels were quantized to 4 bits and stored as 2-bit deltas. The result: a 24-word vocabulary in a 4K mask ROM. The chip's calculator partner, the TMC1007NL, is the same TMS1000 family that powers the museum's Simon, Merlin, and Little Professor."
+      },
+      {
+        "heading": "Legacy and the Tonight Show",
+        "text": "The Speech+ was 'the first commercial hand-held speaking calculator and a very early use of speech synthesis in a consumer product' (Nigel Tout's Vintage Calculators). A demo unit loaned to Johnny Carson for a Tonight Show 'new gadget' segment so delighted him that he refused to return it. The S14001A lives on in emulation: Sean Riddle has decapped and fully documented the chip with die shots and ROM dumps, and the speech chip is emulated in MAME. The device also anchors the story TSI told across two decades of assistive computing: the same company gave blind users the Optacon (tactile), the Speech+ (aural), and later the Optacon II — a coherent family of sensory-substitution interfaces that this museum now holds three corners of."
+      }
+    ],
+    "team": [
+      {
+        "name": "Telesensory Systems Inc. (TSI)",
+        "note": "Palo Alto manufacturer of the Speech+ and the Optacon; commissioned the S14001A and custom-programmed the TMC1007NL calculator chip"
+      },
+      {
+        "name": "Forrest S. Mozer",
+        "note": "UC Berkeley physics professor; author of the speech-synthesis algorithm licensed for the Speech+, compressing 24 words into 4K of ROM"
+      },
+      {
+        "name": "Ed Bernard",
+        "note": "Silicon Systems Inc. design engineer for the S14001A speech chip (1975); documented the chip's architecture in detail for Vintage Calculators (2015)"
+      },
+      {
+        "name": "Grant Still Shatto II",
+        "note": "Silicon Systems lead mask designer for the S14001A; the demo unit he was given appeared on the Johnny Carson Show"
+      },
+      {
+        "name": "Silicon Systems Inc. (SSi)",
+        "note": "Tustin, CA IC design house that developed and supplied the S14001A and the S14007 mask ROM"
+      }
+    ],
+    "media": [
+      {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/3/3b/TSI_Speech%2B_Talking_Calculator_01.jpg",
+        "alt": "The TSI Speech+ talking calculator: a dark hand-held calculator with a telephone-layout keypad, an LED display, and a speaker",
+        "caption": "The TSI Speech+ (S1C model), the first commercial talking calculator. CC BY-SA 3.0 (MaltaGC), Wikimedia Commons."
+      }
+    ],
+    "sources": [
+      {
+        "text": "Vintage Calculators (Nigel Tout) — TSI Speech+ and other speaking calculators",
+        "url": "https://www.vintagecalculators.com/html/speech-.html"
+      },
+      {
+        "text": "Vintage Calculators (Nigel Tout) — The Development of the TSI Speech+ (Ed Bernard, Grant Still Shatto, 2015)",
+        "url": "https://www.vintagecalculators.com/html/development_of_the_tsi_speech-.html"
+      },
+      {
+        "text": "Computer History Museum — TSI SPEECH+ (revolution exhibit page)",
+        "url": "https://www.computerhistory.org/revolution/calculators/1/63/253"
+      },
+      {
+        "text": "Computer History Museum collection — TSI Speech+ model S1C (102662875)",
+        "url": "https://www.computerhistory.org/collections/catalog/102662875"
+      },
+      {
+        "text": "Sean Riddle — TSI Speech+ teardown, die shots, and ROM dumps",
+        "url": "http://seanriddle.com/tsispeechplus.html"
+      },
+      {
+        "text": "Popular Electronics, May 1976 — 'A Talking Calculator' (period source, cited via Vintage Calculators)",
+        "url": "https://www.vintagecalculators.com/html/speech-.html"
+      }
+    ],
+    "imageUrls": [
+      "https://upload.wikimedia.org/wikipedia/commons/3/3b/TSI_Speech%2B_Talking_Calculator_01.jpg"
+    ]
+  },
+  "savedImages": [
+    "images/tsi-speech-plus.jpg"
+  ]
+}
