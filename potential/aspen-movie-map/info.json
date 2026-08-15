@@ -1,0 +1,47 @@
+{
+  "slug": "aspen-movie-map",
+  "title": "Aspen Movie Map",
+  "year": "1978",
+  "subtitle": "The filmed city you could drive through with a touchscreen — surrogate travel before Street View",
+  "why_scout_cares": "The Aspen Movie Map is the museum's first surrogate-travel artifact: navigating recorded reality itself, not a simulation of it. A touchscreen menu overlaid on live laserdisc video lets you set speed and viewing angle, switch seasons mid-drive, jump into buildings, and zoom a map 'à la Powers of Ten.' It is the direct ancestor of Google Street View and the interactive-video kiosk, fills the spatial-media-navigation gap entirely (Domesday's later 'surrogate walks' are explicitly downstream), and has a surviving physical artifact: the 'Aspen 4' laserdisc, preserved by the Domesday86 project.",
+  "search_terms": ["Aspen Movie Map", "surrogate travel", "MIT Architecture Machine Group", "interactive videodisc", "hypermedia"],
+  "research": {
+    "title": "Aspen Movie Map",
+    "year": "1978",
+    "by": "MIT Architecture Machine Group (ArcMac)",
+    "tags": ["HCI", "Output", "Spatial", "Research", "Video"],
+    "overview": "The Aspen Movie Map, developed at MIT's Architecture Machine Group from 1978 to 1981 with ARPA funding, was a hypermedia system that let a user take a virtual tour — a form of 'surrogate travel' — through the city of Aspen, Colorado. Film was captured from a car fitted with a gyroscopic stabilizer and four 16mm stop-frame cameras (front, back, and two sides), triggered every ten feet by an optical encoder on a bicycle wheel dragged behind the vehicle. Filming ran daily between 10 a.m. and 2 p.m. to keep lighting consistent, and the car was driven down the center of every street to produce registered match cuts.\n\nThe film was assembled into segments (one per view per city block) and transferred to laserdisc, an analog-video format. A database correlated the disc layout with the two-dimensional street plan, and an Interdata minicomputer running the MagicSix operating system acted as client/server: the client handled user input and overlay graphics, the server controlled the laserdisc players and retrieved data. Video, audio, still images, and metadata were assembled on the fly in response to the user — 'video was the principal, but not sole affordance of the interaction.'\n\nThe interface was a dynamically generated menu overlaid on the live video, operated through a touch screen — a harbinger of the interactive-video kiosk. Users set speed and viewing angle by touching icons, switched seasons (summer/winter) mid-drive, jumped to a two-dimensional city map with aerial and cartoon renderings, zoomed in and out à la the Eameses' Powers of Ten, and touched any building in view to jump to its facade, complete with interior shots, historical silver-mining photos, and video interviews of city officials. The military framing: DARPA wanted a way to quickly familiarize soldiers with hostile territory after Operation Entebbe.",
+    "deepDive": [
+      {"heading": "The capture rig", "text": "A gyroscopic stabilizer built by John Borden of Peace River Films carried four 16mm stop-frame cameras on a car roof. An optical sensor on a dragged bicycle wheel triggered the cameras every ten feet; front, back, and side views were captured as the car traversed the center of every Aspen street. Michael Naimark (Center for Advanced Visual Studies) led cinematography design; filming happened in fall 1978, winter 1979, and again in fall 1979. The first operational version ran in early spring 1979."},
+      {"heading": "The touchscreen interface", "text": "Walter Bender designed and built the interface, the client/server model, and the animation system. A dynamically generated menu was overlaid on the video; touching icons changed speed and viewing angle, selected directions at intersections, and toggled seasons. A navigation map above the horizon showed the user's position and a trace of streets already explored. A 3D polygonal model of the city was built with the Quick and Dirty Animation System (QADAS), including texture-mapped facades of landmark buildings (algorithm by Paul Heckbert); the same 3D model translated 2D screen coordinates into a building database, enabling image-map-style hyperlinks years before web image maps."},
+      {"heading": "Building hyperlinks, 1979-style", "text": "Touching any building in view could jump to its facade. Selected buildings held additional data: interior shots, historical images, menus of restaurants, and Cinéma vérité interviews of city officials shot by Richard Leacock and Marek Zalewski. Scott Fisher matched historical silver-mining photos to the same scenes as they looked in 1978. In a later implementation, metadata was encoded as a digital signal inside the analog video frames, so each frame carried everything needed for a full-featured surrogate-travel experience."},
+      {"heading": "The surviving artifact", "text": "The actual laserdisc, labeled 'Aspen 4', survives — one copy, loaned by Brent Greissle to the Domesday86 project, which duplicated it in 2019 despite heavy laser rot and published a full frame-number index. Domesday86's interactive documentary and the 1981 MIT film 'The Interactive Movie Map: A Surrogate Travel System' document the system. The production of a single 13-inch disc master cost about $300,000; a keyboard, joystick, or trackball of the day sold for around $1,200 each, a 19-inch Ikegami CRT about $5,000 OEM."},
+      {"heading": "Lineage", "text": "Wikipedia calls the Aspen Movie Map 'perhaps more accurately a pioneering example of interactive computing' than interactive video, and lists Google Street View under 'See also.' Its 'surrogate travel' concept was inherited by the BBC Domesday Project's surrogate walks (already in this museum) — but Aspen is the original: the first time recorded reality itself was navigable, and the direct ancestor of the interactive-video kiosk."}
+    ],
+    "team": [
+      {"name": "MIT Architecture Machine Group", "note": "Led by Nicholas Negroponte; found ARPA (DARPA Cybernetics Technology Office) funding for the project."},
+      {"name": "Andrew Lippman", "note": "Principal investigator and program director of the project."},
+      {"name": "Walter Bender", "note": "Designed and built the interface, the client/server model, and the animation system."},
+      {"name": "Michael Naimark", "note": "Center for Advanced Visual Studies; cinematography design and production."},
+      {"name": "Bob Mohl", "note": "Designed the map overlay system and ran user studies for his PhD thesis on spatial learning."},
+      {"name": "Peter Clay", "note": "MIT undergraduate whose idea the project grew from; filmed the hallway precursor with a camera on a cart."},
+      {"name": "Paul Heckbert", "note": "Texture-mapping algorithm for the QADAS 3D city model."},
+      {"name": "Richard Leacock & Marek Zalewski", "note": "Shot the Cinéma vérité interviews behind key building facades."}
+    ],
+    "media": [
+      {"src": "https://commons.wikimedia.org/wiki/File:QADAS.jpg", "alt": "QADAS texture-mapped 3D model of Aspen used by the Movie Map", "caption": "QADAS (Quick and Dirty Animation System), the texture-mapped 3D city model built at the Architecture Machine Group in 1979 for the Aspen Movie Map. CC BY-SA 3.0, Walter Bender, Wikimedia Commons."},
+      {"src": "https://www.domesday86.com/?page_id=3028", "alt": "Frame captured from the surviving Aspen 4 laserdisc", "caption": "Frame from the surviving 'Aspen 4' laserdisc, captured and preserved by the Domesday86 project (CC BY-SA 4.0). Only one copy of the disc is known."},
+      {"src": "https://www.domesday86.com/?page_id=3028", "alt": "Surrogate-travel frames from the Aspen Movie Map laserdisc", "caption": "Surrogate-travel frames from the Aspen Movie Map laserdisc: driving down Aspen's streets, filmed with four 16mm cameras on a stabilized car roof. Domesday86 project, CC BY-SA 4.0."}
+    ],
+    "sources": [
+      {"text": "Wikipedia — Aspen Movie Map", "url": "https://en.wikipedia.org/wiki/Aspen_Movie_Map"},
+      {"text": "Michael Naimark — Aspen the Verb / project page", "url": "https://www.naimark.net/projects/aspen.html"},
+      {"text": "Domesday86 — The Interactive Movie Map (MIT): disc analysis and restoration", "url": "https://domesday86.com/?page_id=3028"},
+      {"text": "Lippman, 'Movie-maps: An application of the optical videodisc to computer graphics,' SIGGRAPH 1980, pp. 32-42", "url": "https://dl.acm.org/doi/10.1145/800250.807478"},
+      {"text": "Mohl, 'Cognitive space in the interactive movie map' (MIT PhD thesis, 1982)", "url": "https://dspace.mit.edu/handle/1721.1/15678"},
+      {"text": "'The Interactive Movie Map: A Surrogate Travel System' (1981 MIT film, YouTube)", "url": "https://www.youtube.com/watch?v=Hf6LkqgXPMU"}
+    ],
+    "imageUrls": ["https://commons.wikimedia.org/wiki/File:QADAS.jpg", "https://www.domesday86.com/wp-content/uploads/2019/10/frame-42757.jpg"]
+  },
+  "savedImages": ["images/aspen-qadas.jpg", "images/aspen-frame-42757.jpg", "images/aspen-frame-99.jpg"]
+}
