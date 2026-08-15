@@ -1,0 +1,110 @@
+{
+  "slug": "imsai-8080",
+  "title": "IMSAI 8080",
+  "year": "1976",
+  "subtitle": "A computer you program one toggle switch at a time — the front panel is the entire interface",
+  "why_scout_cares": "The IMSAI 8080 is the purest front-panel machine of the early microcomputer era and the museum has nothing at the bit-level interface: no OS, no monitor, no keyboard. The human is the boot loader, the monitor, and the assembler. Its manual even ships a game played by flipping the front-panel sense switches and watching the programmed-output LEDs — the panel doubles as a game controller. A completely new interaction family for the collection.",
+  "search_terms": [
+    "IMSAI 8080",
+    "front panel toggle switch computer",
+    "octal programming",
+    "S-100 bus",
+    "WarGames computer"
+  ],
+  "research": {
+    "title": "IMSAI 8080",
+    "year": "1976",
+    "by": "IMS Associates / IMSAI Manufacturing Corp, San Leandro, California",
+    "tags": ["HCI", "Computer", "Input", "Programming", "Consumer"],
+    "overview": "The IMSAI 8080 was the first clone of the MITS Altair 8800, built by William Millard's IMS Associates (later IMSAI Manufacturing Corp) in San Leandro, California, after chief engineer Joe Killian decided MITS could not be relied on as a parts supplier. Advertised in Popular Electronics in October 1975, the first kits shipped on 16 December 1975, and the machine was produced through 1978. It sold for $439 as a kit or $621 assembled with 1KB of RAM, and roughly 17,000–20,000 units were built. It was also the first major supplier of the CP/M operating system.\n\nWhat makes it an HCI artifact rather than just an important computer is the front panel: in the basic configuration there is no ROM monitor, no operating system, no keyboard and no display — just 16 address switches, 8 data switches, a group of 8 sense switches, 6 control switches, and rows of red LEDs for address, data-bus, status, and programmed-output. Programming meant resetting the machine, setting the address switches to zero, EXAMINEing location 0, toggling the 8 data switches to the next byte of machine code, and DEPOSITing it — then DEPOSIT NEXT, byte after byte, for the whole program. The operator was the boot loader, the memory monitor, and the assembler combined.\n\nThe manual is explicit about the strangest consequence: the left-hand group of 8 switches is a programmable input port (readable at port FF hex / 377 octal) and the programmed-output LEDs are a display, so the panel itself becomes a game controller. The manual's 'Program 3' is a game in which a bit pattern circulates across the eight output lights while the player flips the matching input switches at exactly the right instant to turn the lights off or on, racing for the shortest time to clear the board.",
+    "deepDive": [
+      {
+        "heading": "Origins and team",
+        "text": "William Millard founded IMS Associates in May 1972 as a computer consultancy (IMS stood for Information Management Services). After the Altair appeared, chief engineer Joe Killian decided the company could build its own, better machine — an Altair clone on the S-100 bus. The result was advertised in Popular Electronics in October 1975, and production ran from late 1975 to 1978 before the company fell into bankruptcy in October 1979."
+      },
+      {
+        "heading": "The interaction: toggling a program into existence",
+        "text": "From the IMSAI 8080 user manual: 'A full set of 16 address switches and 6 control function switches accept operator control and input,' with indicators for address, data-bus, status, and programmed output. To run even a trivial program the operator flips RESET, sets the address switches to zero, raises EXAMINE to verify location 0, sets the 8 data switches to the first byte's bit pattern, and raises DEPOSIT (or DEPOSIT NEXT, which auto-increments). This is repeated for every byte of the program — the manual's own first test program is seven bytes long — then EXAMINE NEXT walks memory to verify, and SINGLE STEP watches each instruction cycle crawl across the status and data LEDs. Any mistake meant re-entering bytes. The Smithsonian's own object record notes this type of programming 'was very slow and tedious — any mistake could corrupt the system and you'd have to start over again. Only true hackers were successfully efficient at operating an IMSAI 8080.'"
+      },
+      {
+        "heading": "The front panel as game controller",
+        "text": "The manual's Program 3 is a game 'using the INPUT switches and the PROGRAMMED OUTPUT lights on the IMSAI 8080 front panel.' A bit pattern is shifted left across the 8 programmed-output LEDs; each time a switch in the input group is moved, the light directly above it toggles. Players race to turn all the lights off (or all on), and the rotation speed is set at reset time by the binary value on the switches. The machine reads the sense switches as an input port (address FF hex) and drives the output LEDs with an output instruction to the same port. In 1976, the front panel was simultaneously the boot loader, the debugger, and the game controller."
+      },
+      {
+        "heading": "WarGames and legacy",
+        "text": "The IMSAI 8080 is the computer the teenage protagonist uses in the 1983 film WarGames to call out to 'Joshua' and stumble into NORAD's wargame computer — cementing the front-panel machine as the visual shorthand for the computer age. Collectors today pay from a few hundred dollars for incomplete units to thousands for working systems; the Smithsonian National Museum of American History, the Computer History Museum, and the University of Waterloo's computer museum all hold examples."
+      },
+      {
+        "heading": "Distinction from the collection",
+        "text": "RCA Studio II and Fairchild Channel F are cartridge consoles; Rockwell AIM-65 (1978, in the museum) already has a keyboard and a monitor in ROM. The IMSAI 8080 is the museum's first artifact whose entire interface is raw binary: no characters, no screen, no abstraction between the human and the bus."
+      }
+    ],
+    "team": [
+      {
+        "name": "IMS Associates / IMSAI Manufacturing Corporation",
+        "note": "San Leandro, California company that designed, advertised, and built the IMSAI 8080."
+      },
+      {
+        "name": "William Millard",
+        "note": "Founder of IMS Associates; later sold the ComputerLand chain of retail computer stores."
+      },
+      {
+        "name": "Joe Killian",
+        "note": "Chief engineer who decided to build an Altair clone after MITS could not supply parts."
+      }
+    ],
+    "media": [
+      {
+        "src": "https://commons.wikimedia.org/wiki/File:Imsai_8080_(16564363388).jpg",
+        "alt": "IMSAI 8080 with its front-panel toggle switches and LED indicators",
+        "caption": "An IMSAI 8080 — the front panel with its 16 address switches, 8 data switches, 8 sense switches and rows of LEDs is the entire user interface. CC0, Wikimedia Commons."
+      },
+      {
+        "src": "https://commons.wikimedia.org/wiki/File:IMSAI_8080,_cropped.jpg",
+        "alt": "Close-up of the IMSAI 8080 front panel",
+        "caption": "Close-up of the IMSAI 8080 front panel: color-coded paddle switches and status, address and data indicators. CC BY-SA 4.0 (Morn), Wikimedia Commons."
+      },
+      {
+        "src": "https://commons.wikimedia.org/wiki/File:IMSAI_8080_computer_at_the_Computer_History_Museum.jpg",
+        "alt": "IMSAI 8080 on display at the Computer History Museum",
+        "caption": "IMSAI 8080 on display at the Computer History Museum. CC BY 2.0, Wikimedia Commons."
+      }
+    ],
+    "sources": [
+      {
+        "text": "Wikipedia — IMSAI 8080",
+        "url": "https://en.wikipedia.org/wiki/IMSAI_8080"
+      },
+      {
+        "text": "IMSAI 8080 User Manual (primary source, archive.org)",
+        "url": "https://archive.org/details/imsai-8080-user-manual"
+      },
+      {
+        "text": "S100 Computers — IMSAI history",
+        "url": "http://www.s100computers.com/Hardware%20Folder/IMSAI/History/History.htm"
+      },
+      {
+        "text": "oldcomputers.net — IMSAI 8080",
+        "url": "http://oldcomputers.net/imsai8080.html"
+      },
+      {
+        "text": "Smithsonian NMAH — IMSAI 8080 object record",
+        "url": "https://americanhistory.si.edu/collections/search/object/nmah_1422364"
+      },
+      {
+        "text": "University of Waterloo Computer Museum — IMSAI 8080",
+        "url": "https://uwaterloo.ca/computer-museum/blog/featured-artifact-imsai-8080"
+      }
+    ],
+    "imageUrls": [
+      "https://upload.wikimedia.org/wikipedia/commons/d/d3/Imsai_8080_%2816564363388%29.jpg",
+      "https://upload.wikimedia.org/wikipedia/commons/2/26/IMSAI_8080%2C_cropped.jpg",
+      "https://upload.wikimedia.org/wikipedia/commons/f/fe/IMSAI_8080_computer_at_the_Computer_History_Museum.jpg"
+    ]
+  },
+  "savedImages": [
+    "assets/wiki/imsai-8080-wargames.jpg",
+    "assets/wiki/imsai-8080-front-panel.jpg",
+    "assets/wiki/imsai-8080-chm.jpg"
+  ]
+}

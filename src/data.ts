@@ -2311,6 +2311,45 @@ const exhibitData: Exhibit[] = [
     tags: ["Speech", "Accessibility", "Calculator", "Consumer", "Output"],
     image: img("tsi-speech-plus.jpg"),
   },
+  {
+    id: "imsai-8080",
+    slug: "imsai-8080",
+    wikiTitle: "IMSAI 8080",
+    year: "1976",
+    sortYear: 1976,
+    title: "IMSAI 8080",
+    subtitle: "A computer you program one toggle switch at a time — the front panel is the entire interface",
+    blurb:
+      "No OS, no monitor, no keyboard: the IMSAI 8080's front panel was the whole user interface, and the human was the boot loader. Flip the address and data switches to deposit one byte at a time, single-step the machine watching the LEDs, and even play the manual's own game by flipping the sense switches — the panel doubles as a game controller.",
+    tags: ["Computer", "Input", "Programming", "Consumer"],
+    image: img("imsai-8080-wargames.jpg"),
+  },
+  {
+    id: "kim-1",
+    slug: "kim-1",
+    wikiTitle: "KIM-1",
+    year: "1976",
+    sortYear: 1976,
+    title: "KIM-1",
+    subtitle: "The $245 hex-keypad computer that made programming feel like typing instead of flipping switches",
+    blurb:
+      "MOS Technology's answer to front-panel programming: a bare board whose 24-key hex keypad and six-digit LED display are the whole interface, with a ROM monitor called TIM that greets you at power-on. Machine code is typed in as hex digits, not toggled in as binary — and the first commercially sold microcomputer game, Microchess, was written on it.",
+    tags: ["Computer", "Input", "Programming", "Consumer"],
+    image: img("kim-1-computer.jpg"),
+  },
+  {
+    id: "nissan-voice-warning",
+    slug: "nissan-voice-warning",
+    wikiTitle: "Nissan/Datsun Voice Warning System",
+    year: "1981",
+    sortYear: 1981,
+    title: "Nissan/Datsun Voice Warning System",
+    subtitle: "The talking car whose 'voice' was a tiny vinyl record with six parallel grooves",
+    blurb:
+      "Nissan made its 1981-84 Maxima, 200SX, and Z-cars speak with the most analog voice possible: a three-inch white plastic phonograph record inside a box under the dash, cut with six parallel grooves, one per warning. A rubber-belt motor spun the disc and a tiny tonearm dropped onto the right groove to say 'Left door is open' or, in a breathy voice, the 'bocking brake.'",
+    tags: ["Voice", "Automotive", "Output", "Consumer"],
+    image: img("nissan-voice-warning-patent-1.png"),
+  },
 ];
 
 export const exhibits: Exhibit[] = exhibitData.toSorted((a, b) => b.sortYear - a.sortYear || a.title.localeCompare(b.title));

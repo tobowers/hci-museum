@@ -1,0 +1,87 @@
+{
+  "slug": "nissan-voice-warning",
+  "title": "Nissan/Datsun Voice Warning System",
+  "year": "1981",
+  "subtitle": "The talking car whose 'voice' was a tiny vinyl record with six parallel grooves",
+  "why_scout_cares": "Nissan made its 1981-84 luxury cars speak using the most analog voice possible: a 3-inch white plastic phonograph record cut with six parallel grooves, spun by a rubber belt inside a box under the dash, with a tiny tonearm that drops onto the right groove when a door opens or the fuel runs low. It is a genuine, commercially shipped talking-computer precursor built entirely from record-player parts — a one-of-a-kind interaction mechanism in this museum, and the perfect analog counterpart to every synthesized-voice artifact we hold.",
+  "search_terms": [
+    "Nissan Voice Warning",
+    "Datsun talking car",
+    "parallel groove phonograph",
+    "US4426691",
+    "talking car record player"
+  ],
+  "research": {
+    "title": "Nissan/Datsun Voice Warning System",
+    "year": "1981",
+    "by": "Nissan Motor Company / Nissan Motor Co. Ltd",
+    "tags": ["HCI", "Voice", "Automotive", "Output", "Consumer"],
+    "overview": "In 1981 Nissan began offering a 'Voice Warning' system on the Datsun/Nissan Maxima (810), 200SX, and Z-cars (280ZX) through the 1984 model year. The hardware is a box about four inches on a side mounted under the dash, labeled 'Audible Warning – Don't Drop,' containing a miniature, shock-resistant phonograph: a 3-inch white plastic record cut with six parallel grooves — one groove per warning message — a motor that spins the record via a rubber belt, and a tiny tonearm with a relay-style coil that pushes a needle onto the correct groove when the car's sensors demand it.\n\nThe interaction is pure analog. A dash-mounted switch arms the system; when the key is in the ignition and a monitored condition fires — a door open, the fuel low, the parking brake set — the box's control circuitry spins the disc and drops the stylus into the matching groove, and a breathy, vaguely American-accented female voice delivers the message through the car's audio system: 'Left door is open,' 'Right door is open,' 'Parking brake is on,' 'Fuel level is low,' 'Keys in the ignition,' 'Lights are on.' Her pronunciation of 'parking brake' as 'bocking brake' became the system's calling card.\n\nNissan patented the mechanism. US patent 4,426,691, 'Voice warning device with repeat mechanism for an automotive vehicle,' was filed by inventor Teruo Kawasaki (assigned to Nissan Motor Co. Ltd) with a priority date of July 2, 1979, and granted January 17, 1984; its figures show the record disc, tone arm, swingable arm, drive pulley and actuator. The 1985 Maxima replaced the phonograph with a solid-state unit, ending the era of the vinyl-record car. Collector Murilee Martin documented the hardware across two decades of junkyard finds and reported that all six of his 30+ year-old phonograph units still played at least one alert.",
+    "deepDive": [
+      {
+        "heading": "The mechanism",
+        "text": "The Voice Warning box is a complete record player: a small DC motor drives the 3-inch record through a rubber belt and drive pulley; a tonearm mounted on a swingable arm carries the pickup; and a relay-style coil actuator pushes the stylus down onto the start of the selected groove. All-analog logic circuitry decodes the car's sensor signals and moves the arm. Junkyard survivors work regardless of orientation and shrug off automotive vibration — 'the entire rig is a masterpiece of packaging and design,' in Murilee Martin's words — though a hard bump mid-message can make the needle skip."
+      },
+      {
+        "heading": "Six messages, six grooves",
+        "text": "Parallel grooves let one small record hold six distinct messages without any track-switching mechanism other than where the needle lands. The messages — left/right door open, parking brake on, fuel level low, keys in the ignition, lights on — match the era's warning-buzzer functions, transposed into speech. Nissan even engineered a repeat mechanism (the subject of the patent) so the most recently triggered warning could be replayed."
+      },
+      {
+        "heading": "The analog last stand",
+        "text": "The Voice Warning is the last mass-market automotive voice interface built on a phonograph record, and it beat the digital talking cars to market: Chrysler's Electronic Voice Alert, using a Texas Instruments TMS5110A LPC speech chip, arrived for the 1983 model year. The two are the perfect analog/digital pair — one speaks from a needle in a groove, the other from a linear-predictive-coding chip. The parallel-groove record itself was a small family of the era: Murilee Martin points to the 1977 Mattel Monday Night Football game and Japanese home appliances of the late 1970s as kin."
+      },
+      {
+        "heading": "Why it is HCI",
+        "text": "The Voice Warning is a human-machine interface in the purest sense: sensors translate the car's state into a spoken utterance with zero digital processing. It is voice output achieved entirely with mechanical audio, the analog extreme of a design space the museum otherwise sees through synthesized speech (Minolta Talker, TSI Speech+, TRS-80 Voice Synthesizer). It also joins the Buick Riviera Graphic Control Center as the second automotive dashboard interface in the collection — this one speaking instead of touching."
+      }
+    ],
+    "team": [
+      {
+        "name": "Nissan Motor Company / Nissan Motor Co. Ltd",
+        "note": "Manufacturer of the Voice Warning system, fitted to 1981-84 Datsun/Nissan Maxima, 200SX and Z-cars."
+      },
+      {
+        "name": "Teruo Kawasaki",
+        "note": "Inventor of the repeat mechanism, US patent 4,426,691 (priority date July 2, 1979)."
+      }
+    ],
+    "media": [
+      {
+        "src": "https://patents.google.com/patent/US4426691",
+        "alt": "Patent figure showing the Nissan Voice Warning system with its record medium and controller",
+        "caption": "US patent 4,426,691 figure showing the Voice Warning system's controller and record medium. Public domain, Google Patents."
+      },
+      {
+        "src": "https://patents.google.com/patent/US4426691",
+        "alt": "Patent figure showing the miniature phonograph mechanism: record disc, tone arm, swingable arm and actuator",
+        "caption": "US patent 4,426,691 figure of the miniature phonograph inside the box: record disc, tone arm, swingable arm, drive pulley and actuator. Public domain, Google Patents."
+      }
+    ],
+    "sources": [
+      {
+        "text": "Autoweek — When cars talked using tiny phonograph records (Murilee Martin, 2015)",
+        "url": "https://www.autoweek.com/car-life/but-wait-theres-more/a1875076/when-cars-talked-using-tiny-phonograph-records-nissans-voice-warning-system/"
+      },
+      {
+        "text": "Jalopnik — 1982 Datsun Voice Warning box (Murilee Martin, 2009)",
+        "url": "https://jalopnik.com/5246380/1982-datsun-voice-warning-box-used-tiny-phonograph-record-just-like-moon-base-robots"
+      },
+      {
+        "text": "Google Patents — US 4,426,691 (Voice warning device with repeat mechanism)",
+        "url": "https://patents.google.com/patent/US4426691"
+      },
+      {
+        "text": "Wikipedia — Electronic voice alert (includes Nissan analog system context)",
+        "url": "https://en.wikipedia.org/wiki/Electronic_voice_alert"
+      }
+    ],
+    "imageUrls": [
+      "https://patentimages.storage.googleapis.com/1e/8b/f7/4bad1321396e4a/US4426691-drawings-page-2.png",
+      "https://patentimages.storage.googleapis.com/82/34/54/9391b35587d283/US4426691-drawings-page-3.png"
+    ]
+  },
+  "savedImages": [
+    "assets/wiki/nissan-voice-warning-patent-1.png",
+    "assets/wiki/nissan-voice-warning-patent-2.png"
+  ]
+}
