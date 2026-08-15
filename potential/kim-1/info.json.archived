@@ -1,0 +1,87 @@
+{
+  "slug": "kim-1",
+  "title": "KIM-1",
+  "year": "1976",
+  "subtitle": "The $245 hex-keypad computer that made programming feel like typing instead of flipping switches",
+  "why_scout_cares": "The KIM-1 is the direct, documented answer to front-panel toggle-switch programming (the IMSAI 8080, its exact contemporary): instead of flipping switches, you type hex bytes on a 24-key keypad because a 2KB monitor in ROM called TIM greets you at power-on. It is also where the first commercially sold microcomputer game (Microchess) was born. Together with IMSAI it defines the two modes of raw machine interaction of 1976, and its successor Rockwell AIM-65 is already in the museum — completing the lineage.",
+  "search_terms": [
+    "KIM-1",
+    "MOS Technology 6502",
+    "hex keypad single board computer",
+    "TIM monitor",
+    "Microchess"
+  ],
+  "research": {
+    "title": "KIM-1",
+    "year": "1976",
+    "by": "MOS Technology, Norristown, Pennsylvania",
+    "tags": ["HCI", "Computer", "Input", "Programming", "Consumer"],
+    "overview": "The KIM-1 (Keyboard Input Monitor) was MOS Technology's 1976 showcase for its new 6502 microprocessor, designed by Chuck Peddle's team of ex-Motorola 6800 engineers after Motorola's lawsuit forced the 6501 off the market. Announced at $245 in the May 1976 issue of Byte, it was a single assembled board with 1KB of RAM, a 24-key calculator-style hex keypad, a six-digit seven-segment LED display, and two serial/cassette ports. Commodore bought MOS Technology that same year and sold the KIM-1 until about 1980.\n\nThe interaction model is the point: unlike the front-panel toggle-switch computers of the same era, the KIM-1 boots into a 2KB ROM monitor called TIM (Terminal Interface Monitor) that runs at power-on. The programmer types machine code into memory as hex digits on the keypad and reads addresses, data and registers on the LED display — no switch bootstrap, no manual address counting. Wikipedia's own framing is explicit: on a front-panel machine, one wrong switch flip when bootstrapping meant the loader crashed and 'the programmer had to reenter the whole thing'; the KIM-1 removed that ritual.\n\nDespite its tiny size it shipped with the first commercially sold microcomputer game: Microchess by Peter R. Jennings, sold by mail on cassette tape. The hobbyist scene around it produced The First Book of KIM (Jim Butterfield et al., 1977). A complete working KIM-1 system could be assembled for under $500 including a surplus terminal and cassette recorder. The Smithsonian National Museum of American History holds one (nmah_1104851, donated by Jon Titus of QST/Computer hobbyist fame).",
+    "deepDive": [
+      {
+        "heading": "The hex keypad vs. the toggle panel",
+        "text": "1976 offered two ways to feed raw machine code into a microcomputer: the IMSAI-style front panel, where every byte is toggled in as eight switches and there is no monitor in ROM, and the KIM-1, where a monitor in ROM already understands the keypad. TIM lets the user enter or examine memory at any address as two hex digits per byte, display and modify CPU registers, and load and save programs to cassette at 134.2 bit/s. The difference is the difference between being the hardware and being the first program in it — the museum now displays both extremes."
+      },
+      {
+        "heading": "Microchess",
+        "text": "Peter R. Jennings wrote Microchess for the KIM-1 in 1976; it became the first commercially sold microcomputer game, distributed by mail on cassette. Its significance is less the chess (playable, weak by modern standards) than the moment: a program small enough to fit a 1KB machine as a commercial product, launched a software industry. The cassette itself — an audio tape holding a program — connects this artifact to the museum's other tape-medium stories."
+      },
+      {
+        "heading": "Lineage",
+        "text": "The KIM-1's hex-keypad-plus-monitor philosophy matured into the Rockwell AIM-65 (1978), which added a full keyboard and thermal printer and is already in this museum as its own exhibit. The KIM-1 is the ancestor; the AIM-65 is the keyboarded descendant. Together with the IMSAI 8080 they bracket the moment before keyboards and screens became the default computer interface."
+      }
+    ],
+    "team": [
+      {
+        "name": "MOS Technology",
+        "note": "Norristown, Pennsylvania semiconductor company; built the 6502 and the KIM-1; acquired by Commodore in 1976."
+      },
+      {
+        "name": "Chuck Peddle",
+        "note": "Led the 650x microprocessor group at MOS (ex-Motorola 6800 team); designed the KIM-1 to demonstrate the 6502."
+      },
+      {
+        "name": "Peter R. Jennings",
+        "note": "Wrote Microchess, the first commercially sold microcomputer game, for the KIM-1."
+      }
+    ],
+    "media": [
+      {
+        "src": "https://commons.wikimedia.org/wiki/File:Kim-1-computer.jpg",
+        "alt": "KIM-1 single-board computer with hex keypad and LED display",
+        "caption": "KIM-1 single-board computer: the 24-key hex keypad and six-digit LED display are the whole interface, with a ROM monitor handling program entry. Public domain, Wikimedia Commons."
+      },
+      {
+        "src": "https://commons.wikimedia.org/wiki/File:KIM-1_Computer_Ad_May_1976.jpg",
+        "alt": "MOS Technology's original KIM-1 magazine advertisement, May 1976",
+        "caption": "MOS Technology's original KIM-1 advertisement (Byte, May 1976): 'The first complete microcomputer for $245.' Public domain, Wikimedia Commons."
+      }
+    ],
+    "sources": [
+      {
+        "text": "Wikipedia — KIM-1",
+        "url": "https://en.wikipedia.org/wiki/KIM-1"
+      },
+      {
+        "text": "Gunkies.org — KIM-1",
+        "url": "https://gunkies.org/w/index.php?title=KIM-1"
+      },
+      {
+        "text": "Smithsonian NMAH — KIM-1 object record",
+        "url": "https://americanhistory.si.edu/collections/search/object/nmah_1104851"
+      },
+      {
+        "text": "Wikipedia — Microchess",
+        "url": "https://en.wikipedia.org/wiki/Microchess"
+      }
+    ],
+    "imageUrls": [
+      "https://upload.wikimedia.org/wikipedia/commons/6/6a/Kim-1-computer.jpg",
+      "https://upload.wikimedia.org/wikipedia/commons/7/7b/KIM-1_Computer_Ad_May_1976.jpg"
+    ]
+  },
+  "savedImages": [
+    "assets/wiki/kim-1-computer.jpg",
+    "assets/wiki/kim-1-ad-1976.jpg"
+  ]
+}

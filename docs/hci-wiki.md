@@ -1,6 +1,6 @@
 # The HCI Golden Age Wiki
 
-A research compendium for a digital museum of cutting-edge Human-Computer Interaction from the late 1970s through the early 1990s. These one hundred and forty projects mix canonical experiments with weird, forgotten, and beautiful vaporware — brain control, voice control, gesture, wearable computing, VR, robots, and full-body exertion.
+A research compendium for a digital museum of cutting-edge Human-Computer Interaction from the late 1970s through the early 1990s. These one hundred and eighty-nine projects mix canonical experiments with weird, forgotten, and beautiful vaporware — brain control, voice control, gesture, wearable computing, VR, robots, and full-body exertion.
 
 Each entry includes an overview, a deep dive, a small media gallery, and full source links so the images and facts can always be traced back.
 
@@ -192,9 +192,12 @@ Each entry includes an overview, a deep dive, a small media gallery, and full so
 183. [Meade LX200 (1992)](#meade-lx200-1992)
 184. [Fairchild Channel F (1976)](#fairchild-channel-f-1976)
 185. [BBN Spacegraph (1977)](#bbn-spacegraph-1977)
- 186. [Bally Professional Arcade / Astrocade (1978)](#bally-professional-arcade--astrocade-1978)
- 187. [Minolta Talker (1984)](#minolta-talker-1984)
- 188. [TSI Speech+ Talking Calculator (1976)](#tsi-speech-talking-calculator-1976)
+186. [Bally Professional Arcade / Astrocade (1978)](#bally-professional-arcade--astrocade-1978)
+187. [Minolta Talker (1984)](#minolta-talker-1984)
+188. [TSI Speech+ Talking Calculator (1976)](#tsi-speech-talking-calculator-1976)
+189. [IMSAI 8080 (1976)](#imsai-8080-1976)
+190. [KIM-1 (1976)](#kim-1-1976)
+191. [Nissan/Datsun Voice Warning System (1981)](#nissan-datsun-voice-warning-system-1981)
 
 ---
 
@@ -9250,3 +9253,127 @@ The calculator has an 8-digit red LED display and speaks both the keys pressed a
 4. Computer History Museum collection — TSI Speech+ model S1C (102662875) — https://www.computerhistory.org/collections/catalog/102662875
 5. Sean Riddle — TSI Speech+ teardown, die shots, and ROM dumps — http://seanriddle.com/tsispeechplus.html
 6. Popular Electronics, May 1976 — "A Talking Calculator" (period source, cited via Vintage Calculators) — https://www.vintagecalculators.com/html/speech-.html
+
+## IMSAI 8080 (1976)
+
+**By:** IMS Associates / IMSAI Manufacturing Corp, San Leandro, California  
+**Tags:** `HCI` `Computer` `Input` `Programming` `Consumer`
+
+### Overview
+
+The IMSAI 8080 was the first clone of the MITS Altair 8800, built by William Millard's IMS Associates (later IMSAI Manufacturing Corp) in San Leandro, California, after chief engineer Joe Killian decided MITS could not be relied on as a parts supplier. Advertised in Popular Electronics in October 1975, the first kits shipped on 16 December 1975, and the machine was produced through 1978. It sold for $439 as a kit or $621 assembled with 1KB of RAM; roughly 17,000–20,000 units were built, and the company went on to be a major early supplier of the CP/M operating system. It is also the computer the teenage protagonist of WarGames (1983) uses to reach "Joshua" and stumble into NORAD's wargame.
+
+What makes it an HCI artifact rather than just an important computer is the front panel. In the basic configuration there is no ROM monitor, no operating system, no keyboard and no display — just 16 address switches, 8 data switches, a group of 8 sense switches, 6 control switches, and rows of red LEDs for address, data-bus, status, and programmed-output. Programming meant resetting the machine, setting the address switches to zero, EXAMINEing location 0, toggling the 8 data switches to the next byte of machine code, and DEPOSITing it — then DEPOSIT NEXT, byte after byte, for the whole program. The operator was the boot loader, the memory monitor, and the assembler combined. The Smithsonian's own object record notes that this kind of programming "was very slow and tedious — any mistake could corrupt the system and you'd have to start over again. Only true hackers were successfully efficient at operating an IMSAI 8080."
+
+### Deep dive
+
+* **Interaction: toggling a program into existence.** From the IMSAI 8080 user manual: "A full set of 16 address switches and 6 control function switches accept operator control and input." To run even a trivial program the operator flips RESET, sets the address switches to zero, raises EXAMINE to verify location 0, sets the 8 data switches to the first byte's bit pattern, and raises DEPOSIT (or DEPOSIT NEXT, which auto-increments). This repeats for every byte — the manual's own first test program is seven bytes long — then EXAMINE NEXT walks memory to verify, and SINGLE STEP watches each instruction cycle crawl across the LEDs. Any mistake meant re-entering bytes.
+* **The front panel as game controller.** The manual's "Program 3" is a game "using the INPUT switches and the PROGRAMMED OUTPUT lights on the IMSAI 8080 front panel." A bit pattern circulates across the 8 programmed-output LEDs; each time a sense switch is moved, the light directly above it toggles. Players race to turn all the lights off (or all on), with the rotation speed set by the binary value on the switches at reset. The machine reads the sense switches as an input port (address FF hex / 377 octal) and drives the output LEDs with an output instruction to the same port. In 1976 the front panel was simultaneously boot loader, debugger, and game controller.
+* **WarGames and legacy.** The IMSAI 8080 is the front-panel machine David uses in WarGames (1983) — the machine that made the toggle-switch panel the visual shorthand for the computer age. Collectors today pay from a few hundred dollars for incomplete units to thousands for working systems; the Smithsonian (nmah_1422364), the Computer History Museum, and the University of Waterloo's computer museum all hold examples.
+* **Distinction from the collection.** RCA Studio II and Fairchild Channel F are cartridge consoles; the Rockwell AIM-65 (1978, in this museum) already has a keyboard and a ROM monitor. The IMSAI 8080 is the museum's first artifact whose entire interface is raw binary: no characters, no screen, no abstraction between the human and the bus.
+
+### Team
+
+* **IMS Associates / IMSAI Manufacturing Corporation** — San Leandro, California company that designed, advertised, and built the IMSAI 8080.
+* **William Millard** — founder of IMS Associates; later founded the ComputerLand retail chain.
+* **Joe Killian** — chief engineer who decided to clone the Altair after MITS could not supply parts.
+
+### Media
+
+![IMSAI 8080 front panel, the entire user interface](../assets/wiki/imsai-8080-wargames.jpg)
+*An IMSAI 8080 — the machine seen in WarGames. The front panel's 16 address switches, 8 data switches, 8 sense switches and LED rows are the whole interface. CC0, Wikimedia Commons.*
+
+![IMSAI 8080 front panel close-up](../assets/wiki/imsai-8080-front-panel.jpg)
+*Close-up of the color-coded paddle switches and LED indicators. CC BY-SA 4.0 (Morn), Wikimedia Commons.*
+
+![IMSAI 8080 at the Computer History Museum](../assets/wiki/imsai-8080-chm.jpg)
+*IMSAI 8080 on display at the Computer History Museum. CC BY 2.0, Wikimedia Commons.*
+
+### Sources
+
+1. Wikipedia — IMSAI 8080 — https://en.wikipedia.org/wiki/IMSAI_8080
+2. IMSAI 8080 User Manual (primary source) — https://archive.org/details/imsai-8080-user-manual
+3. S100 Computers — IMSAI history — http://www.s100computers.com/Hardware%20Folder/IMSAI/History/History.htm
+4. oldcomputers.net — IMSAI 8080 — http://oldcomputers.net/imsai8080.html
+5. Smithsonian NMAH — IMSAI 8080 object record — https://americanhistory.si.edu/collections/search/object/nmah_1422364
+6. University of Waterloo Computer Museum — IMSAI 8080 — https://uwaterloo.ca/computer-museum/blog/featured-artifact-imsai-8080
+
+## KIM-1 (1976)
+
+**By:** MOS Technology, Norristown, Pennsylvania  
+**Tags:** `HCI` `Computer` `Input` `Programming` `Consumer`
+
+### Overview
+
+The KIM-1 (Keyboard Input Monitor) was MOS Technology's 1976 showcase for its new 6502 microprocessor, designed by Chuck Peddle's team of ex-Motorola 6800 engineers after Motorola's lawsuit forced the 6501 off the market. Announced at $245 in the May 1976 issue of Byte, it was a single assembled board with 1KB of RAM, a 24-key calculator-style hex keypad, a six-digit seven-segment LED display, and two serial/cassette ports. Commodore bought MOS Technology that same year and sold the KIM-1 until about 1980.
+
+The interaction model is the point: unlike the front-panel toggle-switch computers of the same era, the KIM-1 boots into a 2KB ROM monitor called TIM (Terminal Interface Monitor) that runs at power-on. The programmer types machine code into memory as hex digits on the keypad and reads addresses, data, and registers on the LED display — no switch bootstrap, no manual address counting. Wikipedia frames it explicitly: on a front-panel machine, one wrong switch flip while bootstrapping meant the loader crashed and "the programmer had to reenter the whole thing"; the KIM-1 removed that ritual.
+
+It also carried the first commercially sold microcomputer game: Microchess by Peter R. Jennings, distributed by mail on cassette tape. The hobbyist scene around it produced The First Book of KIM (Jim Butterfield et al., 1977). A complete working KIM-1 system could be assembled for under $500 including a surplus terminal and cassette recorder. The Smithsonian National Museum of American History holds one (nmah_1104851, donated by Jon Titus).
+
+### Deep dive
+
+* **The hex keypad vs. the toggle panel.** 1976 offered two ways to feed raw machine code into a microcomputer: the IMSAI-style front panel, where every byte is toggled in as eight switches with no monitor in ROM, and the KIM-1, where a monitor in ROM already understands the keypad. TIM lets the user enter or examine memory at any address as two hex digits per byte, display and modify CPU registers, and load and save programs to cassette at 134.2 bit/s. The difference is the difference between being the hardware and being the first program in it — this museum now shows both extremes side by side.
+* **Microchess.** Peter R. Jennings wrote Microchess for the KIM-1 in 1976; it became the first commercially sold microcomputer game, distributed by mail on cassette. Its significance is the moment more than the chess: a program small enough to fit a 1KB machine as a commercial product launched the software industry. The cassette — an audio tape holding a program — connects this artifact to the museum's other tape-medium stories (Sony Typecorder, 2-XL).
+* **Lineage.** The KIM-1's hex-keypad-plus-monitor philosophy matured into the Rockwell AIM-65 (1978), which added a full keyboard and thermal printer and is already in this museum. The KIM-1 is the ancestor; the AIM-65 is the keyboarded descendant. Together with the IMSAI 8080 they bracket the moment before keyboards and screens became the default computer interface.
+
+### Team
+
+* **MOS Technology** — Norristown, Pennsylvania semiconductor company; built the 6502 and the KIM-1; acquired by Commodore in 1976.
+* **Chuck Peddle** — led the 650x microprocessor group at MOS (ex-Motorola 6800 team); designed the KIM-1 to demonstrate the 6502.
+* **Peter R. Jennings** — wrote Microchess, the first commercially sold microcomputer game, for the KIM-1.
+
+### Media
+
+![KIM-1 single-board computer](../assets/wiki/kim-1-computer.jpg)
+*KIM-1 single-board computer: the 24-key hex keypad and six-digit LED display are the whole interface, with a ROM monitor handling program entry. Public domain, Wikimedia Commons.*
+
+![KIM-1 original magazine ad, May 1976](../assets/wiki/kim-1-ad-1976.jpg)
+*MOS Technology's original KIM-1 advertisement: "The first complete microcomputer for $245." Public domain, Wikimedia Commons.*
+
+### Sources
+
+1. Wikipedia — KIM-1 — https://en.wikipedia.org/wiki/KIM-1
+2. Gunkies.org — KIM-1 — https://gunkies.org/w/index.php?title=KIM-1
+3. Smithsonian NMAH — KIM-1 object record — https://americanhistory.si.edu/collections/search/object/nmah_1104851
+4. Wikipedia — Microchess — https://en.wikipedia.org/wiki/Microchess
+
+## Nissan/Datsun Voice Warning System (1981)
+
+**By:** Nissan Motor Co. Ltd  
+**Tags:** `HCI` `Voice` `Automotive` `Output` `Consumer`
+
+### Overview
+
+In 1981 Nissan began offering a "Voice Warning" system on the Datsun/Nissan Maxima (810), 200SX, and Z-cars (280ZX) through the 1984 model year. The hardware is a box about four inches on a side mounted under the dash, labeled "Audible Warning – Don't Drop," containing a miniature, shock-resistant phonograph: a 3-inch white plastic record cut with six parallel grooves — one groove per warning message — a motor that spins the record via a rubber belt, and a tiny tonearm with a relay-style coil that pushes a needle onto the correct groove when the car's sensors demand it.
+
+The interaction is pure analog. A dash-mounted switch arms the system; when the key is in the ignition and a monitored condition fires — a door open, the fuel low, the parking brake set — the box's control circuitry spins the disc and drops the stylus into the matching groove, and a breathy, vaguely American-accented female voice delivers the message through the car's audio system: "Left door is open," "Right door is open," "Parking brake is on," "Fuel level is low," "Keys in the ignition," "Lights are on." Her pronunciation of "parking brake" as "bocking brake" became the system's calling card.
+
+Nissan patented the mechanism. US patent 4,426,691, "Voice warning device with repeat mechanism for an automotive vehicle," was filed by inventor Teruo Kawasaki (assigned to Nissan Motor Co. Ltd) with a priority date of July 2, 1979, and granted January 17, 1984; its figures show the record disc, tone arm, swingable arm, drive pulley, and actuator. The 1985 Maxima replaced the phonograph with a solid-state unit, ending the era of the vinyl-record car. Collector Murilee Martin documented the hardware across two decades of junkyard finds and reported that all six of his 30-plus-year-old phonograph units still played at least one alert.
+
+### Deep dive
+
+* **The mechanism.** The Voice Warning box is a complete record player: a small DC motor drives the 3-inch record through a rubber belt and drive pulley; a tonearm mounted on a swingable arm carries the pickup; a relay-style coil actuator pushes the stylus down onto the start of the selected groove; and all-analog logic circuitry decodes the car's sensor signals and moves the arm. Junkyard survivors work regardless of orientation and shrug off automotive vibration — "the entire rig is a masterpiece of packaging and design," in Murilee Martin's words — though a hard bump mid-message can make the needle skip.
+* **Six messages, six grooves.** Parallel grooves let one small record hold six distinct messages with no track-switching mechanism other than where the needle lands. The messages match the era's warning-buzzer functions, transposed into speech. Nissan even engineered a repeat mechanism (the subject of the patent) so the most recently triggered warning could be replayed.
+* **The analog last stand.** The Voice Warning is the last mass-market automotive voice interface built on a phonograph record, and it beat the digital talking cars to market: Chrysler's Electronic Voice Alert, built on a Texas Instruments TMS5110A LPC speech chip, arrived for the 1983 model year. The two are the perfect analog/digital pair — one speaks from a needle in a groove, the other from a linear-predictive-coding chip. The parallel-groove record was a small family of the era: Murilee Martin points to the 1977 Mattel Monday Night Football game and Japanese home appliances of the late 1970s as kin.
+* **Why it is HCI.** The Voice Warning is a human-machine interface in the purest sense: sensors translate the car's state into a spoken utterance with zero digital processing. It is voice output achieved entirely with mechanical audio — the analog extreme of a design space the museum otherwise sees through synthesized speech (Minolta Talker, TSI Speech+, TRS-80 Voice Synthesizer). It also joins the Buick Riviera Graphic Control Center as the second automotive dashboard interface in the collection, this one speaking instead of touching.
+
+### Team
+
+* **Nissan Motor Co. Ltd** — manufacturer of the Voice Warning system, fitted to 1981–84 Datsun/Nissan Maxima, 200SX and Z-cars.
+* **Teruo Kawasaki** — inventor of the repeat mechanism, US patent 4,426,691 (priority date July 2, 1979).
+
+### Media
+
+![Nissan Voice Warning patent figure](../assets/wiki/nissan-voice-warning-patent-1.png)
+*US patent 4,426,691 figure showing the Voice Warning system's controller and record medium. Public domain, Google Patents.*
+
+![Nissan Voice Warning phonograph patent figure](../assets/wiki/nissan-voice-warning-patent-2.png)
+*US patent 4,426,691 figure of the miniature phonograph inside the box: record disc, tone arm, swingable arm, drive pulley, and actuator. Public domain, Google Patents.*
+
+### Sources
+
+1. Autoweek — "When cars talked using tiny phonograph records: Nissan's Voice Warning system" (Murilee Martin, 2015) — https://www.autoweek.com/car-life/but-wait-theres-more/a1875076/when-cars-talked-using-tiny-phonograph-records-nissans-voice-warning-system/
+2. Jalopnik — "1982 Datsun Voice Warning Box Used Tiny Phonograph Record" (Murilee Martin, 2009) — https://jalopnik.com/5246380/1982-datsun-voice-warning-box-used-tiny-phonograph-record-just-like-moon-base-robots
+3. Google Patents — US 4,426,691 — https://patents.google.com/patent/US4426691
+4. Wikipedia — Electronic voice alert — https://en.wikipedia.org/wiki/Electronic_voice_alert
