@@ -1,0 +1,42 @@
+{
+  "slug": "thunderscan",
+  "title": "ThunderScan",
+  "year": "1984",
+  "subtitle": "The printer you turned into a scanner by swapping out its ribbon",
+  "why_scout_cares": "ThunderScan is one of the weirdest interaction models of the era: you remove the ribbon cartridge from your dot-matrix printer, snap in an optical sensor cartridge, thread a photograph through the platen, and the printer becomes a scanner — one scan line per pass, with an hour of loud mechanical shuttling for a full page. The precision came from the printer's own stepper motors, so a $200 add-on out-resolved flatbeds costing ten times more. Backed by a first-person primary source (Andy Hertzfeld's folklore.org account), a Computer History Museum artifact, and CC-licensed photos.",
+  "search_terms": ["ThunderScan", "Thunderware", "ImageWriter scanner", "Andy Hertzfeld", "printer scanner cartridge"],
+  "research": {
+    "title": "ThunderScan",
+    "year": "1984",
+    "by": "Thunderware, Inc., Orinda, California",
+    "tags": ["HCI", "Input", "Image", "Peripheral", "Consumer"],
+    "overview": "ThunderScan, shipped December 1984 by Thunderware, Inc. of Orinda, California, turned an Apple ImageWriter dot-matrix printer into a high-resolution scanner at under $200 — a fraction of the price of the flatbed scanners of the day. The trick: the ribbon cartridge is removed and replaced with a ribbon-shaped housing containing an optical sensor array, connected by an umbilical cable to an interface box and then to the computer. You thread the document or photograph through the printer's platen like paper. The print head shuttles across the page one scan line at a time — about nine times slower than printing — while the sensor reads reflected light.\n\nThe interaction is deliberately mechanical and slow. At maximum resolution a full page could take over an hour of loud shuttling. Thunderware's hardware engineers Tom Petrie and Victor Bull solved the paper-bunching problem by commanding the printer to move three steps up and then two steps back per line, holding the paper snug against the platen. The scan resolution came from the precision of the printer's stepper motors, which had to be accurate to print fine graphics — so ThunderScan captured better resolution than flatbeds costing more than ten times as much.\n\nThe Macintosh software was written by Andy Hertzfeld during his 1984 leave of absence from Apple, for a $7.50-per-unit royalty. He used Bill Atkinson's modified Floyd-Steinberg error-diffusion dithering to render 32 levels of gray as patterns of black and white dots, kept five bits per pixel of gray-scale data (before the Mac generally supported gray scale), and invented 'inertial scrolling' — pushing a large image and letting it coast — in the scanning app. Sales rose from about 1,000 units a month to over 7,500 a month at the 1987 peak; roughly 100,000 units sold over its lifetime before cheap flatbed scanners caught up.",
+    "deepDive": [
+      {"heading": "The ribbon-swap ritual", "text": "The defining act: remove the black plastic ribbon cartridge from the ImageWriter and snap in the ThunderScan cartridge, an optical sensor array in a ribbon-shaped housing with an umbilical cord. The printer's print-head mechanics — its stepper motors and shuttle — become the scanning mechanism. Resolution is set by the printer's mechanical precision, not by optics: a $500 printer plus a $200 cartridge out-resolved flatbed scanners costing ten times more."},
+      {"heading": "Three steps up, two steps back", "text": "The ImageWriter was not designed to advance one scan line at a time; doing so made the paper bunch against the platen and distort the image. Petrie and Bull fixed it by commanding the printer to move three steps up and two steps back per line, which held the paper snug. Timings had to be worked out by tedious experimentation. Hertzfeld's account preserves this as the kind of hardware hack that made the product work at all."},
+      {"heading": "Gray scale before gray scale", "text": "The hardware captured up to 32 levels of light intensity (five bits per pixel), but both the Apple II and the early Mac could only display one bit per pixel. Tom Petrie's Apple II software used a simple threshold that looked blotchy; Hertzfeld adopted Bill Atkinson's modified Floyd-Steinberg error-diffusion algorithm for the Mac version. Keeping the five-bit gray-scale data around let users dodge and burn contrast in selected areas, and later versions supported gray-scale printing to PostScript printers."},
+      {"heading": "Inertial scrolling", "text": "ThunderScan documents were large, and dragging a MacPaint-style hand tool to reach the edges was tedious. Hertzfeld added what he called 'inertial scrolling': give the image a push and it keeps scrolling at a variable speed after the mouse button is released, with hysteresis to prevent accidental motion. It is an early instance of a physical metaphor — momentum — in a desktop interface."},
+      {"heading": "The artifact", "text": "The Computer History Museum holds a complete ThunderScan for Apple II (catalog 102673216): box, slide-on cover, floppy disk, user's guide, scanner unit with a ThunderScan logo sticker, adapter box, a beige dongle, and a small black plastic piece. The floppy sleeve is hand-marked 'PRINTER INSTALLATION IMAGEWRITER.' ThunderScan remains one of the museum's few artifacts whose defining interaction is a physical medium swap — the ribbon cartridge as the interface."}
+    ],
+    "team": [
+      {"name": "Thunderware, Inc.", "note": "Tiny Orinda, California company (formerly makers of the Thunderclock) that developed and sold ThunderScan."},
+      {"name": "Tom Petrie", "note": "Co-founder; hardware and Apple II software; his prototype demo was a photograph of a cat threaded through an ImageWriter."},
+      {"name": "Victor Bull", "note": "Co-founder; hardware designer (previously co-designed Apple's Silentype thermal printer); solved the paper-bunching problem."},
+      {"name": "Andy Hertzfeld", "note": "Wrote the Macintosh software during his leave of absence from Apple; inventor of inertial scrolling; $7.50/unit royalty."}
+    ],
+    "media": [
+      {"src": "https://www.computerhistory.org/collections/catalog/102673216", "alt": "ThunderScan scanner unit from the Computer History Museum collection", "caption": "ThunderScan scanner unit — the ribbon-shaped optical sensor cartridge that replaces the printer ribbon. Computer History Museum collection (102673216), CC BY-SA 4.0."},
+      {"src": "https://www.computerhistory.org/collections/catalog/102673216", "alt": "ThunderScan adapter box and interface", "caption": "ThunderScan adapter box and interface hardware. Computer History Museum collection (102673216), CC BY-SA 4.0."},
+      {"src": "https://www.computerhistory.org/collections/catalog/102673216", "alt": "ThunderScan complete package", "caption": "The complete ThunderScan package: box, scanner unit, adapter box, dongle, floppy disk, user's guide. Computer History Museum collection (102673216), CC BY-SA 4.0."}
+    ],
+    "sources": [
+      {"text": "Andy Hertzfeld, 'Thunderscan,' Folklore.org (first-person account)", "url": "https://folklore.org/Thunderscan.html"},
+      {"text": "Computer History Museum — ThunderScan for Apple II catalog record", "url": "https://www.computerhistory.org/collections/catalog/102673216"},
+      {"text": "ThunderScan User's Guide, archive.org", "url": "https://archive.org/details/ThunderScan-Users_Guide"},
+      {"text": "inCider magazine, November 1988 (ThunderScan advertisement)", "url": "https://archive.org/details/inCider_1988-11"},
+      {"text": "Wikipedia — ImageWriter", "url": "https://en.wikipedia.org/wiki/ImageWriter"}
+    ],
+    "imageUrls": ["https://s3.us-west-1.wasabisys.com/chm-cms-media/media-live/w800/import/102673216.3.src.jpg", "https://s3.us-west-1.wasabisys.com/chm-cms-media/media-live/w800/import/102673216.4.src.jpg", "https://s3.us-west-1.wasabisys.com/chm-cms-media/media-live/w800/import/102673216.5.src.jpg"]
+  },
+  "savedImages": ["images/thunderscan-scanner-unit.jpg", "images/thunderscan-interface.jpg", "images/thunderscan-package.jpg"]
+}

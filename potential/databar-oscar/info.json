@@ -1,0 +1,42 @@
+{
+  "slug": "databar-oscar",
+  "title": "Databar OSCAR",
+  "year": "1983",
+  "subtitle": "The barcode wand that loaded programs from a magazine — if the little beep ever came",
+  "why_scout_cares": "OSCAR is the earliest home-computer barcode-magazine loader (1983), two years before the museum's Cauzin Softstrip, and its interaction is a ritual: swipe the wand across a barcode printed in a magazine, again and again, until the box beeps. It emulated a cassette drive, shipped exactly one issue of its 'monthly' magazine before dying, and left a trail of oral history — 'Sometimes you had to go across a single line three or four or five or seven times to hear the little beep.' A perfect complement to Cauzin Softstrip: the hand-scanned, beep-gated precursor to the machine-read strip.",
+  "search_terms": ["Databar OSCAR", "Databar magazine", "barcode software", "optical scanning reader", "home computer barcode"],
+  "research": {
+    "title": "Databar OSCAR",
+    "year": "1983",
+    "by": "Databar Corporation, Eden Prairie, Minnesota",
+    "tags": ["HCI", "Input", "Barcode", "Consumer", "Peripheral"],
+    "overview": "OSCAR — 'Optical SCAnning Reader' — was a $79.95 home-computer barcode scanning system sold by the Databar Corporation of Eden Prairie, Minnesota, in 1983. A handheld wand on a telephone-style coiled cord connected through a small silver interface box to a home computer; you rolled the wand across barcode lines printed in a companion publication, Databar — The Monthly Bar Code Software Magazine, and the computer loaded the BASIC program encoded in the bars. To the computer, OSCAR emulated a cassette drive: the Commodore 64 version plugged into the cassette port, the Atari version faked a tape deck over the SIO port. Only the interface cable was platform-specific.\n\nThe interaction ritual was the product. Success was signaled by an audible beep, and it was finicky — publisher Kim Garretson: 'Sometimes you had to go across a single line of code three or four or five or seven times to hear the little beep.' A practice scanning sheet and a plastic scanning template trained users to keep their swipes straight. The system was powered by four D batteries and used an HP HEDS-3000 optical sensor — the same sensor family as HP's own barcode wand for the HP-41C calculator.\n\nDatabar published exactly one issue, in three editions (Atari 8-bit with 13 programs, TI-99/4A with 9, C64 with 9) — 'it wasn't very monthly after all.' The software was simple BASIC: OSCAR's Match, Financial Quiz, Math Challenge, Health Assessment, MPG Calculator. Ads pitched 'Expert Typist with Keyboard vs. Eight-year-old with OSCAR': typing a two-page BASIC program took 69 minutes, scanning it about 8. Founder Don Picard: 'Concept was basically dead before it got born.' Engineer Neal Enzenauer: 'We thought we were going to set the world on fire and make magnetic media obsolete — but I guess we didn't.'",
+    "deepDive": [
+      {"heading": "The beep-gated ritual", "text": "OSCAR's defining interaction: roll the wand over a printed barcode until you hear the beep. The beep meant the box had successfully decoded the line; failure meant trying again, three or four or seven times. A practice sheet and a plastic template helped keep scans straight. The decoding itself was the product — the printed page as software distribution, two years before Cauzin Softstrip's machine-read strip, and inverting the VCR Plus+ relationship: a machine reading ink, rather than a human transcribing digits."},
+      {"heading": "Emulating the cassette", "text": "To the host computer, OSCAR was a cassette drive. The C64 version used the cassette port; the Atari version emulated a tape deck over the SIO port. This was a deliberate interface decision: existing software-loading code expected a tape deck, and OSCAR faked one, so no special software drivers were needed on the machine side — just the wand, the box, and the printed bars."},
+      {"heading": "One issue and out", "text": "Databar — The Monthly Bar Code Software Magazine shipped a single issue (in Atari, TI-99/4A, and Commodore editions), then the company folded. The oral history is preserved in the ANTIC Atari podcast (interview 321) with executive editor Don Picard, publisher Kim Garretson, and principal engineer Neal Enzenauer. The hardware itself survives in collector scans: box, warranty card, registration card, manual, software binders, and the practice scanning sheet."},
+      {"heading": "The HP lineage", "text": "OSCAR used the HP HEDS-3000 optical sensor, the same sensor family as Hewlett-Packard's own barcode wand for the HP-41C calculator (1981). Contemporary press credited HP with dropping barcode-wand prices from $300+ to the consumer range, making OSCAR's $79.95 price possible. The museum's collection now holds three stops on the printed-ink-as-software arc: HP's wand (1981, deferred), OSCAR (1983, promoted here), and Cauzin Softstrip (1985, already in the museum)."}
+    ],
+    "team": [
+      {"name": "Databar Corporation", "note": "Eden Prairie, Minnesota company; produced OSCAR and Databar Magazine in 1983."},
+      {"name": "Don Picard", "note": "Executive editor; ex-Webb Publishing custom-publishing; 'Concept was basically dead before it got born.'"},
+      {"name": "Kim Garretson", "note": "Publisher; described the beep-until-success swipe ritual in oral history."},
+      {"name": "Neal Enzenauer", "note": "Principal engineer; 'We thought we were going to set the world on fire and make magnetic media obsolete.'"}
+    ],
+    "media": [
+      {"src": "http://www.mainbyte.com/ti99/hardware/oscar/oscar.html", "alt": "Databar OSCAR scanner and wand", "caption": "Databar OSCAR interface box and handheld scanning wand. Photograph from the mainbyte.com TI-99 hardware archive."},
+      {"src": "http://www.mainbyte.com/ti99/hardware/oscar/oscar.html", "alt": "Databar OSCAR practice scanning sheet", "caption": "Part of the OSCAR practice scanning sheet, used with a plastic template to keep swipes straight. Photograph from mainbyte.com."},
+      {"src": "http://www.mainbyte.com/ti99/hardware/oscar/oscar.html", "alt": "Databar OSCAR software booklets", "caption": "The color-coded software booklets that shipped with OSCAR. Photograph from mainbyte.com."}
+    ],
+    "sources": [
+      {"text": "ANTIC Atari podcast, Interview 321 — Databar OSCAR (Picard, Garretson, Enzenauer oral history)", "url": "https://ataripodcast.libsyn.com/antic-interview-321-databar-oscar"},
+      {"text": "Databar Magazine, Atari Edition — full scan, archive.org", "url": "https://archive.org/details/DatabarMagazineAtariEdition"},
+      {"text": "Databar OSCAR box, warranty, registration card scans — archive.org", "url": "https://archive.org/details/DatabarOSCARbox"},
+      {"text": "mainbyte.com — Databar OSCAR hardware page (photos and manuals)", "url": "http://www.mainbyte.com/ti99/hardware/oscar/oscar.html"},
+      {"text": "Compute! #41, October 1983 — 'Optical Scanner System' news", "url": "https://www.atarimagazines.com/compute/issue41/NEWS_PRODUCTS_Optical_Scanner_System.php"},
+      {"text": "Oscar barcode decoder project (GitHub) and write-up", "url": "https://github.com/doegox/Oscar"}
+    ],
+    "imageUrls": ["http://www.mainbyte.com/ti99/hardware/oscar/databar.jpg", "http://www.mainbyte.com/ti99/hardware/oscar/scan.jpg", "http://www.mainbyte.com/ti99/hardware/oscar/books_bar.jpg"]
+  },
+  "savedImages": ["images/databar-oscar-scanner.jpg", "images/databar-oscar-scan-sheet.jpg", "images/databar-oscar-booklets.jpg"]
+}

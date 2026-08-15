@@ -2350,6 +2350,58 @@ const exhibitData: Exhibit[] = [
     tags: ["Voice", "Automotive", "Output", "Consumer"],
     image: img("nissan-voice-warning-patent-1.png"),
   },
+  {
+    id: "fluke-9010a",
+    slug: "fluke-9010a",
+    wikiTitle: "Fluke 9010A Micro-System Troubleshooter",
+    year: "1983",
+    sortYear: 1983,
+    title: "Fluke 9010A Micro-System Troubleshooter",
+    subtitle: "The repair tool you plug into a dead computer's brain socket",
+    blurb:
+      "A portable service instrument that debugs a dead microprocessor board by physically replacing its CPU: you pull the chip and plug in a pod, and the Fluke becomes the processor, driving the board's bus, testing RAM and ROM, and poking logic with a probe that flashes red and green. The arcade repairman's sacred tool — it debugged Pac-Man and Defender PCBs.",
+    tags: ["Input", "Instrument", "Lab Equipment"],
+    image: img("fluke-9010a.jpg"),
+  },
+  {
+    id: "aspen-movie-map",
+    slug: "aspen-movie-map",
+    wikiTitle: "Aspen Movie Map",
+    year: "1978",
+    sortYear: 1978,
+    title: "Aspen Movie Map",
+    subtitle: "Drive through a filmed city with a touchscreen — surrogate travel before Street View",
+    blurb:
+      "MIT's surrogate-travel system: a car with four 16mm cameras filmed every street in Aspen onto laserdisc, and users drove through the recorded city with a touchscreen menu — choosing speed, angle, and even the season mid-drive, and touching buildings to jump inside. The direct ancestor of Google Street View and the interactive-video kiosk.",
+    tags: ["Output", "Spatial", "Research"],
+    image: img("aspen-frame-42757.jpg"),
+  },
+  {
+    id: "thunderscan",
+    slug: "thunderscan",
+    wikiTitle: "ThunderScan",
+    year: "1984",
+    sortYear: 1984,
+    title: "ThunderScan",
+    subtitle: "Swap out your printer's ribbon and the printer becomes a scanner",
+    blurb:
+      "Thunderware's under-$200 add-on turns an ImageWriter dot-matrix printer into a high-resolution scanner: remove the ribbon cartridge, snap in an optical sensor cartridge, thread a photo through the platen, and wait an hour of loud shuttling for a full page. The printer's own stepper motors set the resolution — better than flatbeds costing ten times more.",
+    tags: ["Input", "Image", "Peripheral"],
+    image: img("thunderscan-scanner-unit.jpg"),
+  },
+  {
+    id: "databar-oscar",
+    slug: "databar-oscar",
+    wikiTitle: "Databar OSCAR",
+    year: "1983",
+    sortYear: 1983,
+    title: "Databar OSCAR",
+    subtitle: "Load BASIC programs by swiping a wand over magazine barcodes until it beeps",
+    blurb:
+      "The 1983 barcode-magazine software loader: a $79.95 wand-and-box system that emulated a cassette drive, so you could load BASIC programs printed as barcodes in the one and only issue of Databar Magazine — swiping each line three, four, or seven times until the box beeped. Precedes Cauzin Softstrip by two years.",
+    tags: ["Input", "Barcode", "Peripheral"],
+    image: img("databar-oscar-scanner.jpg"),
+  },
 ];
 
 export const exhibits: Exhibit[] = exhibitData.toSorted((a, b) => b.sortYear - a.sortYear || a.title.localeCompare(b.title));

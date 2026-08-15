@@ -1,6 +1,6 @@
 # The HCI Golden Age Wiki
 
-A research compendium for a digital museum of cutting-edge Human-Computer Interaction from the late 1970s through the early 1990s. These one hundred and eighty-nine projects mix canonical experiments with weird, forgotten, and beautiful vaporware — brain control, voice control, gesture, wearable computing, VR, robots, and full-body exertion.
+A research compendium for a digital museum of cutting-edge Human-Computer Interaction from the late 1970s through the early 1990s. These one hundred and ninety-five projects mix canonical experiments with weird, forgotten, and beautiful vaporware — brain control, voice control, gesture, wearable computing, VR, robots, and full-body exertion.
 
 Each entry includes an overview, a deep dive, a small media gallery, and full source links so the images and facts can always be traced back.
 
@@ -198,6 +198,10 @@ Each entry includes an overview, a deep dive, a small media gallery, and full so
 189. [IMSAI 8080 (1976)](#imsai-8080-1976)
 190. [KIM-1 (1976)](#kim-1-1976)
 191. [Nissan/Datsun Voice Warning System (1981)](#nissan-datsun-voice-warning-system-1981)
+192. [Fluke 9010A Micro-System Troubleshooter (1983)](#fluke-9010a-micro-system-troubleshooter-1983)
+193. [Aspen Movie Map (1978)](#aspen-movie-map-1978)
+194. [ThunderScan (1984)](#thunderscan-1984)
+195. [Databar OSCAR (1983)](#databar-oscar-1983)
 
 ---
 
@@ -9377,3 +9381,197 @@ Nissan patented the mechanism. US patent 4,426,691, "Voice warning device with r
 2. Jalopnik — "1982 Datsun Voice Warning Box Used Tiny Phonograph Record" (Murilee Martin, 2009) — https://jalopnik.com/5246380/1982-datsun-voice-warning-box-used-tiny-phonograph-record-just-like-moon-base-robots
 3. Google Patents — US 4,426,691 — https://patents.google.com/patent/US4426691
 4. Wikipedia — Electronic voice alert — https://en.wikipedia.org/wiki/Electronic_voice_alert
+
+---
+
+## Fluke 9010A Micro-System Troubleshooter (1983)
+
+**By:** John Fluke Mfg. Co., Inc., Everett, Washington  
+**Tags:** `HCI` `Input` `Instrument` `Lab Equipment` `Programming`
+
+### Overview
+
+The Fluke 9010A Micro-System Troubleshooter, announced in 1983 (Operator Manual Rev 2 dated April 1984), is a portable service instrument built to debug microprocessor boards down to the silicon. The front panel is a calculator-style instrument: a 16-key hexadecimal keypad, labeled function keys (LEARN, VIEW, BUS TEST, ROM TEST, I/O TEST, RAM SHORT, RAM LONG, RAMP, READ/WRITE, RUN-UUT), a 32-character alphanumeric display, and a built-in minicassette drive for test programs. Its purpose was to diagnose broken computer boards without schematics — you told it what CPU the board used, and it talked to that CPU's bus directly.
+
+The interaction model is the point. To use it you power the board down, lever the microprocessor out of its socket with an IC puller, and plug a pod into the now-empty socket. The pod contains a copy of that CPU plus RAM, ROM, and I/O; the 9010A physically becomes the target processor and drives the board's address, data, and control lines through the socket. You are swapping your instrument into the patient's brain socket. A handheld probe with red and green indicator lights inside its shell reads logic levels at any node, injects bus-synchronized pulses, and gathers signatures while the instrument runs test patterns.
+
+The 9010A became the definitive arcade repairman's tool: in-circuit debugging of Pac-Man, Ms. Pac-Man, Tempest, Centipede, and Defender PCBs. LEARN, run against a known-good board, auto-builds a memory map; ROM TEST computes a proprietary mathematical signature that the operator must look up in reference tables by hand. The instrument's prompts, defaults, audible feedback, and consistent OK/FAIL messages were designed so a bench tech with no programming background could script board tests. Today it has a 90-page collector thread (the "Fluke 9010a Club") and lives on in emulators, keeping the ritual alive.
+
+### Deep dive
+
+* **The socket-replacement ritual.** The 9010A's defining move: pull the suspect microprocessor, plug in the pod. The pod carries its own copy of the CPU and drives the board's bus in place of the removed chip. The instrument becomes the computer — it can read and write RAM, test ROM against stored signatures, exercise I/O ports, and watch the bus respond. US Patent 4,709,366 ("Computer Assisted Fault Isolation in Circuit Board Testing", Marshall H. Scott) describes exactly this: "the microprocessor is electrically replaced with a special interface pod which is connected to a troubleshooting device."
+* **The probe.** The handheld stimulus/response probe has a tip, a button, and red/green indicator lights inside the shell that read logic levels at the node, holding the state at least 0.25 s so the eye can catch brief pulses. It injects bus-synchronized HIGH/LOW stimulus pulses, counts events, reads nodes during memory cycles, and gathers signatures at any node while RAMP or a loop runs. A rear-panel BNC connector outputs a scope trigger synced to the UUT bus cycles. The probe is not passive — US Patent 5,043,655 ("Current Sensing Buffer for Digital Signal Line Testing", Gerald J. McMorrow) describes its active sampling during address and data phases.
+* **ROM signatures by hand.** ROM TEST computes a proprietary mathematical "signature" for the contents of a ROM — explicitly not a CRC — which the operator must know in advance from reference tables. Arcade technicians built libraries of expected signatures per game and ROM revision, and traded them like baseball cards. QuarterArcade's Coin-Op TechNet hosted a signature calculator utility; the modern FlukeEm emulator and the community FIDE (Fluke Integrated Development Environment) keep the ecosystem alive.
+* **The arcade connection.** The 9010A's cultural home is the arcade. When an arcade cabinet's PCB went dark, the 9010A with the right pod and probe found the dead chip. Today the machine is central to arcade restoration: reproduction pods (Marian Z80/6502/6800), signature databases, and the 90-page "Fluke 9010a Club" thread on the International Arcade Museum forums.
+
+### Team
+
+* **John Fluke Mfg. Co., Inc.** — Everett, Washington test-and-measurement maker; produced the 9000A-series Troubleshooters from the early 1980s.
+* **Marshall H. Scott** — Engineer; US Patent 4,709,366 on the pod-based fault isolation method.
+* **Gerald J. McMorrow** — Engineer; US Patent 5,043,655 on the probe's current-sensing buffer.
+
+### Media
+
+![Fluke 9010A front panel: 16-key hex keypad, function keys, 32-character display, minicassette deck](../assets/wiki/fluke-9010a.jpg)
+*Fluke 9010A Micro-System Troubleshooter. The calculator-style front panel is the whole interface for talking to a dead board's bus. CC0, Wolfgang Stief, Wikimedia Commons.*
+
+### Sources
+
+1. Fluke 9010A Operator Manual, Rev 2 (April 1984) — archive.org — https://archive.org/details/bitsavers_fluke90106emTroubleshooterOperatorManualRev2198404_18951316
+2. Centre for Computing History — Fluke 9010A object record — https://www.computinghistory.org.uk/det/6457/Fluke-9010A-Micro-System-Troubleshooter/
+3. QuarterArcade Coin-Op TechNet — Fluke 9010A (Wayback Machine) — https://web.archive.org/web/20220831100138/http://tech.quarterarcade.com/tech/Fluke/9010A/
+4. International Arcade Museum forums — "The Fluke 9010a Club" thread — https://forums.arcade-museum.com/threads/the-fluke-9010a-club.97717/
+5. US Patent 4,709,366 — Computer Assisted Fault Isolation in Circuit Board Testing — https://patents.google.com/patent/US4709366A
+6. US Patent 5,043,655 — Current Sensing Buffer for Digital Signal Line Testing — https://patents.google.com/patent/US5043655A
+
+---
+
+## Aspen Movie Map (1978)
+
+**By:** MIT Architecture Machine Group (ArcMac)  
+**Tags:** `HCI` `Output` `Spatial` `Research` `Video`
+
+### Overview
+
+The Aspen Movie Map, developed at MIT's Architecture Machine Group from 1978 to 1981 with ARPA funding, was a hypermedia system that let a user take a virtual tour — a form of "surrogate travel" — through the city of Aspen, Colorado. Film was captured from a car fitted with a gyroscopic stabilizer and four 16mm stop-frame cameras (front, back, and two sides), triggered every ten feet by an optical encoder on a bicycle wheel dragged behind the vehicle. Filming ran daily between 10 a.m. and 2 p.m. to keep lighting consistent, and the car was driven down the center of every street to produce registered match cuts.
+
+The film was assembled into segments (one per view per city block) and transferred to laserdisc, an analog-video format. A database correlated the disc layout with the two-dimensional street plan, and an Interdata minicomputer running the MagicSix operating system acted as client/server: the client handled user input and overlay graphics, the server controlled the laserdisc players and retrieved data. Video, audio, still images, and metadata were assembled on the fly in response to the user — video was the principal, but not sole, affordance of the interaction.
+
+The interface was a dynamically generated menu overlaid on the live video, operated through a touch screen — a harbinger of the interactive-video kiosk. Users set speed and viewing angle by touching icons, switched seasons (summer/winter) mid-drive, jumped to a two-dimensional city map with aerial and cartoon renderings, zoomed in and out à la the Eameses' Powers of Ten, and touched any building in view to jump to its facade, complete with interior shots, historical silver-mining photos, and video interviews of city officials. The military framing: DARPA wanted a way to quickly familiarize soldiers with hostile territory after Operation Entebbe.
+
+### Deep dive
+
+* **The capture rig.** A gyroscopic stabilizer built by John Borden of Peace River Films carried four 16mm stop-frame cameras on a car roof. An optical sensor on a dragged bicycle wheel triggered the cameras every ten feet; front, back, and side views were captured as the car traversed the center of every Aspen street. Michael Naimark (Center for Advanced Visual Studies) led cinematography design; filming happened in fall 1978, winter 1979, and again in fall 1979. The first operational version ran in early spring 1979.
+* **The touchscreen interface.** Walter Bender designed and built the interface, the client/server model, and the animation system. A dynamically generated menu was overlaid on the video; touching icons changed speed and viewing angle, selected directions at intersections, and toggled seasons. A navigation map above the horizon showed the user's position and a trace of streets already explored. A 3D polygonal model of the city was built with the Quick and Dirty Animation System (QADAS), including texture-mapped facades of landmark buildings (algorithm by Paul Heckbert); the same 3D model translated 2D screen coordinates into a building database, enabling image-map-style hyperlinks years before web image maps.
+* **Building hyperlinks, 1979-style.** Touching any building in view could jump to its facade. Selected buildings held additional data: interior shots, historical images, menus of restaurants, and Cinéma vérité interviews of city officials shot by Richard Leacock and Marek Zalewski. Scott Fisher matched historical silver-mining photos to the same scenes as they looked in 1978. In a later implementation, metadata was encoded as a digital signal inside the analog video frames, so each frame carried everything needed for a full-featured surrogate-travel experience.
+* **The surviving artifact.** The actual laserdisc, labeled "Aspen 4", survives — one copy, loaned by Brent Greissle to the Domesday86 project, which duplicated it in 2019 despite heavy laser rot and published a full frame-number index. The 1981 MIT film "The Interactive Movie Map: A Surrogate Travel System" documents the system. A single 13-inch disc master cost about $300,000 to produce; a keyboard, joystick, or trackball of the day sold for around $1,200 each.
+* **Lineage.** Wikipedia calls the Aspen Movie Map "perhaps more accurately a pioneering example of interactive computing" than interactive video, and lists Google Street View under "See also." Its "surrogate travel" concept was inherited by the BBC Domesday Project's surrogate walks (already in this museum) — but Aspen is the original: the first time recorded reality itself was navigable, and the direct ancestor of the interactive-video kiosk.
+
+### Team
+
+* **MIT Architecture Machine Group** — Led by Nicholas Negroponte; found ARPA (DARPA Cybernetics Technology Office) funding for the project.
+* **Andrew Lippman** — Principal investigator and program director of the project.
+* **Walter Bender** — Designed and built the interface, the client/server model, and the animation system.
+* **Michael Naimark** — Center for Advanced Visual Studies; cinematography design and production.
+* **Bob Mohl** — Designed the map overlay system and ran user studies for his PhD thesis on spatial learning.
+* **Peter Clay** — MIT undergraduate whose idea the project grew from; filmed the hallway precursor with a camera on a cart.
+* **Paul Heckbert** — Texture-mapping algorithm for the QADAS 3D city model.
+* **Richard Leacock & Marek Zalewski** — Shot the Cinéma vérité interviews behind key building facades.
+
+### Media
+
+![QADAS texture-mapped 3D model of Aspen used by the Movie Map](../assets/wiki/aspen-qadas.jpg)
+*QADAS (Quick and Dirty Animation System), the texture-mapped 3D city model built at the Architecture Machine Group in 1979 for the Aspen Movie Map. CC BY-SA 3.0, Walter Bender, Wikimedia Commons.*
+
+![Frame captured from the surviving Aspen 4 laserdisc](../assets/wiki/aspen-frame-42757.jpg)
+*Frame from the surviving "Aspen 4" laserdisc, digitized and documented by the Domesday86 project. Only one copy of the disc is known. CC BY-SA 4.0, Domesday86.*
+
+![Surrogate-travel frames from the Aspen Movie Map laserdisc](../assets/wiki/aspen-frame-99.jpg)
+*Surrogate-travel content from the Aspen Movie Map laserdisc: driving down Aspen's streets, filmed with four 16mm cameras on a stabilized car roof. Domesday86 project, CC BY-SA 4.0.*
+
+### Sources
+
+1. Wikipedia — Aspen Movie Map — https://en.wikipedia.org/wiki/Aspen_Movie_Map
+2. Michael Naimark — Aspen the Verb / project page — https://www.naimark.net/projects/aspen.html
+3. Domesday86 — The Interactive Movie Map (MIT): disc analysis and restoration — https://domesday86.com/?page_id=3028
+4. Lippman, "Movie-maps: An application of the optical videodisc to computer graphics," SIGGRAPH 1980, pp. 32-42 — https://dl.acm.org/doi/10.1145/800250.807478
+5. Mohl, "Cognitive space in the interactive movie map" (MIT PhD thesis, 1982) — https://dspace.mit.edu/handle/1721.1/15678
+6. "The Interactive Movie Map: A Surrogate Travel System" (1981 MIT film, YouTube) — https://www.youtube.com/watch?v=Hf6LkqgXPMU
+
+---
+
+## ThunderScan (1984)
+
+**By:** Thunderware, Inc., Orinda, California  
+**Tags:** `HCI` `Input` `Image` `Peripheral` `Consumer`
+
+### Overview
+
+ThunderScan, shipped December 1984 by Thunderware, Inc. of Orinda, California, turned an Apple ImageWriter dot-matrix printer into a high-resolution scanner at under $200 — a fraction of the price of the flatbed scanners of the day. The trick: the ribbon cartridge is removed and replaced with a ribbon-shaped housing containing an optical sensor array, connected by an umbilical cable to an interface box and then to the computer. You thread the document or photograph through the printer's platen like paper. The print head shuttles across the page one scan line at a time — about nine times slower than printing — while the sensor reads reflected light.
+
+The interaction is deliberately mechanical and slow. At maximum resolution a full page could take over an hour of loud shuttling. Thunderware's hardware engineers Tom Petrie and Victor Bull solved the paper-bunching problem by commanding the printer to move three steps up and then two steps back per line, holding the paper snug against the platen. The scan resolution came from the precision of the printer's stepper motors, which had to be accurate to print fine graphics — so ThunderScan captured better resolution than flatbeds costing more than ten times as much.
+
+The Macintosh software was written by Andy Hertzfeld during his 1984 leave of absence from Apple, for a $7.50-per-unit royalty. He used Bill Atkinson's modified Floyd-Steinberg error-diffusion dithering to render 32 levels of gray as patterns of black and white dots, kept five bits per pixel of gray-scale data (before the Mac generally supported gray scale), and invented "inertial scrolling" — pushing a large image and letting it coast — in the scanning app. Sales rose from about 1,000 units a month to over 7,500 a month at the 1987 peak; roughly 100,000 units sold over its lifetime before cheap flatbed scanners caught up.
+
+### Deep dive
+
+* **The ribbon-swap ritual.** The defining act: remove the black plastic ribbon cartridge from the ImageWriter and snap in the ThunderScan cartridge, an optical sensor array in a ribbon-shaped housing with an umbilical cord. The printer's print-head mechanics — its stepper motors and shuttle — become the scanning mechanism. Resolution is set by the printer's mechanical precision, not by optics: a $500 printer plus a $200 cartridge out-resolved flatbed scanners costing ten times more.
+* **Three steps up, two steps back.** The ImageWriter was not designed to advance one scan line at a time; doing so made the paper bunch against the platen and distort the image. Petrie and Bull fixed it by commanding the printer to move three steps up and two steps back per line, which held the paper snug. Timings had to be worked out by tedious experimentation. Hertzfeld's account preserves this as the kind of hardware hack that made the product work at all.
+* **Gray scale before gray scale.** The hardware captured up to 32 levels of light intensity (five bits per pixel), but both the Apple II and the early Mac could only display one bit per pixel. Tom Petrie's Apple II software used a simple threshold that looked blotchy; Hertzfeld adopted Bill Atkinson's modified Floyd-Steinberg error-diffusion algorithm for the Mac version. Keeping the five-bit gray-scale data around let users dodge and burn contrast in selected areas, and later versions supported gray-scale printing to PostScript printers.
+* **Inertial scrolling.** ThunderScan documents were large, and dragging a MacPaint-style hand tool to reach the edges was tedious. Hertzfeld added what he called "inertial scrolling": give the image a push and it keeps scrolling at a variable speed after the mouse button is released, with hysteresis to prevent accidental motion. It is an early instance of a physical metaphor — momentum — in a desktop interface.
+* **The artifact.** The Computer History Museum holds a complete ThunderScan for Apple II (catalog 102673216): box, slide-on cover, floppy disk, user's guide, scanner unit with a ThunderScan logo sticker, adapter box, a beige dongle, and a small black plastic piece. The floppy sleeve is hand-marked "PRINTER INSTALLATION IMAGEWRITER."
+
+### Team
+
+* **Thunderware, Inc.** — Tiny Orinda, California company (formerly makers of the Thunderclock) that developed and sold ThunderScan.
+* **Tom Petrie** — Co-founder; hardware and Apple II software; his prototype demo was a photograph of a cat threaded through an ImageWriter.
+* **Victor Bull** — Co-founder; hardware designer (previously co-designed Apple's Silentype thermal printer); solved the paper-bunching problem.
+* **Andy Hertzfeld** — Wrote the Macintosh software during his leave of absence from Apple; inventor of inertial scrolling; $7.50/unit royalty.
+
+### Media
+
+![ThunderScan scanner unit — the ribbon-shaped optical sensor cartridge](../assets/wiki/thunderscan-scanner-unit.jpg)
+*ThunderScan scanner unit — the ribbon-shaped optical sensor cartridge that replaces the printer ribbon. Computer History Museum collection (102673216), CC BY-SA 4.0.*
+
+![ThunderScan adapter box and interface hardware](../assets/wiki/thunderscan-interface.jpg)
+*ThunderScan adapter box and interface hardware. Computer History Museum collection (102673216), CC BY-SA 4.0.*
+
+![The complete ThunderScan package](../assets/wiki/thunderscan-package.jpg)
+*The complete ThunderScan package: box, scanner unit, adapter box, dongle, floppy disk, user's guide. Computer History Museum collection (102673216), CC BY-SA 4.0.*
+
+### Sources
+
+1. Andy Hertzfeld, "Thunderscan," Folklore.org (first-person account) — https://folklore.org/Thunderscan.html
+2. Computer History Museum — ThunderScan for Apple II catalog record — https://www.computerhistory.org/collections/catalog/102673216
+3. ThunderScan User's Guide — archive.org — https://archive.org/details/ThunderScan-Users_Guide
+4. inCider magazine, November 1988 (ThunderScan advertisement) — https://archive.org/details/inCider_1988-11
+5. Wikipedia — ImageWriter — https://en.wikipedia.org/wiki/ImageWriter
+
+---
+
+## Databar OSCAR (1983)
+
+**By:** Databar Corporation, Eden Prairie, Minnesota  
+**Tags:** `HCI` `Input` `Barcode` `Consumer` `Peripheral`
+
+### Overview
+
+OSCAR — "Optical SCAnning Reader" — was a $79.95 home-computer barcode scanning system sold by the Databar Corporation of Eden Prairie, Minnesota, in 1983. A handheld wand on a telephone-style coiled cord connected through a small silver interface box to a home computer; you rolled the wand across barcode lines printed in a companion publication, Databar — The Monthly Bar Code Software Magazine, and the computer loaded the BASIC program encoded in the bars. To the computer, OSCAR emulated a cassette drive: the Commodore 64 version plugged into the cassette port, the Atari version faked a tape deck over the SIO port. Only the interface cable was platform-specific.
+
+The interaction ritual was the product. Success was signaled by an audible beep, and it was finicky — publisher Kim Garretson: "Sometimes you had to go across a single line of code three or four or five or seven times to hear the little beep." A practice scanning sheet and a plastic scanning template trained users to keep their swipes straight. The system was powered by four D batteries and used an HP HEDS-3000 optical sensor — the same sensor family as HP's own barcode wand for the HP-41C calculator.
+
+Databar published exactly one issue, in three editions (Atari 8-bit with 13 programs, TI-99/4A with 9, C64 with 9) — "it wasn't very monthly after all." The software was simple BASIC: OSCAR's Match, Financial Quiz, Math Challenge, Health Assessment, MPG Calculator. Ads pitched "Expert Typist with Keyboard vs. Eight-year-old with OSCAR": typing a two-page BASIC program took 69 minutes, scanning it about 8. Founder Don Picard: "Concept was basically dead before it got born." Engineer Neal Enzenauer: "We thought we were going to set the world on fire and make magnetic media obsolete — but I guess we didn't."
+
+### Deep dive
+
+* **The beep-gated ritual.** OSCAR's defining interaction: roll the wand over a printed barcode until you hear the beep. The beep meant the box had successfully decoded the line; failure meant trying again, three or four or seven times. A practice sheet and a plastic template helped keep scans straight. The printed page as software distribution, two years before Cauzin Softstrip's machine-read strip — and the inversion of the VCR Plus+ relationship: a machine reading ink, rather than a human transcribing digits.
+* **Emulating the cassette.** To the host computer, OSCAR was a cassette drive. The C64 version used the cassette port; the Atari version emulated a tape deck over the SIO port. This was a deliberate interface decision: existing software-loading code expected a tape deck, and OSCAR faked one, so no special software drivers were needed on the machine side — just the wand, the box, and the printed bars.
+* **One issue and out.** Databar — The Monthly Bar Code Software Magazine shipped a single issue (in Atari, TI-99/4A, and Commodore editions), then the company folded. The oral history is preserved in the ANTIC Atari podcast (interview 321) with executive editor Don Picard, publisher Kim Garretson, and principal engineer Neal Enzenauer. The hardware itself survives in collector scans: box, warranty card, registration card, manual, software binders, and the practice scanning sheet.
+* **The HP lineage.** OSCAR used the HP HEDS-3000 optical sensor, the same sensor family as Hewlett-Packard's own barcode wand for the HP-41C calculator (1981). Contemporary press credited HP with dropping barcode-wand prices from $300+ to the consumer range, making OSCAR's $79.95 price possible. The museum's collection now holds two stops on the printed-ink-as-software arc: OSCAR (1983, hand-scanned barcodes) and Cauzin Softstrip (1985, motorized strip reader).
+
+### Team
+
+* **Databar Corporation** — Eden Prairie, Minnesota company; produced OSCAR and Databar Magazine in 1983.
+* **Don Picard** — Executive editor; ex-Webb Publishing custom-publishing; "Concept was basically dead before it got born."
+* **Kim Garretson** — Publisher; described the beep-until-success swipe ritual in oral history.
+* **Neal Enzenauer** — Principal engineer; "We thought we were going to set the world on fire and make magnetic media obsolete."
+
+### Media
+
+![Databar OSCAR interface box and handheld scanning wand](../assets/wiki/databar-oscar-scanner.jpg)
+*Databar OSCAR interface box and handheld scanning wand. Photograph from the mainbyte.com TI-99 hardware archive.*
+
+![Part of the Databar OSCAR practice scanning sheet](../assets/wiki/databar-oscar-scan-sheet.jpg)
+*Part of the OSCAR practice scanning sheet, used with a plastic template to keep swipes straight. Photograph from mainbyte.com.*
+
+![The color-coded software booklets that shipped with OSCAR](../assets/wiki/databar-oscar-booklets.jpg)
+*The color-coded software booklets that shipped with OSCAR. Photograph from mainbyte.com.*
+
+### Sources
+
+1. ANTIC Atari podcast, Interview 321 — Databar OSCAR (Picard, Garretson, Enzenauer oral history) — https://ataripodcast.libsyn.com/antic-interview-321-databar-oscar
+2. Databar Magazine, Atari Edition — full scan, archive.org — https://archive.org/details/DatabarMagazineAtariEdition
+3. Databar OSCAR box, warranty, registration card scans — archive.org — https://archive.org/details/DatabarOSCARbox
+4. mainbyte.com — Databar OSCAR hardware page (photos and manuals) — http://www.mainbyte.com/ti99/hardware/oscar/oscar.html
+5. Compute! #41, October 1983 — "Optical Scanner System" news — https://www.atarimagazines.com/compute/issue41/NEWS_PRODUCTS_Optical_Scanner_System.php
+6. Oscar barcode decoder project (GitHub) and write-up — https://github.com/doegox/Oscar

@@ -1,0 +1,40 @@
+{
+  "slug": "fluke-9010a",
+  "title": "Fluke 9010A Micro-System Troubleshooter",
+  "year": "1983",
+  "subtitle": "The repair tool you plugged into a dead computer's brain socket",
+  "why_scout_cares": "The 9010A is the only artifact in the museum where the human physically swaps their instrument INTO the dead machine's CPU socket and becomes the processor. A field-repair HCI with a beeping keypad, a probe that flashes red and green, and ROM signatures you look up in a table by hand. It is also the arcade repairman's sacred tool — the thing that debugged Pac-Man and Defender PCBs — which ties it directly to the museum's arcade exhibits.",
+  "search_terms": ["Fluke 9010A", "micro-system troubleshooter", "signature analysis", "interface pod", "arcade repair"],
+  "research": {
+    "title": "Fluke 9010A Micro-System Troubleshooter",
+    "year": "1983",
+    "by": "John Fluke Mfg. Co., Inc., Everett, Washington",
+    "tags": ["HCI", "Input", "Instrument", "Lab Equipment", "Programming"],
+    "overview": "The Fluke 9010A Micro-System Troubleshooter, announced in 1983 (Operator Manual Rev 2 dated April 1984), is a portable service instrument built to debug microprocessor boards down to the silicon. The front panel is a calculator-style instrument: a 16-key hexadecimal keypad, labeled function keys (LEARN, VIEW, BUS TEST, ROM TEST, I/O TEST, RAM SHORT, RAM LONG, RAMP, READ/WRITE, RUN-UUT), a 32-character alphanumeric display, and a built-in minicassette drive for test programs. Its purpose was to diagnose broken computer boards without schematics — you told it what CPU the board used, and it talked to the CPU's bus directly.\n\nThe interaction model is the point. To use it you power the board down, lever the microprocessor out of its socket with an IC puller, and plug a pod into the now-empty socket. The pod contains a copy of that CPU plus RAM, ROM, and I/O; the 9010A physically becomes the target processor and drives the board's address, data, and control lines through the socket. You are swapping your instrument into the patient's brain socket. A handheld probe with red and green indicator lights inside its shell reads logic levels at any node, injects bus-synchronized pulses, and gathers signatures while the instrument runs test patterns.\n\nThe 9010A became the definitive arcade repairman's tool: in-circuit debugging of Pac-Man, Ms. Pac-Man, Tempest, Centipede, and Defender PCBs. LEARN, run against a known-good board, auto-builds a memory map; ROM TEST computes a proprietary mathematical signature that the operator must look up in reference tables by hand. The instrument's prompts, defaults, audible feedback, and consistent OK/FAIL messages were designed so a bench tech with no programming background could script board tests. Today it has a 90-page collector thread ('The Fluke 9010a Club') and is emulated in software, keeping the ritual alive.",
+    "deepDive": [
+      {"heading": "The socket-replacement ritual", "text": "The 9010A's defining move: pull the suspect microprocessor, plug in the pod. The pod carries its own copy of the CPU and drives the board's bus in place of the removed chip. The instrument becomes the computer — it can read and write RAM, test ROM against stored signatures, exercise I/O ports, and watch the bus respond. US Patent 4,709,366 ('Computer Assisted Fault Isolation in Circuit Board Testing', Marshall H. Scott, filed 1985) describes exactly this: 'the microprocessor is electrically replaced with a special interface pod which is connected to a troubleshooting device.'"},
+      {"heading": "The probe", "text": "The handheld stimulus/response probe has a tip, a button, and red/green indicator lights inside the shell that read logic levels at the node, holding the state at least 0.25 s so the eye can catch brief pulses. It injects bus-synchronized HIGH/LOW stimulus pulses, counts events, reads nodes during memory cycles, and gathers signatures at any node while the RAMP or loop runs. A rear-panel BNC connector outputs a scope trigger synced to the UUT bus cycles. The probe is not passive — US Patent 5,043,655 ('Current Sensing Buffer for Digital Signal Line Testing', Gerald J. McMorrow) describes its active sampling during address and data phases."},
+      {"heading": "ROM signatures by hand", "text": "ROM TEST computes a proprietary mathematical 'signature' for the contents of a ROM — explicitly not a CRC — which the operator must know in advance from reference tables. Arcade technicians built libraries of expected signatures per game and ROM revision, and traded them like baseball cards. QuarterArcade's Coin-Op TechNet hosted a signature calculator utility; the modern FlukeEm emulator and the community FIDE (Fluke Integrated Development Environment) keep the ecosystem alive."},
+      {"heading": "The arcade connection", "text": "The 9010A's cultural home is the arcade. When an arcade cabinet's PCB went dark, the 9010A with the right pod and probe found the dead chip. Today the machine is central to arcade restoration: reproduction pods (Marian Z80/6502/6800), signature databases, and the 90-page 'Fluke 9010a Club' thread on the International Arcade Museum forums. The museum's other repair-adjacent story is the Sega Heavyweight Champ schematics rediscovered at the Tilt Museum; the Fluke is the tool that kept the rest alive."}
+    ],
+    "team": [
+      {"name": "John Fluke Mfg. Co., Inc.", "note": "Everett, Washington test-and-measurement maker; produced the 9000A-series Troubleshooters from the early 1980s."},
+      {"name": "Marshall H. Scott", "note": "Engineer; US Patent 4,709,366 on the pod-based fault isolation method."},
+      {"name": "Gerald J. McMorrow", "note": "Engineer; US Patent 5,043,655 on the probe's current-sensing buffer."}
+    ],
+    "media": [
+      {"src": "https://commons.wikimedia.org/wiki/File:Fluke_9010A_Micro_System_Troubleshooter_(27982236698).jpg", "alt": "Fluke 9010A Micro-System Troubleshooter front panel with hex keypad and display", "caption": "Fluke 9010A front panel: 16-key hex keypad, labeled function keys, 32-character display, minicassette deck. CC0, Wolfgang Stief, Wikimedia Commons."},
+      {"src": "https://commons.wikimedia.org/wiki/File:Fluke_9010A_Micro_System_Troubleshooter_(27982236698).jpg", "alt": "Fluke 9010A Micro-System Troubleshooter", "caption": "CC0 photograph by Wolfgang Stief (VCFE 2018)."}
+    ],
+    "sources": [
+      {"text": "Fluke 9010A Operator Manual, Rev 2 (April 1984), archive.org", "url": "https://archive.org/details/bitsavers_fluke90106emTroubleshooterOperatorManualRev2198404_18951316"},
+      {"text": "Centre for Computing History — Fluke 9010A object record", "url": "https://www.computinghistory.org.uk/det/6457/Fluke-9010A-Micro-System-Troubleshooter/"},
+      {"text": "QuarterArcade Coin-Op TechNet — Fluke 9010A (Wayback Machine)", "url": "https://web.archive.org/web/20220831100138/http://tech.quarterarcade.com/tech/Fluke/9010A/"},
+      {"text": "International Arcade Museum forums — 'The Fluke 9010a Club' thread", "url": "https://forums.arcade-museum.com/threads/the-fluke-9010a-club.97717/"},
+      {"text": "US Patent 4,709,366 — Computer Assisted Fault Isolation in Circuit Board Testing", "url": "https://patents.google.com/patent/US4709366A"},
+      {"text": "US Patent 5,043,655 — Current Sensing Buffer for Digital Signal Line Testing", "url": "https://patents.google.com/patent/US5043655A"}
+    ],
+    "imageUrls": ["https://upload.wikimedia.org/wikipedia/commons/f/ff/Fluke_9010A_Micro_System_Troubleshooter_%2827982236698%29.jpg"]
+  },
+  "savedImages": ["images/fluke-9010a.jpg"]
+}
