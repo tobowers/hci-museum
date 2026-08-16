@@ -1,0 +1,61 @@
+{
+  "slug": "btx-terminal",
+  "title": "Bildschirmtext (BTX) Terminal",
+  "year": "1983",
+  "subtitle": "The pay-per-page videotex terminal: every screenful cost money, and the terminal's chip-card reader was the meter",
+  "why_scout_cares": "Bildschirmtext was West Germany's national videotex service, launched nationwide in 1983 by the Deutsche Bundespost — and its economics were the weirdest interface in the family. The receiver paid for every page received: content providers set a per-page price from 0.01 to 9.99 Deutsche Mark, or a time-based fee, and dedicated BTX terminals carried a chip-card reader so the postal monopoly could bill you by the screenful. Data travelled unauthenticated and in plaintext, which made BTX the target of the famous 1984 Chaos Computer Club hack by Wau Holland — the first mass-market remote payment-hacking incident. Dedicated terminals ('MultiTel' units, Bundespost-issued terminals with special function keys and a numeric page keypad) and C64 adapters (Siemens Decoder Module II, 1986) let Germans read and pay for pages over V.23 modems into the late 1990s. Fills the metered-videotex gap: distinct from Minitel (flat-rate consumer videotex) and CAPTAIN (fax-raster Japanese videotex).",
+  "search_terms": ["Bildschirmtext", "BTX terminal", "Deutsche Bundespost videotex", "MultiTel", "pay per page videotex", "Chaos Computer Club BTX hack"],
+  "research": {
+    "title": "Bildschirmtext (BTX) Terminal",
+    "year": "1983",
+    "by": "Deutsche Bundespost / Systems Designers Ltd / IBM Germany",
+    "tags": ["HCI", "Terminal", "Network", "Videotex", "Germany", "Chip Card"],
+    "overview": "Bildschirmtext ('screen text', abbreviated Btx or BTX) was an online videotex system launched in West Germany in 1983 by the Deutsche Bundespost. Originally conceived to follow the UK Prestel specifications, it was developed on contract by Systems Designers Ltd for IBM Germany, with added features inspired by the French Minitel, creating a new display standard designated in 1981 as the CEPT1 profile. Trials ran in Düsseldorf and Berlin in 1980, the network was expanded with IBM Germany, and the service launched nationwide in 1983 at the press of a button by the Federal Post Minister at Berlin's IFA.\n\nThe interaction model is the point. BTX always transferred whole screen pages, and the receiver paid for each page received. The content provider set the price: either a per-page fee (0.01 to 9.99 DM) or a time-dependent fee (0.01 to 1.30 DM per minute). This pay-per-page economics turned the terminal into a meter: dedicated BTX terminals carried a chip-card reader for electronic identification and payment, so inserting your card and paging through the service was literally a transaction per screenful. The system could only be used with a modem produced by the Bundespost.\n\nData was transferred unauthenticated and in plaintext, leading to the BTX hack by Wau Holland of the Chaos Computer Club in 1984 — the first famous remote payment-hacking incident, exploiting the very interface economics the terminal embodied. By the 1990s the system was renamed Datex-J; it formed the basis of T-Online, Deutsche Telekom's online service, which maintained a BTX interface in its access software after 1995. The last BTX access was switched off at the end of 2001.",
+    "deepDive": [
+      {
+        "heading": "The terminal was a meter",
+        "text": "Where Minitel was a flat-rate appliance and CAPTAIN was a fax receiver, BTX was a vending machine for screens. Every page had a price, set by its provider, and the receiver paid on receipt. Dedicated terminals therefore carried a chip-card reader for electronic ID and payment — a physical identity-and-credit ritual built into the hardware itself. Browsing was paging: you moved through numbered pages and watched the cost accumulate. This is pay-per-view as an interface paradigm, decades before anyone called it microtransactions."
+      },
+      {
+        "heading": "Function keys and page numbers",
+        "text": "Dedicated BTX terminals ('MultiTel' devices and Bundespost-issued terminals) used special function keys (SEND, function blocks), a numeric page keypad, and displayed 40×24 semigraphic text characters with 480×250 pixel graphics, 32 of 4096 colors. The 'Multifunktionales Telefon 12' combined the telephone and BTX terminal in one device. Adapters existed for home computers like the Commodore 64 (Siemens Decoder Module II, 1986). Data went over V.23 modems to GEC 4000-series host computers."
+      },
+      {
+        "heading": "The 1984 BTX hack",
+        "text": "Because data was transferred unauthenticated and in plaintext, Wau Holland of the Chaos Computer Club demonstrated in 1984 that he could retrieve a bank's secret BTX password — later sensationalized as the 'hack that emptied a bank' (Spiegel, 1984). The BTX hack became the first mass-media hacking incident in Germany and a landmark in security history: the metered-terminal economics built into the system's plaintext protocol were its own undoing."
+      },
+      {
+        "heading": "A government monopoly's long goodbye",
+        "text": "BTX never achieved mass adoption; the Bundespost forced users to rent its modem, uptake was low, and the service drifted until T-Online absorbed it. It ran until 2001, made obsolete by the Internet. In the museum it sits beside Minitel and CAPTAIN as the third national terminal in the pre-Internet online-service family — and the only one that charged you per page."
+      }
+    ],
+    "team": [
+      {"name": "Deutsche Bundespost", "note": "West German postal service; launched BTX nationwide in 1983 and controlled the modems."},
+      {"name": "Systems Designers Ltd", "note": "UK company that developed BTX on contract for IBM Germany, based on Prestel specs."},
+      {"name": "IBM Germany", "note": "Developed the BTX network from 1981."},
+      {"name": "Wau Holland / Chaos Computer Club", "note": "Performed the 1984 BTX hack, the first famous remote payment-hacking incident."},
+      {"name": "Siemens", "note": "Built the Decoder Module II (1986) letting Commodore 64 owners use BTX."}
+    ],
+    "media": [
+      {"src": "https://commons.wikimedia.org/wiki/File:Multikom_L1_BTX_Terminal_P1110254.jpg", "alt": "Multikom L1 BTX terminal", "caption": "Multikom L1 dedicated BTX terminal, a pay-per-page videotex device. CC BY-SA 4.0, Wikimedia Commons."},
+      {"src": "https://commons.wikimedia.org/wiki/File:BTX-Terminal.jpg", "alt": "BTX terminal with keypad", "caption": "A dedicated BTX terminal with its numeric page keypad and function keys. CC BY-SA 3.0, Wikimedia Commons."},
+      {"src": "https://commons.wikimedia.org/wiki/File:Btx_device.jpg", "alt": "Multifunktionales Telefon 12 BTX/telephone hybrid", "caption": "German 'Multifunktionales Telefon 12' — a telephone and BTX terminal combined. CC BY-SA 3.0, Wikimedia Commons."}
+    ],
+    "sources": [
+      {"text": "Wikipedia — Bildschirmtext", "url": "https://en.wikipedia.org/wiki/Bildschirmtext"},
+      {"text": "Der Spiegel, 'Bildschirmtext - Computerwissen für alle?' (1983)", "url": "https://www.spiegel.de/wirtschaft/bildschirmtext-computerwissen-fuer-alle-a-6dd9ba4b-0002-0001-0000-000014019866"},
+      {"text": "Museum for Communication Nuremberg, 'Bildschirmtext: A network before the Internet' (Google Arts & Culture)", "url": "https://artsandculture.google.com/story/mwVROPu6jgAeLA"},
+      {"text": "ETSI CEPT1 videotex presentation layer spec (1990)", "url": "https://www.etsi.org/deliver/etsi_i_ets/300001_300099/300072/01_60/ets_300072e01p.pdf"}
+    ],
+    "imageUrls": [
+      "https://upload.wikimedia.org/wikipedia/commons/7/77/Multikom_L1_BTX_Terminal_P1110254.jpg",
+      "https://upload.wikimedia.org/wikipedia/commons/7/76/BTX-Terminal.jpg",
+      "https://upload.wikimedia.org/wikipedia/commons/4/41/Btx_device.jpg"
+    ]
+  },
+  "savedImages": [
+    "images/btx-multikom-l1.jpg",
+    "images/btx-terminal.jpg",
+    "images/btx-multitel12.jpg"
+  ]
+}
