@@ -1,0 +1,63 @@
+{
+  "slug": "quotron-ii",
+  "title": "Quotron II",
+  "year": "1986",
+  "subtitle": "Wall Street's dedicated quote terminal: type a ticker, press a labeled field key, read the green glass",
+  "why_scout_cares": "Before Bloomberg there was Quotron: a dedicated, non-QWERTY market-data terminal whose entire interface is a custom keyboard of ticker-symbol and field keys (LAST, BID, ASK, VOL...) driving a green-phosphor CRT. No cursor, no mouse — pure key-driven retrieval from a central computer. At 60% of the 1986 financial-data market and 100,000 rented terminals, it is the professional terminal against which every later trading terminal was measured, immortalized in the 1987 film Wall Street. Fills the museum's professional market-data terminal gap — distinct from Minitel (consumer videotex), Famicom Network System (home finance), and all other network exhibits.",
+  "search_terms": ["Quotron", "Quotron II", "market data terminal", "Scantlin Electronics", "stock quote terminal 1980s", "green phosphor CRT terminal"],
+  "research": {
+    "title": "Quotron II",
+    "year": "1986",
+    "by": "Quotron Systems / Scantlin Electronics (Los Angeles)",
+    "tags": ["HCI", "Terminal", "Network", "Professional", "Keyboard", "Finance"],
+    "overview": "Quotron was a Los Angeles company that in 1960 became the first financial-data technology company to deliver stock market quotes to an electronic screen rather than printed ticker tape. Developed by Scantlin Electronics, owned by entrepreneur John Scantlin, the Quotron offered brokers and money managers up-to-the-minute prices and other information about securities. By the 1980s, the Quotron II desk unit was the terminal on Wall Street trading floors: a dedicated, non-QWERTY keyboard with alphabetic ticker-symbol keys, a numeric pad, and labeled function keys for data fields (LAST, BID, ASK, VOL, HIGH, LOW, OPEN, CLOSE, NEWS, EXCH), all driving a green-text-on-black CRT.\n\nThe interaction model is the point. The operator does not browse: they type a one-to-four-letter ticker and hit a labeled field key, and the request travels over dedicated lines to Quotron's central computer, which returns the answer on the green-phosphor screen. No cursor, no mouse — a key-driven retrieval language, the ancestor of the Bloomberg terminal's amber-terminal command grammar.\n\nCiticorp bought Quotron in 1986. At the time Quotron was renting 100,000 terminals, 60 percent of the 1986 financial-data market. After the acquisition, Merrill Lynch, its largest client, declined to renew and instead invested in a competing startup named Bloomberg. Quotron was slow to move from dedicated terminals to personal computers, and by 1994 had only 35,000 terminals; Reuters paid more than $100 million to purchase the ailing company, and Quotron became Reuters' trading-floor terminal until superseded by the Reuters 3000 Xtra. The Quotron screen is famously the terminal used by Bud Fox and Gordon Gekko in the 1987 film Wall Street.",
+    "deepDive": [
+      {
+        "heading": "The keyboard is the query language",
+        "text": "The Quotron II desk unit had no operating system you could point at. The interface was a custom keyboard divided into functional zones: alphabetic ticker-symbol keys, a numeric pad, and a bank of labeled field keys (LAST, BID, ASK, VOL, HIGH, LOW, OPEN, CLOSE, NEWS, etc.) plus modifiers like EXCH (NYSE/AMEX/OTC) and PAGE/CLR. To ask 'what is the last price of IBM?', you typed IBM then hit LAST. The machine was a client to a central mainframe; the physical keyboard WAS the retrieval grammar. This is a deliberately impoverished, extremely fast, eyes-on-the-numbers interface — the opposite of the icon-and-menu systems of the same era."
+      },
+      {
+        "heading": "Green glass, not paper tape",
+        "text": "Most computer screens of the 1980s displayed a single color. Quotron screens were green text on black, updating from a central computer over dedicated lines. The color and phosphor were not decoration: brokers worked in dim trading rooms where the glow of the quote screen was the center of attention, and green-on-black had superior legibility at a glance. When Bloomberg launched its professional terminal for bond traders, it chose amber on black — a direct visual echo of the Quotron paradigm, and proof of how thoroughly the dedicated quote terminal defined the category."
+      },
+      {
+        "heading": "Dedicated hardware vs. the PC wave",
+        "text": "Quotron's terminal was designed as a sealed appliance: rental terminals, central computers, dedicated phone lines. This worked brilliantly in the 1970s and early 80s but became a liability as PCs invaded trading floors. Quotron was slow to move from dedicated terminals to personal computers, and the proprietary Bloomberg terminal overtook its market share. By 1994 Quotron had 35,000 terminals versus 80,000 for ADP and 25,000 for ILX. The story is a classic of the era: a perfect dedicated-interface machine, undone by the general-purpose computer."
+      },
+      {
+        "heading": "Wall Street immortalized it",
+        "text": "The 1987 film Wall Street used Quotron screens for Bud Fox and Gordon Gekko. In the museum's collection, Quotron II sits alongside Minitel (consumer videotex) and the Famicom Network System (home finance) as the third corner of the pre-Internet information-terminal story: the professional terminal that defined the trading floor."
+      }
+    ],
+    "team": [
+      {"name": "Scantlin Electronics", "note": "Developer of the original Quotron, the first electronic market-data terminal (1960); owned by entrepreneur John Scantlin."},
+      {"name": "Quotron Systems", "note": "Los Angeles company that rented quote terminals to brokers and money managers."},
+      {"name": "Citicorp", "note": "Acquired Quotron in 1986; rented 100,000 terminals, 60% of the 1986 financial-data market."},
+      {"name": "Reuters Holdings", "note": "Purchased Quotron in 1994 for more than $100 million; Quotron became Reuters' trading-floor terminal."}
+    ],
+    "media": [
+      {"src": "https://commons.wikimedia.org/wiki/File:Quotron_II_desk_unit.png", "alt": "Quotron II desk unit terminal", "caption": "Quotron II desk unit, the dedicated market-data terminal with its custom quote keyboard. Public domain, Wikimedia Commons."},
+      {"src": "https://commons.wikimedia.org/wiki/File:Merrill_Lynch_Quotron.jpg", "alt": "Merrill Lynch office with Quotron terminals", "caption": "Quotron terminals in a Merrill Lynch office. Public domain, Wikimedia Commons."},
+      {"src": "https://commons.wikimedia.org/wiki/File:Quotron_II_data_format.JPG", "alt": "Quotron II data format documentation", "caption": "Quotron II data format documentation. Public domain, Wikimedia Commons."},
+      {"src": "https://commons.wikimedia.org/wiki/File:Minister_Ruding_stelt_Dafsa_Quotron_in_gebruik,_Bestanddeelnr_933-1157.jpg", "alt": "Dutch minister Ruding activates a Dafsa Quotron", "caption": "Dutch finance minister Ruding activates a Dafsa Quotron terminal. CC0, Wikimedia Commons (Nationaal Archief)."}
+    ],
+    "sources": [
+      {"text": "Wikipedia — Quotron", "url": "https://en.wikipedia.org/wiki/Quotron"},
+      {"text": "NYT, 'Quotron Expects Board to Reject Citicorp Bid' (1986)", "url": "https://www.nytimes.com/1986/03/28/business/quotron-expects-board-to-reject-citicorp-bid.html"},
+      {"text": "NYT, 'Citicorp Passes Off Quotron' (1994)", "url": "https://www.nytimes.com/1994/01/14/business/citicorp-passes-off-quotron-predicts-big-quarterly-profit.html"},
+      {"text": "Trademarkia — QUOTRON 800 (trademark)", "url": "https://www.trademarkia.com/quotron-800-73460770"}
+    ],
+    "imageUrls": [
+      "https://upload.wikimedia.org/wikipedia/commons/a/a0/Quotron_II_desk_unit.png",
+      "https://upload.wikimedia.org/wikipedia/commons/0/05/Merrill_Lynch_Quotron.jpg",
+      "https://upload.wikimedia.org/wikipedia/commons/8/81/Quotron_II_data_format.JPG",
+      "https://upload.wikimedia.org/wikipedia/commons/3/36/Minister_Ruding_stelt_Dafsa_Quotron_in_gebruik%2C_Bestanddeelnr_933-1157.jpg"
+    ]
+  },
+  "savedImages": [
+    "images/quotron-ii-desk-unit.png",
+    "images/quotron-merrill-lynch.jpg",
+    "images/quotron-ii-data-format.jpg",
+    "images/quotron-minister-ruding.jpg"
+  ]
+}
