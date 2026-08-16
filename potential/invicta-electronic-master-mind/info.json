@@ -1,0 +1,59 @@
+{
+  "slug": "invicta-electronic-master-mind",
+  "title": "Invicta Electronic Master Mind",
+  "year": "1977",
+  "subtitle": "Interrogate the computer's hidden number until it cracks",
+  "why_scout_cares": "The first mass-market handheld where you play against the machine directly and the machine is the code-maker: a black-box oracle that secretly chooses a 3-5 digit number, accepts your guesses from a keypad, and answers only in coded LED verdicts. It is the consumer embodiment of Knuth's 1976 paper 'The Computer as Master Mind' — a year before Simon — and the purest example in the museum of the computer as an adversary you interrogate rather than a tool you operate. The 1979 Super-Sonic version added the delight of an audible signal when you finally strike the hidden code.",
+  "search_terms": ["Invicta Electronic Master Mind", "Super-Sonic Electronic Master Mind", "electronic Mastermind 1977", "Invicta Plastics handheld game", "computer as codemaker"],
+  "savedImages": [
+    "images/master-mind-1.jpg",
+    "images/master-mind-2.jpg",
+    "images/master-mind-supersonic.jpg"
+  ],
+  "research": {
+    "title": "Invicta Electronic Master Mind",
+    "year": "1977",
+    "by": "Invicta Plastics (Invicta Games)",
+    "tags": ["HCI", "Game", "Hidden State", "Input", "Consumer"],
+    "overview": "Invicta Plastics, the English company that held the rights to Mastermind after acquiring it from inventor Mordecai Meirowitz, released the Electronic Master Mind in 1977 — a handheld electronic version of the code-breaking game. Where the board game used colored pegs and a shielding cover, the electronic version used numbers: the machine secretly selects a code of three, four, or five digits (from ten possible digits), and the human plays the code-breaker, entering guesses on a small keypad. The unit responds only with coded verdicts — the classic 'black and white key pegs' translated into LED feedback — counting correct digits and correct digits in the right position. It plays solo or with multiple players, always against the computer.\n\nThe interaction model is the point: for the first time in a mass-market consumer toy, the machine is the adversarial opponent holding a hidden state, and the human is reduced to an interrogator. You cannot see inside; you can only ask questions (guesses) and read the machine's terse scored answers, iterating until the LED verdict declares the code broken. The play is pure information-theoretic deduction — Donald Knuth had published his optimal five-guess strategy for Mastermind in a 1976 paper literally titled 'The Computer as Master Mind.' The Invicta Electronic Master Mind was the same idea made into a handheld you could buy in a toy shop, a year before Simon shipped.\n\nA 1979 follow-up, the Super-Sonic Electronic Master Mind, kept identical gameplay and added a sixth digit for longer codes, an audible signal when the correct code was tried, a 'Fail' key that revealed the secret code on request, and a display of the elapsed time and number of tries taken to reach a solution. The units were manufactured in Hong Kong and sold worldwide under the Invicta Games brand. The version is documented on the Wikipedia Mastermind page's variation table and in surviving collector photographs.",
+    "deepDive": [
+      {
+        "heading": "The computer as codemaker",
+        "text": "The defining inversion: in the peg-board game, a human opponent sets the secret pattern behind a shield. In the electronic version, the machine sets the secret. The unit holds a 3-5 digit number in its electronics, generated at the start of each game, and the player never sees it — only the scored verdicts of each guess. This makes the toy one of the earliest consumer products in which a computer occupies the adversarial role: not a tutor, not a referee, but the hidden mind you are trying to break."
+      },
+      {
+        "heading": "Interrogation by keypad",
+        "text": "Input is a numeric keypad; output is LED verdicts. The player types a guess, and the machine replies with the same scoring logic as the board game: a colored signal for each digit correct in value and position, a white-equivalent signal for each digit correct in value but misplaced, nothing for wrong digits. The vocabulary of feedback is deliberately impoverished — enough information to solve the code in principle, never enough to see it. The unit is a black-box oracle: ask, listen, deduce."
+      },
+      {
+        "heading": "The Knuth tie-in",
+        "text": "Donald Knuth's 1976 paper 'The Computer as Master Mind' proved that the code-breaker can always win in five moves with a minimax strategy over the 1,296 possible codes. The Invicta Electronic Master Mind, released the following year, is the same computational relationship made tangible: a consumer device whose entire job is to hold a secret and grade interrogations. The toy predates the era's famous electronic memory games yet is closer in spirit to a cryptographic challenge-response than to Simon."
+      },
+      {
+        "heading": "The Super-Sonic upgrade",
+        "text": "The 1979 Super-Sonic Electronic Master Mind extended the code to six digits and added the audio dimension: a tone when the correct code is tried, plus a 'Fail' key that gives up and reveals the secret, and a display of elapsed time and guess count. Where the original communicated strictly through LEDs, the Super-Sonic version let the machine speak its verdicts — a small but real step toward the talking games that followed."
+      }
+    ],
+    "team": [
+      {"name": "Invicta Plastics", "note": "English toy company near Leicester that acquired Mastermind rights from inventor Mordecai Meirowitz; Edward Jones-Fenleigh, the founder, refined the game. Released the Electronic Master Mind in 1977."},
+      {"name": "Mordecai Meirowitz", "note": "Israeli inventor of Mastermind (1970), which the electronic version adapts."},
+      {"name": "Donald Knuth", "note": "Published 'The Computer as Master Mind' (1976), proving the code-breaker can win in five moves — the mathematical framing the electronic toy embodies."}
+    ],
+    "media": [
+      {"src": "https://commons.wikimedia.org/wiki/File:Invicta_Electronic_Master_Mind_Game.jpg", "alt": "Invicta Electronic Master Mind handheld game", "caption": "Invicta Electronic Master Mind (1977). The machine holds a hidden 3-5 digit code; the player interrogates it through the keypad and reads the LED verdicts. CC BY-SA 4.0, Joe Haupt, Wikimedia Commons."},
+      {"src": "https://commons.wikimedia.org/wiki/File:Electronic_Master_Mind_by_Invicta_Games,_Made_in_Hong_Kong,_Copyright_1977_(LED_Handheld_Electronic_Game).jpg", "alt": "Invicta Electronic Master Mind, LED handheld game made in Hong Kong", "caption": "Invicta Electronic Master Mind, made in Hong Kong, copyright 1977. CC BY-SA 2.0, Joe Haupt, Wikimedia Commons."},
+      {"src": "https://commons.wikimedia.org/wiki/File:Super-Sonic_Electronic_Master_Mind_by_Invicta,_Made_In_Hong_Kong,_Copyright_1977.jpg", "alt": "Super-Sonic Electronic Master Mind by Invicta", "caption": "The 1979 Super-Sonic Electronic Master Mind added a sixth code digit, an audible signal on solving the code, and a Fail key that reveals it. CC BY-SA 2.0, Joe Haupt, Wikimedia Commons."}
+    ],
+    "sources": [
+      {"text": "Wikipedia — Mastermind (board game), variations table", "url": "https://en.wikipedia.org/wiki/Mastermind_(board_game)"},
+      {"text": "Knuth, D. 'The Computer as Master Mind', Journal of Recreational Mathematics 9(1), 1976", "url": "http://www.cs.uni.edu/~wallingf/teaching/cs3530/resources/knuth-mastermind.pdf"},
+      {"text": "Commons — File:Invicta Electronic Master Mind Game.jpg", "url": "https://commons.wikimedia.org/wiki/File:Invicta_Electronic_Master_Mind_Game.jpg"},
+      {"text": "Commons — File:Super-Sonic Electronic Master Mind by Invicta, Made In Hong Kong, Copyright 1977.jpg", "url": "https://commons.wikimedia.org/wiki/File:Super-Sonic_Electronic_Master_Mind_by_Invicta,_Made_In_Hong_Kong,_Copyright_1977.jpg"}
+    ],
+    "imageUrls": [
+      "https://upload.wikimedia.org/wikipedia/commons/f/fb/Invicta_Electronic_Master_Mind_Game.jpg",
+      "https://upload.wikimedia.org/wikipedia/commons/2/2a/Electronic_Master_Mind_by_Invicta_Games%2C_Made_in_Hong_Kong%2C_Copyright_1977_%28LED_Handheld_Electronic_Game%29.jpg",
+      "https://upload.wikimedia.org/wikipedia/commons/a/a9/Super-Sonic_Electronic_Master_Mind_by_Invicta%2C_Made_In_Hong_Kong%2C_Copyright_1977.jpg"
+    ]
+  }
+}

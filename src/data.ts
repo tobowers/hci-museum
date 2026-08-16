@@ -2402,6 +2402,32 @@ const exhibitData: Exhibit[] = [
     tags: ["Input", "Barcode", "Peripheral"],
     image: img("databar-oscar-scanner.jpg"),
   },
+  {
+    id: "dnd-computer-labyrinth",
+    slug: "dnd-computer-labyrinth",
+    wikiTitle: "Mattel Dungeons & Dragons Computer Labyrinth Game",
+    year: "1980",
+    sortYear: 1980,
+    title: "Mattel Dungeons & Dragons Computer Labyrinth Game",
+    subtitle: "A hidden maze in a 4-bit chip, mapped one touch at a time",
+    blurb:
+      "Mattel's 1980 electronic board game hides an entire dungeon inside a TMS1100-family microcontroller: fifty random walls, a treasure room, and a sleeping dragon, with no display of any kind. Players press diecast metal miniatures onto a touch-sensitive 8x8 grid and learn the invisible maze by sound alone — twelve audio cues for walls, doors, the dragon waking, and attack. Orange plastic markers map the unseen geometry as you go.",
+    tags: ["Games", "Board Game", "Hidden State", "Sound", "Input", "TMS1000"],
+    image: img("dnd-labyrinth-board.jpg"),
+  },
+  {
+    id: "invicta-electronic-master-mind",
+    slug: "invicta-electronic-master-mind",
+    wikiTitle: "Invicta Electronic Master Mind",
+    year: "1977",
+    sortYear: 1977,
+    title: "Invicta Electronic Master Mind",
+    subtitle: "Interrogate the computer's hidden number until it cracks",
+    blurb:
+      "The first mass-market handheld where you play against the machine directly and the machine is the code-maker: a black-box oracle that secretly chooses a 3-5 digit number, accepts your guesses from a keypad, and answers only in coded LED verdicts. The 1979 Super-Sonic version added an audible signal when you finally struck the hidden code, a Fail key to reveal it, and a display of your time and tries. The consumer embodiment of Knuth's 1976 'The Computer as Master Mind.'",
+    tags: ["Games", "Handheld", "Hidden State", "Input", "Consumer"],
+    image: img("master-mind-1.jpg"),
+  },
 ];
 
 export const exhibits: Exhibit[] = exhibitData.toSorted((a, b) => b.sortYear - a.sortYear || a.title.localeCompare(b.title));
