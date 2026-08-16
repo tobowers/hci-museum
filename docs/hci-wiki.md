@@ -1,6 +1,6 @@
 # The HCI Golden Age Wiki
 
-A research compendium for a digital museum of cutting-edge Human-Computer Interaction from the late 1970s through the early 1990s. These one hundred and ninety-five projects mix canonical experiments with weird, forgotten, and beautiful vaporware — brain control, voice control, gesture, wearable computing, VR, robots, and full-body exertion.
+A research compendium for a digital museum of cutting-edge Human-Computer Interaction from the late 1970s through the early 1990s. These one hundred and ninety-seven projects mix canonical experiments with weird, forgotten, and beautiful vaporware — brain control, voice control, gesture, wearable computing, VR, robots, and full-body exertion.
 
 Each entry includes an overview, a deep dive, a small media gallery, and full source links so the images and facts can always be traced back.
 
@@ -202,6 +202,8 @@ Each entry includes an overview, a deep dive, a small media gallery, and full so
 193. [Aspen Movie Map (1978)](#aspen-movie-map-1978)
 194. [ThunderScan (1984)](#thunderscan-1984)
 195. [Databar OSCAR (1983)](#databar-oscar-1983)
+196. [Mattel Dungeons & Dragons Computer Labyrinth Game (1980)](#mattel-dungeons--dragons-computer-labyrinth-game-1980)
+197. [Invicta Electronic Master Mind (1977)](#invicta-electronic-master-mind-1977)
 
 ---
 
@@ -9575,3 +9577,98 @@ Databar published exactly one issue, in three editions (Atari 8-bit with 13 prog
 4. mainbyte.com — Databar OSCAR hardware page (photos and manuals) — http://www.mainbyte.com/ti99/hardware/oscar/oscar.html
 5. Compute! #41, October 1983 — "Optical Scanner System" news — https://www.atarimagazines.com/compute/issue41/NEWS_PRODUCTS_Optical_Scanner_System.php
 6. Oscar barcode decoder project (GitHub) and write-up — https://github.com/doegox/Oscar
+
+---
+
+## Mattel Dungeons & Dragons Computer Labyrinth Game (1980)
+
+**By:** Mattel Electronics, with Texas Instruments silicon  
+**Tags:** `HCI` `Game` `Hidden State` `Sound` `Input` `Consumer`
+
+### Overview
+
+The Dungeons & Dragons Computer Labyrinth Game, released by Mattel in 1980, is an electronic board game that hides its entire world inside a four-bit microcontroller. The board is a plastic castle superstructure with a chessboard-sized 8x8 grid in the middle. The playing surface is touch-sensitive: under each square sits a membrane switch, and the game's pieces are diecast metal so that pressing a piece down onto a square reliably registers as input. Every game, the computer randomly generates an invisible labyrinth: about fifty walls, a secret treasure room, and a sleeping dragon, all held in the chip's memory with no display of any kind.
+
+The interaction model is the point. Players move metal warrior miniatures up to eight squares per turn, pressing each piece into the grid. The machine answers only in sound: twelve distinct electronic tones distinguish a wall, a door, the dragon stirring, an attack, the treasure, and victory. Blunder into an invisible wall and the beep stops your movement for the turn; you mark the discovered wall with an orange plastic marker, building a map of the unseen maze as you go. The dragon wakes when a player comes within three squares of the treasure and then pursues by one square per turn, tracked only in memory and audible only through its attack tones. Hidden per-player strength factors, secret rooms, and the dragon's movement algorithm all live in the machine's state.
+
+The electronics were documented in a 2023 teardown by Cameron Kaiser (Old VCR blog, covered by Hackaday). The PCB is small: a single 2N2222 transistor, a few passives, and one 28-pin Texas Instruments DIP marked M34012 — a customized TMS1100, itself a descendant of the TMS1000, the first commercial microcontroller. It is a PMOS part that runs directly off a 9-volt battery, with only four inputs and nineteen outputs; the designers used all four inputs and eighteen of the outputs just to scan the 64-square membrane keyboard. At roughly 475 kHz it does more than enough: it generates a maze, runs a dragon, and referees two players. The game survives in MAME's TMS1000-family handheld emulation and in an online playable emulation at dndlabyrinth.com.
+
+### Deep dive
+
+* **The hidden maze.** Each time the game starts, the computer randomly places about fifty walls across the 64-square board along with a treasure room and a sleeping dragon. Nothing is visible: the player discovers walls only by moving a piece into them and hearing the machine's tone. The White Dwarf reviewer (August 1982) described 'your heroic warrior blundering into yet another invisible wall.' Players map the unseen geometry with the included orange wall markers, effectively becoming surveyors of the machine's memory.
+* **Sound as the only channel.** The game has no display — no LEDs beyond what the electronics need, no screen. All state is conveyed through twelve audio cues: entering a clear square, hitting a wall, crossing a door, the dragon waking, the dragon flying toward a warrior, an attack, taking damage, finding the treasure, victory. Eight buttons on the side of the board let players hear what the tones mean, a workaround for what the manual could not describe. This is pure audio feedback for a spatial game — the user interface is literally a beeper.
+* **The dragon's mind.** The dragon's behavior is genuinely algorithmic, as documented in the game's rules: it starts asleep; it wakes when any player is three squares from the treasure; it then moves one square per turn toward a target — the player holding the treasure, or the closest player, or the treasure room if both players are hidden in their secret rooms — and it moves diagonally and over walls if necessary. Its position is unknown until it attacks, at which point you may place the dragon figurine on the board. Two players can also attack each other, with the computer assigning a variable strength factor to each warrior in memory.
+* **The silicon.** Cameron Kaiser's 2023 teardown revealed a tiny PCB holding a single transistor, a few resistors and capacitors, and one 28-pin Texas Instruments M34012 chip — a customized TMS1100, a four-bit PMOS microcontroller from the TMS1000 family. With four inputs and nineteen outputs, reading a 64-key membrane matrix was difficult; the designers used every input and all but one output. The part runs straight off a 9-volt battery at roughly 475 kHz. Mattel needed a cheap, customizable part to mass-produce, and TI's design allowed a customer to supply a ROM and two PLAs and get back a chip by the million — the same deal that produced Speak & Spell's TMS5100 a year earlier.
+* **Reception and survival.** The game was reviewed in White Dwarf #32 (August 1982) with a score of 4 and was named to the Games 100 lists of 1981 and 1982. The White Dwarf reviewer found it good for under-12s ('simplicity itself to learn') but mocked the price and the 'cheap looking plastic castle.' The follow-up, Mattel's Dungeons & Dragons Computer Fantasy Game (1981), was the last of the line. Modern preservation is strong for an electronic toy: the game runs under MAME's TMS1000-family handheld driver, an online emulation at dndlabyrinth.com keeps the maze-generating firmware playable, and collector teardowns document the hardware.
+
+### Team
+
+* **Mattel Electronics.** Publisher and designer of the game, part of Mattel's early-1980s electronic games line alongside Intellivision and Auto Race.
+* **Texas Instruments.** Supplier of the M34012, a customized TMS1100 four-bit PMOS microcontroller used for maze generation, dragon AI, and membrane keyboard scanning.
+* **Cameron Kaiser.** Retrocomputing writer and preservationist; documented the hardware in a complete 2023 teardown on the Old VCR blog, covered by Hackaday.
+
+### Media
+
+![Mattel D&D Computer Labyrinth Game board with diecast pieces and wall markers](../assets/wiki/dnd-labyrinth-board.jpg)
+*The Dungeons & Dragons Computer Labyrinth Game. The 8x8 touch-sensitive grid sits inside the plastic castle; diecast metal pieces press down on membrane switches beneath each square. Source: Hackaday / Cameron Kaiser teardown.*
+
+![Annotated die shot of the M34012, a customized TMS1100](../assets/wiki/dnd-labyrinth-chip.jpg)
+*The M34012: a customized TMS1100 four-bit PMOS microcontroller, descendant of the TMS1000, the first commercial microcontroller. Source: Hackaday / Cameron Kaiser.*
+
+![Box art of the Dungeons & Dragons Computer Labyrinth Game](../assets/wiki/dnd-labyrinth-box.png)
+*Box art for the 1980 Mattel game. Fair use image, Wikipedia.*
+
+### Sources
+
+1. Wikipedia — Dungeons & Dragons Computer Labyrinth Game — https://en.wikipedia.org/wiki/Dungeons_%26_Dragons_Computer_Labyrinth_Game
+2. Hackaday — 'Dungeons And Dragons Board Game From The 1980s Holds A TMS1100' (Feb 2023) — https://hackaday.com/2023/02/12/dungeons-and-dragons-board-game-from-the-1980s-holds-a-tms1100/
+3. Old VCR blog — Cameron Kaiser full teardown (Jan 2023, CC BY-NC-ND) — https://oldvcr.blogspot.com/2023/01/here-be-four-bits-of-dragons-mattel.html
+4. BoardGameGeek — Dungeons & Dragons Computer Labyrinth Game — https://boardgamegeek.com/boardgame/4746/dungeons-dragons-computer-labyrinth-game
+5. White Dwarf #32 review (August 1982, p.19), via Wikipedia citations — https://en.wikipedia.org/wiki/Dungeons_%26_Dragons_Computer_Labyrinth_Game
+6. D&D Computer Labyrinth online emulation — https://dndlabyrinth.com/
+
+---
+
+## Invicta Electronic Master Mind (1977)
+
+**By:** Invicta Plastics (Invicta Games)  
+**Tags:** `HCI` `Game` `Hidden State` `Input` `Consumer`
+
+### Overview
+
+Invicta Plastics, the English company that held the rights to Mastermind after acquiring it from inventor Mordecai Meirowitz, released the Electronic Master Mind in 1977 — a handheld electronic version of the code-breaking game. Where the board game used colored pegs and a shielding cover, the electronic version used numbers: the machine secretly selects a code of three, four, or five digits (from ten possible digits), and the human plays the code-breaker, entering guesses on a small keypad. The unit responds only with coded verdicts — the classic 'black and white key pegs' translated into LED feedback — counting correct digits and correct digits in the right position. It plays solo or with multiple players, always against the computer.
+
+The interaction model is the point: one of the earliest mass-market consumer toys in which the machine is the code-maker — it holds the hidden state and the human is reduced to an interrogator. You cannot see inside; you can only ask questions (guesses) and read the machine's terse scored answers, iterating until the LED verdict declares the code broken. The play is pure information-theoretic deduction — Donald Knuth had published his optimal five-guess strategy for Mastermind in a 1976 paper literally titled 'The Computer as Master Mind.' The Invicta Electronic Master Mind was the same idea made into a handheld you could buy in a toy shop, a year before Simon shipped and two before Merlin bundled its own Mastermind-style game as one of six.
+
+A 1979 follow-up, the Super-Sonic Electronic Master Mind, kept identical gameplay and added a sixth digit for longer codes, an audible signal when the correct code was tried, a 'Fail' key that revealed the secret code on request, and a display of the elapsed time and number of tries taken to reach a solution. The units were manufactured in Hong Kong and sold worldwide under the Invicta Games brand. The version is documented on the Wikipedia Mastermind page's variation table and in surviving collector photographs.
+
+### Deep dive
+
+* **The computer as codemaker.** The defining inversion: in the peg-board game, a human opponent sets the secret pattern behind a shield. In the electronic version, the machine sets the secret. The unit holds a 3-5 digit number in its electronics, generated at the start of each game, and the player never sees it — only the scored verdicts of each guess. This makes the toy one of the earliest consumer products in which a computer occupies the adversarial role: not a tutor, not a referee, but the hidden mind you are trying to break.
+* **Interrogation by keypad.** Input is a numeric keypad; output is LED verdicts. The player types a guess, and the machine replies with the same scoring logic as the board game: a colored signal for each digit correct in value and position, a white-equivalent signal for each digit correct in value but misplaced, nothing for wrong digits. The vocabulary of feedback is deliberately impoverished — enough information to solve the code in principle, never enough to see it. The unit is a black-box oracle: ask, listen, deduce.
+* **The Knuth tie-in.** Donald Knuth's 1976 paper 'The Computer as Master Mind' proved that the code-breaker can always win in five moves with a minimax strategy over the 1,296 possible codes. The Invicta Electronic Master Mind, released the following year, is the same computational relationship made tangible: a consumer device whose entire job is to hold a secret and grade interrogations. The toy predates the era's famous electronic memory games yet is closer in spirit to a cryptographic challenge-response than to Simon.
+* **The Super-Sonic upgrade.** The 1979 Super-Sonic Electronic Master Mind extended the code to six digits and added the audio dimension: a tone when the correct code is tried, plus a 'Fail' key that gives up and reveals the secret, and a display of elapsed time and guess count. Where the original communicated strictly through LEDs, the Super-Sonic version let the machine speak its verdicts — a small but real step toward the talking games that followed.
+
+### Team
+
+* **Invicta Plastics.** English toy company near Leicester that acquired Mastermind rights from inventor Mordecai Meirowitz; Edward Jones-Fenleigh, the founder, refined the game. Released the Electronic Master Mind in 1977.
+* **Mordecai Meirowitz.** Israeli inventor of Mastermind (1970), which the electronic version adapts.
+* **Donald Knuth.** Published 'The Computer as Master Mind' (1976), proving the code-breaker can win in five moves — the mathematical framing the electronic toy embodies.
+
+### Media
+
+![Invicta Electronic Master Mind handheld game](../assets/wiki/master-mind-1.jpg)
+*Invicta Electronic Master Mind (1977). The machine holds a hidden 3-5 digit code; the player interrogates it through the keypad and reads the LED verdicts. CC BY-SA 4.0, Joe Haupt, Wikimedia Commons.*
+
+![Invicta Electronic Master Mind, LED handheld game made in Hong Kong](../assets/wiki/master-mind-2.jpg)
+*Invicta Electronic Master Mind, made in Hong Kong, copyright 1977. CC BY-SA 2.0, Joe Haupt, Wikimedia Commons.*
+
+![Super-Sonic Electronic Master Mind by Invicta](../assets/wiki/master-mind-supersonic.jpg)
+*The 1979 Super-Sonic Electronic Master Mind added a sixth code digit, an audible signal on solving the code, and a Fail key that reveals it. CC BY-SA 2.0, Joe Haupt, Wikimedia Commons.*
+
+### Sources
+
+1. Wikipedia — Mastermind (board game), variations table — https://en.wikipedia.org/wiki/Mastermind_(board_game)
+2. Knuth, D. 'The Computer as Master Mind', Journal of Recreational Mathematics 9(1), 1976 — http://www.cs.uni.edu/~wallingf/teaching/cs3530/resources/knuth-mastermind.pdf
+3. Commons — File:Invicta Electronic Master Mind Game.jpg — https://commons.wikimedia.org/wiki/File:Invicta_Electronic_Master_Mind_Game.jpg
+4. Commons — File:Super-Sonic Electronic Master Mind by Invicta, Made In Hong Kong, Copyright 1977.jpg — https://commons.wikimedia.org/wiki/File:Super-Sonic_Electronic_Master_Mind_by_Invicta,_Made_In_Hong_Kong,_Copyright_1977.jpg
