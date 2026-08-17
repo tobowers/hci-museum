@@ -99,3 +99,19 @@ bun run build
 ```
 
 The curatorial scout run timed out after saving 10 potential candidates, so continue from `potential/` rather than discarding that work.
+
+## Update 2026-08-17: DeepSeek routes through Inworld Router
+
+DeepSeek raised its own API prices, so the shared DeepSeek slot now goes through Inworld Router
+(`https://api.inworld.ai/v1`, OpenAI-compatible) instead of `api.deepseek.com`:
+
+- `INWORLD_API_KEY` replaces `DEEPSEEK_API_KEY` as the credential the research/blog/eval agents need.
+- Default model is `inworld/models/deepseek-v4-flash` on provider `inworld` — $0.10/$0.20 per 1M
+  input/output tokens versus $0.14/$0.28 direct. `deepinfra/deepseek-ai/DeepSeek-V4-Flash` is also
+  registered at $0.09/$0.18. V4 Pro is intentionally not registered: it costs roughly 10x more per
+  token, so leaving it out keeps any override from reaching it.
+- Inworld model IDs must be fully qualified as `<upstream>/<model>`; the bare `models/deepseek-v4-flash`
+  is rejected by the router.
+- `scripts/opencode-runner.ts` declares the provider inline (`npm: @ai-sdk/openai-compatible`) with its
+  own cost table, because Inworld is not in models.dev — without that table, usage logging reports $0.
+- To go back to DeepSeek directly: `DEEPSEEK_PROVIDER=deepseek` with `DEEPSEEK_API_KEY` set.

@@ -38,6 +38,7 @@ jobs:
     runs-on: ubuntu-latest
     timeout-minutes: 25
     env:
+      INWORLD_API_KEY: ${{ secrets.INWORLD_API_KEY }}
       DEEPSEEK_API_KEY: ${{ secrets.DEEPSEEK_API_KEY }}
       KIMI_API_KEY: ${{ secrets.KIMI_API_KEY }}
       KIMI_PROVIDER: kimi-for-coding

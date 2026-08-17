@@ -1,7 +1,7 @@
 #!/usr/bin/env bun
 import fs from "node:fs";
 import path from "node:path";
-import { closeOpencode, opencodeText, resolveModelRef } from "./opencode-runner";
+import { closeOpencode, deepseekModelRef, opencodeText, requireProviderKey } from "./opencode-runner";
 import { errorData } from "./run-trace";
 import { exhibits } from "../src/data";
 
@@ -9,9 +9,7 @@ const BLOG_DIR = "docs/blog";
 const RUN_DIR = "potential/runs";
 const BEEPY_CHARTER = "docs/beepy.md";
 const BEEPY_MEMORY = "docs/beepy-memory.md";
-const DEEPSEEK_MODEL = process.env.DEEPSEEK_MODEL ?? "deepseek-v4-flash";
-const DEEPSEEK_PROVIDER = process.env.DEEPSEEK_PROVIDER ?? "deepseek";
-const MODEL = resolveModelRef(DEEPSEEK_MODEL, DEEPSEEK_PROVIDER);
+const MODEL = deepseekModelRef();
 
 function die(message: string): never {
   console.error(`blog-agent: ${message}`);
@@ -19,7 +17,11 @@ function die(message: string): never {
 }
 
 function requireEnv() {
-  if (!process.env.DEEPSEEK_API_KEY) die("DEEPSEEK_API_KEY missing");
+  try {
+    requireProviderKey(MODEL.providerID);
+  } catch (error) {
+    die((error as Error).message);
+  }
 }
 
 function slugify(text: string): string {
