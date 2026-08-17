@@ -5,7 +5,7 @@
  * Agents:
  *   1. Scout    (Grok via opencode + Octen/Exa + Wikipedia) — broad discovery of candidate objects.
  *   2. Dedupe   — filter out objects already in the museum.
- *   3. Research (DeepSeek V4 Flash by default) — deep-dive each candidate, find multiple images,
+ *   3. Research (DeepSeek V4 Flash via Inworld Router by default) — deep-dive each candidate, find multiple images,
  *      build a rich info.json matching the museum's wiki format.
  *   4. Curator  (Beepy via OpenRouter GLM 5.2) — final curation, writeup,
  *      and placement as Field Notes blog posts.
@@ -16,7 +16,7 @@
  *
  * Env overrides:
  *   GROK_MODEL=grok-4.3
- *   DEEPSEEK_MODEL=deepseek-v4-flash
+ *   DEEPSEEK_MODEL=inworld/models/deepseek-v4-flash   (DEEPSEEK_PROVIDER=deepseek to go direct)
  *   OPENROUTER_MODEL=z-ai/glm-5.2
  */
 
@@ -25,7 +25,7 @@ import path from "node:path";
 import { envInt, fetchWithTimeout, mapLimit, withTimeout } from "./concurrency";
 import { ExaBudgetExceededError, searchExa } from "./exa-client";
 import { searchOcten } from "./octen-client";
-import { closeOpencode, opencodeText, resolveModelRef } from "./opencode-runner";
+import { closeOpencode, deepseekModelRef, opencodeText, providerKeyEnvNames, resolveModelRef } from "./opencode-runner";
 import { RunTrace, errorData } from "./run-trace";
 import { exhibits } from "../src/data";
 
@@ -38,10 +38,8 @@ const WIKI_PATH = "docs/hci-wiki.md";
 const WIKI_API = "https://en.wikipedia.org/w/api.php";
 
 const GROK_MODEL = process.env.GROK_MODEL ?? "grok-4.3";
-const DEEPSEEK_MODEL = process.env.DEEPSEEK_MODEL ?? "deepseek-v4-flash";
 const OPENROUTER_MODEL = process.env.OPENROUTER_MODEL ?? "z-ai/glm-5.2";
 const GROK_PROVIDER = process.env.GROK_PROVIDER ?? "xai";
-const DEEPSEEK_PROVIDER = process.env.DEEPSEEK_PROVIDER ?? "deepseek";
 const OPENROUTER_PROVIDER = process.env.OPENROUTER_PROVIDER ?? "openrouter";
 const DISCOVERY_COUNT = Number(process.env.SCOUT_DISCOVERY_COUNT ?? 24);
 const TARGET_COLLECTION_COUNT = Number(process.env.SCOUT_TARGET_COUNT ?? 4);
@@ -51,7 +49,7 @@ const FETCH_TIMEOUT_MS = envInt("SCOUT_FETCH_TIMEOUT_MS", 20_000);
 const CANDIDATE_TIMEOUT_MS = envInt("SCOUT_CANDIDATE_TIMEOUT_MS", 300_000);
 const DRAFT_BLOGS = process.env.SCOUT_DRAFT_BLOGS === "true";
 const GROK_MODEL_REF = resolveModelRef(GROK_MODEL, GROK_PROVIDER);
-const DEEPSEEK_MODEL_REF = resolveModelRef(DEEPSEEK_MODEL, DEEPSEEK_PROVIDER);
+const DEEPSEEK_MODEL_REF = deepseekModelRef();
 const OPENROUTER_MODEL_REF = resolveModelRef(OPENROUTER_MODEL, OPENROUTER_PROVIDER);
 
 type ExistingExhibit = {
@@ -112,10 +110,12 @@ function die(msg: string): never {
 }
 
 function loadEnv() {
-  const required = ["OCTEN_API_KEY", "EXA_API_KEY", "DEEPSEEK_API_KEY", "OPENROUTER_API_KEY"];
+  const required = ["OCTEN_API_KEY", "EXA_API_KEY", "OPENROUTER_API_KEY"];
   for (const key of required) {
     if (!process.env[key]) die(`${key} missing. run: source .env`);
   }
+  const researchKeys = providerKeyEnvNames(DEEPSEEK_MODEL_REF.providerID);
+  if (!researchKeys.some((key) => process.env[key])) die(`${researchKeys.join(" or ")} missing. run: source .env`);
   if (!process.env.GROK_API_KEY && !process.env.XAI_API_KEY) die("GROK_API_KEY or XAI_API_KEY missing. run: source .env");
 }
 

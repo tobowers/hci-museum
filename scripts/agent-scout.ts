@@ -2,7 +2,7 @@
 import { spawnSync } from "node:child_process";
 import fs from "node:fs";
 import path from "node:path";
-import { closeOpencode, opencodeText, resolveModelRef } from "./opencode-runner";
+import { closeOpencode, deepseekModelRef, opencodeText, requireProviderKey } from "./opencode-runner";
 import { errorData } from "./run-trace";
 import { exhibits } from "../src/data";
 
@@ -11,9 +11,7 @@ const BLOG_DIR = "docs/blog";
 const RUN_DIR = `${POTENTIAL_DIR}/runs`;
 const BEEPY_CHARTER = "docs/beepy.md";
 const BEEPY_MEMORY = "docs/beepy-memory.md";
-const DEEPSEEK_MODEL = process.env.DEEPSEEK_MODEL ?? "deepseek-v4-flash";
-const DEEPSEEK_PROVIDER = process.env.DEEPSEEK_PROVIDER ?? "deepseek";
-const MODEL = resolveModelRef(DEEPSEEK_MODEL, DEEPSEEK_PROVIDER);
+const MODEL = deepseekModelRef();
 const OCTEN_REQUEST_LIMIT = Number(process.env.OCTEN_MAX_REQUESTS_PER_RUN ?? 7);
 const EXA_REQUEST_LIMIT = Number(process.env.EXA_MAX_REQUESTS_PER_RUN ?? 2);
 
@@ -23,7 +21,11 @@ function die(message: string): never {
 }
 
 function requireEnv() {
-  if (!process.env.DEEPSEEK_API_KEY) die("DEEPSEEK_API_KEY missing");
+  try {
+    requireProviderKey(MODEL.providerID);
+  } catch (error) {
+    die((error as Error).message);
+  }
   if (!process.env.OCTEN_API_KEY) die("OCTEN_API_KEY missing");
   if (!process.env.EXA_API_KEY) die("EXA_API_KEY missing");
   if (!process.env.XAI_API_KEY && !process.env.GROK_API_KEY) die("XAI_API_KEY or GROK_API_KEY missing");

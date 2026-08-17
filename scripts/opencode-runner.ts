@@ -7,7 +7,7 @@ type RequestResult<T> = {
   response?: Response;
 };
 
-type ModelRef = {
+export type ModelRef = {
   providerID: string;
   modelID: string;
 };
@@ -62,6 +62,7 @@ const KNOWN_PROVIDER_IDS = new Set([
   "deepseek",
   "github-copilot",
   "google",
+  "inworld",
   "kimi-for-coding",
   "moonshotai",
   "openai",
@@ -69,22 +70,112 @@ const KNOWN_PROVIDER_IDS = new Set([
   "xai",
 ]);
 
+/**
+ * Inworld Router is an OpenAI-compatible gateway (https://api.inworld.ai/v1) that fronts several
+ * upstreams for the same open-weights model, so DeepSeek V4 is reachable there for less than
+ * DeepSeek's own API now charges. It is not in models.dev, so the provider and its costs
+ * ($/1M tokens, matching models.dev units) are declared here.
+ *
+ * Model IDs must be fully qualified as `<upstream>/<model>` — that is what the router accepts on the
+ * wire. GET https://api.inworld.ai/llm/v1alpha/models lists the model half and its upstream
+ * separately, so `{"model":"models/deepseek-v4-flash","provider":"inworld"}` there is
+ * `inworld/models/deepseek-v4-flash` here; the unqualified form is rejected. Note that
+ * `deepseek/deepseek-v4-flash` passes straight through to DeepSeek's own API at DeepSeek's own
+ * (higher) prices, which is the thing this provider exists to avoid.
+ *
+ * Only Flash routes are registered — V4 Pro costs an order of magnitude more per token and is
+ * deliberately left out so no override can reach it by accident.
+ */
+const INWORLD_BASE_URL = process.env.INWORLD_BASE_URL ?? "https://api.inworld.ai/v1";
+
+const INWORLD_LIMIT = { context: 1_048_576, output: 131_072 };
+
+const INWORLD_MODELS: NonNullable<NonNullable<Config["provider"]>[string]["models"]> = {
+  "inworld/models/deepseek-v4-flash": {
+    name: "DeepSeek V4 Flash (Inworld hosted)",
+    tool_call: true,
+    reasoning: true,
+    temperature: true,
+    cost: { input: 0.1, output: 0.2, cache_read: 0.02 },
+    limit: INWORLD_LIMIT,
+  },
+  "deepinfra/deepseek-ai/DeepSeek-V4-Flash": {
+    name: "DeepSeek V4 Flash (DeepInfra via Inworld)",
+    tool_call: true,
+    reasoning: true,
+    temperature: true,
+    cost: { input: 0.09, output: 0.18, cache_read: 0.018 },
+    limit: INWORLD_LIMIT,
+  },
+};
+
+const PROVIDER_KEY_ENV: Record<string, string[]> = {
+  deepseek: ["DEEPSEEK_API_KEY"],
+  inworld: ["INWORLD_API_KEY"],
+  "kimi-for-coding": ["KIMI_API_KEY"],
+  moonshotai: ["KIMI_API_KEY"],
+  openrouter: ["OPENROUTER_API_KEY"],
+  xai: ["XAI_API_KEY", "GROK_API_KEY"],
+};
+
 let instancePromise: Promise<OpencodeInstance> | undefined;
 const usageRecords: UsageRecord[] = [];
 const AGENT_TIMEOUT_MS = envInt("SCOUT_AGENT_TIMEOUT_MS", 180_000);
 
 function providerApiKey(providerID: string): string | undefined {
-  if (providerID === "xai") return process.env.XAI_API_KEY ?? process.env.GROK_API_KEY;
-  if (providerID === "deepseek") return process.env.DEEPSEEK_API_KEY;
-  if (providerID === "kimi-for-coding" || providerID === "moonshotai") return process.env.KIMI_API_KEY;
-  if (providerID === "openrouter") return process.env.OPENROUTER_API_KEY;
+  for (const name of PROVIDER_KEY_ENV[providerID] ?? []) {
+    const value = process.env[name];
+    if (value) return value;
+  }
   return undefined;
+}
+
+/** Env var names that satisfy a provider, for scripts that pre-flight their credentials. */
+export function providerKeyEnvNames(providerID: string): string[] {
+  return PROVIDER_KEY_ENV[providerID] ?? [];
+}
+
+/** Throws unless one of the env vars backing `providerID` is set. */
+export function requireProviderKey(providerID: string): void {
+  const names = providerKeyEnvNames(providerID);
+  if (!names.length) throw new Error(`unknown model provider "${providerID}"`);
+  if (providerApiKey(providerID)) return;
+  throw new Error(`${names.join(" or ")} missing (provider "${providerID}")`);
 }
 
 function buildProviderConfig(providerID: string): NonNullable<Config["provider"]>[string] | undefined {
   const apiKey = providerApiKey(providerID);
   if (!apiKey) return undefined;
+  if (providerID === "inworld") {
+    return {
+      npm: "@ai-sdk/openai-compatible",
+      name: "Inworld Router",
+      options: { apiKey, baseURL: INWORLD_BASE_URL },
+      models: INWORLD_MODELS,
+    };
+  }
   return { options: { apiKey } };
+}
+
+/**
+ * The DeepSeek slot every agent script shares. DeepSeek's own API raised its prices, so this routes
+ * through Inworld Router by default. Set DEEPSEEK_PROVIDER=deepseek (with DEEPSEEK_API_KEY) to go
+ * back direct, and DEEPSEEK_MODEL to pick a different model on whichever provider is active.
+ *
+ * DEEPSEEK_MODEL is used verbatim as the model ID — unlike resolveModelRef, no leading segment is
+ * read as a provider, because Inworld model IDs start with their own upstream name.
+ */
+export const DEEPSEEK_DEFAULT_PROVIDER = "inworld";
+const DEEPSEEK_DEFAULT_MODEL: Record<string, string> = {
+  inworld: "inworld/models/deepseek-v4-flash",
+  deepseek: "deepseek-v4-flash",
+};
+
+export function deepseekModelRef(): ModelRef {
+  const providerID = process.env.DEEPSEEK_PROVIDER ?? DEEPSEEK_DEFAULT_PROVIDER;
+  const modelID = process.env.DEEPSEEK_MODEL ?? DEEPSEEK_DEFAULT_MODEL[providerID];
+  if (!modelID) throw new Error(`DEEPSEEK_MODEL must be set when DEEPSEEK_PROVIDER=${providerID}`);
+  return { providerID, modelID };
 }
 
 export function resolveModelRef(modelID: string, defaultProviderID: string): ModelRef {
@@ -159,7 +250,7 @@ function logUsageSummary() {
 }
 
 function opencodeConfig(): Config {
-  const providerIDs = ["xai", "deepseek", "openrouter", "kimi-for-coding", "moonshotai"];
+  const providerIDs = ["xai", "inworld", "deepseek", "openrouter", "kimi-for-coding", "moonshotai"];
   const provider: NonNullable<Config["provider"]> = {};
   for (const id of providerIDs) {
     const config = buildProviderConfig(id);

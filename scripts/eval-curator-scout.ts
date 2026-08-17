@@ -20,7 +20,7 @@
 import fs from "node:fs";
 import path from "node:path";
 import { envInt, mapLimit } from "./concurrency";
-import { closeOpencode, opencodeText, resolveModelRef } from "./opencode-runner";
+import { closeOpencode, deepseekModelRef, opencodeText, providerKeyEnvNames, requireProviderKey, resolveModelRef } from "./opencode-runner";
 import { exhibits } from "../src/data";
 
 const POTENTIAL_DIR = "potential";
@@ -29,11 +29,15 @@ const OUT_DIR = "potential/evals";
 const BEEPY_CHARTER = "docs/beepy.md";
 
 const EVAL_RESEARCH_MODEL = process.env.EVAL_RESEARCH_MODEL ?? "z-ai/glm-5.2";
-const EVAL_CURATION_MODEL = process.env.EVAL_CURATION_MODEL ?? "deepseek-v4-flash";
 const EVAL_RESEARCH_PROVIDER = process.env.EVAL_RESEARCH_PROVIDER ?? "openrouter";
-const EVAL_CURATION_PROVIDER = process.env.EVAL_CURATION_PROVIDER ?? "deepseek";
 const EVAL_RESEARCH_MODEL_REF = resolveModelRef(EVAL_RESEARCH_MODEL, EVAL_RESEARCH_PROVIDER);
-const EVAL_CURATION_MODEL_REF = resolveModelRef(EVAL_CURATION_MODEL, EVAL_CURATION_PROVIDER);
+// The curation side rides the shared DeepSeek slot (Inworld Router by default). EVAL_CURATION_MODEL
+// and EVAL_CURATION_PROVIDER still override it for a one-off eval against a different model.
+const CURATION_SLOT = deepseekModelRef();
+const EVAL_CURATION_MODEL_REF = {
+  providerID: process.env.EVAL_CURATION_PROVIDER ?? CURATION_SLOT.providerID,
+  modelID: process.env.EVAL_CURATION_MODEL ?? CURATION_SLOT.modelID,
+};
 const EVAL_CONCURRENCY = envInt("SCOUT_EVAL_CONCURRENCY", 4);
 
 type ScoutInfo = {
@@ -371,8 +375,16 @@ function writeReports(results: EvalResult[]) {
 async function main() {
   const args = process.argv.slice(2);
   const useLlm = !args.includes("--no-llm");
-  if (useLlm && (!process.env.OPENROUTER_API_KEY || !process.env.DEEPSEEK_API_KEY)) {
-    throw new Error("LLM eval requires OPENROUTER_API_KEY and DEEPSEEK_API_KEY. Use --no-llm for deterministic checks only.");
+  if (useLlm) {
+    for (const providerID of new Set([EVAL_RESEARCH_MODEL_REF.providerID, EVAL_CURATION_MODEL_REF.providerID])) {
+      try {
+        requireProviderKey(providerID);
+      } catch {
+        throw new Error(
+          `LLM eval needs ${providerKeyEnvNames(providerID).join(" or ")} for provider "${providerID}". Use --no-llm for deterministic checks only.`,
+        );
+      }
+    }
   }
 
   const slugs = listPotentialSlugs(args);
