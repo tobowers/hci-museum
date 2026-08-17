@@ -42,7 +42,9 @@ jobs:
         uses: oven-sh/setup-bun@0c5077e51419868618aeaa5fe8019c62421857d6 # v2
 
       - name: Install opencode CLI
-        run: bun add --global opencode-ai@1.17.9
+        # 1.18.x is required: 1.17.9 cannot load the inline Inworld provider config
+        # (custom npm provider + models map) and fails every prompt with a server error.
+        run: bun add --global opencode-ai@1.18.15
 
       - name: Install dependencies
         run: bun install --frozen-lockfile
