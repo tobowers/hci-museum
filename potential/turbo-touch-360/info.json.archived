@@ -1,0 +1,59 @@
+{
+  "slug": "turbo-touch-360",
+  "title": "Turbo Touch 360",
+  "year": "1992",
+  "subtitle": "The D-pad replacement that swapped mechanical switches for a sliding capacitive touch plate",
+  "why_scout_cares": "The Turbo Touch 360 by Triax Technologies replaced the mechanical D-pad with an octagonal plate of eight capacitive touch sensors under a low-friction membrane: you steered by sliding your thumb, never pressing down. Marketed as a cure for 'numb thumb' and endorsed by an orthopedic surgeon, it was a genuinely embodied alternative to the switch-based D-pad — a consumer touch-pad game controller years before trackpads were common — that flopped so hard IGN ranked it the ninth-worst controller ever. The mechanism is documented in patent US5367199 (priority 1992-05-01), which Nakitek later licensed for the Turbo Touch 360+. Fills the game-controller-as-touch-surface gap; distinct from every mechanical/switch/pneumatic/foot/IR controller in the museum.",
+  "search_terms": ["Turbo Touch 360", "Triax controller", "capacitive touch game controller 1992", "US5367199 sliding contact control switch pad", "numb thumb controller"],
+  "research": {
+    "title": "Turbo Touch 360",
+    "year": "1992",
+    "by": "Triax Technologies",
+    "tags": ["HCI", "Input", "Games", "Touch", "Controller"],
+    "overview": "The Turbo Touch 360 was a line of aftermarket third-party controllers made by Triax for the NES, Super NES, and Sega Genesis (the Genesis version also worked with Atari and Commodore systems), released in North America in 1992 at $34.95. Where most controllers used a D-pad with mechanical switches, the Turbo Touch replaced the whole directional surface with an octagonal plate of eight capacitive touch sensors arranged in the cardinal directions, covered by a smooth low-friction membrane. The player slid a thumb across the surface to steer; because the sensors detected the thumb's presence capacitively, no downward force was required. Despite the '360' name, the controller only produced digital input along the eight compass directions.\n\nThe motivation was explicitly medical: Triax marketed the controller as a cure for the thumb injuries and fatigue that marathon play could cause. The claim of reducing blisters and 'numb thumb' was endorsed by Dr. Robert Grossman, an orthopedic surgeon specializing in sports injuries. The mechanism was documented in Triax's own patent US5367199, 'Sliding contact control switch pad,' filed 1992-09-15 with priority to 1992-05-01 — a capacitive sensing scheme with a central 'null zone' where the thumb rests. Nakitek later reused the technology in the Turbo Touch 360+.\n\nThe controller was first shown at CES in 1993, but the technology never displaced the D-pad in later consoles: reviewers found the touch surface overly sensitive and uncomfortable. IGN editor Craig Harris ranked the Turbo Touch 360 the ninth-worst video game controller of all time in 2006. Sega Retro also records that Triax reportedly offered 'big', three-foot versions of the controller for $2,000 — whether a serious product or a marketing ploy is unknown.",
+    "deepDive": [
+      {
+        "heading": "Steering without pressing",
+        "text": "The central idea was that a directional controller should not require force. The octagonal plate reads where your thumb is, not how hard you push: eight capacitive sensors arranged radially detect the thumb's presence in their vicinity, and straddling two adjacent sensors produces a diagonal signal. This is the same sensing principle as the laptop trackpad, applied to a game controller in 1992 — a full decade before touch surfaces became ordinary. The claimed advantage was comfort: no mechanical travel, no switch fatigue, no 'numb thumb.' The real-world result was a plate so sensitive that games read accidental input, and the D-pad never went away."
+      },
+      {
+        "heading": "The '360' that wasn't",
+        "text": "The name promised continuous 360-degree control, but the hardware was digital: eight touch zones mapped to the same eight directions a mechanical D-pad produces. Most Mega Drive games only respond to eight directions anyway, so the mismatch was mostly marketing — but the gap between the name and the mechanism became part of the artifact's story, and part of why reviewers and players found the claim suspect."
+      },
+      {
+        "heading": "A doctor on the payroll",
+        "text": "Triax's medical framing was unusually explicit for a game peripheral: the box touted relief from blisters and 'numb thumb,' and Dr. Robert Grossman, an orthopedic surgeon specializing in sports injuries, endorsed the design. This was consumer health marketing applied to an input device — a strange precursor to the ergonomic-gaming industry of the 2010s, and a reminder that the D-pad's 1982 design (Nintendo) had never really been interrogated for its physical cost until someone tried to sell against it."
+      },
+      {
+        "heading": "The touch-pad ancestor that lost",
+        "text": "The Turbo Touch 360 is the museum's only touch-surface game controller. It sits apart from HP-150's resistive touchscreen (a pointing surface on a screen), the Casio PB-1000's fixed touch zones, and the Sharp Wizard's transparent overlay grid — all of which are touch grids, not a thumb-slid proximity plate. The capacitive sliding scheme, the health claims, the IGN notoriety, and the $2,000 giant-controller rumor make it one of the strangest consumer input experiments of the early 1990s."
+      }
+    ],
+    "team": [
+      {"name": "Triax Technologies", "note": "Manufacturer of the Turbo Touch 360 for NES, SNES, and Genesis; patented the capacitive sliding control pad (US5367199)."},
+      {"name": "Dr. Robert Grossman", "note": "Orthopedic surgeon who endorsed the controller's claims of reducing thumb strain."},
+      {"name": "Nakitek", "note": "Licensed the technology for the Turbo Touch 360+ follow-up."}
+    ],
+    "media": [
+      {"src": "https://segaretro.org/File:TurboTouch360_MD.jpg", "alt": "Turbo Touch 360 controller for Sega Genesis", "caption": "Turbo Touch 360 for Sega Genesis: the octagonal capacitive touch plate replaces the D-pad. CC BY 4.0, Sega Retro."},
+      {"src": "https://segaretro.org/File:TurboTouch360_MD_Alt.jpg", "alt": "Turbo Touch 360 alt model (Turbo On)", "caption": "Turbo Touch 360 alt model, marked 'Turbo On.' CC BY 4.0, Sega Retro."},
+      {"src": "https://segaretro.org/File:TurboTouch360_Box_Front.jpg", "alt": "Turbo Touch 360 box front", "caption": "Turbo Touch 360 retail box front, touting 'no numb thumb.' CC BY 4.0, Sega Retro."}
+    ],
+    "sources": [
+      {"text": "Sega Retro — Turbo Touch 360", "url": "https://segaretro.org/Turbo_Touch_360"},
+      {"text": "Wikipedia — Turbo Touch 360", "url": "https://en.wikipedia.org/wiki/Turbo_Touch_360"},
+      {"text": "Patent US5367199, 'Sliding contact control switch pad' (filed 1992-09-15, priority 1992-05-01)", "url": "https://patents.google.com/patent/US5367199A/en"},
+      {"text": "IGN, 'Top 10 Tuesday: Worst Game Controllers' (2006)", "url": "http://xbox360.ign.com/articles/690/690449p1.html"}
+    ],
+    "imageUrls": [
+      "https://segaretro.org/images/d/d4/TurboTouch360_MD.jpg",
+      "https://segaretro.org/images/2/22/TurboTouch360_MD_Alt.jpg",
+      "https://segaretro.org/images/f/f4/TurboTouch360_Box_Front.jpg"
+    ]
+  },
+  "savedImages": [
+    "images/ttx360-md.jpg",
+    "images/ttx360-md-alt.jpg",
+    "images/ttx360-box-front.jpg"
+  ]
+}

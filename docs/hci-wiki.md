@@ -1,6 +1,6 @@
 # The HCI Golden Age Wiki
 
-A research compendium for a digital museum of cutting-edge Human-Computer Interaction from the late 1970s through the early 1990s. These one hundred and ninety-seven projects mix canonical experiments with weird, forgotten, and beautiful vaporware — brain control, voice control, gesture, wearable computing, VR, robots, and full-body exertion.
+A research compendium for a digital museum of cutting-edge Human-Computer Interaction from the late 1970s through the early 1990s. These two hundred projects mix canonical experiments with weird, forgotten, and beautiful vaporware — brain control, voice control, gesture, wearable computing, VR, robots, and full-body exertion.
 
 Each entry includes an overview, a deep dive, a small media gallery, and full source links so the images and facts can always be traced back.
 
@@ -204,6 +204,9 @@ Each entry includes an overview, a deep dive, a small media gallery, and full so
 195. [Databar OSCAR (1983)](#databar-oscar-1983)
 196. [Mattel Dungeons & Dragons Computer Labyrinth Game (1980)](#mattel-dungeons--dragons-computer-labyrinth-game-1980)
 197. [Invicta Electronic Master Mind (1977)](#invicta-electronic-master-mind-1977)
+198. [Bildschirmtext (BTX) Terminal (1983)](#bildschirmtext-btx-terminal-1983)
+199. [Quotron II (1986)](#quotron-ii-1986)
+200. [Turbo Touch 360 (1992)](#turbo-touch-360-1992)
 
 ---
 
@@ -9672,3 +9675,141 @@ A 1979 follow-up, the Super-Sonic Electronic Master Mind, kept identical gamepla
 2. Knuth, D. 'The Computer as Master Mind', Journal of Recreational Mathematics 9(1), 1976 — http://www.cs.uni.edu/~wallingf/teaching/cs3530/resources/knuth-mastermind.pdf
 3. Commons — File:Invicta Electronic Master Mind Game.jpg — https://commons.wikimedia.org/wiki/File:Invicta_Electronic_Master_Mind_Game.jpg
 4. Commons — File:Super-Sonic Electronic Master Mind by Invicta, Made In Hong Kong, Copyright 1977.jpg — https://commons.wikimedia.org/wiki/File:Super-Sonic_Electronic_Master_Mind_by_Invicta,_Made_In_Hong_Kong,_Copyright_1977.jpg
+
+## Bildschirmtext (BTX) Terminal (1983)
+
+**By:** Deutsche Bundespost / Systems Designers Ltd / IBM Germany
+**Tags:** `HCI` `Terminal` `Network` `Videotex` `Germany` `Chip Card`
+
+### Overview
+
+Bildschirmtext ('screen text', abbreviated Btx or BTX) was an online videotex system launched in West Germany in 1983 by the Deutsche Bundespost, the West German postal service. Originally conceived to follow the UK Prestel specifications, it was developed on contract by Systems Designers Ltd for IBM Germany, with added features inspired by the French Minitel, creating a display standard designated in 1981 as the CEPT1 profile. Trials ran in Düsseldorf and Berlin in 1980, the network was expanded with IBM Germany, and the service launched nationwide in September 1983 at the Berlin IFA.
+
+The interaction model is the point. BTX always transferred whole screen pages, and the receiver paid for each page received. The content provider set the price: either a per-page fee (0.01 to 9.99 Deutsche Mark) or a time-dependent fee (0.01 to 1.30 DM per minute). This pay-per-page economics turned the terminal into a meter: dedicated BTX terminals carried a chip-card reader for electronic identification and payment, so inserting your card and paging through the service was literally a transaction per screenful. The system could only be used with a modem produced by the Bundespost.
+
+Data was transferred unauthenticated and in plaintext, leading to the BTX hack by Wau Holland of the Chaos Computer Club in 1984 — the first famous remote payment-hacking incident, exploiting the very interface economics the terminal embodied. By the 1990s the system was renamed Datex-J; it formed the basis of T-Online, Deutsche Telekom's online service, which maintained a BTX interface in its access software after 1995. The last BTX access was switched off at the end of 2001.
+
+### Deep dive
+
+* **The terminal was a meter.** Where Minitel was a flat-rate appliance, BTX was a vending machine for screens. Every page had a price, set by its provider, and the receiver paid on receipt. Dedicated terminals therefore carried a chip-card reader for electronic ID and payment — a physical identity-and-credit ritual built into the hardware itself. Browsing was paging: you moved through numbered pages and watched the cost accumulate. This is pay-per-view as an interface paradigm, decades before anyone called it microtransactions.
+* **Function keys and page numbers.** Dedicated BTX terminals ('MultiTel' devices and Bundespost-issued terminals) used special function keys (SEND, function blocks), a numeric page keypad, and displayed 40×24 semigraphic text with 480×250 pixel graphics, 32 of 4096 colors. The 'Multifunktionales Telefon 12' combined the telephone and BTX terminal in one device. Adapters existed for home computers like the Commodore 64 (Siemens Decoder Module II, 1986). Data went over V.23 modems to GEC 4000-series host computers.
+* **The 1984 BTX hack.** Because data was transferred unauthenticated and in plaintext, Wau Holland of the Chaos Computer Club demonstrated in 1984 that he could retrieve a bank's secret BTX password — later sensationalized as the 'hack that emptied a bank' (Spiegel, 1984). The BTX hack became the first mass-media hacking incident in Germany: the metered-terminal economics built into the system's plaintext protocol were its own undoing.
+* **A government monopoly's long goodbye.** BTX never achieved mass adoption; the Bundespost forced users to rent its modem, uptake was low, and the service drifted until T-Online absorbed it. It ran until 2001, made obsolete by the Internet. In the museum it sits beside Minitel and CAPTAIN as the third national terminal in the pre-Internet online-service family — and the only one that charged you per page.
+
+### Team
+
+* **Deutsche Bundespost.** West German postal service; launched BTX nationwide in 1983 and controlled the modems.
+* **Systems Designers Ltd.** UK company that developed BTX on contract for IBM Germany, based on Prestel specs.
+* **IBM Germany.** Developed the BTX network from 1981.
+* **Wau Holland / Chaos Computer Club.** Performed the 1984 BTX hack, the first famous remote payment-hacking incident.
+* **Siemens.** Built the Decoder Module II (1986) letting Commodore 64 owners use BTX.
+
+### Media
+
+![Multikom L1 BTX terminal](../assets/wiki/btx-multikom-l1.jpg)
+*Multikom L1 dedicated BTX terminal, a pay-per-page videotex device. CC BY-SA 4.0, Wikimedia Commons.*
+
+![A dedicated BTX terminal with its numeric page keypad and function keys](../assets/wiki/btx-terminal.jpg)
+*A dedicated BTX terminal with its numeric page keypad and function keys. CC BY-SA 3.0, Wikimedia Commons.*
+
+![Multifunktionales Telefon 12, a BTX/telephone hybrid](../assets/wiki/btx-multitel12.jpg)
+*German 'Multifunktionales Telefon 12' — a telephone and BTX terminal combined. CC BY-SA 3.0, Wikimedia Commons.*
+
+### Sources
+
+1. Wikipedia — Bildschirmtext — https://en.wikipedia.org/wiki/Bildschirmtext
+2. Der Spiegel, 'Bildschirmtext - Computerwissen für alle?' (1983) — https://www.spiegel.de/wirtschaft/bildschirmtext-computerwissen-fuer-alle-a-6dd9ba4b-0002-0001-0000-000014019866
+3. Museum for Communication Nuremberg, 'Bildschirmtext: A network before the Internet' (Google Arts & Culture) — https://artsandculture.google.com/story/mwVROPu6jgAeLA
+4. ETSI CEPT1 videotex presentation layer spec (1990) — https://www.etsi.org/deliver/etsi_i_ets/300001_300099/300072/01_60/ets_300072e01p.pdf
+
+## Quotron II (1986)
+
+**By:** Quotron Systems / Scantlin Electronics (Los Angeles)
+**Tags:** `HCI` `Terminal` `Network` `Professional` `Keyboard` `Finance`
+
+### Overview
+
+Quotron was a Los Angeles company that in 1960 became the first financial-data technology company to deliver stock market quotes to an electronic screen rather than printed ticker tape. Developed by Scantlin Electronics, owned by entrepreneur John Scantlin, the Quotron offered brokers and money managers up-to-the-minute prices and other information about securities. By the 1980s, the Quotron II desk unit was the terminal on Wall Street trading floors: a dedicated, non-QWERTY keyboard with alphabetic ticker-symbol keys, a numeric pad, and labeled function keys for data fields (LAST, BID, ASK, VOL, HIGH, LOW, OPEN, CLOSE, NEWS, EXCH), all driving a green-text-on-black CRT.
+
+The interaction model is the point. The operator does not browse: they type a one-to-four-letter ticker and hit a labeled field key, and the request travels over dedicated lines to Quotron's central computer, which returns the answer on the green-phosphor screen. No cursor, no mouse — a key-driven retrieval language, the ancestor of the Bloomberg terminal's amber-terminal command grammar.
+
+Citicorp bought Quotron in 1986. At the time Quotron was renting 100,000 terminals, 60 percent of the 1986 financial-data market. After the acquisition, Merrill Lynch, its largest client, declined to renew and instead invested in a competing startup named Bloomberg. Quotron was slow to move from dedicated terminals to personal computers, and by 1994 had only 35,000 terminals; Reuters paid more than $100 million to purchase the ailing company, and Quotron became Reuters' trading-floor terminal until superseded by the Reuters 3000 Xtra. The Quotron screen is famously the terminal used by Bud Fox and Gordon Gekko in the 1987 film Wall Street.
+
+### Deep dive
+
+* **The keyboard is the query language.** The Quotron II desk unit had no operating system you could point at. The interface was a custom keyboard divided into functional zones: alphabetic ticker-symbol keys, a numeric pad, and a bank of labeled field keys (LAST, BID, ASK, VOL, HIGH, LOW, OPEN, CLOSE, NEWS, etc.) plus modifiers like EXCH (NYSE/AMEX/OTC) and PAGE/CLR. To ask 'what is the last price of IBM?', you typed IBM then hit LAST. The machine was a client to a central mainframe; the physical keyboard WAS the retrieval grammar — a deliberately impoverished, extremely fast, eyes-on-the-numbers interface, the opposite of the icon-and-menu systems of the same era.
+* **Green glass, not paper tape.** Quotron screens were green text on black, updating from a central computer over dedicated lines. The color was not decoration: brokers worked in dim trading rooms where the glow of the quote screen was the center of attention, and green-on-black had superior legibility at a glance. When Bloomberg launched its professional terminal for bond traders, it chose amber on black — a direct visual echo of the Quotron paradigm, and proof of how thoroughly the dedicated quote terminal defined the category.
+* **Dedicated hardware vs. the PC wave.** Quotron's terminal was designed as a sealed appliance: rental terminals, central computers, dedicated phone lines. This worked brilliantly in the 1970s and early 80s but became a liability as PCs invaded trading floors. By 1994 Quotron had 35,000 terminals versus 80,000 for ADP and 25,000 for ILX. The story is a classic of the era: a perfect dedicated-interface machine, undone by the general-purpose computer.
+* **Wall Street immortalized it.** The 1987 film Wall Street used Quotron screens for Bud Fox and Gordon Gekko. In the museum's collection, Quotron II sits alongside Minitel (consumer videotex), the Famicom Network System (home finance), and Bildschirmtext (metered videotex) as a corner of the pre-Internet information-terminal story: the professional terminal that defined the trading floor.
+
+### Team
+
+* **Scantlin Electronics.** Developer of the original Quotron, the first electronic market-data terminal (1960); owned by entrepreneur John Scantlin.
+* **Quotron Systems.** Los Angeles company that rented quote terminals to brokers and money managers.
+* **Citicorp.** Acquired Quotron in 1986; rented 100,000 terminals, 60% of the 1986 financial-data market.
+* **Reuters Holdings.** Purchased Quotron in 1994 for more than $100 million; Quotron became Reuters' trading-floor terminal.
+
+### Media
+
+![Quotron II desk unit terminal](../assets/wiki/quotron-ii-desk-unit.png)
+*Quotron II desk unit, the dedicated market-data terminal with its custom quote keyboard. Public domain, Wikimedia Commons.*
+
+![Quotron terminals in a Merrill Lynch office](../assets/wiki/quotron-merrill-lynch.jpg)
+*Quotron terminals in a Merrill Lynch office. Public domain, Wikimedia Commons (Library of Congress).*
+
+![Quotron II data format documentation](../assets/wiki/quotron-ii-data-format.jpg)
+*Quotron II data format documentation. Public domain, Wikimedia Commons.*
+
+![Dutch minister Ruding activates a Dafsa Quotron terminal](../assets/wiki/quotron-minister-ruding.jpg)
+*Dutch finance minister Ruding activates a Dafsa Quotron terminal. CC0, Wikimedia Commons (Nationaal Archief).*
+
+### Sources
+
+1. Wikipedia — Quotron — https://en.wikipedia.org/wiki/Quotron
+2. NYT, 'Quotron Expects Board to Reject Citicorp Bid' (1986) — https://www.nytimes.com/1986/03/28/business/quotron-expects-board-to-reject-citicorp-bid.html
+3. NYT, 'Citicorp Passes Off Quotron' (1994) — https://www.nytimes.com/1994/01/14/business/citicorp-passes-off-quotron-predicts-big-quarterly-profit.html
+4. Trademarkia — QUOTRON 800 (trademark) — https://www.trademarkia.com/quotron-800-73460770
+
+## Turbo Touch 360 (1992)
+
+**By:** Triax Technologies
+**Tags:** `HCI` `Input` `Games` `Touch` `Controller`
+
+### Overview
+
+The Turbo Touch 360 was a line of aftermarket third-party controllers made by Triax for the Nintendo Entertainment System, Super NES, and Sega Genesis (the Genesis version also worked with Atari and Commodore systems), released in North America in 1992 at $34.95. Where most controllers used a D-pad with mechanical switches, the Turbo Touch replaced the whole directional surface with an octagonal plate of eight capacitive touch sensors arranged in the cardinal directions, covered by a smooth low-friction membrane. The player slid a thumb across the surface to steer; because the sensors detected the thumb's presence capacitively, no downward force was required. Despite the '360' name, the controller only produced digital input along the eight compass directions.
+
+The motivation was explicitly medical: Triax marketed the controller as a cure for the thumb injuries and fatigue that marathon play could cause. The claim of reducing blisters and 'numb thumb' was endorsed by Dr. Robert Grossman, an orthopedic surgeon specializing in sports injuries. The mechanism was documented in Triax's own patent US5367199, 'Sliding contact control switch pad,' filed 1992-09-15 with priority to 1992-05-01 — a capacitive sensing scheme with a central 'null zone' where the thumb rests. Nakitek later reused the technology in the Turbo Touch 360+.
+
+The controller was first shown at CES in 1993, but the technology never displaced the D-pad in later consoles: reviewers found the touch surface overly sensitive and uncomfortable. IGN editor Craig Harris ranked the Turbo Touch 360 the ninth-worst video game controller of all time in 2006. Sega Retro also records that Triax reportedly offered 'big', three-foot versions of the controller for $2,000 — whether a serious product or a marketing ploy is unknown.
+
+### Deep dive
+
+* **Steering without pressing.** The central idea was that a directional controller should not require force. The octagonal plate reads where your thumb is, not how hard you push: eight capacitive sensors arranged radially detect the thumb's presence in their vicinity, and straddling two adjacent sensors produces a diagonal signal. This is the same sensing principle as the laptop trackpad, applied to a game controller in 1992 — a full decade before touch surfaces became ordinary. The claimed advantage was comfort: no mechanical travel, no switch fatigue, no 'numb thumb.' The real-world result was a plate so sensitive that games read accidental input, and the D-pad never went away.
+* **The '360' that wasn't.** The name promised continuous 360-degree control, but the hardware was digital: eight touch zones mapped to the same eight directions a mechanical D-pad produces. Most Mega Drive games only respond to eight directions anyway, so the mismatch was mostly marketing — but the gap between the name and the mechanism became part of the artifact's story, and part of why reviewers and players found the claim suspect.
+* **A doctor on the payroll.** Triax's medical framing was unusually explicit for a game peripheral: the box touted relief from blisters and 'numb thumb,' and Dr. Robert Grossman, an orthopedic surgeon specializing in sports injuries, endorsed the design. This was consumer health marketing applied to an input device — a strange precursor to the ergonomic-gaming industry of the 2010s, and a reminder that the D-pad's 1982 design had never really been interrogated for its physical cost until someone tried to sell against it.
+* **The touch-pad ancestor that lost.** The Turbo Touch 360 is the museum's only touch-surface game controller. It sits apart from the HP-150's resistive touchscreen (a pointing surface on a screen), the Casio PB-1000's fixed touch zones, and the Sharp Wizard's transparent overlay grid — all touch grids, none a thumb-slid proximity plate. The capacitive sliding scheme, the health claims, the IGN notoriety, and the $2,000 giant-controller rumor make it one of the strangest consumer input experiments of the early 1990s.
+
+### Team
+
+* **Triax Technologies.** Manufacturer of the Turbo Touch 360 for NES, SNES, and Genesis; patented the capacitive sliding control pad (US5367199).
+* **Dr. Robert Grossman.** Orthopedic surgeon who endorsed the controller's claims of reducing thumb strain.
+* **Nakitek.** Licensed the technology for the Turbo Touch 360+ follow-up.
+
+### Media
+
+![Turbo Touch 360 controller for Sega Genesis](../assets/wiki/ttx360-md.jpg)
+*Turbo Touch 360 for Sega Genesis: the octagonal capacitive touch plate replaces the D-pad. CC BY 4.0, Sega Retro.*
+
+![Turbo Touch 360 alt model, marked Turbo On](../assets/wiki/ttx360-md-alt.jpg)
+*Turbo Touch 360 alt model, marked 'Turbo On.' CC BY 4.0, Sega Retro.*
+
+![Turbo Touch 360 retail box front](../assets/wiki/ttx360-box-front.jpg)
+*Turbo Touch 360 retail box front. CC BY 4.0, Sega Retro.*
+
+### Sources
+
+1. Sega Retro — Turbo Touch 360 — https://segaretro.org/Turbo_Touch_360
+2. Wikipedia — Turbo Touch 360 — https://en.wikipedia.org/wiki/Turbo_Touch_360
+3. Patent US5367199, 'Sliding contact control switch pad' (filed 1992-09-15, priority 1992-05-01) — https://patents.google.com/patent/US5367199A/en
+4. IGN, 'Top 10 Tuesday: Worst Game Controllers' (2006) — http://xbox360.ign.com/articles/690/690449p1.html

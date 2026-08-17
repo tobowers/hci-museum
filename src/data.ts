@@ -2428,6 +2428,45 @@ const exhibitData: Exhibit[] = [
     tags: ["Games", "Handheld", "Hidden State", "Input", "Consumer"],
     image: img("master-mind-1.jpg"),
   },
+  {
+    id: "btx-terminal",
+    slug: "btx-terminal",
+    wikiTitle: "Bildschirmtext (BTX) Terminal",
+    year: "1983",
+    sortYear: 1983,
+    title: "Bildschirmtext (BTX) Terminal",
+    subtitle: "The pay-per-page videotex terminal: every screenful cost money, and the chip-card reader was the meter",
+    blurb:
+      "West Germany's national videotex service, launched by the Deutsche Bundespost in 1983, where the receiver paid for every page received — providers priced each screenful from 0.01 to 9.99 Deutsche Mark. Dedicated BTX terminals carried a chip-card reader as the billing meter, making paging through the service a transaction per screen. Its unauthenticated plaintext protocol let Wau Holland's Chaos Computer Club stage the 1984 BTX hack, the first famous remote payment-hacking incident.",
+    tags: ["Terminal", "Network", "Videotex", "Germany", "Chip Card"],
+    image: img("btx-multikom-l1.jpg"),
+  },
+  {
+    id: "quotron-ii",
+    slug: "quotron-ii",
+    wikiTitle: "Quotron II",
+    year: "1986",
+    sortYear: 1986,
+    title: "Quotron II",
+    subtitle: "Wall Street's dedicated quote terminal: type a ticker, press a labeled field key, read the green glass",
+    blurb:
+      "Before Bloomberg there was Quotron: a dedicated, non-QWERTY market-data terminal whose entire interface is a custom keyboard of ticker-symbol and field keys (LAST, BID, ASK, VOL...) driving a green-phosphor CRT. No cursor, no mouse — pure key-driven retrieval from a central computer. At 60% of the 1986 financial-data market and 100,000 rented terminals, it defined the trading floor, immortalized in the 1987 film Wall Street.",
+    tags: ["Terminal", "Network", "Professional", "Keyboard", "Finance"],
+    image: img("quotron-ii-desk-unit.png"),
+  },
+  {
+    id: "turbo-touch-360",
+    slug: "turbo-touch-360",
+    wikiTitle: "Turbo Touch 360",
+    year: "1992",
+    sortYear: 1992,
+    title: "Turbo Touch 360",
+    subtitle: "The D-pad replacement that swapped mechanical switches for a sliding capacitive touch plate",
+    blurb:
+      "Triax's 1992 controller replaced the mechanical D-pad with an octagonal plate of eight capacitive touch sensors under a low-friction membrane: you steered by sliding your thumb, never pressing down. Marketed as a cure for 'numb thumb' and endorsed by an orthopedic surgeon, it was a consumer touch-pad game controller years before trackpads were ordinary — too sensitive to survive, and later ranked the ninth-worst controller ever by IGN.",
+    tags: ["Games", "Controller", "Touch", "Input", "Consumer"],
+    image: img("ttx360-md.jpg"),
+  },
 ];
 
 export const exhibits: Exhibit[] = exhibitData.toSorted((a, b) => b.sortYear - a.sortYear || a.title.localeCompare(b.title));
