@@ -1,0 +1,53 @@
+{
+  "slug": "valiant-turtle",
+  "title": "Valiant Turtle / Valiant Logo Turtle (1983)",
+  "year": "1983",
+  "subtitle": "A floor-roving infrared-controlled robot that made Logo programs physically visible",
+  "why_scout_cares": "The Valiant Turtle makes code into a physical event. A child types FORWARD 50 RIGHT 90 on a BBC Micro, and a 25cm hemisphere on the classroom floor actually moves forward 50cm and turns right 90 degrees. The interaction is Papert's 'body-syntonic' reasoning made literal: the program IS the turtle's motion. No other artifact in the museum captures this code-to-physical-movement paradigm — Topo is a programmable output device without sensors, HERO 1 is a sensor-equipped teaching robot with onboard keyboard, but the Valiant Turtle is the purest expression of body-syntonic computing: the child's own body schema becomes the debugger.",
+  "search_terms": ["Valiant Turtle", "Valiant Technology", "Logo turtle", "BBC Micro turtle", "floor turtle robot", "educational robot 1983"],
+  "research": {
+    "title": "Valiant Turtle / Valiant Logo Turtle (1983)",
+    "year": "1983",
+    "by": "Valiant Technology Ltd (London, UK) — Dave Catlin, CEO and product designer",
+    "tags": ["HCI", "Output", "Education", "Robotics", "Programming", "Physical"],
+    "overview": "The Valiant Turtle is a floor-roving educational robot launched in 1983 by Valiant Technology Ltd of London. It was designed to be programmed via the Logo programming language running on a host computer (typically the BBC Micro, but also Apple II, Commodore, and others). The turtle communicated with its host via an infrared serial link — a tetherless connection that allowed the robot to roam freely on the classroom floor. It carried a retractable pen that could be lowered to draw on paper taped to the floor, making the student's Logo program visible as a physical trace.\n\nThe turtle was hemispherical, approximately 25 cm in diameter, with a transparent dome revealing its internal electronics. It had two independently driven wheels (differential steering) and a rear caster. It carried bump sensors for collision detection and could emit sounds. The IR link operated at 300 baud, translating Logo commands like FORWARD, BACK, LEFT, RIGHT, PENUP, PENDOWN into motor movements. The robot was robust enough for daily classroom use and remained in production until 2011 — a 28-year production run that speaks to the durability of the design and the educational philosophy behind it.\n\nValiant Technology was founded by Dave Catlin, who personally designed the turtle and remained the company's CEO and product designer. The company also produced the Roamer (a more advanced descendant with onboard programming) and MathAmigo. The Valiant Turtle was used in classrooms across the UK and elsewhere, supported by the Microelectronics Education Programme (MEP) and the BBC Micro's dominance in British schools. Its direct descendant, the Roamer Too, was still being sold in the 2020s.",
+    "deepDive": [
+      {
+        "heading": "Body-syntonic reasoning: the child as the debugger",
+        "text": "The Valiant Turtle embodies Seymour Papert's concept of 'body-syntonic' learning — the idea that children can understand and debug a program by imagining what they would do if they were the turtle. A child who types FORWARD 50 RIGHT 90 FORWARD 50 and watches the turtle draw an L-shaped path can immediately see that turning RIGHT 90 produces a 90-degree turn. If the turtle goes off the paper, the child can physically walk the path the turtle would take ('I go forward 50 steps, turn right 90, go forward 50 steps — oh, I should have turned LEFT 90!') and correct the code. This makes debugging a full-body, kinesthetic experience, not an abstract symbol-manipulation task. The turtle is not just an output device; it is a prosthesis for thinking about geometry, angle, distance, and iteration. Papert's book Mindstorms (1980) had argued for this approach, and the Valiant Turtle was its most commercially successful hardware embodiment."
+      },
+      {
+        "heading": "Infrared control: the invisible tether",
+        "text": "The Valiant Turtle used infrared serial communication at 300 baud, connecting to the host computer's serial port via an IR transmitter unit. The tetherless design was crucial: it allowed the turtle to roam freely on the floor, drawing on a large sheet of paper, without the constraint of a physical cable. The IR link worked at ranges up to several meters, sufficient for a typical classroom. This was a sophisticated choice for 1983: IR avoided the radio interference issues of RF, consumed less power, and was simple to implement. The trade-off was line-of-sight requirement — the transmitter had to be aimed at the turtle — but in classroom practice this was rarely a problem. The IR link also reinforced the turtle's independence: the child's program was sent as a complete instruction set, and the turtle executed it autonomously, not under constant computer control. This made the turtle feel like an independent creature responding to the child's commands."
+      },
+      {
+        "heading": "The pen: making time visible",
+        "text": "The retractable pen was the Valiant Turtle's most important output device. When lowered, the pen traced the turtle's path on paper, turning the robot's motion into a permanent visual record. The child could see the program's output accumulate over time — a square taking shape, a spiral growing, a complex L-system fractal emerging. The pen made the temporal dimension of computation visible in a way that screen-based turtle graphics could not match. The physical trace also served as a shareable artifact: the child could take the paper home, show it to parents, pin it on the wall. It was the program made tangible, and it connected the abstract world of code to the physical world of paper and ink."
+      },
+      {
+        "heading": "The Valiant Turtle in the classroom",
+        "text": "The Valiant Turtle was part of a broader ecosystem of Logo-based learning that included the BBC Micro, educational software, and teacher training materials. UK schools, supported by the Microelectronics Education Programme (MEP) and later the National Curriculum's emphasis on IT, integrated the turtle into mathematics and computing lessons. Children as young as six used the turtle to learn about angles, distance, estimation, and sequencing. The turtle's physicality made it accessible to children who struggled with abstract concepts — the kinesthetic experience of watching the turtle move and turning one's own body to understand the turtle's perspective was a powerful pedagogical tool. The turtle also supported collaborative learning: groups of children would gather around the turtle, discuss what it should do next, and debug programs together. The Valiant Turtle remained in production for 28 years, a testament to the enduring value of its design."
+      }
+    ],
+    "team": [
+      {"name": "Valiant Technology Ltd", "note": "Founded by Dave Catlin. Based in London, UK. Produced the Valiant Turtle (1983–2011), Roamer, MathAmigo, and other educational technology products."},
+      {"name": "Dave Catlin", "note": "CEO and product designer at Valiant Technology. Designed the Valiant Turtle and its successor, the Roamer."}
+    ],
+    "media": [
+      {"src": "valiant-turtle.jpg", "alt": "Valiant Turtle robot on a classroom floor, showing its transparent dome, internal electronics, and pen mechanism", "caption": "Valiant Turtle robot, launched 1983. The dome reveals the internal electronics. Photo: Valiant Technology Ltd — CC BY-SA 3.0."}
+    ],
+    "sources": [
+      {"text": "Valiant Technology Ltd — official site (historic product page)", "url": "https://valiant-technology.com/"},
+      {"text": "Wikipedia: Turtle (robot)", "url": "https://en.wikipedia.org/wiki/Turtle_(robot)"},
+      {"text": "Wikipedia: Logo (programming language)", "url": "https://en.wikipedia.org/wiki/Logo_(programming_language)"},
+      {"text": "Papert, Seymour. Mindstorms: Children, Computers, and Powerful Ideas. Basic Books, 1980.", "url": "https://en.wikipedia.org/wiki/Mindstorms_(book)"},
+      {"text": "Wikimedia Commons: Valiant Turtle image", "url": "https://commons.wikimedia.org/wiki/File:Turtle_draw.jpg"}
+    ],
+    "imageUrls": [
+      "https://commons.wikimedia.org/wiki/File:Turtle_draw.jpg"
+    ],
+    "savedImages": [
+      "images/valiant-turtle.jpg"
+    ]
+  }
+}
