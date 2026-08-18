@@ -2467,6 +2467,45 @@ const exhibitData: Exhibit[] = [
     tags: ["Games", "Controller", "Touch", "Input", "Consumer"],
     image: img("ttx360-md.jpg"),
   },
+  {
+    id: "concept-keyboard",
+    slug: "concept-keyboard",
+    wikiTitle: "Concept Keyboard / Star Microterminals A4-128",
+    year: "1983",
+    sortYear: 1983,
+    title: "Concept Keyboard / Star Microterminals A4-128",
+    subtitle: "A paper-overlay touch panel that let non-readers and motor-impaired children control a computer",
+    blurb:
+      "A flat A4-sized touch-sensitive membrane panel with 128 discrete touch zones — each sending a fixed 7-bit code when pressed. The secret was the paper overlay placed on top: swap the sheet and the same hardware becomes a farm-animal selector, a Logo turtle controller, or an industrial control panel. Teachers authored custom interfaces in 15 minutes, collapsing the literacy barrier to computing for special-needs classrooms across the UK. Tangible computing before the name existed.",
+    tags: ["HCI", "Input", "Accessibility", "Education", "Tangible", "Touch"],
+    image: img("concept-keyboard-top.jpg"),
+  },
+  {
+    id: "microvote-mv464",
+    slug: "microvote-mv464",
+    wikiTitle: "Microvote MV-464 Electronic Voting Computer",
+    year: "1985",
+    sortYear: 1985,
+    title: "Microvote MV-464 Electronic Voting Computer",
+    subtitle: "A push-button voting machine with a motor-driven paper scroll ballot display — democracy as a mechanical interface",
+    blurb:
+      "A direct-recording electronic voting machine where ballot choices are printed on a paper scroll behind a glass window, with push buttons on either side for selection. The motor-driven scroll advances the ballot page by page, while the buttons provide 1:1 correspondence with visible choices — no cursor, no touchscreen, no keyboard. The machine folds open into a voting booth, bridging the gap between mechanical lever machines and modern touchscreen DREs. A transitional artifact where democracy, mechanics, and electronics meet.",
+    tags: ["HCI", "Input", "Voting", "Kiosk", "Dedicated Terminal", "Push-Button"],
+    image: img("microvote-mv464.jpg"),
+  },
+  {
+    id: "valiant-turtle",
+    slug: "valiant-turtle",
+    wikiTitle: "Valiant Turtle / Valiant Logo Turtle",
+    year: "1983",
+    sortYear: 1983,
+    title: "Valiant Turtle / Valiant Logo Turtle",
+    subtitle: "A floor-roving infrared-controlled robot that made Logo programs physically visible",
+    blurb:
+      "A 25cm hemispherical robot that made code into a physical event. A child types FORWARD 50 RIGHT 90 on a BBC Micro, and the turtle moves forward 50cm and turns right 90 degrees on the classroom floor. Infrared-linked at 300 baud, the turtle carried a retractable pen to trace its path on paper, making Logo programs visible as physical drawings. Papert's 'body-syntonic' reasoning made literal: the child's own body schema becomes the debugger. In production from 1983 to 2011.",
+    tags: ["HCI", "Output", "Education", "Robotics", "Programming", "Physical"],
+    image: img("valiant-turtle.jpg"),
+  },
 ];
 
 export const exhibits: Exhibit[] = exhibitData.toSorted((a, b) => b.sortYear - a.sortYear || a.title.localeCompare(b.title));

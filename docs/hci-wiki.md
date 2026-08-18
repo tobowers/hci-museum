@@ -1,6 +1,6 @@
 # The HCI Golden Age Wiki
 
-A research compendium for a digital museum of cutting-edge Human-Computer Interaction from the late 1970s through the early 1990s. These two hundred projects mix canonical experiments with weird, forgotten, and beautiful vaporware — brain control, voice control, gesture, wearable computing, VR, robots, and full-body exertion.
+A research compendium for a digital museum of cutting-edge Human-Computer Interaction from the late 1970s through the early 1990s. These two hundred and three projects mix canonical experiments with weird, forgotten, and beautiful vaporware — brain control, voice control, gesture, wearable computing, VR, robots, and full-body exertion.
 
 Each entry includes an overview, a deep dive, a small media gallery, and full source links so the images and facts can always be traced back.
 
@@ -207,6 +207,9 @@ Each entry includes an overview, a deep dive, a small media gallery, and full so
 198. [Bildschirmtext (BTX) Terminal (1983)](#bildschirmtext-btx-terminal-1983)
 199. [Quotron II (1986)](#quotron-ii-1986)
 200. [Turbo Touch 360 (1992)](#turbo-touch-360-1992)
+201. [Concept Keyboard / Star Microterminals A4-128 (1983)](#concept-keyboard--star-microterminals-a4-128-1983)
+202. [Microvote MV-464 Electronic Voting Computer (1985)](#microvote-mv-464-electronic-voting-computer-1985)
+203. [Valiant Turtle / Valiant Logo Turtle (1983)](#valiant-turtle--valiant-logo-turtle-1983)
 
 ---
 
@@ -9813,3 +9816,115 @@ The controller was first shown at CES in 1993, but the technology never displace
 2. Wikipedia — Turbo Touch 360 — https://en.wikipedia.org/wiki/Turbo_Touch_360
 3. Patent US5367199, 'Sliding contact control switch pad' (filed 1992-09-15, priority 1992-05-01) — https://patents.google.com/patent/US5367199A/en
 4. IGN, 'Top 10 Tuesday: Worst Game Controllers' (2006) — http://xbox360.ign.com/articles/690/690449p1.html
+
+## Concept Keyboard / Star Microterminals A4-128 (1983)
+
+**By:** Star Microterminals Ltd (Swansea, Wales) / The Concept Keyboard Company
+**Tags:** `HCI` `Input` `Accessibility` `Education` `Tangible` `Touch`
+
+### Overview
+
+The Concept Keyboard was a flat, A4-sized touch-sensitive membrane panel with 128 discrete touch zones (a larger A3 model offered 256 zones). It connected to the BBC Micro's User Port, and later to Apple II, IBM PC, RM Nimbus, Acorn Archimedes, and ZX Spectrum computers. Each zone sent a fixed 7-bit code when pressed; the paper overlay placed on top defined — for the user — what each zone would do for a given software program. Swapping the overlay reconfigured the entire interface, without changing any hardware or wiring.
+
+Manufactured by Star Microterminals of Swansea, Wales (later renamed The Concept Keyboard Company and relocated to Winchester), the device found its primary audience in UK special-needs and early-years education. For children who could not read or type, the keyboard turned words into pictures; for children with motor disabilities, it replaced precise keystrokes with large-target touching. Teachers could author custom overlays and program zone behaviors in 10–15 minutes using simple BBC Micro `*SET` commands. The company remained active through the 1990s, introducing Universal and Universal Plus models with RS-232 serial ports for broader compatibility, before entering receivership in 1998.
+
+### Deep dive
+
+* **The paper overlay as interface.** The innovation was not electronic but conceptual. A printed paper overlay — typically A4-sized — was placed on top of the keyboard and held in place by corner clips. The overlay mapped pictures, words, or symbols onto the touch zones. When a child pressed the picture of a cow, the computer received zone code 47; the educational software knew that '47' meant 'cow' in the context of the farm-animals overlay. The same zone 47, under a different overlay, might mean 'FORWARD 20' in a Logo turtle programming activity. The overlay was passive — the computer could not detect which overlay was in use — but the reconfigurability was real: the same hardware became a completely different interface through a simple paper swap. This was a pre-touchscreen, pre-GUI approach to making computers physically accessible, and it prefigured tangible computing by over a decade.
+* **Special needs and the literacy barrier.** For children who could not read, the Concept Keyboard collapsed the literacy barrier. Instead of typing words they could not recognise, children pressed pictures. For children with motor disabilities, the large touch zones (approximately 18 × 52 mm each) made computer access physically possible where a standard keyboard was not. The interaction philosophy was that the interface should adapt to the user, not the user to the interface — a principle that became central to accessibility HCI decades later.
+* **Tangible computing before the name.** The Concept Keyboard embodied several ideas that would later be formalised as 'tangible user interfaces' (Ishii and Ullmer, CHI 1997): physical objects (paper overlays) mapping to digital functions, reconfigurable physical interfaces, and non-screen-based interaction. Unlike later tangible interfaces, the overlay carried no digital identity (no RFID, no barcode, no conductivity pattern), but the human factors insight was the same: sometimes the best interface is one you can hold in your hands and swap like a placemat.
+
+### Team
+
+* **Star Microterminals Ltd.** Original manufacturer, based in Swansea, Wales. Founded the Concept Keyboard product line.
+* **The Concept Keyboard Company Ltd.** Successor company, relocated to Winchester, Hampshire. Later acquired by Bowthorpe plc (1990), entered receivership 1998.
+* **A.B. Electronic Marketing Division (Cardiff).** Acquired Star Microterminals when they were in financial difficulties, circa 1985.
+
+### Media
+
+![Concept Keyboard A4-128 top view](../assets/wiki/concept-keyboard-top.jpg)
+*Concept Keyboard A4-128 showing the 128-zone touch-sensitive surface. Photo: Chris Whytehead, Chris's Acorns — CC-BY-SA-3.0.*
+
+![Concept Keyboard A4-128 bottom view](../assets/wiki/concept-keyboard-bottom.jpg)
+*Underside of the Concept Keyboard showing the 25-pin connector for the BBC Micro User Port. Photo: Chris Whytehead, Chris's Acorns — CC-BY-SA-3.0.*
+
+### Sources
+
+1. Chris's Acorns — Concept Keyboard A4-128 — https://chrisacorns.computinghistory.org.uk/8bit_Upgrades/ConceptKbd_A4-128.html
+2. Centre for Computing History — Star Microterminals Concept A4-128 — https://www.computinghistory.org.uk/det/14055/Star-Microterminals-Concept-A4-128-tablet-keyboard/
+3. Museum Wales — Star Microterminals Concept keyboard — https://museum.wales/collections/online/object/6789195d-9d0d-3357-ac3e-c9d073d6c48e/Star-Microterminals-Concept-keyboard/
+4. Acorn User, May 1985 — 'A New Breed of Keyboards' — https://chrisacorns.computinghistory.org.uk/docs/Mags/AU/AU_May85_ANewBreedOfKeyboards.pdf
+5. Lodge, J. (1991). The Concept Keyboard in Education. Early Child Development and Care, 69(1), 39–52 — https://doi.org/10.1080/0300443910690104
+6. Spectrum Computing — Concept Keyboard for ZX Spectrum — https://spectrumcomputing.co.uk/entry/1000947/Hardware/Concept_Keyboard
+
+## Microvote MV-464 Electronic Voting Computer (1985)
+
+**By:** Microvote Corporation (Indianapolis, Indiana) / William H. Carson (inventor)
+**Tags:** `HCI` `Input` `Voting` `Kiosk` `Dedicated Terminal` `Push-Button`
+
+### Overview
+
+The Microvote MV-464 is a direct-recording electronic (DRE) voting machine introduced in the mid-1980s by Microvote Corporation of Indianapolis, Indiana. It represents the first generation of consumer-grade electronic voting machines, bridging the gap between mechanical lever machines and modern touchscreen DREs. The machine uses a unique physical interface: ballot choices are printed on a paper scroll that is displayed behind a central glass window. A column of push buttons on each side of the window correspond to the ballot choices visible on the scroll. A motor-driven mechanism scrolls the paper left or right to display successive 'pages' of a multi-page ballot. The machine folds open with side panels that create a semi-enclosed voting booth, directly inheriting the form factor of earlier lever machines.
+
+US Patent 4,649,264, filed in 1985 by inventor William H. Carson and assigned to Microvote Corporation, describes the key innovation: 'An electronic voting machine includes a roll of paper on which the ballot and candidates are printed. The paper is moved past a window by a motor drive. A voter operates push buttons aligned with the candidates to register votes.' The patent emphasizes the machine's ability to prevent overvoting and to store votes in non-volatile memory for later tabulation.
+
+Microvote remained in production through the 1990s and into the early 2000s, with the MV-464 (and its successor models) seeing use in counties across the United States. The company was later acquired by Election Systems & Software (ES&S). The MV-464 is preserved in the collection of the Smithsonian's National Museum of American History and is documented in the Verified Voting Foundation's voting equipment database.
+
+### Deep dive
+
+* **The paper scroll as ballot display.** The MV-464's defining interface element is the paper scroll ballot display. Unlike a CRT or LCD screen, the ballot is printed on a continuous roll of paper inside the machine, visible through a glass window approximately 8 × 10 inches. A motor drive advances the scroll left or right to expose different 'pages' of the ballot. This hybrid approach — electronic vote recording with a physical paper display — was a pragmatic compromise: it allowed elections officials to produce ballots on standard office printers while giving voters a familiar paper-like reading experience, without the cost or complexity of a full electronic display.
+* **Push-button interaction and the voting ritual.** Voters interact with the MV-464 through two columns of mechanical push buttons flanking the window, each aligned with the candidate or issue choices displayed on the scroll. The buttons are arranged in a 1:1 correspondence with the visible ballot items, eliminating the need for cursor navigation or touchscreen calibration. Pressing a button illuminates a small indicator light next to it, providing positive feedback that the vote has been registered. The machine enforces overvote prevention: if a voter presses buttons for two candidates in the same race, the first selection is automatically deselected. The interaction model is deliberately simple — press the button next to your choice, then press CAST VOTE — designed to be usable by voters of all ages and technical backgrounds.
+* **From lever machines to electronic voting.** The MV-464 occupies a pivotal position in voting technology history. Before it, mechanical lever voting machines (Shoup, AVM) dominated US elections. These machines used physical levers connected to mechanical odometer-style counters. The MV-464 replaced the mechanical lever with a push-button electrical switch and replaced the mechanical counter with electronic memory (battery-backed RAM). But it retained the physical ballot layout (paper scroll instead of lever labels), the booth form factor, and the overvote prevention interlock. It was a transitional machine: electronic under the hood, but still a physical, tangible interface that voters experienced as a familiar object.
+
+### Team
+
+* **Microvote Corporation.** Manufacturer based in Indianapolis, Indiana. Produced the MV-464 and descendant models through the 1990s. Later acquired by ES&S.
+* **William H. Carson.** Inventor of the MV-464's paper-scroll ballot mechanism. US Patent 4,649,264 filed 1985, granted 1987.
+
+### Media
+
+![Microvote MV-464 Electronic Voting Computer](../assets/wiki/microvote-mv464.jpg)
+*Microvote MV-464 Electronic Voting Computer. The ballot choices are displayed on a paper scroll behind the central glass window, with push buttons on each side. Photo: Sswonk — CC0 1.0.*
+
+### Sources
+
+1. Wikipedia — DRE voting machine — https://en.wikipedia.org/wiki/DRE_voting_machine
+2. Douglas W. Jones Illustrated Voting Machine History — http://homepage.cs.uiowa.edu/~jones/voting/pictures/
+3. Verified Voting — Microvote MV-464 — https://verifiedvoting.org/election-system/microvote-mv-464/
+4. US Patent 4,649,264: Electronic Voting Machine (Carson, 1987) — https://patents.google.com/patent/US4649264
+
+## Valiant Turtle / Valiant Logo Turtle (1983)
+
+**By:** Valiant Technology Ltd (London, UK) — Dave Catlin, CEO and product designer
+**Tags:** `HCI` `Output` `Education` `Robotics` `Programming` `Physical`
+
+### Overview
+
+The Valiant Turtle is a floor-roving educational robot launched in 1983 by Valiant Technology Ltd of London. It was designed to be programmed via the Logo programming language running on a host computer (typically the BBC Micro, but also Apple II, Commodore, and others). The turtle communicated with its host via an infrared serial link — a tetherless connection that allowed the robot to roam freely on the classroom floor. It carried a retractable pen that could be lowered to draw on paper taped to the floor, making the student's Logo program visible as a physical trace.
+
+The turtle was hemispherical, approximately 25 cm in diameter, with a transparent dome revealing its internal electronics. It had two independently driven wheels (differential steering) and a rear caster. It carried bump sensors for collision detection and could emit sounds. The IR link operated at 300 baud, translating Logo commands like FORWARD, BACK, LEFT, RIGHT, PENUP, PENDOWN into motor movements. The robot was robust enough for daily classroom use and remained in production until 2011 — a 28-year production run.
+
+Valiant Technology was founded by Dave Catlin, who personally designed the turtle and remained the company's CEO and product designer. The company also produced the Roamer (a more advanced descendant with onboard programming) and MathAmigo. The Valiant Turtle was used in classrooms across the UK and elsewhere, supported by the Microelectronics Education Programme (MEP) and the BBC Micro's dominance in British schools.
+
+### Deep dive
+
+* **Body-syntonic reasoning: the child as the debugger.** The Valiant Turtle embodies Seymour Papert's concept of 'body-syntonic' learning — the idea that children can understand and debug a program by imagining what they would do if they were the turtle. A child who types FORWARD 50 RIGHT 90 FORWARD 50 and watches the turtle draw an L-shaped path can immediately see that turning RIGHT 90 produces a 90-degree turn. If the turtle goes off the paper, the child can physically walk the path the turtle would take and correct the code. This makes debugging a full-body, kinesthetic experience, not an abstract symbol-manipulation task. The turtle is not just an output device; it is a prosthesis for thinking about geometry, angle, distance, and iteration. Papert's book Mindstorms (1980) had argued for this approach, and the Valiant Turtle was its most commercially successful hardware embodiment.
+* **Infrared control: the invisible tether.** The Valiant Turtle used infrared serial communication at 300 baud, connecting to the host computer's serial port via an IR transmitter unit. The tetherless design was crucial: it allowed the turtle to roam freely on the floor, drawing on a large sheet of paper, without the constraint of a physical cable. The IR link worked at ranges up to several meters, sufficient for a typical classroom. The IR link also reinforced the turtle's independence: the child's program was sent as a complete instruction set, and the turtle executed it autonomously, not under constant computer control. This made the turtle feel like an independent creature responding to the child's commands.
+* **The pen: making time visible.** The retractable pen was the Valiant Turtle's most important output device. When lowered, the pen traced the turtle's path on paper, turning the robot's motion into a permanent visual record. The child could see the program's output accumulate over time — a square taking shape, a spiral growing, a complex L-system fractal emerging. The pen made the temporal dimension of computation visible in a way that screen-based turtle graphics could not match. The physical trace also served as a shareable artifact: the child could take the paper home, show it to parents, pin it on the wall. It was the program made tangible.
+
+### Team
+
+* **Valiant Technology Ltd.** Founded by Dave Catlin. Based in London, UK. Produced the Valiant Turtle (1983–2011), Roamer, MathAmigo, and other educational technology products.
+* **Dave Catlin.** CEO and product designer at Valiant Technology. Designed the Valiant Turtle and its successor, the Roamer.
+
+### Media
+
+![Valiant Turtle robot](../assets/wiki/valiant-turtle.jpg)
+*Valiant Turtle robot, launched 1983. The dome reveals the internal electronics. Photo: Valiant Technology Ltd — CC BY-SA 3.0.*
+
+### Sources
+
+1. Valiant Technology Ltd — official site — https://valiant-technology.com/
+2. Wikipedia — Turtle (robot) — https://en.wikipedia.org/wiki/Turtle_(robot)
+3. Wikipedia — Logo (programming language) — https://en.wikipedia.org/wiki/Logo_(programming_language)
+4. Papert, Seymour. Mindstorms: Children, Computers, and Powerful Ideas. Basic Books, 1980.
