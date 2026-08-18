@@ -1,0 +1,60 @@
+{
+  "slug": "concept-keyboard",
+  "title": "Concept Keyboard",
+  "year": "1983",
+  "subtitle": "A paper-overlay touch panel that let non-readers and motor-impaired children control a computer",
+  "why_scout_cares": "Reconfigurable physical interface years before tangible computing was named. The paper overlay is the interface definition — swap the sheet, and the same 128 touch zones become a farm animal selector, a Logo turtle controller, or an industrial control panel. Teachers authored custom interfaces in 15 minutes, collapsing the literacy barrier to computing for special-needs classrooms across the UK.",
+  "search_terms": ["Concept Keyboard", "Star Microterminals", "overlay keyboard", "A4-128 touch panel", "BBC Micro touch keyboard"],
+  "research": {
+    "title": "Concept Keyboard / Star Microterminals A4-128",
+    "year": "1983",
+    "by": "Star Microterminals Ltd (Swansea, Wales) / The Concept Keyboard Company",
+    "tags": ["HCI", "Input", "Accessibility", "Education", "Tangible", "Touch"],
+    "overview": "The Concept Keyboard was a flat, A4-sized touch-sensitive membrane panel with 128 discrete touch zones (a larger A3 model offered 256 zones). It connected to the BBC Micro's User Port, and later to Apple II, IBM PC, RM Nimbus, Acorn Archimedes, and ZX Spectrum computers. Each zone sent a fixed 7-bit code when pressed; the paper overlay placed on top defined — for the user — what each zone would do for a given software program. Swapping the overlay reconfigured the entire interface, without changing any hardware or wiring.\n\nManufactured by Star Microterminals of Swansea, Wales (later renamed The Concept Keyboard Company and relocated to Winchester), the device found its primary audience in UK special-needs and early-years education. For children who could not read or type, the keyboard turned words into pictures; for children with motor disabilities, it replaced precise keystrokes with large-target touching. Teachers could author custom overlays and program zone behaviors in 10–15 minutes using simple BBC Micro `*SET` commands. The company remained active through the 1990s, introducing Universal and Universal Plus models with RS-232 serial ports for broader compatibility, before entering receivership in 1998.",
+    "deepDive": [
+      {
+        "heading": "How it worked",
+        "text": "The Concept Keyboard was an A4-sized (approximately 298 × 419 mm) panel with a dark blue metal surround. Beneath the surface lay a touch-sensitive membrane switch matrix — 128 cells arranged in a 16 × 8 grid, each producing a unique 7-bit binary code when pressed. The codes were hardware-fixed: cell 0 always sent code 0, cell 127 always sent 127. There was no analog pressure sensing, no velocity detection — each zone was a simple on/off membrane switch. The panel connected to the host computer via a 25-pin D-type connector plugged into the BBC Micro's User Port (or an interface module for other computers). The keyboard itself had no intelligence — it was a dumb matrix, and all interpretation happened in software on the host computer."
+      },
+      {
+        "heading": "The paper overlay as interface",
+        "text": "The innovation was not electronic but conceptual. A printed paper overlay — typically A4-sized — was placed on top of the keyboard and held in place by corner clips. The overlay mapped pictures, words, or symbols onto the touch zones. When a child pressed the picture of a cow, the computer received zone code 47; the educational software knew that '47' meant 'cow' in the context of the farm-animals overlay. The same zone 47, under a different overlay, might mean 'FORWARD 20' in a Logo turtle programming activity. The overlay was passive — the computer could not detect which overlay was in use — but the reconfigurability was real: the same hardware became a completely different interface through a simple paper swap. This was a pre-touchscreen, pre-GUI approach to making computers physically accessible, and it prefigured tangible computing by over a decade."
+      },
+      {
+        "heading": "Special needs and the literacy barrier",
+        "text": "For children who could not read, the Concept Keyboard collapsed the literacy barrier. Instead of typing words they could not recognise, children pressed pictures. For children with motor disabilities — cerebral palsy, muscular dystrophy, coordination disorders — the large touch zones (approximately 18 × 52 mm each) made computer access physically possible where a standard keyboard was not. The device saw heavy use through the UK's Microelectronics Education Programme (MEP) and subsequent initiatives that placed BBC Micros in special schools. Teachers could program the keyboard in minutes: a simple `*CONCEPT 47,80` command mapped zone 47 to the ASCII code for 'P', for instance. The interaction philosophy was that the interface should adapt to the user, not the user to the interface — a principle that became central to accessibility HCI decades later."
+      },
+      {
+        "heading": "Tangible computing before the name",
+        "text": "The Concept Keyboard embodied several ideas that would later be formalised as 'tangible user interfaces' (Ishii and Ullmer, CHI 1997): physical objects (paper overlays) mapping to digital functions, reconfigurable physical interfaces, and non-screen-based interaction. It was a bridge between the paper world and the digital world — the overlay was a tangible, graspable, swappable artifact that defined the user's interaction model. Unlike later tangible interfaces, the overlay carried no digital identity (no RFID, no barcode, no conductivity pattern), but the human factors insight was the same: sometimes the best interface is one you can hold in your hands and swap like a placemat."
+      }
+    ],
+    "team": [
+      {"name": "Star Microterminals Ltd", "note": "Original manufacturer, based in Swansea, Wales. Founded the Concept Keyboard product line."},
+      {"name": "The Concept Keyboard Company Ltd", "note": "Successor company, relocated to Winchester, Hampshire. Later acquired by Bowthorpe plc (1990), entered receivership 1998."},
+      {"name": "A.B. Electronic Marketing Division (Cardiff)", "note": "Acquired Star Microterminals when they were in financial difficulties, circa 1985. Contract manufacturer."}
+    ],
+    "media": [
+      {"src": "concept-keyboard-top.jpg", "alt": "Concept Keyboard A4-128 top view showing the 128-zone touch-sensitive membrane surface with dark blue metal surround", "caption": "Concept Keyboard A4-128 showing the 128-zone touch-sensitive surface. Photo: Chris Whytehead, Chris's Acorns — CC-BY-SA-3.0."},
+      {"src": "concept-keyboard-bottom.jpg", "alt": "Concept Keyboard A4-128 bottom view showing the 25-pin D-type connector and serial number label", "caption": "Underside of the Concept Keyboard showing the 25-pin connector for the BBC Micro User Port. Photo: Chris Whytehead, Chris's Acorns — CC-BY-SA-3.0."}
+    ],
+    "sources": [
+      {"text": "Chris's Acorns: Concept Keyboard A4-128 (detailed photos and technical specs)", "url": "https://chrisacorns.computinghistory.org.uk/8bit_Upgrades/ConceptKbd_A4-128.html"},
+      {"text": "Centre for Computing History: Star Microterminals Concept A4-128", "url": "https://www.computinghistory.org.uk/det/14055/Star-Microterminals-Concept-A4-128-tablet-keyboard/"},
+      {"text": "Centre for Computing History: Concept A3-128 (complete with box, overlays, packaging)", "url": "https://www.computinghistory.org.uk/det/12466/Concept-A3-128-Keyboard/"},
+      {"text": "Museum Wales: Star Microterminals Concept keyboard (with overlay and interface lead)", "url": "https://museum.wales/collections/online/object/6789195d-9d0d-3357-ac3e-c9d073d6c48e/Star-Microterminals-Concept-keyboard/"},
+      {"text": "Acorn User, May 1985: 'A New Breed of Keyboards' (comparative review)", "url": "https://chrisacorns.computinghistory.org.uk/docs/Mags/AU/AU_May85_ANewBreedOfKeyboards.pdf"},
+      {"text": "Lodge, J. (1991). The Concept Keyboard in Education. Early Child Development and Care, 69(1), 39–52", "url": "https://doi.org/10.1080/0300443910690104"},
+      {"text": "BeebMaster: Concept Keyboard photos and pinout details", "url": "http://www.beebmaster.co.uk/8bitadd/Concept1.html"},
+      {"text": "Spectrum Computing: Concept Keyboard for ZX Spectrum", "url": "https://spectrumcomputing.co.uk/entry/1000947/Hardware/Concept_Keyboard"}
+    ],
+    "imageUrls": [
+      "https://commons.wikimedia.org/wiki/File:Concept_Keyboard_A4-128_Keyboard_(top).jpg",
+      "https://commons.wikimedia.org/wiki/File:Concept_Keyboard_A4-128_Keyboard_(bottom).jpg"
+    ],
+    "savedImages": [
+      "images/concept-keyboard-top.jpg",
+      "images/concept-keyboard-bottom.jpg"
+    ]
+  }
+}

@@ -1,0 +1,53 @@
+{
+  "slug": "microvote-mv464",
+  "title": "Microvote MV-464 Electronic Voting Computer",
+  "year": "1985",
+  "subtitle": "A push-button voting machine with a motor-driven paper scroll ballot display — democracy as a mechanical interface",
+  "why_scout_cares": "The Microvote MV-464 is a dedicated-purpose DRE (direct-recording electronic) voting machine that embodies a unique interaction model: voters read ballot choices through a glass window from a motor-driven paper scroll, and press physical buttons on either side to make selections. The machine folds into a voting booth. It is a complete, self-contained HCI artifact where the interface is inseparable from the civic function. No other artifact in the museum captures the 'machine as democratic instrument' paradigm — the collision of mechanical engineering, civic ritual, and human-computer interaction. The paper scroll behind glass is a physical ballot rendered as a mechanical display, prefiguring the touchscreen voting machines of the 2000s while remaining tethered to paper-based election processes.",
+  "search_terms": ["Microvote MV-464", "DRE voting machine", "electronic voting machine", "Microvote Corporation", "push-button voting"],
+  "research": {
+    "title": "Microvote MV-464 Electronic Voting Computer",
+    "year": "1985",
+    "by": "Microvote Corporation (Indianapolis, Indiana) / William H. Carson (inventor)",
+    "tags": ["HCI", "Input", "Voting", "Kiosk", "Dedicated Terminal", "Push-Button"],
+    "overview": "The Microvote MV-464 is a direct-recording electronic (DRE) voting machine introduced in the mid-1980s by Microvote Corporation of Indianapolis, Indiana. It represents the first generation of consumer-grade electronic voting machines, bridging the gap between mechanical lever machines and modern touchscreen DREs. The machine uses a unique physical interface: ballot choices are printed on a paper scroll that is displayed behind a central glass window. A column of push buttons on each side of the window correspond to the ballot choices visible on the scroll. A motor-driven mechanism scrolls the paper left or right to display successive 'pages' of a multi-page ballot. The machine folds open with side panels that create a semi-enclosed voting booth, directly inheriting the form factor of earlier lever machines.\n\nUS Patent 4,649,264, filed in 1985 by inventor William H. Carson and assigned to Microvote Corporation, describes the key innovation: 'An electronic voting machine includes a roll of paper on which the ballot and candidates are printed. The paper is moved past a window by a motor drive. A voter operates push buttons aligned with the candidates to register votes.' The patent emphasizes the machine's ability to prevent overvoting and to store votes in non-volatile memory for later tabulation.\n\nMicrovote remained in production through the 1990s and into the early 2000s, with the MV-464 (and its successor models) seeing use in counties across the United States. The company was later acquired by Election Systems & Software (ES&S). The MV-464 is preserved in the collection of the Smithsonian's National Museum of American History and is documented in the Verified Voting Foundation's voting equipment database.",
+    "deepDive": [
+      {
+        "heading": "The paper scroll as ballot display",
+        "text": "The MV-464's defining interface element is the paper scroll ballot display. Unlike a CRT or LCD screen, the ballot is printed on a continuous roll of paper inside the machine, visible through a glass window approximately 8 × 10 inches. A motor drive advances the scroll left or right to expose different 'pages' of the ballot. This hybrid approach — electronic vote recording with a physical paper display — was a pragmatic compromise: it allowed elections officials to produce ballots on standard office printers while giving voters a familiar paper-like reading experience, without the cost or complexity of a full electronic display. The scroll mechanism is controlled by PAGE buttons on the front panel, allowing voters to navigate forward and backward through the ballot. The paper scroll also served as a physical record of the ballot layout, though not as a voter-verified paper audit trail (VVPAT) — the votes themselves were recorded only in the machine's electronic memory."
+      },
+      {
+        "heading": "Push-button interaction and the voting ritual",
+        "text": "Voters interact with the MV-464 through two columns of mechanical push buttons flanking the window, each aligned with the candidate or issue choices displayed on the scroll. The buttons are arranged in a 1:1 correspondence with the visible ballot items, eliminating the need for cursor navigation or touchscreen calibration. Pressing a button illuminates a small indicator light next to it, providing positive feedback that the vote has been registered. The machine enforces overvote prevention: if a voter presses buttons for two candidates in the same race, the first selection is automatically deselected. The interaction model is deliberately simple — press the button next to your choice, then press CAST VOTE — designed to be usable by voters of all ages and technical backgrounds. The complete lack of a mouse, keyboard, or touchscreen makes the MV-464 an interesting case study in minimalist HCI for a high-stakes task."
+      },
+      {
+        "heading": "From lever machines to electronic voting",
+        "text": "The MV-464 occupies a pivotal position in voting technology history. Before it, mechanical lever voting machines (Shoup, AVM) dominated US elections. These machines used physical levers connected to mechanical odometer-style counters — a voter pulled a lever down to cast a vote, and the machine added one to a mechanical counter behind each lever. The MV-464 replaced the mechanical lever with a push-button electrical switch and replaced the mechanical counter with electronic memory (battery-backed RAM). But it retained the physical ballot layout (paper scroll instead of lever labels), the booth form factor, and the overvote prevention interlock. It was a transitional machine: electronic under the hood, but still a physical, tangible interface that voters experienced as a familiar object. The MV-464's paper scroll was a bridge between the all-mechanical past and the all-electronic future of touchscreen voting."
+      },
+      {
+        "heading": "Accessibility and the voting booth",
+        "text": "The MV-464's design includes accessibility features that were advanced for its era. The machine folds open with side panels that create a semi-enclosed voting booth, providing privacy. The push buttons are large and clearly labeled, with tactile feedback (a positive click) that helps voters with visual impairments confirm their selections. The paper scroll can be printed in large type for voters with low vision. The machine's low height and the position of the window and buttons were designed to accommodate wheelchair users. The MV-464 was one of the first voting machines to seriously consider accessibility, years before the Help America Vote Act (2002) mandated accessible voting systems in every US precinct."
+      }
+    ],
+    "team": [
+      {"name": "Microvote Corporation", "note": "Manufacturer based in Indianapolis, Indiana. Produced the MV-464 and descendant models through the 1990s. Later acquired by ES&S."},
+      {"name": "William H. Carson", "note": "Inventor of the MV-464's paper-scroll ballot mechanism. US Patent 4,649,264 filed 1985, granted 1987."}
+    ],
+    "media": [
+      {"src": "microvote-mv464.jpg", "alt": "Microvote MV-464 Electronic Voting Computer showing the paper scroll ballot behind a glass window with push buttons on either side", "caption": "Microvote MV-464 Electronic Voting Computer. The ballot choices are displayed on a paper scroll behind the central glass window, with push buttons on each side. Photo: Wikipedian named 'Sswonk' — CC0 1.0."}
+    ],
+    "sources": [
+      {"text": "Wikipedia: DRE voting machine", "url": "https://en.wikipedia.org/wiki/DRE_voting_machine"},
+      {"text": "Douglas W. Jones Illustrated Voting Machine History", "url": "http://homepage.cs.uiowa.edu/~jones/voting/pictures/"},
+      {"text": "Verified Voting: Microvote MV-464", "url": "https://verifiedvoting.org/election-system/microvote-mv-464/"},
+      {"text": "US Patent 4,649,264: Electronic Voting Machine (Carson, 1987)", "url": "https://patents.google.com/patent/US4649264"},
+      {"text": "Douglas W. Jones and Barbara Simons, Broken Ballots (CSLI Publications, 2012)", "url": "https://press.uchicago.edu/ucp/books/book/distributed/B/bo13308972.html"}
+    ],
+    "imageUrls": [
+      "https://commons.wikimedia.org/wiki/File:Microvote_MV464.jpg"
+    ],
+    "savedImages": [
+      "images/microvote-mv464.jpg"
+    ]
+  }
+}
