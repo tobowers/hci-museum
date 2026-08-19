@@ -1492,6 +1492,18 @@ const exhibitData: Exhibit[] = [
     image: img("cracklebox.jpg"),
   },
   {
+    id: "the-hands",
+    slug: "the-hands",
+    wikiTitle: "The Hands",
+    year: "1984",
+    sortYear: 1984,
+    title: "The Hands",
+    subtitle: "Michel Waisvisz's hand-worn gestural MIDI controller — wooden frames, tilt sensors, and ultrasound",
+    blurb: "The Hands (1984) is a pair of hand-worn wooden frames fitted with switches, potentiometers, tilt sensors, and ultrasonic rangefinders — strapped to the performer's hands and converting arm gestures, hand tilts, and finger presses into MIDI data. Built by Michel Waisvisz at STEIM, Amsterdam, one year after the MIDI standard was published. Predates the Power Glove by five years. The body is the interface, not just the operator of an interface.",
+    tags: ["Music", "Gesture", "Wearable", "MIDI", "Sensor", "Experimental"],
+    image: img("the-hands-hero.jpg"),
+  },
+  {
     id: "topo",
     slug: "topo",
     wikiTitle: "Topo",
