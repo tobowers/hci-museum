@@ -2544,6 +2544,19 @@ const exhibitData: Exhibit[] = [
     tags: ["HCI", "Game Console", "VHS", "Interactive Video", "Edutainment", "Sprite Overlay"],
     image: img("viewmaster-interactive-vision-1.jpg"),
   },
+  {
+    id: "playskool-alphie",
+    slug: "playskool-alphie",
+    wikiTitle: "Playskool Alphie",
+    year: "1978",
+    sortYear: 1978,
+    title: "Playskool Alphie",
+    subtitle: "The educational robot whose 'software' was printed cardboard — insert a card, press buttons, learn",
+    blurb:
+      "Alphie is an educational robot from Playskool (1978) that uses interchangeable printed cardboard cards as its 'software.' Insert a card into the slot on the robot's front, and the soft-touch membrane buttons map to the activity printed on the card: matching, math, spelling, sequencing. The card is not optically scanned or magnetically encoded — it is a purely mechanical alignment mechanism. This is a tangible user interface (TUI) nearly two decades before the term existed. Alphie ran on batteries, came with a library of cards, and remained in production through the 1980s.",
+    tags: ["Educational", "Toy", "Tangible", "Card-based", "Robot"],
+    image: img("alphie.jpg"),
+  },
 ];
 
 export const exhibits: Exhibit[] = exhibitData.toSorted((a, b) => b.sortYear - a.sortYear || a.title.localeCompare(b.title));

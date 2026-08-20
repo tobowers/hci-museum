@@ -1,0 +1,65 @@
+{
+  "slug": "alphie-robot",
+  "title": "Playskool Alphie",
+  "year": "1978",
+  "subtitle": "An educational robot whose 'software' was printed cardboard — insert a card, press soft-touch buttons, and the robot teaches math, spelling, and matching",
+  "why_scout_cares": "Physical card-swapping as program selection — the card is a tangible token that changes the machine's behavior. No barcode, no magnetic stripe, no optical encoding: the card's physical position aligns with membrane-switch buttons, making the cardboard itself the software. A direct precursor to tangible programming interfaces.",
+  "search_terms": [
+    "Playskool Alphie robot",
+    "Alphie educational robot 1978",
+    "Alphie card slot robot",
+    "Alphie talking robot playskool"
+  ],
+  "research": {
+    "title": "Playskool Alphie / Alphie II / Talking Alphie (1978)",
+    "year": "1978",
+    "by": "Playskool / Hasbro",
+    "tags": ["Educational", "Toy", "Tangible", "Card-based", "Robot"],
+    "overview": "Alphie is an educational robot toy released by Playskool in 1978. It features a slot in the front for interchangeable printed cardboard cards. Each card aligns with a set of soft-touch membrane-switch buttons built into the robot's body. The card determines what the buttons do — matching, math, spelling, sequencing — and the robot responds with lights, sounds, and synthesized speech (in later Talking Alphie models). The 'software' is literally printed cardboard: the card's position determines which button functions are active, making this a genuine tangible programming interface. Alphie ran on batteries and came with a library of printed activity cards. An Alphie II model was released in 1983, and a 'Talking Alphie' version added speech synthesis. The toy remained in production through the 1980s and is considered a precursor to modern tangible programming toys and learning systems.",
+    "deepDive": [
+      {
+        "heading": "Origins",
+        "text": "Alphie was developed by Playskool, a division of Hasbro focused on educational toys for young children. The original 1978 Alphie was a simple red robot with a card slot and soft-touch buttons. The key innovation was the card-swapping paradigm: different printed cards, when inserted, changed the toy's behavior by aligning different button mappings with the card's printed interface. This is a form of tangible programming — the physical card IS the program, and the child selects a program by swapping cards. The Alphie II (1983) added new cards and activities, while the Talking Alphie (also 1983) included a speech synthesis chip for spoken responses."
+      },
+      {
+        "heading": "Interaction model",
+        "text": "The interaction is deceptively simple: a child inserts a printed cardboard card into a slot on Alphie's front. The card aligns with soft-touch membrane buttons. Each card maps button presses to different learning activities — matching shapes, identifying letters, counting objects, or sequencing. The robot responds with lights, sounds, and (in later models) speech. The crucial HCI point: the card is not optically scanned, magnetically encoded, or read by a barcode sensor. It is a purely mechanical alignment mechanism. The card's printed graphics guide the child's interaction, but the toy reads only the button positions, which are determined by the card's physical alignment. This is a tangible user interface (TUI) avant la lettre — predating Ishii and Ullmer's 'Tangible Bits' (1997) by nearly two decades."
+      },
+      {
+        "heading": "Legacy",
+        "text": "Alphie is often cited as a precursor to tangible programming interfaces and the broader 'physical computing' movement in education. Its card-swapping paradigm influenced later educational toys like the LeapPad (1999) and other cartridge-based learning systems. The toy is preserved in the Strong National Museum of Play and is a well-known artifact in the history of educational technology. The card-swapping interaction model — where a physical object changes the behavior of a digital device — is a foundational concept in tangible interaction design."
+      }
+    ],
+    "team": [
+      {
+        "name": "Playskool",
+        "note": "Division of Hasbro, manufacturer of the Alphie toy line"
+      }
+    ],
+    "media": [
+      {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/d/d1/Alphie_%285200963278%29.jpg",
+        "alt": "Kid playing with Alphie the robot",
+        "caption": "A child playing with Alphie, inserting a card into the front slot. Photo by jencu, CC BY 2.0."
+      }
+    ],
+    "sources": [
+      {
+        "text": "Wikipedia — Alphie",
+        "url": "https://en.wikipedia.org/wiki/Alphie"
+      },
+      {
+        "text": "Toy Tales — Alphie the Electronic Robot from Playskool (1978)",
+        "url": "https://toytales.ca/alphie-the-electronic-robot-from-playskool-1978/"
+      },
+      {
+        "text": "The Old Robots Website — Alphie",
+        "url": "https://www.theoldrobots.com/smallbot18b.html"
+      }
+    ],
+    "imageUrls": [
+      "https://upload.wikimedia.org/wikipedia/commons/d/d1/Alphie_%285200963278%29.jpg"
+    ]
+  },
+  "savedImages": ["alphie.jpg"]
+}
