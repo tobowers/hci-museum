@@ -1,6 +1,6 @@
 # The HCI Golden Age Wiki
 
-A research compendium for a digital museum of cutting-edge Human-Computer Interaction from the late 1970s through the early 1990s. These two hundred and six projects mix canonical experiments with weird, forgotten, and beautiful vaporware — brain control, voice control, gesture, wearable computing, VR, robots, and full-body exertion.
+A research compendium for a digital museum of cutting-edge Human-Computer Interaction from the late 1970s through the early 1990s. These two hundred and seven projects mix canonical experiments with weird, forgotten, and beautiful vaporware — brain control, voice control, gesture, wearable computing, VR, robots, and full-body exertion.
 
 Each entry includes an overview, a deep dive, a small media gallery, and full source links so the images and facts can always be traced back.
 
@@ -213,6 +213,7 @@ Each entry includes an overview, a deep dive, a small media gallery, and full so
 204. [Valiant Turtle / Valiant Logo Turtle (1983)](#valiant-turtle--valiant-logo-turtle-1983)
 205. [CAPTAIN System / NEC NTX-5000 (1984)](#captain-system--nec-ntx-5000-1984)
 206. [View-Master Interactive Vision (1988)](#view-master-interactive-vision-1988)
+207. [Playskool Alphie (1978)](#playskool-alphie-1978)
 
 ---
 
@@ -10064,3 +10065,31 @@ The Hands has been used by Waisvisz in countless performances and collaborations
 3. Torre, Andersen, Baldé — 'The Hands: The Making of a Digital Musical Instrument' (Computer Music Journal, 2016) — https://www.jstor.org/stable/43829319
 4. Waisvisz archive (crackle.org) — http://www.crackle.org/
 5. Otto, Andi — 'Das SensorLab und The Hands' (dissertation, 2017) — https://www.degruyter.com/document/doi/10.1515/9783839439913-011/html
+
+## Playskool Alphie (1978)
+
+**By:** Playskool / Hasbro  
+**Tags:** `Educational` `Toy` `Tangible` `Card-based` `Robot`
+
+### Overview
+
+Alphie is an educational robot toy released by Playskool (a division of Hasbro) in 1978. It features a slot in the front for interchangeable printed cardboard cards. Each card aligns with a set of soft-touch membrane-switch buttons built into the robot's body. Inserting a card changes what the buttons do — matching, math, spelling, and sequencing activities — and the robot responds with lights, sounds, and (in later Talking Alphie models) synthesized speech. The "software" is literally printed cardboard: the card's physical position mechanically determines which button functions are active, making this a genuine tangible programming interface.
+
+Alphie ran on batteries and came with a library of printed activity cards. An Alphie II was released in 1983, and a "Talking Alphie" version added speech synthesis. The toy remained in production through the 1980s and is considered a precursor to modern tangible programming toys and learning systems. It is preserved in the Strong National Museum of Play.
+
+### Deep dive
+
+* **Tangible programming before the term existed.** The card-swapping paradigm is a genuine tangible user interface (TUI) — the physical card IS the program, and the child selects a program by swapping cards. This predates Ishii and Ullmer's foundational "Tangible Bits" paper (CHI 1997) by nearly two decades. The card is not optically scanned, magnetically encoded, or read by a barcode sensor. It is a purely mechanical alignment mechanism: the card's printed graphics guide the child's interaction, but the toy reads only the button positions, which are determined by the card's physical alignment in the slot.
+* **The interaction ritual.** A child selects a card from the library, inserts it into the slot on Alphie's front, and the robot's soft-touch buttons now map to the activity printed on the card. The robot asks questions; the child presses the correct button. Alphie responds with lights, sounds, and encouraging (or gently corrective) feedback. The card collection grew to cover math, spelling, matching, sequencing, and music. The toy's simplicity — no screen, no keyboard, no complex setup — made it accessible to very young children.
+* **Legacy and influence.** Alphie is often cited as a precursor to tangible programming interfaces and the broader "physical computing" movement in education. Its card-swapping paradigm influenced later educational toys like the LeapPad (1999) and other cartridge-based learning systems. The toy is well-documented in toy history collections and is a familiar artifact to anyone who grew up in the 1980s.
+
+### Media
+
+![A child playing with Alphie, inserting a card into the front slot](../assets/wiki/alphie.jpg)
+*A child playing with Alphie. Photo by jencu, CC BY 2.0.*
+
+### Sources
+
+1. Wikipedia — Alphie — https://en.wikipedia.org/wiki/Alphie
+2. Toy Tales — Alphie the Electronic Robot from Playskool (1978) — https://toytales.ca/alphie-the-electronic-robot-from-playskool-1978/
+3. The Old Robots Website — Alphie — https://www.theoldrobots.com/smallbot18b.html
