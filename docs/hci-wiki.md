@@ -1,6 +1,6 @@
 # The HCI Golden Age Wiki
 
-A research compendium for a digital museum of cutting-edge Human-Computer Interaction from the late 1970s through the early 1990s. These two hundred and four projects mix canonical experiments with weird, forgotten, and beautiful vaporware — brain control, voice control, gesture, wearable computing, VR, robots, and full-body exertion.
+A research compendium for a digital museum of cutting-edge Human-Computer Interaction from the late 1970s through the early 1990s. These two hundred and six projects mix canonical experiments with weird, forgotten, and beautiful vaporware — brain control, voice control, gesture, wearable computing, VR, robots, and full-body exertion.
 
 Each entry includes an overview, a deep dive, a small media gallery, and full source links so the images and facts can always be traced back.
 
@@ -211,6 +211,8 @@ Each entry includes an overview, a deep dive, a small media gallery, and full so
 202. [Concept Keyboard / Star Microterminals A4-128 (1983)](#concept-keyboard--star-microterminals-a4-128-1983)
 203. [Microvote MV-464 Electronic Voting Computer (1985)](#microvote-mv-464-electronic-voting-computer-1985)
 204. [Valiant Turtle / Valiant Logo Turtle (1983)](#valiant-turtle--valiant-logo-turtle-1983)
+205. [CAPTAIN System / NEC NTX-5000 (1984)](#captain-system--nec-ntx-5000-1984)
+206. [View-Master Interactive Vision (1988)](#view-master-interactive-vision-1988)
 
 ---
 
@@ -9931,6 +9933,95 @@ Valiant Technology was founded by Dave Catlin, who personally designed the turtl
 4. Papert, Seymour. Mindstorms: Children, Computers, and Powerful Ideas. Basic Books, 1980.
 
 ---
+
+## CAPTAIN System / NEC NTX-5000 (1984)
+
+**By:** NTT (Nippon Telegraph and Telephone) / NEC terminals  
+**Tags:** `HCI` `Terminal` `Network` `Videotex` `Japan` `Numeric Keypad`
+
+### Overview
+
+CAPTAIN (Character and Pattern Telephone Access Information Network system) was a Japanese videotex system created by NTT. Announced in 1978, trialled from 1979 to 1981 with a second larger trial from 1982 to 1983, it launched commercially in November 1984 and ran until March 31, 2002.
+
+CAPTAIN differed from comparable European videotex systems by not transmitting alphanumeric characters. The Japanese kanji character set has over 3,500 characters; in the late 1970s, a terminal with a character generator able to retain and render so many characters on demand was seen as prohibitive. So pages were substantially sent to the end user as pre-rendered images, using coding strategies similar to facsimile machines. The result was a videotex system that felt like watching a fax paint itself across the television: the terminal's screen progressively filled with the page's graphics, rather than receiving typed text.
+
+The interaction hardware was as distinctive as the transmission. Dedicated terminals such as NEC's NTX-5000 combined a 12-key telephone-style numeric keypad with kana characters printed on the keys — multi-tap kana entry, like pre-SMS texting — plus dedicated control keys (enter/cancel/next/previous/menu) and numeric page addressing: you typed 4-6 digit page numbers or selected numbered menu items to move through the service. Navigation was tree-and-numeric, not hyperlinked.
+
+By December 1985, CAPTAIN had 650 information providers and the next year was rolled out to 245 cities. But by March 1992 the system still had only 120,000 subscribers. Like other videotex systems worldwide — with the exception of the French Minitel — it never broke through to mass-market usage. Sanyo released a CAPTAIN adapter for MSX1 computers, and Yamaha released a similar device for the MSX2.
+
+### Deep dive
+
+* **The kanji problem made it a fax machine.** European videotex (Prestel, Minitel, Bildschirmtext) transmitted page code — characters and attributes — and the terminal's character generator rendered them locally. Japan could not: 3,500+ kanji meant a character generator was too expensive. NTT's solution was to send pages as pre-rendered raster images with coding strategies similar to facsimile machines. Every page was effectively an image transmitted over the phone line and drawn into the screen. This is a fundamentally different interaction model: the terminal is not a text renderer but a picture receiver, and the wait-for-the-fax-to-paint ritual became part of using the service.
+* **Kana on the keys.** The NTX-5000's numeric keypad carried kana characters on its keys, enabling multi-tap kana entry — the same interaction pre-smartphone texting would later make universal. Combined with numeric page addressing (type 4-6 digits for a page, or select a numbered menu item), the terminal was essentially an annotated telephone keypad attached to a TV. The whole system reads like a collision of telephone and fax machine with a screen bolted on.
+* **A national failure, honestly framed.** CAPTAIN had 650 information providers by December 1985 and reached 245 cities, but only 120,000 subscribers by March 1992. It survived until 2002 as NTT's stubborn answer to a problem the world was already answering with the web. The museum keeps it because its failure is the texture: a government monopoly engineering around a genuinely hard typographic problem, and losing to history anyway.
+* **Where it sits in the museum.** CAPTAIN joins Minitel (French consumer videotex, text-based) and the Bildschirmtext terminal (German pay-per-page videotex) as the third national take on the pre-Internet online terminal, and the only one built around fax-style raster transmission. No other artifact in the museum transmits its pages as images painted into the screen.
+
+### Team
+
+* **NTT (Nippon Telegraph and Telephone).** Created and operated CAPTAIN; trials run by NTT labs with IEEE papers by Harashima, Kumamoto, and Kitamura (1981).
+* **NEC.** Built the NTX-5000 dedicated CAPTAIN terminal.
+* **Sanyo / Yamaha.** Released CAPTAIN adapter devices for MSX1 (Sanyo) and MSX2 (Yamaha) home computers.
+
+### Media
+
+![NEC NTX-5000 CAPTAIN terminal with kana keypad](../assets/wiki/captain-ntx5000-terminal.jpg)
+*NEC NTX-5000 dedicated CAPTAIN terminal, with its kana-marked numeric keypad. CC BY 4.0, Wikimedia Commons.*
+
+![CAPTAIN system screenshot](../assets/wiki/captain-screenshot.jpg)
+*CAPTAIN system in use: a page of the Japanese videotex service. CC BY-SA 3.0, Wikimedia Commons.*
+
+![CAPTAIN home page](../assets/wiki/captain-home.jpg)
+*CAPTAIN home page, a typical raster-painted videotex page. CC BY-SA 3.0, Wikimedia Commons.*
+
+### Sources
+
+1. Wikipedia — Captain (videotex) — https://en.wikipedia.org/wiki/Captain_(videotex)
+2. Harashima, Kumamoto, Kitamura, 'Japanese VIDEOTEX System CAPTAIN', IEEE Trans. Comm. 29(12), 1981 — https://doi.org/10.1109/TCOM.1981.1094931
+3. U.S. Dept. of Commerce, 'Videotex Systems and Services' (1980), p.29 — https://its.ntia.gov/umbraco/surface/download/publication?reportNumber=80-50_ocr.pdf
+4. UPI Archives, 'Ambitious videotext service to debut in Japan' (Nov 4, 1984) — https://www.upi.com/Archives/1984/11/04/Ambitious-videotext-service-to-debut-in-Japan/5899468392400/
+
+## View-Master Interactive Vision (1988)
+
+**By:** View-Master Ideal Group, Inc. (ACTV, Inc. concepts)  
+**Tags:** `HCI` `Game Console` `VHS` `Interactive Video` `Edutainment` `Sprite Overlay`
+
+### Overview
+
+The View-Master Interactive Vision is an interactive movie VHS console game system, introduced in 1988 and released in the USA in 1989 by View-Master Ideal Group, Inc. — the company behind the iconic stereoscopic View-Master reels. The system was built around a deceptively simple idea: play a VHS tape, but have the console generate its own 8-bit sprite graphics that are composited over the live video output. The VHS tape carried two audio tracks — one for one outcome, one for another — and the console switched between them based on the player's button presses. Characters on screen would address the player directly, ask for a choice, and the console would switch audio tracks and overlay graphics to create the illusion of interactive television.
+
+Seven titles were released: four Sesame Street games ('Let's Learn to Play Together', 'Magic on Sesame Street', 'Let's Play School', 'Oscar's Letter Party'), two Muppet games ('Muppet Madness', 'Muppet Studios Presents: You're the Director'), and one Disney game ('Disney's Cartoon Arcade'). The system retailed for $120. The controller was a simple joystick with five colorful buttons.
+
+The dual-audio-track technique was clever: the optional parts of the soundtrack were designed to fit the movement of the Muppets' mouths, creating the illusion that the video was recorded with only one soundtrack, with the digitally generated graphics further enhancing interactivity. The Disney game was the most game-like, containing a collection of arcade-style mini-games including a Frogger-inspired game where Mickey Mouse must cross a busy highway.
+
+While the system was commercially modest, it occupies a unique position in the history of interactive television — a dedicated appliance that predated the CD-i and Sega CD by several years, using analog VHS tape as its storage medium. The Interactive Vision is now a sought-after collector's item.
+
+### Deep dive
+
+* **The sprite overlay mechanism.** Unlike the Terebikko (which decoded audio tones from the VHS tape to trigger simple responses) or the Action Max (which used brightness flashes on the CRT as a target stream), the Interactive Vision generated its own 8-bit sprite graphics internally. The console's CPU composited these sprites over the live video feed from the VCR, creating a hybrid visual layer. This meant the console could produce interactive game elements — collectible items, characters, score displays — that were not on the tape at all. The tape provided the backdrop and the dialogue; the console provided the interactive layer. This is a fundamentally different architecture from the other VHS-based systems in the museum.
+* **Dual audio track branching.** The VHS tape carried two audio tracks. When the player made a choice, the console switched between them. The two tracks were recorded to fit the same mouth movements — so when Kermit asked the player to choose a song, both versions of the song ('Everything Was Wonderful!' vs. 'Everything Was Terrible!') were lip-synced to the same video. This was a clever low-bandwidth solution to interactive storytelling: the video didn't change, only the audio, yet the illusion of player agency was complete. The technique was a direct ancestor of the branching narratives in DVD/Blu-ray interactive features.
+* **Where it sits in the museum.** The Interactive Vision completes the museum's VHS-interaction triptych. Bandai Terebikko (1988) uses VHS as an audio data channel decoded by a 4-button toy telephone — parasocial conversation. Action Max (1987) uses VHS as a visual target stream and the light gun as an optical input — console-as-score-only. The Interactive Vision uses VHS as a backdrop for console-generated 8-bit sprite overlay with dual-audio-track branching — interactive movie. Three different interaction paradigms, three different VHS-era consoles, and the only thing they share is the tape format.
+
+### Team
+
+* **View-Master Ideal Group, Inc.** Manufacturer and distributor of the Interactive Vision system.
+* **ACTV, Inc.** Original concepts for the interactive television technology used in the system.
+
+### Media
+
+![View-Master Interactive Vision console with controller](../assets/wiki/viewmaster-interactive-vision-1.jpg)
+*View-Master Interactive Vision console and its 5-button joystick controller. Public domain photo by Evan-Amos.*
+
+![View-Master Interactive Vision console front view](../assets/wiki/viewmaster-interactive-vision-2.jpg)
+*View-Master Interactive Vision console, front view. Public domain photo by Evan-Amos.*
+
+![View-Master Interactive Vision back panel](../assets/wiki/viewmaster-interactive-vision-3.jpg)
+*View-Master Interactive Vision back panel showing connectors. Public domain photo by Evan-Amos.*
+
+### Sources
+
+1. Wikipedia — View-Master Interactive Vision — https://en.wikipedia.org/wiki/View-Master_Interactive_Vision
+2. Players Choice Video Games — View-Master Interactive Vision — https://www.playerschoicevideogames.com/cat-view-master-interactive-vision.cfm
+3. Kotaku — 'Only In The 80's Would They Put Video Games On A VHS Tape' — https://kotaku.com/only-in-the-80s-would-they-put-video-games-on-a-vhs-tap-5786220
 
 ## The Hands (1984)
 

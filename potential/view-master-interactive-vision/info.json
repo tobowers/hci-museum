@@ -1,0 +1,53 @@
+{
+  "slug": "view-master-interactive-vision",
+  "title": "View-Master Interactive Vision",
+  "year": "1988",
+  "subtitle": "The VHS console that painted 8-bit sprites over live video — interactive television, 1988-style",
+  "why_scout_cares": "The View-Master Interactive Vision (1988/1989) is the third corner of the museum's VHS-interaction triptych. Where the Bandai Terebikko used audio tones in the VHS tape as a data channel and the Action Max used VHS brightness flashes as a target stream, the Interactive Vision generated its own 8-bit sprite overlays that composited over the live VHS video in real time, with dual audio tracks for branching narratives. The console itself — not the tape — produced the interactive graphics. The controller was a standard joystick + 5 buttons, but the system's real interface was the composite video signal itself: the console mixed its own sprite graphics with the VHS output, creating a hybrid visual layer. It was a dedicated interactive-movie appliance that anticipated the CD-i and Sega CD by 3-4 years. Seven titles were released, including Sesame Street, Muppets, and Disney games. The dual-audio-track technique (two different reactions from the same character, recorded to fit mouth movements) was a clever low-bandwidth solution to interactive storytelling. The system completes the museum's collection of VHS-based interaction paradigms.",
+  "search_terms": ["View-Master Interactive Vision", "View-Master Ideal Group", "ACTV", "interactive VHS console", "dual audio track VHS", "sprite overlay video game", "interactive movie 1988"],
+  "research": {
+    "title": "View-Master Interactive Vision",
+    "year": "1988",
+    "by": "View-Master Ideal Group, Inc. (ACTV, Inc. concepts)",
+    "tags": ["HCI", "Game Console", "VHS", "Interactive Video", "Edutainment", "Sprite Overlay"],
+    "overview": "The View-Master Interactive Vision is an interactive movie VHS console game system, introduced in 1988 and released in the USA in 1989 by View-Master Ideal Group, Inc. (the company behind the iconic stereoscopic View-Master reels). The system was built around a deceptively simple idea: play a VHS tape, but have the console generate its own 8-bit sprite graphics that are composited over the live video output. The VHS tape carried two audio tracks — one for one outcome, one for another — and the console switched between them based on the player's button presses. Characters on screen would address the player directly, ask for a choice, and the console would switch audio tracks and overlay graphics to create the illusion of interactive television.\n\nSeven titles were released: four Sesame Street games ('Let's Learn to Play Together', 'Magic on Sesame Street', 'Let's Play School', 'Oscar's Letter Party'), two Muppet games ('Muppet Madness', 'Muppet Studios Presents: You're the Director'), and one Disney game ('Disney's Cartoon Arcade'). The system retailed for $120. The controller was a simple joystick with five colorful buttons.\n\nThe dual-audio-track technique was clever: the optional parts of the soundtrack were designed to fit the movement of the Muppets' mouths, creating the illusion that the video was recorded with only one soundtrack, with the digitally generated graphics further enhancing interactivity. The Disney game was the most game-like, containing a collection of arcade-style mini-games.\n\nWhile the system was commercially modest, it occupies a unique position in the history of interactive television — a dedicated appliance that predated the CD-i and Sega CD by several years, using analog VHS tape as its storage medium. The Interactive Vision is now a sought-after collector's item.",
+    "deepDive": [
+      {
+        "heading": "The sprite overlay mechanism",
+        "text": "Unlike the Terebikko (which decoded audio tones from the VHS tape to trigger simple responses) or the Action Max (which used brightness flashes on the CRT as a target stream), the Interactive Vision generated its own 8-bit sprite graphics internally. The console's CPU composited these sprites over the live video feed from the VCR, creating a hybrid visual layer. This meant the console could produce interactive game elements — collectible items, characters, score displays — that were not on the tape at all. The tape provided the backdrop and the dialogue; the console provided the interactive layer. This is a fundamentally different architecture from the other VHS-based systems in the museum."
+      },
+      {
+        "heading": "Dual audio track branching",
+        "text": "The VHS tape carried two audio tracks. When the player made a choice, the console switched between them. The two tracks were recorded to fit the same mouth movements — so when Kermit asked the player to choose a song, both versions of the song ('Everything Was Wonderful!' vs. 'Everything Was Terrible!') were lip-synced to the same video. This was a clever low-bandwidth solution to interactive storytelling: the video didn't change, only the audio, yet the illusion of player agency was complete. The technique was a direct ancestor of the branching narratives in DVD/Blu-ray interactive features."
+      },
+      {
+        "heading": "Where it sits in the museum",
+        "text": "The Interactive Vision completes the museum's VHS-interaction triptych. Bandai Terebikko (1988) uses VHS as an audio data channel decoded by a 4-button toy telephone — parasocial conversation. Action Max (1987) uses VHS as a visual target stream and the light gun as an optical input — console-as-score-only. The Interactive Vision uses VHS as a backdrop for console-generated 8-bit sprite overlay with dual-audio-track branching — interactive movie. Three different interaction paradigms, three different VHS-era consoles, and the only thing they share is the tape format."
+      }
+    ],
+    "team": [
+      {"name": "View-Master Ideal Group, Inc.", "note": "Manufacturer and distributor of the Interactive Vision system."},
+      {"name": "ACTV, Inc.", "note": "Original concepts for the interactive television technology used in the system."}
+    ],
+    "media": [
+      {"src": "https://commons.wikimedia.org/wiki/File:ViewMaster-Interactive-Vision-wController-L.jpg", "alt": "View-Master Interactive Vision console with controller", "caption": "View-Master Interactive Vision console and its 5-button joystick controller. Public domain photo by Evan-Amos."},
+      {"src": "https://commons.wikimedia.org/wiki/File:ViewMaster-Interactive-Vision-L.jpg", "alt": "View-Master Interactive Vision console front view", "caption": "View-Master Interactive Vision console, front view. Public domain photo by Evan-Amos."},
+      {"src": "https://commons.wikimedia.org/wiki/File:ViewMaster-Interactive-Vision-Back.jpg", "alt": "View-Master Interactive Vision back panel", "caption": "View-Master Interactive Vision back panel showing connectors. Public domain photo by Evan-Amos."}
+    ],
+    "sources": [
+      {"text": "Wikipedia — View-Master Interactive Vision", "url": "https://en.wikipedia.org/wiki/View-Master_Interactive_Vision"},
+      {"text": "Players Choice Video Games — View-Master Interactive Vision", "url": "https://www.playerschoicevideogames.com/cat-view-master-interactive-vision.cfm"},
+      {"text": "Kotaku — 'Only In The 80's Would They Put Video Games On A VHS Tape'", "url": "https://kotaku.com/only-in-the-80s-would-they-put-video-games-on-a-vhs-tap-5786220"}
+    ],
+    "imageUrls": [
+      "https://upload.wikimedia.org/wikipedia/commons/9/90/ViewMaster-Interactive-Vision-wController-L.jpg",
+      "https://upload.wikimedia.org/wikipedia/commons/a/ab/ViewMaster-Interactive-Vision-L.jpg",
+      "https://upload.wikimedia.org/wikipedia/commons/9/98/ViewMaster-Interactive-Vision-Back.jpg"
+    ]
+  },
+  "savedImages": [
+    "images/viewmaster-interactive-vision-1.jpg",
+    "images/viewmaster-interactive-vision-2.jpg",
+    "images/viewmaster-interactive-vision-3.jpg"
+  ]
+}
