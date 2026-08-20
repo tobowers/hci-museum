@@ -2518,6 +2518,32 @@ const exhibitData: Exhibit[] = [
     tags: ["HCI", "Output", "Education", "Robotics", "Programming", "Physical"],
     image: img("valiant-turtle.jpg"),
   },
+  {
+    id: "captain-ntx5000",
+    slug: "captain-ntx5000",
+    wikiTitle: "CAPTAIN System / NEC NTX-5000",
+    year: "1984",
+    sortYear: 1984,
+    title: "CAPTAIN System / NEC NTX-5000",
+    subtitle: "Japan's videotex that faxed you the screen: pre-rendered pages, kana keypad, numeric page codes",
+    blurb:
+      "CAPTAIN (Character and Pattern Telephone Access Information Network) was NTT's answer to European videotex — and the strangest of them all. Japanese kanji has 3,500+ characters, too many for an affordable character generator, so CAPTAIN sent pages as pre-rendered raster images 'using coding strategies similar to facsimile machines.' The terminal's screen progressively filled with the page's graphics like a fax. Input was a 12-key numeric keypad with kana characters printed on the keys — multi-tap kana entry for search terms, numeric page addresses for navigation. Launched November 1984, it reached only 120,000 subscribers by 1992 — a commercially doomed but beautifully weird national project.",
+    tags: ["HCI", "Terminal", "Network", "Videotex", "Japan", "Numeric Keypad"],
+    image: img("captain-ntx5000-terminal.jpg"),
+  },
+  {
+    id: "view-master-interactive-vision",
+    slug: "view-master-interactive-vision",
+    wikiTitle: "View-Master Interactive Vision",
+    year: "1988",
+    sortYear: 1988,
+    title: "View-Master Interactive Vision",
+    subtitle: "The VHS console that painted 8-bit sprites over live video — interactive television, 1988-style",
+    blurb:
+      "The View-Master Interactive Vision (1988/1989) is an interactive movie VHS console where the console generates its own 8-bit sprite graphics composited over live VHS video, with dual audio tracks for branching narratives. The VHS tape provided the backdrop and dialogue; the console provided the interactive layer — collectible sprites, characters, score displays. Seven titles were released (Sesame Street, Muppets, Disney). The dual-audio-track technique allowed two different outcomes from the same video, lip-synced to match mouth movements. Completes the museum's VHS-interaction triptych alongside Terebikko (audio tones) and Action Max (light gun).",
+    tags: ["HCI", "Game Console", "VHS", "Interactive Video", "Edutainment", "Sprite Overlay"],
+    image: img("viewmaster-interactive-vision-1.jpg"),
+  },
 ];
 
 export const exhibits: Exhibit[] = exhibitData.toSorted((a, b) => b.sortYear - a.sortYear || a.title.localeCompare(b.title));
