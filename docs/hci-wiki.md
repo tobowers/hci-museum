@@ -1,6 +1,6 @@
 # The HCI Golden Age Wiki
 
-A research compendium for a digital museum of cutting-edge Human-Computer Interaction from the late 1970s through the early 1990s. These two hundred and seven projects mix canonical experiments with weird, forgotten, and beautiful vaporware — brain control, voice control, gesture, wearable computing, VR, robots, and full-body exertion.
+A research compendium for a digital museum of cutting-edge Human-Computer Interaction from the late 1970s through the early 1990s. These two hundred and nine projects mix canonical experiments with weird, forgotten, and beautiful vaporware — brain control, voice control, gesture, wearable computing, VR, robots, and full-body exertion.
 
 Each entry includes an overview, a deep dive, a small media gallery, and full source links so the images and facts can always be traced back.
 
@@ -214,6 +214,8 @@ Each entry includes an overview, a deep dive, a small media gallery, and full so
 205. [CAPTAIN System / NEC NTX-5000 (1984)](#captain-system--nec-ntx-5000-1984)
 206. [View-Master Interactive Vision (1988)](#view-master-interactive-vision-1988)
 207. [Playskool Alphie (1978)](#playskool-alphie-1978)
+208. [Toshiba LC-836MN Memo Note 30 (1978)](#toshiba-lc-836mn-memo-note-30-1978)
+209. [Fehmi Multiple-Channel Phase-Integrating Biofeedback Computer (1977)](#fehmi-multiple-channel-phase-integrating-biofeedback-computer-1977)
 
 ---
 
@@ -10093,3 +10095,83 @@ Alphie ran on batteries and came with a library of printed activity cards. An Al
 1. Wikipedia — Alphie — https://en.wikipedia.org/wiki/Alphie
 2. Toy Tales — Alphie the Electronic Robot from Playskool (1978) — https://toytales.ca/alphie-the-electronic-robot-from-playskool-1978/
 3. The Old Robots Website — Alphie — https://www.theoldrobots.com/smallbot18b.html
+
+## Toshiba LC-836MN Memo Note 30 (1978)
+
+**By:** Toshiba (also sold as Radio Shack EC-4002 and Hanimex SLC 891)
+**Tags:** `Portable` `Personal Data` `Calculator` `Segmented Display` `Japan`
+
+### Overview
+
+The Toshiba LC-836MN 'Memo Note 30' is a pocket calculator introduced in 1978 that doubles as one of the first portable electronic data banks. It uses an early two-chip Toshiba chipset: the T3690 microcontroller handles keyboard scanning, display driving, and calculation, while the T3691 provides storage for up to 30 information items, each holding six alphabetical characters and eight numerals — a total of 2,048 bits, or 256 bytes of carryable memory.
+
+The interaction model is the point. There is no full keyboard. Text is spelled out character-by-character through the calculator's shared keys, one at a time onto an idiosyncratic eight-segment alphanumeric display — an eighth segment added beyond the standard calculator layout so that letters render legibly. The display's left portion reads 'MEMORY' while an item is shown. Radio Shack's manual suggested what to store: a person's name and telephone number, bank name and balance, name and date of birth, passport and license numbers, caloric values of foods, exchange rates, and golf scores.
+
+Sold by Toshiba, by Radio Shack as the EC-4002, and by Hanimex as the SLC 891, the Memo Note 30 predated Texas Instruments' first Mini Data Bank by roughly nine years; Canon's LC-MEMO databank (also 1978) was a slightly smaller alternative. It stands as the ancestor of the organizer genre.
+
+### Deep dive
+
+* **An electronic memory fed through a calculator keypad.** The Memo Note 30 confronts the visitor with a calculator and asks them to reverse-engineer that 'D-A-V-E' is entered across a single shared keypad, one segmented glyph at a time. Text entry is not delegated to a keyboard; it is squeezed through the same keypad used for arithmetic, cycling letters onto the eight-segment display. The eight-segment arrangement — an unusual eighth segment added to the standard calculator glyph set — exists purely to make letters readable. Data entry as constraint: the interface's limitation is the artifact's defining texture.
+* **Fixed slots, six and eight.** Storage is a raw array of 30 slots, each exactly six alphabetical characters and eight numerals wide. Names and phone numbers are fitted into this grid. There is no search, no index tree — navigation is scanning the 30 memory positions. The fixed-size slot model makes literal the idea of a 'data bank': a finite grid into which you deposit compact records.
+* **Nine years ahead of the curve.** Toshiba's history (compiled by the Datamath Calculator Museum's Joerg Woerner) states the LC-836MN was nine years ahead of the first Mini Data Bank sold by Texas Instruments. Its successor, the LC-1038MN, added an alarm clock, and Canon's LC-MEMO offered a smaller alternative the same year. This chronology matters: the museum's organizers (Sharp Wizard, Psion, Casio PB-1000) all sit a decade later in a more comfortable, keyboarded form; the Memo Note 30 is the machine that first proved people would want to carry electronic memory at all.
+* **Where it sits in the museum.** The Memo Note 30 joins the collection's electronic-organizer and information-appliance family as its earliest, most constrained member — the rough ancestor against which the Sharp Wizard (1989) and Psion Organiser II (1986) can be read as resolutions. It directly foreshadows the Sony Data Discman and Craig M100 but predates them all, and its calculator-as-host form factor is unique in the collection.
+
+### Team
+
+* **Toshiba.** Engineered and marketed the LC-836MN Memo Note 30, with an early two-chip T3690/T3691 chipset.
+* **Radio Shack.** Rebadged and sold the Memo Note 30 as the EC-4002, with a manual suggesting everyday uses.
+* **Hanimex.** Rebadged and sold the Memo Note 30 as the SLC 891.
+
+### Media
+
+![Toshiba LC-836MN Memo Note 30 databank calculator](../assets/wiki/toshiba-lc836mn.jpg)
+*Toshiba LC-836MN Memo Note 30, the first portable electronic data bank. CC BY-SA 4.0, Maksym Kozlenko / Wikimedia Commons.*
+
+![Toshiba LC-1019MN Memo Note III, a later model of the same line](../assets/wiki/toshiba-lc1019mn-memonote3.jpg)
+*Toshiba LC-1019MN Memo Note III (1980), a later member of the Memo Note line showing the same calculator-style data bank form. CC BY-SA 2.0, Joe Haupt / Wikimedia Commons.*
+
+### Sources
+
+1. Datamath Calculator Museum — Toshiba LC-836MN Memo Note 30 (Joerg Woerner) — http://www.datamath.org/Related/Toshiba/LC-836MN.htm
+2. Wikimedia Commons — Toshiba LC-836MN Memo Note 30 calculator — https://commons.wikimedia.org/wiki/File:Toshiba_LC-836MN_MEMO_NOTE_30_calculator.jpg
+3. Datamath Calculator Museum — Radio Shack EC-4002 — http://www.datamath.org/Others/RadioShack/EC-4002.htm
+4. Datamath Calculator Museum — Canon LC-Memo — http://www.datamath.org/Related/Canon/LC-Memo.htm
+
+## Fehmi Multiple-Channel Phase-Integrating Biofeedback Computer (1977)
+
+**By:** Lester G. Fehmi and Joseph R. Schneider / Biofeedback Computers Inc., Princeton NJ
+**Tags:** `Biofeedback` `EEG` `EMG` `Wearable` `Auditory` `Clinical`
+
+### Overview
+
+The Multiple Channel Phase Integrating Biofeedback Computer of Biofeedback Computers Inc. (Princeton, New Jersey), invented by Lester G. Fehmi and Joseph R. Schneider and protected by US Patent 4,031,883 (filed July 21, 1976; granted June 28, 1977; priority to work begun in 1974), is a biofeedback instrument that monitors several simultaneous bioelectrical signals — brainwaves (EEG) and muscle potentials (EMG) — and synthesizes them into a real-time auditory (and optionally tactile) feedback signal.
+
+Its defining innovation is phase integration. Rather than simply reporting the amplitude or frequency of a single channel, the instrument instantaneously analyzes the phase relationship among two or more of the biological rhythms it is monitoring. The resulting feedback tone communicates whether the different regions are firing in phase (coherent) or out of phase. The abstract property of phase unity between brain sites is thus rendered as a concrete, hearable, and highly controllable signal.
+
+The instrument amplifies and filters the monopolar signals from scalp or body contacts, then combines them so the frequency, amplitude, and phase agreement among channels maps to the feedback waveform. A user trains to hold the tone, which in practice means learning to sustain a brain state in which multiple cortical regions fire in synchrony. The patent notes the feedback could also be arranged for multiple people, making the phase relationship between two people's brains audible.
+
+### Deep dive
+
+* **Coherence you can hear.** Most biofeedback tells you about a single signal: how fast my heart, how tense my muscle, how much alpha I am producing. The Fehmi system makes a relationship the object of control. It integrates the phase of several EEG/EMG channels and encodes their agreement into the pitch, volume, and timbre of a tone. The trainee who holds the tone steady is, without any verbal description, sustaining phase synchrony across cortical sites — managing coherence directly.
+* **EEG and EMG in one skin.** The instrument accepts both brain and muscle signals from contacts on the scalp or body, so the same hardware feeds back cortical rhythms and muscular tension. The feedback loops are multimodal and relational.
+* **The maker and context.** Fehmi, a clinical psychologist and early serious researcher of EEG biofeedback, ran a laboratory/clinical practice around brainwave training, building instruments under the Biofeedback Computers Inc. banner rather than selling into the mass consumer market. The phase-integrating machine sits in the 1970s biofeedback movement's most ambitious register: the computer as an instrument for training attention and state, decades before consumer meditation wearables made the idea ordinary.
+* **Where it sits in the museum.** Relax Stress Reduction (1984) is a single-channel galvanic-skin-response toy; IBVA (1991) is a single-channel EEG digitizer. Nothing in the collection feeds back a relation — the phase structure among channels — rather than a single signal. This is the museum's only phase-synchrony biofeedback instrument and its earliest explicit multi-channel neurofeedback artifact, shown through public-domain patent figures.
+
+### Team
+
+* **Lester G. Fehmi.** Co-inventor; clinical psychologist and pioneer of EEG biofeedback research and instrumentation.
+* **Joseph R. Schneider.** Co-inventor of the phase-integrating instrument.
+* **Biofeedback Computers Inc.** Princeton, NJ company to which the patent was assigned.
+
+### Media
+
+![Patent figure of a trainee wearing scalp electrodes](../assets/wiki/fehmi-biofeedback-fig3-trainee.png)
+*Fig. 3 of US Patent 4,031,883: a trainee fitted with electrodes, the embodied scene at the heart of the interaction. Public domain (US patent drawing).*
+
+![Block diagram of the phase-integrating biofeedback computer circuitry](../assets/wiki/fehmi-biofeedback-fig1.png)
+*Fig. 1 of US Patent 4,031,883: the block diagram of the phase-integrating biofeedback computer. Public domain (US patent drawing).*
+
+### Sources
+
+1. US Patent 4,031,883 — Multiple Channel Phase Integrating Biofeedback Computer (Fehmi & Schneider, 1977) — https://patents.google.com/patent/US4031883A/en
+2. CPC classification A61B5/375 (EEG using biofeedback) — https://patents.google.com/patent/US4031883A/en

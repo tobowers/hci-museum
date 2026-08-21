@@ -1,0 +1,54 @@
+{
+  "slug": "fehmi-biofeedback-computer",
+  "title": "Fehmi Multiple-Channel Phase-Integrating Biofeedback Computer",
+  "year": "1977",
+  "subtitle": "A five-channel EEG/EMG instrument that made the phase relationship of brainwaves — an abstract mathematical property — directly audible",
+  "why_scout_cares": "The collection has biofeedback before the term was fashionable — but the Fehmi system, patented by Lester G. Fehmi and Joseph R. Schneider of Biofeedback Computers Inc. (Princeton) in 1977, does something none of them attempt. It does not just measure one signal and feed it back as a tone; it continuously analyses the phase relationship among multiple cortical sites and turns that relational property into sound. The user learns, by trial and error, to bring regions of their own brain into synchrony, hearing when occipital and frontal lobes are firing together. It makes coherence — an abstract, non-visible mathematical relationship — directly perceptible and coachable. That is the strangest and most beautiful inversion of 'input' in the era: the input object is the phase structure of your own neural activity, and the screen is your ears. It is historically early (priority 1974, granted 1977), and it is distinct from the museum's Relax Stress Reduction (single-channel GSR) and IBVA (single-channel EEG digitizer). Fills the multi-channel phase-synchrony biofeedback gap.",
+  "search_terms": ["Fehmi biofeedback", "phase integrating biofeedback computer", "US4031883", "Lester Fehmi", "Biofeedback Computers Inc", "5 channel EEG feedback 1970s", "phase synchrony biofeedback"],
+  "research": {
+    "title": "Fehmi Multiple-Channel Phase-Integrating Biofeedback Computer",
+    "year": "1977",
+    "by": "Lester G. Fehmi and Joseph R. Schneider / Biofeedback Computers Inc., Princeton NJ",
+    "tags": ["HCI", "Biofeedback", "EEG", "EMG", "Wearable", "Auditory", "Clinical"],
+    "overview": "The Multiple Channel Phase Integrating Biofeedback Computer of Biofeedback Computers Inc. (Princeton, New Jersey), invented by Lester G. Fehmi and Joseph R. Schneider and protected by US Patent 4,031,883 (application filed July 21, 1976; granted June 28, 1977; priority to work begun in 1974), is a laboratory/clinical biofeedback instrument that monitors several simultaneous bioelectrical signals — brainwaves (EEG) and muscle potentials (EMG) — and synthesises them into a real-time auditory (and optionally tactile) feedback signal.\n\nIts defining innovation is phase integration. Rather than simply reporting amplitude or frequency of a single channel, the instrument instantaneously analyses the phase relationship among two or more of the biological rhythms it is monitoring. The resulting feedback tone communicates whether the different regions are firing in phase (coherent) or out of phase. The abstract property of phase unity between brain sites is thus rendered as a concrete, hearable, and highly controllable signal.\n\nThe instrument amplifies and filters the monopolar signals from scalp or body contacts, then combines them so that the frequency, amplitude, and phase agreement among channels is mapped to the feedback waveform. A user trains to hold the tone, which in practice means learning to sustain a particular brain state in which multiple cortical regions fire in synchrony — a genuinely out-of-the-ordinary act of biofeedback, closer to meditation than to signal matching. The patent notes the feedback can also be arranged for groups (couples, or multiple people), and can connect sites in conversation-like ways, indicating the same apparatus could make the phase relationship between two people's brains audible.",
+    "deepDive": [
+      {
+        "heading": "Coherence you can hear",
+        "text": "Most biofeedback tells you about a single signal: how fast is my heart, how tense is my muscle, how much alpha am I producing. The Fehmi system makes a relationship the object of control. It integrates the phase of several EEG/EMG channels and encodes their agreement into the pitch, volume, and timbre of a tone. The trainee who holds the tone steady is, without any verbal description, sustaining phase synchrony across cortical sites — managing coherence directly. It is feedback about an emergent property of the brain rather than any one locus in it."
+      },
+      {
+        "heading": "EEG and EMG in one skin",
+        "text": "The instrument accepts both brain and muscle signals from contacts on the scalp or body, so the same hardware feeds back cortical rhythms and muscular tension. This widens the interaction to intentional body states as well as mental ones — a user can learn to relax a muscle group by the contraction of a tone, then shift to brain rhythms. The feedback loops are multimodal and relational."
+      },
+      {
+        "heading": "The maker and context",
+        "text": "Fehmi, a clinical psychologist and one of the early serious researchers of EEG biofeedback, ran a laboratory/clinical practice around such brainwave training, building instruments under the Biofeedback Computers Inc. banner rather than selling into the mass consumer market. The phase-integrating machine sits in the 1970s biofeedback movement's most ambitious register: treating the computer as an instrument for training attention and state, decades before consumer meditation wearables made the idea ordinary."
+      },
+      {
+        "heading": "Where it sits in the museum",
+        "text": "Relax Stress Reduction (1984) is a single-channel galvanic-skin-response toy; IBVA (1991) is a single-channel EEG digitizer. Nothing in the collection feeds back a relation — the phase structure among channels — rather than a single signal. This is the museum's only phase-synchrony biofeedback instrument and its earliest explicit multi-channel neurofeedback artifact, shown through public-domain patent figures."
+      }
+    ],
+    "team": [
+      {"name": "Lester G. Fehmi", "note": "Co-inventor; clinical psychologist and pioneer of EEG biofeedback research and instrumentation."},
+      {"name": "Joseph R. Schneider", "note": "Co-inventor of the phase-integrating instrument."},
+      {"name": "Biofeedback Computers Inc.", "note": "Princeton, NJ company to which the patent was assigned."}
+    ],
+    "media": [
+      {"src": "https://patents.google.com/patent/US4031883A/en", "alt": "Patent figure of a trainee wearing scalp electrodes connected to the phase-integrating biofeedback computer", "caption": "Fig. 3 of US Patent 4,031,883: a trainee fitted with electrodes, the embodied scene at the heart of the interaction. Public domain (US patent drawing)."},
+      {"src": "https://patents.google.com/patent/US4031883A/en", "alt": "Block diagram of the phase-integrating biofeedback computer circuitry", "caption": "Fig. 1 of US Patent 4,031,883: the block diagram of the phase-integrating biofeedback computer. Public domain (US patent drawing)."}
+    ],
+    "sources": [
+      {"text": "US Patent 4,031,883 — Multiple Channel Phase Integrating Biofeedback Computer (Fehmi & Schneider, 1977)", "url": "https://patents.google.com/patent/US4031883A/en"},
+      {"text": "CPC classification A61B5/375 (EEG using biofeedback)", "url": "https://patents.google.com/patent/US4031883A/en"}
+    ],
+    "imageUrls": [
+      "https://patentimages.storage.googleapis.com/a9/cd/02/320dae99692a8b/US4031883-drawings-page-4.png",
+      "https://patentimages.storage.googleapis.com/01/b6/ca/5febb9a12398ce/US4031883-drawings-page-2.png"
+    ]
+  },
+  "savedImages": [
+    "images/fehmi-biofeedback-fig3-trainee.png",
+    "images/fehmi-biofeedback-fig1.png"
+  ]
+}
