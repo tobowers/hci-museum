@@ -2557,6 +2557,32 @@ const exhibitData: Exhibit[] = [
     tags: ["Educational", "Toy", "Tangible", "Card-based", "Robot"],
     image: img("alphie.jpg"),
   },
+  {
+    id: "toshiba-lc836mn",
+    slug: "toshiba-lc836mn",
+    wikiTitle: "Toshiba LC-836MN Memo Note 30",
+    year: "1978",
+    sortYear: 1978,
+    title: "Toshiba LC-836MN Memo Note 30",
+    subtitle: "The first portable electronic data bank — a calculator you type names into, one 8-segment character at a time",
+    blurb:
+      "Toshiba's 1978 Memo Note 30 is the ur-organizer: a pocket calculator with no full keyboard, where you spell names and numbers character-by-character through the shared digit pad onto an eight-segment alphanumeric display, stored into 30 fixed slots (six letters + eight numerals each — 256 bytes total). Nine years ahead of TI's first Mini Data Bank, it proved people would want to carry electronic memory at all. Also sold as Radio Shack's EC-4002.",
+    tags: ["Portable", "Personal Data", "Calculator", "Segmented Display", "Japan"],
+    image: img("toshiba-lc836mn.jpg"),
+  },
+  {
+    id: "fehmi-biofeedback-computer",
+    slug: "fehmi-biofeedback-computer",
+    wikiTitle: "Fehmi Multiple-Channel Phase-Integrating Biofeedback Computer",
+    year: "1977",
+    sortYear: 1977,
+    title: "Fehmi Phase-Integrating Biofeedback Computer",
+    subtitle: "A five-channel EEG/EMG instrument that made the phase relationship of brainwaves directly audible",
+    blurb:
+      "Fehmi and Schneider's 1977 biofeedback computer (US 4,031,883) does what no tone-alone biofeedback toy attempts: it continuously analyzes the phase relationship among multiple cortical EEG/EMG channels and encodes their agreement into the pitch and timbre of a feedback tone. The user learns, without a single word of instruction, to bring regions of their own brain into synchrony — coherence rendered directly perceptible. The museum's only phase-synchrony biofeedback instrument, and its earliest multi-channel neurofeedback artifact.",
+    tags: ["Biofeedback", "EEG", "EMG", "Wearable", "Auditory", "Clinical"],
+    image: img("fehmi-biofeedback-fig3-trainee.png"),
+  },
 ];
 
 export const exhibits: Exhibit[] = exhibitData.toSorted((a, b) => b.sortYear - a.sortYear || a.title.localeCompare(b.title));

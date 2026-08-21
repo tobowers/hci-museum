@@ -1,0 +1,56 @@
+{
+  "slug": "toshiba-lc836mn",
+  "title": "Toshiba LC-836MN Memo Note 30",
+  "year": "1978",
+  "subtitle": "The first portable electronic data bank — a calculator you type names into, one 8-segment character at a time",
+  "why_scout_cares": "Before the Sharp Wizard and the Psion organiser, before anyone coined 'personal digital assistant,' Toshiba made a pocket calculator that could also remember. The Memo Note 30 is the prototypical electronic data bank: a calculator chassis with no full keyboard, where you spell out names and phone numbers character-by-character through the shared 8-key* digit pad, cycling letters onto a cramped 8-segment alphanumeric display, and store them into 30 fixed slots. Each slot holds six letters and eight numerals — 256 bytes you could carry in a shirt pocket. It is the rough, cramped pre-keyboard ancestor of the organizer, and the friction it encodes — typing 'DAVE' one segmented glyph at a time, reading it back off a segmented screen — is precisely the interface problem the later machines dissolved. Nine years ahead of TI's first Mini Data Bank, and sold in America as Radio Shack's EC-4002. Nothing else in the museum shows an electronic memory being fed through a calculator's single shared pad; it belongs in the collection as the ur-organizer.",
+  "search_terms": ["Toshiba LC-836MN", "Memo Note 30", "electronic databank 1978", "Toshiba Memo Note", "Radio Shack EC-4002", "Canon LC-MEMO", "personal data bank calculator"],
+  "research": {
+    "title": "Toshiba LC-836MN Memo Note 30",
+    "year": "1978",
+    "by": "Toshiba / also sold as Radio Shack EC-4002 and Hanimex SLC 891",
+    "tags": ["HCI", "Portable", "Personal Data", "Calculator", "Segmented Display", "Japan"],
+    "overview": "The Toshiba LC-836MN 'Memo Note 30' is a pocket calculator introduced in 1978 that doubles as one of the first portable electronic data banks. It uses an early two-chip Toshiba chipset: the T3690 microcontroller handles keyboard scanning, display driving, and calculation, while the T3691 provides storage for up to 30 information items, each holding six alphabetical characters and eight numerals — a total of 2,048 bits, or 256 bytes of carryable memory.\n\nThe interaction model is the point. There is no full keyboard. Text is spelled out character-by-character through the calculator's shared keys, one at a time onto an idiosyncratic eight-segment alphanumeric display (an eighth segment added beyond the standard calculator layout so that letters render legibly). The display's left portion reads 'MEMORY' while the item is shown. Radio Shack's manual suggested what to store: a person's name and telephone number, bank name and balance, name and date of birth, passport and license numbers, caloric values of foods, exchange rates, golf scores, and physical constants.\n\nSold by Toshiba, by Radio Shack as the EC-4002, and by Hanimex as the SLC 891, the Memo Note 30 predated Texas Instruments' first Mini Data Bank by roughly nine years and Canon's competing LC-MEMO databank (also 1978) was a slightly smaller alternative. It stands as the ancestor of the organizer genre — a genre the museum otherwise samples at its mature, full-keyboard form.",
+    "deepDive": [
+      {
+        "heading": "An electronic memory fed through a calculator keypad",
+        "text": "The Memo Note 30 confronts the visitor with a calculator and asks them to reverse-engineer that 'D-A-V-E' is entered across a single shared keypad, one segmented glyph at a time. Text entry is not delegated to a keyboard; it is squeezed through the same keypad used for arithmetic, cycling letters onto the eight-segment display. The eight-segment arrangement — an unusual eighth segment added to the standard calculator glyph set — exists purely to make letters readable. This is data entry as constraint: the interface's limitation is the artefact's defining texture."
+      },
+      {
+        "heading": "Fixed slots, six and eight",
+        "text": "Storage is a raw array of 30 slots, each exactly six alphabetical characters and eight numerals wide. Names and phone numbers are fitted into this grid. There is no search, no index tree — navigation is scanning the 30 memory positions. The fixed-size slot model, coupled with the segmented display, makes literal the idea of a 'data bank': a finite grid into which you deposit compact records."
+      },
+      {
+        "heading": "Nine years ahead of the curve",
+        "text": "Toshiba's datamath-compiled history (Joerg Woerner) states the LC-836MN was nine years ahead of the first Mini Data Bank sold by Texas Instruments. Its successor, the LC-1038MN, added an alarm clock, and Canon's LC-MEMO offered a smaller alternative the same year. This chronology matters: the museum's organizers (Sharp Wizard, Psion, Casio PB-1000) all sit a decade later in a more comfortable, keyboarded form; the Memo Note 30 is the machine that first proved people would want to carry electronic memory at all."
+      },
+      {
+        "heading": "Where it sits in the museum",
+        "text": "The Memo Note 30 joins the collection's electronic-organizer and information-appliance family as its earliest, most constrained member — the rough ancestor against which the Sharp Wizard (1989) and Psion Organiser II (1986) can be read as resolutions. It directly foreshadows the museum's Sony Data Discman (search-and-retrieve) and Craig M100, but predates them all, and its calculator-as-host form factor is unique in the collection."
+      }
+    ],
+    "team": [
+      {"name": "Toshiba", "note": "Engineered and marketed the LC-836MN Memo Note 30, with an early two-chip T3690/T3691 chipset."},
+      {"name": "Radio Shack", "note": "Rebadged and sold the Memo Note 30 as the EC-4002, with a manual suggesting everyday uses."},
+      {"name": "Hanimex", "note": "Rebadged and sold the Memo Note 30 as the SLC 891."}
+    ],
+    "media": [
+      {"src": "https://commons.wikimedia.org/wiki/File:Toshiba_LC-836MN_MEMO_NOTE_30_calculator.jpg", "alt": "Toshiba LC-836MN Memo Note 30 databank calculator", "caption": "Toshiba LC-836MN Memo Note 30, the first portable electronic data bank. CC BY-SA 4.0, Maksym Kozlenko / Wikimedia Commons."},
+      {"src": "https://commons.wikimedia.org/wiki/File:Vintage_Toshiba_Electronic_Pocket_Calculator,_Model_LC-1019MN_Memo_Note_III,_LCD,_Made_In_Japan,_Circa_1980_(14250807492).jpg", "alt": "Toshiba LC-1019MN Memo Note III, a later model of the same line", "caption": "Toshiba LC-1019MN Memo Note III (1980), a later member of the Memo Note line showing the same calculator-style data bank form. CC BY-SA 2.0, Joe Haupt / Wikimedia Commons."}
+    ],
+    "sources": [
+      {"text": "Datamath Calculator Museum — Toshiba LC-836MN Memo Note 30 (Joerg Woerner)", "url": "http://www.datamath.org/Related/Toshiba/LC-836MN.htm"},
+      {"text": "Wikimedia Commons — Toshiba LC-836MN Memo Note 30 calculator", "url": "https://commons.wikimedia.org/wiki/File:Toshiba_LC-836MN_MEMO_NOTE_30_calculator.jpg"},
+      {"text": "Datamath Calculator Museum — Radio Shack EC-4002", "url": "http://www.datamath.org/Others/RadioShack/EC-4002.htm"},
+      {"text": "Datamath Calculator Museum — Canon LC-Memo", "url": "http://www.datamath.org/Related/Canon/LC-Memo.htm"}
+    ],
+    "imageUrls": [
+      "https://upload.wikimedia.org/wikipedia/commons/3/3c/Toshiba_LC-836MN_MEMO_NOTE_30_calculator.jpg",
+      "https://upload.wikimedia.org/wikipedia/commons/e/ec/Vintage_Toshiba_Electronic_Pocket_Calculator%2C_Model_LC-1019MN_Memo_Note_III%2C_LCD%2C_Made_In_Japan%2C_Circa_1980_%2814250807492%29.jpg"
+    ]
+  },
+  "savedImages": [
+    "images/toshiba-lc836mn.jpg",
+    "images/toshiba-lc1019mn-memonote3.jpg"
+  ]
+}
