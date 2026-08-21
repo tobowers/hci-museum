@@ -1,0 +1,50 @@
+{
+  "slug": "heidenhain-tnc-110",
+  "title": "Heidenhain TNC 110",
+  "year": "1976",
+  "subtitle": "The first conversational CNC control — a machine tool that talked to its operator through labeled function keys and a CRT, replacing punched tape with dialog-guided programming",
+  "why_scout_cares": "Before the Heidenhain TNC 110, programming a CNC machine meant punching holes in paper tape or typing abstract G-code. The TNC 110 introduced 'conversational' (TNC = Touch Numerical Control) dialog-guided programming: the machine asked the operator questions through labeled function keys on a dedicated keypad, and the operator responded by pressing the appropriate key or entering a value. The manual was only 10 pages — a radical departure from the thick binders of G-code reference. The physical panel has a numeric keypad, labeled function keys, and a compact CRT display. This is the first example of a machine tool that held a dialog with its human operator, and it established the TNC interface paradigm that Heidenhain still uses today.",
+  "search_terms": ["Heidenhain TNC 110", "conversational CNC", "TNC control", "dialog-guided programming", "numerical control 1976", "Heidenhain first CNC"],
+  "research": {
+    "title": "Heidenhain TNC 110",
+    "year": "1976",
+    "by": "Dr. Johannes Heidenhain GmbH (Traunreut, Germany)",
+    "tags": ["HCI", "Industrial", "CNC", "Manufacturing", "Conversational Interface", "Keypad", "Dialog System"],
+    "overview": "The Heidenhain TNC 110, introduced in 1976, was the first numerical control to use what the company called 'TNC' (Touch Numerical Control) — a conversational dialog-guided programming system. Instead of requiring the operator to write G-code or prepare punched tape, the TNC 110 presented programming prompts on a small CRT display, with labeled function keys arranged around the screen. The operator responded by pressing the appropriate key or entering numeric values on the keypad. The complete programming manual was 10 pages.\n\nThe TNC 110 was a 'positioning control' (Positionssteuerung) designed for drilling and milling machines. It was the first CNC control from Heidenhain, a company founded in 1889 that had been manufacturing precision measurement equipment (linear encoders, angle encoders, digital readouts) since the 1950s. The company's expertise in position measurement made the transition to numerical control a natural evolution.\n\nThe TNC 110's physical panel consists of a numeric keypad, a set of labeled function keys (with labels like 'POS', 'TOOL', 'CYCLE', 'PATH', 'INPUT'), and a compact CRT display. The function keys were labeled with machining operations rather than computer commands, making the interface accessible to machinists who were not programmers. This was a deliberate design choice: the machine adapted to the language of the workshop, not the other way around.\n\nThe conversational TNC paradigm was so successful that Heidenhain has continued to use it through the TNC 120, TNC 150, TNC 155, TNC 2500, TNC 320, TNC 620, TNC 640, and current TNC 7 series. The labeled function key layout and dialog-based programming remain the defining characteristic of Heidenhain controls, still in use on modern CNC machines today.",
+    "deepDive": [
+      {
+        "heading": "Conversational vs. G-Code Programming",
+        "text": "In the mid-1970s, CNC programming was dominated by two approaches: manual G-code programming (entering abstract codes like G01 X100 Y50 F200) and APT (Automatically Programmed Tool) language processed on mainframes. Both required specialized training. The TNC 110's conversational approach was a third path: the control presented the operator with a sequence of dialog prompts — 'TOOL NUMBER?', 'POSITION X?', 'FEED RATE?', 'CYCLE TYPE?' — and the operator responded using the labeled function keys and numeric keypad. The control translated these responses into machine motion internally. This made CNC programming accessible to skilled machinists who were not computer programmers."
+      },
+      {
+        "heading": "The Physical Interface",
+        "text": "The TNC 110's front panel is a study in industrial HCI. The function keys are arranged in a grid around the CRT, each with a printed label indicating its function (POS, TOOL, CYCLE, PATH, etc.). The numeric keypad is separate from the function keys, preventing confusion between data entry and command selection. A separate row of soft keys below the CRT could be relabeled using paper strips, anticipating the soft-key paradigms that became common in 1990s computer interfaces. The panel is designed for use in a machine shop environment — with physical buttons that can be operated while wearing gloves, a sturdy enclosure, and a CRT that provides readable text in varying lighting conditions."
+      },
+      {
+        "heading": "Legacy",
+        "text": "The TNC 110 established the conversational programming paradigm that became Heidenhain's defining product characteristic. By 2006, Heidenhain had manufactured nearly 200,000 CNC controls, and the TNC interface is still the primary interface for Heidenhain controls today. The TNC 110 was the first CNC control to treat the operator as a conversational partner rather than a punched-tape loader, and it influenced the design of industrial interfaces across the machine tool industry."
+      }
+    ],
+    "team": [
+      {"name": "Dr. Johannes Heidenhain", "note": "Founder of the post-war company (1948), physicist, pupil of Otto Hahn"},
+      {"name": "Heidenhain Development Team", "note": "Traunreut, Germany — developed the first TNC control in 1976"}
+    ],
+    "media": [
+      {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/a/a3/TNC110_72dpi.jpg",
+        "alt": "Heidenhain TNC 110 numerical control panel with CRT, numeric keypad, and labeled function keys",
+        "caption": "The Heidenhain TNC 110 positioning control (1976), the first CNC with conversational dialog-guided programming. The labeled function keys (POS, TOOL, CYCLE, PATH, INPUT) allowed machinists to program the machine by responding to prompts. CC BY-SA 3.0, Heidenhain archive / Walter Effenberger, Wikimedia Commons."
+      }
+    ],
+    "sources": [
+      {"text": "Heidenhain — Wikipedia", "url": "https://en.wikipedia.org/wiki/Heidenhain"},
+      {"text": "Heidenhain History (company site)", "url": "https://www.heidenhain.com/en-US/company/history/"},
+      {"text": "File:TNC110 72dpi.jpg — Wikimedia Commons", "url": "https://commons.wikimedia.org/wiki/File:TNC110_72dpi.jpg"},
+      {"text": "How the first TNC control revolutionized shop floors — industryarena.com", "url": "https://www.industryarena.com/en/"}
+    ],
+    "imageUrls": [
+      "https://upload.wikimedia.org/wikipedia/commons/a/a3/TNC110_72dpi.jpg"
+    ]
+  },
+  "savedImages": []
+}

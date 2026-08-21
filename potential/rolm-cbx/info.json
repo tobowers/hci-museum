@@ -1,0 +1,54 @@
+{
+  "slug": "rolm-cbx",
+  "title": "ROLM CBX / RolmPhone 400",
+  "year": "1981",
+  "subtitle": "The first digital computer-controlled PBX with a phone that had no physical switchhook — a magnetic reed switch made the handset its own on/off button",
+  "why_scout_cares": "The ROLM CBX paired a general-purpose minicomputer (the ROLM 1603) with a digital telephone that had NO physical switchhook button. Instead, a tiny magnet in the handset triggered a reed switch in the base — the handset itself was the on/off mechanism. The RolmPhone 400 (RP400) carried 40 programmable feature/line keys that were software-reconfigurable from the switch, making the phone a general-purpose programmable terminal masquerading as a desk phone. This is a genuinely unusual physical interaction: the first digital PBX, the first phone whose keys weren't hardwired to lines, and a phone whose most fundamental mechanical interface (on-hook/off-hook) was replaced by a magnetic field.",
+  "search_terms": ["ROLM CBX", "RolmPhone 400", "RP400", "ROLM digital telephone", "computerized branch exchange", "magnetic switchhook", "digital PBX 1980s"],
+  "research": {
+    "title": "ROLM CBX / RolmPhone 400",
+    "year": "1981",
+    "by": "ROLM Corporation (Santa Clara, CA)",
+    "tags": ["HCI", "Telephony", "PBX", "Input", "Digital Phone", "Soft Keys", "Magnetic Sensing"],
+    "overview": "The ROLM CBX (Computerized Branch Exchange) was the first fully digital computerized telephone switching system, introduced in 1975 and built around a ROLM 1603 minicomputer — a general-purpose computer running the phone switch. The system was a radical departure from electromechanical PBXs: instead of discrete relays and crossbar switches, the CBX used software running on a minicomputer to route calls, manage features, and reconfigure the network.\n\nWith the CBX, ROLM introduced the RolmPhone digital telephone line. The RolmPhone 400 (RP400) was the flagship model, named for its 40 programmable feature/line keys. These keys were not hardwired to specific telephone lines — they were software-reconfigurable from the CBX switch, allowing the phone to be reprogrammed remotely. This is arguably the first mass-market example of soft keys on a telephone.\n\nMost strikingly, the RolmPhone had NO physical switchhook button. Instead, a small magnet embedded in the handset triggered a reed switch in the phone base. When the handset was lifted, the magnet moved away from the reed switch, signaling off-hook. When the handset was replaced, the magnet aligned with the switch, signaling on-hook. The very presence or absence of the handset in the cradle was the off-hook mechanism — the handset itself was the button.\n\nROLM was founded in 1969 by Gene Richeson, Ken Oshman, Walter Loewenstern, and Robert Maxfield (the name ROLM from their initials). The company had a legendary 'Great Place to Work' culture. By 1980, ROLM had become the #2 PBX manufacturer in North America, surpassing AT&T. IBM acquired ROLM in 1984 for $1.5 billion, and Siemens acquired the division in 1989. The digital RolmPhones remained in service at large institutions through the 1990s and even into the 2000s.",
+    "deepDive": [
+      {
+        "heading": "The Digital PBX Revolution",
+        "text": "Before the CBX, telephone switching was electromechanical or analog. The ROLM CBX used a general-purpose minicomputer (the 1603, a militarized version of Data General's Nova architecture) to manage call routing, features, and provisioning via software. This was a genuine paradigm shift: the telephone switch became a programmable computer, and every phone on the network became a programmable terminal. The CBX could offer features like call forwarding, conference calling, and voicemail (PhoneMail, one of the first commercial voicemail systems) that were impossible on electromechanical switches."
+      },
+      {
+        "heading": "The Magnetic Switchhook",
+        "text": "The RolmPhone's lack of a physical switchhook button was a deliberate design choice. A small permanent magnet was embedded in the handset, and a reed switch (a magnetically-actuated electrical switch) sat in the phone base. When the handset rested in the cradle, the magnet held the reed switch closed, signaling on-hook. Lifting the handset broke the magnetic field, the reed switch opened, and the phone signaled off-hook. This meant the phone had no moving mechanical switchhook — the handset's physical position was sensed magnetically. The same mechanism allowed the phone to detect when it was picked up or hung up without any spring-loaded button to wear out."
+      },
+      {
+        "heading": "Programmable Keys and Soft Keys",
+        "text": "The RP400's 40 keys were not directly wired to telephone lines. Each key was a programmable button whose function was assigned by the CBX switch. This meant the phone could be reconfigured remotely — line assignments, speed-dial numbers, and feature access could all be changed without touching the phone. This is a direct ancestor of the soft keys and programmable buttons found on modern VoIP phones and smartphone touch interfaces. The keys were arranged in a grid with a paper label strip, allowing users to write the function of each key. The phone also had volume up/down buttons that were NOT programmable (the only two non-programmable keys on the RP400)."
+      }
+    ],
+    "team": [
+      {"name": "Gene Richeson", "note": "ROLM co-founder"},
+      {"name": "Ken Oshman", "note": "ROLM co-founder, CEO"},
+      {"name": "Walter Loewenstern", "note": "ROLM co-founder"},
+      {"name": "Robert Maxfield", "note": "ROLM co-founder"},
+      {"name": "Leo Chamberlain", "note": "Key early employee, GPW culture architect"}
+    ],
+    "media": [
+      {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/8/8a/RolmDeskPhone.jpg",
+        "alt": "RolmPhone 400 (RP400) desk phone with 38 programmable feature/line keys",
+        "caption": "A RolmPhone 400 (RP400) desk phone. Of the 40 keys, 38 are programmable feature/line buttons; the two volume buttons are not. The phone has no physical switchhook — a magnet in the handset and a reed switch in the base detect on/off-hook state. Public domain image by Steimes, Wikimedia Commons."
+      }
+    ],
+    "sources": [
+      {"text": "ROLM — Wikipedia", "url": "https://en.wikipedia.org/wiki/ROLM"},
+      {"text": "Starting Up Silicon Valley: How ROLM Became a Cultural Icon and Fortune 500 Company — Katherine Maxfield (2014)", "url": "https://www.emeraldbookcompany.com/starting-up-silicon-valley"},
+      {"text": "ROLM Corporation, Competing with Giant — CHM Roundtable (2004)", "url": "https://www.youtube.com/watch?v=CHM_ROLM_roundtable"},
+      {"text": "IBM Archives: ROLM Acquisition (1984)", "url": "https://www.ibm.com/ibm/history/"},
+      {"text": "RolmDeskPhone.jpg — Wikimedia Commons", "url": "https://commons.wikimedia.org/wiki/File:RolmDeskPhone.jpg"}
+    ],
+    "imageUrls": [
+      "https://upload.wikimedia.org/wikipedia/commons/8/8a/RolmDeskPhone.jpg"
+    ]
+  },
+  "savedImages": []
+}
