@@ -524,3 +524,6 @@ Promotion gotchas (2026-08-21):
 - Sayre Glove (1977) reconfirmed deferred — subagent proposed it but it overlaps VPL DataGlove / Grimes Data Glove already in the collection. Always manually check deferred-list overlaps.
 - Productive angles proven this run: (a) early portable ELECTRONIC DATABANKS / personal memory devices (pre-organizer, calculator-hosted) — image-rich on Commons, (b) multi-channel/relational biofeedback instrumentation (patent-figure promotable). Both were genuinely unexplored prior categories at 207 exhibits — evidence the well is not structurally empty, just angle-dependent.
 - Build count: 209 exhibits; wiki ToC 209 entries. typecheck + build both pass. All promotion manual (promote-potentials.ts NOT run).
+
+New additions (2026-08-22):
+- ZERO additions. Zero-addition run. The well at 209+ exhibits is confirmed dry for the toy/game/telephony/scanning angles searched this run. 3 subagents + manager direct fetches found no candidates strong enough to promote. The strongest genuinely-new candidate (Entex Adventure Vision 1982, spinning-mirror POV display) has a novel display mechanism but standard joystick+buttons input — its interaction model isn't distinctive enough for the museum at this collection size. Accept zero-addition runs as the norm; do not pad the collection.
