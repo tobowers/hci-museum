@@ -2104,6 +2104,18 @@ const exhibitData: Exhibit[] = [
     image: img("novag-robot-adversary-chm.jpg"),
   },
   {
+    id: "atari-5200-controller",
+    slug: "atari-5200-controller",
+    wikiTitle: "Atari 5200 Controller",
+    year: "1982",
+    sortYear: 1982,
+    title: "Atari 5200 Controller",
+    subtitle: "The non-centering analog joystick that made every game feel like ice",
+    blurb: "The Atari 5200 controller (1982) combined an analog joystick with a 12-button keypad and the first on-controller pause button. Its defining feature — a non-centering joystick that used a rubber boot instead of springs — meant the stick stayed wherever you left it, making precise control nearly impossible. IGN ranked it the 10th worst controller ever. The rubber boot mechanism and low-cost flex circuit system became a cautionary tale in game controller design, demonstrating the critical importance of proper centering force in analog controls.",
+    tags: ["Game Controller", "Analog Joystick", "Atari 5200", "Second Generation", "Commercial Failure"],
+    image: img("atari-5200-controller-br.jpg"),
+  },
+  {
     id: "unimation-puma-teach-pendant",
     slug: "unimation-puma-teach-pendant",
     sortYear: 1980,
