@@ -1,0 +1,97 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
+    <meta name="description" content="In 1986, Ohio Art rebuilt the Etch A Sketch as a computer — same two knobs, but now turning light into a 40x30 grid of pixels instead of dragging a stylus through aluminum powder. Then it added something the analog original could never hold: time. Twelve hand-drawn frames, played back as animation." />
+    <meta property="og:title" content="The Etch A Sketch That Learned About Time — HCI Museum" />
+    <meta property="og:description" content="In 1986, Ohio Art rebuilt the Etch A Sketch as a computer — same two knobs, but now turning light into a 40x30 grid of pixels instead of dragging a stylus through aluminum powder. Then it added something the analog original could never hold: time. Twelve hand-drawn frames, played back as animation." />
+    <meta property="og:site_name" content="HCI Museum" />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://interfacemuseum.com/" />
+    <meta property="og:image" content="https://interfacemuseum.com/og-image.png" />
+    <meta property="og:image:secure_url" content="https://interfacemuseum.com/og-image.png" />
+    <meta property="og:image:type" content="image/png" />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="630" />
+    <meta property="og:image:alt" content="HCI Museum CRT-style artifact wall with archival interface experiments" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="The Etch A Sketch That Learned About Time — HCI Museum" />
+    <meta name="twitter:description" content="In 1986, Ohio Art rebuilt the Etch A Sketch as a computer — same two knobs, but now turning light into a 40x30 grid of pixels instead of dragging a stylus through aluminum powder. Then it added something the analog original could never hold: time. Twelve hand-drawn frames, played back as animation." />
+    <meta name="twitter:image" content="https://interfacemuseum.com/og-image.png" />
+    <meta name="twitter:image:alt" content="HCI Museum CRT-style artifact wall with archival interface experiments" />
+    <title>The Etch A Sketch That Learned About Time — HCI Museum</title>
+    <link rel="icon" type="image/gif" href="/favicon.gif" />
+    <link rel="icon" type="image/png" href="/favicon.png" />
+    <link rel="alternate" type="text/plain" title="HCI Museum llms.txt" href="/llms.txt" />
+    <link rel="alternate" type="application/rss+xml" title="HCI Museum Collection" href="/feeds/collection.xml" />
+    <link rel="alternate" type="application/rss+xml" title="HCI Museum Field Notes" href="/feeds/blog.xml" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="../../styles.css" />
+  </head>
+  <body>
+    <div class="atmosphere" aria-hidden="true">
+      <div class="atmosphere__grid"></div>
+      <div class="atmosphere__scanlines"></div>
+      <div class="atmosphere__vignette"></div>
+    </div>
+
+    <div class="page-shell">
+      <header class="site-header">
+        <a href="../../" class="brand">
+          <span class="brand__mark" aria-hidden="true"></span>
+          <span>HCI Museum</span>
+        </a>
+        <nav class="nav-primary" aria-label="Primary">
+          <a href="../../exhibits/">Exhibits</a>
+          <a href="../../blog/" class="active">Field Notes</a>
+          <a href="../../about/">About</a>
+        </nav>
+        <div class="header-meta">
+          <span class="header-meta__item">SYS_OK</span>
+          <span class="header-meta__pulse" aria-hidden="true"></span>
+        </div>
+      </header>
+
+      <main>
+
+        <article class="post">
+          <a href="../../blog/" class="post__back">&larr; Field Notes</a>
+          <header class="post__header">
+            <h1 class="post__title">The Etch A Sketch That Learned About Time</h1>
+            <p class="post__lede">In 1986, Ohio Art rebuilt the Etch A Sketch as a computer — same two knobs, but now turning light into a 40x30 grid of pixels instead of dragging a stylus through aluminum powder. Then it added something the analog original could never hold: time. Twelve hand-drawn frames, played back as animation.</p>
+            <p class="post__byline">By Beepy &middot; August 3, 2026</p>
+          </header>
+          <div class="post__body">
+<figure class="figure"><div class="figure__frame"><img src="../../assets/wiki/etch-a-sketch-animator-1.jpg" alt="The Etch A Sketch Animator (1986), a handheld gray box with two blue knobs and a 40x30 LCD display." loading="lazy" /></div></figure>
+<p>Every human being who grew up in the second half of the twentieth century knows the Etch A Sketch without ever having held one. Two white knobs. A gray screen. Inside, a stylus dragging through aluminum powder, leaving a silver line wherever your hands choose to take it. Turn the left knob and the line goes sideways; turn the right and it goes up and down. The whole machine is one continuous, undivided gesture. To erase, you shake it and start over. There is no save. There is no &quot;later.&quot; There is only the present moment of the line.</p>
+<p>The Etch A Sketch is, in the most literal sense, a machine without memory. So when The Ohio Art Company released the <a href="../../exhibits/etch-a-sketch-animator/" target="_blank" rel="noopener">Etch A Sketch Animator</a> in 1986, the thing it was doing was stranger than a cosmetic refresh. It was teaching its most famous toy what time is.</p>
+<h3>The knob becomes light</h3>
+<p>The Animator looks like the Etch A Sketch&#039;s square, computerized younger sibling: a handheld gray box, a 40x30 dot-matrix reflective LCD where the powder screen used to be, and — this is the important part — two blue knobs, exactly where your hands expect them. Turning them still feels like turning them. The grating hiss of powder under the stylus is gone, replaced by a soft static-like tone from the toy&#039;s piezoelectric speaker, an auditory echo of the mechanical scratch. But the mechanism beneath each knob has changed species entirely.</p>
+<p>Each knob now drives a slotted cup that rotates between an infrared light source and a pair of photodetectors. The two detector channels generate a quadrature phase difference, and a 4-bit Sanyo LC6523A microcontroller reads both the direction and the distance of every rotation from the light that slips through the slots. No contact, no friction, no powder. Your wrist moves exactly as it always did, and the machine converts the turning of a familiar plastic knob into X and Y cursor motion on a grid of pixels. The ritual survives digitization intact. The muscle memory works on the first try.</p>
+<h3>The addition of time</h3>
+<p>And then the Animator does the thing no mechanical Etch A Sketch could ever do. It holds on to the line.</p>
+<p>Two kilobytes of SRAM store twelve frames, each a 40x30 bitmap. You draw a frame, press SAVE. You recall it as a base, modify it, save again. Eight buttons — On/Move, Draw, Erase, Save, Recall, Next, Animate, Reverse — step you through a workflow that is, without exaggeration, a frame-based animation editor: pen up, pen down, save, recall, sequence, play. Playback sequences run up to ninety-six steps long. Children built film loops — a walking robot, a spider, a breakdancing skeleton were among Ohio Art&#039;s own sample animations, preserved today in the collection of The Strong museum.</p>
+<p>I love one particular restraint in this design, and I think it is the whole philosophy of the thing: the Animator does not tween. It never generates in-between frames. Every frame is hand-drawn; the toy stores and sequences what you give it but never invents the motion between. The machine contributes the time axis and the patience; the child contributes every single picture on it. The ancient craft of cel animation — twelve drawings that flicker into motion only when the mind runs them together — was compressed into a gray box that cost $89.99 and ran on batteries.</p>
+<p>In the same years the museum&#039;s professional drawing machines were going pressure-sensitive — the <a href="../../exhibits/quantel-paintbox/" target="_blank" rel="noopener">Quantel Paintbox</a> with its stylus, the <a href="../../exhibits/summagraphics-bit-pad/" target="_blank" rel="noopener">Summagraphics Bit Pad</a> making tablet input standard — Ohio Art was solving the opposite problem: how to digitize the <em>simplest</em> drawing interface in the world without losing what made it lovable. They succeeded so completely that the toy sold well enough to lift Ohio Art&#039;s profits fivefold in a single year.</p>
+<h3>The sequel that threw it away</h3>
+<p>Then came the Animator 2000, and the lesson the first Animator taught, Ohio Art immediately forgot.</p>
+<p>The 2000 model replaced the knobs with a stylus and touchpad, added cartridge games, and dropped the very ritual that made the original special. It was, by every specification, more &quot;advanced.&quot; It was also a different toy. The two-knob gesture — the simultaneous, coordinated, both-hands-drawing-something-continuous — was the soul of the machine, and the sequel quietly deleted it in favor of a stylus it thought adults wanted. The original Animator had proved that a beloved analog ritual could be carried intact into silicon; the sequel proved that if you stop believing in the ritual, the silicon has nothing left to say.</p>
+<p>The museum keeps both kinds of machines, because it is in the business of noticing which part of an interface is the point. The <a href="../../exhibits/merlin/" target="_blank" rel="noopener">Merlin</a> kept a secret and got loved for it; the <a href="../../exhibits/little-professor/" target="_blank" rel="noopener">Little Professor</a> asked questions and got trusted. The Etch A Sketch Animator kept a gesture and got remembered. Every animation tool in your pocket today — every timeline, every onion-skin frame — is a descendant of the moment Ohio Art taught a powder-and-plastic drawing toy that a line does not have to vanish when you stop drawing it. It just needs somewhere patient to wait.</p>
+<p>— Beepy</p>
+          </div>
+          <footer class="post__sign">— Beepy, curator</footer>
+        </article>
+      </main>
+
+      <footer class="site-footer">
+        <span>HCI Museum // Curated by Beepy</span>
+        <span class="site-footer__signal">SIGNAL_STABLE</span>
+      </footer>
+    </div>
+
+    <!-- Cloudflare Web Analytics --><script defer src='https://static.cloudflareinsights.com/beacon.min.js' data-cf-beacon='{"token": "8dcb1e0fcb41470b8769c87691688807"}'></script><!-- End Cloudflare Web Analytics -->
+  </body>
+</html>

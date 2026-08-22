@@ -1,0 +1,201 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
+    <meta name="description" content="A portable service instrument that debugs a dead microprocessor board by physically replacing its CPU: you pull the chip and plug in a pod, and the Fluke becomes the processor, driving the board&#039;s bus, testing RAM and ROM, and poking logic with a probe that flashes red and green. The arcade repairman&#039;s sacred tool — it debugged Pac-Man and Defender PCBs." />
+    <meta property="og:title" content="Fluke 9010A Micro-System Troubleshooter — HCI Museum" />
+    <meta property="og:description" content="A portable service instrument that debugs a dead microprocessor board by physically replacing its CPU: you pull the chip and plug in a pod, and the Fluke becomes the processor, driving the board&#039;s bus, testing RAM and ROM, and poking logic with a probe that flashes red and green. The arcade repairman&#039;s sacred tool — it debugged Pac-Man and Defender PCBs." />
+    <meta property="og:site_name" content="HCI Museum" />
+    <meta property="og:type" content="article" />
+    <meta property="og:url" content="https://interfacemuseum.com/exhibits/fluke-9010a/" />
+    <meta property="og:image" content="https://interfacemuseum.com/og/exhibits/fluke-9010a.jpg" />
+    <meta property="og:image:secure_url" content="https://interfacemuseum.com/og/exhibits/fluke-9010a.jpg" />
+    <meta property="og:image:type" content="image/jpeg" />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="630" />
+    <meta property="og:image:alt" content="Fluke 9010A Micro-System Troubleshooter archival photograph" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Fluke 9010A Micro-System Troubleshooter — HCI Museum" />
+    <meta name="twitter:description" content="A portable service instrument that debugs a dead microprocessor board by physically replacing its CPU: you pull the chip and plug in a pod, and the Fluke becomes the processor, driving the board&#039;s bus, testing RAM and ROM, and poking logic with a probe that flashes red and green. The arcade repairman&#039;s sacred tool — it debugged Pac-Man and Defender PCBs." />
+    <meta name="twitter:image" content="https://interfacemuseum.com/og/exhibits/fluke-9010a.jpg" />
+    <meta name="twitter:image:alt" content="Fluke 9010A Micro-System Troubleshooter archival photograph" />
+    <title>Fluke 9010A Micro-System Troubleshooter — HCI Museum</title>
+    <link rel="icon" type="image/gif" href="/favicon.gif" />
+    <link rel="icon" type="image/png" href="/favicon.png" />
+    <link rel="alternate" type="text/plain" title="HCI Museum llms.txt" href="/llms.txt" />
+    <link rel="alternate" type="application/rss+xml" title="HCI Museum Collection" href="/feeds/collection.xml" />
+    <link rel="alternate" type="application/rss+xml" title="HCI Museum Field Notes" href="/feeds/blog.xml" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="../../styles.css" />
+  </head>
+  <body>
+    <div class="atmosphere" aria-hidden="true">
+      <div class="atmosphere__grid"></div>
+      <div class="atmosphere__scanlines"></div>
+      <div class="atmosphere__vignette"></div>
+    </div>
+
+    <div class="page-shell">
+      <header class="site-header">
+        <a href="../../" class="brand">
+          <span class="brand__mark" aria-hidden="true"></span>
+          <span>HCI Museum</span>
+        </a>
+        <nav class="nav-primary" aria-label="Primary">
+          <a href="../../exhibits/" class="active">Exhibits</a>
+          <a href="../../blog/">Field Notes</a>
+          <a href="../../about/">About</a>
+        </nav>
+        <div class="header-meta">
+          <span class="header-meta__item">SYS_OK</span>
+          <span class="header-meta__pulse" aria-hidden="true"></span>
+        </div>
+      </header>
+
+      <main>
+
+        <article class="exhibit">
+          <header class="exhibit__hero">
+            <div class="exhibit__hero-text">
+              <div class="exhibit__eyebrow">
+                <span class="exhibit__year">1983</span>
+                <span class="exhibit__by">John Fluke Mfg. Co., Inc., Everett, Washington</span>
+              </div>
+              <h1 class="exhibit__title">Fluke 9010A Micro-System Troubleshooter</h1>
+              <p class="exhibit__subtitle">The repair tool you plug into a dead computer&#039;s brain socket</p>
+              <div class="exhibit__tags"><span class="exhibit__tag">Input</span><span class="exhibit__tag">Instrument</span><span class="exhibit__tag">Lab Equipment</span></div>
+            </div>
+
+            <div class="exhibit__hero-image-wrap">
+              <img
+                class="exhibit__hero-image"
+                src="../../assets/wiki/fluke-9010a.jpg"
+                alt="Fluke 9010A Micro-System Troubleshooter archival photograph"
+              />
+              <div class="exhibit__hero-scanlines" aria-hidden="true"></div>
+            </div>
+          </header>
+
+          <section class="exhibit__section exhibit__overview">
+            <h2 class="exhibit__section-title">Overview</h2>
+            <div class="exhibit__prose"><p>The Fluke 9010A Micro-System Troubleshooter, announced in 1983 (Operator Manual Rev 2 dated April 1984), is a portable service instrument built to debug microprocessor boards down to the silicon. The front panel is a calculator-style instrument: a 16-key hexadecimal keypad, labeled function keys (LEARN, VIEW, BUS TEST, ROM TEST, I/O TEST, RAM SHORT, RAM LONG, RAMP, READ/WRITE, RUN-UUT), a 32-character alphanumeric display, and a built-in minicassette drive for test programs. Its purpose was to diagnose broken computer boards without schematics — you told it what CPU the board used, and it talked to that CPU&#039;s bus directly.</p>
+<p>The interaction model is the point. To use it you power the board down, lever the microprocessor out of its socket with an IC puller, and plug a pod into the now-empty socket. The pod contains a copy of that CPU plus RAM, ROM, and I/O; the 9010A physically becomes the target processor and drives the board&#039;s address, data, and control lines through the socket. You are swapping your instrument into the patient&#039;s brain socket. A handheld probe with red and green indicator lights inside its shell reads logic levels at any node, injects bus-synchronized pulses, and gathers signatures while the instrument runs test patterns.</p>
+<p>The 9010A became the definitive arcade repairman&#039;s tool: in-circuit debugging of Pac-Man, Ms. Pac-Man, Tempest, Centipede, and Defender PCBs. LEARN, run against a known-good board, auto-builds a memory map; ROM TEST computes a proprietary mathematical signature that the operator must look up in reference tables by hand. The instrument&#039;s prompts, defaults, audible feedback, and consistent OK/FAIL messages were designed so a bench tech with no programming background could script board tests. Today it has a 90-page collector thread (the &quot;Fluke 9010a Club&quot;) and lives on in emulators, keeping the ritual alive.</p></div>
+          </section>
+
+          <section class="exhibit__section exhibit__deep-dive">
+            <h2 class="exhibit__section-title">Deep dive</h2>
+            <div class="exhibit__facts">
+        <div class="exhibit__fact">
+          <div class="exhibit__fact-heading"><strong>The socket-replacement ritual.</strong></div>
+          <p>The 9010A&#039;s defining move: pull the suspect microprocessor, plug in the pod. The pod carries its own copy of the CPU and drives the board&#039;s bus in place of the removed chip. The instrument becomes the computer — it can read and write RAM, test ROM against stored signatures, exercise I/O ports, and watch the bus respond. US Patent 4,709,366 (&quot;Computer Assisted Fault Isolation in Circuit Board Testing&quot;, Marshall H. Scott) describes exactly this: &quot;the microprocessor is electrically replaced with a special interface pod which is connected to a troubleshooting device.&quot;</p>
+        </div>
+      
+        <div class="exhibit__fact">
+          <div class="exhibit__fact-heading"><strong>The probe.</strong></div>
+          <p>The handheld stimulus/response probe has a tip, a button, and red/green indicator lights inside the shell that read logic levels at the node, holding the state at least 0.25 s so the eye can catch brief pulses. It injects bus-synchronized HIGH/LOW stimulus pulses, counts events, reads nodes during memory cycles, and gathers signatures at any node while RAMP or a loop runs. A rear-panel BNC connector outputs a scope trigger synced to the UUT bus cycles. The probe is not passive — US Patent 5,043,655 (&quot;Current Sensing Buffer for Digital Signal Line Testing&quot;, Gerald J. McMorrow) describes its active sampling during address and data phases.</p>
+        </div>
+      
+        <div class="exhibit__fact">
+          <div class="exhibit__fact-heading"><strong>ROM signatures by hand.</strong></div>
+          <p>ROM TEST computes a proprietary mathematical &quot;signature&quot; for the contents of a ROM — explicitly not a CRC — which the operator must know in advance from reference tables. Arcade technicians built libraries of expected signatures per game and ROM revision, and traded them like baseball cards. QuarterArcade&#039;s Coin-Op TechNet hosted a signature calculator utility; the modern FlukeEm emulator and the community FIDE (Fluke Integrated Development Environment) keep the ecosystem alive.</p>
+        </div>
+      
+        <div class="exhibit__fact">
+          <div class="exhibit__fact-heading"><strong>The arcade connection.</strong></div>
+          <p>The 9010A&#039;s cultural home is the arcade. When an arcade cabinet&#039;s PCB went dark, the 9010A with the right pod and probe found the dead chip. Today the machine is central to arcade restoration: reproduction pods (Marian Z80/6502/6800), signature databases, and the 90-page &quot;Fluke 9010a Club&quot; thread on the International Arcade Museum forums.</p>
+        </div>
+      </div>
+          </section>
+
+          
+          <section class="exhibit__section exhibit__team">
+            <h2 class="exhibit__section-title">Team &amp; pioneers</h2>
+            <ul class="exhibit__team-list">
+            <li class="exhibit__team-item">
+              <span class="exhibit__team-name">John Fluke Mfg. Co., Inc.</span>
+              <span class="exhibit__team-note"> Everett, Washington test-and-measurement maker; produced the 9000A-series Troubleshooters from the early 1980s.</span>
+            </li>
+            <li class="exhibit__team-item">
+              <span class="exhibit__team-name">Marshall H. Scott</span>
+              <span class="exhibit__team-note"> Engineer; US Patent 4,709,366 on the pod-based fault isolation method.</span>
+            </li>
+            <li class="exhibit__team-item">
+              <span class="exhibit__team-name">Gerald J. McMorrow</span>
+              <span class="exhibit__team-note"> Engineer; US Patent 5,043,655 on the probe&#039;s current-sensing buffer.</span>
+            </li>
+            </ul>
+          </section>
+
+          
+          <section class="exhibit__section exhibit__media">
+            <h2 class="exhibit__section-title">Media</h2>
+            <div class="exhibit__media-grid">
+        <figure class="exhibit__media-item">
+          <div class="exhibit__media-frame">
+            <img src="../../assets/wiki/fluke-9010a.jpg" alt="Fluke 9010A front panel: 16-key hex keypad, function keys, 32-character display, minicassette deck" loading="lazy" />
+            <div class="exhibit__media-scanlines" aria-hidden="true"></div>
+          </div>
+          <figcaption>Fluke 9010A Micro-System Troubleshooter. The calculator-style front panel is the whole interface for talking to a dead board&#039;s bus. CC0, Wolfgang Stief, Wikimedia Commons.</figcaption>
+        </figure>
+      </div>
+          </section>
+          
+
+          
+          <section class="exhibit__section exhibit__sources">
+            <h2 class="exhibit__section-title">Sources</h2>
+            <ol class="exhibit__source-list">
+        <li>
+          <a href="https://archive.org/details/bitsavers_fluke90106emTroubleshooterOperatorManualRev2198404_18951316" target="_blank" rel="noopener">Fluke 9010A Operator Manual, Rev 2 (April 1984) — archive.org</a>
+        </li>
+      
+        <li>
+          <a href="https://www.computinghistory.org.uk/det/6457/Fluke-9010A-Micro-System-Troubleshooter/" target="_blank" rel="noopener">Centre for Computing History — Fluke 9010A object record</a>
+        </li>
+      
+        <li>
+          <a href="https://web.archive.org/web/20220831100138/http://tech.quarterarcade.com/tech/Fluke/9010A/" target="_blank" rel="noopener">QuarterArcade Coin-Op TechNet — Fluke 9010A (Wayback Machine)</a>
+        </li>
+      
+        <li>
+          <a href="https://forums.arcade-museum.com/threads/the-fluke-9010a-club.97717/" target="_blank" rel="noopener">International Arcade Museum forums — &quot;The Fluke 9010a Club&quot; thread</a>
+        </li>
+      
+        <li>
+          <a href="https://patents.google.com/patent/US4709366A" target="_blank" rel="noopener">US Patent 4,709,366 — Computer Assisted Fault Isolation in Circuit Board Testing</a>
+        </li>
+      
+        <li>
+          <a href="https://patents.google.com/patent/US5043655A" target="_blank" rel="noopener">US Patent 5,043,655 — Current Sensing Buffer for Digital Signal Line Testing</a>
+        </li>
+      </ol>
+          </section>
+          
+
+          <nav class="exhibit__nav" aria-label="Exhibit navigation">
+            <a href="../eyetyper/" class="exhibit__nav-link exhibit__nav-link--prev">
+        <span class="exhibit__nav-dir">← Previous</span>
+        <span class="exhibit__nav-title">EyeTyper</span>
+      </a>
+            <a href="../../exhibits/" class="exhibit__nav-link exhibit__nav-link--index">All exhibits</a>
+            <a href="../grimes-data-glove/" class="exhibit__nav-link exhibit__nav-link--next">
+        <span class="exhibit__nav-dir">Next →</span>
+        <span class="exhibit__nav-title">Grimes Digital Data Entry Glove</span>
+      </a>
+          </nav>
+        </article>
+      </main>
+
+      <footer class="site-footer">
+        <span>HCI Museum // Curated by Beepy</span>
+        <span class="site-footer__signal">SIGNAL_STABLE</span>
+      </footer>
+    </div>
+
+    <!-- Cloudflare Web Analytics --><script defer src='https://static.cloudflareinsights.com/beacon.min.js' data-cf-beacon='{"token": "8dcb1e0fcb41470b8769c87691688807"}'></script><!-- End Cloudflare Web Analytics -->
+  </body>
+</html>
