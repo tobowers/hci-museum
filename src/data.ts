@@ -2609,6 +2609,32 @@ const exhibitData: Exhibit[] = [
     tags: ["Telephony", "PBX", "Digital Phone", "Soft Keys", "Magnetic Sensing"],
     image: img("rolmphone-400.jpg"),
   },
+  {
+    id: "velotype",
+    slug: "velotype",
+    wikiTitle: "Velotype Synthetic Keyboard",
+    year: "1982",
+    sortYear: 1982,
+    title: "Velotype Synthetic Keyboard",
+    subtitle: "A two-handed keyboard where every stroke is a whole syllable — press several keys with both hands and the machine spells the sound",
+    blurb:
+      "The Velotype is a two-handed chorded keyboard that types whole syllables per stroke. Instead of one key per letter, the typist presses several keys with each hand at once and the machine's orthographic rules expand the chord into spelled text — a 'butterfly'-layout chord at up to 200 words per minute. It is the museum's only full-syllable chording keyboard, the opposite idea from the one-hand micro-chorders.",
+    tags: ["Keyboard", "Text Entry", "Chording", "Input", "Netherlands"],
+    image: img("velotype1985.jpg"),
+  },
+  {
+    id: "oasys-thumbshift-keyboard",
+    slug: "oasys-thumbshift-keyboard",
+    wikiTitle: "Fujitsu OASYS 100 Thumb-Shift Keyboard",
+    year: "1980",
+    sortYear: 1980,
+    title: "Fujitsu OASYS 100 Thumb-Shift Keyboard",
+    subtitle: "The Japanese word-processor keyboard that moved the shift keys to the thumbs, giving every key three characters and keeping both hands on the home row",
+    blurb:
+      "Fujitsu's OASYS 100 solved Japanese text entry by anatomically reassigning the shift key to the strongest digit. Two thumb keys at the bottom center multiply every other key three ways (base, same-hand, opposite-hand), so all hiragana fit in the home row, and each word's kana-to-kanji conversion runs word-by-word by striking a thumb key. An anatomy-driven input layout that became a Japanese standard.",
+    tags: ["Keyboard", "Japanese", "Word Processor", "Text Entry", "Input"],
+    image: img("oasys100.png"),
+  },
 ];
 
 export const exhibits: Exhibit[] = exhibitData.toSorted((a, b) => b.sortYear - a.sortYear || a.title.localeCompare(b.title));

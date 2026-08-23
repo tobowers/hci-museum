@@ -1,0 +1,53 @@
+{
+  "slug": "velotype",
+  "title": "Velotype Synthetic Keyboard",
+  "year": "1982",
+  "subtitle": "A two-handed keyboard where every stroke types an entire syllable — press several keys at once and the machine spells the sound",
+  "why_scout_cares": "The museum has several one-hand chording keyboards but nothing that types whole syllables per stroke with a full two-hand interleaved layout. The Velotype is orthographic chording at 200 wpm — letters produced by language rules, not shorthand. Weird, commercially real, and unlike every other text-entry device in the collection.",
+  "search_terms": ["Velotype", "chording keyboard", "syllabic keyboard", "Tachotype", "syllable chord"],
+  "research": {
+    "title": "Velotype Synthetic Keyboard",
+    "year": "1982",
+    "by": "Herman Schweigman & Rudolf Nitzsche (Netherlands); earlier Marius den Outer Tachotype",
+    "tags": ["HCI", "Input", "Text Entry", "Keyboard", "Chording"],
+    "overview": "The Velotype is a two-handed chorded keyboard that types whole syllables per stroke rather than single letters. Developed in the Netherlands and production from 1982 (electronic market model by 1985), it descends from Marius den Outer's 1933 Tachotype and 1939 Velotype shorthand machines. In contrast to QWERTY's one-key/one-letter mapping, the Velotype requires the typist to press several keys simultaneously in each hand; each chord encodes a syllable or morpheme, and the machine's orthographic rules expand the chord into spelled text. Because it produces spelled syllables rather than an intermediate shorthand transcription, it is orthographic rather than phonetic.\n\nThe keyboard's physical layout is its strangest feature. Keys are arranged in an asymmetric, splayed ('butterfly') configuration with three keys per finger offset from the resting position, a layout described at the time as ahead of its time ergonomically. Skilled operators reach around 200 words per minute, faster than a fast conventional typist. The Velotype was sold commercially by Tradecom & Velotype, and the Dutch national training institute ran commercial Velotype courses in the late 1980s on CP/M computers running WordStar. A later PC-keyboard adaptation, the Veyboard, appeared in 2001.",
+    "deepDive": [
+      {
+        "heading": "Syllables, not letters",
+        "text": "Typing on a Velotype is a fundamentally different act from typing on QWERTY. Each chord is struck by pressing several keys with each hand at once — a left-hand key and a right-hand key combine into a syllable. Instead of keying the letters S-T-O-P, the typist presses the specific chord that the machine resolves to 'stop'. The result is text spelled correctly by the machine's rules, not a shorthand transcript the user must read back. This is the core inversion: the human performs a compact motor gesture, and the machine does the spelling work."
+      },
+      {
+        "heading": "Ergonomics before the term mattered",
+        "text": "The Velotype's butterfly layout, with keys offset from the neutral resting position and three keys per finger, was designed for both speed and long-session comfort. Contemporary accounts called the layout ahead of its time. Because the hands stay near the home position and every syllable is one chord, both hands are constantly engaged rather than one finger chasing letters. The result was sustained speeds beyond most professional typists, achieved through a physical grammar quite unlike QWERTY's."
+      },
+      {
+        "heading": "Commercially real",
+        "text": "Unlike many of the museum's one-off prototypes, the Velotype was a genuinely marketable device. Tradecom & Velotype sold it commercially, and the Dutch Rijks-Opleidings-Instituut (ROI) offered commercial Velotype training on CP/M computers running WordStar in the late 1980s. It is a rare example of a syllable-chording keyboard that crossed from invention to working product and into professional typing courses."
+      },
+      {
+        "heading": "Where it sits in the museum",
+        "text": "The museum's text-entry family currently runs one key at a time — Microwriter, BAT Keyboard, DataHand, Twiddler all chord single keys or one hand. The Velotype is the only full-syllable chording keyboard: a machine that types words by spelling them from muscular chords. It is the opposite idea from the Canon Cat and the Microwriter — not a single-hand micro-chorder, but a whole-body, two-handed syllabic instrument of typing."
+      }
+    ],
+    "team": [
+      { "name": "Herman Schweigman", "note": "Co-inventor of the electronic Velotype (1982)" },
+      { "name": "Rudolf Nitzsche", "note": "Co-inventor of the electronic Velotype (1982)" },
+      { "name": "Marius den Outer", "note": "Creator of the Tachotype (1933) and earlier 'Velotype' shorthand machines" }
+    ],
+    "media": [
+      { "src": "https://commons.wikimedia.org/wiki/File:Velotype1985.jpg", "alt": "The electronic Velotype keyboard as produced in 1985", "caption": "The electronic Velotype as produced in 1985. CC BY-SA 3.0, Fvgool / Wikimedia Commons." },
+      { "src": "https://commons.wikimedia.org/wiki/File:VelotypeStop.GIF", "alt": "Key-entry diagram showing the keys pressed to type the word 'stop'", "caption": "The keys pressed on a Velotype to spell the word 'stop'. CC BY-SA 3.0, Fvgool / Wikimedia Commons." }
+    ],
+    "sources": [
+      { "text": "Velotype — Wikipedia", "url": "https://en.wikipedia.org/wiki/Velotype" },
+      { "text": "Veyboard — Dutch Wikipedia", "url": "https://nl.wikipedia.org/wiki/Veyboard" },
+      { "text": "File:Velotype1985.jpg — Wikimedia Commons", "url": "https://commons.wikimedia.org/wiki/File:Velotype1985.jpg" },
+      { "text": "File:VelotypeStop.GIF — Wikimedia Commons", "url": "https://commons.wikimedia.org/wiki/File:VelotypeStop.GIF" }
+    ],
+    "imageUrls": [
+      "https://upload.wikimedia.org/wikipedia/commons/e/e1/Velotype1985.jpg",
+      "https://upload.wikimedia.org/wikipedia/commons/3/38/VelotypeStop.GIF"
+    ]
+  },
+  "savedImages": ["images/velotype1985.jpg", "images/velotypestop.gif"]
+}

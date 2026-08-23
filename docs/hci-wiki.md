@@ -1,6 +1,6 @@
 # The HCI Golden Age Wiki
 
-A research compendium for a digital museum of cutting-edge Human-Computer Interaction from the late 1970s through the early 1990s. These two hundred and eleven projects mix canonical experiments with weird, forgotten, and beautiful vaporware — brain control, voice control, gesture, wearable computing, VR, robots, and full-body exertion.
+A research compendium for a digital museum of cutting-edge Human-Computer Interaction from the late 1970s through the early 1990s. These two hundred and thirteen projects mix canonical experiments with weird, forgotten, and beautiful vaporware — brain control, voice control, gesture, wearable computing, VR, robots, and full-body exertion.
 
 Each entry includes an overview, a deep dive, a small media gallery, and full source links so the images and facts can always be traced back.
 
@@ -218,6 +218,8 @@ Each entry includes an overview, a deep dive, a small media gallery, and full so
 209. [Fehmi Multiple-Channel Phase-Integrating Biofeedback Computer (1977)](#fehmi-multiple-channel-phase-integrating-biofeedback-computer-1977)
 210. [Heidenhain TNC 110 (1976)](#heidenhain-tnc-110-1976)
 211. [ROLM CBX / RolmPhone 400 (1981)](#rolm-cbx--rolmphone-400-1981)
+212. [Velotype Synthetic Keyboard (1982)](#velotype-synthetic-keyboard-1982)
+213. [Fujitsu OASYS 100 Thumb-Shift Keyboard (1980)](#fujitsu-oasys-100-thumb-shift-keyboard-1980)
 
 ---
 
@@ -10249,3 +10251,69 @@ With the CBX, ROLM introduced the RolmPhone digital telephone line. The RolmPhon
 2. Starting Up Silicon Valley: How ROLM Became a Cultural Icon — Katherine Maxfield (2014) — https://www.emeraldbookcompany.com/starting-up-silicon-valley
 3. ROLM Corporation, Competing with Giant — CHM Roundtable (2004) — https://www.youtube.com/watch?v=CHM_ROLM_roundtable
 4. RolmDeskPhone.jpg — Wikimedia Commons — https://commons.wikimedia.org/wiki/File:RolmDeskPhone.jpg
+
+## Velotype Synthetic Keyboard (1982)
+
+**By:** Herman Schweigman & Rudolf Nitzsche (Netherlands); earlier Marius den Outer Tachotype
+**Tags:** `HCI` `Input` `Text Entry` `Keyboard` `Chording`
+
+### Overview
+
+The Velotype is a two-handed chorded keyboard that types whole syllables per stroke rather than single letters. Developed in the Netherlands, in production from 1982 with the electronic market model by 1985, it descends from Marius den Outer's 1933 Tachotype and 1939 Velotype shorthand machines. In contrast to QWERTY's one-key/one-letter mapping, the Velotype requires the typist to press several keys simultaneously in each hand; each chord encodes a syllable or morpheme, and the machine's orthographic rules expand the chord into spelled text. Because it produces spelled syllables rather than an intermediate shorthand transcription, it is orthographic rather than phonetic.
+
+The keyboard's physical layout is its strangest feature. Keys are arranged in an asymmetric, splayed ('butterfly') configuration with three keys per finger offset from the resting position, widely described at the time as ahead of its time ergonomically. Skilled operators reach around 200 words per minute, faster than a fast conventional typist. The Velotype was sold commercially by Tradecom & Velotype, and the Dutch national training institute ran commercial Velotype courses in the late 1980s on CP/M computers running WordStar. A later PC-keyboard adaptation, the Veyboard, appeared in 2001.
+
+### Deep dive
+
+* **Syllables, not letters.** Typing on a Velotype is a fundamentally different act from typing on QWERTY. Each chord is struck by pressing several keys with each hand at once — a left-hand key and a right-hand key combine into a syllable. Instead of keying the letters S-T-O-P, the typist presses the specific chord the machine resolves to 'stop'. The human performs a compact motor gesture and the machine does the spelling work — the core inversion of the device.
+* **Ergonomics before the term mattered.** The butterfly layout, with keys offset from the neutral resting position and three keys per finger, was designed for both speed and long-session comfort. Because the hands stay near home position and every syllable is one chord, both hands are constantly engaged. The result was sustained speeds beyond most professional typists, achieved through a physical grammar unlike QWERTY's.
+* **Commercially real.** Unlike many of the museum's one-off prototypes, the Velotype was a genuinely marketable device. Tradecom & Velotype sold it commercially, and the Dutch Rijks-Opleidings-Instituut offered commercial Velotype training on CP/M computers running WordStar in the late 1980s. It is a rare example of a syllable-chording keyboard that crossed from invention to working product and into professional typing courses.
+* **Where it sits in the museum.** The museum's text-entry family currently runs one key at a time — Microwriter, BAT Keyboard, DataHand, Twiddler all chord single keys or one hand. The Velotype is the only full-syllable chording keyboard: a machine that types words by spelling them from muscular chords. It is the opposite idea from the single-hand micro-chorder — a whole-body, two-handed syllabic instrument of typing.
+
+### Media
+
+![The electronic Velotype keyboard as produced in 1985](../assets/wiki/velotype1985.jpg)
+*The electronic Velotype as produced in 1985. CC BY-SA 3.0, Fvgool / Wikimedia Commons.*
+
+![Key-entry diagram showing the keys pressed to type the word 'stop'](../assets/wiki/velotypestop.gif)
+*The keys pressed on a Velotype to spell the word 'stop'. CC BY-SA 3.0, Fvgool / Wikimedia Commons.*
+
+### Sources
+
+1. Velotype — Wikipedia — https://en.wikipedia.org/wiki/Velotype
+2. Veyboard — Dutch Wikipedia — https://nl.wikipedia.org/wiki/Veyboard
+3. File:Velotype1985.jpg — Wikimedia Commons — https://commons.wikimedia.org/wiki/File:Velotype1985.jpg
+4. File:VelotypeStop.GIF — Wikimedia Commons — https://commons.wikimedia.org/wiki/File:VelotypeStop.GIF
+
+## Fujitsu OASYS 100 Thumb-Shift Keyboard (1980)
+
+**By:** Fujitsu Limited (design by Yasunori Kanda's team)
+**Tags:** `HCI` `Input` `Keyboard` `Japanese` `Text Entry` `Word Processor`
+
+### Overview
+
+The Fujitsu OASYS 100, announced May 1980, was Fujitsu's first Japanese word processor. Its keyboard solved a hard problem: how to enter the dozens of kana characters needed for Japanese text without a sprawling layout. The answer was the thumb-shift keyboard. Instead of the little fingers operating conventional shift keys, two extra keys were placed at the bottom center of the board, worked by the thumbs. With no shift, with the same-hand thumb key, or with the opposite-hand thumb key, each regular key produced three different characters — for example the base character, a second hiragana, and its voiced ('dakuon') variant. All 48+ hiragana could live on just 30 keys in the home row.
+
+The design was grounded in corpus frequency: Yasunori Kanda's team studied the statistical frequency of Japanese characters to assign them to keys ergonomically. The system converted word-by-word from kana to kanji, with the user pressing a special thumb key at the end of each word to trigger conversion — a method professional operators initially preferred because it avoided the grammatical-analysis errors of rival phrase-based systems. The layout later became a Japanese Industrial Standard (JIS X 4064) and developed a devoted following among Japanese writers, lawyers, and playwrights who reported typing as fast as speaking. Enthusiast-made custom thumb-shift keyboards are still produced today.
+
+### Deep dive
+
+* **The thumb's forgotten strength.** The thumb-shift keyboard is a study in ergonomic truth: the thumb is the strongest and most dexterous digit, yet conventional keyboards relegate the shift keys to the weakest fingers. The OASYS keyboard moved the shift function to two dedicated thumb keys at bottom center. Because the thumb is suited to sustained pressure, pressing a thumb shift while a same-side finger types is a natural, low-effort gesture. Every key thereby carried three characters — reducing reach and keeping both hands on the home row.
+* **Three characters per key, not two.** Most shift keyboards multiply each key by two states (shifted/unshifted). The OASYS thumb-shift keyboard multiplied each key by three: no shift, same-hand thumb shift, and opposite-hand thumb shift. This tripling is what let a full kana syllabary fit in the home row. Voiced and unvoiced variants live on the same physical key, selected by which thumb-shift is held.
+* **Word-by-word kana-kanji conversion.** Japanese composition requires converting phonetic kana into ideographic kanji. The OASYS 100 converted word-by-word: the operator typed the kana for a word, struck a thumb key, and the system looked the word up and displayed kanji. Because conversion operated on one word at a time, there was little room for the grammatical parse errors that plagued rival phrase-level systems; professionals initially preferred the predictability. This conversion rhythm — typed kana, strike thumb key, read kanji — is a distinct interaction pattern in the museum's text-entry family.
+* **Where it sits in the museum.** The museum's text-entry family (BAT, DataHand, Twiddler, Microwriter, Velotype) is all about rearranging the finger-to-character mapping. The OASYS thumb-shift keyboard is the one entry whose core idea is an anatomical reallocation of an existing key (the shift) to the strongest digit, and whose character economy (three per key) and conversion ritual exist because of Japanese orthography. It fills the East-Asian-input gap, complementing the CAPTAIN and Famicom terminals on the network side rather than the input side.
+
+### Media
+
+![A physical thumb-shift keyboard with the two thumb-shift keys at bottom center](../assets/wiki/thumbshift.jpg)
+*A physical thumb-shift keyboard, with the two thumb-operated shift keys at bottom center and dual-legend keycaps. CC BY-SA 3.0, Wikimedia Commons.*
+
+![Keyboard layout diagram of the OASYS 100 thumb-shift keyboard](../assets/wiki/oasys100.png)
+*Keyboard layout diagram of the OASYS 100 thumb-shift keyboard. CC BY-SA 3.0, Wikimedia Commons.*
+
+### Sources
+
+1. Thumb-shift keyboard — Wikipedia — https://en.wikipedia.org/wiki/Thumb-shift_keyboard
+2. Fujitsu museum — thumb-shift keyboard — https://global.fujitsu/en-global/about/corporate/museum/products/products/computer-wordprocessor-keyboard
+3. IEEE — Word Processing for the Japanese Language — https://ethw.org/Word_Processing_for_the_Japanese_Language
+4. File:Thumbshift.jpg — Wikimedia Commons — https://commons.wikimedia.org/wiki/File:Thumbshift.jpg
