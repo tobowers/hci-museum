@@ -1,6 +1,6 @@
 # The HCI Golden Age Wiki
 
-A research compendium for a digital museum of cutting-edge Human-Computer Interaction from the late 1970s through the early 1990s. These two hundred and nine projects mix canonical experiments with weird, forgotten, and beautiful vaporware — brain control, voice control, gesture, wearable computing, VR, robots, and full-body exertion.
+A research compendium for a digital museum of cutting-edge Human-Computer Interaction from the late 1970s through the early 1990s. These two hundred and eleven projects mix canonical experiments with weird, forgotten, and beautiful vaporware — brain control, voice control, gesture, wearable computing, VR, robots, and full-body exertion.
 
 Each entry includes an overview, a deep dive, a small media gallery, and full source links so the images and facts can always be traced back.
 
@@ -216,6 +216,8 @@ Each entry includes an overview, a deep dive, a small media gallery, and full so
 207. [Playskool Alphie (1978)](#playskool-alphie-1978)
 208. [Toshiba LC-836MN Memo Note 30 (1978)](#toshiba-lc-836mn-memo-note-30-1978)
 209. [Fehmi Multiple-Channel Phase-Integrating Biofeedback Computer (1977)](#fehmi-multiple-channel-phase-integrating-biofeedback-computer-1977)
+210. [Heidenhain TNC 110 (1976)](#heidenhain-tnc-110-1976)
+211. [ROLM CBX / RolmPhone 400 (1981)](#rolm-cbx--rolmphone-400-1981)
 
 ---
 
@@ -10175,3 +10177,75 @@ The instrument amplifies and filters the monopolar signals from scalp or body co
 
 1. US Patent 4,031,883 — Multiple Channel Phase Integrating Biofeedback Computer (Fehmi & Schneider, 1977) — https://patents.google.com/patent/US4031883A/en
 2. CPC classification A61B5/375 (EEG using biofeedback) — https://patents.google.com/patent/US4031883A/en
+
+## Heidenhain TNC 110 (1976)
+
+**By:** Dr. Johannes Heidenhain GmbH (Traunreut, Germany)
+**Tags:** `Industrial` `CNC` `Manufacturing` `Conversational` `Keypad` `Dialog`
+
+### Overview
+
+The Heidenhain TNC 110, introduced in 1976, was the first numerical control to use what the company called TNC (Touch Numerical Control) — a conversational, dialog-guided programming system. Instead of requiring the operator to write G-code or prepare punched tape, the TNC 110 presented programming prompts on a compact CRT display, with labeled function keys arranged around the screen. The operator responded by pressing the appropriate key or entering numeric values on the keypad. The complete programming manual was ten pages — a radical departure from the thick binders of G-code reference that dominated machining at the time.
+
+The TNC 110 was a positioning control (Positionssteuerung) built for drilling and milling machines, and it was the first CNC control Heidenhain ever made. The company, founded in 1889, had spent decades making precision measurement equipment — linear encoders, angle encoders, and digital readouts — and that expertise in position measurement made the leap to numerical control a natural evolution. The physical panel pairs a numeric keypad with a grid of labeled function keys (POS, TOOL, CYCLE, PATH, INPUT) whose labels name machining operations, not computer commands. The machine adapted to the language of the workshop rather than the other way around.
+
+### Deep dive
+
+* **Conversational versus G-code.** In the mid-1970s, CNC programming ran through manual G-code entry or APT programs processed on a mainframe — both requiring specialized training. The TNC 110's third path presented a sequence of dialog prompts (TOOL NUMBER?, POSITION X?, FEED RATE?, CYCLE TYPE?) and let the operator respond with the labeled function keys and numeric keypad, translating the answers into machine motion internally. Skilled machinists who were not programmers could suddenly program their own machines.
+* **The function-key grid.** The panel arranges labeled function keys around the CRT, separate from the numeric keypad so that command selection and data entry never collide. A row of soft keys below the screen could be relabeled with paper strips, anticipating the soft-key paradigms common in 1990s computer interfaces. The buttons are designed to be pressed wearing gloves in a noisy, lit-inconsistent machine shop.
+* **Legacy.** The conversational TNC paradigm proved so successful that Heidenhain carried it through the TNC 120, 150, 155, 2500, 320, 620, 640, and current TNC 7 series. By 2006 the company had manufactured nearly 200,000 CNC controls. The TNC 110 was the first control to treat the operator as a conversational partner rather than a punched-tape loader — the first machine tool that held a dialog with its human.
+* **Where it sits in the museum.** The museum's existing machine-instrument exhibits (Tektronix 7854, Fluke 9010A) are general-purpose lab and diagnostic instruments. The TNC 110 is the museum's first dedicated industrial control and its first production machine tool, and its dialog-guided programming is a distinct interaction model — the machine as interrogator, guiding a skilled but non-programmer operator through a task.
+
+### Team
+
+* **Dr. Johannes Heidenhain.** Founder of the post-war company (1948), physicist, pupil of Otto Hahn.
+* **Heidenhain Development Team.** Traunreut, Germany — developed the first TNC control in 1976.
+
+### Media
+
+![The Heidenhain TNC 110 positioning control panel](../assets/wiki/heidenhain-tnc110.jpg)
+*The Heidenhain TNC 110 (1976), the first CNC with conversational dialog-guided programming: labeled function keys (POS, TOOL, CYCLE, PATH, INPUT) let machinists respond to prompts. CC BY-SA 3.0, Heidenhain archive / Fotograf Walter Effenberger, Wikimedia Commons.*
+
+### Sources
+
+1. Heidenhain — Wikipedia — https://en.wikipedia.org/wiki/Heidenhain
+2. File:TNC110 72dpi.jpg — Wikimedia Commons — https://commons.wikimedia.org/wiki/File:TNC110_72dpi.jpg
+3. Heidenhain History (company site) — https://www.heidenhain.com/en-US/company/history/
+
+## ROLM CBX / RolmPhone 400 (1981)
+
+**By:** ROLM Corporation (Santa Clara, CA)
+**Tags:** `Telephony` `PBX` `Digital Phone` `Soft Keys` `Magnetic Sensing`
+
+### Overview
+
+The ROLM CBX (Computerized Branch Exchange) was the first fully digital computerized telephone switching system, built around a general-purpose ROLM 1603 minicomputer — a militarized Data General Nova derivative running the phone switch in software. It was a radical departure from the electromechanical and crossbar PBXs that preceded it: call routing, features, and network provisioning all ran in software on a real computer.
+
+With the CBX, ROLM introduced the RolmPhone digital telephone line. The RolmPhone 400 (RP400) was the flagship, named for its 40 programmable feature/line keys. Those keys were not hardwired to specific telephone lines — they were software-reconfigurable from the CBX switch, letting the phone be reprogrammed remotely. This is arguably the first mass-market example of soft keys on a telephone. And most strikingly, the RolmPhone had no physical switchhook button at all: a tiny magnet embedded in the handset and a reed switch in the base meant the very presence or absence of the handset in the cradle was the on/off mechanism. Lifting the handset broke the magnetic field; setting it down closed the circuit. The handset was the button.
+
+### Deep dive
+
+* **The digital PBX revolution.** Before the CBX, switching was electromechanical or analog. ROLM's use of a general-purpose minicomputer meant the switch became a programmable computer and every phone on the network became a programmable terminal — enabling call forwarding, conference calling, and PhoneMail, one of the first commercial voicemail systems.
+* **The magnetic switchhook.** The absence of a physical switchhook was deliberate. A permanent magnet in the handset and a reed switch in the base meant the phone's most fundamental mechanical gesture — lifting and replacing the receiver — was sensed magnetically, with no spring-loaded button to wear out. On-hook and off-hook state became a property of the handset's physical position.
+* **Programmable keys and the soft-key ancestor.** The RP400's 40 keys were not wired to lines; each was a programmable button whose function the CBX switch assigned. Line assignments, speed-dial numbers, and feature access could all be changed remotely. A paper label strip let users write each key's function. Only the two volume buttons were fixed. This is a direct ancestor of the soft keys and reconfigurable buttons on modern VoIP phones and smartphone interfaces.
+* **Where it sits in the museum.** The telephony family runs acoustic-to-digital: Novation CAT (acoustic coupler), Hayes Smartmodem (programmable modem), Minitel and TI Silent 700 (terminals), AT&T VideoPhone 2500. The ROLM CBX / RolmPhone adds the *switching* side and, more importantly, the soft-key telephone — a digital desk phone whose keys are software and whose hook is a magnetic field.
+
+### Team
+
+* **Gene Richeson.** ROLM co-founder.
+* **Ken Oshman.** ROLM co-founder, CEO.
+* **Walter Loewenstern.** ROLM co-founder.
+* **Robert Maxfield.** ROLM co-founder.
+* **Leo Chamberlain.** Key early employee, architect of ROLM's celebrated "Great Place to Work" culture.
+
+### Media
+
+![A RolmPhone 400 desk phone with rows of programmable feature/line keys](../assets/wiki/rolmphone-400.jpg)
+*A RolmPhone 400 (RP400) desk phone. Of its 40 keys, 38 are programmable feature/line buttons; only the two volume buttons are fixed. The phone has no physical switchhook — a magnet in the handset and a reed switch in the base detect on/off-hook state. Public domain, Wikimedia Commons.*
+
+### Sources
+
+1. ROLM — Wikipedia — https://en.wikipedia.org/wiki/ROLM
+2. Starting Up Silicon Valley: How ROLM Became a Cultural Icon — Katherine Maxfield (2014) — https://www.emeraldbookcompany.com/starting-up-silicon-valley
+3. ROLM Corporation, Competing with Giant — CHM Roundtable (2004) — https://www.youtube.com/watch?v=CHM_ROLM_roundtable
+4. RolmDeskPhone.jpg — Wikimedia Commons — https://commons.wikimedia.org/wiki/File:RolmDeskPhone.jpg

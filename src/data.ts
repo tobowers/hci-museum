@@ -2583,6 +2583,32 @@ const exhibitData: Exhibit[] = [
     tags: ["Biofeedback", "EEG", "EMG", "Wearable", "Auditory", "Clinical"],
     image: img("fehmi-biofeedback-fig3-trainee.png"),
   },
+  {
+    id: "heidenhain-tnc-110",
+    slug: "heidenhain-tnc-110",
+    wikiTitle: "Heidenhain TNC 110",
+    year: "1976",
+    sortYear: 1976,
+    title: "Heidenhain TNC 110",
+    subtitle: "The first conversational CNC control — a machine tool that held a dialog with its operator through labeled function keys",
+    blurb:
+      "The 1976 Heidenhain TNC 110 was the first CNC to use dialog-guided 'Touch Numerical Control' programming: instead of writing G-code or punching tape, the operator answered questions the machine posed on a CRT through labeled function keys (POS, TOOL, CYCLE, PATH, INPUT). The programming manual was ten pages. A skilled machinist who was not a programmer could now program their own machine.",
+    tags: ["Industrial", "CNC", "Manufacturing", "Dialog", "Keypad", "Machine Tool"],
+    image: img("heidenhain-tnc110.jpg"),
+  },
+  {
+    id: "rolm-cbx",
+    slug: "rolm-cbx",
+    wikiTitle: "ROLM CBX / RolmPhone 400",
+    year: "1981",
+    sortYear: 1981,
+    title: "ROLM CBX / RolmPhone 400",
+    subtitle: "The first digital PBX whose desk phone had no switchhook — a magnet in the handset was the button, and its keys were software",
+    blurb:
+      "ROLM's CBX ran a telephone switch on a general-purpose minicomputer, and its RolmPhone 400 was the phone that looked nothing like one: 40 programmable soft keys reconfigured remotely by the switch, and no physical switchhook — a magnet in the handset and a reed switch in the base made the handset itself the on/off mechanism. A direct ancestor of the soft-button phone.",
+    tags: ["Telephony", "PBX", "Digital Phone", "Soft Keys", "Magnetic Sensing"],
+    image: img("rolmphone-400.jpg"),
+  },
 ];
 
 export const exhibits: Exhibit[] = exhibitData.toSorted((a, b) => b.sortYear - a.sortYear || a.title.localeCompare(b.title));
