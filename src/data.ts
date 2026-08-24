@@ -2635,6 +2635,19 @@ const exhibitData: Exhibit[] = [
     tags: ["Keyboard", "Japanese", "Word Processor", "Text Entry", "Input"],
     image: img("oasys100.png"),
   },
+  {
+    id: "jhu-serial-code-keyboard",
+    slug: "jhu-serial-code-keyboard",
+    wikiTitle: "Johns Hopkins Serial Code Keyboard",
+    year: "1983",
+    sortYear: 1983,
+    title: "Johns Hopkins Serial Code Keyboard",
+    subtitle: "Type by rocking a three-position switch like a two-note instrument, and the machine turns your tones into keystrokes",
+    blurb:
+      "An accessibility input from Johns Hopkins APL that threw out the duration of Morse and kept only the pitch: rocking a spring-centered switch left made high-frequency 'dits,' right made low-frequency 'dahs,' all equal in length. The user essentially played a two-note instrument to type — hearing the tones as they encoded every character the machine then decoded into ASCII on an Apple II.",
+    tags: ["Accessibility", "Input", "Morse", "Frequency-encoded", "Apple II"],
+    image: img("jhu-serial-code-keyboard-cc1983.jpg"),
+  },
 ];
 
 export const exhibits: Exhibit[] = exhibitData.toSorted((a, b) => b.sortYear - a.sortYear || a.title.localeCompare(b.title));

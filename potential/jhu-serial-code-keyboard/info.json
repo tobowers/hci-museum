@@ -1,0 +1,88 @@
+{
+  "slug": "jhu-serial-code-keyboard",
+  "title": "Johns Hopkins Serial Code Keyboard",
+  "year": "1983",
+  "subtitle": "A three-way switch you rock like a two-note instrument to type",
+  "why_scout_cares": "A frequency-encoded, pseudo-Morse accessibility input where the user generates tone sequences by moving a three-position switch and the machine decodes them into keystrokes. The tones are the encoding channel, not just feedback \u2014 the user literally plays the device to type. Genuinely distinct from every other accessibility/input device in the museum; nothing else uses frequency-coded (equal-duration dits/dahs differentiated only by tone) pseudo-Morse.",
+  "search_terms": [
+    "Serial Code Keyboard",
+    "Johns Hopkins pseudo-Morse",
+    "frequency encoded input",
+    "Schneider Creative Computing 1983",
+    "adaptive computer input switch morphology"
+  ],
+  "research": {
+    "title": "Johns Hopkins Serial Code Keyboard (1983)",
+    "year": "1983",
+    "by": "Wolfger Schneider \u2014 Johns Hopkins University Applied Physics Laboratory, funded by the Veterans Administration",
+    "tags": [
+      "HCI",
+      "Input",
+      "Accessibility",
+      "Morse",
+      "Frequency-encoded",
+      "Apple II",
+      "Adaptive"
+    ],
+    "overview": "The Serial Code Keyboard is an accessibility input device developed at the Johns Hopkins University Applied Physics Laboratory under funding from the Veterans Administration, and published in Creative Computing magazine (October 1983). It connects a physical three-position spring-centered switch to the Apple II game port, and operates on a *frequency-encoded pseudo-Morse* principle: pushing the switch left generates high-frequency 'dits', pushing right generates low-frequency 'dahs'. Unlike real Morse, the dits and dahs are of equal duration \u2014 frequency alone differentiates them, and sound-on time equals sound-off time, making the code markedly faster and less fatiguing to produce than traditional Morse.",
+    "deepDive": [
+      {
+        "heading": "The frequency-encoded pseudo-Morse principle",
+        "text": "Traditional Morse distinguishes dit and dah by duration (a dah is three times a dit). Schneider's device throws out duration entirely: dits and dahs are equal-duration tones differentiated only by frequency. The user moves a three-position switch to one extreme for a high tone (dit) or to the other for a low tone (dah). Because sound-on equals sound-off, the user never has to hold a position for an extended period \u2014 the defining point of contact with fatigue for a hand- or mouth-operated switch. The end of a character is recognized by a silence longer than two dah durations; more than seven continuous dahs triggers backspacing, and more than seven continuous dits triggers the repeat function."
+      },
+      {
+        "heading": "The interaction loop: playing the device to type",
+        "text": "The core HCI paradigm is an auditory-kinesthetic loop. The user produces tone sequences by rocking the switch; they HEAR those tones as it encodes a character; and the system translates the tones into ASCII keystrokes. The audible tones are therefore not merely feedback \u2014 they ARE the encoding. This creates direct self-monitoring: the user can hear whether they 'got the code right' before the character appears on screen, which is especially valuable for users with limited or no visual feedback. The interaction is essentially playing a two-note instrument to type."
+      },
+      {
+        "heading": "Hardware and software",
+        "text": "The Apple II implementation is a software approach: machine code loaded at $9000 region (below DOS on a 48K Apple II) intercepts input and links with DOS. The three-position switch connects to the game port on the same bit inputs as the game paddle pushbuttons (PB0 for dits, PB1 for dahs), but with opposite polarity. The package included machine code, a Hello loader, a tutorial program with a split-screen practice display, and a driver. It implemented four keyboard modes: standard typing, shift mode, control mode, and a 'sequence' mode triggering predefined macros (e.g., CATALOG-RETURN to list disk files, or cursor movement). A separate firmware version was developed for 'dumb' RS-232 terminals using an external hardware module that OR-ed the Serial Code Keyboard's ASCII output with the standard keyboard input."
+      },
+      {
+        "heading": "Deployment",
+        "text": "The device was evaluated in rehabilitation centers across the United States and Canada, addressing severely physically handicapped individuals \u2014 upper-limb amputees, quadriplegics, and others who could manage only a single three-position switch. The design was deliberately low-cost and adaptable to whatever switch-lever arrangement suited each user's motor capabilities. Published in Creative Computing, October 1983."
+      }
+    ],
+    "team": [
+      {
+        "name": "Wolfger Schneider",
+        "note": "Engineer at Johns Hopkins University Applied Physics Laboratory; designed and documented the Serial Code Keyboard"
+      },
+      {
+        "name": "Johns Hopkins University Applied Physics Laboratory",
+        "note": "Research institution; contracted by the Veterans Administration to develop the assistive device"
+      },
+      {
+        "name": "Veterans Administration",
+        "note": "Funding agency; supported evaluation across US/Canada rehabilitation centers"
+      }
+    ],
+    "media": [
+      {
+        "src": "https://archive.org/services/img/creativecomputing-1983-10/page/n221",
+        "alt": "Creative Computing magazine October 1983 page with the Serial Code Keyboard article",
+        "caption": "The Serial Code Keyboard article as published in Creative Computing Vol. 9 No. 10, October 1983, page 222. The article includes Figure 1 (hardware photo), Figure 2 (circuit diagram), Figure 3 (timing diagram), and Table 1 (full code table). Source: Internet Archive."
+      }
+    ],
+    "sources": [
+      {
+        "text": "Schneider, W. \u2014 'Communicating in code,' Creative Computing Vol. 9 No. 10, October 1983, p. 222",
+        "url": "https://www.atarimagazines.com/creative/v9n10/222_Communicating_in_code_th.php"
+      },
+      {
+        "text": "Creative Computing October 1983 full issue scan (Internet Archive)",
+        "url": "https://archive.org/details/creativecomputing-1983-10"
+      },
+      {
+        "text": "HCI Museum wiki \u2014 Johns Hopkins Serial Code Keyboard orphan research section",
+        "url": ""
+      }
+    ],
+    "imageUrls": [
+      "https://archive.org/services/img/creativecomputing-1983-10/page/n221 (full-res page scan extracted to assets/wiki/ at 2026-08-24 promotion)"
+    ]
+  },
+  "savedImages": [
+    "jhu-serial-code-keyboard-cc1983.jpg"
+  ]
+}

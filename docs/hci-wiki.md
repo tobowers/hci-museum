@@ -5663,8 +5663,8 @@ Predefined macro sequences included: G for greeting guests, H to run the Hello f
 
 ### Media
 
-![Creative Computing magazine October 1983 page 222 — Serial Code Keyboard article with hardware photo](https://archive.org/services/img/creativecomputing-1983-10/page/n221)
-*The Serial Code Keyboard article as published in Creative Computing Vol. 9 No. 10, October 1983, page 222. The article includes Figure 1 (hardware photo), Figure 2 (circuit diagram), Figure 3 (timing diagram), and Table 1 (full code table). Source: Internet Archive.*
+![Creative Computing magazine October 1983 page 222 — Serial Code Keyboard article with hardware photo](assets/wiki/jhu-serial-code-keyboard-cc1983.jpg)
+*The Serial Code Keyboard article as published in Creative Computing Vol. 9 No. 10, October 1983, page 222. The article includes Figure 1 (hardware photo), Figure 2 (circuit diagram), Figure 3 (timing diagram), and Table 1 (full code table). Source: Internet Archive (Creative Computing Oct 1983 scan); local image loaded into assets/wiki.*
 
 ### Sources
 
