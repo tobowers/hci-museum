@@ -2635,6 +2635,19 @@ const exhibitData: Exhibit[] = [
     tags: ["Keyboard", "Japanese", "Word Processor", "Text Entry", "Input"],
     image: img("oasys100.png"),
   },
+  {
+    id: "le-stick",
+    slug: "le-stick",
+    wikiTitle: "Le Stick",
+    year: "1981",
+    sortYear: 1981,
+    title: "Le Stick",
+    subtitle: "The first motion-sensitive game controller: a base-less wand that steers by a mercury core shifting in your hand",
+    blurb:
+      "Le Stick is DataSoft's 1981 base-less joystick whose direction was read by a gravity-displaced mercury core. Tilt the wand and the liquid metal shifts to close a switch for that direction — no stick shaft, no potentiometer, no power source. Widely credited as the first motion-sensitive video game controller, it failed commercially for want of any game that wanted it, an embodied input outrunning its software 25 years before the Wii.",
+    tags: ["Game Controller", "Motion", "Input", "Fluid Sensing"],
+    image: img("le-stick.jpg"),
+  },
 ];
 
 export const exhibits: Exhibit[] = exhibitData.toSorted((a, b) => b.sortYear - a.sortYear || a.title.localeCompare(b.title));

@@ -220,6 +220,7 @@ Each entry includes an overview, a deep dive, a small media gallery, and full so
 211. [ROLM CBX / RolmPhone 400 (1981)](#rolm-cbx--rolmphone-400-1981)
 212. [Velotype Synthetic Keyboard (1982)](#velotype-synthetic-keyboard-1982)
 213. [Fujitsu OASYS 100 Thumb-Shift Keyboard (1980)](#fujitsu-oasys-100-thumb-shift-keyboard-1980)
+214. [Le Stick (1981)](#le-stick-1981)
 
 ---
 
@@ -10317,3 +10318,35 @@ The design was grounded in corpus frequency: Yasunori Kanda's team studied the s
 2. Fujitsu museum — thumb-shift keyboard — https://global.fujitsu/en-global/about/corporate/museum/products/products/computer-wordprocessor-keyboard
 3. IEEE — Word Processing for the Japanese Language — https://ethw.org/Word_Processing_for_the_Japanese_Language
 4. File:Thumbshift.jpg — Wikimedia Commons — https://commons.wikimedia.org/wiki/File:Thumbshift.jpg
+
+---
+
+## Le Stick (1981)
+
+**By:** DataSoft Inc. (Chatsworth, CA; founded by Pat Ketchum)
+**Tags:** `HCI` `Input` `Game Controller` `Motion`
+
+### Overview
+
+Le Stick was a video game controller released by DataSoft Inc. in 1981 for the Atari 2600 and Commodore 64, widely credited as the first motion-sensitive game controller — twenty-five years before the Nintendo Wii. DataSoft, a software house that had opened in 1980 and published its first title (Popcorn for the Tandy Color Computer) in 1981, followed with its first and only controller: a base-less wand whose direction was read not by a stick shaft or potentiometer but by a gravity-displaced mercury core.
+
+The physical interaction is the entire story. The controller is a single flight-stick-style wand with the fire button on top and no base. To move, the player holds it vertically and squeezes to center the axis; angling it side to side steers left/right, and tilting forward or backward moves up/down. Inside, a mercury-filled core shifts when the wand is angled, closing the appropriate switch to signal the direction. Because the mechanism is mechanical, it needs no power source.
+
+Commercially, Le Stick was a failure. No games, including DataSoft's own, were designed to use its motion capability, and its movements were limited to what a traditional joystick could do. A high price tag from expensive manufacturing costs kept buyers away. It lingered a few years before becoming one of many casualties of the 1983 video game crash. DataSoft itself survived by porting arcade hits like Mr. Do! and Zaxxon, plus licensed titles such as Conan: Hall of Volta and Dallas Quest.
+
+### Deep dive
+
+* **The mercury core.** The defining interaction is gravity acting on a liquid metal. Inside the wand, a mercury-filled core is the moving part: tilt the controller and the mercury shifts to one side, closing a switch for the corresponding cardinal direction. It is a fluid-orientation sensor — the machine reads the physical attitude of the whole hand, decoded through the conduction of a drop of mercury rolling in a tube. Purely mechanical, it needs no electricity. Nothing else in the museum's input family reads a liquid's position as its primary signal.
+* **Motion control before motion control.** The interaction-model significance is the inversion of input: instead of translating a stick's mechanical displacement, Le Stick translates the orientation of the whole device — and by extension the whole hand and arm. It received public acknowledgment in Nintendo Power 250 as the genuine first motion-controlled video game controller, correcting the Wii Remote's 'first use of motion control' claim. The same embodied principle the Wii re-popularized was tried here 25 years earlier and failed for lack of any game that wanted it — an interface outrunning its software.
+* **Where it sits in the museum.** Le Stick joins Surf Champ (weight-shifting surfboard), Stompin' (foot grid), Suncom Aerobics Joystick (exercise pedal-speed), and Heavyweight Champ (spring-loaded gloves) in the embodied-input family, but it is the only one whose physical principle is fluid tilt — mercury orientation detection rather than displacement, capacitance, infrared, or force. It complements the joystick-grammar exhibits (Fairchild Channel F twist-grip, Bally pistol-grip) as the version that threw away the stick entirely.
+
+### Media
+
+![The Le Stick base-less mercury-tilt motion controller](../assets/wiki/le-stick.jpg)
+*Le Stick, DataSoft's 1981 base-less motion-sensitive controller. Period photograph, D.S. Cohen collection, via the Wayback Machine archive of the About.com historical profile.*
+
+### Sources
+
+1. About.com (D. S. Cohen) — Le Stick: The First Motion Sensitive Joystick Controller — https://web.archive.org/web/20090522173103/http://classicgames.about.com/od/consoleandhandheldgames/p/LeStickProfile.htm
+2. Wikipedia — Wii Remote — https://en.wikipedia.org/wiki/Wii_Remote
+3. Computer Entertainer Vol.1 No.6 — Wikimedia Commons — https://commons.wikimedia.org/wiki/File:Computer_Entertainer_1-6.pdf
