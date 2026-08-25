@@ -1,0 +1,47 @@
+{
+  "slug": "le-stick",
+  "title": "Le Stick (1981)",
+  "year": "1981",
+  "subtitle": "The first motion-sensitive game controller: a base-less wand that steers with a mercury core shifting in your hand",
+  "why_scout_cares": "Le Stick is the museum's only fluid-orientation input device. Before the Wii by a quarter century, DataSoft sold a base-less pistol-grip joystick whose direction was read by a mercury core: tilt the wand and the liquid metal shifts, closing the switch for the corresponding cardinal direction. There is no stick shaft, no potentiometer, no microswitch lever — the input quantity is the physical orientation of your whole hand, decoded by gravity moving a drop of mercury. It is mechanically powered, needing no electricity. Released two years before the video-game crash, it failed because no game was designed for it, yet it remains the genuine first motion-sensitive game controller. Fills a distinct, empty physical-principle niche in an embodied-input-heavy collection.",
+  "search_terms": ["Le Stick", "Datasoft Le Stick", "motion sensitive joystick 1981", "mercury joystick", "first motion controller"],
+  "research": {
+    "title": "Le Stick",
+    "year": "1981",
+    "by": "DataSoft Inc.",
+    "tags": ["HCI", "Input", "Game Controller", "Motion", "1981"],
+    "overview": "Le Stick was a video game controller released by DataSoft Inc. in 1981 for the Atari 2600 and Commodore 64. It is widely credited as the first motion-sensitive video game controller, predating the Nintendo Wii by more than two decades. Two and a half years before the video game crash of 1983, DataSoft — a software developer that had just opened in 1980 and published its first title, Popcorn for the Tandy Color Computer, in 1981 — followed up with its first and only controller: a base-less wand whose direction was read not by a stick shaft or potentiometer but by a gravity-displaced mercury core.\n\nThe physical interaction is the entire story. The controller is a single flight-stick-style wand with the fire button on top and no base. To move, the player holds the stick vertically and squeezes to center the axis; angling it side to side steers left/right and tilting it forward or backward moves up/down. Inside, a mercury-filled core shifts when the wand is angled, closing the appropriate switch to signal direction. Because the mechanism is mechanical, it needs no power source. DataSoft's founder Pat Ketchum sought to innovate joystick design, and this mercury-tilt principle was the result.\n\nCommercially, Le Stick was a failure. No games, including DataSoft's own, were designed to use its unique motion capability, and its movements were limited to what a traditional joystick could do. A high price tag from expensive manufacturing costs kept curious customers away. It lingered a few years before becoming one of many casualties of the 1983 video game industry crash. DataSoft survived by porting console and computer versions of arcade hits like Mr. Do! and Zaxxon, plus licensed titles such as Conan: Hall of Volta and Dallas Quest.",
+    "deepDive": [
+      {
+        "heading": "The mercury core",
+        "text": "The defining interaction is gravity acting on a liquid metal. Inside the wand, a mercury-filled core is the moving part. When the player tilts the controller, the mercury shifts to one side and closes a switch corresponding to the direction of the tilt — left, right, up, or down. This is a fluid-orientation sensor: the machine reads the physical attitude of your hand, decoded through the conduction of a drop of mercury rolling in a tube. It is purely mechanical and needs no external power. In the museum's input family, nothing else reads a liquid's position as its primary signal."
+      },
+      {
+        "heading": "Motion control before motion control",
+        "text": "The interaction-model significance is the inversion of input: instead of translating a stick's mechanical displacement, Le Stick translates the orientation of the whole device and by extension the whole hand and arm. It is the genuine first motion-sensitive controller, explicitly credited as such in Nintendo Power 250 and the modern retcon of the Wii Remote's 'first use of motion control' claim. The same embodied principle the Wii would re-popularize 25 years later was tried here and failed for lack of any game that wanted it — a classic museum case of an interface outrunning its software."
+      },
+      {
+        "heading": "Where it sits in the museum",
+        "text": "Le Stick joins Surf Champ (weight-shifting surfboard), Stompin' (foot grid), Suncom Aerobics Joystick (exercise pedal-speed), and Heavyweight Champ (spring-loaded gloves) in the embodied-input family, but it is the only one whose physical principle is fluid tilt — mercury orientation detection rather than displacement, capacitance, infrared, or force. It complements the many joystick-grammar exhibits (Fairchild Channel F twist-grip, Bally pistol-grip) as the version that threw away the stick entirely."
+      }
+    ],
+    "team": [
+      {"name": "DataSoft Inc. (Chatsworth, CA)", "note": "Publisher; founded 1980 by Pat Ketchum, who sought to innovate joystick design."},
+      {"name": "Pat Ketchum", "note": "DataSoft founder; drove the Le Stick's motion-sensitive controller innovation."}
+    ],
+    "media": [
+      {"src": "../assets/wiki/le-stick.jpg", "alt": "The Le Stick base-less mercury-tilt controller", "caption": "Le Stick, DataSoft's 1981 base-less motion-sensitive controller (period photo, D.S. Cohen collection via About.com archives)."}
+    ],
+    "sources": [
+      {"text": "About.com (D.S. Cohen) — 'Le Stick — The First Motion Sensitive Joystick Controller' (archived)", "url": "https://web.archive.org/web/20090522173103/http://classicgames.about.com/od/consoleandhandheldgames/p/LeStickProfile.htm"},
+      {"text": "Wikipedia — Wii Remote (credits Le Stick as first motion-sensitive controller)", "url": "https://en.wikipedia.org/wiki/Wii_Remote"},
+      {"text": "Computer Entertainer Vol.1 No.6 (period review confirming mercury incline switches) — Wikimedia Commons", "url": "https://commons.wikimedia.org/wiki/File:Computer_Entertainer_1-6.pdf"}
+    ],
+    "imageUrls": [
+      "https://web.archive.org/web/20090522173103im_/http://z.about.com/d/classicgames/1/G/G/9/-/-/lestick1004.jpg"
+    ]
+  },
+  "savedImages": [
+    "images/le-stick.jpg"
+  ]
+}
