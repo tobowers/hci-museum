@@ -1,0 +1,46 @@
+{
+  "slug": "viewtouch",
+  "title": "ViewTouch (1986)",
+  "year": "1986",
+  "subtitle": "The first commercial graphical touchscreen point-of-sale system — finger-on-glass order entry replacing the physical register, built on an Atari ST with a MicroTouch capacitive overlay.",
+  "why_scout_cares": "ViewTouch is the museum's only retail/hospitality point-of-sale artifact and its first artifact where a consumer-facing worker runs a full business on a touchscreen. The interaction model is pure direct manipulation: waitstaff tap finger-tip zones on a capacitive overlay to place orders, reconfiguring an Atari ST into a register. It is the ancestor of every modern restaurant/pardon touchscreen POS, and it was built in 1986 by a restaurateur writing his own software — the digital register as personal craft. Distinct from every touchscreen in the museum (HP-150 desktop, Buick GCC dashboard, Tektronix) because the touching is done by production staff to drive a live business, and the screen is the entire machine.",
+  "search_terms": ["ViewTouch", "Gene Mosher", "touchscreen point of sale", "Atari ST", "MicroTouch overlay"],
+  "research": {
+    "title": "ViewTouch (1986)",
+    "year": "1986",
+    "by": "Gene Mosher (Syracuse, NY)",
+    "tags": ["HCI", "Touchscreen", "Retail", "Point of Sale", "Direct Manipulation"],
+    "overview": "ViewTouch is the first commercially deployed graphical touchscreen point-of-sale system. In 1986 restaurateur Gene Mosher bought an Atari ST computer and a MicroTouch resistive-capacitive touchscreen overlay from his Old Canal Cafe in Syracuse, New York, and wrote POS software that let waitstaff take orders by directly touching on-screen buttons — menu categories, items, modifiers, and table maps — replacing the paper ticket and the keypad electronic cash register. The hardware was a retail machine rather than a home computer: an Atari 520ST/1040ST (Motorola 68000) running under a 12-inch Atari SC1224 color CRT fitted with the MicroTouch overlay, mounted in a custom wooden enclosure with a Star Micronics DP8340 printer on top. Mosher had written his first POS software for the Apple II in 1978 (he owned Apple II serial #753 from the first manufacturing run).\n\nThe photo on Wikimedia Commons, taken by Barbara Mosher at the Atari booth at Comdex in Las Vegas on 17 November 1986, shows Mosher with a running ViewTouch system and is the primary image for the exhibit. ViewTouch went on to be used in dozens of restaurants and bars, and Mosher continued developing it for decades; today it survives as an open-source Linux/Raspberry Pi hospitality platform under the GNU GPL. The embodied interaction — staff driving a live business by fingertip on a color display, with no keyboard — is the direct ancestor of every modern touchscreen POS terminal.",
+    "deepDive": [
+      {
+        "heading": "Origins",
+        "text": "Mosher bought an Apple II in 1977 (serial 753) and began writing point-of-sale software for his restaurants in July 1978, running order-taking on an Apple II at the entrance of his Old Canal Cafe and printing cooking instructions for the kitchen. In 1986 he bought an Atari ST and a MicroTouch touchscreen overlay and built ViewTouch, the first commercial restaurant/bar POS using a graphical touchscreen interface, trademarking the name ViewTouch. The date 1986 is corroborated by the dated Comdex photograph (17 November 1986); some secondary sources say 1985, but Mosher's own timeline and the dated photo pin the commercial system to 1986."
+      },
+      {
+        "heading": "The interaction model",
+        "text": "ViewTouch is a pure direct-manipulation interface: waitstaff press finger-tip zones directly on a capacitive touch overlay mounted over an Atari ST's color display. There is no keyboard and no stylus — order entry is entirely by touching on-screen areas for menu categories, individual items, modifiers, and table maps. The screen IS the register and the checkout is a fistful of finger taps. The widget engine Mosher wrote for it is an unusually early direct-manipulation application framework. This pre-figures tablet-based restaurant ordering by two decades."
+      },
+      {
+        "heading": "Significance",
+        "text": "ViewTouch is a missing link in the story of touchscreen HCI: where most early touch machines were kiosks or lab instruments (HP-150 desktop computer, Buick Riviera dashboard), ViewTouch put a touchscreen in the hands of production service staff to drive a live business in real time — order entry, modifiers, table mapping, kitchen printing. It is the direct ancestor of the modern restaurant POS and of the tablet ordering that now dominates hospitality. It also embodies personal-scale computing: one businessman built the software, the hardware stack, and the deployment from a single well-furnished restaurant."
+      }
+    ],
+    "team": [
+      { "name": "Gene Mosher", "note": "Restaurateur and developer; sole creator of ViewTouch. Owned Apple II serial #753 (1977), wrote first POS software in 1978." },
+      { "name": "MicroTouch Systems", "note": "Maker of the capacitive touchscreen overlay used on the Atari SC1224 display." },
+      { "name": "Atari Corporation", "note": "Manufacturer of the Atari 520ST/1040ST computer and SC1224 color monitor." }
+    ],
+    "media": [
+      { "src": "https://commons.wikimedia.org/wiki/File:Comdex_1986.png", "alt": "Gene Mosher demonstrating ViewTouch on an Atari ST with a touchscreen", "caption": "ViewTouch running on an Atari ST at Comdex, Las Vegas, 17 November 1986. Photograph by Barbara Mosher, CC BY-SA 3.0." }
+    ],
+    "sources": [
+      { "text": "ViewTouch official site — Gene Mosher's account of the origin", "url": "https://www.viewtouch.com/" },
+      { "text": "Wikimedia Commons — File:Comdex 1986.png (CC BY-SA 3.0)", "url": "https://commons.wikimedia.org/wiki/File:Comdex_1986.png" },
+      { "text": "EVO Payments — An Early Look at the Evolution of Integrated Payments", "url": "https://evopayments.com/an-early-look-at-the-evolution-of-integrated-payments/" }
+    ],
+    "imageUrls": [
+      "https://upload.wikimedia.org/wikipedia/commons/5/5c/Comdex_1986.png"
+    ]
+  },
+  "savedImages": []
+}

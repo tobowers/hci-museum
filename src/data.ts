@@ -150,6 +150,19 @@ const exhibitData: Exhibit[] = [
     image: img("mandala-siggraph-1.jpg"),
   },
   {
+    id: "viewtouch",
+    slug: "viewtouch",
+    wikiTitle: "ViewTouch",
+    year: "1986",
+    sortYear: 1986,
+    title: "ViewTouch",
+    subtitle: "The first commercial touchscreen point-of-sale — finger-on-glass order entry on an Atari ST",
+    blurb:
+      "Restaurateur Gene Mosher fitted an Atari ST with a MicroTouch capacitive overlay, wrote his own direct-manipulation POS software, and let waitstaff run his Syracuse cafe by touching on-screen buttons instead of paper tickets. The screen became the register; the order was a handful of fingertip taps. A photograph shot by Barbara Mosher at Comdex on 17 November 1986 documents the system, and it is the direct ancestor of every modern touchscreen restaurant POS — and of tablet ordering.",
+    tags: ["Touchscreen", "Retail", "Point of Sale", "Direct Manipulation", "Consumer"],
+    image: img("viewtouch-comdex-1986.png"),
+  },
+  {
     id: "put-that-there",
     slug: "put-that-there",
     wikiTitle: "Put-That-There",
