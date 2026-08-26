@@ -1,6 +1,6 @@
 # The HCI Golden Age Wiki
 
-A research compendium for a digital museum of cutting-edge Human-Computer Interaction from the late 1970s through the early 1990s. These two hundred and thirteen projects mix canonical experiments with weird, forgotten, and beautiful vaporware — brain control, voice control, gesture, wearable computing, VR, robots, and full-body exertion.
+A research compendium for a digital museum of cutting-edge Human-Computer Interaction from the late 1970s through the early 1990s. These two hundred and fourteen projects mix canonical experiments with weird, forgotten, and beautiful vaporware — brain control, voice control, gesture, wearable computing, VR, robots, and full-body exertion.
 
 Each entry includes an overview, a deep dive, a small media gallery, and full source links so the images and facts can always be traced back.
 
@@ -221,6 +221,7 @@ Each entry includes an overview, a deep dive, a small media gallery, and full so
 212. [Velotype Synthetic Keyboard (1982)](#velotype-synthetic-keyboard-1982)
 213. [Fujitsu OASYS 100 Thumb-Shift Keyboard (1980)](#fujitsu-oasys-100-thumb-shift-keyboard-1980)
 214. [Le Stick (1981)](#le-stick-1981)
+215. [ViewTouch (1986)](#viewtouch-1986)
 
 ---
 
@@ -10350,3 +10351,33 @@ Commercially, Le Stick was a failure. No games, including DataSoft's own, were d
 1. About.com (D. S. Cohen) — Le Stick: The First Motion Sensitive Joystick Controller — https://web.archive.org/web/20090522173103/http://classicgames.about.com/od/consoleandhandheldgames/p/LeStickProfile.htm
 2. Wikipedia — Wii Remote — https://en.wikipedia.org/wiki/Wii_Remote
 3. Computer Entertainer Vol.1 No.6 — Wikimedia Commons — https://commons.wikimedia.org/wiki/File:Computer_Entertainer_1-6.pdf
+
+---
+
+## ViewTouch (1986)
+
+**By:** Gene Mosher (Syracuse, NY)
+**Tags:** `HCI` `Touchscreen` `Retail` `Point of Sale` `Direct Manipulation`
+
+### Overview
+
+ViewTouch is the first commercially deployed graphical touchscreen point-of-sale system. In 1986 restaurateur Gene Mosher bought an Atari ST computer and a MicroTouch capacitive touchscreen overlay for his Old Canal Cafe in Syracuse, New York, and wrote POS software that let waitstaff take orders by touching on-screen buttons — menu categories, items, modifiers, and table maps — replacing the paper ticket and the keypad electronic cash register. The hardware was a retail machine rather than a home computer: an Atari 520ST/1040ST (Motorola 68000) driving a 12-inch Atari SC1224 color CRT fitted with the MicroTouch overlay, mounted in a custom wooden enclosure with a Star Micronics DP8340 printer on top. Mosher had written his first POS software for the Apple II in 1978, having bought Apple II serial #753 from the company's first manufacturing run.
+
+The interaction is pure direct manipulation: staff press fingertip zones directly on the capacitive overlay with no keyboard and no stylus — the screen IS the register, and an order is a handful of finger taps. The widget engine Mosher wrote for it is an unusually early direct-manipulation application framework. A photograph taken by Barbara Mosher at the Atari booth at Comdex, Las Vegas, on 17 November 1986 shows Mosher with a running ViewTouch system and is the exhibit's primary image. ViewTouch went on to be used in restaurants and bars and survives today as an open-source Linux/Raspberry Pi hospitality platform under the GNU GPL — the continuation of a single business owner's hand-built touchscreen register.
+
+### Deep dive
+
+* **The touchscreen register.** ViewTouch is a missing link in the story of touchscreen HCI. Where most early touch machines were kiosks, lab instruments, or desktop computers (HP-150, Buick Riviera dashboard, Tektronix 7854), ViewTouch put a touchscreen in the hands of production service staff to drive a live business in real time — order entry, modifiers, table mapping, and kitchen printing. It is the direct ancestor of the modern restaurant POS and of tablet-based ordering, which it prefigures by two decades.
+* **Personal-scale computing.** The system embodies the one-woman-or-man shop of early software: Mosher wrote the software, specced the hardware (Atari ST + MicroTouch overlay + Star printer), and deployed it from his own cafe. He had been writing POS software since 1978, so ViewTouch was a decade of personal craft culminating in the first commercial graphical touchscreen register.
+* **Where it sits in the museum.** The museum has several touchscreen exhibits (HP-150 Touchscreen desktop computer as the most obvious parallel), but none is a point-of-sale terminal, and none is operated by a worker to run a live business. ViewTouch is the museum's only retail/hospitality POS artifact and the only touchscreen whose user is a professional cashier rather than a general desktop user.
+
+### Media
+
+![ViewTouch running on an Atari ST at Comdex, Las Vegas, 17 November 1986](../assets/wiki/viewtouch-comdex-1986.png)
+*Gene Mosher and a running ViewTouch system at the Atari booth, Comdex, Las Vegas, 17 November 1986. Photograph by Barbara Mosher, CC BY-SA 3.0, via Wikimedia Commons.*
+
+### Sources
+
+1. ViewTouch official site — Gene Mosher's account of the origin — https://www.viewtouch.com/
+2. Wikimedia Commons — File:Comdex 1986.png (CC BY-SA 3.0) — https://commons.wikimedia.org/wiki/File:Comdex_1986.png
+3. EVO Payments — An Early Look at the Evolution of Integrated Payments — https://evopayments.com/an-early-look-at-the-evolution-of-integrated-payments/
