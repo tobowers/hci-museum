@@ -1,6 +1,6 @@
 # The HCI Golden Age Wiki
 
-A research compendium for a digital museum of cutting-edge Human-Computer Interaction from the late 1970s through the early 1990s. These two hundred and fourteen projects mix canonical experiments with weird, forgotten, and beautiful vaporware — brain control, voice control, gesture, wearable computing, VR, robots, and full-body exertion.
+A research compendium for a digital museum of cutting-edge Human-Computer Interaction from the late 1970s through the early 1990s. These two hundred and seventeen projects mix canonical experiments with weird, forgotten, and beautiful vaporware — brain control, voice control, gesture, wearable computing, VR, robots, and full-body exertion.
 
 Each entry includes an overview, a deep dive, a small media gallery, and full source links so the images and facts can always be traced back.
 
@@ -222,6 +222,7 @@ Each entry includes an overview, a deep dive, a small media gallery, and full so
 213. [Fujitsu OASYS 100 Thumb-Shift Keyboard (1980)](#fujitsu-oasys-100-thumb-shift-keyboard-1980)
 214. [Le Stick (1981)](#le-stick-1981)
 215. [ViewTouch (1986)](#viewtouch-1986)
+216. [IBM 5265 Point of Sale Terminal / IBM 5260 Retail System (1979)](#ibm-5265-point-of-sale-terminal--ibm-5260-retail-system-1979)
 
 ---
 
@@ -10381,3 +10382,36 @@ The interaction is pure direct manipulation: staff press fingertip zones directl
 1. ViewTouch official site — Gene Mosher's account of the origin — https://www.viewtouch.com/
 2. Wikimedia Commons — File:Comdex 1986.png (CC BY-SA 3.0) — https://commons.wikimedia.org/wiki/File:Comdex_1986.png
 3. EVO Payments — An Early Look at the Evolution of Integrated Payments — https://evopayments.com/an-early-look-at-the-evolution-of-integrated-payments/
+
+---
+
+## IBM 5265 Point of Sale Terminal / IBM 5260 Retail System (1979)
+
+**By:** IBM General Systems Division
+**Tags:** `Retail` `Point of Sale` `Output` `Input` `Mechanical` `IBM`
+
+### Overview
+
+The IBM 5260 Retail System, built around the IBM 5265 point-of-sale terminal, was announced by IBM's General Systems Division on 8 January 1979, aimed at small retailers who could not justify a mainframe-connected store system. Unlike the larger IBM 3650/3660 store systems (which ran terminals over a Store Loop back to a shop-floor controller), the 5265 was a standalone register: transaction data was written to removable 8-inch floppy disks that could be physically carried to a back-office computer for processing. A single 5265 could operate on its own, cluster with up to ten terminals, or network via Binary Synchronous Communications to an IBM System/34, System/32, or System/3. A standalone system with the diskette terminal, keyboard, and cash drawer listed at $3,850 (or $131 a month on a three-year lease), with first deliveries slated for September 1979.
+
+The interaction is the point. This is the register at the tail end of the pre-screen era, and it talks to its human through paper and spinning machinery rather than pixels. Its operator is guided through every transaction not by a display but by a mechanically rotating cylinder of printed prompts; and the machine is reprogrammed on the spot by laying printed paper overlays across a deliberately awkward keyboard.
+
+### Deep dive
+
+* **The rolling-cylinder prompt.** The 5265's most striking interaction is how it guided its cashier. Instead of a screen, the operator read prompts from a mechanical rolling cylinder — a rotating tape of printed captions visible through a small window. As the transaction progressed, the cylinder advanced to bring the appropriate instruction into view. First-hand operators report that an accompanying manual included additional prompt stickers that could be added to or removed from the rotating cylinder, letting the retailer customize the guided dialogue. The machine's instructions literally live in physical, replaceable paper on a spinning drum — a software UI rendered as clockwork.
+* **Paper-overlay programming.** The 5265 was fully programmable at the register with no host connection. Programming was done by completing a 'personalisation questionnaire' and entering answers on the keyboard using a printed paper overlay placed over the keys. The keyboard was deliberately built with flat, oddly-sized chicklet keys that were not conducive to touch-typing — precisely because the paper overlays needed to drape across them, mapping software functions to physical key positions. This is software redefined as a paper template you lay on the machine: the program lives partly in the paper, partly in the keys.
+* **The small-retail story.** Operated by store staff with minimal technical training, the 5260 filled the space between mechanical cash registers and IBM's mainframe-scale retail systems. First-hand accounts recall units in toy stores and photo shops working reliably into the early 1990s; one operator first learned it at Lionel Kiddie City in 1978 and later ran the same model at Games N' Gadget's (later EB Games). The 5265 and its companion 5266 were withdrawn on 16 April 1986, shortly after the IBM 4680 Store System.
+* **Where it sits in the museum.** The museum's other retail-terminal exhibit is ViewTouch (1986), the first graphical touchscreen POS, where the human taps software-defined buttons on glass. The IBM 5265 is the opposite chapter of the same story: the register before the screen, where the machine guides and repurposes itself through a physical rotating-prompt drum and paper keyboard overlays. Where ViewTouch made the register a piece of software, the 5265 kept it a machine you had to rearrange physically.
+
+### Media
+
+![IBM 5260 retail system prototypes on display](../assets/wiki/ibm_5260_retail_prototypes.jpg)
+*IBM 5260 retail system prototypes, Norsk Teknisk Museum / CC BY-SA 4.0.*
+
+### Sources
+
+1. Wikipedia — IBM Retail Store Systems (IBM 5260 Retail System section, 5265 POS terminal) — https://en.wikipedia.org/wiki/IBM_Retail_Store_Systems
+2. The Vintage Point of Sale Site — IBM 5260 Retail Solution (first-hand operator account) — https://vintagepointofsale.com/2021/01/30/ibm-5260-retail-solution/
+3. Hagley Museum and Library — IBM 5260 Retail Solution documentary (YouTube) — https://www.youtube.com/
+4. Computerworld, 29 January 1979 — "IBM Unveils Two POS Systems Aimed at Small Retail Stores" — https://archive.org/details/sim_computerworld_1979-01-29_13_5
+5. Wikimedia Commons — File:IBM 5260 retail system prototypes (1).jpg (CC BY-SA 4.0) — https://commons.wikimedia.org/wiki/File:IBM_5260_retail_system_prototypes_(1).jpg

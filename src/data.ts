@@ -2661,6 +2661,19 @@ const exhibitData: Exhibit[] = [
     tags: ["Game Controller", "Motion", "Input", "Fluid Sensing"],
     image: img("le-stick.jpg"),
   },
+  {
+    id: "ibm-5265-retail-system",
+    slug: "ibm-5265-retail-system",
+    wikiTitle: "IBM 5265 Point of Sale Terminal / IBM 5260 Retail System",
+    year: "1979",
+    sortYear: 1979,
+    title: "IBM 5265 Point of Sale Terminal",
+    subtitle: "The register that guided its cashier with a rotating cylinder of printed prompts and was reprogrammed by laying paper overlays across deliberately awkward chicklet keys",
+    blurb:
+      "IBM's 5260 retail system is the point-of-sale register at the tail end of the pre-screen era. The operator is walked through every transaction by a mechanical rolling-cylinder prompt — a rotating tape of printed captions visible through a window, customizable with stickers — and the machine is reprogrammed on the spot by draping printed paper keyboard overlays across its oddly-sized chicklet keys. No display, no software metaphor: the instructions live in physical paper on a spinning drum.",
+    tags: ["Retail", "Point of Sale", "Output", "Input", "Mechanical"],
+    image: img("ibm_5260_retail_prototypes.jpg"),
+  },
 ];
 
 export const exhibits: Exhibit[] = exhibitData.toSorted((a, b) => b.sortYear - a.sortYear || a.title.localeCompare(b.title));
