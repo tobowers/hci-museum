@@ -1,0 +1,56 @@
+{
+  "slug": "ibm-3614-atm",
+  "title": "IBM 3614 Consumer Transaction Facility",
+  "year": "1973\u20131981",
+  "subtitle": "The first ATM that closed its own face on you: a self-closing safety-case window, a magnetic card you insert stripe-up, and a machine that could seize your card and keep it",
+  "why_scout_cares": "The museum curates strangers talking to machines. The IBM 3614 is the purest early embodiment of that: a full-banking ATM whose interface hides behind a powered protective shutter that opens to accept your card and closes itself 25 seconds after you finish — the machine literally shuts its own face on you. Conversations with the machine happened around a card you slide in stripe-up, the reverse of every modern ATM, and it could physically retain a suspected-stolen card and trigger an alarm. This is the self-service-banking / ATM gap in the collection, a completely untapped interactive family, and it has a verified public-domain period photograph.",
+  "search_terms": ["IBM 3614", "Consumer Transaction Facility", "ATM", "cash dispenser", "banking terminal", "self-service banking", "Docutel", "automated teller machine 1976"],
+  "research": {
+    "title": "IBM 3614 Consumer Transaction Facility",
+    "year": "1973\u20131981",
+    "by": "IBM Systems Communications Division (Kingston, NY)",
+    "tags": ["HCI", "Terminal", "Financial", "Self-service", "Physical"],
+    "overview": "The IBM 3614 Consumer Transaction Facility, sold as part of the IBM 3600 Finance Communication System, was announced on 10 August 1973 and withdrawn on 9 March 1981, so it spans the first half of the museum's window. It was a through-the-wall or free-standing self-service terminal that let a bank customer do far more than take cash: balance inquiries, deposits, bill payments, and check cashing, all driven by a 40-character display that chained prompts and corrected input errors as it guided the user through a transaction. A customer could run several transactions on a single card insertion ('transaction chaining'), and the machine could print receipts and accept deposits through optional modules.\n\nThe interaction is astonishingly embodied by modern standards. The customer inserts the card with the magnetic stripe facing up — the opposite of every modern ATM, which expects stripe-down — an early, hand-negotiated convention that later machines abandoned. A protective window with a 'safety clutch' covers the entire face of through-the-wall models; it opens only when a card is inserted and closes itself 25 seconds after the last transaction, giving the machine an almost animate sense of receiving you before locking back up. The unit also had a card-retention mechanism to seize suspected-stolen cards and raise a tamper alarm.\n\nDeployment was theatrical as well as financial: one IBM 3614 stood inside the Smithsonian, where visitors used a simulated bank card to obtain a copy of a pre-Civil War dollar bill, and another sat in an oak-panelled enclosure inside the Pentagon for the Virginia National Bank. Fidelity Bank branded its units 'ABBy (Anytime Banking Benefits You)'. Lloyds Bank ordered a hundred.",
+    "deepDive": [
+      {
+        "heading": "The face that shuts itself",
+        "text": "The signature interaction of the 3614 is its powered protective-window shutter. Across the front of through-the-wall units, a safety-clutch window covers the working face except for the card slot. It opens only after a card is inserted and closes itself 25 seconds after the last transaction completes. The user is therefore physically enclosed in a private transaction with the machine — an early, mechanical version of the privacy glass modern ATMs achieve with angles and tinting."
+      },
+      {
+        "heading": "Stripe-up and the card-retention drama",
+        "text": "Unlike modern machines, the 3614 expects the customer to slide the card with the magnetic stripe facing up, so the card's identity is read against the reader's contact geometry from below. It could physically retain a card suspected of being stolen, triggering a tamper alarm — the bank's fraud response was a mechanical act on a piece of plastic in the customer's hand."
+      },
+      {
+        "heading": "Prompt-driven dialogue",
+        "text": "All interaction flowed through a compact 40-character display that stepped the user through each function, correcting input errors as it went, in an era before graphical bank interfaces. A customer could chain several transactions on a single card insertion, and optional receipt and deposit modules extended the machine's reach beyond plain cash."
+      },
+      {
+        "heading": "Theatre of self-service",
+        "text": "The 3614 found a home in genuinely weird places: a Smithsonian branch where a simulated bank card dispensed a reproduction of a pre-Civil War dollar bill, and an oak-panelled enclosure inside the Pentagon operated by Virginia National Bank. The ATM as museum display is a lens the museum, itself a museum, particularly enjoys."
+      },
+      {
+        "heading": "Where it sits in the museum",
+        "text": "The collection has Quotron II (a Wall Street market-data terminal) and the IBM 5265 POS (a retail register) but no automated-teller / self-service banking artifact. The IBM 3614 fills that entire gap with an interaction model — a machine that opens its own face to accept your card, then closes it again — unlike anything else on display."
+      }
+    ],
+    "team": [
+      { "name": "IBM Systems Communications Division", "note": "Builder of the 3600 Finance Communication System line, Kingston NY" }
+    ],
+    "media": [
+      {
+        "src": "https://commons.wikimedia.org/wiki/File:IBM_3614_(I19760708).jpg",
+        "alt": "The IBM 3614 Consumer Transaction Facility ATM as a full machine",
+        "caption": "IBM 3614 Consumer Transaction Facility, from the Polish magazine Informatyka, 1976. Public domain, via Wikimedia Commons."
+      }
+    ],
+    "sources": [
+      { "text": "Wikipedia — IBM banking equipment (3614/2984 section)", "url": "https://en.wikipedia.org/wiki/IBM_banking_equipment" },
+      { "text": "Wikipedia — Cash machine (History; Smithsonian/Pentagon context)", "url": "https://en.wikipedia.org/wiki/Cash_machine" },
+      { "text": "Wikimedia Commons — File:IBM 3614 (I19760708).jpg (public domain)", "url": "https://commons.wikimedia.org/wiki/File:IBM_3614_(I19760708).jpg" }
+    ],
+    "imageUrls": [
+      "https://commons.wikimedia.org/wiki/File:IBM_3614_(I19760708).jpg"
+    ]
+  },
+  "savedImages": ["potential/ibm-3614-atm/images/ibm-3614-atm.jpg"]
+}

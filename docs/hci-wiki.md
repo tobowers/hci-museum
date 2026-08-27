@@ -1,6 +1,6 @@
 # The HCI Golden Age Wiki
 
-A research compendium for a digital museum of cutting-edge Human-Computer Interaction from the late 1970s through the early 1990s. These two hundred and seventeen projects mix canonical experiments with weird, forgotten, and beautiful vaporware — brain control, voice control, gesture, wearable computing, VR, robots, and full-body exertion.
+A research compendium for a digital museum of cutting-edge Human-Computer Interaction from the late 1970s through the early 1990s. These two hundred and nineteen projects mix canonical experiments with weird, forgotten, and beautiful vaporware — brain control, voice control, gesture, wearable computing, VR, robots, and full-body exertion.
 
 Each entry includes an overview, a deep dive, a small media gallery, and full source links so the images and facts can always be traced back.
 
@@ -223,6 +223,8 @@ Each entry includes an overview, a deep dive, a small media gallery, and full so
 214. [Le Stick (1981)](#le-stick-1981)
 215. [ViewTouch (1986)](#viewtouch-1986)
 216. [IBM 5265 Point of Sale Terminal / IBM 5260 Retail System (1979)](#ibm-5265-point-of-sale-terminal--ibm-5260-retail-system-1979)
+217. [IBM 3614 Consumer Transaction Facility (1973–1981)](#ibm-3614-consumer-transaction-facility-1973-1981)
+218. [Rockwell Collins EFIS / Boeing 757 Glass Cockpit (1982–1983)](#rockwell-collins-efis--boeing-757-glass-cockpit-1982-1983)
 
 ---
 
@@ -10415,3 +10417,69 @@ The interaction is the point. This is the register at the tail end of the pre-sc
 3. Hagley Museum and Library — IBM 5260 Retail Solution documentary (YouTube) — https://www.youtube.com/
 4. Computerworld, 29 January 1979 — "IBM Unveils Two POS Systems Aimed at Small Retail Stores" — https://archive.org/details/sim_computerworld_1979-01-29_13_5
 5. Wikimedia Commons — File:IBM 5260 retail system prototypes (1).jpg (CC BY-SA 4.0) — https://commons.wikimedia.org/wiki/File:IBM_5260_retail_system_prototypes_(1).jpg
+
+---
+
+## IBM 3614 Consumer Transaction Facility (1973\u20131981)
+
+**By:** IBM Systems Communications Division (Kingston, NY)
+**Tags:** `Terminal` `Financial` `Self-service` `Input` `Physical`
+
+### Overview
+
+The IBM 3614 Consumer Transaction Facility, sold as part of the IBM 3600 Finance Communication System, was announced on 10 August 1973 and withdrawn on 9 March 1981, spanning the first half of the museum's window. It was a through-the-wall or free-standing self-service terminal that let a bank customer do far more than withdraw cash: balance inquiries, deposits, bill payments, and check cashing, all driven by a 40-character display that chained prompts and corrected input errors, with several transactions possible on a single card insertion ('transaction chaining').
+
+The interaction is astonishingly embodied by modern standards. The customer inserts the card with the magnetic stripe facing up — the opposite of every modern ATM, which expects stripe-down — an early, hand-negotiated convention that later machines abandoned. A protective window with a 'safety clutch' covers the entire face of through-the-wall models; it opens only when a card is inserted and closes itself 25 seconds after the last transaction, giving the machine an almost animate sense of receiving you before locking back up. The unit could also physically retain a suspected-stolen card and raise a tamper alarm.
+
+Deployment was theatrical as well as financial: one 3614 stood inside the Smithsonian, where visitors used a simulated bank card to obtain a copy of a pre-Civil War dollar bill, and another sat in an oak-panelled enclosure inside the Pentagon for the Virginia National Bank. Fidelity Bank branded its units 'ABBy (Anytime Banking Benefits You)'.
+
+### Deep dive
+
+* **The face that shuts itself.** The signature interaction of the 3614 is its powered protective-window shutter. Across the front of through-the-wall units, a safety-clutch window covers the working face except for the card slot. It opens only after a card is inserted and closes itself 25 seconds after the last transaction completes. The user is therefore physically enclosed in a private transaction with the machine — an early, mechanical version of the privacy glass modern ATMs achieve with angles and tinting.
+* **Stripe-up and the card-retention drama.** Unlike modern machines, the 3614 expects the customer to slide the card with the magnetic stripe facing up, so the card's identity is read against the reader's contact geometry from below. It could physically retain a card suspected of being stolen, triggering a tamper alarm — the bank's fraud response was a mechanical act on a piece of plastic in the customer's hand.
+* **Prompt-driven dialogue.** All interaction flowed through a compact 40-character display that stepped the user through each function, correcting input errors as it went, in an era before graphical bank interfaces. A customer could chain several transactions on a single card insertion, and optional receipt and deposit modules extended the machine's reach beyond plain cash.
+* **Where it sits in the museum.** The collection has Quotron II (a Wall Street market-data terminal) and the IBM 5265 POS (a retail register) but no automated-teller or self-service banking artifact. The IBM 3614 fills that gap with an interaction model — a machine that opens its own face to accept your card, then closes it again — unlike anything else on display.
+
+### Media
+
+![IBM 3614 Consumer Transaction Facility](../assets/wiki/ibm-3614-atm.jpg)
+*IBM 3614 Consumer Transaction Facility, from the Polish magazine Informatyka, 1976. Public domain, via Wikimedia Commons.*
+
+### Sources
+
+1. Wikipedia — IBM banking equipment (3614/2984 section) — https://en.wikipedia.org/wiki/IBM_banking_equipment
+2. Wikipedia — Cash machine (History; Smithsonian/Pentagon context) — https://en.wikipedia.org/wiki/Cash_machine
+3. Wikimedia Commons — File:IBM 3614 (I19760708).jpg (public domain) — https://commons.wikimedia.org/wiki/File:IBM_3614_(I19760708).jpg
+
+---
+
+## Rockwell Collins EFIS / Boeing 757 Glass Cockpit (1982\u20131983)
+
+**By:** Rockwell Collins / Collins Avionics (Cedar Rapids, IA)
+**Tags:** `Aviation` `Display` `CRT` `Safety-critical` `Physical`
+
+### Overview
+
+The Boeing 757, which first flew on 19 February 1982, was certified on 21 December 1982 and entered revenue service on 1 January 1983 with Eastern Air Lines, became the first commercial airliner with a fully electronic CRT color 'glass cockpit' that removed the flight engineer's position to leave a two-pilot deck. Its Electronic Flight Instrument System (EFIS), built by Rockwell Collins, replaced the electro-mechanical attitude indicator, horizontal situation indicator, and the flight engineer's entire instrument panel with a pair of Electronic Attitude Director Indicators (EADI) and a pair of Electronic Horizontal Situation Indicators (EHSI), driven by symbol generators and controlled from small EFIS control panels. The same Collins EFIS went into the concurrent Boeing 767 (sharing a common type rating with the 757).
+
+The reading model is the interaction. Each EADI superimposes airspeed tape and fast/slow pointer, altitude, radio altitude with a decision-height alert, Mach readout, ILS localizer and glideslope deviation, flight-director command bars, a pitch-limit symbol, a rising-runway symbol, and autopilot/autothrottle mode annunciations — around a simulated attitude sphere. Data is decluttered automatically (the glideslope scale appears only on approach; pitching beyond 30\u201360 degrees strips non-critical symbology). Color is a semantic state machine: an armed glideslope caption is blue and turns green on capture; deviation scales turn white to amber and flash on ILS excursion; the decision-height readout enlarges and flashes amber at the alert. Physical control lives on the EFIS Control Panel, a compact rack box per pilot with keyshow pushbutton switches for EHSI modes (MAP / VOR / ILS / PLAN / CENTRE-MAP), a range selector, a weather-radar switch, and a decision-height set/reset.
+
+### Deep dive
+
+* **Two CRTs replace six instruments and a flight engineer.** The 757/767 cockpit consolidated attitude, heading, flight-director, navigation, and systems data onto two square color CRTs per pilot plus a modest center panel, eliminating the flight engineer station. This is the single most consequential interface consolidation in civil-aviation history and the origin of the airliner 'glass cockpit'.
+* **Color as a state machine.** The human-factors novelty is that color has fixed meaning instead of decoration. An armed caption is blue; on capture it turns green. Deviation scales progress white to amber and flash on an excursion. The decision-height readout enlarges and flashes amber at the alert. The pilot is trained to read status off the color of a symbol rather than its position alone.
+* **Declutter and the rising runway.** The display automatically removes non-critical symbology by flight condition: the glideslope scale appears only on approach, and extreme pitch strips extraneous data. The most memorable cue is the 'rising runway' symbol — a graphic runway wedge that physically grows up the screen across the last 200 feet of radio altitude, ticking toward the airplane glyph. A descending aircraft feels its destination approach on screen.
+* **The EFIS control panel.** The physical control surface is a compact keyshow panel per pilot: pushbutton mode switches (MAP / VOR / ILS / PLAN / CENTRE-MAP), a range selector, a weather-radar switch, and a decision-height set/reset. The pilot steers what the CRTs show with a handful of physical keys before ever touching the automation.
+* **Where it sits in the museum.** The museum is nearly all consumer, laboratory, and game interfaces. The glass cockpit is the museum's first aircraft HCI — a safety-critical, professionally embedded display race, the moment the picture tube replaced the frozen needle-and-ball gauge in the most demanding real-time interface a human operates.
+
+### Media
+
+![Boeing 747-400 Primary Flight Display and Navigation Display](../assets/wiki/b747-400-pfd-nd.jpg)
+*The CRT glass-cockpit Primary Flight Display and Navigation Display on a Boeing 747-400, shown to represent the Collins glass-cockpit reading interface introduced on the 757/767. Public domain (self-work, released by copyright holder), via Wikimedia Commons.*
+
+### Sources
+
+1. Wikipedia — Boeing 757 (glass cockpit, two-crew, dates) — https://en.wikipedia.org/wiki/Boeing_757
+2. Electronic Flight Instrument System (Wikipedia) — https://en.wikipedia.org/wiki/Electronic_flight_instrument_system
+3. Boeing 757/767 technical manual — EFIS system architecture, EADI, EHSI — http://hibdz.skydiving.co.uk/757/767_tech/flight_instruments/efis.htm
+4. Wikimedia Commons — File:ND en PFD on B-747-400.jpg (public domain) — https://commons.wikimedia.org/wiki/File:ND_en_PFD_on_B-747-400.jpg

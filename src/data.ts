@@ -2674,6 +2674,32 @@ const exhibitData: Exhibit[] = [
     tags: ["Retail", "Point of Sale", "Output", "Input", "Mechanical"],
     image: img("ibm_5260_retail_prototypes.jpg"),
   },
+  {
+    id: "ibm-3614-atm",
+    slug: "ibm-3614-atm",
+    wikiTitle: "IBM 3614 Consumer Transaction Facility",
+    year: "1973\u20131981",
+    sortYear: 1973,
+    title: "IBM 3614 Consumer Transaction Facility",
+    subtitle: "The ATM that closed its own face on you: a self-closing safety-case shutter, stripe-up card insertion, and a machine that could seize your card and keep it",
+    blurb:
+      "IBM's 3614 is the first ATM that felt like a host receiving a guest. Its interface hides behind a powered protective-window shutter that opens only when you insert your card (stripe-up, the reverse of modern ATMs) and closes itself 25 seconds after your last transaction. It could run full bank transactions on a 40-character display, chain several on one card, and physically retain a suspected-stolen card. One unit dispensed reproductions of pre-Civil War dollar bills in the Smithsonian.",
+    tags: ["Terminal", "Financial", "Self-service", "Input", "Physical"],
+    image: img("ibm-3614-atm.jpg"),
+  },
+  {
+    id: "collins-efis-glass-cockpit",
+    slug: "collins-efis-glass-cockpit",
+    wikiTitle: "Rockwell Collins EFIS / Boeing 757 Glass Cockpit",
+    year: "1982\u20131983",
+    sortYear: 1982,
+    title: "Rockwell Collins EFIS — Boeing 757 Glass Cockpit",
+    subtitle: "The first CRT glass cockpit in an airliner: two color EADIs and EHSIs, a keyshow control panel, and a rising-runway symbol that grows up the screen as you descend",
+    blurb:
+      "The Boeing 757/767 flight deck was the first commercial airliner cockpit to replace the electromechanical instruments and the flight engineer with two color CRTs per pilot, driven by Collins EFIS. The interaction is a human-factors novelty: color is a semantic state machine (armed captions blue, green on capture), data declutters itself by flight condition, and a rising-runway symbol literally grows up the screen over the final 200 feet. Cybernetically the most demanding real-time interface a human operates.",
+    tags: ["Aviation", "Display", "CRT", "Safety-critical", "Physical"],
+    image: img("b747-400-pfd-nd.jpg"),
+  },
 ];
 
 export const exhibits: Exhibit[] = exhibitData.toSorted((a, b) => b.sortYear - a.sortYear || a.title.localeCompare(b.title));
