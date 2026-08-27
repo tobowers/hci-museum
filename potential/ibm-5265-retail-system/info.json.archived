@@ -1,0 +1,49 @@
+{
+  "slug": "ibm-5265-retail-system",
+  "title": "IBM 5265 Point of Sale Terminal / IBM 5260 Retail System",
+  "year": "1979",
+  "subtitle": "The register that guided cashiers with a mechanical rolling-cylinder prompt and was reprogrammed by draping paper overlays across oddly-sized chicklet keys",
+  "why_scout_cares": "Two gloriously physical interaction ideas in one retail terminal. The cashier is walked through every transaction by a literal rotating cylinder of printed prompts visible through a window (with customizable stickers), and the register is reprogrammed on the spot by placing printed paper keyboard overlays over deliberately awkward chicklet keys. Before touchscreens and software UI, this machine taught and repurposed itself through paper and a spinning drum — the mechanical equivalent of ViewTouch's later on-screen widgets.",
+  "search_terms": ["IBM 5265", "IBM 5260", "retail terminal", "point of sale", "rolling cylinder prompt", "paper keyboard overlay", "POS terminal 1979"],
+  "research": {
+    "title": "IBM 5265 Point of Sale Terminal / IBM 5260 Retail System",
+    "year": "1979",
+    "by": "IBM General Systems Division",
+    "tags": ["Retail", "Point of Sale", "Output", "Input", "Mechanical", "IBM"],
+    "overview": "The IBM 5260 Retail System, built around the IBM 5265 point-of-sale terminal, was announced by IBM's General Systems Division on 8 January 1979, aimed at small retailers who could not justify a mainframe-connected store system. Unlike the larger IBM 3650/3660 store systems (which ran terminals over a Store Loop back to a shop-floor controller), the 5265 was a standalone register: transaction data was written to removable 8-inch floppy disks that could be physically carried to a back-office computer for processing. A single 5265 could operate on its own, cluster with up to ten terminals, or network via Binary Synchronous Communications to an IBM System/34, System/32, or System/3. A standalone system with the diskette terminal, keyboard, and cash drawer listed at $3,850 (or $131 a month on a three-year lease), with first deliveries slated for September 1979.",
+    "deepDive": [
+      {
+        "heading": "The rolling-cylinder prompt",
+        "text": "The 5265's most striking interaction is how it guided its operator. Rather than a screen, the cashier read prompts from a mechanical rolling cylinder — a rotating tape of printed captions visible through a small window. As the transaction progressed, the cylinder advanced to bring the appropriate instruction into view. First-hand operators report that an accompanying manual included additional prompt stickers that could be added to or removed from the rotating cylinder, letting the retailer customize the guided dialogue. The machine's instructions literally live in physical, replaceable paper on a spinning drum."
+      },
+      {
+        "heading": "Paper-overlay programming",
+        "text": "The 5265 was fully programmable at the register with no host connection. Programming was done by completing a 'personalisation questionnaire' and entering answers on the keyboard using a printed paper overlay placed over the keys. The keyboard was deliberately built with flat, oddly-sized chicklet keys that were not conducive to touch-typing — precisely because the paper overlays needed to drape across them, mapping software functions to physical key positions. This is software redefined as a paper template you lay on the machine: the program lives partly in the paper, partly in the keys."
+      },
+      {
+        "heading": "The small-retail story",
+        "text": "Operated by store staff with minimal technical training, the 5260 filled the space between mechanical cash registers and IBM's mainframe-scale retail systems. First-hand accounts recall units in toy stores and photo shops through the early 1990s, beaten up but reliable. The 5265 and its companion 5266 were withdrawn on 16 April 1986, shortly after the IBM 4680 Store System. It represents the tail end of the pre-screen register: a thinking machine that spoke to its human through paper and a spinning drum."
+      }
+    ],
+    "team": [
+      { "name": "IBM General Systems Division", "note": "Manufacturer of the 5260 Retail System and 5265 POS terminal; also responsible for the System/34-family mini-computers the 5260 could network to." }
+    ],
+    "media": [
+      {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/4/46/IBM_5260_retail_system_prototypes_%281%29.jpg",
+        "alt": "IBM 5260 retail system prototypes on display at a technology museum",
+        "caption": "IBM 5260 retail system prototypes, Norsk Teknisk Museum / CC BY-SA 4.0"
+      }
+    ],
+    "sources": [
+      { "text": "Wikipedia — IBM Retail Store Systems (IBM 5260 section, 5265 POS terminal)", "url": "https://en.wikipedia.org/wiki/IBM_Retail_Store_Systems" },
+      { "text": "The Vintage Point of Sale Site — IBM 5260 Retail Solution (first-hand operator account)", "url": "https://vintagepointofsale.com/2021/01/30/ibm-5260-retail-solution/" },
+      { "text": "Hagley Museum and Library — IBM 5260 Retail Solution documentary (YouTube)", "url": "https://www.youtube.com/" },
+      { "text": "Computerworld, 29 January 1979 — 'IBM Unveils Two POS Systems Aimed at Small Retail Stores'", "url": "https://archive.org/details/sim_computerworld_1979-01-29_13_5" }
+    ],
+    "imageUrls": [
+      "https://upload.wikimedia.org/wikipedia/commons/4/46/IBM_5260_retail_system_prototypes_%281%29.jpg"
+    ]
+  },
+  "savedImages": ["ibm_5260_retail_prototypes.jpg"]
+}
