@@ -1,0 +1,66 @@
+{
+  "slug": "mattel-intellivision",
+  "title": "Mattel Intellivision",
+  "year": "1979",
+  "subtitle": "The console that made a telephone keypad a game controller and let a printed paper card redefine every button",
+  "why_scout_cares": "The Intellivision's distinctive interaction is its hand controller: a 12-button telephone-style keypad whose function is reprogrammed by sliding a printed paper overlay over it — plus a free-spinning 16-direction disc for movement. Every cartridge shipped with two plastic overlays that turn one generic numeric keypad into a game-specific command surface (the museum's only 'printed paper redefines a hardware keyboard' interface, cousin to the HP-150 touch template and Sharp Wizard cards but as a game input). The wandering disc, the telephone keypad, and the overlay-templated buttons together make it the museum's first overlay-programmable console controller, distinct from every other console input in the collection.",
+  "search_terms": [
+    "Intellivision controller overlay",
+    "intellivision keypad disc controller 1979",
+    "mattel electronics intellivision hand controller",
+    "intellivision plastic overlays",
+    "intellivision free-spinning disc 16 directions"
+  ],
+  "research": {
+    "title": "Mattel Intellivision (1979)",
+    "year": "1979",
+    "by": "Mattel Electronics (Hawthorne, CA)",
+    "tags": ["HCI", "Input", "Game Console", "Keypad", "Controller", "Overlay", "Home Computer"],
+    "overview": "The Intellivision (portmanteau of 'intelligent television') is a home video game console released by Mattel Electronics in 1979, after a development that began as a proposed modular home computer at Mattel's Preliminary Design department. Led by hardware engineer David Chandler (with executive software written by David Rolfe's APh Technological Consulting and the first games programmed there and in-house after 1980), it shipped with disk-shaped hand controllers that remain one of the most distinctive input designs of the era. By 1981 Mattel Electronics had close to 20% of the domestic video-game market and sold more than 3.75 million consoles and 20 million cartridges through 1983; it was produced through 1990 (from 1984 by INTV Corporation). It was also branded and sold by GTE Sylvania, Sears (Super Video Arcade), and Radio Shack (Tandyvision One).",
+    "deepDive": [
+      {
+        "heading": "The hand controller: a telephone keypad that a paper overlay reprograms",
+        "text": "Each Intellivision hand controller is a two-handed disc with a 12-button keypad (0-9, Clear, Enter) flanked by a free-spinning plastic disc that scrolls through up to 16 directional positions, plus two side buttons and a rotating thumbwheel to the side. The controllers are mirror-image for left and right hands and designed to sit in cubic recesses on the console. The defining interaction is the keypad overlay: every cartridge shipped with two printed plastic overlays that slide down over the keypad, labeling the 12 buttons and the disc with that game's commands. One generic numeric keypad becomes a sports playbook, a strategy command grid, or a set of text keys depending on which paper card you snap on. The hardware buttons don't change — only the meaning, supplied by the printed insert the player physically presses against the membrane pad."
+      },
+      {
+        "heading": "The free-spinning 16-direction disc",
+        "text": "Instead of a conventional 4- or 8-way joystick, the Intellivision pairs the keypad with a smooth plastic disc that the player rolls with the thumb or finger to scroll through discrete directions (up to 16, depending on the game) — a continuous analog wheel translated into discrete directional steps, letting players move smoothly without picking the stick up. The disc's rotation maps onto the game's movement across a virtual grid. Combined with the programmable keypad, it gave developers a two-channel input (continuous motion + gated commands) unusual for a mass-market console of 1979."
+      },
+      {
+        "heading": "Designed as a home computer, shipped as a console",
+        "text": "The Intellevision was conceived as a modular home computer 'to bring data flow into the home.' The ambitious Keyboard Component (code-named Blue Whale), which would add a typewriter keyboard and tape drive for BASIC and videotex, was repeatedly delayed and eventually cancelled in 1982 after ~4,000 units were made — famously prompting an FTC inquiry and the line that the keyboard, like the check in the mail, was always 'coming in spring.' The cheaper Entertainment Computer System (ECS, 1983) fulfilled a diluted version of the promise. These hardware-vision failures are part of the Intellivision's story: a console that promised to be a computer and shipped a paper-overlaid keypad as its interface to software."
+      },
+      {
+        "heading": "Legacy of the interaction",
+        "text": "The overlay-programmable keypad was a genuinely influential idea — it let a fixed physical keyboard be instantly repurposed for any game, a physical ancestor of software-defined touch controls, and its memory lives in the contrast the museum draws with touch-and-touch-template devices (HP-150) and modular transparent-card information appliances (Sharp Wizard, Casio PB-1000). The Intellivision also added the Intellivoice speech synthesis module (1982, GI SP0256). It is remembered today partly through IGN's 2009 ranking as the #14 greatest console of all time, and through its enduring 'the closest thing to the real thing' advertising."
+      }
+    ],
+    "team": [
+      { "name": "David Chandler", "note": "Director of Product Engineering; led hardware and hand-controller engineering" },
+      { "name": "Richard Chang", "note": "Mechanical engineer and director of Intellivision software; initiated the microprocessor console vision" },
+      { "name": "David Rolfe / APh Technological Consulting", "note": "Wrote the Exec executive software and the first launch library" },
+      { "name": "Hal Finney", "note": "Contributed sound and music routines to the Exec" },
+      { "name": "Mattel Electronics", "note": "Manufacturer and publisher (1979-1984); INTV Corporation continued it to 1990" }
+    ],
+    "media": [
+      { "src": "https://upload.wikimedia.org/wikipedia/commons/2/21/Intellivision-Controller.jpg", "alt": "Intellivision hand controller with 12-button keypad and disc", "caption": "The Intellivision hand controller: 12-button telephone keypad + free-spinning disc. CC BY-SA 3.0, Evan-Amos, via Wikimedia Commons." },
+      { "src": "https://upload.wikimedia.org/wikipedia/commons/1/15/Mattel-Intellivision-Console-FL.jpg", "alt": "Mattel Intellivision console", "caption": "Mattel Intellivision Master Component. Public domain, Evan-Amos, via Wikimedia Commons." },
+      { "src": "https://upload.wikimedia.org/wikipedia/commons/f/fc/Intellivision-Console-Set.png", "alt": "Intellivision console set with controllers", "caption": "Intellivision console set. CC BY-SA 3.0, Evan-Amos, via Wikimedia Commons." }
+    ],
+    "sources": [
+      { "text": "Wikipedia — Intellivision", "url": "https://en.wikipedia.org/wiki/Intellivision" },
+      { "text": "Wikimedia Commons — Intellivision Controller.jpg (CC BY-SA 3.0)", "url": "https://commons.wikimedia.org/wiki/File:Intellivision-Controller.jpg" },
+      { "text": "Wikimedia Commons — Mattel-Intellivision-Console-FL.jpg (Public domain)", "url": "https://commons.wikimedia.org/wiki/File:Mattel-Intellivision-Console-FL.jpg" }
+    ],
+    "imageUrls": [
+      "https://upload.wikimedia.org/wikipedia/commons/2/21/Intellivision-Controller.jpg",
+      "https://upload.wikimedia.org/wikipedia/commons/1/15/Mattel-Intellivision-Console-FL.jpg",
+      "https://upload.wikimedia.org/wikipedia/commons/f/fc/Intellivision-Console-Set.png"
+    ]
+  },
+  "savedImages": [
+    "assets/wiki/intellivision-controller.jpg",
+    "assets/wiki/intellivision-console.jpg",
+    "assets/wiki/intellivision-console-set.png"
+  ]
+}

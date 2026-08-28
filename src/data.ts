@@ -2739,6 +2739,32 @@ const exhibitData: Exhibit[] = [
     tags: ["Output", "Physical", "Graphics", "Home Computer"],
     image: img("polaroid-digital-palette-hr6000.jpg"),
   },
+  {
+    id: "mattel-intellivision",
+    slug: "mattel-intellivision",
+    wikiTitle: "Mattel Intellivision",
+    year: "1979",
+    sortYear: 1979,
+    title: "Mattel Intellivision",
+    subtitle: "The console that turned a telephone keypad into a game controller and let a printed paper card redefine every button",
+    blurb:
+      "The Intellivision's whole interaction lives in its two mirror-image hand controllers: a 12-button telephone-style keypad flanked by a free-spinning 16-direction disc. What makes it strange and worth the museum's care is the overlay: every cartridge shipped with two printed plastic overlays that slide down over the keypad and relabel those twelve buttons — a sports playbook, a strategy grid, a set of text keys — depending on which paper card you press against the membrane. One generic numeric keypad becomes any game's command surface, a physical ancestor of software-defined controls, and the museum's only printed-paper-reprograms-a-hardware-keyboard interface. The same controllers' wandering disc gave continuous analog motion beside the gated keypad.",
+    tags: ["Input", "Game Console", "Keypad", "Controller", "Overlay", "Home Computer"],
+    image: img("intellivision-controller.jpg"),
+  },
+  {
+    id: "amana-touchmatic-radarange",
+    slug: "amana-touchmatic-radarange",
+    wikiTitle: "Amana Touchmatic Radarange",
+    year: "1975",
+    sortYear: 1975,
+    title: "Amana Touchmatic Radarange",
+    subtitle: "The first microprocessor control panel on a household appliance — cooking becomes programming",
+    blurb:
+      "Until 1975 a microwave's controls were a mechanical dial and a knob. The Amana Touchmatic Radarange (RR-6, 1975; the line ran through the late 1970s and early 1980s, with a 1978 RR5-6 preserved by the Science Museum Group) replaced them with a microprocessor and a digital touch keypad — press keys to set cook time, defrost-by-time, temperature, and staged or held programs, watch the bright clock count down, wait for the beep. It is the moment a computer's brains entered the kitchen, the ur-example of 'brains replace the dial.' The museum already keeps the machine-tool interrogator (TNC 110), the lab instrument (Tektronix 7854), and the automotive dashboard (Buick Riviera GCC); the Touchmatic is the same boundary crossing as it happened on the most ordinary household surface of all.",
+    tags: ["Input", "Home Appliance", "Microprocessor", "Keypad", "Display", "Consumer"],
+    image: img("amana-radarange.jpg"),
+  },
 ];
 
 export const exhibits: Exhibit[] = exhibitData.toSorted((a, b) => b.sortYear - a.sortYear || a.title.localeCompare(b.title));
