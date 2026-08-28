@@ -1,6 +1,6 @@
 # The HCI Golden Age Wiki
 
-A research compendium for a digital museum of cutting-edge Human-Computer Interaction from the late 1970s through the early 1990s. These two hundred and nineteen projects mix canonical experiments with weird, forgotten, and beautiful vaporware — brain control, voice control, gesture, wearable computing, VR, robots, and full-body exertion.
+A research compendium for a digital museum of cutting-edge Human-Computer Interaction from the late 1970s through the early 1990s. These two hundred and twenty-one projects mix canonical experiments with weird, forgotten, and beautiful vaporware — brain control, voice control, gesture, wearable computing, VR, robots, and full-body exertion.
 
 Each entry includes an overview, a deep dive, a small media gallery, and full source links so the images and facts can always be traced back.
 
@@ -225,6 +225,9 @@ Each entry includes an overview, a deep dive, a small media gallery, and full so
 216. [IBM 5265 Point of Sale Terminal / IBM 5260 Retail System (1979)](#ibm-5265-point-of-sale-terminal--ibm-5260-retail-system-1979)
 217. [IBM 3614 Consumer Transaction Facility (1973–1981)](#ibm-3614-consumer-transaction-facility-1973-1981)
 218. [Rockwell Collins EFIS / Boeing 757 Glass Cockpit (1982–1983)](#rockwell-collins-efis--boeing-757-glass-cockpit-1982-1983)
+219. [Cochlear Nucleus 22 / Mini Speech Processor (1989)](#cochlear-nucleus-22--mini-speech-processor-1989)
+220. [Ascom B8050 QuickFare (1989)](#ascom-b8050-quickfare-1989)
+221. [Polaroid Digital Palette (1986)](#polaroid-digital-palette-1986)
 
 ---
 
@@ -10483,3 +10486,103 @@ The reading model is the interaction. Each EADI superimposes airspeed tape and f
 2. Electronic Flight Instrument System (Wikipedia) — https://en.wikipedia.org/wiki/Electronic_flight_instrument_system
 3. Boeing 757/767 technical manual — EFIS system architecture, EADI, EHSI — http://hibdz.skydiving.co.uk/757/767_tech/flight_instruments/efis.htm
 4. Wikimedia Commons — File:ND en PFD on B-747-400.jpg (public domain) — https://commons.wikimedia.org/wiki/File:ND_en_PFD_on_B-747-400.jpg
+
+---
+
+## Cochlear Nucleus 22 / Mini Speech Processor (1989)
+
+**By:** Cochlear Limited (Sydney, Australia), from Graeme Clark's implant program at the University of Melbourne
+**Tags:** `Assistive` `Output` `Wearable` `Medical` `Clinical`
+
+### Overview
+
+The Cochlear Nucleus 22 is the multi-channel cochlear implant system that grew out of Graeme Clark's research at the University of Melbourne and was commercialized by Cochlear Limited in Sydney. The FDA approved the Nucleus 22 for adults in 1985, making it the first widely used multi-channel implant. The 1989 "Mini Speech Processor" (MSP) was the body-worn digital-signal-processing successor to the earlier WSP, shrinking the hardware to a compact wearable unit.
+
+The interaction model is the point, and it is genuinely strange: a computer that has learned to speak the brain's own language for sound. A microphone picks up acoustic energy; the digital speech processor analyzes it into frequency bands in real time; and the machine maps those bands onto a 22-electrode array surgically implanted in the scalae of the cochlea, firing coded electrical pulse trains directly into the auditory nerve. Both power and data cross the skin by a transcutaneous radio-frequency link. There is no loudspeaker and no earphone in the usual sense — the output channel is direct electrical stimulation of a cranial nerve. The wearer must re-train the brain to interpret the electrode patterns as speech, a slow and sometimes years-long re-wiring of perception.
+
+This reverses the direction of every clinical interface the museum has. The P300 speller reads brainwaves; the IBVA digitizes EEG; the Kay Visi-Pitch measures vocal folds; the Fehmi system reads phase coherence. All of them pull signal out of the body. The cochlear implant pushes signal back in — a machine that has become a sense organ.
+
+### Deep dive
+
+* **The reverse boundary.** The collection reads the body in a dozen ways — EEG, EMG, GSR, vocal-fold impedance, electro-palatography. The cochlear implant does the opposite: it does not observe a signal and interpret it, it synthesizes a signal and injects it straight into the auditory nerve, gambling that the brain is plastic enough to learn to hear a pattern of electrical spikes as language. This is the museum's only example of a computer acting as an *output* sense organ rather than an input transducer.
+* **Encoding sound as nerve language.** The processor does not simply amplify sound. It analyzes the incoming acoustic spectrum and maps frequency bands to specific electrodes along the cochlea, so that the spatial arrangement of stimulation mimics the tonotopic layout of the normal inner ear. The "speech processing strategy" — the mapping algorithm that turns acoustic features into position-and-rate electrode patterns — is the real interface software, refined over years until users could understand speech well enough to use the telephone.
+* **Wearable and surgical.** The 1989 Mini Speech Processor packs microphone, DSP, and radio-frequency transmitter into a compact unit, with the electrode array implanted in the inner ear. Power and data ride the same RF link through the skin — no connectors pierce the body. It is a prosthetic whose transducer is a living nerve, and whose software is a language taught to both the machine and the brain.
+
+### Media
+
+![Cochlear Limited 1989 Mini Speech Processor](../assets/wiki/cochlear-mini-speech-processor-1989.jpg)
+*The 1989 Mini Speech Processor, the body-worn DSP unit of the Nucleus 22 system. Photo by Meg Lomax, CC BY 4.0, via Wikimedia Commons.*
+
+![Cochlear Spectra 22 processor (1994)](../assets/wiki/cochlear-spectra22-1994.jpg)
+*The later Spectra 22 body-worn audio processor (1994), same Nucleus interface lineage. CC BY 4.0, via Wikimedia Commons.*
+
+### Sources
+
+1. Wikipedia — Cochlear implant — https://en.wikipedia.org/wiki/Cochlear_implant
+2. Wikipedia — Graeme Clark (doctor) — https://en.wikipedia.org/wiki/Graeme_Clark_(doctor)
+3. Wikimedia Commons — File:1989 Cochlear Limited Mini Speech Processor.jpg (CC BY 4.0) — https://commons.wikimedia.org/wiki/File:1989_Cochlear_Limited_Mini_Speech_Processor.jpg
+4. Wikimedia Commons — File:1994 Spectra 22 processor.jpg (CC BY 4.0) — https://commons.wikimedia.org/wiki/File:1994_Spectra_22_processor.jpg
+
+---
+
+## Ascom B8050 QuickFare (1989)
+
+**By:** Ascom Autelca / Ascom Group (Switzerland), deployed by British Rail
+**Tags:** `Kiosk` `Public` `Output` `Physical` `Retail`
+
+### Overview
+
+The Ascom B8050 "QuickFare" is a self-service ticket issuing machine deployed on British Rail and across Europe for unstaffed or lightly-staffed stations in the late 1980s. The passenger selects a destination and ticket type by pressing labeled buttons, feeds coins, and the machine issues a ticket printed on a continuous cardstock roll, cut to length.
+
+The defining feature is that the ticket carries its fare data as physical notches punched along the card — no magnetic stripe, no onboard printer computing a stored barcode that a reader later queries. The information that fare inspectors and gates need is encoded directly into the shape of the card itself. The interaction is a compact physical transaction: the machine is a vending machine whose notched card slip is simultaneously a receipt, a data medium, and a credential.
+
+This makes it an odd and satisfying counterpoint in the museum's physical-token-as-data lineage. The Cauzin Softstrip stores data as printed bars on paper; the TI Magic Wand reads printed barcodes; the iButton and Rainbow Sentinel hold identity in a chip. The QuickFare instead folds the data into the physical dimensions of the issued object — the ticket is cut and notched so that the fare it represents is literally legible in its geometry.
+
+### Deep dive
+
+* **The ticket as data medium.** The QuickFare ticket is a continuous-roll card, cut to a length that encodes the journey and punched with notches representing the fare. It requires no magnetic reader at the issuing machine at all — the physical card carries the information. The notching-and-cutting mechanism is the interface's output, turning value into a discrete, physical object the passenger holds.
+* **Self-service public terminal.** QuickFare brought unstaffed stations into the self-service era. It is the museum's kiosk-side counterpoint to the IBM 3614 ATM and the retail terminals: where those present a screen and keypad for an on-screen transaction, the QuickFare reduces the whole interaction to destination buttons, coin slot, and the emergence of a punched card.
+
+### Media
+
+![QuickFare self-service ticket machine](../assets/wiki/ascom-quickfare-aht.jpg)
+*A QuickFare-style self-service ticket issuing machine. Public domain, via Wikimedia Commons.*
+
+![Ascom B8050 QuickFare at Wareham Station](../assets/wiki/ascom-quickfare-wareham-2006.jpg)
+*An Ascom B8050 "QuickFare" ticket machine in service at Wareham station, Dorset. CC0, via Wikimedia Commons.*
+
+### Sources
+
+1. Wikipedia — Ascom B8050 Quickfare — https://en.wikipedia.org/wiki/Ascom_B8050_Quickfare
+2. Wikimedia Commons — File:AHT Quickfare machine.jpg (public domain) — https://commons.wikimedia.org/wiki/File:AHT_Quickfare_machine.jpg
+3. Wikimedia Commons — File:Ascom B8050 Quickfare Machine at Wareham Station (2006).jpg (CC0) — https://commons.wikimedia.org/wiki/File:Ascom_B8050_Quickfare_Machine_at_Wareham_Station_(2006).jpg
+
+---
+
+## Polaroid Digital Palette (1986)
+
+**By:** Polaroid Corporation (Cambridge, MA)
+**Tags:** `Output` `Physical` `Graphics` `Home Computer`
+
+### Overview
+
+The Polaroid Digital Palette (also sold as the CI-3000 / CI-5000 family and, for Macs, the Digital Palette HR) was a photographic film recorder that let desktop computers of the mid-1980s produce true color slides and prints on Polaroid instant film. Launched in 1986, it sat between the computer and a sheet of instant film, converting the graphics signal into a photographic exposure.
+
+Its interaction model is the mechanical color-separation ritual. There is no color display tube and no three-gun phosphor. The Palette exposes a single frame of film three times, running the light through a rotating red, green, and blue filter wheel in turn, reinforcing each color record onto the film. The user loads an instant film pack, waits while the mechanism whirs and exposes, then pulls the film apart to reveal the finished image. Color exists in the Palette not as pixels on a screen but as accumulated light washing over a photosensitive chemical surface.
+
+This makes the Palette the museum's clearest example of computer output in the other direction: not drawing on a screen or a page, but developing light onto instant film through a mechanical filter wheel. It pairs naturally with pen plotters and the Commodore 1520 plotter — machines where the spectacle of physically rendering an image is the point — yet it is distinct in that the medium is photographic and the color is made by subtraction through three passes of colored light.
+
+### Deep dive
+
+* **Color as a physical filter ritual.** Most color output devices mix color from display phosphors or ink dots. The Palette does neither: it exposes one instant-frame three times, through red, green, and blue filters, so the final color is built up as superimposed light records on the film. The user participates in a slow, mechanical ceremony — load film, wait for the whir and the three-fold exposure, then peel the print apart. The interface is the mechanism.
+* **The bridge from monitor to slide.** Before affordable digital projectors, the Palette turned a computer's graphics into real slides and prints for presentations and design work. It is the physical, chemical foot of the museum's display lineage — the ancestor within the era of making software artefacts tangible as photographs.
+
+### Media
+
+![Polaroid Digital Palette HR6000 film recorder](../assets/wiki/polaroid-digital-palette-hr6000.jpg)
+*A Polaroid Digital Palette HR-family film recorder used to print digital images to photographic film. CC BY-SA 4.0, via Wikimedia Commons.*
+
+### Sources
+
+1. Wikipedia — Polaroid Palette — https://en.wikipedia.org/wiki/Polaroid_Palette
+2. Wikimedia Commons — File:Polaroid Digital Palette HR6000.jpg (CC BY-SA 4.0) — https://commons.wikimedia.org/wiki/File:Polaroid_Digital_Palette_HR6000.jpg
