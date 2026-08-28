@@ -1,0 +1,56 @@
+{
+  "slug": "amana-touchmatic-radarange",
+  "title": "Amana Touchmatic Radarange",
+  "year": "1975",
+  "subtitle": "The first microprocessor control panel on a household appliance — cooking becomes programming",
+  "why_scout_cares": "The Amana Touchmatic Radarange (RR-6, 1975) is widely credited as the first microprocessor-controlled digital control panel on an ordinary home appliance, where a solid-state keypad and display replaced the mechanical dials and knobs of every previous oven. The interaction model is the moment a computer 'brains' interface entered the kitchen: pressing a membrane keypad to key in cook time, defrost-by-time, temperature, and staged/held programs, with a bright digital clock and beeps — programming a machine to transform a physical process. The museum has TNC 110 (machine-tool control), the Tektronix 7854 (lab instrument), and the Buick Riviera GCC (automotive dashboard), but no 'brains-replace-the-dial' home appliance; the Touchmatic is the ur-example of that larger 1970s boundary crossing, preserved in collections (e.g., a 1978 RR5-6 at the Science Museum Group).",
+  "search_terms": [
+    "Amana Touchmatic Radarange",
+    "first microprocessor microwave",
+    "RR-6 1975 digital control",
+    "first microprocessor control panel home appliance",
+    "Amana Radarange touchmatic history"
+  ],
+  "research": {
+    "title": "Amana Touchmatic Radarange (1975)",
+    "year": "1975",
+    "by": "Amana Refrigeration, Inc. (Amana, Iowa; a Raytheon subsidiary)",
+    "tags": ["HCI", "Input", "Home Appliance", "Microprocessor", "Keypad", "Display", "Consumer"],
+    "overview": "The Amana Radarange was the home microwave oven line of Amana Refrigeration, Inc., of Amana, Iowa (a Raytheon subsidiary since 1965). Its early 1970s models (RR-4, RR-4D) used analog timers and mechanical knobs. In 1974 Amana introduced automatic defrost on the RR-4D; then, according to the standard account (including Wikipedia's Microwave oven article), Amana was the first to offer a microprocessor-controlled digital control panel in 1975 with the RR-6 model — the 'Touchmatic' Radarange. The Touchmatic replaced the dials and switches with a solid-state microprocessor, a digital touch keypad, and a bright digital clock/display, letting the user key in cook times, defrost cycles, and (on later models) staged cooking and temperatures. The model line shipped through the late 1970s and early 1980s, and a 1978 RR5-6 unit is held by the Science Museum Group (co8062000).",
+    "deepDive": [
+      {
+        "heading": "The brains-replace-the-dial moment",
+        "text": "Until 1975 a microwave user operated a mechanical timer and knob. The Touchmatic replaced that entire layer with a microprocessor and a digit keypad: the user pressed keys to set a cooking time, a defrost time, or a sequence, with the digital display counting down and the oven beeping when done. This is a genuinely different interaction — instead of turning a dial until it pointed at a number, the user 'wrote' a short program (time, power, stage) that the machine executed against the physical process of heating food. The microwave became the first computing appliance most households ever owned."
+      },
+      {
+        "heading": "Timing, staged cooking, and the digital ritual",
+        "text": "Microprocessor control allowed multi-stage operations that a mechanical timer could not express: defrost-then-cook, timed hold, and (in later Touchmatic models) temperature probes. The user composes a sequence on the membrane keypad, the display confirms it, and the magnetron runs through the program. The interface is a miniature command-line to a heat engine, wrapped in consumer packaging."
+      },
+      {
+        "heading": "In-window availability and museum survival",
+        "text": "Though the RR-6 debuted in 1975, the Touchmatic line was sold throughout the 1976-1992 window and a 1978 RR5-6 is preserved by the Science Museum Group in London. The 1971-74 analog predecessors (RR-4/RR-4D) are preserved by the Smithsonian (nmah_214291) and The Henry Ford, which bracket the transition this artifact marks — from dial-and-knob to keypad-and-display."
+      }
+    ],
+    "team": [
+      { "name": "Amana Refrigeration, Inc.", "note": "Manufacturer of the Radarange line; introduced the microprocessor Touchmatic in 1975" },
+      { "name": "Raytheon", "note": "Parent company of Amana since 1965; microwave oven technology lineage" }
+    ],
+    "media": [
+      { "src": "https://upload.wikimedia.org/wikipedia/commons/0/06/Amana_Radarange_Microwave_Oven.jpg", "alt": "An Amana Radarange microwave oven", "caption": "An Amana Radarange microwave oven. The 1975 Touchmatic RR-6 replaced dials with a microprocessor keypad; this is a representative Amana Radarange family photo — no freely-licensed image of the specific covered RR-6 panel exists. CC BY-SA 4.0, via Wikimedia Commons." }
+    ],
+    "sources": [
+      { "text": "Wikipedia — Microwave oven", "url": "https://en.wikipedia.org/wiki/Microwave_oven" },
+      { "text": "Science Museum Group — Amana Touchmatic Radarange RR5-6 (1978)", "url": "https://collection.sciencemuseumgroup.org.uk/objects/co8062000" },
+      { "text": "Wikipedia — Amana Corporation", "url": "https://en.wikipedia.org/wiki/Amana_Corporation" },
+      { "text": "The Henry Ford — Amana Radarange (ca. 1975)", "url": "https://thehenryford.org/collections/explore/artifact/313914" },
+      { "text": "Smithsonian NMAH — Amana Radarange (ca. 1974)", "url": "https://americanhistory.si.edu/collections/search/object/nmah_214291" },
+      { "text": "Wikimedia Commons — Amana Radarange Microwave Oven.jpg (CC BY-SA 4.0)", "url": "https://commons.wikimedia.org/wiki/File:Amana_Radarange_Microwave_Oven.jpg" }
+    ],
+    "imageUrls": [
+      "https://upload.wikimedia.org/wikipedia/commons/0/06/Amana_Radarange_Microwave_Oven.jpg"
+    ]
+  },
+  "savedImages": [
+    "assets/wiki/amana-radarange.jpg"
+  ]
+}

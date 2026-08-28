@@ -1,6 +1,6 @@
 # The HCI Golden Age Wiki
 
-A research compendium for a digital museum of cutting-edge Human-Computer Interaction from the late 1970s through the early 1990s. These two hundred and twenty-one projects mix canonical experiments with weird, forgotten, and beautiful vaporware — brain control, voice control, gesture, wearable computing, VR, robots, and full-body exertion.
+A research compendium for a digital museum of cutting-edge Human-Computer Interaction from the late 1970s through the early 1990s. These two hundred and twenty-three projects mix canonical experiments with weird, forgotten, and beautiful vaporware — brain control, voice control, gesture, wearable computing, VR, robots, and full-body exertion.
 
 Each entry includes an overview, a deep dive, a small media gallery, and full source links so the images and facts can always be traced back.
 
@@ -228,6 +228,8 @@ Each entry includes an overview, a deep dive, a small media gallery, and full so
 219. [Cochlear Nucleus 22 / Mini Speech Processor (1989)](#cochlear-nucleus-22--mini-speech-processor-1989)
 220. [Ascom B8050 QuickFare (1989)](#ascom-b8050-quickfare-1989)
 221. [Polaroid Digital Palette (1986)](#polaroid-digital-palette-1986)
+222. [Mattel Intellivision (1979)](#mattel-intellivision-1979)
+223. [Amana Touchmatic Radarange (1975)](#amana-touchmatic-radarange-1975)
 
 ---
 
@@ -10586,3 +10588,70 @@ This makes the Palette the museum's clearest example of computer output in the o
 
 1. Wikipedia — Polaroid Palette — https://en.wikipedia.org/wiki/Polaroid_Palette
 2. Wikimedia Commons — File:Polaroid Digital Palette HR6000.jpg (CC BY-SA 4.0) — https://commons.wikimedia.org/wiki/File:Polaroid_Digital_Palette_HR6000.jpg
+
+---
+
+## Mattel Intellivision (1979)
+
+**By:** Mattel Electronics (Hawthorne, CA)
+**Tags:** `Input` `Game Console` `Keypad` `Controller` `Overlay` `Home Computer`
+
+### Overview
+
+The Intellivision (portmanteau of "intelligent television") is the home video game console released by Mattel Electronics in 1979, after a development project that began as a proposed modular home computer at Mattel's Preliminary Design department. Hardware engineering was led by David Chandler, execution software written by David Rolfe's APh Technological Consulting, and the early games programmed by APh and then in-house by the "Blue Sky Rangers." By 1981 Mattel Electronics had close to 20% of the domestic video-game market, selling more than 3.75 million consoles and 20 million cartridges through 1983; it remained in production until 1990 (from 1984 under INTV Corporation) and was rebadged by GTE Sylvania, Sears (Super Video Arcade), and Radio Shack (Tandyvision One).
+
+Its interaction lives almost entirely in the hand controllers. Each is a two-handed disc with a twelve-button telephone-style keypad flanked by a free-spinning plastic disc, two side buttons, and a thumbwheel. The wandering disc gives smooth continuous analog motion translated into up to sixteen discrete directions, while the keypad supplies gated commands.
+
+### Deep dive
+
+* **The overlay-reprogrammable keypad.** The defining interaction is the printed plastic overlay. Every Intellivision cartridge shipped with two overlays that slide down over the keypad and relabel those twelve buttons for that specific game — a sports playbook, a strategy command grid, a set of text keys, whatever the software needs. The hardware buttons never change; the meaning is supplied by the printed card the player physically presses against the membrane. One generic numeric keypad becomes any game's command surface. This is the museum's only "a printed sheet of paper reconfigures a hardware keyboard" interface, a physical ancestor of software-defined touch controls and a cousin to the HP-150 touch template and Sharp Wizard / Casio PB-1000 transparent overlay cards — but as a mass-market game input.
+* **The free-spinning 16-direction disc.** Instead of a conventional 4- or 8-way joystick, the Intellivision uses a smooth disc the player rolls to select directional states (up to 16 depending on the game). Paired with the keypad it gave developers a two-channel physical input — continuous motion plus gated commands — unusual for a 1979 console.
+* **Designed as a home computer, shipped as a console.** The Intellivision was conceived to "bring data flow into the home." The ambitious Keyboard Component (code-named Blue Whale) that was to add a typewriter keyboard and tape drive for BASIC and videotex was repeatedly delayed and finally cancelled in 1982 after roughly 4,000 units were made — famously prompting an FTC inquiry and the joke that the keyboard, like the check in the mail, was always "coming in spring." The cheaper Entertainment Computer System (ECS, 1983) fulfilled a diluted version of the promise. The console that promised to be a computer instead shipped a paper-overlaid keypad as its interface to software.
+* **Legacy.** The overlay keypad was a genuinely influential idea — a fixed physical keyboard instantly repurposed for any game, a physical ancestor of software-defined UI. The Intellivision also added the Intellivoice speech synthesis module (1982, GI SP0256). IGN ranked it the #14 greatest console of all time (2009); the "closest thing to the real thing" George Plimpton advertisements remain iconic.
+
+### Media
+
+![Intellivision hand controller with 12-button keypad and disc](../assets/wiki/intellivision-controller.jpg)
+*The Intellivision hand controller: a 12-button telephone keypad flanked by a free-spinning 16-direction disc, over which a printed plastic overlay slides to reprogram every button. CC BY-SA 3.0, Evan-Amos, via Wikimedia Commons.*
+
+![Mattel Intellivision Master Component](../assets/wiki/intellivision-console.jpg)
+*The Mattel Intellivision Master Component. Public domain, Evan-Amos, via Wikimedia Commons.*
+
+### Sources
+
+1. Wikipedia — Intellivision — https://en.wikipedia.org/wiki/Intellivision
+2. Wikimedia Commons — File:Intellivision-Controller.jpg (CC BY-SA 3.0) — https://commons.wikimedia.org/wiki/File:Intellivision-Controller.jpg
+3. Wikimedia Commons — File:Mattel-Intellivision-Console-FL.jpg (Public domain) — https://commons.wikimedia.org/wiki/File:Mattel-Intellivision-Console-FL.jpg
+
+---
+
+## Amana Touchmatic Radarange (1975)
+
+**By:** Amana Refrigeration, Inc. (Amana, Iowa; a Raytheon subsidiary)
+**Tags:** `Input` `Home Appliance` `Microprocessor` `Keypad` `Display` `Consumer`
+
+### Overview
+
+The Amana Radarange was the home microwave oven line of Amana Refrigeration, Inc., of Amana, Iowa — a Raytheon subsidiary since 1965. Its early-1970s models (RR-4, RR-4D) used analog timers and mechanical knobs. In 1974 Amana added automatic defrost to the RR-4D; then, per the standard account (including Wikipedia's Microwave oven article), Amana was the first to offer a microprocessor-controlled digital control panel in 1975 with the RR-6 — the "Touchmatic" Radarange.
+
+The Touchmatic replaced the dials and switches with a solid-state microprocessor, a digital touch keypad, and a bright digital clock/display, letting the user key in cook times, defrost cycles, and (on later models) staged cooking and temperatures. The line shipped through the late 1970s and early 1980s; a 1978 RR5-6 unit is preserved by the Science Museum Group (co8062000). The analog predecessors (ca. 1974) are preserved by the Smithsonian and The Henry Ford, bracketing the transition this artifact marks.
+
+### Deep dive
+
+* **The brains-replace-the-dial moment.** Until 1975 a microwave user operated a mechanical timer and a knob. The Touchmatic replaced that layer with a microprocessor and a digit keypad: press keys to set a cook time, defrost time, or sequence; the digital display counts down; the oven beeps when done. Instead of turning a dial until it pointed at a number, the user wrote a short program — time, power, stage — that the machine executed against the physical process of heating food. The microwave became the first computing appliance most households ever owned.
+* **Timing, staged cooking, and the digital ritual.** Microprocessor control allowed operations a mechanical timer could not express: defrost-then-cook, timed hold, temperature probes. The user composes a sequence on the membrane keypad, the display confirms it, and the magnetron runs through the program — a miniature command line to a heat engine, wrapped in consumer packaging.
+* **In-window availability and museum survival.** Though the RR-6 debuted in 1975, the Touchmatic line was sold throughout the 1976-1992 window, and a 1978 RR5-6 is preserved by the Science Museum Group in London. It is the museum's closest relative, in the most ordinary setting, of the TNC 110 (machine-tool interrogator), the Tektronix 7854 (lab instrument), and the Buick Riviera GCC (automotive dashboard) — the same boundary crossing, "a computer's brains entered a machine that does physical work."
+
+### Media
+
+![An Amana Radarange microwave oven](../assets/wiki/amana-radarange.jpg)
+*An Amana Radarange microwave oven. The 1975 Touchmatic RR-6 replaced dials with a microprocessor keypad; this is a representative Amana Radarange family photo — no freely-licensed image of the specific covered RR-6 panel exists. CC BY-SA 4.0, via Wikimedia Commons.*
+
+### Sources
+
+1. Wikipedia — Microwave oven — https://en.wikipedia.org/wiki/Microwave_oven
+2. Science Museum Group — Amana Touchmatic Radarange RR5-6 (1978) — https://collection.sciencemuseumgroup.org.uk/objects/co8062000
+3. Wikipedia — Amana Corporation — https://en.wikipedia.org/wiki/Amana_Corporation
+4. The Henry Ford — Amana Radarange (ca. 1975) — https://thehenryford.org/collections/explore/artifact/313914
+5. Smithsonian NMAH — Amana Radarange (ca. 1974) — https://americanhistory.si.edu/collections/search/object/nmah_214291
+6. Wikimedia Commons — File:Amana Radarange Microwave Oven.jpg (CC BY-SA 4.0) — https://commons.wikimedia.org/wiki/File:Amana_Radarange_Microwave_Oven.jpg
