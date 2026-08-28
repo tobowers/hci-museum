@@ -1,0 +1,54 @@
+{
+  "slug": "cochlear-nucleus-22",
+  "title": "Cochlear Nucleus 22 / Mini Speech Processor (1989)",
+  "year": "1989",
+  "subtitle": "The machine that learns your brain's language for sound, then writes into your auditory nerve",
+  "why_scout_cares": "This is the museum's only output-to-nervous-system prosthetic: a computer that analyzes sound, encodes it, and fires electrical pulse trains directly into the cochlear nerve — the machine becoming a sense organ. Every other clinical device in the collection reads the body (EEG, EMG, GSR); this one writes back into it. It reverses the direction of the machine-human boundary and covers the wholly unexplored auditory prosthetic gap.",
+  "search_terms": [
+    "cochlear implant Nucleus 22",
+    "Mini Speech Processor 1989",
+    "Graeme Clark bionic ear",
+    "cochlear implant stimulation strategy",
+    "electronic auditory nerve stimulation"
+  ],
+  "research": {
+    "title": "Cochlear Nucleus 22 / Mini Speech Processor (1989)",
+    "year": "1989",
+    "by": "Cochlear Limited (Sydney, Australia), from Graeme Clark's implant program at the University of Melbourne",
+    "tags": ["Assistive", "Output", "Wearable", "Medical", "Clinical"],
+    "overview": "The Cochlear Nucleus 22 is the multi-channel cochlear implant system that grew out of Graeme Clark's pioneering research at the University of Melbourne, commercialized by Cochlear Limited of Lane Cove, Sydney. The FDA approved the Nucleus 22 for adults in 1985 and it became the first widely used multi-channel implant. The 1989 'Mini Speech Processor' (MSP) was the body-worn DSP successor to the earlier WSP, shrinking the hardware that sat behind the ear into a compact wearable unit.\n\nThe interaction model is the point, and it is genuinely strange: a computer that has learned to speak the brain's own language for sound. A microphone picks up acoustic energy; the digital speech processor analyzes it into frequency bands in real time; and the machine maps those bands onto a 22-electrode array surgically implanted in the scalae of the cochlea, firing coded electrical pulse trains directly into the auditory nerve. Both power and data cross the skin by a transcutaneous radio-frequency link. There is no loudspeaker and no earphone in the usual sense — the output channel is direct electrical stimulation of a cranial nerve. The wearer must re-train the brain to interpret the electrode patterns as speech, a slow and sometimes years-long re-wiring of perception.\n\nThis reverses the direction of every clinical interface the museum has. The P300 speller reads brainwaves; the IBVA digitizes EEG; the Kay Visi-Pitch measures vocal folds; the Fehmi system reads phase coherence. All of them pull signal out of the body. The cochlear implant pushes signal back in — a machine that has become a sense organ, firing the patterns that the brain will learn to hear. It is cyborg hardware in the most literal, medically regulated sense, and it sits at the far end of the museum's machine-human coupling story.",
+    "deepDive": [
+      {
+        "heading": "The reverse boundary",
+        "text": "The collection reads the body in a dozen ways — EEG, EMG, GSR, vocal-fold impedance, electro-palatography. The cochlear implant does the opposite. It does not observe a signal and interpret it; it synthesizes a signal and injects it straight into the auditory nerve, gambling that the brain is plastic enough to learn to hear a pattern of electrical spikes as language. That bet is the whole interaction, and it is the museum's only example of a computer acting as an output sense organ rather than an input transducer."
+      },
+      {
+        "heading": "Encoding sound as nerve language",
+        "text": "The processor does not simply amplify sound. It analyzes the incoming acoustic spectrum and maps frequency bands to specific electrodes along the cochlea, so that the spatial arrangement of stimulation mimics the tonotopic layout of the normal inner ear. The 'speech processing strategy' — the mapping algorithm that turns acoustic features into position-and-rate electrode patterns — is the real interface software, refined over years until users could understand speech well enough to use the telephone. The hardware is a wearable digital processor; the interface is an encoding that the nervous system itself must learn to decode."
+      },
+      {
+        "heading": "Wearable and surgical",
+        "text": "The 1989 Mini Speech Processor packs microphone, DSP, and radio-frequency transmitter into a compact behind-the-ear or body-worn unit, with the electrode array implanted in the inner ear. Power and data ride the same RF link through the skin — no connectors pierce the body. It is a prosthetic whose transducer is a living nerve, and whose software is a language taught to both the machine and the brain."
+      }
+    ],
+    "team": [
+      { "name": "Graeme Clark", "note": "Otolaryngologist and neural engineer whose University of Melbourne research led the multi-channel implant; commercialized as Nucleus by Cochlear Limited" },
+      { "name": "Cochlear Limited", "note": "Sydney company founded to commercialize the bionic ear; launched and built the Nucleus 22 system" },
+      { "name": "University of Melbourne", "note": "Clark's academic base where the multi-channel electrode and speech processing strategies were developed" }
+    ],
+    "media": [
+      { "src": "https://upload.wikimedia.org/wikipedia/commons/2/2b/1989_Cochlear_Limited_Mini_Speech_Processor.jpg", "alt": "Cochlear Limited 1989 Mini Speech Processor", "caption": "The 1989 Mini Speech Processor, the body-worn DSP unit of the Nucleus 22 system. Photo by Meg Lomax, CC BY 4.0." },
+      { "src": "https://upload.wikimedia.org/wikipedia/commons/5/55/1994_Spectra_22_processor.jpg", "alt": "Cochlear Limited Spectra 22 processor", "caption": "The later Spectra 22 body-worn audio processor (1994), same Nucleus interface lineage. CC BY 4.0." }
+    ],
+    "sources": [
+      { "text": "Wikipedia: Cochlear implant", "url": "https://en.wikipedia.org/wiki/Cochlear_implant" },
+      { "text": "Wikipedia: Graeme Clark (doctor)", "url": "https://en.wikipedia.org/wiki/Graeme_Clark_(doctor)" },
+      { "text": "Commons: 1989 Mini Speech Processor (CC BY 4.0)", "url": "https://commons.wikimedia.org/wiki/File:1989_Cochlear_Limited_Mini_Speech_Processor.jpg" }
+    ],
+    "imageUrls": [
+      "https://upload.wikimedia.org/wikipedia/commons/2/2b/1989_Cochlear_Limited_Mini_Speech_Processor.jpg",
+      "https://upload.wikimedia.org/wikipedia/commons/5/55/1994_Spectra_22_processor.jpg"
+    ]
+  },
+  "savedImages": []
+}

@@ -1,0 +1,49 @@
+{
+  "slug": "ascom-quickfare-b8050",
+  "title": "Ascom B8050 QuickFare",
+  "year": "1989",
+  "subtitle": "The self-service ticket vending machine whose output is a physical notched card that IS the data",
+  "why_scout_cares": "A public self-service terminal where the interface contracts down to a physical ritual: press destination and ticket-type buttons, feed coins, watch a continuous-roll cardstock ticket get cut to length and drop out — with the fare data literally punched into the notches of the card itself. No magnetic stripe, no software lookup at the outlet: the ticket is the data, printed and cut on the spot. Distinct from every terminal in the collection and a fresh member of the physical-token-as-data family.",
+  "search_terms": [
+    "Ascom B8050 QuickFare",
+    "Quickfare railway ticket machine",
+    "notched cardstock ticket",
+    "Ascom B8050 nothing.com ticket",
+    "British Rail Quickfare 1989"
+  ],
+  "research": {
+    "title": "Ascom B8050 QuickFare",
+    "year": "1989",
+    "by": "Ascom B8050 (Ascom Autelca, Switzerland)", 
+    "tags": ["Kiosk", "Public", "Output", "Physical", "Retail"],
+    "overview": "The Ascom B8050 'QuickFare' is a self-service ticket issuing machine deployed on British Rail (and elsewhere in Europe) for unstaffed or lightly-staffed stations, in the late 1980s. The passenger selects a destination and ticket type by pressing labeled buttons, feeds coins, and the machine issues a ticket printed on a continuous cardstock roll, cut to length.\n\nThe defining feature is that the ticket carries its fare data as physical notches punched along the card — no magnetic stripe, no onboard printer computing a stored barcode that a reader later queries. The information that the fare inspectors and gates need is encoded directly into the shape of the card itself. The interaction is a compact physical transaction: the machine is a vending machine whose notched card slip is simultaneously a receipt, a data medium, and a credential.\n\nThis makes it an odd and satisfying counterpoint in the museum's physical-token-as-data lineage. The Cauzin Softstrip stores data as printed bars on paper; the TI Magic Wand reads printed barcodes; the iButton and Rainbow Sentinel hold identity in a chip. The QuickFare instead folds the data into the physical dimensions of the issued object — the ticket is cut and notched so that the fare it represents is literally legible in its geometry. It is a dedicated-purpose public terminal where the ritual of buying is inseparable from the form of the thing handed out.",
+    "deepDive": [
+      {
+        "heading": "The ticket as data medium",
+        "text": "The QuickFare ticket is a continuous-roll card, cut to a length that encodes the journey and punched with notches representing the fare. It requires no magnetic reader at the issuing machine at all — the physical card carries the information. The notching-and-cutting mechanism is the interface's output, turning e-mail and value into a discrete, physical object the passenger holds."
+      },
+      {
+        "heading": "Self-service blooded the public terminal",
+        "text": "QuickFare brought unstaffed stations into the self-service era. It is the museum's kiosk-side counterpoint to the IBM 3614 ATM and the retail terminals: where those present a screen and keypad for an on-screen transaction, the QuickFare reduces the whole interaction to destination buttons, coin slot, and the emergence of a punched card."
+      }
+    ],
+    "team": [
+      { "name": "Ascom Autelca (Ascom Group)", "note": "Swiss vendor of the B8050 QuickFare ticket machine" },
+      { "name": "British Rail", "note": "Early major adopter of self-service QuickFare ticketing for unstaffed stations" }
+    ],
+    "media": [
+      { "src": "https://upload.wikimedia.org/wikipedia/commons/6/6d/AHT_Quickfare_machine.jpg", "alt": "QuickFare self-service ticket machine", "caption": "A QuickFare-style self-service ticket issuing machine. Public domain." },
+      { "src": "https://upload.wikimedia.org/wikipedia/commons/4/4b/Ascom_B8050_Quickfare_Machine_at_Wareham_Station_%282006%29.jpg", "alt": "Ascom B8050 QuickFare at Wareham Station", "caption": "An Ascom B8050 'QuickFare' ticket machine in service at Wareham station, Dorset. CC0." }
+    ],
+    "sources": [
+      { "text": "Wikipedia: Ascom B8050 Quickfare", "url": "https://en.wikipedia.org/wiki/Ascom_B8050_Quickfare" },
+      { "text": "Commons: AHT Quickfare machine (PD)", "url": "https://commons.wikimedia.org/wiki/File:AHT_Quickfare_machine.jpg" },
+      { "text": "Commons: Ascom B8050 at Wareham (CC0)", "url": "https://commons.wikimedia.org/wiki/File:Ascom_B8050_Quickfare_Machine_at_Wareham_Station_(2006).jpg" }
+    ],
+    "imageUrls": [
+      "https://upload.wikimedia.org/wikipedia/commons/6/6d/AHT_Quickfare_machine.jpg",
+      "https://upload.wikimedia.org/wikipedia/commons/4/4b/Ascom_B8050_Quickfare_Machine_at_Wareham_Station_%282006%29.jpg"
+    ]
+  },
+  "savedImages": []
+}

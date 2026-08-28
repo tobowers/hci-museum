@@ -2700,6 +2700,45 @@ const exhibitData: Exhibit[] = [
     tags: ["Aviation", "Display", "CRT", "Safety-critical", "Physical"],
     image: img("b747-400-pfd-nd.jpg"),
   },
+  {
+    id: "cochlear-nucleus-22",
+    slug: "cochlear-nucleus-22",
+    wikiTitle: "Cochlear Nucleus 22 / Mini Speech Processor",
+    year: "1989",
+    sortYear: 1989,
+    title: "Cochlear Nucleus 22 / Mini Speech Processor",
+    subtitle: "The machine that learns your brain's language for sound, then injects coded pulses straight into your auditory nerve",
+    blurb:
+      "The museum reads the body a dozen ways — EEG, EMG, GSR, vocal-fold impedance. The Nucleus 22 cochlear implant does the opposite: it pushes signal back in. A digital speech processor analyzes sound, maps it onto a 22-electrode array in the cochlea, and fires electrical pulse trains directly at the auditory nerve, betting that the brain is plastic enough to learn to hear a pattern of spikes as language. The 1989 Mini Speech Processor is that interface made wearable. This is cyborg hardware in the most literal, medically regulated sense — a computer as an output sense organ.",
+    tags: ["Assistive", "Output", "Wearable", "Medical", "Clinical"],
+    image: img("cochlear-mini-speech-processor-1989.jpg"),
+  },
+  {
+    id: "ascom-quickfare-b8050",
+    slug: "ascom-quickfare-b8050",
+    wikiTitle: "Ascom B8050 QuickFare",
+    year: "1989",
+    sortYear: 1989,
+    title: "Ascom B8050 QuickFare",
+    subtitle: "A self-service ticket machine whose output is a notched cardstock card that IS the data",
+    blurb:
+      "A public self-service terminal where the interface contracts to a physical ritual: press destination and ticket-type buttons, feed coins, and watch a continuous-roll cardstock ticket get cut to length and drop out — the fare data literally punched into the notches of the card itself. No magnetic stripe, no onboard lookup. The QuickFare folds value into the geometry of the object it hands you, a member of the museum's physical-token-as-data family that reads its information in the shape of a freshly issued ticket.",
+    tags: ["Kiosk", "Public", "Output", "Physical", "Retail"],
+    image: img("ascom-quickfare-aht.jpg"),
+  },
+  {
+    id: "polaroid-digital-palette",
+    slug: "polaroid-digital-palette",
+    wikiTitle: "Polaroid Digital Palette",
+    year: "1986",
+    sortYear: 1986,
+    title: "Polaroid Digital Palette",
+    subtitle: "The desktop computer colour output device whose ritual is washing light through three filters onto instant film",
+    blurb:
+      "A film recorder that makes a computer's graphics real by exposing one sheet of instant film three times — once through red, green, and blue — so colour is built up as light washing over a photosensitive surface rather than as pixels on a screen. Load a film pack, wait for the mechanism to whir through its three-filter exposure, then peel the print apart. It is the museum's clearest instance of computer output in the other direction: not drawing on a screen or a page, but developing light onto film through a rotating filter wheel.",
+    tags: ["Output", "Physical", "Graphics", "Home Computer"],
+    image: img("polaroid-digital-palette-hr6000.jpg"),
+  },
 ];
 
 export const exhibits: Exhibit[] = exhibitData.toSorted((a, b) => b.sortYear - a.sortYear || a.title.localeCompare(b.title));

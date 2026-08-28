@@ -1,0 +1,45 @@
+{
+  "slug": "polaroid-digital-palette",
+  "title": "Polaroid Digital Palette (1986)",
+  "year": "1986",
+  "subtitle": "The computer colour output device whose entire ritual is washing light through three filters onto instant film",
+  "why_scout_cares": "A film recorder that makes a computer's graphics real by exposing one sheet of instant film three times — once each through red, green, and blue filters — so the colour never has to exist as display phosphors, but as light colour-mixed on a chemical substrate you peel apart. The interaction is a physical, mechanical ritual of colour separation, the polar opposite of a monitor. Museum's only computer-to-photographic-film output, distinct from every display and print exhibit.",
+  "search_terms": [
+    "Polaroid Digital Palette film recorder 1986",
+    "Polaroid Palette CI-3000 CI-5000",
+    "RGB filter wheel film recorder",
+    "computer slide film recorder 1980s",
+    "Polaroid Palette computer graphics film"
+  ],
+  "research": {
+    "title": "Polaroid Digital Palette (1986)",
+    "year": "1986",
+    "by": "Polaroid Corporation (Cambridge, MA)",
+    "tags": ["Output", "Physical", "Graphics", "Home Computer"],
+    "overview": "The Polaroid Digital Palette (also sold as the CI-3000 / CI-5000 family and, for Macs, the Digital Palette HR) was a photographic film recorder that let desktop computers of the mid-1980s produce true colour slides and prints on Polaroid instant film. Launched in 1986, it sat between the computer and a sheet of instant film, converting the graphics signal into a photographic exposure.\n\nIts interaction model is the mechanical colour-separation ritual. There is no colour display tube and no three-gun phosphor. The Palette exposes a single frame of film three times, running the light through a rotating red, green, and blue filter wheel in turn, reinforcing each colour record onto the film. The user loads an instant film pack, waits while the mechanism whirs and exposes, then pulls the film apart to reveal the finished image. Colour exists in the Palette not as pixels on a screen but as accumulated light washing over a photosensitive chemical surface.\n\nThis makes the Palette the museum's clearest example of the other direction of computer output: not drawing on a screen or a page, but developing light onto instant film through a mechanical filter wheel. It pairs naturally with pen plotters and the Commodore 1520 plotter — machines where the spectacle of physically rendering an image is the point — yet it is distinct in that the medium is photographic and the colour is made by subtraction through three passes of coloured light.",
+    "deepDive": [
+      {
+        "heading": "Colour as a physical filter ritual",
+        "text": "Most colour output devices mix colour from display phosphors or ink dots. The Palette does neither: it exposes one instant-frame three times, through red, green, and blue filters, so the final colour is built up as superimposed light records on the film. The user participates in a slow, mechanical ceremony — load film, wait for the whir and the three-fold exposure, then peel the print apart. The interface is the mechanism."
+      },
+      {
+        "heading": "The bridge from monitor to slide",
+        "text": "Before affordable digital projectors, the Palette turned a computer's graphics into real slides and prints for presentations and design work. It is the physical, chemical foot of the museum's display lineage — the ancestor within the era of making software artefacts tangible as photographs."
+      }
+    ],
+    "team": [
+      { "name": "Polaroid Corporation", "note": "Cambridge, MA maker of the Digital Palette film recorder and its CI-3000/CI-5000 family" }
+    ],
+    "media": [
+      { "src": "https://upload.wikimedia.org/wikipedia/commons/1/11/Polaroid_Digital_Palette_HR6000.jpg", "alt": "Polaroid Digital Palette HR6000 film recorder", "caption": "A Polaroid Digital Palette HR-family film recorder used to print digital images to photographic film. CC BY-SA 4.0." }
+    ],
+    "sources": [
+      { "text": "Wikipedia: Polaroid Palette", "url": "https://en.wikipedia.org/wiki/Polaroid_Palette" },
+      { "text": "Commons: Polaroid Digital Palette HR6000 (CC BY-SA 4.0)", "url": "https://commons.wikimedia.org/wiki/File:Polaroid_Digital_Palette_HR6000.jpg" }
+    ],
+    "imageUrls": [
+      "https://upload.wikimedia.org/wikipedia/commons/1/11/Polaroid_Digital_Palette_HR6000.jpg"
+    ]
+  },
+  "savedImages": []
+}
