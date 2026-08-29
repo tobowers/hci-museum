@@ -1,6 +1,6 @@
 # The HCI Golden Age Wiki
 
-A research compendium for a digital museum of cutting-edge Human-Computer Interaction from the late 1970s through the early 1990s. These two hundred and twenty-three projects mix canonical experiments with weird, forgotten, and beautiful vaporware — brain control, voice control, gesture, wearable computing, VR, robots, and full-body exertion.
+A research compendium for a digital museum of cutting-edge Human-Computer Interaction from the late 1970s through the early 1990s. These two hundred and twenty-six projects mix canonical experiments with weird, forgotten, and beautiful vaporware — brain control, voice control, gesture, wearable computing, VR, robots, and full-body exertion.
 
 Each entry includes an overview, a deep dive, a small media gallery, and full source links so the images and facts can always be traced back.
 
@@ -230,6 +230,9 @@ Each entry includes an overview, a deep dive, a small media gallery, and full so
 221. [Polaroid Digital Palette (1986)](#polaroid-digital-palette-1986)
 222. [Mattel Intellivision (1979)](#mattel-intellivision-1979)
 223. [Amana Touchmatic Radarange (1975)](#amana-touchmatic-radarange-1975)
+224. [Mailmobile (1982)](#mailmobile-1982)
+225. [Mouse Systems Optical Mouse (1980)](#mouse-systems-optical-mouse-1980)
+226. [Logitech TrackMan (1989)](#logitech-trackman-1989)
 
 ---
 
@@ -10655,3 +10658,91 @@ The Touchmatic replaced the dials and switches with a solid-state microprocessor
 4. The Henry Ford — Amana Radarange (ca. 1975) — https://thehenryford.org/collections/explore/artifact/313914
 5. Smithsonian NMAH — Amana Radarange (ca. 1974) — https://americanhistory.si.edu/collections/search/object/nmah_214291
 6. Wikimedia Commons — File:Amana Radarange Microwave Oven.jpg (CC BY-SA 4.0) — https://commons.wikimedia.org/wiki/File:Amana_Radarange_Microwave_Oven.jpg
+
+---
+
+## Mailmobile (1982)
+
+**By:** Bell & Howell Company (mail-handling division)
+**Tags:** `Robot` `Office` `Autonomous` `Physical` `Commercial`
+
+### Overview
+
+The Mailmobile was a self-propelled, battery-powered mail-delivery robot built by Bell & Howell, a company better known for cameras and motion-picture equipment. It was essentially a mobile file cabinet on wheels: a few hundred pounds of steel and drive with locked shelves for mail, guided through office floors by following an invisible chemical guidepath. Rather than mapping the building or scanning it with sonar or vision, a technician laid a trail of ultraviolet-fluorescent dye along the carpeted route from the mailroom to each office stop, and the Mailmobile's sensor steered to keep that faint glowing line centered — a physical-world answer to 'software is a stripe painted on the floor.'
+
+It was a genuinely commercial product, not a lab prototype. The Sears Tower (now Willis Tower) in Chicago was the first building in the world to employ one; Citibank, MassMutual, Northrop Grumman, State Farm, and the International Monetary Fund ran them too. At FBI Headquarters in Washington, the Administrative Services Division hired its own in June 1982 — a 600-pound unit named OBR III after Assistant Director Oliver B. Revell — capable of hauling 800 pounds of mail around the sixth floor and making a round in about thirty minutes, replacing two messengers who had completed the run every forty-five minutes.
+
+### Deep dive
+
+* **The chemical nerve trail.** The Mailmobile's defining engineering choice was to make its entire navigation a painted line. An ultraviolet-fluorescent dye was applied to the carpet along a route, and the robot followed the signal with its own sensor, steering to keep the line centered. When the FBI retired its Mailmobiles, remnants of OBR III's guidepath lingered on the sixth floor of Headquarters for years — a literal ghost line the machine once followed.
+* **The thirty-second grab.** At each of roughly thirty stops the Mailmobile would beep and flash, and office staff had thirty seconds to step out, unlock the right shelf, and grab their mail before the robot wheeled itself on to the next stop. It was a scheduled, deadline-driven encounter between people and a machine that ran on its own stopwatch. Workers who grew fond of the units decorated and nicknamed them; OBR III gained decorative horns added by staff.
+* **A robot that bumped and stalled.** The Mailmobile was not a clean success story. It sometimes bumped into passing employees and occasionally stalled for hours, fouling the mail run. Its commercial run was short, but its cultural resonance proved oddly lasting: after a Mailmobile played a role on the FX series The Americans, public fascination surged, inspiring essays, internet threads, and even a Twitter account devoted to the machine. The FBI's surviving unit — 4'9'' long, 1'11'' wide, and 4'4'' high — still moves after a cleanup and fresh batteries, though it can no longer follow a guidepath.
+
+### Media
+
+![A Bell & Howell Mailmobile mail robot](../assets/wiki/mailmobile-fbi.jpg)
+*A Mailmobile like OBR III used at FBI Headquarters. Public domain, Federal Bureau of Investigation, via Wikimedia Commons.*
+
+### Sources
+
+1. FBI — Mailmobile artifact page — https://www.fbi.gov/history/artifacts/mailmobile
+2. Wikimedia Commons — File:November 2019 Mailmobile (49025974146).jpg (Public domain) — https://commons.wikimedia.org/wiki/File:November_2019_Mailmobile_(49025974146).jpg
+
+---
+
+## Mouse Systems Optical Mouse (1980)
+
+**By:** Steve Kirsch (MIT); Mouse Systems Corporation (later Sun/Data General OEM)
+**Tags:** `Input` `Pointing` `Optical` `Desktop` `Commercial`
+
+### Overview
+
+An optical mouse senses movement relative to a surface using a light source and a detector, with no moving parts for tracking. Two inventors independently demonstrated the first examples in December 1980. Steve Kirsch — then an MIT student, later founder of Mouse Systems and of Infoseek — built the version that was commercialized: an infrared LED and a four-quadrant infrared sensor detected grid lines printed with infrared-absorbing ink on a special metallic mousemat, while predictive algorithms in the mouse's own CPU worked out speed and direction over the grid. Sold by Mouse Systems for PC compatibles from 1982, it was also rebranded as OEM equipment by Sun Microsystems and Data General.
+
+The other early type was Richard F. Lyon's at Xerox PARC, a 16-pixel visible-light image sensor with integrated motion detection on a single MOS chip. The two behaved very differently: the Kirsch mouse used an x-y coordinate system embedded in the pad, so it would not work correctly when the pad was rotated, whereas the Lyon mouse tracked relative to the mouse body, like a mechanical mouse. It is the Kirsch device that survives in the historic record as the first commercial optical mouse.
+
+### Deep dive
+
+* **A pointer chained to its pad.** The defining interaction of the Kirsch optical mouse was its absolute dependence on its printed pad. Cursor position was computed against the grid lines printed on a metallic surface — not relative to the mouse body. Lift it off the pad and it lost all tracking; rotate the pad and the x-y frame rotated with it. The user was literally tethered to a map of screen space printed beneath their hand, a deliberate inversion of the free-rolling mechanical mouse.
+* **Why no moving parts mattered.** The optical design eliminated the mechanism users cursed most: the rolling ball and sensor wheels that picked up dirt, skipped, and had to be taken apart and cleaned. The Kirsch mouse was solid-state for tracking, trading the ball for a printed grid and a prediction algorithm. It proved, years before consumer LED mice, that optics could replace mechanics.
+* **Legacy.** The Kirsch mouse is the direct, concrete ancestor of every modern optical and laser mouse, and a counterpoint to the museum's touch and graphics-tablet entries, which likewise bind input to a physical surface. It sits naturally among the museum's pointing-lineage artifacts (Summagraphics Bit Pad, GrafBar Sonic Digitizer) as the mouse that had to stay on its own paper map.
+
+### Media
+
+![Underside of an OEM Mouse Systems optical mouse and its grid mousemat](../assets/wiki/optical-mouse-underside.jpg)
+*OEM-branded Mouse Systems (Kirsch) optical mouse showing the underside and its mousemat pattern — the pointer reads printed grid lines. CC BY-SA 3.0, via Wikimedia Commons.*
+
+### Sources
+
+1. Wikipedia — Optical mouse — https://en.wikipedia.org/wiki/Optical_mouse
+2. Wikimedia Commons — File:Old optical mouse.jpeg (CC BY-SA 3.0) — https://commons.wikimedia.org/wiki/File:Old_optical_mouse.jpeg
+3. John Markoff, InfoWorld — 'Computer mice are scurrying out of R&D labs' (May 10, 1982) — https://books.google.com/books?id=bDAEAAAAMBAJ&pg=PA10
+
+---
+
+## Logitech TrackMan (1989)
+
+**By:** Logitech International
+**Tags:** `Input` `Pointing` `Trackball` `Desktop` `Commercial`
+
+### Overview
+
+A trackball is an upside-down mouse: the ball rolls in place while the device stays still. The Logitech TrackMan, introduced in 1989, made the decisive ergonomic move of leaving the ball in a fixed cradle and driving it with the thumb, so the palm and the other fingers could rest. Earlier trackballs normally required the whole hand to roll a larger ball, sometimes with the wrist held up; the TrackMan collapsed that motion into a single, strong digit.
+
+It is a landmark in the history of pointing devices precisely because its operator grammar — a stationary ball, a resting hand, a single busy thumb — became the template that portable computers spread through the 1990s, long before trackpads and pointing sticks were the norm. The museum holds no other artifact that reassigns the pointing job from the whole hand to one finger in quite this way.
+
+### Deep dive
+
+* **Who works the ball.** The TrackMan's entire point is a division of labor. On a finger trackball the ball sits at the fingertips and the hand hovers; on a mechanical mouse the whole arm drags across a desk. The TrackMan parked a thumb-sized ball at the edge and let it be turned by the strongest digit, with wrist and palm supported. It is a pointed answer to an ergonomic question — how to move the cursor without lifting the arm or flexing the wrist — and it produced the gesture that two decades of laptops borrowed.
+* **Fixing the cursor, not the shoulder.** By keeping the device stationary, the TrackMan removed the biggest fatigue cost of a conventional mouse: the arm reaching out across the desk. It was remembered, in the same way the DataHand and other ergonomic keyboards were, as relief for repetitive strain. The interaction is deliberate, small, and repeated thousands of times a day — a rhythm set beside the heavier, larger gestures of the museum's other input devices.
+* **Legacy.** The TrackMan became a defining input product of its era and seeded both the ergonomic trackball and mobile thumb-input that followed. In the reckoning of input-device history, the 'thumb ball' is one of the canonical pointing families — and this is where it started. No other entry in the museum asks a single finger to take over pointing, making the TrackMan a clean, image-rich, commercially-deployed counterpoint to the museum's whole-hand input devices.
+
+### Media
+
+![A white Logitech TrackMan 1989 thumb trackball](../assets/wiki/trackman-1989-white.jpg)
+*Logitech TrackMan (1989), the first thumb-operated trackball. CC BY-SA 3.0 fr, via Wikimedia Commons.*
+
+### Sources
+
+1. Wikimedia Commons — File:Logitech TrackMan 1989-IMG 7942-white.jpg (CC BY-SA 3.0 fr) — https://commons.wikimedia.org/wiki/File:Logitech_TrackMan_1989-IMG_7942-white.jpg
+2. Wikipedia — Trackball — https://en.wikipedia.org/wiki/Trackball

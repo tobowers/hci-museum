@@ -1,0 +1,43 @@
+{
+  "slug": "mailmobile",
+  "title": "Bell & Howell Mailmobile",
+  "year": "1982",
+  "subtitle": "The office mail cart that chased you down a chemical trail and gave you thirty seconds to grab your mail",
+  "why_scout_cares": "A 600-pound autonomous mail robot that navigated offices by following an invisible ultraviolet-fluorescent chemical trail, then stopped at each desk, beeped and flashed, and gave secretaries a hard thirty-second window to grab their mail from locked shelves before it rolled on. Embodied, deadline-driven, commercially deployed (Sears Tower was its first building; the FBI ran one), and utterly unlike any input device in the museum — the interaction is a physical choreography between humans and a moving machine.",
+  "search_terms": ["Mailmobile", "Bell & Howell mail robot", "OBR III", "ultraviolet guidepath mail delivery robot"],
+  "research": {
+    "title": "Bell & Howell Mailmobile",
+    "year": "1982",
+    "by": "Bell & Howell Company (mail-handling division)",
+    "tags": ["Robot", "Office", "Autonomous", "Physical", "Commercial"],
+    "overview": "The Mailmobile was a self-propelled, battery-powered mail-delivery robot built by Bell & Howell, a company better known for cameras and film projectors. It was, in essence, a mobile filing cabinet on wheels: a few hundred pounds of steel and drive, with locked shelves for mail, that navigated office floors by following an invisible chemical guidepath. Rather than learning maps or scanning rooms, a technician laid a trail of ultraviolet-fluorescent dye along the carpeted route from the mailroom to each office stop, and the Mailmobile's sensors steered along that faint glowing line at walking pace.\n\nIt was a genuinely commercial product, not a lab prototype. The Sears Tower (now Willis Tower) in Chicago was the first building in the world to employ one; Citibank, MassMutual, Northrop Grumman, State Farm, and the International Monetary Fund ran them too. At FBI Headquarters in Washington, the Administrative Services Division hired its own Mailmobile in June 1982 — a 600-pound unit named OBR III after Assistant Director Oliver B. Revell — which hauled up to 800 pounds of mail around the sixth floor, making a round in about thirty minutes and replacing two messengers who had run the same route every forty-five minutes.",
+    "deepDive": [
+      {
+        "heading": "The chemical nerve trail",
+        "text": "The Mailmobile's trickiest engineering choice was to make the entire navigation system a painted line on the carpet. Instead of encoders, sonar, or vision, the robot followed a guidepath of ultraviolet-fluorescent dye laid by hand through the building. A sensor read the line and the robot steered to keep it centered — a physical-world equivalent of following a track, where the 'software' is a stripe applied to the floor. When the FBI eventually retired its Mailmobiles, remnants of OBR III's chemical tract lingered on the sixth floor of Headquarters for years, a literal ghost line that the machine once followed."
+      },
+      {
+        "heading": "The thirty-second grab",
+        "text": "The Mailmobile's interaction with its human users was a deadline. At each of roughly thirty stops it would beep and flash to alert the office, and secretaries had thirty seconds to step out, unlock the right shelf, and grab their mail before the robot wheeled itself on to the next stop. It was scheduled, mechanical, and oddly demanding — a machine that expected the people around it to meet its stopwatch. Workers who grew fond of the units decorated and nicknamed them; OBR III wore decorative horns added by staff in the Administrative Services Division."
+      },
+      {
+        "heading": "A robot that bumped and stalled",
+        "text": "The Mailmobile was not a smooth success story. Sometimes it bumped into passing employees, and at times it stalled for hours, fouling the mail run. Its commercial life was short-lived and its cultural resonance was odd and lasting: after a Mailmobile played a role in the FX series The Americans, public fascination spiked, inspiring essays, internet threads, and even a Twitter account devoted to the machine. The FBI's surviving unit — 4'9'' long, 1'11'' wide, and 4'4'' high — still moves after a cleanup and fresh batteries, though it can no longer follow a guidepath."
+      }
+    ],
+    "team": [
+      { "name": "Bell & Howell Company", "note": "Manufacturer; mail-handling division produced the Mailmobile" },
+      { "name": "OBR III (as nicknamed at FBI)", "note": "The 600-pound Mailmobile deployed at FBI Headquarters, June 1982" },
+      { "name": "Sears Tower / Willis Tower (Chicago)", "note": "First building in the world to employ a Mailmobile" }
+    ],
+    "media": [
+      { "src": "https://upload.wikimedia.org/wikipedia/commons/4/48/November_2019_Mailmobile_%2849025974146%29.jpg", "alt": "The Bell & Howell Mailmobile, a wheeled mail cart robot", "caption": "A Mailmobile like OBR III used at FBI Headquarters. Public domain, Federal Bureau of Investigation, via Wikimedia Commons." }
+    ],
+    "sources": [
+      { "text": "FBI — Mailmobile artifact page", "url": "https://www.fbi.gov/history/artifacts/mailmobile" },
+      { "text": "Wikimedia Commons — File:November 2019 Mailmobile (49025974146).jpg", "url": "https://commons.wikimedia.org/wiki/File:November_2019_Mailmobile_(49025974146).jpg" }
+    ],
+    "imageUrls": ["https://upload.wikimedia.org/wikipedia/commons/4/48/November_2019_Mailmobile_%2849025974146%29.jpg"]
+  },
+  "savedImages": ["potential/mailmobile/images/mailmobile-fbi.jpg"]
+}
