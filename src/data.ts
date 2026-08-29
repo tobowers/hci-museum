@@ -2804,6 +2804,19 @@ const exhibitData: Exhibit[] = [
     tags: ["Input", "Pointing", "Trackball", "Desktop", "Commercial"],
     image: img("trackman-1989-white.jpg"),
   },
+  {
+    id: "ibm-65-cartridge-system",
+    slug: "ibm-65-cartridge-system",
+    wikiTitle: "IBM 6:5 Cartridge System",
+    year: "1975",
+    sortYear: 1975,
+    title: "IBM 6:5 Cartridge System (1975)",
+    subtitle: "The office dictation machine that stored your voice on magnetic discs you could color-code, mark urgent, and mail",
+    blurb:
+      "IBM's 1975 answer to the cassette-tape office: dictation stored on six-minute magnetic discs packed into a floppy-like cartridge, in five colors so jobs could be sorted at a glance. The recorded voice lived on a tangible, removable object you could flag as urgent and physically route — and transcription was a whole-body ritual, hands on the keys while a foot pedal drove playback and ears heard through a headset. A physical-token interface where the token is a human voice, and one of the most embodied office workflows computing ever had.",
+    tags: ["Office", "Physical Token", "Audio", "Input", "Commercial"],
+    image: img("ibm-65-portable-recorder.jpg"),
+  },
 ];
 
 export const exhibits: Exhibit[] = exhibitData.toSorted((a, b) => b.sortYear - a.sortYear || a.title.localeCompare(b.title));
