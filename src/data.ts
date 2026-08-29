@@ -2765,6 +2765,45 @@ const exhibitData: Exhibit[] = [
     tags: ["Input", "Home Appliance", "Microprocessor", "Keypad", "Display", "Consumer"],
     image: img("amana-radarange.jpg"),
   },
+  {
+    id: "mailmobile",
+    slug: "mailmobile",
+    wikiTitle: "Mailmobile",
+    year: "1982",
+    sortYear: 1982,
+    title: "Mailmobile",
+    subtitle: "The office mail cart that chased you down a chemical trail and gave you thirty seconds to grab your mail",
+    blurb:
+      "A 600-pound autonomous mail robot by Bell & Howell that followed an invisible ultraviolet-fluorescent chemical trail across office carpet, stopping at each desk to beep, flash, and give secretaries a hard thirty-second window to grab their mail from locked shelves before it wheeled on. Deployed first in the Sears Tower, then at FBI Headquarters (OBR III, June 1982) and across Citibank, MassMutual, Northrop Grumman, and the IMF. It often bumped into people and stalled for hours, and staff decorated and named their units anyway.",
+    tags: ["Robot", "Office", "Autonomous", "Physical", "Commercial"],
+    image: img("mailmobile-fbi.jpg"),
+  },
+  {
+    id: "mouse-systems-optical-mouse",
+    slug: "mouse-systems-optical-mouse",
+    wikiTitle: "Mouse Systems Optical Mouse",
+    year: "1980",
+    sortYear: 1980,
+    title: "Mouse Systems Optical Mouse",
+    subtitle: "The first optical mouse, chained to its printed grid pad",
+    blurb:
+      "Steve Kirsch's 1980 optical mouse (first demonstrated December 1980, sold from 1982 by Mouse Systems) tracked an infrared grid printed on a special metallic pad — lift it off the pad or rotate the pad and it lost all tracking. The cursor was computed against printed coordinates on the mat, tethering the pointer to its own paper map. A solid-state counterpoint to dirty rolling balls, and the direct ancestor of every modern optical mouse.",
+    tags: ["Input", "Pointing", "Optical", "Desktop", "Commercial"],
+    image: img("optical-mouse-underside.jpg"),
+  },
+  {
+    id: "logitech-trackman",
+    slug: "logitech-trackman",
+    wikiTitle: "Logitech TrackMan",
+    year: "1989",
+    sortYear: 1989,
+    title: "Logitech TrackMan (1989)",
+    subtitle: "The first thumb-operated trackball, the grammar laptops would borrow",
+    blurb:
+      "Logitech's 1989 TrackMan parked a stationary ball in a cradle and drove it with a single thumb, leaving the palm and fingers to rest — inverting the whole-hand finger-trackball and the arm-reaching mouse into one digit's job. It became the template between moving the cursor without lifting the arm, and what a decade of laptops spread: a fixed device, a resting hand, one busy thumb.",
+    tags: ["Input", "Pointing", "Trackball", "Desktop", "Commercial"],
+    image: img("trackman-1989-white.jpg"),
+  },
 ];
 
 export const exhibits: Exhibit[] = exhibitData.toSorted((a, b) => b.sortYear - a.sortYear || a.title.localeCompare(b.title));

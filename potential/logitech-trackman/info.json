@@ -1,0 +1,41 @@
+{
+  "slug": "logitech-trackman",
+  "title": "Logitech TrackMan (1989)",
+  "year": "1989",
+  "subtitle": "The first thumb-operated trackball, the input grammar laptops would later standardize",
+  "why_scout_cares": "The museum's trackballs are 3D robots (Radio Drum) and game controllers — none is the desktop thumb trackball whose operator grammar every laptop later borrowed. The Logitech TrackMan (1989) was the first to put a large stationary ball under the thumb, freeing the palm and fingers to rest, a mirror of the finger-operated trackball design that came before it. This inversion of who works the ball is the entire interaction: a pointing device that asks your thumb to do what the whole hand used to do, and the direct ancestor of a decade of portable-computer pointing.",
+  "search_terms": ["Logitech TrackMan 1989", "first thumb trackball", "trackman thumb-operated trackball history"],
+  "research": {
+    "title": "Logitech TrackMan (1989)",
+    "year": "1989",
+    "by": "Logitech International",
+    "tags": ["Input", "Pointing", "Trackball", "Desktop", "Commercial"],
+    "overview": "A trackball is an upside-down mouse: the ball rolls in place and the device stays still. The Logitech TrackMan, introduced in 1989, made the decisive ergonomic move of leaving the ball in a fixed cradle and driving it with the thumb, leaving the palm and the other fingers to rest. Earlier trackballs (the finger-operated desk units and the string of experimental designs before them) typically required the user to roll a large ball with the whole hand, sometimes balancing the wrist in mid-air. The TrackMan collapsed that motion into one digit.\n\nIt is a household name in the history of pointing devices precisely because its operator grammar — a stationary ball, a resting hand, a single busy thumb — became the template that laptops and portable computers spread across the 1990s, long before trackpads and pointing sticks. The museum holds no other artifact that inverts finger-and-palm role assignment in quite this way.",
+    "deepDive": [
+      {
+        "heading": "Who works the ball",
+        "text": "The TrackMan's whole point is the division of labor. On a finger trackball the ball sits at the fingertips and the hand hovers or cradles it; on the mechanical mouse the whole arm drags across a surface. The TrackMan parked a thumb-sized ball against the edge and let it be turned by the strongest digit in the hand, with the wrist and palm supported. It is a pointed answer to a real ergonomic question — how to move the cursor without lifting the arm or flexing the wrist — and it produced the gesture that two decades of laptops would borrow."
+      },
+      {
+        "heading": "Fixing the cursor, not the shoulder",
+        "text": "By keeping the device stationary, the TrackMan eliminated the biggest fatigue cost of a conventional mouse: the arm reaching across the desk. It was pitched (and later remembered, in the same way the DataHand and other ergonomic keyboards were) as relief for repetitive strain and shoulder fatigue. The interaction is deliberate, small, and repeated thousands of times a day — a rhythm the museum can set beside the heavier, larger gestures of its other input devices."
+      },
+      {
+        "heading": "Legacy",
+        "text": "The TrackMan became a defining input product of its era, and it seeded the ergonomic trackball and the mobile thumb input that followed. In the GIR System Notes of the generation it shaped, the 'thumb ball' is understood as one of the canonical pointing families — and this is where it started. No other entry in the museum asks a single finger to take over pointing, which makes the TrackMan a clean, image-rich, commercially-deployed counterpoint to the museum's whole-hand input devices."
+      }
+    ],
+    "team": [
+      { "name": "Logitech International", "note": "Manufacturer; introduced the TrackMan in 1989 as the first thumb-operated trackball" }
+    ],
+    "media": [
+      { "src": "https://upload.wikimedia.org/wikipedia/commons/7/7f/Logitech_TrackMan_1989-IMG_7942-white.jpg", "alt": "A white Logitech TrackMan 1989 thumb-trackball", "caption": "Logitech TrackMan (1989), the first thumb-operated trackball. CC BY-SA 3.0 fr, via Wikimedia Commons." }
+    ],
+    "sources": [
+      { "text": "Wikimedia Commons — File:Logitech TrackMan 1989-IMG 7942-white.jpg", "url": "https://commons.wikimedia.org/wiki/File:Logitech_TrackMan_1989-IMG_7942-white.jpg" },
+      { "text": "Wikipedia — Trackball", "url": "https://en.wikipedia.org/wiki/Trackball" }
+    ],
+    "imageUrls": ["https://upload.wikimedia.org/wikipedia/commons/7/7f/Logitech_TrackMan_1989-IMG_7942-white.jpg"]
+  },
+  "savedImages": ["potential/logitech-trackman/images/trackman-1989-white.jpg"]
+}

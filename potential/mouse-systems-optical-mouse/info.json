@@ -1,0 +1,44 @@
+{
+  "slug": "mouse-systems-optical-mouse",
+  "title": "Mouse Systems Optical Mouse",
+  "year": "1980",
+  "subtitle": "The first optical mouse, and the one that could not leave its printed grid pad",
+  "why_scout_cares": "The museum has Summagraphics Bit Pad, the GrafBar sonic pencil, and a shelf of pointing devices, but nothing whose pointer lives on a printed grid that IS the coordinates. The Mouse Systems optical mouse (Steve Kirsch, first demonstrated December 1980, sold from 1982) bounded the cursor to a special metallic pad printed with infrared-absorbing grid lines — move off the pad and it lost tracking entirely, and rotating the pad broke it. A pointing device physically chained to its own paper map, the pre-computer forebear of every LED mouse.",
+  "search_terms": ["Mouse Systems optical mouse", "Steve Kirsch optical mouse 1980", "grid optical mouse pad", "first optical mouse"],
+  "research": {
+    "title": "Mouse Systems Optical Mouse",
+    "year": "1980",
+    "by": "Steve Kirsch, MIT; Mouse Systems Corporation (later Sun/Data General OEM)",
+    "tags": ["Input", "Pointing", "Optical", "Desktop", "Commercial"],
+    "overview": "The optical mouse uses a light source and a detector to sense movement relative to a surface, with no moving parts to track position. Two inventors independently demonstrated the first examples in December 1980. Steve Kirsch — then an MIT student, later a founder of Mouse Systems and of Infoseek — built the version that was commercialized: an infrared LED and a four-quadrant infrared sensor that detected grid lines printed with infrared-absorbing ink on a special metallic mousemat. Predictive algorithms in the mouse's own CPU calculated speed and direction over the grid.\n\nThe other early type was Richard F. Lyon's at Xerox PARC, a 16-pixel visible-light image sensor with integrated motion detection on a single MOS chip. The two had very different behaviors: the Kirsch mouse used an x-y coordinate system embedded in the pad, so it would not work correctly when the pad was rotated, while the Lyon mouse tracked relative to the mouse body, as mechanical mice do. It is the Kirsch device that survives in the historic record as the first commercial optical mouse.", 
+    "deepDive": [
+      {
+        "heading": "A pointer chained to its pad",
+        "text": "The defining interaction of the Kirsch optical mouse was its absolute dependence on its printed pad. The mouse read grid lines etched into a metallic surface, so the cursor position was computed relative to those printed coordinates — not relative to the mouse body. Lift it off the pad, and it lost all tracking. Rotate the pad, and the x-y frame rotated with it, scrambling the mapping. The user was effectively tethered to a physical map of screen space, a deliberate inversion of the free-rolling mechanical mouse."
+      },
+      {
+        "heading": "Why no moving parts mattered",
+        "text": "The optical design eliminated the mechanism most users cursed: the rolling rubber ball and its sensor wheels, which picked up dirt, skipped, and had to be disassembled and cleaned. The Kirsch mouse was entirely solid-state for tracking, trading the ball for a printed grid and a prediction algorithm. It was sold by Mouse Systems for PC compatibles and rebranded as OEM equipment by Sun Microsystems workstations and Data General.",
+      },
+      {
+        "heading": "Legacy",
+        "text": "Kirsch's design was the mouse that proved optics could replace mechanics, years before consumer LED mice arrived in the 1990s and before HP/Agilent image-correlation sensors made surface-independent optical mice mainstream in 1999. The controller that 'knew' where it was on its printed map is a direct, concrete ancestor of every modern optical and laser mouse — and a physical-counterpoint to the museum's touch and graphics-tablet entries, which likewise bind input to a physical surface."
+      }
+    ],
+    "team": [
+      { "name": "Steve Kirsch", "note": "Inventor of the grid-pad optical mouse (first demo December 1980); later founded Mouse Systems and Infoseek" },
+      { "name": "Richard F. Lyon", "note": "Independent co-inventor of the optical mouse at Xerox PARC (image-sensor design)" },
+      { "name": "Mouse Systems Corporation", "note": "Commercialized the Kirsch optical mouse for PC compatibles" }
+    ],
+    "media": [
+      { "src": "https://upload.wikimedia.org/wikipedia/commons/f/f0/Old_optical_mouse.jpeg", "alt": "Underside of an OEM Mouse Systems optical mouse with its grid mousemat", "caption": "OEM-branded Mouse Systems (Kirsch) optical mouse showing the underside and its mousemat pattern — the pointer reads printed grid lines. CC BY-SA 3.0, via Wikimedia Commons." }
+    ],
+    "sources": [
+      { "text": "Wikipedia — Optical mouse", "url": "https://en.wikipedia.org/wiki/Optical_mouse" },
+      { "text": "Wikimedia Commons — File:Old optical mouse.jpeg", "url": "https://commons.wikimedia.org/wiki/File:Old_optical_mouse.jpeg" },
+      { "text": "John Markoff, InfoWorld — 'Computer mice are scurrying out of R&D labs' (May 10, 1982)", "url": "https://books.google.com/books?id=bDAEAAAAMBAJ&pg=PA10" }
+    ],
+    "imageUrls": ["https://upload.wikimedia.org/wikipedia/commons/f/f0/Old_optical_mouse.jpeg"]
+  },
+  "savedImages": ["potential/mouse-systems-optical-mouse/images/optical-mouse-underside.jpg"]
+}
