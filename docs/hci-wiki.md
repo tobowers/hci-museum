@@ -1,6 +1,6 @@
 # The HCI Golden Age Wiki
 
-A research compendium for a digital museum of cutting-edge Human-Computer Interaction from the late 1970s through the early 1990s. These two hundred and twenty-six projects mix canonical experiments with weird, forgotten, and beautiful vaporware — brain control, voice control, gesture, wearable computing, VR, robots, and full-body exertion.
+A research compendium for a digital museum of cutting-edge Human-Computer Interaction from the late 1970s through the early 1990s. These two hundred and twenty-seven projects mix canonical experiments with weird, forgotten, and beautiful vaporware — brain control, voice control, gesture, wearable computing, VR, robots, and full-body exertion.
 
 Each entry includes an overview, a deep dive, a small media gallery, and full source links so the images and facts can always be traced back.
 
@@ -233,6 +233,7 @@ Each entry includes an overview, a deep dive, a small media gallery, and full so
 224. [Mailmobile (1982)](#mailmobile-1982)
 225. [Mouse Systems Optical Mouse (1980)](#mouse-systems-optical-mouse-1980)
 226. [Logitech TrackMan (1989)](#logitech-trackman-1989)
+227. [IBM 6:5 Cartridge System (1975)](#ibm-65-cartridge-system-1975)
 
 ---
 
@@ -10746,3 +10747,41 @@ It is a landmark in the history of pointing devices precisely because its operat
 
 1. Wikimedia Commons — File:Logitech TrackMan 1989-IMG 7942-white.jpg (CC BY-SA 3.0 fr) — https://commons.wikimedia.org/wiki/File:Logitech_TrackMan_1989-IMG_7942-white.jpg
 2. Wikipedia — Trackball — https://en.wikipedia.org/wiki/Trackball
+
+---
+
+## IBM 6:5 Cartridge System (1975)
+
+**By:** IBM Office Products Division
+**Tags:** `Office` `Physical Token` `Audio` `Input` `Commercial`
+
+### Overview
+
+The IBM 6:5 Cartridge System, announced in March 1975 by IBM's Office Products Division, was a dictation and transcription system built around an unusual storage medium. Where competitors used endless loops of magnetic tape, the 6:5 recorded each piece of dictation onto a six-minute magnetic *disc*, and twenty-five of those discs were packed into a cartridge the size and shape of a floppy disk. The name "6:5" encodes the economics: each disc holds six minutes of speech, and a recorder fitted with two cartridge readers could carry five hours of dictation.
+
+The 6:5 was sold as a family — the Recorder Type 281, the Transcriber Type 282 (which shipped with a foot pedal and headset), and the Portable Recorder Type 284 — plus a range of remote-control units (Tone Control, Dial Control, Micro Control) that let people telephone in and dictate over the phone. The American Nurses Association was a documented customer. IBM called the launch its most extensive advertising campaign in Office Products Division history. The range was withdrawn on December 31, 1981, having spanned the museum's window.
+
+### Deep dive
+
+* **The voice is a disc.** Each six-minute magnetic disc (IBM insisted on the spelling "disc") was about 3 1/4 inches across, and twenty-five of them lived inside a floppy-shaped cartridge. Because dictation was segmented disc by disc, a cartridge came in five colors so different jobs, people, or priorities could be distinguished at a glance — and a disc or cartridge could be marked urgent and physically routed for rush transcription. The human voice had to be poured into an object to travel, and that object could be sorted, stacked, flagged, and mailed.
+* **The whole-body transcription ritual.** Transcription on the 6:5 was a full-body workflow that has all but vanished. The transcriptionist sat with both hands on a keyboard, a headset over the ears, and a foot pedal on the floor. Playback was driven entirely by the foot — press to play, ease off to pause, heel for rewind — so the hands never left the keys. The interface was split across three body channels at once: fingers for output, foot for transport control, ears for input. It is the canonical bimanual-plus-foot office interface, and the 6:5 was one of its most polished commercial embodiments.
+* **A physical-token sibling to the floppy.** The 6:5 cartridge is an almost perfect material echo of the floppy disk, but for voice rather than data. IBM designed it (with Eliot Noyes & Associates, who had styled the earlier Executary line) to be handled, color-coded, stacked, and mailed — the same physical-token instinct the museum celebrates in Cauzin's printed barcodes, the Dallas iButton, and Ascom's notched QuickFare ticket. It is a reminder that in the 1970s, like data, the human voice had to become a thing you could hold.
+
+### Media
+
+![IBM 6:5 Portable Recorder Model 284](../assets/wiki/ibm-65-portable-recorder.jpg)
+*IBM 6:5 Portable Recorder Model 284. CC BY-SA 4.0, Wikimedia Commons.*
+
+![IBM Executary dictation machines with foot pedal and headphones](../assets/wiki/ibm-executary-range.jpg)
+*IBM Executary dictation machines (Models 211, 212, 213, 224) with foot pedal and headphones — the embodied transcription workflow the 6:5 refined. CC BY-SA 4.0, Wikimedia Commons.*
+
+![IBM Executary Model 212 transcribing machine](../assets/wiki/ibm-dictation-machine.jpg)
+*IBM Executary Model 212 transcribing machine. CC BY-SA 4.0, Wikimedia Commons.*
+
+### Sources
+
+1. Wikipedia — IBM dictation machines (6:5 Cartridge System section) — https://en.wikipedia.org/wiki/IBM_dictation_machines
+2. IBM Archives — Office Products Division highlights — https://www.ibm.com/ibm/history/exhibits/modelb/modelb_office.html
+3. The Romance Division... A Different Side of IBM (DeLoca & Kalow, 1991)
+4. IBM 6:5 Cartridge System — ABA Journal (1975) — https://books.google.com/books?id=kqf2LZLrojsC&dq=ibm+6%3A5+Cartridge+system&pg=PA596-IA2
+5. Wikimedia Commons — File:IBM 6-5 Portable Recorder.jpg — https://commons.wikimedia.org/wiki/File:IBM_6-5_Portable_Recorder.jpg
