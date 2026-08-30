@@ -1,0 +1,41 @@
+{
+  "slug": "orca-edge",
+  "title": "Orca Edge Dive Computer",
+  "year": "1983",
+  "subtitle": "A wrist-worn decompression computer that renders your body's nitrogen uptake as a row of 12 abstract 'tissue' bar graphs",
+  "why_scout_cares": "The Orca Edge replaces dive tables and a dive watch with real-time wearable ambient reasoning: the diver reads a metaphor (12 horizontal tissue-saturation bars) instead of a numeric decompression plan, and infers safe ascent by which bars cross a limiting line. It is the museum's only embodied, safety-critical wearable that asks the wearer to calibrate their own physiology against a live abstract display.",
+  "search_terms": ["Orca Edge", "dive computer", "decompression", "Orca Industries", "tissue bar graph", "wearable computing"],
+  "research": {
+    "title": "Orca Edge Dive Computer",
+    "year": "1983",
+    "by": "Orca Industries (Craig Barshinger, Karl E. Huggins, Paul Heinmiller)",
+    "tags": ["Wearable", "Embodied", "Displays", "Safety-critical"],
+    "overview": "The Orca Edge, introduced at the DEMA show in January 1983, was a microprocessor dive computer worn on the wrist (or console-mounted). Instead of a numeric decompression plan, it rendered the diver's decompression state as twelve horizontal 'tissue' bar graphs on a graphic LCD, each bar representing a theoretical body tissue compartment modeled on the US Navy air tables. When any tissue bar's pixels reach a limiting line, that tissue has a decompression obligation and the diver must stay below the computed 'safe ascent depth' until the bar discharges enough to permit ascent. Reading the instrument means watching which bars bleed into the danger zone \u2014 a real-time visual reasoning task rather than table lookup. A single 9-volt lithium cell powered it, and it was produced at a rate of roughly one unit per day over the mid-1980s, with about 10,000 units sold at a suggested retail of $675.",
+    "deepDive": [
+      {
+        "heading": "A display that makes you reason, not read",
+        "text": "Conventional dive tables and dive watches give numbers. The Edge gave a metaphor. The 12 tissue bars represent hypothetical compartments that absorb and release nitrogen at different rates; by watching which bars fill past their limiting line, the diver infers how much decompression obligation is accumulating. This is an early and explicit example of wearable ambient computing \u2014 the machine does no spelling out; it hands you an abstract visualization of your own body state and trusts you to act."
+      },
+      {
+        "heading": "Lineage and provenance",
+        "text": "The Edge was designed at Orca Industries by Craig Barshinger, Karl E. Huggins, and Paul Heinmiller, and its development history is documented in Barsky's 2011 Journal of Diving History article. A surviving unit is catalogued at the Computer History Museum (accession 102716293, gift of Warren Yogi), and the display behavior is reproduced by the EdgeSimulator for the Macintosh."
+      }
+    ],
+    "team": [
+      {"name": "Craig Barshinger", "note": "Co-designer, Orca Industries"},
+      {"name": "Karl E. Huggins", "note": "Co-designer, Orca Industries"},
+      {"name": "Paul Heinmiller", "note": "Co-designer, Orca Industries"},
+      {"name": "Computer History Museum", "note": "Holds a surviving unit (102716293)"}
+    ],
+    "media": [
+      {"src": "https://en.wikipedia.org/wiki/Orca_Edge", "alt": "Orca Edge dive computer", "caption": "Orca Edge dive computer, CC0 via Wikimedia Commons."}
+    ],
+    "sources": [
+      {"text": "Orca Edge - Wikipedia", "url": "https://en.wikipedia.org/wiki/Orca_Edge"},
+      {"text": "Computer History Museum catalog 102716293", "url": "https://www.computerhistory.org/collections/catalog/102716293"},
+      {"text": "Barsky, S. 'The Orca Edge' - Journal of Diving History 19(2):19-23, 2011", "url": "https://en.wikipedia.org/wiki/Orca_Edge"}
+    ],
+    "imageUrls": ["https://commons.wikimedia.org/wiki/File:Orca_Edge_dive_computer.jpg"]
+  },
+  "savedImages": ["orca-edge-dive-computer.jpg"]
+}
