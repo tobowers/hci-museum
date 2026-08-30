@@ -2817,6 +2817,19 @@ const exhibitData: Exhibit[] = [
     tags: ["Office", "Physical Token", "Audio", "Input", "Commercial"],
     image: img("ibm-65-portable-recorder.jpg"),
   },
+  {
+    id: "trackpoint",
+    slug: "trackpoint",
+    wikiTitle: "IBM TrackPoint",
+    year: "1992",
+    sortYear: 1992,
+    title: "IBM TrackPoint (1992)",
+    subtitle: "The laptop pointer that reads pressure, not motion — force-sensing isometric input between the G and H keys",
+    blurb:
+      "TrackPoint is the strange inversion of the mouse: it doesn't move at all. Its two pairs of resistive strain gauges read how hard you press an immobile cap between the G and H keys, converting force — not travel — into cursor velocity. Hands never leave home row, countering the three-quarters of a second Xerox PARC measured in shifting hand from keyboard to mouse. IBM commercialized it on the 1992 ThinkPad 700, from Ted Selker's PARC prototype. Its oddest flank was Zenith's J-Mouse, where the letter J itself became the pointing stick.",
+    tags: ["Input", "Pointing", "Force Sensing", "Desktop", "Commercial"],
+    image: img("pointing-stick-hero.jpg"),
+  },
 ];
 
 export const exhibits: Exhibit[] = exhibitData.toSorted((a, b) => b.sortYear - a.sortYear || a.title.localeCompare(b.title));
