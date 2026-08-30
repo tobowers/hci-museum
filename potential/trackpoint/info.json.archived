@@ -1,0 +1,54 @@
+{
+  "slug": "trackpoint",
+  "title": "IBM TrackPoint (1992)",
+  "year": "1992",
+  "subtitle": "The laptop pointing stick that reads pressure, not movement — force-sensing isometric input between the G and H keys",
+  "why_scout_cares": "The museum's mouse/trackball/joystick entries all translate gross movement into cursor motion. TrackPoint is the opposite: an isometric force-sensing keycap that stays put and reads strain gauges instead of travel. It is a genuinely distinct interaction paradigm — the hands never leave home row — and it came with a gloriously weird sibling, Zenith's J-Mouse, where a letter key itself became the pointing device. Fills the force-sensing keycap / home-row pointing gap.",
+  "search_terms": ["pointing stick", "TrackPoint", "J-Mouse", "isometric pointing device", "strain gauge keyboard", "Zenith Z-Star", "Selker"],
+  "research": {
+    "title": "IBM TrackPoint / Pointing Stick",
+    "year": "1992",
+    "by": "IBM (Edwin Selker + Ted Selker lineage from Xerox PARC)",
+    "tags": ["HCI", "Input", "Pointing Device", "Consumer"],
+    "overview": "The pointing stick (TrackPoint being IBM's leading brand) is a small analog stick mounted centrally in a computer keyboard that controls the cursor by sensing applied FORCE rather than physical displacement. It uses two pairs of resistive strain gauges: pushing the cap toward the desired direction applies force measured as strain, and pointer velocity tracks the amount of force. Because it reacts to force rather than motion it is called an 'isometric' pointing device, and because it sits between the G, H and B keys, the hands never have to leave the home row of a keyboard. IBM introduced it commercially in 1992 on the ThinkPad 700 series under the name TrackPoint, succeeding its earlier experiments; IBM's development grew out of Ted Selker's work at Xerox PARC (1984), where a study showed it takes a typist about 0.75 seconds to shift from keyboard to mouse and back. Selker joined IBM and refined the design, yielding the commercial TrackPoint, patented in the 1990s.",
+    "deepDive": [
+      {
+        "heading": "Force, not motion",
+        "text": "Conventional pointing devices — mice, trackballs, joysticks — translate how far something moves. The pointing stick translates how hard you press. The cap has essentially zero travel under the fingertip; instead two pairs of resistive strain gauges measure the strain in the stick, and the operating system derives cursor velocity from applied force, so harder pressure means faster movement. Continuous motion without ever repositioning the finger, since there is nothing to 'run off the edge of.' This is the isometric principle, and it is the rare input paradigm that rewards keeping your hands still."
+      },
+      {
+        "heading": "The weird sibling: Zenith's J-Mouse",
+        "text": "IBM's success had an odd commercial cousin. In the early 1990s Zenith Data Systems shipped laptops with the 'J-Mouse,' which used a special keyswitch under the J key so that the J keycap itself — the letter J in the home row — became the pointing stick, with mouse buttons below the space bar. It is the same home-row force-sensing instinct taken to its strangest literal form: the key you were already typing on is the pointing device. The museum shows TrackPoint, the canonical success, and can cite J-Mouse as the more absurd flank of the same idea."
+      },
+      {
+        "heading": "The home-row insight",
+        "text": "The deeper rationale is a keystroke-timing argument: to use a mouse a typist lifts a hand off the keyboard, moves to the mouse, points, then returns — measured at Xerox PARC in 1984 at roughly three-quarters of a second per round trip. A pointing device embedded among the G, H and B keys eliminates that movement entirely; the hands stay on home row and only a fingertip flexes. It made the pointing stick the natural pointer for compact laptops where a trackpad had no room, and it kept it alive for decades as Lenovo continued shipping ThinkPads equipped with the red nub."
+      }
+    ],
+    "team": [
+      { "name": "Ted Selker", "note": "Researcher who developed the pointing-stick concept at Xerox PARC (1984) and refined it into the commercial TrackPoint at IBM." },
+      { "name": "IBM", "note": "Commercialized TrackPoint in 1992 on the ThinkPad 700 series; patented improved versions in the 1990s." },
+      { "name": "Zenith Data Systems", "note": "Shipped the J-Mouse variant, where the J keycap doubled as a pointing stick, in its early-1990s laptops." }
+    ],
+    "media": [
+      { "src": "https://upload.wikimedia.org/wikipedia/commons/6/6a/Pointing_stick.JPG", "alt": "IBM-style pointing stick / TrackPoint wearing a red rubber cap, on a keyboard", "caption": "A pointing stick wearing the familiar red rubber cap. Public domain, Wikimedia Commons." },
+      { "src": "https://upload.wikimedia.org/wikipedia/commons/2/2e/Pointing_stick_of_a_Lenovo_ThinkPad_keyboard-4488.jpg", "alt": "Rear or underside of a pointing stick showing the strain gauges", "caption": "Detail of a pointing stick with its strain gauges — the force-sensing heart of the isometric device. CC BY-SA 4.0, Wikimedia Commons." },
+      { "src": "https://upload.wikimedia.org/wikipedia/commons/0/0a/Mouse_pointing_stick.jpeg", "alt": "IBM TrackPoint Mouse, a desktop mouse with a pointing stick where the scroll wheel usually sits", "caption": "IBM's TrackPoint Mouse, putting the pointing stick on a desktop mouse. CC BY 3.0, Wikimedia Commons." }
+    ],
+    "sources": [
+      { "text": "Wikipedia — Pointing stick", "url": "https://en.wikipedia.org/wiki/Pointing_stick" },
+      { "text": "Golden, Peter — The development of the IBM ThinkPad, Part I", "url": "https://web.archive.org/web/20130513000000*/thinkpad" },
+      { "text": "J-Mouse — Trained In Tech (archived)", "url": "https://web.archive.org/web/20230505201003/https://trainedintech.com/j-mouse/" }
+    ],
+    "imageUrls": [
+      "https://upload.wikimedia.org/wikipedia/commons/6/6a/Pointing_stick.JPG",
+      "https://upload.wikimedia.org/wikipedia/commons/2/2e/Pointing_stick_of_a_Lenovo_ThinkPad_keyboard-4488.jpg",
+      "https://upload.wikimedia.org/wikipedia/commons/0/0a/Mouse_pointing_stick.jpeg"
+    ]
+  },
+  "savedImages": [
+    "images/pointing-stick-hero.jpg",
+    "images/trackpoint-strain-gauges.jpg",
+    "images/pointing-stick-mouse.jpg"
+  ]
+}

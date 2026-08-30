@@ -1,6 +1,6 @@
 # The HCI Golden Age Wiki
 
-A research compendium for a digital museum of cutting-edge Human-Computer Interaction from the late 1970s through the early 1990s. These two hundred and twenty-seven projects mix canonical experiments with weird, forgotten, and beautiful vaporware — brain control, voice control, gesture, wearable computing, VR, robots, and full-body exertion.
+A research compendium for a digital museum of cutting-edge Human-Computer Interaction from the late 1970s through the early 1990s. These two hundred and twenty-eight projects mix canonical experiments with weird, forgotten, and beautiful vaporware — brain control, voice control, gesture, wearable computing, VR, robots, and full-body exertion.
 
 Each entry includes an overview, a deep dive, a small media gallery, and full source links so the images and facts can always be traced back.
 
@@ -234,6 +234,7 @@ Each entry includes an overview, a deep dive, a small media gallery, and full so
 225. [Mouse Systems Optical Mouse (1980)](#mouse-systems-optical-mouse-1980)
 226. [Logitech TrackMan (1989)](#logitech-trackman-1989)
 227. [IBM 6:5 Cartridge System (1975)](#ibm-65-cartridge-system-1975)
+228. [IBM TrackPoint (1992)](#ibm-trackpoint-1992)
 
 ---
 
@@ -10785,3 +10786,46 @@ The 6:5 was sold as a family — the Recorder Type 281, the Transcriber Type 282
 3. The Romance Division... A Different Side of IBM (DeLoca & Kalow, 1991)
 4. IBM 6:5 Cartridge System — ABA Journal (1975) — https://books.google.com/books?id=kqf2LZLrojsC&dq=ibm+6%3A5+Cartridge+system&pg=PA596-IA2
 5. Wikimedia Commons — File:IBM 6-5 Portable Recorder.jpg — https://commons.wikimedia.org/wiki/File:IBM_6-5_Portable_Recorder.jpg
+
+## IBM TrackPoint (1992)
+
+**By:** IBM (from a 1984 Xerox PARC prototype by Ted Selker)
+**Tags:** `HCI` `Input` `Pointing` `Force-Sensing` `Commercial`
+
+### Overview
+
+The pointing stick — IBM's leading brand is TrackPoint — is a small analog stick mounted centrally in a computer keyboard that controls the cursor by sensing applied *force* rather than physical displacement. It reads the cap through two pairs of resistive strain gauges: push toward the direction you want and the gauges measure strain, while the operating system derives pointer velocity from how hard you press. Because it responds to force and not to motion it is classed as an *isometric* pointing device, and because it sits between the G, H and B keys it keeps the hands planted on the home row — no reaching for a mouse.
+
+IBM introduced it commercially in 1992 on the ThinkPad 700 series under the name TrackPoint. Development traces back to Ted Selker, a researcher at Xerox PARC, whose 1984 work was motivated by a timing study: a typist spends roughly 0.75 seconds moving a hand from keyboard to mouse and back. Selker later refined the idea at IBM into the shipped product, which IBM patented in the 1990s and which Lenovo still builds into ThinkPads as the red "nub."
+
+The strangest flank of the same idea came from Zenith Data Systems, whose early-1990s laptops shipped the "J-Mouse" — a special keyswitch under the J key let the letter-J keycap itself act as the pointing stick, with mouse buttons below the space bar. The home-row force-sensing instinct rendered in its most literal form: the very key you were typing on becomes the pointer.
+
+### Deep dive
+
+* **Force, not motion.** Mice, trackballs, and joysticks translate how far something moves. The pointing stick translates how hard you press an essentially immobile cap. Pointer velocity tracks applied strain, so firmer pressure means faster movement — and the device offers continuous motion with no finger run-off and no repositioning, because there is nothing to run off the edge of. It is the isometric principle, and one of the few input paradigms that rewards keeping your hands entirely still.
+* **The home-row insight.** The measured cost of a hand diverting to the mouse is roughly 0.75 seconds per round trip (Xerox PARC, 1984). A pointer embedded among G, H and B removes that diversion entirely; a fingertip flexes while the hands stay on home row. This logic made the pointing stick the natural pointer for compact laptops with no room for a trackpad, and the reason it endured for decades.
+* **The weird sibling, J-Mouse.** Zenith's Z-Star-line laptops turned the most-used letter key into the device: the J keycap rides on a special keyswitch and behaves as an isometric stick. It is the same home-row force-sensing instinct as TrackPoint, but where IBM built the nub as a separate component, Zenith collapsed the pointing device into a letter you were already reaching for. Both are the 1990s' crack at "how do I point without leaving the keyboard?"
+
+### Team
+
+* **Ted Selker** — developed the pointing-stick concept at Xerox PARC (1984) and refined it into the commercial TrackPoint at IBM.
+* **IBM** — commercialized TrackPoint in 1992 on the ThinkPad 700; patented improved versions in the 1990s (e.g., US 5,489,900 force-sensitive transducer).
+* **Zenith Data Systems** — shipped the J-Mouse, where the J keycap doubled as an isometric pointing stick.
+
+### Media
+
+![Pointing stick with the familiar red rubber cap](../assets/wiki/pointing-stick-hero.jpg)
+*A pointing stick wearing the red rubber nub that made the interaction culturally visible. Public domain, Wikimedia Commons.*
+
+![Pointing stick strain gauges](../assets/wiki/trackpoint-strain-gauges.jpg)
+*The force-sensing heart of the isometric device: two pairs of resistive strain gauges that read pressure, not displacement. CC BY-SA 4.0, Wikimedia Commons.*
+
+![IBM TrackPoint Mouse](../assets/wiki/pointing-stick-mouse.jpg)
+*IBM's TrackPoint Mouse, which put the pointing stick on a desktop mouse in the spot where a scroll wheel generally lives. CC BY 3.0, Wikimedia Commons.*
+
+### Sources
+
+1. Wikipedia — Pointing stick — https://en.wikipedia.org/wiki/Pointing_stick
+2. Golden, Peter — "The development of the IBM ThinkPad, Part I: big BLUE's big ADVENTURE" (archived) — https://web.archive.org/web/20130513000000*/thinkpad
+3. J-Mouse — Trained In Tech (archived) — https://web.archive.org/web/20230505201003/https://trainedintech.com/j-mouse/
+4. Wikimedia Commons — File:Pointing stick.JPG — https://commons.wikimedia.org/wiki/File:Pointing_stick.JPG
