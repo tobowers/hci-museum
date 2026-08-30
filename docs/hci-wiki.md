@@ -1,6 +1,6 @@
 # The HCI Golden Age Wiki
 
-A research compendium for a digital museum of cutting-edge Human-Computer Interaction from the late 1970s through the early 1990s. These two hundred and twenty-eight projects mix canonical experiments with weird, forgotten, and beautiful vaporware — brain control, voice control, gesture, wearable computing, VR, robots, and full-body exertion.
+A research compendium for a digital museum of cutting-edge Human-Computer Interaction from the late 1970s through the early 1990s. These two hundred and thirty projects mix canonical experiments with weird, forgotten, and beautiful vaporware — brain control, voice control, gesture, wearable computing, VR, robots, and full-body exertion.
 
 Each entry includes an overview, a deep dive, a small media gallery, and full source links so the images and facts can always be traced back.
 
@@ -235,6 +235,8 @@ Each entry includes an overview, a deep dive, a small media gallery, and full so
 226. [Logitech TrackMan (1989)](#logitech-trackman-1989)
 227. [IBM 6:5 Cartridge System (1975)](#ibm-65-cartridge-system-1975)
 228. [IBM TrackPoint (1992)](#ibm-trackpoint-1992)
+229. [Magnavox Odyssey 2 / Philips Videopac G7000 (1978)](#magnavox-odyssey-2--philips-videopac-g7000-1978)
+230. [Orca Edge (1983)](#orca-edge-1983)
 
 ---
 
@@ -10829,3 +10831,73 @@ The strangest flank of the same idea came from Zenith Data Systems, whose early-
 2. Golden, Peter — "The development of the IBM ThinkPad, Part I: big BLUE's big ADVENTURE" (archived) — https://web.archive.org/web/20130513000000*/thinkpad
 3. J-Mouse — Trained In Tech (archived) — https://web.archive.org/web/20230505201003/https://trainedintech.com/j-mouse/
 4. Wikimedia Commons — File:Pointing stick.JPG — https://commons.wikimedia.org/wiki/File:Pointing_stick.JPG
+
+## Orca Edge (1983)
+
+**By:** Orca Industries (Craig Barshinger, Karl E. Huggins, Paul Heinmiller)
+**Tags:** `Wearable` `Embodied` `Displays` `Safety-critical` `Commercial`
+
+### Overview
+
+Introduced at the DEMA show in January 1983, the Orca Edge was a microprocessor dive computer worn on the wrist (or mounted to a console) that did something quietly radical: it replaced a numeric decompression plan with a picture of your own body's nitrogen state. Where a dive table or a dive watch hands you numbers, the Edge rendered the diver's decompression state as twelve horizontal "tissue" bar graphs on a graphic LCD — each bar representing a theoretical body compartment modeled on the US Navy air tables. When any tissue bar's pixels reach a limiting line, that tissue carries a decompression obligation, and the diver must keep above the computed "safe ascent depth" until the bar discharges enough to permit ascent. Reading the instrument means watching which bars bleed into the danger zone and reasoning about your own physiology from an abstract visualization. A single 9-volt lithium cell powered it, and it was produced slowly — roughly one unit per day — for a suggested retail of $675, with about 10,000 units sold over the mid-1980s.
+
+### Deep dive
+
+* **A display that makes you reason, not read.** Conventional tables and watches give numbers; the Edge gave a metaphor. The twelve tissue bars represent compartments that absorb and release nitrogen at different rates, and by watching which bars fill past their limiting line the diver infers how much decompression obligation is accumulating. This is an early, explicit example of wearable ambient computing — the machine does little spelling out; it hands you an abstract visualization of your body state and trusts you to act on it.
+* **Embodied, safety-critical, wearable.** The Edge is the museum's only safety-critical wearable that asks the wearer to calibrate themselves against a live abstract display. Its form factor (a small wrist device resembling a modern watch) and its single 9V lithium cell make it a genuine precursor to the body-worn computers of the 2000s, decades before smartwatches.
+* **A documented lineage.** Designed at Orca Industries by Craig Barshinger, Karl E. Huggins, and Paul Heinmiller, the Edge's development history is captured in Barsky's 2011 Journal of Diving History article. A surviving unit is catalogued at the Computer History Museum (accession 102716293), and the EdgeSimulator reproduces its display behavior.
+
+### Team
+
+* **Craig Barshinger** — co-designer, Orca Industries
+* **Karl E. Huggins** — co-designer, Orca Industries
+* **Paul Heinmiller** — co-designer, Orca Industries
+* **Computer History Museum** — holds a surviving unit (102716293)
+
+### Media
+
+![Orca Edge dive computer](../assets/wiki/orca-edge-dive-computer.jpg)
+*The Orca Edge dive computer with its graphic LCD of twelve 'tissue' bar graphs. CC0, Wikimedia Commons.*
+
+### Sources
+
+1. Wikipedia — Orca Edge — https://en.wikipedia.org/wiki/Orca_Edge
+2. Computer History Museum catalog 102716293 — https://www.computerhistory.org/collections/catalog/102716293
+3. Wikimedia Commons — File:Orca Edge dive computer.jpg — https://commons.wikimedia.org/wiki/File:Orca_Edge_dive_computer.jpg
+
+## Magnavox Odyssey 2 / Philips Videopac G7000 (1978)
+
+**By:** Magnavox / North American Philips (lead designer Roberto Lenarducci)
+**Tags:** `Console` `Keyboard` `Speech synthesis` `Tangible` `Commercial`
+
+### Overview
+
+Released in the US in September 1978 (and in Europe as the Philips Videopac G7000), the Magnavox Odyssey 2 was a second-generation cartridge console built around the Intel 8048 CPU and the Intel 8244 — the world's first programmable sprite-based graphics chip. Its defining departure from every rival was a full QWERTY-layout membrane keyboard integrated into the console body, marketed with phrases like "The Ultimate Computer Video Game System" and "a serious educational tool." The keyboard enabled educational games, option selection, and actual programming through the Computer Intro! cartridge (1979). Across its life it gained The Voice speech-synthesis module (1982) and the Master Strategy Series — three titles that fused a physical board game, with its own board and plastic pieces, to a video game played on the CRT. Roughly two million units were sold before the console was withdrawn in March 1984.
+
+### Deep dive
+
+* **The keyboard console.** "Unlike any other system at that time," the Odyssey 2 shipped with a full alphanumeric membrane keyboard used for educational games, option selection, and programming. The bundled Computer Intro! cartridge taught simple computer programming by keyboard — a genuinely different HCI contract from the joystick-only or keypad-only consoles of the era, and the closest a home game console came to the home-computer thesis before the market decisively favored keyboards on real microcomputers. It is the museum's only programmable-keyboard console.
+* **The Voice and the wandering word.** The Voice (1982) attached a speech-synthesis module that gave games talkative lines and sound effects (notably K.C.'s Krazy Chase! and Type & Tell), making the machine speak aloud — an early console speech synthesis that needed no speech cartridge. Unlike the later Intellivoice, games worked without it, which critics predicted would remove any incentive to buy the $100 module.
+* **The board-game hybrid.** The Master Strategy Series — starting with Quest for the Rings! (1981) — paired a physical board game and its plastic pieces with the on-screen video game, a tactile/video hybrid the museum knows well from other eras. Combined with a keyboard and a wandering voice, the Odyssey 2 was an unusually embodied console.
+
+### Team
+
+* **Roberto Lenarducci** — lead designer; gave the console its keyboard
+* **Ed Averett** — developer and early 8244 programmer; authored many Odyssey 2 titles
+* **Magnavox / North American Philips** — developer and manufacturer
+* **Philips** — European manufacturer (Videopac G7000)
+
+### Media
+
+![Magnavox Odyssey 2 console with keyboard and joysticks](../assets/wiki/odyssey-2-console-set.jpg)
+*The Magnavox Odyssey 2 console set — the full QWERTY membrane keyboard is visible on the machine body. CC BY-SA 3.0 (Evan-Amos), Wikimedia Commons.*
+
+![Magnavox Odyssey 2 with The Voice speech module attached](../assets/wiki/odyssey-2-with-the-voice.jpg)
+*The Odyssey 2 with The Voice speech-synthesis module attached. Public domain, Wikimedia Commons.*
+
+### Sources
+
+1. Wikipedia — Magnavox Odyssey 2 — https://en.wikipedia.org/wiki/Magnavox_Odyssey_2
+2. Halcyon Days interview with Ed Averett — https://dadgum.com/halcyon/BOOK/AVERETT.HTM
+3. Wikimedia Commons — Category: Magnavox Odyssey² — https://commons.wikimedia.org/wiki/Category:Magnavox_Odyssey%C2%B2
+4. Wikimedia Commons — File:Magnavox-Odyssey-2-Console-Set.jpg — https://commons.wikimedia.org/wiki/File:Magnavox-Odyssey-2-Console-Set.jpg

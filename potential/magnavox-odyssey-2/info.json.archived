@@ -1,0 +1,42 @@
+{
+  "slug": "magnavox-odyssey-2",
+  "title": "Magnavox Odyssey 2 / Philips Videopac G7000",
+  "year": "1978",
+  "subtitle": "A game console that grew a full QWERTY keyboard, a speech-synthesis module, and a tactile board game / video game hybrid",
+  "why_scout_cares": "The Odyssey 2 / Videopac G7000 is the console-that-wanted-to-be-a-computer, and it is the museum's only one: a full QWERTY membrane keyboard built into the game machine (used for educational games, option selection, and teaching simple programming via the Computer Intro! cartridge), plus a speech-synthesis add-on (The Voice) and the Master Strategy Series \u2014 physical board games with plastic pieces played in tandem with the CRT. Three distinct interaction ideas no other museum console embodies.",
+  "search_terms": ["Magnavox Odyssey 2", "Philips Videopac", "Videopac G7000", "keyboard console", "The Voice", "Master Strategy Series", "Quest for the Rings"],
+  "research": {
+    "title": "Magnavox Odyssey 2 / Philips Videopac G7000",
+    "year": "1978",
+    "by": "Magnavox / North American Philips (lead designer Roberto Lenarducci)",
+    "tags": ["Console", "Keyboard", "Speech synthesis", "Tangible"],
+    "overview": "Released in the US in September 1978 (and in Europe as the Philips Videopac G7000), the Odyssey 2 was a second-generation cartridge console built around the Intel 8048 CPU and the Intel 8244 \u2014 the world's first programmable sprite-based graphics chip. Its defining departure from every rival was a full QWERTY-layout membrane keyboard integrated into the console body, which Magnavox marketed under phrases like 'The Ultimate Computer Video Game System' and 'a serious educational tool.' The keyboard enabled educational games, option selection, and actual programming via the Computer Intro! cartridge (1979). Across its life it gained The Voice speech-synthesis module (1982) and the Master Strategy Series \u2014 three titles that fused a physical board game (with its own board and plastic pieces) and a video game played on the CRT. About two million units were sold before the console was withdrawn in March 1984.",
+    "deepDive": [
+      {
+        "heading": "The keyboard console",
+        "text": "'Unlike any other system at that time,' the Odyssey 2 shipped with a full alphanumeric membrane keyboard used for educational games, selecting options, and programming. The bundled Computer Intro! cartridge taught simple computer programming by keyboard \u2014 a genuinely different HCI contract from the joystick-only or keypad-only consoles of the era, and the closest a home game console came to the home-computer thesis before the market decisively favored keyboards on real microcomputers."
+      },
+      {
+        "heading": "The Voice and the board-game hybrid",
+        "text": "Two further add-ons broadened the interface: The Voice (1982) attached a speech-synthesis module for talkative games and sound effects (notably K.C.'s Krazy Chase! and Type & Tell), and the Master Strategy Series (starting with Quest for the Rings!, 1981) paired a physical board game and its plastic pieces with the on-screen video game. The combination \u2014 a keyboard, a wandering voice, and a physical board played alongside the CRT \u2014 made the Odyssey 2 an unusually embodied console."
+      }
+    ],
+    "team": [
+      {"name": "Roberto Lenarducci", "note": "Lead designer; gave the console its keyboard"},
+      {"name": "Ed Averett", "note": "Developer and early 8244 programmer; authored many Odyssey 2 titles"},
+      {"name": "Magnavox / North American Philips", "note": "Developer and manufacturer"},
+      {"name": "Philips", "note": "European manufacturer (Videopac G7000)"}
+    ],
+    "media": [
+      {"src": "https://en.wikipedia.org/wiki/Magnavox_Odyssey_2", "alt": "Magnavox Odyssey 2 console with keyboard and joysticks", "caption": "Magnavox Odyssey 2 console set, CC BY-SA 3.0 (Evan-Amos) via Wikimedia Commons."},
+      {"src": "assets/wiki/odyssey-2-with-the-voice.jpg", "alt": "Magnavox Odyssey 2 with The Voice speech module attached", "caption": "Magnavox Odyssey 2 with The Voice speech module attached, public domain (AUIC Oficial) via Wikimedia Commons."}
+    ],
+    "sources": [
+      {"text": "Magnavox Odyssey 2 - Wikipedia", "url": "https://en.wikipedia.org/wiki/Magnavox_Odyssey_2"},
+      {"text": "Halcyon Days interview with Ed Averett", "url": "https://dadgum.com/halcyon/BOOK/AVERETT.HTM"},
+      {"text": "Commons category: Magnavox Odyssey^2", "url": "https://commons.wikimedia.org/wiki/Category:Magnavox_Odyssey%C2%B2"}
+    ],
+    "imageUrls": ["https://commons.wikimedia.org/wiki/File:Magnavox-Odyssey-2-Console-Set.jpg", "https://commons.wikimedia.org/wiki/File:Magnavox_Odyssey2_with_TheVoice_attachment_(RetroMadrid_2018).jpg"]
+  },
+  "savedImages": ["odyssey-2-console-set.jpg", "odyssey-2-with-the-voice.jpg"]
+}

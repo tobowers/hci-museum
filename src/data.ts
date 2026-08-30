@@ -2830,6 +2830,32 @@ const exhibitData: Exhibit[] = [
     tags: ["Input", "Pointing", "Force Sensing", "Desktop", "Commercial"],
     image: img("pointing-stick-hero.jpg"),
   },
+  {
+    id: "orca-edge",
+    slug: "orca-edge",
+    wikiTitle: "Orca Edge",
+    year: "1983",
+    sortYear: 1983,
+    title: "Orca Edge Dive Computer (1983)",
+    subtitle: "A wrist-worn decompression computer that renders your body's nitrogen uptake as 12 abstract 'tissue' bar graphs",
+    blurb:
+      "The Orca Edge (Orca Industries, 1983) replaced dive tables and a dive watch with real-time wearable ambient computing: instead of a numeric decompression plan, it rendered the diver's state as twelve horizontal 'tissue' bar graphs on a graphic LCD, each a theoretical body compartment modeled on the US Navy air tables. The diver reads a metaphor — watching which bars cross the limiting line to judge how much decompression obligation is building — and must stay below the computed safe-ascent depth. Reading the instrument means reasoning about your own physiology from an abstract visualization, not looking up a number.",
+    tags: ["Wearable", "Embodied", "Displays", "Safety-critical", "Commercial"],
+    image: img("orca-edge-dive-computer.jpg"),
+  },
+  {
+    id: "magnavox-odyssey-2",
+    slug: "magnavox-odyssey-2",
+    wikiTitle: "Magnavox Odyssey 2 / Philips Videopac G7000",
+    year: "1978",
+    sortYear: 1978,
+    title: "Magnavox Odyssey 2 / Philips Videopac G7000 (1978)",
+    subtitle: "A game console that grew a full QWERTY keyboard, a speech-synthesis module, and a tactile board-game/video-game hybrid",
+    blurb:
+      "The Magnavox Odyssey 2 (1978, sold in Europe as the Philips Videopac G7000) is the console-that-wanted-to-be-a-computer: it shipped with a full QWERTY-layout membrane keyboard built into the machine body, used for educational games, option selection, and teaching simple programming via the Computer Intro! cartridge. It later gained The Voice speech-synthesis module (1982) and the Master Strategy Series — cardboard-and-plastic board games played in tandem with the CRT. Around two million units sold before its March 1984 withdrawal.",
+    tags: ["Console", "Keyboard", "Speech synthesis", "Tangible", "Commercial"],
+    image: img("odyssey-2-console-set.jpg"),
+  },
 ];
 
 export const exhibits: Exhibit[] = exhibitData.toSorted((a, b) => b.sortYear - a.sortYear || a.title.localeCompare(b.title));
