@@ -1,0 +1,39 @@
+{
+  "slug": "psion-organiser-i",
+  "title": "Psion Organiser I",
+  "year": "1984",
+  "subtitle": "The first practical pocket computer, where saving data meant electrically 'zapping' a write-once EPROM and erasing it under UV light",
+  "why_scout_cares": "The museum's only write-once-cartridge storage ritual: to save you slide in a Datapak and the machine burns the data into an EPROM with a high-voltage pulse; to reuse the pack you physically pull it out and erase it under ultraviolet light. Combined with a spring-loaded sliding keypad cover, it is the earliest handheld where storage itself is a physical act — the direct ancestor of every handheld before removable flash memory.",
+  "search_terms": ["Psion Organiser 1", "Datapak EPROM", "write-once cartridge", "1984 pocket computer", "UV erase"],
+  "research": {
+    "title": "Psion Organiser I",
+    "year": "1984",
+    "by": "Psion PLC (London, UK)",
+    "tags": ["HCI", "Input", "Wearable", "PDA", "Storage"],
+    "overview": "The Psion Organiser I, launched in 1984 at £99, is widely credited as the world's first practical pocket computer and the direct ancestor of the PDA. It paired an 8-bit Hitachi 6301 CPU (about 0.9 MHz), 4 KB of ROM and 2 KB of static RAM with a one-line LCD and a 6×6 alphabetically-ordered keypad under a spring-loaded sliding cover. There was no operating system in the modern sense — applications (flat-file database, calculator, clock) were fixed-function, and real time was kept by a hardware counter that woke the CPU every 17 minutes 4 seconds.\n\nIts strangest feature lives in storage. Data and programs lived on Datapaks — write-once EPROM cartridges that Psion patented. Sliding a Datapak into the top slot caused the device itself to program it by 'zapping' the EPROM with a high-voltage pulse. This made deletion a physical ritual: to reuse a pack you had to remove it and erase it under ultraviolet light through its EPROM window. The success of the line led to the Organiser II (1986), which sold over 500,000 units and eventually gave the world EPOC / Symbian.",
+    "deepDive": [
+      {"heading":"Storage as a physical ritual","text":"The Datapak was a write-once EPROM cartridge inserted into a spring-loaded slot. Saving was not a silent commit — the Organiser burned the data into the chip with a high-voltage programming pulse. Reusing a full pack meant physically removing it and holding it under an ultraviolet lamp to erase the window. A generation later this became the museum's (and everyone's) mental model of deleting files being trivial; here, freeing space was a deliberate, physical act in a different room."},
+      {"heading":"The sliding-cover keypad","text":"The Organiser I hides its 6×6 alphabetically-arranged keypad under a hard plastic sliding cover, so the machine reads as an unmarked block until you push the lid down over the keys. It is the earliest portable where the input surface is deliberately concealed behind a physical shutter."},
+      {"heading":"A documented design lineage","text":"Behind the Organiser stood the Psion founders and designers (David Potter, David Frost, Charles Davies and team). The Organiser gave the world a handheld software platform, evolving into EPOC and then Symbian, the OS that would power a generation of smartphones."}
+    ],
+    "team": [
+      {"name":"Psion PLC","note":"Founded 1980 by David Potter; maker of the Organiser line"},
+      {"name":"David Potter","note":"Psion founder"},
+      {"name":"David Frost / Charles Davies","note":"key Organiser designers"}
+    ],
+    "media": [
+      {"src":"https://commons.wikimedia.org/wiki/File:Psion_Organiser_1.jpg","alt":"Psion Organiser 1 with sliding keypad cover open","caption":"The Psion Organiser 1, British, 1984. CC, Science Museum UK via Wikimedia Commons."},
+      {"src":"https://commons.wikimedia.org/wiki/File:Psion_Organiser_Datapak_(front).jpg","alt":"Psion Datapak write-once EPROM cartridge","caption":"A Psion Datapak — the write-once EPROM cartridge the machine zaps to save data. CC BY-SA 4.0, Wikimedia Commons."}
+    ],
+    "sources": [
+      {"text":"Wikipedia — Psion Organiser","url":"https://en.wikipedia.org/wiki/Psion_Organiser"},
+      {"text":"Science Museum Group collection — Psion Organiser 1 (1984)","url":"https://collection.sciencemuseumgroup.org.uk/objects/co8384637/psion-organiser-1-1984-pda"},
+      {"text":"Byte, November 1984 — 'A Plethora of Portables'","url":"https://archive.org/details/byte-magazine-1984-11"}
+    ],
+    "imageUrls": [
+      "https://upload.wikimedia.org/wikipedia/commons/2/26/Psion_Organiser_1.jpg",
+      "https://upload.wikimedia.org/wikipedia/commons/a/a6/Psion_Organiser_Datapak_%28front%29.jpg"
+    ]
+  },
+  "savedImages": []
+}
