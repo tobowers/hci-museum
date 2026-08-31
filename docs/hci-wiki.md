@@ -1,6 +1,6 @@
 # The HCI Golden Age Wiki
 
-A research compendium for a digital museum of cutting-edge Human-Computer Interaction from the late 1970s through the early 1990s. These two hundred and thirty projects mix canonical experiments with weird, forgotten, and beautiful vaporware — brain control, voice control, gesture, wearable computing, VR, robots, and full-body exertion.
+A research compendium for a digital museum of cutting-edge Human-Computer Interaction from the late 1970s through the early 1990s. These two hundred and thirty-two projects mix canonical experiments with weird, forgotten, and beautiful vaporware — brain control, voice control, gesture, wearable computing, VR, robots, and full-body exertion.
 
 Each entry includes an overview, a deep dive, a small media gallery, and full source links so the images and facts can always be traced back.
 
@@ -237,6 +237,8 @@ Each entry includes an overview, a deep dive, a small media gallery, and full so
 228. [IBM TrackPoint (1992)](#ibm-trackpoint-1992)
 229. [Magnavox Odyssey 2 / Philips Videopac G7000 (1978)](#magnavox-odyssey-2--philips-videopac-g7000-1978)
 230. [Orca Edge (1983)](#orca-edge-1983)
+231. [Psion Organiser I (1984)](#psion-organiser-i-1984)
+232. [Lexicon LK-3000 (1978)](#lexicon-lk-3000-1978)
 
 ---
 
@@ -10901,3 +10903,75 @@ Released in the US in September 1978 (and in Europe as the Philips Videopac G700
 2. Halcyon Days interview with Ed Averett — https://dadgum.com/halcyon/BOOK/AVERETT.HTM
 3. Wikimedia Commons — Category: Magnavox Odyssey² — https://commons.wikimedia.org/wiki/Category:Magnavox_Odyssey%C2%B2
 4. Wikimedia Commons — File:Magnavox-Odyssey-2-Console-Set.jpg — https://commons.wikimedia.org/wiki/File:Magnavox-Odyssey-2-Console-Set.jpg
+
+## Psion Organiser I (1984)
+
+**By:** Psion PLC (London, UK)
+**Tags:** `PDA` `Portable` `Storage` `Physical Token` `Commercial`
+
+### Overview
+
+The Psion Organiser, launched in 1984 at £99 by the British software firm Psion (founded 1980 by David Potter), is widely credited as the world's first practical pocket computer and the direct ancestor of the PDA and the smartphone. It paired an 8-bit Hitachi 6301 CPU (about 0.9 MHz) with 4 KB of ROM and 2 KB of static RAM, a one-line LCD, and a 6×6 alphabetically-ordered keypad hidden under a spring-loaded hard plastic sliding cover. There was no operating system in the modern sense: applications — a flat-file database, a calculator, a clock — were fixed-function, and real time was kept by a hardware counter that woke the sleeping CPU every 17 minutes and 4 seconds to tick the clock forward.
+
+Its strangest feature lives in storage. Programs and data lived on Datapaks — write-once EPROM cartridges that Psion patented. Sliding a Datapak into the top slot caused the device itself to program it by 'zapping' the EPROM with a high-voltage pulse; to reuse a pack you had to remove it and erase its EPROM window under an ultraviolet lamp. The line succeeded into the Organiser II (1986), which sold over 500,000 units and evolved into the EPOC then Symbian operating systems that would power a generation of smartphones.
+
+### Deep dive
+
+* **Storage as a physical ritual.** Saving was not a silent commit. The Organiser burned each Datapak's data into the chip with a high-voltage programming pulse, and freeing a full pack meant physically pulling it out and holding its EPROM window under an ultraviolet light. A generation later, deleting a file became trivial; here, reclaiming space was a deliberate physical act performed in a different room. It is the museum's clearest 'write-once physical token' storage device.
+* **The sliding-cover keypad.** The 6×6 keypad hides beneath a hard plastic sliding cover, so the machine reads as an unmarked block until the lid is pushed down over the keys. The input surface is deliberately concealed behind a physical shutter.
+* **A documented design lineage.** The Organiser was a genuinely software-platformed handheld a decade before the PDA boom, and its success seeded the EPOC/Symbian line. A surviving unit is catalogued by the Science Museum Group.
+
+### Team
+
+* **Psion PLC** — maker, founded 1980 by David Potter
+* **David Potter** — Psion founder
+* **David Frost / Charles Davies** — key Organiser designers
+
+### Media
+
+![Psion Organiser 1 with sliding keypad cover open](../assets/wiki/psion-organiser-1.jpg)
+*The Psion Organiser 1, British, 1984, with its sliding keypad cover open. CC, The Science Museum UK via Wikimedia Commons.*
+
+![Psion Datapak write-once EPROM cartridge](../assets/wiki/psion-organiser-datapak.jpg)
+*A Psion Datapak — the write-once EPROM cartridge the machine 'zaps' to save data. CC BY-SA 4.0, Wikimedia Commons.*
+
+### Sources
+
+1. Wikipedia — Psion Organiser — https://en.wikipedia.org/wiki/Psion_Organiser
+2. Science Museum Group — Psion Organiser 1 (1984) — https://collection.sciencemuseumgroup.org.uk/objects/co8384637/psion-organiser-1-1984-pda
+3. Byte, November 1984 — "A Plethora of Portables" — https://archive.org/details/byte-magazine-1984-11
+4. Wikimedia Commons — File:Psion Organiser 1.jpg — https://commons.wikimedia.org/wiki/File:Psion_Organiser_1.jpg
+
+## Lexicon LK-3000 (1978)
+
+**By:** Lexicon / Nixdorf Computer AG (manufactured in Malaysia)
+**Tags:** `Translation` `Cartridge` `Portable` `Input` `Commercial`
+
+### Overview
+
+The LK-3000 was a modular pocket computer released around 1978, sold under both the Lexicon and Nixdorf Computer AG brands, and best known as one of the first programmable language translators. It was a heavy, cigarette-box-sized slab with a QWERTY keyboard, a 16-character red LED display, a cartridge slot, and — crucially — no functioning brain of its own. As the Computer History Museum's catalog describes it, the base unit offered the keyboard, screen, and batteries but no internal CPU or RAM; all logic was supplied by swappable cartridges, each containing its own processor and ROM.
+
+To change language or function you physically ejected the old cartridge and snapped in a new one, effectively swapping the machine's whole computing identity by hand. Applications ranged from English↔French/German/Spanish/Italian/Russian translators to calculators, memo pads, and organizers. Nixdorf Computer AG (Heinz Nixdorf's company, eventually Europe's fourth-largest computer maker) manufactured and distributed it, and a unit is preserved in the Computer History Museum (object 102673211).
+
+### Deep dive
+
+* **Swap-the-brains hardware.** The defining interaction is that the cartridge holds everything that makes the machine what it is — a full processor, its ROM, and for notepad modules CMOS RAM with a backup battery. The base provides only the keyboard-matrix decoder, MOS-LSI display driver, charging circuitry, and a power-switch detector. The LK-3000 is the museum's most literal 'hardware multiplexing' device: a shell that becomes whatever program you insert, the material ancestor of the game cartridge and the software-defined device.
+* **A translator by default.** In practice most users knew it as an electronic dictionary: slide in the French cartridge and the keys become a français-anglais translator over a scrolling 16-character LED readout — a traveler carrying a set of physical dictionaries in a pocket, each a different chip.
+* **Curatorially documented.** The design is preserved and documented by the Computer History Museum and by collector teardowns detailing the minimal base board and its fragile, custom cartridge connectors.
+
+### Team
+
+* **Nixdorf Computer AG** — German manufacturer (Heinz Nixdorf's company) that produced and sold the LK-3000
+* **Lexicon** — pioneering translator brand under which the device was also sold
+* **Computer History Museum** — preserves the LK-3000 (object 102673211)
+
+### Media
+
+![Nixdorf LK-3000 pocket translator with its 16-character LED display](../assets/wiki/lk3000-nixdorf-handheld.jpg)
+*The Nixdorf LK-3000 pocket translator, c. 1979, whose base unit has no processor of its own. CC BY-SA 2.0, Wikimedia Commons.*
+
+### Sources
+
+1. Computer History Museum — Lexicon LK-3000 (object 102673211) — https://www.computerhistory.org/revolution/artifact/318/1740
+2. Wikipedia — Nixdorf Computer — https://en.wikipedia.org/wiki/Nixdorf_Computer
+3. Wikimedia Commons — File:Vintage Nixdorf Handheld Computer, Model LK-3000 — https://commons.wikimedia.org/wiki/File:Vintage_Nixdorf_Handheld_Computer,_Model_LK-3000,_Made_in_Malaysia,_Circa_1979_(8713361517).jpg

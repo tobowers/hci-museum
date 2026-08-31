@@ -1,0 +1,38 @@
+{
+  "slug": "lexicon-lk3000",
+  "title": "Lexicon LK-3000",
+  "year": "1978",
+  "subtitle": "A pocket translator whose base unit has no CPU — you swap the entire processor and ROM by hand to change its function",
+  "why_scout_cares": "The closest thing the 1970s made to a machine whose brain you swap with your hands. The LK-3000 base is an inert shell — keyboard, LED display, cartridge slot — with no processor of its own. All logic lives inside swappable plastic cartridges (each with its own CPU and ROM): change the language or the function by physically ejecting one cartridge and snapping in another. It is a hardware-multiplexing paradigm, a decade before software-defined computing, and the museum's most literal 'swap the brains' interaction.",
+  "search_terms": ["Lexicon LK-3000", "Nixdorf LK-3000", "pocket translator cartridge", "1978", "electronic dictionary cartridge"],
+  "research": {
+    "title": "Lexicon LK-3000",
+    "year": "1978",
+    "by": "Lexicon / Nixdorf Computer AG (manufactured in Malaysia)",
+    "tags": ["HCI", "Input", "Translation", "Cartridge", "Portable"],
+    "overview": "The LK-3000 is a modular pocket computer best known as one of the first programmable language translators. Released around 1978 and sold under both the Lexicon and Nixdorf brands, it was a heavy, cigarette-box-sized slab with a QWERTY keyboard, a 16-character red LED display, a cartridge slot, and no functioning brain of its own. As the Computer History Museum put it, the base unit offered the keyboard, screen, and battery but no internal CPU or RAM — all logic was supplied by swappable cartridges, each containing its own processor and ROM.\n\nTo change language or function you physically ejected the old cartridge and snapped in a new one — effectively swapping the machine's whole computing identity by hand. Applications ranged from English↔French/German/Spanish/Italian/Russian translators to calculators, memo pads, and organizers. Nixdorf Computer AG (Heinz Nixdorf's company, eventually Europe's fourth-largest computer maker) manufactured and distributed it; a unit is preserved in the Computer History Museum.",
+    "deepDive": [
+      {"heading":"Swap-the-brains hardware","text":"The defining interaction is that the cartridge holds everything that makes the machine what it is. Each cartridge contains a full processor and its ROM (plus CMOS RAM with a backup battery for the notepad modules), and the base provides only the keyboard-matrix decoder, MOS-LSI display driver, charging circuitry, and a power-switch sensor. The LK-3000 is therefore the museum's most literal 'hardware multiplexing' device — a shell that becomes whatever program you insert, the material ancestor of the game cartridge and the software-defined device."},
+      {"heading":"A translator by default","text":"In practice most users knew the LK-3000 as an electronic dictionary: slide in the French cartridge and the keys become a françois-anglais translator over a 16-character scrolling LED readout. The interaction implies a traveler carrying a set of physical dictionaries in a pocket — each a different chip."},
+      {"heading":"Curatorially documented","text":"The design is preserved and documented by the Computer History Museum (Object 102673211) and by collector teardowns (e.g., an EngineerDog/Carleton examination) that detail the minimal base board and the fragile custom cartridge connectors."}
+    ],
+    "team": [
+      {"name":"Nixdorf Computer AG","note":"German manufacturer (Heinz Nixdorf's company); produced and sold the LK-3000"},
+      {"name":"Lexicon","note":"Pioneering translator brand name under which the device was also sold"},
+      {"name":"Computer History Museum","note":"preserves the LK-3000 (102673211)"}
+    ],
+    "media": [
+      {"src":"https://commons.wikimedia.org/wiki/File:Vintage_Nixdorf_Handheld_Computer,_Model_LK-3000,_Made_in_Malaysia,_Circa_1979_(8713361517).jpg","alt":"Nixdorf LK-3000 handheld with 16-character LED display","caption":"The Nixdorf LK-3000 pocket translator, c. 1979. CC BY-SA 2.0, Wikimedia Commons."},
+      {"src":"https://www.computerhistory.org/revolution/artifact/318/1740","alt":"Computer History Museum artifact page for the LK-3000","caption":"Computer History Museum documentation of the LK-3000."}
+    ],
+    "sources": [
+      {"text":"Computer History Museum — Lexicon LK-3000 (object 102673211)","url":"https://www.computerhistory.org/revolution/artifact/318/1740"},
+      {"text":"Wikipedia — Nixdorf Computer","url":"https://en.wikipedia.org/wiki/Nixdorf_Computer"},
+      {"text":"Wikimedia Commons — File:Vintage Nixdorf Handheld Computer, Model LK-3000","url":"https://commons.wikimedia.org/wiki/File:Vintage_Nixdorf_Handheld_Computer,_Model_LK-3000,_Made_in_Malaysia,_Circa_1979_(8713361517).jpg"}
+    ],
+    "imageUrls": [
+      "https://upload.wikimedia.org/wikipedia/commons/3/35/Vintage_Nixdorf_Handheld_Computer%2C_Model_LK-3000%2C_Made_in_Malaysia%2C_Circa_1979_%288713361517%29.jpg"
+    ]
+  },
+  "savedImages": []
+}

@@ -2856,6 +2856,32 @@ const exhibitData: Exhibit[] = [
     tags: ["Console", "Keyboard", "Speech synthesis", "Tangible", "Commercial"],
     image: img("odyssey-2-console-set.jpg"),
   },
+  {
+    id: "psion-organiser-i",
+    slug: "psion-organiser-i",
+    wikiTitle: "Psion Organiser I",
+    year: "1984",
+    sortYear: 1984,
+    title: "Psion Organiser I (1984)",
+    subtitle: "Saving data meant zapping a write-once EPROM — and reusing it meant ultraviolet light",
+    blurb:
+      "The line widely credited as the first practical pocket computer, at £99 in 1984. Data and programs lived on Datapaks — write-once EPROM cartridges the machine itself 'zapped' with a high-voltage pulse to save. Freeing a full pack was a physical ritual: pull it out and hold it under an ultraviolet lamp to erase the window, then slide it back in. The 6×6 keypad hides under a spring-loaded sliding cover; the line grew into EPOC and then Symbian.",
+    tags: ["PDA", "Portable", "Storage", "Physical Token", "Commercial"],
+    image: img("psion-organiser-1.jpg"),
+  },
+  {
+    id: "lexicon-lk3000",
+    slug: "lexicon-lk3000",
+    wikiTitle: "Lexicon LK-3000",
+    year: "1978",
+    sortYear: 1978,
+    title: "Lexicon LK-3000 (1978)",
+    subtitle: "A pocket translator with no brain of its own — you swap the whole CPU and ROM cartridge by hand to change its function",
+    blurb:
+      "The LK-3000 base unit is an inert shell: keyboard, 16-character LED display, cartridge slot, and batteries — but no processor and no memory of its own. All logic lives inside swappable plastic cartridges, each containing its own CPU and ROM, so changing language or function means ejecting one cartridge and snapping in another. A hardware-multiplexing design a decade before software-defined devices, sold under both Lexicon and Nixdorf Computer AG.",
+    tags: ["Translation", "Cartridge", "Portable", "Input", "Commercial"],
+    image: img("lk3000-nixdorf-handheld.jpg"),
+  },
 ];
 
 export const exhibits: Exhibit[] = exhibitData.toSorted((a, b) => b.sortYear - a.sortYear || a.title.localeCompare(b.title));
