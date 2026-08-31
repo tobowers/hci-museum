@@ -239,6 +239,7 @@ Each entry includes an overview, a deep dive, a small media gallery, and full so
 230. [Orca Edge (1983)](#orca-edge-1983)
 231. [Psion Organiser I (1984)](#psion-organiser-i-1984)
 232. [Lexicon LK-3000 (1978)](#lexicon-lk-3000-1978)
+233. [Tomy Digital Derby (1978)](#tomy-digital-derby-1978)
 
 ---
 
