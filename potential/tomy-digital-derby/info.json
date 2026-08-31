@@ -1,0 +1,75 @@
+{
+  "slug": "tomy-digital-derby",
+  "title": "Tomy Digital Derby",
+  "year": "1978",
+  "subtitle": "A palm-sized race with a physical steering wheel",
+  "why_scout_cares": "The museum's first continuous rotary steering-wheel handheld controller. Auto Race (1976, in museum) steers with slide levers; Digital Derby puts a three-spoke wheel in your hand and drives an electro-mechanical scrolling raceway with a motor — continuous analog steering + gear lever, no buttons.",
+  "search_terms": [
+    "Tomy Digital Derby",
+    "Tomy Digital Derby Auto Raceway",
+    "handheld electro-mechanical racing game 1978",
+    "Tomy toy steering wheel game"
+  ],
+  "research": {
+    "title": "Tomy Digital Derby",
+    "year": "1978",
+    "by": "Tomy (Tomy Kogyo Co., Japan)",
+    "tags": ["Games", "Handheld", "Input", "Electro-mechanical", "Analog"],
+    "overview": "Released in 1978, Tomy Digital Derby (model 7034, sold abroad as Black Racer, Demon Driver, and Formula 1) is an electro-mechanical handheld racing game. Before LED and LCD games dominated, handhelds of this era combined simple lighting effects, sound, and moving parts. Digital Derby is a fine example: two C batteries power an electric motor, a lap counter, and an automatic timer.\n\nThe interaction model is the point. There are no buttons. The player controls a race car at the base of the screen with a small three-spoke steering wheel. A scrolling display of cars and line markings moves down the screen and the player steers around the other cars. A separate gear lever lets the player speed up or slow down the oncoming obstacles, while a lap counter tracks progress. If a crash occurs, a red light displays and all cars stop, requiring a reset before play resumes. Each race lasts one full cycle of the timer; the player with the most laps wins.\n\nDigital Derby belongs to Tomy's electro-mechanical line of LED-and-motor handhelds from the late 1970s. It stands in the lineage between LED block-dot games like Mattel Auto Race (1976) and later LCD games, but is distinguished by its physical, rotary, 'hands-externalized-to-a-wheel' input and a scrolling mechanical raceway rather than discrete slide levers.",
+    "deepDive": [
+      {
+        "heading": "A real steering wheel, not a switch",
+        "text": "The defining feature is the three-spoke steering wheel. Where Auto Race steers across fixed lanes with a slide switch, Digital Derby turns a physical wheel and the display is a mechanically scrolling roadway. The steering is continuous and rotary; the gear lever adds speed control. Two independent, analog-style mechanical gestures drive a single motor-operated race. It is the palm-sized ancestor of the steering-wheel 'driving controller' paradigm."
+      },
+      {
+        "heading": "Electro-mechanical, not solid-state",
+        "text": "The game uses a small motor and a scrolling film/display mechanism rather than a pixel grid — the image of the road and cars is mechanical, lit by ordinary flashlight-style bulbs rather than a software-driven LED matrix. This is the same hybrid 'lights + moving parts + sound' formula that characterized the end of the electro-mechanical handheld era."
+      },
+      {
+        "heading": "Crash and reset ritual",
+        "text": "Colliding with oncoming traffic lights a red light and freezes the field; the player must reset the game before continuing. The lap counter and a mechanical timer bound each race to a single timer cycle, so victory is a race against a physical clock rather than a fixed number of laps."
+      },
+      {
+        "heading": "Legacy",
+        "text": "Digital Derby was one of several Tomy electro-mechanical handhelds (including Hit and Missile and Digital Diamond) from the late 1970s, made before LCD games displaced the format. It remains playable through vigilant collectors and simulator recreations such as Gary Duke's Digital Derby simulation."
+      }
+    ],
+    "team": [
+      {
+        "name": "Tomy (Tomy Kogyo Co.)",
+        "note": "Japanese toy manufacturer that produced the Digital Derby LSI/electro-mechanical handheld line."
+      }
+    ],
+    "media": [
+      {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/3/3d/Digital_Derby_Auto_Raceway_by_Tomy%2C_Model_No._7034%2C_Takes_2_%22C%22_Batteries%2C_Made_in_Japan%2C_Copyright_1978_%28Handheld_Electro-Mechanical_Game%29.jpg",
+        "alt": "Tomy Digital Derby handheld electro-mechanical racing game",
+        "caption": "Tomy Digital Derby (1978), model 7034, showing the three-spoke steering wheel and scrolling raceway. CC BY-SA 2.0, Joe Haupt, Wikimedia Commons."
+      }
+    ],
+    "sources": [
+      {
+        "text": "Toy Tales — Digital Derby from TOMY (1978)",
+        "url": "https://toytales.ca/digital-derby-from-tomy-1978/"
+      },
+      {
+        "text": "Handheld Museum — Tomy Digital Derby (model 7034)",
+        "url": "https://www.handheldmuseum.com/Tomy/Derby.htm"
+      },
+      {
+        "text": "Gadgetify — 1978 Tomy Digital Derby Auto Raceway Mechanical Game",
+        "url": "https://www.gadgetify.com/tomy-digital-derby-auto-raceway/"
+      },
+      {
+        "text": "Wikimedia Commons — Tomy Digital Derby file",
+        "url": "https://commons.wikimedia.org/wiki/Category:Tomy_handheld_electronic_games"
+      }
+    ],
+    "imageUrls": [
+      "https://upload.wikimedia.org/wikipedia/commons/3/3d/Digital_Derby_Auto_Raceway_by_Tomy%2C_Model_No._7034%2C_Takes_2_%22C%22_Batteries%2C_Made_in_Japan%2C_Copyright_1978_%28Handheld_Electro-Mechanical_Game%29.jpg"
+    ]
+  },
+  "savedImages": [
+    "images/tomy-digital-derby-hero.jpg"
+  ]
+}
