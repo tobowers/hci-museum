@@ -10976,3 +10976,107 @@ To change language or function you physically ejected the old cartridge and snap
 1. Computer History Museum — Lexicon LK-3000 (object 102673211) — https://www.computerhistory.org/revolution/artifact/318/1740
 2. Wikipedia — Nixdorf Computer — https://en.wikipedia.org/wiki/Nixdorf_Computer
 3. Wikimedia Commons — File:Vintage Nixdorf Handheld Computer, Model LK-3000 — https://commons.wikimedia.org/wiki/File:Vintage_Nixdorf_Handheld_Computer,_Model_LK-3000,_Made_in_Malaysia,_Circa_1979_(8713361517).jpg
+
+## Tomy Digital Derby (1978)
+
+**By:** Tomy (Tomy Kogyo Co., Japan)
+**Tags:** `Games` `Handheld` `Input` `Electro-mechanical` `Analog`
+
+### Overview
+
+Released in 1978, Tomy Digital Derby (model 7034, sold abroad as Black Racer, Demon Driver, and Formula 1) is an electro-mechanical handheld racing game. Two C batteries power an electric motor, a lap counter, an automatic timer, and a scrolling mechanical raceway. It belongs to the tail end of the electro-mechanical handheld era, just before LED and LCD games displaced the format — the same "lights + moving parts + sound" formula as Mattel Auto Race, but with a strikingly different input.
+
+The interaction model is the point. There are no buttons. The player steers a race car at the base of the display with a small three-spoke steering wheel, guiding it through oncoming traffic on a mechanically scrolling roadway. A separate gear lever speeds up or slows down the oncoming obstacles, while a lap counter tracks progress. Collide with an oncoming car and a red light flashes and the whole field freezes, requiring a reset before play resumes. Each race runs one full cycle of the timer; the player with the most laps wins.
+
+### Deep dive
+
+* **A real steering wheel, not a switch.** Where Mattel Auto Race (1976, in the museum) steers across fixed lanes with slide levers, the Digital Derby puts a physical three-spoke wheel in your hand and drives a mechanically scrolling raceway. Steering is continuous and rotary; a separate gear lever adds speed control. Two independent, analog-style mechanical gestures drive a single motor-operated race — the palm-sized ancestor of the steering-wheel "driving controller" paradigm.
+* **Electro-mechanical, not solid-state.** The game uses a small motor and a scrolling display mechanism rather than a pixel grid. The image of the road and cars is mechanical, lit by ordinary flashlight-style bulbs rather than a software-driven LED matrix.
+* **Crash and reset ritual.** Colliding with oncoming traffic lights a red light and freezes the field; the player must reset the game before continuing. The lap counter and a mechanical timer bound each race to a single timer cycle, so victory is a race against a physical clock rather than a fixed number of laps.
+
+### Team
+
+* **Tomy (Tomy Kogyo Co.)** — Japanese toy manufacturer that produced the Digital Derby electro-mechanical handheld line
+
+### Media
+
+![Tomy Digital Derby handheld electro-mechanical racing game](../assets/wiki/tomy-digital-derby-1978.jpg)
+*Tomy Digital Derby (1978), model 7034, showing the three-spoke steering wheel and scrolling raceway. CC BY-SA 2.0, Joe Haupt, Wikimedia Commons.*
+
+### Sources
+
+1. Toy Tales — Digital Derby from TOMY (1978) — https://toytales.ca/digital-derby-from-tomy-1978/
+2. Handheld Museum — Tomy Digital Derby (model 7034) — https://www.handheldmuseum.com/Tomy/Derby.htm
+3. Gadgetify — 1978 Tomy Digital Derby Auto Raceway Mechanical Game — https://www.gadgetify.com/tomy-digital-derby-auto-raceway/
+4. Wikimedia Commons — Tomy handheld electronic games — https://commons.wikimedia.org/wiki/Category:Tomy_handheld_electronic_games
+
+## CMX-340 (1976)
+
+**By:** CMX Systems (CBS + Memorex joint venture, Sunnyvale, CA)
+**Tags:** `HCI` `Video` `Editing` `Input` `Professional`
+
+### Overview
+
+CMX Systems was a company founded jointly by CBS and Memorex (the name stood for CBS, Memorex, and eXperimental) in Sunnyvale, California, that pioneered integrating computers with videotape editing. The CMX-340, launched in 1976, was the broadcast edit console that defined the industry. It introduced 'Intelligent Interfaces' (I2) that allowed it to drive a variety of VTRs and video switchers. Within eighteen months of its introduction, over 90% of all broadcast videotape editing ran on a CMX system.
+
+The defining physical feature was a dedicated function keyboard and a jog-knob box called the GIZMO integrated into the keyboard. The GIZMO featured transport buttons and could be re-positioned for left-handed editors — an unusually body-aware, ergonomic feature for a 1976 broadcast console. Editing was performed by typing edit points into the function keyboard and scrubbing the jog wheel to find frames. The CMX keyboard style was later used as the basis of editing systems by Grass Valley, Calaway, and Strassner.
+
+### Deep dive
+
+* **The GIZMO: a jog knob you could hand over.** The CMX-340's most unusual physical feature is the GIZMO, a jog-knob box integrated into the edit keyboard. Jog = frame-by-frame scrubbing via a rotary encoder; the GIZMO also carried transport buttons and could be re-positioned to either side of the keyboard for left- or right-handed editors. The physical layout mirrors the editor's hand, and the same surface anchors the function-keyboard editing paradigm CMX invented.
+* **The function-keyboard paradigm.** The 340 replaced tape-splice guessing with a dedicated editing keyboard: the operator types edit points (in points, out points, transition types) and scrubs with the jog knob, letting the computer command the VTRs via its Intelligent Interfaces. This 'type the edit, scrub to find it' grammar became the CMX style.
+* **It ran the industry.** Within 18 months of its 1976 launch, over 90% of all broadcast videotape editing was performed on CMX systems. The 340 was the machine that made computerized, keyboard-driven editing the default for television post-production.
+
+### Team
+
+* **CMX Systems** — CBS + Memorex joint venture; developed the CMX-340 (1976)
+* **Ronald Lee Martin** — CMX developer who later became a head of Universal Studios
+
+### Media
+
+![CMX editing console and function keyboard](../assets/wiki/cmx-340-console.jpg)
+*CMX editing console and function keyboard. CC0 Public Domain, Telecineguy, Wikimedia Commons.*
+
+![CMX function keyboard close-up](../assets/wiki/cmx-340-keyboard.jpg)
+*CMX function keyboard close-up. CC0 Public Domain, Telecineguy, Wikimedia Commons.*
+
+### Sources
+
+1. Wikipedia — CMX Systems — https://en.wikipedia.org/wiki/CMX_Systems
+2. Wikipedia — Jog dial — https://en.wikipedia.org/wiki/Jog_dial
+3. Wikimedia Commons — CMX-IMG 9559 — https://commons.wikimedia.org/wiki/File:CMX-IMG_9559.JPG
+
+## Sony BVE-600 (c. 1985)
+
+**By:** Sony Corporation (professional video division)
+**Tags:** `HCI` `Video` `Editing` `Input` `Professional`
+
+### Overview
+
+The Sony BVE-600 is a desktop video editing controller for the U-Matic format, made by Sony's professional video division in the mid-1980s. It sits between consumer edit controllers and full broadcast edit consoles, giving a dedicated physical control surface for cutting tape-to-tape.
+
+Its defining feature is two independent jog dials — one dedicated to the source (player) VCR, one to the recorder VCR — plus a row of transition and effects controls and tape transport buttons. Jog dials use a rotary incremental encoder to scrub frame-by-frame at slow speed, with a spring-loaded shuttle ring for faster speeds. The editor scrubs the source and record decks simultaneously with both hands, each hand mirroring the deck it controls — a literal bimanual mapping of the two-deck editing operation.
+
+### Deep dive
+
+* **Two dials, two hands, two decks.** Where the broadcast CMX puts a single jog box on a function keyboard, the BVE-600 gives the desktop editor two independent jog dials — one per deck. To assemble an edit you scrub the source with one hand to find the in point and scrub the recorder with the other to find the out point, working both simultaneously. The hardware surface is a literal bimanual mapping of the two-deck editing task.
+* **The jog/shuttle mechanic.** Each jog dial is a rotary incremental encoder: spin it forward or back to step frame-by-frame through the footage, and the faster it turns the faster it shuttles. Released, the dial stops and the deck holds or plays. It is the same embodied 'roll the time under your thumb' mechanic that later became the scroll wheel and the DJ jog wheel.
+* **Editing as a physical control surface.** The BVE-600 makes editing a hands-on, eyes-off-the-machine ritual: your fingers roll the dials to feel their way through the footage while your eyes watch the two monitor images. A physical control surface for time itself.
+
+### Team
+
+* **Sony Corporation** — professional video division; manufactured the BVE-600
+
+### Media
+
+![Sony BVE-600 U-Matic edit controller with two jog dials](../assets/wiki/bve-600-controller.jpg)
+*Sony BVE-600 U-Matic edit controller, showing its two jog dials. CC BY-SA 2.0, Richard Ash, Museum of Science and Industry Manchester via Wikimedia Commons.*
+
+![Jog dial close-up on the Sony BVE-600](../assets/wiki/bve-600-jogdial.jpg)
+*Jog dial on the Sony BVE-600 U-Matic edit controller. CC BY-SA 2.0, Richard Ash, Wikimedia Commons.*
+
+### Sources
+
+1. Wikipedia — Jog dial — https://en.wikipedia.org/wiki/Jog_dial
+2. Wikimedia Commons — Sony BVE-600 — https://commons.wikimedia.org/wiki/File:Sony_BVE-600_UMatic_edit_controller_(44714270850).jpg
+3. Wikimedia Commons — Jog Dial close-up — https://commons.wikimedia.org/wiki/File:Jog_Dial_on_Sony_BVE-600_UMatic_edit_controller.jpg

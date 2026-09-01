@@ -1,0 +1,74 @@
+{
+  "slug": "sony-bve-600",
+  "title": "Sony BVE-600",
+  "year": "1985",
+  "subtitle": "A desktop edit controller with two independent jog dials — one hand on the source deck, one on the recorder — for two-handed scrubbing",
+  "why_scout_cares": "The museum's first consumer-accessible video editing controller and its only two-independent-jog-dial surface. The BVE-600 embodies the edit task in hardware: one jog dial scrubs the source U-Matic deck, the other scrubs the recorder, so the editor works both hands simultaneously — a literal bimanual mapping of the two-deck editing operation. It is the desktop counterpoint to the broadcast CMX function-keyboard editing console.",
+  "search_terms": [
+    "Sony BVE-600",
+    "Sony BVE-600 U-Matic edit controller",
+    "dual jog dial edit controller",
+    "Sony video editing controller 1980s"
+  ],
+  "research": {
+    "title": "Sony BVE-600",
+    "year": "1985",
+    "by": "Sony Corporation",
+    "tags": ["HCI", "Video", "Editing", "Input", "Professional"],
+    "overview": "The Sony BVE-600 is a desktop video editing controller for the U-Matic format, made by Sony's professional video division in the mid-1980s. It sits between the boxy consumer edit controllers and the full broadcast edit consoles, giving a dedicated physical control surface for cutting tape-to-tape.\n\nIts defining feature is two independent jog dials — one dedicated to the source (player) VCR, one to the recorder VCR — plus a row of transition and effects controls and tape transport buttons. Jog dials use a rotary incremental encoder to scrub frame-by-frame at slow speed, with a spring-loaded shuttle ring for faster speeds. The editor scrubs the source and record decks simultaneously with both hands, each hand mirroring the deck it controls.\n\nThe BVE-600 is a photographed and catalogued museum object: several images are held in the collections of the Museum of Science and Industry, Manchester, on Wikimedia Commons (CC BY-SA 2.0).",
+    "deepDive": [
+      {
+        "heading": "Two dials, two hands, two decks",
+        "text": "Where the broadcast CMX puts a single jog box on a function keyboard, the BVE-600 gives the desktop editor two independent jog dials — one per deck. To assemble an edit you scrub the source with one hand to find the in point and scrub the recorder with the other to find the out point, working both simultaneously. The hardware surface is a literal bimanual mapping of the two-deck editing task."
+      },
+      {
+        "heading": "The jog/shuttle mechanic",
+        "text": "Each jog dial is a rotary incremental encoder: spin it forward or back to step frame-by-frame through the footage, and the faster it turns the faster it shuttles. Released, the dial stops and the deck holds or plays. It is the same embodied 'roll the time under your thumb' mechanic that later became the scroll wheel and the DJ jog wheel."
+      },
+      {
+        "heading": "Editing as a physical control surface",
+        "text": "The BVE-600 makes editing a hands-on, eyes-off-the-machine ritual: your fingers roll the dials to feel their way through the footage while your eyes watch the two monitor images. It is a physical control surface for time itself — the desktop, two-handed cousin of the broadcast editing console."
+      }
+    ],
+    "team": [
+      {
+        "name": "Sony Corporation",
+        "note": "Professional video division; manufactured the BVE-600"
+      }
+    ],
+    "media": [
+      {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/8/8f/Sony_BVE-600_UMatic_edit_controller_%2844714270850%29.jpg",
+        "alt": "Sony BVE-600 U-Matic edit controller with two jog dials",
+        "caption": "Sony BVE-600 U-Matic edit controller, showing its two jog dials. CC BY-SA 2.0, Richard Ash, Museum of Science and Industry Manchester via Wikimedia Commons."
+      },
+      {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/4/42/Jog_Dial_on_Sony_BVE-600_UMatic_edit_controller.jpg",
+        "alt": "Jog dial close-up on the Sony BVE-600",
+        "caption": "Jog dial on the Sony BVE-600 U-Matic edit controller. CC BY-SA 2.0, Richard Ash, Wikimedia Commons."
+      }
+    ],
+    "sources": [
+      {
+        "text": "Wikipedia — Jog dial",
+        "url": "https://en.wikipedia.org/wiki/Jog_dial"
+      },
+      {
+        "text": "Wikimedia Commons — Sony BVE-600 U-Matic edit controller",
+        "url": "https://commons.wikimedia.org/wiki/File:Sony_BVE-600_UMatic_edit_controller_(44714270850).jpg"
+      },
+      {
+        "text": "Wikimedia Commons — Jog Dial on Sony BVE-600",
+        "url": "https://commons.wikimedia.org/wiki/File:Jog_Dial_on_Sony_BVE-600_UMatic_edit_controller.jpg"
+      }
+    ],
+    "imageUrls": [
+      "https://upload.wikimedia.org/wikipedia/commons/8/8f/Sony_BVE-600_UMatic_edit_controller_%2844714270850%29.jpg",
+      "https://upload.wikimedia.org/wikipedia/commons/4/42/Jog_Dial_on_Sony_BVE-600_UMatic_edit_controller.jpg"
+    ]
+  },
+  "savedImages": [
+    "assets/wiki/bve-600-controller.jpg",
+    "assets/wiki/bve-600-jogdial.jpg"
+  ]
+}

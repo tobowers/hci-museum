@@ -1,0 +1,78 @@
+{
+  "slug": "cmx-340",
+  "title": "CMX-340",
+  "year": "1976",
+  "subtitle": "The broadcast edit console whose keyboard became an industry standard — with a jog knob box, the GIZMO, you could reposition for left or right hand",
+  "why_scout_cares": "The museum's first broadcast video-editing control surface. The CMX-340 turned tape editing into a computerized, keyboard-driven ritual: the editor typed edit points into a dedicated function keyboard and scrubbed with a jog wheel. Its most embodied touch is the GIZMO — a jog-knob box integrated into the keyboard that could be re-positioned for left- or right-handed editors. Within 18 months, over 90% of broadcast videotape editing ran on CMX systems, and its keyboard style seeded Grass Valley, Calaway, and Strassner editing systems.",
+  "search_terms": [
+    "CMX-340",
+    "CMX Systems GIZMO jog knob",
+    "computerized videotape editing 1976",
+    "CMX broadcast edit console"
+  ],
+  "research": {
+    "title": "CMX-340",
+    "year": "1976",
+    "by": "CMX Systems (CBS + Memorex)",
+    "tags": ["HCI", "Video", "Editing", "Input", "Professional"],
+    "overview": "CMX Systems was a company founded jointly by CBS and Memorex (the name stood for CBS, Memorex, and eXperimental) in Sunnyvale, California, that pioneered integrating computers with videotape editing. It produced the CMX-600 (1971), the first nonlinear editing system, and later the CMX-340, launched in 1976.\n\nThe CMX-340 introduced 'Intelligent Interfaces' (I2) that allowed it to drive a variety of VTRs and video switchers. Its defining physical feature was a dedicated edit keyboard, and a jog-knob box called the GIZMO that was integrated into the keyboard — it featured transport buttons and could be re-positioned for left-handed editors. Editing was performed by typing edit points into the function keyboard and scrubbing with the jog knob to find frames.\n\nThe 340 became the industry standard. Eighteen months after its introduction, over 90% of all videotape editing for broadcast was done on a CMX system. The CMX keyboard control style was used as the basis of several other editing systems, including Grass Valley, Calaway, and Strassner Editing Systems.",
+    "deepDive": [
+      {
+        "heading": "The GIZMO: a jog knob you could hand over",
+        "text": "The CMX-340's most unusual physical feature is the GIZMO, a jog-knob box integrated into the edit keyboard. Jog = frame-by-frame scrubbing via a rotary encoder; the GIZMO also carried transport buttons and could be re-positioned to either side of the keyboard for left- or right-handed editors — an unusually body-aware, ergonomic design for a 1976 broadcast console. The physical layout mirrors the editor's hand, and the same surface anchors the function-keyboard editing paradigm CMX invented."
+      },
+      {
+        "heading": "The function-keyboard paradigm",
+        "text": "The 340 replaced tape-splice guessing with a dedicated editing keyboard: the operator types edit points (in points, out points, transition types) and scrubs with the jog knob, letting the computer command the VTRs via its Intelligent Interfaces. This 'type the edit, scrub to find it' grammar became the CMX style copied by Grass Valley, Calaway, and Strassner."
+      },
+      {
+        "heading": "It ran the industry",
+        "text": "Within 18 months of its 1976 launch, over 90% of all broadcast videotape editing was performed on CMX systems. The 340 was the machine that made computerized, keyboard-driven editing the default for television post-production — the physical control surface behind a generation of broadcast edits."
+      }
+    ],
+    "team": [
+      {
+        "name": "CMX Systems",
+        "note": "Joint CBS + Memorex venture; developed the CMX-340 (1976)"
+      },
+      {
+        "name": "Ronald Lee Martin",
+        "note": "CMX developer who later became a head of Universal Studios"
+      }
+    ],
+    "media": [
+      {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/7/76/CMX-IMG_9559.JPG",
+        "alt": "CMX Systems editing console and keyboard",
+        "caption": "CMX editing console and function keyboard. CC0 Public Domain, Telecineguy, Wikimedia Commons."
+      },
+      {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/a/ad/CMX-IMG_9561.JPG",
+        "alt": "CMX keyboard close-up",
+        "caption": "CMX function keyboard close-up. CC0 Public Domain, Telecineguy, Wikimedia Commons."
+      }
+    ],
+    "sources": [
+      {
+        "text": "Wikipedia — CMX Systems",
+        "url": "https://en.wikipedia.org/wiki/CMX_Systems"
+      },
+      {
+        "text": "Wikipedia — Jog dial",
+        "url": "https://en.wikipedia.org/wiki/Jog_dial"
+      },
+      {
+        "text": "Wikimedia Commons — CMX-IMG 9559",
+        "url": "https://commons.wikimedia.org/wiki/File:CMX-IMG_9559.JPG"
+      }
+    ],
+    "imageUrls": [
+      "https://upload.wikimedia.org/wikipedia/commons/7/76/CMX-IMG_9559.JPG",
+      "https://upload.wikimedia.org/wikipedia/commons/a/ad/CMX-IMG_9561.JPG"
+    ]
+  },
+  "savedImages": [
+    "assets/wiki/cmx-340-console.jpg",
+    "assets/wiki/cmx-340-keyboard.jpg"
+  ]
+}
