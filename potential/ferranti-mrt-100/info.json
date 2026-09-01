@@ -1,0 +1,62 @@
+{
+  "slug": "ferranti-mrt-100",
+  "title": "Ferranti MRT-100 / MRT-200",
+  "year": "1978",
+  "subtitle": "The clipboard-shaped handheld survey terminal that captured data from paper questionnaires by pressing keys — an electronic clipboard for field research",
+  "why_scout_cares": "The Ferranti MRT-100 is arguably the world's first application-specific handheld computer. Its interaction model is brilliantly literal: it is an electronic clipboard, designed to physically hold a paper questionnaire while the interviewer presses keys to record answers. The interaction deliberately mimicked a clipboard to avoid distracting interviewees with 'whizzy' technology. Data uploaded via acoustic coupler modem. It's the last original computer design from Ferranti, the company that built the world's first commercial computer (Manchester Mark 1). The MRT fills a genuinely unrepresented category: purpose-built electronic data capture for field research, with the clipboard form factor as intentional HCI design.",
+  "search_terms": [
+    "Ferranti MRT-100",
+    "Ferranti MRT-200",
+    "Questronic market research terminal",
+    "Ferranti electronic clipboard",
+    "Ferranti handheld data capture terminal 1978"
+  ],
+  "research": {
+    "title": "Ferranti MRT-100 / MRT-200 (Market Research Terminal)",
+    "year": "1978",
+    "by": "Ferranti Plc (UK)",
+    "tags": ["Handheld", "Data Collection", "Field Research", "Acoustic Coupler", "Portable", "Professional"],
+    "overview": "The Ferranti MRT-100 (Market Research Terminal) was a handheld data-capture terminal developed by Ferranti Plc in the UK. The project began as the 'Questronic' prototype in 1978, created by Victor Callaghan at the University of Hull. The commercial MRT-100 was launched in 1983-1984, followed by the MRT-200.\n\nThe device was shaped like a clipboard — a deliberate design choice. The interviewer would clip a paper questionnaire to the top of the device, read questions from the paper, and press keys on the terminal's custom keypad to record answers. The form factor was explicitly designed to avoid intimidating interviewees with a computer-like device. The terminal stored responses in memory and uploaded data via an acoustic coupler modem over a telephone line.\n\nFerranti was a legendary British computing company — builders of the Manchester Mark 1, Atlas, and Titan computers. The MRT-100 was one of their last original computer designs before the company's decline and eventual collapse. The device was used by market research firms throughout the UK and Europe for field surveys, opinion polling, and customer satisfaction research.",
+    "deepDive": [
+      {
+        "heading": "Origins: The Questronic",
+        "text": "The MRT-100 began as the 'Questronic' project, conceived by Victor Callaghan at the University of Hull in 1978. The prototype was a purpose-built electronic device for market research — replacing the traditional paper-and-pencil clipboard with a self-contained electronic terminal. The Questronic name combined 'questionnaire' and 'electronic'. Callaghan's insight was that the device had to look like a clipboard, not a computer, so that interviewees would respond naturally rather than being intimidated by the technology."
+      },
+      {
+        "heading": "Commercialization: The MRT-100",
+        "text": "Ferranti Plc commercialized the Questronic design as the MRT-100 (Market Research Terminal) around 1983-1984. The MRT-100 featured a custom keypad for survey response entry, battery-powered operation, and data storage. Completed surveys were uploaded to a central computer via an acoustic coupler modem — the interviewer would place the telephone handset into rubber cups and transmit the data audibly. The MRT-200 followed as an enhanced version, and the MRT-3000 was a later development that added a display."
+      },
+      {
+        "heading": "Interaction Model",
+        "text": "The MRT's interaction model was defined by its clipboard form factor. The interviewer held the device like a clipboard, with a paper questionnaire clipped to its surface. Questions were read from the paper, and responses were entered via the keypad. The keypad was designed for quick, single-handed data entry — the interviewer could hold the device in one hand and press keys with the other. The acoustic coupler upload was a separate ritual: after completing interviews, the interviewer would find a telephone, dial the central computer, and press the handset into the MRT's rubber cups to transmit the data as a series of audible tones."
+      },
+      {
+        "heading": "Place in Computing History",
+        "text": "The MRT-100 is historically significant as arguably the first application-specific handheld computer — a device purpose-built for a single professional task, designed around the physical and social requirements of that task. It represents a different philosophical path from the general-purpose portable computers (Osborne 1, Compaq Portable) that emerged around the same time. The MRT also represents one of the last original computer designs from Ferranti, the company that built the world's first commercially available general-purpose computer (the Ferranti Mark 1, 1951) and the first transistorized computer (the Ferranti Pegasus, 1956)."
+      },
+      {
+        "heading": "Legacy",
+        "text": "The MRT-100's conceptual legacy — a portable device with a custom interface for a specific data collection task — lives on in modern handheld data collection devices used in field research, inventory management, and logistics. The Questronic project was also the subject of a 1986 article in the European Journal of Marketing, and the prototype is documented in Victor Callaghan's academic papers. The MRT-100 is held in the collection of the Science Museum, London."
+      }
+    ],
+    "team": [
+      {"name": "Victor Callaghan", "note": "Creator of the Questronic prototype at University of Hull"},
+      {"name": "Ferranti Plc", "note": "Manufacturer and commercializer of the MRT-100 and MRT-200"}
+    ],
+    "media": [
+      {"src": "https://upload.wikimedia.org/wikipedia/commons/3/32/MRT100CreativeCommonsRelease23June15%28m%29.jpg", "alt": "Ferranti MRT-100 Market Research Terminal", "caption": "The Ferranti MRT-100 (Market Research Terminal), an electronic clipboard for field survey data collection. The paper questionnaire was clipped to the top surface while responses were entered via the custom keypad. (CC BY-SA 4.0, V Callaghan / Wikimedia Commons)"}
+    ],
+    "sources": [
+      {"text": "Wikipedia — Ferranti", "url": "https://en.wikipedia.org/wiki/Ferranti"},
+      {"text": "Questronic project page at victor.callaghan.info", "url": "https://victor.callaghan.info/research/questronic/"},
+      {"text": "MRT100CreativeCommonsRelease23June15(m).jpg on Wikimedia Commons", "url": "https://commons.wikimedia.org/wiki/File:MRT100CreativeCommonsRelease23June15(m).jpg"},
+      {"text": "European Journal of Marketing, 1986 — 'The Application of Microprocessors to Marketing Research'", "url": "https://www.emerald.com/insight/content/doi/10.1108/EUM0000000004641/full/html"}
+    ],
+    "imageUrls": [
+      "https://upload.wikimedia.org/wikipedia/commons/3/32/MRT100CreativeCommonsRelease23June15%28m%29.jpg"
+    ]
+  },
+  "savedImages": [
+    "images/ferranti-mrt.jpg"
+  ]
+}

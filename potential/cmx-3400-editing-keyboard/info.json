@@ -1,0 +1,64 @@
+{
+  "slug": "cmx-3400-editing-keyboard",
+  "title": "CMX 3400 Editing Keyboard",
+  "year": "1976",
+  "subtitle": "The dedicated keyboard that became the physical industry standard for videotape editing",
+  "why_scout_cares": "The CMX 3400's dedicated editing keyboard — with its jog/shuttle knob, color-coded function keys, and no-mouse pure-keyboard workflow — is a rare example of a domain-specific physical interface that defined a profession's HCI for decades. At its peak, 90% of all broadcast videotape editing was done on a CMX, and the keyboard layout became the de facto standard cloned by Grass Valley, Calaway, and Strassner. The CMX 3400 introduced Intelligent Interfaces (I2) for device control, and the keyboard itself IS the interface — no cursor, no pointer, just directly labeled keys for every editing operation.",
+  "search_terms": [
+    "CMX 3400 editing keyboard",
+    "CMX Systems video editing",
+    "CMX 340 dedicated keyboard",
+    "CMX-3400 videotape editor",
+    "CMX editing keyboard layout"
+  ],
+  "research": {
+    "title": "CMX 3400 Editing Keyboard",
+    "year": "1976",
+    "by": "CMX Systems (CBS/Memorex joint venture, later Chyron)",
+    "tags": ["Broadcast", "Professional", "Physical Interface", "Keyboard", "Video Editing", "Post-Production"],
+    "overview": "The CMX 3400 was the industry-standard videotape editing system introduced by CMX Systems in 1976 (the CMX-340 launched 1976; the improved 3400 followed in 1979). Its defining feature was the dedicated editing keyboard — a large, heavy console unit with a jog/shuttle knob (the 'Gizmo'), color-coded function keys, transport controls, source/VTR selection keys, and numeric keypad. No mouse, no GUI — every editing operation had a dedicated key. The keyboard layout became known as the 'CMX-style' and was cloned by Grass Valley, Calaway, and Strassner editing systems throughout the 1980s.\n\nCMX Systems was founded as a joint venture between CBS and Memorex in 1969, later acquired by Orrox Corporation and eventually Chyron. The 3400 introduced 'Intelligent Interfaces' (I2) for device control, allowing it to control multiple VTRs and audio decks simultaneously. At its peak, CMX estimated that 90% of all broadcast videotape editing was performed on their systems.\n\nThe interaction model was pure keyboard-driven: the editor marked in/out points, selected sources, and performed edits entirely through the dedicated keyboard. The jog/shuttle knob allowed frame-accurate positioning of tape. System status was displayed on a separate CRT monitor, but the keyboard was the primary point of control — a physical manifestation of the editing workflow itself.",
+    "deepDive": [
+      {
+        "heading": "Origins and Development",
+        "text": "CMX Systems was founded in 1969 by CBS Laboratories and Memorex Corporation to develop computer-assisted videotape editing. The first system, the CMX-600 (not a keyboard system but a random-access disk-based editor), was introduced in 1971. The CMX-300 followed in 1973, and the CMX-340 — the first with the iconic keyboard — launched in 1976. The 3400 upgrade in 1979 added improved device control and expanded keyboard capabilities."
+      },
+      {
+        "heading": "The Keyboard as Interface",
+        "text": "The CMX editing keyboard was the most complete expression of the 'dedicated function keyboard' philosophy in broadcast post-production. Each key was labeled with a specific editing command (MARK IN, MARK OUT, EDIT, PREVIEW, REVIEW, RECALL, etc.), color-coded by function group. The jog/shuttle knob — a large rotary control built into the keyboard — provided frame-accurate bidirectional tape positioning. The keyboard eliminated the need for menu navigation or cursor positioning; every editing operation was one or two keypresses away. This interaction model was so effective that it persisted as the industry standard for over two decades, and the keyboard layout was cloned by competing systems."
+      },
+      {
+        "heading": "Industry Impact",
+        "text": "The CMX 3400 and its successors dominated broadcast editing through the 1980s and into the 1990s. At its peak, CMX estimated a 90% market share of all broadcast videotape editing. The keyboard layout became so influential that the phrase 'CMX-style keyboard' entered the industry lexicon. The system was used to edit countless television shows, commercials, and music videos. The 3400's Intelligent Interfaces (I2) protocol became a standard for controlling external devices (VTRs, switchers, audio mixers) via RS-422 serial control."
+      },
+      {
+        "heading": "Legacy",
+        "text": "The CMX keyboard layout survived through multiple generations of technology: the 3400 (1979), the 3600 (1984, adding EDL management), and the Omni (1988, adding a GUI but retaining the keyboard). As nonlinear editing systems (Avid, Lightworks) emerged in the early 1990s, they initially used keyboard-based interfaces that owed their design philosophy to the CMX paradigm. The CMX keyboard represents a moment when a physical interface so perfectly matched a professional workflow that it transcended its manufacturer and became a category."
+      }
+    ],
+    "team": [
+      {"name": "CMX Systems", "note": "CBS/Memorex joint venture, later Orrox/Chyron"},
+      {"name": "Peter Cardasis", "note": "Lead designer of the CMX-340 editing system"}
+    ],
+    "media": [
+      {"src": "https://upload.wikimedia.org/wikipedia/commons/7/76/CMX-IMG_9559.JPG", "alt": "CMX 3400 editing keyboard", "caption": "The CMX 3400 editing keyboard with jog/shuttle knob, color-coded function keys, and dedicated numeric keypad. The keyboard IS the interface — no mouse, no GUI. (CC0, Wikimedia Commons)"},
+      {"src": "https://upload.wikimedia.org/wikipedia/commons/a/ad/CMX-IMG_9561.JPG", "alt": "CMX logo on the editing console", "caption": "CMX logo on the editing console. (CC0, Wikimedia Commons)"},
+      {"src": "https://upload.wikimedia.org/wikipedia/commons/7/7c/Teclado_CMx.jpg", "alt": "CMX editing keyboard close-up", "caption": "Close-up of the CMX editing keyboard showing the labeled function keys and jog/shuttle control. (CC BY-SA 4.0, Wikimedia Commons)"}
+    ],
+    "sources": [
+      {"text": "Wikipedia — CMX Systems", "url": "https://en.wikipedia.org/wiki/CMX_Systems"},
+      {"text": "CMX-IMG_9559.JPG on Wikimedia Commons", "url": "https://commons.wikimedia.org/wiki/File:CMX-IMG_9559.JPG"},
+      {"text": "CMX-IMG_9561.JPG on Wikimedia Commons", "url": "https://commons.wikimedia.org/wiki/File:CMX-IMG_9561.JPG"},
+      {"text": "Teclado_CMx.jpg on Wikimedia Commons", "url": "https://commons.wikimedia.org/wiki/File:Teclado_CMx.jpg"}
+    ],
+    "imageUrls": [
+      "https://upload.wikimedia.org/wikipedia/commons/7/76/CMX-IMG_9559.JPG",
+      "https://upload.wikimedia.org/wikipedia/commons/a/ad/CMX-IMG_9561.JPG",
+      "https://upload.wikimedia.org/wikipedia/commons/7/7c/Teclado_CMx.jpg"
+    ]
+  },
+  "savedImages": [
+    "images/cmx-keyboard.jpg",
+    "images/cmx-logo.jpg",
+    "images/cmx-teclado.jpg"
+  ]
+}

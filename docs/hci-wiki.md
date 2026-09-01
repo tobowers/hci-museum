@@ -1,6 +1,6 @@
 # The HCI Golden Age Wiki
 
-A research compendium for a digital museum of cutting-edge Human-Computer Interaction from the late 1970s through the early 1990s. These two hundred and thirty-two projects mix canonical experiments with weird, forgotten, and beautiful vaporware — brain control, voice control, gesture, wearable computing, VR, robots, and full-body exertion.
+A research compendium for a digital museum of cutting-edge Human-Computer Interaction from the late 1970s through the early 1990s. These two hundred and thirty-five projects mix canonical experiments with weird, forgotten, and beautiful vaporware — brain control, voice control, gesture, wearable computing, VR, robots, and full-body exertion.
 
 Each entry includes an overview, a deep dive, a small media gallery, and full source links so the images and facts can always be traced back.
 
@@ -239,7 +239,9 @@ Each entry includes an overview, a deep dive, a small media gallery, and full so
 230. [Orca Edge (1983)](#orca-edge-1983)
 231. [Psion Organiser I (1984)](#psion-organiser-i-1984)
 232. [Lexicon LK-3000 (1978)](#lexicon-lk-3000-1978)
-233. [Tomy Digital Derby (1978)](#tomy-digital-derby-1978)
+ 233. [Tomy Digital Derby (1978)](#tomy-digital-derby-1978)
+ 234. [CMX 3400 Editing Keyboard (1976)](#cmx-3400-editing-keyboard-1976)
+ 235. [Ferranti MRT-100 / MRT-200 (Market Research Terminal) (1978)](#ferranti-mrt-100--mrt-200-market-research-terminal-1978)
 
 ---
 
@@ -10976,3 +10978,127 @@ To change language or function you physically ejected the old cartridge and snap
 1. Computer History Museum — Lexicon LK-3000 (object 102673211) — https://www.computerhistory.org/revolution/artifact/318/1740
 2. Wikipedia — Nixdorf Computer — https://en.wikipedia.org/wiki/Nixdorf_Computer
 3. Wikimedia Commons — File:Vintage Nixdorf Handheld Computer, Model LK-3000 — https://commons.wikimedia.org/wiki/File:Vintage_Nixdorf_Handheld_Computer,_Model_LK-3000,_Made_in_Malaysia,_Circa_1979_(8713361517).jpg
+
+---
+
+## CMX 3400 Editing Keyboard (1976)
+
+**By:** CMX Systems (CBS/Memorex joint venture, later Chyron)  
+**Tags:** `Broadcast` `Professional` `Physical Interface` `Keyboard` `Video Editing` `Post-Production`
+
+### Overview
+
+The CMX 3400 was the industry-standard videotape editing system introduced by CMX Systems in 1976 (the CMX-340 launched 1976; the improved 3400 followed in 1979). Its defining feature was the dedicated editing keyboard — a large, heavy console unit with a jog/shuttle knob (the 'Gizmo'), color-coded function keys, transport controls, source/VTR selection keys, and numeric keypad. No mouse, no GUI — every editing operation had a dedicated key. The keyboard layout became known as the 'CMX-style' and was cloned by Grass Valley, Calaway, and Strassner editing systems throughout the 1980s.
+
+CMX Systems was founded as a joint venture between CBS and Memorex in 1969, later acquired by Orrox Corporation and eventually Chyron. The 3400 introduced 'Intelligent Interfaces' (I2) for device control, allowing it to control multiple VTRs and audio decks simultaneously. At its peak, CMX estimated that 90% of all broadcast videotape editing was performed on their systems.
+
+The interaction model was pure keyboard-driven: the editor marked in/out points, selected sources, and performed edits entirely through the dedicated keyboard. The jog/shuttle knob allowed frame-accurate positioning of tape. System status was displayed on a separate CRT monitor, but the keyboard was the primary point of control — a physical manifestation of the editing workflow itself.
+
+### Deep dive
+
+* **Origins and Development.** CMX Systems was founded in 1969 by CBS Laboratories and Memorex Corporation to develop computer-assisted videotape editing. The first system, the CMX-600 (not a keyboard system but a random-access disk-based editor), was introduced in 1971. The CMX-300 followed in 1973, and the CMX-340 — the first with the iconic keyboard — launched in 1976. The 3400 upgrade in 1979 added improved device control and expanded keyboard capabilities.
+* **The Keyboard as Interface.** The CMX editing keyboard was the most complete expression of the 'dedicated function keyboard' philosophy in broadcast post-production. Each key was labeled with a specific editing command (MARK IN, MARK OUT, EDIT, PREVIEW, REVIEW, RECALL, etc.), color-coded by function group. The jog/shuttle knob — a large rotary control built into the keyboard — provided frame-accurate bidirectional tape positioning. The keyboard eliminated the need for menu navigation or cursor positioning; every editing operation was one or two keypresses away. This interaction model was so effective that it persisted as the industry standard for over two decades, and the keyboard layout was cloned by competing systems.
+* **Industry Impact.** The CMX 3400 and its successors dominated broadcast editing through the 1980s and into the 1990s. At its peak, CMX estimated a 90% market share of all broadcast videotape editing. The keyboard layout became so influential that the phrase 'CMX-style keyboard' entered the industry lexicon. The system was used to edit countless television shows, commercials, and music videos. The 3400's Intelligent Interfaces (I2) protocol became a standard for controlling external devices (VTRs, switchers, audio mixers) via RS-422 serial control.
+* **Legacy.** The CMX keyboard layout survived through multiple generations of technology: the 3400 (1979), the 3600 (1984, adding EDL management), and the Omni (1988, adding a GUI but retaining the keyboard). As nonlinear editing systems (Avid, Lightworks) emerged in the early 1990s, they initially used keyboard-based interfaces that owed their design philosophy to the CMX paradigm. The CMX keyboard represents a moment when a physical interface so perfectly matched a professional workflow that it transcended its manufacturer and became a category.
+
+### Team
+
+* **CMX Systems.** CBS/Memorex joint venture, later Orrox/Chyron
+* **Peter Cardasis.** Lead designer of the CMX-340 editing system
+
+### Media
+
+![CMX 3400 editing keyboard](assets/wiki/cmx-3400-keyboard.jpg)
+*The CMX 3400 editing keyboard with jog/shuttle knob, color-coded function keys, and dedicated numeric keypad. The keyboard IS the interface — no mouse, no GUI. (CC0, Wikimedia Commons)*
+
+![CMX logo on the editing console](assets/wiki/cmx-3400-logo.jpg)
+*CMX logo on the editing console. (CC0, Wikimedia Commons)*
+
+![CMX editing keyboard close-up](assets/wiki/cmx-3400-teclado.jpg)
+*Close-up of the CMX editing keyboard showing the labeled function keys and jog/shuttle control. (CC BY-SA 4.0, Wikimedia Commons)*
+
+### Sources
+
+1. Wikipedia — CMX Systems — https://en.wikipedia.org/wiki/CMX_Systems
+2. CMX-IMG_9559.JPG on Wikimedia Commons — https://commons.wikimedia.org/wiki/File:CMX-IMG_9559.JPG
+3. CMX-IMG_9561.JPG on Wikimedia Commons — https://commons.wikimedia.org/wiki/File:CMX-IMG_9561.JPG
+4. Teclado_CMx.jpg on Wikimedia Commons — https://commons.wikimedia.org/wiki/File:Teclado_CMx.jpg
+4. Teclado_CMx.jpg on Wikimedia Commons — https://commons.wikimedia.org/wiki/File:Teclado_CMx.jpg
+
+---
+
+## Ferranti MRT-100 / MRT-200 (Market Research Terminal) (1978)
+
+**By:** Ferranti Plc (UK)  
+**Tags:** `Handheld` `Data Collection` `Field Research` `Acoustic Coupler` `Portable` `Professional`
+
+### Overview
+
+The Ferranti MRT-100 (Market Research Terminal) was a handheld data-capture terminal developed by Ferranti Plc in the UK. The project began as the 'Questronic' prototype in 1978, created by Victor Callaghan at the University of Hull. The commercial MRT-100 was launched in 1983-1984, followed by the MRT-200.
+
+The device was shaped like a clipboard — a deliberate design choice. The interviewer would clip a paper questionnaire to the top of the device, read questions from the paper, and press keys on the terminal's custom keypad to record answers. The form factor was explicitly designed to avoid intimidating interviewees with a computer-like device. The terminal stored responses in memory and uploaded data via an acoustic coupler modem over a telephone line.
+
+Ferranti was a legendary British computing company — builders of the Manchester Mark 1, Atlas, and Titan computers. The MRT-100 was one of their last original computer designs before the company's decline and eventual collapse. The device was used by market research firms throughout the UK and Europe for field surveys, opinion polling, and customer satisfaction research.
+
+### Deep dive
+
+* **Origins: The Questronic.** The MRT-100 began as the 'Questronic' project, conceived by Victor Callaghan at the University of Hull in 1978. The prototype was a purpose-built electronic device for market research — replacing the traditional paper-and-pencil clipboard with a self-contained electronic terminal. The Questronic name combined 'questionnaire' and 'electronic'. Callaghan's insight was that the device had to look like a clipboard, not a computer, so that interviewees would respond naturally rather than being intimidated by the technology.
+* **Commercialization: The MRT-100.** Ferranti Plc commercialized the Questronic design as the MRT-100 (Market Research Terminal) around 1983-1984. The MRT-100 featured a custom keypad for survey response entry, battery-powered operation, and data storage. Completed surveys were uploaded to a central computer via an acoustic coupler modem — the interviewer would place the telephone handset into rubber cups and transmit the data audibly. The MRT-200 followed as an enhanced version, and the MRT-3000 was a later development that added a display.
+* **Interaction Model.** The MRT's interaction model was defined by its clipboard form factor. The interviewer held the device like a clipboard, with a paper questionnaire clipped to its surface. Questions were read from the paper, and responses were entered via the keypad. The keypad was designed for quick, single-handed data entry — the interviewer could hold the device in one hand and press keys with the other. The acoustic coupler upload was a separate ritual: after completing interviews, the interviewer would find a telephone, dial the central computer, and press the handset into the MRT's rubber cups to transmit the data as a series of audible tones.
+* **Place in Computing History.** The MRT-100 is historically significant as arguably the first application-specific handheld computer — a device purpose-built for a single professional task, designed around the physical and social requirements of that task. It represents a different philosophical path from the general-purpose portable computers (Osborne 1, Compaq Portable) that emerged around the same time. The MRT also represents one of the last original computer designs from Ferranti, the company that built the world's first commercially available general-purpose computer (the Ferranti Mark 1, 1951) and the first transistorized computer (the Ferranti Pegasus, 1956).
+* **Legacy.** The MRT-100's conceptual legacy — a portable device with a custom interface for a specific data collection task — lives on in modern handheld data collection devices used in field research, inventory management, and logistics. The Questronic project was also the subject of a 1986 article in the European Journal of Marketing, and the prototype is documented in Victor Callaghan's academic papers. The MRT-100 is held in the collection of the Science Museum, London.
+
+### Team
+
+* **Victor Callaghan.** Creator of the Questronic prototype at University of Hull
+* **Ferranti Plc.** Manufacturer and commercializer of the MRT-100 and MRT-200
+
+### Media
+
+![Ferranti MRT-100 Market Research Terminal](assets/wiki/ferranti-mrt-100.jpg)
+*The Ferranti MRT-100 (Market Research Terminal), an electronic clipboard for field survey data collection. The paper questionnaire was clipped to the top surface while responses were entered via the custom keypad. (CC BY-SA 4.0, V Callaghan / Wikimedia Commons)*
+
+### Sources
+
+1. Wikipedia — Ferranti — https://en.wikipedia.org/wiki/Ferranti
+2. Questronic project page at victor.callaghan.info — https://victor.callaghan.info/research/questronic/
+3. MRT100CreativeCommonsRelease23June15(m).jpg on Wikimedia Commons — https://commons.wikimedia.org/wiki/File:MRT100CreativeCommonsRelease23June15(m).jpg
+4. European Journal of Marketing, 1986 — 'The Application of Microprocessors to Marketing Research' — https://www.emerald.com/insight/content/doi/10.1108/EUM0000000004641/full/html
+
+---
+
+## Tomy Digital Derby (1978)
+
+**By:** Tomy (Tomy Kogyo Co., Japan)  
+**Tags:** `Games` `Handheld` `Input` `Electro-mechanical` `Analog`
+
+### Overview
+
+Released in 1978, Tomy Digital Derby (model 7034, sold abroad as Black Racer, Demon Driver, and Formula 1) is an electro-mechanical handheld racing game. Before LED and LCD games dominated, handhelds of this era combined simple lighting effects, sound, and moving parts. Digital Derby is a fine example: two C batteries power an electric motor, a lap counter, and an automatic timer.
+
+The interaction model is the point. There are no buttons. The player controls a race car at the base of the screen with a small three-spoke steering wheel. A scrolling display of cars and line markings moves down the screen and the player steers around the other cars. A separate gear lever lets the player speed up or slow down the oncoming obstacles, while a lap counter tracks progress. If a crash occurs, a red light displays and all cars stop, requiring a reset before play resumes. Each race lasts one full cycle of the timer; the player with the most laps wins.
+
+Digital Derby belongs to Tomy's electro-mechanical line of LED-and-motor handhelds from the late 1970s. It stands in the lineage between LED block-dot games like Mattel Auto Race (1976) and later LCD games, but is distinguished by its physical, rotary, 'hands-externalized-to-a-wheel' input and a scrolling mechanical raceway rather than discrete slide levers.
+
+### Deep dive
+
+* **A real steering wheel, not a switch.** The defining feature is the three-spoke steering wheel. Where Auto Race steers across fixed lanes with a slide switch, Digital Derby turns a physical wheel and the display is a mechanically scrolling roadway. The steering is continuous and rotary; the gear lever adds speed control. Two independent, analog-style mechanical gestures drive a single motor-operated race. It is the palm-sized ancestor of the steering-wheel 'driving controller' paradigm.
+* **Electro-mechanical, not solid-state.** The game uses a small motor and a scrolling film/display mechanism rather than a pixel grid — the image of the road and cars is mechanical, lit by ordinary flashlight-style bulbs rather than a software-driven LED matrix. This is the same hybrid 'lights + moving parts + sound' formula that characterized the end of the electro-mechanical handheld era.
+* **Crash and reset ritual.** Colliding with oncoming traffic lights a red light and freezes the field; the player must reset the game before continuing. The lap counter and a mechanical timer bound each race to a single timer cycle, so victory is a race against a physical clock rather than a fixed number of laps.
+* **Legacy.** Digital Derby was one of several Tomy electro-mechanical handhelds (including Hit and Missile and Digital Diamond) from the late 1970s, made before LCD games displaced the format. It remains playable through vigilant collectors and simulator recreations such as Gary Duke's Digital Derby simulation.
+
+### Team
+
+* **Tomy (Tomy Kogyo Co.).** Japanese toy manufacturer that produced the Digital Derby LSI/electro-mechanical handheld line.
+
+### Media
+
+![Tomy Digital Derby handheld electro-mechanical racing game](assets/wiki/tomy-digital-derby-1978.jpg)
+*Tomy Digital Derby (1978), model 7034, showing the three-spoke steering wheel and scrolling raceway. CC BY-SA 2.0, Joe Haupt, Wikimedia Commons.*
+
+### Sources
+
+1. Toy Tales — Digital Derby from TOMY (1978) — https://toytales.ca/digital-derby-from-tomy-1978/
+2. Handheld Museum — Tomy Digital Derby (model 7034) — https://www.handheldmuseum.com/Tomy/Derby.htm
+3. Gadgetify — 1978 Tomy Digital Derby Auto Raceway Mechanical Game — https://www.gadgetify.com/tomy-digital-derby-auto-raceway/
+4. Wikimedia Commons — Tomy Digital Derby file — https://commons.wikimedia.org/wiki/Category:Tomy_handheld_electronic_games

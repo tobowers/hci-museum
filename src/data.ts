@@ -2882,6 +2882,45 @@ const exhibitData: Exhibit[] = [
     tags: ["Translation", "Cartridge", "Portable", "Input", "Commercial"],
     image: img("lk3000-nixdorf-handheld.jpg"),
   },
+  {
+    id: "cmx-3400-editing-keyboard",
+    slug: "cmx-3400-editing-keyboard",
+    wikiTitle: "CMX 3400 Editing Keyboard",
+    year: "1976",
+    sortYear: 1976,
+    title: "CMX 3400 Editing Keyboard (1976)",
+    subtitle: "The dedicated keyboard that became the physical industry standard for videotape editing",
+    blurb:
+      "The CMX 3400 editing keyboard is a large, heavy console unit with a jog/shuttle knob, color-coded function keys, and dedicated keys for every editing operation. No mouse, no GUI — every videotape editing command had a direct physical key. At its peak, 90% of all broadcast videotape editing was done on a CMX, and the keyboard layout became the de facto industry standard cloned by Grass Valley, Calaway, and Strassner.",
+    tags: ["Broadcast", "Professional", "Physical Interface", "Keyboard", "Video Editing"],
+    image: img("cmx-3400-keyboard.jpg"),
+  },
+  {
+    id: "ferranti-mrt-100",
+    slug: "ferranti-mrt-100",
+    wikiTitle: "Ferranti MRT-100 / MRT-200 (Market Research Terminal)",
+    year: "1978",
+    sortYear: 1978,
+    title: "Ferranti MRT-100 / MRT-200 (Market Research Terminal) (1978)",
+    subtitle: "The clipboard-shaped handheld survey terminal that captured data from paper questionnaires by pressing keys",
+    blurb:
+      "The Ferranti MRT-100 (Market Research Terminal) is arguably the world's first application-specific handheld computer. Its interaction model is brilliantly literal: an electronic clipboard, designed to hold a paper questionnaire while the interviewer presses keys to record responses. The clipboard form factor was intentional — to avoid distracting interviewees with technology. Data uploaded via acoustic coupler modem. The last original computer design from Ferranti, the company that built the world's first commercial computer.",
+    tags: ["Handheld", "Data Collection", "Field Research", "Acoustic Coupler", "Portable", "Professional"],
+    image: img("ferranti-mrt-100.jpg"),
+  },
+  {
+    id: "tomy-digital-derby",
+    slug: "tomy-digital-derby",
+    wikiTitle: "Tomy Digital Derby",
+    year: "1978",
+    sortYear: 1978,
+    title: "Tomy Digital Derby (1978)",
+    subtitle: "A palm-sized electro-mechanical racing game with a continuous rotary steering wheel and gear lever",
+    blurb:
+      "Tomy Digital Derby (1978) is an electro-mechanical handheld racing game with a small three-spoke steering wheel — not a slide switch, but a continuous rotary controller. A gear lever changes obstacle speed, while a motor-driven scrolling raceway and lap counter create a physical racing experience. Where Auto Race (1976) steers with discrete slide switches, Digital Derby turns a real wheel.",
+    tags: ["Games", "Handheld", "Input", "Electro-mechanical", "Analog"],
+    image: img("tomy-digital-derby-1978.jpg"),
+  },
 ];
 
 export const exhibits: Exhibit[] = exhibitData.toSorted((a, b) => b.sortYear - a.sortYear || a.title.localeCompare(b.title));
