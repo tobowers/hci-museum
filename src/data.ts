@@ -2882,6 +2882,19 @@ const exhibitData: Exhibit[] = [
     tags: ["Translation", "Cartridge", "Portable", "Input", "Commercial"],
     image: img("lk3000-nixdorf-handheld.jpg"),
   },
+  {
+    id: "tomy-digital-derby",
+    slug: "tomy-digital-derby",
+    wikiTitle: "Tomy Digital Derby",
+    year: "1978",
+    sortYear: 1978,
+    title: "Tomy Digital Derby (1978)",
+    subtitle: "A palm-sized race you steer with a physical wheel, not a switch",
+    blurb:
+      "An electro-mechanical handheld racer with no buttons at all. A small three-spoke steering wheel turns continuously to guide a car through oncoming traffic on a mechanically scrolling roadway; a separate gear lever changes speed. Crash and the field freezes behind a red light until you reset. The palm-sized ancestor of the steering-wheel driving controller, distinct from Mattel Auto Race's slide levers.",
+    tags: ["Games", "Handheld", "Input", "Electro-mechanical", "Analog"],
+    image: img("tomy-digital-derby-1978.jpg"),
+  },
 ];
 
 export const exhibits: Exhibit[] = exhibitData.toSorted((a, b) => b.sortYear - a.sortYear || a.title.localeCompare(b.title));
