@@ -1,0 +1,61 @@
+{
+  "slug": "sakhr-ax150",
+  "title": "Sakhr AX150 Arabic MSX",
+  "year": "1986",
+  "subtitle": "The Yamaha-built Arabic MSX whose firmware solves the deepest text-entry problem Latin keyboards never face: drawing connected, right-to-left cursive",
+  "why_scout_cares": "The Sakhr AX150 (1980s, Yamaha-built for the Kuwaiti company Al Alamiah) is the museum's first Arabic-script computer and its clearest example of how entering text is a different problem in a different writing system. Arabic is cursive — a letter changes shape depending on whether it is isolated, initial, medial, or final — and it runs right-to-left. A Latin keyboard never has to render that; the Sakhr's firmware does the shaping and direction handling automatically, so the user types as if on an Arabic typewriter and the machine draws the connected script. It is the Arab-world counterpart to the museum's OASYS Thumb-Shift Keyboard (Japanese kana-kanji, 1980) and Velotype (syllable chording, 1982): script-entry engineering where the interaction model is the point. Made in Japan by Yamaha for Al Alamiah, sold across Egypt and the Gulf Cooperation Council states, and used in classrooms full of networked MSX computers in Arab countries.",
+  "search_terms": [
+    "Sakhr AX150 Arabic MSX computer Yamaha Al Alamiah keyboard cursive shaping",
+    "Arabic MSX right to left character shaping firmware 1980s home computer",
+    "Sakhr software Al Sharekh first Arabic language computer operating system 1980s"
+  ],
+  "research": {
+    "title": "Sakhr AX150 Arabic MSX",
+    "year": "1986",
+    "by": "Al Alamiah Electronics (Kuwait), manufactured by Yamaha (Japan)",
+    "tags": ["HCI", "Input", "Non-Latin Script", "Home Computer", "Arabic"],
+    "overview": "The Sakhr AX150 (also AX100/AX120/AX170) is an MSX-standard home computer made in Japan by Yamaha for the Kuwaiti company Al Alamiah, part of the Sakhr group founded in 1982 by Kuwaiti entrepreneur Mohammed Al-Sharekh. It was sold across Egypt and the Gulf Cooperation Council states, where classrooms full of networked Yamaha-built MSX computers were used for teaching informatics in schools in Arab countries. The machine follows the MSX standard (Z80 CPU, TMS9918 graphics, AY-3-8910 sound) but is localized for Arabic: a full Arabic keyboard layout (mapped to the standard Arabic typewriter arrangement) and an Arabic character ROM, so the system displays and accepts Arabic text natively.\n\nThe distinctive interaction is script shaping. Arabic letters have four forms depending on position in a word (isolated, initial, medial, final), and Arabic runs right-to-left. A Latin-keystroke keyboard has no concept of this — the machine must choose the correct letterform, connect it to its neighbors, and lay out the line right-to-left. The Sakhr's firmware handles all of it: the user types characters in logical order and the computer draws the connected cursive script. This is a genuinely different text-entry problem than anything a Latin or even a kana keyboard solves, and it made the Sakhr an early and influential Arabic computing device.",
+    "deepDive": [
+      {
+        "heading": "Cursive shaping in firmware",
+        "text": "Typing Arabic on a Sakhr means typing a logical sequence of letters and having the machine render them as connected script. Each Arabic letter's glyph depends on context — isolated, initial, medial, or final form — so the firmware must select the right form and draw connecting strokes. A Latin keyboard never does this work; the user's keystrokes map to discrete unconnected glyphs. The Sakhr's character ROM and BIOS perform the shaping and the right-to-left line layout automatically, so a schoolchild can type as on an Arabic typewriter while the computer handles the typography. It is the same kind of machine-does-the-orthography labor that the museum celebrates in the Velotype."
+      },
+      {
+        "heading": "The MSX localization problem",
+        "text": "MSX machines carry a hardcoded character set and keyboard scan-code handling in firmware, so localization is a hardware/ROM change, not a software patch. The Sakhr is the flagship Arabic MSX localization. Its Arabic keyboard layout (documented in the KB_Arabic_Sakhr keyboard diagram) maps Arabic letters onto the typewriter arrangement, with Latin letters available as well. The machine was a complete, standards-compatible MSX that happened to put Arabic first."
+      },
+      {
+        "heading": "Al Alamiah, Sakhr, and Arabic computing",
+        "text": "Sakhr Software Company was founded in 1982 by Mohammed Al-Sharekh, who is credited with pioneering Arabic-language computing in the 1980s. After the 1990 Gulf War the company relocated to Cairo and dropped hardware manufacturing to focus on software, including Arabic-language localization for ministries of education across Saudi Arabia, Egypt, Oman, and the UAE. A 2024 biopic announced by Katara Studios celebrates Al-Sharekh as the man who 'pioneered the first Arabic-language operating system in the 1980s.' The AX150 is the hardware fruit of that ambition."
+      },
+      {
+        "heading": "Distinction from the collection",
+        "text": "The museum's OASYS Thumb-Shift Keyboard (1980) solves Japanese kana-kanji entry; Velotype (1982) types whole syllables; the Sakhr is the first artifact in the collection whose interaction problem is cursive, connected, right-to-left script rendering. No existing exhibit addresses Arabic or any cursive RTL writing system, and none requires the machine to choose context-dependent letterforms. It also complements the museum's broader MSX-adjacent entries (Yamaha CX5M) by showing the standard's regional localization."
+      }
+    ],
+    "team": [
+      { "name": "Al Alamiah Electronics (Kuwait)", "note": "Kuwaiti company that marketed the Sakhr Arabic MSX computers across Egypt and the Gulf states" },
+      { "name": "Mohammed Al-Sharekh", "note": "Founder of Sakhr Software Company (1982); credited with pioneering Arabic-language computing in the 1980s" },
+      { "name": "Yamaha", "note": "Japanese manufacturer that built the Sakhr MSX hardware for Al Alamiah" }
+    ],
+    "media": [
+      { "src": "https://commons.wikimedia.org/wiki/File:Yamaha_msx_ax120_1.jpg", "alt": "A Sakhr AX150 Arabic MSX computer", "caption": "The Sakhr AX150 (صخر) Arabic MSX computer, built by Yamaha for Kuwaiti company Al Alamiah and sold across Egypt and the Gulf. Public domain, Wikimedia Commons." },
+      { "src": "https://commons.wikimedia.org/wiki/File:KB_Arabic_Sakhr.svg", "alt": "The Arabic keyboard layout diagram of the Sakhr MSX", "caption": "The Sakhr MSX Arabic keyboard layout — the physical map that let users type Arabic as on an Arabic typewriter while the firmware rendered connected right-to-left script. CC BY-SA 3.0, Wikimedia Commons." }
+    ],
+    "sources": [
+      { "text": "Wikipedia — MSX (Sakhr AX150 made by Yamaha for Al Alamiah; classrooms in Arab countries; localization firmware)", "url": "https://en.wikipedia.org/wiki/MSX" },
+      { "text": "Wikipedia — Sakhr Software Company (founded 1982 by Mohammed Al-Sharekh; Arabic-language technology)", "url": "https://en.wikipedia.org/wiki/Sakhr_Software_Company" },
+      { "text": "Wikipedia — List of MSX computers (Al Alamiah Sakhr AX100/AX170)", "url": "https://en.wikipedia.org/wiki/List_of_MSX_computers" },
+      { "text": "Wikimedia Commons — File:Yamaha_msx_ax120_1.jpg", "url": "https://commons.wikimedia.org/wiki/File:Yamaha_msx_ax120_1.jpg" },
+      { "text": "Wikimedia Commons — File:KB_Arabic_Sakhr.svg", "url": "https://commons.wikimedia.org/wiki/File:KB_Arabic_Sakhr.svg" }
+    ],
+    "imageUrls": [
+      "https://upload.wikimedia.org/wikipedia/commons/d/d2/Yamaha_msx_ax120_1.jpg",
+      "https://upload.wikimedia.org/wikipedia/commons/4/4f/KB_Arabic_Sakhr.svg"
+    ]
+  },
+  "savedImages": [
+    "images/sakhr_ax150.jpg",
+    "images/sakhr_keyboard2.svg"
+  ]
+}

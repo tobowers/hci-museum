@@ -1,0 +1,65 @@
+{
+  "slug": "ssl-sl-4000",
+  "title": "SSL SL 4000 Total Recall Console",
+  "year": "1979",
+  "subtitle": "The studio mixing console whose computer saved every knob position to a floppy disk, then turned the engineer's own hands into the actuators to restore them",
+  "why_scout_cares": "The Solid State Logic SL 4000 E Series (1979) is the museum's first audio mixing console and one of its strangest computer-guided physical interactions. Its 'Total Recall' system saved the settings of every rotary control on a 5¼-inch floppy disk, then recalled them via a color-coded center-section display that guided the engineer to MANUALLY re-turn each physical knob to its stored position — recall did not move the controls automatically. The computer does not act; it coaches. It turns a human being into a reset mechanism, one knob at a time, because the desk was analog and could not move its own controls. Combined with the earlier B Series (1976) fader automation — the first in-line console with a built-in computer for motorized fader automation and programmable tape-transport auto-location — the SL 4000 is the archetypal computer-linked analog mixing surface. It fills a completely unrepresented category (audio mixing console) and complements the museum's Strand Light Palette (theater lighting, 1978) as a professional creative console that met a computer.",
+  "search_terms": [
+    "SSL SL 4000 E Series Total Recall floppy knob position manual realign 1979",
+    "SSL B Series 1976 fader automation computer mixing console Abbey Road",
+    "SSL 4000 color-coded display recall engineer turn knob mixing history"
+  ],
+  "research": {
+    "title": "SSL SL 4000 Total Recall Console",
+    "year": "1979",
+    "by": "Solid State Logic (SSL) — founder Colin Sanders, Begbroke, Oxfordshire, UK",
+    "tags": ["HCI", "Audio", "Mixing Console", "Computer Automation", "Physical UI"],
+    "overview": "The Solid State Logic SL 4000 is a series of large-format analogue mixing consoles designed and manufactured by SSL from 1976 to 2002, and inducted into the TECnology Hall of Fame in 2004. It began with the SL 4000 A Series, two consoles Colin Sanders hand-built at his own Acorn Studios in Stonesfield, Oxfordshire, because no recording console at the time offered the routing flexibility and settings recall he wanted. The B Series (1976) combined the in-line mixing console with a computer for fader automation and programmable tape-transport auto-location, and the first B Series console was purchased by Abbey Road Studios in London.\n\nThe E Series (1979) is the museum's focus. It added Total Recall: the settings of all the mixer's rotary controls were saved on a 5¼-inch floppy disk and recalled via a color-coded display. On these early consoles, recall meant the display guided the operator in manually realigning each physical control to its stored position rather than resetting the controls automatically. The E Series also introduced the 4-band EQ developed with George Martin (the 'Black Knob' EQ), the first compressor/gate on every channel, and a master bus compressor. The G Series followed at the AES New York Convention in 1987. By 1996, Billboard's Studio Action Chart reported that 83% of that year's number-one singles had been produced on an SSL board.",
+    "deepDive": [
+      {
+        "heading": "Total Recall: the computer that coaches the hand",
+        "text": "The distinctive interaction is Total Recall. The desk's computer could save every rotary-control setting to a floppy disk, but the controls themselves were analog pots and switches — the console could not move them. So recall worked the other way around: a color-coded display in the center section showed the engineer where each knob and switch should be, and the engineer physically turned every control back to its saved position, following the display like a moving checklist. The computer's output is instruction, not actuation; the human hand is the reset mechanism. It is a strange and wonderful inversion of automation — the machine remembers, and the person performs. Sound on Sound's review of the SSL Oracle console references exactly this guided-manual-recall behavior on the early desks."
+      },
+      {
+        "heading": "Fader automation: the console that replays the mix",
+        "text": "The B Series (1976) introduced the other half of the story: a built-in computer providing fader automation. Motor-driven faders could record and replay fader moves during a mixdown, and the computer provided programmable tape-transport auto-location so the desk and tape machines could be steered to defined points. This is the recording-industry ancestor of the DAW automation lane — a moving-fader desk that remembers its own hands, a direct contrast to Total Recall's manual knob reset."
+      },
+      {
+        "heading": "The computer-linked analog console",
+        "text": "The SL 4000 straddles two eras: fully analog audio path, but governed by an integrated computer for automation, auto-location, and recall. The center-section 'computer' and its floppy drive became as iconic as the green 'VU meters' in the meter bridge. Engineers from Bob Clearmountain and Steve Lillywhite to Chris Lord-Alge, Dr. Dre, and Trevor Horn built the sound of the 1980s on the console's automation and recall. SSL itself claims more platinum albums have been recorded on SSL boards than any other maker's equipment combined."
+      },
+      {
+        "heading": "Distinction from the collection",
+        "text": "The museum's Strand Light Palette (1978) is a theater-lighting console driven by a computer; the SSL SL 4000 is an audio mixing console with the same 'computer meets professional analog console' DNA, but in a wholly separate domain. The museum has synthesizers, drum machines, sequencers, and edit controllers, but no audio mixing surface. Total Recall's guided-manual-recall interaction — the machine telling the human hand what to turn, because the machine cannot turn it — has no near neighbor in the collection."
+      }
+    ],
+    "team": [
+      { "name": "Solid State Logic (SSL)", "note": "British manufacturer of professional mixing consoles, founded by Colin Sanders; SL 4000 line 1976-2002" },
+      { "name": "Colin Sanders", "note": "SSL founder; built the SL 4000 A prototypes at his own Acorn Studios to get the routing and recall he wanted" },
+      { "name": "George Martin", "note": "Collaborated on the E Series 4-band 'Black Knob' EQ section" }
+    ],
+    "media": [
+      { "src": "https://commons.wikimedia.org/wiki/File:SSL_4000.jpg", "alt": "An SSL SL 4000 mixing console in a recording studio control room", "caption": "An SSL SL 4000 series mixing console, the computer-linked analog desk whose Total Recall guided engineers to reset knobs by hand. CC BY-SA 4.0, Wikimedia Commons." },
+      { "src": "https://commons.wikimedia.org/wiki/File:SSL_Studio_Computer_Display.jpg", "alt": "The center-section computer display of an SSL console, showing the automation/recall readout", "caption": "The SSL center-section 'studio computer' display — the color-coded readout that walked engineers through Total Recall and fader automation. CC BY-SA 3.0, Wikimedia Commons." },
+      { "src": "https://commons.wikimedia.org/wiki/File:SSL_SL4000G%2B.jpg", "alt": "SL 4000 G+ console at Townhouse Studios, London", "caption": "SL 4000 G+ Serial #1000 at Townhouse Studios, London — the G series brought Total Recall and fader automation into the late-1980s mainstream. CC BY 2.0, Wikimedia Commons." }
+    ],
+    "sources": [
+      { "text": "Wikipedia — Solid State Logic SL 4000", "url": "https://en.wikipedia.org/wiki/Solid_State_Logic_SL_4000" },
+      { "text": "Sweetwater — The History of SSL", "url": "https://www.sweetwater.com/insync/the-history-of-ssl/" },
+      { "text": "Sound on Sound — Solid State Logic Oracle review (Total Recall recall behavior)", "url": "https://www.soundonsound.com/reviews/solid-state-logic-oracle" },
+      { "text": "Universal Audio — The Enduring Legacy of SSL", "url": "https://www.uaudio.com/blog/the-enduring-legacy-of-ssl/" },
+      { "text": "TECnology Hall of Fame 2004 (SL 4000 inducted)", "url": "http://legacy.tecawards.org/tec/04TECnologyHOFdetails.html" },
+      { "text": "Wikimedia Commons — File:SSL 4000.jpg", "url": "https://commons.wikimedia.org/wiki/File:SSL_4000.jpg" }
+    ],
+    "imageUrls": [
+      "https://upload.wikimedia.org/wikipedia/commons/2/29/SSL_4000.jpg",
+      "https://upload.wikimedia.org/wikipedia/commons/c/c2/SSL_Studio_Computer_Display.jpg",
+      "https://upload.wikimedia.org/wikipedia/commons/3/33/SSL_SL4000G%2B.jpg"
+    ]
+  },
+  "savedImages": [
+    "images/ssl_4000_console.jpg",
+    "images/ssl_center_display.jpg",
+    "images/ssl_sl4000.jpg"
+  ]
+}

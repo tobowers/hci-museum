@@ -242,7 +242,9 @@ Each entry includes an overview, a deep dive, a small media gallery, and full so
 233. [Tomy Digital Derby (1978)](#tomy-digital-derby-1978)
 234. [CMX-340 (1976)](#cmx-340-1976)
 235. [Sony BVE-600 (c. 1985)](#sony-bve-600-c-1985)
-236. [Movement Systems (MCS) Drum Computer (1981)](#movement-systems-mcs-drum-computer-1981)
+ 236. [Movement Systems (MCS) Drum Computer (1981)](#movement-systems-mcs-drum-computer-1981)
+ 237. [SSL SL 4000 Total Recall Console (1979)](#ssl-sl-4000-total-recall-console-1979)
+ 238. [Sakhr AX150 Arabic MSX (1986)](#sakhr-ax150-arabic-msx-1986)
 
 ---
 

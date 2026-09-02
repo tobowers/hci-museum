@@ -2934,6 +2934,32 @@ const exhibitData: Exhibit[] = [
     tags: ["Music", "Input", "Sequencer", "Computer", "Commercial"],
     image: img("mcs-drum-computer.jpg"),
   },
+  {
+    id: "ssl-sl-4000",
+    slug: "ssl-sl-4000",
+    wikiTitle: "SSL SL 4000 Total Recall Console",
+    year: "1979",
+    sortYear: 1979,
+    title: "SSL SL 4000 Total Recall Console (1979)",
+    subtitle: "The studio mixing console whose computer saved every knob to a floppy, then turned the engineer's own hands into the actuators to restore them",
+    blurb:
+      "The first audio mixing console in the museum, and one of its strangest computer-guided physical interfaces. Total Recall saved every rotary control's setting to a 5¼-inch floppy disk, then recalled it via a color-coded center-section display that guided the engineer to MANUALLY re-turn each knob to its stored position — the desk could not move its own controls, so the machine coached the human hand. The 1976 B Series had already put a computer on an in-line console for fader automation and tape auto-location. By 1996, 83% of Billboard's number-one singles were produced on an SSL board.",
+    tags: ["HCI", "Audio", "Mixing Console", "Computer Automation", "Physical UI"],
+    image: img("ssl-sl-4000-console.jpg"),
+  },
+  {
+    id: "sakhr-ax150",
+    slug: "sakhr-ax150",
+    wikiTitle: "Sakhr AX150 Arabic MSX",
+    year: "1986",
+    sortYear: 1986,
+    title: "Sakhr AX150 Arabic MSX (1986)",
+    subtitle: "The Yamaha-built Arabic MSX whose firmware draws connected, right-to-left cursive — a text-entry problem Latin keyboards never face",
+    blurb:
+      "The museum's first Arabic-script computer. Built in Japan by Yamaha for Kuwaiti company Al Alamiah and sold across Egypt and the Gulf, it is a full MSX home computer localized for Arabic: a proper Arabic typewriter keyboard layout and a firmware that handles the deepest text-entry problem Latin never faces — choosing each letter's context-dependent form (isolated/initial/medial/final) and laying the line out right-to-left. Type like on an Arabic typewriter; the machine renders the connected cursive. The Arab-world counterpart to the OASYS and Velotype script-entry exhibits.",
+    tags: ["HCI", "Input", "Non-Latin Script", "Home Computer", "Arabic"],
+    image: img("sakhr-ax150.jpg"),
+  },
 ];
 
 export const exhibits: Exhibit[] = exhibitData.toSorted((a, b) => b.sortYear - a.sortYear || a.title.localeCompare(b.title));
