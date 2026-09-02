@@ -1,6 +1,6 @@
 # The HCI Golden Age Wiki
 
-A research compendium for a digital museum of cutting-edge Human-Computer Interaction from the late 1970s through the early 1990s. These two hundred and thirty-two projects mix canonical experiments with weird, forgotten, and beautiful vaporware — brain control, voice control, gesture, wearable computing, VR, robots, and full-body exertion.
+A research compendium for a digital museum of cutting-edge Human-Computer Interaction from the late 1970s through the early 1990s. These two hundred and thirty-six projects mix canonical experiments with weird, forgotten, and beautiful vaporware — brain control, voice control, gesture, wearable computing, VR, robots, and full-body exertion.
 
 Each entry includes an overview, a deep dive, a small media gallery, and full source links so the images and facts can always be traced back.
 
@@ -240,6 +240,9 @@ Each entry includes an overview, a deep dive, a small media gallery, and full so
 231. [Psion Organiser I (1984)](#psion-organiser-i-1984)
 232. [Lexicon LK-3000 (1978)](#lexicon-lk-3000-1978)
 233. [Tomy Digital Derby (1978)](#tomy-digital-derby-1978)
+234. [CMX-340 (1976)](#cmx-340-1976)
+235. [Sony BVE-600 (c. 1985)](#sony-bve-600-c-1985)
+236. [Movement Systems (MCS) Drum Computer (1981)](#movement-systems-mcs-drum-computer-1981)
 
 ---
 
@@ -11080,3 +11083,40 @@ Its defining feature is two independent jog dials — one dedicated to the sourc
 1. Wikipedia — Jog dial — https://en.wikipedia.org/wiki/Jog_dial
 2. Wikimedia Commons — Sony BVE-600 — https://commons.wikimedia.org/wiki/File:Sony_BVE-600_UMatic_edit_controller_(44714270850).jpg
 3. Wikimedia Commons — Jog Dial close-up — https://commons.wikimedia.org/wiki/File:Jog_Dial_on_Sony_BVE-600_UMatic_edit_controller.jpg
+
+## Movement Systems (MCS) Drum Computer (1981)
+
+**By:** Movement Computer Systems (UK)
+**Tags:** `Music` `Input` `Sequencer` `Computer` `Commercial`
+
+### Overview
+
+The Movement Computer Systems (MCS) Drum Computer — also called the Percussion Computer — is a very rare British drum machine from around 1981, designed by John Dickenson (concept) and Dave Goodway (electronics). Only about thirty units were built across the MK1 and MK2 models. It is built around a Nascom 2 single-board microcomputer, which makes it structurally different from contemporary drum machines: rather than step buttons and LED grids, the sequencing interface is a full QWERTY keyboard and a monochrome CRT display on which drum patterns are graphically edited.
+
+The instrument hybridizes two sound-generation approaches across seven voice cards, each carrying two drum voices (14 total). Each voice can be switched between an analog synthesized drum sound (Simmons-style) and a digital 8-bit sampled sound (LinnDrum-style), with per-voice volume and pitch-sustain controls. Sequenced patterns can be chained into songs, and data can be saved to cassette tape. Later MK2 units (1983) added MIDI, an integrated CRT, battery-backed memory, and a floppy disk drive.
+
+The MCS's most prominent user was David Stewart of the Eurythmics, who is seen typing on an MK1 in the video for "Sweet Dreams." Other users reportedly included Phil Collins, the Thompson Twins, the Human League, Thomas Dolby, and Vince Clarke — some accounts say the same physical machine passed from one act to the next. Despite this pedigree, it never sounded as good as the Linn, Simmons, or Oberheim competition and did not take off commercially.
+
+### Deep dive
+
+* **The drum machine that was a computer.** The MCS's defining inversion is that the sequencer is a general-purpose microcomputer. Inside is a Nascom 2 single-board computer, and the operator programs rhythms by typing on a QWERTY keyboard while watching a monochrome CRT that graphically shows the drum-note pattern across a grid of voices and steps. This is the drum machine as a programming environment — a decade before software-defined instruments became normal.
+* **Hybrid analog + sampled voices.** Across 14 voices the MCS blends two sound-generation philosophies: analog synthesized drum voices (Simmons-style) and digital 8-bit samples (LinnDrum-style). Each voice can be switched between the two, giving a single instrument the texture of both the analog and early-digital drum machine eras at once.
+* **Typed on by the stars.** David Stewart of the Eurythmics used the MCS on "Sweet Dreams" and is seen typing at an MK1 keyboard in the video. The same machine reportedly circulated through Phil Collins, the Thompson Twins, the Human League, and Thomas Dolby. An extraordinarily rare instrument with a disproportionate celebrity footprint.
+
+### Team
+
+* **Movement Computer Systems** — British company that produced the Drum Computer (c. 1981)
+* **John Dickenson** — concept/design of the MCS Drum Computer
+* **Dave Goodway** — electronics design of the MCS Drum Computer
+
+### Media
+
+![Movement Computer Systems (MCS) Drum Computer](../assets/wiki/mcs-drum-computer.jpg)
+*Movement Computer Systems (MCS) Drum Computer / Percussion Computer. CC BY 3.0, Steve Castellano (photo), Clusternote (derivative), Wikimedia Commons.*
+
+### Sources
+
+1. Wikipedia — Movement Systems Drum Computer — https://en.wikipedia.org/wiki/Movement_Systems_Drum_Computer
+2. Vintage Synth Explorer — Movement MCS Drum Computer MK1 — https://www.vintagesynth.com/misc/mcs_drumcomputer.php
+3. Vintage Digital — Movement Systems Drum Computer — https://www.vintagedigital.com.au/movement-systems-drum-computer/
+4. Wikimedia Commons — MCS Drum Computer (Knobcon 2014) — https://commons.wikimedia.org/wiki/File:Movement_Computer_Systems_(MCS)_Drum_System_II_(or_Percussion_Computer_II),_circa_1981,_United_Kingdom_-_Knobcon_2014.jpg
