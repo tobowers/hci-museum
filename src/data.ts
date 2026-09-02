@@ -2895,6 +2895,45 @@ const exhibitData: Exhibit[] = [
     tags: ["Games", "Handheld", "Input", "Electro-mechanical", "Analog"],
     image: img("tomy-digital-derby-1978.jpg"),
   },
+  {
+    id: "cmx-340",
+    slug: "cmx-340",
+    wikiTitle: "CMX-340",
+    year: "1976",
+    sortYear: 1976,
+    title: "CMX-340 (1976)",
+    subtitle: "The broadcast edit console whose keyboard became an industry standard — with a jog knob box you could hand over for left- or right-handed editors",
+    blurb:
+      "The first computerized broadcast videotape editing console, from the CBS + Memorex venture that invented the field. Editing is a typed ritual: you enter edit points on a dedicated function keyboard and scrub with a jog knob. The most embodied touch is the GIZMO, a jog-knob box integrated into the keyboard that could be repositioned for left- or right-handed editors. Within 18 months, over 90% of broadcast videotape editing ran on CMX systems.",
+    tags: ["HCI", "Video", "Editing", "Input", "Professional"],
+    image: img("cmx-340-console.jpg"),
+  },
+  {
+    id: "sony-bve-600",
+    slug: "sony-bve-600",
+    wikiTitle: "Sony BVE-600",
+    year: "c. 1985",
+    sortYear: 1985,
+    title: "Sony BVE-600 (c. 1985)",
+    subtitle: "A desktop edit controller with two independent jog dials — one hand on the source deck, one on the recorder — for two-handed scrubbing",
+    blurb:
+      "A desktop U-Matic editing controller whose defining feature is two independent jog dials: one scrubs the source deck, the other the recorder, so the editor works both hands simultaneously — a literal bimanual mapping of the two-deck edit. The desktop counterpoint to the broadcast CMX function-keyboard console. Held in the Museum of Science and Industry, Manchester.",
+    tags: ["HCI", "Video", "Editing", "Input", "Professional"],
+    image: img("bve-600-controller.jpg"),
+  },
+  {
+    id: "movement-mcs-drum-computer",
+    slug: "movement-mcs-drum-computer",
+    wikiTitle: "Movement Systems (MCS) Drum Computer",
+    year: "1981",
+    sortYear: 1981,
+    title: "Movement Systems (MCS) Drum Computer (1981)",
+    subtitle: "A drum machine that IS a microcomputer — you type your rhythms on a QWERTY keyboard and read them on a CRT",
+    blurb:
+      "A rare British drum machine built around a Nascom 2 single-board computer. Rather than step buttons and LEDs, you program percussion by typing on a full QWERTY keyboard and graphically editing patterns on a monochrome CRT. Fourteen voices blend analog synthesized drums with 8-bit samples. David Stewart of the Eurythmics used one on 'Sweet Dreams' — seen typing at it in the video. Only ~30 units were ever made.",
+    tags: ["Music", "Input", "Sequencer", "Computer", "Commercial"],
+    image: img("mcs-drum-computer.jpg"),
+  },
 ];
 
 export const exhibits: Exhibit[] = exhibitData.toSorted((a, b) => b.sortYear - a.sortYear || a.title.localeCompare(b.title));

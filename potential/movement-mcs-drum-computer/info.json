@@ -1,0 +1,75 @@
+{
+  "slug": "movement-mcs-drum-computer",
+  "title": "Movement Systems (MCS) Drum Computer",
+  "year": "1981",
+  "subtitle": "A drum machine that IS a microcomputer — you type your rhythms on a QWERTY keyboard and read them on a CRT",
+  "why_scout_cares": "The museum's clearest 'computer-as-instrument' artifact and its only drum machine built around a full microcomputer. The MCS Drum Computer (Movement Computer Systems, UK, ~1981) wraps a Nascom 2 single-board computer around a hybrid analog+8-bit-sample percussion engine. Where the Roland TR-808 gives you step buttons and LEDs and the Roland MC-8 gives you a numeric keypad, the MCS gives you a real QWERTY keyboard and a monochrome CRT on which you graphically edit drum patterns — programming percussion by typing and reading a screen. David Stewart of the Eurythmics is seen typing on an MK1 in the 'Sweet Dreams' video. Extremely rare (~30 units), a commercial failure that outran its market, but an unmistakable interaction model: the drum machine as a general-purpose computer.",
+  "search_terms": [
+    "Movement Computer Systems Drum Computer",
+    "MCS Percussion Computer Nascom 2",
+    "Movement Systems Drum Computer 1981",
+    "drum machine QWERTY keyboard CRT sequencer"
+  ],
+  "research": {
+    "title": "Movement Systems (MCS) Drum Computer",
+    "year": "1981",
+    "by": "Movement Computer Systems (UK)",
+    "tags": ["Music", "Input", "Sequencer", "Computer", "Commercial"],
+    "overview": "The Movement Computer Systems (MCS) Drum Computer — also called the Percussion Computer — is a very rare British drum machine from around 1981, designed by John Dickenson (concept) and Dave Goodway (electronics). Only about thirty units were built across the MK1 and MK2 models. It is built around a Nascom 2 single-board microcomputer, which makes it structurally different from contemporary drum machines: rather than step buttons and LED grids, the sequencing interface is a full QWERTY keyboard and a monochrome CRT display on which drum patterns are graphically edited.\n\nThe instrument hybridizes two sound-generation approaches across seven voice cards, each carrying two drum voices (14 total). Each voice can be switched between an analog synthesized drum sound (Simmons-style) and a digital 8-bit sampled sound (LinnDrum-style), with per-voice volume and pitch-sustain controls. Sequenced patterns can be chained into songs, and data can be saved to cassette tape. Later MK2 units (1983) added MIDI, an integrated CRT, battery-backed memory, and a floppy disk drive.\n\nThe MCS's most prominent user was David Stewart of the Eurythmics, who is seen typing on an MK1 in the video for 'Sweet Dreams.' Other users reportedly included Phil Collins, the Thompson Twins, the Human League, Thomas Dolby, and Vince Clarke — some accounts say the same physical machine passed from one act to the next. Despite this pedigree, it never sounded as good as the Linn, Simmons, or Oberheim competition and did not take off commercially.",
+    "deepDive": [
+      {
+        "heading": "The drum machine that was a computer",
+        "text": "The MCS's defining inversion is that the sequencer is a general-purpose microcomputer. Inside is a Nascom 2 single-board computer, and the operator programs rhythms by typing on a QWERTY keyboard while watching a monochrome CRT that graphically shows the drum-note pattern across a grid of voices and steps. This is the drum machine as a programming environment — a decade before software-defined instruments became normal."
+      },
+      {
+        "heading": "Hybrid analog + sampled voices",
+        "text": "Across 14 voices the MCS blends two sound-generation philosophies: analog synthesized drum voices (Simmons-style) and digital 8-bit samples (LinnDrum-style). Each voice can be switched between the two, giving a single instrument the texture of both the analog and early-digital drum machine eras at once."
+      },
+      {
+        "heading": "Typed on by the stars",
+        "text": "David Stewart of the Eurythmics used the MCS on 'Sweet Dreams' and is seen typing at an MK1 keyboard in the video. The same machine reportedly circulated through Phil Collins, the Thompson Twins, the Human League, and Thomas Dolby. An extraordinarily rare instrument with a disproportionate celebrity footprint."
+      }
+    ],
+    "team": [
+      {
+        "name": "Movement Computer Systems",
+        "note": "British company that produced the Drum Computer (c. 1981)"
+      },
+      {
+        "name": "John Dickenson",
+        "note": "Concept/design of the MCS Drum Computer"
+      },
+      {
+        "name": "Dave Goodway",
+        "note": "Electronics design of the MCS Drum Computer"
+      }
+    ],
+    "media": [
+      {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/8/8f/Movement_Computer_Systems_%28MCS%29_Drum_System_II_%28or_Percussion_Computer_II%29%2C_circa_1981%2C_United_Kingdom_-_Knobcon_2014.jpg",
+        "alt": "Movement Computer Systems (MCS) Drum System II at Knobcon 2014",
+        "caption": "Movement Computer Systems (MCS) Drum Computer / Percussion Computer. CC BY 3.0, Steve Castellano (photo), Clusternote (derivative), Wikimedia Commons."
+      }
+    ],
+    "sources": [
+      {
+        "text": "Wikipedia — Movement Systems Drum Computer",
+        "url": "https://en.wikipedia.org/wiki/Movement_Systems_Drum_Computer"
+      },
+      {
+        "text": "Vintage Synth Explorer — Movement MCS Drum Computer MK1",
+        "url": "https://www.vintagesynth.com/misc/mcs_drumcomputer.php"
+      },
+      {
+        "text": "Vintage Digital — Movement Systems Drum Computer",
+        "url": "https://www.vintagedigital.com.au/movement-systems-drum-computer/"
+      }
+    ],
+    "imageUrls": [
+      "https://upload.wikimedia.org/wikipedia/commons/8/8f/Movement_Computer_Systems_%28MCS%29_Drum_System_II_%28or_Percussion_Computer_II%29%2C_circa_1981%2C_United_Kingdom_-_Knobcon_2014.jpg"
+    ]
+  },
+  "savedImages": [
+    "assets/wiki/mcs-drum-computer.jpg"
+  ]
+}
