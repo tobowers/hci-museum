@@ -1,0 +1,62 @@
+{
+  "slug": "intellivision-keyboard-component",
+  "title": "Mattel Intellivision Keyboard Component",
+  "year": "1983",
+  "subtitle": "The toy console that sprouted a typewriter, a tape drive, and a second brain",
+  "why_scout_cares": "The whole Intellivision line was designed as a modular home computer, and this enormous keyboard+tape module was the promise made flesh — then un-made. The console nests in a full-width keyboard cavity, gains a 6502 beside its own CP1610 (a dual-processor machine), and stores programs on a built-in cassette drive with dual digital + analog tracks. ~4,000 built, released in two cities, cancelled after an FTC false-advertising probe, bought back, and memorably ragged by Jay Leno. Embodied, commercially odd, interaction-model-rich.",
+  "search_terms": ["Intellivision", "Keyboard Component", "Blue Whale", "Intelliputer", "Mattel", "home computer", "cassette tape", "1983"],
+  "research": {
+    "title": "Mattel Intellivision Keyboard Component",
+    "year": "1983",
+    "by": "Mattel Electronics / David Chandler (product engineering), David Rolfe of APh (PicSe control software)",
+    "tags": ["Input", "Keyboard", "Home Computer", "Console Peripheral", "Storage"],
+    "overview": "The Intellivision was designed from its 1979 debut as a modular home computer: packaging, ads, and TV spots promised a 'coming soon' Keyboard Component. The final unit — code-named the Blue Whale, also known as the Intelliputer — was a physically enormous full-width computer keyboard module into which the game console sat in a recessed cavity, its cartridge slot poking through so ordinary cartridges still played. It turned a toy into a serious desktop machine with a second processor, a tape drive, and a text display.\n\nThe Keyboard Component adds an 8-bit MOS 6502 beside the Intellivision's own GI CP1610, making it a genuine dual-processor computer. It carries 16K of 10-bit shared RAM that can load and execute both CPUs' code from tape. The built-in cassette drive uses cassettes with two digital data tracks and two analog audio tracks, fully computer-controlled, block-addressed with high-speed indexing. A high-resolution 40x24 monochrome text display can overlay regular Intellivision graphics. There is a microphone port, two expansion ports for peripherals and RAM, and a pass-through cartridge port. The Microsoft BASIC programming cartridge uses one of the expansion ports.\n\nDavid Rolfe of APh wrote a control program, PicSe (Picture Sequencer), to build multimedia applications that synchronize graphics and analog audio while saving/loading tape data. Only two PicSe applications shipped on cassette (Conversational French, Jack Lalanne's Physical Conditioning) plus five BASIC tape programs. The component was repeatedly delayed as engineers fought to cut manufacturing cost, was released at $600 in Seattle and New Orleans only, then cancelled in August 1982 amid an FTC probe into false advertising; Mattel bought every unit back. Roughly 4,000 were manufactured and they are rare.",
+    "deepDive": [
+      {
+        "heading": "A promise the box couldn't keep",
+        "text": "The Keyboard Component's defining, embodied strangeness is that it is a toy console physically nested inside a huge computer keyboard. The Intellivision Master Component sits in a cavity in the keyboard unit, its cartridge slot exposed so games still work, while the add-on supplies a full QWERTY keyboard, a second CPU, tape storage, a text overlay, a microphone port, and expansion slots. It is the 'toy sprouted a terminal' idea made into one heavy plastic object, painted in a gloomy dark-brown that collectors remember."
+      },
+      {
+        "heading": "Two brains, one toy",
+        "text": "Adding a 6502 to the Intellivision's CP1610 made it a dual-processor machine: the 6502 handles the computer functions while the console's own processor keeps doing Intellivision graphics and sound. The two share 16K of 10-bit RAM and can both load and execute code from the tape drive. This is an unusual, embodied way to make a computer out of a game console — by bolting a second, independent computer onto it rather than replacing it."
+      },
+      {
+        "heading": "The tape drive as the hard disk",
+        "text": "The cassette drive is block-addressed with high-speed indexing — not just a linear tape, but a random-ish access medium controlled entirely by the computer, with separate read-only software tracks and user-data tracks plus analog audio. Programs, data, and (via PicSe) synchronized audio all live on the same cassette. It prefigures the idea of one removable physical medium as the whole storage story, years before that became the norm."
+      },
+      {
+        "heading": "The buyback and the joke",
+        "text": "The delays became a company-wide running joke: at Mattel's 1981 Christmas party, Jay Leno's biggest laugh came from listing 'the three big lies' — 'the check is in the mail,' 'I'll still respect you in the morning,' and 'the keyboard will be out in spring.' The FTC began probing Mattel for fraud/false advertising; Mattel called the Keyboard Component a failed product and avoided fines, cancelled it in August 1982, and bought back all units — a full refund, or $550 plus $60 for BASIC plus $30 per cassette without a receipt, with $1,000 of Mattel products for anyone who kept it. GameSpy later ranked it No. 11 on its '25 dumbest moments in gaming.'"
+      }
+    ],
+    "team": [
+      { "name": "Mattel Electronics", "note": "Developer of the Intellivision platform and the Keyboard Component" },
+      { "name": "David Chandler", "note": "Director of Product Engineering for Intellivision hardware" },
+      { "name": "David Rolfe / APh Technological Consulting", "note": "Wrote the PicSe control software and Intellivision Exec" }
+    ],
+    "media": [
+      {
+        "src": "https://commons.wikimedia.org/wiki/File:E3_2013_Video_Game_History_Museum_Intellivision_Keyboard_Component_(9029461471).jpg",
+        "alt": "The Intellivision Keyboard Component on display at the Video Game History Museum",
+        "caption": "Intellivision Keyboard Component at the Video Game History Museum, E3 2013. CC BY 2.0, Tarcil (Flickr), via Wikimedia Commons."
+      },
+      {
+        "src": "https://commons.wikimedia.org/wiki/File:Intellivision_-_trojandan_14871699_-_white_background.jpg",
+        "alt": "The Intellivision Keyboard Component with the console nested inside",
+        "caption": "Intellivision with its Keyboard Component ('Blue Whale'), white background. CC BY 2.0, Daniel McConnell, via Wikimedia Commons."
+      }
+    ],
+    "sources": [
+      { "text": "Wikipedia — Intellivision (Keyboard Component section)", "url": "https://en.wikipedia.org/wiki/Intellivision" },
+      { "text": "Wikimedia Commons — Keyboard Component file pages", "url": "https://commons.wikimedia.org/wiki/File:E3_2013_Video_Game_History_Museum_Intellivision_Keyboard_Component_(9029461471).jpg" }
+    ],
+    "imageUrls": [
+      "https://upload.wikimedia.org/wikipedia/commons/7/7d/E3_2013_Video_Game_History_Museum_Intellivision_Keyboard_Component_(9029461471).jpg",
+      "https://upload.wikimedia.org/wikipedia/commons/e/e1/Intellivision_-_trojandan_14871699_-_white_background.jpg"
+    ]
+  },
+  "savedImages": [
+    "assets/wiki/intellivision-keyboard-component-1.jpg",
+    "assets/wiki/intellivision-keyboard-component-2.jpg"
+  ]
+}

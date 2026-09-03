@@ -1,0 +1,56 @@
+{
+  "slug": "brother-wp1",
+  "title": "Brother WP1 Word Processor / Electronic Typewriter",
+  "year": "c. 1985",
+  "subtitle": "The typewriter that made you edit before you printed",
+  "why_scout_cares": "The Brother WP1 sits exactly on the seam where a typewriter stopped being a machine that commits ink on every keystroke and became a computer that holds your words until you say so. It is an electronic typewriter with a multi-line LCD editing screen: you type, you see the text on the display, you correct it, and only then does the daisy-wheel/thermal print head materialize it on paper. It also has built-in memory to save documents, word-wrap, and store-then-print — the edit-before-print-on-device interaction, fully realized and mass-market, distinct from the IBM 6:5 dictation appliance already in the museum. Image-solvable with 12 CC BY-SA 2.0 FR photos from Musée Bolo.",
+  "search_terms": ["Brother", "WP1", "word processor", "electronic typewriter", "LCD", "edit before print", "1985", "Musée Bolo"],
+  "research": {
+    "title": "Brother WP1 Word Processor / Electronic Typewriter",
+    "year": "c. 1985",
+    "by": "Brother Industries (Japan)",
+    "tags": ["Keyboard", "Text Entry", "Word Processor", "Input", "Output"],
+    "overview": "The Brother WP1 is a portable word processor / electronic typewriter from Brother Industries, combining a QWERTY keyboard with a multi-line liquid crystal display and an integrated print mechanism. It is one of the fully realized realizations of the 'word processor in a typewriter' idea: text is composed and edited on the LCD before it is committed to paper, rather than the typewriter model where each keystroke immediately prints.\n\nWith a multi-line LCD editing screen, the WP1 lets the user review and correct lines and paragraphs in memory, apply word-wrap and formatting, and save documents to built-in memory before printing them. This is the edit-before-print interaction made concrete: composition happens in the digital, on-device domain; materialization on paper is a separate, deliberate step. It is a direct descendant of the earlier Brother EP-20 (1982), the earliest single-line edit-before-print portable, but the WP1 upgrades to a genuinely multi-line screen and built-in document storage.\n\nBrother was a major producer of this category, which spanned the early single-line LCD portables (EP series) through the larger multi-line word processors (WP series) and into the daisy-wheel machines. The WP1 is preserved in museum collections; a set of quality photographs exists on Wikimedia Commons from the Musée Bolo at EPFL in Lausanne.",
+    "deepDive": [
+      {
+        "heading": "Decoupling typing from printing",
+        "text": "On a mechanical or electric typewriter, keystroke equals ink: every keypress immediately commits a character to paper, and correction is a physical act of erasing or cover-up. The WP1 breaks that bond. You type into an electronic buffer you can see on the LCD, fix mistakes before any paper is wasted, and only commit the finished text to print deliberately. It is the same conceptual break that made the word processor feel like a different kind of machine from the typewriter, packaged into a self-contained desktop object."
+      },
+      {
+        "heading": "The screen in the typewriter",
+        "text": "The WP1's multi-line LCD is the heart of its interaction: the display is where the writing actually happens, and the print head is a downstream 'publish' step. Words wrap on screen, edits rewrite the buffer, and the user reads and re-reads before printing. This is the 'brains replace the dial' story applied to the typewriter — the physical output becomes optional and deferred, controlled by the state of a small screen."
+      },
+      {
+        "heading": "Family lineage and the edit-before-print legacy",
+        "text": "The WP1 is a descendant of the Brother EP-20 (1982), the earliest portable that inserted a single-line 16-character LCD buffer between keystroke and print. The WP-series machines extended this to full multi-line editing and built-in document memory. This lineage — from one-line correction to full on-device word processing — is the museum-worthy arc of how the typewriter became a computer with a screen."
+      }
+    ],
+    "team": [
+      { "name": "Brother Industries", "note": "Manufacturer of the WP1 and the broader electronic typewriter / word processor line" }
+    ],
+    "media": [
+      {
+        "src": "https://commons.wikimedia.org/wiki/File:Brother_WP1-IMG_1750.jpg",
+        "alt": "The Brother WP1 electronic typewriter with its multi-line LCD and keyboard",
+        "caption": "Brother WP1 electronic typewriter on display at the Musée Bolo, EPFL, Lausanne. CC BY-SA 2.0 FR, Wikimedia Commons."
+      },
+      {
+        "src": "https://commons.wikimedia.org/wiki/File:Brother_WP1-IMG_6984.jpg",
+        "alt": "Close view of the Brother WP1 electronic typewriter",
+        "caption": "Brother WP1 electronic typewriter, Musée Bolo, EPFL, Lausanne. CC BY-SA 2.0 FR, Wikimedia Commons."
+      }
+    ],
+    "sources": [
+      { "text": "Wikimedia Commons — Category:Brother WP1", "url": "https://commons.wikimedia.org/wiki/Category:Brother_WP1" },
+      { "text": "Wikipedia — Word processor (electronic device)", "url": "https://en.wikipedia.org/wiki/Word_processor_(electronic_device)" }
+    ],
+    "imageUrls": [
+      "https://upload.wikimedia.org/wikipedia/commons/b/bb/Brother_WP1-IMG_1750.jpg",
+      "https://upload.wikimedia.org/wikipedia/commons/a/a3/Brother_WP1-IMG_6984.jpg"
+    ]
+  },
+  "savedImages": [
+    "assets/wiki/brother-wp1-1.jpg",
+    "assets/wiki/brother-wp1-2.jpg"
+  ]
+}

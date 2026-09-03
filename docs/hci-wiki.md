@@ -1,6 +1,6 @@
 # The HCI Golden Age Wiki
 
-A research compendium for a digital museum of cutting-edge Human-Computer Interaction from the late 1970s through the early 1990s. These two hundred and thirty-six projects mix canonical experiments with weird, forgotten, and beautiful vaporware — brain control, voice control, gesture, wearable computing, VR, robots, and full-body exertion.
+A research compendium for a digital museum of cutting-edge Human-Computer Interaction from the late 1970s through the early 1990s. These two hundred and thirty-eight projects mix canonical experiments with weird, forgotten, and beautiful vaporware — brain control, voice control, gesture, wearable computing, VR, robots, and full-body exertion.
 
 Each entry includes an overview, a deep dive, a small media gallery, and full source links so the images and facts can always be traced back.
 
@@ -243,6 +243,8 @@ Each entry includes an overview, a deep dive, a small media gallery, and full so
 234. [CMX-340 (1976)](#cmx-340-1976)
 235. [Sony BVE-600 (c. 1985)](#sony-bve-600-c-1985)
 236. [Movement Systems (MCS) Drum Computer (1981)](#movement-systems-mcs-drum-computer-1981)
+237. [Brother WP1 Word Processor / Electronic Typewriter (c. 1985)](#brother-wp1-word-processor--electronic-typewriter-c-1985)
+238. [Mattel Intellivision Keyboard Component (1983)](#mattel-intellivision-keyboard-component-1983)
 
 ---
 
@@ -11120,3 +11122,82 @@ The MCS's most prominent user was David Stewart of the Eurythmics, who is seen t
 2. Vintage Synth Explorer — Movement MCS Drum Computer MK1 — https://www.vintagesynth.com/misc/mcs_drumcomputer.php
 3. Vintage Digital — Movement Systems Drum Computer — https://www.vintagedigital.com.au/movement-systems-drum-computer/
 4. Wikimedia Commons — MCS Drum Computer (Knobcon 2014) — https://commons.wikimedia.org/wiki/File:Movement_Computer_Systems_(MCS)_Drum_System_II_(or_Percussion_Computer_II),_circa_1981,_United_Kingdom_-_Knobcon_2014.jpg
+
+---
+
+## Brother WP1 Word Processor / Electronic Typewriter (c. 1985)
+
+**By:** Brother Industries (Japan)  
+**Tags:** `Keyboard` `Text Entry` `Word Processor` `Input` `Output`
+
+### Overview
+
+The Brother WP1 is a portable word processor / electronic typewriter from Brother Industries, combining a QWERTY keyboard with a multi-line liquid crystal display and an integrated print mechanism. It is one of the fully realized realizations of the 'word processor in a typewriter' idea: text is composed and edited on the LCD before it is committed to paper, rather than the typewriter model where each keystroke immediately prints.
+
+With a multi-line LCD editing screen, the WP1 lets the user review and correct lines and paragraphs in memory, apply word-wrap and formatting, and save documents to built-in memory before printing them. This is the edit-before-print interaction made concrete: composition happens in the digital, on-device domain; materialization on paper is a separate, deliberate step. It is a direct descendant of the earlier Brother EP-20 (1982), the earliest single-line edit-before-print portable, but the WP1 upgrades to a genuinely multi-line screen and built-in document storage.
+
+Brother was a major producer of this category, which spanned the early single-line LCD portables (EP series) through the larger multi-line word processors (WP series) and into the daisy-wheel machines. The WP1 is preserved in museum collections; a set of quality photographs exists on Wikimedia Commons from the Musée Bolo at EPFL in Lausanne.
+
+### Deep dive
+
+* **Decoupling typing from printing.** On a mechanical or electric typewriter, keystroke equals ink: every keypress immediately commits a character to paper, and correction is a physical act of erasing or cover-up. The WP1 breaks that bond. You type into an electronic buffer you can see on the LCD, fix mistakes before any paper is wasted, and only commit the finished text to print deliberately. It is the same conceptual break that made the word processor feel like a different kind of machine from the typewriter, packaged into a self-contained desktop object.
+* **The screen in the typewriter.** The WP1's multi-line LCD is the heart of its interaction: the display is where the writing actually happens, and the print head is a downstream 'publish' step. Words wrap on screen, edits rewrite the buffer, and the user reads and re-reads before printing. This is the 'brains replace the dial' story applied to the typewriter — the physical output becomes optional and deferred, controlled by the state of a small screen.
+* **Family lineage and the edit-before-print legacy.** The WP1 is a descendant of the Brother EP-20 (1982), the earliest portable that inserted a single-line 16-character LCD buffer between keystroke and print. The WP-series machines extended this to full multi-line editing and built-in document memory. This lineage — from one-line correction to full on-device word processing — is the museum-worthy arc of how the typewriter became a computer with a screen.
+
+### Team
+
+* **Brother Industries.** Manufacturer of the WP1 and the broader electronic typewriter / word processor line
+
+### Media
+
+![The Brother WP1 electronic typewriter with its multi-line LCD and keyboard](../assets/wiki/brother-wp1-1.jpg)
+*Brother WP1 electronic typewriter on display at the Musée Bolo, EPFL, Lausanne. CC BY-SA 2.0 FR, Wikimedia Commons.*
+
+![Close view of the Brother WP1 electronic typewriter](../assets/wiki/brother-wp1-2.jpg)
+*Brother WP1 electronic typewriter, Musée Bolo, EPFL, Lausanne. CC BY-SA 2.0 FR, Wikimedia Commons.*
+
+### Sources
+
+1. Wikimedia Commons — Category:Brother WP1 — https://commons.wikimedia.org/wiki/Category:Brother_WP1
+2. Wikipedia — Word processor (electronic device) — https://en.wikipedia.org/wiki/Word_processor_(electronic_device)
+
+---
+
+## Mattel Intellivision Keyboard Component (1983)
+
+**By:** Mattel Electronics / David Chandler (product engineering), David Rolfe of APh (PicSe control software)  
+**Tags:** `Input` `Keyboard` `Home Computer` `Console Peripheral` `Storage`
+
+### Overview
+
+The Intellivision was designed from its 1979 debut as a modular home computer: packaging, ads, and TV spots promised a 'coming soon' Keyboard Component. The final unit — code-named the Blue Whale, also known as the Intelliputer — was a physically enormous full-width computer keyboard module into which the game console sat in a recessed cavity, its cartridge slot poking through so ordinary cartridges still played. It turned a toy into a serious desktop machine with a second processor, a tape drive, and a text display.
+
+The Keyboard Component adds an 8-bit MOS 6502 beside the Intellivision's own GI CP1610, making it a genuine dual-processor computer. It carries 16K of 10-bit shared RAM that can load and execute both CPUs' code from tape. The built-in cassette drive uses cassettes with two digital data tracks and two analog audio tracks, fully computer-controlled, block-addressed with high-speed indexing. A high-resolution 40x24 monochrome text display can overlay regular Intellivision graphics. There is a microphone port, two expansion ports for peripherals and RAM, and a pass-through cartridge port. The Microsoft BASIC programming cartridge uses one of the expansion ports.
+
+David Rolfe of APh wrote a control program, PicSe (Picture Sequencer), to build multimedia applications that synchronize graphics and analog audio while saving/loading tape data. Only two PicSe applications shipped on cassette (Conversational French, Jack Lalanne's Physical Conditioning) plus five BASIC tape programs. The component was repeatedly delayed as engineers fought to cut manufacturing cost, was released at $600 in Seattle and New Orleans only, then cancelled in August 1982 amid an FTC probe into false advertising; Mattel bought every unit back. Roughly 4,000 were manufactured and they are rare.
+
+### Deep dive
+
+* **A promise the box couldn't keep.** The Keyboard Component's defining, embodied strangeness is that it is a toy console physically nested inside a huge computer keyboard. The Intellivision Master Component sits in a cavity in the keyboard unit, its cartridge slot exposed so games still work, while the add-on supplies a full QWERTY keyboard, a second CPU, tape storage, a text overlay, a microphone port, and expansion slots. It is the 'toy sprouted a terminal' idea made into one heavy plastic object, painted in a gloomy dark-brown that collectors remember.
+* **Two brains, one toy.** Adding a 6502 to the Intellivision's CP1610 made it a dual-processor machine: the 6502 handles the computer functions while the console's own processor keeps doing Intellivision graphics and sound. The two share 16K of 10-bit RAM and can both load and execute code from the tape drive. This is an unusual, embodied way to make a computer out of a game console — by bolting a second, independent computer onto it rather than replacing it.
+* **The tape drive as the hard disk.** The cassette drive is block-addressed with high-speed indexing — not just a linear tape, but a random-ish access medium controlled entirely by the computer, with separate read-only software tracks and user-data tracks plus analog audio. Programs, data, and (via PicSe) synchronized audio all live on the same cassette. It prefigures the idea of one removable physical medium as the whole storage story, years before that became the norm.
+* **The buyback and the joke.** The delays became a company-wide running joke: at Mattel's 1981 Christmas party, Jay Leno's biggest laugh came from listing 'the three big lies' — 'the check is in the mail,' 'I'll still respect you in the morning,' and 'the keyboard will be out in spring.' The FTC began probing Mattel for fraud/false advertising; Mattel called the Keyboard Component a failed product and avoided fines, cancelled it in August 1982, and bought back all units — a full refund, or $550 plus $60 for BASIC plus $30 per cassette without a receipt, with $1,000 of Mattel products for anyone who kept it. GameSpy later ranked it No. 11 on its '25 dumbest moments in gaming.'
+
+### Team
+
+* **Mattel Electronics.** Developer of the Intellivision platform and the Keyboard Component
+* **David Chandler.** Director of Product Engineering for Intellivision hardware
+* **David Rolfe / APh Technological Consulting.** Wrote the PicSe control software and Intellivision Exec
+
+### Media
+
+![The Intellivision Keyboard Component on display at the Video Game History Museum](../assets/wiki/intellivision-keyboard-component-1.jpg)
+*Intellivision Keyboard Component at the Video Game History Museum, E3 2013. CC BY 2.0, Tarcil (Flickr), via Wikimedia Commons.*
+
+![The Intellivision Keyboard Component with the console nested inside](../assets/wiki/intellivision-keyboard-component-2.jpg)
+*Intellivision with its Keyboard Component ('Blue Whale'), white background. CC BY 2.0, Daniel McConnell, via Wikimedia Commons.*
+
+### Sources
+
+1. Wikipedia — Intellivision (Keyboard Component section) — https://en.wikipedia.org/wiki/Intellivision
+2. Wikimedia Commons — Keyboard Component file pages — https://commons.wikimedia.org/wiki/File:E3_2013_Video_Game_History_Museum_Intellivision_Keyboard_Component_(9029461471).jpg

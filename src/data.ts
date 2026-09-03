@@ -2934,6 +2934,32 @@ const exhibitData: Exhibit[] = [
     tags: ["Music", "Input", "Sequencer", "Computer", "Commercial"],
     image: img("mcs-drum-computer.jpg"),
   },
+  {
+    id: "brother-wp1",
+    slug: "brother-wp1",
+    wikiTitle: "Brother WP1 Word Processor / Electronic Typewriter",
+    year: "c. 1985",
+    sortYear: 1985,
+    title: "Brother WP1 Word Processor / Electronic Typewriter",
+    subtitle: "The typewriter that made you edit before you printed",
+    blurb:
+      "The Brother WP1 sits exactly on the seam where a typewriter stopped committing ink on every keystroke and became a computer that holds your words until you say so. It pairs a QWERTY keyboard with a multi-line LCD editing screen and built-in document memory: you type, you see the text on the display, you correct it, and only then does the print head materialize it on paper. Composition happens in the digital on-device domain; printing is a separate, deliberate step. It is a direct descendant of the earliest single-line edit-before-print portable, the Brother EP-20 (1982), and a fully realized mass-market realization of the edit-before-print interaction.",
+    tags: ["Keyboard", "Text Entry", "Word Processor", "Input", "Output"],
+    image: img("brother-wp1-1.jpg"),
+  },
+  {
+    id: "intellivision-keyboard-component",
+    slug: "intellivision-keyboard-component",
+    wikiTitle: "Mattel Intellivision Keyboard Component",
+    year: "1983",
+    sortYear: 1983,
+    title: "Mattel Intellivision Keyboard Component",
+    subtitle: "The toy console that sprouted a typewriter, a tape drive, and a second brain",
+    blurb:
+      "The Intellivision was designed from its 1979 debut as a modular home computer, and the Keyboard Component was the promise made flesh — then un-made. This enormous full-width keyboard module swallows the game console into a recessed cavity, adds an 8-bit 6502 beside the Intellivision's own CP1610 (a genuine dual-processor machine), and stores programs on a built-in cassette drive with two digital and two analog tracks. ~4,000 were built, it was released in two cities at $600, cancelled in 1982 amid an FTC false-advertising probe, and bought back from every owner. Jay Leno riffed on its endless delays at Mattel's 1981 Christmas party.",
+    tags: ["Input", "Keyboard", "Home Computer", "Console Peripheral", "Storage"],
+    image: img("intellivision-keyboard-component-1.jpg"),
+  },
 ];
 
 export const exhibits: Exhibit[] = exhibitData.toSorted((a, b) => b.sortYear - a.sortYear || a.title.localeCompare(b.title));
