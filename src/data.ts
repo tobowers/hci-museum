@@ -2960,6 +2960,32 @@ const exhibitData: Exhibit[] = [
     tags: ["Input", "Keyboard", "Home Computer", "Console Peripheral", "Storage"],
     image: img("intellivision-keyboard-component-1.jpg"),
   },
+  {
+    id: "the-clapper",
+    slug: "the-clapper",
+    wikiTitle: "The Clapper",
+    year: "1984",
+    sortYear: 1984,
+    title: "The Clapper",
+    subtitle: "Clap on, clap off — two sharp handclaps as a consumer gesture command, a decade before Kinect",
+    blurb:
+      "A small box that plugs into a wall outlet and switches any plugged-in appliance on or off with two sharp handclaps. No remote, no touch, no switch of its own — the command is a percussive gesture made with the body alone, recognized by acoustic pattern and rejected when it is a single accidental clap. The most iconic consumer gesture-recognition device of its era, selling for under $30 and later immortalized as pop-culture shorthand for 'the ridiculously simple interface.'",
+    tags: ["HCI", "Gesture", "Consumer", "Sound Input", "Home Automation"],
+    image: img("the-clapper.png"),
+  },
+  {
+    id: "caere-ocr-wand",
+    slug: "caere-ocr-wand",
+    wikiTitle: "Caere Hand-held OCR Wand with Visual Aligner",
+    year: "1980",
+    sortYear: 1980,
+    title: "Caere Hand-held OCR Wand with Visual Aligner (1980)",
+    subtitle: "An OCR wand that projects a light pattern to guide your hand — read only when your sweep is geometrically perfect",
+    blurb:
+      "A hand-swept OCR wand that projects a trapezoidal light pattern onto the paper surface. The operator must hold the wand at the precise height, angle, and center alignment — the pattern visibly distorts if you tilt, hold too high, or skew, and reading only succeeds when the geometry is perfect. The interface is a continuous visual-to-motor calibration loop: the machine tells the human, through projected light, whether their hand is doing it right. Patent US 4,240,748 (Caere Corporation, 1980).",
+    tags: ["HCI", "Input", "OCR", "Scanning", "Physical Interaction"],
+    image: img("caere-ocr-wand-fig1.png"),
+  },
 ];
 
 export const exhibits: Exhibit[] = exhibitData.toSorted((a, b) => b.sortYear - a.sortYear || a.title.localeCompare(b.title));

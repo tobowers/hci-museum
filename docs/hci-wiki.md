@@ -1,6 +1,6 @@
 # The HCI Golden Age Wiki
 
-A research compendium for a digital museum of cutting-edge Human-Computer Interaction from the late 1970s through the early 1990s. These two hundred and thirty-eight projects mix canonical experiments with weird, forgotten, and beautiful vaporware — brain control, voice control, gesture, wearable computing, VR, robots, and full-body exertion.
+A research compendium for a digital museum of cutting-edge Human-Computer Interaction from the late 1970s through the early 1990s. These two hundred and forty projects mix canonical experiments with weird, forgotten, and beautiful vaporware — brain control, voice control, gesture, wearable computing, VR, robots, and full-body exertion.
 
 Each entry includes an overview, a deep dive, a small media gallery, and full source links so the images and facts can always be traced back.
 
@@ -245,6 +245,8 @@ Each entry includes an overview, a deep dive, a small media gallery, and full so
 236. [Movement Systems (MCS) Drum Computer (1981)](#movement-systems-mcs-drum-computer-1981)
 237. [Brother WP1 Word Processor / Electronic Typewriter (c. 1985)](#brother-wp1-word-processor--electronic-typewriter-c-1985)
 238. [Mattel Intellivision Keyboard Component (1983)](#mattel-intellivision-keyboard-component-1983)
+239. [The Clapper (1984)](#the-clapper-1984)
+240. [Caere Hand-held OCR Wand with Visual Aligner (1980)](#caere-hand-held-ocr-wand-with-visual-aligner-1980)
 
 ---
 
@@ -11201,3 +11203,83 @@ David Rolfe of APh wrote a control program, PicSe (Picture Sequencer), to build 
 
 1. Wikipedia — Intellivision (Keyboard Component section) — https://en.wikipedia.org/wiki/Intellivision
 2. Wikimedia Commons — Keyboard Component file pages — https://commons.wikimedia.org/wiki/File:E3_2013_Video_Game_History_Museum_Intellivision_Keyboard_Component_(9029461471).jpg
+
+---
+
+## The Clapper (1984)
+
+**By:** Joseph Enterprises, San Francisco (Carl Joseph, William Morrell)  
+**Tags:** `HCI` `Gesture` `Consumer` `Sound input` `Home automation`
+
+### Overview
+
+The Clapper, introduced in 1984 by Joseph Enterprises of San Francisco, is a small box that plugs into a wall outlet and lets you switch any plugged-in appliance on or off with two sharp handclaps. It detects the loud, distinctive double-clap pattern through an acoustic transducer and toggles a relay. No remote, no touch — the command is a percussive gesture made with the body alone, recognized by pattern, not by a button.
+
+The device became an icon of 'the simple interface': absurdly literal, universally recognized, and (per its own framing) freeing the user from 'walking across the room to the switch.' Its interaction model — two sharp claps in quick succession toggle state, a subtle anti-annoyance delay to ignore single claps, sensitivity adjustment — is a complete gesture-recognition pipeline compressed into consumer hardware and sold for under $30. The patent family (US 4,906,995 and successors) protects the double-clap detection and relay latching logic.
+
+As an HCI artifact, The Clapper sits at the meeting of three museum threads: voice/gesture command (it is the archetype of the 'command by body' family), home automation (it predates and in some ways prefigures the smart-home voice assistant), and the consumer-wonderful-commercial success. It is also one of the few devices here that most visitors have personally used or seen in a home, making it an approachable anchor for 'the gesture as interface.'
+
+### Deep dive
+
+* **The gesture as the whole interface.** The Clapper has no keyboard, no display, no switch of its own. Its entire user interface is the acoustic recognition of two sharp claps. The user learns that a single clap is ignored (to avoid false triggers), while two claps in a quick interval toggle the connected appliance. This is pattern recognition in the consumer home a full decade before mainstream commercial speech/gesture recognition. The body itself is the command channel — no intermediary object, no wires, no remote. The clap is a deliberate, percussive, unmistakable gesture, chosen precisely because it is loud and hard to confuse with incidental noise.
+* **The anti-annoyance design.** The Clapper's electronics are tuned to reject single claps and to require a minimum time gap, so ordinary sounds, telephone rings, or doorbells do not toggle the relay. This sensitivity calibration — distinguishing an intentional double-clap command from ambient noise — is a genuine signal-processing design problem solved in simple analog/digital circuitry. It anticipates the wake-word and always-listening sensitivity tuning of modern voice assistants.
+* **The patent and its lineage.** The Clapper's design is protected by a series of patents (notably US 4,906,995 and related applications) covering the sound-activated relay and the double-clap detection logic. Joseph Enterprises defended and licensed this intellectual property aggressively. The device's commercial ubiquity and its cottage industry of imitators (and spoofs) mark it as the canonical example of a single-purpose gesture-recognition appliance.
+* **Cultural afterlife.** The Clapper became shorthand for 'ridiculously simple interface.' It appeared across TV, film, and internet memes, and remains a culturally recognized archetype of embodied command. For a museum whose charter is 'interaction model as the point,' the Clapper is the rare artifact where the interface gesture itself became famous.
+
+### Team
+
+* **Joseph Enterprises.** Manufacturer, San Francisco; led by Carl Joseph
+* **William Morrell.** Inventor associated with the Clapper electronics and patents
+
+### Media
+
+![The Clapper sound-activated switch](../assets/wiki/the-clapper.png)
+*The Clapper unit (public domain, Wikimedia Commons)*
+
+### Sources
+
+1. The Clapper — Wikipedia — https://en.wikipedia.org/wiki/The_Clapper
+2. US Patent 4,906,995 (The Clapper / sound activated switch) — https://patents.google.com/patent/US4906995
+3. File:Clapper.png on Wikimedia Commons — https://commons.wikimedia.org/wiki/File:Clapper.png
+
+---
+
+## Caere Hand-held OCR Wand with Visual Aligner (1980)
+
+**By:** Caere Corporation, Los Gatos, California (Serge L. Blanc, William R. Smith)  
+**Tags:** `HCI` `Input` `OCR` `Scanning` `Physical interaction`
+
+### Overview
+
+The Caere Hand-held OCR Wand with Visual Aligner, patented in 1980 (US 4,240,748, filed 1978), is a hand-swept optical character recognition wand that projects a symmetrical trapezoidal light pattern onto the paper surface as the operator drags it across printed characters. The projected light pattern serves as a real-time visual alignment guide: it remains symmetric only when the wand is held at the correct height, centered over the text, and at the proper angle. If the operator tilts the wand left or right, holds it too high or too low, or skews it, the projected pattern becomes asymmetric — a visible signal that the sweep is outside the machine's reading tolerances.
+
+This turns the act of reading printed characters into a continuous physical calibration loop. The human watches the light pattern; the machine reads only when the geometry is correct. The operator must learn to hold a steady, level, centered sweep — a skill that develops over time, much like learning to use a pen or a tool. The wand's photodiode array and lens system capture reflected light from the characters, and the circuitry compensates for variations in sweep velocity, skew, and depth of field — but the basic alignment feedback is visual and physical, mediated by the projected light itself.
+
+Caere Corporation, founded in 1976 in Los Gatos, California, was an early leader in OCR technology. The company's wands and OCR systems were used in retail, inventory, and data entry contexts. The visual-aligner patent represents a thoughtful HCI design: instead of making the operator guess at alignment or relying on an error beep, the wand provides continuous projected feedback so the operator can self-correct in real time.
+
+### Deep dive
+
+* **The visual alignment feedback loop.** The wand's housing contains a light source that projects a trapezoidal aperture pattern onto the paper surface. This pattern is visible to the operator as they sweep the wand across a line of printed characters. The pattern's geometry is carefully designed: it is symmetric only when the wand is at the correct height, centered laterally, and held at the proper angle of attack. Any tilt (left/right), height deviation (too high/too low), or skew (twist) causes the pattern to distort asymmetrically — a real-time visual signal that the operator must adjust their wrist. The machine reads only when the geometry is within tolerance, making the projected light pattern a literal 'you are doing it right' indicator.
+* **The operator's skill development.** Like learning to use a pen or a tool, sweeping a Caere wand successfully requires practice. The operator develops muscle memory for the correct height, angle, and sweep speed. The projected alignment guide provides continuous feedback, letting the operator self-correct. This is a genuine HCI skill-acquisition loop — the human learns to hold the tool in the machine's preferred geometry, and the machine rewards correct alignment with successful reads.
+* **Caere and the OCR wand lineage.** Caere Corporation was founded in 1976 and became a significant OCR technology company, later known for paper-based OCR processing and document capture. The Caere wand descends from the earlier Recognition Equipment Inc. (REI) hand-held OCR wand (US 3,947,817, 1976) but adds the distinctive visual-aligner interaction. The lineage of hand-swept OCR wands — from REI through Caere to the Oberon Omni-Reader — represents a brief but important period when the human hand was the scanning mechanism, and the physical skill of the operator was part of the system's reliability.
+* **Patent figures as primary images.** As with other museum artifacts (Stompin', Fehmi biofeedback, Nissan Voice Warning), the primary visual documentation for this device is the public-domain US patent figures. The 1980 patent includes several figures showing the wand in use, including the projected alignment pattern and its distortion under misalignment.
+
+### Team
+
+* **Caere Corporation.** OCR technology company, Los Gatos, California (founded 1976)
+* **Serge L. Blanc.** Inventor, co-assignee of US 4,240,748
+* **William R. Smith.** Inventor, co-assignee of US 4,240,748
+
+### Media
+
+![US Patent 4,240,748 Fig 1 — perspective view of hand-held OCR wand in use](../assets/wiki/caere-ocr-wand-fig1.png)
+*Caere hand-held OCR wand with visual aligner (US patent 4,240,748, public domain)*
+
+![US Patent 4,240,748 Figs 2–5 — alignment patterns and wand operation](../assets/wiki/caere-ocr-wand-alignment.png)
+*Caere wand alignment patterns showing symmetric (correct) and asymmetric (misaligned) projections (US patent 4,240,748, public domain)*
+
+### Sources
+
+1. US Patent 4,240,748 — Hand-held optical character recognition wand with visual aligner — https://patents.google.com/patent/US4240748A/en
+2. US Patent 3,947,817 — REI Hand operated optical character recognition wand (predecessor) — https://patents.google.com/patent/US3947817A/en
+3. Caere Corporation history — Wikipedia — https://en.wikipedia.org/wiki/Caere_Corporation

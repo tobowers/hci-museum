@@ -1,0 +1,43 @@
+{
+  "slug": "caere-ocr-wand",
+  "title": "Caere Hand-held OCR Wand with Visual Aligner",
+  "year": "1980",
+  "subtitle": "An OCR wand whose projected light pattern guides the operator's hand — read only when your sweep is geometrically perfect, a physical feedback loop between human and machine.",
+  "why_scout_cares": "This is the museum's first 'read-by-light-guidance' artifact — a device whose interaction is a continuous physical feedback loop between the operator's wrist and a projected light pattern. The wand projects a trapezoidal light pattern onto the paper surface; the operator must hold the wand at a precise height, angle, and center alignment. The pattern visibly distorts if you tilt, hold too high, or skew — reading only succeeds when the operator physically holds the wand geometrically perfect. This is embodied HCI before the term existed: the interface is a visual-to-motor calibration loop, with the machine telling the human, through projected light, whether their hand is doing it right. No other artifact in the museum uses a projected visual alignment guide as a physical feedback channel.",
+  "search_terms": ["Caere", "OCR wand", "hand-held optical character recognition wand", "visual aligner", "US4240748A", "Serge Blanc", "William Smith", "Caere Corp"],
+  "research": {
+    "title": "Caere Hand-held OCR Wand with Visual Aligner (US4240748A)",
+    "year": "1980",
+    "by": "Caere Corporation, Los Gatos, California (Serge L. Blanc, William R. Smith)",
+    "tags": ["HCI", "Input", "OCR", "Scanning", "Physical interaction", "Patent"],
+    "overview": "The Caere Hand-held OCR Wand with Visual Aligner, patented in 1980 (US 4,240,748, filed 1978), is a hand-swept optical character recognition wand that projects a symmetrical trapezoidal light pattern onto the paper surface as the operator drags it across printed characters. The projected light pattern serves as a real-time visual alignment guide: it remains symmetric only when the wand is held at the correct height, centered over the text, and at the proper angle. If the operator tilts the wand left or right, holds it too high or too low, or skews it, the projected pattern becomes asymmetric — a visible signal that the sweep is outside the machine's reading tolerances.\n\nThis turns the act of reading printed characters into a continuous physical calibration loop. The human watches the light pattern; the machine reads only when the geometry is correct. The operator must learn to hold a steady, level, centered sweep — a skill that develops over time, much like learning to use a pen or a tool. The wand's photodiode array and lens system capture reflected light from the characters, and the circuitry compensates for variations in sweep velocity, skew, and depth of field — but the basic alignment feedback is visual and physical, mediated by the projected light itself.\n\nCaere Corporation, founded in 1976 in Los Gatos, California, was an early leader in OCR technology. The company's wands and OCR systems were used in retail, inventory, and data entry contexts. The visual-aligner patent represents a thoughtful HCI design: instead of making the operator guess at alignment or relying on an error beep, the wand provides continuous projected feedback so the operator can self-correct in real time.",
+    "deepDive": [
+      {"heading": "The visual alignment feedback loop", "text": "The wand's housing contains a light source that projects a trapezoidal aperture pattern onto the paper surface. This pattern is visible to the operator as they sweep the wand across a line of printed characters. The pattern's geometry is carefully designed: it is symmetric only when the wand is at the correct height, centered laterally, and held at the proper angle of attack. Any tilt (left/right), height deviation (too high/too low), or skew (twist) causes the pattern to distort asymmetrically — a real-time visual signal that the operator must adjust their wrist. The machine reads only when the geometry is within tolerance, making the projected light pattern a literal 'you are doing it right' indicator."},
+      {"heading": "The operator's skill development", "text": "Like learning to use a pen or a tool, sweeping a Caere wand successfully requires practice. The operator develops muscle memory for the correct height, angle, and sweep speed. The projected alignment guide provides continuous feedback, letting the operator self-correct. This is a genuine HCI skill-acquisition loop — the human learns to hold the tool in the machine's preferred geometry, and the machine rewards correct alignment with successful reads."},
+      {"heading": "Caere and the OCR wand lineage", "text": "Caere Corporation was founded in 1976 and became a significant OCR technology company, later known for paper-based OCR processing and document capture. The Caere wand descends from the earlier Recognition Equipment Inc. (REI) hand-held OCR wand (US 3,947,817, 1976) but adds the distinctive visual-aligner interaction. The lineage of hand-swept OCR wands — from REI through Caere to the Oberon Omni-Reader — represents a brief but important period when the human hand was the scanning mechanism, and the physical skill of the operator was part of the system's reliability."},
+      {"heading": "Patent figures as primary images", "text": "As with other museum artifacts (Stompin', Fehmi biofeedback, Nissan Voice Warning), the primary visual documentation for this device is the public-domain US patent figures. The 1980 patent includes several figures showing the wand in use, including the projected alignment pattern and its distortion under misalignment. These are full-resolution (2320×3408) line drawings available from Google Patents."}
+    ],
+    "team": [
+      {"name": "Caere Corporation", "note": "OCR technology company, Los Gatos, California (founded 1976)"},
+      {"name": "Serge L. Blanc", "note": "Inventor, co-assignee of US 4,240,748"},
+      {"name": "William R. Smith", "note": "Inventor, co-assignee of US 4,240,748"}
+    ],
+    "media": [
+      {"src": "https://patentimages.storage.googleapis.com/bb/c6/d4/07a8393277d85b/US4240748-drawings-page-2.png", "alt": "US Patent 4,240,748 Fig 1 — perspective view of hand-held OCR wand in use", "caption": "Caere hand-held OCR wand with visual aligner (US patent 4,240,748, public domain)"},
+      {"src": "https://patentimages.storage.googleapis.com/1c/ef/bc/3833da86ff4642/US4240748-drawings-page-3.png", "alt": "US Patent 4,240,748 Figs 2-5 — alignment patterns and wand operation", "caption": "Caere wand alignment patterns showing symmetric (correct) and asymmetric (misaligned) projections (US patent 4,240,748, public domain)"}
+    ],
+    "sources": [
+      {"text": "US Patent 4,240,748 — Hand-held optical character recognition wand with visual aligner", "url": "https://patents.google.com/patent/US4240748A/en"},
+      {"text": "US Patent 3,947,817 — REI Hand operated optical character recognition wand (predecessor)", "url": "https://patents.google.com/patent/US3947817A/en"},
+      {"text": "Caere Corporation history — Wikipedia", "url": "https://en.wikipedia.org/wiki/Caere_Corporation"}
+    ],
+    "imageUrls": [
+      "https://patentimages.storage.googleapis.com/bb/c6/d4/07a8393277d85b/US4240748-drawings-page-2.png",
+      "https://patentimages.storage.googleapis.com/1c/ef/bc/3833da86ff4642/US4240748-drawings-page-3.png"
+    ]
+  },
+  "savedImages": [
+    "assets/wiki/caere-ocr-wand-fig1.png",
+    "assets/wiki/caere-ocr-wand-alignment.png"
+  ]
+}
