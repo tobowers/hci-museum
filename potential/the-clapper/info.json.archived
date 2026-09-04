@@ -1,0 +1,37 @@
+{
+  "slug": "the-clapper",
+  "title": "The Clapper",
+  "year": "1984",
+  "subtitle": "Clap-on, clap-off — the most iconic gesture-recognition device of the decade, a sound-activated switch that made two sharp handclaps a universal command.",
+  "why_scout_cares": "The Clapper is the purest, most commercially ubiquitous embodiment of embodied gesture as a computer command before Kinect — no keyboard, no switch, no remote: the human body claps twice and the machine obeys. It made the physical ritual of clapping the entire interface. No other artifact in the museum is a sound-pattern-recognition command device, and none has its pop-cultural reach (immortalized in memes, TV, and as the canonical 'simple interface' joke). It belongs because the interaction model IS the product: two claps in quick succession toggle a mains appliance, turning the body itself into a command channel.",
+  "search_terms": ["Clapper", "clap-on clap-off", "sound activated switch", "Joseph Enterprises", "gesture recognition", "1984"],
+  "research": {
+    "title": "The Clapper",
+    "year": "1984",
+    "by": "Joseph Enterprises, San Francisco (Carl Joseph, William Morrell)",
+    "tags": ["HCI", "Gesture", "Consumer", "Sound input", "Home automation"],
+    "overview": "The Clapper, introduced in 1984 by Joseph Enterprises of San Francisco, is a small box that plugs into a wall outlet and lets you switch any plugged-in appliance on or off with two sharp handclaps. It detects the loud, distinctive double-clap pattern through an acoustic transducer and toggles a relay. No remote, no touch — the command is a percussive gesture made with the body alone, recognized by pattern, not by a button.\n\nThe device became an icon of 'the simple interface': absurdly literal, universally recognized, and (per its own framing) freeing the user from 'walking across the room to the switch.' Its interaction model — two sharp claps in quick succession toggle state, a subtle anti-annoyance delay to ignore single claps, sensitivity adjustment — is a complete gesture-recognition pipeline compressed into consumer hardware and sold for under $30. The patent family (US 4,906,995 and successors) protects the double-clap detection and relay latching logic.\n\nAs an HCI artifact, The Clapper sits at the meeting of three museum threads: voice/gesture command (it is the archetype of the 'command by body' family), home automation (it predates and in some ways prefigures the smart-home voice assistant), and the consumer-wonderful-commercial success. It is also one of the few devices here that most visitors have personally used or seen in a home, making it an approachable anchor for 'the gesture as interface.'",
+    "deepDive": [
+      {"heading": "The gesture as the whole interface", "text": "The Clapper has no keyboard, no display, no switch of its own. Its entire user interface is the acoustic recognition of two sharp claps. The user learns that a single clap is ignored (to avoid false triggers), while two claps in a quick interval toggle the connected appliance. This is pattern recognition in the consumer home a full decade before mainstream commercial speech/gesture recognition. The body itself is the command channel — no intermediary object, no wires, no remote. The clap is a deliberate, percussive, unmistakable gesture, chosen precisely because it is loud and hard to confuse with incidental noise."},
+      {"heading": "The anti-annoyance design", "text": "The Clapper's electronics are tuned to reject single claps and to require a minimum time gap, so ordinary sounds, telephone rings, or doorbells do not toggle the relay. This sensitivity calibration — distinguishing an intentional double-clap command from ambient noise — is a genuine signal-processing design problem solved in simple analog/digital circuitry. It anticipates the wake-word and always-listening sensitivity tuning of modern voice assistants."},
+      {"heading": "The patent and its lineage", "text": "The Clapper's design is protected by a series of patents (notably US 4,906,995 and related applications) covering the sound-activated relay and the double-clap detection logic. Joseph Enterprises defended and licensed this intellectual property aggressively. The device's commercial ubiquity and its cottage industry of imitators (and spoofs) mark it as the canonical example of a single-purpose gesture-recognition appliance."},
+      {"heading": "Cultural afterlife", "text": "The Clapper became shorthand for 'ridiculously simple interface.' It appeared across TV, film, and internet memes, and remains a culturally recognized archetype of embodied command. For a museum whose charter is 'interaction model as the point,' the Clapper is the rare artifact where the interface gesture itself became famous."}
+    ],
+    "team": [
+      {"name": "Joseph Enterprises", "note": "Manufacturer, San Francisco; led by Carl Joseph"},
+      {"name": "William Morrell", "note": "Inventor associated with the Clapper electronics and patents"}
+    ],
+    "media": [
+      {"src": "https://commons.wikimedia.org/wiki/File:Clapper.png", "alt": "The Clapper sound-activated switch", "caption": "The Clapper unit (public domain, Wikimedia Commons)"}
+    ],
+    "sources": [
+      {"text": "The Clapper — Wikipedia", "url": "https://en.wikipedia.org/wiki/The_Clapper"},
+      {"text": "US Patent 4,906,995 (The Clapper / sound activated switch)", "url": "https://patents.google.com/patent/US4906995"},
+      {"text": "File:Clapper.png on Wikimedia Commons", "url": "https://commons.wikimedia.org/wiki/File:Clapper.png"}
+    ],
+    "imageUrls": [
+      "https://commons.wikimedia.org/wiki/File:Clapper.png"
+    ]
+  },
+  "savedImages": ["assets/wiki/the-clapper.png"]
+}
