@@ -1,0 +1,38 @@
+{
+  "slug": "casio-fx-7000g",
+  "title": "Casio FX-7000G Graphing Calculator",
+  "year": "1985",
+  "subtitle": "The first graphing calculator — a pocket number-slab whose 96×64 dot-matrix display becomes a drawing surface that plots your functions.",
+  "why_scout_cares": "The FX-7000G is where a calculator stops being a numeric readout and becomes a plotting instrument: its dot-matrix LCD renders user-defined and statistical graphs, bar/line/normal-distribution curves, and regression lines directly on the device. This is the interaction-model shift from 'machine that answers with a number' to 'machine that draws a picture you inspect' — a wholly new calculator paradigm and the direct ancestor of every graphing calculator since. Distinct from the museum's TI-59 (programmable numeric calculator, 7-seg display, no plotting) and from all organizer/computer exhibits.",
+  "search_terms": ["Casio fx-7000G", "first graphing calculator", "fx-7000G", "graphing calculator 1985", "Casio dot matrix calculator", "FX-7000GA"],
+  "research": {
+    "title": "Casio FX-7000G Graphing Calculator",
+    "year": "1985",
+    "by": "Casio Computer Co.",
+    "tags": ["HCI", "Input", "Display", "Calculator", "Graphical Output"],
+    "overview": "The Casio FX-7000G, introduced in 1985 and manufactured until c. 1989, is widely recognized as the world's first graphing calculator available to the public. Its defining feature is a 96×64-pixel dot-matrix LCD (16 characters × 8 lines in character mode) that can display built-in and user-defined function graphs, statistical graphs, bar graphs, line graphs, normal-distribution curves, and regression lines. The interaction is a paradigm shift: the calculator's display becomes a drawing surface, letting the user see a function as a curve instead of a string of evaluated points.\n\nThe FX-7000G is also programmable, holding 422 bytes of program memory in up to ten slots, using a tokenized programming language (like the earlier FX-602P) that minimizes memory footprint — characters and symbols stand in for longer code lines so longer programs fit. It has 26 numeric memories standard, expandable to 78 by trading program bytes. It offers 82 scientific functions (arithmetic, roots, reciprocals, exponentials, factorials, logarithms, trig, hyperbolic, statistical, binary/octal/hex conversions) at up to 13 digits of precision.\n\nThe hardware is a black-cased handheld, ~165×89×15 mm, ~155 g, powered by three CR2032 lithium cells (about 120 hours of battery life, no AC adapter). The 1985 unit was followed by the FX-7000GA in 1990. Its place in the museum: the pocket device where the machine starts to draw — a direct line from numeric LED/7-seg readouts to the graphical, visual interfaces that followed.",
+    "deepDive": [
+      {"heading": "The display becomes a drawing surface", "text": "Before the FX-7000G, a calculator answered with a number on a character or 7-segment readout. The FX-7000G's dot-matrix LCD turns the whole face into a coordinate surface where a function is rendered as a curve you can examine. Statistical graphing (bar, line, normal-distribution, regression) extends this to data. This is the moment the calculator stops being a clerk that returns an answer and becomes an instrument that shows you a picture — the same idea, in miniature, as the shift to graphical screens elsewhere."},
+      {"heading": "Tiny tokenized programming", "text": "Its 422 bytes of program memory force an economy: programs are written in a tokenized language where a character or symbol represents a whole command, so more logic fits. The manual's programming catalog is written in these symbols. This is 'who does the thinking' handled by encoding — squeezing an interactive routine into less than half a kilobyte, an extreme early example of memory-constrained programming as interface."},
+      {"heading": "Ancestor of a genre", "text": "The FX-7000G is the direct ancestor of every graphing calculator since — the TI-81, TI-82/83, Casio's own fx-9850/fx-9860 series, and the CAS models that followed. It marks the point where the calculator, already a pervasive personal computer, gains a graphical, visual interaction channel. The FX-7000GA (1990) refined the concept."}
+    ],
+    "team": [
+      {"name": "Casio Computer Co.", "note": "Manufacturer; introduced the world's first public graphing calculator."}
+    ],
+    "media": [
+      {"src": "https://commons.wikimedia.org/wiki/File:Casio_fx-7000G_FullLength.JPG", "alt": "Casio FX-7000G graphing calculator, front view", "caption": "Casio FX-7000G, the first graphing calculator (Public domain, Wikimedia Commons)."},
+      {"src": "https://commons.wikimedia.org/wiki/File:Casio_fx-7000G_Box%26Manual.JPG", "alt": "Casio FX-7000G with box and manual", "caption": "FX-7000G with its box and operation manual (Public domain, Wikimedia Commons)."}
+    ],
+    "sources": [
+      {"text": "Casio fx-7000G - Wikipedia", "url": "https://en.wikipedia.org/wiki/Casio_fx-7000G"},
+      {"text": "fx-7000G Owner's Manual", "url": "https://web.archive.org/web/20130509000000*/fx-7000g"},
+      {"text": "Casio FX-7000G page on ledudu's Casio library", "url": "https://www.ledudu.com/pocket_calculator_4/calculator/CASIO/FX-7000G/index.html"},
+      {"text": "DATAMATH Calculator Museum - fx-7000G", "url": "https://www.datamath.org/Graphing/fx7000G.htm"}
+    ],
+    "imageUrls": [
+      "https://upload.wikimedia.org/wikipedia/commons/8/89/Casio_fx-7000G_FullLength.JPG",
+      "https://upload.wikimedia.org/wikipedia/commons/a/a8/Casio_fx-7000G_Box%26Manual.JPG"
+    ]
+  },
+  "savedImages": ["assets/wiki/casio-fx-7000g.jpg", "assets/wiki/casio-fx-7000g-box.jpg"]
+}

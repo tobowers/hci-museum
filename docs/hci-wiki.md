@@ -1,6 +1,6 @@
 # The HCI Golden Age Wiki
 
-A research compendium for a digital museum of cutting-edge Human-Computer Interaction from the late 1970s through the early 1990s. These two hundred and forty-one projects mix canonical experiments with weird, forgotten, and beautiful vaporware — brain control, voice control, gesture, wearable computing, VR, robots, and full-body exertion.
+A research compendium for a digital museum of cutting-edge Human-Computer Interaction from the late 1970s through the early 1990s. These two hundred and forty-three projects mix canonical experiments with weird, forgotten, and beautiful vaporware — brain control, voice control, gesture, wearable computing, VR, robots, and full-body exertion.
 
 Each entry includes an overview, a deep dive, a small media gallery, and full source links so the images and facts can always be traced back.
 
@@ -248,6 +248,8 @@ Each entry includes an overview, a deep dive, a small media gallery, and full so
  239. [The Clapper (1984)](#the-clapper-1984)
  240. [Caere Hand-held OCR Wand with Visual Aligner (1980)](#caere-hand-held-ocr-wand-with-visual-aligner-1980)
  241. [Motorola DynaTAC 8000X (1984)](#motorola-dynatac-8000x-1984)
+ 242. [HP-75C / HP-75D Portable Computer (1982)](#hp-75c--hp-75d-portable-computer-1982)
+ 243. [Casio FX-7000G Graphing Calculator (1985)](#casio-fx-7000g-graphing-calculator-1985)
 
 ---
 
@@ -11324,3 +11326,85 @@ Development ran from the early 1970s, when Martin Cooper made the first publiciz
 1. DynaTAC — Wikipedia — https://en.wikipedia.org/wiki/DynaTAC
 2. DynaTAC Cellular Telephone — National Museum of American History — https://americanhistory.si.edu/collections/nmah_1191361
 3. Wikimedia Commons: File:DynaTAC8000X.jpg — https://commons.wikimedia.org/wiki/File:DynaTAC8000X.jpg
+
+---
+
+## HP-75C / HP-75D Portable Computer (1982)
+
+**By:** Hewlett-Packard (Corvallis, Oregon)  
+**Tags:** `HCI` `Input` `Physical Token` `Pocket Computer` `Scheduled Automation`
+
+### Overview
+
+The HP-75C (1982) and HP-75D (1984–86) were handheld computers programmable in BASIC, made by Hewlett-Packard. Their defining interaction is physical-token software loading: a manually operated magnetic card reader is built into the body just to the right of the spacebar, and each card carries 2×650 bytes of program data. To load a program the user physically slides a magnetic card through the reader — software arrives as a thing you hold and push into the machine. Four expansion ports (1 RAM, 3 ROM) let you snap in modules, and the HP-75D added a port for a barcode wand used to sweep printed bar-code data directly into the machine, typically for inventory work.
+
+Beneath the token rituals sits an odd personality for 1982: the BASIC interpreter acts as a primitive operating system (file handling for RAM, cards, or cassettes/disks via the HP-IL interface), and the machine includes an appointment scheduler with alarms that can execute BASIC programs at scheduled times. BYTE magazine (Sept 1983) framed this as real-time control — you can make the machine itself run a program when the clock says so, a scheduled-automation idea years before mainstream smart devices.
+
+The machine is a comparatively large handheld: 10.1 x 4.9 x 1.5 inches, a single-line LCD, 48 KiB system ROM, 16 KiB RAM, an 8-bit "Capricorn" CPU, and an HP-IL interface to connect printers, storage, and test equipment. It was expensive ($995 75C / $1,095 75D, roughly $3,300+ today), which limited its popularity relative to the later HP-71B. The PCB carries a hidden KANGAROO silkscreen (75C) and MERLIN (75D) codename.
+
+### Deep dive
+
+* **Physical tokens as software.** The card reader beside the spacebar is the heart of the interface. Program cards are 2×650-byte magnetic strips; the user slides one through and the BASIC program is read in. This is the same "software lives on a thing you touch" grammar as the museum's TI-59 (external magnetic card data), but the HP-75 is a full computer and the card reader is built in. The HP-75D extends the token idea outward with a barcode-wand port for sweeping printed bar-coded data directly into programs — an early consumer scan-into-machine gesture years before barcode scanning was ordinary.
+* **A scheduler that runs code.** The appointment reminder is not a simple alarm. Its alarms can execute BASIC programs, so the HP-75 functions as a low-grade real-time automation appliance: you load code onto the machine (by card or module) and the machine itself decides to run it when the schedule triggers. BYTE called this real-time control in a very portable box. No other artifact in the museum fires user programs on a wall-clock schedule.
+* **The appliance framing.** HP marketed the HP-75 as a pocket personal computer for engineers and professionals. Its HP-IL interface let it control printers, disk storage, and even electronic test instruments — a small computer as the hub of a lab. Combined with the scheduler, the HP-75 foreshadows the "intelligent personal assistant" and edge-automation devices by decades.
+* **A physical-token family member.** The HP-75 joins the museum's physical-token family (Cauzin Softstrip, Dallas iButton, Rainbow Sentinel dongle, IBM 6:5 dictation discs, Ascom QuickFare tickets) as a device where the software itself travels as a tangible card.
+
+### Team
+
+* **Hewlett-Packard (Corvallis Division).** Designer of the HP-75 series; KANGAROO/MERLIN codenames.
+
+### Media
+
+![HP-75D handheld computer](../assets/wiki/hp-75d.jpg)
+*HP-75D handheld BASIC computer (Wikimedia Commons, free use)*
+
+![HP-75C handheld computer](../assets/wiki/hp-75c.jpg)
+*HP-75C variant (CC BY 4.0, User:Sv1xv, Wikimedia Commons)*
+
+### Sources
+
+1. HP-75 — Wikipedia — https://en.wikipedia.org/wiki/HP-75
+2. Rowland Archer Jr., "The HP-75 Portable Computer," BYTE, Sept 1983 — https://archive.org/details/byte-magazine-1983-09
+3. MoHPC — HP-75 — http://www.hpmuseum.org/hp75.htm
+4. HP Journal, June 1983 — HP-75C design and card reader — https://www.hpl.hp.com/hpjournal/pdfs/IssuePDFs/1983-06.pdf
+
+---
+
+## Casio FX-7000G Graphing Calculator (1985)
+
+**By:** Casio Computer Co.  
+**Tags:** `HCI` `Input` `Display` `Calculator` `Graphical Output`
+
+### Overview
+
+The Casio FX-7000G, introduced in 1985 and manufactured until c. 1989, is widely recognized as the world's first graphing calculator available to the public. Its defining feature is a 96×64-pixel dot-matrix LCD (16 characters × 8 lines in character mode) that can display built-in and user-defined function graphs, statistical graphs, bar graphs, line graphs, normal-distribution curves, and regression lines. The interaction is a paradigm shift: the calculator's display becomes a drawing surface, letting the user see a function as a curve instead of a string of evaluated points.
+
+The FX-7000G is also programmable, holding 422 bytes of program memory in up to ten slots, using a tokenized programming language (like the earlier FX-602P) that minimizes memory footprint — characters and symbols stand in for longer code lines so longer programs fit. It has 26 numeric memories standard, expandable to 78 by trading program bytes. It offers 82 scientific functions at up to 13 digits of precision, including binary/octal/hex conversions and statistical graphing.
+
+The hardware is a black-cased handheld, ~165×89×15 mm, ~155 g, powered by three CR2032 lithium cells (about 120 hours of battery life, no AC adapter). The 1985 unit was followed by the FX-7000GA in 1990. The FX-7000G marks the point where the pocket calculator starts to draw — a direct line from numeric LED/7-seg readouts to the graphical, visual interfaces that followed.
+
+### Deep dive
+
+* **The display becomes a drawing surface.** Before the FX-7000G, a calculator answered with a number on a character or 7-segment readout. The FX-7000G's dot-matrix LCD turns the whole face into a coordinate surface where a function is rendered as a curve you can examine. Statistical graphing (bar, line, normal-distribution, regression) extends this to data. This is the moment the calculator stops being a clerk that returns an answer and becomes an instrument that shows you a picture — the same idea, in miniature, as the shift to graphical screens elsewhere.
+* **Tiny tokenized programming.** Its 422 bytes of program memory force an economy: programs are written in a tokenized language where a character or symbol represents a whole command, so more logic fits. The manual's programming catalog is written in these symbols. This is memory-constrained programming as interface — squeezing an interactive routine into less than half a kilobyte.
+* **Ancestor of a genre.** The FX-7000G is the direct ancestor of every graphing calculator since — the TI-81, TI-82/83, Casio's own fx-9850/fx-9860 series, and the CAS models that followed. It marks the point where the calculator, already a pervasive personal computer, gains a graphical, visual interaction channel. The FX-7000GA (1990) refined the concept.
+* **A new channel in the calculator narrative.** Where the museum's TI-59 is a programmable numeric calculator with a 7-seg display, the FX-7000G adds a genuinely new interaction model: the machine draws a picture the user inspects. It extends the "machine that shows you a shape" thread begun by the Tektronix 7854 waveform scope to the pocket device.
+
+### Team
+
+* **Casio Computer Co.** Manufacturer; introduced the world's first public graphing calculator.
+
+### Media
+
+![Casio FX-7000G graphing calculator, front view](../assets/wiki/casio-fx-7000g.jpg)
+*Casio FX-7000G, the first graphing calculator (Public domain, Wikimedia Commons)*
+
+![Casio FX-7000G with box and manual](../assets/wiki/casio-fx-7000g-box.jpg)
+*FX-7000G with its box and operation manual (Public domain, Wikimedia Commons)*
+
+### Sources
+
+1. Casio fx-7000G — Wikipedia — https://en.wikipedia.org/wiki/Casio_fx-7000G
+2. fx-7000G Owner's Manual (archived) — https://web.archive.org/web/20130509000000*/fx-7000g
+3. Casio FX-7000G page, ledudu's Casio library — https://www.ledudu.com/pocket_calculator_4/calculator/CASIO/FX-7000G/index.html
+4. DATAMATH Calculator Museum — fx-7000G — https://www.datamath.org/Graphing/fx7000G.htm
