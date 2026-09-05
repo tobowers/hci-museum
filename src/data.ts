@@ -2986,6 +2986,19 @@ const exhibitData: Exhibit[] = [
     tags: ["HCI", "Input", "OCR", "Scanning", "Physical Interaction"],
     image: img("caere-ocr-wand-fig1.png"),
   },
+  {
+    id: "dynatac-8000x",
+    slug: "dynatac-8000x",
+    wikiTitle: "Motorola DynaTAC 8000X",
+    year: "1984",
+    sortYear: 1984,
+    title: "Motorola DynaTAC 8000X",
+    subtitle: "The first handheld cell phone — the whole device is the handset, and every call is a dial-then-Send ritual",
+    blurb:
+      "The first commercially available handheld cellular phone, sold from 1984 at $3,995. Its defining interaction is that the entire device is the handset — no separate earpiece, no base. The user types a number into the single-line LED display, then presses a dedicated 'Snd' (Send) key to seize a channel and connect: a modal two-phase dial-then-Send gesture that is the direct ancestor of every mobile 'green call button.' Beyond the 12-key pad it carries nine special keys (Rcl, Clr, Snd, Sto, Fcn, End, Pwr, Lock, Vol) and a 30-number store-and-recall memory. Ten inches tall, 2.5 pounds, 30 minutes of talk time on a 10-hour charge — the 'brick.'",
+    tags: ["HCI", "Input", "Telephony", "Mobile", "Handheld", "Consumer"],
+    image: img("dynatac-8000x.jpg"),
+  },
 ];
 
 export const exhibits: Exhibit[] = exhibitData.toSorted((a, b) => b.sortYear - a.sortYear || a.title.localeCompare(b.title));

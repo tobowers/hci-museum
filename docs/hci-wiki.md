@@ -1,6 +1,6 @@
 # The HCI Golden Age Wiki
 
-A research compendium for a digital museum of cutting-edge Human-Computer Interaction from the late 1970s through the early 1990s. These two hundred and forty projects mix canonical experiments with weird, forgotten, and beautiful vaporware — brain control, voice control, gesture, wearable computing, VR, robots, and full-body exertion.
+A research compendium for a digital museum of cutting-edge Human-Computer Interaction from the late 1970s through the early 1990s. These two hundred and forty-one projects mix canonical experiments with weird, forgotten, and beautiful vaporware — brain control, voice control, gesture, wearable computing, VR, robots, and full-body exertion.
 
 Each entry includes an overview, a deep dive, a small media gallery, and full source links so the images and facts can always be traced back.
 
@@ -245,8 +245,9 @@ Each entry includes an overview, a deep dive, a small media gallery, and full so
 236. [Movement Systems (MCS) Drum Computer (1981)](#movement-systems-mcs-drum-computer-1981)
 237. [Brother WP1 Word Processor / Electronic Typewriter (c. 1985)](#brother-wp1-word-processor--electronic-typewriter-c-1985)
 238. [Mattel Intellivision Keyboard Component (1983)](#mattel-intellivision-keyboard-component-1983)
-239. [The Clapper (1984)](#the-clapper-1984)
-240. [Caere Hand-held OCR Wand with Visual Aligner (1980)](#caere-hand-held-ocr-wand-with-visual-aligner-1980)
+ 239. [The Clapper (1984)](#the-clapper-1984)
+ 240. [Caere Hand-held OCR Wand with Visual Aligner (1980)](#caere-hand-held-ocr-wand-with-visual-aligner-1980)
+ 241. [Motorola DynaTAC 8000X (1984)](#motorola-dynatac-8000x-1984)
 
 ---
 
@@ -11283,3 +11284,43 @@ Caere Corporation, founded in 1976 in Los Gatos, California, was an early leader
 1. US Patent 4,240,748 — Hand-held optical character recognition wand with visual aligner — https://patents.google.com/patent/US4240748A/en
 2. US Patent 3,947,817 — REI Hand operated optical character recognition wand (predecessor) — https://patents.google.com/patent/US3947817A/en
 3. Caere Corporation history — Wikipedia — https://en.wikipedia.org/wiki/Caere_Corporation
+
+---
+
+## Motorola DynaTAC 8000X (1984)
+
+**By:** Motorola (team led by Martin Cooper; engineering under John F. Mitchell and Rudy Krolopp)  
+**Tags:** `HCI` `Input` `Telephony` `Mobile` `Handheld` `Consumer`
+
+### Overview
+
+The Motorola DynaTAC 8000X, unveiled on March 6, 1983 and fully commercially available from April 1984, is the first handheld cellular telephone. It was 10 inches (25 cm) tall, weighed 2.5 pounds (1.1 kg), and cost US$3,995 — earning it the nickname "the brick." For the first time a mobile phone could connect to the cellular network without a vehicle installation, a bulky briefcase transceiver, or a mobile operator.
+
+The DynaTAC's defining interaction is that the entire device is the handset — there is no separate earpiece or base. A single-line LED display serves as the dialing buffer: the user types a number on the 12-key keypad, watches it build on the display, then presses a dedicated "Snd" (Send) key to seize a cellular channel and place the call. This modal two-phase dial-then-Send gesture — type, then explicitly commit — is the direct ancestor of every mobile "green call button" on Earth. The 8000X also introduced a 30-number store-and-recall memory, recalled with the "Rcl" (Recall) key, and a "Lock" key to secure the keypad.
+
+Development ran from the early 1970s, when Martin Cooper made the first publicized handheld cellular call on a prototype on April 3, 1973. The engineering program was led by John F. Mitchell, with Rudy Krolopp heading the handset design. The first commercial wireless call was placed October 13, 1983. The DynaTAC ran on AMPS, was succeeded by the MicroTAC in 1989, and was discontinued in 1994. It occupies a foundational place in the National Museum of American History collection.
+
+### Deep dive
+
+* **The whole device is the handset.** Before the DynaTAC, telephones were a handset connected to a base or a vehicle-mounted transceiver. The DynaTAC collapsed this: there is no separate earpiece — the user holds the entire phone to their head, dials and speaks on the same body. This unified form factor made the phone a single embodied object, with the LED display as the visual scratchpad for the number being assembled.
+* **Dial-then-Send: the modal commit gesture.** The interaction is explicitly two-phase and modal. The user types digits into the LED display — this is pre-connect state, reversible, nothing has happened on the network. Pressing "Snd" (Send) seizes a channel and commits the call. This separation of composing from sending is the ancestor of the modern mobile call gesture and of countless commit gestures in embedded and mobile computing. A separate "End" key tears the connection down; "Lock" secures the keypad against accidental calls.
+* **The special-key grammar.** Beyond the 12-key pad, the 8000X carried nine special keys: Rcl (recall), Clr (clear), Snd (send), Sto (store), Fcn (function), End, Pwr (power), Lock, and Vol (volume). The Rcl/Sto pair implements a 30-number memory — store a number under a two-digit code, recall it later. This is an early example of on-device memory as a first-class interaction feature, long before address books were graphical.
+* **A new telephony HCI in the museum.** The DynaTAC is the museum's first cellular/mobile phone. It extends the telephony narrative — Novation CAT (acoustic coupler), Hayes Smartmodem 300 (AT commands), Minitel (videotex terminal), TI Silent 700 (portable terminal), ROLM CBX (software-key PBX), IBM 6:5 (voice-as-token dictation) — to the birth of the portable cellular handset. Where those bridged computer and telephone through coupling rituals, the DynaTAC made the telephone itself a networked computer terminal.
+
+### Team
+
+* **Motorola.** Manufacturer.
+* **Martin Cooper.** Led the team; made the first handheld cellular call on a 1973 prototype.
+* **John F. Mitchell.** Chief engineer for mobile communication; championed the portable cell phone.
+* **Rudy Krolopp.** Led the handset design.
+
+### Media
+
+![Motorola DynaTAC 8000X showing keypad, LED display, and antenna](../assets/wiki/dynatac-8000x.jpg)
+*Motorola DynaTAC 8000X (Wikimedia Commons, CC BY-SA 3.0)*
+
+### Sources
+
+1. DynaTAC — Wikipedia — https://en.wikipedia.org/wiki/DynaTAC
+2. DynaTAC Cellular Telephone — National Museum of American History — https://americanhistory.si.edu/collections/nmah_1191361
+3. Wikimedia Commons: File:DynaTAC8000X.jpg — https://commons.wikimedia.org/wiki/File:DynaTAC8000X.jpg
