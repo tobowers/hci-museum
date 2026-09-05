@@ -1,0 +1,41 @@
+{
+  "slug": "dynatac-8000x",
+  "title": "Motorola DynaTAC 8000X",
+  "year": "1984",
+  "subtitle": "The first handheld cellular phone — the whole device is the handset, and every call is a dial-then-Send ritual with no separate earpiece.",
+  "why_scout_cares": "This is the museum's first cellular/mobile-phone artifact and the foundation of the modern mobile call gesture. Unlike any landline handset, the DynaTAC has NO separate handset — the entire device IS the handset, with a single-line LED display as the dialing buffer. The user types a number into the LED readout, then must press a dedicated 'Snd' (Send) key to actually seize a channel and connect: a modal two-phase dial-then-Send gesture that is the direct ancestor of every mobile 'green call button' on Earth. Beyond the standard 12-key pad, it carries nine special keys (Rcl/recall, Clr/clear, Snd/send, Sto/store, Fcn/function, End, Pwr/power, Lock, Vol/volume) and a 30-number store-and-recall memory. The interaction model — type into a buffer, then commit — is the ancestor of countless modal commit gestures in mobile and embedded computing. Fills the entirely empty cellular-HCI category and extends the museum's telephony narrative (Novation CAT, Hayes Smartmodem, Minitel, TI Silent 700, ROLM CBX) to the birth of the portable cellular handset.",
+  "search_terms": ["Motorola DynaTAC", "DynaTAC 8000X", "first cellular phone", "dial then send", "Snd key", "Martin Cooper", "brick phone", "AMPS handheld"],
+  "research": {
+    "title": "Motorola DynaTAC 8000X",
+    "year": "1984",
+    "by": "Motorola (team led by Martin Cooper; product engineering under John F. Mitchell / Rudy Krolopp)",
+    "tags": ["HCI", "Input", "Telephony", "Mobile", "Handheld", "Consumer"],
+    "overview": "The Motorola DynaTAC 8000X, unveiled March 6, 1983 and fully commercially available from April 1984, is the first handheld cellular telephone. It was 10 inches (25 cm) tall, weighed 2.5 pounds (1.1 kg), and cost US$3,995 — earning it the nickname 'the brick.' For the first time a mobile phone could connect to the cellular network without a vehicle installation, a bulky briefcase transceiver, or a mobile operator.\n\nThe DynaTAC's defining interaction is that the entire device is the handset — there is no separate earpiece or base. A single-line LED display (red LEDs on most 8-series models) serves as the dialing buffer: the user types a number on the 12-key keypad, watches it build up on the display, then presses the dedicated 'Snd' (Send) key to seize a cellular channel and place the call. This modal two-phase dial-then-Send gesture — type, then explicitly commit — is the direct ancestor of the 'green call button' on every modern smartphone. The 8000X also introduced a 30-number store-and-recall memory: numbers are stored in two-digit locations and recalled with the 'Rcl' (Recall) key, and a 'Lock' key secures the device.\n\nDevelopment ran from the early 1970s, when Martin Cooper made the first publicized handheld cellular call on a prototype on April 3, 1973. The engineering program was led by John F. Mitchell, with Rudy Krolopp heading the handset design. The first commercial wireless call was placed October 13, 1983. The DynaTAC was succeeded by the MicroTAC in 1989.",
+    "deepDive": [
+      {"heading": "The whole device is the handset", "text": "Before the DynaTAC, telephones were a handset connected to a base or a vehicle-mounted transceiver. The DynaTAC collapsed this: there is no separate earpiece — the user holds the entire phone to their head, dials on the same body they speak into. This unified form factor made the phone a single embodied object, and the LED dialing buffer was the visual scratchpad for the number being assembled."},
+      {"heading": "Dial-then-Send: the modal commit gesture", "text": "The interaction is explicitly two-phase and modal. The user types digits into the LED display — this is 'pre-connect' state, reversible, nothing has happened on the network. Pressing the 'Snd' (Send) key seizes a cellular channel and commits the call. This separation of 'composing' from 'sending' is the ancestor of the modern mobile call gesture and of countless commit gestures in embedded/mobile computing. A separate 'End' key tears the connection down. The 'Lock' key secures the keypad to prevent accidental calls."},
+      {"heading": "The special-key grammar", "text": "Beyond the 12-key pad, the 8000X carried nine special keys: Rcl (recall), Clr (clear), Snd (send), Sto (store), Fcn (function), End, Pwr (power), Lock, and Vol (volume). The Rcl/Sto pair implements a 30-number memory — store a number under a two-digit code, recall it later. This is an early example of on-device memory as a first-class interaction feature, long before address books were graphical."},
+      {"heading": "Origin and legacy", "text": "The cellular concept came from Bell Labs (1947 proposal), but Motorola's team — Martin Cooper making the first handheld call in 1973, John F. Mitchell as chief engineer, Rudy Krolopp leading design — delivered the first commercial handheld. The 'brick phone' nickname, the $3,995 price, and the 30-minute talk time on a 10-hour charge all became era-defining facts. The DynaTAC ran on AMPS and was discontinued in 1994, succeeded by the MicroTAC. It occupies a foundational place in the National Museum of American History collection."}
+    ],
+    "team": [
+      {"name": "Motorola", "note": "Manufacturer"},
+      {"name": "Martin Cooper", "note": "Led the team; made the first handheld cellular call on a 1973 prototype"},
+      {"name": "John F. Mitchell", "note": "Chief engineer for mobile communication; championed the portable cell phone"},
+      {"name": "Rudy Krolopp", "note": "Led the handset design"}
+    ],
+    "media": [
+      {"src": "https://commons.wikimedia.org/wiki/File:DynaTAC8000X.jpg", "alt": "Motorola DynaTAC 8000X brick phone showing keypad and display", "caption": "Motorola DynaTAC 8000X (Wikimedia Commons, CC BY-SA 3.0)"}
+    ],
+    "sources": [
+      {"text": "DynaTAC — Wikipedia", "url": "https://en.wikipedia.org/wiki/DynaTAC"},
+      {"text": "DynaTAC Cellular Telephone — National Museum of American History", "url": "https://americanhistory.si.edu/collections/nmah_1191361"},
+      {"text": "Wikimedia Commons: File:DynaTAC8000X.jpg", "url": "https://commons.wikimedia.org/wiki/File:DynaTAC8000X.jpg"}
+    ],
+    "imageUrls": [
+      "https://upload.wikimedia.org/wikipedia/commons/7/74/DynaTAC8000X.jpg"
+    ]
+  },
+  "savedImages": [
+    "assets/wiki/dynatac-8000x.jpg"
+  ]
+}
