@@ -2999,6 +2999,32 @@ const exhibitData: Exhibit[] = [
     tags: ["HCI", "Input", "Telephony", "Mobile", "Handheld", "Consumer"],
     image: img("dynatac-8000x.jpg"),
   },
+  {
+    id: "hp-75d",
+    slug: "hp-75d",
+    wikiTitle: "HP-75C / HP-75D Portable Computer",
+    year: "1982",
+    sortYear: 1982,
+    title: "HP-75C / HP-75D Portable Computer",
+    subtitle: "A handheld BASIC computer you load with software by sliding magnetic cards beside the spacebar — then it wakes up on a schedule to run your programs",
+    blurb:
+      "A handheld BASIC computer whose defining interaction is physical-token software loading: a manually operated magnetic card reader is built into the body beside the spacebar (2×650 bytes per card), ROM modules snap into four expansion ports, and the HP-75D adds a barcode-wand port for sweeping printed data directly into programs. Unusually for 1982, its appointment scheduler can execute BASIC programs at scheduled times — a real-time-control 'personal intelligence appliance' that fires your code on the clock. BYTE called it a real-time control system in a very portable box.",
+    tags: ["HCI", "Input", "Physical Token", "Pocket Computer", "Scheduled Automation"],
+    image: img("hp-75d.jpg"),
+  },
+  {
+    id: "casio-fx-7000g",
+    slug: "casio-fx-7000g",
+    wikiTitle: "Casio FX-7000G Graphing Calculator",
+    year: "1985",
+    sortYear: 1985,
+    title: "Casio FX-7000G Graphing Calculator",
+    subtitle: "The first graphing calculator — a pocket number-slab whose 96×64 dot-matrix display becomes a drawing surface that plots your functions",
+    blurb:
+      "Widely recognized as the world's first graphing calculator (1985). Its 96×64-pixel dot-matrix LCD turns the display into a drawing surface: the machine renders user-defined function graphs, statistical graphs, bar/line/normal-distribution curves, and regression lines directly on the device. This is the interaction-model shift from 'machine that answers with a number' to 'machine that draws a picture you inspect' — the direct ancestor of every graphing calculator since, and a distinct new channel in the museum's calculator narrative. Also programmable (422 bytes, tokenized, ten slots) at 13-digit precision.",
+    tags: ["HCI", "Input", "Display", "Calculator", "Graphical Output"],
+    image: img("casio-fx-7000g.jpg"),
+  },
 ];
 
 export const exhibits: Exhibit[] = exhibitData.toSorted((a, b) => b.sortYear - a.sortYear || a.title.localeCompare(b.title));

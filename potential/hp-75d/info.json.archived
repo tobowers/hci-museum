@@ -1,0 +1,38 @@
+{
+  "slug": "hp-75d",
+  "title": "HP-75D Portable Computer",
+  "year": "1982",
+  "subtitle": "A handheld BASIC computer you load with software by sliding magnetic cards beside the spacebar — then it wakes up on a schedule to run your programs.",
+  "why_scout_cares": "The HP-75 inverts how software gets into a machine: instead of typing or a disk, you physically slide magnetic cards into a built-in reader beside the spacebar, snap ROM modules into ports, or (on the D) sweep a barcode wand over printed data. Its appointment scheduler doesn't just beep — it can execute BASIC programs on schedule, a real-time-control 'personal intelligence appliance' a decade before the PDA. Distinct from the museum's TI-59 (numeric calculator with external card data) and from all organizer exhibits (no card reader, no scheduled execution).",
+  "search_terms": ["HP-75D", "HP-75C", "magnetic card reader", "handheld BASIC computer", "HP-75 scheduler", "HP-75 card reader", "KANGAROO", "MERLIN HP-75"],
+  "research": {
+    "title": "HP-75C / HP-75D Portable Computer",
+    "year": "1982 (75C) / 1984 (75D)",
+    "by": "Hewlett-Packard (Corvallis, Oregon)",
+    "tags": ["HCI", "Input", "Wearable", "Physical Token", "Pocket Computer"],
+    "overview": "The HP-75C (1982) and HP-75D (1984-86) were handheld computers programmable in BASIC made by Hewlett-Packard. The defining interaction is physical-token software loading: a manually operated magnetic card reader is built into the body just to the right of the spacebar, and each card carries 2×650 bytes of program data. Users load a program by physically sliding a magnetic card through the reader — software arrives as a thing you hold and push into the machine. Four expansion ports (1 RAM, 3 ROM) let you snap in modules, and the HP-75D added a port for a barcode wand used to sweep printed bar-code data directly into the machine for inventory and similar tasks.\n\nBeneath the token rituals sits a genuinely odd personality: the BASIC interpreter acts as a primitive operating system (file handling for RAM, cards, or cassettes/disks via the HP-IL interface), and — unusually for 1982 — it includes an appointment scheduler with alarms that can execute BASIC programs at scheduled times. BYTE magazine (Sept 1983) called this a real-time control system: you can make the machine itself run a program when the clock says so, a scheduled-automation idea years before mainstream smart devices.\n\nThe machine is a comparatively large handheld: 10.1 x 4.9 x 1.5 inches, a single-line LCD, 48 KiB system ROM, 16 KiB RAM, an 8-bit 'Capricorn' CPU, and an HP-IL interface to connect printers, storage, and test equipment. It was expensive ($995 75C / $1,095 75D, roughly $3,300+ today), which limited its popularity relative to the later HP-71B. The PCB carries a hidden KANGAROO silkscreen (75C) and MERLIN (75D) codename.",
+    "deepDive": [
+      {"heading": "Physical tokens as software", "text": "The card reader beside the spacebar is the heart of the machine's interface. Program cards are 2×650-byte magnetic strips; the user slides one through and the BASIC program is read in. This is the same 'software lives on a thing you touch' grammar as the museum's TI-59 (external magnetic card data) but the HP-75 is a full computer, and the card reader is built in — not an add-on. The HP-75D extends the token idea outward with a barcode-wand port for sweeping printed bar-coded data directly into programs, an early consumer OCR/scanning gesture years before barcode scanning was ordinary."},
+      {"heading": "A scheduler that runs code", "text": "The appointment reminder is not a simple alarm. Its alarms can execute BASIC programs, so the HP-75 functions as a low-grade real-time automation appliance — you load code onto the machine (by card or module), and the machine itself decides to run it when the schedule triggers. BYTE framed this as real-time control in a very portable box. This scheduled-execution personality is distinct in the museum: no other artifact fires user programs on a wall-clock schedule."},
+      {"heading": "The appliance framing", "text": "HP marketed the HP-75 as a personal computer you could keep in a pocket, aimed at engineers and professionals. Its HP-IL interface meant it could control printers, disk storage, and even electronic test instruments — a small computer as the hub of a lab. Combined with the scheduler, the HP-75 foreshadows the 'intelligent personal assistant' and edge-automation devices decades later."}
+    ],
+    "team": [
+      {"name": "Hewlett-Packard (Corvallis Division)", "note": "Designer of the HP-75 series; KANGAROO/MERLIN codenames."}
+    ],
+    "media": [
+      {"src": "https://commons.wikimedia.org/wiki/File:HP-75D.jpg", "alt": "HP-75D handheld computer", "caption": "HP-75D handheld BASIC computer (Wikimedia Commons, free use)."},
+      {"src": "https://commons.wikimedia.org/wiki/File:HP-75C_(DSCN0119).jpg", "alt": "HP-75C handheld computer", "caption": "HP-75C variant (CC BY 4.0, User:Sv1xv, Wikimedia Commons)."}
+    ],
+    "sources": [
+      {"text": "HP-75 - Wikipedia", "url": "https://en.wikipedia.org/wiki/HP-75"},
+      {"text": "BYTE (Sept 1983) 'The HP-75 Portable Computer' (Rowland Archer Jr)", "url": "https://archive.org/details/byte-magazine-1983-09"},
+      {"text": "MoHPC - HP-75", "url": "http://www.hpmuseum.org/hp75.htm"},
+      {"text": "HP Journal, June 1983 - HP-75C design / card reader", "url": "https://www.hpl.hp.com/hpjournal/pdfs/IssuePDFs/1983-06.pdf"}
+    ],
+    "imageUrls": [
+      "https://upload.wikimedia.org/wikipedia/commons/5/5b/HP-75D.jpg",
+      "https://upload.wikimedia.org/wikipedia/commons/e/e5/HP-75C_%28DSCN0119%29.jpg"
+    ]
+  },
+  "savedImages": ["assets/wiki/hp-75d.jpg", "assets/wiki/hp-75c.jpg"]
+}
