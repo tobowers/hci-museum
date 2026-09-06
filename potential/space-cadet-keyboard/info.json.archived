@@ -1,0 +1,45 @@
+{
+  "slug": "space-cadet-keyboard",
+  "title": "Space-Cadet Keyboard",
+  "year": "1978",
+  "subtitle": "The MIT Lisp-machine keyboard where chording five modifier bits and three shift levels gives a typist thousands of distinct single-keystroke commands",
+  "why_scout_cares": "The interaction model is genuinely unlike every keyboard in the collection: seven modifier keys (Control, Meta, Super, Hyper bucky bits plus Shift, Top, and Front/Greek shifts) arranged in rows for one-handed chording, yielding up to 4,000 distinct inputs from 50 base keys. It is the ultimate 'the more keys you learn, the faster you go' input device, directly shaping Emacs' M- prefix and the modern keyboard landscape. No other keyboard in the museum is a chorded-modifier system of this scale.",
+  "search_terms": ["space-cadet keyboard", "bucky bits", "Lisp machine keyboard", "Symbolics", "Knight keyboard", "chorded keyboard"],
+  "research": {
+    "title": "Space-Cadet Keyboard",
+    "year": "1978",
+    "by": "John L. Kulp (MIT / Symbolics)",
+    "tags": ["HCI", "Input", "Keyboard", "Chording", "Modifier"],
+    "overview": "The space-cadet keyboard was designed by John L. Kulp in 1978 for the Lisp machines at MIT (the CADR and its Symbolics repackaging, the LM-2). It descended from the earlier Knight keyboard used with MIT's Incompatible Timesharing System. Its defining feature is an extraordinary set of modifiers: four bucky-bit keys (Control, Meta, Super, Hyper) plus three shift keys (Shift, Top, and Front, where Front is labeled 'Greek' on the top of the keycap). Each group sits in its own row, so a user can press several modifiers with one hand while the other hand presses a regular key.\n\nMany keys carry three symbols — a letter and a symbol on top, a Greek letter on the front — reachable via the shift keys. By combining modifiers, (50 keys × 5 shift types) × 24 bucky-bit combinations yields up to 4,000 different inputs. This allowed typing very complicated mathematical text and gave users thousands of single-character commands. The keyboard also carried a Macro key and four roman-numeral keys (I-IV) for quick menu selection.",
+    "deepDive": [
+      {"heading": "Bucky bits", "text": "The four bucky bits — Control, Meta, Super, Hyper — could be pressed together in chords. Meta had appeared on the Knight keyboard; Hyper and Super were introduced by the space-cadet. Emacs inherited the 'M-' notation for Meta, and when Emacs was ported to the PC the Alt key stood in for Meta. The willingness of users to memorise thousands of chording combinations shaped the command-heavy interface of Emacs."},
+      {"heading": "The three-shift system", "text": "Shift gives uppercase, Front (labeled 'Greek') gives a Greek lowercase letter, and Top gives a symbol (e.g., the G key yields g / G / γ / Γ / ↑ depending on the shift chord). This made the keyboard a powerful surface for mathematical text and Greek notation before Unicode."},
+      {"heading": "Reception", "text": "Some found so many keys excessive and hard to operate, while others embraced the speed of single-keystroke commands. The space-cadet was used on the Symbolics LM-2; later Symbolics systems used a simplified 'Symbolics keyboard' retaining the layout and the common modifier keys. The name comes from the 'space cadet' trainee-astronaut image — a cockpit-like wall of controls."}
+    ],
+    "team": [
+      {"name": "John L. Kulp", "note": "Designed the space-cadet keyboard in 1978 for MIT Lisp machines."},
+      {"name": "MIT Artificial Intelligence Laboratory", "note": "Home of the Lisp machine (CADR) on which the space-cadet keyboard was used."},
+      {"name": "Symbolics", "note": "Used the space-cadet keyboard on the LM-2, its repackaged version of the MIT CADR."}
+    ],
+    "media": [
+      {"src": "https://upload.wikimedia.org/wikipedia/commons/4/47/Space-cadet.jpg", "alt": "The space-cadet keyboard with its rows of modifier keys", "caption": "The space-cadet keyboard, showing the stacked rows of bucky-bit and shift modifiers. CC BY-SA 3.0, Wikimedia Commons."}
+    ],
+    "sources": [
+      {"text": "Wikipedia — Space-cadet keyboard", "url": "https://en.wikipedia.org/wiki/Space-cadet_keyboard"},
+      {"text": "The Jargon File — space-cadet keyboard", "url": "http://www.catb.org/jargon/html/S/space-cadet-keyboard.html"},
+      {"text": "Xah Lee — Space-cadet Keyboard and Lisp Machine Keyboards", "url": "http://xahlee.info/kbd/lisp_keyboards.html"}
+    ],
+    "imageUrls": [
+      "https://upload.wikimedia.org/wikipedia/commons/4/47/Space-cadet.jpg",
+      "https://upload.wikimedia.org/wikipedia/commons/e/ec/Space-cadet_keyboard_-_bottom-left_modifier_crop.jpg",
+      "https://upload.wikimedia.org/wikipedia/commons/c/cd/Space-cadet-closeup.jpg",
+      "https://upload.wikimedia.org/wikipedia/commons/9/9a/Symbolics-keyboard.jpg"
+    ]
+  },
+  "savedImages": [
+    "images/space-cadet.jpg",
+    "images/space-cadet-modifiers.jpg",
+    "images/space-cadet-closeup.jpg",
+    "images/symbolics-keyboard.jpg"
+  ]
+}

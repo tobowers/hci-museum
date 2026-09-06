@@ -3051,6 +3051,32 @@ const exhibitData: Exhibit[] = [
     tags: ["HCI", "Output", "Display", "Electromechanical"],
     image: img("ferranti-packard-family-feud.jpg"),
   },
+  {
+    id: "linotype-crtronic",
+    slug: "linotype-crtronic",
+    wikiTitle: "Linotype CRTronic",
+    year: "1979",
+    sortYear: 1979,
+    title: "Linotype CRTronic",
+    subtitle: "A digital phototypesetter where the operator reads a movable keyboard and a tiltable CRT, and watches remaining line length as a glowing light bar",
+    blurb:
+      "An all-in-one digital phototypesetting workstation from Mergenthaler Linotype. Composition happens interactively on a 9-inch tiltable green-phosphor CRT, but the oddest detail is the analog line-length-remainder light bar: the screen renders the column space still to be filled as a graphical gauge rather than a number — instrument-like feedback inside a text editor. A movable keyboard carries 14 programmable memory keys in three levels, and the system does foreground and background hyphenation/justification at once. A distinct corner of professional creative HCI: embodied, oddly-instrumented typesetting with a verifiable primary-source brochure.",
+    tags: ["HCI", "Input", "Output", "Typesetting", "Professional"],
+    image: img("crtronic-360.jpg"),
+  },
+  {
+    id: "space-cadet-keyboard",
+    slug: "space-cadet-keyboard",
+    wikiTitle: "Space-Cadet Keyboard",
+    year: "1978",
+    sortYear: 1978,
+    title: "Space-Cadet Keyboard",
+    subtitle: "The MIT Lisp-machine keyboard where chording five modifier bits and three shift levels gives a typist thousands of distinct single-keystroke commands",
+    blurb:
+      "Designed by John L. Kulp in 1978 for the MIT Lisp machines, this keyboard carries seven modifiers — the bucky bits Control, Meta, Super, Hyper plus Shift, Top, and a Greek/Front shift — arranged in rows so one hand can chord them while the other types. Combined, (50 keys × 5 shift types) × 24 bucky combinations yields up to 4,000 distinct inputs: enough to type Greek mathematical text and to give users thousands of single-character commands. The ultimate 'the more keys you learn, the faster you go' input device, and the origin of Emacs' M- prefix. No other keyboard in the collection is a chorded-modifier system of this scale.",
+    tags: ["HCI", "Input", "Keyboard", "Chording", "Modifier"],
+    image: img("space-cadet.jpg"),
+  },
 ];
 
 export const exhibits: Exhibit[] = exhibitData.toSorted((a, b) => b.sortYear - a.sortYear || a.title.localeCompare(b.title));
