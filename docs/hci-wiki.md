@@ -1,6 +1,6 @@
 # The HCI Golden Age Wiki
 
-A research compendium for a digital museum of cutting-edge Human-Computer Interaction from the late 1970s through the early 1990s. These two hundred and forty-three projects mix canonical experiments with weird, forgotten, and beautiful vaporware — brain control, voice control, gesture, wearable computing, VR, robots, and full-body exertion.
+A research compendium for a digital museum of cutting-edge Human-Computer Interaction from the late 1970s through the early 1990s. These two hundred and forty-five projects mix canonical experiments with weird, forgotten, and beautiful vaporware — brain control, voice control, gesture, wearable computing, VR, robots, and full-body exertion.
 
 Each entry includes an overview, a deep dive, a small media gallery, and full source links so the images and facts can always be traced back.
 
@@ -249,7 +249,9 @@ Each entry includes an overview, a deep dive, a small media gallery, and full so
  240. [Caere Hand-held OCR Wand with Visual Aligner (1980)](#caere-hand-held-ocr-wand-with-visual-aligner-1980)
  241. [Motorola DynaTAC 8000X (1984)](#motorola-dynatac-8000x-1984)
  242. [HP-75C / HP-75D Portable Computer (1982)](#hp-75c--hp-75d-portable-computer-1982)
- 243. [Casio FX-7000G Graphing Calculator (1985)](#casio-fx-7000g-graphing-calculator-1985)
+  243. [Casio FX-7000G Graphing Calculator (1985)](#casio-fx-7000g-graphing-calculator-1985)
+  244. [GE Talaria Light-Valve Video Projector (1983)](#ge-talaria-light-valve-video-projector-1983)
+  245. [Ferranti-Packard Flip-Disc Display (1976)](#ferranti-packard-flip-disc-display-1976)
 
 ---
 
@@ -11408,3 +11410,68 @@ The hardware is a black-cased handheld, ~165×89×15 mm, ~155 g, powered by thre
 2. fx-7000G Owner's Manual (archived) — https://web.archive.org/web/20130509000000*/fx-7000g
 3. Casio FX-7000G page, ledudu's Casio library — https://www.ledudu.com/pocket_calculator_4/calculator/CASIO/FX-7000G/index.html
 4. DATAMATH Calculator Museum — fx-7000G — https://www.datamath.org/Graphing/fx7000G.htm
+
+---
+
+## GE Talaria Light-Valve Video Projector (1983)
+
+**By:** General Electric (Project Talaria, developed from c.1959; commercial product from 1983)  
+**Tags:** `HCI` `Output` `Display` `Light Valve`
+
+### Overview
+
+The GE Talaria is a video projector with no picture tube and no pixels. Inside, a rotating glass disc is continuously re-coated with a thin film of viscous oil. A conventional electron beam — the same kind that writes a raster in a CRT — sweeps a picture across this oil surface, physically deforming it into a diffraction grating. Light from a high-intensity Xenon arc lamp passes through the oil; where the electron beam has carved a grating, light is diffracted and imaged through Schlieren optics onto the screen; where the oil is undisturbed, light falls into a light trap and the screen is black. Color is added by splitting the light into red, green, and blue channels with dichroic filters, each writing its own oil film. The result is a bright, big-screen video image made literally from sculpted oil.
+
+### Deep dive
+
+* **The mechanism.** The Talaria grew out of General Electric's 'light valve' work begun around 1959, documented in primary archives (Holeman 1960, Newberry 1961 electron-optics paper, Glenn 1964 color paper). The commercial projector, introduced in 1983, became a mainstay of large-venue and rear-projection display; Popular Mechanics covered it in April 1983. Its defining physical detail is that the picture is not emitted — it is carved. The electron beam 'draws' the raster into oil, and that carved surface, rather than a light-emitting panel, is what forms the image.
+* **Why it matters to HCI.** The Talaria is a reminder that the late analog era produced output displays whose physical principles were wildly diverse. A video image could be a scanned phosphor beam, a gas discharge, a spinning mirror, or — here — a diffraction grating in oil. The oil-film light valve is one of the strangest output mechanisms ever commercialized, and it has no near neighbor anywhere in the museum.
+
+### Team
+
+* **General Electric.** Project Talaria development; commercial product 1983.
+
+### Media
+
+![GE Talaria projector unit](../assets/wiki/ge-talaria.png)
+*GE Talaria projector (Public domain, Wikimedia Commons)*
+
+### Sources
+
+1. Wikipedia — Talaria projector — https://en.wikipedia.org/wiki/Talaria_projector
+2. Primary GE Talaria archives — https://www.one-electron.com/Archives/GE/TalariaProject/GE-Talaria.html
+3. Popular Mechanics, Apr 1983 — https://books.google.com/books?id=mNUDAAAAMBAJ&pg=PA16
+
+---
+
+## Ferranti-Packard Flip-Disc Display (1976)
+
+**By:** Ferranti-Packard (patent by Kenyon Taylor, 1961; commercial boom 1970s-80s)  
+**Tags:** `HCI` `Output` `Display` `Electromechanical`
+
+### Overview
+
+The Ferranti-Packard flip-disc (flip-dot) display is a purely electromechanical, bistable dot matrix. Each pixel is a small metal disc — black on one side, bright color on the other — mounted on an axle with a permanent magnet. A solenoid coil next to the pixel is pulsed with current, and the magnetic field flips the disc 180 degrees. Once flipped, the disc latches in place under its own magnet with no continuing power. The image is built from physically flipped discs, and it updates with a distinctive audible cascade of flipping elements. Patented by Kenyon Taylor in 1961, the technology found mass use in the 1970s-80s in transit destination signs, highway variable-message signs, stock exchange boards, and — most famously — the Family Feud answer board from 1976.
+
+### Deep dive
+
+* **The mechanism.** The flip-disc is bistable: a mechanical latch, not a refresh. A pixel holds its color state indefinitely without electricity, which made these displays ideal for low-power, always-on signage and for the huge information boards of stock exchanges. The sound of a screen full of discs flipping at once — a soft thunder of tiny latches — became part of the character of airports, train stations, and game shows.
+* **A human-facing display.** The Family Feud answer board (1976) brought the flip-disc face-to-face with millions of viewers: a host tapped panels and letters flipped open in cascades. The same physical principle filled stock-exchange floors and mass-transit signage across the world. It is a display that is also a small mechanical performance — the output mechanism is the story.
+
+### Team
+
+* **Kenyon Taylor / Ferranti-Packard.** Inventor and manufacturer of the flip-disc display.
+
+### Media
+
+![Family Feud answer board, 1976](../assets/wiki/ferranti-packard-family-feud.jpg)
+*The Ferranti-Packard flip-disc answer board in use on Family Feud, 1976 (Public domain, Wikimedia Commons)*
+
+![Close-up of flip-dot display elements](../assets/wiki/flipdot-closeup.jpg)
+*Close-up of bistable flip-dot display elements (CC BY-SA 3.0, Wikimedia Commons, ratopi)*
+
+### Sources
+
+1. Wikipedia — Flip-disc display — https://en.wikipedia.org/wiki/Flip-disc_display
+2. US Patent 3,303,494 — https://patents.google.com/patent/US3303494
+3. Ball & Vardalas, Ferranti-Packard (McGill-Queen's, 1994) — https://en.wikipedia.org/wiki/Flip-disc_display

@@ -1,0 +1,36 @@
+{
+  "slug": "ferranti-packard-flipdot",
+  "title": "Ferranti-Packard Flip-Disc Display",
+  "year": "1976",
+  "subtitle": "An electromechanical dot matrix where each pixel is a metal disc flipped by a solenoid pulse and locked in place with no power at all",
+  "why_scout_cares": "The museum's only bistable electromechanical dot-matrix display. Each pixel is a two-sided metal disc on an axle with a permanent magnet; a solenoid pulse flips it and it latches — holding its state with zero energy. Used in the iconic Family Feud answer board (1976) and thousands of transit and stock-exchange signs. The output mechanism — a physical, audible cascade of flipping discs — is the entire story, unlike any light-emitting display in the collection.",
+  "search_terms": ["Ferranti-Packard flip disc display", "flip dot display", "flip-disc display bistable", "Family Feud answer board", "electromechanical display"],
+  "research": {
+    "title": "Ferranti-Packard Flip-Disc Display",
+    "year": "1976",
+    "by": "Ferranti-Packard (patent by Kenyon Taylor, 1961; commercial boom 1970s-80s)",
+    "tags": ["HCI", "Output", "Display", "Electromechanical"],
+    "overview": "The Ferranti-Packard flip-disc (flip-dot) display is a purely electromechanical, bistable dot matrix. Each pixel is a small metal disc — black on one side, bright color on the other — mounted on an axle with a permanent magnet. A solenoid coil next to the pixel is pulsed with current, and the magnetic field flips the disc 180 degrees. Once flipped, the disc latches in place under its own magnet with no continuing power. The image is built from physically flipped discs, and it updates with a distinctive audible cascade of flipping elements. Patented by Kenyon Taylor in 1961, the technology found mass use in the 1970s-80s in transit destination signs, highway variable-message signs, stock exchange boards, and — most famously — the Family Feud answer board from 1976.",
+    "deepDive": [
+      {"heading": "The mechanism", "text": "The flip-disc is bistable: a mechanical latch, not a refresh. A pixel holds its color state indefinitely without electricity, which made these displays ideal for low-power, always-on signage and for the huge information boards of stock exchanges. The sound of a screen full of discs flipping at once — a soft thunder of tiny latches — became part of the character of airports, train stations, and game shows."},
+      {"heading": "A human-facing display", "text": "The Family Feud answer board (1976) brought the flip-disc face-to-face with millions of viewers: a host tapped panels and letters flipped open in cascades. The same physical principle filled stock-exchange floors and mass-transit signage across the world. It is a display that is also a small mechanical performance — the output mechanism is the story."}
+    ],
+    "team": [
+      {"name": "Kenyon Taylor / Ferranti-Packard", "note": "Inventor and manufacturer of the flip-disc display"}
+    ],
+    "media": [
+      {"src": "https://commons.wikimedia.org/wiki/File:Richard_Dawson_Family_Feud_1976.JPG", "alt": "Family Feud answer board, 1976", "caption": "The Ferranti-Packard flip-disc answer board in use on Family Feud, 1976. Public domain via Wikimedia Commons."},
+      {"src": "https://commons.wikimedia.org/wiki/File:Bistabile_anzeigeelemente.jpg", "alt": "Close-up of flip-dot display elements", "caption": "Close-up of bistable flip-dot display elements. CC BY-SA 3.0 via Wikimedia Commons (ratopi)."}
+    ],
+    "sources": [
+      {"text": "Wikipedia — Flip-disc display", "url": "https://en.wikipedia.org/wiki/Flip-disc_display"},
+      {"text": "US Patent 3,303,494", "url": "https://patents.google.com/patent/US3303494"},
+      {"text": "Ball & Vardalas, Ferranti-Packard (McGill-Queen's, 1994)", "url": "https://en.wikipedia.org/wiki/Flip-disc_display"}
+    ],
+    "imageUrls": [
+      "https://upload.wikimedia.org/wikipedia/commons/1/12/Richard_Dawson_Family_Feud_1976.JPG",
+      "https://upload.wikimedia.org/wikipedia/commons/d/d1/Bistabile_anzeigeelemente.jpg"
+    ]
+  },
+  "savedImages": []
+}

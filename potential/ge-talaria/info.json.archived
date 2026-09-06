@@ -1,0 +1,34 @@
+{
+  "slug": "ge-talaria",
+  "title": "GE Talaria Light-Valve Video Projector",
+  "year": "1983",
+  "subtitle": "A full video image sculpted by electrons into a spinning film of oil, read by light bent into a shadow",
+  "why_scout_cares": "The museum's only oil-film light-valve projector — an output device with zero CRT, LCD, or pixels, where the image is physically carved as a diffraction grating into a rotating oil coating by an electron beam. The output mechanism IS the interaction story. Completely unlike every other display in the collection.",
+  "search_terms": ["GE Talaria projector", "oil film light valve", "Talaria projector", "Schlieren optics projector", "GE light valve video projector"],
+  "research": {
+    "title": "GE Talaria Light-Valve Video Projector",
+    "year": "1983",
+    "by": "General Electric (Project Talaria, developed from c.1959; commercial from 1983)",
+    "tags": ["HCI", "Output", "Display", "Light valve"],
+    "overview": "The GE Talaria is a video projector with no picture tube and no pixels. Inside, a rotating glass disc is continuously re-coated with a thin film of viscous oil. A conventional electron beam — the same kind that writes a raster in a CRT — sweeps a picture across this oil surface, physically deforming it into a diffraction grating. Light from a high-intensity Xenon arc lamp passes through the oil; where the electron beam has carved a grating, light is diffracted and imaged through Schlieren optics onto the screen; where the oil is undisturbed, light falls into a light trap and the screen is black. Color is added by splitting the light into red, green, and blue channels with dichroic filters, each writing its own oil film. The result is a bright, big-screen video image made literally from sculpted oil.",
+    "deepDive": [
+      {"heading": "The mechanism", "text": "The Talaria grew out of GE's 'light valve' work begun around 1959 and is documented in primary archives (Holeman 1960, Newberry 1961 electron-optics paper, Glenn 1964 color paper). The commercial projector, introduced in 1983, became a mainstay of large-venue and rear-projection display. Popular Mechanics covered it in April 1983. Its defining physical detail is that the picture is not emitted — it is carved. The electron beam 'draws' the raster into oil, and that carved surface, rather than a light-emitting panel, is what forms the image."},
+      {"heading": "Why it matters to HCI", "text": "The Talaria is a reminder that the late analog era produced output displays whose physical principles were wildly diverse. A video image could be a scanned phosphor beam, a gas discharge, a spinning mirror, or — here — a diffraction grating in oil. The oil-film light valve is one of the strangest output mechanisms ever commercialized, and it has no near neighbor anywhere in the museum."}
+    ],
+    "team": [
+      {"name": "General Electric", "note": "Project Talaria development, commercial product 1983"}
+    ],
+    "media": [
+      {"src": "https://commons.wikimedia.org/wiki/File:GE_Taleria.png", "alt": "GE Talaria projector unit", "caption": "GE Talaria projector. Public domain via Wikimedia Commons."}
+    ],
+    "sources": [
+      {"text": "Wikipedia — Talaria projector", "url": "https://en.wikipedia.org/wiki/Talaria_projector"},
+      {"text": "Primary GE Talaria archives", "url": "https://www.one-electron.com/Archives/GE/TalariaProject/GE-Talaria.html"},
+      {"text": "Popular Mechanics, Apr 1983", "url": "https://books.google.com/books?id=mNUDAAAAMBAJ&pg=PA16"}
+    ],
+    "imageUrls": [
+      "https://upload.wikimedia.org/wikipedia/commons/d/d3/GE_Taleria.png"
+    ]
+  },
+  "savedImages": []
+}
