@@ -1,6 +1,6 @@
 # The HCI Golden Age Wiki
 
-A research compendium for a digital museum of cutting-edge Human-Computer Interaction from the late 1970s through the early 1990s. These two hundred and forty-five projects mix canonical experiments with weird, forgotten, and beautiful vaporware — brain control, voice control, gesture, wearable computing, VR, robots, and full-body exertion.
+A research compendium for a digital museum of cutting-edge Human-Computer Interaction from the late 1970s through the early 1990s. These two hundred and forty-seven projects mix canonical experiments with weird, forgotten, and beautiful vaporware — brain control, voice control, gesture, wearable computing, VR, robots, and full-body exertion.
 
 Each entry includes an overview, a deep dive, a small media gallery, and full source links so the images and facts can always be traced back.
 
@@ -252,6 +252,8 @@ Each entry includes an overview, a deep dive, a small media gallery, and full so
   243. [Casio FX-7000G Graphing Calculator (1985)](#casio-fx-7000g-graphing-calculator-1985)
   244. [GE Talaria Light-Valve Video Projector (1983)](#ge-talaria-light-valve-video-projector-1983)
   245. [Ferranti-Packard Flip-Disc Display (1976)](#ferranti-packard-flip-disc-display-1976)
+  246. [Linotype CRTronic (1979)](#linotype-crtronic-1979)
+  247. [Space-Cadet Keyboard (1978)](#space-cadet-keyboard-1978)
 
 ---
 
@@ -11475,3 +11477,84 @@ The Ferranti-Packard flip-disc (flip-dot) display is a purely electromechanical,
 1. Wikipedia — Flip-disc display — https://en.wikipedia.org/wiki/Flip-disc_display
 2. US Patent 3,303,494 — https://patents.google.com/patent/US3303494
 3. Ball & Vardalas, Ferranti-Packard (McGill-Queen's, 1994) — https://en.wikipedia.org/wiki/Flip-disc_display
+
+## Linotype CRTronic (1979)
+
+**By:** Mergenthaler Linotype Company  
+**Tags:** `HCI` `Input` `Output` `Typesetting` `Professional`
+
+### Overview
+
+The Linotype CRTronic is an all-in-one digital phototypesetting workstation introduced by Mergenthaler Linotype around 1979 and marketed through the 1980s. It combined a movable QWERTY keyboard, a 9-inch tiltable green-phosphor CRT, floppy-disk storage, and a CRT-based imaging engine in a single desktop cabinet. Unlike the punched-tape phototypesetters that preceded it, composition happened interactively on screen: the operator typed, set parameters live, corrected, and exposed the job directly onto photographic paper or film. The CRTronic line continued through the CRTronic 360 and later models.
+
+Its most unusual interface feature is the analog line-length-remainder light bar: the screen renders the column space still to be filled as a graphical light-bar gauge rather than a numeric readout — instrument-like feedback inside a text-editing task. The keyboard carried 14 programmable memory keys in three levels, and the system supported up to 97 user-defined formats with nesting plus foreground and background hyphenation/justification at once.
+
+### Deep dive
+
+* **The interaction.** The operator sits at one cabinet holding the movable keyboard, the 9-inch tiltable CRT, the floppy storage, and the imaging engine. Composition is interactive: typesetting parameters are shown in the text itself, and the operator sees line breaks, measure, indentation, and tab columns live, editing with a full cursor (home, next word, previous paragraph, foreground/background). The analog light-bar gauge of remaining line length is the oddest detail — a quasi-instrumented feedback channel in a text editor.
+* **The keyboard.** A movable keyboard with 14 programmable memory keys in 3 levels (for multicodes), plus 97 nested user-defined formats and macro characters. This gave a typographer a compact, programmable command surface — a step beyond ordinary function keys.
+* **Legacy.** The CRTronic made digital typesetting affordable and desktop-sized, competing with Compugraphic and Monotype. Its interactive-CRT-with-analog-feedback interaction is a distinct corner of professional creative HCI, far from the big-screen graphic workstations in the museum. A period Mergenthaler brochure survives on the Internet Archive and the system is documented in the Smithsonian NMAH Mergenthaler Linotype Company Records.
+
+### Team
+
+* **Mergenthaler Linotype Company.** Manufacturer of the CRTronic digital phototypesetter, successor to the Linotype hot-metal line.
+
+### Media
+
+![A Linotype CRTronic 360 phototypesetter](../assets/wiki/crtronic-360.jpg)
+*A Linotype CRTronic 360 (later model of the CRTronic line), showing the movable keyboard and tiltable CRT console. CC BY 2.0, Wikimedia Commons.*
+
+![CRTronic 360, detail](../assets/wiki/crtronic-360-pt2.jpg)
+*The CRTronic 360 console and keyboard. CC BY 2.0, Wikimedia Commons.*
+
+![CRTronic 360, rear](../assets/wiki/crtronic-360-pt3.jpg)
+*The CRTronic 360 workstation. CC BY 2.0, Wikimedia Commons.*
+
+### Sources
+
+1. Wikipedia — Linotype (company) — https://en.wikipedia.org/wiki/Linotype_(company)
+2. Mergenthaler CRTronic brochure, Internet Archive — https://archive.org/details/mergenthaler-crtronic
+3. Wikimedia Commons — Linotype CRTronic 360 — https://commons.wikimedia.org/wiki/File:Linotype_CRTronic_360.jpg
+
+## Space-Cadet Keyboard (1978)
+
+**By:** John L. Kulp (MIT / Symbolics)  
+**Tags:** `HCI` `Input` `Keyboard` `Chording` `Modifier`
+
+### Overview
+
+The space-cadet keyboard was designed by John L. Kulp in 1978 for the Lisp machines at MIT (the CADR and its Symbolics repackaging, the LM-2). It descended from the earlier Knight keyboard used with MIT's Incompatible Timesharing System. Its defining feature is an extraordinary set of modifiers: four bucky-bit keys (Control, Meta, Super, Hyper) plus three shift keys (Shift, Top, and Front, labeled "Greek" on the top of the keycap). Each group sits in its own row, so a user can press several modifiers with one hand while the other hand presses a regular key.
+
+Many keys carry three symbols — a letter and a symbol on top, a Greek letter on the front — reachable via the shift keys. By combining modifiers, (50 keys × 5 shift types) × 24 bucky-bit combinations yields up to 4,000 different inputs. This let a typist enter complicated mathematical text and gave users thousands of single-character commands. The keyboard also carried a Macro key and four roman-numeral keys (I–IV) for quick menu selection.
+
+### Deep dive
+
+* **Bucky bits.** The four bucky bits — Control, Meta, Super, Hyper — could be pressed together in chords. Meta had appeared on the Knight keyboard; Hyper and Super were introduced here. Emacs inherited the "M-" notation for Meta, and when Emacs was ported to the PC the Alt key stood in for Meta. The willingness of users to memorise thousands of chording combinations shaped the command-heavy interface of Emacs.
+* **The three-shift system.** Shift gives uppercase; Front (labeled "Greek") gives a Greek lowercase letter; Top gives a symbol. The G key, for example, yields g / G / γ / Γ / ↑ depending on the shift chord. This made the keyboard a powerful surface for mathematical text and Greek notation long before Unicode.
+* **Reception.** Some found so many keys excessive and hard to operate, while others embraced the speed of single-keystroke commands. The space-cadet was used on the Symbolics LM-2; later Symbolics systems used a simplified "Symbolics keyboard" retaining the layout and the common modifier keys. The name comes from the "space cadet" trainee-astronaut image — a cockpit-like wall of controls.
+
+### Team
+
+* **John L. Kulp.** Designed the space-cadet keyboard in 1978 for MIT Lisp machines.
+* **MIT Artificial Intelligence Laboratory.** Home of the Lisp machine (CADR) on which the space-cadet keyboard was used.
+* **Symbolics.** Used the space-cadet keyboard on the LM-2, its repackaged version of the MIT CADR.
+
+### Media
+
+![The space-cadet keyboard](../assets/wiki/space-cadet.jpg)
+*The space-cadet keyboard, showing the stacked rows of bucky-bit and shift modifiers. CC BY-SA 3.0, Wikimedia Commons.*
+
+![Space-cadet modifier keys close-up](../assets/wiki/space-cadet-modifiers.jpg)
+*Close-up of the bottom-left modifier keys on the space-cadet keyboard. CC BY-SA 3.0, Wikimedia Commons.*
+
+![Space-cadet keyboard close-up](../assets/wiki/space-cadet-closeup.jpg)
+*Close view of the space-cadet key array. CC BY-SA 3.0, Wikimedia Commons.*
+
+![Symbolics keyboard](../assets/wiki/symbolics-keyboard.jpg)
+*A later Symbolics keyboard retaining the space-cadet layout and modifier keys. CC BY-SA 3.0, Wikimedia Commons.*
+
+### Sources
+
+1. Wikipedia — Space-cadet keyboard — https://en.wikipedia.org/wiki/Space-cadet_keyboard
+2. The Jargon File — space-cadet keyboard — http://www.catb.org/jargon/html/S/space-cadet-keyboard.html
+3. Xah Lee — Space-cadet Keyboard and Lisp Machine Keyboards — http://xahlee.info/kbd/lisp_keyboards.html

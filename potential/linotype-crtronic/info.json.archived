@@ -1,0 +1,41 @@
+{
+  "slug": "linotype-crtronic",
+  "title": "Linotype CRTronic",
+  "year": "1979",
+  "subtitle": "The all-in-one digital phototypesetter where the operator reads a movable keyboard and a tiltable CRT, and watches remaining line length as a glowing light bar",
+  "why_scout_cares": "A professional creative workstation whose HCI is genuinely novel: a movable keyboard, a 9-inch tiltable green-phosphor CRT, and an analog light-bar gauge on screen representing the remaining column space — a quasi-instrumented, non-textual measure of line length. Combined with foreground/background simultaneous editing and 14 programmable memory keys in 3 levels, this is an embodied, oddly-instrumented typesetting console with a verifiable primary-source brochure (Internet Archive) and NMAH archival holdings.",
+  "search_terms": ["CRTronic", "Mergenthaler Linotype", "phototypesetter", "composition terminal", "digital typesetting"],
+  "research": {
+    "title": "Linotype CRTronic",
+    "year": "1979",
+    "by": "Mergenthaler Linotype Company",
+    "tags": ["HCI", "Input", "Output", "Typesetting", "Professional"],
+    "overview": "The Linotype CRTronic is an all-in-one digital phototypesetting workstation introduced by Mergenthaler Linotype around 1979 (marketed through the 1980s). It combined a movable QWERTY keyboard, a 9-inch tiltable green-phosphor CRT, file storage, and a CRT-based imaging engine in a single desktop cabinet. Unlike punched-tape phototypesetting, composition was done interactively on screen: the operator typed, set parameters live, corrected, and exposed the job directly to photographic paper or film.\n\nIts most unusual interface feature is the analog line-length-remainder light bar: the screen renders the amount of column space remaining as a graphical light-bar gauge rather than a numeric readout — a quasi-instrumented, analog-style feedback about an inherently text-processing task. The keyboard offered 14 programmable memory keys in three levels for multicodes, and the system supported up to 97 user-defined formats with nesting, foreground AND background hyphenation/justification, and 296 files per dual mini-floppy diskette. The CRTronic family continued through the CRTronic 360 and later models, with the name carried well into the 1980s.",
+    "deepDive": [
+      {"heading": "The interaction", "text": "The operator sits at one cabinet containing the movable keyboard, the 9-inch tiltable CRT, the floppy storage, and the imaging engine. Composition is interactive: typesetting parameters are displayed in the text itself, and the operator sees line breaks, measure, indentation, and tab columns live, editing with a full cursor (home, next word, previous paragraph, foreground/background). The analog light-bar gauge showing remaining line length is the oddest detail — an instrument-like feedback channel in a text editor."},
+      {"heading": "The keyboard", "text": "A movable keyboard with 14 programmable memory keys in 3 levels (for multicodes), assignable directly from the keyboard. Combined with 97 user-defined formats that could be nested and macro characters, the CRTronic gave a typographer a compact, programmable command surface — a step beyond standard function keys."},
+      {"heading": "Legacy", "text": "The CRTronic line made digital typesetting affordable and desktop-sized, competing with Compugraphic and Monotype. The interaction model — interactive CRT composition with analog feedback — is a distinct corner of professional creative HCI, far from the big-screen graphic workstations in the museum. A period Mergenthaler brochure is preserved on the Internet Archive and the system is documented in the Smithsonian NMAH Mergenthaler Linotype Company Records."}
+    ],
+    "team": [
+      {"name": "Mergenthaler Linotype Company", "note": "Manufacturer of the CRTronic digital phototypesetter, successor to the Linotype hot-metal line."}
+    ],
+    "media": [
+      {"src": "https://upload.wikimedia.org/wikipedia/commons/a/a3/Linotype_CRTronic_360.jpg", "alt": "A Linotype CRTronic 360 digital phototypesetter with keyboard and CRT", "caption": "A Linotype CRTronic 360 (later model of the CRTronic line), showing the movable keyboard and tiltable CRT console. CC BY 2.0, Wikimedia Commons."}
+    ],
+    "sources": [
+      {"text": "Wikipedia — Linotype company and CRTronic", "url": "https://en.wikipedia.org/wiki/Linotype_(company)"},
+      {"text": "Mergenthaler CRTronic brochure on the Internet Archive", "url": "https://archive.org/details/mergenthaler-crtronic"},
+      {"text": "Wikimedia Commons CRTronic images", "url": "https://commons.wikimedia.org/wiki/File:Linotype_CRTronic_360.jpg"}
+    ],
+    "imageUrls": [
+      "https://upload.wikimedia.org/wikipedia/commons/a/a3/Linotype_CRTronic_360.jpg",
+      "https://upload.wikimedia.org/wikipedia/commons/f/fb/Linotype_CRTronic_360%2C_pt._2.jpg",
+      "https://upload.wikimedia.org/wikipedia/commons/7/7f/Linotype_CRTronic_360%2C_pt._3.jpg"
+    ]
+  },
+  "savedImages": [
+    "images/crtronic-360.jpg",
+    "images/crtronic-360-pt2.jpg",
+    "images/crtronic-360-pt3.jpg"
+  ]
+}
