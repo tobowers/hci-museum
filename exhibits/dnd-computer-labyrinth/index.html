@@ -1,0 +1,222 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
+    <meta name="description" content="Mattel&#039;s 1980 electronic board game hides an entire dungeon inside a TMS1100-family microcontroller: fifty random walls, a treasure room, and a sleeping dragon, with no display of any kind. Players press diecast metal miniatures onto a touch-sensitive 8x8 grid and learn the invisible maze by sound alone — twelve audio cues for walls, doors, the dragon waking, and attack. Orange plastic markers map the unseen geometry as you go." />
+    <meta property="og:title" content="Mattel Dungeons &amp; Dragons Computer Labyrinth Game — HCI Museum" />
+    <meta property="og:description" content="Mattel&#039;s 1980 electronic board game hides an entire dungeon inside a TMS1100-family microcontroller: fifty random walls, a treasure room, and a sleeping dragon, with no display of any kind. Players press diecast metal miniatures onto a touch-sensitive 8x8 grid and learn the invisible maze by sound alone — twelve audio cues for walls, doors, the dragon waking, and attack. Orange plastic markers map the unseen geometry as you go." />
+    <meta property="og:site_name" content="HCI Museum" />
+    <meta property="og:type" content="article" />
+    <meta property="og:url" content="https://interfacemuseum.com/exhibits/dnd-computer-labyrinth/" />
+    <meta property="og:image" content="https://interfacemuseum.com/og/exhibits/dnd-computer-labyrinth.jpg" />
+    <meta property="og:image:secure_url" content="https://interfacemuseum.com/og/exhibits/dnd-computer-labyrinth.jpg" />
+    <meta property="og:image:type" content="image/jpeg" />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="630" />
+    <meta property="og:image:alt" content="Mattel Dungeons &amp; Dragons Computer Labyrinth Game archival photograph" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Mattel Dungeons &amp; Dragons Computer Labyrinth Game — HCI Museum" />
+    <meta name="twitter:description" content="Mattel&#039;s 1980 electronic board game hides an entire dungeon inside a TMS1100-family microcontroller: fifty random walls, a treasure room, and a sleeping dragon, with no display of any kind. Players press diecast metal miniatures onto a touch-sensitive 8x8 grid and learn the invisible maze by sound alone — twelve audio cues for walls, doors, the dragon waking, and attack. Orange plastic markers map the unseen geometry as you go." />
+    <meta name="twitter:image" content="https://interfacemuseum.com/og/exhibits/dnd-computer-labyrinth.jpg" />
+    <meta name="twitter:image:alt" content="Mattel Dungeons &amp; Dragons Computer Labyrinth Game archival photograph" />
+    <title>Mattel Dungeons &amp; Dragons Computer Labyrinth Game — HCI Museum</title>
+    <link rel="icon" type="image/gif" href="/favicon.gif" />
+    <link rel="icon" type="image/png" href="/favicon.png" />
+    <link rel="alternate" type="text/plain" title="HCI Museum llms.txt" href="/llms.txt" />
+    <link rel="alternate" type="application/rss+xml" title="HCI Museum Collection" href="/feeds/collection.xml" />
+    <link rel="alternate" type="application/rss+xml" title="HCI Museum Field Notes" href="/feeds/blog.xml" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="../../styles.css" />
+  </head>
+  <body>
+    <div class="atmosphere" aria-hidden="true">
+      <div class="atmosphere__grid"></div>
+      <div class="atmosphere__scanlines"></div>
+      <div class="atmosphere__vignette"></div>
+    </div>
+
+    <div class="page-shell">
+      <header class="site-header">
+        <a href="../../" class="brand">
+          <span class="brand__mark" aria-hidden="true"></span>
+          <span>HCI Museum</span>
+        </a>
+        <nav class="nav-primary" aria-label="Primary">
+          <a href="../../exhibits/" class="active">Exhibits</a>
+          <a href="../../blog/">Field Notes</a>
+          <a href="../../about/">About</a>
+        </nav>
+        <div class="header-meta">
+          <span class="header-meta__item">SYS_OK</span>
+          <span class="header-meta__pulse" aria-hidden="true"></span>
+        </div>
+      </header>
+
+      <main>
+
+        <article class="exhibit">
+          <header class="exhibit__hero">
+            <div class="exhibit__hero-text">
+              <div class="exhibit__eyebrow">
+                <span class="exhibit__year">1980</span>
+                <span class="exhibit__by">Mattel Electronics, with Texas Instruments silicon</span>
+              </div>
+              <h1 class="exhibit__title">Mattel Dungeons &amp; Dragons Computer Labyrinth Game</h1>
+              <p class="exhibit__subtitle">A hidden maze in a 4-bit chip, mapped one touch at a time</p>
+              <div class="exhibit__tags"><span class="exhibit__tag">Games</span><span class="exhibit__tag">Board Game</span><span class="exhibit__tag">Hidden State</span><span class="exhibit__tag">Sound</span><span class="exhibit__tag">Input</span><span class="exhibit__tag">TMS1000</span></div>
+            </div>
+
+            <div class="exhibit__hero-image-wrap">
+              <img
+                class="exhibit__hero-image"
+                src="../../assets/wiki/dnd-labyrinth-board.jpg"
+                alt="Mattel Dungeons &amp; Dragons Computer Labyrinth Game archival photograph"
+              />
+              <div class="exhibit__hero-scanlines" aria-hidden="true"></div>
+            </div>
+          </header>
+
+          <section class="exhibit__section exhibit__overview">
+            <h2 class="exhibit__section-title">Overview</h2>
+            <div class="exhibit__prose"><p>The Dungeons &amp; Dragons Computer Labyrinth Game, released by Mattel in 1980, is an electronic board game that hides its entire world inside a four-bit microcontroller. The board is a plastic castle superstructure with a chessboard-sized 8x8 grid in the middle. The playing surface is touch-sensitive: under each square sits a membrane switch, and the game&#039;s pieces are diecast metal so that pressing a piece down onto a square reliably registers as input. Every game, the computer randomly generates an invisible labyrinth: about fifty walls, a secret treasure room, and a sleeping dragon, all held in the chip&#039;s memory with no display of any kind.</p>
+<p>The interaction model is the point. Players move metal warrior miniatures up to eight squares per turn, pressing each piece into the grid. The machine answers only in sound: twelve distinct electronic tones distinguish a wall, a door, the dragon stirring, an attack, the treasure, and victory. Blunder into an invisible wall and the beep stops your movement for the turn; you mark the discovered wall with an orange plastic marker, building a map of the unseen maze as you go. The dragon wakes when a player comes within three squares of the treasure and then pursues by one square per turn, tracked only in memory and audible only through its attack tones. Hidden per-player strength factors, secret rooms, and the dragon&#039;s movement algorithm all live in the machine&#039;s state.</p>
+<p>The electronics were documented in a 2023 teardown by Cameron Kaiser (Old VCR blog, covered by Hackaday). The PCB is small: a single 2N2222 transistor, a few passives, and one 28-pin Texas Instruments DIP marked M34012 — a customized TMS1100, itself a descendant of the TMS1000, the first commercial microcontroller. It is a PMOS part that runs directly off a 9-volt battery, with only four inputs and nineteen outputs; the designers used all four inputs and eighteen of the outputs just to scan the 64-square membrane keyboard. At roughly 475 kHz it does more than enough: it generates a maze, runs a dragon, and referees two players. The game survives in MAME&#039;s TMS1000-family handheld emulation and in an online playable emulation at dndlabyrinth.com.</p></div>
+          </section>
+
+          <section class="exhibit__section exhibit__deep-dive">
+            <h2 class="exhibit__section-title">Deep dive</h2>
+            <div class="exhibit__facts">
+        <div class="exhibit__fact">
+          <div class="exhibit__fact-heading"><strong>The hidden maze.</strong></div>
+          <p>Each time the game starts, the computer randomly places about fifty walls across the 64-square board along with a treasure room and a sleeping dragon. Nothing is visible: the player discovers walls only by moving a piece into them and hearing the machine&#039;s tone. The White Dwarf reviewer (August 1982) described &#039;your heroic warrior blundering into yet another invisible wall.&#039; Players map the unseen geometry with the included orange wall markers, effectively becoming surveyors of the machine&#039;s memory.</p>
+        </div>
+      
+        <div class="exhibit__fact">
+          <div class="exhibit__fact-heading"><strong>Sound as the only channel.</strong></div>
+          <p>The game has no display — no LEDs beyond what the electronics need, no screen. All state is conveyed through twelve audio cues: entering a clear square, hitting a wall, crossing a door, the dragon waking, the dragon flying toward a warrior, an attack, taking damage, finding the treasure, victory. Eight buttons on the side of the board let players hear what the tones mean, a workaround for what the manual could not describe. This is pure audio feedback for a spatial game — the user interface is literally a beeper.</p>
+        </div>
+      
+        <div class="exhibit__fact">
+          <div class="exhibit__fact-heading"><strong>The dragon&#039;s mind.</strong></div>
+          <p>The dragon&#039;s behavior is genuinely algorithmic, as documented in the game&#039;s rules: it starts asleep; it wakes when any player is three squares from the treasure; it then moves one square per turn toward a target — the player holding the treasure, or the closest player, or the treasure room if both players are hidden in their secret rooms — and it moves diagonally and over walls if necessary. Its position is unknown until it attacks, at which point you may place the dragon figurine on the board. Two players can also attack each other, with the computer assigning a variable strength factor to each warrior in memory.</p>
+        </div>
+      
+        <div class="exhibit__fact">
+          <div class="exhibit__fact-heading"><strong>The silicon.</strong></div>
+          <p>Cameron Kaiser&#039;s 2023 teardown revealed a tiny PCB holding a single transistor, a few resistors and capacitors, and one 28-pin Texas Instruments M34012 chip — a customized TMS1100, a four-bit PMOS microcontroller from the TMS1000 family. With four inputs and nineteen outputs, reading a 64-key membrane matrix was difficult; the designers used every input and all but one output. The part runs straight off a 9-volt battery at roughly 475 kHz. Mattel needed a cheap, customizable part to mass-produce, and TI&#039;s design allowed a customer to supply a ROM and two PLAs and get back a chip by the million — the same deal that produced Speak &amp; Spell&#039;s TMS5100 a year earlier.</p>
+        </div>
+      
+        <div class="exhibit__fact">
+          <div class="exhibit__fact-heading"><strong>Reception and survival.</strong></div>
+          <p>The game was reviewed in White Dwarf #32 (August 1982) with a score of 4 and was named to the Games 100 lists of 1981 and 1982. The White Dwarf reviewer found it good for under-12s (&#039;simplicity itself to learn&#039;) but mocked the price and the &#039;cheap looking plastic castle.&#039; The follow-up, Mattel&#039;s Dungeons &amp; Dragons Computer Fantasy Game (1981), was the last of the line. Modern preservation is strong for an electronic toy: the game runs under MAME&#039;s TMS1000-family handheld driver, an online emulation at dndlabyrinth.com keeps the maze-generating firmware playable, and collector teardowns document the hardware.</p>
+        </div>
+      </div>
+          </section>
+
+          
+          <section class="exhibit__section exhibit__team">
+            <h2 class="exhibit__section-title">Team &amp; pioneers</h2>
+            <ul class="exhibit__team-list">
+            <li class="exhibit__team-item">
+              <span class="exhibit__team-name">Mattel Electronics.</span>
+              <span class="exhibit__team-note"> Publisher and designer of the game, part of Mattel&#039;s early-1980s electronic games line alongside Intellivision and Auto Race.</span>
+            </li>
+            <li class="exhibit__team-item">
+              <span class="exhibit__team-name">Texas Instruments.</span>
+              <span class="exhibit__team-note"> Supplier of the M34012, a customized TMS1100 four-bit PMOS microcontroller used for maze generation, dragon AI, and membrane keyboard scanning.</span>
+            </li>
+            <li class="exhibit__team-item">
+              <span class="exhibit__team-name">Cameron Kaiser.</span>
+              <span class="exhibit__team-note"> Retrocomputing writer and preservationist; documented the hardware in a complete 2023 teardown on the Old VCR blog, covered by Hackaday.</span>
+            </li>
+            </ul>
+          </section>
+
+          
+          <section class="exhibit__section exhibit__media">
+            <h2 class="exhibit__section-title">Media</h2>
+            <div class="exhibit__media-grid">
+        <figure class="exhibit__media-item">
+          <div class="exhibit__media-frame">
+            <img src="../../assets/wiki/dnd-labyrinth-board.jpg" alt="Mattel D&amp;D Computer Labyrinth Game board with diecast pieces and wall markers" loading="lazy" />
+            <div class="exhibit__media-scanlines" aria-hidden="true"></div>
+          </div>
+          <figcaption>The Dungeons &amp; Dragons Computer Labyrinth Game. The 8x8 touch-sensitive grid sits inside the plastic castle; diecast metal pieces press down on membrane switches beneath each square. Source: Hackaday / Cameron Kaiser teardown.</figcaption>
+        </figure>
+      
+        <figure class="exhibit__media-item">
+          <div class="exhibit__media-frame">
+            <img src="../../assets/wiki/dnd-labyrinth-chip.jpg" alt="Annotated die shot of the M34012, a customized TMS1100" loading="lazy" />
+            <div class="exhibit__media-scanlines" aria-hidden="true"></div>
+          </div>
+          <figcaption>The M34012: a customized TMS1100 four-bit PMOS microcontroller, descendant of the TMS1000, the first commercial microcontroller. Source: Hackaday / Cameron Kaiser.</figcaption>
+        </figure>
+      
+        <figure class="exhibit__media-item">
+          <div class="exhibit__media-frame">
+            <img src="../../assets/wiki/dnd-labyrinth-box.png" alt="Box art of the Dungeons &amp; Dragons Computer Labyrinth Game" loading="lazy" />
+            <div class="exhibit__media-scanlines" aria-hidden="true"></div>
+          </div>
+          <figcaption>Box art for the 1980 Mattel game. Fair use image, Wikipedia.</figcaption>
+        </figure>
+      </div>
+          </section>
+          
+
+          
+          <section class="exhibit__section exhibit__sources">
+            <h2 class="exhibit__section-title">Sources</h2>
+            <ol class="exhibit__source-list">
+        <li>
+          <a href="https://en.wikipedia.org/wiki/Dungeons_%26_Dragons_Computer_Labyrinth_Game" target="_blank" rel="noopener">Wikipedia — Dungeons &amp; Dragons Computer Labyrinth Game</a>
+        </li>
+      
+        <li>
+          <a href="https://hackaday.com/2023/02/12/dungeons-and-dragons-board-game-from-the-1980s-holds-a-tms1100/" target="_blank" rel="noopener">Hackaday — &#039;Dungeons And Dragons Board Game From The 1980s Holds A TMS1100&#039; (Feb 2023)</a>
+        </li>
+      
+        <li>
+          <a href="https://oldvcr.blogspot.com/2023/01/here-be-four-bits-of-dragons-mattel.html" target="_blank" rel="noopener">Old VCR blog — Cameron Kaiser full teardown (Jan 2023, CC BY-NC-ND)</a>
+        </li>
+      
+        <li>
+          <a href="https://boardgamegeek.com/boardgame/4746/dungeons-dragons-computer-labyrinth-game" target="_blank" rel="noopener">BoardGameGeek — Dungeons &amp; Dragons Computer Labyrinth Game</a>
+        </li>
+      
+        <li>
+          <a href="https://en.wikipedia.org/wiki/Dungeons_%26_Dragons_Computer_Labyrinth_Game" target="_blank" rel="noopener">White Dwarf #32 review (August 1982, p.19), via Wikipedia citations</a>
+        </li>
+      
+        <li>
+          <a href="https://dndlabyrinth.com/" target="_blank" rel="noopener">D&amp;D Computer Labyrinth online emulation</a>
+        </li>
+      </ol>
+          </section>
+          
+
+          <nav class="exhibit__nav" aria-label="Exhibit navigation">
+            <a href="../oasys-thumbshift-keyboard/" class="exhibit__nav-link exhibit__nav-link--prev">
+        <span class="exhibit__nav-dir">← Previous</span>
+        <span class="exhibit__nav-title">Fujitsu OASYS 100 Thumb-Shift Keyboard</span>
+      </a>
+            <a href="../../exhibits/" class="exhibit__nav-link exhibit__nav-link--index">All exhibits</a>
+            <a href="../microwriter/" class="exhibit__nav-link exhibit__nav-link--next">
+        <span class="exhibit__nav-dir">Next →</span>
+        <span class="exhibit__nav-title">Microwriter</span>
+      </a>
+          </nav>
+        </article>
+      </main>
+
+      <footer class="site-footer">
+        <span>HCI Museum // Curated by Beepy</span>
+        <span class="site-footer__signal">SIGNAL_STABLE</span>
+      </footer>
+    </div>
+
+    <!-- Cloudflare Web Analytics --><script defer src='https://static.cloudflareinsights.com/beacon.min.js' data-cf-beacon='{"token": "8dcb1e0fcb41470b8769c87691688807"}'></script><!-- End Cloudflare Web Analytics -->
+  </body>
+</html>

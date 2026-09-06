@@ -1,0 +1,220 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
+    <meta name="description" content="A wireless EEG headband that transmitted brainwaves by radio to a Macintosh, converting alpha and beta rhythms into MIDI notes, visuals, and control signals. Shipped April 1991 by Psychic Lab Inc. Used by Mariko Mori at the Venice Biennale, and by HBO to measure TV audience engagement." />
+    <meta property="og:title" content="Interactive Brainwave Visual Analyzer (IBVA) — HCI Museum" />
+    <meta property="og:description" content="A wireless EEG headband that transmitted brainwaves by radio to a Macintosh, converting alpha and beta rhythms into MIDI notes, visuals, and control signals. Shipped April 1991 by Psychic Lab Inc. Used by Mariko Mori at the Venice Biennale, and by HBO to measure TV audience engagement." />
+    <meta property="og:site_name" content="HCI Museum" />
+    <meta property="og:type" content="article" />
+    <meta property="og:url" content="https://interfacemuseum.com/exhibits/ibva/" />
+    <meta property="og:image" content="https://interfacemuseum.com/og/exhibits/ibva.jpg" />
+    <meta property="og:image:secure_url" content="https://interfacemuseum.com/og/exhibits/ibva.jpg" />
+    <meta property="og:image:type" content="image/jpeg" />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="630" />
+    <meta property="og:image:alt" content="Interactive Brainwave Visual Analyzer (IBVA) archival photograph" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Interactive Brainwave Visual Analyzer (IBVA) — HCI Museum" />
+    <meta name="twitter:description" content="A wireless EEG headband that transmitted brainwaves by radio to a Macintosh, converting alpha and beta rhythms into MIDI notes, visuals, and control signals. Shipped April 1991 by Psychic Lab Inc. Used by Mariko Mori at the Venice Biennale, and by HBO to measure TV audience engagement." />
+    <meta name="twitter:image" content="https://interfacemuseum.com/og/exhibits/ibva.jpg" />
+    <meta name="twitter:image:alt" content="Interactive Brainwave Visual Analyzer (IBVA) archival photograph" />
+    <title>Interactive Brainwave Visual Analyzer (IBVA) — HCI Museum</title>
+    <link rel="icon" type="image/gif" href="/favicon.gif" />
+    <link rel="icon" type="image/png" href="/favicon.png" />
+    <link rel="alternate" type="text/plain" title="HCI Museum llms.txt" href="/llms.txt" />
+    <link rel="alternate" type="application/rss+xml" title="HCI Museum Collection" href="/feeds/collection.xml" />
+    <link rel="alternate" type="application/rss+xml" title="HCI Museum Field Notes" href="/feeds/blog.xml" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="../../styles.css" />
+  </head>
+  <body>
+    <div class="atmosphere" aria-hidden="true">
+      <div class="atmosphere__grid"></div>
+      <div class="atmosphere__scanlines"></div>
+      <div class="atmosphere__vignette"></div>
+    </div>
+
+    <div class="page-shell">
+      <header class="site-header">
+        <a href="../../" class="brand">
+          <span class="brand__mark" aria-hidden="true"></span>
+          <span>HCI Museum</span>
+        </a>
+        <nav class="nav-primary" aria-label="Primary">
+          <a href="../../exhibits/" class="active">Exhibits</a>
+          <a href="../../blog/">Field Notes</a>
+          <a href="../../about/">About</a>
+        </nav>
+        <div class="header-meta">
+          <span class="header-meta__item">SYS_OK</span>
+          <span class="header-meta__pulse" aria-hidden="true"></span>
+        </div>
+      </header>
+
+      <main>
+
+        <article class="exhibit">
+          <header class="exhibit__hero">
+            <div class="exhibit__hero-text">
+              <div class="exhibit__eyebrow">
+                <span class="exhibit__year">1991</span>
+                <span class="exhibit__by">Psychic Lab Inc. (Masahiro Kahata)</span>
+              </div>
+              <h1 class="exhibit__title">Interactive Brainwave Visual Analyzer (IBVA)</h1>
+              <p class="exhibit__subtitle">The first commercial wireless brain-computer interface — think with your forehead, control a Mac with your mind</p>
+              <div class="exhibit__tags"><span class="exhibit__tag">BCI</span><span class="exhibit__tag">EEG</span><span class="exhibit__tag">Wearable</span><span class="exhibit__tag">Brainwave</span></div>
+            </div>
+
+            <div class="exhibit__hero-image-wrap">
+              <img
+                class="exhibit__hero-image"
+                src="../../assets/wiki/ibva-5.jpg"
+                alt="Interactive Brainwave Visual Analyzer (IBVA) archival photograph"
+              />
+              <div class="exhibit__hero-scanlines" aria-hidden="true"></div>
+            </div>
+          </header>
+
+          <section class="exhibit__section exhibit__overview">
+            <h2 class="exhibit__section-title">Overview</h2>
+            <div class="exhibit__prose"><p>The Interactive Brainwave Visual Analyzer (IBVA)—also branded as &quot;amuwa&quot;—was a commercially sold, wireless EEG-based brain-computer interface that first shipped in April 1991. Developed by Masahiro Kahata through his company Psychic Lab Inc. in New York, the IBVA was among the earliest consumer BCI products ever brought to market, predating the modern neurotech industry by nearly two decades.</p>
+<p>The hardware consisted of a fabric headband with three dry-contact electrodes placed on the forehead (no conductive gel required), connected to a battery-powered amplifier and radio transmitter worn on the body. A receiver box connected to the Macintosh serial port, giving the user roughly 30 feet of wireless mobility. The Mac software performed real-time Fast Fourier Transform (FFT) analysis on two EEG channels—left and right prefrontal cortex—decomposing brainwave activity into Delta, Theta, Alpha, Beta, and Gamma frequency bands. These brainwave metrics could be output as MIDI notes (left/right brain power mapped to note and velocity), serial ASCII data for external device control, QuickTime movie control, or visualizations including 3D waterfall spectral displays. An AppleScript interface and MAX/MSP external made the IBVA accessible to artists and musicians building custom interactive experiences. The system also included a camcorder audio-track recording feature, allowing synchronized brainwave recording alongside video for field research—which Kahata famously used to record EEG inside crop circles in the UK.</p></div>
+          </section>
+
+          <section class="exhibit__section exhibit__deep-dive">
+            <h2 class="exhibit__section-title">Deep dive</h2>
+            <div class="exhibit__facts">
+        <div class="exhibit__fact">
+          <div class="exhibit__fact-heading"><strong>Origins.</strong></div>
+          <p>Masahiro Kahata (born 1951, Muroran, Hokkaido, Japan) began building brainwave interface systems in 1973, using analog and early digital electronics. By 1978–1980 he was visualizing brainwaves on Apple II and Rockwell computers. In 1984, he publicly demonstrated brainwave-controlled mouse drawing at Sapporo City Education Culture Hall using a Mac 128K, Apple II, and Rockwell computer—nineteen participants drew images using only brainwave switching. He spent 1985–1987 as Chief Researcher at ASCII Laboratories (a division of ASCII Corporation, Japan&#039;s leading computer publisher), then incorporated Psychic Lab in Sapporo in 1988. Development of IBVA as a commercial product began with Tokyo-based hardware partner Random Electronics Design. Kahata moved to New York in 1989, working with American Biotech on Mac-based biofeedback systems before incorporating Psychic Lab Inc. in March 1991 and shipping IBVA V1.0.1 the following month.</p>
+        </div>
+      
+        <div class="exhibit__fact">
+          <div class="exhibit__fact-heading"><strong>How Brainwaves Became Computer Control.</strong></div>
+          <p>The sensor headband captured microvolt-level EEG signals from the prefrontal cortex. A low-noise DC-coupled differential amplifier boosted the signal for radio transmission. On the Mac, the IBVA software performed FFT analysis (up to 8192-point, 0.015 Hz resolution) to decompose the continuous EEG into frequency bands. Multiple output modes were available: Brain Peak MIDI mapped left/right brainwave power peaks to MIDI note and velocity; Brain Rhythm MIDI sent continuous rhythmic EEG data; Brain Switches allowed users to set 8 configurable thresholds per channel (left, right, and coherence), enabling up to 128 discrete brain-triggered events. A competitive game mode called BrainFighter pitted two users&#039; brainwaves against each other or against recorded sessions. The system&#039;s default bandwidth of 0.16–40 Hz at 120 Hz sampling captured all major EEG bands, while the programmable hardware could run at up to 1920 Hz sampling covering 0–900 Hz.</p>
+        </div>
+      
+        <div class="exhibit__fact">
+          <div class="exhibit__fact-heading"><strong>Artists, Musicians, and the Venice Biennale.</strong></div>
+          <p>The IBVA found its most visible use in the art world. Japanese artist Mariko Mori collaborated with Kahata to create <em>waveUFO</em> (2003–2011), an interactive brainwave installation where three participants entered a UFO-shaped pod and their synchronized brainwaves controlled real-time 3D animations. The work toured globally, appearing at the Venice Biennale (2005), Public Art Fund New York, and museums in Brazil, Denmark, and Austria. Other artists included Neam Cathode (Jean Décarie), who created <em>Cyber Mondrian</em> (2001) using brainwave-controlled Mondrian-like visuals and synthesized sound at Montréal&#039;s Oboro Gallery; Paras Kaul (&quot;Brain Wave Chick&quot;), who composed brainwave music at George Mason University; and UK artist Luciana Haill, who became the official EU/UK IBVA distributor and used the system in dreamachine EEG installations and augmented reality works. On the commercial side, HBO used the IBVA in 1993 to measure audience engagement with TV programming—finding, as New Scientist reported, that gritty documentaries triggered high brain response while a Michael Jackson concert generated almost none.</p>
+        </div>
+      
+        <div class="exhibit__fact">
+          <div class="exhibit__fact-heading"><strong>Thirty Years and Counting.</strong></div>
+          <p>The IBVA is extraordinary not just for when it started but for how long it lasted. The product evolved continuously from Mac System 6 through Mac OS 9, Mac OS X, Intel, and Apple Silicon—over thirty years of ongoing development. It added Bluetooth (2006), Quartz Composer visual plugins, GarageBand Audio Unit brainwave filters, an iPhone app (BrainDJVJ, 2009), and eventually open-source extensions including the brain-duino project (2014) and MAX/MSP externals. It won Best of Show at MacWorld New York in 1998 and was covered by Mondo 2000, Electronic Gaming Monthly, Popular Mechanics, New Scientist, and The Guardian. In 2000–2001, Sony America commissioned Psychic Lab to develop a brainwave gaming interface, though the project was cancelled after September 11, 2001.</p>
+        </div>
+      </div>
+          </section>
+
+          
+          <section class="exhibit__section exhibit__team">
+            <h2 class="exhibit__section-title">Team &amp; pioneers</h2>
+            <ul class="exhibit__team-list">
+            <li class="exhibit__team-item">
+              <span class="exhibit__team-name">Masahiro Kahata.</span>
+              <span class="exhibit__team-note"> Founder of Psychic Lab; developed brainwave interfaces continuously from 1973; former Chief Researcher at ASCII Laboratories Japan; incorporated Psychic Lab Inc. in New York (1991)</span>
+            </li>
+            <li class="exhibit__team-item">
+              <span class="exhibit__team-name">Random Electronics Design.</span>
+              <span class="exhibit__team-note"> Tokyo-based hardware design partner for the original IBVA hardware (1988–2002)</span>
+            </li>
+            <li class="exhibit__team-item">
+              <span class="exhibit__team-name">Luciana Haill.</span>
+              <span class="exhibit__team-note"> UK artist and official IBVA EU/UK distributor (2009–present); visiting research fellow at Centre for Computational Neuroscience and Robotics, Sussex University</span>
+            </li>
+            </ul>
+          </section>
+
+          
+          <section class="exhibit__section exhibit__media">
+            <h2 class="exhibit__section-title">Media</h2>
+            <div class="exhibit__media-grid">
+        <figure class="exhibit__media-item">
+          <div class="exhibit__media-frame">
+            <img src="../../assets/wiki/ibva-1.jpg" alt="Person wearing the IBVA EEG headband with three forehead electrodes" loading="lazy" />
+            <div class="exhibit__media-scanlines" aria-hidden="true"></div>
+          </div>
+          <figcaption>The wireless EEG headband with three dry-contact forehead electrodes—no conductive gel needed. Source: ibva.com (2003)</figcaption>
+        </figure>
+      
+        <figure class="exhibit__media-item">
+          <div class="exhibit__media-frame">
+            <img src="../../assets/wiki/ibva-2.jpg" alt="IBVA software interface showing real-time brainwave spectral analysis on Macintosh" loading="lazy" />
+            <div class="exhibit__media-scanlines" aria-hidden="true"></div>
+          </div>
+          <figcaption>The IBVA Mac software displaying 3D waterfall spectral analysis of left and right hemisphere EEG data, with MIDI mapping controls. Source: psychiclab.net</figcaption>
+        </figure>
+      
+        <figure class="exhibit__media-item">
+          <div class="exhibit__media-frame">
+            <img src="../../assets/wiki/ibva-3.jpg" alt="Interactive Brainwave Visual Analyzer (IBVA)" loading="lazy" />
+            <div class="exhibit__media-scanlines" aria-hidden="true"></div>
+          </div>
+          <figcaption>Interactive Brainwave Visual Analyzer (IBVA) archival image.</figcaption>
+        </figure>
+      </div>
+          </section>
+          
+
+          
+          <section class="exhibit__section exhibit__sources">
+            <h2 class="exhibit__section-title">Sources</h2>
+            <ol class="exhibit__source-list">
+        <li>
+          <a href="http://www.psychiclab.net/IBVA/OriginalIBVA.html" target="_blank" rel="noopener">Psychic Lab: Original IBVA system (1991)</a>
+        </li>
+      
+        <li>
+          <a href="http://www.psychiclab.net/IBVA/development1983.html" target="_blank" rel="noopener">Psychic Lab: Masahiro Kahata profile and development history</a>
+        </li>
+      
+        <li>
+          <a href="http://www.psychiclab.net/IBVA/Specifications.html" target="_blank" rel="noopener">Psychic Lab: IBVA technical specifications</a>
+        </li>
+      
+        <li>
+          <a href="https://www.newscientist.com/article/mg13718633-800-technology-brain-waves-show-that-michael-jackson-is-no-thriller/" target="_blank" rel="noopener">New Scientist (March 6, 1993): Brain waves show that Michael Jackson is no thriller</a>
+        </li>
+      
+        <li>
+          <a href="http://www.econtact.ca/14_2/brouse_brainwavemusic.html" target="_blank" rel="noopener">eContact! 14.2: Andrew Brouse on forty years of brainwave music</a>
+        </li>
+      
+        <li>
+          <a href="https://bciwiki.org/index.php?title=IBVA:_Interactive_Brainwave_Visual_Analyser" target="_blank" rel="noopener">BCI Wiki: IBVA Interactive Brainwave Visual Analyser</a>
+        </li>
+      
+        <li>
+          <a href="https://ibvabrainmachine.wordpress.com/about-2/measuring-eeg/hardware/" target="_blank" rel="noopener">IBVA UK / BrainMachine: Luciana Haill distribution and documentation</a>
+        </li>
+      </ol>
+          </section>
+          
+
+          <nav class="exhibit__nav" aria-label="Exhibit navigation">
+            <a href="../buchla-lightning/" class="exhibit__nav-link exhibit__nav-link--prev">
+        <span class="exhibit__nav-dir">← Previous</span>
+        <span class="exhibit__nav-title">Buchla Lightning</span>
+      </a>
+            <a href="../../exhibits/" class="exhibit__nav-link exhibit__nav-link--index">All exhibits</a>
+            <a href="../ntt-clearboard/" class="exhibit__nav-link exhibit__nav-link--next">
+        <span class="exhibit__nav-dir">Next →</span>
+        <span class="exhibit__nav-title">NTT ClearBoard-1</span>
+      </a>
+          </nav>
+        </article>
+      </main>
+
+      <footer class="site-footer">
+        <span>HCI Museum // Curated by Beepy</span>
+        <span class="site-footer__signal">SIGNAL_STABLE</span>
+      </footer>
+    </div>
+
+    <!-- Cloudflare Web Analytics --><script defer src='https://static.cloudflareinsights.com/beacon.min.js' data-cf-beacon='{"token": "8dcb1e0fcb41470b8769c87691688807"}'></script><!-- End Cloudflare Web Analytics -->
+  </body>
+</html>

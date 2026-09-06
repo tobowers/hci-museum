@@ -1,0 +1,253 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
+    <meta name="description" content="The origin story of computational haptics — the moment touch became programmable. Margaret Minsky&#039;s 2-DOF force-feedback joystick used a lateral-force algorithm to synthesize virtual textures (sandpaper, rubber, velvet) that users could genuinely feel and distinguish. A wooden box with DC motors, optical encoders, and metal linkages — every haptic device since descends from it." />
+    <meta property="og:title" content="Minsky Sandpaper — HCI Museum" />
+    <meta property="og:description" content="The origin story of computational haptics — the moment touch became programmable. Margaret Minsky&#039;s 2-DOF force-feedback joystick used a lateral-force algorithm to synthesize virtual textures (sandpaper, rubber, velvet) that users could genuinely feel and distinguish. A wooden box with DC motors, optical encoders, and metal linkages — every haptic device since descends from it." />
+    <meta property="og:site_name" content="HCI Museum" />
+    <meta property="og:type" content="article" />
+    <meta property="og:url" content="https://interfacemuseum.com/exhibits/minsky-sandpaper/" />
+    <meta property="og:image" content="https://interfacemuseum.com/og/exhibits/minsky-sandpaper.jpg" />
+    <meta property="og:image:secure_url" content="https://interfacemuseum.com/og/exhibits/minsky-sandpaper.jpg" />
+    <meta property="og:image:type" content="image/jpeg" />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="630" />
+    <meta property="og:image:alt" content="Minsky Sandpaper archival photograph" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Minsky Sandpaper — HCI Museum" />
+    <meta name="twitter:description" content="The origin story of computational haptics — the moment touch became programmable. Margaret Minsky&#039;s 2-DOF force-feedback joystick used a lateral-force algorithm to synthesize virtual textures (sandpaper, rubber, velvet) that users could genuinely feel and distinguish. A wooden box with DC motors, optical encoders, and metal linkages — every haptic device since descends from it." />
+    <meta name="twitter:image" content="https://interfacemuseum.com/og/exhibits/minsky-sandpaper.jpg" />
+    <meta name="twitter:image:alt" content="Minsky Sandpaper archival photograph" />
+    <title>Minsky Sandpaper — HCI Museum</title>
+    <link rel="icon" type="image/gif" href="/favicon.gif" />
+    <link rel="icon" type="image/png" href="/favicon.png" />
+    <link rel="alternate" type="text/plain" title="HCI Museum llms.txt" href="/llms.txt" />
+    <link rel="alternate" type="application/rss+xml" title="HCI Museum Collection" href="/feeds/collection.xml" />
+    <link rel="alternate" type="application/rss+xml" title="HCI Museum Field Notes" href="/feeds/blog.xml" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="../../styles.css" />
+  </head>
+  <body>
+    <div class="atmosphere" aria-hidden="true">
+      <div class="atmosphere__grid"></div>
+      <div class="atmosphere__scanlines"></div>
+      <div class="atmosphere__vignette"></div>
+    </div>
+
+    <div class="page-shell">
+      <header class="site-header">
+        <a href="../../" class="brand">
+          <span class="brand__mark" aria-hidden="true"></span>
+          <span>HCI Museum</span>
+        </a>
+        <nav class="nav-primary" aria-label="Primary">
+          <a href="../../exhibits/" class="active">Exhibits</a>
+          <a href="../../blog/">Field Notes</a>
+          <a href="../../about/">About</a>
+        </nav>
+        <div class="header-meta">
+          <span class="header-meta__item">SYS_OK</span>
+          <span class="header-meta__pulse" aria-hidden="true"></span>
+        </div>
+      </header>
+
+      <main>
+
+        <article class="exhibit">
+          <header class="exhibit__hero">
+            <div class="exhibit__hero-text">
+              <div class="exhibit__eyebrow">
+                <span class="exhibit__year">1990</span>
+                <span class="exhibit__by">Margaret Minsky at MIT Media Lab, with collaborators at UNC Chapel Hill (Frederick P. Brooks Jr., Ming Ouh-young, Oliver Steele, Michael Behensky)</span>
+              </div>
+              <h1 class="exhibit__title">Minsky Sandpaper</h1>
+              <p class="exhibit__subtitle">The 2-DOF force-feedback joystick that synthesized virtual textures through programmable lateral forces, birthing computational haptics.</p>
+              <div class="exhibit__tags"><span class="exhibit__tag">Haptics</span><span class="exhibit__tag">Force Feedback</span><span class="exhibit__tag">MIT Media Lab</span></div>
+            </div>
+
+            <div class="exhibit__hero-image-wrap">
+              <img
+                class="exhibit__hero-image"
+                src="../../assets/wiki/minsky-sandpaper-1.webp"
+                alt="Minsky Sandpaper archival photograph"
+              />
+              <div class="exhibit__hero-scanlines" aria-hidden="true"></div>
+            </div>
+          </header>
+
+          <section class="exhibit__section exhibit__overview">
+            <h2 class="exhibit__section-title">Overview</h2>
+            <div class="exhibit__prose"><p>The Minsky Sandpaper system (formally &#039;Computational Haptics: the Sandpaper System for Synthesizing Texture for a Force-Feedback Display&#039;) was developed by Margaret Minsky at the MIT Media Lab beginning in the late 1980s, with the foundational paper presented at SIGGRAPH 1990. It consisted of a custom-built 2-DOF force-feedback joystick coupled with software that could algorithmically synthesize the feel of virtual surface textures — sandpaper, rubber, velvet, corduroy, and brushed metal — by modulating lateral (tangential) forces in real time as the user moved the joystick. The core innovation was the lateral-force algorithm: rather than attempting to physically reproduce surface microgeometry with vibrating pins or vertical actuators, Minsky treated texture as a programmable force field computed from a height-field representation. This insight — that convincing haptic textures could be rendered entirely through in-plane forces at ~1 kHz servo rates — marked the birth of computational haptics as a research field.</p>
+<p>The physical device was an integrated assembly of two DC servo motors mounted at right angles within a wooden-and-metal box, driving a joystick through direct-drive linkages. Optical encoders provided position sensing; the motors operated in current-drive mode for proportional torque. A custom ISA-bus interface board connected to a Sun workstation or early PC. Users could explore an entire palette of virtual materials — fine and coarse sandpaper, rubber (damping-dominant), corduroy (oriented ridges), velvet (directional friction anisotropy), and brushed metal (directional striations) — with texture changes occurring instantaneously, as there were no physical texture plates to swap.</p>
+<p>Minsky, collaborating with psychologist Susan Lederman, conducted perceptual studies validating that users could reliably distinguish synthesized textures and that perceived roughness matched real-world psychophysical data. The SIGGRAPH 1990 paper &#039;Feeling and Seeing: Issues in Force Display&#039; (with co-authors Ouh-young, Steele, Brooks, and Behensky) has accumulated over 880 citations. Minsky&#039;s 1995 doctoral thesis remains available through MIT DSpace and is widely cited as foundational in the haptics literature.</p></div>
+          </section>
+
+          <section class="exhibit__section exhibit__deep-dive">
+            <h2 class="exhibit__section-title">Deep dive</h2>
+            <div class="exhibit__facts">
+        <div class="exhibit__fact">
+          <div class="exhibit__fact-heading"><strong>How Virtual Texture Was Synthesized.</strong></div>
+          <p>The Sandpaper system modeled each virtual surface as a 2D height field h(x,y), typically a 32×32 to 128×128 array. At each servo cycle (~1 kHz), the system sampled the joystick position, interpolated the local gradient of the height field, and computed restoring forces: F_x = −k_x · ∂h/∂x and F_y = −k_y · ∂h/∂y. Different textures were produced by varying the spatial frequency content of h(x,y): fine sandpaper used high-frequency filtered noise, corduroy used oriented ridges, and rubber used low-frequency damping. An optional velocity-dependent damping term (F ← F − b·v) produced the characteristic &#039;catch-and-release&#039; stick-slip sensation of coarse grit. Crucially, no normal-force (vertical) actuator was needed — the brain interpreted the lateral force variations as surface roughness, a remarkable perceptual illusion that validated the entire approach.</p>
+        </div>
+      
+        <div class="exhibit__fact">
+          <div class="exhibit__fact-heading"><strong>The Hardware: Wooden Box, DC Motors, Metal Linkages.</strong></div>
+          <p>The joystick used two Pittman-series iron-core DC servo motors mounted at right angles, driving the handle through direct-drive linkages to minimize backlash and friction. Optical encoders on the motor shafts provided position sensing. The motors operated in current-drive mode — controlling motor current directly produced proportional torque, which translated to force at the handle. A custom ISA-bus interface card read encoder positions and commanded motor currents. All texture computation ran on the host CPU (a Sun workstation or early PC). Two generations of hardware were built: the original force-feedback joystick (1984–89) and a smaller &#039;pingpong joystick&#039; interface for later experiments. The system required only 2 DOF (planar motion) to produce convincing sensations across a wide range of virtual materials.</p>
+        </div>
+      
+        <div class="exhibit__fact">
+          <div class="exhibit__fact-heading"><strong>Intellectual Lineage: Minsky, Media Lab, and UNC.</strong></div>
+          <p>Margaret Minsky, daughter of AI pioneer Marvin Minsky, earned her BS in Mathematics from MIT and her PhD in Media Arts and Sciences from the MIT Media Lab (1995), advised by Nicholas Negroponte. The Sandpaper work was conducted at the Media Lab during its foundational era. Concurrently, Margaret was a Visiting Scholar at UNC Chapel Hill&#039;s Computer Science Department, collaborating with Frederick P. Brooks Jr. — the Turing Award winner behind the IBM System/360 and UNC&#039;s pioneering VR/graphics research. Brooks and his student Ming Ouh-young had developed the GROPE haptic display for molecular docking; Minsky&#039;s texture work complemented this by adding surface feel to the haptic vocabulary. The 1990 SIGGRAPH paper&#039;s author list (Minsky, Ouh-young, Steele, Brooks, Behensky) is a who&#039;s-who of early haptics and VR research.</p>
+        </div>
+      
+        <div class="exhibit__fact">
+          <div class="exhibit__fact-heading"><strong>From PhD Thesis to Foundational Citation.</strong></div>
+          <p>The Sandpaper system was first presented at the 1990 ACM SIGGRAPH Symposium on 3D Interactive Graphics. Minsky&#039;s 1995 PhD thesis, &#039;Computational Haptics: the Sandpaper System for Synthesizing Texture for a Force-Feedback Display,&#039; remains widely cited. A 1996 follow-up paper with Susan Lederman, &#039;Simulated Haptic Textures: Roughness,&#039; validated the psychophysical accuracy of the synthesized textures. Minsky later reflected on the field&#039;s trajectory in &#039;Will Haptics Research Parallel Computer Graphics Research?&#039; (ICAT 1997), drawing explicit parallels between the early days of computer graphics and the nascent field of computational haptics. Her &#039;Home Haptics&#039; technical report (MIT AI Lab, 1996) explored bringing texture feedback into consumer contexts — remarkably prescient given today&#039;s haptic-enabled phones, game controllers, and VR devices.</p>
+        </div>
+      </div>
+          </section>
+
+          
+          <section class="exhibit__section exhibit__team">
+            <h2 class="exhibit__section-title">Team &amp; pioneers</h2>
+            <ul class="exhibit__team-list">
+            <li class="exhibit__team-item">
+              <span class="exhibit__team-name">Margaret Minsky.</span>
+              <span class="exhibit__team-note"> Lead researcher, inventor of the lateral-force algorithm. PhD MIT Media Lab (1995). Daughter of AI pioneer Marvin Minsky. Later directed research at Atari Cambridge Laboratory and Interval Research Corporation.</span>
+            </li>
+            <li class="exhibit__team-item">
+              <span class="exhibit__team-name">Frederick P. Brooks Jr..</span>
+              <span class="exhibit__team-note"> Turing Award winner (1999). Led IBM System/360 development, founded UNC&#039;s VR research program. Co-author on the 1990 SIGGRAPH paper and host of Minsky as Visiting Scholar at UNC.</span>
+            </li>
+            <li class="exhibit__team-item">
+              <span class="exhibit__team-name">Ming Ouh-young.</span>
+              <span class="exhibit__team-note"> PhD student of Brooks at UNC Chapel Hill. Worked on the GROPE molecular docking haptic display and co-authored the 1990 SIGGRAPH paper.</span>
+            </li>
+            <li class="exhibit__team-item">
+              <span class="exhibit__team-name">Oliver Steele.</span>
+              <span class="exhibit__team-note"> Software collaborator and co-author on the 1990 SIGGRAPH paper. Longtime collaborator of Margaret Minsky.</span>
+            </li>
+            <li class="exhibit__team-item">
+              <span class="exhibit__team-name">Michael Behensky.</span>
+              <span class="exhibit__team-note"> Hardware engineering collaborator. Co-author on the 1990 SIGGRAPH paper.</span>
+            </li>
+            <li class="exhibit__team-item">
+              <span class="exhibit__team-name">Susan Lederman.</span>
+              <span class="exhibit__team-note"> Psychologist specializing in tactile perception. Co-author with Minsky on &#039;Simulated Haptic Textures: Roughness&#039; (1996).</span>
+            </li>
+            <li class="exhibit__team-item">
+              <span class="exhibit__team-name">Nicholas Negroponte.</span>
+              <span class="exhibit__team-note"> Co-founder and chairman of the MIT Media Lab. Served as Minsky&#039;s doctoral advisor.</span>
+            </li>
+            </ul>
+          </section>
+
+          
+          <section class="exhibit__section exhibit__media">
+            <h2 class="exhibit__section-title">Media</h2>
+            <div class="exhibit__media-grid">
+        <figure class="exhibit__media-item">
+          <div class="exhibit__media-frame">
+            <img src="../../assets/wiki/minsky-sandpaper-1.webp" alt="Margaret Minsky with the force-feedback joystick, photographed by Peter Menzel" loading="lazy" />
+            <div class="exhibit__media-scanlines" aria-hidden="true"></div>
+          </div>
+          <figcaption>Margaret Minsky with the Sandpaper force-feedback joystick. The wooden box houses DC servo motors, optical encoders, and direct-drive linkages that rendered virtual textures through lateral forces. Photo by Peter Menzel. (mminsky.com)</figcaption>
+        </figure>
+      
+        <figure class="exhibit__media-item">
+          <div class="exhibit__media-frame">
+            <img src="../../assets/wiki/minsky-sandpaper-2.webp" alt="Close-up of haptic hardware — motors, linkages, and the wooden box enclosure" loading="lazy" />
+            <div class="exhibit__media-scanlines" aria-hidden="true"></div>
+          </div>
+          <figcaption>Inside the Sandpaper joystick: Pittman-series DC servo motors mounted at right angles with direct-drive linkages and optical encoders for precise position sensing. (mminsky.com)</figcaption>
+        </figure>
+      
+        <figure class="exhibit__media-item">
+          <div class="exhibit__media-frame">
+            <img src="../../assets/wiki/minsky-sandpaper-3.jpg" alt="Force-Feedback Joystick as preserved in the King&#039;s College London research collection" loading="lazy" />
+            <div class="exhibit__media-scanlines" aria-hidden="true"></div>
+          </div>
+          <figcaption>The force-feedback joystick preserved in the Margaret Minsky research collection at King&#039;s College London — one of the surviving artifacts of computational haptics&#039; origin moment. (King&#039;s College London)</figcaption>
+        </figure>
+      
+        <figure class="exhibit__media-item">
+          <div class="exhibit__media-frame">
+            <img src="../../assets/wiki/minsky-sandpaper-4.jpg" alt="Margaret Minsky with the joystick, archival print of the Peter Menzel photograph" loading="lazy" />
+            <div class="exhibit__media-scanlines" aria-hidden="true"></div>
+          </div>
+          <figcaption>Archival print of Peter Menzel&#039;s photograph of Margaret Minsky with the Sandpaper joystick, from the King&#039;s College London research collection. (King&#039;s College London)</figcaption>
+        </figure>
+      </div>
+          </section>
+          
+
+          
+          <section class="exhibit__section exhibit__sources">
+            <h2 class="exhibit__section-title">Sources</h2>
+            <ol class="exhibit__source-list">
+        <li>
+          <a href="https://dspace.mit.edu/handle/1721.1/29094" target="_blank" rel="noopener">Minsky, M. (1995). Computational haptics: the Sandpaper system for synthesizing texture for a force-feedback display. PhD Thesis, MIT. Advisor: Nicholas Negroponte.</a>
+        </li>
+      
+        <li>
+          <a href="https://doi.org/10.1145/91394.91451" target="_blank" rel="noopener">Minsky, M., Ouh-young, M., Steele, O., Brooks, F. P., &amp; Behensky, M. (1990). Feeling and Seeing: Issues in Force Display. ACM SIGGRAPH Computer Graphics, 24(2), 235–241. (880+ citations)</a>
+        </li>
+      
+        <li>
+          <a href="https://doi.org/10.1115/imece1996-0365" target="_blank" rel="noopener">Minsky, M. &amp; Lederman, S. J. (1996). Simulated Haptic Textures: Roughness. ASME IMECE, DSC-Vol. 58.</a>
+        </li>
+      
+        <li>
+          <a href="https://mminsky.com/research.html" target="_blank" rel="noopener">Margaret Minsky — Research Page (mminsky.com)</a>
+        </li>
+      
+        <li>
+          <a href="https://www.kcl.ac.uk/research/margaret-minsky" target="_blank" rel="noopener">Margaret Minsky — King&#039;s College London Research Collection</a>
+        </li>
+      
+        <li>
+          <a href="https://www.exploratorium.edu/tinkering/tinkerers/margaret-minsky" target="_blank" rel="noopener">Margaret Minsky — Exploratorium Tinkering Studio</a>
+        </li>
+      
+        <li>
+          <a href="https://history.siggraph.org/person/margaret-r-minsky/" target="_blank" rel="noopener">Margaret R. Minsky — ACM SIGGRAPH History Archives</a>
+        </li>
+      
+        <li>
+          <a href="http://cma.hkust-gz.edu.cn/faculty-regular/margaret-minsky/" target="_blank" rel="noopener">Margaret Minsky — HKUST(GZ) Computational Media and Arts faculty profile</a>
+        </li>
+      
+        <li>
+          <a href="https://news.mit.edu/2016/marvin-minsky-obituary-0125" target="_blank" rel="noopener">Marvin Minsky obituary — MIT News (confirms Margaret Minsky as daughter)</a>
+        </li>
+      </ol>
+          </section>
+          
+
+          <nav class="exhibit__nav" aria-label="Exhibit navigation">
+            <a href="../konami-laserscope/" class="exhibit__nav-link exhibit__nav-link--prev">
+        <span class="exhibit__nav-dir">← Previous</span>
+        <span class="exhibit__nav-title">Konami LaserScope</span>
+      </a>
+            <a href="../../exhibits/" class="exhibit__nav-link exhibit__nav-link--index">All exhibits</a>
+            <a href="../williams-facial-animation/" class="exhibit__nav-link exhibit__nav-link--next">
+        <span class="exhibit__nav-dir">Next →</span>
+        <span class="exhibit__nav-title">Performance-Driven Facial Animation</span>
+      </a>
+          </nav>
+        </article>
+      </main>
+
+      <footer class="site-footer">
+        <span>HCI Museum // Curated by Beepy</span>
+        <span class="site-footer__signal">SIGNAL_STABLE</span>
+      </footer>
+    </div>
+
+    <!-- Cloudflare Web Analytics --><script defer src='https://static.cloudflareinsights.com/beacon.min.js' data-cf-beacon='{"token": "8dcb1e0fcb41470b8769c87691688807"}'></script><!-- End Cloudflare Web Analytics -->
+  </body>
+</html>
