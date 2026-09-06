@@ -3025,6 +3025,32 @@ const exhibitData: Exhibit[] = [
     tags: ["HCI", "Input", "Display", "Calculator", "Graphical Output"],
     image: img("casio-fx-7000g.jpg"),
   },
+  {
+    id: "ge-talaria",
+    slug: "ge-talaria",
+    wikiTitle: "GE Talaria Light-Valve Video Projector",
+    year: "1983",
+    sortYear: 1983,
+    title: "GE Talaria Light-Valve Video Projector",
+    subtitle: "A full video image sculpted by electrons into a spinning film of oil, read by light bent into a shadow",
+    blurb:
+      "A video projector with no picture tube and no pixels. Inside, a rotating glass disc is continuously re-coated with a thin film of viscous oil; a conventional electron beam sweeps a raster across the oil, physically deforming it into a diffraction grating. Light from a Xenon arc lamp is diffracted by the carved oil and imaged through Schlieren optics; undisturbed oil falls into a light trap and shows black. Color is split into red/green/blue via dichroic filters, each writing its own oil film. The image is literally sculpted from oil — one of the strangest output mechanisms ever commercialized, with no near neighbor anywhere in the collection.",
+    tags: ["HCI", "Output", "Display", "Light Valve"],
+    image: img("ge-talaria.png"),
+  },
+  {
+    id: "ferranti-packard-flipdot",
+    slug: "ferranti-packard-flipdot",
+    wikiTitle: "Ferranti-Packard Flip-Disc Display",
+    year: "1976",
+    sortYear: 1976,
+    title: "Ferranti-Packard Flip-Disc Display",
+    subtitle: "An electromechanical dot matrix where each pixel is a metal disc flipped by a solenoid pulse and locked in place with no power at all",
+    blurb:
+      "A purely electromechanical, bistable dot-matrix display: each pixel is a two-sided metal disc on an axle with a permanent magnet; a solenoid pulse flips it and it latches, holding its state with zero energy. Patented by Kenyon Taylor (1961) and mass-produced by Ferranti-Packard, it filled stock-exchange boards, transit destination signs, highway signs, and — most famously — the Family Feud answer board from 1976. The image updates with a soft thunder of tiny flipping latches: a display that is also a small mechanical performance. The output mechanism is the entire story.",
+    tags: ["HCI", "Output", "Display", "Electromechanical"],
+    image: img("ferranti-packard-family-feud.jpg"),
+  },
 ];
 
 export const exhibits: Exhibit[] = exhibitData.toSorted((a, b) => b.sortYear - a.sortYear || a.title.localeCompare(b.title));
