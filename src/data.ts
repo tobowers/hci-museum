@@ -3077,6 +3077,32 @@ const exhibitData: Exhibit[] = [
     tags: ["HCI", "Input", "Keyboard", "Chording", "Modifier"],
     image: img("space-cadet.jpg"),
   },
+  {
+    id: "luma-lu1000-lumaphone",
+    slug: "luma-lu1000-lumaphone",
+    wikiTitle: "Luma LU-1000 Lumaphone",
+    year: "1986",
+    sortYear: 1986,
+    title: "Luma LU-1000 Lumaphone",
+    subtitle: "A $1,500 desk phone that transmitted a single still photograph every few seconds over an ordinary phone line",
+    blurb:
+      "A 'picture phone' that could not stream video: over a plain analog phone line it traded a single still image every three to five seconds — a walkie-talkie for faces, born out of Atari's defunct Ataritel division and sold by Mitsubishi. Its most human detail is a physical sliding privacy door that shuts over the camera lens when you don't want to be seen, an embodied affordance that software-only video calling has no equivalent for. The still-frame cadence and the sliding shutter make the act of a video call physical in a way nothing else in the museum does.",
+    tags: ["HCI", "Telephony", "Video", "Consumer", "Communication"],
+    image: img("luma-lumaphone.jpg"),
+  },
+  {
+    id: "honeywell-visicorder",
+    slug: "honeywell-visicorder",
+    wikiTitle: "Honeywell Visicorder",
+    year: "1980",
+    sortYear: 1980,
+    title: "Honeywell Visicorder (Fiber-Optic CRT Optical Recorder)",
+    subtitle: "An oscillograph where the picture tube itself is the pen — a CRT whose fiber-optic faceplate writes directly onto moving photosensitive paper",
+    blurb:
+      "The strangest member of the museum's output-mechanism family: no pen, no galvanometer mirror, no ink. A stationary cathode-ray tube's fiber-optic faceplate physically touches the moving chart paper, and the electron beam writes straight through the tube onto photosensitive film that develops after the run. The operator loads light-sensitive paper in a darkroom magazine, threads it against the glowing tube face, sets a chart speed up to thousands of millimeters a second, and develops the 'wet trace' like film. The CRT is the stylus — an interface where the readout literally is light touching paper.",
+    tags: ["HCI", "Output", "Instrumentation", "Display", "Industrial"],
+    image: img("honeywell-visicorder.jpg"),
+  },
 ];
 
 export const exhibits: Exhibit[] = exhibitData.toSorted((a, b) => b.sortYear - a.sortYear || a.title.localeCompare(b.title));
