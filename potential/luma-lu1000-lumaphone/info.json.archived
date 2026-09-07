@@ -1,0 +1,47 @@
+{
+  "slug": "luma-lu1000-lumaphone",
+  "title": "Luma LU-1000 Lumaphone",
+  "year": "1986",
+  "subtitle": "A $1,500 desk phone that transmitted a single still photograph every few seconds over an ordinary phone line",
+  "why_scout_cares": "A 'picture phone' that could not stream video: over a plain analog phone line it traded a single still image every three to five seconds — a walkie-talkie for faces, born out of Atari's defunct Ataritel division and sold by Mitsubishi. Its most human detail is a physical sliding privacy door that shuts over the camera lens when you don't want to be seen, an embodied affordance that software-only video calling has no equivalent for. The still-frame cadence and the sliding shutter make the act of a video call physical in a way nothing else in the museum does.",
+  "search_terms": ["Luma LU-1000 picture phone", "Ataritel Luma phone Mitsubishi", "1986 still videophone POTS", "Lumaphone privacy shutter", "electronic still picture telephone"],
+  "research": {
+    "title": "Luma LU-1000 Lumaphone",
+    "year": "1986",
+    "by": "Mitsubishi Electric of America (project originated at Atari's Ataritel division)",
+    "tags": ["Telephony", "Video", "Consumer", "Communication"],
+    "overview": "The Luma LU-1000, marketed in 1986 for about $1,500, was a desktop telephone-videophone that could not actually stream video. Over an ordinary analog POTS phone line it transmitted a single still image every three to five seconds — a picture-by-picture cadence like a slow-motion slideshow, descended from Bell Labs' experimental image-transfer telephony of 1956.\n\nThe unit packed a tiny black-and-white CRT (roughly 1.6 inches) with a small camera beside it. You lifted the handset, dialed normally, and the far end's face refreshed in discrete still bursts. The most embodied detail is a physical sliding privacy door that slides over the camera lens to block it when not in use — a tactile shutter deciding whether the other person could see you. The Luma doubled as an electronic still camera: images could be stored to tape drives, printed on a dedicated printer, or patched into a TV for teleconferencing.\n\nThe device is notable commercially for its strange parentage: the project began in 1983 at Atari's short-lived Ataritel division (Atari's attempt to enter telephony), which was sold to Mitsubishi in 1984. A consumer picture phone that stalled on the plain old telephone line's bandwidth, it is the commercially-odd sibling of AT&T's VideoPhone 2500 (1992), which achieved real moving video over the same lines six years later.",
+    "deepDive": [
+      {
+        "heading": "The still-frame cadence",
+        "text": "Where the 1992 AT&T VideoPhone 2500 managed compressed video, the Luma shipped the older compromise: one still picture every few seconds. That cadence changes the whole social texture of a call — you get snapshots, not motion, and each one is a deliberate present. It is a videophone that reads like a fax of a face."
+      },
+      {
+        "heading": "The sliding privacy shutter",
+        "text": "The camera had a physical sliding door. Sliding it shut was a real, embodied decision about being seen — the closest a consumer device came to a hardware 'do not film me' that only the later keyboard-mounted webcam covers and the iris shutter on some laptops ever revisited. The affordance is tactile and permanent, not a software toggle."
+      },
+      {
+        "heading": "Atari's telephone detour",
+        "text": "The Luma's roots in Ataritel, Atari's 1983 attempt to expand into telephone hardware before the home-computer crash, give it a strange commercial story: a videophone conceived inside the arcade-and-console giant and finished by Mitsubishi. The 'picture phone' that could not move was a plausible product only in that brief, weird window."
+      }
+    ],
+    "team": [
+      { "name": "Ataritel (Atari)", "note": "Originated the project c.1983 as part of Atari's push into telephony" },
+      { "name": "Mitsubishi Electric of America", "note": "Acquired the Ataritel project in 1984 and sold the finished Luma LU-1000 in 1986" }
+    ],
+    "media": [
+      { "src": "https://upload.wikimedia.org/wikipedia/commons/b/b5/AtariTel_Mitsubishi_Luma_Phone_%289727158384%29.jpg", "alt": "Luma LU-1000 Lumaphone", "caption": "The Luma LU-1000 Lumaphone, the Atari-originated picture phone sold by Mitsubishi. CC BY 2.0, Wikimedia Commons." }
+    ],
+    "sources": [
+      { "text": "Wikipedia — History of videotelephony (Digital videotelephony section)", "url": "https://en.wikipedia.org/wiki/History_of_videotelephony" },
+      { "text": "Wikimedia Commons image — File:AtariTel_Mitsubishi_Luma_Phone_(9727158384).jpg", "url": "https://commons.wikimedia.org/wiki/File:AtariTel_Mitsubishi_Luma_Phone_(9727158384).jpg" },
+      { "text": "digicamhistory.com — early still/video picture phone references", "url": "https://www.digicamhistory.com/" }
+    ],
+    "imageUrls": [
+      "https://upload.wikimedia.org/wikipedia/commons/b/b5/AtariTel_Mitsubishi_Luma_Phone_%289727158384%29.jpg"
+    ]
+  },
+  "savedImages": [
+    "potential/luma-lu1000-lumaphone/images/luma-phone.jpg"
+  ]
+}

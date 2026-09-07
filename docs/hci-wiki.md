@@ -1,6 +1,6 @@
 # The HCI Golden Age Wiki
 
-A research compendium for a digital museum of cutting-edge Human-Computer Interaction from the late 1970s through the early 1990s. These two hundred and forty-seven projects mix canonical experiments with weird, forgotten, and beautiful vaporware — brain control, voice control, gesture, wearable computing, VR, robots, and full-body exertion.
+A research compendium for a digital museum of cutting-edge Human-Computer Interaction from the late 1970s through the early 1990s. These two hundred and forty-nine projects mix canonical experiments with weird, forgotten, and beautiful vaporware — brain control, voice control, gesture, wearable computing, VR, robots, and full-body exertion.
 
 Each entry includes an overview, a deep dive, a small media gallery, and full source links so the images and facts can always be traced back.
 
@@ -254,6 +254,8 @@ Each entry includes an overview, a deep dive, a small media gallery, and full so
   245. [Ferranti-Packard Flip-Disc Display (1976)](#ferranti-packard-flip-disc-display-1976)
   246. [Linotype CRTronic (1979)](#linotype-crtronic-1979)
   247. [Space-Cadet Keyboard (1978)](#space-cadet-keyboard-1978)
+  248. [Luma LU-1000 Lumaphone (1986)](#luma-lu-1000-lumaphone-1986)
+  249. [Honeywell Visicorder (1980)](#honeywell-visicorder-1980)
 
 ---
 
@@ -11558,3 +11560,69 @@ Many keys carry three symbols — a letter and a symbol on top, a Greek letter o
 1. Wikipedia — Space-cadet keyboard — https://en.wikipedia.org/wiki/Space-cadet_keyboard
 2. The Jargon File — space-cadet keyboard — http://www.catb.org/jargon/html/S/space-cadet-keyboard.html
 3. Xah Lee — Space-cadet Keyboard and Lisp Machine Keyboards — http://xahlee.info/kbd/lisp_keyboards.html
+
+## Luma LU-1000 Lumaphone (1986)
+**By:** Mitsubishi Electric of America (project originated at Atari's Ataritel division)
+**Tags:** `Telephony` `Video` `Consumer` `Communication`
+
+### Overview
+
+The Luma LU-1000, marketed in 1986 for about $1,500, was a desktop telephone-videophone that could not actually stream video. Over an ordinary analog POTS phone line it transmitted a single still image every three to five seconds — a picture-by-picture cadence like a slow-motion slideshow, descended from Bell Labs' experimental image-transfer telephony of 1956.
+
+The unit packed a tiny black-and-white CRT (roughly 1.6 inches) with a small camera beside it. You lifted the handset, dialed normally, and the far end's face refreshed in discrete still bursts. The most embodied detail is a physical sliding privacy door that slides over the camera lens to block it when not in use — a tactile shutter deciding whether the other person could see you. The Luma doubled as an electronic still camera: images could be stored to tape drives, printed on a dedicated printer, or patched into a TV for teleconferencing.
+
+The device is notable commercially for its strange parentage: the project began in 1983 at Atari's short-lived Ataritel division (Atari's attempt to enter telephony), which was sold to Mitsubishi in 1984. A consumer picture phone that stalled on the plain old telephone line's bandwidth, it is the commercially-odd sibling of AT&T's VideoPhone 2500 (1992), which achieved real moving video over the same lines six years later.
+
+### Deep dive
+
+* **The still-frame cadence.** Where the 1992 AT&T VideoPhone 2500 managed compressed video, the Luma shipped the older compromise: one still picture every few seconds. That cadence changes the whole social texture of a call — you get snapshots, not motion, and each one is a deliberate present. It is a videophone that reads like a fax of a face.
+* **The sliding privacy shutter.** The camera had a physical sliding door. Sliding it shut was a real, embodied decision about being seen — the closest a consumer device came to a hardware "do not film me" that only the later keyboard-mounted webcam covers and the iris shutter on some laptops ever revisited. The affordance is tactile and permanent, not a software toggle.
+* **Atari's telephone detour.** The Luma's roots in Ataritel, Atari's 1983 attempt to expand into telephone hardware before the home-computer crash, give it a strange commercial story: a videophone conceived inside the arcade-and-console giant and finished by Mitsubishi. The "picture phone" that could not move was a plausible product only in that brief, weird window.
+
+### Team
+
+* **Ataritel (Atari).** Originated the project c.1983 as part of Atari's push into telephony.
+* **Mitsubishi Electric of America.** Acquired the Ataritel project in 1984 and sold the finished Luma LU-1000 in 1986.
+
+### Media
+
+![The Luma LU-1000 Lumaphone](../assets/wiki/luma-lumaphone.jpg)
+*The Luma LU-1000 Lumaphone, the Atari-originated picture phone sold by Mitsubishi. CC BY 2.0, Wikimedia Commons.*
+
+### Sources
+
+1. Wikipedia — History of videotelephony — https://en.wikipedia.org/wiki/History_of_videotelephony
+2. Wikimedia Commons image — File:AtariTel_Mitsubishi_Luma_Phone_(9727158384).jpg — https://commons.wikimedia.org/wiki/File:AtariTel_Mitsubishi_Luma_Phone_(9727158384).jpg
+
+## Honeywell Visicorder (1980)
+**By:** Honeywell Test Instruments Division
+**Tags:** `Output` `Instrumentation` `Display` `Industrial`
+
+### Overview
+
+The Honeywell Visicorder was a family of optical chart recorders used through the 1970s and 1980s in high-bandwidth telemetry — the models documented here served the launch-operations building at Vandenberg Air Force Base's Space Launch Complex 3. Among the family, the fiber-optic CRT recorder is the genuinely extraordinary variant: a stationary cathode-ray tube whose faceplate is a fiber-optic window in physical contact with the moving chart paper.
+
+In these instruments the signal beam writes directly through the fiber-optic window onto photosensitive paper that slides past in contact with the tube face. There is no stylus, no pen, no galvanometer mirror, no ink — the CRT itself is the writing element. The operator loads light-sensitive paper in a darkroom magazine, threads it around the drum or platen against the tube face, chooses a chart-drive speed (up to roughly 3,000 mm/s on the fastest machines), and selects paper length. The output is a "wet trace" that develops out only in the light after the run.
+
+That makes the read ritual unusual too: the paper is developed after recording, so the trace is not available instantly but emerges from a chemical process, more like film than a live strip chart. For missile-launch telemetry this bought enormous bandwidth — the fiber-optic faceplate lets the beam write at speeds mechanical pens could never reach — at the cost of turning the readout into a darkroom choreography.
+
+### Deep dive
+
+* **The CRT as stylus.** Most recorders move a pen across paper. The Visicorder fiber-optic recorder inverts the mechanic: the paper moves against a fixed tube face and the electron beam does the writing, projecting a spot of light straight through the fiber-optic window onto photosensitive film. The display surface and the writing mechanism are the same object.
+* **A darkroom choreography.** Because the medium is photosensitive film, using the instrument is a darkroom ritual: load the magazine in darkness, thread the paper in contact with the tube, run, then develop the trace in light. It is output-as-film — a recorder whose human workflow is closer to a photographer's than an engineer's.
+* **Bandwidth as the point.** The reason for the mechanism was speed: fiber-optic faceplates let a cathode-ray beam write at frequencies mechanical galvanometers could not follow, capturing transient launch telemetry as a continuous photographic record. The exotic interface exists because the data outran the pen.
+
+### Team
+
+* **Honeywell Test Instruments Division.** Manufactured the Visicorder optical chart recorder family used in telemetry and lab recording.
+
+### Media
+
+![Honeywell Visicorder optical chart recorder](../assets/wiki/honeywell-visicorder.jpg)
+*Honeywell Visicorder optical chart recorder in the launch-operations building at Vandenberg AFB. Public-domain HAER/NPS photograph, Wikimedia Commons.*
+
+### Sources
+
+1. Wikipedia — Chart recorder — https://en.wikipedia.org/wiki/Chart_recorder
+2. Library of Congress HAER record — Vandenberg AFB SLC-3 — https://www.loc.gov/pictures/collection/hh/
+3. Wikimedia Commons image — File:DETAIL_OF_HONEYWELL_'VISICORDER'_OPTICAL_CHART_RECORDER - Vandenberg...HAER_CAL,42-LOMP,1A-94.tif — https://commons.wikimedia.org/wiki/File:DETAIL_OF_HONEYWELL_%27VISICORDER%27_OPTICAL_CHART_RECORDER_-_Vandenberg_Air_Force_Base,_Space_Launch_Complex_3,_Launch_Operations_Building,_Napa_and_Alden_Roads,_Lompoc,_Santa_HAER_CAL,42-LOMP,1A-94.tif
