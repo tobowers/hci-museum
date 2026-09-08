@@ -1,0 +1,74 @@
+{
+  "slug": "supermarket-laser-scanner",
+  "title": "Supermarket Checkout Laser Scanner",
+  "year": "1974",
+  "subtitle": "The glass window you swipe groceries across — object-as-input over a fixed scanning surface, the sound of checkout itself",
+  "why_scout_cares": "Every other scanning exhibit in the museum is a handheld wand or a data-storage barcode. The fixed-position supermarket checkout scanner is the one where you pass a physical item over a glass window and the machine reads it — object-as-input over a fixed surface, with the iconic 'beep' of checkout. A commercially triumphant, physically ritual interaction with no near neighbor in the collection.",
+  "search_terms": [
+    "supermarket laser scanner checkout",
+    "Spectra-Physics Model A price scanner",
+    "UPC checkout scanner history",
+    "IBM supermarket scanner"
+  ],
+  "research": {
+    "title": "Supermarket Checkout Laser Scanner",
+    "year": "1974",
+    "by": "Spectra-Physics (first commercial: Marsh Supermarkets, Troy, OH); later IBM, NCR, Symbol",
+    "tags": ["HCI", "Input", "Retail", "Scanning", "Object-as-Input"],
+    "overview": "The fixed-position supermarket laser scanner replaced the act of typing prices with the act of swiping a physical item over a glass window. The first commercial deployment was the Spectra-Physics Model A installed at a Marsh supermarket in Troy, Ohio on 26 June 1974, projecting a helium-neon laser beam up through a glass plate; the cashier passed each item's UPC label across the window and the machine decoded it with a beep. It made checkout a physical ritual: lift, swipe, beep, repeat. The interface has no keyboard, no buttons, no screen to read — the object itself is the input, offered to a fixed scanning surface, and the entire feedback channel is a single tone.",
+    "deepDive": [
+      {
+        "heading": "The checkout beep",
+        "text": "The interaction model inverted the cash register. Before, the register was a keyboard the cashier typed into. The fixed scanner turned the checkout counter itself into a sensing surface: the cashier becomes an alignment operator, presenting each product to the window at the right orientation. The machine's only answer is a beep — success. It is feedback reduced to a single bit, and it worked for a generation."
+      },
+      {
+        "heading": "Origin and rollout",
+        "text": "The idea came from RCA's 1972 bullseye-code prototype, but the practical system was Spectra-Physics' laser scanner reading the UPC barcode. After the 1974 Troy, Ohio install, scanners spread through the late 1970s and 1980s, with IBM, NCR, and later Symbol Technologies building the fixed and handheld units that became ubiquitous. The fixed glass-window scanner remains the checkout interaction paradigm worldwide."
+      },
+      {
+        "heading": "Why it matters to HCI",
+        "text": "It is a pure case of object-as-input: no command language, no buttons — the physical good IS the instruction. And it is the rare input device whose feedback is a single audio beep standing in for an entire transaction's correctness. Decades before 'scannable objects' became a design concept, the supermarket scanner made every packaged good a barcode-bearing input token."
+      }
+    ],
+    "team": [
+      {
+        "name": "Spectra-Physics",
+        "note": "Developed the first commercial laser UPC checkout scanner (Model A)."
+      },
+      {
+        "name": "IBM / NCR / Symbol Technologies",
+        "note": "Built the fixed and handheld scanners that made checkout scanning ubiquitous through the 1980s."
+      }
+    ],
+    "media": [
+      {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/a/aa/An_old_price_scanner_at_a_supermarket.jpg",
+        "alt": "A classic fixed-position supermarket checkout laser scanner window set into a checkout counter",
+        "caption": "A fixed supermarket checkout scanner — the glass window items are swiped across (Luke, public domain via Wikimedia Commons)."
+      },
+      {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/d/dd/U.S._Patent_-_Supermarket_Scanner.jpg",
+        "alt": "United States patent drawing for a supermarket price scanner",
+        "caption": "U.S. patent drawing for a supermarket price scanner (United States Patent Office, public domain)."
+      }
+    ],
+    "sources": [
+      {
+        "text": "Smithsonian National Museum of American History — supermarket scanner (nmah_892778)",
+        "url": "https://www.si.edu/object/supermarket-scanner:nmah_892778"
+      },
+      {
+        "text": "American History SI — cash and credit registers collection",
+        "url": "http://americanhistory.si.edu/collections/object-groups/cash-and-credit-registers/electronic-cash-registers-and-point-of-sale-terminals"
+      }
+    ],
+    "imageUrls": [
+      "https://upload.wikimedia.org/wikipedia/commons/a/aa/An_old_price_scanner_at_a_supermarket.jpg",
+      "https://upload.wikimedia.org/wikipedia/commons/d/dd/U.S._Patent_-_Supermarket_Scanner.jpg"
+    ]
+  },
+  "savedImages": [
+    "images/supermarket-scanner-window.jpg",
+    "images/supermarket-scanner-patent.jpg"
+  ]
+}
