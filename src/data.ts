@@ -3129,6 +3129,19 @@ const exhibitData: Exhibit[] = [
     tags: ["HCI", "Input", "Music", "Musical Instrument", "Switch Matrix"],
     image: img("casio-dg20-front.jpg"),
   },
+  {
+    id: "easa-phone",
+    slug: "easa-phone",
+    wikiTitle: "National Easa-Phone Answering Machine",
+    year: "c. 1979",
+    sortYear: 1979,
+    title: "National Easa-Phone Answering Machine",
+    subtitle: "The answerphone whose message tape physically cannot be rewound — an endless loop of magnetic tape",
+    blurb:
+      "The National Easa-Phone (c. 1979) is a consumer answering machine from Matsushita whose defining feature is a pair of endless-loop cassette tapes — one for the outgoing greeting, one for the incoming message bank. Because each tape is a continuous ring, the machine physically cannot rewind a message: to hear something again you wait for the loop to come back around, tracking position on a mechanical counter. The storage medium is a ring, not a linear tape, and its geometry shapes how you navigate your own recorded messages — a literal case of the medium being the interface.",
+    tags: ["HCI", "Telephony", "Answering Machine", "Analog", "Physical Token"],
+    image: img("easa-phone-hero.jpg"),
+  },
 ];
 
 export const exhibits: Exhibit[] = exhibitData.toSorted((a, b) => b.sortYear - a.sortYear || a.title.localeCompare(b.title));
