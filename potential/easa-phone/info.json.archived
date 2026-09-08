@@ -1,0 +1,79 @@
+{
+  "slug": "easa-phone",
+  "title": "National Easa-Phone Answering Machine",
+  "year": "c. 1979",
+  "subtitle": "The answerphone whose message tape physically cannot be rewound — an endless loop of magnetic tape, navigated by a mechanical counter",
+  "why_scout_cares": "The Easa-Phone is a genuinely strange, commercially-odd consumer artifact where the message medium IS the interface. It runs two endless-loop cassette tapes — one for the outgoing greeting, one for the incoming message bank. Because each tape is a continuous loop, the machine physically cannot rewind a message: to hear something again you must wait for the loop to come back around, tracking your position on a mechanical tape counter. It is the 'the medium is the interface' idea (the same family as the museum's 2-XL, Sony Typecorder, and IBM 6:5) rendered as a domestic appliance. Distinct from every telephony device in the collection.",
+  "search_terms": [
+    "Easa-Phone answering machine National Panasonic endless loop tape",
+    "endless loop cassette answering machine greeting message",
+    "Kazuo Hashimoto endless loop answerphone",
+    "National Easa-Phone answering machine",
+    "answering machine endless loop tape cannot rewind"
+  ],
+  "research": {
+    "title": "National Easa-Phone Answering Machine",
+    "year": "c. 1979",
+    "by": "Matsushita Electric (National / Panasonic brand)",
+    "tags": ["Telephony", "Answering Machine", "Analog", "Physical Token", "Consumer"],
+    "overview": "The National Easa-Phone is a consumer answering machine made by Matsushita Electric and sold under the National/Panasonic brand, produced in the late 1970s through early 1980s. Its defining feature is a pair of endless-loop (continuous-loop) cassette tapes: one plays the outgoing greeting, the other records incoming messages. Because an endless-loop tape is literally a ring of magnetic tape that cannot be rewound, message playback is a waiting game — the machine's mechanical tape counter tracks position, and to replay a message you let the loop come back around.\n\nThe endless-loop answerphone mechanism was pioneered decades earlier — Kazuo Hashimoto, who later patented a digital answering-machine architecture (US 4,616,110), worked on endless-loop tape answerphones in the 1960s, and the concept appears in the 1930s-40s origins of automatic telephone answering. The Easa-Phone is a late, consumer-grade embodiment of the idea, packaged as an ordinary desk appliance.\n\nIts interaction model is the point for the museum: the message store is a ring, not a linear tape. There is no rewind button in the ordinary sense; the medium's geometry constrains how you navigate your own recorded messages, and the only feedback is mechanical — spinning reels and a counter. It belongs to the museum's 'the medium IS the interface' family, alongside 2-XL (8-track branching), Sony Typecorder (cassette-as-memory), and IBM 6:5 (magnetic-disc voice token).",
+    "deepDive": [
+      {
+        "heading": "The endless loop as an interface constraint",
+        "text": "Most answering machines of the era used standard cassettes you could rewind. The Easa-Phone's endless-loop tapes invert that: each tape is a sealed continuous loop that runs until it returns to its start, so replaying a message means waiting for the physical tape to come around. The user tracks position with a mechanical counter. The medium's geometry, not software, dictates how you interact with your own messages — an unusually literal case of the storage medium shaping the interaction."
+      },
+      {
+        "heading": "Two tapes, two channels",
+        "text": "The Easa-Phone runs two loops simultaneously: one carries the outgoing greeting (played to every caller), the other the incoming message bank. Separating announcement and messages onto physically distinct endless loops is a simple, tangible data model — a two-channel system where channel boundaries are literal pieces of plastic tape rather than address registers."
+      },
+      {
+        "heading": "The analog telephony lineage",
+        "text": "The endless-loop answerphone descends from Hashimoto's and others' work in the 1960s and reached consumers as a mature, ordinary appliance. It predates — and contrasts with — the first digital (RAM) answering machines of the late 1980s and AT&T's Model 1337 (1990), which replaced the physical message medium entirely. The Easa-Phone is the physical-token end of the answering-machine story."
+      }
+    ],
+    "team": [
+      {
+        "name": "Matsushita Electric (National / Panasonic)",
+        "note": "Maker of the Easa-Phone consumer answerphone, sold under the National brand."
+      },
+      {
+        "name": "Kazuo Hashimoto",
+        "note": "Pioneer of the endless-loop tape answerphone and later digital answering-machine architecture."
+      }
+    ],
+    "media": [
+      {
+        "src": "https://commons.wikimedia.org/wiki/File:National_Easa-Phone_Answering_Machine_by_Panasonic.jpg",
+        "alt": "National Easa-Phone answering machine by Panasonic",
+        "caption": "National Easa-Phone answering machine. CC0, Wikimedia Commons (phreakindee)."
+      },
+      {
+        "src": "https://commons.wikimedia.org/wiki/File:Dual_endless_cassette_tapes_in_National_Easa-Phone_20130722.jpg",
+        "alt": "Dual endless cassette tapes inside a National Easa-Phone",
+        "caption": "Dual endless-loop cassette tapes inside the Easa-Phone — one greeting loop, one message bank. CC0, Wikimedia Commons (phreakindee)."
+      }
+    ],
+    "sources": [
+      {
+        "text": "Wikipedia — Answering machine (endless-loop greeting tape mechanism)",
+        "url": "https://en.wikipedia.org/wiki/Answering_machine"
+      },
+      {
+        "text": "Wikimedia Commons — File:National_Easa-Phone_Answering_Machine_by_Panasonic.jpg",
+        "url": "https://commons.wikimedia.org/wiki/File:National_Easa-Phone_Answering_Machine_by_Panasonic.jpg"
+      },
+      {
+        "text": "Wikimedia Commons — File:Dual_endless_cassette_tapes_in_National_Easa-Phone_20130722.jpg",
+        "url": "https://commons.wikimedia.org/wiki/File:Dual_endless_cassette_tapes_in_National_Easa-Phone_20130722.jpg"
+      }
+    ],
+    "imageUrls": [
+      "https://commons.wikimedia.org/wiki/File:National_Easa-Phone_Answering_Machine_by_Panasonic.jpg",
+      "https://commons.wikimedia.org/wiki/File:Dual_endless_cassette_tapes_in_National_Easa-Phone_20130722.jpg"
+    ]
+  },
+  "savedImages": [
+    "images/easa-phone-hero.jpg",
+    "images/easa-phone-dual-endless-tapes.jpg"
+  ]
+}

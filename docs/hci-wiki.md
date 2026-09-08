@@ -1,6 +1,6 @@
 # The HCI Golden Age Wiki
 
-A research compendium for a digital museum of cutting-edge Human-Computer Interaction from the late 1970s through the early 1990s. These two hundred and fifty-one projects mix canonical experiments with weird, forgotten, and beautiful vaporware — brain control, voice control, gesture, wearable computing, VR, robots, and full-body exertion.
+A research compendium for a digital museum of cutting-edge Human-Computer Interaction from the late 1970s through the early 1990s. These two hundred and fifty-two projects mix canonical experiments with weird, forgotten, and beautiful vaporware — brain control, voice control, gesture, wearable computing, VR, robots, and full-body exertion.
 
 Each entry includes an overview, a deep dive, a small media gallery, and full source links so the images and facts can always be traced back.
 
@@ -257,7 +257,8 @@ Each entry includes an overview, a deep dive, a small media gallery, and full so
   248. [Luma LU-1000 Lumaphone (1986)](#luma-lu-1000-lumaphone-1986)
   249. [Honeywell Visicorder (1980)](#honeywell-visicorder-1980)
  250. [Supermarket Checkout Laser Scanner (1974)](#supermarket-checkout-laser-scanner-1974)
- 251. [Casio DG-20 Digital Guitar (1987)](#casio-dg-20-digital-guitar-1987)
+  251. [Casio DG-20 Digital Guitar (1987)](#casio-dg-20-digital-guitar-1987)
+  252. [National Easa-Phone Answering Machine (c. 1979)](#national-easa-phone-answering-machine-c-1979)
 
 ---
 
@@ -11689,3 +11690,40 @@ The strings are nylon triggers; strumming them fires the fretted note. The DG-20
 
 1. Wikimedia Commons image — File:CASIO_DG-20,_front_view.png — https://commons.wikimedia.org/wiki/File:CASIO_DG-20,_front_view.png
 2. Wikimedia Commons image — File:Lennart_with_Casio_Digital_Guitar.jpg — https://commons.wikimedia.org/wiki/File:Lennart_with_Casio_Digital_Guitar.jpg
+
+## National Easa-Phone Answering Machine (c. 1979)
+**By:** Matsushita Electric (National / Panasonic brand)
+**Tags:** `Telephony` `Answering Machine` `Analog` `Physical Token`
+
+### Overview
+
+The National Easa-Phone is a consumer answering machine made by Matsushita Electric and sold under the National/Panasonic brand, produced in the late 1970s through early 1980s. Its defining feature is a pair of endless-loop (continuous-loop) cassette tapes: one plays the outgoing greeting, the other records incoming messages. Because an endless-loop tape is literally a ring of magnetic tape that cannot be rewound, message playback is a waiting game — the machine's mechanical tape counter tracks position, and to replay a message you let the loop come back around.
+
+The endless-loop answerphone mechanism was pioneered decades earlier. Kazuo Hashimoto, who later patented a digital answering-machine architecture, worked on endless-loop tape answerphones in the 1960s. The Easa-Phone is a late, consumer-grade embodiment of the idea, packaged as an ordinary desk appliance.
+
+Its interaction model is the point for the museum: the message store is a ring, not a linear tape. There is no rewind button in the ordinary sense; the medium's geometry constrains how you navigate your own recorded messages, and the only feedback is mechanical — spinning reels and a counter. It belongs to the museum's "the medium IS the interface" family, alongside 2-XL (8-track branching), Sony Typecorder (cassette-as-memory), and IBM 6:5 (magnetic-disc voice token).
+
+### Deep dive
+
+* **The endless loop as an interface constraint.** Most answering machines of the era used standard cassettes you could rewind. The Easa-Phone's endless-loop tapes invert that: each tape is a sealed continuous loop that runs until it returns to its start, so replaying a message means waiting for the physical tape to come around. The user tracks position with a mechanical counter. The medium's geometry, not software, dictates how you interact with your own messages — an unusually literal case of the storage medium shaping the interaction.
+* **Two tapes, two channels.** The Easa-Phone runs two loops simultaneously: one carries the outgoing greeting (played to every caller), the other the incoming message bank. Separating announcement and messages onto physically distinct endless loops is a simple, tangible data model — a two-channel system where channel boundaries are literal pieces of plastic tape rather than address registers.
+* **The analog telephony lineage.** The endless-loop answerphone descends from Hashimoto's work in the 1960s and reached consumers as a mature, ordinary appliance. It predates — and contrasts with — the first digital (RAM) answering machines of the late 1980s and AT&T's Model 1337 (1990), which replaced the physical message medium entirely. The Easa-Phone is the physical-token end of the answering-machine story.
+
+### Team
+
+* **Matsushita Electric (National / Panasonic).** Maker of the Easa-Phone consumer answerphone, sold under the National brand.
+* **Kazuo Hashimoto.** Pioneer of the endless-loop tape answerphone and later digital answering-machine architecture.
+
+### Media
+
+![National Easa-Phone answering machine](../assets/wiki/easa-phone-hero.jpg)
+*National Easa-Phone answering machine. CC0, Wikimedia Commons.*
+
+![Dual endless cassette tapes inside a National Easa-Phone](../assets/wiki/easa-phone-dual-endless-tapes.jpg)
+*Dual endless-loop cassette tapes inside the Easa-Phone — one greeting loop, one message bank. CC0, Wikimedia Commons.*
+
+### Sources
+
+1. Wikipedia — Answering machine (endless-loop greeting tape mechanism) — https://en.wikipedia.org/wiki/Answering_machine
+2. Wikimedia Commons image — File:National_Easa-Phone_Answering_Machine_by_Panasonic.jpg — https://commons.wikimedia.org/wiki/File:National_Easa-Phone_Answering_Machine_by_Panasonic.jpg
+3. Wikimedia Commons image — File:Dual_endless_cassette_tapes_in_National_Easa-Phone_20130722.jpg — https://commons.wikimedia.org/wiki/File:Dual_endless_cassette_tapes_in_National_Easa-Phone_20130722.jpg
