@@ -1,6 +1,6 @@
 # The HCI Golden Age Wiki
 
-A research compendium for a digital museum of cutting-edge Human-Computer Interaction from the late 1970s through the early 1990s. These two hundred and forty-nine projects mix canonical experiments with weird, forgotten, and beautiful vaporware — brain control, voice control, gesture, wearable computing, VR, robots, and full-body exertion.
+A research compendium for a digital museum of cutting-edge Human-Computer Interaction from the late 1970s through the early 1990s. These two hundred and fifty-one projects mix canonical experiments with weird, forgotten, and beautiful vaporware — brain control, voice control, gesture, wearable computing, VR, robots, and full-body exertion.
 
 Each entry includes an overview, a deep dive, a small media gallery, and full source links so the images and facts can always be traced back.
 
@@ -256,6 +256,8 @@ Each entry includes an overview, a deep dive, a small media gallery, and full so
   247. [Space-Cadet Keyboard (1978)](#space-cadet-keyboard-1978)
   248. [Luma LU-1000 Lumaphone (1986)](#luma-lu-1000-lumaphone-1986)
   249. [Honeywell Visicorder (1980)](#honeywell-visicorder-1980)
+ 250. [Supermarket Checkout Laser Scanner (1974)](#supermarket-checkout-laser-scanner-1974)
+ 251. [Casio DG-20 Digital Guitar (1987)](#casio-dg-20-digital-guitar-1987)
 
 ---
 
@@ -11626,3 +11628,64 @@ That makes the read ritual unusual too: the paper is developed after recording, 
 1. Wikipedia — Chart recorder — https://en.wikipedia.org/wiki/Chart_recorder
 2. Library of Congress HAER record — Vandenberg AFB SLC-3 — https://www.loc.gov/pictures/collection/hh/
 3. Wikimedia Commons image — File:DETAIL_OF_HONEYWELL_'VISICORDER'_OPTICAL_CHART_RECORDER - Vandenberg...HAER_CAL,42-LOMP,1A-94.tif — https://commons.wikimedia.org/wiki/File:DETAIL_OF_HONEYWELL_%27VISICORDER%27_OPTICAL_CHART_RECORDER_-_Vandenberg_Air_Force_Base,_Space_Launch_Complex_3,_Launch_Operations_Building,_Napa_and_Alden_Roads,_Lompoc,_Santa_HAER_CAL,42-LOMP,1A-94.tif
+
+## Supermarket Checkout Laser Scanner (1974)
+**By:** Spectra-Physics (first commercial install); later IBM, NCR, Symbol Technologies
+**Tags:** `Input` `Retail` `Scanning` `Object-as-Input`
+
+### Overview
+
+The fixed-position supermarket laser scanner replaced the act of typing prices with the act of swiping a physical item over a glass window. The first commercial deployment was the Spectra-Physics Model A installed at a Marsh supermarket in Troy, Ohio, on 26 June 1974, projecting a helium-neon laser beam up through a glass plate; the cashier passed each item's UPC label across the window and the machine decoded it with a beep. It made checkout a physical ritual — lift, swipe, beep, repeat — and turned the checkout counter itself into a sensing surface.
+
+The interface has no keyboard, no buttons, no screen to read. The cashier becomes an alignment operator, offering each product to the window at the right orientation, and the machine's entire answer is a single tone. It is feedback reduced to one bit, standing in for an entire transaction's correctness, and it worked for a generation.
+
+### Deep dive
+
+* **Object-as-input.** Before, the register was a keyboard the cashier typed into. The fixed scanner inverts that: the physical good IS the instruction. Decades before "scannable objects" became a design idea, every packaged product was a barcode-bearing input token offered to a fixed window.
+* **The checkout beep.** The scanner's only feedback is a beep. A single sound carries the news that a thing was read correctly — an audio channel reduced to its absolute minimum, and one of the most recognized sounds in modern commerce.
+* **Origin and rollout.** The idea came from RCA's 1972 bullseye-code prototype, but the practical system was Spectra-Physics' laser reader for the UPC barcode. After the 1974 Troy, Ohio install, scanners spread through the late 1970s and 1980s, with IBM, NCR, and Symbol building the fixed and handheld units that became ubiquitous.
+
+### Team
+
+* **Spectra-Physics.** Built the first commercial laser UPC checkout scanner (Model A).
+* **IBM / NCR / Symbol Technologies.** Built the fixed and handheld scanners that made checkout scanning ubiquitous through the 1980s.
+
+### Media
+
+![A fixed supermarket checkout laser scanner](../assets/wiki/supermarket-scanner-window.jpg)
+*A fixed supermarket checkout scanner — the glass window items are swiped across. Public domain, Wikimedia Commons.*
+
+### Sources
+
+1. Smithsonian National Museum of American History — supermarket scanner (nmah_892778) — https://www.si.edu/object/supermarket-scanner:nmah_892778
+2. Wikimedia Commons image — File:An_old_price_scanner_at_a_supermarket.jpg — https://commons.wikimedia.org/wiki/File:An_old_price_scanner_at_a_supermarket.jpg
+
+## Casio DG-20 Digital Guitar (1987)
+**By:** Casio Computer Co.
+**Tags:** `Input` `Music` `Musical Instrument` `Switch Matrix`
+
+### Overview
+
+The Casio DG-20 Digital Guitar (1987) is a MIDI guitar controller built for consumers. Instead of converting the vibration of plucked strings into pitch through signal processing — the slow, error-prone route of most MIDI guitars — Casio hardwired the instrument's geometry into the electronics. The fretboard is a rubber membrane switch matrix: pressing a string against a fret completes a circuit that is physically wired to a specific MIDI pitch, so fretting a note is a switch closure, not a pitch estimate. There is no tracking latency because there is no tracking — the instrument guarantees the pitch by construction.
+
+The strings are nylon triggers; strumming them fires the fretted note. The DG-20 (and its non-MIDI sibling DG-10) aimed at hobbyists who wanted a synthesizer but did not want to learn a keyboard. It is the mass-market, membrane-switch end of the same idea as the museum's SynthAxe: the guitar as a MIDI input device.
+
+### Deep dive
+
+* **The fretboard as switch matrix.** Most MIDI guitars read pitch from a vibrating string and try to estimate the note, which introduces latency and errors. Casio's answer was to make each fret a switch — every fret contact on the membrane is electrically mapped to a specific pitch for each string. Fretting is not sensing, it is completing a circuit.
+* **No tracking, by construction.** Because the pitch is hardwired to the geometry, there is nothing to compute. The instrument eliminates the entire pitch-detection problem by re-engineering the input surface so that intent is structurally guaranteed.
+* **Consumer oddity.** The rubber strings and membrane fretboard made the DG-20 approachable and cheap, but also distinctly toy-like compared to professional controllers — a commercially odd, mass-market instrument that nonetheless anticipated a whole family of "the hardware guarantees the input" devices.
+
+### Team
+
+* **Casio Computer Co.** Maker of the DG-20 Digital Guitar and the earlier DG-10.
+
+### Media
+
+![Casio DG-20 Digital Guitar, front view](../assets/wiki/casio-dg20-front.jpg)
+*Casio DG-20 Digital Guitar, front view, showing the rubber-string trigger and membrane fretboard. CC BY 4.0, Wikimedia Commons.*
+
+### Sources
+
+1. Wikimedia Commons image — File:CASIO_DG-20,_front_view.png — https://commons.wikimedia.org/wiki/File:CASIO_DG-20,_front_view.png
+2. Wikimedia Commons image — File:Lennart_with_Casio_Digital_Guitar.jpg — https://commons.wikimedia.org/wiki/File:Lennart_with_Casio_Digital_Guitar.jpg

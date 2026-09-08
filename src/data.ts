@@ -3103,6 +3103,32 @@ const exhibitData: Exhibit[] = [
     tags: ["HCI", "Output", "Instrumentation", "Display", "Industrial"],
     image: img("honeywell-visicorder.jpg"),
   },
+  {
+    id: "supermarket-laser-scanner",
+    slug: "supermarket-laser-scanner",
+    wikiTitle: "Supermarket Checkout Laser Scanner",
+    year: "1974",
+    sortYear: 1974,
+    title: "Supermarket Checkout Laser Scanner",
+    subtitle: "The glass window you swipe groceries across — object-as-input over a fixed scanning surface, and the iconic beep of checkout",
+    blurb:
+      "The fixed-position supermarket laser scanner replaced typing prices with swiping physical items over a glass window. First commercial deployment: Spectra-Physics' Model A at a Marsh supermarket in Troy, Ohio, 26 June 1974, projecting a helium-neon beam up through the glass. The cashier becomes an alignment operator, presenting each UPC label to the window; the machine's only answer is a beep. No keyboard, no buttons, no readout to watch — the object itself is the input, offered to a fixed sensing surface, and an entire transaction's correctness collapses to a single tone.",
+    tags: ["HCI", "Input", "Retail", "Scanning", "Object-as-Input"],
+    image: img("supermarket-scanner-window.jpg"),
+  },
+  {
+    id: "casio-dg-20",
+    slug: "casio-dg-20",
+    wikiTitle: "Casio DG-20 Digital Guitar",
+    year: "1987",
+    sortYear: 1987,
+    title: "Casio DG-20 Digital Guitar",
+    subtitle: "A rubber-string guitar whose membrane fretboard hardwires each fret to a pitch — no tracking, because there is nothing to track",
+    blurb:
+      "The consumer end of the MIDI-guitar spectrum, and a genuinely different interaction from the museum's SynthAxe. The DG-20 has no pitch-to-MIDI tracking: nylon trigger strings and a rubber membrane fretboard where every fret contact is electrically hardwired to a specific MIDI pitch. Fretting is a switch closure, not a pitch estimate, so latency is eliminated by construction. Casio sold it to hobbyists who wanted a synthesizer but did not want to learn a keyboard — a mass-market, membrane-switch instrument where the hardware guarantees the note.",
+    tags: ["HCI", "Input", "Music", "Musical Instrument", "Switch Matrix"],
+    image: img("casio-dg20-front.jpg"),
+  },
 ];
 
 export const exhibits: Exhibit[] = exhibitData.toSorted((a, b) => b.sortYear - a.sortYear || a.title.localeCompare(b.title));

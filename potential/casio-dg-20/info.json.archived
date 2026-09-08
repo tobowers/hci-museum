@@ -1,0 +1,66 @@
+{
+  "slug": "casio-dg-20",
+  "title": "Casio DG-20 Digital Guitar",
+  "year": "1987",
+  "subtitle": "A rubber-string guitar whose membrane fretboard hardwires each fret to a pitch — strum and fret, and the note is guaranteed",
+  "why_scout_cares": "The consumer end of the MIDI-guitar spectrum, and a genuinely different interaction from the museum's SynthAxe: the DG-20 has no pitch-to-MIDI tracking at all. Nylon trigger strings and a rubber membrane fretboard where every fret contact is hardwired to a specific pitch — a pure switch matrix that eliminates tracking latency by construction. Commercially odd, mass-market, and the museum's only guitar-shaped membrane-switch instrument.",
+  "search_terms": [
+    "Casio DG-20 digital guitar",
+    "Casio DG-10 digital guitar",
+    "MIDI guitar switch matrix fretboard",
+    "rubber string guitar controller 1987"
+  ],
+  "research": {
+    "title": "Casio DG-20 Digital Guitar",
+    "year": "1987",
+    "by": "Casio Computer Co.",
+    "tags": ["HCI", "Input", "Music", "Musical Instrument", "Switch Matrix"],
+    "overview": "The Casio DG-20 Digital Guitar (1987) is a MIDI guitar controller built for consumers. Instead of converting the vibration of plucked strings into pitch through signal processing — the slow, error-prone route of most MIDI guitars — Casio hardwired the instrument's geometry into the electronics. The fretboard is a rubber membrane switch matrix: pressing a string against a fret completes a circuit that is physically wired to a specific MIDI pitch, so fretting a note is a switch closure, not a pitch estimate. The strings are nylon triggers; strumming them fires the fretted note. There is no tracking latency because there is no tracking — the instrument guarantees the pitch by construction.",
+    "deepDive": [
+      {
+        "heading": "The fretboard as switch matrix",
+        "text": "Most MIDI guitars read pitch from a vibrating string with a pickup and try to estimate the note, which introduces latency and errors. Casio's answer was to make each fret a switch: every fret contact on the membrane fretboard is electrically mapped to a specific pitch for each string. Fretting is not sensing, it is completing a circuit. The result is a guitar-shaped instrument where the note you fret is guaranteed — a 'hardwired, no-tracking' input philosophy."
+      },
+      {
+        "heading": "Consumer oddity",
+        "text": "The DG-20 (and its non-MIDI sibling DG-10) were aimed at hobbyists who wanted a synthesizer but did not want to learn a keyboard. The rubber strings and membrane fretboard made it approachable and cheap, but also distinctly toy-like compared to professional controllers like the museum's SynthAxe. It is the mass-market, membrane-switch end of the same idea: the guitar as a MIDI input device."
+      },
+      {
+        "heading": "Why it matters to HCI",
+        "text": "The DG-20 is a clean example of moving computation into the physical structure of an input device. Rather than processing a continuous signal to infer intent, the device re-engineers the input surface so that intent is structurally guaranteed — a switch matrix instead of a pitch tracker. It anticipates a whole family of 'the hardware guarantees the input' instruments."
+      }
+    ],
+    "team": [
+      {
+        "name": "Casio Computer Co.",
+        "note": "Maker of the DG-20 Digital Guitar and the earlier DG-10."
+      }
+    ],
+    "media": [
+      {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/3/32/CASIO_DG-20%2C_front_view.png",
+        "alt": "Front view of a Casio DG-20 Digital Guitar showing the rubber-string trigger and membrane fretboard",
+        "caption": "Casio DG-20 Digital Guitar, front view (CC BY 4.0 via Wikimedia Commons)."
+      },
+      {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/d/d7/Lennart_with_Casio_Digital_Guitar.jpg",
+        "alt": "A player holding and playing a Casio Digital Guitar",
+        "caption": "A player performing on a Casio Digital Guitar (CC BY-SA 2.0 via Wikimedia Commons)."
+      }
+    ],
+    "sources": [
+      {
+        "text": "Wikimedia Commons — Casio DG-20 Digital Guitar image (CC BY 4.0)",
+        "url": "https://commons.wikimedia.org/wiki/File:CASIO_DG-20,_front_view.png"
+      }
+    ],
+    "imageUrls": [
+      "https://upload.wikimedia.org/wikipedia/commons/3/32/CASIO_DG-20%2C_front_view.png",
+      "https://upload.wikimedia.org/wikipedia/commons/d/d7/Lennart_with_Casio_Digital_Guitar.jpg"
+    ]
+  },
+  "savedImages": [
+    "images/casio-dg20-front.jpg",
+    "images/casio-dg20-played.jpg"
+  ]
+}
