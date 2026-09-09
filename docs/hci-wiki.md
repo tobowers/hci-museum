@@ -1,6 +1,6 @@
 # The HCI Golden Age Wiki
 
-A research compendium for a digital museum of cutting-edge Human-Computer Interaction from the late 1970s through the early 1990s. These two hundred and fifty-three projects mix canonical experiments with weird, forgotten, and beautiful vaporware — brain control, voice control, gesture, wearable computing, VR, robots, and full-body exertion.
+A research compendium for a digital museum of cutting-edge Human-Computer Interaction from the late 1970s through the early 1990s. These two hundred and fifty-five projects mix canonical experiments with weird, forgotten, and beautiful vaporware — brain control, voice control, gesture, wearable computing, VR, robots, and full-body exertion.
 
 Each entry includes an overview, a deep dive, a small media gallery, and full source links so the images and facts can always be traced back.
 
@@ -260,6 +260,8 @@ Each entry includes an overview, a deep dive, a small media gallery, and full so
   251. [Casio DG-20 Digital Guitar (1987)](#casio-dg-20-digital-guitar-1987)
   252. [National Easa-Phone Answering Machine (c. 1979)](#national-easa-phone-answering-machine-c-1979)
   253. [Coleco Super Action Controller (1983)](#coleco-super-action-controller-1983)
+  254. [Milton Bradley Grandmaster (Phantom / Milton) (1983)](#milton-bradley-grandmaster--phantom--milton--1983)
+  255. [Logitech 3D Mouse (Fly Mouse) (1990)](#logitech-3d-mouse-fly-mouse-1990)
  
 ---
 
@@ -11765,3 +11767,84 @@ The set shipped with *Super Action Baseball* and was the required controller for
 
 1. Wikipedia — ColecoVision (Super Action Controller section) — https://en.wikipedia.org/wiki/ColecoVision
 2. Wikimedia Commons image — File:Super_Action_Controller_Coleco_DSCF0353.JPG — https://commons.wikimedia.org/wiki/File:Super_Action_Controller_Coleco_DSCF0353.JPG
+
+## Milton Bradley Grandmaster (Phantom / Milton) (1983)
+
+**By:** Milton Bradley International Inc.; chess program by Intelligent Software  
+**Tags:** `HCI` `Board Games` `Robotics` `Sensory Board` `Physical Interaction`
+
+### Overview
+
+The Milton Bradley Grandmaster is a robot dedicated chess computer sold under three names — **Grandmaster** in the United States, **Phantom** in the United Kingdom, and **Milton** in Germany, the Netherlands and France. Its interaction is gloriously physical: the board is a touch sensory board that senses where you place each piece, and the machine replies by physically moving its own magnetic pieces using an invisible X-Y-plotter mechanism beneath the board. Drive belts pull a solenoid up and down two metal rods in the x and y axes, enabling it to pick up individual magnetic pieces and drag them to their destination — all hidden, so from the player's view the computer's pieces simply glide across the board "by magic," with no visible arm. Captured pieces are carried aside to side trays.
+
+The chess program and the software controlling the electromagnetic mover were developed by Intelligent Software; according to the Schachcomputer.info Wiki the 6502 16 KiB program was written by Mark Taylor and was similar to that of the Chess Champion Mark V. The Milton Bradleys were in production before the end of 1982 and in shops early 1983. Later in the 1980s Fidelity Electronics bought the rights to the Phantom and released its own follow-up (the Fidelity Phantom, with a program by Dan and Kathe Spracklen).
+
+### The invisible mover
+
+The defining interaction is the under-board X-Y plotter. Instead of a visible robot arm (like the Novag Robot Adversary's gripper) the Grandmaster hides its actuator entirely: belts pull a solenoid along two perpendicular rods beneath a magnetized touch surface, so the computer's pieces are lifted and dragged invisibly. To the human player the machine's move "just happens" — the piece slides to its destination with no mechanical limb in sight, the closest an 1980s consumer toy got to a stage-magic performance.
+
+### Sensing and demonstrating
+
+The board is a pressure/touch sensory board, so the player inputs moves by physically pressing pieces onto squares — no coordinates or keypad. Because the mover is a genuine actuator it can also demonstrate the full set of legal moves for any piece by physically moving it around the board, a "show, don't tell" interface for a beginner.
+
+### Three names, one machine
+
+The same device was sold as Grandmaster (US), Phantom (UK) and Milton (Germany/Netherlands/France), each branded by Milton Bradley. Later Fidelity acquired the Phantom rights and produced the Fidelity Phantom with Spracklen software, extending the lineage.
+
+### Team
+
+* **Milton Bradley International Inc.** Manufacturer and brand.
+* **Intelligent Software.** Developed the chess program and the software driving the electromagnetic mover.
+* **Mark Taylor.** Reported author of the 6502 16 KiB chess program (per Schachcomputer.info Wiki).
+
+### Media
+
+![Milton Bradley Grandmaster robot chess computer](../assets/wiki/milton-bradley-grandmaster-chm.jpg)
+*Milton Bradley Grandmaster robot chess computer (foreground) on display at the Computer History Museum. Photo: Marshall Astor, CC BY-SA 2.0.*
+
+### Sources
+
+1. Chess Programming Wiki — Milton Bradley Phantom — https://www.chessprogramming.org/Milton_Bradley_Phantom
+2. Chess Computer UK — Milton Bradley Phantom — https://www.chesscomputeruk.com/html/milton_bradley_phantom.html
+3. Ismenio's Chess Computer Collection — MB Grandmaster — http://www.ismenio.com/chess_mb_grandmaster.html
+4. Wikimedia Commons — Chess computers at the Computer History Museum — https://commons.wikimedia.org/wiki/File:Chess_computers_at_the_Computer_History_Museum.jpg
+
+## Logitech 3D Mouse (Fly Mouse) (1990)
+
+**By:** Logitech  
+**Tags:** `HCI` `Input` `6-DOF` `3D` `Ultrasonic` `Pointing Device`
+
+### Overview
+
+The Logitech 3D Mouse (also known as the Fly Mouse), introduced around 1990, is a free-space, 6-degree-of-freedom (6-DOF) computer mouse. Instead of rolling on a desk, the operator grips the mouse and moves it through the air; ultrasonic time-of-flight tracking resolves position and orientation in three dimensions, letting the hand directly pilot X/Y/Z translation plus pitch/yaw/roll rotation. It is one of the first commercial attempts to make 3D manipulation feel like wielding a physical object rather than steering a flat cursor.
+
+Because the sensing is ultrasonic and the device is designed to be picked up, the mouse offers a freedom the rolling-ball mice of the era could not — there is no desk surface, no pad, no ball to lift. It is the museum's only free-space isotonic 6-DOF pointer, and the embodied counterpart to the isometric force-sensing DLR SpaceMouse already in the collection.
+
+### Flying, not rolling
+
+The defining interaction is lifting the mouse off the desk. A conventional mouse maps planar motion to 2D cursor movement; the 3D Mouse maps free-space motion to all six degrees. Twisting the body and pitching it read as rotation, which makes navigating a 3D scene feel like holding and turning a physical object rather than dragging a pointer.
+
+### Ultrasonic time-of-flight
+
+Position and orientation are derived from ultrasonic time-of-flight — a rare sensing principle in the collection (shared with acoustic digitizers like the GrafBar). The device carries the transducers and the computer resolves hand position from the travel time of the sound bursts, allowing 6-DOF without contact or a reference surface.
+
+### A distinct corner of 6-DOF input
+
+The DLR SpaceMouse/Control Ball is isometric — you push a spring-centered ball that does not move. The Logitech 3D Mouse is the opposite corner: isotonic, free-space, wand-like. Together they bracket the two physical metaphors for 6-DOF control that dominated early 3D interfaces.
+
+### Team
+
+* **Logitech.** Maker.
+
+### Media
+
+![Logitech 3D Mouse (Fly Mouse) on white](../assets/wiki/logitech-3d-mouse-1.jpg)
+*Logitech 3D Mouse (1990) on a white background. Photo: Rama, CC BY-SA 3.0 fr.*
+
+![Logitech 3D Mouse (Fly Mouse) on black](../assets/wiki/logitech-3d-mouse-2.jpg)
+*Logitech 3D Mouse (1990) on a black background. Photo: Rama, CC BY-SA 3.0 fr.*
+
+### Sources
+
+1. Wikimedia Commons — Logitech 3D ultrasonic mouse 1990 (white) — https://commons.wikimedia.org/wiki/File:Logitech_3D_ultrasonice_mouse_1990-IMG_7952-white.jpg
+2. Wikimedia Commons — Logitech 3D ultrasonic mouse 1990 (black) — https://commons.wikimedia.org/wiki/File:Logitech_3D_ultrasonice_mouse_1990-IMG_7945-black.jpg

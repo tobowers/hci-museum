@@ -1,0 +1,79 @@
+{
+  "slug": "milton-bradley-grandmaster",
+  "title": "Milton Bradley Grandmaster (Phantom / Milton)",
+  "year": "1983",
+  "subtitle": "A robot chess computer whose invisible under-board X-Y plotter lifts magnetic pieces and moves them 'by magic'",
+  "why_scout_cares": "The museum's only 'ghost-mover' chess computer: it senses your moves on a pressure-sensitive board AND physically moves its own pieces with an invisible under-board plotter — pieces slide 'by magic,' with no visible arm. Genuinely distinct from the Fidelity sensory board (senses only) and the Novag Robot Adversary (visible surface gripper arm).",
+  "search_terms": [
+    "Milton Bradley Grandmaster chess computer",
+    "MB Phantom chess robot",
+    "X-Y plotter chess computer",
+    "magnetic piece moving chess computer"
+  ],
+  "research": {
+    "title": "Milton Bradley Grandmaster (Phantom / Milton)",
+    "year": "1983",
+    "by": "Milton Bradley International Inc.; chess program by Intelligent Software",
+    "tags": ["HCI", "Board Games", "Robotics", "Sensory Board"],
+    "overview": "The Milton Bradley Grandmaster is a robot dedicated chess computer sold under three names — Grandmaster in the United States, Phantom in the United Kingdom, and Milton in Germany, the Netherlands and France. It is a 'robot type' chess computer whose interaction is gloriously physical: the board is a touch sensory board that senses where you place each piece, and the machine replies by physically moving its own magnetic pieces using an invisible X-Y-plotter mechanism beneath the board. Drive belts pull a solenoid up and down two metal rods in the x and y axes, enabling it to pick up individual magnetic pieces and drag them to their destination — all hidden, so from the player's view the computer's pieces simply glide across the board 'by magic,' with no visible arm. Captured pieces are carried aside to side trays.\n\nBecause the mover is a real robot actuator, the Grandmaster can also demonstrate legal moves: select a piece and the computer physically walks it through every legal move it could make — a pedagogical tour rendered as mechanical motion rather than text or arrows. The chess program and the software controlling the electromagnetic mover were developed by Intelligent Software; according to the Schachcomputer.info Wiki the 6502 16 KiB program was written by Mark Taylor and was similar to that of the Chess Champion Mark V. The Milton Bradleys were in production before the end of 1982 and in shops early 1983.\n\nLater in the 1980s Fidelity Electronics bought the rights to the Phantom and released its own follow-up (the Fidelity Phantom, with a program by Dan and Kathe Spracklen), but the Milton Bradley Grandmaster/Phantom remains the canonical invisible-plotter chess computer and the clearest early consumer instance of a machine that both senses and actuates its own physical game state.",
+    "deepDive": [
+      {
+        "heading": "The invisible mover",
+        "text": "The defining interaction is the under-board X-Y plotter. Instead of a visible robot arm (like the Novag Robot Adversary's gripper) the Grandmaster hides its actuator entirely: belts pull a solenoid along two perpendicular rods beneath a magnetized-board touch surface, so the computer's pieces are lifted and dragged invisibly. To the human player the machine's move 'just happens' — the piece slides to its destination with no mechanical limb in sight, which is the closest an 1980s consumer toy got to a stage-magic performance."
+      },
+      {
+        "heading": "Sensing and demonstrating",
+        "text": "The board is a pressure/touch sensory board, so the player inputs moves by physically pressing pieces onto squares — no coordinates or keypad. Because the mover is a genuine actuator it can also demonstrate the full set of legal moves for any piece by physically moving it around the board, a 'show, don't tell' interface for a beginner."
+      },
+      {
+        "heading": "Three names, one machine",
+        "text": "The same device was sold as Grandmaster (US), Phantom (UK) and Milton (Germany/Netherlands/France), each branded by Milton Bradley. Later Fidelity acquired the Phantom rights and produced the Fidelity Phantom with Spracklen software, extending the lineage."
+      }
+    ],
+    "team": [
+      {
+        "name": "Milton Bradley International Inc.",
+        "note": "Manufacturer and brand"
+      },
+      {
+        "name": "Intelligent Software",
+        "note": "Developed the chess program and the software driving the electromagnetic mover"
+      },
+      {
+        "name": "Mark Taylor",
+        "note": "Reported author of the 6502 16 KiB chess program (per Schachcomputer.info Wiki)"
+      }
+    ],
+    "media": [
+      {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/8/89/Chess_computers_at_the_Computer_History_Museum.jpg",
+        "alt": "Milton Bradley Grandmaster robot chess computer (foreground) among chess computers at the Computer History Museum",
+        "caption": "Milton Bradley Grandmaster robot chess computer (foreground) on display at the Computer History Museum. Photo: Marshall Astor, CC BY-SA 2.0."
+      }
+    ],
+    "sources": [
+      {
+        "text": "Chess Programming Wiki — Milton Bradley Phantom",
+        "url": "https://www.chessprogramming.org/Milton_Bradley_Phantom"
+      },
+      {
+        "text": "Chess Computer UK — Milton Bradley Phantom",
+        "url": "https://www.chesscomputeruk.com/html/milton_bradley_phantom.html"
+      },
+      {
+        "text": "Ismenio's Chess Computer Collection — MB Grandmaster",
+        "url": "http://www.ismenio.com/chess_mb_grandmaster.html"
+      },
+      {
+        "text": "Wikimedia Commons — Chess computers at the Computer History Museum",
+        "url": "https://commons.wikimedia.org/wiki/File:Chess_computers_at_the_Computer_History_Museum.jpg"
+      }
+    ],
+    "imageUrls": [
+      "https://upload.wikimedia.org/wikipedia/commons/8/89/Chess_computers_at_the_Computer_History_Museum.jpg"
+    ]
+  },
+  "savedImages": [
+    "images/grandmaster-chm.jpg"
+  ]
+}

@@ -3155,6 +3155,32 @@ const exhibitData: Exhibit[] = [
     tags: ["HCI", "Input", "Consumer", "Games", "Controller", "Analog"],
     image: img("coleco-super-action-controller-1.jpg"),
   },
+  {
+    id: "milton-bradley-grandmaster",
+    slug: "milton-bradley-grandmaster",
+    wikiTitle: "Milton Bradley Grandmaster (Phantom / Milton)",
+    year: "1983",
+    sortYear: 1983,
+    title: "Milton Bradley Grandmaster (Phantom / Milton)",
+    subtitle: "A robot chess computer whose invisible under-board X-Y plotter lifts magnetic pieces and moves them 'by magic'",
+    blurb:
+      "The Milton Bradley Grandmaster is a robot chess computer sold as Grandmaster (US), Phantom (UK), and Milton (Germany/Netherlands/France). Its interaction is gloriously physical: the board is a touch sensory board that senses where you place each piece, and the machine replies by physically moving its own magnetic pieces using an invisible X-Y-plotter beneath the board — drive belts pull a solenoid up and down two metal rods, lifting pieces and dragging them to their destination, hidden from view. From the player's perspective the computer's pieces simply glide 'by magic,' with no visible arm, and captured pieces are carried aside to side trays. Because the mover is a real actuator it can also demonstrate legal moves by physically walking a selected piece around the board. Chess program by Intelligent Software (Mark Taylor); in production before end-1982, in shops early 1983. Later Fidelity bought the rights and produced the Fidelity Phantom with Spracklen software. Distinct from the Fidelity sensory board (senses only) and the Novag Robot Adversary (visible surface gripper arm).",
+    tags: ["HCI", "Board Games", "Robotics", "Sensory Board", "Physical Interaction"],
+    image: img("milton-bradley-grandmaster-chm.jpg"),
+  },
+  {
+    id: "logitech-3d-mouse",
+    slug: "logitech-3d-mouse",
+    wikiTitle: "Logitech 3D Mouse (Fly Mouse)",
+    year: "1990",
+    sortYear: 1990,
+    title: "Logitech 3D Mouse (Fly Mouse)",
+    subtitle: "A free-space 6-DOF mouse you lift into the air and fly — ultrasonic time-of-flight tracks your hand in 3D",
+    blurb:
+      "The Logitech 3D Mouse (also known as the Fly Mouse), introduced around 1990, is a free-space 6-degree-of-freedom mouse. Instead of rolling on a desk, you grip it and move it through the air; ultrasonic time-of-flight resolves position and orientation in three dimensions, so the hand directly pilots X/Y/Z translation plus pitch/yaw/roll rotation — 3D manipulation feels like wielding a physical object rather than steering a flat cursor. Because the sensing is ultrasonic and the device is meant to be picked up, it needs no desk surface, pad, or ball to lift. It is the museum's only free-space isotonic 6-DOF pointer, the embodied counterpart to the isometric force-sensing DLR SpaceMouse already in the collection, and one of the first commercial devices to make 6-DOF navigation wand-like.",
+    tags: ["HCI", "Input", "6-DOF", "3D", "Ultrasonic", "Pointing Device"],
+    image: img("logitech-3d-mouse-1.jpg"),
+  },
 ];
 
 export const exhibits: Exhibit[] = exhibitData.toSorted((a, b) => b.sortYear - a.sortYear || a.title.localeCompare(b.title));

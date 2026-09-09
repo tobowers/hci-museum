@@ -1,0 +1,70 @@
+{
+  "slug": "logitech-3d-mouse",
+  "title": "Logitech 3D Mouse (Fly Mouse)",
+  "year": "1990",
+  "subtitle": "A free-space 6-DOF mouse you lift into the air and fly — ultrasonic time-of-flight tracks your hand in 3D",
+  "why_scout_cares": "The museum's only free-space isotonic 6-DOF pointer: unlike the 2D mice and the isometric force-sensing balls (DLR SpaceMouse) already in the collection, you grip the Logitech 3D Mouse and literally move it through the air — ultrasonic time-of-flight gives X/Y/Z plus pitch/yaw/roll from hand motion alone. A genuine first-of-kind that makes 3D navigation embodied and wand-like.",
+  "search_terms": [
+    "Logitech 3D Mouse 1990",
+    "Logitech Fly Mouse ultrasonic",
+    "6-DOF free-space mouse ultrasonic",
+    "Logitech 3D ultrasonic mouse"
+  ],
+  "research": {
+    "title": "Logitech 3D Mouse (Fly Mouse)",
+    "year": "1990",
+    "by": "Logitech",
+    "tags": ["HCI", "Input", "6-DOF", "3D", "Ultrasonic"],
+    "overview": "The Logitech 3D Mouse (also known as the Fly Mouse) is a free-space, 6-degree-of-freedom (6-DOF) computer mouse introduced around 1990. Instead of rolling on a desk, the operator grips the mouse and moves it through the air; ultrasonic time-of-flight tracking resolves position and orientation in three dimensions, letting the hand directly pilot X/Y/Z translation plus pitch/yaw/roll rotation. It is one of the first commercial attempts to make 3D manipulation feel like wielding a physical object rather than steering a flat cursor.\n\nThe interaction model is genuinely embodied: you do not 'point' at the screen, you 'hold' the object you are manipulating. Moving the mouse left/right/up/down/back/forward translates along three axes, while tilting and twisting the body rotates the virtual object. Because the sensing is ultrasonic and the device is designed to be picked up, the mouse offers a freedom the rolling-ball mice of the era could not — there is no desk surface, no pad, no ball to lift.\n\nPhotographed documentation of a surviving 1990 unit exists on Wikimedia Commons (photographed by hardware photographer Rama), showing the grey-bodied device. It sits in a lineage of early 6-DOF input experiments — alongside the isometric force-sensing balls (which stay still while you push) — but the Logitech 3D Mouse is distinguished by being isotonic and free-space: the hand physically flies through the air, and the ultrasonic system turns that flight into three-axis translation and rotation.",
+    "deepDive": [
+      {
+        "heading": "Flying, not rolling",
+        "text": "The defining interaction is lifting the mouse off the desk. A conventional mouse maps planar motion to 2D cursor movement; the 3D Mouse maps free-space motion to all six degrees. Twisting the body and pitching it read as rotation, which makes navigation through a 3D scene feel like holding and turning a physical object rather than dragging a pointer."
+      },
+      {
+        "heading": "Ultrasonic time-of-flight",
+        "text": "Position and orientation are derived from ultrasonic time-of-flight — a rare sensing principle in the collection (shared with acoustic digitizers like the GrafBar). The device carries the transducers and the computer resolves hand position from the travel time of the sound bursts, allowing 6-DOF without contact or a reference surface."
+      },
+      {
+        "heading": "A distinct corner of 6-DOF input",
+        "text": "The museum's DLR SpaceMouse/Control Ball is isometric — you push a spring-centered ball that does not move. The Logitech 3D Mouse is the opposite corner: isotonic, free-space, wand-like. Together they bracket the two physical metaphors for 6-DOF control that dominated early 3D interfaces."
+      }
+    ],
+    "team": [
+      {
+        "name": "Logitech",
+        "note": "Maker"
+      }
+    ],
+    "media": [
+      {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/3/3e/Logitech_3D_ultrasonice_mouse_1990-IMG_7952-white.jpg",
+        "alt": "Logitech 3D Mouse (Fly Mouse) on a white background",
+        "caption": "Logitech 3D Mouse (1990) on a white background. Photo: Rama, CC BY-SA 3.0 fr."
+      },
+      {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/3/3f/Logitech_3D_ultrasonice_mouse_1990-IMG_7945-black.jpg",
+        "alt": "Logitech 3D Mouse (Fly Mouse) on a black background",
+        "caption": "Logitech 3D Mouse (1990) on a black background. Photo: Rama, CC BY-SA 3.0 fr."
+      }
+    ],
+    "sources": [
+      {
+        "text": "Wikimedia Commons — Logitech 3D ultrasonic mouse 1990 (white)",
+        "url": "https://commons.wikimedia.org/wiki/File:Logitech_3D_ultrasonice_mouse_1990-IMG_7952-white.jpg"
+      },
+      {
+        "text": "Wikimedia Commons — Logitech 3D ultrasonic mouse 1990 (black)",
+        "url": "https://commons.wikimedia.org/wiki/File:Logitech_3D_ultrasonice_mouse_1990-IMG_7945-black.jpg"
+      }
+    ],
+    "imageUrls": [
+      "https://upload.wikimedia.org/wikipedia/commons/3/3e/Logitech_3D_ultrasonice_mouse_1990-IMG_7952-white.jpg",
+      "https://upload.wikimedia.org/wikipedia/commons/3/3f/Logitech_3D_ultrasonice_mouse_1990-IMG_7945-black.jpg"
+    ]
+  },
+  "savedImages": [
+    "images/logitech-3d-mouse-white.jpg",
+    "images/logitech-3d-mouse-black.jpg"
+  ]
+}
