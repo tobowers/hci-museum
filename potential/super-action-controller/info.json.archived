@@ -1,0 +1,34 @@
+{
+  "slug": "coleco-super-action-controller",
+  "title": "Coleco Super Action Controller",
+  "year": "1983",
+  "subtitle": "A game controller with a thumb-driven spinning 'speed roller' for continuous analog speed input — alongside a joystick, four trigger buttons, and a numeric keypad.",
+  "why_scout_cares": "The Super Action Controller is the museum's only hand-held game controller with a continuously-rotating analog 'speed roller' — an analog proportional input in an era when nearly every home controller was a digital switch. Spinning the roller for speed (racing, punch timing) is a distinct interaction grammar from every other controller in the collection (digital D-pads, ball joysticks, trackballs-as-pointing, touch plates).",
+  "search_terms": ["Coleco Super Action Controller", "ColecoVision speed roller", "Coleco Super Action Baseball controller", "ColecoVision Super Action Controller 1983"],
+  "research": {
+    "title": "Coleco Super Action Controller",
+    "year": "1983",
+    "by": "Coleco Industries",
+    "tags": ["HCI", "Input", "Consumer", "Games", "Controller", "Analog"],
+    "overview": "The Coleco Super Action Controller Set, available September 1983, was a pair of oversized hand-held controllers for the ColecoVision home console, packaged with the cartridge Super Action Baseball. Each controller combined a ball-top joystick, four finger-triggered action buttons, a 12-button numeric keypad, and a distinctive 'speed roller' — a continuously-rotating roller the player spun with a thumb for proportional speed input. The cartridges Super Action Football, Rocky, Super Action Boxing, and the arcade conversion Front Line were designed around it.\n\nThe 'speed roller' is the artifact's genuinely unusual interaction: a free-spinning roller providing analog, variable-speed directional control rather than a digital switch. In racing and timing contexts the player rolled the wheel for speed magnitude — an analog scroll/speed surface inside a mass-market game controller, a full decade before the scroll wheel became a mainstream input. The controller was Coleco's attempt to bring arcade-like continuous control to the home alongside a conventional joystick and keypad.\n\nColecoVision, released August 1982, was one of the best-selling second-generation consoles (over 2 million units). The Super Action Controller arrived as part of Coleco's push for higher-end, more arcade-faithful control hardware, and was retired when Coleco left the video game market in 1985.",
+    "deepDive": [
+      {"heading": "The speed roller", "text": "The defining control is the 'speed roller', a small roller set into the controller face that the player spins with a thumb. Unlike the digital D-pads and switch joysticks of the era, the roller reads continuous rotation to supply proportional speed input — most obviously for driving and timing gameplay, where spinning it faster maps to higher speed. It is a genuine analog scroll surface, and the only such continuously-rotating speed control among home game controllers of the period."},
+      {"heading": "A four-in-one control surface", "text": "Each controller stacked four input grammars in one body: a ball-top joystick for direction, a thumb-driven analog speed roller, four finger-triggered action buttons, and a 12-button telephone-style numeric keypad (compatible with ColecoVision's overlay system). Bundling so many physical controls into a single grip was unusual in 1983 and anticipated the all-in-one controller layout that became standard in later generations."},
+      {"heading": "Bundled games", "text": "The set shipped with Super Action Baseball, and was the required controller for Super Action Football, Rocky, Super Action Boxing, and the arcade conversion Front Line. These titles were programmed specifically around the speed roller and trigger layout, making the analog roller a first-class gameplay input rather than a novelty attachment."}
+    ],
+    "team": [
+      {"name": "Coleco Industries", "note": "Manufacturer; the company that designed the ColecoVision and its accessory line"}
+    ],
+    "media": [
+      {"src": "https://upload.wikimedia.org/wikipedia/commons/e/ef/Super_Action_Controller_Coleco_DSCF0353.JPG", "alt": "Coleco Super Action Controller", "caption": "Coleco Super Action Controller for ColecoVision — ball-top joystick, four trigger buttons, numeric keypad, and the thumb-driven 'speed roller'. Wikimedia Commons, CC BY-SA 3.0"}
+    ],
+    "sources": [
+      {"text": "ColecoVision — Wikipedia", "url": "https://en.wikipedia.org/wiki/ColecoVision"},
+      {"text": "Super Action Controller Set Operation Manual (PDF, Internet Archive)", "url": "https://archive.org/details/coleco-super-action-controller-set-manual"}
+    ],
+    "imageUrls": [
+      "https://upload.wikimedia.org/wikipedia/commons/e/ef/Super_Action_Controller_Coleco_DSCF0353.JPG"
+    ]
+  },
+  "savedImages": ["images/coleco-super-action-controller-1.jpg"]
+}

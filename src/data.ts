@@ -3142,6 +3142,19 @@ const exhibitData: Exhibit[] = [
     tags: ["HCI", "Telephony", "Answering Machine", "Analog", "Physical Token"],
     image: img("easa-phone-hero.jpg"),
   },
+  {
+    id: "coleco-super-action-controller",
+    slug: "coleco-super-action-controller",
+    wikiTitle: "Coleco Super Action Controller",
+    year: "1983",
+    sortYear: 1983,
+    title: "Coleco Super Action Controller",
+    subtitle: "A game controller with a thumb-spun analog 'speed roller' — continuous proportional input amid a sea of digital switches",
+    blurb:
+      "The Coleco Super Action Controller (1983) is a pair of oversized hand-held controllers for the ColecoVision console that stack four input grammars into one grip: a ball-top joystick, four finger-triggered action buttons, a 12-button numeric keypad, and a distinctive thumb-driven 'speed roller' — a continuously rotating roller that supplies proportional, variable-speed input rather than an on/off switch. Spinning the roller for speed (driving, punch timing) is a genuine analog surface inside a mass-market controller, a full decade before the scroll wheel became mainstream. Bundled with Super Action Baseball and required by Super Action Football, Rocky, Super Action Boxing, and Front Line.",
+    tags: ["HCI", "Input", "Consumer", "Games", "Controller", "Analog"],
+    image: img("coleco-super-action-controller-1.jpg"),
+  },
 ];
 
 export const exhibits: Exhibit[] = exhibitData.toSorted((a, b) => b.sortYear - a.sortYear || a.title.localeCompare(b.title));
