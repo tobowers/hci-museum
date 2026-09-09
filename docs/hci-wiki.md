@@ -1,6 +1,6 @@
 # The HCI Golden Age Wiki
 
-A research compendium for a digital museum of cutting-edge Human-Computer Interaction from the late 1970s through the early 1990s. These two hundred and fifty-two projects mix canonical experiments with weird, forgotten, and beautiful vaporware — brain control, voice control, gesture, wearable computing, VR, robots, and full-body exertion.
+A research compendium for a digital museum of cutting-edge Human-Computer Interaction from the late 1970s through the early 1990s. These two hundred and fifty-three projects mix canonical experiments with weird, forgotten, and beautiful vaporware — brain control, voice control, gesture, wearable computing, VR, robots, and full-body exertion.
 
 Each entry includes an overview, a deep dive, a small media gallery, and full source links so the images and facts can always be traced back.
 
@@ -259,7 +259,8 @@ Each entry includes an overview, a deep dive, a small media gallery, and full so
  250. [Supermarket Checkout Laser Scanner (1974)](#supermarket-checkout-laser-scanner-1974)
   251. [Casio DG-20 Digital Guitar (1987)](#casio-dg-20-digital-guitar-1987)
   252. [National Easa-Phone Answering Machine (c. 1979)](#national-easa-phone-answering-machine-c-1979)
-
+  253. [Coleco Super Action Controller (1983)](#coleco-super-action-controller-1983)
+ 
 ---
 
 ## Hubot (c. 1983)
@@ -11727,3 +11728,40 @@ Its interaction model is the point for the museum: the message store is a ring, 
 1. Wikipedia — Answering machine (endless-loop greeting tape mechanism) — https://en.wikipedia.org/wiki/Answering_machine
 2. Wikimedia Commons image — File:National_Easa-Phone_Answering_Machine_by_Panasonic.jpg — https://commons.wikimedia.org/wiki/File:National_Easa-Phone_Answering_Machine_by_Panasonic.jpg
 3. Wikimedia Commons image — File:Dual_endless_cassette_tapes_in_National_Easa-Phone_20130722.jpg — https://commons.wikimedia.org/wiki/File:Dual_endless_cassette_tapes_in_National_Easa-Phone_20130722.jpg
+
+## Coleco Super Action Controller (1983)
+
+**By:** Coleco Industries  
+**Tags:** `HCI` `Input` `Consumer` `Games` `Controller` `Analog`
+
+### Overview
+
+The Coleco Super Action Controller Set, available September 1983, was a pair of oversized hand-held controllers for the ColecoVision home console, packaged with the cartridge *Super Action Baseball*. Each controller stacked four input grammars into one grip: a ball-top joystick, four finger-triggered action buttons, a 12-button numeric keypad (compatible with ColecoVision's overlay system), and a distinctive thumb-driven **"speed roller"** — a continuously-rotating roller that supplied proportional, variable-speed input rather than an on/off switch.
+
+The speed roller is the artifact's genuinely unusual interaction: an analog scroll/speed surface inside a mass-market game controller. Spinning it for speed (driving, punch timing) reads continuous rotation — a proportional control at a moment when nearly every home controller was a digital switch. ColecoVision, released August 1982, sold over two million units; the Super Action Controller was Coleco's arcade-faithful control push and was retired with the company's 1985 withdrawal from video games.
+
+### The speed roller
+
+The defining control is the "speed roller," a small roller set into the controller face that the player spins with a thumb. Unlike the digital D-pads and switch joysticks of the era, the roller reads continuous rotation to supply proportional speed input — spinning it faster maps to higher speed. It is a genuine analog scroll surface and the only such continuously-rotating speed control among home game controllers of the period, a decade before the scroll wheel became a mainstream input.
+
+### A four-in-one control surface
+
+Each controller bundles a ball-top joystick for direction, a thumb-driven analog speed roller, four finger-triggered action buttons, and a 12-button telephone-style numeric keypad. Bundling so many physical controls into a single grip was unusual in 1983 and anticipated the all-in-one controller layout that became standard in later generations.
+
+### Bundled games
+
+The set shipped with *Super Action Baseball* and was the required controller for *Super Action Football*, *Rocky*, *Super Action Boxing*, and the arcade conversion *Front Line* — titles programmed specifically around the speed roller and trigger layout, making the analog roller a first-class gameplay input rather than a novelty attachment.
+
+### Team
+
+* **Coleco Industries.** Manufacturer of the ColecoVision console and its accessory line; the Super Action Controller was part of Coleco's arcade-faithful control hardware push.
+
+### Media
+
+![Coleco Super Action Controller](../assets/wiki/coleco-super-action-controller-1.jpg)
+*Coleco Super Action Controller for ColecoVision — ball-top joystick, four trigger buttons, numeric keypad, and the thumb-driven "speed roller." Wikimedia Commons, CC BY-SA 3.0.*
+
+### Sources
+
+1. Wikipedia — ColecoVision (Super Action Controller section) — https://en.wikipedia.org/wiki/ColecoVision
+2. Wikimedia Commons image — File:Super_Action_Controller_Coleco_DSCF0353.JPG — https://commons.wikimedia.org/wiki/File:Super_Action_Controller_Coleco_DSCF0353.JPG
