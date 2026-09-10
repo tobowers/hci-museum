@@ -1,0 +1,33 @@
+{
+  "slug": "versa-writer",
+  "title": "VersaWriter",
+  "year": "1981",
+  "subtitle": "A drafting-pantograph drawing tablet: trace a picture under Mylar and twin potentiometers in the arm's pivots translate your stroke into coordinates the computer replots as vector art.",
+  "why_scout_cares": "The embodied inverse of a plotter. The same two-link pantograph mechanics used in CAD digitizers was sold to home users as an art tool — you physically trace under a clear sheet and the machine rebuilds your gesture on screen. The interaction is the mechanism itself: a 6-inch pivoting arm whose twin rotary potentiometers turn arm angles into X/Y points. A 1993 Atari Classics retrospective literally asks 'Should VersaWriter be in a museum?'",
+  "search_terms": ["VersaWriter", "Versa Writer", "Versa Computing", "pantograph drawing tablet", "digitizer drawing board", "Atari VersaWriter"],
+  "research": {
+    "title": "VersaWriter",
+    "year": "1981",
+    "by": "Versa Computing, Inc. (Newbury Park, CA)",
+    "tags": ["HCI", "Input", "Drawing", "Digitizer", "Home computer"],
+    "overview": "The VersaWriter is a digitizer drawing board and software system that let a home-computer user enter graphics by tracing. It is a drafting pantograph scaled for the living room: a fixed pivot holds a 6-inch arm ending in a second pivot holding another 6-inch arm whose tip is a clear lens with a small dot. Two internal rotary potentiometers, one per pivot, convert the two arm angles into X/Y coordinates that the computer replots on the high-resolution graphics screen.\n\nThe system was introduced around 1981 by Versa Computing, Inc. of Newbury Park, California, at roughly $299, and shipped for the Atari 400/800, Apple II, and Commodore 64 (distributed for the Apple II by Human Engineered Software and for Atari/Commodore by Suncom). The reference manual describes a useful drawing area of 8 by 12.5 inches, claims the digitizer exceeds the accuracy of the high-res screen at 30 thousandths of an inch, and a digitizing rate designed to meet the needs of a human operator at 30 thousandths of a second.\n\nThe interaction model is purely physical-trace-to-vector: the user places an original drawing, chart, or diagram under a transparent Mylar sheet, then moves the pointer over the original. Software (invoked by one-letter mnemonic commands) replots the stroke live, with tools for straight lines, freehand brush, airbrush, color fill, scaling from 0.25x to 4x, smoothing, and text. A one-time calibration maps four known arm positions before use.",
+    "deepDive": [
+      {"heading": "The pantograph as input", "text": "The VersaWriter is a two-link planar pantograph. A base pivot holds a 6-inch arm ending in a second pivot holding another 6-inch arm; the tip carries a coin-sized clear lens with an opaque dot. Each pivot houses a rotary potentiometer, so any pointer position is encoded by two arm angles read as resistances. This is the same mechanical-linkage idea used by professional CAD digitizers, miniatured for home users."},
+      {"heading": "Trace under the glass", "text": "The drawing board has a transparent Mylar cover. The user slips an original image underneath and traces it with the pointer dot; the computer replots the motion on screen. A one-time calibration records the 90/180/270/0-360 degree points so the software can map arm angles to cursor position."},
+      {"heading": "The inverse of a plotter", "text": "Where a plotter takes abstract coordinates and makes them physical on paper, the VersaWriter runs the same two-axis linkage backward: physical movement of a human hand becomes coordinates the machine displays. It is the embodied mirror image of the Commodore 1520 plotter already in the museum — creation by tracing instead of drawing by pen movement."}
+    ],
+    "team": [
+      {"name": "Versa Computing, Inc.", "note": "Maker, Newbury Park, CA"}
+    ],
+    "media": [
+      {"src": "assets/wiki/versawriter-drawing-board-interface.jpg", "alt": "VersaWriter drawing board with attached interface unit, from the 1981 reference manual", "caption": "VersaWriter drawing board with attached interface unit. Source: VersaWriter Reference Manual (1981), Versa Computing, Inc., via Internet Archive"},
+      {"src": "assets/wiki/versawriter-figure1-arms.jpg", "alt": "Figure 1 from the manual: maximum movement of the drawing arms, showing the two-link pantograph", "caption": "Figure 1 — Maximum Movement of Drawing Arms, showing the two-link pantograph geometry. Source: VersaWriter Reference Manual (1981) via Internet Archive"}
+    ],
+    "sources": [
+      {"text": "VersaWriter Reference Manual (1981), Versa Computing, Inc. — Internet Archive", "url": "https://archive.org/details/VersaComputingVersaWriterReferenceManual"},
+      {"text": "Atari Classics retrospective (June 1993), 'Looking Back: VersaWriter'", "url": "https://www.atarimagazines.com/atariclassics/v2n3/looking_back.php"}
+    ],
+    "imageUrls": ["https://archive.org/details/VersaComputingVersaWriterReferenceManual"]
+  },
+  "savedImages": ["versawriter-drawing-board-interface.jpg", "versawriter-figure1-arms.jpg", "versawriter-manual-cover.jpg"]
+}

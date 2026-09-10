@@ -1,6 +1,6 @@
 # The HCI Golden Age Wiki
 
-A research compendium for a digital museum of cutting-edge Human-Computer Interaction from the late 1970s through the early 1990s. These two hundred and fifty-five projects mix canonical experiments with weird, forgotten, and beautiful vaporware — brain control, voice control, gesture, wearable computing, VR, robots, and full-body exertion.
+A research compendium for a digital museum of cutting-edge Human-Computer Interaction from the late 1970s through the early 1990s. These two hundred and fifty-six projects mix canonical experiments with weird, forgotten, and beautiful vaporware — brain control, voice control, gesture, wearable computing, VR, robots, and full-body exertion.
 
 Each entry includes an overview, a deep dive, a small media gallery, and full source links so the images and facts can always be traced back.
 
@@ -261,8 +261,9 @@ Each entry includes an overview, a deep dive, a small media gallery, and full so
   252. [National Easa-Phone Answering Machine (c. 1979)](#national-easa-phone-answering-machine-c-1979)
   253. [Coleco Super Action Controller (1983)](#coleco-super-action-controller-1983)
   254. [Milton Bradley Grandmaster (Phantom / Milton) (1983)](#milton-bradley-grandmaster--phantom--milton--1983)
-  255. [Logitech 3D Mouse (Fly Mouse) (1990)](#logitech-3d-mouse-fly-mouse-1990)
- 
+   255. [Logitech 3D Mouse (Fly Mouse) (1990)](#logitech-3d-mouse-fly-mouse-1990)
+   256. [VersaWriter (1981)](#versa-writer-1981)
+  
 ---
 
 ## Hubot (c. 1983)
@@ -11848,3 +11849,39 @@ The DLR SpaceMouse/Control Ball is isometric — you push a spring-centered ball
 
 1. Wikimedia Commons — Logitech 3D ultrasonic mouse 1990 (white) — https://commons.wikimedia.org/wiki/File:Logitech_3D_ultrasonice_mouse_1990-IMG_7952-white.jpg
 2. Wikimedia Commons — Logitech 3D ultrasonic mouse 1990 (black) — https://commons.wikimedia.org/wiki/File:Logitech_3D_ultrasonice_mouse_1990-IMG_7945-black.jpg
+
+## VersaWriter (1981)
+
+**By:** Versa Computing, Inc. (Newbury Park, CA)  
+**Tags:** `HCI` `Input` `Drawing` `Digitizer` `Home Computer` `Pantograph`
+
+### Overview
+
+The VersaWriter (introduced c. 1981) is a digitizer drawing board and software system that let a home-computer user enter graphics by tracing. It is a drafting pantograph scaled for the living room: a fixed pivot holds a 6-inch arm ending in a second pivot holding another 6-inch arm whose tip is a clear lens with a small opaque dot. Two internal rotary potentiometers, one per pivot, convert the two arm angles into X/Y coordinates that the computer replots on the high-resolution graphics screen.
+
+The system sold at about $299 and shipped for the Atari 400/800, Apple II, and Commodore 64 (distributed for the Apple II by Human Engineered Software and for Atari/Commodore by Suncom). The reference manual describes a useful drawing area of 8 by 12.5 inches, claims the digitizer exceeds the accuracy of the high-res screen at 30 thousandths of an inch, and a digitizing rate designed to meet the needs of a human operator at 30 thousandths of a second.
+
+### Trace under the glass
+
+The interaction model is purely physical-trace-to-vector. The user places an original drawing, chart, or diagram under a transparent Mylar sheet, then moves the pointer over the original. Software, invoked by one-letter mnemonic commands, replots the stroke live with tools for straight lines, freehand brush, airbrush, color fill, scaling from 0.25x to 4x, smoothing, and text. A one-time calibration records four known arm positions so the software can map arm angles to cursor position before use.
+
+### The inverse of a plotter
+
+Where a plotter takes abstract coordinates and makes them physical on paper, the VersaWriter runs the same two-axis linkage backward: physical movement of a human hand becomes coordinates the machine displays. It is the embodied mirror image of the Commodore 1520 plotter already in the museum — creation by tracing rather than drawing by pen movement. A 1993 Atari Classics retrospective explicitly asked, "Should VersaWriter be in a museum?"
+
+### Team
+
+* **Versa Computing, Inc.** Maker, Newbury Park, CA.
+
+### Media
+
+![VersaWriter drawing board with attached interface unit](../assets/wiki/versawriter-drawing-board-interface.jpg)
+*VersaWriter drawing board with attached interface unit. Source: VersaWriter Reference Manual (1981), Versa Computing, Inc., via Internet Archive.*
+
+![Figure 1 — Maximum Movement of Drawing Arms](../assets/wiki/versawriter-figure1-arms.jpg)
+*Figure 1 from the manual showing the two-link pantograph geometry. Source: VersaWriter Reference Manual (1981) via Internet Archive.*
+
+### Sources
+
+1. VersaWriter Reference Manual (1981), Versa Computing, Inc. — https://archive.org/details/VersaComputingVersaWriterReferenceManual
+2. Atari Classics retrospective (June 1993), "Looking Back: VersaWriter" — https://www.atarimagazines.com/atariclassics/v2n3/looking_back.php

@@ -3181,6 +3181,19 @@ const exhibitData: Exhibit[] = [
     tags: ["HCI", "Input", "6-DOF", "3D", "Ultrasonic", "Pointing Device"],
     image: img("logitech-3d-mouse-1.jpg"),
   },
+  {
+    id: "versa-writer",
+    slug: "versa-writer",
+    wikiTitle: "VersaWriter",
+    year: "1981",
+    sortYear: 1981,
+    title: "VersaWriter",
+    subtitle: "A drafting-pantograph drawing tablet: trace a picture under Mylar and twin potentiometers turn arm angles into vector art",
+    blurb:
+      "The VersaWriter (c. 1981, Versa Computing, Inc.) is a digitizer drawing board that let home users enter graphics by tracing — the embodied inverse of a plotter. A two-link pantograph arm, each pivot carrying a rotary potentiometer, translates the pointer's position into X/Y coordinates the computer replots live on the high-resolution screen. To draw, you place an original picture under the transparent Mylar sheet and trace it with the pointer dot; software replots the stroke with tools for straight lines, freehand brush, airbrush, color fill, scaling, and text. A one-time calibration records four known arm positions before use. The same mechanical-linkage idea as professional CAD digitizers, miniaturized for the Atari 400/800, Apple II, and Commodore 64 at about $299. A 1993 Atari Classics retrospective literally asked 'Should VersaWriter be in a museum?'",
+    tags: ["HCI", "Input", "Drawing", "Digitizer", "Home Computer", "Pantograph"],
+    image: img("versawriter-drawing-board-interface.jpg"),
+  },
 ];
 
 export const exhibits: Exhibit[] = exhibitData.toSorted((a, b) => b.sortYear - a.sortYear || a.title.localeCompare(b.title));
