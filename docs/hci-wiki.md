@@ -1,6 +1,6 @@
 # The HCI Golden Age Wiki
 
-A research compendium for a digital museum of cutting-edge Human-Computer Interaction from the late 1970s through the early 1990s. These two hundred and fifty-six projects mix canonical experiments with weird, forgotten, and beautiful vaporware — brain control, voice control, gesture, wearable computing, VR, robots, and full-body exertion.
+A research compendium for a digital museum of cutting-edge Human-Computer Interaction from the late 1970s through the early 1990s. These two hundred and fifty-seven projects mix canonical experiments with weird, forgotten, and beautiful vaporware — brain control, voice control, gesture, wearable computing, VR, robots, and full-body exertion.
 
 Each entry includes an overview, a deep dive, a small media gallery, and full source links so the images and facts can always be traced back.
 
@@ -263,6 +263,7 @@ Each entry includes an overview, a deep dive, a small media gallery, and full so
   254. [Milton Bradley Grandmaster (Phantom / Milton) (1983)](#milton-bradley-grandmaster--phantom--milton--1983)
    255. [Logitech 3D Mouse (Fly Mouse) (1990)](#logitech-3d-mouse-fly-mouse-1990)
    256. [VersaWriter (1981)](#versa-writer-1981)
+   257. [Mephisto Modular Autosensory Chess Board (1983)](#mephisto-modular-autosensory-chess-board-1983)
   
 ---
 
@@ -11809,6 +11810,43 @@ The same device was sold as Grandmaster (US), Phantom (UK) and Milton (Germany/N
 2. Chess Computer UK — Milton Bradley Phantom — https://www.chesscomputeruk.com/html/milton_bradley_phantom.html
 3. Ismenio's Chess Computer Collection — MB Grandmaster — http://www.ismenio.com/chess_mb_grandmaster.html
 4. Wikimedia Commons — Chess computers at the Computer History Museum — https://commons.wikimedia.org/wiki/File:Chess_computers_at_the_Computer_History_Museum.jpg
+
+## Mephisto Modular Autosensory Chess Board (1983)
+
+**By:** Hegener & Glaser (Munich, West Germany)
+
+The Mephisto Modular system is the museum's cleanest example of hardware modularity as an HCI design choice. Hegener & Glaser (H+G), a Munich semiconductor firm founded in 1969 by Manfred Hegener and Florian Glaser, sold a line of modular electronic autosensory boards — the Modular (plastic), Exclusive (40×40 cm wooden), München (50×50 cm wooden), and Bavaria (piece recognition board) — which accept different program, processor, and display modules.
+
+The Modular system was introduced in 1983 with the Mobil, Modular, and Exclusive boards and the MM I module. Each board's squares are pressure-sensitive (autosensory): to enter a move the player presses a chess piece down on the relevant square, and the machine registers the move directly from the board — no coordinate keypad, no from-to typing. The board's squares are the input device. The owner then snaps in an interchangeable processor module (MM I through MM VI, plus named modules like Amsterdam, Polgar, London, Lyon) that contains the CPU and chess program. Because the computation lives in the module, the board never becomes obsolete.
+
+### The board as the interface, the module as the brain
+
+Most 1980s chess computers were single integrated units that aged as one. The Mephisto Modular system separated the two concerns: a durable pressure-sensing board (the physical interface) and swappable processor/program/display modules (the computation). The owner upgrades the brain without discarding the board — a rare, deliberate position in consumer electronics, an explicit bet that the interface is a long-term investment while computation is disposable.
+
+### Autosensory input
+
+Input on the Mephisto autosensory boards is embodied: the player physically places a chess piece on a square and presses down, and the pressure switch beneath the square registers the move. There is no coordinate keypad and no cognitive translation between board and machine — the board IS the input. It plays like playing a human on a normal board. The 'Bavaria' board went further with full piece recognition, detecting which piece sits on which square.
+
+### An ecosystem that outlived its makers
+
+The modular design created a genuine ecosystem: dozens of modules (MM I-MM VI, Amsterdam, Almeria, Dallas, Genius, London, Lyon, Magellan, Polgar, Portorose, Roma, Vancouver, and more) all fit the same boards. Richard Lang's Mephisto engines won six World Computer Chess Championships between 1984 and 1990, and by 1989 over 90% of chess computers sold in Germany were Mephistos. Hegener & Glaser was bought by Saitek in 1994. As a coda, third-party Phoenix Chess Systems released the Resurrection module — a 200 MHz ARM (later 500 MHz XScale) processor running modern chess engines — designed for the same original boards in 2005-2007. The physical interface outlived two decades of computation.
+
+### Team
+
+* **Hegener & Glaser (H+G).** Munich semiconductor firm turned dominant German chess-computer maker; introduced the Modular system in 1983.
+* **Richard Lang.** Programmed the strongest Mephisto engines; his programs won six World Computer Chess Championships 1984-1990.
+* **Manfred Hegener & Florian Glaser.** Founders of Hegener & Glaser (1969).
+
+### Media
+
+![Mephisto Exclusive autosensory chess board](../assets/wiki/mephisto-exclusive-board.jpg)
+*Mephisto Exclusive autosensory board with module drawer and modules. Photo: Rabax63, CC BY-SA 4.0 (Wikimedia Commons).*
+
+### Sources
+
+1. Mephisto (chess computer) — Wikipedia — https://en.wikipedia.org/wiki/Mephisto_(chess_computer)
+2. Mephisto Modular System (boards and modules) — Wikipedia — https://en.wikipedia.org/wiki/Mephisto_(chess_computer)#Mephisto_Modular_System
+3. Wikimedia Commons — File:MephistoModularIV.jpg — https://commons.wikimedia.org/wiki/File:MephistoModularIV.jpg
 
 ## Logitech 3D Mouse (Fly Mouse) (1990)
 

@@ -3182,6 +3182,19 @@ const exhibitData: Exhibit[] = [
     image: img("logitech-3d-mouse-1.jpg"),
   },
   {
+    id: "mephisto-modular",
+    slug: "mephisto-modular",
+    wikiTitle: "Mephisto Modular Autosensory Chess Board",
+    year: "1983",
+    sortYear: 1983,
+    title: "Mephisto Modular Autosensory Chess Board",
+    subtitle: "A durable pressure-sensing chess board onto which you snap swappable processors — the physical interface outlives the computation",
+    blurb:
+      "The Mephisto Modular system (Hegener & Glaser, introduced 1983) is the museum's cleanest example of hardware modularity as an HCI choice: a single autosensory chess board whose pressure-sensitive squares are the input device, onto which the owner snaps interchangeable processor/program/display modules for years. You enter a move by pressing a chess piece down on a square — the board IS the input, no coordinate keypad — and the ever-improving computation travels in swappable cartridges (MM I-MM VI plus named modules like Amsterdam, Polgar, London, Lyon), so the board never becomes obsolete. Richard Lang's Mephisto engines won six World Computer Chess Championships (1984-1990), and by 1989 over 90% of chess computers sold in Germany were Mephistos. As a coda, third-party Phoenix Chess Systems released the 200 MHz ARM Resurrection module in 2005 for the same original boards — the physical interface outlived two decades of computation. Distinct from the museum's Fidelity sensory board (senses + voice) and Novag Robot Adversary (robotic arm): here the point is the board-outlives-modules philosophy.",
+    tags: ["HCI", "Chess Computer", "Board-as-Input", "Modular", "Hardware", "Consumer"],
+    image: img("mephisto-exclusive-board.jpg"),
+  },
+  {
     id: "versa-writer",
     slug: "versa-writer",
     wikiTitle: "VersaWriter",
