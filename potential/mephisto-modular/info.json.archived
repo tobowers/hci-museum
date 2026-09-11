@@ -1,0 +1,74 @@
+{
+  "slug": "mephisto-modular",
+  "title": "Mephisto Modular Autosensory Chess Board",
+  "year": "1983",
+  "subtitle": "A durable pressure-sensing chess board that outlives generations of plug-in processors — the physical interface as a long-term investment",
+  "why_scout_cares": "The Mephisto Modular system (Hegener & Glaser, introduced 1983) is the museum's cleanest example of hardware modularity as an HCI design choice: a single autosensory chess board whose pressure-sensitive squares are the input device, onto which the owner snaps different processor/program/display modules over years. The board is a durable physical platform — the interface — while the ever-improving computation travels in swappable cartridges. It inverts the usual 'computer as disposable whole' framing of the era. The interaction itself is embodied: you input a move by simply pressing a chess piece down on a square (autosensory pressure switches), no coordinate keypad. This is distinct from the museum's Fidelity Voice Sensory Chess Challenger (sensory board + speech) and Novag Robot Adversary (robotic arm) because the point is the board-outlives-modules modular philosophy, not the sensing or the robot. Richard Lang's Mephisto programs won six World Computer Chess Championships (1984-1990), and by 1989 over 90% of chess computers sold in Germany were Mephistos.",
+  "search_terms": [
+    "Mephisto Modular chess computer autosensory board 1983",
+    "Mephisto Exclusive wooden autosensory board Hegener Glaser",
+    "Mephisto Modular System swappable processor module chess",
+    "Mephisto Munich board piece recognition chess computer",
+    "Mephisto modular chess board outlives modules"
+  ],
+  "research": {
+    "title": "Mephisto Modular Autosensory Chess Board",
+    "year": "1983",
+    "by": "Hegener & Glaser (Munich, West Germany)",
+    "tags": ["Chess Computer", "Board-as-Input", "Modular", "Hardware", "Consumer"],
+    "overview": "Mephisto was a line of chess computers sold by Hegener & Glaser (H+G), a Munich semiconductor firm founded in 1969 by Manfred Hegener and Florian Glaser. In addition to integrated travel and sensory computers, H+G sold a line of modular electronic autosensory boards — the Modular (plastic), Exclusive (40×40 cm wooden), München (50×50 cm wooden), and Bavaria (piece recognition board) — which could accept different program, processor, and display modules.\n\nThe Modular system was introduced in 1983 with the Mobil, Modular, and Exclusive boards and the MM I module. Each board has pressure-sensitive (autosensory) squares: to enter a move the player presses a chess piece down on the relevant square, and the machine registers the move directly from the board — no coordinate keypad, no from-to typing. The board's squares are the input device. The owner then snaps in an interchangeable processor module (MM I through MM VI, plus named modules like Amsterdam, Polgar, London, Lyon, etc.) which contains the CPU and chess program. Because the computation lives in the module, the board never becomes obsolete.\n\nThe strongest Mephisto software was written by Richard Lang, whose programs won six World Computer Chess Championships between 1984 and 1990, before being ported to PCs as ChessGenius. Mephisto dominated its home market: by 1989 over 90% of all chess computers sold in Germany were Mephistos. Hegener & Glaser was bought by Saitek in 1994. As a coda, in 2005-2007 Phoenix Chess Systems released the Resurrection module — a 200 MHz ARM (later 500 MHz XScale) processor that runs modern chess engines — designed to plug into the same original Mephisto boards. The physical interface outlived two decades of computation.",
+    "deepDive": [
+      {
+        "heading": "The board as the interface, the module as the brain",
+        "text": "Most 1980s chess computers were single integrated units that aged as one. The Mephisto Modular system separated the two concerns: a durable pressure-sensing board (the physical interface) and swappable processor/program/display modules (the computation). The owner upgrades the brain without discarding the board. This is a rare, deliberate HCI/philosophical position in consumer electronics of the era — an explicit bet that the interface is a long-term investment while the computation is disposable."
+      },
+      {
+        "heading": "Autosensory input",
+        "text": "Input on the Mephisto autosensory boards is embodied: the player physically places a chess piece on a square and presses down, and the pressure switch beneath the square registers the move. There is no coordinate keypad and no cognitive translation between the board and the machine — the board IS the input device. It plays like playing a human on a normal board. The 'Bavaria' board went further with full piece-recognition (detecting which piece is on which square), the state of the art for the era."
+      },
+      {
+        "heading": "An ecosystem that outlived its makers",
+        "text": "The modular design created a genuine ecosystem: dozens of modules (MM I-MM VI, Amsterdam, Almeria, Dallas, Genius, London, Lyon, Magellan, Polgar, Portorose, Roma, Vancouver, and more) all fit the same boards. After Saitek acquired H+G in 1994, third-party Phoenix Chess Systems kept making new modules for the original boards into the 2000s. The interface lasted because it was separated from the computation — the strongest possible evidence for the museum's interest in this design."
+      }
+    ],
+    "team": [
+      {
+        "name": "Hegener & Glaser (H+G)",
+        "note": "Munich semiconductor firm turned dominant German chess-computer maker; introduced the Modular system in 1983."
+      },
+      {
+        "name": "Richard Lang",
+        "note": "Programmed the strongest Mephisto engines; his programs won six World Computer Chess Championships 1984-1990."
+      },
+      {
+        "name": "Manfred Hegener & Florian Glaser",
+        "note": "Founders of Hegener & Glaser (1969)."
+      }
+    ],
+    "media": [
+      {
+        "src": "https://commons.wikimedia.org/wiki/File:MephistoModularIV.jpg",
+        "alt": "Mephisto Exclusive autosensory chess board with module drawer",
+        "caption": "Mephisto Exclusive autosensory board with module drawer and modules. CC BY-SA 4.0, Wikimedia Commons (Rabax63)."
+      }
+    ],
+    "sources": [
+      {
+        "text": "Mephisto (chess computer) — Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Mephisto_(chess_computer)"
+      },
+      {
+        "text": "Mephisto Modular System (boards and modules) — Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Mephisto_(chess_computer)#Mephisto_Modular_System"
+      },
+      {
+        "text": "File:MephistoModularIV.jpg — Wikimedia Commons",
+        "url": "https://commons.wikimedia.org/wiki/File:MephistoModularIV.jpg"
+      }
+    ],
+    "imageUrls": [
+      "https://upload.wikimedia.org/wikipedia/commons/8/83/MephistoModularIV.jpg"
+    ]
+  },
+  "savedImages": []
+}
