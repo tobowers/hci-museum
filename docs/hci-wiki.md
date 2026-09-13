@@ -1,6 +1,6 @@
 # The HCI Golden Age Wiki
 
-A research compendium for a digital museum of cutting-edge Human-Computer Interaction from the late 1970s through the early 1990s. These two hundred and fifty-seven projects mix canonical experiments with weird, forgotten, and beautiful vaporware — brain control, voice control, gesture, wearable computing, VR, robots, and full-body exertion.
+A research compendium for a digital museum of cutting-edge Human-Computer Interaction from the late 1970s through the early 1990s. These two hundred and fifty-nine projects mix canonical experiments with weird, forgotten, and beautiful vaporware — brain control, voice control, gesture, wearable computing, VR, robots, and full-body exertion.
 
 Each entry includes an overview, a deep dive, a small media gallery, and full source links so the images and facts can always be traced back.
 
@@ -265,6 +265,7 @@ Each entry includes an overview, a deep dive, a small media gallery, and full so
    256. [VersaWriter (1981)](#versa-writer-1981)
    257. [Mephisto Modular Autosensory Chess Board (1983)](#mephisto-modular-autosensory-chess-board-1983)
    258. [Xerox PARC Gyricon Electronic Paper (1975)](#xerox-parc-gyricon-electronic-paper-1975)
+   259. [NED Synclavier (1977)](#ned-synclavier-1977)
   
 ---
 
@@ -11964,3 +11965,55 @@ Where nearly every other computer output in the museum emits light or moves a pe
 1. Gyricon — Wikipedia — https://en.wikipedia.org/wiki/Gyricon
 2. Electronic paper — Wikipedia — https://en.wikipedia.org/wiki/Electronic_paper
 3. Wikimedia Commons — File:Gyricon enrollado.jpg — https://commons.wikimedia.org/wiki/File:Gyricon_enrollado.jpg
+
+## NED Synclavier (1977)
+
+A digital music workstation whose light pen let composers draw sound directly on a CRT — the first complete digital synthesis, sampling, and recording system.
+
+### Overview
+
+The Synclavier is an early digital synthesizer, polyphonic digital sampling system, and music workstation by New England Digital Corporation (Norwich, Vermont). Originating at Dartmouth College (Jon Appleton, Sydney A. Alonso, Cameron Jones), it was first released in 1977–78 and refined through the early 1990s. Only about 20 Synclavier I units were built, primarily sold to universities; the Synclavier II (1980) and subsequent models (PSMT, 3200, 6400, 9600, Tapeless Studio) expanded the system through the 1980s at prices from $25,000 to $200,000.
+
+### Draw your sound with light
+
+The Synclavier II introduced a VT640 graphic terminal whose light pen was the primary editing tool for additive synthesis. Composers drew harmonic spectra and envelope shapes directly on the CRT — sweeping the pen across a glowing grid of partials to construct timbres from scratch, or shaping a volume envelope by dragging a curve on screen. This was a direct-manipulation audio editing interface years before the mouse-driven DAW, and radically different from the knob-and-slider paradigm of analog synthesizers.
+
+### The keyboard that feels you back
+
+Later Synclavier models (PSMT onward, 1984) used the Velocity/Pressure Keyboard (VPK), licensed from Sequential Circuits. The VPK was a weighted wooden keyboard whose keys sensed both velocity (how fast pressed) and continuous pressure (channel aftertouch). A finger pressing harder on a held note could bend pitch, add vibrato, shimmer, or open a filter — every key became a continuous expressive surface. The VPK signaled the transition from on/off organ-style keyboards to expressive touch as a computer input for professional musicians.
+
+### Why it belongs
+
+The Synclavier combines two genuinely novel interaction paradigms — light-pen waveform editing (drawing sound by hand on a CRT) and continuous-key-pressure sensing (aftertouch as expressive input). Both are distinct from every existing exhibit in the museum's music HCI section. When the Fairlight CMI pioneered light-pen menu selection for sampling, the Synclavier was the system that used a light pen as a creative drawing tool for sound construction itself. The VPK's continuous aftertouch — where the computer reads not just *that* you pressed a key but *how much* you are still pressing it — is a richer input channel than the velocity-only keyboard of the Fairlight or the binary key-switch of the TB-303.
+
+### Team
+
+* **Jon Appleton.** Professor of Digital Electronics, Dartmouth College; initiator of the Dartmouth Digital Synthesizer project.
+* **Sydney A. Alonso.** Co-founder, New England Digital; hardware architect who designed the custom ABLE 16-bit minicomputer.
+* **Cameron Jones.** Co-founder, New England Digital; software programmer who later revived the Synclavier trademark.
+* **Denny Jaeger.** Music producer who influenced Synclavier II design and FM synthesis implementation.
+
+### Media
+
+![Synclavier I with HOP box](../assets/wiki/synclavier1-jb.jpg)
+*Synclavier I (1977) with Hand Operated Processor (HOP) box. Wikimedia Commons, public domain.*
+
+![Synclavier PSMT with VPK keyboard](../assets/wiki/synclavier-psmt.jpg)
+*Synclavier PSMT (1984) with Velocity/Pressure Keyboard, exhibited at Musical Instrument Museum, Phoenix. Wikimedia Commons, CC BY 2.0.*
+
+![VPK display and control wheel](../assets/wiki/synclavier-vpk-display.jpg)
+*Display and control wheel on the VPK (1984). Wikimedia Commons, CC BY 2.0.*
+
+![Synclavier II with floppy disc drive](../assets/wiki/synclavier-ii-with-floppy.jpg)
+*Synclavier II (1980) with external floppy disc drive. Wikimedia Commons, CC BY-SA 2.0.*
+
+![VPK close-up](../assets/wiki/synclavier-vpk-closeup.jpg)
+*Close-up of the VPK display showing the system interface. Wikimedia Commons, CC BY-SA 2.0.*
+
+### Sources
+
+1. Wikipedia — Synclavier — https://en.wikipedia.org/wiki/Synclavier
+2. TECnology Hall of Fame 2004 — http://legacy.tecawards.org/tec/04TECnologyHOFdetails.html
+3. Synclavier Early History — 500sound.com — http://www.500sound.com/synclavierhistory.html
+4. Synclavier Digital — https://www.synclavier.com/about/
+5. Vintage Synth Explorer — http://www.vintagesynth.com/misc/synclav.php

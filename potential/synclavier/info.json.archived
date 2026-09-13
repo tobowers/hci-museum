@@ -1,0 +1,85 @@
+{
+  "slug": "synclavier",
+  "title": "NED Synclavier (1977)",
+  "year": "1977",
+  "subtitle": "The digital music workstation whose light pen let composers draw sound directly on a CRT",
+  "why_scout_cares": "The Synclavier's light-pen-on-CRT interface for waveform editing and additive synthesis is a genuinely radical pre-mouse direct-manipulation HCI — drawing sound with a pen on a glowing screen in 1979. Combined with the Velocity/Pressure Keyboard (VPK) that sensed both velocity and continuous aftertouch, this was the first complete digital music workstation with multiple novel input channels. Unlike the Fairlight CMI (already in the museum), the Synclavier's interaction model combines light-pen waveform drawing, additive synthesis control via VT640 graphical terminal, and the VPK's continuous pressure sensing — three distinct novel HCI paradigms in one system. Only ~20 Synclavier I units were built.",
+  "search_terms": ["Synclavier", "New England Digital", "light pen music workstation", "VPK keyboard", "NED Synclavier"],
+  "research": {
+    "title": "NED Synclavier I / II",
+    "year": "1977",
+    "by": "New England Digital Corporation (Dartmouth College)",
+    "tags": ["HCI", "Output", "Music", "Light pen", "Touch"],
+    "overview": "The Synclavier is an early digital synthesizer, polyphonic digital sampling system, and music workstation manufactured by New England Digital Corporation of Norwich, Vermont. First released in 1977–78, it originated at Dartmouth College through the collaboration of Professor Jon Appleton, Sydney A. Alonso, and Cameron Jones. The Synclavier II followed in 1980 with a refined interface.\n\nThe Synclavier's primary HCI innovation was its light-pen interface for editing additive synthesis parameters directly on a CRT screen. Composers drew harmonic spectra and envelope shapes with the light pen — a direct-manipulation audio editing interface years before Pro Tools. Later models (Synclavier II with VT640) added graphical audio analysis. The Velocity/Pressure Keyboard (VPK, 1984) licensed from Sequential Circuits provided weighted keys sensing both velocity (how hard) and continuous pressure (aftertouch), allowing finger-based pitch bend, tremolo, and shimmer.\n\nThe system was built around New England Digital's custom 16-bit ABLE minicomputer. Pricing ranged from ~$25,000 to $200,000+. Used by major artists (Sting, Frank Zappa, Laurie Anderson, Michael Jackson, Pat Metheny) and inducted into the TECnology Hall of Fame in 2004.",
+    "deepDive": [
+      {
+        "heading": "Origins",
+        "text": "The Synclavier originated at Dartmouth College in the early 1970s. Jon Appleton (Professor of Digital Electronics), Sydney A. Alonso, and Cameron Jones (a student at Dartmouth's Thayer School of Engineering) collaborated on the Dartmouth Digital Synthesizer (1973). Alonso and Jones founded New England Digital Corporation in 1975, initially selling the ABLE 16-bit minicomputer for laboratory automation. The Synclavier I (1977–78) was the commercial version of the Dartmouth Digital Synthesizer, adding a music keyboard and control panel. Only ~20 Synclavier I units were built, mostly sold to universities."
+      },
+      {
+        "heading": "Light Pen Interaction",
+        "text": "The Synclavier II (1980) introduced a VT640 graphic terminal for graphical audio analysis. Operators used the light pen to draw and edit additive synthesis harmonic spectra, envelope shapes, and waveforms directly on the CRT — a direct-manipulation interface paradigm that predated the mouse-driven DAW by over a decade. The light pen served as both a pointing device for menu selection and a drawing tool for shaping sound. This was radically different from the knob-and-slider paradigm of analog synthesizers and the purely symbolic text-based programming of early digital instruments. The system also supported a Signal File Manager software program operated via the VT640 for additive resynthesis and complex audio analysis."
+      },
+      {
+        "heading": "VPK Keyboard",
+        "text": "The Synclavier PSMT (1984) introduced the Velocity/Pressure Keyboard (VPK), licensed from Sequential Circuits (originally designed for the Prophet-T8). The VPK was a weighted keyboard that sensed both key velocity (how fast the key was pressed) AND continuous pressure (channel aftertouch). This allowed performers to bend pitch, add vibrato, shimmer, or control filter cutoff by pressing harder on a held key — aftertouch became a continuous expressive control surface on every key. The VPK had a black piano-lacquer chassis, a larger display, additional buttons, and a silver control wheel."
+      },
+      {
+        "heading": "Commercial Impact",
+        "text": "The Synclavier was used extensively by professional musicians and producers. Sting's \"Synchronicity\" (1983) was mixed on a Synclavier. Frank Zappa used Synclavier extensively on \"Jazz from Hell\" (1986, won Grammy for Best Rock Instrumental). Laurie Anderson's \"Home of the Brave\" (1986) featured Synclavier. Michael Jackson's \"Dangerous\" (1991) used Synclavier for sound design. Pat Metheny composed \"The First Circle\" (1984) using Synclavier sequences. The system was also adopted by film/TV post-production, notably at Glen Glenn Sound for Foley and sound effects."
+      },
+      {
+        "heading": "Legacy",
+        "text": "New England Digital ceased operations in 1993. Cameron Jones bought back the intellectual property in the 2000s. In 2019, he released Synclavier Go! for iOS. Arturia's Synclavier V plugin (2018) brought the sound to software. In 2022, Synclavier Digital released the Regen, a desktop FM synthesizer. The Synclavier was inducted into the TECnology Hall of Fame in 2004. It remains one of the most influential early digital music systems, notable for pioneering the light-pen-as-creative-tool paradigm."
+      }
+    ],
+    "team": [
+      {"name": "Jon Appleton", "note": "Professor of Digital Electronics, Dartmouth College — initiator of the Dartmouth Digital Synthesizer project"},
+      {"name": "Sydney A. Alonso", "note": "Co-founder, New England Digital — hardware architect, designed the ABLE minicomputer"},
+      {"name": "Cameron Jones", "note": "Co-founder, New England Digital — software programmer, later revived the Synclavier trademark"},
+      {"name": "Denny Jaeger", "note": "Music producer — influenced Synclavier II design, FM synthesis implementation"}
+    ],
+    "media": [
+      {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/3/3e/Synclavier1_JB.jpg",
+        "alt": "Synclavier I with HOP box",
+        "caption": "Synclavier I (1977) with Hand Operated Processor (HOP) box. Public domain."
+      },
+      {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/3/3f/NED_Synclavier_PSMT%2C_MIM_PHX.jpg",
+        "alt": "NED Synclavier PSMT at the Musical Instrument Museum",
+        "caption": "Synclavier PSMT (1984) with VPK keyboard, exhibited at Musical Instrument Museum, Phoenix. CC BY 2.0."
+      },
+      {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/6/61/Synclavier_Velocity_Pressure_Keyboard_%28VPK%29_closeup.jpg",
+        "alt": "VPK display close-up",
+        "caption": "Synclavier Velocity/Pressure Keyboard (VPK) display close-up. CC BY-SA 2.0."
+      },
+      {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/c/c4/NED_Synclavier_II_%26_floppy_disc_drive_%28front%29.jpg",
+        "alt": "Synclavier II with floppy disc drive",
+        "caption": "Synclavier II (1980) with floppy disc drive. CC BY-SA 2.0."
+      },
+      {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b5/NED_Synclavier_VPK%2C_MIM_PHX.jpg/1280px-NED_Synclavier_VPK%2C_MIM_PHX.jpg",
+        "alt": "VPK display and control wheel",
+        "caption": "Display and control wheel on the VPK (1984). CC BY 2.0."
+      }
+    ],
+    "sources": [
+      {"text": "Wikipedia: Synclavier", "url": "https://en.wikipedia.org/wiki/Synclavier"},
+      {"text": "TECnology Hall of Fame 2004", "url": "http://legacy.tecawards.org/tec/04TECnologyHOFdetails.html"},
+      {"text": "Synclavier Early History — 500sound.com", "url": "http://www.500sound.com/synclavierhistory.html"},
+      {"text": "Synclavier Digital", "url": "https://www.synclavier.com/about/"},
+      {"text": "Vintage Synth Explorer: Synclavier", "url": "http://www.vintagesynth.com/misc/synclav.php"}
+    ],
+    "imageUrls": [
+      "https://commons.wikimedia.org/wiki/File:Synclavier1_JB.jpg",
+      "https://commons.wikimedia.org/wiki/File:NED_Synclavier_PSMT,_MIM_PHX.jpg",
+      "https://commons.wikimedia.org/wiki/File:Synclavier_Velocity_Pressure_Keyboard_(VPK)_closeup.jpg",
+      "https://commons.wikimedia.org/wiki/File:NED_Synclavier_II_%26_floppy_disc_drive_(front).jpg",
+      "https://commons.wikimedia.org/wiki/File:NED_Synclavier_VPK,_MIM_PHX.jpg"
+    ]
+  },
+  "savedImages": []
+}

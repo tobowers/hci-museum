@@ -3220,6 +3220,19 @@ const exhibitData: Exhibit[] = [
     tags: ["HCI", "Output", "Display", "Electronic Paper", "Bistable", "Research"],
     image: img("gyricon-roll.jpg"),
   },
+  {
+    id: "synclavier",
+    slug: "synclavier",
+    wikiTitle: "NED Synclavier",
+    year: "1977",
+    sortYear: 1977,
+    title: "NED Synclavier",
+    subtitle: "Draw your sound with a light pen — the first complete digital music workstation",
+    blurb:
+      "The NED Synclavier (1977, New England Digital / Dartmouth College) is a digital synthesis, sampling, and recording system whose light-pen-on-CRT interface let composers draw waveforms and harmonic spectra directly on screen years before mouse-driven audio editing. Later models added the Velocity/Pressure Keyboard (VPK), a weighted wooden keyboard whose keys sensed both how fast they were pressed and how hard they were held — continuous aftertouch as an expressive input channel. Only ~20 Synclavier I units were built; the system evolved through the Synclavier II (1980), PSMT (1984), and Tapeless Studio configurations, priced from $25,000 to $200,000. Used by Sting, Frank Zappa, Laurie Anderson, Michael Jackson, and Pat Metheny. Inducted into the TECnology Hall of Fame in 2004.",
+    tags: ["HCI", "Input", "Output", "Music", "Light Pen", "Touch", "Professional"],
+    image: img("synclavier1-jb.jpg"),
+  },
 ];
 
 export const exhibits: Exhibit[] = exhibitData.toSorted((a, b) => b.sortYear - a.sortYear || a.title.localeCompare(b.title));
