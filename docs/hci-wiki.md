@@ -264,6 +264,7 @@ Each entry includes an overview, a deep dive, a small media gallery, and full so
    255. [Logitech 3D Mouse (Fly Mouse) (1990)](#logitech-3d-mouse-fly-mouse-1990)
    256. [VersaWriter (1981)](#versa-writer-1981)
    257. [Mephisto Modular Autosensory Chess Board (1983)](#mephisto-modular-autosensory-chess-board-1983)
+   258. [Xerox PARC Gyricon Electronic Paper (1975)](#xerox-parc-gyricon-electronic-paper-1975)
   
 ---
 
@@ -11923,3 +11924,43 @@ Where a plotter takes abstract coordinates and makes them physical on paper, the
 
 1. VersaWriter Reference Manual (1981), Versa Computing, Inc. — https://archive.org/details/VersaComputingVersaWriterReferenceManual
 2. Atari Classics retrospective (June 1993), "Looking Back: VersaWriter" — https://www.atarimagazines.com/atariclassics/v2n3/looking_back.php
+
+## Xerox PARC Gyricon Electronic Paper (1975)
+
+**By:** Xerox Palo Alto Research Center (Nicholas Sheridon)
+
+The Gyricon (from the Greek *gyros*, "to turn") is the original electronic paper, invented in the mid-1970s by Nicholas Sheridon at Xerox's Palo Alto Research Center. It is a thin, flexible sheet of transparent silicone in which millions of microscopic bichromal polyethylene spheres (~75–106 µm) are suspended, each inside its own oil-filled bubble so it is free to physically rotate. Every sphere is an electrostatic dipole — one hemisphere plastic white, the other black.
+
+### Rendering by rotation
+
+To write an image, electrodes printed on the sheet apply a voltage pattern across its surface. Each charged bead feels a torque and tumbles in its oil pocket to present either its white side or its black side to the viewer — exactly like the two halves of a lenticular ball. A gray level is a bead left at an intermediate angle. Because the spheres are bistable and electrostatically latched, the rendered image persists after all power is removed: the display holds a picture indefinitely on zero energy, and a new voltage pattern erases and rewrites it thousands of times.
+
+### A paper-replacement philosophy
+
+Sheridon designed Gyricon deliberately as a paper surrogate, not a display: thin, flexible, unbreakable, and readable in bright ambient light like a printed page — no backlight, no phosphor, no refresh scan. PARC demonstrated working Gyricon sheets, including color variants using red/white and other bichromal pairs. The technology was later commercialized under the Xerox spinoff Gyricon LLC (2000–2005) before being largely superseded by electrophoretic E Ink, which shares Gyricon's core premise of physically rearranging charged particles to make a bistable image.
+
+### The HCI meaning
+
+Where nearly every other computer output in the museum emits light or moves a pen, Gyricon renders by letting charged beads decide which color to show and then simply stopping. The image is not drawn and refreshed so much as physically assembled once and held — the cleanest realization of "the medium is the interface" in the output family, and the direct ancestor of every e-reader.
+
+### Team
+
+* **Nicholas Sheridon.** Inventor; physicist at Xerox PARC who conceived Gyricon as electronic paper in the mid-1970s.
+* **Xerox Palo Alto Research Center (PARC).** The laboratory where Gyricon was developed.
+
+### Media
+
+![A rolled Gyricon sheet](../assets/wiki/gyricon-roll.jpg)
+*A rolled Gyricon sheet showing the flexible paper-like form factor. Wikimedia Commons, CC BY-SA 4.0.*
+
+![Bichromal beads](../assets/wiki/gyricon-beads.jpg)
+*The bichromal polyethylene spheres whose rotation renders the image. Wikimedia Commons, CC BY-SA 3.0.*
+
+![Gyricon operating principle](../assets/wiki/gyricon-diagram.jpg)
+*Operating principle: charged beads rotate in oil pockets to present white or black halves. Wikimedia Commons, public domain.*
+
+### Sources
+
+1. Gyricon — Wikipedia — https://en.wikipedia.org/wiki/Gyricon
+2. Electronic paper — Wikipedia — https://en.wikipedia.org/wiki/Electronic_paper
+3. Wikimedia Commons — File:Gyricon enrollado.jpg — https://commons.wikimedia.org/wiki/File:Gyricon_enrollado.jpg

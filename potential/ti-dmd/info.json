@@ -1,0 +1,50 @@
+{
+  "slug": "ti-dmd",
+  "title": "Texas Instruments Digital Micromirror Device (DMD / DLP)",
+  "year": "1987",
+  "subtitle": "A chip whose surface is a field of hinged microscopic mirrors that physically tilt thousands of times a second to paint a picture",
+  "why_scout_cares": "The museum's only micro-mechanical output device — a single silicon chip that renders information by flipping hundreds of thousands of hinged mirrors between on and off states under electrostatic control. The 'display' is a machine of moving shutters, not an emissive or phosphor surface. Its first product was a printer (DMD2000 airline-ticket printer, 1990) that exposed paper with the same tilting-mirror array.",
+  "search_terms": ["Digital Micromirror Device", "DLP", "Larry Hornbeck", "TI deformable mirror", "MEMS display", "DMD2000 printer", "US5061049"],
+  "research": {
+    "title": "Texas Instruments Digital Micromirror Device (DMD / DLP)",
+    "year": "1987",
+    "by": "Texas Instruments (Larry J. Hornbeck)",
+    "tags": ["HCI", "Output", "Display", "MEMS"],
+    "overview": "The Digital Micromirror Device (DMD) is a micro-opto-electromechanical display invented in 1987 by Larry J. Hornbeck at Texas Instruments, building on a deformable-mirror program that began in 1977. The device is a single semiconductor chip whose surface is a rectangular array of several hundred thousand microscopic aluminum mirrors (~16 µm each), every mirror mounted on a yoke by torsion hinges and individually rotatable +/-10-12 degrees through electrostatic attraction from the SRAM cells beneath it.",
+    "deepDive": [
+      {
+        "heading": "Rendering by physical tilt",
+        "text": "To make a picture, the chip rapidly flips each mirror thousands of times per second. In the 'on' state a mirror reflects lamp light into the lens to form a bright pixel; in the 'off' state it reflects the light into a heatsink to form a dark one. Gray is produced by binary pulse-width modulation — the mirror is physically reoriented at a duty cycle that determines how much light reaches the screen. Color came from a spinning dichroic filter wheel. The whole image is a field of hinged mechanical shutters moving at microsecond timescales."
+      },
+      {
+        "heading": "A mirror array that printed",
+        "text": "The DMD's first commercial product was not a projector but a printer: the DMD2000 airline-ticket printer (1990) used the tilting-mirror array to expose photosensitive paper directly, replacing the laser scanning of a conventional page printer. This illustrates the device's nature as a general-purpose spatial light modulator — the same mirrors that can project a movie can expose a page."
+      },
+      {
+        "heading": "The HCI meaning",
+        "text": "DMD collapses the distinction between output and mechanism: the rendering device is literally a micro-machined field of tilting mirrors fabricated on silicon. Unlike every other output in the museum (phosphor, LED, ink, film, oil), DMD paints with mechanical motion — millions of tiny mirrors flapping open and shut. It became the heart of DLP projection, still in use decades later."
+      }
+    ],
+    "team": [
+      { "name": "Larry J. Hornbeck", "note": "TI physicist who invented the DMD in 1987; National Inventors Hall of Fame" },
+      { "name": "Texas Instruments", "note": "Corporate lab; deformable-mirror display program from 1977" }
+    ],
+    "media": [
+      { "src": "https://upload.wikimedia.org/wikipedia/commons/0/06/Digital_Micromirror_Device_-_Chip.jpg", "alt": "A Digital Micromirror Device chip", "caption": "A DMD chip; the surface is an array of microscopic tilting mirrors. Wikimedia Commons, CC BY-SA 1.0 (Andrew Hitchcock)." },
+      { "src": "https://upload.wikimedia.org/wikipedia/commons/8/89/Texas_Instruments_DLP_digital_micromirror_device_-_%283%29.jpg", "alt": "Close-up of a Texas Instruments DMD", "caption": "Close-up of a TI DMD showing the mirror array detail. Wikimedia Commons, CC BY-SA 1.0." }
+    ],
+    "sources": [
+      { "text": "Wikipedia — Digital micromirror device", "url": "https://en.wikipedia.org/wiki/Digital_micromirror_device" },
+      { "text": "Wikipedia — Digital light processing", "url": "https://en.wikipedia.org/wiki/Digital_light_processing" },
+      { "text": "US Patent 5,061,049 (Hornbeck, TI)", "url": "https://patents.google.com/patent/US5061049A/en" }
+    ],
+    "imageUrls": [
+      "https://upload.wikimedia.org/wikipedia/commons/0/06/Digital_Micromirror_Device_-_Chip.jpg",
+      "https://upload.wikimedia.org/wikipedia/commons/8/89/Texas_Instruments_DLP_digital_micromirror_device_-_%283%29.jpg"
+    ]
+  },
+  "savedImages": [
+    "dmd-chip.jpg",
+    "dmd-3.jpg"
+  ]
+}

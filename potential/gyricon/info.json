@@ -1,0 +1,53 @@
+{
+  "slug": "gyricon",
+  "title": "Xerox PARC Gyricon Electronic Paper",
+  "year": "1975",
+  "subtitle": "A bendable sheet of millions of black-and-white balls that tumble in oil to hold a picture with no power at all",
+  "why_scout_cares": "The museum's only rotating-bead bistable output mechanism and the direct physical ancestor of E Ink. Rendering here is a mechanical act — millions of bichromal spheres physically rotating in their oil pockets — not light emission. It is the strangest, most counterintuitive way a computer has ever drawn a persistent picture.",
+  "search_terms": ["Gyricon", "Xerox PARC electronic paper", "Nicholas Sheridon", "bichromal beads display", "E Ink ancestor", "electronic paper 1975"],
+  "research": {
+    "title": "Xerox PARC Gyricon Electronic Paper",
+    "year": "1975",
+    "by": "Xerox Palo Alto Research Center (Nicholas Sheridon)",
+    "tags": ["HCI", "Output", "Display", "Electronic paper"],
+    "overview": "The Gyricon (a Xerox trademark, from Greek gyros, 'to turn') is the original electronic paper, invented in the mid-1970s by Nicholas Sheridon at Xerox's Palo Alto Research Center. It is a thin, flexible sheet of transparent silicone in which millions of microscopic bichromal polyethylene spheres (~75-106 µm) are suspended, each inside its own oil-filled bubble so it is free to physically rotate. Every sphere is a dipole — one hemisphere plastic white, the other black, carrying opposite electrostatic charges.",
+    "deepDive": [
+      {
+        "heading": "Rendering by rotation",
+        "text": "To write an image, electrodes printed on the sheet apply a voltage pattern across its surface. Each charged bead feels a torque and tumbles in its oil pocket to present either its white side or its black side to the viewer, exactly like the two halves of a lenticular ball. A gray level is a bead left at an intermediate angle. Because the spheres are bistable and electrostatically latched, the rendered image persists after all power is removed — the display holds a picture indefinitely on zero energy, and a new voltage pattern erases and rewrites it thousands of times."
+      },
+      {
+        "heading": "A paper-replacement philosophy",
+        "text": "Sheridon designed Gyricon deliberately as a paper surrogate, not a display: it is thin, flexible, unbreakable, and readable in bright ambient light like a printed page, with no backlight, no phosphor, and no refresh scan. PARC demonstrated working Gyricon sheets, including color variants using red/white and other bichromal pairs. The technology was later commercialized under the Xerox spinoff Gyricon LLC (2000-2005) before being largely superseded by electrophoretic E Ink, which shares Gyricon's core premise of physically rearranging charged particles to make a bistable image."
+      },
+      {
+        "heading": "The HCI meaning",
+        "text": "Where nearly every other computer output in the museum emits light or moves a pen, Gyricon renders by letting charged beads decide which color to show and then simply stopping. The image is not drawn and refreshed so much as physically assembled once and held. It is the cleanest realization of 'the medium is the interface' in the output family, and the direct ancestor of every e-reader."
+      }
+    ],
+    "team": [
+      { "name": "Nicholas Sheridon", "note": "Inventor; physicist at Xerox PARC who conceived Gyricon as electronic paper" },
+      { "name": "Xerox Palo Alto Research Center (PARC)", "note": "Laboratory where Gyricon was developed in the mid-1970s" }
+    ],
+    "media": [
+      { "src": "https://upload.wikimedia.org/wikipedia/commons/b/bf/Gyricon_enrollado.jpg", "alt": "A rolled sheet of Gyricon electronic paper", "caption": "A rolled Gyricon sheet, showing the flexible paper-like form factor. Wikimedia Commons, CC BY-SA 4.0." },
+      { "src": "https://upload.wikimedia.org/wikipedia/commons/3/32/Bolas_de_gyricon.jpg", "alt": "Bichromal beads that form the Gyricon display", "caption": "The bichromal polyethylene spheres whose rotation renders the image. Wikimedia Commons, CC BY-SA 3.0." },
+      { "src": "https://upload.wikimedia.org/wikipedia/commons/a/a6/Gyricon.jpg", "alt": "Diagram of the Gyricon bead rotation mechanism", "caption": "Operating principle: charged beads rotate in oil pockets to present white or black halves. Wikimedia Commons, public domain." }
+    ],
+    "sources": [
+      { "text": "Wikipedia — Gyricon", "url": "https://en.wikipedia.org/wiki/Gyricon" },
+      { "text": "Wikipedia — Electronic paper", "url": "https://en.wikipedia.org/wiki/Electronic_paper" },
+      { "text": "Xerox PARC Gyricon project (archived)", "url": "https://web.archive.org/web/2004*/gyricon*" }
+    ],
+    "imageUrls": [
+      "https://upload.wikimedia.org/wikipedia/commons/b/bf/Gyricon_enrollado.jpg",
+      "https://upload.wikimedia.org/wikipedia/commons/3/32/Bolas_de_gyricon.jpg",
+      "https://upload.wikimedia.org/wikipedia/commons/a/a6/Gyricon.jpg"
+    ]
+  },
+  "savedImages": [
+    "gyricon-roll.jpg",
+    "gyricon-beads.jpg",
+    "gyricon-diagram.jpg"
+  ]
+}
