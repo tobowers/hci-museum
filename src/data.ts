@@ -3205,7 +3205,20 @@ const exhibitData: Exhibit[] = [
     blurb:
       "The VersaWriter (c. 1981, Versa Computing, Inc.) is a digitizer drawing board that let home users enter graphics by tracing — the embodied inverse of a plotter. A two-link pantograph arm, each pivot carrying a rotary potentiometer, translates the pointer's position into X/Y coordinates the computer replots live on the high-resolution screen. To draw, you place an original picture under the transparent Mylar sheet and trace it with the pointer dot; software replots the stroke with tools for straight lines, freehand brush, airbrush, color fill, scaling, and text. A one-time calibration records four known arm positions before use. The same mechanical-linkage idea as professional CAD digitizers, miniaturized for the Atari 400/800, Apple II, and Commodore 64 at about $299. A 1993 Atari Classics retrospective literally asked 'Should VersaWriter be in a museum?'",
     tags: ["HCI", "Input", "Drawing", "Digitizer", "Home Computer", "Pantograph"],
-    image: img("versawriter-drawing-board-interface.jpg"),
+         image: img("versawriter-drawing-board-interface.jpg"),
+  },
+  {
+    id: "gyricon",
+    slug: "gyricon",
+    wikiTitle: "Xerox PARC Gyricon Electronic Paper",
+    year: "1975",
+    sortYear: 1975,
+    title: "Xerox PARC Gyricon Electronic Paper",
+    subtitle: "A flexible sheet of millions of black-and-white balls that tumble in oil to hold a picture on zero power",
+    blurb:
+      "The Gyricon (Xerox PARC, mid-1970s, Nicholas Sheridon) is the original electronic paper and the museum's only rotating-bead bistable output mechanism. A thin sheet of transparent silicone holds millions of microscopic bichromal polyethylene spheres (~75-106 µm), each floating in its own oil-filled bubble and free to physically rotate. Because every bead is an electrostatic dipole — half white, half black — a voltage pattern across the sheet makes each sphere tumble in its pocket to present one side or the other, and the bistable beads then latch: the image persists indefinitely with zero power, and new voltage patterns erase and rewrite it thousands of times. Sheridon designed it as a paper surrogate, not a display — thin, flexible, readable in ambient light, no backlight, no phosphor, no refresh scan. It is the direct physical ancestor of every e-reader, sharing its core premise of rearranging charged particles into a persistent image. Where nearly every other computer output in the museum emits light or moves a pen, Gyricon renders by letting charged beads decide which color to show and then simply stopping — the cleanest realization of 'the medium is the interface' in the output family.",
+    tags: ["HCI", "Output", "Display", "Electronic Paper", "Bistable", "Research"],
+    image: img("gyricon-roll.jpg"),
   },
 ];
 
