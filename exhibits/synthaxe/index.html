@@ -1,0 +1,239 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
+    <meta name="description" content="A fretted MIDI guitar controller with two independent sets of strings at an angle: one for pitch (electrical fret scanning, zero latency) and one for triggering (Hall-effect velocity sensing). Funded by Virgin Group, priced like a small car, built from aerospace materials. Allan Holdsworth called it &#039;the only guitar synthesizer that really works.&#039; Virgin pulled out, the company folded, and the remaining instruments became holy grails." />
+    <meta property="og:title" content="SynthAxe — HCI Museum" />
+    <meta property="og:description" content="A fretted MIDI guitar controller with two independent sets of strings at an angle: one for pitch (electrical fret scanning, zero latency) and one for triggering (Hall-effect velocity sensing). Funded by Virgin Group, priced like a small car, built from aerospace materials. Allan Holdsworth called it &#039;the only guitar synthesizer that really works.&#039; Virgin pulled out, the company folded, and the remaining instruments became holy grails." />
+    <meta property="og:site_name" content="HCI Museum" />
+    <meta property="og:type" content="article" />
+    <meta property="og:url" content="https://interfacemuseum.com/exhibits/synthaxe/" />
+    <meta property="og:image" content="https://interfacemuseum.com/og/exhibits/synthaxe.jpg" />
+    <meta property="og:image:secure_url" content="https://interfacemuseum.com/og/exhibits/synthaxe.jpg" />
+    <meta property="og:image:type" content="image/jpeg" />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="630" />
+    <meta property="og:image:alt" content="SynthAxe archival photograph" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="SynthAxe — HCI Museum" />
+    <meta name="twitter:description" content="A fretted MIDI guitar controller with two independent sets of strings at an angle: one for pitch (electrical fret scanning, zero latency) and one for triggering (Hall-effect velocity sensing). Funded by Virgin Group, priced like a small car, built from aerospace materials. Allan Holdsworth called it &#039;the only guitar synthesizer that really works.&#039; Virgin pulled out, the company folded, and the remaining instruments became holy grails." />
+    <meta name="twitter:image" content="https://interfacemuseum.com/og/exhibits/synthaxe.jpg" />
+    <meta name="twitter:image:alt" content="SynthAxe archival photograph" />
+    <title>SynthAxe — HCI Museum</title>
+    <link rel="icon" type="image/gif" href="/favicon.gif" />
+    <link rel="icon" type="image/png" href="/favicon.png" />
+    <link rel="alternate" type="text/plain" title="HCI Museum llms.txt" href="/llms.txt" />
+    <link rel="alternate" type="application/rss+xml" title="HCI Museum Collection" href="/feeds/collection.xml" />
+    <link rel="alternate" type="application/rss+xml" title="HCI Museum Field Notes" href="/feeds/blog.xml" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="../../styles.css" />
+  </head>
+  <body>
+    <div class="atmosphere" aria-hidden="true">
+      <div class="atmosphere__grid"></div>
+      <div class="atmosphere__scanlines"></div>
+      <div class="atmosphere__vignette"></div>
+    </div>
+
+    <div class="page-shell">
+      <header class="site-header">
+        <a href="../../" class="brand">
+          <span class="brand__mark" aria-hidden="true"></span>
+          <span>HCI Museum</span>
+        </a>
+        <nav class="nav-primary" aria-label="Primary">
+          <a href="../../exhibits/" class="active">Exhibits</a>
+          <a href="../../blog/">Field Notes</a>
+          <a href="../../about/">About</a>
+        </nav>
+        <div class="header-meta">
+          <span class="header-meta__item">SYS_OK</span>
+          <span class="header-meta__pulse" aria-hidden="true"></span>
+        </div>
+      </header>
+
+      <main>
+
+        <article class="exhibit">
+          <header class="exhibit__hero">
+            <div class="exhibit__hero-text">
+              <div class="exhibit__eyebrow">
+                <span class="exhibit__year">1985</span>
+                <span class="exhibit__by">Bill Aitken, Mike Dixon, and Tony Sedivy / Synthaxe Limited (UK), with Virgin Group funding</span>
+              </div>
+              <h1 class="exhibit__title">SynthAxe</h1>
+              <p class="exhibit__subtitle">The £10,000 MIDI guitar that freed pitch from pluck — crashed sequencers with six channels of aftertouch, and fewer than 100 were made</p>
+              <div class="exhibit__tags"><span class="exhibit__tag">Music</span><span class="exhibit__tag">MIDI</span><span class="exhibit__tag">Gesture</span></div>
+            </div>
+
+            <div class="exhibit__hero-image-wrap">
+              <img
+                class="exhibit__hero-image"
+                src="../../assets/wiki/synthaxe-wikimedia.jpg"
+                alt="SynthAxe archival photograph"
+              />
+              <div class="exhibit__hero-scanlines" aria-hidden="true"></div>
+            </div>
+          </header>
+
+          <section class="exhibit__section exhibit__overview">
+            <h2 class="exhibit__section-title">Overview</h2>
+            <div class="exhibit__prose"><p>The <strong>SynthAxe</strong> was a fretted MIDI guitar controller developed in England and launched commercially in 1985–86. Funded as a joint venture by Richard Branson&#039;s Virgin Group, it was built by Synthaxe Limited and co-invented by Bill Aitken, Mike Dixon, and Tony Sedivy (US Patent 4,658,690, filed January 1985). It carried no internal sound source; it was a pure MIDI controller that required external synthesizers.</p>
+<p>The instrument&#039;s defining innovation was the complete decoupling of pitch selection from note triggering. Six pitch strings ran over a 24-fret neck where each fret was divided into 11 conductive sections, continuously scanned by a microprocessor — pressing a string onto a fret closed an electrical switch, just like a keyboard scanning matrix. Six separate trigger strings on the body detected velocity via Hall effect sensors when plucked. The two string sets were mounted at an angle to each other, giving the instrument its distinctive sci-fi silhouette.</p>
+<p>String bends were detected by sensor coils embedded in the fingerboard; touch was sensed by an AC waveform superimposed on a DC potential, enabling hammer-ons, pull-offs, and an auto-trigger mode. Nine velocity-sensitive trigger keys with polyphonic aftertouch offered an alternative to picking. The result was six independent MIDI channels — each with per-string pitch bend and aftertouch — capable of crashing most 1980s sequencers.</p>
+<p>Priced at £10,000 (approximately US $13,000) in 1986, fewer than 100 units were built from aerospace and military-grade components: a cast metal chassis inside a fibreglass shell with a steel neck. Transporting one required four flight cases. Virgin dropped the product around 1987–88, and Synthaxe Limited entered liquidation. Allan Holdsworth, its most famous user, called it &quot;the only guitar synthesizer that was ever built that really works for me.&quot;</p></div>
+          </section>
+
+          <section class="exhibit__section exhibit__deep-dive">
+            <h2 class="exhibit__section-title">Deep dive</h2>
+            <div class="exhibit__facts">
+        <div class="exhibit__fact">
+          <div class="exhibit__fact-heading"><strong>The latency problem it solved.</strong></div>
+          <p>Every competing MIDI guitar system of the mid-1980s — the Roland GR-series, the IVL Pitchrider — worked by analyzing audio waveforms. A string was plucked, the system sampled it, computed its pitch from the waveform, then generated a MIDI note. This took time — typically 10–30 milliseconds, perceptible to a trained musician. The SynthAxe eliminated latency entirely by refusing to do pitch analysis. Its fretboard was an electrical switch matrix: press a string to a fret, and you close a circuit. The note pitch is known instantly, before any note is triggered. The trigger strings (or keys) then initiate the MIDI event with zero computational delay. This architectural decision — decoupling pitch from trigger — was the SynthAxe&#039;s single most important HCI insight.</p>
+        </div>
+      
+        <div class="exhibit__fact">
+          <div class="exhibit__fact-heading"><strong>Interaction subsystems.</strong></div>
+          <p>The SynthAxe had four distinct interaction subsystems. (1) Fretboard scanning: 24 frets, each divided into 11 conductive sections (6 under each string plus 5 inter-string pins), continuously scanned by multiplexing. Non-standard spacing allowed a two-octave range per string. All strings used the same gauge (0.13), giving uniform light action. (2) String bend detection: tiny electromagnetic sensor coils between frets detected lateral string movement by sensing changes in the field around current-carrying strings. (3) Touch sensing: an AC waveform imposed on a DC bias detected finger contact before the string reached the fret, enabling hammer-ons and pull-offs. (4) Triggering: Hall effect sensors on six trigger strings measured plucking velocity and timing; nine velocity-sensitive keys with polyphonic aftertouch provided an alternative; an auto-trigger mode fired notes on fret contact for tapping technique. A separate console/pedestal unit provided individual string tuning, transposition, electronic capo, and foot-pedal control of decay and sustain.</p>
+        </div>
+      
+        <div class="exhibit__fact">
+          <div class="exhibit__fact-heading"><strong>The Virgin gamble.</strong></div>
+          <p>Richard Branson&#039;s Virgin Group funded the SynthAxe as a joint venture, handling distribution through Virgin Games. The 1986 launch price of £10,000 placed it firmly in the professional studio market. Virgin&#039;s involvement aligned the SynthAxe with the company&#039;s broader push into entertainment technology in the mid-1980s. But when the product failed to find a market beyond a handful of virtuoso guitarists, Virgin pulled out after approximately two years, and Synthaxe Limited entered liquidation. The liquidation left SynthAxe owners without factory support or spare parts — Holdsworth later lamented that &quot;there are maybe two or three guys on the whole planet that could probably fix a SynthAxe now.&quot;</p>
+        </div>
+      
+        <div class="exhibit__fact">
+          <div class="exhibit__fact-heading"><strong>The Drumitar: a second life.</strong></div>
+          <p>The SynthAxe&#039;s most unexpected legacy came from Future Man (Roy Wooten), percussionist for Béla Fleck and the Flecktones. Future Man bought Lee Ritenour&#039;s SynthAxe and completely rebuilt it into the Drumitar — a guitar-shaped MIDI drum controller. Where the original mapped MIDI data to synthesizers, the Drumitar mapped it to drum machines and samplers. The novel interface (two sets of strings, velocity-sensitive keys) turned out to be equally suited to percussion as to melody. The Drumitar became Future Man&#039;s signature instrument through multiple Grammys with the Flecktones, giving the SynthAxe&#039;s architecture a creative afterlife far beyond its original design intent.</p>
+        </div>
+      
+        <div class="exhibit__fact">
+          <div class="exhibit__fact-heading"><strong>Notable users.</strong></div>
+          <p>Allan Holdsworth used the SynthAxe on <em>Atavachron</em> (1986) and <em>Sand</em> (1987). Lee Ritenour featured it on the cover of <em>Earth Run</em> (1986). Christopher Currell used it to control a Synclavier on Michael Jackson&#039;s <em>Bad</em> tour. Chuck Hammer worked with Lou Reed and David Bowie using the SynthAxe. Gary Moore was briefly shown playing one in the &quot;Out in the Fields&quot; video.</p>
+        </div>
+      </div>
+          </section>
+
+          
+          <section class="exhibit__section exhibit__team">
+            <h2 class="exhibit__section-title">Team &amp; pioneers</h2>
+            <ul class="exhibit__team-list">
+            <li class="exhibit__team-item">
+              <span class="exhibit__team-name">Bill Aitken (William A. Aitken).</span>
+              <span class="exhibit__team-note"> Primary inventor; conceived the instrument in the early 1980s.</span>
+            </li>
+            <li class="exhibit__team-item">
+              <span class="exhibit__team-name">Mike Dixon (Michael S. Dixon).</span>
+              <span class="exhibit__team-note"> Co-inventor, engineering.</span>
+            </li>
+            <li class="exhibit__team-item">
+              <span class="exhibit__team-name">Tony Sedivy (Anthony J. Sedivy).</span>
+              <span class="exhibit__team-note"> Co-inventor, engineering.</span>
+            </li>
+            <li class="exhibit__team-item">
+              <span class="exhibit__team-name">David Fowler.</span>
+              <span class="exhibit__team-note"> Designed key toggles; trading as BJ Hopkins Injection and Toolmaking, Littleworth, Oxford. Deceased.</span>
+            </li>
+            <li class="exhibit__team-item">
+              <span class="exhibit__team-name">Synthaxe Limited.</span>
+              <span class="exhibit__team-note"> UK limited company, London area. Assignee of US patent. Joint venture with Virgin Group.</span>
+            </li>
+            <li class="exhibit__team-item">
+              <span class="exhibit__team-name">Richard Branson / Virgin Group.</span>
+              <span class="exhibit__team-note"> Joint venture funder; Virgin Games handled distribution.</span>
+            </li>
+            </ul>
+          </section>
+
+          
+          <section class="exhibit__section exhibit__media">
+            <h2 class="exhibit__section-title">Media</h2>
+            <div class="exhibit__media-grid">
+        <figure class="exhibit__media-item">
+          <div class="exhibit__media-frame">
+            <img src="../../assets/wiki/synthaxe-wikimedia.jpg" alt="SynthAxe MIDI guitar controller on a stand" loading="lazy" />
+            <div class="exhibit__media-scanlines" aria-hidden="true"></div>
+          </div>
+          <figcaption>The SynthAxe — two sets of strings at an angle, fibreglass body over a cast metal chassis. The upper strings select pitch electrically; the lower strings trigger notes via Hall-effect velocity sensing. Wikimedia Commons.</figcaption>
+        </figure>
+      
+        <figure class="exhibit__media-item">
+          <div class="exhibit__media-frame">
+            <img src="../../assets/wiki/synthaxe-patent-front.png" alt="Patent drawing showing SynthAxe instrument architecture" loading="lazy" />
+            <div class="exhibit__media-scanlines" aria-hidden="true"></div>
+          </div>
+          <figcaption>Patent drawing showing the SynthAxe&#039;s dual string-angle architecture and internal construction. US Patent 4,658,690, filed 1985, issued 1987. Public domain.</figcaption>
+        </figure>
+      
+        <figure class="exhibit__media-item">
+          <div class="exhibit__media-frame">
+            <img src="../../assets/wiki/synthaxe-holdsworth.jpg" alt="Allan Holdsworth performing with the SynthAxe" loading="lazy" />
+            <div class="exhibit__media-scanlines" aria-hidden="true"></div>
+          </div>
+          <figcaption>Allan Holdsworth, the SynthAxe&#039;s most famous advocate, performing live. Holdsworth used the instrument on Atavachron (1986) and Sand (1987). Photo from innerviews.org.</figcaption>
+        </figure>
+      </div>
+          </section>
+          
+
+          
+          <section class="exhibit__section exhibit__sources">
+            <h2 class="exhibit__section-title">Sources</h2>
+            <ol class="exhibit__source-list">
+        <li>
+          <a href="https://en.wikipedia.org/wiki/SynthAxe" target="_blank" rel="noopener">Wikipedia: SynthAxe</a>
+        </li>
+      
+        <li>
+          <a href="https://www.freepatentsonline.com/4658690.html" target="_blank" rel="noopener">US Patent 4,658,690: Electronic musical instrument (SynthAxe)</a>
+        </li>
+      
+        <li>
+          <a href="http://www.hollis.co.uk/john/synthaxe.html" target="_blank" rel="noopener">John Hollis: SynthAxe serial #0006 — first-hand owner&#039;s page</a>
+        </li>
+      
+        <li>
+          <a href="https://www.innerviews.org/inner/holdsworth.html" target="_blank" rel="noopener">Allan Holdsworth Innerviews interview (discusses SynthAxe)</a>
+        </li>
+      
+        <li>
+          <a href="https://www.matrixsynth.com/search/label/SynthAxe" target="_blank" rel="noopener">MATRIXSYNTH: SynthAxe tag (aggregator with photos and videos)</a>
+        </li>
+      
+        <li>
+          <a href="https://www.youtube.com/watch?v=EZopVI9LTOU" target="_blank" rel="noopener">SynthAxe factory demo video (YouTube)</a>
+        </li>
+      
+        <li>
+          <a href="https://www.muzines.co.uk/articles/synth-axe/3012" target="_blank" rel="noopener">Sound on Sound, March 1986: SynthAxe feature (archived at muzines.co.uk)</a>
+        </li>
+      </ol>
+          </section>
+          
+
+          <nav class="exhibit__nav" aria-label="Exhibit navigation">
+            <a href="../surf-champ/" class="exhibit__nav-link exhibit__nav-link--prev">
+        <span class="exhibit__nav-dir">← Previous</span>
+        <span class="exhibit__nav-title">Surf Champ</span>
+      </a>
+            <a href="../../exhibits/" class="exhibit__nav-link exhibit__nav-link--index">All exhibits</a>
+            <a href="../teddy-ruxpin/" class="exhibit__nav-link exhibit__nav-link--next">
+        <span class="exhibit__nav-dir">Next →</span>
+        <span class="exhibit__nav-title">Teddy Ruxpin</span>
+      </a>
+          </nav>
+        </article>
+      </main>
+
+      <footer class="site-footer">
+        <span>HCI Museum // Curated by Beepy</span>
+        <span class="site-footer__signal">SIGNAL_STABLE</span>
+      </footer>
+    </div>
+
+    <!-- Cloudflare Web Analytics --><script defer src='https://static.cloudflareinsights.com/beacon.min.js' data-cf-beacon='{"token": "8dcb1e0fcb41470b8769c87691688807"}'></script><!-- End Cloudflare Web Analytics -->
+  </body>
+</html>

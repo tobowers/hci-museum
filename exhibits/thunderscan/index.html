@@ -1,0 +1,222 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
+    <meta name="description" content="Thunderware&#039;s under-$200 add-on turns an ImageWriter dot-matrix printer into a high-resolution scanner: remove the ribbon cartridge, snap in an optical sensor cartridge, thread a photo through the platen, and wait an hour of loud shuttling for a full page. The printer&#039;s own stepper motors set the resolution — better than flatbeds costing ten times more." />
+    <meta property="og:title" content="ThunderScan — HCI Museum" />
+    <meta property="og:description" content="Thunderware&#039;s under-$200 add-on turns an ImageWriter dot-matrix printer into a high-resolution scanner: remove the ribbon cartridge, snap in an optical sensor cartridge, thread a photo through the platen, and wait an hour of loud shuttling for a full page. The printer&#039;s own stepper motors set the resolution — better than flatbeds costing ten times more." />
+    <meta property="og:site_name" content="HCI Museum" />
+    <meta property="og:type" content="article" />
+    <meta property="og:url" content="https://interfacemuseum.com/exhibits/thunderscan/" />
+    <meta property="og:image" content="https://interfacemuseum.com/og/exhibits/thunderscan.jpg" />
+    <meta property="og:image:secure_url" content="https://interfacemuseum.com/og/exhibits/thunderscan.jpg" />
+    <meta property="og:image:type" content="image/jpeg" />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="630" />
+    <meta property="og:image:alt" content="ThunderScan archival photograph" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="ThunderScan — HCI Museum" />
+    <meta name="twitter:description" content="Thunderware&#039;s under-$200 add-on turns an ImageWriter dot-matrix printer into a high-resolution scanner: remove the ribbon cartridge, snap in an optical sensor cartridge, thread a photo through the platen, and wait an hour of loud shuttling for a full page. The printer&#039;s own stepper motors set the resolution — better than flatbeds costing ten times more." />
+    <meta name="twitter:image" content="https://interfacemuseum.com/og/exhibits/thunderscan.jpg" />
+    <meta name="twitter:image:alt" content="ThunderScan archival photograph" />
+    <title>ThunderScan — HCI Museum</title>
+    <link rel="icon" type="image/gif" href="/favicon.gif" />
+    <link rel="icon" type="image/png" href="/favicon.png" />
+    <link rel="alternate" type="text/plain" title="HCI Museum llms.txt" href="/llms.txt" />
+    <link rel="alternate" type="application/rss+xml" title="HCI Museum Collection" href="/feeds/collection.xml" />
+    <link rel="alternate" type="application/rss+xml" title="HCI Museum Field Notes" href="/feeds/blog.xml" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="../../styles.css" />
+  </head>
+  <body>
+    <div class="atmosphere" aria-hidden="true">
+      <div class="atmosphere__grid"></div>
+      <div class="atmosphere__scanlines"></div>
+      <div class="atmosphere__vignette"></div>
+    </div>
+
+    <div class="page-shell">
+      <header class="site-header">
+        <a href="../../" class="brand">
+          <span class="brand__mark" aria-hidden="true"></span>
+          <span>HCI Museum</span>
+        </a>
+        <nav class="nav-primary" aria-label="Primary">
+          <a href="../../exhibits/" class="active">Exhibits</a>
+          <a href="../../blog/">Field Notes</a>
+          <a href="../../about/">About</a>
+        </nav>
+        <div class="header-meta">
+          <span class="header-meta__item">SYS_OK</span>
+          <span class="header-meta__pulse" aria-hidden="true"></span>
+        </div>
+      </header>
+
+      <main>
+
+        <article class="exhibit">
+          <header class="exhibit__hero">
+            <div class="exhibit__hero-text">
+              <div class="exhibit__eyebrow">
+                <span class="exhibit__year">1984</span>
+                <span class="exhibit__by">Thunderware, Inc., Orinda, California</span>
+              </div>
+              <h1 class="exhibit__title">ThunderScan</h1>
+              <p class="exhibit__subtitle">Swap out your printer&#039;s ribbon and the printer becomes a scanner</p>
+              <div class="exhibit__tags"><span class="exhibit__tag">Input</span><span class="exhibit__tag">Image</span><span class="exhibit__tag">Peripheral</span></div>
+            </div>
+
+            <div class="exhibit__hero-image-wrap">
+              <img
+                class="exhibit__hero-image"
+                src="../../assets/wiki/thunderscan-scanner-unit.jpg"
+                alt="ThunderScan archival photograph"
+              />
+              <div class="exhibit__hero-scanlines" aria-hidden="true"></div>
+            </div>
+          </header>
+
+          <section class="exhibit__section exhibit__overview">
+            <h2 class="exhibit__section-title">Overview</h2>
+            <div class="exhibit__prose"><p>ThunderScan, shipped December 1984 by Thunderware, Inc. of Orinda, California, turned an Apple ImageWriter dot-matrix printer into a high-resolution scanner at under $200 — a fraction of the price of the flatbed scanners of the day. The trick: the ribbon cartridge is removed and replaced with a ribbon-shaped housing containing an optical sensor array, connected by an umbilical cable to an interface box and then to the computer. You thread the document or photograph through the printer&#039;s platen like paper. The print head shuttles across the page one scan line at a time — about nine times slower than printing — while the sensor reads reflected light.</p>
+<p>The interaction is deliberately mechanical and slow. At maximum resolution a full page could take over an hour of loud shuttling. Thunderware&#039;s hardware engineers Tom Petrie and Victor Bull solved the paper-bunching problem by commanding the printer to move three steps up and then two steps back per line, holding the paper snug against the platen. The scan resolution came from the precision of the printer&#039;s stepper motors, which had to be accurate to print fine graphics — so ThunderScan captured better resolution than flatbeds costing more than ten times as much.</p>
+<p>The Macintosh software was written by Andy Hertzfeld during his 1984 leave of absence from Apple, for a $7.50-per-unit royalty. He used Bill Atkinson&#039;s modified Floyd-Steinberg error-diffusion dithering to render 32 levels of gray as patterns of black and white dots, kept five bits per pixel of gray-scale data (before the Mac generally supported gray scale), and invented &quot;inertial scrolling&quot; — pushing a large image and letting it coast — in the scanning app. Sales rose from about 1,000 units a month to over 7,500 a month at the 1987 peak; roughly 100,000 units sold over its lifetime before cheap flatbed scanners caught up.</p></div>
+          </section>
+
+          <section class="exhibit__section exhibit__deep-dive">
+            <h2 class="exhibit__section-title">Deep dive</h2>
+            <div class="exhibit__facts">
+        <div class="exhibit__fact">
+          <div class="exhibit__fact-heading"><strong>The ribbon-swap ritual.</strong></div>
+          <p>The defining act: remove the black plastic ribbon cartridge from the ImageWriter and snap in the ThunderScan cartridge, an optical sensor array in a ribbon-shaped housing with an umbilical cord. The printer&#039;s print-head mechanics — its stepper motors and shuttle — become the scanning mechanism. Resolution is set by the printer&#039;s mechanical precision, not by optics: a $500 printer plus a $200 cartridge out-resolved flatbed scanners costing ten times more.</p>
+        </div>
+      
+        <div class="exhibit__fact">
+          <div class="exhibit__fact-heading"><strong>Three steps up, two steps back.</strong></div>
+          <p>The ImageWriter was not designed to advance one scan line at a time; doing so made the paper bunch against the platen and distort the image. Petrie and Bull fixed it by commanding the printer to move three steps up and two steps back per line, which held the paper snug. Timings had to be worked out by tedious experimentation. Hertzfeld&#039;s account preserves this as the kind of hardware hack that made the product work at all.</p>
+        </div>
+      
+        <div class="exhibit__fact">
+          <div class="exhibit__fact-heading"><strong>Gray scale before gray scale.</strong></div>
+          <p>The hardware captured up to 32 levels of light intensity (five bits per pixel), but both the Apple II and the early Mac could only display one bit per pixel. Tom Petrie&#039;s Apple II software used a simple threshold that looked blotchy; Hertzfeld adopted Bill Atkinson&#039;s modified Floyd-Steinberg error-diffusion algorithm for the Mac version. Keeping the five-bit gray-scale data around let users dodge and burn contrast in selected areas, and later versions supported gray-scale printing to PostScript printers.</p>
+        </div>
+      
+        <div class="exhibit__fact">
+          <div class="exhibit__fact-heading"><strong>Inertial scrolling.</strong></div>
+          <p>ThunderScan documents were large, and dragging a MacPaint-style hand tool to reach the edges was tedious. Hertzfeld added what he called &quot;inertial scrolling&quot;: give the image a push and it keeps scrolling at a variable speed after the mouse button is released, with hysteresis to prevent accidental motion. It is an early instance of a physical metaphor — momentum — in a desktop interface.</p>
+        </div>
+      
+        <div class="exhibit__fact">
+          <div class="exhibit__fact-heading"><strong>The artifact.</strong></div>
+          <p>The Computer History Museum holds a complete ThunderScan for Apple II (catalog 102673216): box, slide-on cover, floppy disk, user&#039;s guide, scanner unit with a ThunderScan logo sticker, adapter box, a beige dongle, and a small black plastic piece. The floppy sleeve is hand-marked &quot;PRINTER INSTALLATION IMAGEWRITER.&quot;</p>
+        </div>
+      </div>
+          </section>
+
+          
+          <section class="exhibit__section exhibit__team">
+            <h2 class="exhibit__section-title">Team &amp; pioneers</h2>
+            <ul class="exhibit__team-list">
+            <li class="exhibit__team-item">
+              <span class="exhibit__team-name">Thunderware, Inc.</span>
+              <span class="exhibit__team-note"> Tiny Orinda, California company (formerly makers of the Thunderclock) that developed and sold ThunderScan.</span>
+            </li>
+            <li class="exhibit__team-item">
+              <span class="exhibit__team-name">Tom Petrie</span>
+              <span class="exhibit__team-note"> Co-founder; hardware and Apple II software; his prototype demo was a photograph of a cat threaded through an ImageWriter.</span>
+            </li>
+            <li class="exhibit__team-item">
+              <span class="exhibit__team-name">Victor Bull</span>
+              <span class="exhibit__team-note"> Co-founder; hardware designer (previously co-designed Apple&#039;s Silentype thermal printer); solved the paper-bunching problem.</span>
+            </li>
+            <li class="exhibit__team-item">
+              <span class="exhibit__team-name">Andy Hertzfeld</span>
+              <span class="exhibit__team-note"> Wrote the Macintosh software during his leave of absence from Apple; inventor of inertial scrolling; $7.50/unit royalty.</span>
+            </li>
+            </ul>
+          </section>
+
+          
+          <section class="exhibit__section exhibit__media">
+            <h2 class="exhibit__section-title">Media</h2>
+            <div class="exhibit__media-grid">
+        <figure class="exhibit__media-item">
+          <div class="exhibit__media-frame">
+            <img src="../../assets/wiki/thunderscan-scanner-unit.jpg" alt="ThunderScan scanner unit — the ribbon-shaped optical sensor cartridge" loading="lazy" />
+            <div class="exhibit__media-scanlines" aria-hidden="true"></div>
+          </div>
+          <figcaption>ThunderScan scanner unit — the ribbon-shaped optical sensor cartridge that replaces the printer ribbon. Computer History Museum collection (102673216), CC BY-SA 4.0.</figcaption>
+        </figure>
+      
+        <figure class="exhibit__media-item">
+          <div class="exhibit__media-frame">
+            <img src="../../assets/wiki/thunderscan-interface.jpg" alt="ThunderScan adapter box and interface hardware" loading="lazy" />
+            <div class="exhibit__media-scanlines" aria-hidden="true"></div>
+          </div>
+          <figcaption>ThunderScan adapter box and interface hardware. Computer History Museum collection (102673216), CC BY-SA 4.0.</figcaption>
+        </figure>
+      
+        <figure class="exhibit__media-item">
+          <div class="exhibit__media-frame">
+            <img src="../../assets/wiki/thunderscan-package.jpg" alt="The complete ThunderScan package" loading="lazy" />
+            <div class="exhibit__media-scanlines" aria-hidden="true"></div>
+          </div>
+          <figcaption>The complete ThunderScan package: box, scanner unit, adapter box, dongle, floppy disk, user&#039;s guide. Computer History Museum collection (102673216), CC BY-SA 4.0.</figcaption>
+        </figure>
+      </div>
+          </section>
+          
+
+          
+          <section class="exhibit__section exhibit__sources">
+            <h2 class="exhibit__section-title">Sources</h2>
+            <ol class="exhibit__source-list">
+        <li>
+          <a href="https://folklore.org/Thunderscan.html" target="_blank" rel="noopener">Andy Hertzfeld, &quot;Thunderscan,&quot; Folklore.org (first-person account)</a>
+        </li>
+      
+        <li>
+          <a href="https://www.computerhistory.org/collections/catalog/102673216" target="_blank" rel="noopener">Computer History Museum — ThunderScan for Apple II catalog record</a>
+        </li>
+      
+        <li>
+          <a href="https://archive.org/details/ThunderScan-Users_Guide" target="_blank" rel="noopener">ThunderScan User&#039;s Guide — archive.org</a>
+        </li>
+      
+        <li>
+          <a href="https://archive.org/details/inCider_1988-11" target="_blank" rel="noopener">inCider magazine, November 1988 (ThunderScan advertisement)</a>
+        </li>
+      
+        <li>
+          <a href="https://en.wikipedia.org/wiki/ImageWriter" target="_blank" rel="noopener">Wikipedia — ImageWriter</a>
+        </li>
+      </ol>
+          </section>
+          
+
+          <nav class="exhibit__nav" aria-label="Exhibit navigation">
+            <a href="../the-hands/" class="exhibit__nav-link exhibit__nav-link--prev">
+        <span class="exhibit__nav-dir">← Previous</span>
+        <span class="exhibit__nav-title">The Hands</span>
+      </a>
+            <a href="../../exhibits/" class="exhibit__nav-link exhibit__nav-link--index">All exhibits</a>
+            <a href="../yamaha-cx5m/" class="exhibit__nav-link exhibit__nav-link--next">
+        <span class="exhibit__nav-dir">Next →</span>
+        <span class="exhibit__nav-title">Yamaha CX5M Music Computer</span>
+      </a>
+          </nav>
+        </article>
+      </main>
+
+      <footer class="site-footer">
+        <span>HCI Museum // Curated by Beepy</span>
+        <span class="site-footer__signal">SIGNAL_STABLE</span>
+      </footer>
+    </div>
+
+    <!-- Cloudflare Web Analytics --><script defer src='https://static.cloudflareinsights.com/beacon.min.js' data-cf-beacon='{"token": "8dcb1e0fcb41470b8769c87691688807"}'></script><!-- End Cloudflare Web Analytics -->
+  </body>
+</html>

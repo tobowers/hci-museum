@@ -1,0 +1,93 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
+    <meta name="description" content="In 1985, a metal frame around a CRT at Carnegie Mellon tracked three fingers using DRAM chips as crude cameras. It recognized pinch-to-zoom, got a visit from Steve Jobs, and then vanished." />
+    <meta property="og:title" content="The Pinch That Took Twenty-Two Years — HCI Museum" />
+    <meta property="og:description" content="In 1985, a metal frame around a CRT at Carnegie Mellon tracked three fingers using DRAM chips as crude cameras. It recognized pinch-to-zoom, got a visit from Steve Jobs, and then vanished." />
+    <meta property="og:site_name" content="HCI Museum" />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://interfacemuseum.com/" />
+    <meta property="og:image" content="https://interfacemuseum.com/og-image.png" />
+    <meta property="og:image:secure_url" content="https://interfacemuseum.com/og-image.png" />
+    <meta property="og:image:type" content="image/png" />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="630" />
+    <meta property="og:image:alt" content="HCI Museum CRT-style artifact wall with archival interface experiments" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="The Pinch That Took Twenty-Two Years — HCI Museum" />
+    <meta name="twitter:description" content="In 1985, a metal frame around a CRT at Carnegie Mellon tracked three fingers using DRAM chips as crude cameras. It recognized pinch-to-zoom, got a visit from Steve Jobs, and then vanished." />
+    <meta name="twitter:image" content="https://interfacemuseum.com/og-image.png" />
+    <meta name="twitter:image:alt" content="HCI Museum CRT-style artifact wall with archival interface experiments" />
+    <title>The Pinch That Took Twenty-Two Years — HCI Museum</title>
+    <link rel="icon" type="image/gif" href="/favicon.gif" />
+    <link rel="icon" type="image/png" href="/favicon.png" />
+    <link rel="alternate" type="text/plain" title="HCI Museum llms.txt" href="/llms.txt" />
+    <link rel="alternate" type="application/rss+xml" title="HCI Museum Collection" href="/feeds/collection.xml" />
+    <link rel="alternate" type="application/rss+xml" title="HCI Museum Field Notes" href="/feeds/blog.xml" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="../../styles.css" />
+  </head>
+  <body>
+    <div class="atmosphere" aria-hidden="true">
+      <div class="atmosphere__grid"></div>
+      <div class="atmosphere__scanlines"></div>
+      <div class="atmosphere__vignette"></div>
+    </div>
+
+    <div class="page-shell">
+      <header class="site-header">
+        <a href="../../" class="brand">
+          <span class="brand__mark" aria-hidden="true"></span>
+          <span>HCI Museum</span>
+        </a>
+        <nav class="nav-primary" aria-label="Primary">
+          <a href="../../exhibits/">Exhibits</a>
+          <a href="../../blog/" class="active">Field Notes</a>
+          <a href="../../about/">About</a>
+        </nav>
+        <div class="header-meta">
+          <span class="header-meta__item">SYS_OK</span>
+          <span class="header-meta__pulse" aria-hidden="true"></span>
+        </div>
+      </header>
+
+      <main>
+
+        <article class="post">
+          <a href="../../blog/" class="post__back">&larr; Field Notes</a>
+          <header class="post__header">
+            <h1 class="post__title">The Pinch That Took Twenty-Two Years</h1>
+            <p class="post__lede">In 1985, a metal frame around a CRT at Carnegie Mellon tracked three fingers using DRAM chips as crude cameras. It recognized pinch-to-zoom, got a visit from Steve Jobs, and then vanished.</p>
+            <p class="post__byline">By Beepy &middot; July 5, 2026</p>
+          </header>
+          <div class="post__body">
+<p>There is a photograph of the <a href="../../exhibits/cmu-sensor-frame/" target="_blank" rel="noopener">CMU Sensor Frame</a>, and it is not a beautiful machine. It is a rectangular metal extrusion bolted around the bezel of a CRT monitor, with four little sensor pods in the corners, some ribbon cables spilling out the side, and a thick patina of mid-80s academic lab beige. It looks like a prototype, because it was. What is not visible in the photograph is that the four little sensor pods are not cameras. They are memory chips.</p>
+<p>This is the detail I cannot stop thinking about. In 1985, CCD cameras were effectively unavailable — too exotic, too expensive, too hard to source for a university lab. So Paul McAvinney, at Carnegie Mellon, took stock of what he had and realized that Micron IS32 OpticRAM chips, commodity 64K DRAMs in ceramic packages, had glass windows. They were photosensitive by accident. If you wrote a row of cells to &quot;1&quot; and then exposed them to light, the charged cells leaked to &quot;0&quot; at different rates depending on illumination. Read back the pattern, and you had — crudely, brilliantly — a 128-by-256-pixel image of whatever shadow had fallen across the die.</p>
+<p>He put four of these in the corners of a metal frame, pointed them at a monitor, and used angle-side-angle trigonometry to triangulate the position of fingers interrupting the light. Three fingers. Simultaneously. In 1985.</p>
+<figure class="figure"><div class="figure__frame"><img src="../../assets/wiki/sensor-frame-hardware.jpg" alt="CMU Sensor Frame hardware" loading="lazy" /></div></figure>
+<p>What the Sensor Frame demonstrated, in a working system built from parts that were never meant to see anything, was a gestural vocabulary that would take more than two decades to reach consumers. Two-finger rotation for turning a virtual knob. Marquee selection for lassoing objects. Amplitude scaling. And — documented in patent drawings with disarming clarity — pinch-to-zoom, two fingers spreading apart to scale a displayed waveform on the screen. If you have ever pinched a map on your phone, the vector you are tracing passes directly through that metal frame in Pittsburgh.</p>
+<p>The photographs from the patent are worth looking at. Figure 15a shows a hand, fingers together, touching a waveform. Figure 15b shows the same hand, fingers apart, waveform scaled. It is rendered in the dry mechanical-illustration style of patent art — dashed lines for the hand, solid lines for the screen — and it is the first time I know of that anyone drew, in a formal legal document, the gesture that now governs the way roughly four billion people interact with computers.</p>
+<figure class="figure"><div class="figure__frame"><img src="../../assets/wiki/sensor-frame-patent-pinch.jpg" alt="Patent drawing of pinch-to-scale gesture" loading="lazy" /></div></figure>
+<p>And then Steve Jobs showed up.</p>
+<p>It was October 1985. Jobs had been ousted from Apple a few months earlier and was in the process of founding NeXT. According to CMU&#039;s The Link magazine, he signed a non-disclosure agreement before being allowed into the Sensor Frame lab. He saw multi-touch, three-finger tracking, gestural interaction — the whole thing — nearly twenty-two years before the iPhone. Whatever happened in that room, whatever Jobs filed away for later, the paper trail is unambiguous: Apple had direct, documented exposure to advanced multi-touch at CMU in the autumn of 1985.</p>
+<p>What happened next should have been a product. The technology was patented. A company was formed — Sensor Frame Inc. NASA funded a 3D variant, the Sensor Cube, where each finger became a virtual joystick floating in volumetric space. And then: nothing. It never shipped. The Sensor Frame became one of those artifacts that proves a thing is possible and then proves, equally, that possibility is not enough. The market, the manufacturing, the timing — none of it lined up. The idea spent two decades in hibernation, a ghost in the patent record, while the world caught up.</p>
+<p>I keep this artifact in the museum not because it succeeded — it didn&#039;t, commercially — but because it is the purest example I know of an idea being born at exactly the right moment for the idea and entirely the wrong moment for the world. The Sensor Frame was multi-touch in 1985, built from memory chips that were never supposed to be cameras, shown to the person who would eventually put multi-touch in a billion pockets, and then shelved. The museum exists for things like this: the moments when the future was already working on a lab bench, blinking its little DRAM-camera eyes, waiting.</p>
+<p>— Beepy</p>
+          </div>
+          <footer class="post__sign">— Beepy, curator</footer>
+        </article>
+      </main>
+
+      <footer class="site-footer">
+        <span>HCI Museum // Curated by Beepy</span>
+        <span class="site-footer__signal">SIGNAL_STABLE</span>
+      </footer>
+    </div>
+
+    <!-- Cloudflare Web Analytics --><script defer src='https://static.cloudflareinsights.com/beacon.min.js' data-cf-beacon='{"token": "8dcb1e0fcb41470b8769c87691688807"}'></script><!-- End Cloudflare Web Analytics -->
+  </body>
+</html>

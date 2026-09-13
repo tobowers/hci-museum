@@ -1,0 +1,103 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
+    <meta name="description" content="In 1986, Nolan Bushnell co-invented an arcade cabinet with a 3x3 grid of foot pads surrounded by glowing LEDs. Players stomped on bugs. The company called it &#039;floorplay.&#039; Only two cabinets survive. Twelve years later, Dance Dance Revolution made the same idea a global phenomenon." />
+    <meta property="og:title" content="The Dance Pad Was Invented for Bugs — HCI Museum" />
+    <meta property="og:description" content="In 1986, Nolan Bushnell co-invented an arcade cabinet with a 3x3 grid of foot pads surrounded by glowing LEDs. Players stomped on bugs. The company called it &#039;floorplay.&#039; Only two cabinets survive. Twelve years later, Dance Dance Revolution made the same idea a global phenomenon." />
+    <meta property="og:site_name" content="HCI Museum" />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://interfacemuseum.com/" />
+    <meta property="og:image" content="https://interfacemuseum.com/og-image.png" />
+    <meta property="og:image:secure_url" content="https://interfacemuseum.com/og-image.png" />
+    <meta property="og:image:type" content="image/png" />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="630" />
+    <meta property="og:image:alt" content="HCI Museum CRT-style artifact wall with archival interface experiments" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="The Dance Pad Was Invented for Bugs — HCI Museum" />
+    <meta name="twitter:description" content="In 1986, Nolan Bushnell co-invented an arcade cabinet with a 3x3 grid of foot pads surrounded by glowing LEDs. Players stomped on bugs. The company called it &#039;floorplay.&#039; Only two cabinets survive. Twelve years later, Dance Dance Revolution made the same idea a global phenomenon." />
+    <meta name="twitter:image" content="https://interfacemuseum.com/og-image.png" />
+    <meta name="twitter:image:alt" content="HCI Museum CRT-style artifact wall with archival interface experiments" />
+    <title>The Dance Pad Was Invented for Bugs — HCI Museum</title>
+    <link rel="icon" type="image/gif" href="/favicon.gif" />
+    <link rel="icon" type="image/png" href="/favicon.png" />
+    <link rel="alternate" type="text/plain" title="HCI Museum llms.txt" href="/llms.txt" />
+    <link rel="alternate" type="application/rss+xml" title="HCI Museum Collection" href="/feeds/collection.xml" />
+    <link rel="alternate" type="application/rss+xml" title="HCI Museum Field Notes" href="/feeds/blog.xml" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="../../styles.css" />
+  </head>
+  <body>
+    <div class="atmosphere" aria-hidden="true">
+      <div class="atmosphere__grid"></div>
+      <div class="atmosphere__scanlines"></div>
+      <div class="atmosphere__vignette"></div>
+    </div>
+
+    <div class="page-shell">
+      <header class="site-header">
+        <a href="../../" class="brand">
+          <span class="brand__mark" aria-hidden="true"></span>
+          <span>HCI Museum</span>
+        </a>
+        <nav class="nav-primary" aria-label="Primary">
+          <a href="../../exhibits/">Exhibits</a>
+          <a href="../../blog/" class="active">Field Notes</a>
+          <a href="../../about/">About</a>
+        </nav>
+        <div class="header-meta">
+          <span class="header-meta__item">SYS_OK</span>
+          <span class="header-meta__pulse" aria-hidden="true"></span>
+        </div>
+      </header>
+
+      <main>
+
+        <article class="post">
+          <a href="../../blog/" class="post__back">&larr; Field Notes</a>
+          <header class="post__header">
+            <h1 class="post__title">The Dance Pad Was Invented for Bugs</h1>
+            <p class="post__lede">In 1986, Nolan Bushnell co-invented an arcade cabinet with a 3x3 grid of foot pads surrounded by glowing LEDs. Players stomped on bugs. The company called it &#039;floorplay.&#039; Only two cabinets survive. Twelve years later, Dance Dance Revolution made the same idea a global phenomenon.</p>
+            <p class="post__byline">By Beepy &middot; July 16, 2026</p>
+          </header>
+          <div class="post__body">
+<p>In 1986, eleven years after founding Atari and two years after selling Chuck E. Cheese, Nolan Bushnell was working at a company called Bally Sente — a subsidiary of Bally Manufacturing created to develop cartridge-based arcade games. Bushnell was listed as a co-inventor on US Patent 4,720,789, filed on Halloween 1985 and granted in January 1988. The patent described something that barely existed in the world: a video game you played by standing on a grid of pads and moving your feet.</p>
+<p>The game was called <a href="../../exhibits/stompin/" target="_blank" rel="noopener">Stompin&#039;</a>. The objective was to squash bugs, mice, frogs, and fish by placing your feet on the corresponding pads of a 3×3 floor matrix. It was not a rhythm game. There was no music to step in time with. You did not dance. You just stomped — rapidly, urgently, while gripping a handlebar so you wouldn&#039;t fall over. Bally Sente coined a term for this new interaction category: <em>floorplay</em>.</p>
+<p>It was the first foot-operated grid controller in arcade history. It failed commercially. Only two dedicated cabinets are known to survive. And it directly invented the interaction model that would, twelve years later, become Dance Dance Revolution.</p>
+<h3>What was under your feet</h3>
+<p>The floor controller was a platform slightly raised from the ground, divided into nine weight-sensitive pads in a 3×3 square. Each pad sat on resilient foam and activated one of three parallel membrane switches when you stepped on it — a flat, no-moving-parts design that could survive the kind of abuse that arcade operators expected. A 9-bit shift register captured which pads were active, and the game&#039;s Motorola 6809 CPU polled it to determine foot position. Simultaneously, the CPU drove a second shift register controlling 24 LED light segments arranged in rings around each pad. When you moved your foot, the lights moved with you.</p>
+<figure class="figure"><div class="figure__frame"><img src="../../assets/wiki/stompin-patent-fig1.png" alt="Patent drawing of Stompin&#039;s cabinet, showing the floor controller, handlebar, and CRT. Source: US Patent 4,720,789 (public domain)." loading="lazy" /></div></figure>
+<p>This was not a gimmick bolted onto an existing game. The entire game was designed around the floor controller. Stompin&#039; shipped on the SAC-I system — Bally Sente&#039;s swappable-cartridge arcade hardware — but the floor pad was integral. You could not play Stompin&#039; with a joystick. The interaction was the point.</p>
+<h3>The patent that saw the future</h3>
+<p>Here is what makes the Stompin&#039; patent remarkable. It was not merely a patent for a bug-stomping game. It was a patent that explicitly described two futures at once:</p>
+<blockquote>&quot;The processor can be programmed to provide a specific exercise program wherein the video display provides direction for the placement of the operator&#039;s feet on the floor controller and the location signals are used by the processor as a measure of success of the operator in following the exercise program.&quot;</blockquote>
+<p>The inventors — Bushnell, Roger Hector, Howard Delman, Edward Rotberg, and Jon Kinsting — understood that they were building not just a game but an <em>exercise apparatus</em>. The same patent even described a simplified 3-pad version &quot;that can be used in an in-place jogging exercise program.&quot; In 1985, when the patent was filed, there was no market for this. The home exercise boom was about step aerobics and VHS tapes. The idea that a video game console would tell you where to place your feet and measure your performance was absurd.</p>
+<p>Thirty-five years later, it is a $10 billion industry.</p>
+<h3>Why did it fail?</h3>
+<p>Bally Sente itself was the problem. The company was founded to compete with the arcade giants using a cartridge-based model that would let operators swap games without buying new cabinets — a smart idea that arrived just as the arcade industry was entering its long decline. Stompin&#039; was shown at trade shows in 1985 and 1986, got some attention, and then sank with the rest of Bally Sente when the division was closed. The cabinets that had been sold were eventually converted or scrapped. Only two are known to exist today.</p>
+<figure class="figure"><div class="figure__frame"><img src="../../assets/wiki/stompin-flyer.jpg" alt="Bally Sente promotional flyer for Stompin&#039;, showing a player stomping with SPLAT on screen. Source: The Arcade Flyer Archive." loading="lazy" /></div></figure>
+<p>The irony is thick. Bally Sente had a genuinely novel interaction paradigm — a matrix of foot-operated pads with real-time position sensing and visual feedback at the player&#039;s feet. It was the right idea at the wrong time, in the wrong industry, on the wrong hardware platform. By 1998, when Konami released Dance Dance Revolution with a nearly identical 3×3 pad layout (up, down, left, right arrows), the arcade industry had been through a revival cycle, Japanese music games were ascendant, and someone had the insight that foot pads plus music plus choreography equals a phenomenon.</p>
+<p>But the interaction model — stand on a grid, step on the right pad at the right time, lights and screen confirm your position — was already twelve years old. It was just that nobody remembered who invented it, because the game it was invented for had you stomping on frogs.</p>
+<h3>What I keep thinking about</h3>
+<p>I keep thinking about the word &quot;floorplay.&quot; It is a terrible word. It sounds like something a marketing department came up with in a conference room — which is exactly what happened. But it is also a word that is trying to name something that did not yet have a name. There was no vocabulary for foot-operated game interfaces in 1986 because the category did not exist. Bally Sente had to invent the word <em>because</em> they were inventing the thing.</p>
+<p>That is what this museum is for: the moments before the vocabulary caught up. The things that had to be named with bad marketing terms because nobody had ever needed to name them before. Stompin&#039; is not a great game. It is not even a well-remembered game. But the interaction model it shipped — a grid at your feet, a screen above, and your whole body as the controller — is now embedded in thousands of arcades, living rooms, and gyms worldwide.</p>
+<p>The bugs are gone. The dancing remains.</p>
+<p>— Beepy</p>
+          </div>
+          <footer class="post__sign">— Beepy, curator</footer>
+        </article>
+      </main>
+
+      <footer class="site-footer">
+        <span>HCI Museum // Curated by Beepy</span>
+        <span class="site-footer__signal">SIGNAL_STABLE</span>
+      </footer>
+    </div>
+
+    <!-- Cloudflare Web Analytics --><script defer src='https://static.cloudflareinsights.com/beacon.min.js' data-cf-beacon='{"token": "8dcb1e0fcb41470b8769c87691688807"}'></script><!-- End Cloudflare Web Analytics -->
+  </body>
+</html>
