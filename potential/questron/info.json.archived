@@ -1,0 +1,53 @@
+{
+  "slug": "questron",
+  "title": "Questron Electronic Answer Wand",
+  "year": "c. 1984",
+  "subtitle": "A wand that reads hidden infrared ink on a printed page and answers with three tones — no barcode, no speech, just invisible marks",
+  "why_scout_cares": "The museum's only hidden-ink optical sensing input: the Questron wand does not scan visible marks (unlike the TI Magic Wand's visible barcode or Cauzin Softstrip), it measures infrared reflectance from printed pages and discriminates answers the eye cannot see. The correct multiple-choice answer is secretly screened in carbon-black ink that absorbs IR while the decoy color inks are IR-transparent. The wand presses down, reads the invisible difference, and answers with one of three tones. It is input-by-hidden-material-property — a stranger, more secretive reading interface than any barcode scanner in the collection.",
+  "search_terms": ["Questron electronic wand", "Price Stern Sloan Questron", "hidden ink answer wand", "IR reflectance toy", "US4604065", "Questron activity book electronic"],
+  "research": {
+    "title": "Questron Electronic Answer Wand",
+    "year": "c. 1984",
+    "by": "Price/Stern/Sloan Publishers (inventor Stephen O. Frazer)",
+    "tags": ["HCI", "Input", "Educational toy", "Optical sensing"],
+    "overview": "Questron was a mid-1980s educational toy system from Price/Stern/Sloan (the California publisher best known for Mad Libs and the Little Golden Books imprint's activity line). It paired a handheld, battery-powered 'electronic answer wand' with a series of illustrated activity books. The wand is not a barcode scanner and does not read any mark the eye can see. Instead, it works by infrared reflectance: each multiple-choice answer on the printed page is screened with different inks, and the single correct answer is printed with carbon-black ink that absorbs infrared light, while the decoy color inks (cyan, magenta, yellow) are essentially transparent to IR. Pressing the wand's spring-loaded tip down on an answer lets an IR emitter and photodetector measure how much light reflects back, and the wand answers with an audible tone and a red or green LED — a low buzz for wrong, a higher tone for correct, and a rising 'whoop' for completing a set.",
+    "deepDive": [
+      {
+        "heading": "Input by hidden material property",
+        "text": "US Patent 4,604,065 ('Teaching or amusement apparatus', filed 1983, granted August 1986, assignee Price/Stern/Sloan) describes the whole scheme: a detector pen that discriminates between areas on a printed substrate by a property invisible to the naked eye — magnetic, infrared-reflective, or capacitive differences in the printing. The prototype embodiment uses IR reflectance to distinguish a carbon-loaded correct answer from non-absorbing decoys. This is optical sensing aimed not at a readable code but at a physical property difference the human reader can never see, which makes the wand feel like it is guessing along with you."
+      },
+      {
+        "heading": "A reading ritual, not a scanner",
+        "text": "Using Questron is closer to a divining ritual than to scanning: you cannot point at the right answer intentionally, because nothing visible distinguishes it. You press the wand onto each candidate answer in turn and the machine is the only thing that knows. In more elaborate Questron activities, the same principle supported hidden-maze and letter-tracing games where sliding the wand off an invisible path latches an error signal. The feedback is deliberately impoverished — three tones and two LEDs — so all of the 'which one is right?' tension lives in the hidden ink."
+      },
+      {
+        "heading": "The HCI meaning",
+        "text": "Questron inverts the usual direction of reading technology. Where barcode readers (Cauzin Softstrip, TI Magic Wand, LaserBarcode) make a visible pattern machine-readable, Questron hides the answer in a material property and keeps the reading secret even from the human. It is a child-sized demonstration that an interface can sense things no person can, and a direct, playful ancestor of the invisible-sensing interactions that later showed up in pens, touchpads, and augmented-reality markers."
+      }
+    ],
+    "team": [
+      { "name": "Stephen O. Frazer", "note": "Inventor named on US Patent 4,604,065" },
+      { "name": "Price/Stern/Sloan Publishers Inc.", "note": "Assignee; California publisher of the Questron line and its activity books" }
+    ],
+    "media": [
+      { "src": "potential/questron/images/questron-patent-fig1.png", "alt": "US Patent 4,604,065 FIG. 1 showing the detector wand in use on a printed substrate", "caption": "FIG. 1 of US Patent 4,604,065 (Frazer, Price/Stern/Sloan, filed 1983): the detector wand held against a printed answer page. Public domain patent figure." },
+      { "src": "potential/questron/images/questron-patent-fig2-3.png", "alt": "US Patent 4,604,065 FIG. 2 alternative detector and FIG. 3 cross-section of the detector pen", "caption": "FIG. 2 (alternative apparatus) and FIG. 3 (cross-section of the detector pen). Public domain patent figures." },
+      { "src": "potential/questron/images/questron-patent-fig4.png", "alt": "US Patent 4,604,065 FIG. 4 circuit diagram of the detector pen", "caption": "FIG. 4: the detector pen's IR circuit diagram. Public domain patent figure." }
+    ],
+    "sources": [
+      { "text": "US Patent 4,604,065 — Teaching or amusement apparatus (Frazer, Price/Stern/Sloan)", "url": "https://patents.google.com/patent/US4604065A/en" },
+      { "text": "Internet Archive — My First Book of Animals (Price/Stern/Sloan Questron activity book, 1984)", "url": "https://archive.org/details/myfirstbookofani0000pric" },
+      { "text": "Internet Archive — My First Book of Addition (Price/Stern/Sloan Questron activity book, 1985)", "url": "https://archive.org/details/myfirstbookofadd00diet" }
+    ],
+    "imageUrls": [
+      "https://patentimages.storage.googleapis.com/54/7f/fc/74e85adabce294/US4604065-drawings-page-2.png",
+      "https://patentimages.storage.googleapis.com/4d/d5/f0/174fc6b59bc639/US4604065-drawings-page-3.png",
+      "https://patentimages.storage.googleapis.com/a0/a6/6c/83e6175a48066b/US4604065-drawings-page-4.png"
+    ]
+  },
+  "savedImages": [
+    "questron-patent-fig1.png",
+    "questron-patent-fig2-3.png",
+    "questron-patent-fig4.png"
+  ]
+}

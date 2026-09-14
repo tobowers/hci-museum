@@ -1,6 +1,6 @@
 # The HCI Golden Age Wiki
 
-A research compendium for a digital museum of cutting-edge Human-Computer Interaction from the late 1970s through the early 1990s. These two hundred and fifty-nine projects mix canonical experiments with weird, forgotten, and beautiful vaporware — brain control, voice control, gesture, wearable computing, VR, robots, and full-body exertion.
+A research compendium for a digital museum of cutting-edge Human-Computer Interaction from the late 1970s through the early 1990s. These two hundred and sixty projects mix canonical experiments with weird, forgotten, and beautiful vaporware — brain control, voice control, gesture, wearable computing, VR, robots, and full-body exertion.
 
 Each entry includes an overview, a deep dive, a small media gallery, and full source links so the images and facts can always be traced back.
 
@@ -266,6 +266,7 @@ Each entry includes an overview, a deep dive, a small media gallery, and full so
    257. [Mephisto Modular Autosensory Chess Board (1983)](#mephisto-modular-autosensory-chess-board-1983)
    258. [Xerox PARC Gyricon Electronic Paper (1975)](#xerox-parc-gyricon-electronic-paper-1975)
    259. [NED Synclavier (1977)](#ned-synclavier-1977)
+   260. [Questron Electronic Answer Wand (c. 1984)](#questron-electronic-answer-wand-c-1984)
   
 ---
 
@@ -12017,3 +12018,45 @@ The Synclavier combines two genuinely novel interaction paradigms — light-pen 
 3. Synclavier Early History — 500sound.com — http://www.500sound.com/synclavierhistory.html
 4. Synclavier Digital — https://www.synclavier.com/about/
 5. Vintage Synth Explorer — http://www.vintagesynth.com/misc/synclav.php
+
+## Questron Electronic Answer Wand (c. 1984)
+
+A handheld wand that reads hidden infrared ink on a printed page and answers with three tones — no barcode, no speech, just marks no eye can see.
+
+### Overview
+
+Questron was a mid-1980s educational toy system from Price/Stern/Sloan Publishers (the California publisher best known for Mad Libs), pairing a battery-powered "electronic answer wand" with a series of illustrated activity books such as *My First Book of Animals* (1984). The wand is not a barcode scanner and reads no mark the eye can see. It works by infrared reflectance: on each multiple-choice page, the single correct answer is printed with carbon-black ink that absorbs infrared light, while the decoy color inks (cyan, magenta, yellow) are essentially transparent to IR. Pressing the wand's spring-loaded tip down on an answer lets an IR emitter and photodetector measure how much light reflects back, and the wand answers with a tone and a red or green LED — a low buzz for wrong, a higher tone for correct, and a rising "whoop" for completing a set.
+
+### Input by hidden material property
+
+US Patent 4,604,065 ("Teaching or amusement apparatus," filed 1983, granted August 1986, assignee Price/Stern/Sloan) describes the whole scheme: a detector pen that discriminates between areas on a printed substrate by a property invisible to the naked eye — magnetic, infrared-reflective, or capacitive differences in the printing. The prototype embodiment uses IR reflectance to distinguish a carbon-loaded correct answer from non-absorbing decoys. This is optical sensing aimed not at a readable code but at a physical property difference the human reader can never see, which makes the wand feel like it is guessing along with you.
+
+### A reading ritual, not a scanner
+
+Using Questron is closer to a divining ritual than to scanning: you cannot point at the right answer intentionally, because nothing visible distinguishes it. You press the wand onto each candidate answer in turn and the machine is the only thing that knows. In more elaborate Questron activities, the same principle supported hidden-maze and letter-tracing games where sliding the wand off an invisible path latches an error signal. The feedback is deliberately impoverished — three tones and two LEDs — so all of the "which one is right?" tension lives in the hidden ink.
+
+### Why it belongs
+
+Questron inverts the usual direction of reading technology. Where barcode readers (Cauzin Softstrip, TI Magic Wand, LaserBarcode) make a visible pattern machine-readable, Questron hides the answer in a material property and keeps the reading secret even from the human. It is the museum's only hidden-ink optical sensing input and its clearest demonstration that an interface can sense things no person can — a child-sized, playful ancestor of the invisible-sensing interactions that later showed up in pens, touchpads, and augmented-reality markers. It stands distinct from the TI Magic Wand (visible barcode plus speech), Cauzin Softstrip (visible encoded data), and the Optacon (tactile reading of visible text).
+
+### Team
+
+* **Stephen O. Frazer.** Inventor named on US Patent 4,604,065.
+* **Price/Stern/Sloan Publishers Inc.** Assignee; California publisher of the Questron line and its activity books.
+
+### Media
+
+![Questron detector wand in use](../assets/wiki/questron-patent-fig1.jpg)
+*FIG. 1 of US Patent 4,604,065 (Frazer, Price/Stern/Sloan, filed 1983): the detector wand held against a printed answer page. Public domain patent figure.*
+
+![Questron alternative detector and pen cross-section](../assets/wiki/questron-patent-fig2-3.jpg)
+*FIG. 2 (alternative apparatus) and FIG. 3 (cross-section of the detector pen). Public domain patent figures.*
+
+![Questron detector pen circuit](../assets/wiki/questron-patent-fig4.jpg)
+*FIG. 4: the detector pen's infrared circuit diagram. Public domain patent figure.*
+
+### Sources
+
+1. US Patent 4,604,065 — Teaching or amusement apparatus (Frazer, Price/Stern/Sloan) — https://patents.google.com/patent/US4604065A/en
+2. Internet Archive — My First Book of Animals (Price/Stern/Sloan Questron activity book, 1984) — https://archive.org/details/myfirstbookofani0000pric
+3. Internet Archive — My First Book of Addition (Price/Stern/Sloan Questron activity book, 1985) — https://archive.org/details/myfirstbookofadd00diet
