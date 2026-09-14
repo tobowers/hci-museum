@@ -3233,6 +3233,19 @@ const exhibitData: Exhibit[] = [
     tags: ["HCI", "Input", "Output", "Music", "Light Pen", "Touch", "Professional"],
     image: img("synclavier1-jb.jpg"),
   },
+  {
+    id: "questron",
+    slug: "questron",
+    wikiTitle: "Questron Electronic Answer Wand",
+    year: "c. 1984",
+    sortYear: 1984,
+    title: "Questron Electronic Answer Wand",
+    subtitle: "A wand that reads hidden infrared ink on a printed page and answers with three tones",
+    blurb:
+      "The Questron Electronic Answer Wand (c. 1984, Price/Stern/Sloan) is the museum's only hidden-ink optical sensing input. Unlike the TI Magic Wand (which reads a visible barcode) or Cauzin Softstrip (which reads a visible pattern), Questron's wand measures infrared reflectance from the printed page and discriminates answers no human eye can see: the single correct multiple-choice answer is screened in carbon-black ink that absorbs IR, while the decoy color inks are IR-transparent. Pressing the spring-loaded wand tip down on an answer lets an IR emitter and photodetector read the invisible difference, and the machine answers with one of three tones and red/green LEDs — no speech, no barcode, no readable code. US Patent 4,604,065 (filed 1983, granted 1986) describes the scheme, and the paired Price/Stern/Sloan activity books (My First Book of Animals, 1984) shipped across the mid-1980s. It is input-by-hidden-material-property — a secretive reading interface where the machine knows what the reader cannot.",
+    tags: ["HCI", "Input", "Educational toy", "Optical sensing"],
+    image: img("questron-patent-fig1.jpg"),
+  },
 ];
 
 export const exhibits: Exhibit[] = exhibitData.toSorted((a, b) => b.sortYear - a.sortYear || a.title.localeCompare(b.title));
