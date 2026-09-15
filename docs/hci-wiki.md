@@ -1,6 +1,6 @@
 # The HCI Golden Age Wiki
 
-A research compendium for a digital museum of cutting-edge Human-Computer Interaction from the late 1970s through the early 1990s. These two hundred and sixty-one projects mix canonical experiments with weird, forgotten, and beautiful vaporware — brain control, voice control, gesture, wearable computing, VR, robots, and full-body exertion.
+A research compendium for a digital museum of cutting-edge Human-Computer Interaction from the late 1970s through the early 1990s. These two hundred and sixty-two projects mix canonical experiments with weird, forgotten, and beautiful vaporware — brain control, voice control, gesture, wearable computing, VR, robots, and full-body exertion.
 
 Each entry includes an overview, a deep dive, a small media gallery, and full source links so the images and facts can always be traced back.
 
@@ -268,6 +268,7 @@ Each entry includes an overview, a deep dive, a small media gallery, and full so
    259. [NED Synclavier (1977)](#ned-synclavier-1977)
    260. [Questron Electronic Answer Wand (c. 1984)](#questron-electronic-answer-wand-c-1984)
     261. [McDonald's Brobeck Point-of-Sale Terminal (1974)](#mcdonalds-brobeck-point-of-sale-terminal-1974)
+   262. [BSR/X10 Command Console (1978)](#bsr-x10-command-console-1978)
   
 ---
 
@@ -12101,3 +12102,29 @@ McDonald's Brobeck terminal is the physical inversion of the museum's ViewTouch 
 1. Wikipedia — Point of sale (Brobeck McDonald's system, Intel 8008, button-per-menu-item) — https://en.wikipedia.org/wiki/Point_of_sale
 2. Wikimedia Commons — File:McDonalds keyboard 6.jpg (CC BY-SA 3.0) — https://commons.wikimedia.org/wiki/File:McDonalds_keyboard_6.jpg
 3. Computer History Museum catalog — Transactron Courier Terminal (related era POS register) — https://www.computerhistory.org/collections/catalog/102747537
+
+## BSR/X10 Command Console (1978)
+
+**Tags:** `HCI` `Home Automation` `Input` `Powerline Control` `Physical` `Consumer`
+
+X10 was developed beginning in 1975 by Pico Electronics of Glenrothes, Scotland, as the first general-purpose home automation network technology. It appeared in RadioShack and Sears stores in 1978, sold by X10 Ltd. in partnership with BSR (Birmingham Sound Reproducers). The initial kit was a 16-channel command console plus a lamp module and an appliance module, followed soon after by a wall-switch module and a timer. The concept grew out of Pico's 1974 collaboration with BSR on the ADC Accutrac 4000 turntable, which could be operated by an ultrasonic remote — the seed idea of controlling lights and appliances remotely.
+
+The original command console has no display and no software metaphor. The user selects one of sixteen house codes (A through P) with a rotary dial, presses a unit button (1 through 16) to address a specific module, then presses On, Off, Dim, or Bright. The complete configuration of a home lighting system lives in the physical position of a dial and the sequence of buttons pressed — a strange, embodied ritual that prefigures, and is the inverse of, every modern smart-home app. Signals are encoded as brief 120 kHz bursts on the household power-line carrier, sent during the quiet zero crossings of the 50/60 Hz AC waveform. Each bit takes two zero crossings, so the effective data rate is around 20 bits per second — slow enough that X10 is confined to turning devices on and off or very simple dimming. An address followed by a command is transmitted twice for reliability; several units can be addressed before a single command applies to all of them.
+
+The console commands a set of plug-in physical modules that are themselves tiny interfaces: a lamp module (a solid-state TRIAC dimmer you can also switch locally), an appliance module (an impulse relay for motors and fluorescent loads), a wall-switch module, and later a timer. Each module is configured to respond to one of the 256 possible house/unit addresses, chosen by its own physical dial or switch. The whole system is a network of objects that wear their configuration on their bodies. Millions of X10 components have been sold worldwide, making it the most widely available home-automation technology of its era, and it remained popular for decades after.
+
+* **Where it sits in the museum.** The collection's home-control thread (Butler in a Box's spoken commands, the deferred Unity Systems Home Manager's touchscreen floor-plan) is missing its founding physical controller. The X10 Command Console is the museum's first home-automation power-line controller and its first "the interface is a dial and a button grid" artifact for the domestic environment. It is also a clear forerunner of the museum's smart-home and environmental-control exhibits — the ancestor of every touchscreen control panel that followed.
+
+### Media
+
+![X10 controllers, including the original BSR command console](../assets/wiki/x10-command-console.jpg)
+*X10 controllers, including the original BSR command console (bottom right) with its rotary house-code dial and unit button grid. CC BY 2.5 via Wikimedia Commons.*
+
+![X10 device modules](../assets/wiki/x10-modules.jpg)
+*X10 device modules — each wears its house/unit address on a physical dial. CC BY 2.5 via Wikimedia Commons.*
+
+### Sources
+
+1. Wikipedia — X10 (industry standard) — https://en.wikipedia.org/wiki/X10_(industry_standard)
+2. Rye, Dave (1999) 'My Life at X10' — AV and Automation Industry eMagazine — https://web.archive.org/web/20161015080410/http://www.hometoys.com/content.php?url=/htinews/oct99/articles/rye/rye.htm
+3. The history of X10 — planet.nl — http://home.planet.nl/~lhendrix/x10_history.htm
