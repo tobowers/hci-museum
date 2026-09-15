@@ -1,0 +1,71 @@
+{
+    "slug": "mcdonalds-brobeck-pos",
+    "title": "McDonald's Brobeck Point-of-Sale Terminal",
+    "year": "1974",
+    "subtitle": "The register where every menu item is a physical button \u2014 press 'Big Mac', 'Large Fries', 'Vanilla Shake', and the machine does the bookkeeping",
+    "why_scout_cares": "The museum's POS/retail narrative (IBM 5265 paper-drum register, ViewTouch touchscreen) is missing its strangest member: a register where the interface IS the menu. Built by William Brobeck and Associates in 1974 for McDonald's and deployed through the 1980s, it used an Intel 8008 and a keyboard with a dedicated physical button for every menu item \u2014 no price typing at all. The cashier composes an order by pressing 'Big Mac', 'Large Fries', 'Vanilla Shake'; a [Grill] button lets a second or third order be assembled while the first runs; [Total] computes the bill with sales tax for almost any US jurisdiction. It is the physical-inversion of ViewTouch's touchscreen menu \u2014 a full software UI rendered as a grid of hard buttons \u2014 and a genuinely odd, commercially massive, interaction-model-rich artifact.",
+    "search_terms": [
+        "McDonald's Brobeck POS terminal 1974 Intel 8008",
+        "William Brobeck and Associates point of sale",
+        "McDonald's menu button cash register",
+        "early microprocessor cash register 1974"
+    ],
+    "research": {
+        "title": "McDonald's Brobeck Point-of-Sale Terminal",
+        "year": "1974",
+        "by": "William Brobeck and Associates (for McDonald's Restaurants)",
+        "tags": ["HCI", "Input", "Point of Sale", "Retail", "Dedicated Keys"],
+        "overview": "The McDonald's POS terminal was one of the first microprocessor-controlled cash register systems, built by William Brobeck and Associates in 1974 for McDonald's Restaurants. It ran on the Intel 8008, an early microprocessor (forerunner of the 8088 used in the original IBM PC). Each station in a restaurant was a self-contained device that displayed an entire customer's order \u2014 for example [2] Vanilla Shake, [1] Large Fries, [3] Big Mac \u2014 using numeric keys for quantity plus a physical button for every menu item. The cashier never typed a price; the buttons were the menu.",
+        "deepDive": [
+            {
+                "heading": "A button for every menu item",
+                "text": "The defining interaction is that each menu item had its own dedicated physical key \u2014 Big Mac, Large Fries, Vanilla Shake \u2014 and a numeric keypad supplied the quantity. Pressing [3] then [Big Mac] entered three Big Macs. There was no numeric price entry for menu items; the keyboard surface itself carried the menu, with the printed item names identifying each button. This is a full software interface rendered as hardware: the 'software UI' of an order-entry system collapsed into a grid of labeled buttons."
+            },
+            {
+                "heading": "The [Grill] button and multi-order flow",
+                "text": "A [Grill] button let a second or third order be worked on while the first transaction was still in progress \u2014 a primitive form of concurrent order handling that anticipated modern kitchen and order-queue flows. When the customer was ready to pay, the [Total] button calculated the bill including sales tax for almost any jurisdiction in the United States, giving McDonald's accurate totals and an automatic check on what should be in the cash drawer."
+            },
+            {
+                "heading": "Reliability by redundancy",
+                "text": "Up to eight devices were connected to one of two interconnected computers, so printed reports, prices, and taxes could be handled from any device by putting it into Manager Mode. Accuracy was enhanced with error-correcting memory, three copies of all important data, and many numbers stored only as multiples of 3; if one computer failed, the other could handle the entire store. The system was in use at McDonald's from the mid-1970s through the 1980s, when the touchscreen POS era (ViewTouch, 1986) began to supersede it."
+            }
+        ],
+        "team": [
+            {
+                "name": "William Brobeck and Associates",
+                "note": "Oakland, California engineering firm that designed the McDonald's POS system in 1974."
+            },
+            {
+                "name": "McDonald's Restaurants",
+                "note": "Client and deploying organization; deployed thousands of terminals across US restaurants through the 1980s."
+            }
+        ],
+        "media": [
+            {
+                "src": "https://upload.wikimedia.org/wikipedia/commons/7/78/McDonalds_keyboard_6.jpg",
+                "alt": "The McDonald's Brobeck register keyboard showing a grid of menu-item buttons",
+                "caption": "McDonald's Brobeck register keyboard \u2014 a dedicated physical button for every menu item (CC BY-SA 3.0 via Wikimedia Commons)."
+            }
+        ],
+        "sources": [
+            {
+                "text": "Wikipedia \u2014 Point of sale (Brobeck McDonald's system, Intel 8008, button-per-menu-item)",
+                "url": "https://en.wikipedia.org/wiki/Point_of_sale"
+            },
+            {
+                "text": "Wikimedia Commons \u2014 File:McDonalds keyboard 6.jpg (CC BY-SA 3.0)",
+                "url": "https://commons.wikimedia.org/wiki/File:McDonalds_keyboard_6.jpg"
+            },
+            {
+                "text": "Computer History Museum catalog \u2014 Transactron Courier Terminal (related era POS register)",
+                "url": "https://www.computerhistory.org/collections/catalog/102747537"
+            }
+        ],
+        "imageUrls": [
+            "https://upload.wikimedia.org/wikipedia/commons/7/78/McDonalds_keyboard_6.jpg"
+        ]
+    },
+    "savedImages": [
+        "images/mcdonalds-brobeck-keyboard.jpg"
+    ]
+}
