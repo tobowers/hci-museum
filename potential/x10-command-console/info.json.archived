@@ -1,0 +1,78 @@
+{
+  "slug": "x10-command-console",
+  "title": "BSR/X10 Command Console (Original)",
+  "year": "1978",
+  "subtitle": "The first home-automation controller: a wedge of plastic with a rotary house-code dial and a grid of unit buttons that commands your whole house over the power line",
+  "why_scout_cares": "The museum's home-automation and environment-control thread (Butler in a Box voice control, the deferred Unity Systems Home Manager) is missing its founding physical controller. The original BSR/X10 Command Console (1978) is the first general-purpose home automation network controller, developed by Pico Electronics in Glenrothes, Scotland. Its interaction is a strange, embodied ritual: no screen, no software — you select a house code by turning a rotary dial (A–P), press unit buttons (1–16) to address a lamp or appliance, then On/Off/Dim/Bright. The entire 'programming' of a smart home lives in the physical position of a plastic dial and the button you press, and the data travels as 120 kHz bursts across the mains wiring at ~20 bits per second, one bit per zero crossing. It is the ancestor of every smart-home control surface and a physically-grounded, commercially-massive artifact of the pre-screen era.",
+  "search_terms": [
+    "BSR X10 command console 1978 rotary dial home automation",
+    "Pico Electronics X10 first home automation controller",
+    "X10 powerline control lamp module 1978 RadioShack Sears",
+    "X10 house code unit code dial interface"
+  ],
+  "research": {
+    "title": "BSR/X10 Command Console",
+    "year": "1978",
+    "by": "Pico Electronics (Glenrothes, Scotland) / X10 Ltd / BSR",
+    "tags": ["HCI", "Home Automation", "Input", "Powerline Control", "Physical"],
+    "overview": "X10 was developed starting in 1975 by Pico Electronics of Glenrothes, Scotland, as the first general-purpose home automation network technology. The system appeared in RadioShack and Sears stores in 1978, sold by X10 Ltd. in partnership with BSR (Birmingham Sound Reproducers). The initial kit was a 16-channel command console plus a lamp module and an appliance module; a wall switch module and a timer followed. The concept grew out of a 1974 collaboration on the ADC Accutrac 4000 turntable, which Pico engineered with BSR and which could be operated by an ultrasonic remote — the seed idea of controlling lights and appliances remotely.",
+    "deepDive": [
+      {
+        "heading": "A physical dial is the entire programming interface",
+        "text": "The original command console has no display and no software metaphor. The user selects one of sixteen house codes (A through P) with a rotary dial, then presses a unit button (1 through 16) to address a specific module, then presses On, Off, Dim, or Bright. The complete configuration of a home lighting system lives in the physical position of a dial and the sequence of buttons pressed. To command a lamp, the cashier of the household spins the dial to its letter and stabs a number — a strange, embodied ritual that prefigures (and is the inverse of) every modern smart-home app."
+      },
+      {
+        "heading": "Data travels over the mains at 20 bits per second",
+        "text": "Signals are encoded as brief 120 kHz bursts on the household power-line carrier, sent during the quiet zero crossings of the 50/60 Hz AC waveform. Each bit takes two zero crossings, so the effective data rate is around 20 bits per second — slow enough that X10 is confined to turning devices on and off or very simple dimming. An address (house code + unit code) followed by a command is transmitted twice for reliability; several units can be addressed before a single command applies to all of them. This is computing folded onto the electrical wiring itself."
+      },
+      {
+        "heading": "A small ecosystem of physical modules",
+        "text": "The console commands a set of plug-in physical modules that are themselves tiny interfaces: a lamp module (a solid-state TRIAC dimmer you can also switch locally), an appliance module (an impulse relay for motors and fluorescent loads), a wall-switch module, and later a timer. Each module is configured to respond to one of the 256 possible house/unit addresses, chosen by its own physical dial or switch. The whole system is a network of objects that wear their configuration on their bodies."
+      }
+    ],
+    "team": [
+      {
+        "name": "Pico Electronics",
+        "note": "Glenrothes, Scotland engineering firm that developed X10 beginning in 1975 (its tenth project)."
+      },
+      {
+        "name": "X10 Ltd / BSR",
+        "note": "Partnership formed with Birmingham Sound Reproducers to market the system; sold at RadioShack and Sears from 1978."
+      }
+    ],
+    "media": [
+      {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/b/b7/X10_2.jpg",
+        "alt": "X10 controllers: a simple four-device controller (bottom left), a radio controller (top center), and the original command console (bottom right)",
+        "caption": "X10 controllers, including the original BSR command console (bottom right) with its rotary house-code dial and unit button grid (CC BY 2.5 via Wikimedia Commons)."
+      },
+      {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/2/27/X10_1.jpg",
+        "alt": "X10 modules: an original BSR lamp module, a chime module, a recent lamp module, and an outlet module",
+        "caption": "X10 device modules — each wears its house/unit address on a physical dial (CC BY 2.5 via Wikimedia Commons)."
+      }
+    ],
+    "sources": [
+      {
+        "text": "Wikipedia — X10 (industry standard)",
+        "url": "https://en.wikipedia.org/wiki/X10_(industry_standard)"
+      },
+      {
+        "text": "Rye, Dave (1999) 'My Life at X10' — AV and Automation Industry eMagazine",
+        "url": "https://web.archive.org/web/20161015080410/http://www.hometoys.com/content.php?url=/htinews/oct99/articles/rye/rye.htm"
+      },
+      {
+        "text": "The history of X10 — planet.nl",
+        "url": "http://home.planet.nl/~lhendrix/x10_history.htm"
+      }
+    ],
+    "imageUrls": [
+      "https://upload.wikimedia.org/wikipedia/commons/b/b7/X10_2.jpg",
+      "https://upload.wikimedia.org/wikipedia/commons/2/27/X10_1.jpg"
+    ]
+  },
+  "savedImages": [
+    "images/x10-command-console.jpg",
+    "images/x10-modules.jpg"
+  ]
+}

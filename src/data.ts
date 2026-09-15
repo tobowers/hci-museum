@@ -3259,6 +3259,19 @@ const exhibitData: Exhibit[] = [
     tags: ["Retail", "Point of Sale", "Input", "Dedicated Keys", "Physical"],
     image: img("mcdonalds-brobeck-keyboard.jpg"),
   },
+  {
+    id: "x10-command-console",
+    slug: "x10-command-console",
+    wikiTitle: "BSR/X10 Command Console",
+    year: "1978",
+    sortYear: 1978,
+    title: "BSR/X10 Command Console",
+    subtitle: "The first home-automation controller: a wedge of plastic whose rotary house-code dial and unit button grid command your whole house over the power line",
+    blurb:
+      "The original BSR/X10 Command Console (1978), developed by Pico Electronics in Glenrothes, Scotland, is the first general-purpose home-automation controller. Its entire interface is a physical ritual with no screen and no software: spin a rotary dial to select a house code (A–P), press a unit button (1–16) to address a lamp or appliance module, then On/Off/Dim/Bright. The configuration of a smart home lives in the position of a plastic dial, and the data travels as 120 kHz bursts across the mains wiring at about 20 bits per second, one bit per power-line zero crossing. It is the ancestor of every smart-home control surface — a commercially massive, physically-grounded, pre-screen artifact.",
+    tags: ["Home Automation", "Input", "Powerline Control", "Physical", "Consumer"],
+    image: img("x10-command-console.jpg"),
+  },
 ];
 
 export const exhibits: Exhibit[] = exhibitData.toSorted((a, b) => b.sortYear - a.sortYear || a.title.localeCompare(b.title));
