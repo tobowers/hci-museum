@@ -3246,6 +3246,19 @@ const exhibitData: Exhibit[] = [
     tags: ["HCI", "Input", "Educational toy", "Optical sensing"],
     image: img("questron-patent-fig1.jpg"),
   },
+  {
+    id: "mcdonalds-brobeck-pos",
+    slug: "mcdonalds-brobeck-pos",
+    wikiTitle: "McDonald's Brobeck Point-of-Sale Terminal",
+    year: "1974",
+    sortYear: 1974,
+    title: "McDonald's Brobeck Point-of-Sale Terminal",
+    subtitle: "The register where the menu is the keyboard — one physical button for every menu item, no prices typed",
+    blurb:
+      "The McDonald's point-of-sale terminal, built by William Brobeck and Associates in 1974 and deployed through the 1980s, is one of the first microprocessor-controlled cash registers — and the register where the software UI is the hardware. Running on an Intel 8008, each station displayed a customer's entire order ('[3] Big Mac, [1] Large Fries, [2] Vanilla Shake') assembled with a numeric keypad for quantity and a dedicated physical button for every menu item. No price typing at all: the buttons are the menu. A [Grill] button let a second or third order be built while the first transaction ran, and [Total] computed the bill including sales tax for almost any US jurisdiction. Up to eight stations linked to one of two redundant computers, with error-correcting memory and data stored in triples. It is the physical inversion of the museum's ViewTouch touchscreen menu — a full software interface rendered as a grid of hard, labeled buttons.",
+    tags: ["Retail", "Point of Sale", "Input", "Dedicated Keys", "Physical"],
+    image: img("mcdonalds-brobeck-keyboard.jpg"),
+  },
 ];
 
 export const exhibits: Exhibit[] = exhibitData.toSorted((a, b) => b.sortYear - a.sortYear || a.title.localeCompare(b.title));
