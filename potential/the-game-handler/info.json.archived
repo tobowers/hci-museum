@@ -1,0 +1,44 @@
+{
+  "slug": "the-game-handler",
+  "title": "IMN Control 'The Game Handler'",
+  "year": "1992",
+  "subtitle": "A one-handed NES controller steered by gyroscopic tilt, sold as something that 'changes the software you already own'",
+  "why_scout_cares": "The museum's earliest commercial gyroscopic game controller — a one-hand tilt-steered flight-stick-style pad from IMN Control (1992) that predates the Nintendo Wii's motion-sensing by a full decade and the Playstation DualShock gyro by far more. Its marketing claimed the tilt sensing let it 'change pre-existing software you already own,' producing moves a standard pad cannot express — like running Mario backwards. That claim is the interaction model: an attitude-sensing controller that reads the controller's own orientation in space as input, years before gyroscopes became normal. It fills a genuine gap in the collection, which has body-grammar grips (Fairchild Channel F), touch surfaces (Turbo Touch 360), analog rollers (Coleco Super Action) and force/pneumatic pads, but no gyroscopic/attitude-sensing input. DEFERRED for images: no freely-licensed photo exists on Commons (verified); the only surviving visuals are a rights-managed 1992 EGM magazine advertisement and stills from the bundled instructional VHS.",
+  "search_terms": ["IMN Control Game Handler NES", "The Game Handler 1992 gyroscopic controller", "one-handed tilt controller NES 1992", "gyroscopic video game controller 1980s", "Game Handler EGM March 1992 ad"],
+  "research": {
+    "title": "IMN Control 'The Game Handler'",
+    "year": "1992",
+    "by": "IMN Control",
+    "tags": ["HCI", "Input", "Gaming", "Gesture", "Embodied"],
+    "overview": "The Game Handler, advertised from March 1992 (Electronic Gaming Monthly no. 32, and GamePro no. 41 later that year), was a one-handed NES/SNES/Genesis-style controller whose defining feature was gyroscopic (attitude/tilt) sensing: instead of a d-pad or stick, the player steers by tilting the hand-held unit in space, and fire buttons sit under the fingers of the same hand. The marketing copy leaned hard on the premise that the controller 'actually changes pre-existing software you already own,' enabling movements the software's designers never wired a standard pad to make — running Mario backwards in Super Mario Bros., or making the turtles disappear in TMNT II.\n\nThe unit shipped with an instructional VHS tape and a newsletter promising 'secret tricks,' a tell-tale sign of how novel (and hard to communicate) the interaction was. The period EGM advertisement is explicit that 'the game has changed,' framing a controller whose input grammar is the controller's own orientation in space — an early commercial, consumer-market use of a gyroscope as game input, roughly a decade before the Nintendo Wii's Wiimote mainstreamed the idea.\n\nCommercially it was a footnote — an obscure aftermarket accessory remembered mainly by retro-gaming archivists — but that obscurity is exactly what makes it a museum artifact: a strange, commercially-odd, interaction-model-rich device that reached for motion-as-input years before the market was ready. Its one-handed, tilt-steered grammar has no near-neighbor in the collection, which otherwise contains only mechanical, capacitive, and force/pneumatic game input.",
+    "deepDive": [
+      {
+        "heading": "The controller-as-the-input",
+        "text": "Conventional controllers of the era read discrete mechanical switches: a d-pad is four contacts, a joystick is a gated set of switches. The Game Handler instead treated the controller's own attitude in space as a continuous analog input — the device tilts, and that tilt IS the direction. One hand holds it; the same hand fires. It is an early rehearsal for the gyroscope-in-the-pad that would define the Wii, the Vita, and the DualShock 4."
+      },
+      {
+        "heading": "'It changes the software you already own'",
+        "text": "The pitch that tilt-sensing 'changes pre-existing software' is the giveaway that the device emitted signal combinations no standard controller produces — letting players perform moves the game designers never intended. Running Mario backwards was the canonical example. Whether the actual mechanism was remapped tilts, held-state combos, or hardware tricks is murky, but the claim itself is the artifact's thesis: an input device as a small act of software subversion."
+      },
+      {
+        "heading": "Why it is obscure",
+        "text": "Aftermarket tilt controllers of 1992 were ahead of their moment: there was no game designed for them, and the bundled VHS+newsletter ritual of teaching people to steer by tilting reads now as a company trying to sell a paradigm, not just a peripheral. It is precisely the kind of ambition-that-outran-its-market the museum exists to keep from flattening into a footnote."
+      }
+    ],
+    "team": [
+      { "name": "IMN Control", "note": "Company that produced and advertised The Game Handler (c.1992)" }
+    ],
+    "media": [
+      { "src": "https://web.archive.org/web/20200929044119/http://2.bp.blogspot.com/-Zz86thqVwEA/VL5adZQmqSI/AAAAAAAAE6c/JSGe00CbQD4/s1600/GameHandler--PrintAd.jpg", "alt": "The Game Handler for NES print advertisement, EGM March 1992", "caption": "The Game Handler period advertisement from Electronic Gaming Monthly no. 32 (March 1992). Rights-managed magazine image — not usable as a museum hero; sourced for documentation only." }
+    ],
+    "sources": [
+      { "text": "Retro Gaming Art — 'The Game Handler for NES (1992)' (period ad + analysis, via Wayback Machine)", "url": "https://web.archive.org/web/20200929044119/http://www.retrogamingart.com/2015/01/the-game-handler-for-nes-print-ad-1992.html" },
+      { "text": "Wikipedia — List of Nintendo Entertainment System accessories (IMN Control / Game Handler entry)", "url": "https://en.wikipedia.org/wiki/List_of_Nintendo_Entertainment_System_accessories" },
+      { "text": "GamePro no. 41 (Dec 1992) '16-Bit Game Handlers' page scan via RetroCDN", "url": "https://retrocdn.net/images/thumb/2/26/GamePro_US_041.pdf/page150-450px-GamePro_US_041.pdf.jpg" }
+    ],
+    "imageUrls": [
+      "https://web.archive.org/web/20200929044119/http://2.bp.blogspot.com/-Zz86thqVwEA/VL5adZQmqSI/AAAAAAAAE6c/JSGe00CbQD4/s1600/GameHandler--PrintAd.jpg"
+    ]
+  },
+  "savedImages": []
+}
