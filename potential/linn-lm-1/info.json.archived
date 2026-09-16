@@ -1,0 +1,51 @@
+{
+  "slug": "linn-lm-1",
+  "title": "Linn LM-1 Drum Computer",
+  "year": "1980",
+  "subtitle": "The drum machine whose pads were both the instrument and the step-sequencer grid — the pad-as-program interface",
+  "why_scout_cares": "The LM-1 inverts the step-sequencer grid: instead of the TR-808's 16 parallel button rows, it gives you 12 hard-plastic pads that are BOTH the trigger pads you strike to play AND the tap-to-program grid. You program by physically tapping the drum voice you want on the step you want — a pad-as-grid hybrid that is the ancestor of the MPC's pad paradigm and the exact interactive counterpoint to the museum's TR-808. Genuinely distinct interaction model, image-rich on Commons.",
+  "search_terms": ["Linn LM-1", "Roger Linn", "drum machine pad programming", "LM-1 Drum Computer", "sampled drums 1980", "pad sequencer"],
+  "research": {
+    "title": "Linn LM-1 Drum Computer",
+    "year": "1980",
+    "by": "Linn Electronics (Roger Linn)",
+    "tags": ["Music", "Input", "Sequencer", "Drum Machine", "Sampling"],
+    "overview": "The Linn LM-1 Drum Computer, released in 1980, is the first programmable drum machine to use sampled acoustic drum sounds rather than synthesized or preset rhythms. Designed and built by Roger Linn (Linn Electronics), it listed at $4,995–$5,500, and only about 525 units were made — yet it transformed pop, rock, and later hip-hop production, appearing on records by Prince, Michael Jackson, Peter Gabriel, and Phil Collins. Its sampled kick, snare, and hi-hat, triggered at 28 kHz 8-bit resolution, made it the first drum machine a professional studio could pass off as a real drummer.\n\nIts real invention is the interface. The front panel carries 12 hard-plastic pads — one per drum voice. Those same 12 pads serve double duty: they are the trigger pads you strike in real time to play, and they are the grid you tap to program the 16-step sequencer (via channel/step selection). Rather than the TR-808's 16 parallel button rows (one per instrument), the LM-1 uses one shared pad row and a step-select, so step entry is a physical tap-per-hit workflow — you reach for a drum voice and tap where in the bar it hits. It was also the first drum machine with quantization ('timing correct') and swing ('shuffle'), giving it the humanized feel that became its signature.",
+    "deepDive": [
+      {
+        "heading": "Pads as both instrument and grid",
+        "text": "The LM-1 collapses two roles into one physical surface. The same 12 pads you strike to play a fill are the buttons you use to write a pattern — you select a step and tap the drum voice to place (or remove) a hit. This is the direct ancestor of the Akai MPC pad paradigm, but it came a decade earlier. Where the TR-808 (in the museum) shows time as a row of 16 lit LEDs and asks you to lay hits across parallel instrument rows, the LM-1 asks you to physically reach for the drum you mean and tap it onto the timeline. It is programming as a kind of percussion — the interface reads as a drum kit you also write on."
+      },
+      {
+        "heading": "The humanized groove",
+        "text": "Linn introduced quantization ('timing correct') and swing ('shuffle') so programmed drums could feel played. This humanized-timing paradigm — deliberately imperfect, musical time — became a hallmark of the era and later a core idea in hip-hop and electronic music. The machine was built to let a single songwriter produce a track that sounded like a live band, which is why it sold to studios that already owned much cheaper preset machines."
+      },
+      {
+        "heading": "A small production run with outsized influence",
+        "text": "Only ~525 LM-1s were made, and it cost more than a car. Yet its sampled, punchy kit defined the sound of 1980s records and laid the groundwork for the sampler-driven production that followed. Linn followed with the LinnDrum and LM-2 before the company struggled; Roger Linn's later work included the Akai MPC60, which cemented the pad-as-grid interaction the LM-1 pioneered."
+      }
+    ],
+    "team": [
+      { "name": "Roger Linn", "note": "Designer and founder of Linn Electronics; created the LM-1 and later co-designed the Akai MPC60" },
+      { "name": "Linn Electronics", "note": "Manufacturer of the LM-1 (1980–1983); the machine that established sampled-drum programming" }
+    ],
+    "media": [
+      { "src": "assets/wiki/linn-lm-1.jpg", "alt": "Linn LM-1 Drum Computer front panel", "caption": "The LM-1 front panel: 12 hard-plastic pads that are both trigger pads and the tap-to-program step grid. Public domain, Wikimedia Commons." },
+      { "src": "assets/wiki/linn-lm-1-large.jpg", "alt": "Linn LM-1 Drum Computer brochure illustration", "caption": "LM-1 promotional illustration showing the pad layout. CC BY-SA 3.0, Forat Electronics / Wikimedia Commons." }
+    ],
+    "sources": [
+      { "text": "Wikipedia — Linn LM-1", "url": "https://en.wikipedia.org/wiki/Linn_LM-1" },
+      { "text": "The Guardian — The Linn LM-1 drum computer", "url": "https://www.theguardian.com/music/2009/jun/22/linn-oberheim-drum-machines" },
+      { "text": "Roger Linn Design — past products archive", "url": "https://www.rogerlinndesign.com/past-products-museum.html" },
+      { "text": "Polynominal — Roger Linn LM-1 manual and history", "url": "http://www.polynominal.com/Roger-Linn-lm1/" }
+    ],
+    "imageUrls": [
+      "https://upload.wikimedia.org/wikipedia/commons/d/d0/Linn_LM-1_Drum_Computer.jpg",
+      "https://upload.wikimedia.org/wikipedia/commons/d/d0/Linn_LM-1_Drum_Computer_large.jpg"
+    ]
+  },
+  "savedImages": [
+    "potential/linn-lm-1/images/linn-lm-1.jpg",
+    "potential/linn-lm-1/images/linn-lm-1-large.jpg"
+  ]
+}

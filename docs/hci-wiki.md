@@ -1,6 +1,6 @@
 # The HCI Golden Age Wiki
 
-A research compendium for a digital museum of cutting-edge Human-Computer Interaction from the late 1970s through the early 1990s. These two hundred and sixty-two projects mix canonical experiments with weird, forgotten, and beautiful vaporware — brain control, voice control, gesture, wearable computing, VR, robots, and full-body exertion.
+A research compendium for a digital museum of cutting-edge Human-Computer Interaction from the late 1970s through the early 1990s. These two hundred and sixty-four projects mix canonical experiments with weird, forgotten, and beautiful vaporware — brain control, voice control, gesture, wearable computing, VR, robots, and full-body exertion.
 
 Each entry includes an overview, a deep dive, a small media gallery, and full source links so the images and facts can always be traced back.
 
@@ -268,7 +268,9 @@ Each entry includes an overview, a deep dive, a small media gallery, and full so
    259. [NED Synclavier (1977)](#ned-synclavier-1977)
    260. [Questron Electronic Answer Wand (c. 1984)](#questron-electronic-answer-wand-c-1984)
     261. [McDonald's Brobeck Point-of-Sale Terminal (1974)](#mcdonalds-brobeck-point-of-sale-terminal-1974)
-   262. [BSR/X10 Command Console (1978)](#bsr-x10-command-console-1978)
+    262. [BSR/X10 Command Console (1978)](#bsr-x10-command-console-1978)
+    263. [Linn LM-1 Drum Computer (1980)](#linn-lm-1-drum-computer-1980)
+    264. [Casio VDB-1000 Touchscreen Watch (1991)](#casio-vdb-1000-touchscreen-watch-1991)
   
 ---
 
@@ -12128,3 +12130,51 @@ The console commands a set of plug-in physical modules that are themselves tiny 
 1. Wikipedia — X10 (industry standard) — https://en.wikipedia.org/wiki/X10_(industry_standard)
 2. Rye, Dave (1999) 'My Life at X10' — AV and Automation Industry eMagazine — https://web.archive.org/web/20161015080410/http://www.hometoys.com/content.php?url=/htinews/oct99/articles/rye/rye.htm
 3. The history of X10 — planet.nl — http://home.planet.nl/~lhendrix/x10_history.htm
+
+## Linn LM-1 Drum Computer (1980)
+
+**Tags:** `Music` `Input` `Sequencer` `Drum Machine` `Sampling`
+
+The Linn LM-1 Drum Computer, released in 1980, is the first programmable drum machine to use sampled acoustic drum sounds. Designed and built by Roger Linn (Linn Electronics), it listed at $4,995–$5,500, and only about 525 units were made — yet it transformed pop, rock, and later hip-hop production, appearing on records by Prince, Michael Jackson, Peter Gabriel, and Phil Collins. Its sampled kick, snare, and hi-hat, triggered at 28 kHz 8-bit resolution, made it the first drum machine a professional studio could pass off as a real drummer.
+
+Its real invention is the interface. The front panel carries 12 hard-plastic pads, one per drum voice, and those same 12 pads serve double duty: they are the trigger pads you strike in real time to play, and they are the grid you tap to program the 16-step sequencer (via channel and step selection). Rather than the TR-808's 16 parallel button rows — one per instrument — the LM-1 uses one shared pad row and a step-select, so step entry is a physical tap-per-hit workflow: you reach for the drum voice you mean and tap where in the bar it hits. It was also the first drum machine with quantization ('timing correct') and swing ('shuffle'), giving programmed drums a deliberately humanized groove.
+
+The pad-as-grid interaction is the direct ancestor of the Akai MPC pad paradigm, and it arrives a decade earlier than the MPC. Where the museum's TR-808 shows time as a row of 16 lit LEDs and asks you to lay hits across parallel instrument rows, the LM-1 asks you to physically reach for the drum you mean and tap it onto the timeline — programming as a kind of percussion, an instrument you also write on.
+
+* **Where it sits in the museum.** The collection's music-interface family (Roland TR-808, TB-303, MC-8) has its grid-sequencer anchor in the 808. The LM-1 is the 808's direct interactive counterpoint — the pad-as-grid instrument whose pads are both the play surface and the programming grid — and the museum's clearest 'program by tapping the instrument itself' artifact. It is also the museum's first sampled-drum machine and the ancestor of the MPC pad paradigm that dominates modern production.
+
+### Media
+
+![Linn LM-1 Drum Computer front panel](../assets/wiki/linn-lm-1.jpg)
+*The LM-1 front panel: 12 hard-plastic pads that are both trigger pads and the tap-to-program step grid. Public domain, Wikimedia Commons.*
+
+![Linn LM-1 promotional illustration](../assets/wiki/linn-lm-1-large.jpg)
+*LM-1 promotional illustration showing the pad layout. CC BY-SA 3.0, Forat Electronics / Wikimedia Commons.*
+
+### Sources
+
+1. Wikipedia — Linn LM-1 — https://en.wikipedia.org/wiki/Linn_LM-1
+2. The Guardian — The Linn LM-1 drum computer — https://www.theguardian.com/music/2009/jun/22/linn-oberheim-drum-machines
+3. Roger Linn Design — past products archive — https://www.rogerlinndesign.com/past-products-museum.html
+4. Polynominal — Roger Linn LM-1 manual and history — http://www.polynominal.com/Roger-Linn-lm1/
+
+## Casio VDB-1000 Touchscreen Watch (1991)
+
+**Tags:** `Wearable` `Input` `Touchscreen` `Consumer` `Pocket Computer`
+
+The Casio VDB-1000 (module 658) is a 1991 Databank watch from Casio Computer Co., part of a line of early 'smartwatch' experiments. Where earlier Databank watches used physical buttons or touch keys, the VDB-1000's entire watch face is a graphic display with a touchscreen — you tap characters directly on the glass to enter text, navigate menus, and use the calculator. It is effectively a finger-touch personal data bank worn on the wrist, a full five years before mainstream touch UIs, and years before smartphone interaction patterns were common.
+
+It belongs to the same family of early Casio touch wrist devices (VDB-200, the kanji DKW-100) that Casio built through the 1980s–90s, which The Verge called 'the original smartwatches.' The VDB-1000 pushes text entry onto a small wearable touch surface — a genuinely strange and prescient interaction for 1991, sitting just inside the museum's 1976–1992 window. Casio's Databank line treated the watch as a personal data-storage device — phone numbers, schedules, notes — and the VDB-1000 made that data editable by direct touch rather than by pecking at tiny buttons.
+
+* **Where it sits in the museum.** The collection's organizer/memory-family (Sharp Wizard, Psion Organiser, Toshiba LC-836MN Memo Note) and its wearable-input thread (Seiko RC-1000 with its data-entry keypad, EyeTap mediating vision) both stop short of direct-touch text entry. The VDB-1000 is the museum's first finger-touch wearable text-input surface — the same gesture vocabulary a smartphone uses, compressed onto a wrist-worn pocket data bank in 1991.
+
+### Media
+
+![Casio VDB-1000 touchscreen watch](../assets/wiki/casio-vdb-1000.jpg)
+*The Casio VDB-1000 (module 658, 1991), a Databank watch whose whole face is a graphic touchscreen for text entry. CC BY-SA 4.0, Wikimedia Commons.*
+
+### Sources
+
+1. Wikipedia — Casio Databank (touchscreen VDB-1000/VDB-200) — https://en.wikipedia.org/wiki/Casio_Databank
+2. The Verge — The original smartwatches: Casio's history of wild wrist designs — https://www.theverge.com/2015/6/29/8860737/casio-watches-smartwatch-features-photos-exhibition
+3. Wikimedia Commons — File:VDB-1000.jpg — https://commons.wikimedia.org/wiki/File:VDB-1000.jpg
