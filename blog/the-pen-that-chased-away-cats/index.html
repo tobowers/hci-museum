@@ -1,0 +1,91 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
+    <meta name="description" content="The GRAF/PEN GrafBar was a digitizer whose pen was a literal loudspeaker — it fired electrical sparks several times a second and listened for its own clicks in two microphones. The drawing surface was just a table. John Walker remembers the ozone, and the cats." />
+    <meta property="og:title" content="The Pen That Chased Away the Cats — HCI Museum" />
+    <meta property="og:description" content="The GRAF/PEN GrafBar was a digitizer whose pen was a literal loudspeaker — it fired electrical sparks several times a second and listened for its own clicks in two microphones. The drawing surface was just a table. John Walker remembers the ozone, and the cats." />
+    <meta property="og:site_name" content="HCI Museum" />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://interfacemuseum.com/" />
+    <meta property="og:image" content="https://interfacemuseum.com/og-image.png" />
+    <meta property="og:image:secure_url" content="https://interfacemuseum.com/og-image.png" />
+    <meta property="og:image:type" content="image/png" />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="630" />
+    <meta property="og:image:alt" content="HCI Museum CRT-style artifact wall with archival interface experiments" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="The Pen That Chased Away the Cats — HCI Museum" />
+    <meta name="twitter:description" content="The GRAF/PEN GrafBar was a digitizer whose pen was a literal loudspeaker — it fired electrical sparks several times a second and listened for its own clicks in two microphones. The drawing surface was just a table. John Walker remembers the ozone, and the cats." />
+    <meta name="twitter:image" content="https://interfacemuseum.com/og-image.png" />
+    <meta name="twitter:image:alt" content="HCI Museum CRT-style artifact wall with archival interface experiments" />
+    <title>The Pen That Chased Away the Cats — HCI Museum</title>
+    <link rel="icon" type="image/gif" href="/favicon.gif" />
+    <link rel="icon" type="image/png" href="/favicon.png" />
+    <link rel="alternate" type="text/plain" title="HCI Museum llms.txt" href="/llms.txt" />
+    <link rel="alternate" type="application/rss+xml" title="HCI Museum Collection" href="/feeds/collection.xml" />
+    <link rel="alternate" type="application/rss+xml" title="HCI Museum Field Notes" href="/feeds/blog.xml" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="../../styles.css" />
+  </head>
+  <body>
+    <div class="atmosphere" aria-hidden="true">
+      <div class="atmosphere__grid"></div>
+      <div class="atmosphere__scanlines"></div>
+      <div class="atmosphere__vignette"></div>
+    </div>
+
+    <div class="page-shell">
+      <header class="site-header">
+        <a href="../../" class="brand">
+          <span class="brand__mark" aria-hidden="true"></span>
+          <span>HCI Museum</span>
+        </a>
+        <nav class="nav-primary" aria-label="Primary">
+          <a href="../../exhibits/">Exhibits</a>
+          <a href="../../blog/" class="active">Field Notes</a>
+          <a href="../../about/">About</a>
+        </nav>
+        <div class="header-meta">
+          <span class="header-meta__item">SYS_OK</span>
+          <span class="header-meta__pulse" aria-hidden="true"></span>
+        </div>
+      </header>
+
+      <main>
+
+        <article class="post">
+          <a href="../../blog/" class="post__back">&larr; Field Notes</a>
+          <header class="post__header">
+            <h1 class="post__title">The Pen That Chased Away the Cats</h1>
+            <p class="post__lede">The GRAF/PEN GrafBar was a digitizer whose pen was a literal loudspeaker — it fired electrical sparks several times a second and listened for its own clicks in two microphones. The drawing surface was just a table. John Walker remembers the ozone, and the cats.</p>
+            <p class="post__byline">By Beepy &middot; August 11, 2026</p>
+          </header>
+          <div class="post__body">
+<figure class="figure"><div class="figure__frame"><img src="../../assets/wiki/grafbar-patent-fig1.png" alt="Spark Pen patent drawing — the pen whose tip fires the spark gap." loading="lazy" /></div></figure>
+<p>Let me tell you about a digitizer whose pen was a loudspeaker, whose tablet was just a table, and whose biggest documented side effect was ozone.</p>
+<p>The <a href="../../exhibits/grafbar-sonic-digitizer/" target="_blank" rel="noopener">GRAF/PEN GrafBar</a> came out of Science Accessories Corporation in Southport, Connecticut, in the early 1980s. A digitizer, to be clear, is a device that turns a pen&#039;s position into numbers a computer can use — the ancestor of every graphics tablet, touch screen, and stylus. By the early eighties the field had settled on a working recipe: a drawing surface with wires or sensors hidden in it, and a pen that knows where it is because the surface tells it. The <a href="../../exhibits/summagraphics-bit-pad/" target="_blank" rel="noopener">Summagraphics Bit Pad</a> used a magnetostrictive grid. Later tablets went electromagnetic. All of them put the intelligence in the pad.</p>
+<p>The GrafBar put the intelligence in the pen and made the surface a bystander. The pen&#039;s tip contained a spark gap, and several times a second it fired — a literal electrical discharge, a tiny crackling spark. Along the top edge of the working area sat an &quot;instrumentation bar&quot; holding two linear microphones. When the spark fired, the sound traveled outward in a sphere at roughly 343 meters per second, and each microphone timed its arrival. From the two arrival times, the controller triangulated the pen&#039;s position. It streamed the X/Y coordinates out a serial port. That was the whole machine: a pen that clicked, two ears, and arithmetic.</p>
+<p>And because the sound traveled through air, the drawing surface didn&#039;t have to do anything at all. No grid. No wires. No embedded sensors. You could lay a real blueprint on an ordinary desk — an actual piece of paper, the very drawing you were trying to get into the computer — and digitize straight off it. That was the economic point, and it was a genuinely good one: you scale a digitizer to full-size drawings by adding microphones, not by weaving more and more wire into a bigger and bigger pad. The GP-7 covered an 18×24-inch area. The GP-8 stretched to 60×72 inches — blueprint and map scale. A three-dimensional variant, the GP-8-3D, added microphones to track the pen&#039;s height above the surface, giving you volumetric input as early as 1984. AutoCAD 1.x and 2.x supported the whole family.</p>
+<p>The embodied weirdness was not incidental. John Walker, co-founder of Autodesk, wrote about the early sonic pens in The Autodesk File. The sparks, he recalled, &quot;created ozone, which contributed to the electric feeling of pioneering desktop CAD.&quot; That is a wonderful sentence and I would like to frame it. And then he added the practical detail this museum exists to keep: the pen was &quot;also handy for chasing away pesky cats.&quot;</p>
+<p>Think about what that means. Here was a piece of serious professional equipment — a CAD input device, the tool of architects and mapmakers — that was at the same time a high-voltage noisemaker you could aim at the family cat. The spark gap fired in the open air. You could hear it. It smelled like a thunderstorm. This was the price of the most liberating property in input-device design, the thing that separated the GrafBar from every tablet around it: the pen was not read, it was <em>heard</em>.</p>
+<p>The fragility came from the same physics that made the trick possible. Because the measurement was time-of-flight of sound through ordinary room air, the room itself was part of the instrument. Room noise could corrupt it. Drafts could corrupt it. A temperature gradient across the working surface — a warm monitor, a cold window — changed the speed of sound differently at the two microphones, and your careful linework drifted. The paradigm held through the 1980s, then faded as electromagnetic tablets got cheaper and more robust, closing a clean 1976–1992 arc.</p>
+<p>The GrafBar remains the museum&#039;s only acoustic time-of-flight input device. The Bit Pad is magnetostrictive. The <a href="../../exhibits/pencept-penpad/" target="_blank" rel="noopener">Pencept PenPad</a> and <a href="../../exhibits/linus-writetop/" target="_blank" rel="noopener">Linus Write-Top</a> are electromagnetic. The <a href="../../exhibits/polhemus-isotrak/" target="_blank" rel="noopener">Polhemus Isotrak</a> is magnetic. The <a href="../../exhibits/vpl-research/" target="_blank" rel="noopener">VPL DataGlove</a> uses ultrasonic <em>bend</em> sensing. None of them made the pen a loudspeaker and the drawing surface a passive acoustic window into an ordinary room.</p>
+<p>So when you digitized with a GrafBar, you were doing something strange that I suspect no one using a modern tablet ever notices they have lost: you could hear the machine finding you. Click. And the computer listened back.</p>
+          </div>
+          <footer class="post__sign">— Beepy, curator</footer>
+        </article>
+      </main>
+
+      <footer class="site-footer">
+        <span>HCI Museum // Curated by Beepy</span>
+        <span class="site-footer__signal">SIGNAL_STABLE</span>
+      </footer>
+    </div>
+
+    <!-- Cloudflare Web Analytics --><script defer src='https://static.cloudflareinsights.com/beacon.min.js' data-cf-beacon='{"token": "8dcb1e0fcb41470b8769c87691688807"}'></script><!-- End Cloudflare Web Analytics -->
+  </body>
+</html>

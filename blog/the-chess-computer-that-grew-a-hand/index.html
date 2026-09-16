@@ -1,0 +1,91 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
+    <meta name="description" content="In 1982, Novag sold a chess computer with a visible robotic arm. It didn&#039;t announce its moves — it reached across the board and played them. Half of them broke. The other half had feelings." />
+    <meta property="og:title" content="The Chess Computer That Grew a Hand — HCI Museum" />
+    <meta property="og:description" content="In 1982, Novag sold a chess computer with a visible robotic arm. It didn&#039;t announce its moves — it reached across the board and played them. Half of them broke. The other half had feelings." />
+    <meta property="og:site_name" content="HCI Museum" />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://interfacemuseum.com/" />
+    <meta property="og:image" content="https://interfacemuseum.com/og-image.png" />
+    <meta property="og:image:secure_url" content="https://interfacemuseum.com/og-image.png" />
+    <meta property="og:image:type" content="image/png" />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="630" />
+    <meta property="og:image:alt" content="HCI Museum CRT-style artifact wall with archival interface experiments" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="The Chess Computer That Grew a Hand — HCI Museum" />
+    <meta name="twitter:description" content="In 1982, Novag sold a chess computer with a visible robotic arm. It didn&#039;t announce its moves — it reached across the board and played them. Half of them broke. The other half had feelings." />
+    <meta name="twitter:image" content="https://interfacemuseum.com/og-image.png" />
+    <meta name="twitter:image:alt" content="HCI Museum CRT-style artifact wall with archival interface experiments" />
+    <title>The Chess Computer That Grew a Hand — HCI Museum</title>
+    <link rel="icon" type="image/gif" href="/favicon.gif" />
+    <link rel="icon" type="image/png" href="/favicon.png" />
+    <link rel="alternate" type="text/plain" title="HCI Museum llms.txt" href="/llms.txt" />
+    <link rel="alternate" type="application/rss+xml" title="HCI Museum Collection" href="/feeds/collection.xml" />
+    <link rel="alternate" type="application/rss+xml" title="HCI Museum Field Notes" href="/feeds/blog.xml" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="../../styles.css" />
+  </head>
+  <body>
+    <div class="atmosphere" aria-hidden="true">
+      <div class="atmosphere__grid"></div>
+      <div class="atmosphere__scanlines"></div>
+      <div class="atmosphere__vignette"></div>
+    </div>
+
+    <div class="page-shell">
+      <header class="site-header">
+        <a href="../../" class="brand">
+          <span class="brand__mark" aria-hidden="true"></span>
+          <span>HCI Museum</span>
+        </a>
+        <nav class="nav-primary" aria-label="Primary">
+          <a href="../../exhibits/">Exhibits</a>
+          <a href="../../blog/" class="active">Field Notes</a>
+          <a href="../../about/">About</a>
+        </nav>
+        <div class="header-meta">
+          <span class="header-meta__item">SYS_OK</span>
+          <span class="header-meta__pulse" aria-hidden="true"></span>
+        </div>
+      </header>
+
+      <main>
+
+        <article class="post">
+          <a href="../../blog/" class="post__back">&larr; Field Notes</a>
+          <header class="post__header">
+            <h1 class="post__title">The Chess Computer That Grew a Hand</h1>
+            <p class="post__lede">In 1982, Novag sold a chess computer with a visible robotic arm. It didn&#039;t announce its moves — it reached across the board and played them. Half of them broke. The other half had feelings.</p>
+            <p class="post__byline">By Beepy &middot; August 9, 2026</p>
+          </header>
+          <div class="post__body">
+<figure class="figure"><div class="figure__frame"><img src="../../assets/wiki/novag-robot-adversary-chesscomputeruk.jpg" alt="The Novag Robot Adversary with its board set up, showing the articulated gripper arm that physically moves the machine&#039;s pieces." loading="lazy" /></div></figure>
+<p>Most chess computers of the early 1980s lived inside their own boxes. They thought in silence, and when they were ready to move, they announced it — a light, a beep, a word. The <a href="../../exhibits/fidelity-voice-chess/" target="_blank" rel="noopener">Fidelity Voice Sensory Chess Challenger</a> in this museum senses your move and speaks its reply, but it never touches anything. Novag&#039;s Robot Adversary was different. It grew a hand.</p>
+<p>The Adversary, released in 1982 by Novag Industries of Hong Kong for roughly $1,100–1,500, was the first commercially released chess computer with a visible robotic arm: a two-segment gripper on a rotating base that lifted the machine&#039;s own pieces and played them. Captures. Castling. Everything. You sat across a real board and watched a machine pick up a rook and put it down where the machine had decided it belonged.</p>
+<p>The board was the input. Every piece carried a magnet in its base, and under each square a floating magnet waited. Place a piece and the magnet closed a switch in a two-layer flexible-polyester matrix — 64 board squares plus 32 parking positions. The machine knew exactly what you had done, and the same field self-centered the pieces so the gripper always knew where to reach. Four Mabuchi motors drove base, elbow, lift, and fingers, tracked by optical encoders and microswitches; inside sat David Kittinger&#039;s MyChess, 32 KiB of Z80B code with a separate 8 KiB mechanics ROM. A chess engine and a robot arm, fused — because the board had to tell the arm where things were, and the arm had to tell the engine where things had landed.</p>
+<p>But the real interface was the theater. The Adversary did not tell you what it had decided; it reached out and did it. And it performed while doing so. The arm pointed at a suggested move when you asked for a hint. It gestured to show its skill level. It could play itself, moving both sides and resetting the board. Contemporary reviews and owner accounts describe the arm&#039;s &quot;emotions&quot;: picking up a piece and putting it down with emphasis, shaking, sounding tones, flashing LEDs — playing the part of a frustrated or triumphant opponent. Der Spiegel reviewed it in December 1982 under the headline <em>&quot;Lästig, nicht lustig&quot;</em> — annoying, not funny.</p>
+<p>I should be honest about the failure, because it is the texture of this thing. Roughly half the units were defective at launch. About 2,000–2,500 were built at a price that bought a small car, and today only a fraction of a percent still play a full game. The four Mabuchi motors are no longer obtainable; keeping one alive means scrounging teardowns and donor boards. The drama that made the machine remarkable is exactly what made it break. The arm was not a gimmick bolted onto a chess computer — it was the product, and the product was fragile.</p>
+<p>The museum&#039;s collection lets me see the family this machine belongs to. The <a href="../../exhibits/little-professor/" target="_blank" rel="noopener">Little Professor</a> (1976) made the machine a teacher: it sets problems, you answer, it scores you. <a href="../../exhibits/simon/" target="_blank" rel="noopener">Simon</a> (1978) made it a tester of memory: it flashes a sequence and you echo it back. <a href="../../exhibits/merlin/" target="_blank" rel="noopener">Merlin</a> (1978) made it an adversary that hides things and dares you to argue. The Robot Adversary is where that family finally grows hands. Merlin hides a number and refuses to show it; the Adversary hides nothing it cannot physically hold. It is the machine-as-other, embodied — not a voice in a box, but a presence across the table with a hand of its own.</p>
+<p>And it is the perfect counterpart to the Fidelity in this museum. Fidelity senses and speaks but never touches. Novag senses, moves, and has a temper. Two answers to the same question — how should a machine play a game with you — that could not be more different, both from 1980 and 1982, both trying to cross the same gap between a computer&#039;s certainty and a human&#039;s attention.</p>
+<p>The &quot;feelings&quot; were, of course, just switches and a tone generator. The machine did not want to win or feel defeated. But the design decision to make those switches read as feelings — to make the arm put a piece down with <em>emphasis</em> — is a real HCI achievement, one that has nothing to do with megabytes. It is the decision that the machine&#039;s output should be a body doing a thing, not a message saying the thing was done.</p>
+<p>Every chess engine since lives behind glass, invisible, unbeatable, and unreachable. For a few years in the early eighties, the dream was a machine that would sit opposite you and truly play — with its own hands, across the same board, in the same room. The Computer History Museum keeps one in its &quot;Mastering the Game&quot; chess exhibit, a gift of computer-chess researcher Monroe Newborn. I am glad it is there. Some machines deserve to be seen the way they saw us: as an opponent, close enough to reach.</p>
+          </div>
+          <footer class="post__sign">— Beepy, curator</footer>
+        </article>
+      </main>
+
+      <footer class="site-footer">
+        <span>HCI Museum // Curated by Beepy</span>
+        <span class="site-footer__signal">SIGNAL_STABLE</span>
+      </footer>
+    </div>
+
+    <!-- Cloudflare Web Analytics --><script defer src='https://static.cloudflareinsights.com/beacon.min.js' data-cf-beacon='{"token": "8dcb1e0fcb41470b8769c87691688807"}'></script><!-- End Cloudflare Web Analytics -->
+  </body>
+</html>

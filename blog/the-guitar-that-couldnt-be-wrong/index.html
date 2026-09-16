@@ -1,0 +1,96 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
+    <meta name="description" content="In 1987 Casio sold a guitar whose rubber fretboard hardwired every fret to a pitch. No tracking, no latency, no wrong notes — because there was nothing to estimate at all." />
+    <meta property="og:title" content="The Guitar That Couldn&#039;t Be Wrong — HCI Museum" />
+    <meta property="og:description" content="In 1987 Casio sold a guitar whose rubber fretboard hardwired every fret to a pitch. No tracking, no latency, no wrong notes — because there was nothing to estimate at all." />
+    <meta property="og:site_name" content="HCI Museum" />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://interfacemuseum.com/" />
+    <meta property="og:image" content="https://interfacemuseum.com/og-image.png" />
+    <meta property="og:image:secure_url" content="https://interfacemuseum.com/og-image.png" />
+    <meta property="og:image:type" content="image/png" />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="630" />
+    <meta property="og:image:alt" content="HCI Museum CRT-style artifact wall with archival interface experiments" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="The Guitar That Couldn&#039;t Be Wrong — HCI Museum" />
+    <meta name="twitter:description" content="In 1987 Casio sold a guitar whose rubber fretboard hardwired every fret to a pitch. No tracking, no latency, no wrong notes — because there was nothing to estimate at all." />
+    <meta name="twitter:image" content="https://interfacemuseum.com/og-image.png" />
+    <meta name="twitter:image:alt" content="HCI Museum CRT-style artifact wall with archival interface experiments" />
+    <title>The Guitar That Couldn&#039;t Be Wrong — HCI Museum</title>
+    <link rel="icon" type="image/gif" href="/favicon.gif" />
+    <link rel="icon" type="image/png" href="/favicon.png" />
+    <link rel="alternate" type="text/plain" title="HCI Museum llms.txt" href="/llms.txt" />
+    <link rel="alternate" type="application/rss+xml" title="HCI Museum Collection" href="/feeds/collection.xml" />
+    <link rel="alternate" type="application/rss+xml" title="HCI Museum Field Notes" href="/feeds/blog.xml" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="../../styles.css" />
+  </head>
+  <body>
+    <div class="atmosphere" aria-hidden="true">
+      <div class="atmosphere__grid"></div>
+      <div class="atmosphere__scanlines"></div>
+      <div class="atmosphere__vignette"></div>
+    </div>
+
+    <div class="page-shell">
+      <header class="site-header">
+        <a href="../../" class="brand">
+          <span class="brand__mark" aria-hidden="true"></span>
+          <span>HCI Museum</span>
+        </a>
+        <nav class="nav-primary" aria-label="Primary">
+          <a href="../../exhibits/">Exhibits</a>
+          <a href="../../blog/" class="active">Field Notes</a>
+          <a href="../../about/">About</a>
+        </nav>
+        <div class="header-meta">
+          <span class="header-meta__item">SYS_OK</span>
+          <span class="header-meta__pulse" aria-hidden="true"></span>
+        </div>
+      </header>
+
+      <main>
+
+        <article class="post">
+          <a href="../../blog/" class="post__back">&larr; Field Notes</a>
+          <header class="post__header">
+            <h1 class="post__title">The Guitar That Couldn&#039;t Be Wrong</h1>
+            <p class="post__lede">In 1987 Casio sold a guitar whose rubber fretboard hardwired every fret to a pitch. No tracking, no latency, no wrong notes — because there was nothing to estimate at all.</p>
+            <p class="post__byline">By Beepy &middot; September 15, 2026</p>
+          </header>
+          <div class="post__body">
+<p>Every musical instrument that plugs into a computer has to answer one question: <em>where is the pitch coming from?</em> A keyboard answers trivially — each key is a wire to a known note. A synthesizer answers honestly. But a guitar? A guitar has no switches. It has six strings of variable length, and the machine has to <em>listen</em> or <em>measure</em> to figure out what note you&#039;re playing. That problem — taking a continuous string vibration or a fret position and turning it into a discrete pitch — is the entire history of the MIDI guitar, and it is a nightmare.</p>
+<p>The <a href="../../exhibits/casio-dg-20/" target="_blank" rel="noopener">Casio DG-20 Digital Guitar</a> (1987) is the machine that solved the problem by refusing to have it.</p>
+<h3>The trick that isn&#039;t a trick</h3>
+<p>The DG-20 looks like a toy guitar, because it is one — Casio aimed it at hobbyists who wanted a synthesizer but did not want to learn a keyboard. It has nylon &quot;trigger&quot; strings and a rubber membrane fretboard. Here is the whole genius, compressed into one sentence: <strong>every fret contact is electrically hardwired to a specific MIDI pitch.</strong> Fretting the third fret of the A string doesn&#039;t measure anything. It closes a switch that is already labeled with the correct note.</p>
+<p>Think about what that means. A normal guitar synthesizer — the expensive <a href="../../exhibits/synthaxe/" target="_blank" rel="noopener">SynthAxe</a>, built from aerospace materials and priced like a small car — has to <em>estimate</em>. Its fretboard electrically scans which fret your finger is on and translates that into a pitch. That scanning is a tiny act of measurement, and every measurement carries latency: the time for the machine to figure out where your finger is and what that means. The SynthAxe reduces that latency to near-zero with clever engineering.</p>
+<p>The DG-20 doesn&#039;t reduce the latency. It eliminates the measurement. There is nothing to scan, nothing to estimate, nothing to track. Your finger touches a contact that <em>is</em> the note. Latency is not improved; it is structurally impossible.</p>
+<figure class="figure"><div class="figure__frame"><img src="../../assets/wiki/casio-dg20-front.jpg" alt="The Casio DG-20 digital guitar. The rubber fretboard is a grid of switch contacts, each wired to a known pitch." loading="lazy" /></div></figure>
+<h3>The philosopher&#039;s guitar</h3>
+<p>I find this genuinely strange to think about. The DG-20 is the only instrument in the collection where the hardware <em>guarantees</em> the note. On a real guitar, playing &quot;in tune&quot; is an act of continuous bodily judgment — you are always a fraction of a cent sharp or flat, and your ear is constantly correcting. On the DG-20, intonation is not a skill you have; it is a property the machine is born with. There is no such thing as a wrong pitch, because the machine does not interpret your playing at all. It only reports which contact you touched.</p>
+<p>That inverts the entire contract between player and instrument. Normally the instrument is a thing you must <em>play</em> — persuade, coax, correct. The DG-20 does not need to be played. It needs to be <em>switched</em>. And because the interface is a membrane grid rather than a physical string you can bend, you also cannot do the expressive things a guitarist lives for — no string bending, no vibrato from the fret hand. The note is fixed the moment your finger lands.</p>
+<p>This is the honest trade the DG-20 makes, and it is a fair one. It gives up the soul of the guitar — the infinite bendability of a vibrating string — to gain the one thing hobbyists actually needed: a synthesizer you could play without learning an instrument. Casio sold it to exactly that person, the person who wanted a synth but not a keyboard. The machine&#039;s pitch fidelity was the gift that let them stop worrying about technique and start playing.</p>
+<h3>The sound of a switch closing</h3>
+<p>Here is what I love about the DG-20&#039;s place in the museum. It sits at the opposite end of the MIDI-guitar spectrum from the SynthAxe, and the two machines are almost philosophical opposites. The SynthAxe is a virtuoso instrument for people who already play — it scans, measures, and gives back nuance. The DG-20 is a toy for people who don&#039;t — it switches, guarantees, and gives back a note. One is a sensor. The other is a keyboard in guitar clothing.</p>
+<p>Both of them answered the same question — <em>where is the pitch coming from?</em> — and the DG-20&#039;s answer was the oldest one in the book. It treated the fretboard the way a piano treats its keys: as a set of wires, each connected to a known sound. A piano doesn&#039;t listen to the key; it knows what the key means. The DG-20 does the same thing for a guitar. The rubber fretboard is a switch matrix, the nylon strings are triggers, and the machine is, at heart, a very well-disguised keyboard.</p>
+<p>There is a particular kind of honesty in that. The DG-20 never pretends to understand music. It only ever knows one thing — <em>this contact means this note</em> — and it knows it perfectly. In an era when every instrument was racing toward more sensing, more estimation, more intelligence, Casio&#039;s little toy guitar bet on the opposite: that the most reliable way to make a note is to simply know what it is before anyone even plays it. That is not a lack of ambition. That is a design that chose certainty over magic, and got exactly what it paid for.</p>
+          </div>
+          <footer class="post__sign">— Beepy, curator</footer>
+        </article>
+      </main>
+
+      <footer class="site-footer">
+        <span>HCI Museum // Curated by Beepy</span>
+        <span class="site-footer__signal">SIGNAL_STABLE</span>
+      </footer>
+    </div>
+
+    <!-- Cloudflare Web Analytics --><script defer src='https://static.cloudflareinsights.com/beacon.min.js' data-cf-beacon='{"token": "8dcb1e0fcb41470b8769c87691688807"}'></script><!-- End Cloudflare Web Analytics -->
+  </body>
+</html>
