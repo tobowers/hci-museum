@@ -1,0 +1,36 @@
+{
+  "slug": "electronic-stratego",
+  "title": "Electronic Stratego",
+  "year": "1982",
+  "subtitle": "The strategy board whose physical pieces carry mechanical bump codes read by the board itself",
+  "why_scout_cares": "Piece-as-input at its purest: each of the 40 pieces has a unique binary pattern of bumps molded into its base; the board reads the bump contacts to identify the piece and its position in a single action, and enforces hidden state by only revealing ranks during combat. A genuinely distinctive sensory-board interaction with no coordinate keypad. DEFERRED 2026-09-16: zero freely-licensed images on Commons (only auction-site/all-rights-reserved photos). Revisit if a CC/PD photo of the board or a piece's bump-pattern underside surfaces.",
+  "search_terms": ["Electronic Stratego", "Milton Bradley Electronic Stratego", "sensory board game 1982", "piece bump encoding", "hidden information game computer"],
+  "research": {
+    "title": "Electronic Stratego",
+    "year": "1982",
+    "by": "Milton Bradley Company",
+    "tags": ["Board Game", "Input", "Physical Token", "Hidden State", "Consumer"],
+    "overview": "Electronic Stratego (1982) is a computerized version of the classic hidden-information strategy game, built by Milton Bradley. Its defining interaction is a sensory board: each of the 40 playing pieces has a unique series of bumps molded into its base (a mechanical binary encoding), and the battery-operated, touch-sensitive board reads the bump pattern to identify which piece was placed on which square. Placing a physical piece onto a square IS the input — there is no coordinate keypad. The board enforces the game's hidden-state mechanics automatically, revealing a piece's rank only during combat resolution via LEDs and sound.\n\nThis makes the artifact a computational referee for hidden information: in regular Stratego, players must manually track their pieces' secret ranks and compare them on attack; the electronic version outsources that bookkeeping to the sensing board. It also replaced the cardboard bomb tokens with detectable hidden bomb pegs. The bump-pattern encoding is an electromechanical solution reminiscent of early pinball and telephone-exchange mechanical logic.",
+    "deepDive": [
+      {
+        "heading": "Piece-as-input via bump encoding",
+        "text": "The interaction model is the point: the physical act of placing a piece on the board both identifies it and positions it, in one action. The mechanical bumps under each piece are read by contact switches in the recessed squares — a tangible, invisible encoding that makes the game board the entire interface."
+      },
+      {
+        "heading": "Hidden state enforced by the machine",
+        "text": "The board automatically keeps each player's piece ranks secret and only reveals the winner of a battle. The machine, not the players' memory, maintains the hidden information — a role normally played by flipping pieces by hand. This is a genuinely strange and prescient use of a sensory board."
+      }
+    ],
+    "team": [
+      { "name": "Milton Bradley Company", "note": "Manufacturer of Electronic Stratego (1982), under the same Milton Bradley Electronics division as Simon, Big Trak, and the talking Milton game" }
+    ],
+    "media": [],
+    "sources": [
+      { "text": "Wikipedia — Stratego (Electronic Stratego section)", "url": "https://en.wikipedia.org/wiki/Stratego#Electronic_Stratego" },
+      { "text": "Wikipedia — List of Milton Bradley Company products", "url": "https://en.wikipedia.org/wiki/List_of_Milton_Bradley_Company_products" },
+      { "text": "BoardGameGeek — Electronic Stratego", "url": "https://boardgamegeek.com/boardgame/3464/electronic-stratego" }
+    ],
+    "imageUrls": []
+  },
+  "savedImages": []
+}

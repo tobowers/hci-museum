@@ -3272,6 +3272,32 @@ const exhibitData: Exhibit[] = [
     tags: ["Home Automation", "Input", "Powerline Control", "Physical", "Consumer"],
     image: img("x10-command-console.jpg"),
   },
+  {
+    id: "linn-lm-1",
+    slug: "linn-lm-1",
+    wikiTitle: "Linn LM-1 Drum Computer",
+    year: "1980",
+    sortYear: 1980,
+    title: "Linn LM-1 Drum Computer",
+    subtitle: "The drum machine whose pads were both the instrument and the step-sequencer grid — the pad-as-program interface",
+    blurb:
+      "The Linn LM-1 Drum Computer (1980), designed by Roger Linn, is the first programmable drum machine to use sampled acoustic drums. Its real invention is the interface: 12 hard-plastic pads — one per drum voice — that serve double duty as both the trigger pads you strike to play AND the tap-to-program grid for the 16-step sequencer. Rather than the TR-808's 16 parallel button rows, the LM-1 uses one shared pad row and step/channel selection, so writing a pattern is a physical tap-per-hit workflow: reach for the drum you mean, tap where in the bar it hits. It introduced quantization and swing for a humanized groove, cost $4,995–$5,500, and only ~525 were made — yet it defined the sound of 1980s records and is the direct ancestor of the MPC pad paradigm. It is the exact interactive counterpoint to the museum's TR-808, whose grid it predates as a 'play it, then write on it' surface.",
+    tags: ["Music", "Input", "Sequencer", "Drum Machine", "Sampling"],
+    image: img("linn-lm-1.jpg"),
+  },
+  {
+    id: "casio-vdb-1000",
+    slug: "casio-vdb-1000",
+    wikiTitle: "Casio VDB-1000 Touchscreen Watch",
+    year: "1991",
+    sortYear: 1991,
+    title: "Casio VDB-1000 Touchscreen Watch",
+    subtitle: "The watch whose whole face is a finger-touch touchscreen you type on — a pocket data bank on the wrist",
+    blurb:
+      "The Casio VDB-1000 (module 658, 1991) is a Databank watch whose entire face is a graphic display with a touchscreen — you tap characters directly on the glass to enter text, navigate menus, and use the calculator. It is effectively a finger-touch personal data bank worn on the wrist, a full five years before mainstream touch UIs. It belongs to Casio's early 'smartwatch' experiments (VDB-200, the kanji DKW-100), which The Verge called the original smartwatches. Where the museum's Seiko RC-1000 uses a data-entry keypad and EyeTap mediates vision, the VDB-1000 offers direct finger-touch text entry on a wearable — the same gesture vocabulary a smartphone uses, compressed onto a wrist-worn pocket data bank in 1991.",
+    tags: ["Wearable", "Input", "Touchscreen", "Consumer", "Pocket Computer"],
+    image: img("casio-vdb-1000.jpg"),
+  },
 ];
 
 export const exhibits: Exhibit[] = exhibitData.toSorted((a, b) => b.sortYear - a.sortYear || a.title.localeCompare(b.title));
