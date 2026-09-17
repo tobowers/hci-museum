@@ -1,0 +1,63 @@
+{
+  "slug": "commodore-chessmate",
+  "title": "Commodore CHESSmate (1978)",
+  "year": "1978",
+  "subtitle": "A chess computer with no board — you play blindfold, typing coordinates into a calculator-style keypad",
+  "why_scout_cares": "The Commodore CHESSmate is the museum's cleanest example of 'blind chess' interaction — a dedicated chess computer that has no chessboard display, no graphical representation of the board, and no sensory board. Instead, you type moves as algebraic notation (E2-E4) on a 19-key membrane keypad, and the machine responds through four 7-segment LED digits. You must hold the entire game state in your head, or keep a physical board beside you. The 8-character LED display shows only FROM and TO squares (e.g., 'E2' and 'E4') plus timer information. This is the purest possible interface reduction: chess reduced to coordinate entry. Designed by Peter Jennings (author of the seminal KIM-1 Microchess) after Chuck Peddle approached him at the 1977 Atlantic City Personal Computing show. Bobby Fischer famously called Jennings to play a game and negotiate using his name for the product. The CHESSmate's hardware was based on the KIM-1 (6504 CPU, 6530 RIOT), and its code was Microchess 1.5 — the same engine that had already sold thousands of copies to KIM-1 owners. The story of its development — Jennings flying to Palo Alto in a rainstorm, programming via acoustic coupler modem to a KIM-1 in Toronto, presenting to Jack Tramiel on New Year's Eve — is one of the great creation myths of personal computing.",
+  "search_terms": ["Commodore CHESSmate", "Peter Jennings", "Microchess", "chess computer 1978", "Commodore chess computer"],
+  "research": {
+    "title": "Commodore CHESSmate",
+    "year": "1978",
+    "by": "Commodore International (designed by Peter Jennings under contract)",
+    "tags": ["Dedicated", "Game", "Input", "Chess", "MEM"],
+    "overview": "The Commodore CHESSmate is a dedicated chess computer introduced at the January 1978 Consumer Electronics Show in Las Vegas and first shipped later that year. It is the purest expression of 'blind' computer chess: the machine has no chessboard, no graphical display, and no pressure-sensing squares. Instead, a 19-key membrane keypad (labeled A-H and 1-8, plus NEW GAME, CLEAR, ENTER) is used to type moves in algebraic notation. Four 7-segment LED digits in two groups show FROM and TO squares (e.g., 'E2' then 'E4'), plus four dome LEDs indicate CHECK, CHESSmate LOSES, CHESSmate IS PLAYING WHITE, and CHESSmate IS PLAYING BLACK.\n\nDeveloped by Peter Jennings, author of the famous KIM-1 Microchess program (1976), under contract to Commodore. Jennings was approached by MOS Technology founder Chuck Peddle at the August 1977 Personal Computing Show in Atlantic City. After extensive negotiations (including a memorable New Year's Eve 1977 meeting with Jack Tramiel where Jennings demonstrated Microchess defeating the Fidelity Chess Challenger in under 10 moves), the CHESSmate went into production. Manufacturing took place in Hong Kong, with chips from MOS Technology in Pennsylvania.\n\nThe CHESSmate ran on a 6504 CPU (28-pin version of the 6502) at 1 MHz, with a 6530 RIOT chip (64 bytes RAM, 1 KB ROM) and a 6332 ROM containing Microchess 1.5. An empty ROM socket allowed for program upgrades. The machine offered 8 levels of play and made its moves via a piezoelectric beeper (no speech synthesis). It was sold primarily in the USA, UK, and West Germany, with its strongest sales in Germany. Peter Jennings received a royalty per unit, though collecting from Commodore required persistent follow-up.\n\nA remarkable footnote: in February 1978, Bobby Fischer himself called Jennings after reading about Microchess in the Computer Chess Newsletter. Fischer played a game against the program over the phone and visited Jennings in Pasadena in March 1978 to play the prototype CHESSmate in person. Fischer brought his own Boris chess computer for comparison. The possibility of naming the product 'Bobby' was discussed, but Fischer declined to endorse the program (it wasn't strong enough in his estimation), and the name CHESSmate was chosen instead.",
+    "deepDive": [
+      {"heading": "Origins and Development", "text": "The CHESSmate originated in late 1976 as Peter Jennings began contemplating a dedicated hardware chess computer version of his KIM-1 Microchess. After an unsuccessful attempt to license Microchess to Mattel, Jennings was approached by MOS Technology's Chuck Peddle at the August 1977 Atlantic City Personal Computing Show. Peddle proposed that Jennings create a dedicated chess game for Commodore to manufacture. Jennings designed the prototype with Ray Holt of Microcomputer Associates, using a system somewhere between a KIM-1 and a Jolt single-board computer. The prototype was completed in time for the January 1978 CES, where Jennings famously removed the PROMs from the prototype after demonstrating to Jack Tramiel, refusing to leave them without a signed contract. The contract was delivered to his hotel room on New Year's Eve."},
+      {"heading": "Bobby Fischer Episode", "text": "In February 1978, Bobby Fischer called Jennings after reading about Microchess in the Computer Chess Newsletter. They played a game over the phone, and Fischer expressed interest in endorsing a product named 'Bobby' in exchange for royalties. In March 1978, Fischer visited Jennings at the Huntington-Sheraton Hotel in Pasadena, bringing his own Boris chess computer. Fischer played the CHESSmate prototype for three days, comparing its style of play (positional/strategic, based on Nimzovich's 'My System') with Boris's (brute-force tactical). Ultimately, Fischer declined to endorse the product, feeling the program wasn't strong enough. Jennings later reflected that even if Fischer had agreed, the endorsement likely wouldn't have survived Jack Tramiel's identity as a Jewish Auschwitz survivor."},
+      {"heading": "Interaction Model", "text": "The CHESSmate's interface is radically constrained: a 19-key membrane keypad and four 7-segment LED digits. To make a move, the player types the FROM square (e.g., E2) on the algebraic keypad, then the TO square (e.g., E4), then presses ENTER. The machine shows its response on the same two groups of digits. The player must maintain a mental model of the board position — there is no board display, no piece symbols, no graphical representation. This is the interface minimalism of a calculator applied to chess. The keypad also provides special function keys: A-H double as WHITE, BOARD VERIFY, CHESS CLOCK, DISPLAY TIME, STOP CLOCK, SKILL LEVEL, GAME MOVES, and BLACK when used with shift functions."},
+      {"heading": "Legacy", "text": "The CHESSmate sold well enough, particularly in Germany, to generate royalties for Jennings — though he had to call Commodore annually to collect payment. The hardware design influenced the Novag Chess Champion MK II, which used the same 6530 RIOT chips and, upon examination, the same code — leading to a lawsuit from CompuChess. The CHESSmate's ROM was Microchess 1.5, the same engine Jennings had written for the KIM-1, making the CHESSmate the physical incarnation of one of the first commercially successful microcomputer chess programs. In 2024, Michael Gardi began creating a replica CHESSmate, ensuring the machine's interaction model lives on."}
+    ],
+    "team": [
+      {"name": "Peter Jennings", "note": "Programmer and hardware designer; creator of KIM-1 Microchess"},
+      {"name": "Chuck Peddle", "note": "MOS Technology founder; recruited Jennings at 1977 Personal Computing Show"},
+      {"name": "Ray Holt", "note": "Microcomputer Associates; designed prototype PCB with Jennings"},
+      {"name": "Sam Tramiel", "note": "CEO of Commodore Canada; negotiated contract with Jennings"},
+      {"name": "Jack Tramiel", "note": "Commodore founder; approved product after New Year's Eve 1977 demonstration"},
+      {"name": "Bobby Fischer", "note": "World Chess Champion; visited Jennings to play and evaluate the CHESSmate prototype"}
+    ],
+    "media": [
+      {"src": "https://upload.wikimedia.org/wikipedia/commons/9/9e/Commodore_Chessmate.jpg",
+       "alt": "Commodore CHESSmate — a beige wedge-shaped device with a 19-key membrane keypad and two groups of 7-segment LED digits",
+       "caption": "Commodore CHESSmate. The 19-key membrane keypad (A-H, 1-8, NEW GAME, CLEAR, ENTER) and four 7-segment LED digits are the entire interface — no board, no display, no sensory squares. Photograph by Christian 'ChRiS' (C64-Wiki), GFDL."},
+      {"src": "https://benlo.com/microchess/images/chessmate/prom-ad.jpg",
+       "alt": "Period advertisement for the Commodore CHESSmate from Personal Computing magazine, 1979",
+       "caption": "Period advertisement for the Commodore CHESSmate, showing the machine next to a traditional chess board. Source: Benlo Park / Peter Jennings."},
+      {"src": "https://benlo.com/microchess/images/bobby/IMG_3627.JPG",
+       "alt": "Bobby Fischer at the Huntington-Sheraton Hotel, Pasadena, March 1978, playing the CHESSmate prototype",
+       "caption": "Bobby Fischer at the Huntington-Sheraton Hotel, Pasadena, March 1978. He spent three days playing the CHESSmate prototype and comparing it with his own Boris chess computer. Source: Peter Jennings / Benlo Park."}
+    ],
+    "sources": [
+      {"text": "Peter Jennings, 'The Commodore CHESSmate' — first-hand account of the machine's development",
+       "url": "https://benlo.com/microchess/chessmate.html"},
+      {"text": "Ismenio's Chess Computer Collection — Commodore CHESSmate specifications and photos",
+       "url": "http://www.ismenio.com/chess_commodore_chessmate.html"},
+      {"text": "Floodgap Retrobits — Commodore CHESSmate technical details",
+       "url": "https://www.floodgap.com/retrobits/ckb/secret/chess.html"},
+      {"text": "Commodore CHESSmate at Chessprogramming Wiki",
+       "url": "https://www.chessprogramming.org/Commodore_ChessMate"},
+      {"text": "Wikipedia — Commodore CHESSmate main article",
+       "url": "https://en.wikipedia.org/wiki/Commodore_CHESSmate"},
+      {"text": "Hackaday — The Quaint History of the Commodore CHESSmate",
+       "url": "https://hackaday.com/2024/06/28/the-quaint-history-of-the-commodore-chessmate/"},
+      {"text": "Michael Gardi's CHESSmate Replica Project",
+       "url": "https://hackaday.io/project/195575-commodore-chessmate-replica"}
+    ],
+    "imageUrls": [
+      "https://upload.wikimedia.org/wikipedia/commons/9/9e/Commodore_Chessmate.jpg",
+      "https://benlo.com/microchess/images/chessmate/prom-ad.jpg",
+      "https://benlo.com/microchess/images/bobby/IMG_3627.JPG",
+      "https://benlo.com/microchess/images/chessmate/chessmate-team-photo.gif"
+    ]
+  },
+  "savedImages": []
+}
