@@ -3298,6 +3298,32 @@ const exhibitData: Exhibit[] = [
     tags: ["Wearable", "Input", "Touchscreen", "Consumer", "Pocket Computer"],
     image: img("casio-vdb-1000.jpg"),
   },
+  {
+    id: "commodore-chessmate",
+    slug: "commodore-chessmate",
+    wikiTitle: "Commodore CHESSmate",
+    year: "1978",
+    sortYear: 1978,
+    title: "Commodore CHESSmate",
+    subtitle: "A chess computer with no board — you play blindfold, typing moves as algebraic coordinates into a calculator-style keypad",
+    blurb:
+      "The Commodore CHESSmate (1978) is the purest expression of 'blind' computer chess: no board, no display, no sensory squares. A 19-key membrane keypad types moves as algebraic notation (E2, then E4); four 7-segment LED digits show the FROM and TO squares, and four dome LEDs indicate check and which side is which. You must hold the entire game state in your head, or keep a physical board beside the machine. Designed by Peter Jennings (author of the KIM-1 Microchess program) under contract to Commodore after Chuck Peddle recruited him in 1977; Bobby Fischer called Jennings to play Microchess over the phone, then spent three days playing the CHESSmate prototype against his own Boris. Chess reduced to coordinate entry is the interaction model.",
+    tags: ["Dedicated", "Game", "Input", "Chess", "Keypad"],
+    image: img("commodore-chessmate.jpg"),
+  },
+  {
+    id: "malletkat",
+    slug: "malletkat",
+    wikiTitle: "KAT MalletKAT MIDI Percussion Controller",
+    year: "1985",
+    sortYear: 1985,
+    title: "KAT MalletKAT MIDI Percussion Controller",
+    subtitle: "A chromatic mallet-percussion interface whose force-sensing pads make the two-mallet strike itself the input",
+    blurb:
+      "The KAT MalletKAT (1985-86), designed by Keith McMillen, is a MIDI percussion controller whose interface is a chromatic grid of force-sensing rubber pads laid out like a marimba or vibraphone, played with two mallets. Each pad reads strike velocity, sustained force, and damping, so the physical quality of the mallet gesture becomes the input data — the body's two-handed, full-arm performance is the interface. A controller rather than a synthesizer, it sends MIDI data to external instruments; professional users included Neil Peart and Roy Ayers. It is the museum's only mallet-percussion interface and its only chromatic force-sensing-pad instrument, distinct from the finger-triggered drum computers (Linn LM-1, Mattel Synsonics) and keyboard/touch-strip instruments already collected.",
+    tags: ["Music", "Input", "Controller", "Force Sensing", "MIDI"],
+    image: img("malletkat.jpg"),
+  },
 ];
 
 export const exhibits: Exhibit[] = exhibitData.toSorted((a, b) => b.sortYear - a.sortYear || a.title.localeCompare(b.title));

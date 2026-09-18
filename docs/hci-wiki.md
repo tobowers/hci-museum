@@ -1,6 +1,6 @@
 # The HCI Golden Age Wiki
 
-A research compendium for a digital museum of cutting-edge Human-Computer Interaction from the late 1970s through the early 1990s. These two hundred and sixty-four projects mix canonical experiments with weird, forgotten, and beautiful vaporware — brain control, voice control, gesture, wearable computing, VR, robots, and full-body exertion.
+A research compendium for a digital museum of cutting-edge Human-Computer Interaction from the late 1970s through the early 1990s. These two hundred and sixty-six projects mix canonical experiments with weird, forgotten, and beautiful vaporware — brain control, voice control, gesture, wearable computing, VR, robots, and full-body exertion.
 
 Each entry includes an overview, a deep dive, a small media gallery, and full source links so the images and facts can always be traced back.
 
@@ -271,6 +271,8 @@ Each entry includes an overview, a deep dive, a small media gallery, and full so
     262. [BSR/X10 Command Console (1978)](#bsr-x10-command-console-1978)
     263. [Linn LM-1 Drum Computer (1980)](#linn-lm-1-drum-computer-1980)
     264. [Casio VDB-1000 Touchscreen Watch (1991)](#casio-vdb-1000-touchscreen-watch-1991)
+   265. [Commodore CHESSmate (1978)](#commodore-chessmate-1978)
+   266. [KAT MalletKAT MIDI Percussion Controller (1985)](#kat-malletkat-midi-percussion-controller-1985)
   
 ---
 
@@ -12178,3 +12180,78 @@ It belongs to the same family of early Casio touch wrist devices (VDB-200, the k
 1. Wikipedia — Casio Databank (touchscreen VDB-1000/VDB-200) — https://en.wikipedia.org/wiki/Casio_Databank
 2. The Verge — The original smartwatches: Casio's history of wild wrist designs — https://www.theverge.com/2015/6/29/8860737/casio-watches-smartwatch-features-photos-exhibition
 3. Wikimedia Commons — File:VDB-1000.jpg — https://commons.wikimedia.org/wiki/File:VDB-1000.jpg
+
+## Commodore CHESSmate (1978)
+
+**By:** Commodore International (designed by Peter Jennings under contract)  
+**Tags:** `Dedicated` `Game` `Input` `Chess` `Keypad`
+
+### Overview
+
+The Commodore CHESSmate is the purest expression of 'blind' computer chess: the machine has no chessboard, no graphical display, and no pressure-sensing squares. Instead, a 19-key membrane keypad (labeled A-H and 1-8, plus NEW GAME, CLEAR, ENTER) is used to type moves in algebraic notation — E2, then E4. Four 7-segment LED digits in two groups show the FROM and TO squares, and four dome LEDs indicate CHECK, CHESSmate LOSES, IS PLAYING WHITE, and IS PLAYING BLACK. The player must hold the entire game state in the head, or keep a physical board beside the machine. Chess is reduced to coordinate entry.
+
+It was developed by Peter Jennings, author of the seminal KIM-1 Microchess program (1976), under contract to Commodore. Jennings was recruited by MOS Technology founder Chuck Peddle at the August 1977 Personal Computing Show; the machine ran on a 6504 CPU (a 28-pin 6502) with a 6530 RIOT and a 6332 ROM containing Microchess 1.5, and offered 8 levels of play. A remarkable footnote: in February 1978, world champion Bobby Fischer called Jennings to play Microchess over the phone, then visited him in Pasadena in March 1978 to spend three days playing the CHESSmate prototype against his own Boris chess computer.
+
+### A machine that asks you to imagine the board
+
+Where sensory-board chess computers let you place a piece and press down, the CHESSmate has no board at all. You type a move as from-square/to-square and the machine answers on the same two groups of digits. This is the interface minimalism of a calculator applied to chess: the whole game compressed into coordinate entry and a four-digit echo. It is the museum's clearest 'you must hold the state in your head' interface.
+
+### The Microchess lineage
+
+The CHESSmate is the physical incarnation of one of the first commercially successful microcomputer chess programs. Microchess 1.5 — the engine that had already sold thousands of copies to KIM-1 owners — lives in the CHESSmate's ROM. The hardware design later influenced the Novag Chess Champion MK II, which used the same 6530 RIOT chips and, upon examination, the same code, leading to a CompuChess lawsuit. In 2024, Michael Gardi began building a replica CHESSmate, keeping the interaction model alive.
+
+### Team
+
+* **Peter Jennings.** Programmer and hardware designer; creator of the KIM-1 Microchess program.
+* **Chuck Peddle.** MOS Technology founder who recruited Jennings at the 1977 Personal Computing Show.
+* **Jack Tramiel.** Commodore founder; approved the product after a New Year's Eve 1977 demonstration.
+* **Bobby Fischer.** World champion who played the CHESSmate prototype and considered — then declined — an endorsement.
+
+### Media
+
+![Commodore CHESSmate](../assets/wiki/commodore-chessmate.jpg)
+*Commodore CHESSmate. The 19-key membrane keypad and two groups of 7-segment LED digits are the entire interface — no board, no display, no sensory squares. Photo: Christian 'ChRiS' (C64-Wiki), GFDL.*
+
+### Sources
+
+1. Peter Jennings — 'The Commodore CHESSmate' (first-hand account) — https://benlo.com/microchess/chessmate.html
+2. Wikipedia — Commodore CHESSmate — https://en.wikipedia.org/wiki/Commodore_CHESSmate
+3. Chessprogramming Wiki — Commodore CHESSmate — https://www.chessprogramming.org/Commodore_ChessMate
+4. Hackaday — The Quaint History of the Commodore CHESSmate — https://hackaday.com/2024/06/28/the-quaint-history-of-the-commodore-chessmate/
+5. Wikimedia Commons — File:Commodore_Chessmate.jpg — https://commons.wikimedia.org/wiki/File:Commodore_Chessmate.jpg
+
+## KAT MalletKAT MIDI Percussion Controller (1985)
+
+**By:** KAT Inc. (Keith McMillen), later Alternate Mode  
+**Tags:** `Music` `Input` `Controller` `Force Sensing` `MIDI`
+
+### Overview
+
+The MalletKAT is a MIDI percussion controller developed by KAT, the company founded by electronic instrument designer Keith McMillen in Massachusetts in the mid-1980s. Its defining interface is a chromatic layout of playable rubber pads — arranged like a marimba or vibraphone rather than a drum kit or piano — that the performer strikes with two mallets. Each pad uses Force-Sensing Resistors (FSR) to read strike velocity, sustained force, and damping, so the playing dynamics become part of the input data. Because it is a controller rather than a sound module, it sends MIDI note and expression data to external synthesizers and samplers; later generations added a sequencer, footswitch editing, and a scrolling display.
+
+The first MalletKAT models appeared in 1985-86, establishing KAT's family of percussion controllers that also included the DrumKAT, TrapKat, and PanKAT. Professional adopters spanned rock and jazz: Neil Peart of Rush played one, and jazz vibraphonist Roy Ayers is closely associated with the instrument.
+
+### The body's mallet strike is the interface
+
+The MalletKAT is genuinely two-handed and full-arm. The performer faces a pitched grid and plays it with two mallets; the FSR pads read not just which note but how the strike was physically delivered — velocity, pressure, damping. This makes mallet technique itself the computer interface, a full-body performance captured as data. It is the museum's only mallet-percussion interface and its only chromatic force-sensing-pad instrument.
+
+### A controller, not a synthesizer
+
+Like the museum's SynthAxe and Casio DG-20, the MalletKAT separates physical interface from sound generation: it produces MIDI data for external instruments. The interaction model is the point. This is distinct from the collection's finger- or stick-triggered drum-computer entries (Linn LM-1, Mattel Synsonics, Movement Systems), which are discrete drum sounds, and from keyboard-layout and touch-strip instruments already collected.
+
+### Team
+
+* **Keith McMillen.** Founder of KAT Inc.; instrument designer behind the MalletKAT and later KMI (Keith McMillen Instruments).
+* **Alternate Mode.** Company that acquired and continued the KAT product line.
+* **Neil Peart / Roy Ayers.** Notable professional MalletKAT players.
+
+### Media
+
+![KAT MalletKAT MIDI percussion controller](../assets/wiki/malletkat.jpg)
+*A KAT MalletKAT MIDI percussion controller. The chromatic grid of force-sensing rubber pads is played with two mallets; strike force and damping are read as input. Photo: Jan Mehlich, CC BY-SA 3.0 (Wikimedia Commons).*
+
+### Sources
+
+1. Wikipedia — MalletKAT — https://en.wikipedia.org/wiki/MalletKAT
+2. KAT percussion — manufacturer history — https://www.katpercussion.com/
+3. Wikimedia Commons — File:Mallet KAT MIDI Controller.JPG — https://commons.wikimedia.org/wiki/File:Mallet_KAT_MIDI_Controller.JPG

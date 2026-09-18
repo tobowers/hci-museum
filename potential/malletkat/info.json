@@ -1,0 +1,44 @@
+{
+  "slug": "malletkat",
+  "title": "KAT MalletKAT MIDI Percussion Controller (1985)",
+  "year": "1985",
+  "subtitle": "A chromatic mallet-percussion interface whose pitch-sensing gum-rubber pads make the body's two-mallet strike the input",
+  "why_scout_cares": "The MalletKAT is the museum's cleanest example of a chromatic mallet-percussion computer interface: instead of a piano keyboard or a drum pad, the performer faces a marimba/vibraphone-style layout of force-sensing rubber pads and plays it with two mallets. Each pad uses Force-Sensing Resistors to read not just whether but how hard and with what damping the player strikes — continuous strike-force and damping become the input data, so the instrument knows both the note and the physical quality of the gesture. The interface is genuinely two-handed and full-arm: the body's mallet technique is the interface. Built by KAT (founded by Keith McMillen) beginning c. 1985, and used professionally by Neil Peart, Roy Ayers, and others. It is distinct from the museum's finger-triggered drum pads (Linn LM-1, Mattel Synsonics) — those are discrete drum sounds; the MalletKAT is a pitched chromatic grid read by strike dynamics.",
+  "search_terms": ["MalletKAT", "Keith McMillen", "KAT percussion MIDI controller", "FSR mallet controller", "MIDI mallet 1985"],
+  "research": {
+    "title": "KAT MalletKAT MIDI Percussion Controller",
+    "year": "1985",
+    "by": "KAT Inc. (Keith McMillen), later Alternate Mode",
+    "tags": ["Music", "Input", "Controller", "Force Sensing", "MIDI"],
+    "overview": "The MalletKAT is a MIDI percussion controller developed by KAT, the company founded by electronic instrument designer Keith McMillen in Massachusetts in the mid-1980s. Its defining interface is a chromatic layout of playable pads — laid out like a marimba or vibraphone rather than a drum kit or piano — that the performer strikes with two mallets. Each pad is built around Force-Sensing Resistors (FSR): the controller reads strike velocity, the sustained force of a touch, and damping, so playing dynamics become part of the input. Because it is a controller rather than a sound module, it sends MIDI note data that drives external synthesizers and samplers; later generations added features like a sequencer, footswitch editing, and a scrolling display.\n\nThe first MalletKAT models appeared in 1985-86, establishing KAT's family of percussion controllers that also included the DrumKAT, TrapKat, and PanKAT. The MalletKAT found professional adopters in both rock and jazz — Neil Peart of Rush played one, and jazz vibraphonist Roy Ayers is closely associated with the instrument, often performing with it. This is a chromatic, pitched, two-mallet instrument interface: the physical mallet strike over a grid of force-sensitive pads is the whole interaction, in contrast to both keyboard-layout synths and the discrete finger-triggered drum pads already in the museum.",
+    "deepDive": [
+      {"heading": "The interface", "text": "The MalletKAT presents a grid of gum-rubber pads arranged chromatically across the playing surface. The player uses two mallets (or the hands), striking individual pads to trigger notes. Force-Sensing Resistors under the pads read strike velocity and continued pressure, so the note's articulation — loud, soft, damped — is transmitted as part of the input rather than as an afterthought. This makes the mallet technique itself the computer interface: two-handed, full-arm, pitch-located physical performance."},
+      {"heading": "Controller, not synthesizer", "text": "Like the museum's SynthAxe and Casio DG-20, the MalletKAT is a MIDI controller — it produces note and expression data for external instruments rather than its own sound. The interaction model is the point: the player maps a physical mallet performance onto the MIDI note stream. This separation of physical interface from sound generation is a defining feature of the era's serious electronic instruments."},
+      {"heading": "Place in the museum", "text": "The collection's drum-computer entries (Linn LM-1, Mattel Synsonics, Movement Systems) are finger- or stick-triggered discrete drum sounds; the MalletKAT is a pitched chromatic mallet grid read by strike force and damping. It is the museum's only mallet-percussion interface and its only chromatic force-sensing-pad instrument, distinct from the FM/touch-strip/sequencer entries already collected."}
+    ],
+    "team": [
+      {"name": "Keith McMillen", "note": "Founder of KAT Inc.; instrument designer behind the MalletKAT and later KMI (Keith McMillen Instruments)"},
+      {"name": "KAT Inc.", "note": "Manufacturer of the MalletKAT, DrumKAT, TrapKat, PanKAT percussion controllers"},
+      {"name": "Alternate Mode", "note": "Company that acquired and continued the KAT product line"},
+      {"name": "Neil Peart", "note": "Rush drummer; professional MalletKAT user"},
+      {"name": "Roy Ayers", "note": "Jazz vibraphonist closely associated with performing on the MalletKAT"}
+    ],
+    "media": [
+      {"src": "https://upload.wikimedia.org/wikipedia/commons/f/fe/Mallet_KAT_MIDI_Controller.JPG",
+       "alt": "A KAT MalletKAT MIDI percussion controller — a chromatic grid of rubber pads on a slanted board",
+       "caption": "A KAT MalletKAT MIDI percussion controller. The chromatic grid of force-sensing rubber pads is played with two mallets; strike force and damping are read as input. CC BY-SA 3.0, Wikimedia Commons (photographer: Jan Mehlich)."}
+    ],
+    "sources": [
+      {"text": "Wikipedia — MalletKAT",
+       "url": "https://en.wikipedia.org/wiki/MalletKAT"},
+      {"text": "KAT percussion — manufacturer history",
+       "url": "https://www.katpercussion.com/"},
+      {"text": "Wikimedia Commons — File:Mallet KAT MIDI Controller.JPG",
+       "url": "https://commons.wikimedia.org/wiki/File:Mallet_KAT_MIDI_Controller.JPG"}
+    ],
+    "imageUrls": [
+      "https://upload.wikimedia.org/wikipedia/commons/f/fe/Mallet_KAT_MIDI_Controller.JPG"
+    ]
+  },
+  "savedImages": []
+}
