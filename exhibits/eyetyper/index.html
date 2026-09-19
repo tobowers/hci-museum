@@ -1,0 +1,209 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
+    <meta name="description" content="A video camera pointed at one eyeball. A display board with oversized characters. Hold your gaze — and type at 10 words per minute. CMU spinoff Sentient Systems launched EyeTyper in 1983; the company became DynaVox, then Tobii Dynavox." />
+    <meta property="og:title" content="EyeTyper — HCI Museum" />
+    <meta property="og:description" content="A video camera pointed at one eyeball. A display board with oversized characters. Hold your gaze — and type at 10 words per minute. CMU spinoff Sentient Systems launched EyeTyper in 1983; the company became DynaVox, then Tobii Dynavox." />
+    <meta property="og:site_name" content="HCI Museum" />
+    <meta property="og:type" content="article" />
+    <meta property="og:url" content="https://interfacemuseum.com/exhibits/eyetyper/" />
+    <meta property="og:image" content="https://interfacemuseum.com/og/exhibits/eyetyper.jpg" />
+    <meta property="og:image:secure_url" content="https://interfacemuseum.com/og/exhibits/eyetyper.jpg" />
+    <meta property="og:image:type" content="image/jpeg" />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="630" />
+    <meta property="og:image:alt" content="EyeTyper archival photograph" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="EyeTyper — HCI Museum" />
+    <meta name="twitter:description" content="A video camera pointed at one eyeball. A display board with oversized characters. Hold your gaze — and type at 10 words per minute. CMU spinoff Sentient Systems launched EyeTyper in 1983; the company became DynaVox, then Tobii Dynavox." />
+    <meta name="twitter:image" content="https://interfacemuseum.com/og/exhibits/eyetyper.jpg" />
+    <meta name="twitter:image:alt" content="EyeTyper archival photograph" />
+    <title>EyeTyper — HCI Museum</title>
+    <link rel="icon" type="image/gif" href="/favicon.gif" />
+    <link rel="icon" type="image/png" href="/favicon.png" />
+    <link rel="alternate" type="text/plain" title="HCI Museum llms.txt" href="/llms.txt" />
+    <link rel="alternate" type="application/rss+xml" title="HCI Museum Collection" href="/feeds/collection.xml" />
+    <link rel="alternate" type="application/rss+xml" title="HCI Museum Field Notes" href="/feeds/blog.xml" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="../../styles.css" />
+  </head>
+  <body>
+    <div class="atmosphere" aria-hidden="true">
+      <div class="atmosphere__grid"></div>
+      <div class="atmosphere__scanlines"></div>
+      <div class="atmosphere__vignette"></div>
+    </div>
+
+    <div class="page-shell">
+      <header class="site-header">
+        <a href="../../" class="brand">
+          <span class="brand__mark" aria-hidden="true"></span>
+          <span>HCI Museum</span>
+        </a>
+        <nav class="nav-primary" aria-label="Primary">
+          <a href="../../exhibits/" class="active">Exhibits</a>
+          <a href="../../blog/">Field Notes</a>
+          <a href="../../about/">About</a>
+        </nav>
+        <div class="header-meta">
+          <span class="header-meta__item">SYS_OK</span>
+          <span class="header-meta__pulse" aria-hidden="true"></span>
+        </div>
+      </header>
+
+      <main>
+
+        <article class="exhibit">
+          <header class="exhibit__hero">
+            <div class="exhibit__hero-text">
+              <div class="exhibit__eyebrow">
+                <span class="exhibit__year">1983</span>
+                <span class="exhibit__by">Mark B. Friedman / Sentient Systems Technology, Inc. (CMU spinoff)</span>
+              </div>
+              <h1 class="exhibit__title">EyeTyper</h1>
+              <p class="exhibit__subtitle">The first camera-based eye-typing device: look to type, dwell to select</p>
+              <div class="exhibit__tags"><span class="exhibit__tag">Eye-Tracking</span><span class="exhibit__tag">Accessibility</span><span class="exhibit__tag">Camera-Based Input</span></div>
+            </div>
+
+            <div class="exhibit__hero-image-wrap">
+              <img
+                class="exhibit__hero-image"
+                src="../../assets/wiki/eyetyper-1.png"
+                alt="EyeTyper archival photograph"
+              />
+              <div class="exhibit__hero-scanlines" aria-hidden="true"></div>
+            </div>
+          </header>
+
+          <section class="exhibit__section exhibit__overview">
+            <h2 class="exhibit__section-title">Overview</h2>
+            <div class="exhibit__prose"><p>The EyeTyper was the first commercially produced camera-based eye-tracking communication device, designed to allow quadriplegics and people with severe motor disabilities to type using only their eyes. A video camera pointed at one eyeball detected corneal reflection and pupil position via infrared light, while the user looked at a physical display board bearing oversized illuminated characters (approximately 30, each 2×2 inches). Looking at a character for a configurable dwell time selected it, sending the keystroke to a computer, printer, or speech synthesizer.</p>
+<p>The device was commercialized by Sentient Systems Technology in 1983 in Pittsburgh, a spinoff from Carnegie Mellon University&#039;s Robotics Institute. Mark Friedman, a research engineer at CMU, began the project in 1980 while working with disabled children at the Rehabilitation Institute of Pittsburgh, enlisting CMU student volunteers including Gary Kiliany, who became Vice President and co-founder. The core invention — a custom &#039;frame encoder&#039; board — was documented in the Johns Hopkins APL Technical Digest in 1982.</p>
+<p>The EyeTyper embodied a profound HCI paradigm: eyes as the primary physical input modality. It demonstrated that camera-based corneal-reflection eye-tracking could be made practical with 8-bit microprocessors through hardware/software co-design. The patent (US4648052A) describes a hardware frame encoder that digitized video with dual programmable thresholds, encoding only threshold-crossing events with pixel X,Y addresses into a small 1K×12-bit cache — allowing real-time analysis by an 8-bit microprocessor for the first time. The lineage from EyeTyper through DynaVox to today&#039;s Tobii Dynavox devices is the longest continuous line in eye-controlled AAC.</p></div>
+          </section>
+
+          <section class="exhibit__section exhibit__deep-dive">
+            <h2 class="exhibit__section-title">Deep dive</h2>
+            <div class="exhibit__facts">
+        <div class="exhibit__fact">
+          <div class="exhibit__fact-heading"><strong>Origins.</strong></div>
+          <p>Mark Friedman, a research engineer at CMU&#039;s Robotics Institute, began the project in 1980 while working with disabled children at the Rehabilitation Institute of Pittsburgh. He enlisted CMU student volunteers including Gary Kiliany (later VP and co-founder). The initial prototype was created to help a young woman with cerebral palsy communicate. The research was funded and the core invention was documented in Friedman et al., &#039;The Eyetracker Communication System,&#039; Johns Hopkins APL Technical Digest, vol. 3, no. 3, 1982.</p>
+        </div>
+      
+        <div class="exhibit__fact">
+          <div class="exhibit__fact-heading"><strong>Interaction Model.</strong></div>
+          <p>A television camera and infrared light source were mounted behind a display board with an opening. The user sat in front of the board, and the camera observed one eye. The display board held approximately 30 oversized characters (2×2 inches each), arranged in a matrix, each containing a small indicator light. The user fixated on a character for a dwell time (adjustable from ~0.5 seconds to over a second), producing approximately 10 words per minute. The camera detected the corneal reflection (glint) and pupil center; the vector between them was mapped via a lookup table to specific character positions, with ~2–3 inches of allowable head movement. Selected characters appeared on a screen and could drive printers, speech synthesizers, or home automation.</p>
+        </div>
+      
+        <div class="exhibit__fact">
+          <div class="exhibit__fact-heading"><strong>Technical Innovation.</strong></div>
+          <p>The patent (US4648052A) describes a hardware frame encoder that digitized video with dual programmable thresholds, encoding only threshold-crossing events (rising/dropping above/below thresholds) with pixel X,Y addresses into a small 1K×12-bit cache memory — allowing analysis by an 8-bit microprocessor in real time. This was a radical departure from full-frame digitization and made real-time eye tracking affordable for the first time.</p>
+        </div>
+      
+        <div class="exhibit__fact">
+          <div class="exhibit__fact-heading"><strong>Legacy.</strong></div>
+          <p>The patent was sold to the US Navy, with revenues reinvested into further development. Sentient Systems Technology rebranded as DynaVox in 1998 (acquired by Sunrise Medical), eventually acquired by Tobii in 2014 to become Tobii Dynavox. The line from EyeTyper to today&#039;s Tobii Dynavox devices is the longest continuous lineage in eye-controlled AAC. The EyeTyper directly demonstrated the key HCI principle that an assistive technology designed for the most severely disabled users could pioneer a general-purpose input modality.</p>
+        </div>
+      </div>
+          </section>
+
+          
+          <section class="exhibit__section exhibit__team">
+            <h2 class="exhibit__section-title">Team &amp; pioneers</h2>
+            <ul class="exhibit__team-list">
+            <li class="exhibit__team-item">
+              <span class="exhibit__team-name">Mark B. Friedman.</span>
+              <span class="exhibit__team-note"> Research engineer, CMU Robotics Institute; founder of Sentient Systems Technology</span>
+            </li>
+            <li class="exhibit__team-item">
+              <span class="exhibit__team-name">Gary J. Kiliany.</span>
+              <span class="exhibit__team-note"> CMU student volunteer, co-founder, VP and chief engineer at Sentient Systems</span>
+            </li>
+            <li class="exhibit__team-item">
+              <span class="exhibit__team-name">Mark R. Dzmura.</span>
+              <span class="exhibit__team-note"> Co-inventor on patent US4648052A, engineering contributor</span>
+            </li>
+            <li class="exhibit__team-item">
+              <span class="exhibit__team-name">Tilden Bennett.</span>
+              <span class="exhibit__team-note"> Business co-founder</span>
+            </li>
+            </ul>
+          </section>
+
+          
+          <section class="exhibit__section exhibit__media">
+            <h2 class="exhibit__section-title">Media</h2>
+            <div class="exhibit__media-grid">
+        <figure class="exhibit__media-item">
+          <div class="exhibit__media-frame">
+            <img src="../../assets/wiki/eyetyper-1.png" alt="Patent drawing showing the EyeTyper display board with oversized character layout and camera" loading="lazy" />
+            <div class="exhibit__media-scanlines" aria-hidden="true"></div>
+          </div>
+          <figcaption>EyeTyper display board layout from US Patent 4,648,052 (filed 1983). Source: USPTO.</figcaption>
+        </figure>
+      
+        <figure class="exhibit__media-item">
+          <div class="exhibit__media-frame">
+            <img src="../../assets/wiki/eyetyper-2.png" alt="Patent diagram of the overall EyeTyper system showing camera, light source, and display board" loading="lazy" />
+            <div class="exhibit__media-scanlines" aria-hidden="true"></div>
+          </div>
+          <figcaption>Overall system diagram showing camera, infrared light source, and display board configuration. Source: USPTO Patent 4,648,052.</figcaption>
+        </figure>
+      </div>
+          </section>
+          
+
+          
+          <section class="exhibit__section exhibit__sources">
+            <h2 class="exhibit__section-title">Sources</h2>
+            <ol class="exhibit__source-list">
+        <li>
+          <a href="https://www.upi.com/Archives/1984/12/29/Type-with-your-eyes/8390473144400/" target="_blank" rel="noopener">UPI Archives, &#039;Type with your eyes&#039; (Dec 29, 1984)</a>
+        </li>
+      
+        <li>
+          <a href="https://patents.google.com/patent/US4648052A" target="_blank" rel="noopener">US Patent 4,648,052 — &#039;Eye-tracker communication system&#039; (filed Nov 14, 1983)</a>
+        </li>
+      
+        <li>
+          <a href="https://www.jhuapl.edu/Content/techdigest/pdf/V03-N03/03-03-Friedman.pdf" target="_blank" rel="noopener">Friedman et al., &#039;The Eyetracker Communication System,&#039; Johns Hopkins APL Technical Digest, vol. 3, no. 3 (1982)</a>
+        </li>
+      
+        <li>
+          <a href="https://en.wikipedia.org/wiki/Dynavox" target="_blank" rel="noopener">DynaVox (Wikipedia) — historical section covering EyeTyper origins</a>
+        </li>
+      
+        <li>
+          <a href="https://wiki.cogain.org/index.php/Eye_Typing_Systems" target="_blank" rel="noopener">COGAIN Wiki — Eye Typing Systems</a>
+        </li>
+      </ol>
+          </section>
+          
+
+          <nav class="exhibit__nav" aria-label="Exhibit navigation">
+            <a href="../databar-oscar/" class="exhibit__nav-link exhibit__nav-link--prev">
+        <span class="exhibit__nav-dir">← Previous</span>
+        <span class="exhibit__nav-title">Databar OSCAR</span>
+      </a>
+            <a href="../../exhibits/" class="exhibit__nav-link exhibit__nav-link--index">All exhibits</a>
+            <a href="../fluke-9010a/" class="exhibit__nav-link exhibit__nav-link--next">
+        <span class="exhibit__nav-dir">Next →</span>
+        <span class="exhibit__nav-title">Fluke 9010A Micro-System Troubleshooter</span>
+      </a>
+          </nav>
+        </article>
+      </main>
+
+      <footer class="site-footer">
+        <span>HCI Museum // Curated by Beepy</span>
+        <span class="site-footer__signal">SIGNAL_STABLE</span>
+      </footer>
+    </div>
+
+    <!-- Cloudflare Web Analytics --><script defer src='https://static.cloudflareinsights.com/beacon.min.js' data-cf-beacon='{"token": "8dcb1e0fcb41470b8769c87691688807"}'></script><!-- End Cloudflare Web Analytics -->
+  </body>
+</html>

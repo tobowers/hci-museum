@@ -1,0 +1,221 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
+    <meta name="description" content="The first portable ASL-to-speech translation system: 14 strain-gauge flex sensors, a beacon recognition algorithm in 16-dimensional hand-space, and a DECtalk speech synthesizer. Built by James Kramer at Stanford (1988–1991) for deaf users to have everyday conversations without an interpreter. The sensor design proved so robust it became the CyberGlove, dominating VR hand-input for two decades before Immersion Corp acquired it and leveraged the patents against Microsoft and Sony." />
+    <meta property="og:title" content="Talking Glove — HCI Museum" />
+    <meta property="og:description" content="The first portable ASL-to-speech translation system: 14 strain-gauge flex sensors, a beacon recognition algorithm in 16-dimensional hand-space, and a DECtalk speech synthesizer. Built by James Kramer at Stanford (1988–1991) for deaf users to have everyday conversations without an interpreter. The sensor design proved so robust it became the CyberGlove, dominating VR hand-input for two decades before Immersion Corp acquired it and leveraged the patents against Microsoft and Sony." />
+    <meta property="og:site_name" content="HCI Museum" />
+    <meta property="og:type" content="article" />
+    <meta property="og:url" content="https://interfacemuseum.com/exhibits/kramers-talking-glove/" />
+    <meta property="og:image" content="https://interfacemuseum.com/og/exhibits/kramers-talking-glove.jpg" />
+    <meta property="og:image:secure_url" content="https://interfacemuseum.com/og/exhibits/kramers-talking-glove.jpg" />
+    <meta property="og:image:type" content="image/jpeg" />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="630" />
+    <meta property="og:image:alt" content="Talking Glove archival photograph" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Talking Glove — HCI Museum" />
+    <meta name="twitter:description" content="The first portable ASL-to-speech translation system: 14 strain-gauge flex sensors, a beacon recognition algorithm in 16-dimensional hand-space, and a DECtalk speech synthesizer. Built by James Kramer at Stanford (1988–1991) for deaf users to have everyday conversations without an interpreter. The sensor design proved so robust it became the CyberGlove, dominating VR hand-input for two decades before Immersion Corp acquired it and leveraged the patents against Microsoft and Sony." />
+    <meta name="twitter:image" content="https://interfacemuseum.com/og/exhibits/kramers-talking-glove.jpg" />
+    <meta name="twitter:image:alt" content="Talking Glove archival photograph" />
+    <title>Talking Glove — HCI Museum</title>
+    <link rel="icon" type="image/gif" href="/favicon.gif" />
+    <link rel="icon" type="image/png" href="/favicon.png" />
+    <link rel="alternate" type="text/plain" title="HCI Museum llms.txt" href="/llms.txt" />
+    <link rel="alternate" type="application/rss+xml" title="HCI Museum Collection" href="/feeds/collection.xml" />
+    <link rel="alternate" type="application/rss+xml" title="HCI Museum Field Notes" href="/feeds/blog.xml" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="../../styles.css" />
+  </head>
+  <body>
+    <div class="atmosphere" aria-hidden="true">
+      <div class="atmosphere__grid"></div>
+      <div class="atmosphere__scanlines"></div>
+      <div class="atmosphere__vignette"></div>
+    </div>
+
+    <div class="page-shell">
+      <header class="site-header">
+        <a href="../../" class="brand">
+          <span class="brand__mark" aria-hidden="true"></span>
+          <span>HCI Museum</span>
+        </a>
+        <nav class="nav-primary" aria-label="Primary">
+          <a href="../../exhibits/" class="active">Exhibits</a>
+          <a href="../../blog/">Field Notes</a>
+          <a href="../../about/">About</a>
+        </nav>
+        <div class="header-meta">
+          <span class="header-meta__item">SYS_OK</span>
+          <span class="header-meta__pulse" aria-hidden="true"></span>
+        </div>
+      </header>
+
+      <main>
+
+        <article class="exhibit">
+          <header class="exhibit__hero">
+            <div class="exhibit__hero-text">
+              <div class="exhibit__eyebrow">
+                <span class="exhibit__year">1988</span>
+                <span class="exhibit__by">James F. Kramer and Prof. Larry Leifer, Center for Design Research, Stanford University</span>
+              </div>
+              <h1 class="exhibit__title">Talking Glove</h1>
+              <p class="exhibit__subtitle">A glove that translated American Sign Language fingerspelling into spoken words in real time</p>
+              <div class="exhibit__tags"><span class="exhibit__tag">Wearable</span><span class="exhibit__tag">Accessibility</span><span class="exhibit__tag">Gesture Recognition</span></div>
+            </div>
+
+            <div class="exhibit__hero-image-wrap">
+              <img
+                class="exhibit__hero-image"
+                src="../../assets/wiki/kramers-talking-glove-1.png"
+                alt="Talking Glove archival photograph"
+              />
+              <div class="exhibit__hero-scanlines" aria-hidden="true"></div>
+            </div>
+          </header>
+
+          <section class="exhibit__section exhibit__overview">
+            <h2 class="exhibit__section-title">Overview</h2>
+            <div class="exhibit__prose"><p>The Talking Glove was a self-contained, portable communication system that translated American Sign Language fingerspelling into synthetic speech in real time. Developed by James Kramer under Prof. Larry Leifer at Stanford&#039;s Center for Design Research, the system used an instrumented glove with 14 custom strain-gauge flex sensors sewn into pockets over each finger joint. A Motorola 68HC11 microcontroller sampled joint-angle data and fed it to a host computer running Kramer&#039;s &#039;beacon&#039; recognition algorithm, which matched hand configurations to letters in a 14-dimensional hand-state space. When the user formed a special &#039;say it&#039; handshape, a DECtalk speech synthesizer spoke the assembled word through a miniature pendant speaker worn under the shirt.</p>
+<p>The glove communicated bidirectionally: an infrared-linked pocket keyboard let hearing interlocutors type replies, which appeared on a Seiko LCD wrist display for sighted deaf users or on a refreshable mechanical braille display for deaf-blind users. An optional IntroVoice speech recognition system allowed hearing people to speak responses in structured environments. Kramer&#039;s strain-gauge sensor design was a key technical advance — unlike the VPL DataGlove&#039;s nonlinear fiber-optic sensors, these produced linear output proportional to bend angle regardless of bend radius, making them far more reliable for precise gesture recognition.</p>
+<p>The Talking Glove&#039;s commercial legacy is extraordinary. Kramer founded Virtual Technologies, Inc. in 1990 to commercialize the technology as the CyberGlove, which became the dominant hand-input device for VR research and industrial simulation for over two decades. Virtual Technologies was acquired by Immersion Corporation in 2000 for its haptic patent portfolio — patents that Immersion later leveraged in multimillion-dollar settlements with Microsoft and Sony over game controller vibration technology. The finger-joint strain-gauge sensor design lives on in CyberGlove Systems&#039; products today.</p></div>
+          </section>
+
+          <section class="exhibit__section exhibit__deep-dive">
+            <h2 class="exhibit__section-title">Deep dive</h2>
+            <div class="exhibit__facts">
+        <div class="exhibit__fact">
+          <div class="exhibit__fact-heading"><strong>Origins.</strong></div>
+          <p>The problem was stark: deaf, deaf-blind, and non-vocal individuals faced profound communication barriers in everyday face-to-face situations. Interpreters were expensive, notewriting was awkward while standing, and TDD devices were impractical for spontaneous interaction in stores or restaurants. James Kramer, a 1988 Hertz Fellow pursuing his PhD in Electrical Engineering, undertook the project under Prof. Larry Leifer at Stanford&#039;s Center for Design Research. The work connected to the broader efforts of Stanford&#039;s Rehabilitation R&amp;D Center at the Palo Alto VA Hospital, which had also developed &#039;Ralph&#039; — a computer-controlled electromechanical hand that could fingerspell into a deaf-blind person&#039;s palm. While Ralph was the <em>output</em> side, the Talking Glove was the <em>input</em> side. Together they formed a complete expressive/receptive communication system. The Stanford Daily covered the project as early as November 1988.</p>
+        </div>
+      
+        <div class="exhibit__fact">
+          <div class="exhibit__fact-heading"><strong>How It Worked.</strong></div>
+          <p>The glove used 14 strain-gauge flex sensors — each comprising two 120-ohm Constantan foil gauges mounted back-to-back on a 1-mil polyimide backing — sewn into guiding pockets over each major finger joint. The back-to-back mounting provided temperature compensation and doubled the signal. A multiplexed Wheatstone bridge circuit, an AD7506 analog multiplexer, and an AD624 instrumentation amplifier conditioned the signals before digitization. The digitized values defined a 14-dimensional hand-state vector. Kramer&#039;s &#039;beacon&#039; recognition algorithm placed stored &#039;beacon&#039; points for each letter in this 14-dimensional space. When hand-state velocity dropped (indicating a held handshape), the algorithm found the nearest beacon using an optimized least-squares search — prioritizing previously-close beacons and terminating distance calculations early. A &#039;recognition ball&#039; (inner hypersphere) triggered letter registration; a larger &#039;hysteresis ball&#039; prevented accidental repeat recognition. After each word was spoken, beacon positions adapted to the user&#039;s signing signature. The system ran on a Motorola 68HC11 microcontroller with a DECtalk speech synthesizer, achieving practical fingerspelling speeds.</p>
+        </div>
+      
+        <div class="exhibit__fact">
+          <div class="exhibit__fact-heading"><strong>Commercial Path.</strong></div>
+          <p>Kramer founded Virtual Technologies, Inc. in 1990 to commercialize the instrumented glove as the CyberGlove — an 18- or 22-sensor device paired with VirtualHand software. In 1995, VTi released GesturePlus, a $3,500 fingerspelling recognition package. The 1997 CyberGrasp force-feedback glove and CyberSuit full-body mocap suit followed. Immersion Corporation acquired Virtual Technologies in 2000 for approximately $1 million, obtaining a haptic patent portfolio that generated multimillion-dollar settlements from Microsoft (2003) and Sony (2007) over game controller vibration. Immersion divested the CyberGlove business in 2009, creating CyberGlove Systems LLC, which continues to sell the products today.</p>
+        </div>
+      
+        <div class="exhibit__fact">
+          <div class="exhibit__fact-heading"><strong>Legacy.</strong></div>
+          <p>The Talking Glove pioneered multiple fields simultaneously: it was the first practical fingerspelling-to-speech translator for deaf communication, one of the earliest integrated wearable computer systems (combining sensors, microcontrollers, wireless communication, speech synthesis, LCD, braille, and voice recognition in a body-worn form factor), and the origin of the CyberGlove&#039;s strain-gauge sensor technology that dominated VR hand input for decades. US Patent 5,047,952 (filed 1988, granted 1991) has been cited by hundreds of subsequent patents in wearable computing and gesture recognition.</p>
+        </div>
+      </div>
+          </section>
+
+          
+          <section class="exhibit__section exhibit__team">
+            <h2 class="exhibit__section-title">Team &amp; pioneers</h2>
+            <ul class="exhibit__team-list">
+            <li class="exhibit__team-item">
+              <span class="exhibit__team-name">James F. Kramer.</span>
+              <span class="exhibit__team-note"> Lead inventor, PhD student, Hertz Fellow. Founder of Virtual Technologies, Inc.</span>
+            </li>
+            <li class="exhibit__team-item">
+              <span class="exhibit__team-name">Prof. Larry Leifer.</span>
+              <span class="exhibit__team-note"> Doctoral advisor. Founding director of Stanford Center for Design Research</span>
+            </li>
+            <li class="exhibit__team-item">
+              <span class="exhibit__team-name">Peter Lindener.</span>
+              <span class="exhibit__team-note"> Co-inventor on US Patent 5,047,952</span>
+            </li>
+            <li class="exhibit__team-item">
+              <span class="exhibit__team-name">William R. George.</span>
+              <span class="exhibit__team-note"> Co-inventor on US Patent 5,047,952</span>
+            </li>
+            <li class="exhibit__team-item">
+              <span class="exhibit__team-name">David L. Jaffe.</span>
+              <span class="exhibit__team-note"> Investigator at Stanford RR&amp;D Center; worked on complementary &#039;Ralph&#039; fingerspelling hand</span>
+            </li>
+            </ul>
+          </section>
+
+          
+          <section class="exhibit__section exhibit__media">
+            <h2 class="exhibit__section-title">Media</h2>
+            <div class="exhibit__media-grid">
+        <figure class="exhibit__media-item">
+          <div class="exhibit__media-frame">
+            <img src="../../assets/wiki/kramers-talking-glove-1.png" alt="Patent drawing: Talking Glove system block diagram" loading="lazy" />
+            <div class="exhibit__media-scanlines" aria-hidden="true"></div>
+          </div>
+          <figcaption>System block diagram from US Patent 5,047,952, showing the glove, microcontroller, and speech synthesis chain. Source: US Patent and Trademark Office.</figcaption>
+        </figure>
+      
+        <figure class="exhibit__media-item">
+          <div class="exhibit__media-frame">
+            <img src="../../assets/wiki/kramers-talking-glove-2.png" alt="Patent drawing: people using the Talking Glove" loading="lazy" />
+            <div class="exhibit__media-scanlines" aria-hidden="true"></div>
+          </div>
+          <figcaption>Usage scenarios from the patent: a deaf user signing into the glove while a hearing interlocutor uses the infrared keyboard. Source: US Patent and Trademark Office.</figcaption>
+        </figure>
+      </div>
+          </section>
+          
+
+          
+          <section class="exhibit__section exhibit__sources">
+            <h2 class="exhibit__section-title">Sources</h2>
+            <ol class="exhibit__source-list">
+        <li>
+          <a href="https://patents.google.com/patent/US5047952A/en" target="_blank" rel="noopener">US Patent 5,047,952 — Communication System for Deaf, Deaf-Blind, or Non-Vocal Individuals</a>
+        </li>
+      
+        <li>
+          <a href="http://web.stanford.edu/group/rrd/TTran/glove.html" target="_blank" rel="noopener">Stanford RR&amp;D Center — Kramer&#039;s Talking Glove Project Page</a>
+        </li>
+      
+        <li>
+          <a href="https://doi.org/10.1145/47937.47938" target="_blank" rel="noopener">Kramer &amp; Leifer, &#039;The Talking Glove,&#039; ACM SIGCAPH Computers and the Physically Handicapped, Issue 43, 1989</a>
+        </li>
+      
+        <li>
+          <a href="https://www.wired.com/1998/10/kramer/" target="_blank" rel="noopener">Wired Magazine — &#039;Gropethink,&#039; interview with James Kramer, October 1998</a>
+        </li>
+      
+        <li>
+          <a href="http://www.cs.columbia.edu/~feiner/courses/mobwear/resources/A%20Survey%20of%20glove%20based%20input.pdf" target="_blank" rel="noopener">Sturman &amp; Zeltzer, &#039;A Survey of Glove-Based Input,&#039; IEEE CG&amp;A, 1994</a>
+        </li>
+      
+        <li>
+          <a href="http://www.cyberglovesystems.com/about-us" target="_blank" rel="noopener">CyberGlove Systems LLC — About Us</a>
+        </li>
+      
+        <li>
+          <a href="https://www.hertzfoundation.org/person/james-kramer/" target="_blank" rel="noopener">Hertz Foundation — James Kramer Fellow Profile</a>
+        </li>
+      </ol>
+          </section>
+          
+
+          <nav class="exhibit__nav" aria-label="Exhibit navigation">
+            <a href="../p300-speller/" class="exhibit__nav-link exhibit__nav-link--prev">
+        <span class="exhibit__nav-dir">← Previous</span>
+        <span class="exhibit__nav-title">P300 Speller</span>
+      </a>
+            <a href="../../exhibits/" class="exhibit__nav-link exhibit__nav-link--index">All exhibits</a>
+            <a href="../ti-voyager/" class="exhibit__nav-link exhibit__nav-link--next">
+        <span class="exhibit__nav-dir">Next →</span>
+        <span class="exhibit__nav-title">TI Voyager</span>
+      </a>
+          </nav>
+        </article>
+      </main>
+
+      <footer class="site-footer">
+        <span>HCI Museum // Curated by Beepy</span>
+        <span class="site-footer__signal">SIGNAL_STABLE</span>
+      </footer>
+    </div>
+
+    <!-- Cloudflare Web Analytics --><script defer src='https://static.cloudflareinsights.com/beacon.min.js' data-cf-beacon='{"token": "8dcb1e0fcb41470b8769c87691688807"}'></script><!-- End Cloudflare Web Analytics -->
+  </body>
+</html>

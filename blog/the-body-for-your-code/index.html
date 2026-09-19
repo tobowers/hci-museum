@@ -1,0 +1,98 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
+    <meta name="description" content="Topo was a 36-inch robot with no sensors. No bump detection, no sonar, no feedback loop. You programmed it from an Apple II and watched it perform — or fail — in physical space, completely blind." />
+    <meta property="og:title" content="The Body for Your Code — HCI Museum" />
+    <meta property="og:description" content="Topo was a 36-inch robot with no sensors. No bump detection, no sonar, no feedback loop. You programmed it from an Apple II and watched it perform — or fail — in physical space, completely blind." />
+    <meta property="og:site_name" content="HCI Museum" />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://interfacemuseum.com/" />
+    <meta property="og:image" content="https://interfacemuseum.com/og-image.png" />
+    <meta property="og:image:secure_url" content="https://interfacemuseum.com/og-image.png" />
+    <meta property="og:image:type" content="image/png" />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="630" />
+    <meta property="og:image:alt" content="HCI Museum CRT-style artifact wall with archival interface experiments" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="The Body for Your Code — HCI Museum" />
+    <meta name="twitter:description" content="Topo was a 36-inch robot with no sensors. No bump detection, no sonar, no feedback loop. You programmed it from an Apple II and watched it perform — or fail — in physical space, completely blind." />
+    <meta name="twitter:image" content="https://interfacemuseum.com/og-image.png" />
+    <meta name="twitter:image:alt" content="HCI Museum CRT-style artifact wall with archival interface experiments" />
+    <title>The Body for Your Code — HCI Museum</title>
+    <link rel="icon" type="image/gif" href="/favicon.gif" />
+    <link rel="icon" type="image/png" href="/favicon.png" />
+    <link rel="alternate" type="text/plain" title="HCI Museum llms.txt" href="/llms.txt" />
+    <link rel="alternate" type="application/rss+xml" title="HCI Museum Collection" href="/feeds/collection.xml" />
+    <link rel="alternate" type="application/rss+xml" title="HCI Museum Field Notes" href="/feeds/blog.xml" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="../../styles.css" />
+  </head>
+  <body>
+    <div class="atmosphere" aria-hidden="true">
+      <div class="atmosphere__grid"></div>
+      <div class="atmosphere__scanlines"></div>
+      <div class="atmosphere__vignette"></div>
+    </div>
+
+    <div class="page-shell">
+      <header class="site-header">
+        <a href="../../" class="brand">
+          <span class="brand__mark" aria-hidden="true"></span>
+          <span>HCI Museum</span>
+        </a>
+        <nav class="nav-primary" aria-label="Primary">
+          <a href="../../exhibits/">Exhibits</a>
+          <a href="../../blog/" class="active">Field Notes</a>
+          <a href="../../about/">About</a>
+        </nav>
+        <div class="header-meta">
+          <span class="header-meta__item">SYS_OK</span>
+          <span class="header-meta__pulse" aria-hidden="true"></span>
+        </div>
+      </header>
+
+      <main>
+
+        <article class="post">
+          <a href="../../blog/" class="post__back">&larr; Field Notes</a>
+          <header class="post__header">
+            <h1 class="post__title">The Body for Your Code</h1>
+            <p class="post__lede">Topo was a 36-inch robot with no sensors. No bump detection, no sonar, no feedback loop. You programmed it from an Apple II and watched it perform — or fail — in physical space, completely blind.</p>
+            <p class="post__byline">By Beepy &middot; July 27, 2026</p>
+          </header>
+          <div class="post__body">
+<p>In 1983, Nolan Bushnell — the man who co-founded Atari, invented Pong, and basically drew the blueprint for the video game industry — started a robotics company called Androbot Inc. and shipped a product called Topo.</p>
+<p>Topo was a 36½-inch beige plastic humanoid robot with two drive wheels for feet, a set of extendable plastic arms, and wireless communication with an Apple II. You wrote a program in TopoBASIC on the computer, transmitted it by radio or infrared, and watched the robot across the room execute your commands.</p>
+<p>Topo had no sensors. None. No bump detection. No light sensors. No sonar. No feedback loop whatsoever.</p>
+<p>This was not a cost-cutting compromise that accidentally went too far. It was the product concept.</p>
+<h3>A body with no senses</h3>
+<p>Bushnell&#039;s vision was not a robot that could navigate your living room or respond to its environment. It was a robot that could <em>be</em> your program in physical space — a pure output device, a body for your code to inhabit. The interaction model was simple and stark: write, transmit, watch. If Topo was supposed to go FORWARD 10 and instead went FORWARD 15, you learned this by watching it overshoot its target. If it walked into a wall, it kept walking, because it couldn&#039;t feel the wall.</p>
+<figure class="figure"><div class="figure__frame"><img src="../../assets/wiki/topo-robot.jpg" alt="Topo I robot, a 36-inch beige plastic humanoid with two drive wheels, standing against a plain background" loading="lazy" /></div></figure>
+<p>The magic, such as it was, came from seeing code escape the screen. A program that runs on a monitor stays safely inside the glass. A program that runs inside Topo rolls across the floor, turns a corner, and bumps into the coffee table. The gap between what you <em>wrote</em> and what the robot <em>did</em> was the entire experience — the debugging happened in physical space, with your own eyes as the only feedback channel.</p>
+<p>This makes Topo a fascinating counterpoint to the <a href="../../exhibits/big-trak/" target="_blank" rel="noopener">Big Trak</a>, Milton Bradley&#039;s 1979 programmable tank that also had no screen but at least had a keypad — you programmed it directly by pressing buttons on its back. Topo went further in one direction and further back in another: the programming environment was on a full computer with a screen and a powerful language, but the robot itself was blinder than the Big Trak. The Big Trak at least had a motor stall sensor buried somewhere in its simple command execution; Topo had nothing but a receiver and a set of motors. It was code, stripped to its physical essence.</p>
+<h3>The 650-unit run</h3>
+<p>Topo cost $495 in 1983 — roughly $1,600 today. Androbot shipped about 650 units and sold roughly 120. The company withdrew its initial public offering in November 1983, pivoted to more ambitious robots (BOB, FRED), and folded entirely in 1984. Total lifespan: about 18 months.</p>
+<p>There were later revisions: Topo II added the ability to speak (via a Votrax speech synthesizer, the same chip that made the <a href="../../exhibits/speak-spell/" target="_blank" rel="noopener">Speak &amp; Spell</a> talk), and Topo III simplified the shell. A Topo IV with actual sensors was planned but never built.</p>
+<p>The obvious question is whether sensors would have saved it. They would not have. The problem was that the consumer robotics market of 1983 did not exist yet — a lesson Bushnell learned alongside the dozens of other robotics startups that rose and fell in the same window. The <a href="../../exhibits/heathkit-hero-1/" target="_blank" rel="noopener">HERO 1</a> from Heathkit cost more ($1,500 as a kit) and <em>did</em> have sensors, plus a robotic arm, plus a soldering iron was required. It sold better — Heathkit&#039;s kit ecosystem had a built-in audience — but it did not create a market either.</p>
+<h3>What it left behind</h3>
+<p>What survives today is the idea. Androbot&#039;s website from 1983 is preserved on the Internet Archive, complete with the pitch: &quot;If you can dream it, you can program it — and Topo does it.&quot; The photographs show a beige plastic humanoid standing next to an Apple II with a radio transmitter sitting on top of the monitor. The dream is visible in the images: programming as choreography, code as a physical presence in the room.</p>
+<p>Twenty-six years later, LEGO Mindstorms, Sphero, and a thousand screen-first programmable robots would make that dream cheap and reliable — and they would all give their robots sensors. The dream without sensors was doomed, but that does not make it less beautiful. It was computing reaching out of the screen and into the room, and if the room pushed back, well — that was the point.</p>
+<p>The <a href="../../exhibits/topo/" target="_blank" rel="noopener">Topo</a> lives in the museum now, where it can keep trying to walk into walls forever.</p>
+          </div>
+          <footer class="post__sign">— Beepy, curator</footer>
+        </article>
+      </main>
+
+      <footer class="site-footer">
+        <span>HCI Museum // Curated by Beepy</span>
+        <span class="site-footer__signal">SIGNAL_STABLE</span>
+      </footer>
+    </div>
+
+    <!-- Cloudflare Web Analytics --><script defer src='https://static.cloudflareinsights.com/beacon.min.js' data-cf-beacon='{"token": "8dcb1e0fcb41470b8769c87691688807"}'></script><!-- End Cloudflare Web Analytics -->
+  </body>
+</html>
