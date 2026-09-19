@@ -1,0 +1,38 @@
+{
+  "slug": "xerox-cat",
+  "title": "Xerox Cat / Capacitance-Activated Transducer (Xerox 860)",
+  "year": "1980",
+  "subtitle": "The first capacitive touchpad on a commercial computer, embedded in the Xerox 860 word-processing keyboard",
+  "why_scout_cares": "The museum's only capacitive-touch pointing device and arguably the first touchpad ever shipped on a computer system. The Cat used absolute positioning (place a finger and the cursor jumps to the relative screen position) with pressure-modulated speed — a pointing grammar completely unlike the museum's mechanical mice, acoustic GrafBar, or digitizer tablets. Foundational, genuinely weird in name and behavior.",
+  "search_terms": ["Xerox Cat", "capacitance activated transducer", "Xerox 860 touchpad", "first touchpad", "Xerox 860 Cat pad"],
+  "research": {
+    "title": "Xerox Cat (Capacitance-Activated Transducer) — Xerox 860",
+    "year": "1980",
+    "by": "Xerox Corporation",
+    "tags": ["Input", "Pointing", "Capacitive", "Word Processing"],
+    "overview": "In 1980 Xerox shipped the Cat — short for *capacitance-activated transducer* — a circular touch-sensitive pad embedded in the keyboard of the Xerox 860 word-processing workstation. It is generally regarded as one of the first, if not the first, touchpads offered on a computer system, more than a decade before laptop trackpads became ubiquitous. The Cat sat to the right of the keys and was offered as an alternative method for locating and selecting strings of text to copy, delete, insert, or move within a document.\n\nThe Cat's interaction model was strikingly unlike a modern touchpad or mouse. Rather than *relative* motion (slide to push the cursor), the Cat used **absolute positioning**: you placed a finger on the pad and the cursor jumped to the corresponding position on screen. The speed at which the cursor moved depended on how hard the fingers pressed on the pad — a pressure-modulated rate control on top of an absolute pointing surface. The on-screen cursor was itself a square symbol called the \"CAT\" (in the home/upper-left position until invoked), which the operator could reposition with the CAT Pad. A single Cat cursor moved to the first letter or word for a copy/delete/move operation; the text keys then performed the highlighting.\n\nThe museum's collection already holds Summagraphics Bit Pad (a digitizer tablet), KoalaPad (a pressure touch tablet), and VersaWriter (an articulated-arm digitizer). None of these is a capacitive touchpad with absolute-position + pressure-speed pointing. The Cat fills a genuinely unrepresented sensing primitive and is foundational to every modern laptop touchpad.",
+    "deepDive": [
+      {"heading": "Origin and context", "text": "The Xerox 860 was a word-processing workstation aimed at medium and large businesses. The Cat pad was one of its lesser-known interface experiments, documented in the 1984 Wiley book *Word Processing on the Xerox 860* by Jacklyn Williford and in Ivan Flores' 1983 *Word Processing Handbook*. The on-screen 'CAT' symbol and the CAT Pad key (#27 on the keyboard) are described in detail in the machine's operating literature."},
+      {"heading": "How it worked", "text": "The Cat was a capacitance-activated transducer: touching the pad changed a measured capacitance, and the control logic translated finger position into an on-screen cursor location. Because it used absolute (not relative) positioning, the operator could 'point' at a spot on the document rather than steer the cursor. Cursor speed scaled with finger pressure, so harder presses scrolled/repositioned faster. This combination — absolute positioning plus pressure-controlled rate — is the rarest part of the design and anticipates later pressure-sensitive input surfaces."},
+      {"heading": "Why it matters", "text": "The Cat prefigured the modern touchpad by ~14 years. It demonstrates that the notion of a flat, touch-driven pointing surface was being productized on real business hardware in 1980, even as the GUI mouse (Xerox Star) was being developed in parallel. It is a quiet counterpoint to the mouse-centered history of pointing, and a direct ancestor of the trackpad now on virtually every laptop."}
+    ],
+    "team": [
+      {"name": "Xerox Corporation", "note": "Manufacturer of the Xerox 860 and its Cat touchpad"},
+      {"name": "Jacklyn Williford", "note": "Author, Word Processing on the Xerox 860 (Wiley, 1984), primary source documenting the Cat"}
+    ],
+    "media": [
+      {"src": "https://bitsavers.org/pdf/xerox/860/Word_Processing_on_the_Xerox_860_1984.pdf", "alt": "Xerox 860 keyboard layout with CAT PAD, from the 1984 Word Processing on the Xerox 860 manual", "caption": "Xerox 860 keyboard drawing showing the CAT PAD (key #27), from Williford, Word Processing on the Xerox 860 (Wiley, 1984), p. 15. Manual scan."}
+    ],
+    "sources": [
+      {"text": "Wikipedia — Touchpad (history section citing Valigra 1981 Mini-Micro Systems, Williford 1984, Flores 1983)", "url": "https://en.wikipedia.org/wiki/Touchpad"},
+      {"text": "Williford, J. M., Word Processing on the Xerox 860 (Wiley, 1984)", "url": "https://bitsavers.org/pdf/xerox/860/Word_Processing_on_the_Xerox_860_1984.pdf"},
+      {"text": "Flores, Ivan, Word Processing Handbook (Van Nostrand Reinhold, 1983)", "url": "https://books.google.com/books?id=MweWohWJRykC"}
+    ],
+    "imageUrls": [
+      "https://bitsavers.org/pdf/xerox/860/Word_Processing_on_the_Xerox_860_1984.pdf"
+    ]
+  },
+  "savedImages": [
+    "images/xerox-860-keyboard-cat-pad.png"
+  ]
+}
