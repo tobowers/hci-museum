@@ -1,0 +1,38 @@
+{
+  "slug": "quazon-quik-link-100",
+  "title": "Quazon Quik-Link 100",
+  "year": "1984",
+  "subtitle": "A $199 information appliance that turned your TV into a computer terminal through a telephone jack — online access with no computer at all",
+  "why_scout_cares": "The museum's only true consumer 'information appliance' — a standalone keyboard terminal you plug into your TV and phone jack to reach CompuServe, Dow Jones, and The Source, with the embodied ritual of pressing DIAL and hearing the carrier beep as 'your TV becomes a window to the world.' Distinct from government videotex (Minitel, BTX, CAPTAIN) and from a general home computer. It is the home-terminal sibling of the IXO Teleputer, the pocket chorded-keypad terminal that AP/UPI journalists used to file wire copy.",
+  "search_terms": ["Quazon Quik-Link 100", "Quazon terminal", "IXO Teleputer", "TV information terminal 1984", "computer terminal television phone jack"],
+  "research": {
+    "title": "Quazon Quik-Link 100",
+    "year": "1984",
+    "by": "Quazon Corporation, Carrollton, TX",
+    "tags": ["Input", "Network", "Information Appliance", "Terminal", "Telephony"],
+    "overview": "The Quazon Quik-Link 100 was a standalone consumer information terminal announced by Quazon Corporation (3330 Keller Springs Road, Carrollton, Texas) in 1984. The manual's opening line sets out its entire philosophy: 'Just attach the Quik-Link 100 to your telephone jack and TV set, press the DIAL key, enter the Host computer telephone number and, from there, simple one-key or one-word commands turn your television set into your window to the world.' No computer was required — the Quik-Link 100 was itself the computer.\n\nThe device combined a full keyboard terminal with a 300-baud Bell-103 (originate-only) modem and an RF television interface (40 characters by 24 rows displayed on TV channel 3). It connected to the telephone wall jack via a built-in cable and to the TV via a TV-Computer switch on the antenna terminals. There was no on/off switch — it was always powered by a wall-mount transformer. To go online, the operator pressed the DIAL key, entered the host number on the numeral keys across the top of the terminal (each number dialed as entered), heard the ringing and then a short 'carrier' beep, and was connected. Services advertised in the manual included The Source, CompuServe, Dow Jones News/Retrieval, Delphi, and Comp-U-Store, for electronic mail, news, financial data, and jobs.\n\nThe Quik-Link 100 was the home-terminal variant of a family that included the pocket IXO Teleputer (IXO Inc., ~1982), a battery-powered handheld with a chorded numeric keypad and acoustic-coupler cups that field journalists — AP and UPI among them — used to file wire copy over a telephone handset. Where the Quazon is a consumer appliance for the living room, the IXO is a field device for the road: two faces of the same 1980s dream of personal, portable, computer-mediated text, years before the web flattened online access into a browser.",
+    "deepDive": [
+      {"heading": "The ritual of getting online in 1984", "text": "The Quik-Link 100's interaction was a physical ritual that a modern user would find alien. You wired the terminal to the TV's antenna terminals through a TV-Computer switch, plugged the terminal into the phone wall jack, and tuned the TV to channel 3 — where the words 'QUIK-LINK 100' appeared. To connect, you pressed the DIAL key, read 'BEGIN DIALING NOW' on screen, typed the host's telephone number across the top row of the keyboard (each digit dialed as it was entered, pulse-style), listened to the ring and then the short carrier beep, and typed. There was no menu of networks, no home screen, no browser: a consumer's entire experience of remote computing was dialing a number and reading a plain ASCII host. Parity, a detail most users today never encounter, had to be set ('P' key cycles space/even/mark/odd)."},
+      {"heading": "An appliance, not a computer", "text": "The Quik-Link 100 had no disk drive, no operating system to load, and no way to write programs. It was a pure information appliance, like a telephone or a TV, not a general-purpose computer. This is what separates it from the museum's home computers (Cambridge Z88, Poqet PC, Psion Organiser) and aligns it instead with Minitel — but where Minitel was a government-issued national videotex system with its own protocol, the Quik-Link 100 was a free-market US terminal for any ASCII host. It is the direct ancestor of the 'internet appliance' and set-top-box browsing ideas of the 1990s."},
+      {"heading": "The pocket sibling: IXO Teleputer", "text": "The same family tree includes the IXO Teleputer, a tiny battery-powered terminal with a chorded numeric keypad and a 40-character LCD, used by AP and UPI television-news journalists to file wire copy from the field by mating a telephone handset to the device's acoustic-coupler cups and dialing a host at 300 baud. The Quazon Quik-Link 100 is the consumer living-room face of that same vision of portable, personal, telephone-mediated text."}
+    ],
+    "team": [
+      {"name": "Quazon Corporation", "note": "Manufacturer of the Quik-Link 100, Carrollton, Texas"},
+      {"name": "IXO Inc.", "note": "Maker of the IXO Teleputer pocket terminal, the field sibling of the Quazon Quik-Link"}
+    ],
+    "media": [
+      {"src": "https://archive.org/details/quazonquiklink100", "alt": "Quazon Quik-Link 100 terminal keyboard", "caption": "Quazon Quik-Link 100 terminal, photograph from the device's archive.org item (quazonquiklink100)."},
+      {"src": "https://archive.org/details/quazonquiklink100", "alt": "Quazon Quik-Link 100 owner's manual", "caption": "Quazon Quik-Link 100 Owner's Manual, primary source for the interaction ritual."}
+    ],
+    "sources": [
+      {"text": "Quazon Quik-Link 100 Owner's Manual (archive.org, quazonquiklink100)", "url": "https://archive.org/details/quazonquiklink100"},
+      {"text": "Quazon Quik-Link 100 terminal photograph (archive.org)", "url": "https://archive.org/details/quazonquiklink100"}
+    ],
+    "imageUrls": [
+      "https://archive.org/details/quazonquiklink100"
+    ]
+  },
+  "savedImages": [
+    "images/quazon-quik-link-100-terminal.jpg"
+  ]
+}
