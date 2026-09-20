@@ -1,0 +1,57 @@
+{
+  "slug": "ppg-waveterm",
+  "title": "PPG Waveterm B",
+  "year": "1984",
+  "subtitle": "A standalone wave-computing workstation where you draw sound directly on a CRT with a light pen.",
+  "why_scout_cares": "The Waveterm is the museum's cleanest example of direct-manipulation audio editing — a standalone computer whose primary instrument is a light pen used to draw and reshape single-cycle waveforms and wavetables directly on a green-phosphor CRT. It is a genuinely weird, interaction-model-rich artifact: composing and timbre-design happened by drawing, not by playing keys. Nothing in the museum's music/audio section uses light-pen waveform drawing (the existing music devices are keyboard, pad, keypad, or scanner-based). It is also a commercially odd and rare workstation (~300 units), paired as a companion computer to the PPG Wave synthesizer, and a canonical ancestor of sample editing and wavetable synthesis.",
+  "search_terms": [
+    "PPG Waveterm light pen waveform editing",
+    "PPG Waveterm B 1984 wave computer",
+    "Wolfgang Palm PPG wavetable light pen"
+  ],
+  "research": {
+    "title": "PPG Waveterm B",
+    "year": "1984",
+    "by": "Palm Products GmbH (PPG), Hamburg — Wolfgang Palm",
+    "tags": ["HCI", "Input", "Audio", "Light Pen", "Direct Manipulation"],
+    "overview": "The PPG Waveterm is the standalone wave-computing companion to the PPG Wave synthesizer (1981–1987). Built on an Eltec Eurocom II computer with a Motorola 6809 CPU, the Waveterm A (1981–1983) and Waveterm B (1984–1987) were among the first commercial devices to offer direct-manipulation editing of sound via a graphic interface operated by a light pen. The user drew and reshaped single-cycle waveforms and wavetables on the CRT, ran Fourier analysis and resynthesis, additive synthesis, and stored results to diskette and later to the Wave's sample memory. It provided a sequencer and played a central role in the PPG Wave 2.3's 12-bit sampling. \n\nWolfgang Palm had pioneered wavetable synthesis with the Wavecomputer 360 in 1978, and the Waveterm was the tool that made those wavetables editable by hand. Instead of describing a sound numerically, the operator reached in with a light pen and sculpted the actual shape of the wave on screen. This is a distinct interaction paradigm — the machine answers to drawing, not to keyboard input — and a direct ancestor of modern sample editors and waveform DAWs. The Waveterm B screenshots preserved on Wikimedia Commons (CC BY-SA 4.0) show the actual light-pen drawing interface.\n\nApproximately 300 Waveterms were made. The Waveterm B could hold sampled single-cycle waveforms and was the only way to load samples into the Wave 2.3. It was used by notable electronic and pop artists of the mid-1980s and remains a sought-after rarity.",
+    "deepDive": [
+      {
+        "heading": "Origins and the light-pen paradigm",
+        "text": "Palm's wavetable synthesis stored up to 64 single-cycle waveforms per table; dynamically scanning through them produced moving timbres. The Waveterm made those waveforms authorable. Its defining interaction is the light pen: the operator points at the CRT to select, draw, and reshape a waveform's samples, and the machine renders the harmonic consequence. Fourier resynthesis let a user draw a partial spectrum and generate the corresponding wave. This is direct manipulation of sound before the word 'DAW' existed."
+      },
+      {
+        "heading": "The hardware workstation",
+        "text": "The Waveterm was a self-contained desktop computer (Eltec Eurocom II, Motorola 6809) with a green-phosphor CRT, a detached keyboard, an 8-inch floppy drive, and the custom PPG bus that connected it to the Wave synthesizer. The B revision added the ability to load 12-bit samples into the Wave 2.3, making it PPG's sampling front end. Editing functions — Compute a Wave, Compute a Wavetable, Create a Playcommand, Main Screen — were reached through the light pen and function keys, with the interface rendered in blocky graphic tiles on the CRT."
+      },
+      {
+        "heading": "Significance for HCI",
+        "text": "The Waveterm is a canonical early example of a graphic, drawing-driven editing interface applied to audio — a full decade before graphical audio editing became mainstream. It shows a producer operating on the visual shape of sound with a pen, in a commercial product, in the mid-1980s. It pairs naturally in the museum's collection with other light-pen/pointing devices (Gibson LPS, Vectrex Light Pen) and with the drawing-machine thread, but it is the only one applied to sound."
+      }
+    ],
+    "team": [
+      {"name": "Wolfgang Palm", "note": "Founder of PPG; inventor of wavetable synthesis and the Waveterm"},
+      {"name": "Palm Products GmbH (PPG)", "note": "Hamburg manufacturer, 1975–1987"}
+    ],
+    "media": [
+      {"src": "https://commons.wikimedia.org/wiki/File:PPG_WavetermB_Main_Screen.jpg", "alt": "PPG Waveterm B main screen showing the light-pen graphic interface", "caption": "PPG Waveterm B main screen — the light-pen graphic interface (Wikimedia Commons, CC BY-SA 4.0, Alison Cassidy)"},
+      {"src": "https://commons.wikimedia.org/wiki/File:PPG_WavetermB_Compute_A_Wave.jpg", "alt": "PPG Waveterm B Compute a Wave screen", "caption": "Waveterm B 'Compute a Wave' editing screen (Wikimedia Commons, CC BY-SA 4.0)"},
+      {"src": "https://commons.wikimedia.org/wiki/File:PPG_Wave_2.3_and_Waveterm.jpg", "alt": "PPG Wave 2.3 synthesizer with Waveterm", "caption": "PPG Wave 2.3 with Waveterm B (Wikimedia Commons, CC BY-SA 4.0)"}
+    ],
+    "sources": [
+      {"text": "Wikipedia: PPG Wave", "url": "https://en.wikipedia.org/wiki/PPG_Wave"},
+      {"text": "Sound on Sound — PPG Wave & Waveterm retrospective", "url": "https://www.soundonsound.com/reviews/ppg-waveterm"},
+      {"text": "Matrixsynth: PPG Waveterm / Wave 2.2", "url": "https://www.matrixsynth.com/2011/02/ppg-waveterm-wave-22.html"}
+    ],
+    "imageUrls": [
+      "https://upload.wikimedia.org/wikipedia/commons/e/e6/PPG_WavetermB_Main_Screen.jpg",
+      "https://upload.wikimedia.org/wikipedia/commons/5/55/PPG_WavetermB_Compute_A_Wave.jpg",
+      "https://upload.wikimedia.org/wikipedia/commons/7/78/PPG_Wave_2.3_and_Waveterm.jpg"
+    ]
+  },
+  "savedImages": [
+    "ppg-waveterm-main-screen.jpg",
+    "ppg-waveterm-compute-wave.jpg",
+    "ppg-wave-and-waveterm.jpg"
+  ]
+}

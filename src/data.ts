@@ -3324,6 +3324,32 @@ const exhibitData: Exhibit[] = [
     tags: ["Music", "Input", "Controller", "Force Sensing", "MIDI"],
     image: img("malletkat.jpg"),
   },
+  {
+    id: "ppg-waveterm",
+    slug: "ppg-waveterm",
+    wikiTitle: "PPG Waveterm B",
+    year: "1984",
+    sortYear: 1984,
+    title: "PPG Waveterm B",
+    subtitle: "A standalone wave-computing workstation where you draw sound directly on a CRT with a light pen",
+    blurb:
+      "The PPG Waveterm B (1984, Palm Products GmbH / Wolfgang Palm) is a standalone wave-computing workstation whose primary instrument is a light pen: you reach at a green-phosphor CRT and draw, reshape, and resynthesize single-cycle waveforms and wavetables directly on screen. Built on an Eltec Eurocom II computer (Motorola 6809), it was the companion computer to the PPG Wave synthesizer and the only way to load 12-bit samples into the Wave 2.3. Instead of describing a sound numerically or playing keys, the operator sculpts the actual visual shape of the wave — direct manipulation of sound a full decade before graphical audio editing was mainstream, and a direct ancestor of sample editors and DAWs. It also offered Fourier analysis and resynthesis, additive synthesis, and a sequencer. Rare (~300 units) and commercially odd, it is the museum's only light-pen waveform-editing device and its clearest example of drawing-as-composition.",
+    tags: ["Music", "Audio", "Input", "Light Pen", "Direct Manipulation"],
+    image: img("ppg-waveterm-main-screen.jpg"),
+  },
+  {
+    id: "kurzweil-k250",
+    slug: "kurzweil-k250",
+    wikiTitle: "Kurzweil K250",
+    year: "1984",
+    sortYear: 1984,
+    title: "Kurzweil K250",
+    subtitle: "The first successful sampled-acoustic-piano workstation — with a Braille-interfaced prototype built for Stevie Wonder",
+    blurb:
+      "The Kurzweil K250 (1984), from Raymond Kurzweil's Kurzweil Music Systems, is the landmark 'sampled piano' — the first commercially successful keyboard workstation that reproduced acoustic instruments from digitized samples compressed into ROM. Its defining HCI stories: a computer-controlled instrument where editing, sequencing, and mixing ran through attached computers, and Kurzweil's 'contoured sound modelling' — proprietary software that lossy-compressed a grand piano's many waveforms (every key, every dynamic level) into the era's expensive EPROMs, then reconstructed them with 12 DACs and CEM 3335 envelopes. And the accessibility landmark: a 1983 prototype built for Stevie Wonder, the musical advisor who inspired the project, was fitted with Braille buttons and sliders so the blind virtuoso could operate the computer-controlled instrument entirely by touch. It is the museum's only accessible-instrument-design exhibit and its first sampled-acoustic-workstation.",
+    tags: ["Music", "Audio", "Keyboard", "Accessibility", "Sampling"],
+    image: img("kurzweil-k250-lowreso.jpg"),
+  },
 ];
 
 export const exhibits: Exhibit[] = exhibitData.toSorted((a, b) => b.sortYear - a.sortYear || a.title.localeCompare(b.title));
