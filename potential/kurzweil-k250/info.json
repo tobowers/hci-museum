@@ -1,0 +1,55 @@
+{
+  "slug": "kurzweil-k250",
+  "title": "Kurzweil K250",
+  "year": "1984",
+  "subtitle": "The first successful sampled-acoustic-piano workstation — with a Braille-interfaced prototype built for Stevie Wonder.",
+  "why_scout_cares": "The Kurzweil K250 (1984) is the landmark 'sampled piano' — the first commercially successful keyboard workstation that reproduced acoustic instruments from digitized samples compressed into ROM. Two HCI stories make it distinct for this museum: first, it is a computer-controlled instrument where the entire editing/sequencing/mixing model ran through a computer, with Raymond Kurzweil's 'contoured sound modelling' compressing a piano's many waveforms into ROM; and second, the prototype built for Stevie Wonder (1983) was fitted with Braille buttons and sliders — one of the earliest, most famous examples of accessible instrument design, an interface genuinely reconfigured for a non-sighted performer. No museum exhibit currently covers accessibility-driven instrument design or the sampled-acoustic-instrument paradigm.",
+  "search_terms": [
+    "Kurzweil K250 sampled piano 1984",
+    "Kurzweil K250 Stevie Wonder Braille interface",
+    "contoured sound modelling Kurzweil sampling"
+  ],
+  "research": {
+    "title": "Kurzweil K250",
+    "year": "1984",
+    "by": "Kurzweil Music Systems, Waltham MA — Raymond Kurzweil",
+    "tags": ["HCI", "Audio", "Keyboard", "Accessibility", "Sampling"],
+    "overview": "The Kurzweil K250 (1984) is the electronic instrument that made a synthesized acoustic grand piano sound credible. Designed by Raymond Kurzweil's Kurzweil Music Systems (founded 1982, with Stevie Wonder as musical advisor, and consultation from Lyle Mays, Alan R. Pearlman of ARP, and Robert Moog), it sampled real acoustic instruments and reproduced them from data compressed into ROM. Each sound — every key of the piano, every dynamic level — was digitized, then lossy-compressed by Kurzweil's proprietary 'contoured sound modelling' algorithm so that all of it fit into the era's expensive EPROMs. The result was 12-voice polyphony driven by 12 DACs and CEM 3335 analog envelopes, giving the piano its natural, continuously-varied timbre rather than a fixed sample.\n\nInteraction-wise the K250 is a computer-controlled workstation: an 88-key weighted keyboard linked to a control panel and, notably, to attached computers — early units could be driven by Apple II-class computers running Kurzweil's control software, making editing, sequencing, and mixing a computer task. It was the first keyboard instrument that treated sound as computer data in ROM, and it set the template for the sampled-workstation category that dominated pro audio for a decade.\n\nThe accessibility story is equally important for the museum. A prototype of the K250 was built for Stevie Wonder in 1983 with Braille buttons and sliders, so the fully blind performer could operate the computer-controlled instrument by touch. This is an early, famous, documented instance of an instrument interface being redesigned around a specific non-sighted user — a genuine HCI precedent for accessibility-driven design.",
+    "deepDive": [
+      {
+        "heading": "Contoured sound modelling",
+        "text": "Kurzweil's breakthrough was making a piano's data fit in ROM. As Bob Moog explained in 1985, every key and dynamic level has a different waveform; raw digitized samples would need more memory chips than were made in a year. 'Contoured sound modelling' compressed the samples while preserving dynamics, reconstructing the differences from redundant data. This software-as-synthesis approach let a 1984 keyboard reproduce a convincing grand piano — a machine that faked acoustic richness by being a very good computer."
+      },
+      {
+        "heading": "Computer control model",
+        "text": "The K250 was an instrument-as-computer: an 88-key weighted keyboard driving a control panel, with editing, sequencing and mixing performed through attached computer software. It was among the first keyboards where the user programmed the instrument through a general-purpose computer rather than a fixed front panel — a workstation interaction distinct from the knob-and-button synths of the era."
+      },
+      {
+        "heading": "The Stevie Wonder Braille prototype",
+        "text": "In 1983, a prototype K250 was built for Stevie Wonder with Braille buttons and sliders, letting the blind virtuoso navigate the computer-controlled instrument entirely by touch. This is one of the earliest and most celebrated instances of an electronic instrument's interface being redesigned around a non-sighted user, and a founding example of accessibility-driven instrument design."
+      }
+    ],
+    "team": [
+      {"name": "Raymond Kurzweil", "note": "Founder of Kurzweil Music Systems; inventor of the K250"},
+      {"name": "Stevie Wonder", "note": "Musical advisor; user of the Braille-interfaced prototype"},
+      {"name": "Robert Moog", "note": "Consultant; explained contoured sound modelling"},
+      {"name": "Kurzweil Music Systems", "note": "Waltham MA manufacturer, 1982–1990"}
+    ],
+    "media": [
+      {"src": "https://commons.wikimedia.org/wiki/File:Kurzweil_K250_(lowreso).jpg", "alt": "Kurzweil K250 at Owen Bradley's studio and Museum of Making Music", "caption": "Kurzweil K250 — Owen Bradley's studio, exhibited at the Country Music Hall of Fame (Wikimedia Commons, CC BY-SA 3.0)"},
+      {"src": "https://commons.wikimedia.org/wiki/File:Kurzweil_K250_(small).jpg", "alt": "Kurzweil K250 in Owen Bradley's studio", "caption": "Kurzweil K250 in Owen Bradley's studio (Wikimedia Commons, CC BY 2.0)"}
+    ],
+    "sources": [
+      {"text": "Wikipedia: Kurzweil K250", "url": "https://en.wikipedia.org/wiki/Kurzweil_K250"},
+      {"text": "Sound on Sound: Kurzweil K250 retrospective", "url": "https://www.soundonsound.com/reviews/kurzweil-k250-retrozone"},
+      {"text": "Vintage Synth: Kurzweil K250", "url": "https://vintagesynth.com/kurzweil/k250"}
+    ],
+    "imageUrls": [
+      "https://upload.wikimedia.org/wikipedia/commons/5/5f/Kurzweil_K250_%28lowreso%29.jpg",
+      "https://upload.wikimedia.org/wikipedia/commons/8/88/Kurzweil_K250_%28small%29.jpg"
+    ]
+  },
+  "savedImages": [
+    "kurzweil-k250-lowreso.jpg"
+  ]
+}

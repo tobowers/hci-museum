@@ -272,7 +272,9 @@ Each entry includes an overview, a deep dive, a small media gallery, and full so
     263. [Linn LM-1 Drum Computer (1980)](#linn-lm-1-drum-computer-1980)
     264. [Casio VDB-1000 Touchscreen Watch (1991)](#casio-vdb-1000-touchscreen-watch-1991)
    265. [Commodore CHESSmate (1978)](#commodore-chessmate-1978)
-   266. [KAT MalletKAT MIDI Percussion Controller (1985)](#kat-malletkat-midi-percussion-controller-1985)
+    266. [KAT MalletKAT MIDI Percussion Controller (1985)](#kat-malletkat-midi-percussion-controller-1985)
+    267. [PPG Waveterm B (1984)](#ppg-waveterm-b-1984)
+    268. [Kurzweil K250 (1984)](#kurzweil-k250-1984)
   
 ---
 
@@ -12255,3 +12257,59 @@ Like the museum's SynthAxe and Casio DG-20, the MalletKAT separates physical int
 1. Wikipedia — MalletKAT — https://en.wikipedia.org/wiki/MalletKAT
 2. KAT percussion — manufacturer history — https://www.katpercussion.com/
 3. Wikimedia Commons — File:Mallet KAT MIDI Controller.JPG — https://commons.wikimedia.org/wiki/File:Mallet_KAT_MIDI_Controller.JPG
+
+## PPG Waveterm B (1984)
+
+**By:** Palm Products GmbH (PPG), Hamburg — Wolfgang Palm
+**Tags:** `Music` `Audio` `Input` `Light Pen` `Direct Manipulation`
+
+The PPG Waveterm is the standalone wave-computing companion to the PPG Wave synthesizer (1981–1987). Built on an Eltec Eurocom II computer with a Motorola 6809 CPU, the Waveterm A (1981–1983) and Waveterm B (1984–1987) were among the first commercial devices to offer direct-manipulation editing of sound through a graphic interface operated by a light pen. The operator reaches at a green-phosphor CRT and draws, reshapes, and resynthesizes single-cycle waveforms and wavetables directly on screen, rather than describing a sound numerically or playing it on keys. The Waveterm also offered Fourier analysis and resynthesis, additive synthesis, a sequencer, and was the only way to load 12-bit samples into the Wave 2.3.
+
+Wolfgang Palm had pioneered wavetable synthesis with the Wavecomputer 360 in 1978; the Waveterm made those wavetables authorable by hand. Instead of editing a sound as numbers, the producer sculpts the actual visual shape of the wave on screen — a distinct interaction paradigm where the machine answers to drawing, not to keyboard input, and a direct ancestor of sample editors and graphical DAWs. Roughly 300 Waveterms were made, making it a rare and commercially odd device.
+
+The Waveterm B screenshots preserved on Wikimedia Commons show the actual light-pen drawing interface: a blocky graphic display reached by pointing and drawing directly on the CRT. This is direct manipulation of sound a full decade before graphical audio editing became mainstream.
+
+* **Where it sits in the museum.** The collection's music-interface family is keyboard-, pad-, and keypad-based (Roland MC-8, Fairlight CMI, Synclavier, Linn LM-1). The Waveterm is the museum's only light-pen waveform-editing device and its clearest example of drawing-as-composition — direct manipulation of audio where the visual shape of a sound is the thing you edit by hand. It pairs with the collection's other light-pen/pointing devices (Gibson LPS, Vectrex Light Pen) but is the only one applied to sound.
+
+### Media
+
+![PPG Waveterm B main screen](../assets/wiki/ppg-waveterm-main-screen.jpg)
+*The PPG Waveterm B main screen, the light-pen graphic interface for drawing and editing waveforms. CC BY-SA 4.0, Alison Cassidy / Wikimedia Commons.*
+
+![PPG Waveterm B Compute a Wave screen](../assets/wiki/ppg-waveterm-compute-wave.jpg)
+*Waveterm B 'Compute a Wave' editing screen. CC BY-SA 4.0, Wikimedia Commons.*
+
+![PPG Wave 2.3 and Waveterm](../assets/wiki/ppg-wave-and-waveterm.jpg)
+*The PPG Wave 2.3 synthesizer with the Waveterm B companion computer. CC BY-SA 4.0, Wikimedia Commons.*
+
+### Sources
+
+1. Wikipedia — PPG Wave — https://en.wikipedia.org/wiki/PPG_Wave
+2. Sound on Sound — PPG Wave & Waveterm retrospective — https://www.soundonsound.com/reviews/ppg-waveterm
+3. Matrixsynth — PPG Waveterm / Wave 2.2 — https://www.matrixsynth.com/2011/02/ppg-waveterm-wave-22.html
+4. Wikimedia Commons — File:PPG WavetermB Main Screen.jpg — https://commons.wikimedia.org/wiki/File:PPG_WavetermB_Main_Screen.jpg
+
+## Kurzweil K250 (1984)
+
+**By:** Kurzweil Music Systems, Waltham MA — Raymond Kurzweil
+**Tags:** `Music` `Audio` `Keyboard` `Accessibility` `Sampling`
+
+The Kurzweil K250 (1984) is the electronic instrument that made a synthesized acoustic grand piano sound credible. Designed by Raymond Kurzweil's Kurzweil Music Systems — founded in 1982 with Stevie Wonder as musical advisor, and with consultation from Lyle Mays, Alan R. Pearlman of ARP, and Robert Moog — it sampled real acoustic instruments and reproduced them from data compressed into ROM. Each sound, every key of the piano, every dynamic level, was digitized and lossy-compressed by Kurzweil's proprietary 'contoured sound modelling' algorithm so it all fit into the era's expensive EPROMs, then reconstructed by 12 DACs and CEM 3335 analog envelopes. It was the first keyboard instrument that treated sound as computer data in ROM and set the template for the sampled-workstation category.
+
+Interaction-wise the K250 is a computer-controlled workstation: an 88-key weighted keyboard linked to a control panel and to attached computers, with editing, sequencing, and mixing performed through computer software. It was among the first keyboards where the user programmed the instrument through a general-purpose computer rather than a fixed front panel.
+
+The accessibility story is the most distinctive for HCI. A prototype of the K250 was built for Stevie Wonder in 1983 with Braille buttons and sliders, so the blind virtuoso — the very advisor who had inspired the project by asking whether 'the extraordinarily flexible computer control methods' used in Kurzweil's reading machine could be applied to acoustic instruments — could operate the computer-controlled instrument entirely by touch. It is an early, famous, documented instance of an instrument interface being redesigned around a specific non-sighted user.
+
+* **Where it sits in the museum.** The collection's sampled/synthesis workstations (Fairlight CMI, NED Synclavier) are keyboard-plus-computer systems. The K250 is the museum's first sampled-acoustic-workstation and, more importantly, its only accessible-instrument-design exhibit: the Braille-interfaced prototype is a founding example of accessibility-driven instrument design, and the 'contoured sound modelling' scheme shows software-compression masquerading as hardware synthesis.
+
+### Media
+
+![Kurzweil K250](../assets/wiki/kurzweil-k250-lowreso.jpg)
+*The Kurzweil K250, exhibited in Owen Bradley's studio at the Country Music Hall of Fame and the Museum of Making Music. CC BY-SA 3.0, Wikimedia Commons.*
+
+### Sources
+
+1. Wikipedia — Kurzweil K250 — https://en.wikipedia.org/wiki/Kurzweil_K250
+2. Sound on Sound — Kurzweil K250 retrospective — https://www.soundonsound.com/reviews/kurzweil-k250-retrozone
+3. Vintage Synth — Kurzweil K250 — https://vintagesynth.com/kurzweil/k250
+4. Wikimedia Commons — File:Kurzweil K250 (lowreso).jpg — https://commons.wikimedia.org/wiki/File:Kurzweil_K250_(lowreso).jpg
