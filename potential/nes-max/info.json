@@ -1,0 +1,59 @@
+{
+  "slug": "nes-max",
+  "title": "NES Max / BPS-Max",
+  "year": "1988",
+  "subtitle": "The first commercial sliding-disc game controller — a thumb-driven slide surface instead of a D-pad",
+  "why_scout_cares": "The NES Max (1988), by Bullet-Proof Software (Henk Rogers), replaced the traditional D-pad with a sliding disc that glides in a recessed channel. The disc is a mechanical slide potentiometer action: sliding it registers directional input with a fluid, continuous feel that a conventional D-pad cannot produce. This is the museum's only sliding-mechanism game controller — a genuine early ancestor of the thumb-scroll and trackpad that would later appear on laptops and smartphones. Over 2 million units were sold. It is a strange, mass-market alternative to digital switches, and represents a physical input grammar entirely absent from the collection.",
+  "search_terms": [
+    "NES Max controller",
+    "BPS-Max",
+    "Bullet-Proof Software NES controller",
+    "sliding disc NES controller",
+    "Henk Rogers NES Max"
+  ],
+  "research": {
+    "title": "NES Max / BPS-Max (1988)",
+    "year": "1988",
+    "by": "Bullet-Proof Software (Henk Rogers), licensed by Nintendo",
+    "tags": [
+      "HCI",
+      "Input",
+      "Game Controller",
+      "Slide Mechanism"
+    ],
+    "overview": "The NES Max is an officially licensed third-party controller for the Nintendo Entertainment System, manufactured by Bullet-Proof Software (Henk Rogers' company) and sold through Nintendo's distribution channels. Its defining feature is a sliding disc control pad that replaces the traditional D-pad. Rather than pivoting on a central post like a conventional cross-shaped D-pad, the Max's disc slides within a recessed channel, using mechanical contact registers to detect direction. This gives the user a thumb-driven slide surface — a continuous motion for directional input, rather than discrete switch closures. The controller also includes two programmable rapid-fire buttons (A and B). Over 2 million NES Max controllers were sold.",
+    "deepDive": [
+      {
+        "heading": "The sliding disc mechanism",
+        "text": "The NES Max disc sits in a circular recess and slides in any of the eight standard directions. Unlike a D-pad (which rocks on a pivot and closes membrane-switch contacts), the disc moves laterally within its housing, with the disc's position detected by sliding contacts that complete circuits for each direction. This gives a distinctly different feel: the thumb slides the disc rather than rocking it, providing a more continuous, smooth input action. In Japan, the version was called the BPS-Max (Bullet-Proof Software). Henk Rogers reported selling approximately 2 million units across both regions."
+      },
+      {
+        "heading": "Place in controller evolution",
+        "text": "The NES Max predates by roughly a decade the thumb-driven slide surfaces that would become universal on laptops (TrackPoint-style pointing sticks, touchpads, and thumb-driven scroll discs). It represents an alternative path in game controller design — a path that replaced discrete mechanical contacts with a continuous slide surface. Though it did not directly spawn a lineage, thumb-driven analog surfaces would reappear on later controllers (Sony's DualShock analog sticks, Nintendo's Circle Pad), and the slide-disc concept specifically reappears in niche arcade controllers and the 'sliding pad' on certain handheld gaming devices."
+      },
+      {
+        "heading": "Cultural significance",
+        "text": "The NES Max was heavily marketed as an 'advanced' controller with turbo-fire, and its distinctive sliding pad was its key selling point. It appears as one of the recognizable third-party NES peripherals, and its developer Henk Rogers is a significant figure in video game history (the publisher of Black Onyx, the first Japanese RPG, and later the Tetris rights holder). The controller demonstrates a willingness to experiment with physical input grammars even within the tightly constrained NES ecosystem."
+      }
+    ],
+    "team": [
+      {"name": "Henk Rogers", "note": "Founder of Bullet-Proof Software. Licensed the NES Max to Nintendo; sold ~2 million units."},
+      {"name": "Bullet-Proof Software", "note": "Japanese game publisher and developer; also known for The Black Onyx and Tetris publishing rights."},
+      {"name": "Nintendo", "note": "License holder and distributor of the NES Max through official channels."}
+    ],
+    "media": [
+      {"src": "https://commons.wikimedia.org/wiki/Special:FilePath/NES-MAX-Controller-FL.jpg", "alt": "NES Max controller front view", "caption": "NES Max controller showing the sliding disc pad (Public domain, Evan-Amos)."},
+      {"src": "https://commons.wikimedia.org/wiki/Special:FilePath/NES-MAX-Controller-FR.jpg", "alt": "NES Max controller right view", "caption": "NES Max controller right angle showing the disc (Public domain, Evan-Amos)."}
+    ],
+    "sources": [
+      {"text": "Wikipedia: List of NES accessories — NES Max", "url": "https://en.wikipedia.org/wiki/List_of_Nintendo_Entertainment_System_accessories"},
+      {"text": "Henk Rogers interview on 2 million NES Max sales", "url": "https://www.youtube.com/watch?v=RnGJ6y08XSs"},
+      {"text": "Hackaday: NES Max teardown", "url": "https://hackaday.com/tag/nes-max/"}
+    ],
+    "imageUrls": [
+      "https://commons.wikimedia.org/wiki/Special:FilePath/NES-MAX-Controller-FL.jpg",
+      "https://commons.wikimedia.org/wiki/Special:FilePath/NES-MAX-Controller-FR.jpg"
+    ]
+  },
+  "savedImages": []
+}

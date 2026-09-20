@@ -1,0 +1,62 @@
+{
+  "slug": "tomy-blip",
+  "title": "Tomy Blip",
+  "year": "1977",
+  "subtitle": "The electro-mechanical Pong where a wind-up spring timer replaces the computer",
+  "why_scout_cares": "The Tomy Blip is one of the strangest 'computer games' ever made: it contains no microprocessor, no ROM, no logic chips — only a single LED, a resistor, some gears, and a wound-up spring. The spring drives a mechanical arm that moves the LED along a predetermined path; the player presses one of three buttons corresponding to where they predict the LED will land. The timer IS the game engine. With enough ambient light, the game runs without batteries. It blurs the boundary between clockwork toy and video game, and is the museum's only spring-wound electro-mechanical game — a genuinely embodied, commercially odd artifact.",
+  "search_terms": [
+    "Tomy Blip",
+    "Blip the Digital Game",
+    "Blip-o-Mat",
+    "electro-mechanical Pong Tomy",
+    "Hikoo Usami Blip patent"
+  ],
+  "research": {
+    "title": "Tomy Blip / Blip the Digital Game / Blip-o-Mat",
+    "year": "1977",
+    "by": "Tomy Kogyo Co. (Hikoo Usami, designer)",
+    "tags": [
+      "HCI",
+      "Game",
+      "Electro-Mechanical",
+      "Embodied",
+      "Novel Input"
+    ],
+    "overview": "Tomy Blip (stylized \"Blip. THE DIGITAL GAME\") is a tabletop electro-mechanical game released by Tomy in 1977. It simulates the game of Pong purely mechanically: a single red LED (the \"ball\") is mounted on a moving arm driven by a clockwork spring timer. The player watches the LED predict the ball's trajectory across a translucent screen marked with three landing positions (1, 2, and 3). By pressing one of three buttons, the player tries to \"return\" the ball before the LED lands. The game's operation is entirely gear-driven — the timer spring provides the power for the LED carriage's movement via several reduction gears, and the only electrical components are the LED itself and its series resistor.",
+    "deepDive": [
+      {
+        "heading": "The mechanism",
+        "text": "The timer dial on the top of the case winds a spring. The spring drives a gear train that moves the LED arm back and forth across the screen. The arm follows a fixed 72-step sequence (36 hits per side before repeating), making the pattern technically predictable — a quirk that a skilled player can exploit. The score is kept by mechanical thumb-wheel counters on the underside of the unit. There is no digital logic anywhere. The game is playable without batteries in good light, since the unlit LED can still be seen moving under the translucent screen."
+      },
+      {
+        "heading": "Gameplay paradigm",
+        "text": "Two players take sides. The server presses a serve button, and the LED begins moving. Each player must anticipate which of three positions (1, 2, or 3) the ball will land in and press the corresponding button before it arrives. If they press correctly, the ball is 'returned' to the other side. If they guess wrong, the ball stops on their side, the opponent scores a point, and the opponent serves next. Scoring is first to 10. A single-player mode lets one person play against a 'wall' on the other side. The timer ensures each match has a maximum duration."
+      },
+      {
+        "heading": "Significance for HCI",
+        "text": "Blip is a boundary case that questions what a 'computer game' is. The machine has no CPU, no program, no state machine — yet it presents an interactive challenge, accepts player input, and produces a competitive outcome. It is the purest possible statement of the relationship between a human and a reaction-testing machine: the mechanism IS the interface, and the interface IS the game. In a museum of human-computer interaction, Blip marks the line where electromechanical play meets the digital and asks whether the difference matters as much as we think."
+      }
+    ],
+    "team": [
+      {"name": "Hikoo Usami", "note": "Designer at Tomy Kogyo Co. Filed US patent 4,147,350 on July 8, 1977, granted December 19, 1977."},
+      {"name": "Tomy Kogyo Co.", "note": "Manufacturer and publisher. Now Takara Tomy."}
+    ],
+    "media": [
+      {"src": "https://en.wikipedia.org/wiki/File:Tomy-Blip.jpg", "alt": "Tomy Blip front view", "caption": "Tomy Blip (1977). The timer dial at top winds a spring that mechanically drives the LED 'ball' across the screen. Photo by Evan-Amos (CC BY-SA 3.0)."},
+      {"src": "https://en.wikipedia.org/wiki/File:Tomy_Blip_2.jpg", "alt": "Tomy Blip exterior with original box", "caption": "Tomy Blip with box (CC BY 2.0, Windell Oskay)."},
+      {"src": "https://en.wikipedia.org/wiki/File:Blip_the_Digital_Game_by_Tomy,_Model_No._7018,_Requires_2_%22AA%22_Batteries,_Made_in_Japan,_Copyright_1977_(Handheld_Electro-Mechanical_Game).jpg", "alt": "Tomy Blip alternate angle", "caption": "Tomy Blip alternate view (CC BY-SA 2.0)."}
+    ],
+    "sources": [
+      {"text": "Wikipedia: Blip (console)", "url": "https://en.wikipedia.org/wiki/Blip_(console)"},
+      {"text": "US Patent 4,147,350 — Spring-driven toy ball game", "url": "https://patents.google.com/patent/US4147350A"},
+      {"text": "Handheld Museum: Tomy Blip", "url": "https://www.handheldmuseum.com/Tomy/Blip.htm"},
+      {"text": "Evil Mad Scientist Laboratories: What makes Blip tick", "url": "https://www.evilmadscientist.com/2012/what-makes-blip-tick/"}
+    ],
+    "imageUrls": [
+      "https://commons.wikimedia.org/wiki/Special:FilePath/Tomy-Blip.jpg",
+      "https://commons.wikimedia.org/wiki/Special:FilePath/Tomy_Blip.jpg",
+      "https://commons.wikimedia.org/wiki/Special:FilePath/Blip_the_Digital_Game_by_Tomy,_Model_No._7018,_Requires_2_%22AA%22_Batteries,_Made_in_Japan,_Copyright_1977_(Handheld_Electro-Mechanical_Game).jpg"
+    ]
+  },
+  "savedImages": []
+}

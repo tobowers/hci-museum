@@ -3350,6 +3350,45 @@ const exhibitData: Exhibit[] = [
     tags: ["Music", "Audio", "Keyboard", "Accessibility", "Sampling"],
     image: img("kurzweil-k250-lowreso.jpg"),
   },
+  {
+    id: "xerox-cat",
+    slug: "xerox-cat",
+    wikiTitle: "Xerox Cat (Capacitance-Activated Transducer) / Xerox 860",
+    year: "1980",
+    sortYear: 1980,
+    title: "Xerox Cat (Capacitance-Activated Transducer)",
+    subtitle: "The first capacitive touchpad on a commercial computer, embedded in the Xerox 860 word-processing keyboard",
+    blurb:
+      "The Xerox Cat (1980) — short for Capacitance-Activated Transducer — is a circular touch-sensitive pad embedded in the keyboard of the Xerox 860 word-processing workstation. It is generally regarded as the first touchpad offered on a computer system, more than a decade before laptop trackpads became ubiquitous. Its interaction model is unlike a modern touchpad: it uses absolute positioning (place a finger and the cursor jumps to the relative screen position), and cursor speed scales with finger pressure. The Cat sits to the right of the keys and was offered as an alternative method for locating and selecting text to copy, delete, insert, or move. It is the museum's only capacitive-touch pointing device and anticipates every laptop touchpad by 14 years.",
+    tags: ["Input", "Pointing", "Capacitive", "Touchpad", "Word Processing"],
+    image: img("xerox-860-keyboard-cat-pad.png"),
+  },
+  {
+    id: "tomy-blip",
+    slug: "tomy-blip",
+    wikiTitle: "Tomy Blip / Blip the Digital Game",
+    year: "1977",
+    sortYear: 1977,
+    title: "Tomy Blip",
+    subtitle: "The electro-mechanical Pong where a wind-up spring timer replaces the computer",
+    blurb:
+      "The Tomy Blip (1977) is a tabletop electro-mechanical game that simulates Pong purely mechanically: a single red LED is mounted on a moving arm driven by a clockwork spring timer. It contains no microprocessor, no ROM, no logic chips — only the LED, a resistor, a few gears, and a wound-up spring. The player watches the LED and presses one of three buttons to predict where the ball will land. The timer IS the game engine; with enough ambient light, it runs without batteries. Designed by Hikoo Usami (US patent 4,147,350). It is the museum's only spring-wound electro-mechanical game — a boundary case that asks whether the difference between electromechanical play and digital computing matters as much as we think.",
+    tags: ["Game", "Electro-Mechanical", "Embodied", "Novel Input"],
+    image: img("tomy-blip-front.jpg"),
+  },
+  {
+    id: "nes-max",
+    slug: "nes-max",
+    wikiTitle: "NES Max / BPS-Max",
+    year: "1988",
+    sortYear: 1988,
+    title: "NES Max",
+    subtitle: "The first commercial sliding-disc game controller — a thumb-driven slide surface instead of a D-pad",
+    blurb:
+      "The NES Max (1988, Bullet-Proof Software / Henk Rogers, licensed by Nintendo) replaces the traditional D-pad with a sliding disc that glides in a recessed channel — a thumb-driven slide surface with a fluid, continuous feel that a discrete-switch D-pad cannot produce. Rather than pivoting on a central post, the disc slides laterally and its position is detected by sliding contacts that complete circuits for each direction. This gives a distinctly different feel: the thumb slides the disc rather than rocking it, providing continuous smooth input. Over 2 million units sold. It is the museum's only sliding-mechanism game controller and an early ancestor of the thumb-scroll and trackpad that would later appear on laptops and smartphones.",
+    tags: ["Input", "Game Controller", "Slide Mechanism"],
+    image: img("nes-max-controller-fl.jpg"),
+  },
 ];
 
 export const exhibits: Exhibit[] = exhibitData.toSorted((a, b) => b.sortYear - a.sortYear || a.title.localeCompare(b.title));
