@@ -1,0 +1,56 @@
+{
+  "slug": "epson-hx-20",
+  "title": "Epson HX-20",
+  "year": "1981",
+  "subtitle": "The world's first notebook computer — a complete self-contained mobile office with a built-in microprinter that collapsed field data and hard-copy output into one continuous workflow",
+  "why_scout_cares": "The HX-20 is the museum's complete mobile-computing output artifact: the first notebook-sized portable that integrated a functional dot-matrix microprinter into the chassis, turning data entry and hard-copy output from separate worksteps into a single continuous interaction. A field engineer or route accountant could enter data on the full-transit keyboard, run a BASIC calculation, and immediately hand a printed receipt to a customer — all while standing in the field. The printer company made the first printer-embedded computer. Distinct from all other portable/mobile exhibits (Poqet PC, Z88, Psion, Typecorder): none of them has an integral printer, and the printer is the whole point.",
+  "search_terms": ["Epson HX-20 notebook computer built-in microprinter 1981", "first notebook computer Epson HX-20 printer"],
+  "research": {
+    "title": "Epson HX-20",
+    "year": "1981",
+    "by": "Seiko Epson / Suwa Seikosha — Yukio Yokozawa",
+    "tags": ["HCI", "Output", "Portable", "Mobile Computing", "Printer"],
+    "overview": "The Epson HX-20 (also known as the HC-20 in Japan) is the first notebook-sized portable computer, announced at COMDEX 1981 and mass-released July 1982. Conceived by Yukio Yokozawa at Suwa Seikosha (now Seiko Epson) in July 1980 and patented in France, the HX-20 occupies roughly A4 footprint, weighs 1.6 kg (3.5 lb), and fits in an average briefcase. It is powered by dual Hitachi 6301 CPUs at 614 kHz, with 16 KB RAM expandable to 32 KB and 32 KB ROM expandable to 64 KB, running Epson BASIC and a machine-code monitor.\n\nIts most distinctive HCI feature is an integral calculator-size dot-matrix microprinter — Epson was a printer company, and they embedded their core competency. The printer prints 24-character-wide output on thermal roll paper stored in a compartment. BYTE magazine (September 1983) called the printer 'nothing short of amazing' and published that the HX-20 collapsed three separate worksteps (data record → return to office → print invoice) into a single continuous interaction. Dual RS-232 ports, a microcassette drive, barcode reader connector, and an optional acoustic coupler (300 baud) made it a complete field terminal.\n\nThe HX-20 was not a commercial success in North America (blamed on poor software support compared to the TRS-80 Model 100), but it established the notebook form factor and is held in major museum collections: the Victoria and Albert Museum (O1158543), the National Museum of American History (2001.0003.10), and the Museum für Kommunikation Bern.",
+    "deepDive": [
+      {
+        "heading": "The printer is the point",
+        "text": "Epson's name comes from 'Son of Electronic Printer' (EP-101, 1968). The HX-20 embodies its maker: a printer company built the first notebook computer, and the printer is integral. The thermal microprinter sits in a recessed bay at the rear, printing on 57mm roll paper. In BASIC, `LPRINT` sent output directly. The operator could type a receipt, generate an invoice, dump a memory listing, or print a data-collection summary — all on the spot, without a separate peripheral. This made the HX-20 a self-contained mobile office, the archetype for decades of field-service and route-accounting portable printers."
+      },
+      {
+        "heading": "The field terminal workflow",
+        "text": "The HX-20 was designed for a workflow that no earlier portable could offer: enter data in the field, process it on the machine, print the result, hand it over. Dual RS-232 ports (4800 and 38400 baud) connected to modems, serial printers, or the optional TF-20 floppy drive. The optional CX-20 acoustic coupler mated to a telephone handset for remote data transmission. The HX-20's 50-hour battery life (running BASIC) meant it could be carried through a full workday without recharging. This was the complete portable-computing vision at notebook scale — a decade before laptops became commonplace."
+      },
+      {
+        "heading": "Legacy and distinction",
+        "text": "The HX-20 is the direct ancestor of every notebook computer that followed. Its A4 footprint, clamshell form factor, full-travel keyboard, and rechargeable batteries set the template. The TRS-80 Model 100 line (1983, designed by Kyocera) owed much to its design. For HCI history, the HX-20 is significant as the first portable where a human could complete a full work cycle — data in, compute, hard copy out — while standing in a field or walking a route. No other portable/notebook in the museum has an integral printer; this is the only device whose core interaction is the collapsing of input-and-output into one continuous gesture."
+      }
+    ],
+    "team": [
+      {"name": "Yukio Yokozawa", "note": "Conceived the HX-20 at Suwa Seikosha, July 1980; French patent FR2487094A1"},
+      {"name": "Seiko Epson (Suwa Seikosha)", "note": "Manufacturer, announced COMDEX 1981, mass release July 1982"},
+      {"name": "Steven Stengel", "note": "Photographer of the hero Wikimedia Commons image"}
+    ],
+    "media": [
+      {"src": "https://commons.wikimedia.org/wiki/File:Epson-hx-20.jpg", "alt": "Epson HX-20 portable computer", "caption": "Epson HX-20 (Steven Stengel, CC BY-SA 3.0, Wikimedia Commons)"},
+      {"src": "https://commons.wikimedia.org/wiki/File:Epson_HX-20_in_case_-_MfK_Bern.jpg", "alt": "Epson HX-20 in its transport case with paper rolls", "caption": "Epson HX-20 in its carrying case with two spare paper rolls (Sandstein, CC BY-SA 3.0, Wikimedia Commons)"},
+      {"src": "https://commons.wikimedia.org/wiki/File:2023-01-23_Epson_HX-20.jpg", "alt": "Epson HX-20 front view", "caption": "Epson HX-20 (Maksym Kozlenko, CC BY-SA 4.0, Wikimedia Commons)"}
+    ],
+    "sources": [
+      {"text": "Wikipedia — Epson HX-20", "url": "https://en.wikipedia.org/wiki/Epson_HX-20"},
+      {"text": "BYTE September 1983 — Epson HX-20 review (David Ramsey)", "url": "https://archive.org/details/byte-magazine-1983-09/1983_09_BYTE_08-09_Portable_Computers_in_Depth/page/n201/mode/2up"},
+      {"text": "Victoria and Albert Museum — Epson HX-20 (O1158543)", "url": "https://collections.vam.ac.uk/item/O1158543/epson-hx-20-portable-computer-epson/"},
+      {"text": "National Museum of American History — Epson HX-20 (2001.0003.10)", "url": "https://americanhistory.si.edu/collections/object/nmah_687330"},
+      {"text": "IPSJ Computer Museum — Shinshu Seiki/Suwa Seikosha HC-20", "url": "https://museum.ipsj.or.jp/en/computer/personal/0081.html"}
+    ],
+    "imageUrls": [
+      "https://upload.wikimedia.org/wikipedia/commons/8/8d/Epson-hx-20.jpg",
+      "https://upload.wikimedia.org/wikipedia/commons/d/d4/Epson_HX-20_in_case_-_MfK_Bern.jpg",
+      "https://upload.wikimedia.org/wikipedia/commons/b/bc/2023-01-23_Epson_HX-20.jpg"
+    ]
+  },
+  "savedImages": [
+    "epson-hx-20-hero.jpg",
+    "epson-hx-20-case.jpg",
+    "epson-hx-20-2023.jpg"
+  ]
+}
