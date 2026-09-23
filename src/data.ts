@@ -3350,6 +3350,45 @@ const exhibitData: Exhibit[] = [
     tags: ["Music", "Audio", "Keyboard", "Accessibility", "Sampling"],
     image: img("kurzweil-k250-lowreso.jpg"),
   },
+  {
+    id: "epson-hx-20",
+    slug: "epson-hx-20",
+    wikiTitle: "Epson HX-20",
+    year: "1981",
+    sortYear: 1981,
+    title: "Epson HX-20",
+    subtitle: "The world's first notebook computer, with a built-in microprinter that collapses field data and hard copy into one workflow",
+    blurb:
+      "The Epson HX-20 (1981), conceived by Yukio Yokozawa at Suwa Seikosha, is the first notebook-sized portable computer and the museum's complete mobile-computing output artifact. Its defining interaction: an integral calculator-size dot-matrix thermal microprinter is built into the chassis, so a field engineer or route accountant can enter data on the full-travel keyboard, run a BASIC calculation, and immediately hand over a printed receipt — turning input and output into one continuous gesture. The printer company (Epson, 'Son of Electronic Printer') made the first printer-embedded computer. Dual Hitachi 6301 CPUs, an optional acoustic coupler, and dual RS-232 ports made it a self-contained field terminal. It is the only portable/notebook in the museum with an integral printer.",
+    tags: ["Portable", "Mobile Computing", "Output", "Printer", "Notebook"],
+    image: img("epson-hx-20-hero.jpg"),
+  },
+  {
+    id: "xerox-cat",
+    slug: "xerox-cat",
+    wikiTitle: "Xerox Cat",
+    year: "1980",
+    sortYear: 1980,
+    title: "Xerox Cat",
+    subtitle: "A circular capacitive touchpad — arguably the first shipped on a computer — in the Xerox 860 keyboard",
+    blurb:
+      "The Xerox Cat (1980), short for capacitance-activated transducer, is a circular touch-sensitive pad embedded in the keyboard of the Xerox 860 word-processing workstation — generally regarded as one of the first, if not the first, touchpads offered on a computer system, more than a decade before laptop trackpads. Its interaction model is the museum's only capacitive-touch pointing grammar and unlike a modern relative-position touchpad: the Cat used absolute positioning (place a finger and the cursor jumps to the corresponding screen position) with pressure-modulated cursor speed. The on-screen cursor was itself a square symbol called the CAT. It fills a genuinely unrepresented sensing primitive and is foundational to every modern touchpad.",
+    tags: ["Input", "Pointing", "Capacitive", "Touchpad", "Word Processing"],
+    image: img("xerox-860-keyboard-cat-pad.jpg"),
+  },
+  {
+    id: "quazon-quik-link-100",
+    slug: "quazon-quik-link-100",
+    wikiTitle: "Quazon Quik-Link 100",
+    year: "1984",
+    sortYear: 1984,
+    title: "Quazon Quik-Link 100",
+    subtitle: "A $199 information appliance that turns your TV into a computer terminal through a telephone jack",
+    blurb:
+      "The Quazon Quik-Link 100 (1984) is the museum's only true consumer information appliance: a standalone keyboard terminal you plug into your TV and phone jack to reach CompuServe, Dow Jones, and The Source — online access with no computer at all. The ritual: press DIAL, type the host's phone number, hear the ring and then the short carrier beep, and read a plain ASCII host on TV channel 3. No disk drive, no OS to load, no way to write programs — a pure information appliance, like a telephone, distinct from the government-issued videotex terminals (Minitel, BTX) and from a general home computer. It is the direct ancestor of the 1990s 'internet appliance' and set-top-box browsing.",
+    tags: ["Input", "Network", "Information Appliance", "Terminal", "Telephony"],
+    image: img("quazon-quik-link-100-terminal.jpg"),
+  },
 ];
 
 export const exhibits: Exhibit[] = exhibitData.toSorted((a, b) => b.sortYear - a.sortYear || a.title.localeCompare(b.title));
