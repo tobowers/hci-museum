@@ -1,6 +1,6 @@
 # The HCI Golden Age Wiki
 
-A research compendium for a digital museum of cutting-edge Human-Computer Interaction from the late 1970s through the early 1990s. These two hundred and sixty-six projects mix canonical experiments with weird, forgotten, and beautiful vaporware — brain control, voice control, gesture, wearable computing, VR, robots, and full-body exertion.
+A research compendium for a digital museum of cutting-edge Human-Computer Interaction from the late 1970s through the early 1990s. These two hundred and seventy-one projects mix canonical experiments with weird, forgotten, and beautiful vaporware — brain control, voice control, gesture, wearable computing, VR, robots, and full-body exertion.
 
 Each entry includes an overview, a deep dive, a small media gallery, and full source links so the images and facts can always be traced back.
 
@@ -275,6 +275,9 @@ Each entry includes an overview, a deep dive, a small media gallery, and full so
     266. [KAT MalletKAT MIDI Percussion Controller (1985)](#kat-malletkat-midi-percussion-controller-1985)
     267. [PPG Waveterm B (1984)](#ppg-waveterm-b-1984)
     268. [Kurzweil K250 (1984)](#kurzweil-k250-1984)
+    269. [Epson HX-20 (1981)](#epson-hx-20-1981)
+    270. [Xerox Cat (1980)](#xerox-cat-1980)
+    271. [Quazon Quik-Link 100 (1984)](#quazon-quik-link-100-1984)
   
 ---
 
@@ -12313,3 +12316,75 @@ The accessibility story is the most distinctive for HCI. A prototype of the K250
 2. Sound on Sound — Kurzweil K250 retrospective — https://www.soundonsound.com/reviews/kurzweil-k250-retrozone
 3. Vintage Synth — Kurzweil K250 — https://vintagesynth.com/kurzweil/k250
 4. Wikimedia Commons — File:Kurzweil K250 (lowreso).jpg — https://commons.wikimedia.org/wiki/File:Kurzweil_K250_(lowreso).jpg
+
+## Epson HX-20 (1981)
+
+**By:** Seiko Epson / Suwa Seikosha — Yukio Yokozawa
+**Tags:** `Portable` `Mobile Computing` `Output` `Printer` `Notebook`
+
+The Epson HX-20 (known as the HC-20 in Japan) is the first notebook-sized portable computer, announced at COMDEX 1981 and mass-released July 1982. Conceived by Yukio Yokozawa at Suwa Seikosha (now Seiko Epson) in July 1980, it occupies roughly an A4 footprint, weighs 1.6 kg (3.5 lb), and fits in a briefcase. It is powered by dual Hitachi 6301 CPUs at 614 kHz, with 16 KB RAM expandable to 32 KB and 32 KB ROM expandable to 64 KB, running Epson BASIC.
+
+Its most distinctive HCI feature is an integral calculator-size dot-matrix microprinter — Epson was a printer company (the name comes from 'Son of Electronic Printer', the EP-101 of 1968), and they embedded their core competency. The thermal microprinter sits in a recessed bay at the rear, printing 24-character-wide output on thermal roll paper. In BASIC, `LPRINT` sent output directly. BYTE magazine (September 1983) called the printer 'nothing short of amazing' and noted the HX-20 collapsed three separate worksteps — data record, return to office, print invoice — into a single continuous interaction. The operator could type a receipt, generate an invoice, or print a data-collection summary on the spot, without a separate peripheral.
+
+* **Where it sits in the museum.** The HX-20 is the museum's complete mobile-computing output artifact and its only portable with an integral printer. No other portable/notebook in the collection (Poqet PC, Cambridge Z88, Psion Organiser, Sony Typecorder) has a built-in printer; the printer is the whole point. Dual RS-232 ports (4800 and 38400 baud), a microcassette drive, a barcode-reader connector, and an optional CX-20 acoustic coupler made it a complete field terminal. It established the notebook form factor and is held in the Victoria and Albert Museum, the National Museum of American History, and the Museum für Kommunikation Bern.
+
+### Media
+
+![Epson HX-20](../assets/wiki/epson-hx-20-hero.jpg)
+*The Epson HX-20. CC BY-SA 3.0, Steven Stengel / Wikimedia Commons.*
+
+![Epson HX-20 in case](../assets/wiki/epson-hx-20-case.jpg)
+*The Epson HX-20 in its carrying case with spare paper rolls. CC BY-SA 3.0, Sandstein / Wikimedia Commons.*
+
+![Epson HX-20 front view](../assets/wiki/epson-hx-20-2023.jpg)
+*Epson HX-20, front view. CC BY-SA 4.0, Maksym Kozlenko / Wikimedia Commons.*
+
+### Sources
+
+1. Wikipedia — Epson HX-20 — https://en.wikipedia.org/wiki/Epson_HX-20
+2. BYTE September 1983 — Epson HX-20 review (David Ramsey) — https://archive.org/details/byte-magazine-1983-09/1983_09_BYTE_08-09_Portable_Computers_in_Depth/page/n201/mode/2up
+3. Victoria and Albert Museum — Epson HX-20 (O1158543) — https://collections.vam.ac.uk/item/O1158543/epson-hx-20-portable-computer-epson/
+4. National Museum of American History — Epson HX-20 (2001.0003.10) — https://americanhistory.si.edu/collections/object/nmah_687330
+
+## Xerox Cat (1980)
+
+**By:** Xerox Corporation
+**Tags:** `Input` `Pointing` `Capacitive` `Touchpad` `Word Processing`
+
+In 1980 Xerox shipped the Cat — short for capacitance-activated transducer — a circular touch-sensitive pad embedded in the keyboard of the Xerox 860 word-processing workstation. It is generally regarded as one of the first, if not the first, touchpads offered on a computer system, more than a decade before laptop trackpads became ubiquitous. The Cat sat to the right of the keys and was offered as an alternative method for locating and selecting strings of text to copy, delete, insert, or move within a document.
+
+The Cat's interaction model was strikingly unlike a modern touchpad or mouse. Rather than relative motion (slide to push the cursor), the Cat used absolute positioning: you placed a finger on the pad and the cursor jumped to the corresponding position on screen. The speed at which the cursor moved depended on how hard the fingers pressed — a pressure-modulated rate control on top of an absolute pointing surface. The on-screen cursor was itself a square symbol called the 'CAT' (in the home/upper-left position until invoked), which the operator repositioned with the CAT Pad; a single Cat cursor moved to the first letter or word for a copy/delete/move operation, and the text keys then performed the highlighting.
+
+* **Where it sits in the museum.** The museum's collection already holds Summagraphics Bit Pad (a digitizer tablet), KoalaPad (a pressure touch tablet), and VersaWriter (an articulated-arm digitizer). None of these is a capacitive touchpad with absolute-position plus pressure-speed pointing. The Cat fills a genuinely unrepresented sensing primitive and is foundational to every modern laptop touchpad. It is documented in Williford, Word Processing on the Xerox 860 (Wiley, 1984) and Flores, Word Processing Handbook (1983).
+
+### Media
+
+![Xerox 860 keyboard with CAT PAD](../assets/wiki/xerox-860-keyboard-cat-pad.jpg)
+*Xerox 860 keyboard drawing showing the CAT PAD (key #27), from Williford, Word Processing on the Xerox 860 (Wiley, 1984), p. 15. Manual scan.*
+
+### Sources
+
+1. Wikipedia — Touchpad (history section citing Williford 1984, Flores 1983) — https://en.wikipedia.org/wiki/Touchpad
+2. Williford, J. M., Word Processing on the Xerox 860 (Wiley, 1984) — https://bitsavers.org/pdf/xerox/860/Word_Processing_on_the_Xerox_860_1984.pdf
+3. Flores, Ivan, Word Processing Handbook (Van Nostrand Reinhold, 1983) — https://books.google.com/books?id=MweWohWJRykC
+
+## Quazon Quik-Link 100 (1984)
+
+**By:** Quazon Corporation, Carrollton, TX
+**Tags:** `Input` `Network` `Information Appliance` `Terminal` `Telephony`
+
+The Quazon Quik-Link 100 was a standalone consumer information terminal announced by Quazon Corporation in 1984. The manual's opening line sets out its entire philosophy: 'Just attach the Quik-Link 100 to your telephone jack and TV set, press the DIAL key, enter the Host computer telephone number and, from there, simple one-key or one-word commands turn your television set into your window to the world.' No computer was required — the Quik-Link 100 was itself the computer.
+
+The device combined a full keyboard terminal with a 300-baud Bell-103 (originate-only) modem and an RF television interface (40 characters by 24 rows on TV channel 3). There was no on/off switch — it was always powered by a wall-mount transformer. The interaction was a physical ritual: wire the terminal to the TV's antenna terminals through a TV-Computer switch, plug into the phone wall jack, tune the TV to channel 3 — where the words 'QUIK-LINK 100' appeared. To connect, press the DIAL key, read 'BEGIN DIALING NOW', type the host's telephone number across the top row of the keyboard (each digit dialed as entered, pulse-style), listen to the ring and then the short carrier beep, and type. No menu of networks, no home screen, no browser: a consumer's entire experience of remote computing was dialing a number and reading a plain ASCII host. Services included The Source, CompuServe, Dow Jones News/Retrieval, Delphi, and Comp-U-Store.
+
+* **Where it sits in the museum.** The Quik-Link 100 is the museum's only true consumer information appliance — it had no disk drive, no operating system to load, and no way to write programs; it was a pure appliance, like a telephone or a TV, not a general-purpose computer. It aligns with Minitel but is distinct: where Minitel was a government-issued national videotex system with its own protocol, the Quik-Link 100 was a free-market US terminal for any ASCII host. It is the direct ancestor of the 'internet appliance' and set-top-box browsing ideas of the 1990s, and the consumer living-room sibling of the pocket IXO Teleputer that AP and UPI journalists used to file wire copy.
+
+### Media
+
+![Quazon Quik-Link 100 terminal](../assets/wiki/quazon-quik-link-100-terminal.jpg)
+*The Quazon Quik-Link 100 terminal, from the device's archive.org item (quazonquiklink100).*
+
+### Sources
+
+1. Quazon Quik-Link 100 Owner's Manual (archive.org, quazonquiklink100) — https://archive.org/details/quazonquiklink100
+2. Quazon Quik-Link 100 terminal photograph (archive.org) — https://archive.org/details/quazonquiklink100
