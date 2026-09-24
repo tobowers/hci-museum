@@ -3389,6 +3389,19 @@ const exhibitData: Exhibit[] = [
     tags: ["Input", "Network", "Information Appliance", "Terminal", "Telephony"],
     image: img("quazon-quik-link-100-terminal.jpg"),
   },
+  {
+    id: "mufax-courier",
+    slug: "mufax-courier",
+    wikiTitle: "Mufax Courier",
+    year: "1975",
+    sortYear: 1975,
+    title: "Mufax Courier (1975)",
+    subtitle: "The portable drum fax whose sending half couples to a phone line — and whose '1-bit instant feedback' lamp tells you, mid-transmission, that the far end got a bad scan",
+    blurb:
+      "The Mufax Courier (Muirhead & Co., 1975) is the museum's first telefacsimile artifact: a portable drum-based fax that is almost entirely physical to operate. You wrap the page around a rotating cylinder, dial the far party on an ordinary telephone, and seat the handset in the acoustic coupler — the whole ritual is drum, coupling, and switches, no screen or menu. Its strangest detail is a single lamp on the sending side providing 'one-bit instant feedback from the far end if an unsatisfactory' reception is occurring: a binary telemetry channel rendered as a light, telling the operator mid-stream that the far machine is not receiving cleanly. It belongs to the same telephony family as the Novation CAT modem and TI Silent 700, and prefigures the status-light language of modems and network gear.",
+    tags: ["Output", "Telephony", "Portable", "Physical Token", "Commercial"],
+    image: img("mufax-sending-half.jpg"),
+  },
 ];
 
 export const exhibits: Exhibit[] = exhibitData.toSorted((a, b) => b.sortYear - a.sortYear || a.title.localeCompare(b.title));
