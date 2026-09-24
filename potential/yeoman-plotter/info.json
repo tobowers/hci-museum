@@ -1,0 +1,59 @@
+{
+  "slug": "yeoman-plotter",
+  "title": "Yeoman Navigator / Sport Electronic Plotter",
+  "year": "1985",
+  "subtitle": "A wire-impregnated chart table that guides your hand by four LEDs to the vessel's live position",
+  "why_scout_cares": "The museum's only embodied hand-tracking navigation device: four illuminated arrows on a 'mouse' race toward the live GPS position until they all extinguish and you mark the fix with a pencil through a hole. The display is a 35-inch paper chart; your whole arm is the pointing mechanism. Nothing else in the collection guides a human hand by feedback to a moving target while reading position from the geometry of where you are.",
+  "search_terms": ["Yeoman plotter", "Yeoman Navigator", "electronic chart plotter", "Yeoman Sport", "waypoint plotter yacht"],
+  "research": {
+    "title": "Yeoman Navigator / Sport Electronic Plotter",
+    "year": "1985",
+    "by": "Yeoman Group plc (later Precision Navigation Ltd, East Anglia, UK)",
+    "tags": ["HCI", "Navigation", "Embodied", "Output-Input", "Trackpad"],
+    "overview": "The Yeoman Plotter was a chart-plotting device for ships and yachts that fused paper navigation charts with electronic position data, bridging pure paper-chart navigation and full electronic chart displays. It was manufactured from 1985 to 2014/15 and was easy for anyone accustomed to paper charts while being far cheaper than the electronic chart displays of the era. A conventional paper chart is fixed onto a plotting surface impregnated with fine wires; a moveable 'mouse' carries a sensing ring whose position on the surface is read electronically. After 'registering' three known chart points so the system can interpolate position anywhere on the chart, the mouse becomes the interface between the pilot's hand and the vessel's live GPS position.\n\nThe defining interaction is the guided fix. In position mode, four illuminated arrows surround a transparent window on the mouse. The pilot pushes the mouse across the chart, following the arrows, until all four go out - which signals the mouse is directly over the vessel's current position. A pencil can then be poked through a small hole in the mouse to mark the fix on the paper chart. The whole procedure takes about two seconds and becomes instinctive. The mouse is also used to read range and bearing to any charted object, and, paired with a suitable radar, the mouse's location is mirrored as a cursor on the radar display - placing the mouse over a charted object identifies its echo, and a radar return can be sent back to guide the hand to that spot. The Yeoman Navigator model could even be glued upside-down beneath a charl table (working through up to two centimetres of timber) with a menu setting reversing the position data.",
+    "deepDive": [
+      {
+        "heading": "Construction and versions",
+        "text": "The core is a fixed plotter surface woven with a grid of fine sensing wires plus a handheld mouse with an embedded sensing ring and a small window. The surface computes the mouse's position by electromagnetic induction within the wire grid. Four versions shipped: the Maxi (a self-contained A0 bridge chart table), the Navigator (the standard 28x21-inch mousemat-like pad with a control box, six chart clips, and an optional ClearView transparent cover), the Compact (a 24x20-inch version), and the Sport (a waterproof, portable cockpit unit with Velcro straps). Later registration was simplified when some charts began printing Yeoman reference points that matched pre-programmed coordinates in the unit."
+      },
+      {
+        "heading": "The guided fix interaction",
+        "text": "The signature behaviour is the arrow-guided fix. When fed a live GPS position, the Yeoman lights between one and four arrows around the mouse's transparent window pointing the way to the vessel's location on the chart. The pilot drags the mouse along: wherever an arrow is lit, the hand must move in that direction until every arrow is extinguished, which means the sensing ring is directly over the target. The human becomes a servo in a closed visual-motor loop steered by directional light signals - an embodied pointing ritual that anticipates later on-screen 'you-are-here' guidance but for a physical paper chart and your own hand."
+      },
+      {
+        "heading": "Why it matters",
+        "text": "The Yeoman inverted the usual direction of a pointing interface: instead of the computer showing the user something on a screen, the computer moves the user's hand to the right place on a physical surface and waits for the user's body to arrive. It kept dead-reckoning craft plainly visible (the 35-inch 'display' is the paper chart itself), let the pilot draw on and mark the chart, and - because a paper fix survives a total electronics failure - was genuinely safer than a video plotter. It is the clearest pre-smartphone example of technology steering a human limb to a location by feedforward light cues."
+      }
+    ],
+    "team": [
+      { "name": "Yeoman Group plc", "note": "British manufacturer of the Yeoman plotter range from 1985; rights acquired by Precision Navigation Ltd in 2004" },
+      { "name": "Precision Navigation Ltd", "note": "East Anglian firm that continued manufacturing after 2004; production ceased circa 2014-15 under owner Charity & Taylor" }
+    ],
+    "media": [
+      {
+        "src": "https://commons.wikimedia.org/wiki/File:Yacht_chart_table.jpg",
+        "alt": "Yeoman Navigator plotter on a yacht chart table",
+        "caption": "Yeoman Navigator plotter in use on a Hallberg-Rassy 36 chart table, alongside a traditional plastic Breton plotter. Photograph by Pete Verdon, CC BY-SA 3.0, Wikimedia Commons."
+      },
+      {
+        "src": "https://commons.wikimedia.org/wiki/File:Yeoman_jpg200.jpg",
+        "alt": "Close view of the Yeoman electronic plotter mouse",
+        "caption": "The Yeoman 'Yeoman jpg200' close-up of the electronic plotter. Public domain, Wikimedia Commons."
+      }
+    ],
+    "sources": [
+      { "text": "Wikipedia: Yeoman plotter", "url": "https://en.wikipedia.org/wiki/Yeoman_plotter" },
+      { "text": "Yeoman Frequently Asked Questions (Waypoint, archived)", "url": "https://web.archive.org/web/20160112195202/http://www.waypoints.com/popups/yeomanfaq.html" },
+      { "text": "Yeoman Sport User Manual (Precision Navigation, archived)", "url": "https://web.archive.org/web/20141129033926/http://www.precisionnavigation.co.uk/products.html?page=shop.getfile&file_id=66&product_id=3" },
+      { "text": "The Yeoman Chartplotter (Precision Navigation, archived)", "url": "https://web.archive.org/web/20160203221257/http://www.precisionnavigation.co.uk/PBCPPlayer.asp?ID=1524357" }
+    ],
+    "imageUrls": [
+      "https://commons.wikimedia.org/wiki/File:Yacht_chart_table.jpg",
+      "https://commons.wikimedia.org/wiki/File:Yeoman_jpg200.jpg"
+    ]
+  },
+  "savedImages": [
+    "images/yeoman-chart-table.jpg",
+    "images/yeoman-jpg200.jpg"
+  ]
+}
