@@ -1,0 +1,57 @@
+{
+  "slug": "mufax-courier",
+  "title": "Mufax Courier",
+  "year": "1975",
+  "subtitle": "The portable drum-based fax whose sending half couples to a phone line — and whose '1-bit instant feedback' light tells you, mid-transmission, that the far end got a bad scan",
+  "why_scout_cares": "The museum has no telefacsimile artifact at all. The Mufax Courier is a genuinely embodied, portable drum fax — wrap the document around a cylinder, couple it to a telephone line, and transmit a scan whose quality the machine reports back to you with a single lamp mid-stream. The physical ritual of the thing (drum, acoustic coupling, one-bit remote feedback) is the interface.",
+  "search_terms": [
+    "Mufax Courier Muirhead fax",
+    "portable drum facsimile 1970s",
+    "Muirhead drum fax machine HCI",
+    "analog facsimile acoustic coupler"
+  ],
+  "research": {
+    "title": "Mufax Courier",
+    "year": "1975",
+    "by": "Muirhead & Co. Ltd.",
+    "tags": ["HCI", "Output", "Telephony", "Portable", "Commercial"],
+    "overview": "The Mufax Courier is a portable facsimile transceiver made by Muirhead & Co., a pioneering Scottish firm that had been building drum-based facsimile machines since the 1940s (and which also laid claim to early ECG instruments). Sold as separate sending and receiving halves that couple to a telephone line, the Courier belongs to the analog drum-fax family: you wrap a document around a rotating cylinder, and a carriage traverses the drum while the image is scanned and transmitted as audio tones over the phone line.\n\nThe machine's interface is almost entirely physical and embodied. To send, the operator wraps the page around the drum and dials the far party on a normal telephone, then seats the handset in the acoustic coupler (or connects directly) to begin transmission. There is no screen, no menu, no numeric display — the controls are the drum, the coupling, a handful of switches, and lights. One of the most striking details, captured in the period photographs of the unit, is that the sending side carries an upper lamp that provides '1-bit instant feedback from the far end if an unsatisfactory' scan or reception is happening — a single binary signal telling the human mid-stream that the far machine is not receiving cleanly. It is a one-bit telemetry channel back to the operator, rendered as a lamp, decades before modern status indicators.\n\nBecause it is portable and battery or line powered, the Courier embodies the 'on-the-move fax ritual' of its era — the physical act of carrying a facsimile machine to a phone, coupling it, and hand-cranking a document through a drum. It is the museum's first telefacsimile artifact and its first 'wrap-the-page-around-a-drum and couple it to the telephone' device.",
+    "deepDive": [
+      {
+        "heading": "The drum ritual",
+        "text": "The defining interaction is the drum. The page is wrapped around a rotating cylinder; a stylus or photoelectric scanner traverses it while it turns, converting the image line-by-line into an audio signal sent down the telephone line. At the far end, a synchronized drum rotates in lockstep and a recorder marks the image onto a fresh sheet. The operator's job is physical alignment and coupling — not typing or menu navigation."
+      },
+      {
+        "heading": "One-bit remote feedback",
+        "text": "Period photographs show the sending side's upper lamp providing '1-bit instant feedback from the far end if an unsatisfactory [scan/reception]' is occurring. This is a remarkably early instance of the machine telling its operator something about the remote end, in real time, using a single bit of information rendered as a light. It prefigures the status-light language of modems and network gear."
+      },
+      {
+        "heading": "Acoustic coupling",
+        "text": "Like the Novation CAT modem the museum already holds, the Courier couples to the phone line through a handset seated in rubber cups — the physical joining of a normal telephone to a computer/telecommunications device. It places the Mufax in the same telephony family (Novation CAT, Hayes Smartmodem, TI Silent 700, Minitel)."
+      }
+    ],
+    "team": [
+      { "name": "Muirhead & Co. Ltd.", "note": "Scottish facsimile and instrumentation maker; built drum fax machines from the 1940s and marketed the Mufax Courier series through the 1970s" }
+    ],
+    "media": [
+      { "src": "https://commons.wikimedia.org/wiki/File:Mufax_Courier_fax_machine_(45618099595).jpg", "alt": "Sending half of a Mufax Courier portable drum fax machine", "caption": "Sending half of the Mufax Courier by Muirhead & Co. (1975), Wikimedia Commons, CC BY-SA 2.0" },
+      { "src": "https://commons.wikimedia.org/wiki/File:Mufax_Courier_fax_machine_(46479587512).jpg", "alt": "Receiving half of a Mufax Courier portable drum fax machine", "caption": "Receiving half of the Mufax Courier, Wikimedia Commons, CC BY-SA 2.0" },
+      { "src": "https://commons.wikimedia.org/wiki/File:Mufax_Courier_fax_machine_(46531588941).jpg", "alt": "Controls on the sending side of a Mufax Courier, including the 1-bit remote feedback lamp", "caption": "Controls on the sending side; the upper lamp gives one-bit instant feedback from the far end, Wikimedia Commons, CC BY-SA 2.0" }
+    ],
+    "sources": [
+      { "text": "Mufax Courier sending half (photograph, Wikimedia Commons)", "url": "https://commons.wikimedia.org/wiki/File:Mufax_Courier_fax_machine_(45618099595).jpg" },
+      { "text": "Mufax Courier controls, sending side (photograph, Wikimedia Commons)", "url": "https://commons.wikimedia.org/wiki/File:Mufax_Courier_fax_machine_(46531588941).jpg" },
+      { "text": "Fax (Wikipedia) — analog Group 1/2 drum + acoustic-coupler fax history", "url": "https://en.wikipedia.org/wiki/Fax" }
+    ],
+    "imageUrls": [
+      "https://upload.wikimedia.org/wikipedia/commons/4/4a/Mufax_Courier_fax_machine_%2845618099595%29.jpg",
+      "https://upload.wikimedia.org/wikipedia/commons/0/00/Mufax_Courier_fax_machine_%2846479587512%29.jpg",
+      "https://upload.wikimedia.org/wikipedia/commons/a/a3/Mufax_Courier_fax_machine_%2846531588941%29.jpg"
+    ]
+  },
+  "savedImages": [
+    "mufax-sending-half.jpg",
+    "mufax-receiving-half.jpg",
+    "mufax-controls-sending.jpg"
+  ]
+}

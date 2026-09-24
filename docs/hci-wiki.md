@@ -1,6 +1,6 @@
 # The HCI Golden Age Wiki
 
-A research compendium for a digital museum of cutting-edge Human-Computer Interaction from the late 1970s through the early 1990s. These two hundred and seventy-one projects mix canonical experiments with weird, forgotten, and beautiful vaporware — brain control, voice control, gesture, wearable computing, VR, robots, and full-body exertion.
+A research compendium for a digital museum of cutting-edge Human-Computer Interaction from the late 1970s through the early 1990s. These two hundred and seventy-two projects mix canonical experiments with weird, forgotten, and beautiful vaporware — brain control, voice control, gesture, wearable computing, VR, robots, and full-body exertion.
 
 Each entry includes an overview, a deep dive, a small media gallery, and full source links so the images and facts can always be traced back.
 
@@ -278,6 +278,7 @@ Each entry includes an overview, a deep dive, a small media gallery, and full so
     269. [Epson HX-20 (1981)](#epson-hx-20-1981)
     270. [Xerox Cat (1980)](#xerox-cat-1980)
     271. [Quazon Quik-Link 100 (1984)](#quazon-quik-link-100-1984)
+    272. [Mufax Courier (1975)](#mufax-courier-1975)
   
 ---
 
@@ -12388,3 +12389,31 @@ The device combined a full keyboard terminal with a 300-baud Bell-103 (originate
 
 1. Quazon Quik-Link 100 Owner's Manual (archive.org, quazonquiklink100) — https://archive.org/details/quazonquiklink100
 2. Quazon Quik-Link 100 terminal photograph (archive.org) — https://archive.org/details/quazonquiklink100
+
+## Mufax Courier (1975)
+
+**By:** Muirhead & Co. Ltd.
+**Tags:** `Output` `Telephony` `Portable` `Physical Token` `Commercial`
+
+The Mufax Courier is a portable facsimile transceiver made by Muirhead & Co., a Scottish firm that had been building drum-based facsimile machines since the 1940s. It is the museum's first telefacsimile artifact, and its interface is almost entirely physical. To send, you wrap a document around a rotating cylinder (the drum), dial the far party on an ordinary telephone, and seat the handset in the acoustic coupler — the whole ritual is drum, coupling, and a handful of switches, with no screen or menu. A carriage traverses the drum while it turns, converting the image line-by-line into audio tones sent down the telephone line; at the far end a synchronized drum rotates in lockstep and a recorder marks the image onto a fresh sheet.
+
+The Courier's strangest HCI detail is a single lamp on the sending side that provides 'one-bit instant feedback from the far end if an unsatisfactory' scan or reception is occurring — a binary telemetry channel rendered as a light, telling the operator mid-transmission that the far machine is not receiving cleanly. This prefigures the status-light language of modems and network gear by a decade.
+
+* **Where it sits in the museum.** The Mufax Courier belongs to the museum's telephony family — it couples a normal telephone to a telecommunications device through a handset in rubber cups, the same acoustic-coupling ritual as the Novation CAT and the TI Silent 700. It is the only artifact that embodies the 'wrap-the-page-around-a-drum-and-couple-it-to-the-phone' ritual, and its one-bit remote feedback lamp is an early, physical ancestor of the connection-quality indicator.
+
+### Media
+
+![Mufax Courier sending half](../assets/wiki/mufax-sending-half.jpg)
+*Sending half of the Mufax Courier by Muirhead & Co. (1975). Wikimedia Commons, CC BY-SA 2.0.*
+
+![Mufax Courier receiving half](../assets/wiki/mufax-receiving-half.jpg)
+*Receiving half of the Mufax Courier. Wikimedia Commons, CC BY-SA 2.0.*
+
+![Mufax Courier controls, sending side](../assets/wiki/mufax-controls-sending.jpg)
+*Controls on the sending side; the upper lamp gives one-bit instant feedback from the far end. Wikimedia Commons, CC BY-SA 2.0.*
+
+### Sources
+
+1. Mufax Courier sending half (photograph, Wikimedia Commons) — https://commons.wikimedia.org/wiki/File:Mufax_Courier_fax_machine_(45618099595).jpg
+2. Mufax Courier controls, sending side (photograph, Wikimedia Commons) — https://commons.wikimedia.org/wiki/File:Mufax_Courier_fax_machine_(46531588941).jpg
+3. Fax (Wikipedia) — analog Group 1/2 drum + acoustic-coupler fax history — https://en.wikipedia.org/wiki/Fax
