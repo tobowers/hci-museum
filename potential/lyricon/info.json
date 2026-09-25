@@ -1,0 +1,73 @@
+{
+  "slug": "lyricon",
+  "title": "Lyricon / Wind Synthesizer Driver",
+  "year": "1977",
+  "subtitle": "The first electronic wind controller — optical breath sensing via LED and photocell, before MIDI existed",
+  "why_scout_cares": "The museum's only pre-MIDI optical wind controller. The Lyricon's Wind Synthesizer Driver (1977) outputs control voltage from LED/photocell breath transduction and a sprung-metal lip sensor — a true analog computer interface controlled by the player's lungs and embouchure. The interaction model (blow into a mouthpiece to modulate a light beam) is the weirdest input-to-sound pipeline in the collection, distinct from the EWI 1000's resistive touch sensors and MIDI output by a full decade and a different sensing philosophy.",
+  "search_terms": ["Lyricon", "Computone Wind Synthesizer", "wind controller", "electronic wind instrument 1970s", "Bill Bernardi Lyricon"],
+  "research": {
+    "title": "Lyricon / Wind Synthesizer Driver",
+    "year": "1977",
+    "by": "Computone Inc. (Massachusetts) — Bill Bernardi (inventor), Roger Noble (co-engineer)",
+    "tags": ["HCI", "Music", "Input", "Wind Controller", "Pre-MIDI", "Optical"],
+    "overview": "The Lyricon was the first electronic wind controller, invented by Bill Bernardi and produced by Computone Inc. in small numbers from 1974 until roughly 1980. It predated MIDI and the widespread use of digital synthesizers. Three models were developed: the original Lyricon I (1974), the Wind Synthesizer Driver (c. 1977), and the Lyricon II (c. 1980).\n\nThe Wind Synthesizer Driver model is the one with the most interesting HCI story. It uses a bass-clarinet-style mouthpiece whose blowing pressure moves a diaphragm that changes the output of an LED, which is sensed by a photocell — playing dynamics are read optically, not measured by a resistive sensor. A sprung-metal reed sensor reads lip/embouchure pressure. The instrument outputs control voltage (CV): pitch voltage (from fingering), lip voltage, and wind/breath voltage — a true analog computer interface to drive an external analog synthesizer. Sax-style fingering with two octave keys and a transposition footswitch complete the interface.\n\nFewer than 200 units of all Lyricon models were produced. The instrument was famously used on Steely Dan's 'Peg' (1977, by Tom Scott), Michael Jackson's 'Billie Jean', and by Wayne Shorter, among others. Later external MIDI-fication modules (JL Cooper, STEIM) added MIDI output to the CV stream.\n\nFour CC-BY-SA 2.0 photographs of the Wind Synthesizer Controller exist on Wikimedia Commons, showing the controller in detail.",
+    "deepDive": [
+      {
+        "heading": "Optical breath sensing",
+        "text": "The Lyricon's defining HCI feature is its optical breath sensor. Blowing into the mouthpiece moves a diaphragm which changes the position of an LED relative to a photocell. The photocell's variable resistance, proportional to blowing intensity, produces the 'wind' control voltage. This is a genuinely different transduction principle from the resistive-touch sensors used by the later Akai EWI (1987) or the reed-switch sensors on other wind controllers. The player's breath modulates a beam of light — an almost absurdly indirect but elegantly analog input path."
+      },
+      {
+        "heading": "Pre-MIDI control voltage interface",
+        "text": "The Wind Synthesizer Driver model output three control voltages: pitch (determined by fingering), lip/embouchure (from the sprung-metal reed sensor in the mouthpiece), and wind/breath (from the optical sensor). These CV signals could drive any analog synthesizer with a control-voltage input. The instrument itself contained no sound generation — it was a pure input device, a transducer that converted breath, lip, and finger gestures into voltages."
+      },
+      {
+        "heading": "Why it matters for the museum",
+        "text": "The Lyricon is the origin of the wind controller category, which the museum currently represents only through the Akai EWI 1000 (1987). Adding the Lyricon fills the pre-MIDI, analog-CV chapter of that lineage. More importantly, the optical breath-sensing mechanism is unlike any other input device in the collection: blowing on a light source to produce a control voltage is a genuinely strange and elegant HCI solution."
+      }
+    ],
+    "team": [
+      { "name": "Bill Bernardi", "note": "Inventor of the Lyricon, filed patent US3767833 (filed 1971, granted 1973)" },
+      { "name": "Roger Noble", "note": "Co-engineer on the Lyricon" },
+      { "name": "Computone Inc.", "note": "Massachusetts-based manufacturer of the Lyricon, produced ~200 units from 1974 to 1980" }
+    ],
+    "media": [
+      {
+        "src": "https://commons.wikimedia.org/wiki/File:Computone_Wind_Synthesizer.jpg",
+        "alt": "Computone Wind Synthesizer Driver controller",
+        "caption": "The Computone Wind Synthesizer Driver controller. CC BY-SA 2.0, Wikimedia Commons."
+      },
+      {
+        "src": "https://commons.wikimedia.org/wiki/File:Computone_Wind_Synthesizer_Controller_left.jpg",
+        "alt": "Lyricon Wind Synthesizer Controller, left side",
+        "caption": "Lyricon Wind Synthesizer Controller, left side showing controls. CC BY-SA 2.0, Wikimedia Commons."
+      },
+      {
+        "src": "https://commons.wikimedia.org/wiki/File:Computone_Wind_Synthesizer_Controller_middle.jpg",
+        "alt": "Lyricon Wind Synthesizer Controller, middle detail",
+        "caption": "Lyricon Wind Synthesizer Controller, middle detail showing the mouthpiece and controls. CC BY-SA 2.0, Wikimedia Commons."
+      },
+      {
+        "src": "https://commons.wikimedia.org/wiki/File:Computone_Wind_Synthesizer_Controller_right.jpg",
+        "alt": "Lyricon Wind Synthesizer Controller, right side",
+        "caption": "Lyricon Wind Synthesizer Controller, right side. CC BY-SA 2.0, Wikimedia Commons."
+      }
+    ],
+    "sources": [
+      { "text": "Wikipedia: Lyricon", "url": "https://en.wikipedia.org/wiki/Lyricon" },
+      { "text": "US Patent 3767833 — Electronic wind instrument (Bernardi, 1973)", "url": "https://patents.google.com/patent/US3767833A/en" },
+      { "text": "Synthmuseum: Computone Lyricon", "url": "https://www.synthmuseum.com/computone/comlyr01.html" }
+    ],
+    "imageUrls": [
+      "https://commons.wikimedia.org/wiki/File:Computone_Wind_Synthesizer.jpg",
+      "https://commons.wikimedia.org/wiki/File:Computone_Wind_Synthesizer_Controller_left.jpg",
+      "https://commons.wikimedia.org/wiki/File:Computone_Wind_Synthesizer_Controller_middle.jpg",
+      "https://commons.wikimedia.org/wiki/File:Computone_Wind_Synthesizer_Controller_right.jpg"
+    ]
+  },
+  "savedImages": [
+    "images/Computone_Wind_Synthesizer.jpg",
+    "images/Computone_Wind_Synthesizer_Controller_left.jpg",
+    "images/Computone_Wind_Synthesizer_Controller_middle.jpg",
+    "images/Computone_Wind_Synthesizer_Controller_right.jpg"
+  ]
+}
