@@ -1,0 +1,44 @@
+{
+  "slug": "buchla-touche",
+  "title": "Buchla Touché",
+  "year": "c.1978",
+  "subtitle": "A keyboard-skeptic's computer-programmed synthesizer, spelled in a language called FOIL",
+  "why_scout_cares": "A hybrid analog/digital synthesizer whose interaction is the negotiation between a 61-key performance keyboard, a touch-sensitive controller plate, and a proprietary computer language (FOIL) used for programming. Don Buchla's final attempt at a 'mainstream' polyphonic performance synth, with only ~4 units ever made. The interaction model is the collision of a conventional performing keyboard and a computer you must program through an external monitor — the instrument as a dual-state creature.",
+  "search_terms": [
+    "Buchla Touché",
+    "FOIL Far Out Instrument Language Buchla",
+    "Don Buchla Touché synthesizer 1978",
+    "Buchla Touché touch controller"
+  ],
+  "research": {
+    "title": "Buchla Touché",
+    "year": "c.1978",
+    "by": "Buchla & Associates (Don Buchla)",
+    "tags": ["HCI", "Input", "Music", "Touch", "Computer-controlled"],
+    "overview": "The Buchla Touché was a hybrid analog/digital synthesizer designed by Don Buchla in the late 1970s, his final attempt to market a 'mainstream' polyphonic performing instrument. It combined analog circuitry with a digital computer that handled programming, giving eight voices of polyphony with three oscillators per voice (24 total) and a conventional 61-note piano keyboard with split/layering — a deliberate break from Buchla's earlier touch-plate-only instruments, built explicitly for performing musicians.\n\nWhat makes it an HCI artifact is the programming model. The computer behind the front panel was programmed in a proprietary language Buchla called FOIL ('Far Out Instrument Language'). Data entry happened on the front panel, but you had to connect an external monitor to see what you were doing — programming a performance instrument through a separate computer screen. The instrument held 32 instantly available patches (any two programmable simultaneously) with additional patches stored to cassette tape. Beneath the keyboard sat a 3-way touch-sensitive controller used for pitch bending, modulation, and other live expression.\n\nOnly roughly four were made, making it extremely rare. Its legacy sits between Buchla's earlier keyboardless touch-plate instruments (the 100/200 series) and his later MIDI gesture controllers (Thunder, Lightning, Marimba Lumina) — the moment Don Buchla reluctantly put a piano keyboard on a computer-programmed instrument but kept a touch-plate controller as the expressive under-layer.",
+    "deepDive": [
+      {
+        "heading": "A keyboard the builder distrusted",
+        "text": "Buchla deliberately disliked the standard musical keyboard, considering it a compromise that forces equal-tempered, preset-fingering performance. His early instruments used arrays of touch plates. Yet for the Touché he wanted a performing, polyphonic instrument that musicians would accept, so he included a 61-note piano keyboard — but paired it with a 3-way touch-sensitive controller plate for the continuous, wheel-like expression he preferred. The device is thus the compromise between his keyboard skepticism and a performing market: a keyboard on top, a touch plate beneath."
+      },
+      {
+        "heading": "FOIL: programming an instrument through a monitor",
+        "text": "The Touché's computer was programmed in FOIL (Far Out Instrument Language), a proprietary patch/programming language. Because the instrument had no built-in display large enough to show the programming state, an external monitor had to be connected to program it. This makes the interaction inherently two-surface: the physical front panel for immediate parameter setting and a separate screen for understanding state. Thirty-two patches were instantly available, with cassette storage for more, and the instrument could record riff/pattern sequences and play them back in real time in various ways."
+      }
+    ],
+    "team": [
+      { "name": "Don Buchla", "note": "Designer and builder; founder of Buchla & Associates; pioneer of voltage-controlled modular synthesizers" }
+    ],
+    "media": [
+      { "src": "https://commons.wikimedia.org/wiki/File:Touch%C3%A9_front.jpg", "alt": "Front view of the Buchla Touché synthesizer", "caption": "Buchla Touché (c.1978–1980) front view, CC BY-SA 4.0 via Wikimedia Commons" }
+    ],
+    "sources": [
+      { "text": "Vintage Synth Explorer — Buchla Touché", "url": "https://www.vintagesynth.com/buchla/touche" },
+      { "text": "Wikipedia — Buchla Electronic Musical Instruments", "url": "https://en.wikipedia.org/wiki/Buchla_Electronic_Musical_Instruments" }
+    ],
+    "imageUrls": [
+      "https://commons.wikimedia.org/wiki/File:Touch%C3%A9_front.jpg"
+    ]
+  },
+  "savedImages": []
+}
