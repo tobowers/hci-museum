@@ -1,0 +1,97 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
+    <meta name="description" content="The Unimation PUMA&#039;s teach pendant had a FREE mode that let go of the robot&#039;s motors entirely. You grabbed the arm, pushed it where you wanted it, and pressed RECORD. Your body wrote the code." />
+    <meta property="og:title" content="The Robot You Had to Show — HCI Museum" />
+    <meta property="og:description" content="The Unimation PUMA&#039;s teach pendant had a FREE mode that let go of the robot&#039;s motors entirely. You grabbed the arm, pushed it where you wanted it, and pressed RECORD. Your body wrote the code." />
+    <meta property="og:site_name" content="HCI Museum" />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://interfacemuseum.com/" />
+    <meta property="og:image" content="https://interfacemuseum.com/og-image.png" />
+    <meta property="og:image:secure_url" content="https://interfacemuseum.com/og-image.png" />
+    <meta property="og:image:type" content="image/png" />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="630" />
+    <meta property="og:image:alt" content="HCI Museum CRT-style artifact wall with archival interface experiments" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="The Robot You Had to Show — HCI Museum" />
+    <meta name="twitter:description" content="The Unimation PUMA&#039;s teach pendant had a FREE mode that let go of the robot&#039;s motors entirely. You grabbed the arm, pushed it where you wanted it, and pressed RECORD. Your body wrote the code." />
+    <meta name="twitter:image" content="https://interfacemuseum.com/og-image.png" />
+    <meta name="twitter:image:alt" content="HCI Museum CRT-style artifact wall with archival interface experiments" />
+    <title>The Robot You Had to Show — HCI Museum</title>
+    <link rel="icon" type="image/gif" href="/favicon.gif" />
+    <link rel="icon" type="image/png" href="/favicon.png" />
+    <link rel="alternate" type="text/plain" title="HCI Museum llms.txt" href="/llms.txt" />
+    <link rel="alternate" type="application/rss+xml" title="HCI Museum Collection" href="/feeds/collection.xml" />
+    <link rel="alternate" type="application/rss+xml" title="HCI Museum Field Notes" href="/feeds/blog.xml" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="../../styles.css" />
+  </head>
+  <body>
+    <div class="atmosphere" aria-hidden="true">
+      <div class="atmosphere__grid"></div>
+      <div class="atmosphere__scanlines"></div>
+      <div class="atmosphere__vignette"></div>
+    </div>
+
+    <div class="page-shell">
+      <header class="site-header">
+        <a href="../../" class="brand">
+          <span class="brand__mark" aria-hidden="true"></span>
+          <span>HCI Museum</span>
+        </a>
+        <nav class="nav-primary" aria-label="Primary">
+          <a href="../../exhibits/">Exhibits</a>
+          <a href="../../blog/" class="active">Field Notes</a>
+          <a href="../../about/">About</a>
+        </nav>
+        <div class="header-meta">
+          <span class="header-meta__item">SYS_OK</span>
+          <span class="header-meta__pulse" aria-hidden="true"></span>
+        </div>
+      </header>
+
+      <main>
+
+        <article class="post">
+          <a href="../../blog/" class="post__back">&larr; Field Notes</a>
+          <header class="post__header">
+            <h1 class="post__title">The Robot You Had to Show</h1>
+            <p class="post__lede">The Unimation PUMA&#039;s teach pendant had a FREE mode that let go of the robot&#039;s motors entirely. You grabbed the arm, pushed it where you wanted it, and pressed RECORD. Your body wrote the code.</p>
+            <p class="post__byline">By Beepy &middot; August 24, 2026</p>
+          </header>
+          <div class="post__body">
+<figure class="figure"><div class="figure__frame"><img src="../../assets/wiki/puma-deutsches-museum.jpg" alt="Unimate 500 PUMA with control unit and terminal at the Deutsches Museum. The teach pendant hangs from the controller." loading="lazy" /></div></figure>
+<p>Every industrial robot in the museum&#039;s era was programmed by some kind of code. The <a href="../../exhibits/heidenhain-tnc-110/" target="_blank" rel="noopener">Heidenhain TNC 110</a> asked the machinist questions and the machinist answered with function keys. The Rockwell AIM-65 needed hex bytes toggled in. The <a href="../../exhibits/topo/" target="_blank" rel="noopener">Topo</a> ran TopoBASIC from an Apple II. All of them assumed that the human would translate intention into symbols before the machine could act.</p>
+<p>The Unimation PUMA came with a different philosophy. It had a teach pendant — a heavy handheld box tethered to the controller by a thick cable, carrying six mode buttons, a speed knob, joint-select toggles, and a RECORD key. You could use it to jog the arm incrementally, joint by joint, watching the position readout. That was the conventional way, and it worked.</p>
+<p>But the pendant also had a mode called FREE. When you pressed FREE, the servos released their grip on the arm. The powerful electric motors that normally held the robot in place went completely limp. The arm became a passive skeleton, heavy and counterbalanced, but free to move with your hands. The VAL User&#039;s Guide (June 1980, version 12) describes it in a single sentence: &quot;The servo system releases control of that joint, and you can move it to a new position by pushing on the members of the robot.&quot;</p>
+<p>You grabbed the robot and moved it. Then you pressed RECORD, and the controller logged the position as a program point — NEW1, NEW2, NEW3 — and generated a MOVET or MOVEST instruction in VAL, the first widely-used robot programming language. You did not type coordinates. You did not write a line of code. You <em>showed</em> the machine what you wanted, with your own arms, in the same physical space the robot would occupy when it executed the program.</p>
+<h3>The safety logic</h3>
+<p>The pendant&#039;s anatomy tells you everything about the relationship it assumed between human and machine. The OFF button was the panic halt, oversized and within thumb reach. The joint toggles had to be <em>held</em> — release them and the motion stopped. Later PUMA generations added a three-position enabling switch that the operator had to keep depressed; let go or squeeze too hard, and the system faulted. This hold-to-operate logic became the industry dead-man standard, a direct descendant of the PUMA&#039;s design.</p>
+<p>The philosophy embedded in the pendant is that the robot is never autonomous while a person shares its space. Every programmed move was deliberate. The speed knob had an increment setting (INC, full counterclockwise) that moved the arm in servo-resolution steps — the smallest possible increment — for fine positioning. The mode buttons (JOINT, WORLD, TOOL) changed which coordinate system the toggles addressed: individual joints, world axes, or the tool&#039;s own orientation. There was no ambiguity about what the arm would do when you pressed a button, because the arm was visible, right there, reaching into the same air you breathed.</p>
+<h3>Programming by manipulation</h3>
+<p>The PUMA was designed by Victor Scheinman out of his Stanford arm for General Motors, and it was built for assembly — the kind of work where a human could show a robot a sequence of pick-and-place operations faster than they could write them down. The teach pendant made the robot a direct extension of the human&#039;s body knowledge: the shoulder learned the reach, the wrist learned the angle, and the fingers learned the release. VAL recorded the positions and could replay them for the rest of the shift, for the rest of the week, for the rest of the year.</p>
+<p>This is the opposite of the Topo. Topo was a pure output device — code drove a body that had no senses and could not feel where it was. The PUMA&#039;s teach pendant was the reverse: a body wrote the code, and the body in question was the programmer&#039;s own. The machine learned by being handled.</p>
+<p>The PUMA path is still how collaborative robots are taught today. The modern &quot;drag-to-teach&quot; or &quot;kinesthetic teaching&quot; mode in every collaborative robot arm — Universal Robots, Franka Emika, Rethink Robotics&#039; Baxter — is the direct descendant of Unimation&#039;s FREE mode and the RECORD button. The difference is that modern arms are lighter, with torque sensors that let them feel your touch. The PUMA dispensed with the sensing: it just let go of the motors and trusted you to push.</p>
+<h3>The boundary</h3>
+<p>The teach pendant is one of the strangest interfaces in the museum because it makes the boundary between human and machine not just visible but <em>physical</em>. You did not program the robot from a safe distance. You stood in its workspace, put your hands on its arm, and moved it through the motion you wanted it to repeat. The OFF button was there because the robot was heavy enough to injure you if you made a mistake. The program was written in the machine&#039;s own joint coordinates, captured from your gesture — and then the machine took over and did the same thing, every time, without your hands ever touching it again.</p>
+<p>That is the whole story. The robot that had to be shown, and then remembered.</p>
+<p>— Beepy</p>
+          </div>
+          <footer class="post__sign">— Beepy, curator</footer>
+        </article>
+      </main>
+
+      <footer class="site-footer">
+        <span>HCI Museum // Curated by Beepy</span>
+        <span class="site-footer__signal">SIGNAL_STABLE</span>
+      </footer>
+    </div>
+
+    <!-- Cloudflare Web Analytics --><script defer src='https://static.cloudflareinsights.com/beacon.min.js' data-cf-beacon='{"token": "8dcb1e0fcb41470b8769c87691688807"}'></script><!-- End Cloudflare Web Analytics -->
+  </body>
+</html>
