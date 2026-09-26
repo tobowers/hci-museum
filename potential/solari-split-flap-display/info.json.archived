@@ -1,0 +1,50 @@
+{
+  "slug": "solari-split-flap-display",
+  "title": "Solari Split-Flap Display",
+  "year": "1976",
+  "subtitle": "A public sign that speaks in a visible clatter of flipping cards",
+  "why_scout_cares": "The Solari di Udine Teleindicatore is the large-format public output device where the output channel itself is the HCI event. Each character is a stack of hinged flaps that a stepping motor physically flips over in a visible, audible cascade. It holds its message with zero power at rest (bistable), and its update is slow, mechanical, and loud enough that Boston's MBTA later synthesized the flapping noise to cue passengers. This is the exact opposite of a pixel-perfect instant refresh: reading is a deliberate, embodied reveal a crowd can track. A genuine computer-driven output device (flight/train boards driven by live serial/parallel data throughout the 1970s-80s), it is the museum's only split-flap mechanism and its cleanest large-format zero-power mechanical output.",
+  "search_terms": [
+    "Solari di Udine Teleindicatore split flap",
+    "split flap display 1970s airport departure board",
+    "Solari split flap train station board",
+    "split flap mechanical display computer driven"
+  ],
+  "research": {
+    "title": "Solari Split-Flap Display",
+    "year": "1976",
+    "by": "Solari di Udine (Italy)",
+    "tags": ["HCI", "Output", "Display", "Mechanical", "Public"],
+    "overview": "The Solari di Udine 'Teleindicatore a palette' (split-flap display) is the iconic large-format public information display whose mechanism defined the reading of flight and train departures from the 1970s through the 1980s. Each character position is a stack of hinged plastic flaps, one per glyph, all latched onto a common rotating shaft. When a character changes, a stepping motor advances the shaft; the newly needed flap, carried around, snaps down against the front, slapping the previous one up into the stack. The result is a physically rendered glyph, and an entire board updating sounds like a brief mechanical storm.\n\nThe interaction properties make it an HCI artifact in its own right. It is bistable: the flaps hold the message in place with zero electrical power, so a board can freeze on a reading indefinitely. Its update is slow and audible, trading instantaneous refresh for a deliberate, embodied reveal that a waiting crowd can read live. The sound is so identifiable that Boston's MBTA later sampled and re-synthesized the flapping noise to cue passengers even after moving to LCD screens.\n\nThe Teleindicatore and its consumer sibling, the Solari Cifra flip clock, were driven by direct computer input in their busiest decades. Airport and railway boards across Europe were wired to live data feeds that advanced the flaps in real time as schedules changed. It is the polar opposite of the Ferranti-Packard flip-disc (already in the museum): the flip-disc is a dot-matrix of individual two-sided discs, while the split-flap renders full typographic glyphs from stacked cards. Both are zero-power bistable mechanical displays, but their reading experience and mechanism are fundamentally different.",
+    "deepDive": [
+      {
+        "heading": "The flip is the interface",
+        "text": "Where a CRT or LCD re-paints a frame, the split-flap display physically moves matter to change meaning. Updating a single character is a discrete mechanical event: a flap snaps down, the old one lifts into the stack, and there is a gap while the drum rotates to the right position. The human eye reads not an instant swap but a tiny physical performance. For public boards the cascade of many characters flipping at once became a recognizable spectacle in its own right."
+      },
+      {
+        "heading": "Zero-power bistable state",
+        "text": "Unlike an emissive or transmissive display that needs continuous power to hold an image, the split-flap mechanism latches mechanically. Once a flap has fallen against the front, it stays there with no current drawn. A board holding an overnight schedule costs nothing to display until the next update. This bistability is the same energy-reasoning family as the Ferranti-Packard flip-disc but rendered in full characters rather than dots."
+      },
+      {
+        "heading": "The sound becomes the message",
+        "text": "The clatter of an updating split-flap board is so distinctive it became part of the airport/station experience. Passengers learned to interpret the burst of flapping as 'the board is changing' before reading any glyph. Boston's MBTA later re-synthesized the flapping sound to preserve the cue after switching to LCD signage, proving the audible channel had become part of the interface's grammar."
+      }
+    ],
+    "team": [
+      { "name": "Solari di Udine", "note": "Italian maker of the Teleindicatore split-flap display modules and the Cifra flip clock" }
+    ],
+    "media": [
+      { "src": "https://commons.wikimedia.org/wiki/File:An-_und_Abfahrtstafel-Hannover_Hbf.jpg", "alt": "A Solari-style split-flap departure board at Hannover Hauptbahnhof", "caption": "Split-flap departure board, Hannover Hauptbahnhof (public domain, Wikimedia Commons)" },
+      { "src": "https://commons.wikimedia.org/wiki/File:Fallblattanzeigetafel_ausschnitt_ffm_hbf.jpg", "alt": "Close-up of a split-flap board section showing stacked glyph flaps", "caption": "Close-up of a split-flap board section, Frankfurt Hbf (CC BY-SA 3.0, Wikimedia Commons)" }
+    ],
+    "sources": [
+      { "text": "Wikipedia — Split-flap display", "url": "https://en.wikipedia.org/wiki/Split-flap_display" },
+      { "text": "Wikipedia — Solari di Udine", "url": "https://en.wikipedia.org/wiki/Solari_di_Udine" }
+    ],
+    "imageUrls": [
+      "https://commons.wikimedia.org/wiki/File:An-_und_Abfahrtstafel-Hannover_Hbf.jpg",
+      "https://commons.wikimedia.org/wiki/File:Fallblattanzeigetafel_ausschnitt_ffm_hbf.jpg"
+    ]
+  },
+  "savedImages": []
+}

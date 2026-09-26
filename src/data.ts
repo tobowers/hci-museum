@@ -3402,6 +3402,45 @@ const exhibitData: Exhibit[] = [
     tags: ["Output", "Telephony", "Portable", "Physical Token", "Commercial"],
     image: img("mufax-sending-half.jpg"),
   },
+  {
+    id: "buchla-touche",
+    slug: "buchla-touche",
+    wikiTitle: "Buchla Touché",
+    year: "c.1978",
+    sortYear: 1978,
+    title: "Buchla Touché",
+    subtitle: "Don Buchla's reluctant piano keyboard atop a touch plate, programmed through a language called FOIL and a separate monitor",
+    blurb:
+      "The Buchla Touché (c.1978) is Don Buchla's hybrid analog/digital synthesizer and his final attempt at a 'mainstream' polyphonic performing instrument, with only about four units ever made. Its interaction is a collision of two worlds: a conventional 61-note piano keyboard on top (a deliberate break from Buchla's keyboardless touch-plate instruments, built for performing musicians) paired beneath with a 3-way touch-sensitive controller for the continuous expression he preferred. What makes it an HCI artifact is the programming model: the instrument's computer is programmed in a proprietary language called FOIL ('Far Out Instrument Language'), and because the front panel cannot show the programming state, you must connect an external monitor to see what you are doing. The instrument holds 32 instantly available patches with cassette storage — a performance instrument you program through a separate screen, a dual-state creature in a single body.",
+    tags: ["HCI", "Input", "Music", "Touch", "Computer-controlled"],
+    image: img("buchla-touche.jpg"),
+  },
+  {
+    id: "dark-tower",
+    slug: "dark-tower",
+    wikiTitle: "Milton Bradley Dark Tower",
+    year: "1981",
+    sortYear: 1981,
+    title: "Milton Bradley Dark Tower",
+    subtitle: "A motorized rotating black tower that keeps a hidden state behind a tinted cover and reveals it by spinning film cels into view",
+    blurb:
+      "Milton Bradley's Dark Tower (1981) is an electronic board game whose computer is a physical black tower in the middle of the board. A TMS-1400 chip runs the whole secret: the tower swivels to face each player, conceals its state behind a tinted plastic cover, and reveals events by rotating an internal carousel of backlit film cels plus a hidden LED readout. Play is an embodied ritual of rotating the tower toward you, pressing membrane buttons, and watching the machine physically spin its hidden state into view. The tower deliberately hides information — the dragon's position, random walls, key locations — and only surfaces it through the conceal-and-reveal theater of a rotating drum and an audible event. Designed by Vince Erato (of Big Trak), promoted by a Orson Welles commercial, and later the subject of a landmark trade-secrets lawsuit. It is the museum's clearest machine-as-hidden-state adversarial artifact since Merlin.",
+    tags: ["HCI", "Output", "Board Game", "Machine-as-other", "Hidden State"],
+    image: img("dark-tower-assembled.jpg"),
+  },
+  {
+    id: "solari-split-flap-display",
+    slug: "solari-split-flap-display",
+    wikiTitle: "Solari Split-Flap Display",
+    year: "1976",
+    sortYear: 1976,
+    title: "Solari Split-Flap Display",
+    subtitle: "A public sign that speaks in a visible clatter of flipping cards, holding its message with zero power",
+    blurb:
+      "The Solari di Udine Teleindicatore is the large-format public output device where the output channel itself is the HCI event. Each character is a stack of hinged flaps that a stepping motor physically flips over in a visible, audible cascade. It holds its message with zero power at rest (bistable), and its update is slow and mechanical — so loud that Boston's MBTA later synthesized the flapping noise to cue passengers. Reading a board is a deliberate, embodied reveal a crowd can track, the polar opposite of a pixel-perfect instant refresh. Driven by live computer data throughout the 1970s-80s for airport and railway schedules, it is the museum's only split-flap mechanism and its cleanest large-format zero-power mechanical output — distinct from the Ferranti-Packard flip-disc (dot-matrix discs) by rendering full typographic glyphs from stacked cards.",
+    tags: ["HCI", "Output", "Display", "Mechanical", "Public"],
+    image: img("solari-split-flap-board.jpg"),
+  },
 ];
 
 export const exhibits: Exhibit[] = exhibitData.toSorted((a, b) => b.sortYear - a.sortYear || a.title.localeCompare(b.title));

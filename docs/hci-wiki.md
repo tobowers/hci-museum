@@ -1,6 +1,6 @@
 # The HCI Golden Age Wiki
 
-A research compendium for a digital museum of cutting-edge Human-Computer Interaction from the late 1970s through the early 1990s. These two hundred and seventy-two projects mix canonical experiments with weird, forgotten, and beautiful vaporware — brain control, voice control, gesture, wearable computing, VR, robots, and full-body exertion.
+A research compendium for a digital museum of cutting-edge Human-Computer Interaction from the late 1970s through the early 1990s. These two hundred and seventy-five projects mix canonical experiments with weird, forgotten, and beautiful vaporware — brain control, voice control, gesture, wearable computing, VR, robots, and full-body exertion.
 
 Each entry includes an overview, a deep dive, a small media gallery, and full source links so the images and facts can always be traced back.
 
@@ -279,6 +279,9 @@ Each entry includes an overview, a deep dive, a small media gallery, and full so
     270. [Xerox Cat (1980)](#xerox-cat-1980)
     271. [Quazon Quik-Link 100 (1984)](#quazon-quik-link-100-1984)
     272. [Mufax Courier (1975)](#mufax-courier-1975)
+    273. [Buchla Touché (c.1978)](#buchla-touche-c1978)
+    274. [Milton Bradley Dark Tower (1981)](#milton-bradley-dark-tower-1981)
+    275. [Solari Split-Flap Display (1976)](#solari-split-flap-display-1976)
   
 ---
 
@@ -12417,3 +12420,101 @@ The Courier's strangest HCI detail is a single lamp on the sending side that pro
 1. Mufax Courier sending half (photograph, Wikimedia Commons) — https://commons.wikimedia.org/wiki/File:Mufax_Courier_fax_machine_(45618099595).jpg
 2. Mufax Courier controls, sending side (photograph, Wikimedia Commons) — https://commons.wikimedia.org/wiki/File:Mufax_Courier_fax_machine_(46531588941).jpg
 3. Fax (Wikipedia) — analog Group 1/2 drum + acoustic-coupler fax history — https://en.wikipedia.org/wiki/Fax
+
+---
+
+## Buchla Touché (c.1978)
+
+**By:** Buchla & Associates (Don Buchla)
+**Tags:** `HCI` `Input` `Music` `Touch` `Computer-controlled`
+
+The Buchla Touché is a hybrid analog/digital synthesizer designed by Don Buchla in the late 1970s, his final attempt to market a "mainstream" polyphonic performing instrument. It combined analog circuitry with a digital computer that handled programming, giving eight voices of polyphony with three oscillators per voice (24 total) and a conventional 61-note piano keyboard with split/layering — a deliberate break from Buchla's earlier touch-plate-only instruments, built explicitly for performing musicians.
+
+What makes it an HCI artifact is the programming model. The computer behind the front panel was programmed in a proprietary language Buchla called FOIL ("Far Out Instrument Language"). Data entry happened on the front panel, but you had to connect an external monitor to see what you were doing — programming a performance instrument through a separate computer screen. The instrument held 32 instantly available patches (any two programmable simultaneously) with additional patches stored to cassette tape. Beneath the keyboard sat a 3-way touch-sensitive controller used for pitch bending, modulation, and other live expression.
+
+Only roughly four were made, making it extremely rare. Its legacy sits between Buchla's earlier keyboardless touch-plate instruments (the 100/200 series) and his later MIDI gesture controllers (Thunder, Lightning, Marimba Lumina) — the moment Don Buchla reluctantly put a piano keyboard on a computer-programmed instrument but kept a touch-plate controller as the expressive under-layer.
+
+* **A keyboard the builder distrusted.** Buchla deliberately disliked the standard musical keyboard, considering it a compromise that forces equal-tempered, preset-fingering performance. His early instruments used arrays of touch plates. Yet for the Touché he wanted a performing, polyphonic instrument that musicians would accept, so he included a 61-note piano keyboard — but paired it with a 3-way touch-sensitive controller plate for the continuous, wheel-like expression he preferred. The device is thus the compromise between his keyboard skepticism and a performing market: a keyboard on top, a touch plate beneath.
+* **FOIL: programming an instrument through a monitor.** The Touché's computer was programmed in FOIL, a proprietary patch/programming language. Because the instrument had no built-in display large enough to show the programming state, an external monitor had to be connected to program it. This makes the interaction inherently two-surface: the physical front panel for immediate parameter setting and a separate screen for understanding state. Thirty-two patches were instantly available, with cassette storage for more, and the instrument could record riff/pattern sequences and play them back in real time in various ways.
+
+### Team
+
+* **Don Buchla.** Designer and builder; founder of Buchla & Associates; pioneer of voltage-controlled modular synthesizers.
+
+### Media
+
+![Front view of the Buchla Touché synthesizer](../assets/wiki/buchla-touche.jpg)
+*Buchla Touché (c.1978–1980) front view, CC BY-SA 4.0 via Wikimedia Commons.*
+
+### Sources
+
+1. Vintage Synth Explorer — Buchla Touché — https://www.vintagesynth.com/buchla/touche
+2. Wikipedia — Buchla Electronic Musical Instruments — https://en.wikipedia.org/wiki/Buchla_Electronic_Musical_Instruments
+
+---
+
+## Milton Bradley Dark Tower (1981)
+
+**By:** Milton Bradley Company
+**Tags:** `HCI` `Output` `Board Game` `Machine-as-other` `Hidden State`
+
+Dark Tower is a 1981 electronic board game by Milton Bradley for one to four players. The object is to amass an army, collect three keys, and defeat the evil within a central electronic tower. Designed by Vince Erato (who had previously created the Big Trak toy), it ran on a Texas Instruments TMS-1400 microcontroller with about 2K of memory, and retailed around $55–65. A television commercial narrated by Orson Welles promoted it.
+
+The centerpiece is the eponymous physical tower: a small membrane keyboard beneath a display made of tinted plastic. Behind the tinted cover sits a carousel of film cels that, when backlit by one of three lights mounted underneath, project the appropriate picture onto the display surface. The cover also conceals a digital LED display that can show numbers up to 99. As the tower rotates and illuminates cels during play it emits sounds for each event.
+
+Players take turns rotating the tower to face them, moving a token on a circular four-quadrant board, then pressing a membrane button for the type of space they occupy. The tower resolves the event — a battle, plague, treasure, dragon encounter — by spinning its internal carousel to the matching cel, backlighting it, sounding a fanfare or death-march, and showing a number on the hidden LED. Games magazine highlighted how "the tower itself swivels so that each player alone views what happens to his own band of warriors." The manufacturing, the art by Bob Pepper, and a landmark trade-secrets lawsuit (Burten v. Milton Bradley, in which two independent inventors ultimately won damages for an allegedly co-opted prototype called Triumph) made it a touchstone of the early-electronic-era board game.
+
+* **The tower as concealed state machine.** The tower is deliberately opaque: its information lives behind a tinted cover and only surfaces when the machine chooses. The film-cel carousel is an analog output mechanism — pictures painted on transparent cels, backlit by three lamps, shown through the tinted display — while a hidden LED handles numeric state up to 99. The player never sees the electronics; they see the tower light a Brigands cel and hear a battle horn. The conceal-reveal is the whole experience, an embodied precursor to the "just-in-time" reveal of modern hidden-information games.
+* **Rotating to face the player.** Because the tower is a physical drum on the board, each player physically rotates it to face their own position before pressing the membrane keys. Only the player whose turn it is sees the tower's window. The rotation is not cosmetic — it is how the machine privately hands one player an event while keeping it from the others. The body turns the machine to receive its judgment.
+* **Randomized key order and code entry.** The location of each of the three keys within a kingdom is randomly determined by the tower, so players must journey through all four quadrants to find brass, silver, and gold keys in order. To unlock the tower, the player enters a code confirming the sequence of keys displayed by the machine, randomized for each game — a doubling task in which the machine is the oracle holding the correct secret order.
+
+### Team
+
+* **Vince Erato.** Credited designer; previously created the Big Trak toy; inspired by the computer game Wilderness Campaign (1979).
+* **Bob Pepper.** Illustrated the game, including the film cels inside the tower.
+* **Michael Gray.** M-B designer who contributed to the Dark Tower manual.
+
+### Media
+
+![Completely assembled Dark Tower game showing the central tower and round four-kingdom board](../assets/wiki/dark-tower-assembled.jpg)
+*Canonical "completely assembled game" illustration, Dark Tower manual (1981), Internet Archive scan.*
+
+### Sources
+
+1. Wikipedia — Dark Tower (game) — https://en.wikipedia.org/wiki/Dark_Tower_(game)
+2. Dark Tower Assembly and Game Play Information (1981) manual, Internet Archive — https://archive.org/details/dark-tower-board-game-manual-1981
+3. Games magazine, Top 100 Games of 1981, #26 — https://archive.org/details/Games-Magazine-November-December-1981-images/page/44/mode/2up
+
+---
+
+## Solari Split-Flap Display (1976)
+
+**By:** Solari di Udine (Italy)
+**Tags:** `HCI` `Output` `Display` `Mechanical` `Public`
+
+The Solari di Udine "Teleindicatore a palette" (split-flap display) is the iconic large-format public information display whose mechanism defined the reading of flight and train departures from the 1970s through the 1980s. Each character position is a stack of hinged plastic flaps, one per glyph, all latched onto a common rotating shaft. When a character changes, a stepping motor advances the shaft; the newly needed flap, carried around, snaps down against the front, slapping the previous one up into the stack. The result is a physically rendered glyph, and an entire board updating sounds like a brief mechanical storm.
+
+The interaction properties make it an HCI artifact in its own right. It is bistable: the flaps hold the message in place with zero electrical power, so a board can freeze on a reading indefinitely. Its update is slow and audible, trading instantaneous refresh for a deliberate, embodied reveal that a waiting crowd can read live. The sound is so identifiable that Boston's MBTA later sampled and re-synthesized the flapping noise to cue passengers even after moving to LCD screens.
+
+The Teleindicatore and its consumer sibling, the Solari Cifra flip clock, were driven by direct computer input in their busiest decades. Airport and railway boards across Europe were wired to live data feeds that advanced the flaps in real time as schedules changed. It is the polar opposite of the Ferranti-Packard flip-disc (already in the museum): the flip-disc is a dot-matrix of individual two-sided discs, while the split-flap renders full typographic glyphs from stacked cards. Both are zero-power bistable mechanical displays, but their reading experience and mechanism are fundamentally different.
+
+* **The flip is the interface.** Where a CRT or LCD re-paints a frame, the split-flap display physically moves matter to change meaning. Updating a single character is a discrete mechanical event: a flap snaps down, the old one lifts into the stack, and there is a gap while the drum rotates to the right position. The human eye reads not an instant swap but a tiny physical performance. For public boards the cascade of many characters flipping at once became a recognizable spectacle in its own right.
+* **Zero-power bistable state.** Unlike an emissive or transmissive display that needs continuous power to hold an image, the split-flap mechanism latches mechanically. Once a flap has fallen against the front, it stays there with no current drawn. A board holding an overnight schedule costs nothing to display until the next update. This bistability is the same energy-reasoning family as the Ferranti-Packard flip-disc but rendered in full characters rather than dots.
+* **The sound becomes the message.** The clatter of an updating split-flap board is so distinctive it became part of the airport/station experience. Passengers learned to interpret the burst of flapping as "the board is changing" before reading any glyph. Boston's MBTA later re-synthesized the flapping sound to preserve the cue after switching to LCD signage, proving the audible channel had become part of the interface's grammar.
+
+### Team
+
+* **Solari di Udine.** Italian maker of the Teleindicatore split-flap display modules and the Cifra flip clock.
+
+### Media
+
+![A Solari-style split-flap departure board at Hannover Hauptbahnhof](../assets/wiki/solari-split-flap-board.jpg)
+*Split-flap departure board, Hannover Hauptbahnhof (public domain, Wikimedia Commons).*
+
+![Close-up of a split-flap board section showing stacked glyph flaps](../assets/wiki/solari-split-flap-closeup.jpg)
+*Close-up of a split-flap board section, Frankfurt Hbf (CC BY-SA 3.0, Wikimedia Commons).*
+
+### Sources
+
+1. Wikipedia — Split-flap display — https://en.wikipedia.org/wiki/Split-flap_display
+2. Wikipedia — Solari di Udine — https://en.wikipedia.org/wiki/Solari_di_Udine
