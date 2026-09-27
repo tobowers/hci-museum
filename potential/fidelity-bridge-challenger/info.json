@@ -1,0 +1,55 @@
+{
+  "slug": "fidelity-bridge-challenger",
+  "title": "Fidelity Bridge Challenger",
+  "year": "1980",
+  "subtitle": "An electronic bridge opponent that reads your physical cards by their bar-coded backs",
+  "why_scout_cares": "The Bridge Challenger is the museum's cleanest physical-token card input: you play real playing cards whose backs carry printed bar codes, and you feed each one through an optical reader beside the keyboard to deal 'blind' to the machine, which then plays and tells you which physical card to lay down. It is the card-game analogue of Electronic Stratego's embedded piece-coding, extended the physical-token family (Cauzin, TI Magic Wand, iButton) to playing cards — and it fills a genuinely unrepresented interaction gap distinct from every chess sensory board in the collection.",
+  "search_terms": [
+    "Fidelity Bridge Challenger",
+    "electronic bridge computer barcode cards",
+    "Fidelity Electronics card game computer",
+    "Bridge Challenger III voice synthesizer"
+  ],
+  "research": {
+    "title": "Fidelity Bridge Challenger",
+    "year": "1980",
+    "by": "Fidelity Electronics, Inc.",
+    "tags": ["HCI", "Input", "Board Game", "Physical Token", "Card Game"],
+    "overview": "The Fidelity Bridge Challenger (Advanced model, 1980) is an electronic contract-bridge opponent made by Fidelity Electronics of Chicago — the company behind the first commercial chess computer, the Chess Challenger (1977). Rather than a coordinate keypad or a sensory board, its input is a physical-token ritual: you play with REAL playing cards whose backs are printed with bar codes, and you feed each card through an optical barcode reader mounted to the left of the keyboard, dealing the cards 'blind' to the machine. The machine then plays and tells you which physical card to lay down by its number, displayed on the front panel.\n\nThe bridge machine is the card-game counterpart to Fidelity's sensory chess boards, but its interaction principle is different: the card's identity is encoded IN the physical object and read optically by swiping it past a wand, rather than sensed by a fixed position on a matrix. A later version added a voice synthesizer to announce plays. Fidelity produced three generations — the original/Advanced Bridge Challenger (1980), Bridge Challenger II (1981, with the speech-synthesizer voice), and Bridge Challenger III (1984) — alongside a Gin & Cribbage Challenger using the same bar-code card reader.",
+    "deepDive": [
+      {
+        "heading": "The physical-token card reader",
+        "text": "The defining interaction is the optical barcode card reader beside the keyboard. Each deck is a set of real cards with printed bar codes on their backs; the player swipes each card past the reader to register it with the machine ('deal blind'). The machine remembers which cards it holds and plays, then indicates which physical card from the human's hand to lay down. This is object-as-input: the card's identity lives in the printed code and is read by a sweep, the same physical-token idea as Cauzin Softstrip (data on paper, read by a wand) applied to a game deck."
+      },
+      {
+        "heading": "Voice variant",
+        "text": "The Bridge Challenger II (1981) added a speech synthesizer, letting the machine announce its plays aloud. It shared the identical game program with the earlier model, which for a commercial electronic game of the era was an unusual pair of output channels — reading the cards optically, and speaking the moves."
+      }
+    ],
+    "team": [
+      {
+        "name": "Fidelity Electronics, Inc.",
+        "note": "Chicago maker of the first commercial chess computer (Chess Challenger, 1977); produced the Bridge Challenger line and the Gin & Cribbage Challenger with the same bar-code card reader."
+      }
+    ],
+    "media": [
+      {
+        "src": "http://electronicchess.free.fr/images/bridgec.jpg",
+        "alt": "Fidelity Bridge Challenger electronic bridge computer",
+        "caption": "Fidelity Bridge Challenger, electronicchess.free.fr collector documentation photo (device shown; the optical card reader sits beside the keyboard)."
+      }
+    ],
+    "sources": [
+      {
+        "text": "electronicchess.free.fr — 'Dames, bridge, backgammon et Othello électroniques' (Bridge Challenger section)",
+        "url": "http://electronicchess.free.fr/dames.html"
+      }
+    ],
+    "imageUrls": [
+      "http://electronicchess.free.fr/images/bridgec.jpg"
+    ]
+  },
+  "savedImages": [
+    "images/bridge-challenger.jpg"
+  ]
+}
