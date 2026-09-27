@@ -3441,6 +3441,32 @@ const exhibitData: Exhibit[] = [
     tags: ["HCI", "Output", "Display", "Mechanical", "Public"],
     image: img("solari-split-flap-board.jpg"),
   },
+  {
+    id: "yeoman-plotter",
+    slug: "yeoman-plotter",
+    wikiTitle: "Yeoman Navigator / Sport Electronic Plotter",
+    year: "1985",
+    sortYear: 1985,
+    title: "Yeoman Navigator / Sport Electronic Plotter",
+    subtitle: "A wire-impregnated chart table that guides your hand by four LEDs to the vessel's live position",
+    blurb:
+      "The Yeoman Plotter fused paper navigation charts with live electronic position data through the strangest possible interface: it moves your hand. A conventional chart is pinned to a surface woven with fine sensing wires; a handheld 'mouse' carries a sensing ring whose position is read by electromagnetic induction. After registering three known chart points, the mouse becomes the link between the pilot's arm and the vessel's GPS fix. In position mode, four illuminated arrows surround the mouse's transparent window and light up to point the way; the pilot drags the mouse, following the arrows, until all four go out — meaning the ring is directly over the vessel's position — and marks the fix with a pencil through a hole. The human becomes a servo in a closed visual-motor loop steered by light cues, and the 35-inch 'display' is the paper chart itself, which survives a total electronics failure. Made by the British Yeoman Group from 1985 into the 2010s, it is the museum's only hand-tracking navigation device and its clearest pre-smartphone example of technology steering a limb to a location.",
+    tags: ["HCI", "Navigation", "Embodied", "Input", "Output"],
+    image: img("yeoman-chart-table.jpg"),
+  },
+  {
+    id: "lyricon",
+    slug: "lyricon",
+    wikiTitle: "Lyricon / Wind Synthesizer Driver",
+    year: "1977",
+    sortYear: 1977,
+    title: "Lyricon / Wind Synthesizer Driver",
+    subtitle: "The first electronic wind controller, where blowing a light beam makes an analog voltage",
+    blurb:
+      "The Lyricon is the origin of the electronic wind controller — and its sensing is unlike anything else in the collection. In the Wind Synthesizer Driver model (c. 1977), blowing into a bass-clarinet mouthpiece moves a diaphragm that changes the position of an LED relative to a photocell; the player's breath modulates a beam of light, and the photocell's variable resistance becomes the 'wind' control voltage. A sprung-metal reed sensor reads lip/embouchure pressure, and fingering determines pitch voltage. The instrument has no sound of its own: it is a pure analog input device that outputs three control voltages (pitch, lip, breath) to drive any external analog synthesizer — a full decade before MIDI. Invented by Bill Bernardi and produced by Computone Inc. in small numbers from 1974, it was played by Tom Scott on Steely Dan's 'Peg' and on Michael Jackson's 'Billie Jean'. Fewer than 200 units were made. Its optical breath transduction is genuinely distinct from the resistive-touch sensors of the museum's Akai EWI 1000, and it is the museum's only pre-MIDI analog control-voltage wind instrument.",
+    tags: ["HCI", "Music", "Input", "Wind Controller", "Optical", "Pre-MIDI"],
+    image: img("lyricon-wind-synthesizer.jpg"),
+  },
 ];
 
 export const exhibits: Exhibit[] = exhibitData.toSorted((a, b) => b.sortYear - a.sortYear || a.title.localeCompare(b.title));
