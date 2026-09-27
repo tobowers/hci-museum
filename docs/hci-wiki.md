@@ -1,6 +1,6 @@
 # The HCI Golden Age Wiki
 
-A research compendium for a digital museum of cutting-edge Human-Computer Interaction from the late 1970s through the early 1990s. These two hundred and seventy-five projects mix canonical experiments with weird, forgotten, and beautiful vaporware — brain control, voice control, gesture, wearable computing, VR, robots, and full-body exertion.
+A research compendium for a digital museum of cutting-edge Human-Computer Interaction from the late 1970s through the early 1990s. These two hundred and seventy-seven projects mix canonical experiments with weird, forgotten, and beautiful vaporware — brain control, voice control, gesture, wearable computing, VR, robots, and full-body exertion.
 
 Each entry includes an overview, a deep dive, a small media gallery, and full source links so the images and facts can always be traced back.
 
@@ -282,6 +282,8 @@ Each entry includes an overview, a deep dive, a small media gallery, and full so
     273. [Buchla Touché (c.1978)](#buchla-touche-c1978)
     274. [Milton Bradley Dark Tower (1981)](#milton-bradley-dark-tower-1981)
     275. [Solari Split-Flap Display (1976)](#solari-split-flap-display-1976)
+   276. [Yeoman Navigator / Sport Electronic Plotter (1985)](#yeoman-navigator--sport-electronic-plotter-1985)
+   277. [Lyricon / Wind Synthesizer Driver (1977)](#lyricon--wind-synthesizer-driver-1977)
   
 ---
 
@@ -12518,3 +12520,71 @@ The Teleindicatore and its consumer sibling, the Solari Cifra flip clock, were d
 
 1. Wikipedia — Split-flap display — https://en.wikipedia.org/wiki/Split-flap_display
 2. Wikipedia — Solari di Udine — https://en.wikipedia.org/wiki/Solari_di_Udine
+
+## Yeoman Navigator / Sport Electronic Plotter (1985)
+
+**By:** Yeoman Group plc (later Precision Navigation Ltd, UK)
+**Tags:** `HCI` `Navigation` `Embodied` `Input` `Output`
+
+The Yeoman Plotter fused paper navigation charts with live electronic position data through the strangest possible interface: it moves your hand. A conventional paper chart is pinned to a plotting surface woven with a grid of fine sensing wires; a handheld "mouse" carries a sensing ring whose position on the surface is read by electromagnetic induction. After "registering" three known chart points so the system can interpolate position anywhere on the chart, the mouse becomes the link between the pilot's arm and the vessel's live GPS fix.
+
+The defining interaction is the guided fix. In position mode, four illuminated arrows surround the mouse's transparent window and light up to point the way to the vessel's location. The pilot drags the mouse across the chart, following the arrows, until all four go out — which means the sensing ring is directly over the vessel's current position. A pencil can then be poked through a small hole to mark the fix on the paper chart. The whole procedure takes about two seconds and becomes instinctive. The human becomes a servo in a closed visual-motor loop steered by directional light cues — the clearest pre-smartphone example of technology guiding a human limb to a location.
+
+* **The computer steers the hand.** Where a conventional pointing interface moves a cursor toward the user's intent, the Yeoman moves the user's hand toward the machine's intent. The arrows are feedforward cues: the pilot pushes the mouse in whatever direction an arrow is lit, and the machine's arrow choices close the loop. It is navigation rendered as a physical servo control, and it deliberately kept the paper chart as the 35-inch "display," which survives a total electronics failure.
+* **The surface is the sensor.** The plotting table is an X-Y sensing plane woven with wires; the mouse's induction ring reads its own position from the geometry of the table. Registering three chart points lets the machine map chart coordinates onto physical surface coordinates, so the mouse can later find any charted object. Paired with radar, the mouse's location could also be mirrored as a cursor on the radar display, letting a radar return steer the hand to that charted spot.
+* **The ritual of the pencil.** The output of the whole interaction is a pencil mark on paper made by a human hand that the machine has guided into place. Because the fix is a physical pencil dot, the system is genuinely safer than a video plotter: the chart keeps a permanent, power-independent record of every fix.
+
+### Team
+
+* **Yeoman Group plc.** British manufacturer of the Yeoman plotter range from 1985.
+* **Precision Navigation Ltd.** East Anglian firm that continued manufacturing after 2004; production ceased circa 2014–15.
+
+### Media
+
+![Yeoman Navigator plotter on a yacht chart table](../assets/wiki/yeoman-chart-table.jpg)
+*Yeoman Navigator plotter in use on a Hallberg-Rassy 36 chart table alongside a traditional plastic Breton plotter. Photograph by Pete Verdon (CC BY-SA 3.0, Wikimedia Commons).*
+
+![Close view of the Yeoman electronic plotter mouse](../assets/wiki/yeoman-jpg200.jpg)
+*Close-up of the Yeoman electronic plotter mouse showing the transparent window and sensing ring (public domain, Wikimedia Commons).*
+
+### Sources
+
+1. Wikipedia — Yeoman plotter — https://en.wikipedia.org/wiki/Yeoman_plotter
+2. Yeoman Frequently Asked Questions (Waypoint, archived) — https://web.archive.org/web/20160112195202/http://www.waypoints.com/popups/yeomanfaq.html
+3. Yeoman Sport User Manual (Precision Navigation, archived) — https://web.archive.org/web/20141129033926/http://www.precisionnavigation.co.uk/products.html
+
+## Lyricon / Wind Synthesizer Driver (1977)
+
+**By:** Computone Inc. (Massachusetts) — Bill Bernardi (inventor), Roger Noble (co-engineer)
+**Tags:** `HCI` `Music` `Input` `Wind Controller` `Optical` `Pre-MIDI`
+
+The Lyricon is the origin of the electronic wind controller, invented by Bill Bernardi and produced by Computone Inc. in small numbers from 1974 until roughly 1980. It predated MIDI and the widespread use of digital synthesizers, and its sensing is unlike anything else in the collection. In the Wind Synthesizer Driver model (c. 1977), blowing into a bass-clarinet-style mouthpiece moves a diaphragm that changes the position of an LED relative to a photocell; the player's breath modulates a beam of light, and the photocell's variable resistance becomes the "wind" control voltage. A sprung-metal reed sensor reads lip/embouchure pressure, and sax-style fingering determines pitch voltage.
+
+The instrument has no sound of its own: it is a pure analog input device that outputs three control voltages (pitch, lip/embouchure, wind/breath) to drive any external analog synthesizer with a control-voltage input. Playing dynamics are read optically rather than measured by a resistive sensor — a genuinely indirect but elegantly analog input path. Fewer than 200 units of all Lyricon models were produced. The instrument was famously played by Tom Scott on Steely Dan's "Peg" (1977) and on Michael Jackson's "Billie Jean," and by Wayne Shorter. Later external MIDI-fication modules (JL Cooper, STEIM) added MIDI output to the control-voltage stream.
+
+* **Blowing on a light beam.** The Lyricon's defining HCI feature is optical breath transduction: blowing moves a diaphragm that shifts an LED relative to a photocell, so the player's breath becomes a resistance, then a voltage. No other artifact in the museum modulates a beam of light with a human's lungs and embouchure. It is a genuinely different sensing philosophy from the resistive touch sensors of the Akai EWI 1000 (already in the museum).
+* **The machine is a pure transducer.** The Wind Synthesizer Driver contains no sound generation. It converts breath, lip, and finger gestures into three control voltages that drive an external analog synthesizer — the instrument is a computer interface before "computer music" meant anything but tape splicing.
+* **Pre-MIDI control voltage.** By outputting pitch, lip, and wind voltages rather than MIDI bytes, the Lyricon belongs to the analog control-voltage era. Its CV stream could drive any voltage-controlled analog synthesizer, and only later MIDI retrofit modules grafted the digital protocol onto it.
+
+### Team
+
+* **Bill Bernardi.** Inventor of the Lyricon, filed patent US3767833 (filed 1971, granted 1973).
+* **Roger Noble.** Co-engineer on the Lyricon.
+* **Computone Inc.** Massachusetts-based manufacturer, produced ~200 units from 1974 to 1980.
+
+### Media
+
+![Computone Wind Synthesizer Driver controller](../assets/wiki/lyricon-wind-synthesizer.jpg)
+*The Computone Wind Synthesizer Driver controller (CC BY-SA 2.0, Wikimedia Commons).*
+
+![Lyricon Wind Synthesizer Controller, left side](../assets/wiki/lyricon-controller-left.jpg)
+*Lyricon Wind Synthesizer Controller, left side showing controls (CC BY-SA 2.0, Wikimedia Commons).*
+
+![Lyricon Wind Synthesizer Controller, middle detail](../assets/wiki/lyricon-controller-middle.jpg)
+*Lyricon Wind Synthesizer Controller, middle detail showing the mouthpiece and controls (CC BY-SA 2.0, Wikimedia Commons).*
+
+### Sources
+
+1. Wikipedia — Lyricon — https://en.wikipedia.org/wiki/Lyricon
+2. US Patent 3767833 — Electronic wind instrument (Bernardi, 1973) — https://patents.google.com/patent/US3767833A/en
+3. Synthmuseum — Computone Lyricon — https://www.synthmuseum.com/computone/comlyr01.html
