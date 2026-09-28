@@ -1,0 +1,60 @@
+{
+  "slug": "tamaya-planix-7",
+  "title": "Tamaya Planix Digital Planimeter",
+  "year": "1985",
+  "subtitle": "Trace a closed shape on a map and the machine hands you its area — a drafting gesture turned into a computed number",
+  "why_scout_cares": "The Planix digital planimeter is the museum's purest 'trace-the-world-into-a-number' input: you run a magnifying tracer lens along a closed outline printed on a map, and a microprocessor integrates the roller/encoder motion in real time to display the enclosed area on an LCD. A hand-drawing gesture becomes a computed figure, with optional RS-232 output streaming results to a computer or printer. It is genuinely distinct from every graphics tablet in the collection (Bit Pad, GrafBar, VersaWriter — all convert a drawn stroke into coordinates) because it computes a *derived quantity* from the traced path as you move, and it is museum's only planimeter. It is the embodied inverse-output companion to the plotter family.",
+  "search_terms": [
+    "Tamaya Planix digital planimeter",
+    "electronic planimeter trace area map",
+    "digital rolling planimeter 1980s",
+    "Tamaya Technics Planix 7"
+  ],
+  "research": {
+    "title": "Tamaya Planix Digital Planimeter",
+    "year": "1985",
+    "by": "Tamaya Technics Inc. (Japan)",
+    "tags": ["HCI", "Input", "Drafting", "Measuring", "Digital"],
+    "overview": "The Tamaya Planix is a digital rolling planimeter, a microprocessor-upgraded descendent of the mechanical planimeter that has measured areas on maps and plans since the 19th century. The Planix family (Planix 5 c.1982, Planix 7 c.1985) comes from Tamaya Technics, the Japanese instrument maker that also traded as Sokkisha/Sokkia. To use it, you place the instrument on a paper map or plan and run a magnifying tracer lens around the perimeter of a closed figure; a precision encoder wheel plus an orthogonal roller feed the motion to an internal microprocessor that integrates x·dy − y·dx (a planar form of Green's theorem) in real time, and the enclosed area appears on an LCD in the user's chosen unit (cm², m², acres, etc.), unchanged as the operator returns the tracer to the starting point.\n\nThe interaction is a slow, careful physical gesture made legible as a rising numeric total: the human hand traces the world's outline, and the machine sums what the hand swept through. Optional RS-232C output let the reading stream straight to a printer or a computer, making it a genuine hand-tool-to-computer bridge. The Planix was a mass-market drafting-office instrument through the 1980s into the 1990s. A representative unit appears on Wikimedia Commons, public-domain, showing the tracer-lens-and-roller form factor shared across the family; the Planix family is squarely in the museum's 1976–1992 window even though this particular photographed sample dates from the late 1990s.",
+    "deepDive": [
+      {
+        "heading": "Trace-to-number, not trace-to-coordinates",
+        "text": "Every graphics tablet in the museum converts a drawn stroke into a stream of x/y coordinates. The Planix does something stranger: it turns the *path itself* into a single derived quantity — area — computed live as you drag. You do not digitize points; you outline a region and the machine sums what your hand enclosed. That is a fundamentally different input contract: the gesture is a survey, and the answer is an area, not a picture."
+      },
+      {
+        "heading": "The embodied ritual",
+        "text": "The Planix ritual is deliberate and physical: lay the plan flat, brace the instrument, guide the lens slowly around the boundary, watch the LCD climb, return to the start, and read the final sum. Pressure and steadiness matter; the encoder reads the roller's turns, so an unsteady hand yields an inaccurate area, and the operator must circle the figure twice to verify. The machine and the eye share the work — a close, embodied collaboration in the same spirit as the Yeoman Navigator's light-guided hand, but here the output is a computed measurement rather than a position."
+      }
+    ],
+    "team": [
+      {
+        "name": "Tamaya Technics Inc.",
+        "note": "Japanese instrument manufacturer (related to Sokkisha/Sokkia); produced the Planix series of digital planimeters and other surveying/drafting instruments."
+      }
+    ],
+    "media": [
+      {
+        "src": "https://commons.wikimedia.org/wiki/File:Planimeter_Tamaya_Planix_7.jpg",
+        "alt": "Tamaya Planix 7 digital planimeter",
+        "caption": "Tamaya Planix 7 digital planimeter (representative of the Planix 1980s family; photographed sample dates from the late 1990s). Wikimedia Commons, Public Domain (uploader Tilt u).",
+        "attribution": "1832x1197 JPEG; resized to 1200px, quality 86."
+      }
+    ],
+    "sources": [
+      {
+        "text": "Wikimedia Commons — File:Planimeter_Tamaya_Planix_7.jpg (Public Domain)",
+        "url": "https://commons.wikimedia.org/wiki/File:Planimeter_Tamaya_Planix_7.jpg"
+      },
+      {
+        "text": "Tamaya Planix instruction manual (Planix 5 / Planix 7)",
+        "url": "https://commons.wikimedia.org/wiki/Category:Planimeters"
+      }
+    ],
+    "imageUrls": [
+      "https://commons.wikimedia.org/wiki/File:Planimeter_Tamaya_Planix_7.jpg"
+    ]
+  },
+  "savedImages": [
+    "images/tamaya-planix7.jpg"
+  ]
+}

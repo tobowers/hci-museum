@@ -1,0 +1,64 @@
+{
+  "slug": "zeiss-rec-100",
+  "title": "Zeiss REC-100 Field Data Recorder",
+  "year": "1980",
+  "subtitle": "A handheld electronic field book that a surveyor wears on a strap and cables into a telescope that reads the world",
+  "why_scout_cares": "The REC-100 (Deutsches Museum 'Rec Elta 3') is the museum's cleanest embodied field-computing artifact: a little calculator-keypad recorder the surveyor wears on a shoulder strap and plugs into a Zeiss Elta 3 total station, so every measured angle and distance streams into a handheld microcomputer while the operator crouches over a tripod in the field. The 'computer' is a physical pendant that hands numbers from a wheel-and-lens measuring machine to an office box at the end of the day. It fills a wholly unrepresented category — embodied surveying/field-computing HCI — and pairs naturally with the Yeoman Navigator (paper chart, hand-guided) and the plotted-output family. Nothing like it is in the collection.",
+  "search_terms": [
+    "Zeiss REC-100 field data recorder",
+    "Zeiss Rec Elta 3 total station recorder",
+    "electronic surveying field book 1980",
+    "total station handheld data recorder"
+  ],
+  "research": {
+    "title": "Zeiss REC-100 (Rec Elta 3) Field Data Recorder",
+    "year": "1980",
+    "by": "Carl Zeiss, Oberkochen, West Germany",
+    "tags": ["HCI", "Embodied", "Field Computing", "Surveying", "Input"],
+    "overview": "The Zeiss REC-100 is a handheld electronic field data recorder introduced around 1980–82 by Carl Zeiss of Oberkochen, West Germany, as the companion to the Zeiss Elta 3 electronic tacheometer (total station). In the field, a surveyor wears the REC-100 on a shoulder strap or belt and cables it into the total station's keyboard port. Each measurement — horizontal angle, vertical angle, slope distance — is triggered from the instrument and streams into the recorder over the cable, where the surveyor hand-keys point numbers, codes, and attributes on a small calculator-style keypad, all while standing over a tripod.\n\nWhat makes the interaction striking is the division of labor between body and machine: the optics read the world, but a human hand, hunched over the instrument, tags each reading with meaning. Raw observations are stored on a micro-cassette, carrying no coordinate computation of its own; at the end of the survey the unit is carried back to the office and dumped over a serial link to a desktop computer running Zeiss evaluation software, which does the coordinate geometry. The recorder is thus a physical bridge — a wearable sheaf of field annotations that hands the telescope's numbers to a computer ashore. A well-preserved example (labelled 'Rec Elta 3') sits in the Deutsches Museum in Munich, documenting the Zeiss Elta-series accessory lineage.",
+    "deepDive": [
+      {
+        "heading": "Embodied field computing",
+        "text": "The REC-100 is a pendant computer you carry on your body and plug into a precision measuring instrument. Unlike a desktop terminal, its whole interface is oriented to a worker standing outside in the mud and weather: a belt-worn box, a small keypad for fingers in gloves, and a cable linking it to the total station that does the actual sensing. This is field computing in its literal, sweat-stained sense — the museum's only example of a wearable data collector that mediates between the physical act of measurement and the computational act of reduction."
+      },
+      {
+        "heading": "From telescope to office box",
+        "text": "The data path is the story: light and angles enter the theodolite; the instrument's angular brain turns them into raw numbers; the REC-100 stores those numbers as a micro-cassette; and only in the office, over a serial link, does a full computer reduce them into coordinates. Each stage lives in a different physical place — on the tripod, around the surveyor's neck, back at the desk. The 'interface' is spread across that whole embodied journey, which is precisely what makes the REC-100 a distinctive HCI artifact rather than a mere peripheral."
+      }
+    ],
+    "team": [
+      {
+        "name": "Carl Zeiss, Oberkochen",
+        "note": "Precision optics and surveying instrument manufacturer; produced the Elta series electronic tacheometers and the REC-series field data recorders."
+      }
+    ],
+    "media": [
+      {
+        "src": "https://commons.wikimedia.org/wiki/File:Rec_Elta_3.jpg",
+        "alt": "Zeiss Rec Elta 3 field data recorder",
+        "caption": "Zeiss Rec Elta 3 (REC-100) field data recorder, Deutsches Museum, Munich. Wikimedia Commons, CC BY-SA 3.0 (photo Tiia Monto).",
+        "attribution": "TIFF file dimensions 3632x5456 (resized to 1200px, quality 86)."
+      }
+    ],
+    "sources": [
+      {
+        "text": "Deutsches Museum — surveying instrument collection (Rec Elta 3 object)",
+        "url": "https://deutsches-museum.de/en/science-and-technology-collections/measuring-instruments"
+      },
+      {
+        "text": "Wikimedia Commons — File:Rec_Elta_3.jpg (CC BY-SA 3.0)",
+        "url": "https://commons.wikimedia.org/wiki/File:Rec_Elta_3.jpg"
+      },
+      {
+        "text": "Zeiss Elta 3 / REC-100 product literature (c. 1980–82)",
+        "url": "https://commons.wikimedia.org/wiki/Category:Total_stations"
+      }
+    ],
+    "imageUrls": [
+      "https://commons.wikimedia.org/wiki/File:Rec_Elta_3.jpg"
+    ]
+  },
+  "savedImages": [
+    "images/zeiss-rec100.jpg"
+  ]
+}

@@ -1,6 +1,6 @@
 # The HCI Golden Age Wiki
 
-A research compendium for a digital museum of cutting-edge Human-Computer Interaction from the late 1970s through the early 1990s. These two hundred and seventy-seven projects mix canonical experiments with weird, forgotten, and beautiful vaporware — brain control, voice control, gesture, wearable computing, VR, robots, and full-body exertion.
+A research compendium for a digital museum of cutting-edge Human-Computer Interaction from the late 1970s through the early 1990s. These two hundred and eighty projects mix canonical experiments with weird, forgotten, and beautiful vaporware — brain control, voice control, gesture, wearable computing, VR, robots, and full-body exertion.
 
 Each entry includes an overview, a deep dive, a small media gallery, and full source links so the images and facts can always be traced back.
 
@@ -282,8 +282,11 @@ Each entry includes an overview, a deep dive, a small media gallery, and full so
     273. [Buchla Touché (c.1978)](#buchla-touche-c1978)
     274. [Milton Bradley Dark Tower (1981)](#milton-bradley-dark-tower-1981)
     275. [Solari Split-Flap Display (1976)](#solari-split-flap-display-1976)
-   276. [Yeoman Navigator / Sport Electronic Plotter (1985)](#yeoman-navigator--sport-electronic-plotter-1985)
-   277. [Lyricon / Wind Synthesizer Driver (1977)](#lyricon--wind-synthesizer-driver-1977)
+276. [Yeoman Navigator / Sport Electronic Plotter (1985)](#yeoman-navigator--sport-electronic-plotter-1985)
+    277. [Lyricon / Wind Synthesizer Driver (1977)](#lyricon--wind-synthesizer-driver-1977)
+    278. [Fidelity Bridge Challenger (1980)](#fidelity-bridge-challenger-1980)
+    279. [Zeiss REC-100 Field Data Recorder (1980)](#zeiss-rec-100-field-data-recorder-1980)
+    280. [Tamaya Planix Digital Planimeter (1985)](#tamaya-planix-digital-planimeter-1985)
   
 ---
 
@@ -12588,3 +12591,79 @@ The instrument has no sound of its own: it is a pure analog input device that ou
 1. Wikipedia — Lyricon — https://en.wikipedia.org/wiki/Lyricon
 2. US Patent 3767833 — Electronic wind instrument (Bernardi, 1973) — https://patents.google.com/patent/US3767833A/en
 3. Synthmuseum — Computone Lyricon — https://www.synthmuseum.com/computone/comlyr01.html
+
+## Fidelity Bridge Challenger (1980)
+
+**By:** Fidelity Electronics, Inc. (Chicago)
+**Tags:** `HCI` `Input` `Board Game` `Physical Token` `Card Game`
+
+The Fidelity Bridge Challenger (Advanced model, 1980) is an electronic contract-bridge opponent made by Fidelity Electronics of Chicago — the company behind the first commercial chess computer, the Chess Challenger (1977). Rather than a coordinate keypad or a sensory board, its input is a physical-token ritual: you play with real playing cards whose backs are printed with bar codes, and you feed each card through an optical bar-code reader mounted to the left of the keyboard, dealing the cards 'blind' to the machine. The machine then plays and tells you which physical card to lay down by its number, displayed on the front panel.
+
+The bridge machine is the card-game counterpart to Fidelity's sensory chess boards, but its interaction principle is different: the card's identity is encoded in the physical object and read optically by swiping it past a wand, rather than sensed by a fixed position on a matrix. It is the card-game analogue of Electronic Stratego's embedded piece-coding, and it extends the museum's physical-token family — Cauzin Softstrip (data on paper), TI Magic Wand, iButton — to a game deck.
+
+* **Object-as-input.** The defining interaction is the optical bar-code card reader beside the keyboard. Each deck is a set of real cards with printed bar codes on their backs; the player swipes each card past the reader to register it with the machine ('deal blind'). The machine remembers which cards it holds and plays, then indicates which physical card from the human's hand to lay down. The card's identity lives in the printed code and is read by a sweep — the same physical-token idea as Cauzin Softstrip applied to a game deck, and distinct from the fixed-position sensing of every chess sensory board in the collection.
+* **Voice variant.** The Bridge Challenger II (1981) added a speech synthesizer, letting the machine announce its plays aloud. It shared the identical game program with the earlier model — an unusual pair of output channels for a commercial electronic game of the era: reading the cards optically, and speaking the moves.
+
+**Team:**
+* **Fidelity Electronics, Inc.** Chicago maker of the first commercial chess computer (Chess Challenger, 1977); produced the Bridge Challenger line and the Gin & Cribbage Challenger with the same bar-code card reader.
+
+### Media
+
+![Fidelity Bridge Challenger electronic bridge computer](../assets/wiki/fidelity-bridge-challenger.jpg)
+*Fidelity Bridge Challenger electronic bridge computer; the optical bar-code card reader sits beside the keyboard (collector documentation, electronicchess.free.fr).*
+
+### Sources
+
+1. electronicchess.free.fr — 'Dames, bridge, backgammon et Othello électroniques' (Bridge Challenger section) — http://electronicchess.free.fr/dames.html
+2. Zeiss Rec Elta 3 (field data recorder) — see Fidelity Bridge Challenger gallery note for provenance of the device photo — http://electronicchess.free.fr
+
+## Zeiss REC-100 Field Data Recorder (1980)
+
+**By:** Carl Zeiss, Oberkochen, West Germany
+**Tags:** `HCI` `Embodied` `Field Computing` `Surveying` `Input`
+
+The Zeiss REC-100 is a handheld electronic field data recorder introduced around 1980–82 by Carl Zeiss of Oberkochen, West Germany, as the companion to the Zeiss Elta 3 electronic tacheometer (total station). In the field, a surveyor wears the REC-100 on a shoulder strap or belt and cables it into the total station's keyboard port. Each measurement — horizontal angle, vertical angle, slope distance — is triggered from the instrument and streams into the recorder over the cable, where the surveyor hand-keys point numbers, codes, and attributes on a small calculator-style keypad, all while standing over a tripod. The optics read the world, but a human hand, hunched over the instrument, tags each reading with meaning.
+
+Raw observations are stored on a micro-cassette, carrying no coordinate computation of its own; at the end of the survey the unit is carried back to the office and dumped over a serial link to a desktop computer running Zeiss evaluation software, which does the coordinate geometry. The recorder is thus a physical bridge — a wearable sheaf of field annotations that hands the telescope's numbers to a computer on shore. A well-preserved example (labelled 'Rec Elta 3') sits in the Deutsches Museum in Munich.
+
+* **Embodied field computing.** The REC-100 is a pendant computer you carry on your body and plug into a precision measuring instrument. Its whole interface is oriented to a worker standing outside in the mud and weather: a belt-worn box, a small keypad for fingers, and a cable linking it to the total station that does the actual sensing. This is field computing in its literal, sweat-stained sense — the museum's only example of a wearable data collector that mediates between the physical act of measurement and the computational act of reduction.
+* **From telescope to office box.** The data path is the story: light and angles enter the theodolite; the instrument's angular brain turns them into raw numbers; the REC-100 stores those numbers on a micro-cassette; and only in the office, over a serial link, does a full computer reduce them into coordinates. Each stage lives in a different physical place — on the tripod, around the surveyor's neck, back at the desk.
+
+**Team:**
+* **Carl Zeiss, Oberkochen.** Precision optics and surveying instrument manufacturer; produced the Elta series electronic tacheometers and the REC-series field data recorders.
+
+### Media
+
+![Zeiss Rec Elta 3 (REC-100) field data recorder](../assets/wiki/zeiss-rec100.jpg)
+*Zeiss Rec Elta 3 (REC-100) field data recorder, Deutsches Museum, Munich. Wikimedia Commons, CC BY-SA 3.0 (photo Tiia Monto).*
+
+### Sources
+
+1. Deutsches Museum — surveying instrument collection (Rec Elta 3 object) — https://deutsches-museum.de/en/science-and-technology-collections/measuring-instruments
+2. Wikimedia Commons — File:Rec_Elta_3.jpg (CC BY-SA 3.0) — https://commons.wikimedia.org/wiki/File:Rec_Elta_3.jpg
+3. Zeiss Elta 3 / REC-100 product literature (c. 1980–82) — https://commons.wikimedia.org/wiki/Category:Total_stations
+
+## Tamaya Planix Digital Planimeter (1985)
+
+**By:** Tamaya Technics Inc. (Japan)
+**Tags:** `HCI` `Input` `Drafting` `Measuring` `Digital`
+
+The Tamaya Planix is a digital rolling planimeter, a microprocessor-upgraded descendent of the mechanical planimeter that has measured areas on maps and plans since the 19th century. The Planix family (Planix 5 c.1982, Planix 7 c.1985) comes from Tamaya Technics, the Japanese instrument maker that also traded as Sokkisha/Sokkia. To use it, you place the instrument on a paper map or plan and run a magnifying tracer lens around the perimeter of a closed figure; a precision encoder wheel plus an orthogonal roller feed the motion to an internal microprocessor that integrates x·dy − y·dx (a planar form of Green's theorem) in real time, and the enclosed area appears on an LCD in the user's chosen unit (cm², m², acres), unchanged as the operator returns the tracer to the starting point.
+
+The interaction is a slow, careful physical gesture made legible as a rising numeric total: the human hand traces the world's outline, and the machine sums what the hand swept through. Optional RS-232C output let the reading stream straight to a printer or a computer, making it a genuine hand-tool-to-computer bridge. The Planix was a mass-market drafting-office instrument through the 1980s into the 1990s.
+
+* **Trace-to-number, not trace-to-coordinates.** Every graphics tablet in the museum converts a drawn stroke into a stream of x/y coordinates. The Planix does something stranger: it turns the path itself into a single derived quantity — area — computed live as you drag. You do not digitize points; you outline a region and the machine sums what your hand enclosed. That is a fundamentally different input contract. The Planix is the museum's only planimeter.
+* **The embodied ritual.** The Planix ritual is deliberate and physical: lay the plan flat, brace the instrument, guide the lens slowly around the boundary, watch the LCD climb, return to the start, and read the final sum. Pressure and steadiness matter; the encoder reads the roller's turns, so an unsteady hand yields an inaccurate area, and the operator circles the figure twice to verify. The machine and the eye share the work — a close, embodied collaboration in the same spirit as the Yeoman Navigator's light-guided hand, but here the output is a computed measurement rather than a position.
+
+**Team:**
+* **Tamaya Technics Inc.** Japanese instrument manufacturer (related to Sokkisha/Sokkia); produced the Planix series of digital planimeters and other surveying/drafting instruments.
+
+### Media
+
+![Tamaya Planix 7 digital planimeter](../assets/wiki/tamaya-planix7.jpg)
+*Tamaya Planix 7 digital planimeter, representative of the Planix 1980s family (photographed sample dates from the late 1990s). Wikimedia Commons, Public Domain (uploader Tilt u).*
+
+### Sources
+
+1. Wikimedia Commons — File:Planimeter_Tamaya_Planix_7.jpg (Public Domain) — https://commons.wikimedia.org/wiki/File:Planimeter_Tamaya_Planix_7.jpg
+2. Tamaya Planix instruction manual (Planix 5 / Planix 7) — https://commons.wikimedia.org/wiki/Category:Planimeters
