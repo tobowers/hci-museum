@@ -3467,6 +3467,45 @@ const exhibitData: Exhibit[] = [
     tags: ["HCI", "Music", "Input", "Wind Controller", "Optical", "Pre-MIDI"],
     image: img("lyricon-wind-synthesizer.jpg"),
   },
+  {
+    id: "fidelity-bridge-challenger",
+    slug: "fidelity-bridge-challenger",
+    wikiTitle: "Fidelity Bridge Challenger",
+    year: "1980",
+    sortYear: 1980,
+    title: "Fidelity Bridge Challenger",
+    subtitle: "An electronic bridge opponent that reads your physical cards by their bar-coded backs",
+    blurb:
+      "The Fidelity Bridge Challenger (1980) is an electronic contract-bridge opponent whose input is a physical-token ritual: you play with real playing cards whose backs are printed with bar codes, and you feed each one through an optical bar-code reader beside the keyboard to deal 'blind' to the machine, which then plays and tells you which physical card to lay down by a number on the front panel. The card's identity is encoded in the physical object and read optically by a sweep — the card-game analogue of Electronic Stratego's embedded piece-coding, and the museum's cleanest physical-token card input. A later model (Bridge Challenger II, 1981) added a speech synthesizer to announce plays aloud. It is Fidelity Electronics' sibling to the Chess Challenger line, extending the museum's physical-token family (Cauzin Softstrip, TI Magic Wand, iButton) to a game deck — distinct from every chess sensory board in the collection.",
+    tags: ["HCI", "Input", "Board Game", "Physical Token", "Card Game"],
+    image: img("fidelity-bridge-challenger.jpg"),
+  },
+  {
+    id: "zeiss-rec-100",
+    slug: "zeiss-rec-100",
+    wikiTitle: "Zeiss REC-100 Field Data Recorder",
+    year: "1980",
+    sortYear: 1980,
+    title: "Zeiss REC-100 Field Data Recorder",
+    subtitle: "A handheld electronic field book that a surveyor wears on a strap and cables into a telescope that reads the world",
+    blurb:
+      "The Zeiss REC-100 (Deutsches Museum 'Rec Elta 3') is a handheld electronic field data recorder that a surveyor wears on a shoulder strap and cables into a Zeiss Elta 3 total station. Each measured angle and distance streams from the instrument into the little recorder, where the operator hand-keys point numbers and codes on a calculator-style keypad — all while crouched over a tripod in the field. Readings are stored on a micro-cassette and only turned into coordinates later, back in the office, over a serial link to a desktop computer. It is the museum's cleanest embodied field-computing artifact: the 'computer' is a physical pendant that hands numbers from a wheel-and-lens measuring machine to an office box. It fills a wholly unrepresented category, embodied surveying/field-computing HCI, a world away from desktop terminals.",
+    tags: ["HCI", "Embodied", "Field Computing", "Surveying", "Input"],
+    image: img("zeiss-rec100.jpg"),
+  },
+  {
+    id: "tamaya-planix-7",
+    slug: "tamaya-planix-7",
+    wikiTitle: "Tamaya Planix Digital Planimeter",
+    year: "1985",
+    sortYear: 1985,
+    title: "Tamaya Planix Digital Planimeter",
+    subtitle: "Trace a closed shape on a map and the machine hands you its area — a drafting gesture turned into a computed number",
+    blurb:
+      "The Tamaya Planix is a digital rolling planimeter that turns a physical tracing gesture into a computed number. You run a magnifying tracer lens around the perimeter of a closed figure printed on a map; an encoder wheel and orthogonal roller feed the motion to an internal microprocessor that integrates x·dy − y·dx in real time, and the enclosed area appears on an LCD. Unlike every graphics tablet in the museum (which converts a drawn stroke into coordinates), the Planix computes a single derived quantity — area — live as you trace, with optional RS-232 output streaming the reading to a computer or printer. The Planix family (Planix 5 c.1982, Planix 7 c.1985), from Japanese maker Tamaya Technics, is the museum's only planimeter and its clearest trace-the-world-into-a-number input.",
+    tags: ["HCI", "Input", "Drafting", "Measuring", "Digital"],
+    image: img("tamaya-planix7.jpg"),
+  },
 ];
 
 export const exhibits: Exhibit[] = exhibitData.toSorted((a, b) => b.sortYear - a.sortYear || a.title.localeCompare(b.title));
