@@ -1,0 +1,51 @@
+{
+  "slug": "scanset-xl",
+  "title": "Scanset XL",
+  "year": "1982",
+  "subtitle": "A personal information terminal that fuses a telephone and a computer screen, dialing 1,000 databases 'as easy as using a telephone'",
+  "why_scout_cares": "The museum's first consumer telephone-computer convergence terminal. The Scanset XL is a compact terminal with a built-in modem and six on-screen-labeled soft keys, marketed to ordinary people who wanted to tap into online databases 'as easy as using a telephone' — the phone and the screen used simultaneously, a consumer precursor to the browser-and-phone world. It pairs into the telephony family (Novation CAT, Hayes Smartmodem, Minitel, TI Silent 700) but is the only artifact where the phone handset and a soft-key terminal coexist in one consumer box.",
+  "search_terms": [
+    "Scanset XL",
+    "Tymshare Scanset",
+    "Scanset Inc terminal",
+    "personal information terminal 1982"
+  ],
+  "research": {
+    "title": "Scanset XL Personal Information Terminal",
+    "year": "1982",
+    "by": "Scanset Inc. / Tymshare Inc.",
+    "tags": ["HCI", "Terminal", "Telephony", "Online Services", "Soft Keys"],
+    "overview": "The Scanset XL is a compact 'personal information terminal' announced around 1982 by Scanset Inc., a California computer-services firm associated with Tymshare Inc. (Cupertino, CA). It combined a telephone and a computer terminal in a single 15-pound unit: by plugging it into any existing phone jack, a home or small-business user could reach over 1,000 online databases 'almost as easy as using a telephone.' The unit met basic communication needs including automatic speed dialing (even through long-distance systems with long access codes) and could run telephone and computer functions simultaneously to support phone conferences with live displays such as sales charts or forecasts.\n\nThe interaction model is notable for its era: a keyboard slightly smaller than a conventional typewriter, four cursor controls, and six multifunction buttons above the keyboard whose uses were labeled at the bottom of the screen depending on the program being used — a soft-key interface defined by software, rendered on a consumer device two decades before the web made such menus ubiquitous. An optional external printer could capture the retrieved data.",
+    "deepDive": [
+      {
+        "heading": "The telephone and the screen as one thing",
+        "text": "What makes the Scanset XL more than a compact terminal is the telephone-convergence framing. The unit's marketing pitch was that tapping databases should be as easy as making a phone call, and the hardware honors that: the same box held the phone functions (dialing, speed dial) and the computer screen. Data and voice shared the connection, so a user could look at a sales chart on the screen while talking on the phone — a 'conference call with a display.' This is the museum's clearest consumer artifact of the phone-and-computer convergence that the web later made invisible."
+      },
+      {
+        "heading": "On-screen-labeled soft keys",
+        "text": "The six multifunction buttons above the keyboard changed meaning with the program, with their current use identified at the bottom of the screen. This soft-key arrangement is the same principle found in professional instruments of the era (TNC 110's labeled function keys, HP 64000's logo keys) but applied to a consumer online terminal, where it gave a small physical keyboard the reach of a much larger menu system — a software-defined control surface a decade before the graphical web browser."
+      }
+    ],
+    "team": [
+      { "name": "Scanset Inc.", "note": "Developer of the Scanset XL terminal" },
+      { "name": "Tymshare Inc.", "note": "California computer-services firm associated with distributing the Scanset XL (Cupertino, CA)" }
+    ],
+    "media": [
+      {
+        "src": "https://commons.wikimedia.org/wiki/File:Scanset_XL_Terminal.jpg",
+        "alt": "Scanset XL terminal",
+        "caption": "Scanset XL personal information terminal (CC BY-SA 4.0, AltairBinx)"
+      }
+    ],
+    "sources": [
+      { "text": "UPI Archives: NEW PRODUCTS ON THE MARKET (Dec 15, 1982)", "url": "https://www.upi.com/Archives/1982/12/15/NEW-PRODUCTS-ON-THE-MARKET/4928408776400/" },
+      { "text": "Wikimedia Commons: Scanset XL Terminal.jpg", "url": "https://commons.wikimedia.org/wiki/File:Scanset_XL_Terminal.jpg" }
+    ],
+    "imageUrls": [
+      "https://upload.wikimedia.org/wikipedia/commons/9/91/Scanset_XL_Terminal.jpg"
+    ]
+  },
+  "savedImages": [
+    "images/scanset-xl.jpg"
+  ]
+}

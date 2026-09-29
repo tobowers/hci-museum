@@ -1,0 +1,53 @@
+{
+  "slug": "tektronix-11401-touchscreen-oscilloscope",
+  "title": "Tektronix 11401 Digitizing Oscilloscope",
+  "year": "1986",
+  "subtitle": "The laboratory oscilloscope whose front panel became a touchscreen menu system — few knobs, the panel surface itself is software",
+  "why_scout_cares": "The Tektronix 11401/11402/11403 (1986-1989) is the museum's first touchscreen laboratory instrument and its clearest case of an instrument's front panel becoming a graphical interface. The 11K series replaced the knob-and-button 7K scopes with 'a touch screen and menu system' and 'few controls on the mainframe or plug-ins.' This is a direct-manipulation instrument — the machine's entire operating surface collapsed into a touchscreen GUI, a decade before touchscreens reached everyday devices. It pairs with the museum's Tektronix 7854 (a knob-and-soft-key computer scope) as the two poles of reconfigurable-instrument HCI.",
+  "search_terms": [
+    "Tektronix 11401",
+    "Tektronix 11402",
+    "Tektronix 11403 touchscreen oscilloscope",
+    "Tektronix 11K series touch screen"
+  ],
+  "research": {
+    "title": "Tektronix 11401 Digitizing Oscilloscope",
+    "year": "1986",
+    "by": "Tektronix (Beaverton, OR)",
+    "tags": ["HCI", "Scientific Instrument", "Touchscreen", "Front Panel", "Digitizing Oscilloscope"],
+    "overview": "The Tektronix 11401 and its siblings the 11402 (1 GHz) and 11403 (3 GHz color, 1989) were digitizing oscilloscopes that replaced the 7K series in 1986 with a completely refreshed user interface built around 'a touch screen and menu system.' As vintageTEK puts it, 'As such there are few controls on the mainframe or plug-ins.' Where earlier scopes were walls of knobs and buttons, the 11K-series operator steered nearly everything through a touchscreen and on-screen menus, with a small set of dedicated knobs and bezel soft-keys around a large display.\n\nThe interaction model is the museum's clearest 'instrument front panel as graphical interface' — a laboratory tool whose operating surface was software-defined by touch, a decade and a half before touchscreens reached consumer gadgets. Project team lead Tom Rousseau had also led the museum's Tektronix 7854, making the 7854 → 11401 line a direct evolution from a knob-and-soft-key computer scope to a touchscreen-menu instrument; assistant project manager Murlan Kaufman was specifically 'the person responsible for the touch panel and display.'",
+    "deepDive": [
+      {
+        "heading": "The front panel that became a GUI",
+        "text": "The 11401 reduced the physical control surface to a near-blank face: a display surrounded by a few soft-keys and dedicated knobs, with channel, trigger, and measurement setup driven from on-screen touch menus. This is the essence of a software-defined instrument — the operator negotiates the machine through a touchscreen rather than a fixed array of switches, the same philosophical leap that turned telephone exchanges, cash registers, and later cars into software-defined devices."
+      },
+      {
+        "heading": "From 7854 to 11401",
+        "text": "Tektronix's 7854 (already in the museum) bolted a Reverse-Polish-Notation waveform keyboard onto an analog scope; the 11401 went further and replaced the fixed panel with a touchscreen menu system. The pair bookend the transition from discrete-symbolic controls (knobs + RPN keyboard) to direct-manipulation graphical instrumentation, sharing the same project lineage under Tom Rousseau."
+      }
+    ],
+    "team": [
+      { "name": "Tektronix", "note": "Manufacturer; project team lead Tom Rousseau, touch-panel lead Murlan Kaufman" },
+      { "name": "Tom Rousseau", "note": "Project manager (also led the Tektronix 7854)" },
+      { "name": "Murlan Kaufman", "note": "Assistant project manager, person responsible for the touch panel and display" }
+    ],
+    "media": [
+      {
+        "src": "https://vintagetek.org/11403-digitizing-oscilloscope/",
+        "alt": "Tektronix 11403 touchscreen digitizing oscilloscope on display at the vintageTEK museum",
+        "caption": "Tektronix 11403 digitizing oscilloscope (vintageTEK museum; representative of the 11401/11402/11403 touchscreen interface)"
+      }
+    ],
+    "sources": [
+      { "text": "vintageTEK Museum: 11403 Digitizing Oscilloscope", "url": "https://vintagetek.org/11403-digitizing-oscilloscope/" },
+      { "text": "TekWiki: 11401", "url": "https://w140.com/tekwiki/wiki/11401" },
+      { "text": "TekWiki: 11000 series", "url": "https://w140.com/tekwiki/wiki/11000_series" }
+    ],
+    "imageUrls": [
+      "https://vintagetek.org/wp-content/uploads/2018/01/11403.jpg"
+    ]
+  },
+  "savedImages": [
+    "images/tektronix-11403-touchscreen-scope.jpg"
+  ]
+}

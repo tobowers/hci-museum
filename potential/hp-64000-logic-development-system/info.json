@@ -1,0 +1,58 @@
+{
+  "slug": "hp-64000-logic-development-system",
+  "title": "HP 64000 Logic Development System",
+  "year": "1979",
+  "subtitle": "A microprocessor development workstation whose front panel is a software-defined surface — function keys relabeled on the CRT by the operating system",
+  "why_scout_cares": "The HP 64000 (introduced Sept 1979) is the museum's cleanest example of a professional instrument whose front panel became software. Alongside the keyboard, the OS rendered soft 'logo key' function labels on the CRT that the operator selected, so the machine's control rows were redefined continuously by the operating state. This is the terminal-era embodiment of soft keys as a software-controlled front panel — a direct ancestor of the modern GUI. It fills the professional logic-development-instrument gap and contrasts with the museum's fixed-switch Tektronix 7854 and interrogator-style TNC 110.",
+  "search_terms": [
+    "HP 64000",
+    "HP 64100A",
+    "Hewlett-Packard logic development system",
+    "HP 64000 soft key logo key"
+  ],
+  "research": {
+    "title": "HP 64000 Logic Development System",
+    "year": "1979",
+    "by": "Hewlett-Packard Logic Systems Division",
+    "tags": ["HCI", "Development System", "Soft Keys", "Front Panel", "Microprocessor Tools"],
+    "overview": "The HP 64000 Logic Development System, introduced 17 September 1979, was Hewlett-Packard's tool for developing hardware and software for products based on commercial microprocessors from a variety of manufacturers. Unlike most microprocessor development systems of the day (Intel Intellec, Motorola EXORciser), it was not dedicated to one manufacturer's chips, and it was designed so up to six workstations could connect via the HP-IB (IEEE-488) instrumentation bus to a shared hard drive and printer as a tightly integrated network.\n\nIts distinctive HCI detail is the software-defined front panel. On the 64100A desktop workstation, a column of unlabelled 'logo key' / soft function keys beside the full keyboard had their labels drawn by the operating system on the CRT; the operator selected a function by pressing the key under its on-screen label, so the machine's function rows were redefined continuously by the current software state. This is a pure soft-key interface — the front panel as software — a decade before graphical desktops normalized the idea of controls that change with context.",
+    "deepDive": [
+      {
+        "heading": "Soft keys as a software-controlled front panel",
+        "text": "The 64100A's CRT rendered the labels for a column of function keys on the screen; as the operating system's mode changed, the labels changed. The operator pressed the physical key beneath the on-screen label to execute the drawn command. This made the instrument's control surface reconfigurable by software rather than fixed by etched legends — the same principle behind TNC 110's labeled function keys and the Scanset XL's on-screen-labeled buttons, but in a professional multi-vendor development tool. It is a genuinely software-defined front panel, an early ancestor of the GUI's context menus."
+      },
+      {
+        "heading": "A networked development instrument",
+        "text": "The HP 64000 also stands out for treating a bench instrument as a networked workstation: up to six stations shared a common hard drive and printer over HP-IB. The operator moved between software development (assemblers, Pascal and C compilers), in-circuit emulation, logic analysis, and PROM programming within one integrated environment — an early glimpse of the modern integrated development environment."
+      }
+    ],
+    "team": [
+      { "name": "Hewlett-Packard Logic Systems Division", "note": "Developer of the HP 64000 and 64100A workstation" }
+    ],
+    "media": [
+      {
+        "src": "https://commons.wikimedia.org/wiki/File:HP64100A_Logic_Development_System_debugging_a_microprocessor.png",
+        "alt": "HP 64100A Logic Development System workstation",
+        "caption": "HP 64100A Logic Development System debugging a microprocessor (CC BY-SA 4.0, TimInHamilton)"
+      },
+      {
+        "src": "https://commons.wikimedia.org/wiki/File:HP64000_Rack.jpg",
+        "alt": "HP 64000 rack system",
+        "caption": "HP 64000 rack system (CC BY 2.0, Paul Downey)"
+      }
+    ],
+    "sources": [
+      { "text": "Wikipedia: HP 64000", "url": "https://en.wikipedia.org/wiki/HP_64000" },
+      { "text": "Wikimedia Commons: HP64000 category", "url": "https://commons.wikimedia.org/wiki/Category:Hewlett-Packard_HP64000" },
+      { "text": "Hewlett-Packard Journal, Oct 1980", "url": "https://bitsavers.org/test_equipment/hp/64000/" }
+    ],
+    "imageUrls": [
+      "https://upload.wikimedia.org/wikipedia/commons/8/85/HP64100A_Logic_Development_System_debugging_a_microprocessor.png",
+      "https://upload.wikimedia.org/wikipedia/commons/f/f8/HP64000_Rack.jpg"
+    ]
+  },
+  "savedImages": [
+    "images/hp64100a-logic-development-system.png",
+    "images/hp64000-rack.jpg"
+  ]
+}
