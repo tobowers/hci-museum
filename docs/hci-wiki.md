@@ -1,6 +1,6 @@
 # The HCI Golden Age Wiki
 
-A research compendium for a digital museum of cutting-edge Human-Computer Interaction from the late 1970s through the early 1990s. These two hundred and eighty projects mix canonical experiments with weird, forgotten, and beautiful vaporware — brain control, voice control, gesture, wearable computing, VR, robots, and full-body exertion.
+A research compendium for a digital museum of cutting-edge Human-Computer Interaction from the late 1970s through the early 1990s. These two hundred and eighty-three projects mix canonical experiments with weird, forgotten, and beautiful vaporware — brain control, voice control, gesture, wearable computing, VR, robots, and full-body exertion.
 
 Each entry includes an overview, a deep dive, a small media gallery, and full source links so the images and facts can always be traced back.
 
@@ -285,8 +285,11 @@ Each entry includes an overview, a deep dive, a small media gallery, and full so
 276. [Yeoman Navigator / Sport Electronic Plotter (1985)](#yeoman-navigator--sport-electronic-plotter-1985)
     277. [Lyricon / Wind Synthesizer Driver (1977)](#lyricon--wind-synthesizer-driver-1977)
     278. [Fidelity Bridge Challenger (1980)](#fidelity-bridge-challenger-1980)
-    279. [Zeiss REC-100 Field Data Recorder (1980)](#zeiss-rec-100-field-data-recorder-1980)
-    280. [Tamaya Planix Digital Planimeter (1985)](#tamaya-planix-digital-planimeter-1985)
+     279. [Zeiss REC-100 Field Data Recorder (1980)](#zeiss-rec-100-field-data-recorder-1980)
+     280. [Tamaya Planix Digital Planimeter (1985)](#tamaya-planix-digital-planimeter-1985)
+     281. [Scanset XL (1982)](#scanset-xl-1982)
+     282. [HP 64000 Logic Development System (1979)](#hp-64000-logic-development-system-1979)
+     283. [Tektronix 11401 Digitizing Oscilloscope (1986)](#tektronix-11401-digitizing-oscilloscope-1986)
   
 ---
 
@@ -12667,3 +12670,84 @@ The interaction is a slow, careful physical gesture made legible as a rising num
 
 1. Wikimedia Commons — File:Planimeter_Tamaya_Planix_7.jpg (Public Domain) — https://commons.wikimedia.org/wiki/File:Planimeter_Tamaya_Planix_7.jpg
 2. Tamaya Planix instruction manual (Planix 5 / Planix 7) — https://commons.wikimedia.org/wiki/Category:Planimeters
+
+## Scanset XL (1982)
+
+**By:** Scanset Inc. / Tymshare Inc. (Cupertino, CA)
+**Tags:** `HCI` `Terminal` `Telephony` `Online Services` `Soft Keys`
+
+The Scanset XL is a compact "personal information terminal" announced around 1982 by Scanset Inc., a California computer-services firm associated with Tymshare Inc. (Cupertino, CA). It combined a telephone and a computer terminal in a single 15-pound unit: plugging it into any existing phone jack gave a home or small-business user access to over 1,000 online databases "almost as easy as using a telephone." It handled automatic speed dialing (even through long-distance systems with long access codes) and ran telephone and computer functions simultaneously to support phone conferences with live displays such as sales charts or forecasts. An optional external printer captured retrieved data.
+
+The Scanset XL is the museum's first consumer telephone-computer convergence terminal, and its clearest artifact of the phone-and-screen world the web later made invisible.
+
+* **Telephone and screen as one thing.** The unit's pitch was that tapping databases should be as easy as making a phone call, and the hardware honored that: the same box held dialing/speed-dial functions and the computer screen, with data and voice sharing the connection. A user could look at a sales chart on screen while talking on the phone — a "conference call with a display."
+* **On-screen-labeled soft keys.** A keyboard slightly smaller than a conventional typewriter sat beside four cursor controls and six multifunction buttons whose uses were labeled at the bottom of the screen depending on the program. This soft-key surface — controls redefined by software, with their meaning drawn on the display — is the same principle as professional instruments of the era (TNC 110, HP 64000) but applied to a consumer online terminal, giving a small physical keyboard the reach of a much larger menu system.
+
+**Team:**
+* **Scanset Inc.** Developer of the Scanset XL terminal.
+* **Tymshare Inc.** California computer-services firm associated with distributing the Scanset XL (Cupertino, CA).
+
+### Media
+
+![Scanset XL personal information terminal](../assets/wiki/scanset-xl-terminal.jpg)
+*Scanset XL personal information terminal. Wikimedia Commons, CC BY-SA 4.0 (AltairBinx).*
+
+### Sources
+
+1. UPI Archives — NEW PRODUCTS ON THE MARKET (Dec 15, 1982) — https://www.upi.com/Archives/1982/12/15/NEW-PRODUCTS-ON-THE-MARKET/4928408776400/
+2. Wikimedia Commons — File:Scanset_XL_Terminal.jpg (CC BY-SA 4.0) — https://commons.wikimedia.org/wiki/File:Scanset_XL_Terminal.jpg
+
+## HP 64000 Logic Development System (1979)
+
+**By:** Hewlett-Packard Logic Systems Division
+**Tags:** `HCI` `Development System` `Soft Keys` `Front Panel` `Microprocessor Tools`
+
+The HP 64000 Logic Development System, introduced 17 September 1979, was Hewlett-Packard's tool for developing hardware and software for products based on commercial microprocessors from a variety of manufacturers. Unlike most microprocessor development systems of the day (Intel Intellec, Motorola EXORciser), it was not dedicated to one manufacturer's chips, and it was designed so up to six workstations could connect via the HP-IB (IEEE-488) instrumentation bus to a shared hard drive and printer as a tightly integrated network.
+
+Its distinctive HCI detail is the software-defined front panel. On the 64100A desktop workstation, a column of unlabelled "logo key" / soft function keys beside the full keyboard had their labels drawn on the CRT by the operating system; the operator pressed the key under its on-screen label, so the machine's control rows were redefined continuously by the current software state.
+
+* **Soft keys as a software-controlled front panel.** The 64100A's CRT rendered the labels for a column of function keys; as the operating system's mode changed, the labels changed, and the operator pressed the physical key beneath the on-screen label to execute the drawn command. This made the instrument's control surface reconfigurable by software rather than fixed by etched legends — the same principle behind TNC 110's labeled function keys and the Scanset XL's on-screen-labeled buttons, in a professional multi-vendor development tool. A direct ancestor of the GUI's context menus.
+* **A networked development instrument.** The HP 64000 treated a bench instrument as a networked workstation, moving between software development (assemblers, Pascal and C compilers), in-circuit emulation, logic analysis, and PROM programming within one integrated environment.
+
+**Team:**
+* **Hewlett-Packard Logic Systems Division.** Developer of the HP 64000 and 64100A workstation.
+
+### Media
+
+![HP 64100A Logic Development System](../assets/wiki/hp64100a-logic-development-system.png)
+*HP 64100A Logic Development System debugging a microprocessor. Wikimedia Commons, CC BY-SA 4.0 (TimInHamilton).*
+
+![HP 64000 rack system](../assets/wiki/hp64000-rack.jpg)
+*HP 64000 rack system. Wikimedia Commons, CC BY 2.0 (Paul Downey).*
+
+### Sources
+
+1. Wikipedia — HP 64000 — https://en.wikipedia.org/wiki/HP_64000
+2. Wikimedia Commons — Category:Hewlett-Packard HP64000 — https://commons.wikimedia.org/wiki/Category:Hewlett-Packard_HP64000
+3. Hewlett-Packard Journal, Oct 1980 (Bitsavers archive) — https://bitsavers.org/test_equipment/hp/64000/
+
+## Tektronix 11401 Digitizing Oscilloscope (1986)
+
+**By:** Tektronix (Beaverton, OR)
+**Tags:** `HCI` `Scientific Instrument` `Touchscreen` `Front Panel` `Digitizing Oscilloscope`
+
+The Tektronix 11401 digitizing oscilloscope and its siblings the 11402 (1 GHz) and 11403 (3 GHz color, 1989) replaced the 7K series in 1986 with a completely refreshed user interface built around "a touch screen and menu system." As the vintageTEK museum describes it, "As such there are few controls on the mainframe or plug-ins." Where earlier scopes were walls of knobs and buttons, the 11K-series operator steered nearly everything through a touchscreen and on-screen menus around a large display, with a small set of dedicated knobs and bezel soft-keys.
+
+The interaction model is the museum's clearest "instrument front panel as graphical interface" — a laboratory tool whose operating surface was software-defined by touch, a decade and a half before touchscreens reached consumer gadgets.
+
+* **The front panel that became a GUI.** The 11401 reduced the physical control surface to a near-blank face: a display surrounded by a few soft-keys and dedicated knobs, with channel, trigger, and measurement setup driven from on-screen touch menus. The operator negotiates the machine through a touchscreen rather than a fixed array of switches — the same philosophical leap that turned telephone exchanges, cash registers, and later cars into software-defined devices.
+* **From 7854 to 11401.** Tektronix's 7854 (already in the museum) bolted a Reverse-Polish-Notation waveform keyboard onto an analog scope; the 11401 went further and replaced the fixed panel with a touchscreen menu system. The pair bookend the transition from discrete-symbolic controls (knobs + RPN keyboard) to direct-manipulation graphical instrumentation, sharing the same project lineage under project manager Tom Rousseau.
+
+**Team:**
+* **Tektronix** — manufacturer; project team lead Tom Rousseau (also led the Tektronix 7854), touch-panel lead Murlan Kaufman.
+
+### Media
+
+![Tektronix 11403 touchscreen digitizing oscilloscope](../assets/wiki/tektronix-11403-touchscreen-scope.jpg)
+*Tektronix 11403 digitizing oscilloscope on display at the vintageTEK museum, representative of the 11401/11402/11403 touchscreen interface (vintageTEK museum photo).*
+
+### Sources
+
+1. vintageTEK Museum — 11403 Digitizing Oscilloscope — https://vintagetek.org/11403-digitizing-oscilloscope/
+2. TekWiki — 11401 — https://w140.com/tekwiki/wiki/11401
+3. TekWiki — 11000 series — https://w140.com/tekwiki/wiki/11000_series

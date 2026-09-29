@@ -3506,6 +3506,45 @@ const exhibitData: Exhibit[] = [
     tags: ["HCI", "Input", "Drafting", "Measuring", "Digital"],
     image: img("tamaya-planix7.jpg"),
   },
+  {
+    id: "scanset-xl",
+    slug: "scanset-xl",
+    wikiTitle: "Scanset XL",
+    year: "1982",
+    sortYear: 1982,
+    title: "Scanset XL",
+    subtitle: "A personal information terminal that fuses a telephone and a computer screen, dialing online databases 'as easy as using a telephone'",
+    blurb:
+      "The Scanset XL (c. 1982) is the museum's first consumer telephone-computer convergence terminal. A compact 15-pound unit from Scanset Inc. (associated with Tymshare, Cupertino CA), it combined a telephone and a computer terminal so that plugging it into any phone jack gave a home or small-business user access to over 1,000 online databases — 'almost as easy as using a telephone.' It handled automatic speed dialing (even through long-distance access codes) and ran telephone and computer functions simultaneously to support phone conferences with live displays such as sales charts or forecasts. Its interface paired a keyboard slightly smaller than a typewriter with four cursor controls and six multifunction buttons whose uses were labeled at the bottom of the screen depending on the program — a soft-key surface defined by software on a consumer online terminal, a decade before the graphical web. An optional printer captured retrieved data.",
+    tags: ["HCI", "Terminal", "Telephony", "Online Services", "Soft Keys"],
+    image: img("scanset-xl-terminal.jpg"),
+  },
+  {
+    id: "hp-64000-logic-development-system",
+    slug: "hp-64000-logic-development-system",
+    wikiTitle: "HP 64000 Logic Development System",
+    year: "1979",
+    sortYear: 1979,
+    title: "HP 64000 Logic Development System",
+    subtitle: "A microprocessor development workstation whose front panel is software — function keys relabeled on the CRT by the operating system",
+    blurb:
+      "The HP 64000 Logic Development System (1979) from Hewlett-Packard's Logic Systems Division is the museum's cleanest example of a professional instrument whose front panel became software. On the 64100A workstation, a column of unlabelled 'logo key' / soft function keys beside the full keyboard had their labels drawn on the CRT by the operating system; the operator pressed the key under its on-screen label, so the machine's control rows were redefined continuously by the current software state. Unlike most microprocessor development systems of the day (Intel Intellec, Motorola EXORciser), it supported a variety of processors, and up to six workstations shared a hard drive and printer over the HP-IB (IEEE-488) bus. It combined assemblers, Pascal and C compilers, in-circuit emulation, logic analysis, and PROM programming in one environment. The soft-key front panel is a direct ancestor of the GUI's context menus.",
+    tags: ["HCI", "Development System", "Soft Keys", "Front Panel", "Microprocessor Tools"],
+    image: img("hp64100a-logic-development-system.png"),
+  },
+  {
+    id: "tektronix-11401-touchscreen-oscilloscope",
+    slug: "tektronix-11401-touchscreen-oscilloscope",
+    wikiTitle: "Tektronix 11401 Digitizing Oscilloscope",
+    year: "1986",
+    sortYear: 1986,
+    title: "Tektronix 11401 Digitizing Oscilloscope",
+    subtitle: "The laboratory oscilloscope whose front panel became a touchscreen menu system — few knobs, the panel itself is software",
+    blurb:
+      "The Tektronix 11401 digitizing oscilloscope and its siblings the 11402 (1 GHz) and 11403 (3 GHz color, 1989) replaced the 7K series in 1986 with 'a touch screen and menu system' and 'few controls on the mainframe or plug-ins.' Where earlier scopes were walls of knobs and buttons, the 11K-series operator steered nearly everything through a touchscreen and on-screen menus around a large display — the museum's clearest 'instrument front panel as graphical interface,' a decade and a half before touchscreens reached consumer gadgets. It pairs with the museum's Tektronix 7854 (a knob-and-soft-key computer scope, also led by Tom Rousseau) as the two poles of reconfigurable-instrument HCI; assistant project manager Murlan Kaufman was specifically the person responsible for the touch panel and display.",
+    tags: ["HCI", "Scientific Instrument", "Touchscreen", "Front Panel", "Digitizing Oscilloscope"],
+    image: img("tektronix-11403-touchscreen-scope.jpg"),
+  },
 ];
 
 export const exhibits: Exhibit[] = exhibitData.toSorted((a, b) => b.sortYear - a.sortYear || a.title.localeCompare(b.title));
