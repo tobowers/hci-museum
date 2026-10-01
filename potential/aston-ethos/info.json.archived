@@ -1,0 +1,39 @@
+{
+  "slug": "aston-ethos",
+  "title": "Aston Ethos Character Generator (c. 1990)",
+  "year": "1990",
+  "subtitle": "A dedicated broadcast on-screen-titles keyboard whose operator console hides an integrated trackball and a map of memorized function keys — software rendered as a specialist's embodied craft",
+  "why_scout_cares": "The museum's first broadcast character-generator console and its clearest dedicated-trade keyboard with an integrated pointing device. The operator composes and fires live television titles from a custom desk-mounted console that connects back to a central rack mainframe over video cabling — a fully embodied expert-skills interface ('no on-screen help', memorized function keys, integrated trackball) that has to be 'worked' under live broadcast pressure. 'Aston' became a genericised trademark for on-screen TV titles.",
+  "search_terms": ["Aston Ethos character generator", "Aston 4 broadcast keyboard", "Aston Broadcast Systems CG", "character generator trackball keyboard", "Aston broadcast titles history"],
+  "research": {
+    "title": "Aston Ethos Character Generator",
+    "year": "1990",
+    "by": "Aston Broadcast Systems Ltd, UK",
+    "tags": ["HCI", "Broadcast", "Character Generator", "Dedicated Keyboard", "Trade Interface"],
+    "overview": "The Aston Ethos is a broadcast character generator from Aston Broadcast Systems Ltd (UK), one of the later models in the company's CG line that dominated British television captioning from the 1970s through the 1990s. An Aston CG renders the on-screen titles and text (lower-thirds, sports scoring, news captions) you see on television. The operator works at a large custom desk-mounted keyboard console that connects back to the central rack-mounted mainframe over standard video cabling, so the console could be wheeled into any studio control room. The console combines a full QWERTY section with an array of dedicated function keys (line spacing, letter spacing, positioning) and an integrated trackball for cursor positioning and menu navigation. It is a fully keyboard-driven, trade-specific surface — the engineers' term was 'no on-screen help'; operators memorized the function-key map. Aston is notable for becoming a genericised trademark in UK television: on-air titles are still colloquially called 'Astons', and 'Aston on / Aston off' is command-room slang.",
+    "deepDive": [
+      {"heading": "A software-defined surface made physical", "text": "The Aston operator console shows a broadcast trade rendered as embodied craft. The specialist composes text on a preview monitor, applies attributes (font, size, color, justification, flash, rolls, crawls) via dedicated function keys, stores pages to memory or to a portable 5.25-inch floppy drive that could be plugged into the keyboard, sequences them, and triggers them live for on-air keying. Output is anti-aliased text plus a key (alpha) signal to the vision mixer. Granada engineer Martin Kay analogized the skill to a Steadicam operator: a specialist discipline where you 'just got shouted at if you couldn't find the caption with a player's name fast enough after they'd scored a goal.'"},
+      {"heading": "The integrated trackball", "text": "The console's integrated trackball is the museum-relevant detail: a pointing device embedded in a dedicated text-production keyboard, used to position the cursor and navigate menus. It makes the Aston a physical ancestor of the modern 'keyboard with a built-in pointing surface,' but in a wholly trade-specific, high-pressure live-broadcast context — the cursor is steered against a running clock and a vision-mixer countdown."},
+      {"heading": "Lineage and legacy", "text": "Aston descended from Aston Micro-Electronics (c. 1969, Aston, Birmingham), through the VNG1 number generator and the VCG1 (1974, the first Aston video character generator), then the Aston 2 (1980), Aston 3 (1981), and Aston 4 (1985, 'the last to be named in this way'). The Ethos belongs to the c. 1990 era alongside the Aston Motif (launched 1991). Aston won a Queen's Award for Export Achievement in 1982 for the Aston 3/4. The company became Aston Broadcast Systems, was acquired by Softel in 2001, then Brainstorm Multimedia in 2009. Users included the BBC, ITV (Granada), and German broadcasters such as NDR; British snooker coverage in the early 1990s used Aston systems for live scoring and captions."}
+    ],
+    "team": [
+      {"name": "Aston Broadcast Systems Ltd, UK", "note": "Manufacturer (formerly Aston Micro-Electronics / Aston Electronic Designs)"},
+      {"name": "Dennis Jones", "note": "Founder of Aston Micro-Electronics (c. 1969)"}
+    ],
+    "media": [
+      {"src": "https://commons.wikimedia.org/wiki/File:Aston_ethos_big.jpg", "alt": "Aston Ethos character generator console with keyboard and monitors", "caption": "Aston Ethos character generator inside a Studio Berlin broadcast truck (photo taken 2005 of a working unit). Photo by Jonas Küpper, CC BY-SA 3.0 / CC BY 2.5."}
+    ],
+    "sources": [
+      {"text": "German Wikipedia — Aston Broadcast Systems (product chronology, integrated trackball)", "url": "http://www.seekgo.de/Aston_Broadcast_Systems.html"},
+      {"text": "Science Museum Group Collection — Aston Broadcast Systems", "url": "https://collection.sciencemuseumgroup.org.uk/people/cp137016/aston-broadcast-systems"},
+      {"text": "Wikipedia — Character generator", "url": "https://en.wikipedia.org/wiki/Character_generator"},
+      {"text": "KitPlus — Aston ON (Bob Pank, 2010)", "url": "https://kitplus.com/articles/aston-on/231"}
+    ],
+    "imageUrls": [
+      "https://upload.wikimedia.org/wikipedia/commons/4/48/Aston_ethos_big.jpg"
+    ]
+  },
+  "savedImages": [
+    "images/aston-ethos-big.jpg"
+  ]
+}

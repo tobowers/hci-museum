@@ -1,0 +1,37 @@
+{
+  "slug": "bandai-lcd-solarpower",
+  "title": "Bandai LCD Solarpower (1982)",
+  "year": "1982",
+  "subtitle": "The first solar-powered gaming devices — no batteries, no AC adapter, the game only runs while you keep it in the light",
+  "why_scout_cares": "The museum's only zero-battery, ambient-light-powered computing device, and its only stacked-panel pseudo-3D display. Where the Tomytronic uses light only to illuminate, the Bandai Solarpower is powered by light itself: the game literally switches off when shadow falls on its solar cells, making light part of the play condition. Its second series stacked two transparent LCD panels to give depth — an early layered-display trick decades ahead of its time.",
+  "search_terms": ["Bandai LCD Solarpower", "solar powered handheld game", "Terror House LCD", "stacked LCD panel 3D", "solar cell gaming device 1982"],
+  "research": {
+    "title": "Bandai LCD Solarpower",
+    "year": "1982",
+    "by": "Bandai Co., Japan",
+    "tags": ["HCI", "Handheld Game", "Solar Power", "Ambient Light", "Layered Display"],
+    "overview": "The Bandai LCD Solarpower series (launched 1982) is the first solar-powered line of gaming devices. Each handheld is powered solely by built-in solar cells fed by ambient light — there are no batteries and no AC adapter. If you move the device into shadow, the game stops; light itself is part of the play condition, a striking contrast to devices that merely use light to illuminate a screen. The displays are custom segmented LCDs rather than pixel matrices. A later 'double-panel' sub-series (Terror House, Frankenstein) stacked two overlapping transparent LCD panels on top of each other to produce a layered pseudo-3D depth effect, anticipating stacked/stereoscopic displays.",
+    "deepDive": [
+      {"heading": "Powered by the sun, not by electrons", "text": "The Solarpower series inverted the power contract of an electronic game. Instead of a battery holding charge and draining, the device held none — it ran live off incoming light. This makes light a game condition in the most literal sense: shadowing the solar cell turns the game off. It is an escape-from-battery, zero-energy interaction model that remains essentially unique in the history of consumer electronics, and it places energy economics inside the play experience itself."},
+      {"heading": "The stacked-panel 3D trick", "text": "The double-panel Solarpower titles (for example Terror House and Frankenstein) achieved a layered pseudo-3D effect by stacking two transparent LCD panels on top of each other. The front panel carries the near plane and the rear panel the background, so characters appear to move against a distinct depth layer. This is a mechanical, physical attempt at depth that predates more elaborate stereoscopic approaches — a transparent-planes display philosophy decades before volumetric or layered-display research."},
+      {"heading": "A catalog of titles", "text": "The series spanned numerous dedicated single-game units including Airport Panic, Sub Attack, Break Out, Shark Island, Invaders of the Mummy's Tomb, Amazone, Escape from the Devil's Doom, and the layered titles Terror House and Frankenstein, among others. The second double-panel wave extended the line into the mid-1980s."}
+    ],
+    "team": [
+      {"name": "Bandai Co., Japan", "note": "Manufacturer"}
+    ],
+    "media": [
+      {"src": "https://commons.wikimedia.org/wiki/File:Bandai_LCD_Solarpower.jpg", "alt": "Bandai LCD Solarpower handheld game", "caption": "Bandai LCD Solarpower handheld game. Photo by Chester via Flickr, CC BY 2.0."}
+    ],
+    "sources": [
+      {"text": "Wikipedia — Bandai LCD Solarpower", "url": "https://en.wikipedia.org/wiki/Bandai_LCD_Solarpower"},
+      {"text": "Wikipedia — Handheld electronic game (Bandai LCD Solarpower)", "url": "https://en.wikipedia.org/wiki/Handheld_electronic_game#Bandai_LCD_Solarpower"},
+      {"text": "Wikimedia Commons — Category:Bandai LCD Solarpower", "url": "https://commons.wikimedia.org/wiki/Category:Bandai_LCD_Solarpower"}
+    ],
+    "imageUrls": [
+      "https://upload.wikimedia.org/wikipedia/commons/0/0f/Bandai_LCD_Solarpower.jpg"
+    ]
+  },
+  "savedImages": [
+    "images/bandai-lcd-solarpower.jpg"
+  ]
+}

@@ -1,0 +1,42 @@
+{
+  "slug": "tomytronic-3d",
+  "title": "Tomytronic 3D (1983)",
+  "year": "1983",
+  "subtitle": "A handheld binocular stereoscopic viewer whose twin LCD panels have no backlight — depth materializes only when you raise it to both eyes in ambient light",
+  "why_scout_cares": "The museum's only ambient-light-powered, fully-embodied stereoscopic display. Unlike the Vectrex 3D Imager (active-shutter, self-lit CRT) and Sega SubRoc-3D (spinning-shutter periscope, self-lit CRT), the Tomytronic is a light-fed binocular that shows nothing until you hold it to your face — the depth literally does not exist without the embodied binocular posture. A bridge from the physical stereoscope to headset VR.",
+  "search_terms": ["Tomytronic 3D", "Tomy binocular stereoscopic handheld", "US4561723 binocular video game", "Tandy Sky Duel", "stereoscopic LCD twin panel"],
+  "research": {
+    "title": "Tomytronic 3D",
+    "year": "1983",
+    "by": "Tomy (Tomy Kogyo Co., Japan)",
+    "tags": ["HCI", "Stereoscopic Display", "Handheld Game", "Embodied Viewing", "Ambient Light"],
+    "overview": "The Tomytronic 3D (1983) is a handheld binocular-shaped video-game viewer made by Tomy. You hold it up to both eyes like field binoculars; inside, two separate LCD panels — one per eye — display slightly different parallax images of the same scene, driven by a single microprocessor, to produce a true stereoscopic depth illusion. The defining detail is power: there is no backlight and no internal light source. The twin panels are lit purely by ambient light entering through a window on the top of the housing, so the 3D image only 'materializes' when you bring the binoculars to your face in adequate room light. A neck strap lets the unit hang when idle; it weighs roughly 500 g.",
+    "deepDive": [
+      {"heading": "Embodied stereoscopy", "text": "The Tomytronic sits at the meeting point of the 19th-century stereoscope and the electronic game. The parallax between the two LCD scenes produces binocular depth (stereopsis), but the illusion depends on the observer raising the whole unit to both eyes. Because the displays are light-fed rather than self-illuminated, the depth is genuinely absent until the embodied binocular posture plus adequate room light are both satisfied. Tomy's own utility patent US4561723 (inventor Masayuki Ohno, filed April 1983) describes the 'binocular-type video game apparatus' with two LCD screens, one per eye, driven by a single microprocessor, and a design patent USD281888 protects the binocular-shaped housing with its central grip and twin eyepieces."},
+      {"heading": "The games", "text": "Each unit was a dedicated single-game console — you buy a different physical unit per game. Seven titles were released: Skyfighters (licensed to Tandy as the Tandy Sky Duel), Thundering Turbo, Sky Attack, Shark Attack, Planet Zeon (Space Attack), and the Japan-only rarities Jungle Fighter and Sherman Attack. Regional names varied widely. The series is often cited as the first dedicated home video-3D hardware, and it is directly comparable to — but technically distinct from — the active-shutter Vectrex 3D Imager and the spinning-shutter periscope of the Sega SubRoc-3D, both also in the museum."},
+      {"heading": "A physical stereoscope for the electronic age", "text": "The Tomytronic anticipates the ergonomics of head-mounted displays without a headset: you don a display by lifting it to your face. But where a modern headset has self-illuminated optics, the Tomytronic depends entirely on ambient light — a passive, light-fed optical system. It is the 'physical stereoscope meets electronic game' bridge, and it makes the act of viewing an embodied, light-dependent ritual rather than a default state."}
+    ],
+    "team": [
+      {"name": "Tomy (Tomy Kogyo Co., Japan)", "note": "Manufacturer"},
+      {"name": "Masayuki Ohno", "note": "Inventor named on US4561723 and USD281888"}
+    ],
+    "media": [
+      {"src": "https://commons.wikimedia.org/wiki/File:Tomytronic_3-D_Thundering_Turbo_by_Tomy,_No._7617,_Made_In_Japan,_Circa_1983_(3-D_Electronic_Handheld_Game)_stereo_viewer.jpg", "alt": "Tomytronic 3D Thundering Turbo handheld binocular viewer", "caption": "Tomytronic 3-D Thundering Turbo (No. 7617, made in Japan, c. 1983). Photo by Joe Haupt via Flickr, CC BY-SA 2.0."},
+      {"src": "https://commons.wikimedia.org/wiki/File:Tomytronic_3-D_Thundering_Turbo_by_Tomy,_No._7617,_Made_In_Japan,_Circa_1983_(3-D_Electronic_Handheld_Game)_rear.jpg", "alt": "Rear view of the Tomytronic 3D showing the top light window", "caption": "Rear view of the Tomytronic 3D, showing the top light window that admits ambient light to the twin LCD panels. Photo by Joe Haupt via Flickr, CC BY-SA 2.0."}
+    ],
+    "sources": [
+      {"text": "Wikipedia — Tomytronic 3D", "url": "https://en.wikipedia.org/wiki/Tomytronic_3D"},
+      {"text": "Google Patents — US4561723A (Binocular-type video game apparatus, Tomy)", "url": "https://patents.google.com/patent/US4561723A/en"},
+      {"text": "Google Patents — USD281888 (Electronic game apparatus housing)", "url": "https://patents.google.com/patent/USD281888/en"},
+      {"text": "The Electronic Handheld Game Museum — Tomy 3D", "url": "https://www.handheldmuseum.com/Tomy/3D.htm"}
+    ],
+    "imageUrls": [
+      "https://upload.wikimedia.org/wikipedia/commons/6/66/Tomytronic_3-D_Thundering_Turbo_by_Tomy%2C_No._7617%2C_Made_In_Japan%2C_Circa_1983_%283-D_Electronic_Handheld_Game%29_stereo_viewer.jpg",
+      "https://upload.wikimedia.org/wikipedia/commons/9/91/Tomytronic_3-D_Thundering_Turbo_by_Tomy%2C_No._7617%2C_Made_In_Japan%2C_Circa_1983_%283-D_Electronic_Handheld_Game%29_rear.jpg"
+    ]
+  },
+  "savedImages": [
+    "images/tomytronic-3d-stereo-viewer.jpg",
+    "images/tomytronic-3d-rear.jpg"
+  ]
+}

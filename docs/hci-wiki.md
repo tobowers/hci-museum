@@ -1,6 +1,6 @@
 # The HCI Golden Age Wiki
 
-A research compendium for a digital museum of cutting-edge Human-Computer Interaction from the late 1970s through the early 1990s. These two hundred and eighty-three projects mix canonical experiments with weird, forgotten, and beautiful vaporware — brain control, voice control, gesture, wearable computing, VR, robots, and full-body exertion.
+A research compendium for a digital museum of cutting-edge Human-Computer Interaction from the late 1970s through the early 1990s. These two hundred and eighty-six projects mix canonical experiments with weird, forgotten, and beautiful vaporware — brain control, voice control, gesture, wearable computing, VR, robots, and full-body exertion.
 
 Each entry includes an overview, a deep dive, a small media gallery, and full source links so the images and facts can always be traced back.
 
@@ -290,6 +290,9 @@ Each entry includes an overview, a deep dive, a small media gallery, and full so
      281. [Scanset XL (1982)](#scanset-xl-1982)
      282. [HP 64000 Logic Development System (1979)](#hp-64000-logic-development-system-1979)
      283. [Tektronix 11401 Digitizing Oscilloscope (1986)](#tektronix-11401-digitizing-oscilloscope-1986)
+     284. [Tomytronic 3D (1983)](#tomytronic-3d-1983)
+     285. [Bandai LCD Solarpower (1982)](#bandai-lcd-solarpower-1982)
+     286. [Aston Ethos Character Generator (c. 1990)](#aston-ethos-character-generator-c-1990)
   
 ---
 
@@ -12751,3 +12754,85 @@ The interaction model is the museum's clearest "instrument front panel as graphi
 1. vintageTEK Museum — 11403 Digitizing Oscilloscope — https://vintagetek.org/11403-digitizing-oscilloscope/
 2. TekWiki — 11401 — https://w140.com/tekwiki/wiki/11401
 3. TekWiki — 11000 series — https://w140.com/tekwiki/wiki/11000_series
+
+## Tomytronic 3D (1983)
+
+**By:** Tomy (Tomy Kogyo Co., Japan)
+**Tags:** `HCI` `Stereoscopic Display` `Handheld Game` `Embodied Viewing` `Ambient Light`
+
+The Tomytronic 3D (1983) is a handheld binocular-shaped video-game viewer made by Tomy. You hold it up to both eyes like field binoculars; inside, two separate LCD panels — one per eye — display slightly different parallax images of the same scene, driven by a single microprocessor, to produce a true stereoscopic depth illusion. The defining detail is power: there is no backlight and no internal light source. The twin panels are lit purely by ambient light entering through a window on the top of the housing, so the 3D image only "materializes" when you bring the binoculars to your face in adequate room light. A neck strap lets the unit hang when idle; it weighs roughly 500 g.
+
+* **Embodied stereoscopy.** The Tomytronic sits at the meeting point of the 19th-century stereoscope and the electronic game. Because the displays are light-fed rather than self-illuminated, the depth is genuinely absent until the embodied binocular posture plus adequate room light are both satisfied. Tomy's own utility patent US4561723 (inventor Masayuki Ohno, filed April 1983) describes the "binocular-type video game apparatus" with two LCD screens, one per eye, driven by a single microprocessor; a design patent USD281888 protects the binocular-shaped housing.
+* **The games.** Each unit was a dedicated single-game console — you buy a different physical unit per game. Seven titles were released: Skyfighters (licensed to Tandy as the Tandy Sky Duel), Thundering Turbo, Sky Attack, Shark Attack, Planet Zeon (Space Attack), and the Japan-only rarities Jungle Fighter and Sherman Attack. The series is often cited as the first dedicated home video-3D hardware.
+* **A physical stereoscope for the electronic age.** The Tomytronic anticipates the ergonomics of head-mounted displays without a headset: you don a display by lifting it to your face. But where a modern headset has self-illuminated optics, the Tomytronic depends entirely on ambient light — the act of viewing becomes an embodied, light-dependent ritual. It is the museum's counterpoint to the Vectrex 3D Imager (active-shutter, self-lit CRT) and the Sega SubRoc-3D (spinning-shutter periscope, self-lit CRT): the only one of the three that is light-powered and fully embodied.
+
+**Team:**
+* **Tomy (Tomy Kogyo Co., Japan)** — manufacturer.
+* **Masayuki Ohno** — inventor named on US4561723 and USD281888.
+
+### Media
+
+![Tomytronic 3D Thundering Turbo handheld binocular viewer](../assets/wiki/tomytronic-3d-stereo-viewer.jpg)
+*Tomytronic 3-D Thundering Turbo (No. 7617, made in Japan, c. 1983). Photo by Joe Haupt via Flickr, CC BY-SA 2.0.*
+
+![Tomytronic 3D rear view showing the top light window](../assets/wiki/tomytronic-3d-rear.jpg)
+*Rear view of the Tomytronic 3D, showing the top light window that admits ambient light to the twin LCD panels. Photo by Joe Haupt via Flickr, CC BY-SA 2.0.*
+
+### Sources
+
+1. Wikipedia — Tomytronic 3D — https://en.wikipedia.org/wiki/Tomytronic_3D
+2. Google Patents — US4561723A (Binocular-type video game apparatus, Tomy) — https://patents.google.com/patent/US4561723A/en
+3. Google Patents — USD281888 (Electronic game apparatus housing) — https://patents.google.com/patent/USD281888/en
+4. The Electronic Handheld Game Museum — Tomy 3D — https://www.handheldmuseum.com/Tomy/3D.htm
+
+## Bandai LCD Solarpower (1982)
+
+**By:** Bandai Co., Japan
+**Tags:** `HCI` `Handheld Game` `Solar Power` `Ambient Light` `Layered Display`
+
+The Bandai LCD Solarpower series (launched 1982) is the first solar-powered line of gaming devices. Each handheld is powered solely by built-in solar cells fed by ambient light — there are no batteries and no AC adapter. If you move the device into shadow, the game stops; light itself is part of the play condition, a striking contrast to devices that merely use light to illuminate a screen. The displays are custom segmented LCDs rather than pixel matrices.
+
+* **Powered by the sun, not by electrons.** The Solarpower series inverted the power contract of an electronic game. Instead of a battery holding charge and draining, the device held none — it ran live off incoming light. This makes light a game condition in the most literal sense: shadowing the solar cell turns the game off. It is an escape-from-battery, zero-energy interaction model that remains essentially unique in the history of consumer electronics, placing energy economics inside the play experience itself.
+* **The stacked-panel 3D trick.** A later "double-panel" sub-series (for example Terror House and Frankenstein) achieved a layered pseudo-3D effect by stacking two transparent LCD panels on top of each other — the front panel carries the near plane and the rear panel the background, so characters appear to move against a distinct depth layer. This is a transparent-planes display philosophy decades before volumetric or layered-display research, and it pairs with the museum's Tomytronic 3D as two different ways of getting depth out of consumer LCDs.
+* **A catalog of titles.** The series spanned many dedicated single-game units including Airport Panic, Sub Attack, Break Out, Shark Island, Invaders of the Mummy's Tomb, Amazone, Escape from the Devil's Doom, and the layered titles Terror House and Frankenstein, among others, with a second double-panel wave extending into the mid-1980s.
+
+**Team:**
+* **Bandai Co., Japan** — manufacturer.
+
+### Media
+
+![Bandai LCD Solarpower handheld game](../assets/wiki/bandai-lcd-solarpower.jpg)
+*Bandai LCD Solarpower handheld game. Photo by Chester via Flickr, CC BY 2.0.*
+
+### Sources
+
+1. Wikipedia — Bandai LCD Solarpower — https://en.wikipedia.org/wiki/Bandai_LCD_Solarpower
+2. Wikipedia — Handheld electronic game (Bandai LCD Solarpower) — https://en.wikipedia.org/wiki/Handheld_electronic_game#Bandai_LCD_Solarpower
+3. Wikimedia Commons — Category:Bandai LCD Solarpower — https://commons.wikimedia.org/wiki/Category:Bandai_LCD_Solarpower
+
+## Aston Ethos Character Generator (c. 1990)
+
+**By:** Aston Broadcast Systems Ltd, UK
+**Tags:** `HCI` `Broadcast` `Character Generator` `Dedicated Keyboard` `Trade Interface`
+
+The Aston Ethos is a broadcast character generator from Aston Broadcast Systems Ltd (UK), one of the later models in the company's CG line that dominated British television captioning from the 1970s through the 1990s. An Aston CG renders the on-screen titles and text (lower-thirds, sports scoring, news captions) you see on television. The operator works at a large custom desk-mounted keyboard console that connects back to the central rack-mounted mainframe over standard video cabling, so the console could be wheeled into any studio control room.
+
+* **A software-defined surface made physical.** The operator console combines a full QWERTY section with an array of dedicated function keys (line spacing, letter spacing, positioning) and an integrated trackball for cursor positioning and menu navigation. It is a fully keyboard-driven, trade-specific surface — the engineers' term was "no on-screen help"; operators memorized the function-key map. Granada engineer Martin Kay analogized the skill to a Steadicam operator: a specialist discipline where you "just got shouted at if you couldn't find the caption with a player's name fast enough after they'd scored a goal."
+* **The integrated trackball.** The console's embedded trackball is the museum-relevant detail: a pointing device built into a dedicated text-production keyboard, used to position the cursor and navigate menus. It is a physical ancestor of the modern "keyboard with a built-in pointing surface," but in a wholly trade-specific, high-pressure live-broadcast context — the cursor is steered against a running clock and a vision-mixer countdown.
+* **Lineage and legacy.** Aston descended from Aston Micro-Electronics (c. 1969, Aston, Birmingham), through the VNG1 number generator and the VCG1 (1974, the first Aston video character generator), then the Aston 2 (1980), Aston 3 (1981), and Aston 4 (1985). The Ethos belongs to the c. 1990 era alongside the Aston Motif (1991). Aston won a Queen's Award for Export Achievement in 1982 and became a genericised trademark in UK television — on-air titles are still colloquially called "Astons," and "Aston on / Aston off" is command-room slang. Users included the BBC, ITV (Granada), and German broadcasters such as NDR.
+
+**Team:**
+* **Aston Broadcast Systems Ltd, UK** — manufacturer (formerly Aston Micro-Electronics / Aston Electronic Designs).
+* **Dennis Jones** — founder of Aston Micro-Electronics (c. 1969).
+
+### Media
+
+![Aston Ethos character generator console with keyboard and monitors](../assets/wiki/aston-ethos-big.jpg)
+*Aston Ethos character generator inside a Studio Berlin broadcast truck (photo taken 2005 of a working unit). Photo by Jonas Küpper, CC BY-SA 3.0 / CC BY 2.5.*
+
+### Sources
+
+1. German Wikipedia — Aston Broadcast Systems (product chronology, integrated trackball) — http://www.seekgo.de/Aston_Broadcast_Systems.html
+2. Science Museum Group Collection — Aston Broadcast Systems — https://collection.sciencemuseumgroup.org.uk/people/cp137016/aston-broadcast-systems
+3. Wikipedia — Character generator — https://en.wikipedia.org/wiki/Character_generator
+4. KitPlus — Aston ON (Bob Pank, 2010) — https://kitplus.com/articles/aston-on/231

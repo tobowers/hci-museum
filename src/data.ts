@@ -3545,6 +3545,45 @@ const exhibitData: Exhibit[] = [
     tags: ["HCI", "Scientific Instrument", "Touchscreen", "Front Panel", "Digitizing Oscilloscope"],
     image: img("tektronix-11403-touchscreen-scope.jpg"),
   },
+  {
+    id: "tomytronic-3d",
+    slug: "tomytronic-3d",
+    wikiTitle: "Tomytronic 3D (1983)",
+    year: "1983",
+    sortYear: 1983,
+    title: "Tomytronic 3D",
+    subtitle: "A handheld binocular stereoscopic viewer whose twin LCD panels have no backlight — depth materializes only when you raise it to both eyes in ambient light",
+    blurb:
+      "The Tomytronic 3D (1983) is Tomy's handheld binocular video-game viewer: two separate LCD panels, one per eye, driven by a single microprocessor to display slightly different parallax images of the same scene. The defining detail is power — there is no backlight and no internal light source; the twin panels are lit purely by ambient light entering through a window on the top of the housing. The stereoscopic depth only 'materializes' when you bring the binoculars to your face in adequate room light, making the act of viewing an embodied, light-dependent ritual. It is the museum's counterpoint to the Vectrex 3D Imager (active-shutter, self-lit CRT) and the Sega SubRoc-3D (spinning-shutter periscope, self-lit CRT): the only one of the three that is light-powered and fully embodied. Seven dedicated single-game units were released, including Skyfighters (licensed to Tandy as the Tandy Sky Duel), Thundering Turbo, and Shark Attack.",
+    tags: ["HCI", "Stereoscopic Display", "Handheld Game", "Embodied Viewing", "Ambient Light"],
+    image: img("tomytronic-3d-stereo-viewer.jpg"),
+  },
+  {
+    id: "bandai-lcd-solarpower",
+    slug: "bandai-lcd-solarpower",
+    wikiTitle: "Bandai LCD Solarpower (1982)",
+    year: "1982",
+    sortYear: 1982,
+    title: "Bandai LCD Solarpower",
+    subtitle: "The first solar-powered gaming devices — no batteries, no AC adapter, the game only runs while you keep it in the light",
+    blurb:
+      "The Bandai LCD Solarpower series (1982) is the first solar-powered line of gaming devices. Each handheld is powered solely by built-in solar cells fed by ambient light — no batteries, no AC adapter. Move the device into shadow and the game stops; light itself is part of the play condition. A later 'double-panel' sub-series (Terror House, Frankenstein) achieved a layered pseudo-3D effect by stacking two transparent LCD panels on top of each other, with the front panel carrying the near plane and the rear panel the background. It is an escape-from-battery, zero-energy interaction model that remains essentially unique in consumer electronics, pairing with the museum's Tomytronic 3D as two different ways of getting depth and energy out of ambient light.",
+    tags: ["HCI", "Handheld Game", "Solar Power", "Ambient Light", "Layered Display"],
+    image: img("bandai-lcd-solarpower.jpg"),
+  },
+  {
+    id: "aston-ethos",
+    slug: "aston-ethos",
+    wikiTitle: "Aston Ethos Character Generator (c. 1990)",
+    year: "c. 1990",
+    sortYear: 1990,
+    title: "Aston Ethos Character Generator",
+    subtitle: "A dedicated broadcast on-screen-titles keyboard whose operator console hides an integrated trackball and a map of memorized function keys",
+    blurb:
+      "The Aston Ethos (c. 1990) is a broadcast character generator from Aston Broadcast Systems Ltd (UK), the company whose CGs dominated British television captioning from the 1970s through the 1990s. The operator composes and fires live television titles from a large custom desk-mounted keyboard console that connects back to a central rack mainframe over standard video cabling. The console combines a full QWERTY section with an array of dedicated function keys (line spacing, letter spacing, positioning) and an integrated trackball for cursor positioning and menu navigation — a fully keyboard-driven, trade-specific surface with 'no on-screen help,' where operators memorized the function-key map and worked under live broadcast pressure. Aston became a genericised trademark in UK television: on-air titles are still called 'Astons.' It is the museum's first broadcast character-generator console and its clearest dedicated-trade keyboard with an embedded pointing device.",
+    tags: ["HCI", "Broadcast", "Character Generator", "Dedicated Keyboard", "Trade Interface"],
+    image: img("aston-ethos-big.jpg"),
+  },
 ];
 
 export const exhibits: Exhibit[] = exhibitData.toSorted((a, b) => b.sortYear - a.sortYear || a.title.localeCompare(b.title));
