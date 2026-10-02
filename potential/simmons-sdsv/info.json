@@ -1,0 +1,51 @@
+{
+  "slug": "simmons-sdsv",
+  "title": "Simmons SDSV Electronic Drum",
+  "year": "1981",
+  "subtitle": "The first viable electronic drum kit, whose solid riot-shield-plastic hexagon pads are struck to drive analog synth modules — a sensor-first playing surface with no acoustic shell",
+  "why_scout_cares": "The SDSV is the museum's clearest sensor-first musical instrument: acoustic drums are a resonant shell the player excites, but the SDSV's pads are solid hexagon slabs of police-riot-shield plastic with piezo transducers on the underside, converting strike impact directly into control signals that drive analog synthesis modules. Because the pads have no real acoustic 'give,' drummers famously suffered wrist and elbow ache — an embodied, physical consequence of replacing a sounding body with a sensing surface. It is the first viable electronic replacement for acoustic drums, was played (on a Roland MC-8-triggered prototype) for Landscape's computer-programmed album a year before release, and pairs naturally in the collection with the Linn LM-1 drum computer. Distinct from every drum/percussion artifact in the museum (MalletKAT, Synsonics, MCS Drum Computer, Linn LM-1, TR-808).",
+  "search_terms": ["Simmons SDSV", "Simmons SDS5", "electronic drum kit 1981", "piezo drum pad", "Simmons hexagonal pad", "Dave Simmons drum", "Richard James Burgess drum synth"],
+  "research": {
+    "title": "Simmons SDSV Electronic Drum",
+    "year": "1981",
+    "by": "Simmons / Musicaid (Dave Simmons, Richard James Burgess)",
+    "tags": ["Music", "Input", "Percussion", "Sensor", "Synthesizer"],
+    "overview": "The Simmons SDSV (also written SDS5) was the first viable electronic replacement for acoustic drums. It was developed by Richard James Burgess and Dave Simmons, manufactured initially by Musicaid of Hatfield, UK, and commercially released in the first half of 1981. Burgess had spent the 1970s triggering electronic sounds from acoustic drums but wanted a drum synthesizer that stood alone; realizing live use needed sound memory, the SDSV shipped four adjustable presets per module so something usable could be coaxed out without programming.\n\nThe interface is the story. Each drum is not a resonant shell but a solid hexagonal slab of hard plastic — the same material used in police riot shields — with a piezoelectric transducer that converts the strike's impact into a trigger signal and velocity. That signal drives one of the analog synthesis modules (Bass Drum, Snare, three Toms, plus optional Cymbal and Hi-Hat), each packaged like a mini drum with controls for noise level, tone level, bend, decay, noise tone, and an extra click-drum control for attack derived from pad impact. Because the pads have no real vibration to absorb, the playing surface is effectively a sensor, and many drummers found the impact hard on their wrists and elbows — a literal, embodied cost of replacing a sounding instrument with a sensing one.\n\nThe hexagonal pad shape was Burgess's idea, inspired by interlocking honeycomb shapes; prototypes in batwing and triangle shapes were tested first. A very limited production 'Rushmore headkit' even offered fiberglass faces as the shell. The SDSV became ubiquitous on 1980s records and stages, from Spandau Ballet's 'Chant No. 1' (the first production SDSV 'brain') to Phil Collins, Prince, and Def Leppard's Rick Allen (who used a Simmons setup one-handed).",
+    "deepDive": [
+      {
+        "heading": "A sensor where a drum head used to be",
+        "text": "Acoustic drums are a resonant body the player hits; the SDSV inverts this. The pad is solid plastic with no cavity, and all the sound is synthesized from the piezo transducer's read of the strike. Drummers had to strike much harder than they were used to — the pads caused real wrist and elbow ache — because the hard surface did not absorb the blow the way a tensioned head does. That ache is the interface's signature: the physical consequence of turning a membrane into a sensor. Later SDS models moved to rubber pads that were kinder to drummers, but many felt the later electronics lost the character of the original."
+      },
+      {
+        "heading": "Music as programmable presets",
+        "text": "Burgess's innovation was four adjustable presets per drum module, so a drummer without programming experience could get a usable sound quickly, and more adventurous players could dig into the individual synthesis parameters (bend, decay, tone, noise, click). This stood in contrast to the preset rhythm machines of the era — the SDSV was an instrument to be played and shaped, not a pattern player."
+      },
+      {
+        "heading": "The computer-era drum",
+        "text": "The SDSV is deeply entangled with early computer music: Burgess triggered the prototype with a Roland MC-8 Microcomposer in 1979 for Landscape's groundbreaking computer-programmed album From the Tea-Rooms of Mars... to the Hell-Holes of Uranus — itself a notable 1979 use of the museum's MC-8. The interface read as a hybrid: a hand-played acoustic instrument whose outputs were synthesized and could be sequenced and recalled like data."
+      }
+    ],
+    "team": [
+      { "name": "Dave Simmons", "note": "Co-inventor; founded Simmons after Musicaid, manufactured the SDS line and personally gave the project its name" },
+      { "name": "Richard James Burgess", "note": "Co-inventor; drummer/producer whose 'Skin and Syn' Sound International 1979 article and MC-8-triggered prototype defined the SDSV's concept" },
+      { "name": "Musicaid", "note": "Initial manufacturer of the SDSV in Hatfield, UK, before Simmons set up his own company" }
+    ],
+    "media": [
+      { "src": "assets/wiki/simmons-sdsv-drum.jpg", "alt": "Simmons SDSV/SDS5 electronic drum with hexagonal pads and drum modules on a rack", "caption": "A Simmons SDSV/SDS5 electronic drum: solid hexagonal pads driving synthesized drum modules. CC BY-SA 2.5, Ben Franske / Wikimedia Commons." },
+      { "src": "assets/wiki/simmons-sdsv-deutsches-museum.jpg", "alt": "Simmons SDS5 electronic drum in the Deutsches Museum", "caption": "A Simmons SDS5 electronic drum photographed in the Deutsches Museum, Munich. CC BY 2.0, Wikimedia Commons." }
+    ],
+    "sources": [
+      { "text": "Wikipedia — Simmons SDSV", "url": "https://en.wikipedia.org/wiki/Simmons_SDSV" },
+      { "text": "Wikipedia — Simmons (electronic drum company)", "url": "https://en.wikipedia.org/wiki/Simmons_(electronic_drum_company)" },
+      { "text": "Simmons Museum — manuals and pictures", "url": "https://www.simmonsmuseum.com/" }
+    ],
+    "imageUrls": [
+      "https://upload.wikimedia.org/wikipedia/commons/0/08/Simmons_SDS5_Electric_Drum.jpg",
+      "https://upload.wikimedia.org/wikipedia/commons/8/8f/Simmons_SDS_5_Electric_Drum%2C_Deutsches_Museum.jpg"
+    ]
+  },
+  "savedImages": [
+    "potential/simmons-sdsv/images/simmons-sdsv-drum.jpg",
+    "potential/simmons-sdsv/images/simmons-sdsv-deutsches-museum.jpg"
+  ]
+}

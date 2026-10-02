@@ -1,0 +1,49 @@
+{
+  "slug": "moog-taurus",
+  "title": "Moog Taurus I Foot-Operated Bass Synthesizer",
+  "year": "1975",
+  "subtitle": "An analog synthesizer with no keyboard at all — pitch is chosen with the feet on a spinet-organ-style pedal board while the hands play other instruments",
+  "why_scout_cares": "The Moog Taurus is the museum's cleanest keyboard-less synthesizer and its clearest 'lower body as an input channel' instrument: instead of pressing keys with the hands, the player chooses pitches with 13 foot pedals on an organ-style pedal board, freeing both hands to play other keyboards. Designed by Moog's Director of Engineering David Luce for the never-released Constellation ensemble, the Taurus I (1975-1981) is an embodied split of labor across the body — feet own the bass line, hands own everything else — that inverted the conventional position of a keyboard instrument. Its pure-controller descendant (the 343C Taurus II Controller) even shipped with no synth module at all, just CV/gate foot outputs. The interaction model (foot-as-pitch-selection) has no near neighbor in the museum and the instrument is image-rich on Commons at high resolution.",
+  "search_terms": ["Moog Taurus", "Moog Taurus I bass pedal", "foot-operated synthesizer", "taurus pedal board", "Constellation Moog Apollo Lyra Taurus", "David Luce Moog", "343C Taurus controller"],
+  "research": {
+    "title": "Moog Taurus I Foot-Operated Bass Synthesizer",
+    "year": "1975",
+    "by": "Moog Music (David Luce)",
+    "tags": ["Music", "Input", "Synthesizer", "Pedal", "Sensory-motor"],
+    "overview": "The Moog Taurus is a foot-operated analog synthesizer designed and manufactured by Moog Music. The original Taurus I was produced from 1975 to 1981. It was conceived as part of Moog's Constellation series of synthesizers — a bass instrument meant to be played by foot while the player's hands handled one or more keyboards. Instead of a conventional keyboard, the Taurus uses a 13-pedal organ-style pedal board similar to the pedal keyboard of a spinet organ. The sound-shaping controls are protected by a removable plastic window so they cannot be accidentally adjusted mid-performance.\n\nThe Taurus I is monophonic and monotimbral, with two oscillators driving a 24 dB/octave resonant low-pass filter through a three-stage VCA; the usable waveform is a distorted sawtooth. It stored three presets plus one user setting. Because the Taurus was designed to sit at the player's feet, the interaction is fundamentally embodied: the bass line is performed with the lower body while the hands are elsewhere. The Constellation configuration was famously used on the 1973 Emerson, Lake & Palmer album Brain Salad Surgery, though the full set was never released commercially.\n\nThe Taurus I became a staple of 1970s-80s progressive rock (Genesis, Rush, Yes, Pink Floyd, U2, The Police) and reached top-40 radio via Phil Collins's 'I Don't Care Anymore'. A control-only variant, the model 343C Taurus II Controller, shipped CV & gate outputs with no synth module at all — a pure foot-driven pitch/gate input device. The Taurus II (1981-1983) raised the control panel for manual access during performance and offered 18 pedals.",
+    "deepDive": [
+      {
+        "heading": "Feet as the pitch-selection interface",
+        "text": "Where keyboards put pitch under the fingers, the Taurus puts it under the feet. The player chooses notes with a 13-pedal spinet-organ pedal board (the I and III) or 18 pedals (the II), leaving both hands free for other instruments. This is a radical reallocation of a musical control channel across the body — the bass line becomes a lower-limb gesture. The removable plastic window over the sound-shaping controls reinforced the design intent: the machine is set up, then played feet-first without reaching down for tweaks mid-song."
+      },
+      {
+        "heading": "The controller without a brain",
+        "text": "The Taurus II era produced a telling variant: the 343C Taurus II Controller shipped with CV & gate outputs and no synthesizer module at all. It is purely a foot-input device — a standalone pitch/gate controller reading muscle movement of the feet and sending control voltages to other gear. This makes the foot-pedal interface the abstract and reusable part of the design, an early example of splitting the input surface from the sound source."
+      },
+      {
+        "heading": "An intended quartet never released",
+        "text": "The Taurus was designed for the Constellation: a monophonic bass (Taurus), a monophonic lead (Lyra), and a polyphonic keyboard (Apollo), all played simultaneously by one person. The Apollo was redesigned into the Moog Polymoog (1975-1980) and the Taurus I released standalone, but the Lyra (designed by Robert Moog himself) was never commercially released. The museum's Collection entry captures the piece as a standalone realization of that multi-body, one-performer ensemble idea."
+      }
+    ],
+    "team": [
+      { "name": "David Luce", "note": "Moog Director of Engineering; designed the Taurus I pedal and redesigned the Apollo keyboard into the Moog Polymoog" },
+      { "name": "Robert Moog", "note": "Founder of Moog Music; designed the never-released Lyra lead synth of the Constellation" },
+      { "name": "Moog Music", "note": "Manufacturer of the Taurus I (1975-1981), II (1981-1983), and III (2010-2012)" }
+    ],
+    "media": [
+      { "src": "assets/wiki/moog-taurus-hero.jpg", "alt": "Moog Taurus I synthesizer next to a Taurus III, showing the 13-pedal foot board", "caption": "A Moog Taurus I (left) with its spinet-organ-style foot pedal board, beside a later Taurus III. CC BY-SA 2.0, Wikimedia Commons." }
+    ],
+    "sources": [
+      { "text": "Wikipedia — Moog Taurus", "url": "https://en.wikipedia.org/wiki/Moog_Taurus" },
+      { "text": "Wikipedia — Moog Polymoog", "url": "https://en.wikipedia.org/wiki/Moog_Polymoog" },
+      { "text": "Vintage Synth Explorer — Moog Taurus I", "url": "http://www.vintagesynth.com/moog/taurus1.php" },
+      { "text": "Synthmuseum — Moog Taurus", "url": "http://www.synthmuseum.com/moog/mooctaur01.html" }
+    ],
+    "imageUrls": [
+      "https://upload.wikimedia.org/wikipedia/commons/3/36/Moog_Taurus_I_%26_III.jpg"
+    ]
+  },
+  "savedImages": [
+    "potential/moog-taurus/images/moog-taurus-hero.jpg"
+  ]
+}
