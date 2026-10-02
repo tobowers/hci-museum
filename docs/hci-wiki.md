@@ -1,6 +1,6 @@
 # The HCI Golden Age Wiki
 
-A research compendium for a digital museum of cutting-edge Human-Computer Interaction from the late 1970s through the early 1990s. These two hundred and eighty-three projects mix canonical experiments with weird, forgotten, and beautiful vaporware — brain control, voice control, gesture, wearable computing, VR, robots, and full-body exertion.
+A research compendium for a digital museum of cutting-edge Human-Computer Interaction from the late 1970s through the early 1990s. These two hundred and eighty-six projects mix canonical experiments with weird, forgotten, and beautiful vaporware — brain control, voice control, gesture, wearable computing, VR, robots, and full-body exertion.
 
 Each entry includes an overview, a deep dive, a small media gallery, and full source links so the images and facts can always be traced back.
 
@@ -290,6 +290,9 @@ Each entry includes an overview, a deep dive, a small media gallery, and full so
      281. [Scanset XL (1982)](#scanset-xl-1982)
      282. [HP 64000 Logic Development System (1979)](#hp-64000-logic-development-system-1979)
      283. [Tektronix 11401 Digitizing Oscilloscope (1986)](#tektronix-11401-digitizing-oscilloscope-1986)
+     284. [Motorola MicroTAC (1989)](#motorola-microtac-1989)
+     285. [NASA Ames Virtual Reality Headset (1985)](#nasa-ames-virtual-reality-headset-1985)
+     286. [Technophone Excell M1 / PC105T (Pocketphone) (1986)](#technophone-excell-m1--pc105t-pocketphone-1986)
   
 ---
 
@@ -12751,3 +12754,81 @@ The interaction model is the museum's clearest "instrument front panel as graphi
 1. vintageTEK Museum — 11403 Digitizing Oscilloscope — https://vintagetek.org/11403-digitizing-oscilloscope/
 2. TekWiki — 11401 — https://w140.com/tekwiki/wiki/11401
 3. TekWiki — 11000 series — https://w140.com/tekwiki/wiki/11000_series
+
+---
+
+## Motorola MicroTAC (1989)
+
+**By:** Motorola, Inc.
+**Tags:** `Input` `Wearable` `Telephony` `Mobile` `Commercial`
+
+The Motorola MicroTAC, introduced in 1989 (the 9800X was the first model), was the first flip-format cellular phone. Where the museum's DynaTAC 8000X (1984) was a bricksized handheld, the MicroTAC introduced a folding handset whose mouthpiece rotates down over the keypad, shrinking the phone to pocket size when closed and 'arming' it when opened. A retractable antenna had to be physically extended before use, and the handset had to be flipped open to answer or dial.
+
+The flip is the interaction. It is not cosmetic decoration: it creates a tactile, stateful interface — closed = compact and protected, open = active and speaking. The physical gesture of opening doubles as both the answer action and the 'hello, I am a phone now' signal. Combined with the manually-extended antenna, using the phone became a short sequence of tactile rituals (pull, flip, talk) that later generations replaced with software-defined silent states. The MicroTAC was also the first phone small enough to carry in a pocket, marking the moment the mobile phone shifted from a transportable/vehicle object to a personal wearable.
+
+* **Where it sits in the museum.** The MicroTAC is the direct physical-form-factor descendant of the museum's DynaTAC 8000X (brick) and, promoted this batch, the Technophone Excell Pocketphone (the first pocket phone). The three chart the physical evolution of the cellular interface from transportable, to pocket, to clamshell — with the flip's embodied open/close state machine being the rarest interaction of the three.
+
+### Media
+
+![Motorola MicroTAC 650e flip phone, open](../assets/wiki/motorola-microtac-flip-phone.jpg)
+*Motorola MicroTAC 650e flip phone, open — the folding mouthpiece over the keypad is the whole open/close interface. Wikimedia Commons, CC0.*
+
+![Motorola MicroTAC 650e with box, manual, and charger](../assets/wiki/motorola-microtac-with-box.jpg)
+*Motorola MicroTAC 650e with box, manual, and overnight charger. Wikimedia Commons, CC0.*
+
+### Sources
+
+1. Motorola MicroTAC 650e flip phone (photograph, Wikimedia Commons) — https://commons.wikimedia.org/wiki/File:Motorola_MicroTAC_650e_flip_phone.jpg
+2. Motorola MicroTAC 650e with box and manual (photograph, Wikimedia Commons) — https://commons.wikimedia.org/wiki/File:Motorola_Micro_TAC_650e_flip_phone_with_box,_manual,_and_AC_overnight_charger.JPG
+3. Motorola MicroTAC (Wikipedia) — https://en.wikipedia.org/wiki/Motorola_MicroTAC
+
+---
+
+## NASA Ames Virtual Reality Headset (1985)
+
+**By:** NASA Ames Research Center, Aerospace Human Factors Division (Jim Humphries, Mike McGreevy)
+**Tags:** `Output` `Wearable` `Virtual Reality` `Head Tracking` `Research`
+
+In the early 1980s, Jim Humphries and Mike McGreevy of NASA Ames Research Center's Aerospace Human Factors Division built one of the first 'virtual reality' head-mounted displays. The wearer's head position is the spatial input: sensors track the head and the synthetic pilot-view scene is redrawn to match, giving the illusion of being inside a computer-generated world that responds to the orientation of the head. The display itself is a handmade prototype, now held in the permanent collection of the Smithsonian National Air and Space Museum (Udvar-Hazy Center).
+
+The defining interaction is that the wearer navigates the virtual world by turning their head — looking is steering. This established head-tracking as a first-class input channel for immersive displays, an interaction model that later commercial VR (VPL EyePhone, CAVE, BOOM, Virtuality) built upon but which this 1985 prototype introduced in its research-origin form. Unlike the tele-existence systems that framed head tracking as teleoperation (TELESAR I, with its slave robot and out-of-body framing), the Ames headset is the pure research origin of head-position-as-spatial-input: the body's most natural pointing instrument — the head — becomes the primary control surface for an immersive display.
+
+* **Where it sits in the museum.** The Ames headset is the foundational research prototype of the head-tracked display, physically accessioned by the Smithsonian. It is distinct from the museum's commercial VR entries (VPL EyePhone, CAVE, Fakespeare BOOM, Virtuality) and from TELESAR I's tele-existence/teleoperation framing, standing as the origin artifact of head-position-as-input.
+
+### Media
+
+![NASA Ames virtual reality headset prototype at the Smithsonian](../assets/wiki/nasa-ames-vr-headset.jpg)
+*Handmade NASA Ames VR headset prototype, Smithsonian National Air and Space Museum. Wikimedia Commons, CC BY-SA 4.0 by Sanjay Acharya.*
+
+![NASA Ames virtual reality headset prototype, close view](../assets/wiki/nasa-ames-vr-headset-alt.jpg)
+*NASA Ames VR headset prototype (close view). Wikimedia Commons, CC BY-SA 2.0 by Joe Loong.*
+
+### Sources
+
+1. Virtual Reality Headset Prototype (photograph, Wikimedia Commons) — https://commons.wikimedia.org/wiki/File:Virtual_Reality_Headset_Prototype.jpg
+2. Prototype VR headset made by NASA (photograph, Wikimedia Commons) — https://commons.wikimedia.org/wiki/File:Prototype_VR_headset_made_by_NASA.jpg
+3. Smithsonian National Air and Space Museum — virtual reality headset display — https://airandspace.si.edu/
+
+---
+
+## Technophone Excell M1 / PC105T (Pocketphone) (1986)
+
+**By:** Technophone Limited (Camberley, Surrey, UK)
+**Tags:** `Input` `Wearable` `Telephony` `Mobile` `Commercial`
+
+Technophone Limited was founded in 1984 by Nils Mårtensson, a Swedish radio engineer who had left Ericsson, and made mobile phones in the UK under the Excell label. The Pocketphone PC105T, released in 1986, was advertised as the smallest, lightest, 'most intelligent' mobile phone in the world and the first to fit in a pocket — at 7 inches tall, 3 inches wide and 1 inch deep, compact enough to slide into a standard shirt pocket.
+
+The interaction story is the miniaturization of the interface to the body's scale. Before the Pocketphone, cellular telephony was a transportable or car-mounted object; this device made the phone a wearable carried on the person, in a pocket, changing when and where it could be used. The DTI grant for the device's predecessor (the M1) was explicitly motivated by how the mobile could move 'from an expensive professional electronics item ... to a mass consumer product,' feeding directly into the UK's 'Phones on the Move' personal-communications-network policy. Technophone won the Queen's Award for Enterprise: Innovation (Technology) in 1988 for its development, and the company was bought by Nokia in 1991 for around £50 million.
+
+* **Where it sits in the museum.** The Pocketphone sits between the museum's DynaTAC 8000X (1984, the bricksized first handheld) and the Motorola MicroTAC (1989, the first flip phone, promoted this batch). It is the middle step of the physical form-factor lineage: the phone that stopped being a brick and became a pocket object.
+
+### Media
+
+![Technophone Excell M1 / PC105T Pocketphone](../assets/wiki/technophone-excell-pocketphone.jpg)
+*Technophone Excell M1 / PC105T Pocketphone — the world's first pocket-sized cell phone. Wikimedia Commons, CC BY-SA 4.0 (by Geni).*
+
+### Sources
+
+1. EXCELL PC105T (photograph, Wikimedia Commons) — https://commons.wikimedia.org/wiki/File:EXCELL_PC105T.JPG
+2. Excel mobile phones / Technophone (Wikipedia) — https://en.wikipedia.org/wiki/Excel_mobile_phones
+3. Historic Tech — The Story of Technophone & The World's First Pocket Cell Phone — https://historictech.com/the-story-of-technophone-the-worlds-first-pocket-cell-phone/

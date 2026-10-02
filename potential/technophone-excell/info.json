@@ -1,0 +1,36 @@
+{
+  "slug": "technophone-excell-pc105t",
+  "title": "Technophone Excell M1 / PC105T (Pocketphone)",
+  "year": "1986",
+  "subtitle": "The world's first pocket-sized cell phone, where the interface shrank to the body's scale",
+  "why_scout_cares": "This is the world's first pocket-sized cellular phone, made by Technophone Ltd (UK, 1984) and sold from 1986 as the Excell M1/PC105T 'Pocketphone.' Its interaction story is miniaturization-as-interface: 7in tall, 3in wide, 1in deep, small enough to fit a standard shirt pocket, the moment the mobile phone stopped being a transportable brick (DynaTAC, already in the museum) or a car phone and became a wearable personal object. It is the physical-form-factor bridge between the museum's DynaTAC (brick) and the MicroTAC (flip, promoted this batch), completing the 'cell phone physical interface evolution' lineage.",
+  "search_terms": ["Technophone Excell PC105T", "first pocket cell phone 1986", "Technophone M1", "Pocketphone 1986", "Nils Martensson Technophone"],
+  "research": {
+    "title": "Technophone Excell M1 / PC105T (Pocketphone)",
+    "year": "1986",
+    "by": "Technophone Limited (Camberley, Surrey, UK)",
+    "tags": ["HCI", "Input", "Wearable", "Telephony", "Mobile"],
+    "overview": "Technophone Limited was founded in 1984 by Nils Mårtensson, a Swedish radio engineer who had left Ericsson, and made mobile phones in the UK under the Excell label. The Pocketphone PC105T, released in 1986, was advertised as the smallest, lightest, 'most intelligent' mobile phone in the world and the first to fit in a pocket — at 7 inches tall, 3 inches wide and 1 inch deep, compact enough to slide into a standard shirt pocket.\n\nThe interaction story is the miniaturization of the interface to the body's scale. Before the Pocketphone, cellular telephony was a transportable or car-mounted object; this device made the phone a wearable carried on the person, in a pocket, changing when and where it could be used. Technophone won the Queen's Award for Enterprise: Innovation (Technology) in 1988 for its development. The company was bought by Nokia in 1991 for around £50 million, seeding the mobile phone technology Nokia would later build into a global brand.",
+    "deepDive": [
+      {"heading": "The interface shrank into the pocket", "text": "The defining interaction is physical scale: the phone became small and light enough to be a pocket object rather than a transportable brick or a car-mounted set. This is a genuine HCI shift — portability as an interaction paradigm. The DTI grant for the device's predecessor (the M1) was explicitly motivated by how the mobile could move 'from an expensive professional electronics item ... to a mass consumer product,' which fed directly into the UK's 'Phones on the Move' personal-communications-network policy."},
+      {"heading": "Bridging the physical form-factor lineage", "text": "The Pocketphone sits between the museum's DynaTAC 8000X (1984, the bricksized first handheld) and the Motorola MicroTAC (1989, the first flip phone). It is the middle step: the phone that stopped being a brick and became a pocket object. Together the three chart the physical evolution of the cellular interface from transportable, to pocket, to clamshell."}
+    ],
+    "team": [
+      {"name": "Nils Mårtensson", "note": "Founder of Technophone Limited (1984), former Ericsson engineer"},
+      {"name": "Technophone Limited", "note": "UK manufacturer, Camberley, Surrey; Queen's Award for Innovation 1988"},
+      {"name": "Millicom / Jan Stenbeck", "note": "Commissioning shareholder; Vodafone and Comvik cellular context"}
+    ],
+    "media": [
+      {"src": "https://commons.wikimedia.org/wiki/File:EXCELL_PC105T.JPG", "alt": "Technophone Excell M1 / PC105T Pocketphone", "caption": "Technophone Excell M1 / PC105T Pocketphone. CC BY-SA 4.0 via Wikimedia Commons (by Geni)."}
+    ],
+    "sources": [
+      {"text": "Wikipedia — Excel mobile phones (Technophone)", "url": "https://en.wikipedia.org/wiki/Excel_mobile_phones"},
+      {"text": "Historic Tech — The Story of Technophone & The World's First Pocket Cell Phone", "url": "https://historictech.com/the-story-of-technophone-the-worlds-first-pocket-cell-phone/"},
+      {"text": "GSM History — Technophone EXCELL PC105T: taking the mobile from the hand into the pocket (1986)", "url": "http://www.gsmhistory.com/vintage-mobiles/"}
+    ],
+    "imageUrls": [
+      "https://upload.wikimedia.org/wikipedia/commons/9/9e/EXCELL_PC105T.JPG"
+    ]
+  },
+  "savedImages": []
+}
