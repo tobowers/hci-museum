@@ -3584,6 +3584,32 @@ const exhibitData: Exhibit[] = [
     tags: ["Input", "Wearable", "Telephony", "Mobile", "Commercial"],
     image: img("technophone-excell-pocketphone.jpg"),
   },
+  {
+    id: "simmons-sdsv",
+    slug: "simmons-sdsv",
+    wikiTitle: "Simmons SDSV Electronic Drum",
+    year: "1981",
+    sortYear: 1981,
+    title: "Simmons SDSV Electronic Drum",
+    subtitle: "The first viable electronic drum kit, whose solid riot-shield-plastic hexagon pads are struck to drive analog synth modules — a sensor-first playing surface with no acoustic shell",
+    blurb:
+      "The Simmons SDSV (also written SDS5) was the first viable electronic replacement for acoustic drums, developed by Richard James Burgess and Dave Simmons, released in the first half of 1981. The interface is the story: each drum is not a resonant shell but a solid hexagonal slab of hard plastic — the same material used in police riot shields — with a piezoelectric transducer underneath converting the strike's impact into a trigger signal and velocity that drives an analog synthesis module. Because the pads are solid plastic with no real cavity, they do not absorb a blow like a tensioned drum head, and drummers famously found the SDSV hard on their wrists and elbows — a literal, embodied cost of turning a sounding membrane into a sensing surface. Burgess triggered the prototype with a Roland MC-8 in 1979 for Landscape's computer-programmed album. The museum's clearest sensor-first percussion instrument, distinct from every drum/percussion artifact in the collection.",
+    tags: ["Music", "Input", "Percussion", "Sensor", "Synthesizer"],
+    image: img("simmons-sdsv-1.jpg"),
+  },
+  {
+    id: "moog-taurus",
+    slug: "moog-taurus",
+    wikiTitle: "Moog Taurus I Foot-Operated Bass Synthesizer",
+    year: "1975",
+    sortYear: 1975,
+    title: "Moog Taurus I (1975)",
+    subtitle: "An analog synthesizer with no keyboard at all — pitch is chosen with the feet on a spinet-organ-style pedal board while the hands play other instruments",
+    blurb:
+      "The Moog Taurus is a foot-operated analog synthesizer designed and manufactured by Moog Music, produced as the Taurus I from 1975 to 1981, conceived for the never-released Constellation series. Instead of a conventional keyboard, the Taurus uses a spinet-organ-style 13-pedal board, so the bass line is performed with the lower body while both hands play other instruments — a radical reallocation of a musical control channel across the body. The sound-shaping controls sit behind a removable plastic window so they can't be accidentally adjusted mid-song. A control-only variant, the model 343C Taurus II Controller, shipped CV & gate outputs with no synthesizer module at all — a pure foot-driven pitch/gate input device. Designed by Moog Director of Engineering David Luce, it became a staple of progressive rock (Genesis, Rush, Yes, Pink Floyd). The museum's only keyboard-less synthesizer and its only instrument where feet select pitch.",
+    tags: ["Music", "Input", "Synthesizer", "Pedal", "Sensory-motor"],
+    image: img("moog-taurus-1.jpg"),
+  },
 ];
 
 export const exhibits: Exhibit[] = exhibitData.toSorted((a, b) => b.sortYear - a.sortYear || a.title.localeCompare(b.title));

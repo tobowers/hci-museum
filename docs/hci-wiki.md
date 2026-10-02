@@ -293,6 +293,8 @@ Each entry includes an overview, a deep dive, a small media gallery, and full so
      284. [Motorola MicroTAC (1989)](#motorola-microtac-1989)
      285. [NASA Ames Virtual Reality Headset (1985)](#nasa-ames-virtual-reality-headset-1985)
      286. [Technophone Excell M1 / PC105T (Pocketphone) (1986)](#technophone-excell-m1--pc105t-pocketphone-1986)
+     287. [Simmons SDSV Electronic Drum (1981)](#simmons-sdsv-electronic-drum-1981)
+     288. [Moog Taurus I Foot-Operated Bass Synthesizer (1975)](#moog-taurus-i-foot-operated-bass-synthesizer-1975)
   
 ---
 
@@ -12832,3 +12834,77 @@ The interaction story is the miniaturization of the interface to the body's scal
 1. EXCELL PC105T (photograph, Wikimedia Commons) — https://commons.wikimedia.org/wiki/File:EXCELL_PC105T.JPG
 2. Excel mobile phones / Technophone (Wikipedia) — https://en.wikipedia.org/wiki/Excel_mobile_phones
 3. Historic Tech — The Story of Technophone & The World's First Pocket Cell Phone — https://historictech.com/the-story-of-technophone-the-worlds-first-pocket-cell-phone/
+
+---
+
+## Simmons SDSV Electronic Drum (1981)
+
+**By:** Musicaid / Simmons Electronics (Dave Simmons, Richard James Burgess)
+**Tags:** `Music` `Input` `Percussion` `Sensor` `Synthesizer`
+
+The Simmons SDSV (also written SDS5) was the first viable electronic replacement for acoustic drums. It was developed by Richard James Burgess and Dave Simmons, manufactured initially by Musicaid of Hatfield, UK, and commercially released in the first half of 1981. Burgess had spent the 1970s triggering electronic sounds from acoustic drums but wanted a drum synthesizer that stood alone; realizing live use needed some sort of sound memory, the SDSV shipped four adjustable presets per drum module so a usable sound could be coaxed out without programming experience.
+
+The interface is the story. Each drum is not a resonant shell but a solid hexagonal slab of hard plastic — the same material used in police riot shields — with a piezoelectric transducer underneath converting the strike's impact into a trigger signal and velocity. That signal drives one of the machine's analog synthesis modules (Bass Drum, Snare, three Toms, plus optional Cymbal and Hi-Hat), each packaged like a mini drum with controls for noise level, tone level, bend, decay, noise tone, and an extra click-drum control for attack derived from pad impact.
+
+Because the pads are solid plastic with no real cavity, they do not absorb a blow the way a tensioned drum head does. Drummers famously found the SDSV hard on their wrists and elbows — a literal, embodied cost of turning a sounding membrane into a sensing surface. Later SDS models moved to rubber pads that were kinder to drummers, but many felt the later electronics lost the character of the original.
+
+### The sensor where a drum head used to be
+
+Acoustic drums are a resonant body the player strikes; the SDSV inverts this. The pad is solid plastic, and all the sound is synthesized from the piezo transducer's read of the impact. This is a sensor-first playing surface: the instrument no longer makes its own sound, it senses a gesture and requests a sound from electronics. The wrist and elbow ache drummers reported is the interface's signature — the physical consequence of removing the vibration-absorbing shell.
+
+### A computer-era drum
+
+The SDSV is deeply entangled with early computer music. Burgess triggered the prototype with a Roland MC-8 Microcomposer in 1979 for Landscape's groundbreaking computer-programmed album From the Tea-Rooms of Mars... to the Hell-Holes of Uranus — itself a notable early use of the museum's MC-8 sequencer. The hexagonal pad layout (Burgess's idea, inspired by interlocking honeycomb) tessellates a kit ergonomically, and prototype shapes in batwing and triangle were tested first.
+
+The SDSV defined the sound of 1980s pop, from the first production SDSV used on Spandau Ballet's 'Chant No. 1' to Phil Collins, Prince, Bill Bruford, Neil Peart, and Def Leppard's Rick Allen (who used a Simmons setup one-handed).
+
+* **Where it sits in the museum.** The collection's percussion-interface thread (Linn LM-1, Mattel Synsonics, Movement Systems Drum Computer, MalletKAT, TR-808) is dominated by finger- or stick-triggered sound sources. The SDSV is the museum's first acoustic-drum replacement and its clearest sensor-first percussion instrument — a solid pad whose hard surface is itself a feedback channel and whose strike gestures drive synthesized drums. It also connects directly to the Roland MC-8 through Burgess's 1979 prototype.
+
+### Media
+
+![Simmons SDSV/SDS5 electronic drum with hexagonal pads and drum modules](../assets/wiki/simmons-sdsv-1.jpg)
+*A Simmons SDSV/SDS5 electronic drum: solid hexagonal pads (the same plastic as police riot shields) driving synthesized drum modules. The piezo transducer under each pad reads the strike. CC BY-SA 2.5, Ben Franske / Wikimedia Commons.*
+
+![Simmons SDS5 electronic drum in the Deutsches Museum](../assets/wiki/simmons-sdsv-2.jpg)
+*A Simmons SDS5 electronic drum photographed in the Deutsches Museum, Munich, showing the hexagonal pads and synth modules. CC BY 2.0, Wikimedia Commons.*
+
+### Sources
+
+1. Wikipedia — Simmons SDSV — https://en.wikipedia.org/wiki/Simmons_SDSV
+2. Wikipedia — Simmons (electronic drum company) — https://en.wikipedia.org/wiki/Simmons_(electronic_drum_company)
+3. Simmons Museum — manuals and pictures — https://www.simmonsmuseum.com/
+
+---
+
+## Moog Taurus I Foot-Operated Bass Synthesizer (1975)
+
+**By:** Moog Music (designed by David Luce)
+**Tags:** `Music` `Input` `Synthesizer` `Pedal` `Sensory-motor`
+
+The Moog Taurus is a foot-operated analog synthesizer designed and manufactured by Moog Music. The original Taurus I was produced from 1975 to 1981. It was conceived as part of Moog's Constellation series of synthesizers — a bass instrument meant to be played by foot while the player's hands handled one or more keyboards. Instead of a conventional keyboard, the Taurus uses a 13-pedal organ-style pedal board similar to the pedal keyboard of a spinet organ. The sound-shaping controls are protected by a removable plastic window so they cannot be accidentally adjusted mid-performance.
+
+The Taurus I is monophonic and monotimbral, with two oscillators driving a 24 dB/octave resonant low-pass filter through a three-stage voltage-controlled amplifier; the usable waveform is a distorted sawtooth. It stored three presets plus one user setting. Because the Taurus was designed to sit at the player's feet, the interaction is fundamentally embodied: the bass line is performed with the lower body while the hands are elsewhere. The Constellation configuration was famously used on the 1973 Emerson, Lake & Palmer album Brain Salad Surgery, though the full ensemble was never commercially released.
+
+The Taurus I became a staple of 1970s-80s progressive rock (Genesis, Rush, Yes, Pink Floyd, U2, The Police) and reached top-40 radio via Phil Collins's 'I Don't Care Anymore'. A control-only variant, the model 343C Taurus II Controller, shipped CV & gate outputs with no synth module at all — a pure foot-driven pitch/gate input device. The Taurus II (1981-1983) raised the control panel for manual access during performance and offered 18 pedals.
+
+### Feet as the pitch-selection interface
+
+Where a keyboard puts pitch under the fingers, the Taurus puts it under the feet. The player chooses notes with a spinet-organ pedal board, leaving both hands free for other instruments — a radical reallocation of a musical control channel across the body, making the bass line a lower-limb gesture. The removable plastic window over the sound-shaping controls reinforced the intent: the machine is set up, then played feet-first without reaching down for tweaks mid-song.
+
+### The controller without a brain
+
+The Taurus II era produced a telling variant: the 343C Taurus II Controller shipped CV & gate outputs and no synthesizer module at all. It is purely a foot-input device — a standalone pitch/gate controller reading the musician's lower-body gestures and sending control voltages to other gear. This makes the foot-pedal surface the abstract, reusable part of the design, an early example of splitting the input surface from the sound source.
+
+* **Where it sits in the museum.** The collection's music-interface family is key/finger/breath/stick-driven (Roland MC-8, SynthAxe, Linn LM-1, Akai EWI, Buchla Lightning, TR-808). The Taurus is the museum's only keyboard-less synthesizer and its only instrument where pitch is selected by the feet — the lower body becomes a first-class input channel. It sits naturally alongside the museum's embodied-input thread (LifeRower, Stompin', Surf Champ) by putting a continuous, gesture-driven control channel in the lower limbs.
+
+### Media
+
+![Moog Taurus I synthesizer beside a Taurus III, showing the foot pedal board](../assets/wiki/moog-taurus-1.jpg)
+*A Moog Taurus I (left) beside a later Taurus III, showing the spinet-organ-style foot pedal board — pitch is chosen by the feet while the hands play other instruments. CC BY-SA 2.0, Wikimedia Commons.*
+
+### Sources
+
+1. Wikipedia — Moog Taurus — https://en.wikipedia.org/wiki/Moog_Taurus
+2. Wikipedia — Moog Polymoog — https://en.wikipedia.org/wiki/Moog_Polymoog
+3. Vintage Synth Explorer — Moog Taurus I — http://www.vintagesynth.com/moog/taurus1.php
+4. Synthmuseum — Moog Taurus — http://www.synthmuseum.com/moog/mooctaur01.html
