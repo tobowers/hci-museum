@@ -3545,6 +3545,45 @@ const exhibitData: Exhibit[] = [
     tags: ["HCI", "Scientific Instrument", "Touchscreen", "Front Panel", "Digitizing Oscilloscope"],
     image: img("tektronix-11403-touchscreen-scope.jpg"),
   },
+  {
+    id: "motorola-microtac",
+    slug: "motorola-microtac",
+    wikiTitle: "Motorola MicroTAC",
+    year: "1989",
+    sortYear: 1989,
+    title: "Motorola MicroTAC (1989)",
+    subtitle: "The first flip phone, where the whole interface lives in an embodied open/close gesture plus a manual antenna ritual",
+    blurb:
+      "The Motorola MicroTAC (1989, the 9800X was the first model) was the first flip-format cellular phone and the museum's clearest 'flip ritual' interface. Where the DynaTAC 8000X (1984) was a bricksized handheld, the MicroTAC introduced a folding handset whose mouthpiece rotates down over the keypad, shrinking the phone to pocket size when closed and 'arming' it when opened; a retractable antenna must be physically extended before use. The flip is the interaction: closed = compact and protected, open = active and speaking, so the physical gesture of opening doubles as the answer action and the 'I am a phone now' signal. Using it was a short sequence of tactile rituals — pull, flip, talk — that later generations replaced with software-defined silent states. It also marked the moment the mobile phone shifted from a transportable/vehicle object to a personal wearable carried in a pocket.",
+    tags: ["Input", "Wearable", "Telephony", "Mobile", "Commercial"],
+    image: img("motorola-microtac-flip-phone.jpg"),
+  },
+  {
+    id: "nasa-ames-vr-headset",
+    slug: "nasa-ames-vr-headset",
+    wikiTitle: "NASA Ames Virtual Reality Headset",
+    year: "1985",
+    sortYear: 1985,
+    title: "NASA Ames Virtual Reality Headset (1985)",
+    subtitle: "The handmade research prototype that made head position the spatial input — the origin of head-tracked immersive displays",
+    blurb:
+      "The NASA Ames virtual reality headset (1985) is one of the first 'virtual reality' head-mounted displays, built by Jim Humphries and Mike McGreevy of NASA Ames Research Center's Aerospace Human Factors Division. The wearer's head position is the primary spatial input: sensors track the head and the synthetic pilot-view scene is redrawn to match, so looking is steering. It established head-tracking as a first-class input channel for immersive displays, and unlike the tele-existence systems that framed head tracking as teleoperation (TELESAR I, with its slave robot), it is the pure research origin of head-position-as-input. The display is a handmade prototype, now in the permanent collection of the Smithsonian National Air and Space Museum (Udvar-Hazy Center).",
+    tags: ["Output", "Wearable", "Virtual Reality", "Head Tracking", "Research"],
+    image: img("nasa-ames-vr-headset.jpg"),
+  },
+  {
+    id: "technophone-excell-pc105t",
+    slug: "technophone-excell-pc105t",
+    wikiTitle: "Technophone Excell M1 / PC105T (Pocketphone)",
+    year: "1986",
+    sortYear: 1986,
+    title: "Technophone Excell M1 / PC105T (Pocketphone) (1986)",
+    subtitle: "The world's first pocket-sized cell phone, where the interface shrank to the body's scale",
+    blurb:
+      "The Technophone Excell M1 / PC105T 'Pocketphone' (1986), by Technophone Limited (Camberley, Surrey, UK, founded 1984 by Nils Mårtensson), was the world's first pocket-sized cellular phone — 7 inches tall, 3 inches wide, 1 inch deep, the first to fit a standard shirt pocket. Its interaction story is miniaturization-as-interface: the phone stopped being a transportable brick or car-mounted set and became a wearable carried on the person. The DTI grant for its predecessor was explicitly about moving the mobile 'from an expensive professional electronics item ... to a mass consumer product,' feeding the UK's 'Phones on the Move' personal-communications-network policy. Technophone won the Queen's Award for Innovation (1988) and was bought by Nokia in 1991. It is the middle step between the museum's DynaTAC (brick) and MicroTAC (flip) in the physical form-factor lineage of the cellular interface.",
+    tags: ["Input", "Wearable", "Telephony", "Mobile", "Commercial"],
+    image: img("technophone-excell-pocketphone.jpg"),
+  },
 ];
 
 export const exhibits: Exhibit[] = exhibitData.toSorted((a, b) => b.sortYear - a.sortYear || a.title.localeCompare(b.title));

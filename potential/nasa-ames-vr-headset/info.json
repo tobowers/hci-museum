@@ -1,0 +1,37 @@
+{
+  "slug": "nasa-ames-vr-headset",
+  "title": "NASA Ames Virtual Reality Headset (first VR HMD)",
+  "year": "1985",
+  "subtitle": "The handmade research prototype that made head position the spatial input",
+  "why_scout_cares": "This is the origin research prototype of the head-mounted display: the wearer's head position is the primary spatial input, and the synthetic pilot-view scene is redrawn to match every turn of the head. It is the foundational artifact of head-tracked spatial interaction, predating and distinct from the museum's commercial VR entries (VPL EyePhone, CAVE, Fakespeare BOOM, Virtuality) and from TELESAR I's tele-existence/teleoperation framing. It is physically accessioned by the Smithsonian National Air and Space Museum and has clean CC BY-SA imagery of the actual artifact.",
+  "search_terms": ["NASA Ames VR headset 1985", "first virtual reality headset", "head-mounted display prototype", "Humphries McGreevy VR", "head-tracked display"],
+  "research": {
+    "title": "NASA Ames Virtual Reality Headset (first VR HMD)",
+    "year": "1985",
+    "by": "NASA Ames Research Center, Aerospace Human Factors Division (Jim Humphries, Mike McGreevy)",
+    "tags": ["HCI", "Output", "Wearable", "Virtual Reality", "Head Tracking"],
+    "overview": "In the early 1980s, Jim Humphries and Mike McGreevy of NASA Ames Research Center's Aerospace Human Factors Division built one of the first 'virtual reality' head-mounted displays. The wearer's head position is tracked, and the synthetic pilot-view scene is redrawn to match, giving the illusion of being inside a computer-generated world that responds to the orientation of the head. The display itself is a handmade prototype, now held in the permanent collection of the Smithsonian National Air and Space Museum (Udvar-Hazy Center).\n\nUnlike the tele-existence systems that framed head tracking as teleoperation (TELESAR I, with its slave robot and out-of-body framing), the Ames headset is the pure research origin of head-position-as-spatial-input: the body's most natural pointing instrument — the head — becomes the primary control surface for an immersive display. It is widely credited as the first VR head-mounted display and the direct ancestor of every modern headset.",
+    "deepDive": [
+      {"heading": "Head as spatial input", "text": "The defining interaction is that the wearer navigates the virtual world by turning their head. Sensors track the position/orientation of the head and the scene is re-rendered accordingly, so looking is steering. This established head-tracking as a first-class input channel for immersive displays — an interaction model that later commercial VR (VPL EyePhone, CAVE, BOOM, Virtuality) built upon, but which this 1985 prototype introduced in its research-origin form."},
+      {"heading": "A handmade research artifact", "text": "The prototype is visibly hand-built, with the display optics and tracking hardware assembled by hand in an aerospace human-factors lab. It was donated to the Smithsonian in 1997 and is on permanent display at the National Air and Space Museum. Its status as a physical, accessionable research artifact makes it a fitting counterpoint to the museum's commercial and teleoperation VR entries."}
+    ],
+    "team": [
+      {"name": "Jim Humphries", "note": "Co-builder at NASA Ames Research Center, Aerospace Human Factors Division"},
+      {"name": "Mike McGreevy", "note": "Co-builder at NASA Ames Research Center; developer of the virtual reality display"},
+      {"name": "NASA Ames Research Center", "note": "Home institution; the prototype is accessioned by the Smithsonian National Air and Space Museum"}
+    ],
+    "media": [
+      {"src": "https://commons.wikimedia.org/wiki/File:Virtual_Reality_Headset_Prototype.jpg", "alt": "Handmade NASA Ames virtual reality headset prototype on display at the Smithsonian", "caption": "NASA Ames VR headset prototype, Smithsonian National Air and Space Museum. CC BY-SA 4.0 by Sanjay Acharya."},
+      {"src": "https://commons.wikimedia.org/wiki/File:Prototype_VR_headset_made_by_NASA.jpg", "alt": "Close view of the NASA Ames virtual reality headset prototype", "caption": "NASA Ames VR headset prototype (close view). CC BY-SA 2.0 by Joe Loong."}
+    ],
+    "sources": [
+      {"text": "Commons — Virtual Reality Headset Prototype (NASA Ames)", "url": "https://commons.wikimedia.org/wiki/File:Virtual_Reality_Headset_Prototype.jpg"},
+      {"text": "Smithsonian National Air and Space Museum — Virtual reality headset display", "url": "https://airandspace.si.edu/"}
+    ],
+    "imageUrls": [
+      "https://upload.wikimedia.org/wikipedia/commons/3/38/Virtual_Reality_Headset_Prototype.jpg",
+      "https://upload.wikimedia.org/wikipedia/commons/5/5c/Prototype_VR_headset_made_by_NASA.jpg"
+    ]
+  },
+  "savedImages": []
+}

@@ -1,0 +1,35 @@
+{
+  "slug": "motorola-microtac",
+  "title": "Motorola MicroTAC",
+  "year": "1989",
+  "subtitle": "The first flip phone, where the whole interface lives in an open/close gesture",
+  "why_scout_cares": "The MicroTAC turned the mobile phone into a pocket object with a genuinely embodied interaction: the mouthpiece flips down over the keypad, so answering and dialing are one physical gesture and the device has a tactile open/close state. It is the direct physical-form-factor descendant of the museum's DynaTAC (1984) and the ancestor of every clamshell phone, yet no flip-phone exists in the collection. The flip/antenna ritual is a distinct embodied-interaction paradigm, not merely a smaller brick.",
+  "search_terms": ["Motorola MicroTAC", "flip phone 1989", "first flip phone", "cellular phone clamshell", "MicroTAC 9800X"],
+  "research": {
+    "title": "Motorola MicroTAC",
+    "year": "1989",
+    "by": "Motorola, Inc.",
+    "tags": ["HCI", "Input", "Wearable", "Telephony", "Mobile"],
+    "overview": "Introduced in 1989 (the 9800X was the first model), the Motorola MicroTAC was the first flip-format cellular phone. Where the museum's DynaTAC 8000X (1984) was a bricksized handheld, the MicroTAC introduced a folding handset whose mouthpiece rotates down over the keypad, shrinking the phone to pocket size when closed and 'arming' it when opened. A retractable antenna had to be physically extended before use, and the handset had to be flipped open to answer or dial.\n\nThe flip was not cosmetic decoration: it created a tactile, stateful interaction model. The phone is 'off' in the closed, compact state and 'on/ready' in the open state; the physical gesture of opening doubles as both the answer action and the 'hello I am a phone now' signal. The MicroTAC form factor defined the clamshell genre and remained Motorola's flagship shape for over a decade. It was also the first phone small enough to carry in a pocket, marking the moment the mobile phone shifted from a transportable/vehicle object to a personal wearable.",
+    "deepDive": [
+      {"heading": "The embodied open/close state machine", "text": "Before the MicroTAC, a cellular phone's 'interface' was largely a speaker and a dialing keypad mounted in a bulky handset. The MicroTAC introduced a physical state machine to the form: closed = compact and protected, open = active and speaking. The folding mouthpiece mechanically stowed the microphone against the keypad and deployed it over the user's mouth, so the phone's readiness was legible from its silhouette. Combined with the manually-extended retractable antenna, using the phone became a short sequence of tactile rituals (pull, flip, talk) that later generations replaced with software-defined silent states."},
+      {"heading": "Pocket-sized by construction", "text": "The MicroTAC was the first cellular phone that comfortably fit in a pocket, a direct consequence of the folding geometry. This miniaturization is itself an interaction story: the interface shrank to the body's scale, and the 'pocket' became the default resting place of the device, changing how and when people carried and used a phone. It paired naturally with the museum's DynaTAC as the two poles of early cellular form — brick versus clamshell."}
+    ],
+    "team": [
+      {"name": "Motorola, Inc.", "note": "Manufacturer; MicroTAC line ran from 1989 through the early 1990s (9800X, 650e, 5200 International, etc.)"}
+    ],
+    "media": [
+      {"src": "https://commons.wikimedia.org/wiki/File:Motorola_MicroTAC_650e_flip_phone.jpg", "alt": "Motorola MicroTAC 650e flip phone, open, showing the folding mouthpiece over the keypad", "caption": "Motorola MicroTAC 650e flip phone (open). CC0 via Wikimedia Commons."},
+      {"src": "https://commons.wikimedia.org/wiki/File:Motorola_Micro_TAC_650e_flip_phone_with_box,_manual,_and_AC_overnight_charger.JPG", "alt": "Motorola MicroTAC 650e flip phone with box, manual, and charger", "caption": "Motorola MicroTAC 650e with box, manual, and overnight charger. CC0 via Wikimedia Commons."}
+    ],
+    "sources": [
+      {"text": "Wikipedia — Motorola MicroTAC", "url": "https://en.wikipedia.org/wiki/Motorola_MicroTAC"},
+      {"text": "Motorola MicroTAC 650e flip phone (Commons file)", "url": "https://commons.wikimedia.org/wiki/File:Motorola_MicroTAC_650e_flip_phone.jpg"}
+    ],
+    "imageUrls": [
+      "https://upload.wikimedia.org/wikipedia/commons/6/61/Motorola_MicroTAC_650e_flip_phone.jpg",
+      "https://upload.wikimedia.org/wikipedia/commons/c/c4/Motorola_Micro_TAC_650e_flip_phone_with_box%2C_manual%2C_and_AC_overnight_charger.JPG"
+    ]
+  },
+  "savedImages": []
+}
