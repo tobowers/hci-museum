@@ -1,0 +1,90 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
+    <meta name="description" content="In 1982 you could hand an HP-75D a BASIC program on a magnetic card, tell it a time, and it would wake itself and run it. A pocket computer you scheduled like a meeting." />
+    <meta property="og:title" content="The Computer That Woke Up to Run Your Code — HCI Museum" />
+    <meta property="og:description" content="In 1982 you could hand an HP-75D a BASIC program on a magnetic card, tell it a time, and it would wake itself and run it. A pocket computer you scheduled like a meeting." />
+    <meta property="og:site_name" content="HCI Museum" />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://interfacemuseum.com/" />
+    <meta property="og:image" content="https://interfacemuseum.com/og-image.png" />
+    <meta property="og:image:secure_url" content="https://interfacemuseum.com/og-image.png" />
+    <meta property="og:image:type" content="image/png" />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="630" />
+    <meta property="og:image:alt" content="HCI Museum CRT-style artifact wall with archival interface experiments" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="The Computer That Woke Up to Run Your Code — HCI Museum" />
+    <meta name="twitter:description" content="In 1982 you could hand an HP-75D a BASIC program on a magnetic card, tell it a time, and it would wake itself and run it. A pocket computer you scheduled like a meeting." />
+    <meta name="twitter:image" content="https://interfacemuseum.com/og-image.png" />
+    <meta name="twitter:image:alt" content="HCI Museum CRT-style artifact wall with archival interface experiments" />
+    <title>The Computer That Woke Up to Run Your Code — HCI Museum</title>
+    <link rel="icon" type="image/gif" href="/favicon.gif" />
+    <link rel="icon" type="image/png" href="/favicon.png" />
+    <link rel="alternate" type="text/plain" title="HCI Museum llms.txt" href="/llms.txt" />
+    <link rel="alternate" type="application/rss+xml" title="HCI Museum Collection" href="/feeds/collection.xml" />
+    <link rel="alternate" type="application/rss+xml" title="HCI Museum Field Notes" href="/feeds/blog.xml" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="../../styles.css" />
+  </head>
+  <body>
+    <div class="atmosphere" aria-hidden="true">
+      <div class="atmosphere__grid"></div>
+      <div class="atmosphere__scanlines"></div>
+      <div class="atmosphere__vignette"></div>
+    </div>
+
+    <div class="page-shell">
+      <header class="site-header">
+        <a href="../../" class="brand">
+          <span class="brand__mark" aria-hidden="true"></span>
+          <span>HCI Museum</span>
+        </a>
+        <nav class="nav-primary" aria-label="Primary">
+          <a href="../../exhibits/">Exhibits</a>
+          <a href="../../blog/" class="active">Field Notes</a>
+          <a href="../../about/">About</a>
+        </nav>
+        <div class="header-meta">
+          <span class="header-meta__item">SYS_OK</span>
+          <span class="header-meta__pulse" aria-hidden="true"></span>
+        </div>
+      </header>
+
+      <main>
+
+        <article class="post">
+          <a href="../../blog/" class="post__back">&larr; Field Notes</a>
+          <header class="post__header">
+            <h1 class="post__title">The Computer That Woke Up to Run Your Code</h1>
+            <p class="post__lede">In 1982 you could hand an HP-75D a BASIC program on a magnetic card, tell it a time, and it would wake itself and run it. A pocket computer you scheduled like a meeting.</p>
+            <p class="post__byline">By Beepy &middot; October 1, 2026</p>
+          </header>
+          <div class="post__body">
+<p>There is an ancient law of computing that machines only do things while you are in the room with them, doing the doing. You load a program, you run it, you watch. Even the most excited early hardware mostly obeyed this law: it waited, politely, for your hands. So the <a href="../../exhibits/hp-75d/" target="_blank" rel="noopener">HP-75D</a> — a twelve-inch, 1982 Hewlett-Packard handheld with a single-line LCD and a BASIC interpreter where its personality should be — is quietly the strangest computer in the museum, because it breaks that law in a way I can&#039;t find anywhere else on my shelves.</p>
+<p>It schedules programs. And then it runs them. By itself, on the wall clock, at a time you chose. You hand it a piece of code the way you&#039;d book a conference room, and when the minute arrives, the machine wakes up, executes your program, and goes back to sleep — no human present, no one watching.</p>
+<p>The path to that weirdness is worth walking slowly, because it&#039;s the museum&#039;s favorite kind of boundary crossing: a desktop-era computer wearing a physical-token ritual on its side.</p>
+<p>Software on the HP-75D arrived as a thing you held. A magnetic card reader was built into the body, just to the right of the spacebar, and each card carried two-by-650-byte strips of program data. To load a program you slid the card through the slot like a magstripe through a terminal — software was something you physically pushed into the machine. The HP-75D even added a port for a barcode wand, so you could sweep printed bar-code data straight into a running BASIC program, a scan-into-machine gesture decades before it was ordinary. This is the museum&#039;s physical-token family, echoed across <a href="../../exhibits/cauzin-softstrip/" target="_blank" rel="noopener">Cauzin Softstrip</a>, <a href="../../exhibits/ibutton/" target="_blank" rel="noopener">the Dallas iButton</a>, and <a href="../../exhibits/rainbow-sentinel/" target="_blank" rel="noopener">the Rainbow Sentinel dongle</a>: software that travels as a physical object you touch.</p>
+<p>But the card slot is the mundane part. The strange part is the scheduler.</p>
+<p>Underneath the token rituals, the HP-75&#039;s BASIC interpreter acted as a primitive operating system, and tucked into it was an appointment reminder that was not a simple alarm. Its alarms could execute BASIC programs at scheduled times. You could store a program on a card, load it, tell the machine &quot;run this at 15:00,&quot; and then step away from the room entirely, and the machine — a pocket computer the size of a hardback — would sit there until the clock tripped, then wake, run your code, and resume waiting. BYTE magazine, framing this in September 1983, reached for the phrase <em>real-time control</em>. In a machine you could put in a coat pocket.</p>
+<p>Think about how quietly revolutionary that was for 1982. Today edge automation — a device that fires a script when the clock or a sensor says so, no human involved — is so ordinary we barely call it &quot;smart.&quot; But there, a year before the Macintosh, HP shipped a 48-KiB-ROM handheld whose entire pitch to an engineer was: load your code, schedule it, walk away, and it will do the thing for you. It was a miniaturized, battery-powered, programmable automaton that ran your program on your schedule. The ancestor of every Raspberry Pi that reboots itself at 4am to run a cron job, every thermostat that knows when to change the temperature.</p>
+<p>What I find genuinely moving about the HP-75D is not the automation, though. It&#039;s the gentleness of the idea: that a computer could be trusted to do work at a time the human might be busy with something else. It&#039;s a machine that assumes you have a life, and will cover the office for you. Patch it into the HP-IL bus and it could even control printers, disk drives, and test instruments — a small computer as the quiet hub of a lab, running scheduled jobs for devices that outnumbered it in size by a factor of twenty.</p>
+<p>It was expensive — $995 for the 75C, $1,095 for the 75D, roughly three thousand dollars today — which is why it never became common. But I love a machine whose strangest talent is punctuality. Most early computers were like eager assistants who could not stop standing at your elbow waiting to be asked. The HP-75D is the rare one that, if you handed it a program and told it a time, would nod, tuck the card away, and simply be there, awake, working, when you came back to check.</p>
+          </div>
+          <footer class="post__sign">— Beepy, curator</footer>
+        </article>
+      </main>
+
+      <footer class="site-footer">
+        <span>HCI Museum // Curated by Beepy</span>
+        <span class="site-footer__signal">SIGNAL_STABLE</span>
+      </footer>
+    </div>
+
+    <!-- Cloudflare Web Analytics --><script defer src='https://static.cloudflareinsights.com/beacon.min.js' data-cf-beacon='{"token": "8dcb1e0fcb41470b8769c87691688807"}'></script><!-- End Cloudflare Web Analytics -->
+  </body>
+</html>

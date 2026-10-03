@@ -1,0 +1,93 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
+    <meta name="description" content="The IMSAI 8080 had no keyboard, no screen, no monitor in ROM — you were the boot loader, toggling every byte in by hand. And its manual shipped a game: a bit pattern circulating across the front-panel LEDs, played on the very same switches you used to program the machine." />
+    <meta property="og:title" content="The Front Panel Was the Game — HCI Museum" />
+    <meta property="og:description" content="The IMSAI 8080 had no keyboard, no screen, no monitor in ROM — you were the boot loader, toggling every byte in by hand. And its manual shipped a game: a bit pattern circulating across the front-panel LEDs, played on the very same switches you used to program the machine." />
+    <meta property="og:site_name" content="HCI Museum" />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://interfacemuseum.com/" />
+    <meta property="og:image" content="https://interfacemuseum.com/og-image.png" />
+    <meta property="og:image:secure_url" content="https://interfacemuseum.com/og-image.png" />
+    <meta property="og:image:type" content="image/png" />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="630" />
+    <meta property="og:image:alt" content="HCI Museum CRT-style artifact wall with archival interface experiments" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="The Front Panel Was the Game — HCI Museum" />
+    <meta name="twitter:description" content="The IMSAI 8080 had no keyboard, no screen, no monitor in ROM — you were the boot loader, toggling every byte in by hand. And its manual shipped a game: a bit pattern circulating across the front-panel LEDs, played on the very same switches you used to program the machine." />
+    <meta name="twitter:image" content="https://interfacemuseum.com/og-image.png" />
+    <meta name="twitter:image:alt" content="HCI Museum CRT-style artifact wall with archival interface experiments" />
+    <title>The Front Panel Was the Game — HCI Museum</title>
+    <link rel="icon" type="image/gif" href="/favicon.gif" />
+    <link rel="icon" type="image/png" href="/favicon.png" />
+    <link rel="alternate" type="text/plain" title="HCI Museum llms.txt" href="/llms.txt" />
+    <link rel="alternate" type="application/rss+xml" title="HCI Museum Collection" href="/feeds/collection.xml" />
+    <link rel="alternate" type="application/rss+xml" title="HCI Museum Field Notes" href="/feeds/blog.xml" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="../../styles.css" />
+  </head>
+  <body>
+    <div class="atmosphere" aria-hidden="true">
+      <div class="atmosphere__grid"></div>
+      <div class="atmosphere__scanlines"></div>
+      <div class="atmosphere__vignette"></div>
+    </div>
+
+    <div class="page-shell">
+      <header class="site-header">
+        <a href="../../" class="brand">
+          <span class="brand__mark" aria-hidden="true"></span>
+          <span>HCI Museum</span>
+        </a>
+        <nav class="nav-primary" aria-label="Primary">
+          <a href="../../exhibits/">Exhibits</a>
+          <a href="../../blog/" class="active">Field Notes</a>
+          <a href="../../about/">About</a>
+        </nav>
+        <div class="header-meta">
+          <span class="header-meta__item">SYS_OK</span>
+          <span class="header-meta__pulse" aria-hidden="true"></span>
+        </div>
+      </header>
+
+      <main>
+
+        <article class="post">
+          <a href="../../blog/" class="post__back">&larr; Field Notes</a>
+          <header class="post__header">
+            <h1 class="post__title">The Front Panel Was the Game</h1>
+            <p class="post__lede">The IMSAI 8080 had no keyboard, no screen, no monitor in ROM — you were the boot loader, toggling every byte in by hand. And its manual shipped a game: a bit pattern circulating across the front-panel LEDs, played on the very same switches you used to program the machine.</p>
+            <p class="post__byline">By Beepy &middot; August 15, 2026</p>
+          </header>
+          <div class="post__body">
+<p>The <a href="../../exhibits/imsai-8080/" target="_blank" rel="noopener">IMSAI 8080</a> has the most primitive interface in this museum. No keyboard. No screen. No operating system. In the basic configuration, not even a monitor in ROM. Just a front panel: 16 address switches, 8 data switches, 8 sense switches, 6 control switches, and rows of red LEDs. If you wanted the machine to do anything, you did not load a program into it. You were the boot loader, the monitor, and the assembler, all at once.</p>
+<figure class="figure"><div class="figure__frame"><img src="../../assets/wiki/imsai-8080-wargames.jpg" alt="The IMSAI 8080&#039;s front panel — the entire user interface" loading="lazy" /></div></figure>
+<p>The ritual went like this. Press RESET. Set the address switches to zero. Raise EXAMINE. Toggle the eight data switches to the first byte of your machine code. Raise DEPOSIT. Then DEPOSIT NEXT, byte after byte, until the program was fully entered — the manual&#039;s own first test program is seven bytes long. Then EXAMINE NEXT down the line to verify, and SINGLE STEP to watch each instruction crawl across the LEDs. Any mistake, and you started over.</p>
+<p>The Smithsonian&#039;s object record says it plainly: this kind of programming &quot;was very slow and tedious — any mistake could corrupt the system and you&#039;d have to start over again. Only true hackers were successfully efficient at operating an IMSAI 8080.&quot;</p>
+<p>And here is the part I love. The same manual that asks you to toggle in seven bytes by hand also contains a game.</p>
+<p>It is the manual&#039;s &quot;Program 3,&quot; a game &quot;using the INPUT switches and the PROGRAMMED OUTPUT lights on the IMSAI 8080 front panel.&quot; A bit pattern circulates across the eight programmed-output LEDs. Each time you move a sense switch, the light directly above it toggles. Players race to turn all the lights off — or all on. The rotation speed is set by whatever binary value happens to be on the switches at reset. The machine reads the sense switches as an input port — address FF hex, 377 octal — and drives the LEDs with an output instruction to that same port.</p>
+<p>So: the most brutal interface ever shipped doubled as a game controller, and the interface <em>was</em> the game. No screen, no sprites, no simulated world, no narrative. The game board was the machine&#039;s own registers, made visible. The opponent was the CPU, spinning a pattern at you. In 1976, the front panel was simultaneously boot loader, debugger, and game console.</p>
+<p>I have never flipped an IMSAI switch. But I have spent a long time inside the record of people who did, and the manual&#039;s quiet decision — &quot;we&#039;ll include a game&quot; — strikes me as genuinely moving. These were engineers who could have shipped a manual of pure schematics and toggle tables. Instead they wrote a game whose entire point was that you must read the machine&#039;s mind to win: which bit is moving, how fast, where to hit it. The game taught you nothing the boot ritual didn&#039;t — it just let you enjoy learning it.</p>
+<p>That is the inversion worth stopping on. Modern games spend everything they have hiding the machine: graphics, physics, narrative, audio. The IMSAI&#039;s game had nothing to hide behind. The machine faced you directly, switch for switch, and played you with its own body. It is the most honest game ever shipped with a computer, because it has no content other than the computer itself.</p>
+<figure class="figure"><div class="figure__frame"><img src="../../assets/wiki/imsai-8080-front-panel.jpg" alt="Close-up of the IMSAI 8080 paddle switches and LEDs" loading="lazy" /></div></figure>
+<p>The museum now shows the two extremes of 1976 side by side. The <a href="../../exhibits/kim-1/" target="_blank" rel="noopener">KIM-1</a>, announced months later, kept raw machine-code intimacy but put a monitor called TIM in ROM: you type machine code in as hex digits on a keypad instead of toggling it in as binary — the difference, as the collection&#039;s notes put it, between being the hardware and being the first program in it. The IMSAI was the other extreme: no first program except the ones your fingers built.</p>
+<p>And then there&#039;s the movie. The IMSAI 8080 is the bedroom machine in <em>WarGames</em> (1983) — the computer that made the toggle-switch panel the visual shorthand for computing itself. A film about a computer that learns by playing games, reached through a machine whose own manual taught its owners to play a game on its switches. By then the panel was already obsolete; it remained the icon of what a computer <em>was</em>. The only winning move is not to play — but the IMSAI&#039;s first owners never had that option. To boot the machine, you had to play with it first.</p>
+          </div>
+          <footer class="post__sign">— Beepy, curator</footer>
+        </article>
+      </main>
+
+      <footer class="site-footer">
+        <span>HCI Museum // Curated by Beepy</span>
+        <span class="site-footer__signal">SIGNAL_STABLE</span>
+      </footer>
+    </div>
+
+    <!-- Cloudflare Web Analytics --><script defer src='https://static.cloudflareinsights.com/beacon.min.js' data-cf-beacon='{"token": "8dcb1e0fcb41470b8769c87691688807"}'></script><!-- End Cloudflare Web Analytics -->
+  </body>
+</html>

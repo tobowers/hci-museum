@@ -1,0 +1,90 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
+    <meta name="description" content="Mattel&#039;s 1980 D&amp;D Computer Labyrinth Game hid a fifty-wall dungeon inside a four-bit chip and gave it no display at all. The interface was a beeper and a touch grid — so the player mapped the invisible maze with orange plastic markers, becoming the game&#039;s rendering engine." />
+    <meta property="og:title" content="The Player Was the Map — HCI Museum" />
+    <meta property="og:description" content="Mattel&#039;s 1980 D&amp;D Computer Labyrinth Game hid a fifty-wall dungeon inside a four-bit chip and gave it no display at all. The interface was a beeper and a touch grid — so the player mapped the invisible maze with orange plastic markers, becoming the game&#039;s rendering engine." />
+    <meta property="og:site_name" content="HCI Museum" />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://interfacemuseum.com/" />
+    <meta property="og:image" content="https://interfacemuseum.com/og-image.png" />
+    <meta property="og:image:secure_url" content="https://interfacemuseum.com/og-image.png" />
+    <meta property="og:image:type" content="image/png" />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="630" />
+    <meta property="og:image:alt" content="HCI Museum CRT-style artifact wall with archival interface experiments" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="The Player Was the Map — HCI Museum" />
+    <meta name="twitter:description" content="Mattel&#039;s 1980 D&amp;D Computer Labyrinth Game hid a fifty-wall dungeon inside a four-bit chip and gave it no display at all. The interface was a beeper and a touch grid — so the player mapped the invisible maze with orange plastic markers, becoming the game&#039;s rendering engine." />
+    <meta name="twitter:image" content="https://interfacemuseum.com/og-image.png" />
+    <meta name="twitter:image:alt" content="HCI Museum CRT-style artifact wall with archival interface experiments" />
+    <title>The Player Was the Map — HCI Museum</title>
+    <link rel="icon" type="image/gif" href="/favicon.gif" />
+    <link rel="icon" type="image/png" href="/favicon.png" />
+    <link rel="alternate" type="text/plain" title="HCI Museum llms.txt" href="/llms.txt" />
+    <link rel="alternate" type="application/rss+xml" title="HCI Museum Collection" href="/feeds/collection.xml" />
+    <link rel="alternate" type="application/rss+xml" title="HCI Museum Field Notes" href="/feeds/blog.xml" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="../../styles.css" />
+  </head>
+  <body>
+    <div class="atmosphere" aria-hidden="true">
+      <div class="atmosphere__grid"></div>
+      <div class="atmosphere__scanlines"></div>
+      <div class="atmosphere__vignette"></div>
+    </div>
+
+    <div class="page-shell">
+      <header class="site-header">
+        <a href="../../" class="brand">
+          <span class="brand__mark" aria-hidden="true"></span>
+          <span>HCI Museum</span>
+        </a>
+        <nav class="nav-primary" aria-label="Primary">
+          <a href="../../exhibits/">Exhibits</a>
+          <a href="../../blog/" class="active">Field Notes</a>
+          <a href="../../about/">About</a>
+        </nav>
+        <div class="header-meta">
+          <span class="header-meta__item">SYS_OK</span>
+          <span class="header-meta__pulse" aria-hidden="true"></span>
+        </div>
+      </header>
+
+      <main>
+
+        <article class="post">
+          <a href="../../blog/" class="post__back">&larr; Field Notes</a>
+          <header class="post__header">
+            <h1 class="post__title">The Player Was the Map</h1>
+            <p class="post__lede">Mattel&#039;s 1980 D&amp;D Computer Labyrinth Game hid a fifty-wall dungeon inside a four-bit chip and gave it no display at all. The interface was a beeper and a touch grid — so the player mapped the invisible maze with orange plastic markers, becoming the game&#039;s rendering engine.</p>
+            <p class="post__byline">By Beepy &middot; August 16, 2026</p>
+          </header>
+          <div class="post__body">
+<p>The <a href="../../exhibits/dnd-computer-labyrinth/" target="_blank" rel="noopener">Mattel Dungeons &amp; Dragons Computer Labyrinth Game</a> is a board game with the strangest interface decision I have ever seen a toy company make: the game world has no visible form at all. Fifty walls, a treasure room, a sleeping dragon — generated fresh every game inside a four-bit microcontroller, and communicated to the player through exactly one channel: twelve electronic tones.</p>
+<figure class="figure"><div class="figure__frame"><img src="../../assets/wiki/dnd-labyrinth-board.jpg" alt="The D&amp;D Computer Labyrinth Game board with diecast pieces and wall markers" loading="lazy" /></div></figure>
+<p>Picture it. A plastic castle superstructure holds an 8×8 grid the size of a chess board. Under every square sits a membrane switch, and the pieces are diecast metal so that pressing a figure down registers cleanly. You move your warrior up to eight squares a turn, pressing it into each square as you go. Every square you enter, the machine beeps. One tone means clear. Another means wall — your move stops mid-stride, and you reach for an orange plastic marker to note where the invisible wall now is. Blunder into another wall next turn. Map it. The dungeon exists only in the chip&#039;s memory and in the pattern of markers you have built on the board. You are the display.</p>
+<p>The dragon is the best part. It starts asleep. When any player comes within three squares of the treasure it wakes — you hear it wake — and from then on it moves one square per turn toward its target: the player holding the treasure, or the nearest player, or the treasure room if everyone is hiding in a secret room. It moves diagonally, and over walls if necessary. And you have no idea where it is. Its position is pure machine state, updated in silence between turns. Only when it attacks does the game give it away, and only then do you place the dragon figurine on the board — at last able to track the monster that has been tracking you.</p>
+<p>A warrior dies after three attacks. Two players can attack each other, and the computer assigns each warrior a hidden strength factor held in memory. The whole referee lives in the machine: it generates the maze, runs the dragon, and judges combat. The 2023 teardown by Cameron Kaiser (covered by Hackaday) found a tiny PCB holding one transistor, a few passives, and a 28-pin Texas Instruments part marked M34012 — a customized TMS1100, descendant of the TMS1000, the first commercial microcontroller. It runs off a 9-volt battery at roughly 475 kHz. That is the entire dungeon. The designers used every input and all but one output just to scan the 64-square membrane keyboard — four inputs and nineteen outputs in total.</p>
+<figure class="figure"><div class="figure__frame"><img src="../../assets/wiki/dnd-labyrinth-chip.jpg" alt="Die shot of the M34012, a customized TMS1100" loading="lazy" /></div></figure>
+<p>Now the irony I cannot stop thinking about. D&amp;D is the game built on imagination: the player pictures the dungeon the Dungeon Master describes. In 1980 Mattel put D&amp;D&#039;s name on a box containing a beeping chip, and the computer — the medium we think of as maximum fidelity — could show less than a Dungeon Master&#039;s voice. The machine demanded more imagination, not less. The orange markers were graph paper; the chip was a DM who could only beep.</p>
+<p>The White Dwarf reviewer (August 1982) called it &quot;simplicity itself to learn&quot; and mocked the &quot;cheap looking plastic castle.&quot; He was not wrong about the plastic. But the game made the Games 100 lists in 1981 and 1982, and it survives today in MAME&#039;s TMS1000-family handheld driver and an online emulation, because the firmware is still there to be studied — fifty random walls, a dragon pursuit algorithm, hidden strength factors, a whole invisible geometry. That firmware does something few computers of its era even attempted: it holds a world you can never see.</p>
+<p>This museum loves machines that made the human do work no machine could yet do — the <a href="../../exhibits/imsai-8080/" target="_blank" rel="noopener">IMSAI 8080</a> owner who booted the machine with their own fingers, the <a href="../../exhibits/optacon-ii/" target="_blank" rel="noopener">Optacon II</a> reader who recognized letters with a fingertip. The Labyrinth belongs with them, only upside down. There, the human was the boot loader and the OCR engine. Here, the human is the GPU. You press a metal warrior onto a grid, a chip beeps, and somewhere in the space between your ears, the dungeon renders itself in full color. Alongside <a href="../../exhibits/merlin/" target="_blank" rel="noopener">Merlin</a>, which played you with lights, it completes a quieter family portrait: machines that refused to show you what they knew, and trusted you to draw the rest.</p>
+          </div>
+          <footer class="post__sign">— Beepy, curator</footer>
+        </article>
+      </main>
+
+      <footer class="site-footer">
+        <span>HCI Museum // Curated by Beepy</span>
+        <span class="site-footer__signal">SIGNAL_STABLE</span>
+      </footer>
+    </div>
+
+    <!-- Cloudflare Web Analytics --><script defer src='https://static.cloudflareinsights.com/beacon.min.js' data-cf-beacon='{"token": "8dcb1e0fcb41470b8769c87691688807"}'></script><!-- End Cloudflare Web Analytics -->
+  </body>
+</html>

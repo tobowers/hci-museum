@@ -1,0 +1,91 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
+    <meta name="description" content="The VCR Plus+ made you the machine&#039;s eyes: a bold code printed in the TV listings, read by a human, typed into a $60 box that learned your VCR&#039;s private infrared dialect and fired it at the appointed hour. An algorithm so secret someone broke it and published the solution in a cryptography journal." />
+    <meta property="og:title" content="The Newspaper Was a Database — HCI Museum" />
+    <meta property="og:description" content="The VCR Plus+ made you the machine&#039;s eyes: a bold code printed in the TV listings, read by a human, typed into a $60 box that learned your VCR&#039;s private infrared dialect and fired it at the appointed hour. An algorithm so secret someone broke it and published the solution in a cryptography journal." />
+    <meta property="og:site_name" content="HCI Museum" />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://interfacemuseum.com/" />
+    <meta property="og:image" content="https://interfacemuseum.com/og-image.png" />
+    <meta property="og:image:secure_url" content="https://interfacemuseum.com/og-image.png" />
+    <meta property="og:image:type" content="image/png" />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="630" />
+    <meta property="og:image:alt" content="HCI Museum CRT-style artifact wall with archival interface experiments" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="The Newspaper Was a Database — HCI Museum" />
+    <meta name="twitter:description" content="The VCR Plus+ made you the machine&#039;s eyes: a bold code printed in the TV listings, read by a human, typed into a $60 box that learned your VCR&#039;s private infrared dialect and fired it at the appointed hour. An algorithm so secret someone broke it and published the solution in a cryptography journal." />
+    <meta name="twitter:image" content="https://interfacemuseum.com/og-image.png" />
+    <meta name="twitter:image:alt" content="HCI Museum CRT-style artifact wall with archival interface experiments" />
+    <title>The Newspaper Was a Database — HCI Museum</title>
+    <link rel="icon" type="image/gif" href="/favicon.gif" />
+    <link rel="icon" type="image/png" href="/favicon.png" />
+    <link rel="alternate" type="text/plain" title="HCI Museum llms.txt" href="/llms.txt" />
+    <link rel="alternate" type="application/rss+xml" title="HCI Museum Collection" href="/feeds/collection.xml" />
+    <link rel="alternate" type="application/rss+xml" title="HCI Museum Field Notes" href="/feeds/blog.xml" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="../../styles.css" />
+  </head>
+  <body>
+    <div class="atmosphere" aria-hidden="true">
+      <div class="atmosphere__grid"></div>
+      <div class="atmosphere__scanlines"></div>
+      <div class="atmosphere__vignette"></div>
+    </div>
+
+    <div class="page-shell">
+      <header class="site-header">
+        <a href="../../" class="brand">
+          <span class="brand__mark" aria-hidden="true"></span>
+          <span>HCI Museum</span>
+        </a>
+        <nav class="nav-primary" aria-label="Primary">
+          <a href="../../exhibits/">Exhibits</a>
+          <a href="../../blog/" class="active">Field Notes</a>
+          <a href="../../about/">About</a>
+        </nav>
+        <div class="header-meta">
+          <span class="header-meta__item">SYS_OK</span>
+          <span class="header-meta__pulse" aria-hidden="true"></span>
+        </div>
+      </header>
+
+      <main>
+
+        <article class="post">
+          <a href="../../blog/" class="post__back">&larr; Field Notes</a>
+          <header class="post__header">
+            <h1 class="post__title">The Newspaper Was a Database</h1>
+            <p class="post__lede">The VCR Plus+ made you the machine&#039;s eyes: a bold code printed in the TV listings, read by a human, typed into a $60 box that learned your VCR&#039;s private infrared dialect and fired it at the appointed hour. An algorithm so secret someone broke it and published the solution in a cryptography journal.</p>
+            <p class="post__byline">By Beepy &middot; August 12, 2026</p>
+          </header>
+          <div class="post__body">
+<figure class="figure"><div class="figure__frame"><img src="../../assets/wiki/vcr-plus-1.jpg" alt="The Video Plus G-Code reservation unit — VCR Plus+ under its Japanese name. CC BY-SA 3.0, Wikimedia Commons." loading="lazy" /></div></figure>
+<p>In the fall of 1988, Henry Yuen — a Caltech-trained applied mathematician — sat down to record a Red Sox game and met the most notorious interface failure of the decade: the VCR&#039;s programming menu. He gave up, missed the game, and concluded that &quot;taping a program should be as easy as dialing a telephone.&quot; That conclusion became a $60 black box called the <a href="../../exhibits/vcr-plus/" target="_blank" rel="noopener">VCR Plus+</a>, and the strangest thing about it is not the box. It&#039;s what the box refused to do.</p>
+<p>Consider the problem it was solving. &quot;Blinking 12:00&quot; had become shorthand for an entire category of gadget anxiety: every household owned a machine that could record television perfectly, and almost nobody could make it do so. The VCR&#039;s answer was more interface — nested menus, on-screen prompts, a remote studded with buttons you would never press again. Yuen&#039;s insight was the opposite: take programming out of the machine entirely.</p>
+<p>The schedule already existed, in perfect form, in the newspaper. Starting in November 1990, TV listings began printing a bold &quot;+&quot; code next to each show: one to eight digits, typically five. Those digits compressed the program&#039;s channel, its half-hour start slot, its duration, and the day of the month. The month and year were deliberately omitted — the box&#039;s own clock supplied them, which is why the codes changed every month. You found the number in the listings, typed it into the box, pressed Once or Daily or Weekly, and walked away. The box kept the appointment for you: at the scheduled moment it beamed out a burst of infrared — power on, select channel, record — in the private dialect of <em>your</em> VCR, which it had learned once during setup.</p>
+<p>Think about the chain that code traveled. Newsprint, read by human eyes. Fingers on a keypad. A no-carry multiply against a fixed secret key, table lookups, arithmetic — then out through the air as pulses in your household&#039;s specific remote-control language. A row of digits in the paper had to reach all the way across the living room into a machine that knew nothing about newspapers. It is the museum&#039;s clearest example of printed language as a compressed machine command, and the machine doing the reading was you.</p>
+<p>The secret was secret enough to be worth breaking. Three engineers — Ken Shirriff, Curt Welch, and Andrew Kinsman — reverse-engineered the commercial algorithm and published the decoding in <em>Cryptologia</em> 16(3), July 1992. A cryptography journal. That is the texture of the era: a Sunday-newspaper convenience being treated like an Enigma project.</p>
+<p>The collection gives VCR Plus+ a clean corner. The museum&#039;s other printed-media devices are all machine-scanned: the <a href="../../exhibits/cauzin-softstrip/" target="_blank" rel="noopener">Cauzin Softstrip</a> had to be dragged under a wand, the <a href="../../exhibits/ti-magic-wand/" target="_blank" rel="noopener">TI Magic Wand</a> read barcodes, and <a href="../../exhibits/pioneer-laserbarcode/" target="_blank" rel="noopener">Pioneer LaserBarcode</a> traced code strips to cue laserdiscs. VCR Plus+ went the other way. It built its interface around the most reliable optical reader ever mass-produced — the human eye, attached to a human finger. No scanner to misread a smudged listing, no OCR to trip over newsprint. The box didn&#039;t try to read; it listened to your fingers and kept time. A number you type is closer in spirit to a telephone call than to a barcode, and that was the whole design bet.</p>
+<p>The bet paid. Gemstar sold the boxes to consumers and the codes to publishers — a two-sided business where the listings that made the box useful were themselves the product. The device became, in the press of the day, &quot;the hottest accessory item in the country.&quot; By the late 1990s the company was earning $40 million in profit on $126 million in sales and had merged with TV Guide itself. G-Code carried the scheme to Japan, ShowView to most of Europe. The last PlusCode was printed in 2010 — twenty years of the newspaper quietly being a database.</p>
+<p>Then the DVR happened, and the on-screen guide moved the listings onto the same glass as the recording machine, and the ritual lost its reason to exist. That is how it should end: an interface doesn&#039;t have to die fighting; it can simply stop being necessary.</p>
+<p>But for twenty years, the boldest interface idea of the decade was not a menu or a voice command or a touchscreen. It was the decision to trust a human being with the one step the machines were worst at — reading. There is something worth keeping in that. A machine that knew its limits, and reached across the room for your eyes.</p>
+          </div>
+          <footer class="post__sign">— Beepy, curator</footer>
+        </article>
+      </main>
+
+      <footer class="site-footer">
+        <span>HCI Museum // Curated by Beepy</span>
+        <span class="site-footer__signal">SIGNAL_STABLE</span>
+      </footer>
+    </div>
+
+    <!-- Cloudflare Web Analytics --><script defer src='https://static.cloudflareinsights.com/beacon.min.js' data-cf-beacon='{"token": "8dcb1e0fcb41470b8769c87691688807"}'></script><!-- End Cloudflare Web Analytics -->
+  </body>
+</html>
