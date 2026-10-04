@@ -1,0 +1,40 @@
+{
+  "slug": "moog-liberation",
+  "title": "Moog Liberation",
+  "year": "1980",
+  "subtitle": "A strap-on body-worn synthesizer whose spring-loaded ribbon controller turns the neck of the instrument into a continuous-pitch surface.",
+  "why_scout_cares": "The museum has no keytar and no instrument whose primary novelty is a body-worn, guitar-posture form factor paired with a continuous ribbon for glissando. The Liberation makes the musician's posture the interface and adds a spring-loaded pitch ribbon and aftertouch — a genuinely distinct embodied music-interaction channel.",
+  "search_terms": ["Moog Liberation", "keytar", "ribbon controller", "Moog Music 1980", "continuous pitch synth"],
+  "research": {
+    "title": "Moog Liberation",
+    "year": "1980",
+    "by": "Moog Music",
+    "tags": ["HCI", "Input", "Music", "Continuous-control"],
+    "overview": "The Moog Liberation (1980) is one of the first commercially produced keytar synthesizers, built by Moog Music (founded by Robert Moog, then under the ownership of Norlin Musical Instruments). It was designed to be played in the same posture as a guitar — worn on a strap across the body, one hand on a 44-key monophonic keyboard, the other reaching up the neck.\n\nThe instrument's distinctive HCI elements are threefold. First, the strap-on, guitar-posture form factor makes the musician's whole body part of the interface; it was marketed for stage performance precisely so a player could move and walk while performing, in a way a fixed keyboard never allowed. Second, the neck carries a spring-loaded ribbon controller that provides true continuous pitch and portamento — sliding a finger along the ribbon produces an unbroken glissando, the physical embodiment of continuous control rather than discrete keys. Third, the keyboard is aftertouch-sensitive, adding an extra continuous dimension per pressed note.\n\nThe Liberation is closely related to the Moog Prodigy, Rogue, and the Realistic Concertmate MG-1 internally, but the keytar chassis recontextualizes the same analog voice as a wearable, performative instrument. It predates the later keytar wave popularized by artists like Jan Hammer and the synth-pop era.",
+    "deepDive": [
+      {"heading": "Origins and lineage", "text": "Moog Music designed the Liberation in the late 1970s as part of its effort to make synthesizers stage-friendly. It shared the analog voice architecture of the Prodigy/MG-1 family but placed it in a slim, strap-on keytar body. The result was a monophonic analog synth meant to be worn and played standing up."},
+      {"heading": "The ribbon controller", "text": "The spring-loaded ribbon on the neck is the strangest and most HCI-relevant part. Pressing and sliding a finger along it sends continuous pitch/portamento control, letting the player bend pitch smoothly in a way no discrete keypad can. Combined with the filter/modulation/volume wheels and aftertouch keyboard, the Liberation offered a rich continuous-control surface wrapped around the body."},
+      {"heading": "Performance posture as interface", "text": "By putting the instrument on a strap, Moog changed not just where you could play it but how you inhabited it — the musician could walk, gesture, and play from the body. This is the interaction model the museum cares about: an instrument whose primary design decision is the human posture and movement it enables."}
+    ],
+    "team": [
+      {"name": "Moog Music", "note": "Manufacturer; the Liberation was a keytar release in the Prodigy/Rogue/MG-1 voice family."},
+      {"name": "Robert Moog", "note": "Founder whose name the company carried; the instrument bears the Moog lineage."}
+    ],
+    "media": [
+      {"src": "https://commons.wikimedia.org/wiki/File:Moog_Liberation.jpg", "alt": "The Moog Liberation keytar", "caption": "Moog Liberation strap-on keytar (CC BY 2.0, Wikimedia Commons)."},
+      {"src": "https://commons.wikimedia.org/wiki/File:Moog_Liberation_Gitarrenhals.JPG", "alt": "Neck of the Moog Liberation showing the ribbon controller", "caption": "The Liberation's neck with spring-loaded ribbon controller (CC BY-SA 3.0, Wikimedia Commons)."}
+    ],
+    "sources": [
+      {"text": "Wikipedia — Moog Liberation", "url": "https://en.wikipedia.org/wiki/Moog_Liberation"},
+      {"text": "Vintage Synth Explorer — Moog Liberation", "url": "https://www.vintagesynth.com/moog/liberation.php"}
+    ],
+    "imageUrls": [
+      "https://upload.wikimedia.org/wikipedia/commons/8/86/Moog_Liberation.jpg",
+      "https://upload.wikimedia.org/wikipedia/commons/2/2c/Moog_Liberation_Gitarrenhals.JPG"
+    ]
+  },
+  "savedImages": [
+    "assets/wiki/moog-liberation.jpg",
+    "assets/wiki/moog-liberation-neck.jpg"
+  ]
+}

@@ -3610,6 +3610,32 @@ const exhibitData: Exhibit[] = [
     tags: ["Music", "Input", "Synthesizer", "Pedal", "Sensory-motor"],
     image: img("moog-taurus-1.jpg"),
   },
+  {
+    id: "moog-liberation",
+    slug: "moog-liberation",
+    wikiTitle: "Moog Liberation",
+    year: "1980",
+    sortYear: 1980,
+    title: "Moog Liberation (1980)",
+    subtitle: "A strap-on body-worn synthesizer whose spring-loaded ribbon controller turns the neck of the instrument into a continuous-pitch surface",
+    blurb:
+      "The Moog Liberation (1980) is one of the first commercially produced keytar synthesizers, built by Moog Music and designed to be played in the same posture as a guitar — worn on a strap across the body, one hand on a 44-key monophonic keyboard, the other reaching up the neck. Its distinctive HCI elements are the strap-on, guitar-posture form factor that makes the musician's whole body part of the interface (you can walk and gesture while playing); a spring-loaded ribbon controller on the neck that provides true continuous pitch and portamento, the physical embodiment of continuous control rather than discrete keys; and an aftertouch-sensitive keyboard. The instrument shares the analog voice of the Prodigy/Rogue/MG-1 family but recontextualizes it as a wearable, performative instrument. The museum's only keytar and its clearest continuous-pitch ribbon controller, distinct from every fixed-keyboard synthesizer in the collection.",
+    tags: ["Music", "Input", "Synthesizer", "Continuous-control", "Wearable"],
+    image: img("moog-liberation.jpg"),
+  },
+  {
+    id: "tektronix-492",
+    slug: "tektronix-492",
+    wikiTitle: "Tektronix 492 Spectrum Analyzer",
+    year: "1978",
+    sortYear: 1978,
+    title: "Tektronix 492 Spectrum Analyzer (1978)",
+    subtitle: "A microprocessor-controlled portable spectrum analyzer whose marker cursors and GPIB computer linkage made the frequency domain a direct, queryable interface",
+    blurb:
+      "The Tektronix 492, introduced in 1978 (with the higher-bandwidth 496 following in 1983), was a portable, microprocessor-controlled spectrum analyzer that dominated the lab spectrum-analyzer market for a decade. It is a genuinely different instrument class from the oscilloscopes already in the museum: instead of a time-domain waveform it sweeps a frequency spectrum onto a large analog CRT. Its HCI-relevant features are the digital frequency/span/reference values drawn directly onto the CRT graticule rather than a separate readout; front-panel marker and cursor controls that let the operator place a marker on the trace and read frequency and amplitude directly; and full IEEE-488 (GPIB) remote programming and data transfer so a host computer could drive the instrument and receive trace data. A dense two-tier panel of concentric coarse/fine knobs and pushbuttons exemplifies the 'every control has its own knob, read out digitally on screen' interaction style of professional lab instrumentation before menu-driven soft-key UIs arrived. The museum's first spectrum analyzer.",
+    tags: ["HCI", "Output", "Instrument", "GPIB", "Lab"],
+    image: img("tektronix-492.jpg"),
+  },
 ];
 
 export const exhibits: Exhibit[] = exhibitData.toSorted((a, b) => b.sortYear - a.sortYear || a.title.localeCompare(b.title));

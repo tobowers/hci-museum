@@ -1,0 +1,36 @@
+{
+  "slug": "tektronix-492",
+  "title": "Tektronix 492 Spectrum Analyzer",
+  "year": "1978",
+  "subtitle": "A microprocessor-controlled portable spectrum analyzer whose marker cursors and GPIB computer linkage made the frequency domain a direct, queryable interface.",
+  "why_scout_cares": "The museum has oscilloscopes and logic analyzers but no spectrum analyzer — this opens the frequency-domain instrument class. The 492's digital readout overlaid on the CRT graticule, front-panel marker/cursor controls, and IEEE-488 (GPIB) remote computer programming make it a real computer-linked measurement interface, distinct from the existing Tektronix oscilloscopes.",
+  "search_terms": ["Tektronix 492 spectrum analyzer", "IEEE-488 GPIB", "marker cursor", "Tektronix 496", "1978 lab instrument"],
+  "research": {
+    "title": "Tektronix 492 Spectrum Analyzer",
+    "year": "1978",
+    "by": "Tektronix",
+    "tags": ["HCI", "Output", "Instrument", "GPIB"],
+    "overview": "The Tektronix 492, introduced in 1978 (with the higher-bandwidth 496 following in 1983), was a portable, microprocessor-controlled spectrum analyzer that dominated the lab spectrum-analyzer market for a decade. It is a genuinely different instrument class from the oscilloscopes already in the museum: instead of displaying a time-domain waveform, it sweeps a frequency spectrum and renders it on a large analog CRT.\n\nThe 492's HCI-relevant features are the digital frequency readout drawn directly onto the CRT graticule (rather than a separate display), the front-panel marker and cursor controls that let the operator place a marker on the trace and read frequency/amplitude directly, and full IEEE-488 (GPIB) remote programming and data transfer so a host computer could drive the instrument and receive trace data. This computer linkage is the defining 'measurement instrument with a host' behavior of the era.\n\nA dense two-tier front panel of concentric coarse/fine tuning knobs and pushbutton functions exemplifies the 'every control has its own knob, read out digitally on screen' interaction style — the archetype of professional lab instrumentation before menu-driven soft-key UIs arrived.",
+    "deepDive": [
+      {"heading": "Marker-cursor interaction", "text": "Front-panel delta-marker and peak/marker pushbuttons let the operator set and read frequency and amplitude directly off the displayed trace. This is a primitive marker/soft-key grammar: you point at a feature of the spectrum and the machine tells you its value."},
+      {"heading": "Computer linkage via GPIB", "text": "Standard IEEE-488 (GPIB) remote programming and data transfer meant the 492 could be driven by a controller and return trace data to it — the defining 'lab instrument with a host computer' behavior, connecting the analog front end to a general-purpose computer."},
+      {"heading": "Digital readout on the graticule", "text": "Frequency, span, and reference-level values were drawn as digital alphanumeric text directly onto the CRT graticule rather than on a separate LED readout — an early instance of merging numeric state into the displayed signal itself."}
+    ],
+    "team": [
+      {"name": "Tektronix", "note": "Manufacturer; the 492/496 portable spectrum analyzer family ran from 1978 through the 1980s."}
+    ],
+    "media": [
+      {"src": "https://commons.wikimedia.org/wiki/File:Tek_492_in_sad_shape_(6882805491).jpg", "alt": "A Tektronix 492 spectrum analyzer in a surplus warehouse", "caption": "Tektronix 492 spectrum analyzer (CC BY-SA 2.0, Wikimedia Commons; photographed in a surplus warehouse, showing the dense two-tier front panel)."}
+    ],
+    "sources": [
+      {"text": "Wikimedia Commons — File:Tek 492 in sad shape", "url": "https://commons.wikimedia.org/wiki/File:Tek_492_in_sad_shape_(6882805491).jpg"},
+      {"text": "Tektronix heritage / TekWiki documentation", "url": "https://w140.com/tekwiki/index.php/492"}
+    ],
+    "imageUrls": [
+      "https://upload.wikimedia.org/wikipedia/commons/5/52/Tek_492_in_sad_shape_%286882805491%29.jpg"
+    ]
+  },
+  "savedImages": [
+    "assets/wiki/tektronix-492.jpg"
+  ]
+}
