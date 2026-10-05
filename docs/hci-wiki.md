@@ -1,6 +1,6 @@
 # The HCI Golden Age Wiki
 
-A research compendium for a digital museum of cutting-edge Human-Computer Interaction from the late 1970s through the early 1990s. These two hundred and eighty-six projects mix canonical experiments with weird, forgotten, and beautiful vaporware — brain control, voice control, gesture, wearable computing, VR, robots, and full-body exertion.
+A research compendium for a digital museum of cutting-edge Human-Computer Interaction from the late 1970s through the early 1990s. These two hundred and eighty-nine projects mix canonical experiments with weird, forgotten, and beautiful vaporware — brain control, voice control, gesture, wearable computing, VR, robots, and full-body exertion.
 
 Each entry includes an overview, a deep dive, a small media gallery, and full source links so the images and facts can always be traced back.
 
@@ -295,6 +295,7 @@ Each entry includes an overview, a deep dive, a small media gallery, and full so
      286. [Technophone Excell M1 / PC105T (Pocketphone) (1986)](#technophone-excell-m1--pc105t-pocketphone-1986)
      287. [Simmons SDSV Electronic Drum (1981)](#simmons-sdsv-electronic-drum-1981)
      288. [Moog Taurus I Foot-Operated Bass Synthesizer (1975)](#moog-taurus-i-foot-operated-bass-synthesizer-1975)
+     289. [Brunswick "Karate" Reflex Testing Amusement Device (1974)](#brunswick-karate-reflex-testing-amusement-device-1974)
   
 ---
 
@@ -12908,3 +12909,37 @@ The Taurus II era produced a telling variant: the 343C Taurus II Controller ship
 2. Wikipedia — Moog Polymoog — https://en.wikipedia.org/wiki/Moog_Polymoog
 3. Vintage Synth Explorer — Moog Taurus I — http://www.vintagesynth.com/moog/taurus1.php
 4. Synthmuseum — Moog Taurus — http://www.synthmuseum.com/moog/mooctaur01.html
+## Brunswick "Karate" Reflex Testing Amusement Device (1974)
+
+**By:** Brunswick Corporation (US patent 3,933,354 by Adolph E. Goldfarb & Erwin Benkoe)
+**Tags:** `Input` `Embedded system` `Arcade` `Reflex` `Physical`
+
+Released in 1974 by the pinball and air-hockey giant Brunswick Corporation, "Karate" is a coin-operated, two-player reflex-testing arcade machine from the hammered borderland between electromechanical carnival games and the video-arcade boom. Each player stands before a near life-size printed combatant. Ten incandescent lights are sunk invisibly behind the picture at key karate attack-and-defense points on the combatant's body, each paired with a spring-biased translucent button and a microswitch. When a round begins, one point glows through the picture; the first player to physically strike, touch, or slap their combatant at that lighted spot closes the microswitch, scores, extinguishes the light, and advances to the next point in a fast pseudo-random sequence. A skilled player can establish a rhythm of two to three hits per second.
+
+The machine is a feat of pure combinational TTL logic — 7400-series NAND/NOR gates, 7490 BCD counters, a 74190 up/down binary counter wired as a self-reversing pseudo-random sequence generator, 555 timers, and a 7485 binary comparator, with no microprocessor anywhere. A coin acceptor takes a quarter per side (one quarter for a single-player game against the clock, two for competition), a five-second "GET READY" light and a grunt/gong signal the start, a 30-or-60-second game timer plus a sudden-death tie breaker decide the "WINNER" light at the end, and each hit triggers a recorded groan or "ug." A redundant two-second auto-advance circuit indexes the counter if a bulb or microswitch fails in the field.
+
+Documented in U.S. patent 3,933,354 (filed September 18, 1974; granted January 20, 1976) and cataloged by the International Arcade Museum / Killer List of Videogames (entry 18140, sub-type "Reflex"), the machine is now extremely rare — the Museum of the Game census lists no known surviving unit owned by any active preservation member. A two-page period arcade flyer survives in the Arcade Flyer Archive.
+
+### A picture you hit
+
+The defining interaction is that the input surface *is* a picture. A polyvinyl-chloride face sheet printed with a combatant hides ten steel push-buttons (each an acrylic translucent cap over a microswitch) behind polyurethane foam padding on a plywood panel. The printed inner surface camouflages the buttons, so the attack points are invisible until their light energizes and glows through the translucent cap. To score, you must commit your whole body — hands, forearms, and elbows are allowed, while legs and feet are discouraged by angled side rails and a 7-degree overhang that physically blocks a kick. The same mirrored pseudo-random sequence races both players, and a latching circuit (cross-coupled NANDs) guarantees only the first strike scores on each illuminated point.
+
+### How it computed
+
+There is no CPU. An up/down 74190 binary counter, toggled by a divide-by-two latch, walks the ten lamp positions in a self-reversing pattern (1,2,3,...,9,Æ,Ø,1,Ø,9,...,2,1,...) that reads as pseudo-random to opponents. Each lamp has a matching NAND gate wired to its microswitch, so no signal leaves a point unless the lit one is struck. First-hit pulses feed BCD counters (7490) and decoders (7447) driving seven-segment score displays, and a 7485 binary comparator later picks the winner. A 30/60-second game timer, a tie-breaker gate, coin registers, and the redundant two-second "bulb-out" auto-advance circuit round out the logic.
+
+* **Where it sits in the museum.** The collection's force-sensing arcade family runs Street Fighter Pneumatic (punch pads) and Stompin' (foot grid). "Karate" is the museum's only reflex-striking device where the input target is a near life-size printed human figure and the gesture is a whole-body strike — and its only fully combinational-logic (no-CPU) arcade machine. It is the mechanical, pre-video-arcade ancestor of the punch-pad and foot-controller entries already in the building.
+
+### Media
+
+![US patent figure sheet showing the two-player coin-op reflex device](../assets/wiki/brunswick-karate-device-fig.png)
+*Fig. 1-2 of US patent 3,933,354 showing the coin-operated, two-player reflex-testing device with its near life-size combatant pictures. Public domain (US Patent & Trademark Office).*
+
+![1974 Brunswick Karate arcade flyer](../assets/wiki/brunswick-karate-flyer.jpg)
+*1974 US two-page arcade flyer for Brunswick's Karate. Arcade Flyer Archive (TAFA).*
+
+### Sources
+
+1. Museum of the Game — Karate arcade by Brunswick (KLOV/IAM entry 18140) — https://www.arcade-museum.com/Arcade/karate
+2. US Patent 3,933,354 "Reflex testing amusement device" — https://patents.google.com/patent/US3933354A/en
+3. Arcade Flyer Archive — Karate flyer — https://flyers.arcade-museum.com/arcades/show/7664

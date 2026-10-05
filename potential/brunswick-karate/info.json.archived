@@ -1,0 +1,52 @@
+{
+  "slug": "brunswick-karate",
+  "title": "Brunswick \"Karate\" Reflex Testing Amusement Device",
+  "year": "1974",
+  "subtitle": "A coin-op reflex machine whose interface is a life-size picture you physically strike at lit target points on a martial-arts combatant.",
+  "why_scout_cares": "The earliest arcade reflex-striking device — a two-player coin-op machine where the input is a full-body physical strike on a life-size picture, at lights sunk into 10 attack/defense points. Pure 7400-series TTL logic, no CPU. Distinct from every punch-pad/foot-controller exhibit in the museum.",
+  "search_terms": ["Brunswick Karate 1974 arcade reflex machine", "US3933354 reflex testing amusement device", "Brunswick coin-op karate picture lights microswitch"],
+  "research": {
+    "title": "Brunswick \"Karate\" Reflex Testing Amusement Device",
+    "year": "1974",
+    "by": "Brunswick Corporation (US patent), inventors Adolph E. Goldfarb & Erwin Benkoe",
+    "tags": ["HCI", "Input", "Embedded system", "Arcade"],
+    "overview": "Released in 1974 by the pinball and air-hockey giant Brunswick Corporation, \"Karate\" is a coin-operated, two-player reflex-testing arcade machine in the hammered borderland between electromechanical carnival games and early video arcades. Each of the two players stands before a near life-size printed combatant. Ten incandescent lights are sunk invisibly behind the picture at key karate attack-and-defense points on the combatant's body, each paired with a spring-biased translucent button and a microswitch. When a round begins, one point glows through the picture; the first player to physically strike, touch, or slap their combatant at that lighted spot closes the microswitch, scores, extinguishes the light, and advances the machine to the next point in a fast pseudo-random sequence. A skilled player can establish a rhythm of two to three hits per second.\n\nThe machine is a feat of pure TTL logic — 7400-series NAND/NOR gates, 7490 BCD counters, a 74190 up/down binary counter wired as a self-reversing pseudo-random sequence generator, 555 timers, and a 7485 binary comparator, with no microprocessor anywhere. A coin acceptor takes a quarter per side (one quarter for a single-player game against the clock, two for competition), a five-second \"GET READY\" light and grunt/gong signal the start, and a 30-or-60-second game timer plus a sudden-death tie breaker decide the \"WINNER\" light at the end. Each hit triggers a recorded groan or \"ug.\" A redundant two-second auto-advance circuit indexes the counter if a bulb or microswitch fails in the field.\n\nDocumented in U.S. patent 3,933,354 (filed September 18, 1974; granted January 20, 1976) and cataloged by the International Arcade Museum / Killer List of Videogames (entry 18140, sub-type 'Reflex'), the machine is now extremely rare — the Museum of the Game census lists no known surviving unit owned by any active preservation member. A two-page period arcade flyer survives in the Arcade Flyer Archive.",
+    "deepDive": [
+      {
+        "heading": "Origins",
+        "text": "Brunswick Corporation, best known for bowling and the air-hockey table it brought to arcades, filed U.S. patent 3,933,354 (\"Reflex testing amusement device\") through inventors Adolph E. Goldfarb and Erwin Benkoe. The patent explicitly frames the machine as a low-cost rival to 'mechanical karate fighters, such as taught in U.S. Pat. No. 3,804,406,' arguing those were 'unnecessarily complex and expensive.' The design goal was to capture the martial-arts essence — relaxation, coordination, balance, and speed — in a simple coin-op cabinet. The International Arcade Museum lists it as a 1974 'Arcade / Reflex' two-player upright, one of 21 Brunswick trade-name machines in the archive."
+      },
+      {
+        "heading": "The interface: a picture you hit",
+        "text": "The defining interaction is that the input surface IS a picture. A polyvinyl-chloride face sheet printed with a combatant hides ten steel push-buttons (each with an acrylic translucent cap and a microswitch) behind polyurethane foam padding on a plywood panel. The printed inner surface camouflages the buttons—so the attack points are invisible until their light is energized and glows through the translucent cap. To score you must commit your whole body: hands, forearms, and elbows are allowed, but legs and feet are discouraged by angled side rails and a 7-degree overhang that physically blocks a kick. The same pseudo-random point sequence is mirrored on both sides, so the two players race each light; a latching circuit (cross-coupled NANDs) guarantees only the first strike scores on each illuminated point."
+      },
+      {
+        "heading": "How it computed",
+        "text": "There is no CPU. An up/down 74190 binary counter, toggled by a divide-by-two latch, walks the ten lamp positions in a self-reversing pattern (1,2,3,...,9,\u00c6,\u00d8,1,\u00d8,9,...,2,1,...) that reads as pseudo-random to opponents. Each lamp has a matching NAND gate wired to its microswitch, so no signal leaves a point unless the lit one is struck. First-hit pulses feed BCD counters (7490) and decoders (7447) driving seven-segment score displays, and a 7485 binary comparator later picks the winner. A 30/60-second game timer, a tie-breaker gate, coin registers, and the redundant two-second auto-advance 'plausible-bulb-out' circuit round out the logic."
+      },
+      {
+        "heading": "Fate and place in the museum",
+        "text": "The machine is cataloged online but effectively lost to collectors — no surviving cabinet is registered. It matters to the museum as the cleanest pre-video-era embodiment of the reflex-striking interface family, and as the mechanical/combinational-logic ancestor of the force-sensing punch pad (Street Fighter Pneumatic, already in the museum) and foot-stomping grid (Stompin'). Unlike those, \"Karate\" couples the input to a life-size human figure rather than abstract pads, making the body-tracking gesture the whole point."
+      }
+    ],
+    "team": [
+      {"name": "Brunswick Corporation", "note": "Assignee and manufacturer; made the machine between the air-hockey era and the video-arcade boom."},
+      {"name": "Adolph E. Goldfarb", "note": "Co-inventor (US 3,933,354); prolific toy/amusement inventor."},
+      {"name": "Erwin Benkoe", "note": "Co-inventor (US 3,933,354)."}
+    ],
+    "media": [
+      {"src": "https://patentimages.storage.googleapis.com/b8/67/d0/5900e448113b22/US3933354.pdf", "alt": "US patent 3,933,354 drawings showing the coin-op reflex device", "caption": "Patent figure sheet (FIG 1-2) showing the two-player coin-op reflex device; after the drawn combatant pictures and ten point lights. US373354 / public domain."},
+      {"src": "https://flyers.arcade-museum.com/arcades/show/7664", "alt": "1974 Brunswick Karate arcade flyer", "caption": "1974 US two-page arcade flyer for Brunswick's Karate (Arcade Flyer Archive)."}
+    ],
+    "sources": [
+      {"text": "Museum of the Game — Karate arcade by Brunswick (KLOV/IAM entry 18140)", "url": "https://www.arcade-museum.com/Arcade/karate"},
+      {"text": "US Patent 3,933,354 'Reflex testing amusement device'", "url": "https://patents.google.com/patent/US3933354A/en"},
+      {"text": "Arcade Flyer Archive — Karate flyer", "url": "https://flyers.arcade-museum.com/arcades/show/7664"}
+    ],
+    "imageUrls": [
+      "https://patentimages.storage.googleapis.com/b8/67/d0/5900e448113b22/US3933354.pdf",
+      "https://flyers.arcade-museum.com/arcade-flyers/7/karate-07655-01.jpg"
+    ]
+  },
+  "savedImages": ["images/karate-device-fig.png", "images/karate-flyer.jpg"]
+}
