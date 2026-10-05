@@ -3610,6 +3610,19 @@ const exhibitData: Exhibit[] = [
     tags: ["Music", "Input", "Synthesizer", "Pedal", "Sensory-motor"],
     image: img("moog-taurus-1.jpg"),
   },
+  {
+    id: "brunswick-karate",
+    slug: "brunswick-karate",
+    wikiTitle: "Brunswick \"Karate\" Reflex Testing Amusement Device",
+    year: "1974",
+    sortYear: 1974,
+    title: "Brunswick \"Karate\" Reflex Testing Amusement Device (1974)",
+    subtitle: "A coin-op reflex machine whose interface is a life-size combatant you physically strike at lit target points",
+    blurb:
+      "The Brunswick \"Karate\" (1974) is a two-player coin-operated reflex-testing arcade machine from the borderland between electromechanical carnival games and the video-arcade boom. Each player faces a near life-size printed combatant with ten incandescent lights sunk invisibly behind the picture at karate attack-and-defense points, each paired with a spring-biased button and microswitch. When a point glows, the first player to physically strike their combatant there scores and advances the machine to the next point in a pseudo-random sequence. It runs on pure combinational TTL logic — 7400-series gates, 7490 BCD counters, a 74190 self-reversing counter, 555 timers — with no microprocessor. Now extremely rare (no surviving unit in the Museum of the Game census), documented in US patent 3,933,354. The museum's only reflex-striking device with a human figure as the input target, and its only no-CPU arcade machine — the pre-video-arcade ancestor of the force-sensing punch pad.",
+    tags: ["Input", "Embedded system", "Arcade", "Reflex", "Physical"],
+    image: img("brunswick-karate-device-fig.png"),
+  },
 ];
 
 export const exhibits: Exhibit[] = exhibitData.toSorted((a, b) => b.sortYear - a.sortYear || a.title.localeCompare(b.title));
