@@ -1529,6 +1529,18 @@ const exhibitData: Exhibit[] = [
     image: img("topo-robot.jpg"),
   },
   {
+    id: "rb5x-robot",
+    slug: "rb5x-robot",
+    wikiTitle: "RB5X Personal Robot",
+    year: "1983",
+    sortYear: 1983,
+    title: "RB5X Personal Robot",
+    subtitle: "A teachable autonomous floor robot you program over a serial cable — code made physical, that learns from experience",
+    blurb: "The RB5X (1983) was an autonomous mobile robot from RB Robot Corporation of Golden, Colorado, whose only programming path was a serial cable back to a host computer running TinyBASIC or Savvy. Where Nolan Bushnell's Topo walked blind — pure output for code, no sensing at all — the RB5X carried real perception: eight bumper panels, a photodiode, and a sonic transducer, and could 'learn from experience.' It was one of the earliest commercial implementations of autonomous mobile robotics, the concept author David L. Heiserman proposed in his 1976 book Build Your Own Working Robot. Rediscovered in the Computer History Museum and European exhibitions, it is the missing middle of the museum's 1983 floor-robot triptych with Topo (blind output) and HERO 1 (keyboard-programmed).",
+    tags: ["Robotics", "Programming", "Physical Computing", "Autonomous", "Embodied"],
+    image: img("rb5x-hero.jpg"),
+  },
+  {
     id: "famicom-network-system",
     slug: "famicom-network-system",
     sortYear: 1988,
