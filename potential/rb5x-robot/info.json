@@ -1,0 +1,52 @@
+{
+  "slug": "rb5x-robot",
+  "title": "RB5X Personal Robot",
+  "year": "1983",
+  "subtitle": "A teachable autonomous mobile robot you program over a serial port — code made physical, with sensors and a memory for experience.",
+  "why_scout_cares": "The museum's Topo (1983) is a desensorized floor robot that is pure output for code, and its HERO 1 is a keyboard-programmed educational robot. RB5X fills the missing middle of that triptych: a commercially sold autonomous mobile robot whose entire point is that it LEARNS — programmed remotely in TinyBASIC/Savvy over RS-232, then driven by eight bumper panels, a photodiode, and a sonic transducer that let it build behavior from experience. It is the era's cleanest commercial embodiment of code-meets-sensing-meets-physical-space, and the interaction model (talk to it through a cable, watch it develop) is genuinely distinct from everything else in the collection.",
+  "search_terms": ["RB5X", "RB Robot Corporation", "personal robot 1983", "TinyBASIC robot", "autonomous mobile robot 1980s", "RB5X RS-232", "Heiserman robot"],
+  "research": {
+    "title": "RB5X Personal Robot",
+    "year": "1983",
+    "by": "RB Robot Corporation, Golden, Colorado",
+    "tags": ["Robotics", "Embodied", "Output", "Physical", "Programmable"],
+    "overview": "The RB5X is a personal robot manufactured by RB Robot Corporation of Golden, Colorado, first released circa 1983. It is a cylinder-shaped autonomous mobile robot with a transparent dome-shaped top and an optional arm. Its defining feature as a computer interface is that it is programmed remotely over a standard RS-232 serial interface — no on-board keypad or handset — in TinyBASIC or Savvy. You connect it to a computer, type a program, and the robot executes geometric and behavioral commands in physical space.\n\nRB5X is one of the earliest commercial implementations of autonomous mobile robotics (AMR), a concept proposed and demonstrated by author/inventor David L. Heiserman in his 1976 book Build Your Own Working Robot and expanded through his later self-programming robot and robot-intelligence volumes. Where Topo (the museum's other 1983 floor robot) has no sensing at all and is a pure output device for code, RB5X carries real perception: eight bumper panels, a photodiode, and a sonic transducer. The era's marketing framed it as a robot that 'learns from experience' — building behavior from sensor feedback rather than blind execution.\n\nIt was reviewed in the January 1984 BYTE in 'A General-Purpose Robot Control Language' (Prendergast, Slade, Winkless), and hobbyists built interfaces for it (notably an Atari interface). Units are preserved in the Computer History Museum and displayed in European museum exhibitions, giving it solid institutional provenance.",
+    "deepDive": [
+      {
+        "heading": "Programming as a physical rehearsal",
+        "text": "RB5X is emphatically not a remote-control toy. Its only programming path is a serial cable back to a host computer running TinyBASIC or the Savvy word-recognition language. The user writes code, uploads it, and watches the cylinder move through the room — obstacle avoidance, bumper response, light-seeking — driven by the photodiode and sonic transducer. The interface contract is code-as-choreography: your typed commands become motion, and the only feedback loop is the robot's own sensors acting back on the program. That is the message of Heiserman's lineage and the core of the museum's interest."
+      },
+      {
+        "heading": "Sensing that completes the loop",
+        "text": "Topo (1983, Androbot) walked blind; it had no bump panel, no sonar, no feedback driver. RB5X is the documented counterpoint: eight bumper panels for contact, a photodiode for light sensitivity, and a sonic transducer for ultrasonic ranging. Its autonomy is real but modest — it does not chart a room so much as react to it. But that reaction is precisely what makes the interaction novel as a human-computer interface: RB5X is a machine whose 'output device' is a body in physical space and whose 'input device' is the world pressing back."
+      },
+      {
+        "heading": "The teachable frame",
+        "text": "Both the contemporary review and the marketing emphasized that RB5X could learn from experience. In practice this meant it could be trained to perform behaviors tied to sensed conditions, and to extend those behaviors across a session. It is a primitive but genuine 'embodied learning' device — the ancestor of everything from vacuum robots to the machine-learning systems that would follow, and a counterpart to the museum's sense-into-code narrative."
+      }
+    ],
+    "team": [
+      {"name": "RB Robot Corporation", "note": "Manufacturer, Golden, Colorado"},
+      {"name": "David L. Heiserman", "note": "Author/inventor whose 1976-1981 TAB Books proposed and demonstrated the autonomous mobile robot concept RB5X commercialized"}
+    ],
+    "media": [
+      {"src": "https://upload.wikimedia.org/wikipedia/commons/4/40/RB5X_Educational_Robot_%281985%29_%28469402802%29.jpg", "alt": "RB5X educational robot in the Computer History Museum", "caption": "RB5X shown in the Computer History Museum collection (CC BY-SA 2.0 via CHM Flickr set)"}
+    ],
+    "sources": [
+      {"text": "RB5X — Wikipedia", "url": "https://en.wikipedia.org/wiki/RB5X"},
+      {"text": "BYTE review: 'A General-Purpose Robot Control Language' (Jan 1984)", "url": "https://archive.org/stream/byte-magazine-1984-01/BYTE-1984-01#page/n123/mode/2up"},
+      {"text": "The Old Robot's Web Site — RB5X history", "url": "http://www.theoldrobots.com/rb5x.html"},
+      {"text": "Atari Magazines — Robot Update RB5X Atari interface", "url": "http://www.atarimagazines.com/v3n12/Robot_Update.html"},
+      {"text": "NYT, 'Past and Present Robots Gather for Exhibition' (Jan 12, 1984)", "url": "https://www.nytimes.com/1984/01/12/garden/past-and-present-robots-gather-for-exhibition.html"}
+    ],
+    "imageUrls": [
+      "https://upload.wikimedia.org/wikipedia/commons/4/40/RB5X_Educational_Robot_%281985%29_%28469402802%29.jpg",
+      "https://upload.wikimedia.org/wikipedia/commons/f/f1/RB5X_Educational_Robot_%281985%29_%28469402578%29.jpg",
+      "https://upload.wikimedia.org/wikipedia/commons/2/25/210_MNACTEC_%28Terrassa%29%2C_exposici%C3%B3_temporal_Robots%2C_models_Hero_i_RB5X%2C_d%C3%A8cada_de_1980.jpg"
+    ]
+  },
+  "savedImages": [
+    "images/rb5x-hero.jpg",
+    "images/rb5x-2.jpg"
+  ]
+}
