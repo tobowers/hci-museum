@@ -189,6 +189,14 @@ export function resolveModelRef(modelID: string, defaultProviderID: string): Mod
   return { providerID: defaultProviderID, modelID };
 }
 
+/** Shared model for Beepy's coding/operations agents, defaulting to OpenRouter GLM 5.3. */
+export function beepyModelRef(): ModelRef {
+  return {
+    providerID: process.env.BEEPY_PROVIDER ?? "openrouter",
+    modelID: process.env.BEEPY_MODEL ?? "z-ai/glm-5.3",
+  };
+}
+
 function unwrap<T>(result: RequestResult<T>, label: string): T {
   if (result.error) throw new Error(`${label} failed: ${JSON.stringify(result.error)}`);
   if (result.data === undefined) throw new Error(`${label} failed: empty response`);
