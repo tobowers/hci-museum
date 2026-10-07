@@ -88,8 +88,6 @@ const KNOWN_PROVIDER_IDS = new Set([
  */
 const INWORLD_BASE_URL = process.env.INWORLD_BASE_URL ?? "https://api.inworld.ai/v1";
 
-const INWORLD_LIMIT = { context: 1_048_576, output: 131_072 };
-
 const INWORLD_MODELS: NonNullable<NonNullable<Config["provider"]>[string]["models"]> = {
   "inworld/models/deepseek-v4-flash": {
     name: "DeepSeek V4 Flash (Inworld hosted)",
@@ -97,7 +95,9 @@ const INWORLD_MODELS: NonNullable<NonNullable<Config["provider"]>[string]["model
     reasoning: true,
     temperature: true,
     cost: { input: 0.1, output: 0.2, cache_read: 0.02 },
-    limit: INWORLD_LIMIT,
+    // The hosted route exposes 128K, even though the upstream model supports 1M.
+    // Match /llm/v1alpha/models so opencode compacts before reaching the route limit.
+    limit: { context: 131_072, output: 131_072 },
   },
   "deepinfra/deepseek-ai/DeepSeek-V4-Flash": {
     name: "DeepSeek V4 Flash (DeepInfra via Inworld)",
@@ -105,7 +105,7 @@ const INWORLD_MODELS: NonNullable<NonNullable<Config["provider"]>[string]["model
     reasoning: true,
     temperature: true,
     cost: { input: 0.09, output: 0.18, cache_read: 0.018 },
-    limit: INWORLD_LIMIT,
+    limit: { context: 1_048_576, output: 131_072 },
   },
 };
 
