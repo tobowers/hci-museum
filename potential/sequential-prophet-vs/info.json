@@ -1,0 +1,23 @@
+{
+  "slug": "sequential-prophet-vs",
+  "title": "Sequential Circuits Prophet VS",
+  "year": 1986,
+  "sortYear": 1986,
+  "subtitle": "A 2-axis joystick as a plane of sound, not a list of patches",
+  "blurb": "The Prophet VS was the first commercially shipped 'vector synthesizer.' Its one defining control is a joystick whose x and y axes continuously crossfade and mix four digital waveforms across a two-dimensional plane of timbre. Instead of dialing through a menu of sounds, the performer steers a cursor across a map of sound — a genuinely odd, embodied input model.",
+  "tags": ["HCI", "Music", "Input", "1986"],
+  "image": "prophet-vs-front.png",
+  "audio": null,
+  "hotlink": null,
+  "artifact": null,
+  "badge": null,
+  "whyScoutCares": "The interaction model is the artifact: a joystick that maps a continuous 2D plane of crossfading wavetables, in place of discrete patch selection. Commercially shipped, well-sourced, with two clean freely-licensed photos. Distinct from every other input paradigm in the collection.",
+  "images": [
+    { "file": "prophet-vs-front.png", "license": "CC0", "source": "https://commons.wikimedia.org/wiki/File:Sequential_Circuits_Prophet_VS.png" },
+    { "file": "prophet-vs-smem.jpg", "license": "CC BY 4.0", "source": "https://commons.wikimedia.org/wiki/File:Prophet_VS_Synthesizer_at_SMEM_Playroom.jpg" }
+  ],
+  "sources": [
+    { "text": "Wikipedia: Prophet VS", "url": "https://en.wikipedia.org/wiki/Prophet_VS" },
+    { "text": "Sequential Circuits / Prophet VS", "url": "https://en.wikipedia.org/wiki/Sequential_Circuits" }
+  ]
+}
