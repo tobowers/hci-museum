@@ -1,0 +1,23 @@
+{
+  "slug": "moog-liberation",
+  "title": "Moog Liberation",
+  "year": 1980,
+  "sortYear": 1980,
+  "subtitle": "The keytar whose neck is a ribbon controller you play by touch",
+  "blurb": "One of the first commercial keytars (1980), the Liberation is a synthesizer you wear on a strap like a guitar. Its most distinctive control is a long ribbon controller running the length of the neck: the player's finger position and pressure along it glides and bends pitch — a continuous, expressive surface in place of keys or knobs.",
+  "tags": ["HCI", "Music", "Input", "Wearable", "1980"],
+  "image": "moog-liberation.jpg",
+  "audio": null,
+  "hotlink": null,
+  "artifact": null,
+  "badge": null,
+  "whyScoutCares": "The neck-length ribbon controller is a continuous glissando surface not otherwise represented in the collection (the Synthi AKS touch plate is a fixed flat pad). A wearable, commercially odd form factor. Two clean freely-licensed photos.",
+  "images": [
+    { "file": "moog-liberation.jpg", "license": "CC BY 2.0", "source": "https://commons.wikimedia.org/wiki/File:Moog_Liberation.jpg" },
+    { "file": "moog-liberation-neck.jpg", "license": "CC BY-SA 3.0", "source": "https://commons.wikimedia.org/wiki/File:Moog_Liberation_Gitarrenhals.JPG" }
+  ],
+  "sources": [
+    { "text": "Wikipedia: Moog Liberation", "url": "https://en.wikipedia.org/wiki/Moog_Liberation" },
+    { "text": "Wikipedia: Keytar", "url": "https://en.wikipedia.org/wiki/Keytar" }
+  ]
+}
