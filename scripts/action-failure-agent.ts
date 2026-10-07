@@ -1,15 +1,13 @@
 #!/usr/bin/env bun
 import fs from "node:fs";
 import path from "node:path";
-import { closeOpencode, opencodeText, resolveModelRef } from "./opencode-runner";
+import { beepyModelRef, closeOpencode, opencodeText, requireProviderKey } from "./opencode-runner";
 import { errorData } from "./run-trace";
 
 const RUN_DIR = "potential/runs";
 const BEEPY_CHARTER = "docs/beepy.md";
 const BEEPY_MEMORY = "docs/beepy-memory.md";
-const KIMI_MODEL = process.env.KIMI_MODEL ?? "k2p7";
-const KIMI_PROVIDER = process.env.KIMI_PROVIDER ?? "kimi-for-coding";
-const MODEL = resolveModelRef(KIMI_MODEL, KIMI_PROVIDER);
+const MODEL = beepyModelRef();
 
 function die(message: string): never {
   console.error(`action-failure-agent: ${message}`);
@@ -35,7 +33,7 @@ function slugify(text: string): string {
 }
 
 async function main() {
-  requireEnv("KIMI_API_KEY");
+  requireProviderKey(MODEL.providerID);
   requireEnv("GH_TOKEN");
 
   const runId = requireEnv("FAILED_RUN_ID");

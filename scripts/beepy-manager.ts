@@ -1,25 +1,14 @@
 #!/usr/bin/env bun
 import fs from "node:fs";
 import path from "node:path";
-import { closeOpencode, opencodeText, resolveModelRef } from "./opencode-runner";
+import { beepyModelRef, closeOpencode, opencodeText, requireProviderKey } from "./opencode-runner";
 import { errorData } from "./run-trace";
 import { exhibits } from "../src/data";
 
 const RUN_DIR = "potential/runs";
 const BEEPY_CHARTER = "docs/beepy.md";
 const BEEPY_MEMORY = "docs/beepy-memory.md";
-const KIMI_MODEL = process.env.KIMI_MODEL ?? "k2p7";
-const KIMI_PROVIDER = process.env.KIMI_PROVIDER ?? "kimi-for-coding";
-const MODEL = resolveModelRef(KIMI_MODEL, KIMI_PROVIDER);
-
-function die(message: string): never {
-  console.error(`beepy-manager: ${message}`);
-  process.exit(1);
-}
-
-function requireEnv() {
-  if (!process.env.KIMI_API_KEY) die("KIMI_API_KEY missing");
-}
+const MODEL = beepyModelRef();
 
 function slugify(text: string): string {
   return text
@@ -46,7 +35,7 @@ function latestRuns(): string {
 
 async function main() {
   const topic = process.argv.slice(2).join(" ").trim() || "operate the HCI Museum: manage backlog, converse in issues, and make one focused improvement";
-  requireEnv();
+  requireProviderKey(MODEL.providerID);
   fs.mkdirSync(RUN_DIR, { recursive: true });
 
   const stamp = new Date().toISOString().replace(/[:.]/g, "-");

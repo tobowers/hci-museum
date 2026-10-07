@@ -40,9 +40,9 @@ jobs:
     env:
       INWORLD_API_KEY: ${{ secrets.INWORLD_API_KEY }}
       DEEPSEEK_API_KEY: ${{ secrets.DEEPSEEK_API_KEY }}
-      KIMI_API_KEY: ${{ secrets.KIMI_API_KEY }}
-      KIMI_PROVIDER: kimi-for-coding
-      KIMI_MODEL: k2p7
+      OPENROUTER_API_KEY: ${{ secrets.OPENROUTER_API_KEY }}
+      BEEPY_PROVIDER: openrouter
+      BEEPY_MODEL: z-ai/glm-5.3
       GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
       GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
       SCOUT_AGENT_TIMEOUT_MS: ${{ inputs.agent_timeout_ms || '600000' }}
@@ -60,6 +60,9 @@ jobs:
 
       - name: Install dependencies
         run: bun install --frozen-lockfile
+
+      - name: Test operations model configuration
+        run: bun test scripts/opencode-runner.test.ts
 
       - name: Typecheck
         run: bun run typecheck

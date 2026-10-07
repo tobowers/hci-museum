@@ -33,3 +33,9 @@ The build emits static files to `public/`. GitHub Pages deployment is configured
 Basic analytics use Cloudflare Web Analytics because it is free, cookie-free, and only needs a small script tag.
 
 This project was created using `bun init` in bun v1.3.14. [Bun](https://bun.com) is a fast all-in-one JavaScript runtime.
+
+## Beepy operations model
+
+The Manager and optional model-driven PR review/failure triage use OpenRouter `z-ai/glm-5.3`
+with `OPENROUTER_API_KEY`. Override `BEEPY_MODEL` and `BEEPY_PROVIDER` to select another model.
+Scout and blog agents use their separate DeepSeek configuration.

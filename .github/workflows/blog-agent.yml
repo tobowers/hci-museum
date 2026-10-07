@@ -71,6 +71,15 @@ jobs:
         if: ${{ always() }}
         run: git status --short
 
+      - name: Upload blog trace
+        if: ${{ always() }}
+        uses: actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02 # v4
+        with:
+          name: beepy-blog-trace
+          path: potential/runs/*.blog.md
+          if-no-files-found: ignore
+          retention-days: 1
+
       - name: Create blog output pull request
         if: ${{ (github.event_name == 'schedule' || inputs.create_pr) && steps.blog_run.outcome == 'success' }}
         uses: peter-evans/create-pull-request@22a9089034f40e5a961c8808d113e2c98fb63676 # v7
