@@ -3635,6 +3635,32 @@ const exhibitData: Exhibit[] = [
     tags: ["Input", "Embedded system", "Arcade", "Reflex", "Physical"],
     image: img("brunswick-karate-device-fig.png"),
   },
+  {
+    id: "sequential-prophet-vs",
+    slug: "sequential-prophet-vs",
+    wikiTitle: "Sequential Circuits Prophet VS",
+    year: "1986",
+    sortYear: 1986,
+    title: "Sequential Circuits Prophet VS (1986)",
+    subtitle: "A 2-axis joystick as a plane of sound, not a list of patches",
+    blurb:
+      "The Prophet VS (1986) is the first commercially shipped 'vector synthesizer,' and its one defining control is a joystick whose x and y axes continuously crossfade and mix four digital waveforms across a two-dimensional plane of timbre. Instead of dialing through a discrete list of patches, the performer steers a cursor across a map of sound — a genuinely odd, embodied input model in which the spatial position of the hand directly becomes the parameter space of the instrument.",
+    tags: ["Music", "Input", "Synthesizer", "Joystick", "Vector synthesis"],
+    image: img("prophet-vs-front.png"),
+  },
+  {
+    id: "moog-liberation",
+    slug: "moog-liberation",
+    wikiTitle: "Moog Liberation",
+    year: "1980",
+    sortYear: 1980,
+    title: "Moog Liberation (1980)",
+    subtitle: "The keytar whose neck is a ribbon controller you play by touch",
+    blurb:
+      "The Moog Liberation (1980) is one of the first commercial keytars: a synthesizer you wear on a strap like a guitar. Its most distinctive control is a long ribbon controller running the length of the neck — the player's finger position and pressure along it glides and bends pitch, a continuous, expressive surface in place of keys or knobs. A wearable, commercially odd form factor whose neck doubles as a continuous glissando surface.",
+    tags: ["Music", "Input", "Synthesizer", "Wearable", "Ribbon"],
+    image: img("moog-liberation.jpg"),
+  },
 ];
 
 export const exhibits: Exhibit[] = exhibitData.toSorted((a, b) => b.sortYear - a.sortYear || a.title.localeCompare(b.title));

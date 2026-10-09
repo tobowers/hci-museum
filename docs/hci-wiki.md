@@ -1,6 +1,6 @@
 # The HCI Golden Age Wiki
 
-A research compendium for a digital museum of cutting-edge Human-Computer Interaction from the late 1970s through the early 1990s. These two hundred and ninety projects mix canonical experiments with weird, forgotten, and beautiful vaporware — brain control, voice control, gesture, wearable computing, VR, robots, and full-body exertion.
+A research compendium for a digital museum of cutting-edge Human-Computer Interaction from the late 1970s through the early 1990s. These two hundred and ninety-two projects mix canonical experiments with weird, forgotten, and beautiful vaporware — brain control, voice control, gesture, wearable computing, VR, robots, and full-body exertion.
 
 Each entry includes an overview, a deep dive, a small media gallery, and full source links so the images and facts can always be traced back.
 
@@ -297,6 +297,8 @@ Each entry includes an overview, a deep dive, a small media gallery, and full so
      288. [Simmons SDSV Electronic Drum (1981)](#simmons-sdsv-electronic-drum-1981)
      289. [Moog Taurus I Foot-Operated Bass Synthesizer (1975)](#moog-taurus-i-foot-operated-bass-synthesizer-1975)
      290. [Brunswick "Karate" Reflex Testing Amusement Device (1974)](#brunswick-karate-reflex-testing-amusement-device-1974)
+     291. [Sequential Circuits Prophet VS (1986)](#sequential-circuits-prophet-vs-1986)
+     292. [Moog Liberation (1980)](#moog-liberation-1980)
   
 ---
 
@@ -12989,3 +12991,64 @@ There is no CPU. An up/down 74190 binary counter, toggled by a divide-by-two lat
 1. Museum of the Game — Karate arcade by Brunswick (KLOV/IAM entry 18140) — https://www.arcade-museum.com/Arcade/karate
 2. US Patent 3,933,354 "Reflex testing amusement device" — https://patents.google.com/patent/US3933354A/en
 3. Arcade Flyer Archive — Karate flyer — https://flyers.arcade-museum.com/arcades/show/7664
+
+## Sequential Circuits Prophet VS (1986)
+
+**By:** Sequential Circuits, Inc. (designed by Dave Smith)
+**Tags:** `Music` `Input` `Synthesizer` `Joystick` `Vector synthesis`
+
+The Prophet VS (1986) is the first commercially shipped "vector synthesizer," announced by Sequential Circuits at the 1986 NAMM Show and released in 1986. Its one defining control is a joystick whose x and y axes continuously crossfade and mix four digital waveforms across a two-dimensional plane of timbre. Where a conventional synthesizer makes you dial through a discrete list of patches or knobs, the VS turns the parameter space into a physical plane: the performer steers a cursor across a map of four waveform sources, and the machine interpolates between them in real time as the hand moves.
+
+The instrument is eight-voice digital, and each voice mixes four digital waves (which could be loaded from an external waveform editor on an IBM PC or Apple II). The vector joystick lives to the left of the keyboard and doubles as a performance controller for live morphing between sounds. It is also one of the earliest fully programmable synths to store complete four-dimensional vector mixes as part of its patch data.
+
+### The joystick as a plane of sound
+
+The interaction model *is* the artifact. The four waveform sources occupy the corners of a square, and the joystick position — a continuous point in 2D — gives the instantaneous mix weight of each source. Moving the stick toward a corner fades that waveform in while the others recede; sweeping in a circle morphs through all four. This is a continuous, spatial, gestural way of choosing a timbre rather than a discrete selection: the player's hand position is literally mapped onto the two-dimensional parameter space of the instrument. It is the same "steer a cursor across a map" paradigm, transposed to sound.
+
+### Where it sits in the museum
+
+The collection's music-interface family runs the TR-808 (sequencer pads), the SynthAxe (guitar-like), the Akai EWI (breath), the Buchla Lightning (gesture), and the Moog Liberation (ribbon). The Prophet VS is the museum's only instrument where a 2-axis joystick maps a continuous plane of timbre — a spatial/cartographic input model rather than a discrete patch picker. It belongs to the joystick-as-expressive-parameter family alongside the museum's more utilitarian 2-axis controllers, but here the stick is the instrument's primary expressive voice rather than a cursor mover.
+
+### Media
+
+![Sequential Circuits Prophet VS synthesizer, front view](../assets/wiki/prophet-vs-front.png)
+*Front view of the Sequential Circuits Prophet VS showing the vector joystick to the left of the keyboard. CC0, Wikimedia Commons.*
+
+![Prophet VS synthesizer on display at the SMEM Playroom](../assets/wiki/prophet-vs-smem.jpg)
+*The Prophet VS at the SMEM Playroom. CC BY 4.0, Wikimedia Commons.*
+
+### Sources
+
+1. Wikipedia — Prophet VS — https://en.wikipedia.org/wiki/Prophet_VS
+2. Wikipedia — Sequential Circuits — https://en.wikipedia.org/wiki/Sequential_Circuits
+
+## Moog Liberation (1980)
+
+**By:** Moog Music (designed by David Luce and Marc Doty)
+**Tags:** `Music` `Input` `Synthesizer` `Wearable` `Ribbon`
+
+The Moog Liberation (1980) is one of the first commercial keytars: a synthesizer you wear on a strap like a guitar, produced by Moog Music. Its most distinctive control is a long ribbon controller running the length of the neck — the player's finger position and pressure along it glides and bends pitch, a continuous, expressive surface in place of keys or knobs. This makes the neck itself a pitch-bending surface, in addition to the guitar-style strap and fretted/keyed left hand.
+
+The instrument is a strap-on analog synthesizer with two VCOs and a filter, battery-powered for portability. The neck hosts a pitch ribbon; the body carries the control panel with the sound-shaping knobs and a small keyboard section for the right hand. It is designed to be played standing up, moving around the stage, with the body as the instrument's frame — a wearable, commercially odd form factor that reframes the synthesizer as a performance costume rather than a desk object.
+
+### The neck as a continuous glissando surface
+
+The defining interaction is the ribbon controller that runs the length of the neck. By sliding a finger along it and varying pressure, the performer glides and bends pitch continuously — a monophonic expressive surface rather than a discrete keyboard. Where the Synthi AKS touch plate is a fixed flat pad for contact, the Liberation's ribbon is a linear, continuously swept surface that reuses the guitar-neck geography for expressive pitch control. The wearability means the whole instrument is played with the body in motion: a wearable, commercially odd form factor whose neck doubles as the primary continuous controller.
+
+### Where it sits in the museum
+
+The museum's wearable/performer instrument thread includes the Roland MC-8, the SynthAxe, and the Buchla Lightning. The Liberation is the museum's only strap-on keytar and its only instrument with a neck-length ribbon controller as a primary pitch surface — a continuous, embodied glissando input that complements the fixed touch plate of the Synthi AKS. It adds a distinctly wearable, commercially-shipped member to the ribbon-controller family.
+
+### Media
+
+![Moog Liberation keytar synthesizer](../assets/wiki/moog-liberation.jpg)
+*The Moog Liberation strap-on synthesizer. CC BY 2.0, Wikimedia Commons.*
+
+![Moog Liberation neck ribbon controller detail](../assets/wiki/moog-liberation-neck.jpg)
+*The neck of the Moog Liberation showing the ribbon controller. CC BY-SA 3.0, Wikimedia Commons.*
+
+### Sources
+
+1. Wikipedia — Moog Liberation — https://en.wikipedia.org/wiki/Moog_Liberation
+2. Wikipedia — Keytar — https://en.wikipedia.org/wiki/Keytar
+
