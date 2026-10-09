@@ -3661,6 +3661,19 @@ const exhibitData: Exhibit[] = [
     tags: ["Music", "Input", "Synthesizer", "Wearable", "Ribbon"],
     image: img("moog-liberation.jpg"),
   },
+  {
+    id: "optel-optical-phonecard",
+    slug: "optel-optical-phonecard",
+    wikiTitle: "Optel Optical Phonecard",
+    year: "1977",
+    sortYear: 1977,
+    title: "Optel Optical Phonecard",
+    subtitle: "A prepaid card whose value is burned away by the payphone, one dark unit at a time",
+    blurb:
+      "The Landis+Gyr / Sodeco optical phonecard (the Austrian 'Optel' system, first optical card in 1977) is the museum's clearest example of value-as-consumed-physical-medium. Instead of a chip or magnetic stripe that a machine reads in secret, the card is printed with an embossed optical structure that the payphone literally heats and destroys as you talk. A thermal head burns a visible dark mark into a white strip on the top of the card for every unit you use, so your remaining balance is always there to be read with the eye — and once the strip reaches zero the card is empty forever. There is no reader computation hidden inside the payphone and no central database to check: the card IS the accounting, destroyed in public.",
+    tags: ["Stored Value", "Payment", "Telephony"],
+    image: img("optel-optical-phonecard-1.jpg"),
+  },
 ];
 
 export const exhibits: Exhibit[] = exhibitData.toSorted((a, b) => b.sortYear - a.sortYear || a.title.localeCompare(b.title));
