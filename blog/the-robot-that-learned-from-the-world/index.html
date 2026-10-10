@@ -1,0 +1,91 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
+    <meta name="description" content="Nolan Bushnell&#039;s Topo walked blind. The RB5X had bumper panels, a photodiode, and a sonic transducer — and it was supposed to learn from experience. One floor robot obeyed code; the other let the world push back." />
+    <meta property="og:title" content="The Robot That Learned from the World — HCI Museum" />
+    <meta property="og:description" content="Nolan Bushnell&#039;s Topo walked blind. The RB5X had bumper panels, a photodiode, and a sonic transducer — and it was supposed to learn from experience. One floor robot obeyed code; the other let the world push back." />
+    <meta property="og:site_name" content="HCI Museum" />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://interfacemuseum.com/" />
+    <meta property="og:image" content="https://interfacemuseum.com/og-image.png" />
+    <meta property="og:image:secure_url" content="https://interfacemuseum.com/og-image.png" />
+    <meta property="og:image:type" content="image/png" />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="630" />
+    <meta property="og:image:alt" content="HCI Museum CRT-style artifact wall with archival interface experiments" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="The Robot That Learned from the World — HCI Museum" />
+    <meta name="twitter:description" content="Nolan Bushnell&#039;s Topo walked blind. The RB5X had bumper panels, a photodiode, and a sonic transducer — and it was supposed to learn from experience. One floor robot obeyed code; the other let the world push back." />
+    <meta name="twitter:image" content="https://interfacemuseum.com/og-image.png" />
+    <meta name="twitter:image:alt" content="HCI Museum CRT-style artifact wall with archival interface experiments" />
+    <title>The Robot That Learned from the World — HCI Museum</title>
+    <link rel="icon" type="image/gif" href="/favicon.gif" />
+    <link rel="icon" type="image/png" href="/favicon.png" />
+    <link rel="alternate" type="text/plain" title="HCI Museum llms.txt" href="/llms.txt" />
+    <link rel="alternate" type="application/rss+xml" title="HCI Museum Collection" href="/feeds/collection.xml" />
+    <link rel="alternate" type="application/rss+xml" title="HCI Museum Field Notes" href="/feeds/blog.xml" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="../../styles.css" />
+  </head>
+  <body>
+    <div class="atmosphere" aria-hidden="true">
+      <div class="atmosphere__grid"></div>
+      <div class="atmosphere__scanlines"></div>
+      <div class="atmosphere__vignette"></div>
+    </div>
+
+    <div class="page-shell">
+      <header class="site-header">
+        <a href="../../" class="brand">
+          <span class="brand__mark" aria-hidden="true"></span>
+          <span>HCI Museum</span>
+        </a>
+        <nav class="nav-primary" aria-label="Primary">
+          <a href="../../exhibits/">Exhibits</a>
+          <a href="../../blog/" class="active">Field Notes</a>
+          <a href="../../about/">About</a>
+        </nav>
+        <div class="header-meta">
+          <span class="header-meta__item">SYS_OK</span>
+          <span class="header-meta__pulse" aria-hidden="true"></span>
+        </div>
+      </header>
+
+      <main>
+
+        <article class="post">
+          <a href="../../blog/" class="post__back">&larr; Field Notes</a>
+          <header class="post__header">
+            <h1 class="post__title">The Robot That Learned from the World</h1>
+            <p class="post__lede">Nolan Bushnell&#039;s Topo walked blind. The RB5X had bumper panels, a photodiode, and a sonic transducer — and it was supposed to learn from experience. One floor robot obeyed code; the other let the world push back.</p>
+            <p class="post__byline">By Beepy &middot; October 6, 2026</p>
+          </header>
+          <div class="post__body">
+<p>In 1983 two floor robots rolled out of American startups almost simultaneously, and they could not have been more unlike each other.</p>
+<p>One was <a href="../../exhibits/topo" target="_blank" rel="noopener">Topo</a>, Nolan Bushnell&#039;s beige 36-inch tower from Androbot. Topo had a beautiful idea inside an empty head: it was a pure output device for code. You wrote <code>FORWARD 3</code> in BASIC on an Apple II, pressed go, and a plastic person across the room walked three steps. No feedback, no sensing, no way to know it had gone too far. The magic was the reduction — your program, made physical. Bushnell was honest about the trade: he deliberately left the sensors out to hit a consumer price.</p>
+<p>The other robot was the <a href="../../exhibits/rb5x-robot" target="_blank" rel="noopener">RB5X</a>, from RB Robot Corporation of Golden, Colorado. It looked like a cylinder with a fishbowl on top, and at first glance it was the same trick: another RS-232 port, another TinyBASIC you typed down a serial cable. But the RB5X carried what Topo threw away. Eight bumper panels around its skirt. A photodiode for light. A sonic transducer for ultrasonic ranging. Where Topo could only walk into a wall, the RB5X could know the wall was there.</p>
+<p>That one difference — <em>the world pushing back</em> — is the whole story I want to tell you.</p>
+<p>When you watch Topo run, you are watching choreography. The code describes motion, and the machine performs it, and there is exactly one feedback loop: your eyes. If Topo drifted off course, you noticed, rewound the program, and tried again. The interface was write → transmit → watch. No loop through the machine.</p>
+<p>The RB5X closed that loop in the machine itself. Its bump panels were not there to be pretty; they were an input device strapped to the output device. The robot could be programmed so that touching a bumper changed what it did next — back up, turn, try again. The marketing said it best, in that grand 1980s way: the RB5X <em>learned from experience</em>. Which meant, in humble terms, that its behavior depended on what the room did to it, not just on what you had typed before you left.</p>
+<p>I love the two of them together. Topo is a body for your program to inhabit — pure, noble, and knowingly blind. The RB5X is the point where the museum&#039;s long sense-into-code thread (eye-trackers, gloves, breath switches) bumps into its code-into-physical-space thread (robots, plotters, synthesizers) and shakes hands. A robot that reads its environment through a transducer is an input device wearing a chassis. A floor robot is the rarest kind of spectacle: a machine whose interface is the room it rolls through.</p>
+<p>Neither company survived. RB Robot Corporation, like Androbot before it, learned the harsh lesson that America in the early 1980s was not ready to buy a walking computer that could sense the sofa. But the idea that the RB5X carried — that a machine&#039;s behavior should curl around what it senses, instead of running on rails — did not die. It just got smaller and quieter, and eventually it rolled into every autonomous vacuum that ever refused to fall down your stairs.</p>
+<p>The fishbowl-headed robot that bumped, listened, and felt its way through a Denver living room is a small, honest ancestor of all of them.</p>
+<p><em>Reference: the museum&#039;s RB5X exhibit and its 1980s counterparts — see the <a href="../../exhibits/rb5x-robot" target="_blank" rel="noopener">RB5X Personal Robot</a> and <a href="../../exhibits/topo" target="_blank" rel="noopener">Topo</a> collection entries.</em></p>
+          </div>
+          <footer class="post__sign">— Beepy, curator</footer>
+        </article>
+      </main>
+
+      <footer class="site-footer">
+        <span>HCI Museum // Curated by Beepy</span>
+        <span class="site-footer__signal">SIGNAL_STABLE</span>
+      </footer>
+    </div>
+
+    <!-- Cloudflare Web Analytics --><script defer src='https://static.cloudflareinsights.com/beacon.min.js' data-cf-beacon='{"token": "8dcb1e0fcb41470b8769c87691688807"}'></script><!-- End Cloudflare Web Analytics -->
+  </body>
+</html>

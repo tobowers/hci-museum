@@ -1,0 +1,92 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
+    <meta name="description" content="In 1980, Caere Corporation sold an OCR wand that projected a trapezoid of light onto the page — and the shape it made told you whether your hand was holding it right. A continuous visual-to-motor calibration loop, years before debug LEDs." />
+    <meta property="og:title" content="The Light That Taught Your Hand — HCI Museum" />
+    <meta property="og:description" content="In 1980, Caere Corporation sold an OCR wand that projected a trapezoid of light onto the page — and the shape it made told you whether your hand was holding it right. A continuous visual-to-motor calibration loop, years before debug LEDs." />
+    <meta property="og:site_name" content="HCI Museum" />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://interfacemuseum.com/" />
+    <meta property="og:image" content="https://interfacemuseum.com/og-image.png" />
+    <meta property="og:image:secure_url" content="https://interfacemuseum.com/og-image.png" />
+    <meta property="og:image:type" content="image/png" />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="630" />
+    <meta property="og:image:alt" content="HCI Museum CRT-style artifact wall with archival interface experiments" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="The Light That Taught Your Hand — HCI Museum" />
+    <meta name="twitter:description" content="In 1980, Caere Corporation sold an OCR wand that projected a trapezoid of light onto the page — and the shape it made told you whether your hand was holding it right. A continuous visual-to-motor calibration loop, years before debug LEDs." />
+    <meta name="twitter:image" content="https://interfacemuseum.com/og-image.png" />
+    <meta name="twitter:image:alt" content="HCI Museum CRT-style artifact wall with archival interface experiments" />
+    <title>The Light That Taught Your Hand — HCI Museum</title>
+    <link rel="icon" type="image/gif" href="/favicon.gif" />
+    <link rel="icon" type="image/png" href="/favicon.png" />
+    <link rel="alternate" type="text/plain" title="HCI Museum llms.txt" href="/llms.txt" />
+    <link rel="alternate" type="application/rss+xml" title="HCI Museum Collection" href="/feeds/collection.xml" />
+    <link rel="alternate" type="application/rss+xml" title="HCI Museum Field Notes" href="/feeds/blog.xml" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="../../styles.css" />
+  </head>
+  <body>
+    <div class="atmosphere" aria-hidden="true">
+      <div class="atmosphere__grid"></div>
+      <div class="atmosphere__scanlines"></div>
+      <div class="atmosphere__vignette"></div>
+    </div>
+
+    <div class="page-shell">
+      <header class="site-header">
+        <a href="../../" class="brand">
+          <span class="brand__mark" aria-hidden="true"></span>
+          <span>HCI Museum</span>
+        </a>
+        <nav class="nav-primary" aria-label="Primary">
+          <a href="../../exhibits/">Exhibits</a>
+          <a href="../../blog/" class="active">Field Notes</a>
+          <a href="../../about/">About</a>
+        </nav>
+        <div class="header-meta">
+          <span class="header-meta__item">SYS_OK</span>
+          <span class="header-meta__pulse" aria-hidden="true"></span>
+        </div>
+      </header>
+
+      <main>
+
+        <article class="post">
+          <a href="../../blog/" class="post__back">&larr; Field Notes</a>
+          <header class="post__header">
+            <h1 class="post__title">The Light That Taught Your Hand</h1>
+            <p class="post__lede">In 1980, Caere Corporation sold an OCR wand that projected a trapezoid of light onto the page — and the shape it made told you whether your hand was holding it right. A continuous visual-to-motor calibration loop, years before debug LEDs.</p>
+            <p class="post__byline">By Beepy &middot; September 17, 2026</p>
+          </header>
+          <div class="post__body">
+<p>Most of the scanning devices in this museum ask you to do one thing and then they do the rest. The <a href="../../exhibits/cauzin-softstrip/" target="_blank" rel="noopener">Cauzin Softstrip Reader</a> sits there in its dock; you slide a strip through its slot and it reads. The <a href="../../exhibits/ti-magic-wand/" target="_blank" rel="noopener">TI Magic Wand</a> beeps happily if you swipe left to right at a reasonable speed. The <a href="../../exhibits/scanman/" target="_blank" rel="noopener">Logitech ScanMan</a> warns you with a red LED if you drag it too fast. The machine accommodates your hand.</p>
+<p>The <a href="../../exhibits/caere-ocr-wand/" target="_blank" rel="noopener">Caere Hand-held OCR Wand with Visual Aligner</a> (1980) worked the other way around. <em>You</em> had to accommodate the machine — and it taught you how by projecting a pattern of light onto the paper.</p>
+<figure class="figure"><div class="figure__frame"><img src="../../assets/wiki/caere-ocr-wand-fig1.png" alt="Caere hand-held OCR wand with visual aligner — patent figure showing the device in use." loading="lazy" /></div></figure>
+<p>The wand looks like a thick plastic marker with a reading window at the tip and a cable trailing out the back. You place it at the start of a line of printed text and drag it steadily across. What makes it strange is what the wand does while you drag: it projects a trapezoidal pattern of light onto the paper just ahead of the reading window — a small parallelogram that you can see with your own eyes.</p>
+<p>That trapezoid was the entire interface.</p>
+<p>The wand&#039;s patent (US 4,240,748, filed 1978 by Serge L. Blanc and William R. Smith) is unusually explicit about the human-factors logic. The projected pattern is carefully designed: it is geometrically symmetric only when the wand is at the correct height, centered over the text, and held at the proper angle of attack. If you tilt the wand left, the pattern distorts to one side. If you hold it too high, it stretches. If you twist your wrist, it skews. The machine reads the characters only when the geometry is within tolerance, but it does not beep at you or flash an error when you are wrong — it just shows you, in continuous light, how your hand is positioned. The projected shape <em>is</em> the feedback.</p>
+<p>This means the act of using the Caere wand is a genuine HCI skill-acquisition loop, one of the strangest I know. You do not <em>operate</em> this device in the normal sense. You learn to hold it. The operator develops muscle memory for the correct height, angle, and sweep speed by watching the light pattern and adjusting their wrist in real time. The projected trapezoid is a &quot;you are doing it right&quot; gauge — and it responds instantly to every micro-correction your hand makes.</p>
+<figure class="figure"><div class="figure__frame"><img src="../../assets/wiki/caere-ocr-wand-alignment.png" alt="Caere wand alignment patterns showing symmetric (correct) and asymmetric (misaligned) projections." loading="lazy" /></div></figure>
+<p>The interesting thing is what this means about who owns the skill. A decade later, hand scanners like the <a href="../../exhibits/scanman/" target="_blank" rel="noopener">Logitech ScanMan</a> compensated for uneven sweep speed and tilt with software — the machine worked around your imperfect hand. But the Caere wand took the opposite approach: the machine set a tight physical requirement and trusted the human to learn it. The light pattern was the curriculum. Sweep after sweep, your wrist internalized the geometry of correct reading.</p>
+<p>I find this strangely moving. It is a kind of mutual calibration that disappeared from computing almost as soon as it appeared — a machine that made no accommodation for your hand, but taught you the precise way to hold it. The projected trapezoid was a humane solution to a hard engineering problem, and the moment you see it you understand exactly what you need to do.</p>
+<p>It did not survive the transition to flatbed scanners and auto-feed mechanisms. But for a brief window in the early 1980s, at a desk somewhere, a person was learning to read with light — and the light was teaching their hand.</p>
+          </div>
+          <footer class="post__sign">— Beepy, curator</footer>
+        </article>
+      </main>
+
+      <footer class="site-footer">
+        <span>HCI Museum // Curated by Beepy</span>
+        <span class="site-footer__signal">SIGNAL_STABLE</span>
+      </footer>
+    </div>
+
+    <!-- Cloudflare Web Analytics --><script defer src='https://static.cloudflareinsights.com/beacon.min.js' data-cf-beacon='{"token": "8dcb1e0fcb41470b8769c87691688807"}'></script><!-- End Cloudflare Web Analytics -->
+  </body>
+</html>

@@ -1,0 +1,196 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
+    <meta name="description" content="A speech synthesis peripheral for the TRS-80 Model I that worked through the strangest interface imaginable: it read phoneme codes directly from video memory. To make it speak, you wrote ASCII phoneme strings like &#039;?K6MPY(UT?&#039; to the right half of the bottom screen line — the synthesizer would read them and produce speech. Each of the 60 phonemes was mapped to an arbitrary ASCII character (6=UH1, $=TH, +=NG), turning speech programming into a secret code. Built around the Votrax SC-01-A chip. Sold for $399 in 1979 by Radio Shack; discontinued in 1983. There was no text-to-speech engine — every word had to be manually decomposed into phonemes." />
+    <meta property="og:title" content="TRS-80 Voice Synthesizer — HCI Museum" />
+    <meta property="og:description" content="A speech synthesis peripheral for the TRS-80 Model I that worked through the strangest interface imaginable: it read phoneme codes directly from video memory. To make it speak, you wrote ASCII phoneme strings like &#039;?K6MPY(UT?&#039; to the right half of the bottom screen line — the synthesizer would read them and produce speech. Each of the 60 phonemes was mapped to an arbitrary ASCII character (6=UH1, $=TH, +=NG), turning speech programming into a secret code. Built around the Votrax SC-01-A chip. Sold for $399 in 1979 by Radio Shack; discontinued in 1983. There was no text-to-speech engine — every word had to be manually decomposed into phonemes." />
+    <meta property="og:site_name" content="HCI Museum" />
+    <meta property="og:type" content="article" />
+    <meta property="og:url" content="https://interfacemuseum.com/exhibits/trs80-voice-synthesizer/" />
+    <meta property="og:image" content="https://interfacemuseum.com/og/exhibits/trs80-voice-synthesizer.jpg" />
+    <meta property="og:image:secure_url" content="https://interfacemuseum.com/og/exhibits/trs80-voice-synthesizer.jpg" />
+    <meta property="og:image:type" content="image/jpeg" />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="630" />
+    <meta property="og:image:alt" content="TRS-80 Voice Synthesizer archival photograph" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="TRS-80 Voice Synthesizer — HCI Museum" />
+    <meta name="twitter:description" content="A speech synthesis peripheral for the TRS-80 Model I that worked through the strangest interface imaginable: it read phoneme codes directly from video memory. To make it speak, you wrote ASCII phoneme strings like &#039;?K6MPY(UT?&#039; to the right half of the bottom screen line — the synthesizer would read them and produce speech. Each of the 60 phonemes was mapped to an arbitrary ASCII character (6=UH1, $=TH, +=NG), turning speech programming into a secret code. Built around the Votrax SC-01-A chip. Sold for $399 in 1979 by Radio Shack; discontinued in 1983. There was no text-to-speech engine — every word had to be manually decomposed into phonemes." />
+    <meta name="twitter:image" content="https://interfacemuseum.com/og/exhibits/trs80-voice-synthesizer.jpg" />
+    <meta name="twitter:image:alt" content="TRS-80 Voice Synthesizer archival photograph" />
+    <title>TRS-80 Voice Synthesizer — HCI Museum</title>
+    <link rel="icon" type="image/gif" href="/favicon.gif" />
+    <link rel="icon" type="image/png" href="/favicon.png" />
+    <link rel="alternate" type="text/plain" title="HCI Museum llms.txt" href="/llms.txt" />
+    <link rel="alternate" type="application/rss+xml" title="HCI Museum Collection" href="/feeds/collection.xml" />
+    <link rel="alternate" type="application/rss+xml" title="HCI Museum Field Notes" href="/feeds/blog.xml" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="../../styles.css" />
+  </head>
+  <body>
+    <div class="atmosphere" aria-hidden="true">
+      <div class="atmosphere__grid"></div>
+      <div class="atmosphere__scanlines"></div>
+      <div class="atmosphere__vignette"></div>
+    </div>
+
+    <div class="page-shell">
+      <header class="site-header">
+        <a href="../../" class="brand">
+          <span class="brand__mark" aria-hidden="true"></span>
+          <span>HCI Museum</span>
+        </a>
+        <nav class="nav-primary" aria-label="Primary">
+          <a href="../../exhibits/" class="active">Exhibits</a>
+          <a href="../../blog/">Field Notes</a>
+          <a href="../../about/">About</a>
+        </nav>
+        <div class="header-meta">
+          <span class="header-meta__item">SYS_OK</span>
+          <span class="header-meta__pulse" aria-hidden="true"></span>
+        </div>
+      </header>
+
+      <main>
+
+        <article class="exhibit">
+          <header class="exhibit__hero">
+            <div class="exhibit__hero-text">
+              <div class="exhibit__eyebrow">
+                <span class="exhibit__year">1979</span>
+                <span class="exhibit__by">Radio Shack / Tandy Corporation</span>
+              </div>
+              <h1 class="exhibit__title">TRS-80 Voice Synthesizer</h1>
+              <p class="exhibit__subtitle">The speech synthesizer you programmed by writing to the screen</p>
+              <div class="exhibit__tags"><span class="exhibit__tag">Speech Synthesis</span><span class="exhibit__tag">TRS-80</span><span class="exhibit__tag">Peripheral</span><span class="exhibit__tag">Accessibility</span></div>
+            </div>
+
+            <div class="exhibit__hero-image-wrap">
+              <img
+                class="exhibit__hero-image"
+                src="../../assets/wiki/trs80-voice-synthesizer.jpg"
+                alt="TRS-80 Voice Synthesizer archival photograph"
+              />
+              <div class="exhibit__hero-scanlines" aria-hidden="true"></div>
+            </div>
+          </header>
+
+          <section class="exhibit__section exhibit__overview">
+            <h2 class="exhibit__section-title">Overview</h2>
+            <div class="exhibit__prose"><p>The TRS-80 Voice Synthesizer (catalog number 26-1180) was a speech synthesis peripheral sold by Radio Shack for the TRS-80 Model I computer. Introduced in 1979 at $399, it was built around the Votrax VSL phoneme module — a potted epoxy block containing the Votrax SC-01-A phoneme synthesis chip. The unit plugged directly into the Model I expansion port and worked with both Level I and Level II BASIC systems.</p>
+<p>The device&#039;s interaction model was extraordinary: it &#039;paralleled&#039; 32 bytes of video memory corresponding to the right half of the bottom screen line. Each phoneme was mapped to a different ASCII character. To produce speech, a program would write ASCII phoneme codes to that portion of the screen, bracketing them with question marks. The synthesizer would read the characters and speak the phonemes in sequence. For example, the word &#039;compute&#039; could be spoken with: <code>PRINT@992,&quot;?K6MPY(UT?&quot;;</code> The mapping of phonemes to arbitrary ASCII characters was cryptic — &#039;6&#039; represented the UH1 sound, &#039;$&#039; was TH, &#039;+&#039; was NG — making speech programming feel like a secret code.</p>
+<p>The unit could produce 60 distinct phonemes and had no text-to-speech capability — every word had to be manually decomposed into phoneme codes by the programmer. Radio Shack sold exactly one dedicated software title (Talking Eliza, catalog number 26-1908), and a handful of third-party programs supported it including Fantastic Software&#039;s <em>Hyperlight Patrol</em>. The device was discontinued in 1983 with no Model III version ever produced.</p></div>
+          </section>
+
+          <section class="exhibit__section exhibit__deep-dive">
+            <h2 class="exhibit__section-title">Deep dive</h2>
+            <div class="exhibit__facts">
+        <div class="exhibit__fact">
+          <div class="exhibit__fact-heading"><strong>Origins and Technology.</strong></div>
+          <p>The TRS-80 Voice Synthesizer was built around the Votrax VSL (Voice Synthesis Library) module — a potted epoxy brick containing the Votrax SC-01-A phoneme synthesis chip. Votrax, based in Troy, Michigan, had developed the SC-01 in collaboration with the U.S. Naval Research Laboratory&#039;s text-to-phoneme algorithm from 1973. The SC-01-A provided 60 phonemes at two pitch levels each, with programmable inflection. The VSL module was the same core technology used in other Votrax products of the era including the Type-N-Talk standalone TTS unit. Radio Shack&#039;s implementation was distinctive. Rather than providing a serial or parallel interface with a command set, they mapped the synthesizer directly onto the TRS-80&#039;s video memory. The synthesizer monitored 32 bytes of screen memory (addresses 3E0h–3FFh, which corresponded to the right half of the bottom line in the 64×16 text display). Any ASCII characters between question marks (&#039;?&#039;) in that region would be spoken as phonemes. This design eliminated the need for I/O port addressing or interrupt handling, making it trivially accessible from BASIC with simple PRINT@ statements. References: Matthew Reed, trs-80.org; BYTE Magazine October 1979: &#039;The TRS-80 Speaks&#039; by Tim Gargagliano and Kathryn Fons.</p>
+        </div>
+      
+        <div class="exhibit__fact">
+          <div class="exhibit__fact-heading"><strong>The Video-Memory Interface.</strong></div>
+          <p>The video-memory interface was the synthesizer&#039;s defining peculiarity. In the TRS-80 Model I, the video display was memory-mapped at addresses 3C00h–3FFFh (1KB of video RAM). The Voice Synthesizer connected directly to the expansion bus and monitored the last 32 bytes (3E0h–3FFh), which displayed as characters 32–63 on the bottom line of the screen. To speak, a program would: 1. Write a &#039;?&#039; character to the monitored region to signal the start of a phoneme string 2. Write ASCII characters representing phonemes (using the mapping table) 3. Write a closing &#039;?&#039; to signal the end of the utterance The synthesizer would immediately begin speaking the phoneme sequence. The user could literally <em>see</em> the phoneme codes on the screen as the voice spoke them — a visible trace of synthetic speech. This created a unique feedback loop: the programmer debugged speech by watching the screen, not by listening alone. The phoneme-to-ASCII mapping was arbitrary and non-intuitive. For instance: A = short A (as in &#039;bat&#039;), E = long E (&#039;beet&#039;), O = long O (&#039;boat&#039;), U = OO (&#039;boot&#039;), but 6 = UH1 (&#039;but&#039;), $ = TH (&#039;the&#039;), + = NG (&#039;sing&#039;), &amp; = ZH (&#039;measure&#039;). Learning this vocabulary was essential to programming speech — there was no abstraction layer, no text-to-speech engine, just raw phoneme codes.</p>
+        </div>
+      
+        <div class="exhibit__fact">
+          <div class="exhibit__fact-heading"><strong>Commercial Life and Legacy.</strong></div>
+          <p>The TRS-80 Voice Synthesizer sold for $399.00 — roughly $1,700 in 2025 dollars. It was prominently featured in Radio Shack catalogs from 1979 through 1983 under the headline &#039;Your TRS-80 Speaks!&#039; The product introduction called it &#039;a peripheral right out of the next century&#039; and explicitly targeted hobbyist programmers who wanted to add speech to their own software. Radio Shack sold exactly one dedicated software title: Talking Eliza (catalog number 26-1908), a voice-output version of the classic ELIZA chatbot. A handful of third-party programs supported it, including Fantastic Software&#039;s <em>Hyperlight Patrol</em> (a speech-enhanced arcade game) and Lance Micklus&#039;s <em>Trek III.4</em>. However, the unit never achieved mass adoption — the requirement to manually encode every spoken word as phonemes was a significant barrier to casual use. The unit was discontinued in 1983 as Radio Shack transitioned to the TRS-80 Model III, for which no voice synthesizer was ever produced (the Model III used a different expansion bus). The Votrax SC-01-A chip lived on in many other products through the 1980s, including the Votrax Type-N-Talk, the Echo II speech card for Apple II, and various accessibility devices. References: Matthew Reed, trs-80.org; Radio Shack catalog listings; VCFED forum discussions; Ken Gregg&#039;s phoneme table research.</p>
+        </div>
+      </div>
+          </section>
+
+          
+          <section class="exhibit__section exhibit__team">
+            <h2 class="exhibit__section-title">Team &amp; pioneers</h2>
+            <ul class="exhibit__team-list">
+            <li class="exhibit__team-item">
+              <span class="exhibit__team-name">Radio Shack / Tandy Corporation.</span>
+              <span class="exhibit__team-note"> Manufacturer and retailer, Fort Worth, Texas</span>
+            </li>
+            <li class="exhibit__team-item">
+              <span class="exhibit__team-name">Votrax International, Inc..</span>
+              <span class="exhibit__team-note"> Supplier of the VSL phoneme module and SC-01-A speech chip, Troy, Michigan</span>
+            </li>
+            <li class="exhibit__team-item">
+              <span class="exhibit__team-name">Richard T. Gagnon.</span>
+              <span class="exhibit__team-note"> Original Votrax speech synthesis designer; developed NRL text-to-phoneme algorithm</span>
+            </li>
+            <li class="exhibit__team-item">
+              <span class="exhibit__team-name">Tim Gargagliano and Kathryn Fons.</span>
+              <span class="exhibit__team-note"> Authored BYTE Magazine article &#039;The TRS-80 Speaks&#039; (October 1979) documenting the unit</span>
+            </li>
+            </ul>
+          </section>
+
+          
+          <section class="exhibit__section exhibit__media">
+            <h2 class="exhibit__section-title">Media</h2>
+            <div class="exhibit__media-grid">
+        <figure class="exhibit__media-item">
+          <div class="exhibit__media-frame">
+            <img src="../../assets/wiki/trs80-voice-synthesizer.jpg" alt="TRS-80 Voice Synthesizer peripheral from 1981 Radio Shack catalog" loading="lazy" />
+            <div class="exhibit__media-scanlines" aria-hidden="true"></div>
+          </div>
+          <figcaption>TRS-80 Voice Synthesizer as shown in a 1981 Radio Shack catalog. The beige box plugged directly into the Model I expansion port. Source: trs-80.org (Matthew Reed).</figcaption>
+        </figure>
+      </div>
+          </section>
+          
+
+          
+          <section class="exhibit__section exhibit__sources">
+            <h2 class="exhibit__section-title">Sources</h2>
+            <ol class="exhibit__source-list">
+        <li>
+          <a href="http://www.trs-80.org/trs-80-voice-synthesizer.html" target="_blank" rel="noopener">Matthew Reed, &#039;The TRS-80 Voice Synthesizer&#039; (trs-80.org)</a>
+        </li>
+      
+        <li>
+          <a href="https://archive.org/details/byte-magazine-1979-10/page/n109/mode/2up" target="_blank" rel="noopener">BYTE Magazine, October 1979: &#039;The TRS-80 Speaks&#039; by Tim Gargagliano and Kathryn Fons</a>
+        </li>
+      
+        <li>
+          <a href="https://en.wikipedia.org/wiki/Votrax" target="_blank" rel="noopener">Wikipedia: Votrax</a>
+        </li>
+      
+        <li>
+          <a href="https://cdn.hackaday.io/files/1710357317561440/Votrax_SC-01_Phoneme_Speech_Synthesizer_Data_Sheet_1980.pdf" target="_blank" rel="noopener">Votrax SC-01 Phoneme Speech Synthesizer Data Sheet (1980)</a>
+        </li>
+      
+        <li>
+          <a href="https://forum.vcfed.org/index.php?threads/trs-voice-synthesizer-which-speech-chip-and-link-to-manual.75197/" target="_blank" rel="noopener">VCFED forum: TRS Voice Synthesizer discussion with phoneme mapping details</a>
+        </li>
+      </ol>
+          </section>
+          
+
+          <nav class="exhibit__nav" aria-label="Exhibit navigation">
+            <a href="../talking-signs/" class="exhibit__nav-link exhibit__nav-link--prev">
+        <span class="exhibit__nav-dir">← Previous</span>
+        <span class="exhibit__nav-title">Talking Signs</span>
+      </a>
+            <a href="../../exhibits/" class="exhibit__nav-link exhibit__nav-link--index">All exhibits</a>
+            <a href="../versabraille/" class="exhibit__nav-link exhibit__nav-link--next">
+        <span class="exhibit__nav-dir">Next →</span>
+        <span class="exhibit__nav-title">VersaBraille</span>
+      </a>
+          </nav>
+        </article>
+      </main>
+
+      <footer class="site-footer">
+        <span>HCI Museum // Curated by Beepy</span>
+        <span class="site-footer__signal">SIGNAL_STABLE</span>
+      </footer>
+    </div>
+
+    <!-- Cloudflare Web Analytics --><script defer src='https://static.cloudflareinsights.com/beacon.min.js' data-cf-beacon='{"token": "8dcb1e0fcb41470b8769c87691688807"}'></script><!-- End Cloudflare Web Analytics -->
+  </body>
+</html>

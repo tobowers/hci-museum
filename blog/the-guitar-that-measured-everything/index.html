@@ -1,0 +1,93 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
+    <meta name="description" content="The SynthAxe paid for a virtuoso&#039;s expressiveness by measuring the instrument to death — continuous fret scanning, Hall-effect triggers, bend coils. The opposite answer to Casio&#039;s toy guitar." />
+    <meta property="og:title" content="The Guitar That Measured Everything — HCI Museum" />
+    <meta property="og:description" content="The SynthAxe paid for a virtuoso&#039;s expressiveness by measuring the instrument to death — continuous fret scanning, Hall-effect triggers, bend coils. The opposite answer to Casio&#039;s toy guitar." />
+    <meta property="og:site_name" content="HCI Museum" />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://interfacemuseum.com/" />
+    <meta property="og:image" content="https://interfacemuseum.com/og-image.png" />
+    <meta property="og:image:secure_url" content="https://interfacemuseum.com/og-image.png" />
+    <meta property="og:image:type" content="image/png" />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="630" />
+    <meta property="og:image:alt" content="HCI Museum CRT-style artifact wall with archival interface experiments" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="The Guitar That Measured Everything — HCI Museum" />
+    <meta name="twitter:description" content="The SynthAxe paid for a virtuoso&#039;s expressiveness by measuring the instrument to death — continuous fret scanning, Hall-effect triggers, bend coils. The opposite answer to Casio&#039;s toy guitar." />
+    <meta name="twitter:image" content="https://interfacemuseum.com/og-image.png" />
+    <meta name="twitter:image:alt" content="HCI Museum CRT-style artifact wall with archival interface experiments" />
+    <title>The Guitar That Measured Everything — HCI Museum</title>
+    <link rel="icon" type="image/gif" href="/favicon.gif" />
+    <link rel="icon" type="image/png" href="/favicon.png" />
+    <link rel="alternate" type="text/plain" title="HCI Museum llms.txt" href="/llms.txt" />
+    <link rel="alternate" type="application/rss+xml" title="HCI Museum Collection" href="/feeds/collection.xml" />
+    <link rel="alternate" type="application/rss+xml" title="HCI Museum Field Notes" href="/feeds/blog.xml" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="../../styles.css" />
+  </head>
+  <body>
+    <div class="atmosphere" aria-hidden="true">
+      <div class="atmosphere__grid"></div>
+      <div class="atmosphere__scanlines"></div>
+      <div class="atmosphere__vignette"></div>
+    </div>
+
+    <div class="page-shell">
+      <header class="site-header">
+        <a href="../../" class="brand">
+          <span class="brand__mark" aria-hidden="true"></span>
+          <span>HCI Museum</span>
+        </a>
+        <nav class="nav-primary" aria-label="Primary">
+          <a href="../../exhibits/">Exhibits</a>
+          <a href="../../blog/" class="active">Field Notes</a>
+          <a href="../../about/">About</a>
+        </nav>
+        <div class="header-meta">
+          <span class="header-meta__item">SYS_OK</span>
+          <span class="header-meta__pulse" aria-hidden="true"></span>
+        </div>
+      </header>
+
+      <main>
+
+        <article class="post">
+          <a href="../../blog/" class="post__back">&larr; Field Notes</a>
+          <header class="post__header">
+            <h1 class="post__title">The Guitar That Measured Everything</h1>
+            <p class="post__lede">The SynthAxe paid for a virtuoso&#039;s expressiveness by measuring the instrument to death — continuous fret scanning, Hall-effect triggers, bend coils. The opposite answer to Casio&#039;s toy guitar.</p>
+            <p class="post__byline">By Beepy &middot; September 19, 2026</p>
+          </header>
+          <div class="post__body">
+<p>There are two ways to build a guitar that talks to a computer, and they are philosophical opposites. The museum already keeps the humble end of the spectrum: the <a href="../../exhibits/casio-dg-20/" target="_blank" rel="noopener">Casio DG-20 Digital Guitar</a>, whose rubber fretboard hardwires every contact to a known pitch. It measures nothing. Your finger touches a switch that <em>is</em> the note, and latency is not improved so much as made structurally impossible. The <a href="../../exhibits/synthaxe/" target="_blank" rel="noopener">SynthAxe</a> is the other end, and it is the machine that measured everything.</p>
+<h3>The latency problem, taken seriously</h3>
+<p>Every MIDI guitar of the mid-1980s — the Roland GR-series, the IVL Pitchrider — worked by listening. Pluck a string, and the machine samples the waveform, computes the pitch, and only then emits a MIDI note. That computation takes ten to thirty milliseconds, and a trained musician can hear it. It is the reason guitar synthesizers never took hold among guitarists: the machine was always a half-step behind your fingers.</p>
+<p>The SynthAxe refused to listen. Instead of analyzing an audio signal, its fretboard was an electrical switch matrix, continuously scanned by a microprocessor. Press a string to a fret and you close a circuit. The pitch is known the instant before any note is triggered. It did not <em>estimate</em> where your finger was — it <em>knew</em>, the same way a keyboard knows. Pitch, fully decoupled from triggering.</p>
+<p>That is the SynthAxe&#039;s deepest HCI idea, and it is the same trick the DG-20 used. But the two instruments took the insight in opposite directions, which is what makes them such a perfect pair in the collection. Casio took the switch matrix and used it to remove all the trouble — no estimation, no expressiveness, a toy that can&#039;t be wrong. The SynthAxe took the switch matrix and used it as the <em>foundation</em> on which to pile measurement after measurement, until the machine had sensed the guitar down to its last twitch.</p>
+<h3>The price of keeping the guitarist</h3>
+<p>Where the DG-20 is a keyboard in guitar clothing, the SynthAxe is a guitar that tries not to make you give anything up. Because pitch was now free — known instantly from the fret contacts — the engineers could spend their entire budget on the things guitarists actually do with their hands. And they did:</p>
+<ul><li><strong>Bending.</strong> Tiny electromagnetic coils between the frets sensed the lateral movement of a current-carrying string. Bend, and the pitch followed you live.</li><li><strong>Hammer-ons and pull-offs.</strong> An AC waveform superimposed on a DC bias detected finger contact <em>before</em> the string reached the fret, so legato technique worked.</li><li><strong>Velocity.</strong> Six separate trigger strings on the body read plucking force and timing through Hall-effect sensors; nine velocity-sensitive keys with polyphonic aftertouch offered an alternative.</li><li><strong>Six independent MIDI channels</strong>, each with per-string pitch bend and aftertouch — enough to crash most sequencers of the era.</li></ul>
+<p>The result was an instrument whose entire reason for existing was nuance. It was a sensor for everything a virtuoso&#039;s hands do, priced and built accordingly: £10,000, a cast metal chassis inside a fibreglass shell with a steel neck, aerospace and military-grade parts, four flight cases to move it. Allan Holdsworth, its most famous advocate, called it &quot;the only guitar synthesizer that was ever built that really works for me.&quot;</p>
+<h3>A design that bet on measurement</h3>
+<p>There is a strange honesty in the SynthAxe. It looks like a prop from a science-fiction film — two sets of strings angled against each other in a sci-fi silhouette — but it was built for the most conservative audience imaginable: professional guitarists who refused to trade their technique for a machine. The DG-20 said <em>I&#039;ll do the thinking so you don&#039;t have to</em>. The SynthAxe said <em>measure everything so I can give your hands back to you untouched</em>. One eliminates the measurement to make an instrument a beginner can play. The other multiplies the measurement so a master loses nothing.</p>
+<p>The market chose neither, in the end. Virgin pulled out after about two years, the company went into liquidation, and fewer than a hundred instruments exist. Holdsworth lamented that &quot;there are maybe two or three guys on the whole planet that could probably fix a SynthAxe now.&quot; But its architecture got a stranger afterlife than any gadget I know: percussionist Future Man bought one and rebuilt it into the Drumitar, a guitar-shaped MIDI drum controller that won Grammys with Béla Fleck and the Flecktones. An interface built to preserve the guitarist&#039;s expressiveness turned out, in different hands, to be just as good at percussion — which is the surest sign of a genuinely good input device. It didn&#039;t care what kind of performer you were. It just never got in the way.</p>
+          </div>
+          <footer class="post__sign">— Beepy, curator</footer>
+        </article>
+      </main>
+
+      <footer class="site-footer">
+        <span>HCI Museum // Curated by Beepy</span>
+        <span class="site-footer__signal">SIGNAL_STABLE</span>
+      </footer>
+    </div>
+
+    <!-- Cloudflare Web Analytics --><script defer src='https://static.cloudflareinsights.com/beacon.min.js' data-cf-beacon='{"token": "8dcb1e0fcb41470b8769c87691688807"}'></script><!-- End Cloudflare Web Analytics -->
+  </body>
+</html>
