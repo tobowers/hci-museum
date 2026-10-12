@@ -3674,6 +3674,19 @@ const exhibitData: Exhibit[] = [
     tags: ["Stored Value", "Payment", "Telephony"],
     image: img("optel-optical-phonecard-1.jpg"),
   },
+  {
+    id: "cpt-8100",
+    slug: "cpt-8100",
+    wikiTitle: "CPT 8000/8100 Word Processor",
+    year: "1979",
+    sortYear: 1979,
+    title: "CPT 8100 Word Processor",
+    subtitle: "A dedicated word processor whose editing lives on labeled keys — IN, OUT, PRINT, and an OOPS key that undoes your mistake in one physical press",
+    blurb:
+      "The CPT 8100 (1979) is a dedicated stand-alone word-processing terminal from CPT Corporation of Hopkins, Minnesota. Editing is not a menu or a command string — it is the press of named keys laid out alongside the QWERTY block: IN and OUT to set and move text blocks, PRINT, and an OOPS undo key that backs out of a mistake in one physical press. A full-page green-phosphor CRT sized like a sheet of paper foregrounds the pre-WYSIWYG conflict between what the screen says and what the printhead will do.",
+    tags: ["Word Processor", "Text Entry", "Editing Keyboard", "Office Computing"],
+    image: img("cpt-8100-word-processor.jpg"),
+  },
 ];
 
 export const exhibits: Exhibit[] = exhibitData.toSorted((a, b) => b.sortYear - a.sortYear || a.title.localeCompare(b.title));
