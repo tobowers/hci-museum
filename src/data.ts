@@ -3674,6 +3674,45 @@ const exhibitData: Exhibit[] = [
     tags: ["Stored Value", "Payment", "Telephony"],
     image: img("optel-optical-phonecard-1.jpg"),
   },
+  {
+    id: "cpt-8100",
+    slug: "cpt-8100",
+    wikiTitle: "CPT 8000/8100 Word Processor",
+    year: "1979",
+    sortYear: 1979,
+    title: "CPT 8000/8100 Word Processor",
+    subtitle: "Editing is a press on a labeled key — IN, OUT, PRINT, and an OOPS undo key that backs out of your mistake in one physical press",
+    blurb:
+      "The CPT 8000 (1976) and its successor the CPT 8100 (1979) were dedicated stand-alone word-processing terminals from Hopkins-Minnesota's CPT Corporation: a custom editing keyboard, a full-page green-phosphor CRT, and two 8-inch floppy drives in one desk object. Where other text machines hid editing behind menus or commands, the CPT performed document surgery with a row of physically-labeled keys — IN and OUT to set and move blocks, PRINT to print, and the memorable OOPS key for undo. Editing became the ritual of committing to a named key rather than typing a command or pointing at a menu. The 8100's full-page portrait CRT, sized like a sheet of paper and rendered in generic fonts rather than true WYSIWYG, made the tension between what the screen stored and what the printhead would do physically visible. It is the museum's canonical dedicated-word-processor terminal — a text device that turned 'delete, move, undo' into named punches on the board.",
+    tags: ["Word Processor", "Text Entry", "Editing Keyboard", "Office Computing", "Dedicated Terminal"],
+    image: img("cpt-8100-1.png"),
+  },
+  {
+    id: "gakken-ex-system",
+    slug: "gakken-ex-system",
+    wikiTitle: "Gakken EX-System / Denshi Blocks",
+    year: "1976",
+    sortYear: 1976,
+    title: "Gakken EX-System / Denshi Blocks",
+    subtitle: "You program by snapping physical blocks into a grid — the layout of bricks IS the schematic, and the schematic is the program",
+    blurb:
+      "The Gakken EX-System (1976) is a Japanese educational electronics kit whose interface is the circuit itself. Instead of keys, code, or menus, the operator programs the machine by placing snap-together 'denshi blocks' — small sealed plastic boxes with metal side contacts and the component's schematic symbol printed on the lid — into a two-dimensional grid on a main unit that holds a 6x8 tray, batteries, an antenna, an amplifier, and an analog meter. Because the layout is two-dimensional and each block is labeled with its symbol, a built circuit literally IS a schematic diagram; make a diode-detector radio, a morse practice set, or an SN76477-based synthesizer (the synthesiser block spans 4x5 grid units) purely by deciding which blocks to snap where. External parts connect not with plugs but by sliding flat contacts between neighboring block strips. The machine then executes the topology your hands arranged — one of the most literal tangible-programming environments for children ever made, and a direct ancestor of every physical-wiring and tangible-programming kit that followed.",
+    tags: ["Tangible", "Education", "Circuit Programming", "Physical Blocks", "Japan", "Toy"],
+    image: img("gakken-denshi-blocks.jpg"),
+  },
+  {
+    id: "puma-teach-programming",
+    slug: "puma-teach-programming",
+    wikiTitle: "Unimation PUMA / Robot Teach Programming",
+    year: "1978",
+    sortYear: 1978,
+    title: "Unimation PUMA / Robot Teach Programming",
+    subtitle: "You program the machine by moving it — jog the arm through its task and the robot records your demonstration into a program",
+    blurb:
+      "The PUMA (Programmable Universal Machine for Assembly) is a family of industrial robot arms Unimation developed with General Motors, proposed in 1975 and shipped from 1978. Its defining interaction is not code but demonstration: you program it by physically operating it. Through a hand-held teach pendant — a box of buttons that jog each joint and drive RECORD/PLAY — an operator leads the arm through the exact motions of a task, stamping each pose into memory; a taught program is simply the sequence of poses your hands selected. This 'teach-by-showing' lineage (descended from Victor Scheinman's Stanford arm and Unimation's 1961 programmable Unimate) makes the human body the persistent input device: programming is a physical choreography — grasping a joint, guiding the arm, pressing a button — rather than writing a text file. It is the museum's purest programming-by-physical-demonstration artifact and the ancestor of modern learning-from-demonstration and surgical teleoperation.",
+    tags: ["Robotics", "Programming by Demonstration", "Teach Pendant", "Industrial", "Embodied", "Input"],
+    image: img("puma-unimate-200.jpg"),
+  },
 ];
 
 export const exhibits: Exhibit[] = exhibitData.toSorted((a, b) => b.sortYear - a.sortYear || a.title.localeCompare(b.title));

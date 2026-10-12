@@ -1,0 +1,49 @@
+{
+  "slug": "puma-teach-programming",
+  "title": "Unimation PUMA / Robot Teach Programming",
+  "year": "1978",
+  "subtitle": "You program the machine by moving it — jog the arm through its task and the robot records your demonstration into code",
+  "why_scout_cares": "The museum's robots (Topo, RB5X, HERO) are all programmed by typing commands or code. The PUMA is the opposite: you teach it by physically operating it. Through a hand-held teach pendant you jog each joint to the positions you want and press RECORD, or grasp the arm and guide it by hand — the machine turns your embodied demonstration into a stored program it then replays perfectly. It is the museum's purest 'programming by physical demonstration' artifact, and the ancestor of every teach-by-guiding and learning-from-demonstration system that followed.",
+  "search_terms": ["Unimation PUMA", "robot teach pendant", "lead-through programming", "programming by demonstration", "PUMA 200", "teach-by-guiding robot"],
+  "research": {
+    "title": "Unimation PUMA / Robot Teach Programming",
+    "year": "1978",
+    "by": "Unimation Inc. (Victor Scheinman, GM University Research)",
+    "tags": ["Robotics", "Programming by Demonstration", "Teach Pendant", "Industrial", "Embodied", "Input"],
+    "overview": "The PUMA (Programmable Universal Machine for Assembly) is a family of industrial robot arms developed by Unimation in partnership with General Motors in the late 1970s. Proposed in 1975 and shipped from 1978, the PUMA was descended from Victor Scheinman's Stanford arm and MIT's earlier teleoperator work. Its defining interaction is not code but demonstration: the operator programs the arm by physically moving it. Through a handheld teach pendant — a small box of buttons that jog each joint and control RECORD/PLAY — an engineer leads the arm through the exact motions of a task (pick, weld, assemble), recording joint positions at each taught waypoint. The robot then replays the recorded trajectory as its program. This 'teach' paradigm, which Unimation pioneered commercially starting with the first programmable Unimate of 1961, makes the human body the persistent input device: programming is a physical choreography, not a text file.",
+    "deepDive": [
+      {
+        "heading": "The teach pendant: programming one joint at a time",
+        "text": "The PUMA's primary programming device is a handheld teach pendant wired to the controller. The operator holds the box, selects a joint or a coordinate mode, and presses buttons to drive the arm to a target position, then hits RECORD. This turns programming into a step-and-commit walk: you jog the body of the machine through space and stamp each pose into memory. The program is the concatenation of the poses your hands selected — a manufacturing task authored through a series of physical nudges of the arm's own body."
+      },
+      {
+        "heading": "Lead-through and point-to-point teaching",
+        "text": "Alongside pendant jogging, robots in this lineage could be taught by lead-through: the engineer grasps the arm and literally takes it through the motion while the controller samples joint encoders, then plays the sample back. This 'teach-by-showing' collapse — the operator's arm movement becomes data, then becomes the machine's program — is the essence of embodied programming. A taught PUMA program ends when the operator decides, 'this is the motion I mean,' and the arm thereafter reproduces it across thousands of cycles with inhuman repeatability."
+      },
+      {
+        "heading": "From GM's factory floor to an interface idea",
+        "text": "The PUMA was born from a 1975 GM proposal for a programmable arm to automate assembly, and its first sale followed in 1978. It became the canonical 'robot arm of the 1980s,' appearing in factories and research labs worldwide (and famously in the opening of an early Terminator film's future-warrier scene). But its deeper contribution is conceptual: it demonstrated that a general-purpose machine's program could be authored kinesthetically — that 'training' a machine can mean moving it, not coding. That idea migrated into modern learning-from-demonstration, surgical teleoperation, and haptic programming."
+      },
+      {
+        "heading": "Where it sits in the museum",
+        "text": "The museum's robot-and-bio thread is textual (Topo, RB5X, HERO 1, Big Trak all take code or key commands). The PUMA occupy the complementary slot in the same family: physically classified walkthrough teaching. It gives the collection a first-class 'programming by demonstration' artifact and grounds the 'machine you teach with your body' motif that recurs from the TalkingGlove through BioMuse. The UNIMATE PUMA 200 in the CHM collection captures this history in a surviving, operable form."
+      }
+    ],
+    "team": [
+      { "name": "Unimation Inc.", "note": "Founding industrial-robot maker; sold the first programmable Unimate in 1961 and developed the PUMA with GM" },
+      { "name": "Victor Scheinman", "note": "Creator of the Programmable Universal Manipulation Arm arm prototype (the 'Scheinman arm') that led to the PUMA" },
+      { "name": "General Motors", "note": "Partner that proposed and underwrote the PUMA's development for factory assembly automation" }
+    ],
+    "media": [
+      { "src": "https://upload.wikimedia.org/wikipedia/commons/b/b5/UNIMATE_PUMA_200_Robot_Arm_%286202074072%29.jpg", "alt": "A UNIMATE PUMA 200 robot arm, the robot you program by operating its joints", "caption": "A UNIMATE PUMA 200 — programmed not with code but by physically teaching it motions via its joints. CC BY 2.0, Wikimedia Commons." }
+    ],
+    "sources": [
+      { "text": "PUMA (brand) / Programmable Universal Machine for Assembly — Wikipedia", "url": "https://en.wikipedia.org/wiki/PUMA_(brand)" },
+      { "text": "File:UNIMATE PUMA 200 Robot Arm (6202074072).jpg — Wikimedia Commons", "url": "https://commons.wikimedia.org/wiki/File:UNIMATE_PUMA_200_Robot_Arm_(6202074072).jpg" }
+    ],
+    "imageUrls": [
+      "https://upload.wikimedia.org/wikipedia/commons/b/b5/UNIMATE_PUMA_200_Robot_Arm_%286202074072%29.jpg"
+    ]
+  },
+  "savedImages": ["images/puma-unimate-200.jpg"]
+}

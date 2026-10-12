@@ -1,0 +1,51 @@
+{
+  "slug": "gakken-ex-system",
+  "title": "Gakken EX-System / Denshi Blocks",
+  "year": "1976",
+  "subtitle": "You program by snapping physical blocks into a grid — the block layout IS the schematic, and the whole circuit is the program",
+  "why_scout_cares": "Every computer in the museum is programmed with keys, code, or gestures. The Gakken EX-System (1976) is the one machine you program by physically arranging bricks in a tray. Snap-together 'denshi blocks' — each a sealed plastic box with metal side contacts and the component's schematic printed on top — form a physical grid; the arrangement is simultaneously the circuit diagram and the code. The main unit executes the layout you built with your hands. It is tangible programming as circuit-building: the schematic, the program, and the physical object are one and the same.",
+  "search_terms": ["Gakken EX-System", "denshi blocks", "electronic blocks", "Gakken EX-150", "physical block circuit programming", "tangible programming toy"],
+  "research": {
+    "title": "Gakken EX-System / Denshi Blocks",
+    "year": "1976",
+    "by": "Gakken / Denshi Block Mfg. Co. Ltd.",
+    "tags": ["Tangible", "Education", "Circuit Programming", "Physical Blocks", "Japan", "DIY", "Toy"],
+    "overview": "The Gakken EX-System is a series of Japanese educational electronics kits produced by Gakken from 1976. Its heart is the denshi block (electronic block): a small plastic box containing a single electronic component, with conductive metal strips on its sides so blocks snap together edge-to-edge and conduct electricity between them. The top of each block is labeled with the schematic symbol of the component inside. To make a circuit — and thereby 'program' the machine — you place blocks in a two-dimensional grid on a main unit, which holds a 6x8-block tray, a battery, an antenna, an amplifier, and an analog meter. Because the layout is two-dimensional and each block carries its schematic label, a built circuit literally resembles a schematic diagram: the physical arrangement of blocks is the instruction set the machine follows. The EX-150 flagship kit supported 150 experiments (upgradeable across the EX-System to 191), from a simple diode-detector radio to a synthesizer built around the Texas Instruments SN76477 sound chip. The system was rebranded in the West under names including Skilcraft, Humbrol and Tron Link. A nearly identical EX-150 was reissued in Japan in 2002, and a compatible set appeared in Gakken's Otona no Kagaku mook series in 2011.",
+    "deepDive": [
+      {
+        "heading": "The schematic is the program",
+        "text": "In the EX-System the user interface is the circuit itself. There is no screen prompting, no menu, no sequence of commands — you choose which blocks to snap into which grid positions. With the component's electrical symbol printed on each block's lid, the grid you build is a faithful physical rendering of a schematic: the resistor block you place literally is the resistor in the circuit. The machine's behavior (the radio it tunes, the tone it synthesizes, the alarm it sounds) is decided entirely by the physical topology you created with your hands. This collapses the three classic layers — schematic, code, and physical object — into a single tangible artifact."
+      },
+      {
+        "heading": "Synthesiser block and the metric of block-area",
+        "text": "Most blocks are one unit of the grid, but complex parts arrived as big blocks: the EX-System Synthesizer block (built on the SN76477 chip, with its own 9V battery compartment) occupies an area 4x5 standard blocks, and the EX-FM tuner block is 3x6. The sheer physical footprint of a component told you how much circuitry the machine was about to execute. Building a synthesizer was a literal act of structuring a larger territory of blocks — the complexity of your program was measurable in square centimeters of plastic."
+      },
+      {
+        "heading": "A main unit that executes what you built",
+        "text": "The main unit is a physical substrate that both holds and powers the layout: a 6x8-block tray, batteries, and expansion circuitry the kits install into it over time. External apparatus (a crystal earpiece, optical-fiber optics, tester probes) connects not with plugs but by sliding flat metal contacts between the strips of two neighboring blocks — wiring as a mechanical squeeze between parts. The machine executes the topology your hands arranged, making this among the earliest and most literal tangible programming environments for children."
+      },
+      {
+        "heading": "Where it sits in the museum",
+        "text": "The museum's programmable artifacts are typed (Little Professor asks, you answer), chorded (Microwriter), or text-controlled (Topo, RB5X). The EX-System is the inverse: programming as a physical construction that is verified by touch and executed by the machine on demand. It is the clearest ancestor of every tangible-programming and 'physical wire' kit that followed, and its denshi blocks are a wonderfully literal case of the medium being the program. It extends the museum's Japan-focused early-computing and toy thread alongside Gakken's successor FX-System (1981)."
+      }
+    ],
+    "team": [
+      { "name": "Gakken", "note": "Japanese publisher and educational-toy maker that released the EX-System series from 1976" },
+      { "name": "Denshi Block Mfg. Co. Ltd.", "note": "Co-creator of the denshi block kits, collaborating with Gakken from 1972" }
+    ],
+    "media": [
+      { "src": "https://upload.wikimedia.org/wikipedia/commons/2/2e/Denshi_blocks.jpg", "alt": "A grid of Gakken denshi blocks arranged into a circuit, each labeled with its component's schematic symbol", "caption": "Gakken denshi blocks — snap-together plastic boxes whose arrangement in a grid *is* a schematic and a program. CC BY-SA 3.0, Wikimedia Commons." },
+      { "src": "https://upload.wikimedia.org/wikipedia/commons/0/06/Gakken_EX150.jpg", "alt": "A Gakken EX-150 kit set up for experiment number 108", "caption": "The Gakken EX-150 set up for experiment #108, showing blocks laid out on the main unit's 6x8 tray. CC BY-SA 3.0, Wikimedia Commons." }
+    ],
+    "sources": [
+      { "text": "Gakken EX-System — Wikipedia", "url": "https://en.wikipedia.org/wiki/Gakken_EX-System" },
+      { "text": "File:Denshi blocks.jpg — Wikimedia Commons", "url": "https://commons.wikimedia.org/wiki/File:Denshi_blocks.jpg" },
+      { "text": "File:Gakken EX150.jpg — Wikimedia Commons", "url": "https://commons.wikimedia.org/wiki/File:Gakken_EX150.jpg" }
+    ],
+    "imageUrls": [
+      "https://upload.wikimedia.org/wikipedia/commons/2/2e/Denshi_blocks.jpg",
+      "https://upload.wikimedia.org/wikipedia/commons/0/06/Gakken_EX150.jpg"
+    ]
+  },
+  "savedImages": ["images/gakken-denshi-blocks.jpg", "images/gakken-ex150-setup.jpg"]
+}
