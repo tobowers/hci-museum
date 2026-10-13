@@ -1,0 +1,78 @@
+{
+  "slug": "seiko-data-2000",
+  "title": "Seiko Data-2000",
+  "year": "1984",
+  "subtitle": "The first computer wristwatch — data beamed to your wrist by electromagnetic control coupling from a wireless desktop keypad.",
+  "why_scout_cares": "A wrist-worn data storage device whose input comes from a separate, wirelessly-docked keypad using electromagnetic (control) coupling — a contactless transfer paradigm years before IR, Bluetooth, or NFC. Distinct from the museum's Seiko RC-1000, which uses a wired RS-232 serial dump.",
+  "search_terms": [
+    "Seiko Data 2000 1984 computer watch",
+    "Seiko Data-2000 wristwatch keypad docking"
+  ],
+  "research": {
+    "title": "Seiko Data-2000",
+    "year": "1984",
+    "by": "Seiko",
+    "tags": [
+      "Wearable",
+      "Wrist-Worn",
+      "Wireless Docking",
+      "Data Transfer"
+    ],
+    "overview": "The Seiko Data-2000 arrived in 1984, the same year Apple shipped the Macintosh, as the first serious attempt at a wrist-worn computer. Named for its 2,000-character storage capacity, it combined a small LCD wristwatch with the ability to receive and store data that could be recalled anywhere. What makes it a landmark of interaction design is not the watch itself but how data got to its memory: the user set the watch onto a specialist wireless keypad, and 'tip-tap-typings' on that desktop keypad were transferred to the watch's memory through electromagnetic control coupling — a contactless, inductive data link. The watch face then displayed the stored text on a compact 4x10 character screen. Released in gold, silver, and black, the Data-2000 is widely credited as one of the earliest computer watches and a direct ancestor of the smartwatch.",
+    "deepDive": [
+      {
+        "heading": "Origins",
+        "text": "In the late 1970s, Seiko's Hattori Seiko research team began exploring microcomputers in the form of watches. Their Datalog (1975) was a promo-piece watch storing a single number, but the project gained momentum through the microprocessor era. By 1984 Seiko had produced the Data-2000, explicitly positioned as a 'computer watch' that could store text and numbers a wearer could view on the wrist, released in gold, silver, and black finishes. It predates Seiko's RC-1000 Wrist Terminal (also 1984), which came a year later in some markets and interfaced with computers over a wired RS-232C connection."
+      },
+      {
+        "heading": "Interaction: the wireless keypad dock",
+        "text": "The Data-2000's defining interaction is contactless data entry. To load information, the wearer placed the watch onto a specialist keypad base unit. Typing on that keypad produced data that was transferred to the watch through electromagnetic control coupling — an inductive, transformer-like link with no physical pins or cables required. This 'wireless docking' let a wrist-worn device inherit full-size keypad input without compromising its form factor. The user could then detach the watch and recall the stored text on its small LCD, effectively carrying a personal database on the wrist. This is an embodied precursor to every smartwatch that syncs from a phone or dock — a genuine contactless-input milestone."
+      },
+      {
+        "heading": "Hardware limits as design honesty",
+        "text": "The Data-2000's memory was modest: it could store 2,000 characters total, though the practical recalled capacity on the wrist was limited — described as small, around 112 digits of short numeric/memo storage on some models. The 4x10 character display was strictly read-only and used a segmented LCD. There was no way to edit data on the watch itself; all text was authored on the keypad dock and simply replayed. This separation of authoring (desktop keypad) from consumption (wrist) is a clean, honest division of labor that later wearable computers would struggle to reconcile."
+      },
+      {
+        "heading": "Commercial fate",
+        "text": "The Data-2000 was the opening salvo of Seiko's 1980s wrist-computer line, which grew into the RC-1000/RC series with RS-232C computer links (and spawned the WristMac, worn on Space Shuttle mission STS-43 in 1991 for the first email sent from space). Despite the technical novelty, the Data-2000 sold in modest numbers — a niche gadget priced for enthusiasts and collectors rather than a mass market. Its nonstandard, Lotus-style data bank and limited storage kept it from mainstream adoption, but it firmly established Seiko as the decade's pioneer of watch-mounted computing."
+      },
+      {
+        "heading": "Impact",
+        "text": "The Data-2000 demonstrated that a wristwatch could be a computing peripheral, and that input and display could live in physically separate, wirelessly coupled shells. Its electromagnetic control-coupling dock predates later inductive and near-field data-transfer systems by years, and its keypad-to-wrist authoring model prefigures syncing-architecture thinking in mobile computing. Collectors and historians cite it as the earliest practical 'computer watch,' placing it at the very start of the smartwatch timeline alongside Casio's databank experiments and the subsequent Seiko RC series."
+      }
+    ],
+    "team": [
+      {
+        "name": "Seiko",
+        "note": "Developer and manufacturer (Hattori Seiko research)"
+      }
+    ],
+    "media": [
+      {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/e/e0/Seiko_Data-2000%2C_The_First_Computer_Watch%2C_Circa_1983-1984%2C_LCD_Watch_with_Docking_Station_%288515983575%29.jpg",
+        "alt": "Seiko Data-2000 wrist computer watch with its wireless keypad docking station",
+        "caption": "The Seiko Data-2000 and its specialist keypad dock. Source: Joe Haupt, CC BY-SA 2.0, via Wikimedia Commons."
+      }
+    ],
+    "sources": [
+      {
+        "text": "History of the Smartwatch - Wikipedia (Seiko Data 2000: electromagnetic-coupling wireless docking, external keyboard, 1984)",
+        "url": "https://en.wikipedia.org/wiki/Smartwatch"
+      },
+      {
+        "text": "Seiko Data-2000 image and description - Wikimedia Commons",
+        "url": "https://commons.wikimedia.org/wiki/File:Seiko_Data-2000,_The_First_Computer_Watch,_Circa_1983-1984,_LCD_Watch_with_Docking_Station_(8515983575).jpg"
+      },
+      {
+        "text": "Seiko Data-2000, The First Computer Watch - Joe Haupt (Flickr)",
+        "url": "https://www.flickr.com/photos/51764518@N02/8515983575"
+      }
+    ],
+    "imageUrls": [
+      "https://upload.wikimedia.org/wikipedia/commons/e/e0/Seiko_Data-2000%2C_The_First_Computer_Watch%2C_Circa_1983-1984%2C_LCD_Watch_with_Docking_Station_%288515983575%29.jpg"
+    ]
+  },
+  "savedImages": [
+    "potential/seiko-data-2000/images/hero.jpg"
+  ]
+}

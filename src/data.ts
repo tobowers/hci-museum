@@ -576,6 +576,18 @@ const exhibitData: Exhibit[] = [
     image: img("seiko-rc1000-1.jpg"),
   },
   {
+    id: "seiko-data-2000",
+    slug: "seiko-data-2000",
+    wikiTitle: "Seiko Data-2000",
+    year: "1984",
+    sortYear: 1984,
+    title: "Seiko Data-2000",
+    subtitle: "The first computer watch — data beamed to your wrist via electromagnetic control coupling from a wireless desktop keypad",
+    blurb: "In 1984 Seiko put 2,000 characters of storage on a wrist. To load them in, you docked the watch onto a specialist keypad base and typed; each keystroke was transferred to the watch's memory through electromagnetic control coupling — a contactless, pin-free data link. Detach the watch and the stored text scrolls across a 4x10 LCD, a personal database carried on the wrist. Authoring on a desktop keypad, consuming on the wrist: an embodied precursor to every dock-and-sync smartwatch, and a direct ancestor of the WristMac that emailed from space in 1991.",
+    tags: ["Wearable", "Wrist-Worn", "Wireless Docking", "Data Transfer"],
+    image: img("seiko-data-2000-1.jpg"),
+  },
+  {
     id: "barcode-battler",
     slug: "barcode-battler",
     wikiTitle: "Barcode Battler / バーコードバトラー",
