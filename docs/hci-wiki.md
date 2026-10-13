@@ -1,6 +1,6 @@
 # The HCI Golden Age Wiki
 
-A research compendium for a digital museum of cutting-edge Human-Computer Interaction from the late 1970s through the early 1990s. These two hundred and ninety-two projects mix canonical experiments with weird, forgotten, and beautiful vaporware — brain control, voice control, gesture, wearable computing, VR, robots, and full-body exertion.
+A research compendium for a digital museum of cutting-edge Human-Computer Interaction from the late 1970s through the early 1990s. These two hundred and ninety-four projects mix canonical experiments with weird, forgotten, and beautiful vaporware — brain control, voice control, gesture, wearable computing, VR, robots, and full-body exertion.
 
 Each entry includes an overview, a deep dive, a small media gallery, and full source links so the images and facts can always be traced back.
 
@@ -299,6 +299,7 @@ Each entry includes an overview, a deep dive, a small media gallery, and full so
      290. [Brunswick "Karate" Reflex Testing Amusement Device (1974)](#brunswick-karate-reflex-testing-amusement-device-1974)
      291. [Sequential Circuits Prophet VS (1986)](#sequential-circuits-prophet-vs-1986)
      292. [Moog Liberation (1980)](#moog-liberation-1980)
+     293. [CPT 8000/8100 Word Processor (1979)](#cpt-80008100-word-processor-1979)
   
 ---
 
@@ -13087,3 +13088,39 @@ The optical phonecard — branded 'Optel' in Austria and known in the collector 
 1. Wikipedia — Telephone card (stored-value optical section) — https://en.wikipedia.org/wiki/Telephone_card
 2. Wikipedia (German) — Telefonkarte / Telefonwertkarte (Austrian optical cards, 1981 introduction, white balance strip) — https://de.wikipedia.org/wiki/Telefonkarte
 3. Wikimedia Commons — File:TWK (1).jpg (public-domain image of Austrian optical phonecards) — https://commons.wikimedia.org/wiki/File:TWK_(1).jpg
+
+---
+
+## CPT 8000/8100 Word Processor (1979)
+
+**By:** CPT Corporation (Hopkins, Minnesota)  
+**Tags:** `Word Processor` `Text Entry` `Editing Keyboard` `Office Computing` `Dedicated Terminal`
+
+### Overview
+
+The CPT 8000 (1976) and its successor the CPT 8100 (1979) were dedicated stand-alone word-processing terminals from CPT Corporation, a Hopkins, Minnesota company that grew into a major producer of office text machines through the early 1980s. Instead of a personal computer running word-processing software, the CPT was one physical object: a custom keyboard, a full-page green-phosphor CRT, and two 8-inch floppy drives arranged as a single desk terminal. Editing was not a menu, a command string, or a pointing gesture — it was the physical press of named keys laid out alongside the QWERTY block. Production and support continued through the mid-1980s, and tens of thousands of units were installed, making the CPT one of the defining examples of the dedicated word-processor era before the PC.
+
+### Deep dive
+
+* **Editing as a press on a named key.** The CPT's editing keyboard carried a row of dedicated labeled keys — IN and OUT (to set and move text blocks), PRINT, and the memorable OOPS key for undo. Where modern editing points, clicks, or types commands, the CPT operator performed surgery by committing to a named key. Want to move a block? You mark it IN and OUT on the physical board, then invoke the move. Made a mistake? You press OOPS and the machine backs out of it. The interaction collapsed the abstraction of an editing command into a single, labeled, tactile action — a weirdly embodied alternative to both the menu and the command line.
+* **A full-page monitor that argued with the page.** The 8100 used a full-page portrait CRT with a long-persistence green phosphor, sized and oriented to show an entire letter-sized page of text at once. Because the display was rendered in single-generic fonts and showed the document as stored rather than as it would print (true WYSIWYG was years away), the operator lived with a persistent tension between what the screen said and what the printhead would do — the pre-WYSIWYG page-conflict made physical by a monitor deliberately shaped like paper. The long-persistence phosphor meant the operator watched lines trace in as the screen redrew, a visual rhythm unique to these office terminals.
+* **Dual floppies and the office ritual.** The machine stored text on a pair of 8-inch floppy disks. The work flow — mount the system disk, load your document disk, page up and down on a full-page screen, and print — made the CPT a self-contained typing-and-editing appliance rather than a general computer. It anticipated the way later office software would treat editing, but expressed it in a box whose whole interface was keyboard and CRT, with no other system around it.
+* **Where it sits in the museum.** The museum's text family runs one key at a time (Microwriter's five-key chord, Velotype's two-hand syllables) or hides editing in software commands (Canon Cat's HyperKey, Brother WP1's edit-before-print). The CPT is the opposite flavor of the same impulse: editing made into a labeled physical keyboard with an undo key literally called OOPS. It is the dedicated-word-processor terminal that turned document surgery into a set of named punches — a distinct interaction from a typewriter, a computer, and every other text device already in the collection.
+
+### Team
+
+* **CPT Corporation** — Dedicated word-processor maker based in Hopkins, Minnesota; produced the 8000 (1976) and 8100 (1979)
+
+### Media
+
+![CPT 8100 dedicated word processor terminal](../assets/wiki/cpt-8100-word-processor.jpg)
+*A CPT 8100 dedicated word processor — a single desk terminal combining a custom editing keyboard, a full-page green CRT, and dual 8-inch floppy drives. CC0, Wikimedia Commons (Computer History Museum upload).*
+
+![CPT 8100 full-page CRT display](../assets/wiki/cpt-8100-crt-display.jpg)
+*Close-up of the CPT 8100's full-page green CRT, sized like a sheet of paper. CC0, Wikimedia Commons (Computer History Museum upload).*
+
+### Sources
+
+1. CPT Corporation — Wikipedia — https://en.wikipedia.org/wiki/CPT_Corporation
+2. File:CPT 8100 Word Processor Desktop Microcomputer 5185A65A.png — Wikimedia Commons — https://commons.wikimedia.org/wiki/File:CPT_8100_Word_Processor_Desktop_Microcomputer_5185A65A.png
+3. File:CPT 8100 CRT display screen close up 5185A65A.png — Wikimedia Commons — https://commons.wikimedia.org/wiki/File:CPT_8100_CRT_display_screen_close_up_5185A65A.png
