@@ -3699,6 +3699,20 @@ const exhibitData: Exhibit[] = [
     tags: ["Word Processor", "Text Entry", "Editing Keyboard", "Office Computing"],
     image: img("cpt-8100-word-processor.jpg"),
   },
+  {
+    id: "scantron-888p",
+    slug: "scantron-888p",
+    wikiTitle: "Scantron 888P+ OMR Reader",
+    year: "c.1985",
+    sortYear: 1985,
+    title: "Scantron 888P+ OMR Reader",
+    subtitle:
+      "A desktop optical-mark reader that turns a human-filled bubble sheet into machine-readable data — paper as the answer-and-data token.",
+    blurb:
+      "The interaction model IS the point: the human answers questions by darkening ovals on a printed paper form, and the machine reads those fills by sweeping light across the sheet and measuring contrasting reflectivity. The bubble sheet is genuinely an input token — a hand-marked, machine-readable data entry medium requiring no keyboard and no typed characters. The museum's first form-based (OMR) data-entry artifact, and distinct from OCR (which reads pre-printed characters) and from the supermarket barcode scanner (which reads machine-printed identity).",
+    tags: ["OMR", "Paper Input", "Data Entry", "Mark-Sense", "Reading"],
+    image: img("scantron-888p.png"),
+  },
 ];
 
 export const exhibits: Exhibit[] = exhibitData.toSorted((a, b) => b.sortYear - a.sortYear || a.title.localeCompare(b.title));
