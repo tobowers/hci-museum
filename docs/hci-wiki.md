@@ -301,6 +301,7 @@ Each entry includes an overview, a deep dive, a small media gallery, and full so
      291. [Sequential Circuits Prophet VS (1986)](#sequential-circuits-prophet-vs-1986)
      292. [Moog Liberation (1980)](#moog-liberation-1980)
      293. [CPT 8000/8100 Word Processor (1979)](#cpt-80008100-word-processor-1979)
+     294. [Scantron 888P+ OMR Reader (c. 1985)](#scantron-888p-omr-reader-c-1985)
   
 ---
 
@@ -13158,3 +13159,43 @@ The CPT 8000 (1976) and its successor the CPT 8100 (1979) were dedicated stand-a
 1. CPT Corporation — Wikipedia — https://en.wikipedia.org/wiki/CPT_Corporation
 2. File:CPT 8100 Word Processor Desktop Microcomputer 5185A65A.png — Wikimedia Commons — https://commons.wikimedia.org/wiki/File:CPT_8100_Word_Processor_Desktop_Microcomputer_5185A65A.png
 3. File:CPT 8100 CRT display screen close up 5185A65A.png — Wikimedia Commons — https://commons.wikimedia.org/wiki/File:CPT_8100_CRT_display_screen_close_up_5185A65A.png
+
+---
+
+## Scantron 888P+ OMR Reader (c. 1985)
+
+**By:** Scantron Corporation  
+**Tags:** `OMR` `Paper Input` `Data Entry` `Testing` `Mark-Sense` `Reading`
+
+### Overview
+
+The Scantron 888P+ is a desktop optical-mark recognition (OMR) scoring machine — a fixture of American classrooms, clinics, and survey offices from the 1980s onward. Its defining interaction is radically different from any keyboard, mouse, or touchscreen: the data entry happens entirely on paper. A respondent fills in short ovals on a printed Scantron sheet — often with a No. 2 pencil — and the machine then reads those hand-darkened marks by sweeping light across the form and measuring the contrasting reflectivity of each oval against the blank paper. Darkened ovals reflect less light and are read as 'marked'; empty ovals are read as 'blank.' The resulting marks stream out as raw data (tallies, scores, survey responses), feeding a school's grading or an office's tallies with no retyping and no keyed characters. It is quintessential 'the medium is the interface' hardware: the human and the machine share a printed page as their common token.
+
+### Deep dive
+
+* **Origins: Sanders and SCAN-TRON.** Optical mark recognition grew out of the older punched-card and marksense traditions, but its practical, mass-market form is Scantron's. Scantron Corporation traces to business-machine salesman William E. Sanders, who founded SCAN-TRON in Tustin, California in 1972 and whose name supplied part of the company's coinage. Sanders recognized that a cheap, fast way to read hand-marked answer sheets would find a huge market in test grading. Scantron's machines and the near-generic 'Scantron sheet' became standard in U.S. schools; the company later claimed operations in a large share of American school districts and universities. The 888P+ represents the mid-1980s refinement of this desk-friendly OMR scoring genre.
+* **The interaction: mark the paper, read the light.** The remarkable part is the division of labor between brain and machine. OMR strips away keyboards entirely. The user's only job is to make a physical mark at a known coordinate on a printed grid. The reader illuminates each marked position and measures reflected light: dark graphite or ink absorbs and is 'on'; clean paper reflects and is 'off.' Because the answer is encoded by position (which oval) and presence (filled or not) rather than by shape, the device needs no character-recognition engine — OMR is deliberately simpler and more reliable than optical character recognition. The machine resolves a bubble sheet in a fraction of a second and can process hundreds of sheets an hour, turning a stack of marked paper into a tally of right/wrong counts or survey responses.
+* **Paper as an input token.** The Scantron form is a genuine tangible input medium, not just a printed document. It encodes data in two physical channels: where you mark (column and row), and how you fill the oval (dark enough to read). The late-model 'lozenge/rectangular tick' forms replaced the large legacy bubbles that early, insensitive readers needed for reliability. A completed form is simultaneously a record a human can read, an answer sheet a test-taker holds, and source data a computer consumes — the same physical sheet bridges all three roles. That places OMR adjacent to the collection's other physical-token inputs — the Optel optical phonecard (value burned into a plastic strip), the Cauzin Softstrip (printed barcode as a data medium), and the supermarket laser scanner (machine-printed barcode as identity) — but distinct: only OMR lets the bare human hand write the data onto the shared token.
+* **Legacy.** Scantron hardware was once nearly synonymous with American multiple-choice testing; at the genre's peak the machines were part of a routinized, bureaucratic grade-assessment pipeline. The OMR principle outlived the physical reader too: desktop OMR software later replaced dedicated hardware, letting a sheet printed on a laser printer be scanned through a common document feeder. But the 888P+ embodies the era's purest statement of the idea — dedicated, single-purpose optics trained on hand-darkened ovals, one class at a time.
+
+### Team
+
+* **Scantron Corporation.** American OMR test-scoring machine and answer-sheet maker; founded June 1972 by William E. Sanders as SCAN-TRON (Tustin, CA)
+
+### Media
+
+![Scantron 888P+ desktop optical mark reader](../assets/wiki/scantron-888p.png)
+*The Scantron 888P+ OMR reader, a dedicated light-based reader for hand-filled bubble sheets. CC0, via Wikimedia Commons.*
+
+![Scantron 888P+ machine on a school desk](../assets/wiki/scantron-888p-machine.jpg)
+*The 888P+ on a school desk; the sheet feeds through the slot and the machine resolves each dark oval. CC0, via Wikimedia Commons.*
+
+![Scantron form 815-E half testing sheet](../assets/wiki/scantron-form-815e.png)
+*A Scantron form 815-E half testing sheet — the bubble-grid paper token that bridges human marking and machine reading. CC0, via Wikimedia Commons.*
+
+### Sources
+
+1. Optical mark recognition — Wikipedia (reflectivity sensing, #2 pencil bubbles, OMR vs OCR) — https://en.wikipedia.org/wiki/Optical_mark_recognition
+2. Scantron Corporation — Wikipedia (founded 1972 by William E. Sanders; OMR machines and answer sheets) — https://en.wikipedia.org/wiki/Scantron_Corporation
+3. File:Scantron 888P+ machine (background removed).png — Wikimedia Commons — https://commons.wikimedia.org/wiki/File:Scantron_888P%2B_machine_(background_removed).png
+4. File:Scantron form 815-E Half Testing Sheet.png — Wikimedia Commons — https://commons.wikimedia.org/wiki/File:Scantron_form_815-E_Half_Testing_Sheet.png
