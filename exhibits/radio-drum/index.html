@@ -1,0 +1,226 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
+    <meta name="description" content="Max Mathews, father of computer music, and Bell Labs engineer Bob Boie built a 3D mouse that failed. Then they realized it was a musical instrument. Two batons hover above a capacitance-sensing antenna plate, tracking X, Y, and Z at 100Hz with 1mm precision. No contact required." />
+    <meta property="og:title" content="Radio Drum — HCI Museum" />
+    <meta property="og:description" content="Max Mathews, father of computer music, and Bell Labs engineer Bob Boie built a 3D mouse that failed. Then they realized it was a musical instrument. Two batons hover above a capacitance-sensing antenna plate, tracking X, Y, and Z at 100Hz with 1mm precision. No contact required." />
+    <meta property="og:site_name" content="HCI Museum" />
+    <meta property="og:type" content="article" />
+    <meta property="og:url" content="https://interfacemuseum.com/exhibits/radio-drum/" />
+    <meta property="og:image" content="https://interfacemuseum.com/og/exhibits/radio-drum.jpg" />
+    <meta property="og:image:secure_url" content="https://interfacemuseum.com/og/exhibits/radio-drum.jpg" />
+    <meta property="og:image:type" content="image/jpeg" />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="630" />
+    <meta property="og:image:alt" content="Radio Drum archival photograph" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Radio Drum — HCI Museum" />
+    <meta name="twitter:description" content="Max Mathews, father of computer music, and Bell Labs engineer Bob Boie built a 3D mouse that failed. Then they realized it was a musical instrument. Two batons hover above a capacitance-sensing antenna plate, tracking X, Y, and Z at 100Hz with 1mm precision. No contact required." />
+    <meta name="twitter:image" content="https://interfacemuseum.com/og/exhibits/radio-drum.jpg" />
+    <meta name="twitter:image:alt" content="Radio Drum archival photograph" />
+    <title>Radio Drum — HCI Museum</title>
+    <link rel="icon" type="image/gif" href="/favicon.gif" />
+    <link rel="icon" type="image/png" href="/favicon.png" />
+    <link rel="alternate" type="text/plain" title="HCI Museum llms.txt" href="/llms.txt" />
+    <link rel="alternate" type="application/rss+xml" title="HCI Museum Collection" href="/feeds/collection.xml" />
+    <link rel="alternate" type="application/rss+xml" title="HCI Museum Field Notes" href="/feeds/blog.xml" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="../../styles.css" />
+  </head>
+  <body>
+    <div class="atmosphere" aria-hidden="true">
+      <div class="atmosphere__grid"></div>
+      <div class="atmosphere__scanlines"></div>
+      <div class="atmosphere__vignette"></div>
+    </div>
+
+    <div class="page-shell">
+      <header class="site-header">
+        <a href="../../" class="brand">
+          <span class="brand__mark" aria-hidden="true"></span>
+          <span>HCI Museum</span>
+        </a>
+        <nav class="nav-primary" aria-label="Primary">
+          <a href="../../exhibits/" class="active">Exhibits</a>
+          <a href="../../blog/">Field Notes</a>
+          <a href="../../about/">About</a>
+        </nav>
+        <div class="header-meta">
+          <span class="header-meta__item">SYS_OK</span>
+          <span class="header-meta__pulse" aria-hidden="true"></span>
+        </div>
+      </header>
+
+      <main>
+
+        <article class="exhibit">
+          <header class="exhibit__hero">
+            <div class="exhibit__hero-text">
+              <div class="exhibit__eyebrow">
+                <span class="exhibit__year">c.1987</span>
+                <span class="exhibit__by">Max Mathews and Bob Boie, Bell Laboratories; Andrew Schloss (percussion pioneer); later Stanford CCRMA</span>
+              </div>
+              <h1 class="exhibit__title">Radio Drum</h1>
+              <p class="exhibit__subtitle">A 3D capacitive spatial controller that tracks two batons in free space — built as a mouse, reborn as an instrument</p>
+              <div class="exhibit__tags"><span class="exhibit__tag">3D Spatial Input</span><span class="exhibit__tag">Music HCI</span><span class="exhibit__tag">Gestural Controller</span></div>
+            </div>
+
+            <div class="exhibit__hero-image-wrap">
+              <img
+                class="exhibit__hero-image"
+                src="../../assets/wiki/radio-drum/rd-ccrma-device.jpg"
+                alt="Radio Drum archival photograph"
+              />
+              <div class="exhibit__hero-scanlines" aria-hidden="true"></div>
+            </div>
+          </header>
+
+          <section class="exhibit__section exhibit__overview">
+            <h2 class="exhibit__section-title">Overview</h2>
+            <div class="exhibit__prose"><p>The Radio Drum (also called the Radio Baton) is a 3D position-sensing MIDI controller developed at Bell Laboratories in the mid-to-late 1980s. Two drumstick-like batons, each containing a radio-frequency transmitter at a slightly different frequency, move freely in the air above a flat rectangular antenna surface. The surface contains an array of receiving antenna plates (typically five copper plates). An embedded 80186 processor measures the electrical capacitance between each baton tip and the receiving antennas, computing 3D Cartesian coordinates for both batons in real time — X, Y, and Z (height above the surface) — with approximately 1mm resolution and continuous 100Hz update rates.</p>
+<p>The device was originally Bob Boie&#039;s attempt to build a &quot;three-dimensional computer mouse.&quot; It failed in that role — but Max Mathews, the director of acoustic research at Bell Labs who had written the first-ever computer music program (MUSIC I, 1957), recognized its potential as a musical instrument. Under Mathews&#039; direction, the Radio Drum became a performance controller. Andrew Schloss later pioneered its use as a virtual percussion instrument, developing the gesture recognition needed to detect strikes, rolls, and nuanced drumming techniques from the baton trajectories. Three decades later, the Radio Drum is still in active use. The Computer History Museum holds at least one original unit.</p></div>
+          </section>
+
+          <section class="exhibit__section exhibit__deep-dive">
+            <h2 class="exhibit__section-title">Deep dive</h2>
+            <div class="exhibit__facts">
+        <div class="exhibit__fact">
+          <div class="exhibit__fact-heading"><strong>Origins: The 3D Mouse That Failed.</strong></div>
+          <p>In the mid-1980s, Bell Labs engineer Bob Boie set out to build a three-dimensional computer mouse. His approach was ingenious: measure the capacitance between a handheld transmitter and an array of receiving antennas embedded in a flat surface. By computing the first moment of capacitance across the antenna array, he could derive precise X and Y position; the reciprocal of that first moment gave Z (height). An 80186 embedded processor converted five capacitance readings into 3D coordinates at ~100Hz. Best accuracy was within 0–5 cm above the surface, though useful tracking extended to approximately 1 meter. The 3D mouse concept never caught on — but Max Mathews immediately saw it as a musical instrument.</p>
+        </div>
+      
+        <div class="exhibit__fact">
+          <div class="exhibit__fact-heading"><strong>Max Mathews: The Father of Computer Music.</strong></div>
+          <p>Max Mathews wrote MUSIC I in 1957 on an IBM 704 — the first computer program to synthesize sound. He directed the Acoustic Research department at Bell Labs for over 30 years, creating the MUSIC-N family of synthesis languages that evolved into Csound, Max/MSP, SuperCollider, and Pure Data. By the 1970s, Mathews had shifted focus to live performance: &quot;Starting with the Groove program in 1970, my interests have focused on live performance and what a computer can do to aid a performer.&quot; The Radio Drum was his answer — a way to give electronic musicians the same expressive, physical control that acoustic instrumentalists have over their instruments.</p>
+        </div>
+      
+        <div class="exhibit__fact">
+          <div class="exhibit__fact-heading"><strong>Two Paradigms: Conductor and Percussionist.</strong></div>
+          <p>Mathews developed two distinct interaction models. In the &quot;Radio Baton&quot; conducting paradigm, the performer uses the batons like an orchestral conductor&#039;s baton, controlling tempo, dynamics, and articulation via Mathews&#039; Conductor Program software. Different spatial zones on the plate trigger different sections. In the &quot;Radio Drum&quot; percussion paradigm, pioneered by Andrew Schloss, the surface is treated as a virtual drum — the performer strikes downward, and the system detects the direction change in Z to trigger notes, with velocity derived from Z-speed. Schloss developed techniques for snare rolls and complex percussion gestures by analyzing the derivative of Z.</p>
+        </div>
+      
+        <div class="exhibit__fact">
+          <div class="exhibit__fact-heading"><strong>Telepresence and Robotic Instruments.</strong></div>
+          <p>David A. Jaffe&#039;s 70-minute concerto &quot;The Seven Wonders of the Ancient World&quot; used the Radio Drum to control a Yamaha Disklavier grand piano and a plucked-string/percussion orchestra in real time. &quot;The Space Between Us&quot; had the Radio Drum controlling Trimpin robotic percussion sculptures with string players distributed around the concert hall — an early example of gestural telepresence.</p>
+        </div>
+      
+        <div class="exhibit__fact">
+          <div class="exhibit__fact-heading"><strong>Accessibility: Music for Deaf Children.</strong></div>
+          <p>Bob Rocco applied the Radio Baton to music education for deaf children. Because the system provides strong tactile and spatial feedback — the batons vibrate, the surface provides a physical reference — deaf children could feel the relationship between their gestures and the resulting sound vibrations, creating a multisensory music experience that did not depend on hearing.</p>
+        </div>
+      
+        <div class="exhibit__fact">
+          <div class="exhibit__fact-heading"><strong>Legacy.</strong></div>
+          <p>The Radio Drum is one of the earliest high-bandwidth, continuous 3D free-space gestural controllers. It predates consumer VR controllers and spatial input devices by years. Its papers are foundational in the NIME (New Interfaces for Musical Expression) community. Its lineage traces back to the theremin (1917) and forward to the Leap Motion, Kinect, and Apple Vision Pro hand tracking. The Radio Drum proved that expressive, no-contact 3D control was not only possible but musically satisfying.</p>
+        </div>
+      </div>
+          </section>
+
+          
+          <section class="exhibit__section exhibit__team">
+            <h2 class="exhibit__section-title">Team &amp; pioneers</h2>
+            <ul class="exhibit__team-list">
+            <li class="exhibit__team-item">
+              <span class="exhibit__team-name">Max Mathews.</span>
+              <span class="exhibit__team-note"> Director of Acoustic Research, Bell Labs; creator of MUSIC I (1957); father of computer music.</span>
+            </li>
+            <li class="exhibit__team-item">
+              <span class="exhibit__team-name">Bob Boie.</span>
+              <span class="exhibit__team-note"> Bell Labs engineer who designed the capacitive sensing electronics; originally built it as a &quot;3D mouse.&quot;</span>
+            </li>
+            <li class="exhibit__team-item">
+              <span class="exhibit__team-name">Andrew Schloss.</span>
+              <span class="exhibit__team-note"> Percussionist and computer musician who pioneered the Radio Drum as a virtual percussion instrument; continues development.</span>
+            </li>
+            <li class="exhibit__team-item">
+              <span class="exhibit__team-name">David A. Jaffe.</span>
+              <span class="exhibit__team-note"> Composer of major Radio Drum works including &quot;The Seven Wonders of the Ancient World.&quot;</span>
+            </li>
+            <li class="exhibit__team-item">
+              <span class="exhibit__team-name">Bob Rocco.</span>
+              <span class="exhibit__team-note"> Applied Radio Baton to music education for deaf children.</span>
+            </li>
+            </ul>
+          </section>
+
+          
+          <section class="exhibit__section exhibit__media">
+            <h2 class="exhibit__section-title">Media</h2>
+            <div class="exhibit__media-grid">
+        <figure class="exhibit__media-item">
+          <div class="exhibit__media-frame">
+            <img src="../../assets/wiki/radio-drum/rd-ccrma-device.jpg" alt="The Radio Baton device at Stanford&#039;s CCRMA in 2015" loading="lazy" />
+            <div class="exhibit__media-scanlines" aria-hidden="true"></div>
+          </div>
+          <figcaption>The Radio Baton at Stanford&#039;s CCRMA in 2015. The batons and antenna surface remain essentially unchanged from the 1987 design. Source: Daniel Hartwig, Wikimedia Commons (CC-BY-SA 2.0).</figcaption>
+        </figure>
+      
+        <figure class="exhibit__media-item">
+          <div class="exhibit__media-frame">
+            <img src="../../assets/wiki/radio-drum/rd-uvic-drum.jpg" alt="Close-up of the Radio Drum antenna surface and batons at the University of Victoria" loading="lazy" />
+            <div class="exhibit__media-scanlines" aria-hidden="true"></div>
+          </div>
+          <figcaption>Close-up of the Radio Drum at the University of Victoria. The foam-covered surface is a 30×30 cm antenna array. Source: UVic MISTIC Lab.</figcaption>
+        </figure>
+      </div>
+          </section>
+          
+
+          
+          <section class="exhibit__section exhibit__sources">
+            <h2 class="exhibit__section-title">Sources</h2>
+            <ol class="exhibit__source-list">
+        <li>
+          <a href="https://ccrma.stanford.edu/radiobaton/" target="_blank" rel="noopener">CCRMA Stanford — The Mathews Radio Baton (official project page)</a>
+        </li>
+      
+        <li>
+          <a href="https://www.ece.uvic.ca/~peterd/radiodrum.html" target="_blank" rel="noopener">University of Victoria — Radio Drum (Andrew Schloss: detailed specs, history)</a>
+        </li>
+      
+        <li>
+          <a href="https://en.wikipedia.org/wiki/Radiodrum" target="_blank" rel="noopener">Wikipedia — Radiodrum</a>
+        </li>
+      
+        <li>
+          <a href="https://www.computerhistory.org/revolution/computer-graphics-music-and-art/15/222/634" target="_blank" rel="noopener">Computer History Museum — Max Mathews with his Radio-Baton</a>
+        </li>
+      
+        <li>
+          <a href="https://bobrocco.com/max_mathews_radio_baton" target="_blank" rel="noopener">Bob Rocco — Max Mathews Radio Baton (firsthand collaboration account)</a>
+        </li>
+      
+        <li>
+          <a href="https://ccrma.stanford.edu/CCRMA/Courses/252/sensors/node27.html" target="_blank" rel="noopener">CCRMA 252 — Radio Baton technical description (block diagrams, capacitance principle)</a>
+        </li>
+      </ol>
+          </section>
+          
+
+          <nav class="exhibit__nav" aria-label="Exhibit navigation">
+            <a href="../polhemus-isotrak/" class="exhibit__nav-link exhibit__nav-link--prev">
+        <span class="exhibit__nav-dir">← Previous</span>
+        <span class="exhibit__nav-title">Polhemus 3Space Isotrak</span>
+      </a>
+            <a href="../../exhibits/" class="exhibit__nav-link exhibit__nav-link--index">All exhibits</a>
+            <a href="../sf1-pneumatic/" class="exhibit__nav-link exhibit__nav-link--next">
+        <span class="exhibit__nav-dir">Next →</span>
+        <span class="exhibit__nav-title">Street Fighter Pneumatic Controller</span>
+      </a>
+          </nav>
+        </article>
+      </main>
+
+      <footer class="site-footer">
+        <span>HCI Museum // Curated by Beepy</span>
+        <span class="site-footer__signal">SIGNAL_STABLE</span>
+      </footer>
+    </div>
+
+    <!-- Cloudflare Web Analytics --><script defer src='https://static.cloudflareinsights.com/beacon.min.js' data-cf-beacon='{"token": "8dcb1e0fcb41470b8769c87691688807"}'></script><!-- End Cloudflare Web Analytics -->
+  </body>
+</html>
