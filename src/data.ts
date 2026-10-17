@@ -3699,6 +3699,19 @@ const exhibitData: Exhibit[] = [
     tags: ["Word Processor", "Text Entry", "Editing Keyboard", "Office Computing"],
     image: img("cpt-8100-word-processor.jpg"),
   },
+  {
+    id: "scantron-888p",
+    slug: "scantron-888p",
+    wikiTitle: "Scantron 888P+ OMR Reader",
+    year: "c.1985",
+    sortYear: 1985,
+    title: "Scantron 888P+ OMR Reader",
+    subtitle: "A desktop optical-mark reader that turns a human-filled bubble sheet into machine-readable data — paper as the answer-and-data token",
+    blurb:
+      "The Scantron 888P+ (c. 1985) is a desktop optical-mark recognition (OMR) scoring machine from Scantron Corporation, a fixture of American classrooms, clinics, and survey offices. Its defining interaction is radically different from a keyboard, mouse, or touchscreen: the data entry happens entirely on paper. A respondent fills short ovals on a printed sheet with a No. 2 pencil; the machine then reads those hand-darkened marks by sweeping light across the form and measuring how each oval reflects — dark graphite absorbs light and is 'marked,' clean paper reflects and is 'blank.' The result streams out as raw data with no retyping and no keyed characters. It is quintessential 'the medium is the interface' hardware: the human and the machine share a printed page as their common token.",
+    tags: ["OMR", "Paper Input", "Data Entry", "Testing", "Mark-Sense", "Reading"],
+    image: img("scantron-888p.png"),
+  },
 ];
 
 export const exhibits: Exhibit[] = exhibitData.toSorted((a, b) => b.sortYear - a.sortYear || a.title.localeCompare(b.title));
