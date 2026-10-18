@@ -1,0 +1,96 @@
+{
+  "slug": "childrens-discovery-system",
+  "title": "Children's Discovery System",
+  "year": "1981",
+  "subtitle": "Mattel's child's 'computer' whose whole world is a 16-character LCD line",
+  "why_scout_cares": "Early child's keyboard computer (1981) whose 16x48 landscape LCD allowed only an 8x2 text grid - a maximum of 16 characters on screen at once. That severe display constraint shaped every piece of educational software. Membrane keyboard plus printed keyboard overlays, and 21 'Discoveries in ___ Learning Fun Module' ROM cartridges. The interaction story: a toy that mimics a consumer-grade computer but can only ever show 16 characters at a time.",
+  "search_terms": [
+    "Mattel Children's Discovery System 1981",
+    "Children's Discovery System LCD 16x48",
+    "Mattel educational toy computer 1981",
+    "Children's Discovery System overlay keyboard cartridge"
+  ],
+  "research": {
+    "title": "Children's Discovery System",
+    "year": "1981",
+    "by": "Mattel Electronics (with UCLA professor Dr. Gordon L. Berry as chief educational consultant)",
+    "tags": [
+      "Educational Computer",
+      "Toy Computer",
+      "Membrane Keyboard",
+      "Keyboard Overlay",
+      "LCD",
+      "ROM Cartridge",
+      "Kids"
+    ],
+    "overview": "The Mattel Children's Discovery System (September 1981, discontinued 1984) was an educational toy that mimicked the look of a contemporary consumer-grade computer, aimed at children aged 6-11. It paired a 16-by-48 matrix LCD with a specially laid-out membrane keyboard that also accepted printed keyboard overlays, and ran from 21 numbered 'Discoveries in ___ Learning Fun Module' ROM cartridges. Because the display was far wider than tall, it could only ever render an 8-by-2 grid of text - a maximum of 16 characters on screen at once. Three modes were preprogrammed (art, music, type), a bundled activity book offered 100+ learning activities, and 2k RAM plus six AA batteries powered the unit. It was announced at the February 1981 American International Toy Fair and cost roughly $125 at launch. Mattel liquidated remaining stock to DAK Industries in Fall 1984.",
+    "deepDive": [
+      {
+        "heading": "A 16-character world",
+        "text": "The Children's Discovery System's defining HCI constraint is its display: a 16x48 matrix LCD so much wider than tall that only an 8x2 grid of text was possible - at most 16 characters visible at once. Reviews noted how severely this limited it. Every educational program had to be built around extreme brevity. The art mode drew pixel-by-pixel (tedious but praised as a genuine introduction to computer graphics); the music mode rendered notes as letter graphics rather than notation (called 'pointless' by one reviewer); the type mode offered word games with poor feedback."
+      },
+      {
+        "heading": "Keyboard plus printed overlay",
+        "text": "Input was a membrane keyboard specially laid out for the built-in modes, extended by printed keyboard overlays used with the expansion cartridges. This overlay-reprogrammable keyboard - where a paper card re-labels what each position means - is the same physical-overlay trick as Intellivision's, transplanted into a child's toy computer."
+      },
+      {
+        "heading": "The cartridge platform",
+        "text": "Besides the three built-in modes, 21 numbered Learning Module cartridges added math, words, arcade action, art, music, geography, fractions, science, presidents, foods, spelling and even a 'Computer Programming' module. Only eight were ready by late 1982, and each box spine was a different color, collecting into a rainbow gradient. This turned a toy into a small platform with a physical-media library."
+      },
+      {
+        "heading": "Marketing and fate",
+        "text": "A September 1982 campaign used Smothers Brothers celebrity endorsement and the promise 'Get a smarter kid in 60 days. Or your money back.' After the 1983 video-game crash, Mattel liquidated the remaining ~8000 units and modules to DAK Industries in Fall 1984, which sold the console plus 14 modules by mail order for $79. The device is preserved in the Computer History Museum (accession 102630217)."
+      }
+    ],
+    "team": [
+      {
+        "name": "Mattel Electronics",
+        "note": "Manufacturer; the Mattel toy/electronics division behind Intellivision."
+      },
+      {
+        "name": "Dr. Gordon L. Berry",
+        "note": "UCLA professor, chief educational consultant on the project."
+      }
+    ],
+    "media": [],
+    "sources": [
+      {
+        "text": "Children's Discovery System — Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Children%27s_Discovery_System"
+      },
+      {
+        "text": "Computer History Museum — Children's Discovery System (accession 102630217)",
+        "url": "https://www.computerhistory.org/collections/accession/102630217"
+      },
+      {
+        "text": "Personal Computing, Feb 1982 — 'Computing Considerations'",
+        "url": "https://archive.org/details/PersonalComputing198202/page/n89"
+      },
+      {
+        "text": "Creative Computing, Dec 1981 — 'Children's Discovery System' review by Betsy Staples",
+        "url": "https://archive.org/details/creativecomputing-1981-12/page/n63"
+      },
+      {
+        "text": "NYT, 15 Nov 1981 — 'ELECTRONIC GAMES: DO THEY HELP?'",
+        "url": "https://www.nytimes.com/1981/11/15/education/electronic-games-do-they-help.html"
+      },
+      {
+        "text": "Fall 1984 DAK Catalog — Children's Discovery System liquidation",
+        "url": "https://archive.org/details/1984-Fall-DAK-Catalog/page/n7"
+      },
+      {
+        "text": "File:Childrens Discovery System - Image - 1981.jpg — Wikimedia Commons (CC BY-SA 4.0)",
+        "url": "https://commons.wikimedia.org/wiki/File:Childrens_Discovery_System_-_Image_-_1981.jpg"
+      }
+    ],
+    "imageUrls": []
+  },
+  "savedImages": [
+    "potential/childrens-discovery-system/images/cds-1981.jpg",
+    "potential/childrens-discovery-system/images/cds-box.jpg"
+  ],
+  "promoted": true,
+  "promotedAt": "2026-10-18",
+  "localAsset": "assets/wiki/childrens-discovery-system.jpg",
+  "notes": "Promoted manually this run. Hero image copied from staged Commons CC BY-SA 4.0 file (File:Childrens Discovery System - Image - 1981.jpg) to assets/wiki/childrens-discovery-system.jpg. The staged cds-box.jpg has unverifiable provenance (not found on Commons) and was NOT used."
+}

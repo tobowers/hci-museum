@@ -1,6 +1,6 @@
 # The HCI Golden Age Wiki
 
-A research compendium for a digital museum of cutting-edge Human-Computer Interaction from the late 1970s through the early 1990s. These two hundred and ninety-five projects mix canonical experiments with weird, forgotten, and beautiful vaporware — brain control, voice control, gesture, wearable computing, VR, robots, and full-body exertion.
+A research compendium for a digital museum of cutting-edge Human-Computer Interaction from the late 1970s through the early 1990s. These two hundred and ninety-seven projects mix canonical experiments with weird, forgotten, and beautiful vaporware — brain control, voice control, gesture, wearable computing, VR, robots, and full-body exertion.
 
 Each entry includes an overview, a deep dive, a small media gallery, and full source links so the images and facts can always be traced back.
 
@@ -302,6 +302,7 @@ Each entry includes an overview, a deep dive, a small media gallery, and full so
      292. [Moog Liberation (1980)](#moog-liberation-1980)
      293. [CPT 8000/8100 Word Processor (1979)](#cpt-80008100-word-processor-1979)
      294. [Scantron 888P+ OMR Reader (c. 1985)](#scantron-888p-omr-reader-c-1985)
+     295. [Children's Discovery System (1981)](#childrens-discovery-system-1981)
   
 ---
 

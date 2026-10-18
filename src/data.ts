@@ -3712,6 +3712,19 @@ const exhibitData: Exhibit[] = [
     tags: ["OMR", "Paper Input", "Data Entry", "Testing", "Mark-Sense", "Reading"],
     image: img("scantron-888p.png"),
   },
+  {
+    id: "childrens-discovery-system",
+    slug: "childrens-discovery-system",
+    wikiTitle: "Children's Discovery System",
+    year: "1981",
+    sortYear: 1981,
+    title: "Children's Discovery System",
+    subtitle: "Mattel's child-size 'computer' whose entire world is a 16-character line of LCD text",
+    blurb:
+      "The Mattel Children's Discovery System (1981) is an educational toy that mimicked the look of a consumer-grade computer — and then trapped itself inside the smallest imaginable screen. Its 16-by-48 matrix LCD was so much wider than it was tall that only an 8-by-2 grid of text could ever appear, a maximum of 16 characters on screen at once. Every piece of educational software had to be built around that brevity: an art mode drew pixel-by-pixel, a music mode rendered notes as letter graphics, a type mode ran word games with little feedback. Input came from a membrane keyboard that accepted printed keyboard overlays, and 21 numbered 'Discoveries in ___ Learning Fun Module' ROM cartridges extended it into a small platform. UCLA professor Dr. Gordon L. Berry consulted on it, and it cost about $125 — before Mattel liquidated the remaining stock to DAK Industries in Fall 1984.",
+    tags: ["HCI", "Toy", "Educational Computer", "Membrane Keyboard", "Keyboard Overlay", "LCD", "Kids"],
+    image: img("childrens-discovery-system.jpg"),
+  },
 ];
 
 export const exhibits: Exhibit[] = exhibitData.toSorted((a, b) => b.sortYear - a.sortYear || a.title.localeCompare(b.title));
