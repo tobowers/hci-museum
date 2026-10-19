@@ -1,6 +1,6 @@
 # The HCI Golden Age Wiki
 
-A research compendium for a digital museum of cutting-edge Human-Computer Interaction from the late 1970s through the early 1990s. These two hundred and ninety-five projects mix canonical experiments with weird, forgotten, and beautiful vaporware — brain control, voice control, gesture, wearable computing, VR, robots, and full-body exertion.
+A research compendium for a digital museum of cutting-edge Human-Computer Interaction from the late 1970s through the early 1990s. These two hundred and ninety-nine projects mix canonical experiments with weird, forgotten, and beautiful vaporware — brain control, voice control, gesture, wearable computing, VR, robots, and full-body exertion.
 
 Each entry includes an overview, a deep dive, a small media gallery, and full source links so the images and facts can always be traced back.
 
@@ -302,6 +302,9 @@ Each entry includes an overview, a deep dive, a small media gallery, and full so
      292. [Moog Liberation (1980)](#moog-liberation-1980)
      293. [CPT 8000/8100 Word Processor (1979)](#cpt-80008100-word-processor-1979)
      294. [Scantron 888P+ OMR Reader (c. 1985)](#scantron-888p-omr-reader-c-1985)
+     295. [Ferranti MRT-100 / MRT-200 Market Research Terminal (1983)](#ferranti-mrt-100--mrt-200-market-research-terminal-1983)
+     296. [AMS AudioFile (1984)](#ams-audiofile-1984)
+     297. [Nikon QV-1000C Still Video Camera System (1988)](#nikon-qv-1000c-still-video-camera-system-1988)
   
 ---
 
@@ -13199,3 +13202,115 @@ The Scantron 888P+ is a desktop optical-mark recognition (OMR) scoring machine �
 2. Scantron Corporation — Wikipedia (founded 1972 by William E. Sanders; OMR machines and answer sheets) — https://en.wikipedia.org/wiki/Scantron_Corporation
 3. File:Scantron 888P+ machine (background removed).png — Wikimedia Commons — https://commons.wikimedia.org/wiki/File:Scantron_888P%2B_machine_(background_removed).png
 4. File:Scantron form 815-E Half Testing Sheet.png — Wikimedia Commons — https://commons.wikimedia.org/wiki/File:Scantron_form_815-E_Half_Testing_Sheet.png
+
+---
+
+## Ferranti MRT-100 / MRT-200 Market Research Terminal (1983)
+
+**By:** Ferranti Plc (UK), developed at the University of Sheffield by Gwyn Rowley, Keith Barker, and Vic Callaghan  
+**Tags:** `Input` `Handheld` `Field Data Capture` `Survey Research` `Embodied`
+
+### Overview
+
+The Ferranti MRT-100 (1983) and MRT-200 were the commercial versions of the Questronic, a programmable hand-held survey data logger developed at the University of Sheffield by geographer Gwyn Rowley and electronics engineers Keith Barker and Vic Callaghan. The device was engineered to feel like a familiar clipboard rather than a computer, in the explicit belief that computers frightened ordinary people. A printed paper questionnaire clips onto the board, the interviewer reads each question aloud, and as the interviewee answers, the interviewer presses the corresponding key on a membrane keypad beside the page. Each keypress records the answer, advances through branching or multi-choice logic, and sounds a beep as confirmation. The machine is a one-handed, battery-powered data logger built to disappear into a face-to-face human ritual.
+
+Because responses were captured digitally at the point of collection, the bottleneck of keypunching was eliminated: completed surveys were uploaded via a portable telephone modem, cutting the delay between field interview and processed results to almost nothing. The MRT is frequently cited as among the first application-specific handheld computers, and it was adopted for face-to-face market and social research in the early 1980s. Its place in the museum is the interaction model — a computer shaped and used as an ordinary pad of paper so that the technology recedes from the social encounter.
+
+### Deep dive
+
+* **The clipboard-and-pencil ritual, digitized.** The defining move is a re-mediation of the paper survey. The interviewer physically holds a device that looks and feels like a clipboard; the paper questionnaire is clipped on and read aloud; answers are recorded by keypress on the membrane pad beside the page. The machine preserves the natural rhythm of an interview while capturing the data at the moment of the answer, with a beep confirming each recorded response.
+* **One of the first application-specific handhelds.** The MRT was not a general computer; it was purpose-built to run survey instruments with branching and multi-choice question logic. This single-purpose design is a strong early example of a computer engineered for one social workflow, decades before the smartphone.
+* **Upload over a telephone modem.** A genuinely novel step for the early 1980s: completed surveys were uploaded via a portable telephone modem, so processed results could be produced almost immediately rather than days later through keypunching. This closed the loop between face-to-face data collection and computation.
+* **The thesis: computers scare people.** Rowley, Barker and Callaghan's published design rationale (Professional Geographer 1985; European Journal of Marketing 1986) was that technology intimidated interviewers and interviewees alike. The clipboard form factor was the answer — a machine designed to be felt as a pad of paper. This contrasts instructively with the museum's Scantron OMR reader, which made the printed bubble sheet the shared token; the MRT instead made the computer itself mimic the paper and pencil.
+* **Legacy.** The MRT-100/200 were adopted for commercial face-to-face market research in the UK and beyond, and the Questronic/MRT lineage stands as an important, largely forgotten ancestor of mobile field data capture.
+
+### Team
+
+* **Gwyn Rowley.** Geographer, University of Sheffield; co-developer of the Questronic/MRT.
+* **Keith Barker.** Electronic engineering, University of Sheffield; co-developer.
+* **Vic Callaghan.** Electronic engineering, University of Sheffield; co-developer, later University of Essex. His site preserves prototype photos and the MRT-200 manual.
+* **Ferranti Plc.** UK electronics manufacturer that commercialized the Questronic as the MRT-100/200.
+
+### Media
+
+![Ferranti MRT-100 market research terminal](../assets/wiki/mrt100.jpg)
+*Ferranti MRT-100 market research terminal — a clipboard computer built to keep interviews feeling human. CC BY-SA 4.0, Wikimedia Commons, uploaded by inventor Vic Callaghan.*
+
+### Sources
+
+1. Vic Callaghan's Questronic / MRT page with prototype photos and MRT-200 instruction manual — https://victor.callaghan.info/publications/Questronic/
+2. Rowley, Barker & Callaghan, 'The Questronic: an inexpensive hand-held computer for survey data capture' — survey-computing literature, Sage
+3. File:MRT100CreativeCommonsRelease23June15(m).jpg — Wikimedia Commons — https://commons.wikimedia.org/wiki/File:MRT100CreativeCommonsRelease23June15(m).jpg
+
+---
+
+## AMS AudioFile (1984)
+
+**By:** Advanced Music Systems (AMS), Burnley, Lancashire, England — founded by Stuart Nevison and Mark Crabtree  
+**Tags:** `Audio Editing` `DAW` `Output` `Non-destructive Editing` `Studio`
+
+### Overview
+
+The AMS AudioFile, launched in 1984, is widely credited as the first dedicated, commercially available hard-disk audio editing system — the direct ancestor of the digital audio workstation. Made by Advanced Music Systems in Burnley, England, it stored recorded audio on hard disks rather than magnetic tape and let engineers perform edits on a waveform display using a jog/shuttle wheel and a bank of labelled function keys. Edits were recorded as an Edit Decision List (EDL) — a set of pointers to the original material — so nothing was ever destructively altered. The console played back the assembled sequence in real time, collapsing hours of splices into an immediate, reversible creative gesture.
+
+The physical instrument is striking: a tall, dark console crowded with illuminated switches and a prominent central jog wheel. It became a fixture of British post-production for film and television, and its interaction model — scrubbing through time, marking in/out points, reordering without destroying the source — carried directly into the modern DAW. A surviving example is held in the collection of the Canada Science and Technology Museum.
+
+### Deep dive
+
+* **The jog/shuttle wheel.** The console's central physical interaction is a jog/shuttle wheel: the engineer rocks it forward and back to scrub the audio waveform through the display, hunting precisely for a sound to cut. This is the ancestor of every DAW scrub and timeline jog control — here a substantial, tactile piece of hardware rather than a cursor on a screen.
+* **Non-destructive EDL editing.** Audio lived on hard disk, and edits were recorded as an Edit Decision List — references to the original audio rather than copies. Because the source was never altered, edits could be undone, refined and reordered without fidelity loss. This conceptual breakthrough is what made the DAW possible.
+* **The console as an instrument.** The AudioFile was a tall, dark desk of illuminated labelled keys and a central wheel — a studio culture of physical, hands-on mixing now largely displaced by a mouse and software. The interface was as much a piece of furniture as a tool.
+* **First of its kind.** AMS is credited with the first dedicated hard-disk audio editor; the system's descendants (the AudioFile Plus, and later AMS Neve systems) carried the interaction model forward. It sits apart from the museum's synthesizers and samplers (Fairlight, Synclavier, PPG Waveterm) because it is an editor of existing recordings rather than an instrument or a sample source.
+
+### Team
+
+* **Stuart Nevison.** Founder of AMS.
+* **Mark Crabtree.** Co-founder and principal engineer of AMS; later AMS Neve.
+* **Advanced Music Systems.** Burnley, Lancashire, England; merged with Neve to form AMS Neve.
+
+### Media
+
+![AMS AudioFile editing console](../assets/wiki/audiofile-console.jpg)
+*The AMS AudioFile console, a tall desk of illuminated keys and a central jog/shuttle wheel. CC BY-SA 4.0, Wikimedia Commons.*
+
+### Sources
+
+1. AMS AudioFile — Wikipedia (first dedicated hard-disk audio editing system, 1984) — https://en.wikipedia.org/wiki/AMS_AudioFile
+2. Canada Science and Technology Museum — AMS AudioFile collection record — https://ingeniumcanada.org/
+3. AMS Neve heritage page — https://www.ams-neve.com/
+4. File:AMS AUDIOFILE CONSOLE.jpg — Wikimedia Commons — https://commons.wikimedia.org/wiki/File:AMS_AUDIOFILE_CONSOLE.jpg
+
+---
+
+## Nikon QV-1000C Still Video Camera System (1988)
+
+**By:** Nikon Corporation  
+**Tags:** `Camera` `Input` `Still Video` `Telephony` `Field Data Capture` `Acoustic Coupler`
+
+### Overview
+
+Announced August 26, 1988, the Nikon QV-1000C was Nikon's first filmless camera and a purpose-built professional still-video system. It recorded up to fifty frames onto a reusable 2-inch magnetic video floppy disk (the S-VHS Video Floppy format) that could be ejected and re-shot thousands of times, eliminating film and processing entirely. The camera captured a frame in roughly 1/1000th of a second and stored it as an NTSC analog signal requiring no chemical development.
+
+For transmission, the disk was inserted into the separate QT-1000C transmitter, which established a phone connection through an acoustic coupler — a cradle holding the telephone handset so audio tones carried the image data across the ordinary public switched telephone network. This made the QV-1000C a complete remote-photojournalism chain: camera, disk, transmitter, acoustic coupler and phone. Where Sony's Mavica prototype stopped at capture-and-review, the QV-1000C was a full press workflow for getting a picture from the field to the newsroom in minutes.
+
+### Deep dive
+
+* **The video floppy as the hinge.** Still images lived on a reusable 2-inch magnetic disk holding up to 50 NTSC frames. The disk is physically ejected from the camera, carried to the transmitter, and reused indefinitely — the medium itself was the message: filmless, rewritable, and instantly transmittable. This extends the still-video category begun by the museum's Sony Mavica (1981 prototype).
+* **The QT-1000C transmitter and acoustic coupler.** The disk went into the transmission unit, which dialed out through an acoustic coupler — you clamped the telephone handset onto the cradle and the image traveled as audio tones across the phone network. A visible, physical manifestation of early digital telephony and a preview of mobile data.
+* **A press workflow, not just a camera.** Nikon marketed the QV-1000C to newspapers and agencies as a total system. It is best understood as an interaction chain — capture, carry the medium, dial, clamp, transmit — rather than as a single camera. Its distinctive contribution over the Mavica prototype is precisely this end-to-end transmission ritual.
+* **Legacy.** The QV-1000C foreshadows today's instant-digital-photo paradigm, but with the eccentric embodied steps of physically handing a disk between devices and coupling it to a handset. It stands as a compact example of photography becoming a networked, software-mediated act.
+
+### Team
+
+* **Nikon Corporation.** Japanese camera and optics manufacturer, Tokyo; announced the QV-1000C on August 26, 1988.
+
+### Media
+
+![Nikon QV-1000C still video camera, front-left view](../assets/wiki/qv1000c.jpg)
+*Nikon QV-1000C still video camera at the Nikon Museum. CC BY-SA 4.0, Wikimedia Commons, photo by Morio.*
+
+### Sources
+
+1. Nikon QV-1000C — Wikipedia (first filmless camera by Nikon, announced 26 August 1988) — https://en.wikipedia.org/wiki/Nikon_QV-1000C
+2. Nikon Museum — QV-1000C exhibit — https://www.nikon.com/company/corporate/history/museum/
+3. File:Nikon QV1000C front-left 2015 Nikon Museum.jpg — Wikimedia Commons — https://commons.wikimedia.org/wiki/File:Nikon_QV1000C_front-left_2015_Nikon_Museum.jpg

@@ -1,0 +1,37 @@
+{
+  "slug": "ams-audiofile",
+  "title": "AMS AudioFile",
+  "year": "1984",
+  "subtitle": "The first dedicated, non-destructive hard-disk audio editing workstation — scrub the jog/shuttle wheel through a sound you can cut, copy, and reorder without ever destroying the original.",
+  "why_scout_cares": "The AudioFile changed how recorded sound is edited. Instead of splicing magnetic tape, it stored audio on hard disks and let the engineer jog and shuttle a sound through a waveform display, marking edits and rearranging them into a non-destructive edit decision list (EDL) that played back in real time. The console's jog/shuttle wheel and tall rack of labelled keys are the physical grammar of a whole new creative interaction: time becomes a thing you can scrub, zoom, and reorder.",
+  "search_terms": ["AMS AudioFile", "Advanced Music Systems AudioFile", "AMS 10 AudioFile", "non-destructive audio editing", "digital audio workstation history", "Stuart Nevison", "jog shuttle wheel editor"],
+  "research": {
+    "title": "AMS AudioFile",
+    "year": "1984",
+    "by": "Advanced Music Systems (AMS), Burnley, Lancashire, England",
+    "tags": ["HCI", "Audio editing", "DAW", "Output", "Non-destructive editing"],
+    "overview": "The AMS AudioFile, launched in 1984, is widely credited as the first dedicated, commercially available hard-disk audio editing system — the direct ancestor of the digital audio workstation (DAW). Made by Advanced Music Systems (AMS) in Burnley, England, it stored recorded audio on hard disks rather than magnetic tape and let engineers perform edits on a waveform display using a jog/shuttle wheel and a bank of labelled function keys. Edits were described as an edit decision list (EDL) — a set of pointers to the original material — so nothing was ever destructively altered. The console played back the assembled sequence in real time, collapsing hours of splices into an immediate, reversible creative gesture.\n\nThe AudioFile became a fixture in British post-production for film and television, and a physically striking instrument: a tall, dark console crowded with illuminated switches and a prominent jog wheel. Its descendant, the AudioFile Plus and later AMS Neve systems, carried the interaction model into modern DAWs. Today held in the collection of the Canada Science and Technology Museum.",
+    "deepDive": [
+      {"heading": "The jog/shuttle wheel", "text": "The console's central physical interaction is a jog/shuttle wheel — the engineer scrubs it forward and back to rock the audio waveform through a display, hunting precisely for a sound to cut. This wheel is the ancestor of every DAW scrub and timeline jog control; here it is a substantial, tactile piece of hardware rather than a cursor."},
+      {"heading": "Non-destructive EDL editing", "text": "Audio was held on hard disk and edits were recorded as an Edit Decision List — references to the original audio rather than copies. Because the source was never altered, edits could be undone, refined and reordered without fidelity loss. This is the conceptual breakthrough that made DAWs possible."},
+      {"heading": "Post-production workflow", "text": "The AudioFile was adopted in film and TV post-production where sound needed precise, repeatable assembly. Its tall console with banks of illuminated labelled keys reflects a studio culture of physical, hands-on mixing, now largely displaced by software on a mouse."}
+    ],
+    "team": [
+      {"name": "Stuart Nevison", "note": "Founder of AMS"},
+      {"name": "Mark Crabtree", "note": "Co-founder of AMS, principal engineer"},
+      {"name": "Advanced Music Systems", "note": "Burnley, Lancashire, England; later merged with Neve to form AMS Neve"}
+    ],
+    "media": [
+      {"src": "https://commons.wikimedia.org/wiki/File:AMS_AUDIOFILE_CONSOLE.jpg", "alt": "AMS AudioFile editing console", "caption": "AMS AudioFile console, CC BY-SA 4.0, photo by Rups63"}
+    ],
+    "sources": [
+      {"text": "AMS AudioFile, Wikipedia — first dedicated hard-disk audio editing system (1984)", "url": "https://en.wikipedia.org/wiki/AMS_AudioFile"},
+      {"text": "Canada Science and Technology Museum — AMS AudioFile collection record", "url": "https://ingeniumcanada.org/"},
+      {"text": "AMS Neve heritage page", "url": "https://www.ams-neve.com/"}
+    ],
+    "imageUrls": [
+      "https://commons.wikimedia.org/wiki/File:AMS_AUDIOFILE_CONSOLE.jpg"
+    ]
+  },
+  "savedImages": ["audiofile-console.jpg"]
+}

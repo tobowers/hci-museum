@@ -1,0 +1,34 @@
+{
+  "slug": "nikon-qv-1000c",
+  "title": "Nikon QV-1000C Still Video Camera System",
+  "year": "1988",
+  "subtitle": "Shoot to a floppy disk, pop it into a transmitter, clamp on the acoustic coupler, and phone your photo across the country in minutes.",
+  "why_scout_cares": "The QV-1000C is an entire photojournalism workflow compressed into a shoulder bag: a filmless camera writing stills to a reusable 2-inch magnetic floppy disk, a transmission unit that dials out over a phone line, and an acoustic-coupler ritual to shove the picture across the wire. Before mobile data existed, this is how a photo raced from a remote assignment to a newsroom. A full embodied chain of camera, disk, transmitter, coupler and phone.",
+  "search_terms": ["Nikon QV-1000C", "Nikon QV1000C", "still video camera", "S-VHS video floppy", "QT-1000C transmitter", "acoustic coupler photojournalism", "Nikon filmless 1988"],
+  "research": {
+    "title": "Nikon QV-1000C Still Video Camera System",
+    "year": "1988",
+    "by": "Nikon Corporation",
+    "tags": ["HCI", "Photography", "Field data capture", "Telephony", "Still video"],
+    "overview": "Announced August 26, 1988, the Nikon QV-1000C was Nikon's first filmless camera and a purpose-built professional still-video system. It recorded up to 50 frames onto a reusable 2-inch magnetic video floppy disk (same S-VHS format as camcorders) that could be ejected and re-shot thousands of times, eliminating film and processing. The camera captured a frame in about 1/1000th of a second and stored it as an NTSC analog signal that required no chemical development.\n\nFor transmission, the disk was inserted into the separate QT-1000C transmitter, which dialed out over a phone line via an acoustic coupler — the user clamped the handset onto the modem and the picture traveled through the ordinary telephone network as sound. This made the QV-1000C a complete remote-photojournalism chain: camera, disk, transmitter, acoustic coupler and phone. It previews today's instant-digital-photo paradigm, but with the eccentric embodied ritual of physically handing a disk from camera to transmitter and coupling it to a handset.",
+    "deepDive": [
+      {"heading": "The video floppy", "text": "Still images were stored on a reusable 2-inch magnetic disk holding up to 50 NTSC frames. The disk is the hinge of the system — it is physically ejected from the camera, carried to the transmitter, and reused indefinitely. The medium itself was the message: filmless, rewritable, and instantly transmittable."},
+      {"heading": "The QT-1000C transmitter and acoustic coupler", "text": "The disk went into the QT-1000C transmission unit, which established a phone connection through an acoustic coupler — a cradle holding the telephone handset so audio tones carried the image data across the public switched telephone network. This is a visible, physical manifestation of early digital telephony."},
+      {"heading": "A press workflow, not a camera", "text": "Nikon marketed the QV-1000C to newspapers and agencies as a total system for getting pictures from the field to the newsroom in minutes. It is better understood as an interaction chain than as a single camera: capture, carry the medium, dial, clamp, transmit."}
+    ],
+    "team": [
+      {"name": "Nikon Corporation", "note": "Japanese camera and optics manufacturer, Tokyo; announced the QV-1000C on 26 August 1988"}
+    ],
+    "media": [
+      {"src": "https://commons.wikimedia.org/wiki/File:Nikon_QV1000C_front-left_2015_Nikon_Museum.jpg", "alt": "Nikon QV-1000C still video camera, front-left view", "caption": "Nikon QV-1000C still video camera at the Nikon Museum, CC BY-SA 4.0, photo by Morio (2015)"}
+    ],
+    "sources": [
+      {"text": "Nikon QV-1000C, Wikipedia (first filmless camera by Nikon, announced 26 August 1988)", "url": "https://en.wikipedia.org/wiki/Nikon_QV-1000C"},
+      {"text": "Nikon Museum — QV-1000C exhibit", "url": "https://www.nikon.com/company/corporate/history/museum/"}
+    ],
+    "imageUrls": [
+      "https://commons.wikimedia.org/wiki/File:Nikon_QV1000C_front-left_2015_Nikon_Museum.jpg"
+    ]
+  },
+  "savedImages": ["qv1000c.jpg"]
+}
