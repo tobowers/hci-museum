@@ -1,0 +1,52 @@
+{
+  "slug": "langenscheidt-alpha-8",
+  "title": "Langenscheidt alpha 8 (1983)",
+  "year": "1983",
+  "subtitle": "A pocket translator you operate like a scroll-wheeled library card catalog — lock the first two letters, then scroll the list, then press 'reveal'.",
+  "why_scout_cares": "The alpha 8's query model is unlike the QWERTY-translators (Craig M100) or phonetics-based reference devices (Franklin Spelling Ace) already in the museum. There is no full keyboard. You enter a word by pressing two alphabet keys — ABC1 then ABC2 — to lock the first two letters, then scroll an alphabetized word list with up/down search arrows until the target appears, then press 'Übers.' to reveal the translation. It adds a Memo word list and an 'Üben' spaced-practice quiz mode. Sharp built it for the Langenscheidt publishing house in 1983, selling it as a combined calculator + bilingual dictionary in five language editions (German paired with English, French, Italian, Spanish, or Latin). It is a rare pre-Windows handheld in which the 'database query' is performed entirely by mechanical alphabet-stepping and list-scrolling — a physical information-retrieval ritual.",
+  "search_terms": ["langenscheidt alpha 8", "langenscheidt alpha8", "langenscheidt electronic dictionary 1983", "sharp langenscheidt translator", "elektronischer vokabel-trainer latein", "langenscheidt vokabel trainer"],
+  "research": {
+    "title": "Langenscheidt alpha 8",
+    "year": "1983",
+    "by": "Langenscheidt publishing house / manufactured by Sharp Corporation (Japan)",
+    "tags": ["HCI", "Handheld", "Retrieval", "Reference", "Translation", "Language", "Consumer", "Embedded"],
+    "overview": "The Langenscheidt alpha 8, launched in 1983, was a combined pocket calculator and bilingual electronic dictionary manufactured by Sharp for the German Langenscheidt publishing house. The dictionary held 8,000 words total (4,000 per language), pairing German with one of English, French, Italian, Spanish, or Latin. The Latin edition was marketed as an 'Elektronischer Vokabel-Trainer Latein'. A mode switch selected calculator, foreign-language-to-German (E→D), or German-to-foreign (D→E). The display was a 5×7 dot-matrix LCD, 8 digits with a decimal point for the calculator; the hardware was a circuit board with four SMD chips and three LR44 button cells. The defining feature is its non-QWERTY entry method: the user locks in the first two letters with two alphabet keys (ABC1, ABC2), then scrolls through the alphabetized word list with up/down search arrows, and presses 'Übers.' to reveal the translation. It also included a Memo list storing up to 16 words and an 'Üben' practice/quiz mode that served a random word to translate in your head before revealing the answer.",
+    "deepDive": [
+      {
+        "heading": "The scroll-first query model",
+        "text": "The alpha 8 has no full keyboard. To look up a word you start by pressing the two alphabet-stepping keys, ABC1 and ABC2, to select the first two letters of the word you are looking for (for example 'BI' for 'BICYCLE'). Then you use the up/down 'suchen' arrows to scroll forwards and backwards through the alphabetized word list until the target word appears. Pressing 'Übers.' (Uebersetzen, 'translate') reveals the German equivalent. Words longer than the display use a ▶ key to page through the overflow, with the edge arrow moving from right to left. This is a physical, list-scrolling information-retrieval ritual rather than a typed query — closer to paging through a microfiche card catalog or a scroll wheel than to keyboard search."
+      },
+      {
+        "heading": "Memorization as a first-class feature",
+        "text": "Alongside the dictionary, the alpha 8 integrated study tools. The Memo key saved the currently displayed word into a word list that held up to 16 entries, automatically dropping the oldest when full. An 'Üben' ('practice') button served a random word for the user to translate in their head, and pressing 'Übers.' checked the answer. This makes the device a self-contained spaced-repetition vocabulary trainer — a dedicated electronic flashcard system years before such study software became a desktop or web category."
+      },
+      {
+        "heading": "Provenance and legacy",
+        "text": "The alpha 8 was produced by Sharp Corporation for Langenscheidt, the German dictionary publisher, and launched in 1983. It was followed a few years later by the alpha 40. The device belongs to the generation of dedicated handheld electronic dictionaries and translators that arrived in the early 1980s, and it was the first mainstream German handheld electronic dictionary. Its interaction survives mainly through collector technology-museum documentation (e.g., Arno Welzel's technology museum) and a Wikimedia Commons photograph."
+      }
+    ],
+    "team": [
+      {"name": "Langenscheidt", "note": "German dictionary publisher; owned the product and supplied the lexicographic content."},
+      {"name": "Sharp Corporation", "note": "Japanese manufacturer that produced the device hardware (four SMD chips, 5×7 dot-matrix LCD)."},
+      {"name": "Arno Welzel", "note": "Collector whose technology-museum documentation and photographs document the device's disassembly and interaction in detail."}
+    ],
+    "media": [
+      {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/b/bf/Langenscheidt_Alpha8.jpg",
+        "alt": "Langenscheidt alpha 8 electronic dictionary",
+        "caption": "The Langenscheidt alpha 8 electronic dictionary, viewed at its screen. (Wikimedia Commons, CC BY-SA 3.0 de, photographer 'GrößterZwergDerWelt' via Kicior99)"
+      }
+    ],
+    "sources": [
+      {"text": "Arno Welzel — Technology museum: Langenscheidt alpha 8 (detailed interaction + disassembly photos)", "url": "https://arnowelzel.de/en/projects/technology-museum/calculators/langenscheidt-alpha-8"},
+      {"text": "Wikimedia Commons — File:Langenscheidt Alpha8.jpg (CC BY-SA 3.0 de)", "url": "https://commons.wikimedia.org/wiki/File:Langenscheidt_Alpha8.jpg"},
+      {"text": "Arno Welzel — Technology museum: Langenscheidt alpha 40 (successor)", "url": "https://arnowelzel.de/en/projects/technology-museum/calculators/langenscheidt-alpha-40"}
+    ],
+    "imageUrls": [
+      "https://upload.wikimedia.org/wikipedia/commons/b/bf/Langenscheidt_Alpha8.jpg"
+    ]
+  },
+  "savedImages": [
+    "images/langenscheidt-alpha8-1.jpg"
+  ]
+}
