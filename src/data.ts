@@ -3751,6 +3751,32 @@ const exhibitData: Exhibit[] = [
     tags: ["Camera", "Input", "Still Video", "Telephony", "Field Data Capture", "Acoustic Coupler"],
     image: img("qv1000c.jpg"),
   },
+  {
+    id: "jhu-serial-code-keyboard",
+    slug: "jhu-serial-code-keyboard",
+    wikiTitle: "Johns Hopkins Serial Code Keyboard",
+    year: "1983",
+    sortYear: 1983,
+    title: "Johns Hopkins Serial Code Keyboard",
+    subtitle: "A three-way switch you rock like a two-note instrument to type — the tones are the encoding, not just the feedback",
+    blurb:
+      "The Johns Hopkins Serial Code Keyboard (1983) is an accessibility input device built at the Applied Physics Laboratory under Veterans Administration funding and published in Creative Computing. It connects a single three-position spring-centered switch to the Apple II game port and works on a frequency-encoded pseudo-Morse principle: push the switch left for high-frequency 'dits', right for low-frequency 'dahs'. Unlike real Morse, the dits and dahs are of equal duration — frequency alone differentiates them, and sound-on equals sound-off, so the user never has to hold a position for a long stretch. The interaction is essentially playing a two-note instrument to type: the user hears each tone as it encodes a character, and the machine decodes the sequence into ASCII keystrokes. The audible tones are not merely feedback — they ARE the encoding, creating a direct auditory-kinesthetic self-monitoring loop. It addresses users who could manage only a single three-position switch, and was evaluated in rehabilitation centers across the US and Canada.",
+    tags: ["Accessibility", "Morse", "Input", "Frequency-encoded", "Adaptive", "Apple II"],
+    image: img("jhu-serial-code-keyboard-cc1983.jpg"),
+  },
+  {
+    id: "ti-dmd",
+    slug: "ti-dmd",
+    wikiTitle: "Texas Instruments Digital Micromirror Device (DMD / DLP)",
+    year: "1987",
+    sortYear: 1987,
+    title: "Texas Instruments Digital Micromirror Device",
+    subtitle: "A chip whose surface is a field of hinged microscopic mirrors that physically tilt thousands of times a second to paint a picture",
+    blurb:
+      "The Digital Micromirror Device (1987), invented by Larry J. Hornbeck at Texas Instruments, is the museum's only micro-mechanical output device. Its surface is a single semiconductor chip covered with hundreds of thousands of ~16-micrometer aluminum mirrors, each mounted on a yoke by torsion hinges and individually rotatable ±10–12 degrees by electrostatic attraction from the SRAM cells beneath. To render an image, the display controller tips each mirror into one of two states thousands of times a second — light either reflects into the lens (on) or away (off), with brightness set by how long the mirror stays tilted. The 'display' is thus a machine of moving shutters, not an emissive or phosphor surface. DMD's first product was the DMD2000 (1990), an airline-ticket printer that exposed paper with the same tilting-mirror array, and it later became the engine of DLP projectors. Information on this chip is literally flicked into existence by a field of microscopic swinging mirrors.",
+    tags: ["Output", "Display", "Micro-mechanical", "DLP", "Micromirror", "Semiconductor"],
+    image: img("dmd-chip.jpg"),
+  },
 ];
 
 export const exhibits: Exhibit[] = exhibitData.toSorted((a, b) => b.sortYear - a.sortYear || a.title.localeCompare(b.title));

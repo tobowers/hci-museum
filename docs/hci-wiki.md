@@ -1,6 +1,6 @@
 # The HCI Golden Age Wiki
 
-A research compendium for a digital museum of cutting-edge Human-Computer Interaction from the late 1970s through the early 1990s. These two hundred and ninety-nine projects mix canonical experiments with weird, forgotten, and beautiful vaporware — brain control, voice control, gesture, wearable computing, VR, robots, and full-body exertion.
+A research compendium for a digital museum of cutting-edge Human-Computer Interaction from the late 1970s through the early 1990s. These three hundred and one projects mix canonical experiments with weird, forgotten, and beautiful vaporware — brain control, voice control, gesture, wearable computing, VR, robots, and full-body exertion.
 
 Each entry includes an overview, a deep dive, a small media gallery, and full source links so the images and facts can always be traced back.
 
@@ -5781,7 +5781,7 @@ Predefined macro sequences included: G for greeting guests, H to run the Hello f
 
 ### Media
 
-![Creative Computing magazine October 1983 page 222 — Serial Code Keyboard article with hardware photo](https://archive.org/services/img/creativecomputing-1983-10/page/n221)
+![Creative Computing magazine October 1983 page 222 — Serial Code Keyboard article with hardware photo](assets/wiki/jhu-serial-code-keyboard-cc1983.jpg)
 *The Serial Code Keyboard article as published in Creative Computing Vol. 9 No. 10, October 1983, page 222. The article includes Figure 1 (hardware photo), Figure 2 (circuit diagram), Figure 3 (timing diagram), and Table 1 (full code table). Source: Internet Archive.*
 
 ### Sources
