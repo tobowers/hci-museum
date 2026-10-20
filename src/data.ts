@@ -3712,6 +3712,45 @@ const exhibitData: Exhibit[] = [
     tags: ["OMR", "Paper Input", "Data Entry", "Testing", "Mark-Sense", "Reading"],
     image: img("scantron-888p.png"),
   },
+  {
+    id: "ferranti-mrt-100",
+    slug: "ferranti-mrt-100",
+    wikiTitle: "Ferranti MRT-100 / MRT-200 Market Research Terminal",
+    year: "1983",
+    sortYear: 1983,
+    title: "Ferranti MRT-100 / MRT-200",
+    subtitle: "A clipboard-and-pencil survey, digitized into a hand-held data logger so the computer never intimidates the interviewee",
+    blurb:
+      "The Ferranti MRT-100 (1983) and MRT-200 are the commercial versions of the Questronic, a programmable hand-held survey logger born at the University of Sheffield. Its interaction is a deliberate re-mediation of the paper interview: a printed questionnaire clips onto the board, the interviewer reads each question aloud, and records the answer by pressing a key on a membrane keypad beside the page, a beep confirming each entry. The point was to feel like a familiar clipboard so neither party is frightened of a computer, while eliminating keypunching — responses were uploaded later via a portable telephone modem. One of the first application-specific handheld computers, and a machine built to disappear into a face-to-face human ritual.",
+    tags: ["Input", "Handheld", "Field Data Capture", "Survey Research", "Embodied"],
+    image: img("mrt100.jpg"),
+  },
+  {
+    id: "ams-audiofile",
+    slug: "ams-audiofile",
+    wikiTitle: "AMS AudioFile",
+    year: "1984",
+    sortYear: 1984,
+    title: "AMS AudioFile",
+    subtitle: "The first dedicated hard-disk audio editing workstation — scrub the jog wheel through sound and rearrange it without ever destroying the original",
+    blurb:
+      "The AMS AudioFile (1984, Advanced Music Systems, Burnley, England) is widely credited as the first dedicated, commercially available hard-disk audio editing system — the direct ancestor of the digital audio workstation. It stored recorded sound on hard disks rather than tape and let engineers scrub a jog/shuttle wheel through a waveform display, marking cuts and reordering them as a non-destructive Edit Decision List (EDL) that played back in real time. Because edits were pointers to the original audio, nothing was ever destructively altered — a creative gesture that was immediate, reversible, and physical. A tall console of illuminated keys and a central wheel, it became a fixture of British film and TV post-production and now sits in the Canada Science and Technology Museum.",
+    tags: ["Audio Editing", "DAW", "Output", "Non-destructive Editing", "Studio"],
+    image: img("audiofile-console.jpg"),
+  },
+  {
+    id: "nikon-qv-1000c",
+    slug: "nikon-qv-1000c",
+    wikiTitle: "Nikon QV-1000C Still Video Camera System",
+    year: "1988",
+    sortYear: 1988,
+    title: "Nikon QV-1000C",
+    subtitle: "Shoot to a floppy disk, pop it into a transmitter, clamp on the acoustic coupler, and phone your photo across the country in minutes",
+    blurb:
+      "Announced August 26, 1988, the Nikon QV-1000C was Nikon's first filmless camera and a purpose-built still-video press system. It recorded up to fifty frames onto a reusable 2-inch magnetic video floppy disk that could be ejected and re-shot thousands of times — no film, no processing. For transmission the disk went into the separate QT-1000C transmitter, which dialed out through an acoustic coupler: you clamped the phone handset onto the cradle and the picture traveled across the ordinary telephone network as audio tones. Where Sony's Mavica prototype stopped at capture-and-review, the QV-1000C is a complete remote-photojournalism chain — camera, disk, transmitter, coupler, and phone — racing a photograph from the field to the newsroom minutes later.",
+    tags: ["Camera", "Input", "Still Video", "Telephony", "Field Data Capture", "Acoustic Coupler"],
+    image: img("qv1000c.jpg"),
+  },
 ];
 
 export const exhibits: Exhibit[] = exhibitData.toSorted((a, b) => b.sortYear - a.sortYear || a.title.localeCompare(b.title));

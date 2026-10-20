@@ -1,0 +1,37 @@
+{
+  "slug": "ferranti-mrt-100",
+  "title": "Ferranti MRT-100 / MRT-200 Market Research Terminal",
+  "year": "1983",
+  "subtitle": "A clipboard-and-pencil survey, digitized into a hand-held data logger so the computer never intimidates the interviewee.",
+  "why_scout_cares": "The MRT is an embodied re-mediation of the face-to-face paper survey. It deliberately mimics the clipboard-and-pencil ritual to keep ordinary people from being scared by a computer, recording answers by keypress as the interviewer reads a printed questionnaire aloud. One of the world's first application-specific handheld computers, and a textbook example of the machine being designed to disappear into a human social interaction.",
+  "search_terms": ["Ferranti MRT-100", "Ferranti MRT-200", "Questronic", "Gwyn Rowley", "Vic Callaghan", "market research terminal", "handheld survey computer"],
+  "research": {
+    "title": "Ferranti MRT-100 / MRT-200 Market Research Terminal",
+    "year": "1983",
+    "by": "Ferranti Plc (UK); origin at University of Sheffield (Gwyn Rowley, Keith Barker, Vic Callaghan)",
+    "tags": ["HCI", "Input", "Handheld", "Field data capture", "Survey research"],
+    "overview": "The Ferranti MRT-100 (1983) and MRT-200 were the commercial versions of the Questronic, a programmable hand-held survey data logger developed at the University of Sheffield by geographer Gwyn Rowley and electronics engineers Keith Barker and Vic Callaghan. The device was engineered to feel like a familiar clipboard: a printed paper questionnaire clips onto the board, the interviewer reads each question aloud, and as the interviewee answers, the interviewer presses the corresponding key on a membrane keypad beside the paper. Each keypress records the answer and advances through branching or multi-choice questions, with a beep as confirmation.\n\nThe idea was explicitly to avoid intimidating interviewees and interviewers with an alien computer, while eliminating the data-preparation bottleneck of paper surveys — responses were captured digitally and uploaded via a portable telephone modem, cutting the delay between field interview and processed results. The MRT is frequently cited as among the first application-specific handheld computers, and it was adopted for face-to-face market and social research in the early 1980s. The interaction model is the point: a machine built to be felt as an ordinary pad of paper.",
+    "deepDive": [
+      {"heading": "Origins at Sheffield", "text": "The Questronic prototype was built at the University of Sheffield in the late 1970s and published by Rowley, Barker and Callaghan (Professional Geographer 1985; European Journal of Marketing 1986). Its design brief was that computers frightened ordinary people; the terminal was therefore shaped and used like a clipboard so the technology receded from the social encounter."},
+      {"heading": "The interaction model", "text": "The interviewer holds the device like a clipboard, reads a printed questionnaire, and records answers by keypress. The machine is a one-handed, battery-powered data logger with a membrane keypad and branching logic; a beep confirms each recorded answer. This preserves the natural rhythm of a face-to-face interview while digitizing the record at the point of collection."},
+      {"heading": "Upload and the telephone modem", "text": "Data was uploaded via a portable telephone modem — genuinely novel for the early 1980s — so completed surveys could be transmitted and processed almost immediately, rather than keypunched later. The device eliminated a whole data-entry step from survey research."}
+    ],
+    "team": [
+      {"name": "Gwyn Rowley", "note": "Geographer, University of Sheffield, co-developer"},
+      {"name": "Keith Barker", "note": "Electronic engineering, University of Sheffield, co-developer"},
+      {"name": "Vic Callaghan", "note": "Electronic engineering, University of Sheffield, co-developer; later at University of Essex"},
+      {"name": "Ferranti Plc", "note": "UK electronics manufacturer, commercialized the MRT-100/200"}
+    ],
+    "media": [
+      {"src": "https://commons.wikimedia.org/wiki/File:MRT100CreativeCommonsRelease23June15(m).jpg", "alt": "Ferranti MRT-100 market research terminal", "caption": "Ferranti MRT-100 market research terminal, CC BY-SA 4.0, uploaded by inventor Vic Callaghan (2015)"}
+    ],
+    "sources": [
+      {"text": "Vic Callaghan's Questronic / MRT page (victor.callaghan.info) with prototype photos and MRT-200 instruction manual", "url": "https://victor.callaghan.info/publications/Questronic/"},
+      {"text": "Rowley, Barker & Callaghan, 'The Questronic' — survey computing literature", "url": "https://journals.sagepub.com/"}
+    ],
+    "imageUrls": [
+      "https://commons.wikimedia.org/wiki/File:MRT100CreativeCommonsRelease23June15(m).jpg"
+    ]
+  },
+  "savedImages": ["mrt100.jpg"]
+}
