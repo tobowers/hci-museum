@@ -1,0 +1,97 @@
+{
+  "slug": "entex-select-a-game",
+  "title": "Entex Select-A-Game",
+  "year": "1981",
+  "subtitle": "a cartridge-based handheld whose base unit is just a VFD dot-matrix display and its power circuits — the microprocessor for each game lives in the cartridge itself, so every cartridge is its own computer talking to a 'dumb' display shell",
+  "why_scout_cares": "The Entex Select-a-Game (1981, Model #6030) inverts the usual console architecture: instead of a smart console reading dumb cartridges, the console has 'no built-in processor power' and is 'basically a display and controller for the games' — each game cartridge contains its own microprocessor (the Space Invader 2 cartridge, for example, uses a Hitachi HD38800-A31). Inserting a cartridge literally installs a different computer; the base unit is nothing more than a generic vacuum-fluorescent display and its power circuits. The display is a 7×16 VFD dot-matrix grid with every other row of seven dots a different color (red rows alternating with white rows, per the Handheld Museum), combined with a thin static overlay shipped in each cartridge box that delineates the playfield. So both the CPU and the 'screen semantics' come from the cartridge, while the base contributes only pixels, buttons, and batteries. It is Entex's first cartridge-based handheld, the direct predecessor of the museum's sibling candidate, the Entex Adventure Vision (1982) — Entex dropped the Select-a-Game in 1982 'in favor of the Adventure Vision' — and, with the Milton Bradley Microvision already in the museum, it is a second, VFD-based take on the cartridge-as-computer model. Only six cartridges ever shipped (Baseball 4, Basketball 3, Football 4, Pac-Man 2, Pinball, and the pack-in Space Invader 2); Pac-Man 2 was pulled almost immediately after Entex settled a 1981 copyright suit from Coleco, who held the handheld Pac-Man license, making it the rarest cartridge. The processing-per-cartridge arrangement is an unusual and short-lived interaction model that disappeared once cheap consoles could do the computing themselves, and it is worth preserving as a concrete, image-rich specimen of that design fork.",
+  "search_terms": ["Entex Select-A-Game", "Select-a-Game", "Entex 6030", "cartridge contains processor", "CPU in cartridge handheld", "VFD dot matrix handheld", "Hitachi HD38800", "Tony Clowes Entex"],
+  "research": {
+    "title": "Entex Select-A-Game",
+    "year": "1981",
+    "by": "Entex Industries, Inc. (Compton, California)",
+    "tags": ["HCI", "Handheld", "Cartridge as Computer", "VFD Display", "Overlay", "Commercial Failure", "Commercial Oddity"],
+    "overview": "The Entex Select-a-Game (1981, Model #6030) is a cartridge-based handheld/tabletop game system by Entex Industries of Compton, California — the company's first cartridge-based system. Its defining architectural oddity is that the console has no processor of its own: 'The system is basically a display and controller for the games with no built-in processor power. Each game cartridge contains a microprocessor programmed with the appropriate game code in it' (Wikipedia). The base unit is, in the words of the Handheld Museum, 'nothing more than the generic VFD display and its power circuits.' The main display is a 7×16 vacuum fluorescent dot-matrix array; per the Handheld Museum, every other row of seven dots is a different color — the top row red, the next white, and so on (some secondary sources describe the two colors as red and blue). A thin static overlay, shipped in each cartridge box, sits over the screen to delineate the playfield. The system runs on four C batteries or a mail-order AC adapter.\n\nConcept was by Tony Clowes (one of Entex's founders, the 'T' in NTX); the case was designed by Ortega Orr and Ron Chesley; electronics were designed and programmed by Entex Tokyo. Only six cartridges were released: Baseball 4, Basketball 3, Football 4, Pac-Man 2, Pinball, and Space Invader 2 (the pack-in). Battleship and Turtles appear on printed materials but were never seen in the wild. The cartridge games largely re-skin Entex's existing single-game handhelds (Space Invader 2, Pac-Man 2, Football 4, Baseball, Basketball all had standalone counterparts), which kept tooling costs low. The Space Invader 2 cartridge uses a Hitachi HD38800-A31 microprocessor. Pac-Man 2 is the rarest cartridge: in late 1981 Coleco — holder of the handheld Pac-Man license — sued Entex for copyright infringement, and as part of the settlement the Pac-Man 2 cartridge was pulled almost immediately after release. Entex dropped the Select-a-Game in 1982 in favor of the more ambitious Entex Adventure Vision, its rotating-mirror LED-scan successor (a separate museum candidate). Entex itself folded in the early 1980s under competition from home computers and cheaper LCD portables.\n\nThe Select-a-Game is widely described as a VFD take on Milton Bradley's Microvision (1979) — both place the CPU in the cartridge and both use static overlays — but it swaps Microvision's monochrome LCD grid for a two-color VFD dot matrix. Together with the Microvision already in the museum and the Adventure Vision candidate, it maps three related-but-distinct answers to the same early-1980s problem of 'how to get a re-programmable handheld game out of cheap, single-purpose silicon.'",
+    "deepDive": [
+      {
+        "heading": "Origins",
+        "text": "Entex Industries, Inc. was founded in 1970 by G.A. (Tony) Clowes, Nicholas Carlozzi, and Nick Underhill; the name derives from 'NTX' (Nick + Tony + X). Based at 303 West Artesia Blvd, Compton, California, Entex built a long line of single-game 1970s electronic handhelds and tabletop games. The Select-a-Game (1981, Model #6030) was their first cartridge-based system — an attempt to let one VFD shell host many games rather than manufacturing a bespoke handheld for each. Concept was by co-founder Tony Clowes; the case was designed by Ortega Orr and Ron Chesley; electronics were designed and programmed by Entex Tokyo. The cartridges deliberately re-skinned Entex's existing standalone handhelds (Space Invader 2, Pac-Man 2, Football 4, Baseball, Basketball all had single-game versions), which minimized development cost and kept the lineup cheap to produce."
+      },
+      {
+        "heading": "The Cartridge-As-Computer Architecture",
+        "text": "The Select-a-Game's defining feature is that the console is a 'dumb' shell. The Handheld Museum states plainly: 'the CPU for each game is actually in the cartridge (the console itself is nothing more than the generic VFD display and it's power circuits).' The Space Invader 2 cartridge uses a Hitachi HD38800-A31 microprocessor; each cartridge is a complete self-contained computer whose only job is to drive the shared display and read the shared controls. Wikipedia reaches the same conclusion: 'The system is basically a display and controller for the games with no built-in processor power.' This is the inverse of the model that would win the era — the smart console reading dumb ROM carts (Atari 2600, NES) — and it is a direct VFD sibling of the Milton Bradley Microvision (1979), which used the same cartridge-as-CPU trick with a monochrome LCD. The practical consequence for the user is that every game swap is a hardware swap: the feel, timing, and limits of the machine change with the cartridge, and the platform is really defined by its output/input shell, not its logic."
+      },
+      {
+        "heading": "Display and Overlay Interaction",
+        "text": "The main display is a 7×16 vacuum fluorescent dot-matrix array. Per the Handheld Museum, every other row of seven dots is a different color — the top row red, the next white, alternating down the grid (IT History Society and some other secondary sources describe the two display colors as red and blue). Because a bare grid of dots is meaningless for most games, each cartridge shipped with a thin static overlay that the player places over the screen to delineate the playfield — tennis-court lines, a football field, a pinball table, and so on. The VFD grid renders the moving game elements on top of the printed overlay, an early hybrid of dynamic pixels and static printed artwork. Unlike the overlay, the console's control pad got no overlay at all; the Handheld Museum notes the keys are self-explanatory after 'a little trial and error.'"
+      },
+      {
+        "heading": "Commercial Life",
+        "text": "Only six cartridges shipped: Baseball 4, Basketball 3, Football 4, Pac-Man 2, Pinball, and the pack-in Space Invader 2. Battleship and Turtles were listed on printed material but never materialized. Pac-Man 2 is by far the rarest cartridge: in late 1981 Coleco — which held the handheld Pac-Man license from Namco — sued Entex for copyright infringement over the upcoming Pac-Man 2 cartridge; the game was pulled almost immediately after release as part of the settlement. The system was powered by four C batteries or a mail-order AC adapter. Entex discontinued the Select-a-Game in 1982 in favor of the technically ambitious Entex Adventure Vision, its rotating-mirror LED-scan successor. Entex folded in the early 1980s under competition from home computers and cheaper LCD portables. Today the system is collectible; handheldmuseum.com's owner has boxed copies of four cartridges."
+      },
+      {
+        "heading": "Why It Matters",
+        "text": "The Select-a-Game is a concrete, image-rich specimen of a short-lived console architecture in which the cartridge is the computer and the base unit is only a display-and-controls shell. It is Entex's bridge from single-game handhelds to its ambitious Adventure Vision, and it is the VFD answer to the Milton Bradley Microvision already in the museum — both put the CPU in the cartridge and both lean on static overlays, but they use fundamentally different display technologies (two-color VFD dot matrix vs. monochrome LCD). The processing-per-cartridge model is a fascinating counterpoint to the smart-console model that later won, and it documents an era when cheap microprocessors were still expensive enough that a manufacturer would rather ship them per-game than build one general-purpose brain. It also completes the Entex handheld lineage alongside the Adventure Vision candidate, giving the museum three parallel answers to the same 1980-1982 design problem."
+      }
+    ],
+    "team": [
+      {
+        "name": "Tony Clowes",
+        "note": "Concept by Entex co-founder G.A. (Tony) Clowes; the 'T' in Entex's NTX name."
+      },
+      {
+        "name": "Ortega Orr and Ron Chesley",
+        "note": "Case design."
+      },
+      {
+        "name": "Entex Tokyo",
+        "note": "Electronics design and programming."
+      },
+      {
+        "name": "Entex Industries, Inc.",
+        "note": "Manufacturer. 303 West Artesia Blvd, Compton, California. Founded 1970; folded in the early 1980s."
+      }
+    ],
+    "media": [
+      {
+        "src": "https://commons.wikimedia.org/wiki/Special:FilePath/Entex-SelectAGame.jpg",
+        "alt": "Entex Select-A-Game handheld — the VFD-dot base unit with its control pad and the insertable game cartridge",
+        "caption": "The Entex Select-a-Game (1981). The base unit is only a 7×16 VFD dot-matrix display plus controls and power; the microprocessor for each game lives inside the inserted cartridge. Image via Wikimedia Commons."
+      },
+      {
+        "src": "https://commons.wikimedia.org/wiki/Special:FilePath/Entex%20Select%20a%20Game%2001.jpg",
+        "alt": "Entex Select-A-Game console with a game cartridge next to it",
+        "caption": "The Entex Select-a-Game console and a cartridge. Each cartridge is its own self-contained computer; swapping cartridges installs a different processor and a static playfield overlay. Image via Wikimedia Commons."
+      }
+    ],
+    "sources": [
+      {
+        "text": "Wikipedia: Entex Select-A-Game ('no built-in processor power'; cartridges contain the microprocessor)",
+        "url": "https://en.wikipedia.org/wiki/Entex_Select-A-Game"
+      },
+      {
+        "text": "Wikimedia Commons: Category:Entex Select-A-Game (4 files)",
+        "url": "https://commons.wikimedia.org/wiki/Category:Entex_Select-A-Game"
+      },
+      {
+        "text": "Handheld Museum: Entex Select-a-Game (Model #6030; Hitachi HD38800-A31 CPU; 'the console itself is nothing more than the generic VFD display and it's power circuits')",
+        "url": "https://www.handheldmuseum.com/Entex/SAG.htm"
+      },
+      {
+        "text": "IT History Society: Entex Select-a-Game (1981; 7×16 VFD, two colors red/blue, static overlays; successor to Adventure Vision)",
+        "url": "https://www.ithistory.org/node/295268"
+      },
+      {
+        "text": "re:enthused: 'The Entex Select-A-Game — failing with style' (demonstration video of the handheld and games)",
+        "url": "https://re-enthused.com/hardware/the-entex-select-a-game-failing-with-style/"
+      }
+    ],
+    "imageUrls": [
+      "https://commons.wikimedia.org/wiki/Special:FilePath/Entex-SelectAGame.jpg",
+      "https://commons.wikimedia.org/wiki/Special:FilePath/Entex%20Select%20a%20Game%2001.jpg"
+    ]
+  },
+  "savedImages": [
+    "images/console.jpg",
+    "images/console-01.jpg"
+  ]
+}
