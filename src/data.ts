@@ -3751,6 +3751,19 @@ const exhibitData: Exhibit[] = [
     tags: ["Camera", "Input", "Still Video", "Telephony", "Field Data Capture", "Acoustic Coupler"],
     image: img("qv1000c.jpg"),
   },
+  {
+    id: "entex-select-a-game",
+    slug: "entex-select-a-game",
+    wikiTitle: "Entex Select-A-Game",
+    year: "1981",
+    sortYear: 1981,
+    title: "Entex Select-A-Game",
+    subtitle: "A cartridge-based handheld whose base unit is just a VFD dot-matrix display and its power circuits — the microprocessor for each game lives in the cartridge itself",
+    blurb:
+      "The Entex Select-a-Game (1981, Model #6030) inverts the usual console architecture. The console has no processor of its own — each game cartridge contains its own microprocessor (the Space Invader 2 cartridge uses a Hitachi HD38800-A31), so inserting a cartridge literally installs a different computer. The base unit is nothing more than a generic 7×16 vacuum-fluorescent dot-matrix display, a control pad, and its power circuits; every other row of the display is a different color, and each cartridge box ships a thin static overlay placed over the screen to delineate the playfield. Only six cartridges shipped (Baseball 4, Basketball 3, Football 4, Pac-Man 2, Pinball, and the pack-in Space Invader 2), and Pac-Man 2 was pulled almost immediately after Entex settled a 1981 copyright suit with Coleco. It is Entex's first cartridge-based system and the VFD sibling of the Milton Bradley Microvision — both put the CPU in the cartridge, but here the display is a two-color VFD grid rather than a monochrome LCD.",
+    tags: ["Handheld", "Cartridge as Computer", "VFD Display", "Overlay", "Input", "Commercial Oddity"],
+    image: img("entex-select-a-game.jpg"),
+  },
 ];
 
 export const exhibits: Exhibit[] = exhibitData.toSorted((a, b) => b.sortYear - a.sortYear || a.title.localeCompare(b.title));

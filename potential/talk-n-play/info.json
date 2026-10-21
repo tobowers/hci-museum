@@ -1,0 +1,49 @@
+{
+  "slug": "talk-n-play",
+  "title": "Talk 'n Play (CBS Toys)",
+  "year": "1984",
+  "subtitle": "a cassette-and-book desktop toy where the child's own recorded voice becomes part of the program — a microphone plus a music-mixer interaction lets the child add or remove individual instruments from the backing track",
+  "why_scout_cares": "The Talk 'n Play (1984, CBS Toys/Child Guidance, later Hasbro and Playskool) is an interactive cassette/book reader with a genuinely distinctive interaction model: a microphone and a set of action keys let the child record their own voice into the program so they literally become a voice-actor inside the story, and in music programs they can add or remove individual instruments from the backing track like a miniature audio mixer. It was invented by Michael J. Freeman, who holds a patent on the device. It is a rare kids' toy whose interaction is about recording and mixing rather than drill-and-response, making it a meaningful sibling to the museum's voice- and audio-focused entries.",
+  "search_terms": ["Talk 'n Play CBS Toys", "Talk and Play", "Michael J Freeman patent", "Child Guidance Talk n Play"],
+  "research": {
+    "title": "Talk 'n Play",
+    "year": "1984",
+    "by": "CBS Toys / Child Guidance (later Hasbro / Playskool)",
+    "tags": ["Kids Learning Toy", "Voice Interaction", "Audio Mixing", "Cassette", "Embodied", "Educational Computing"],
+    "overview": "The Talk 'n Play (1984) is an interactive cassette/book toy. The child inserts a cassette and opens an accompanying book; a voice on the tape narrates and prompts, and the child responds using a set of buttons plus a microphone. What makes it distinctive is the microphone: the child records their own voice into the program, becoming a participant/voice-actor in the story, and in music programs they can add or remove individual instruments from the backing track — a toy-sized audio mixer. It was invented by Michael J. Freeman, who patented the concept. The brand passed from CBS Toys/Child Guidance to Hasbro and later Playskool.",
+    "deepDive": [
+      {
+        "heading": "Child-as-voice-actor",
+        "text": "The microphone lets the child record their own voice into the tape-driven program, so the toy stops being a passive playback device and becomes a recording instrument. The child performs their part of the story — a genuinely embodied voice-interaction model for children rather than the drill-and-response of most of the era's talking toys."
+      },
+      {
+        "heading": "The audio-mixer music mode",
+        "text": "In music programs the child can add or remove individual instruments from the backing track, effectively mixing the arrangement by pushing buttons. This is a toy-scale audio mixer, an early and unusual way to give a child hands-on control over a multi-part audio composition."
+      },
+      {
+        "heading": "Why it matters",
+        "text": "The Talk 'n Play belongs alongside the museum's voice- and audio-interaction entries (Speak & Spell, talking toys, early synthesis for kids) but stands apart by making the child a recording participant and a mixer, not just a responder."
+      }
+    ],
+    "team": [
+      {
+        "name": "Michael J. Freeman",
+        "note": "Inventor; holds a patent on the Talk 'n Play."
+      },
+      {
+        "name": "CBS Toys / Child Guidance",
+        "note": "Original manufacturer (1984); the line later passed to Hasbro and then Playskool."
+      }
+    ],
+    "media": [],
+    "sources": [
+      {
+        "text": "Wikipedia: Talk 'n Play (CBS Toys, 1984; invented by Michael J. Freeman)",
+        "url": "https://en.wikipedia.org/wiki/Talk_%27n_Play"
+      }
+    ],
+    "imageUrls": []
+  },
+  "savedImages": [],
+  "imageBlocker": "No freely-licensed image available anywhere. Wikimedia Commons has no Talk 'n Play image; no museum object record with a free image was found. The Hasbro instruction PDF is a document, not a usable exhibit hero image. Deferred pending a usable image."
+}

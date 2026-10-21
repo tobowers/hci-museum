@@ -1,6 +1,6 @@
 # The HCI Golden Age Wiki
 
-A research compendium for a digital museum of cutting-edge Human-Computer Interaction from the late 1970s through the early 1990s. These two hundred and ninety-nine projects mix canonical experiments with weird, forgotten, and beautiful vaporware — brain control, voice control, gesture, wearable computing, VR, robots, and full-body exertion.
+A research compendium for a digital museum of cutting-edge Human-Computer Interaction from the late 1970s through the early 1990s. These three hundred projects mix canonical experiments with weird, forgotten, and beautiful vaporware — brain control, voice control, gesture, wearable computing, VR, robots, and full-body exertion.
 
 Each entry includes an overview, a deep dive, a small media gallery, and full source links so the images and facts can always be traced back.
 
@@ -305,6 +305,7 @@ Each entry includes an overview, a deep dive, a small media gallery, and full so
      295. [Ferranti MRT-100 / MRT-200 Market Research Terminal (1983)](#ferranti-mrt-100--mrt-200-market-research-terminal-1983)
      296. [AMS AudioFile (1984)](#ams-audiofile-1984)
      297. [Nikon QV-1000C Still Video Camera System (1988)](#nikon-qv-1000c-still-video-camera-system-1988)
+     298. [Entex Select-A-Game (1981)](#entex-select-a-game-1981)
   
 ---
 
@@ -13314,3 +13315,46 @@ For transmission, the disk was inserted into the separate QT-1000C transmitter, 
 1. Nikon QV-1000C — Wikipedia (first filmless camera by Nikon, announced 26 August 1988) — https://en.wikipedia.org/wiki/Nikon_QV-1000C
 2. Nikon Museum — QV-1000C exhibit — https://www.nikon.com/company/corporate/history/museum/
 3. File:Nikon QV1000C front-left 2015 Nikon Museum.jpg — Wikimedia Commons — https://commons.wikimedia.org/wiki/File:Nikon_QV1000C_front-left_2015_Nikon_Museum.jpg
+
+---
+
+## Entex Select-A-Game (1981)
+
+**By:** Entex Industries, Inc. (Compton, California) — concept by co-founder Tony Clowes  
+**Tags:** `Handheld` `Cartridge as Computer` `VFD Display` `Overlay` `Input` `Commercial Oddity`
+
+### Overview
+
+The Entex Select-a-Game (1981, Model #6030) is a cartridge-based handheld/tabletop game system — Entex's first cartridge-based system and its bridge from single-game handhelds to the technically ambitious Adventure Vision (1982). Its defining architectural oddity is that the console has no processor of its own: the Handheld Museum states plainly that the console "is nothing more than the generic VFD display and its power circuits," and that "the CPU for each game is actually in the cartridge." Each game cartridge contains its own microprocessor (the Space Invader 2 cartridge uses a Hitachi HD38800-A31), so inserting a cartridge literally installs a different computer into the shared shell.
+
+The base unit contributes only pixels, buttons, and batteries. The main display is a 7×16 vacuum-fluorescent dot-matrix array in which every other row of seven dots is a different color — red and white rows alternating (some secondary sources describe the two colors as red and blue). Because a bare grid of dots is meaningless for most games, each cartridge box shipped a thin static overlay that the player placed over the screen to delineate the playfield — tennis-court lines, a football field, a pinball table. The system runs on four C batteries or a mail-order AC adapter.
+
+### Deep dive
+
+* **The cartridge as the computer.** This is the Select-a-Game's defining contribution. The smart-console model that would win the era (Atari 2600, NES) read dumb ROM cartridges; the Select-a-Game inverted it, shipping a complete self-contained computer per game whose only job is to drive the shared VFD display and read the shared controls. For the user, every game swap is a hardware swap — the feel, timing, and limits of the machine change with the cartridge. This is the VFD answer to the Milton Bradley Microvision (1979) already in the museum, which used the same cartridge-as-CPU trick over a monochrome LCD.
+* **The two-color VFD + static overlay.** A bare 7×16 dot grid means nothing without context, so each cartridge shipped a printed static overlay placed over the screen to delineate the playfield. The VFD grid renders the moving game elements on top of the printed artwork — an early hybrid of dynamic pixels and static printed graphics, exactly the visual language the museum's Adventure Vision and Microvision entries share. The two alternating colors on the dot matrix let one grid carry more visual distinction than a single-color display.
+* **A cheap reuse strategy.** The cartridges largely re-skinned Entex's existing standalone handhelds (Space Invader 2, Pac-Man 2, Football 4, Baseball, and Basketball all had single-game versions), keeping tooling and development costs low. This is why the platform could offer so much variety for so little new hardware.
+* **Commercial fate.** Only six cartridges shipped — Baseball 4, Basketball 3, Football 4, Pac-Man 2, Pinball, and the pack-in Space Invader 2 (Battleship and Turtles appear on printed material but were never seen). Pac-Man 2 is the rarest: in late 1981 Coleco — holder of the handheld Pac-Man license from Namco — sued Entex for copyright infringement, and as part of the settlement the cartridge was pulled almost immediately after release. Entex dropped the Select-a-Game in 1982 in favor of the Adventure Vision, and the company folded in the early 1980s under competition from home computers and cheaper LCD portables.
+
+### Team
+
+* **Tony Clowes.** Concept by Entex co-founder G.A. (Tony) Clowes; the "T" in the company's NTX name.
+* **Ortega Orr and Ron Chesley.** Case design.
+* **Entex Tokyo.** Electronics design and programming.
+* **Entex Industries, Inc.** Manufacturer, 303 West Artesia Blvd, Compton, California. Founded 1970; folded in the early 1980s.
+
+### Media
+
+![Entex Select-A-Game handheld — the VFD dot-matrix base unit with its control pad and an insertable cartridge](../assets/wiki/entex-select-a-game.jpg)
+*The Entex Select-a-Game (1981). The base unit is only a 7×16 VFD dot-matrix display plus controls and power; the microprocessor for each game lives inside the inserted cartridge. Public domain, Wikimedia Commons.*
+
+![Entex Select-A-Game console with a game cartridge next to it](../assets/wiki/entex-select-a-game-01.jpg)
+*The Entex Select-a-Game console and a cartridge. Swapping cartridges installs a different processor and a static playfield overlay. Public domain, Wikimedia Commons.*
+
+### Sources
+
+1. Wikipedia: Entex Select-A-Game ("no built-in processor power"; cartridges contain the microprocessor) — https://en.wikipedia.org/wiki/Entex_Select-A-Game
+2. Handheld Museum: Entex Select-a-Game (Model #6030; Hitachi HD38800-A31 CPU; "the console itself is nothing more than the generic VFD display and its power circuits") — https://www.handheldmuseum.com/Entex/SAG.htm
+3. IT History Society: Entex Select-a-Game (1981; 7×16 VFD, two colors, static overlays) — https://www.ithistory.org/node/295268
+4. re:enthused: "The Entex Select-A-Game — failing with style" — https://re-enthused.com/hardware/the-entex-select-a-game-failing-with-style/
+5. File:Entex-SelectAGame.jpg — Wikimedia Commons — https://commons.wikimedia.org/wiki/File:Entex-SelectAGame.jpg
