@@ -1,0 +1,41 @@
+{
+  "slug": "tomy-tutor-play-computer",
+  "title": "Tomy Tutor Play Computer",
+  "year": "1984",
+  "subtitle": "a kids' programming toy that scaffolds the edit-compile-run loop into three discrete physical keys — 'Programme', 'Step', and 'Run' — so a child builds a four-line program, steps through it line by line, then watches it animate",
+  "why_scout_cares": "The Tomy Tutor Play Computer (1984) is a distinctive early kids' programming toy because it makes the programming cycle tactile and explicit. Instead of a display-heavy computer, it uses a printed 'program sheet' the child positions in a window, a four-button control to enter commands, and a small set of physical keys including PROGRAMME, STEP and RUN. The child assembles a short program (of roughly four steps), then presses STEP to execute it one line at a time, then RUN to play the whole sequence as an animation on the small VFD/LED area. This is a genuine scaffolded version of the edit-run-debug loop, executed in hardware keys rather than on-screen, and it predates the visual-programming-for-kids wave. It is held in the collection of the Victoria and Albert Museum (object number MISC.360:1,2-1987).",
+  "search_terms": ["Tomy Tutor Play Computer", "Tutor Play Computer Tomy", "programme step run toy", "V&A MISC.360"],
+  "research": {
+    "title": "Tomy Tutor Play Computer",
+    "year": "1984",
+    "by": "Tomy (Japan)",
+    "tags": ["Kids Learning Toy", "Programming Toy", "Embodied", "Tangible", "Educational Computing"],
+    "overview": "The Tomy Tutor Play Computer (1984) is a handheld kids' programming toy that turns the edit-compile-run loop into a physical sequence of button presses. Rather than a screen-centric computer, the toy works with a printed program sheet that slides into a window, a control cluster of navigation keys, and dedicated PROGRAMME, STEP, and RUN keys. The child constructs a short program of around four steps by choosing from a limited command set, presses STEP to execute the program one line at a time (reviewing each step), then presses RUN to play the whole program as a moving animation. A surviving example is held in the Victoria and Albert Museum's collection (object number MISC.360:1,2-1987).",
+    "deepDive": [
+      {
+        "heading": "The physical programming loop",
+        "text": "The toy makes the stages of programming legible as hardware. The child enters commands with a four-button control, builds a program of about four lines on a printed program sheet, then uses a STEP key to run the program one instruction at a time — reviewing each step — before a RUN key executes the whole thing as an animation. This scaffolds the edit-run-debug cycle into discrete, labelled physical actions rather than abstract on-screen commands."
+      },
+      {
+        "heading": "Why it matters",
+        "text": "Most children's computing toys of the era (Speak & Spell, the micro:bit's predecessors) taught drill or vocabulary; the Tutor Play Computer is unusual in explicitly teaching the programming cycle as an embodied, stepped ritual. It is a tangible-programming ancestor of later physical programming toys and belongs beside the museum's other kids' computing entries."
+      }
+    ],
+    "team": [
+      {
+        "name": "Tomy",
+        "note": "Manufacturer, Japan. Distributed internationally."
+      }
+    ],
+    "media": [],
+    "sources": [
+      {
+        "text": "Victoria and Albert Museum: Tutor Play Computer (object number MISC.360:1,2-1987)",
+        "url": "https://collections.vam.ac.uk/"
+      }
+    ],
+    "imageUrls": []
+  },
+  "savedImages": [],
+  "imageBlocker": "No freely-licensed image available. The V&A holds a physical example but its Framemark images are copyright-restricted (non-commercial) and unsuitable for a public museum exhibit without a free license. Wikimedia Commons has no Tomy Tutor Play Computer images. Deferred pending a usable image."
+}
