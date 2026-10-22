@@ -1,0 +1,78 @@
+{
+  "slug": "hp-8450a",
+  "title": "HP 8450A Diode-Array UV-Visible Spectrophotometer",
+  "year": "1979",
+  "subtitle": "the first commercial diode-array spectrophotometer that captured an entire spectrum in under a second — and turned the lab instrument into an interactive terminal, where the chemist typed expressive measurement commands on a keyboard and watched them echo and correct live on the built-in CRT",
+  "why_scout_cares": "The HP 8450A (1979) was the first commercial UV-visible spectrophotometer built around a photodiode array: instead of mechanically sweeping a grating one wavelength at a time, it grabbed the whole 200-800 nm spectrum at once in under a second. That speed let HP rethink the interface. Because a scan was nearly instant, the machine could be 'user-oriented' and interactive — the chemist typed task-oriented commands on a full keyboard, like MEAS (7.22 + 7.127 * LOG (ABS 426-440/ABS 554-566)) EXECUTE, watched each keystroke echo onto a five-inch CRT, and got live cursor-based error correction when a command was mistyped. It was a state-operated, command-line instrument: the first time a mainstream analytical bench instrument behaved like an interactive terminal rather than a dial-and-meter box. It is the HCI moment where the chemistry lab met the command line.",
+  "search_terms": ["HP 8450A", "diode array spectrophotometer", "HP 8450A 1979", "HP Journal February 1980", "task-oriented spectrophotometry", "interactive laboratory instrument"],
+  "research": {
+    "title": "HP 8450A Diode-Array UV-Visible Spectrophotometer",
+    "year": "1979",
+    "by": "Hewlett-Packard (Avondale, Pennsylvania, USA)",
+    "tags": ["HCI", "Scientific Instrument", "Spectrophotometer", "Command-Line Interface", "Interactive Terminal", "Photodiode Array", "CRT Display"],
+    "overview": "The HP 8450A, introduced in 1979, was the first commercial photodiode-array UV-visible spectrophotometer. Where a conventional spectrophotometer swept a grating mechanically to measure one wavelength at a time, the 8450A passed wideband light through the sample into a spectrograph that dispersed it onto two 210-element photodiode arrays, reading the entire 200-800 nm spectrum simultaneously in under one second. Because a scan was effectively instant, HP redesigned the interaction around speed: instead of a dial-and-meter instrument, the 8450A was an interactive, state-operated terminal with a built-in five-inch CRT and a task-oriented command keyboard. The operator typed expressive commands that mixed measurement, math, and display: MEAS (7.22 + 7.127 * LOG (ABS 426-440/ABS 554-566)) EXECUTE. Keystrokes echoed live on the CRT, each entry was error-checked, and mistakes brought a cursor to the offending keystroke with a beep and an explanation. It was, in HP's own words, a 'task-oriented approach to spectrophotometry' and a 'friendly machine' — an analytical instrument reframed as a programmable, interactive computer.",
+    "deepDive": [
+      {
+        "heading": "Reversed Optics: Capture the Whole Spectrum at Once",
+        "text": "The 8450A reversed the traditional optical design. Instead of focusing a monochromator's single wavelength onto a sample, the instrument passed wideband light through the sample and into a spectrograph, dispersing all wavelengths simultaneously onto a photodiode array. That meant acquiring the full spectrum in under a second rather than sweeping serially. The speed removed the old 'one time constant per resolution element' bottleneck and, crucially, made interactive measurement possible: results could be obtained, viewed, and acted upon in real time."
+      },
+      {
+        "heading": "The Instrument as Interactive Terminal",
+        "text": "Because scans were fast, HP could treat the operator's time as the expensive resource and build the machine around direct interaction. A built-in five-inch-diagonal CRT displayed up to 16 lines of 32 characters plus two 256-point plot areas. The vertical-scan display was chosen to plot spectra efficiently. The operator drove the instrument with a task-oriented command language entered on a full keyboard arranged so that a command's keystroke flow ran from upper-left to lower-right and ended on an EXECUTE key."
+      },
+      {
+        "heading": "A Command Line for Chemistry",
+        "text": "The 8450A's commands were expressive statements mixing spectral operations, arithmetic, and display. For example, the explicit form 'DISPLAY TO PLOT ABSORBANCE 350 TO 700 EXECUTE', or a direct calculation of pH from a spectral measurement: 'MEAS (7.22 + 7.127 * LOG (ABS 426-440/ABS 554-566)) EXECUTE'. The machine was largely state-operated: operational definitions could be set up and sequenced regardless of keyboard entry order, so a user could define an operation in essentially any order or level of detail. This made a laboratory measurement feel like programming an interactive computer."
+      },
+      {
+        "heading": "Echo, Error-Checking, and Cursor-Based Correction",
+        "text": "As keystrokes were entered they were echoed on the CRT, and error checking ran with each entry. When an entry error was detected, the system moved a cursor to the offending entry, beeped, and displayed an explanation; the operator could then move the cursor in and out of the line and insert, delete, or replace keystrokes. This was the same cursor-editing affordance of a command-line terminal, transplanted into a chemistry instrument."
+      },
+      {
+        "heading": "A Minicomputer in a Breadbox",
+        "text": "To run all of this the 8450A carried a powerful built-in controller using HP's new silicon-on-sapphire (SOS) microprocessor, an external 16-bit multiplier for the ~20,000 multiplications per second a scan demanded, 57,344 bytes of preprogrammed ROM, and 32 KB (expandable to 64 KB) of dynamic RAM — enough to store seven to twenty-five complete spectra. The user-oriented, 'friendly' personality was preprogrammed into 14 ROMs. The whole controller had to fit in a space not much larger than a breadbox."
+      },
+      {
+        "heading": "Why It Matters",
+        "text": "The 8450A matters because it marks the moment the mainstream analytical bench instrument stopped being a dial-and-meter device and became an interactive computer terminal. Its interaction model — task-oriented commands, live CRT echo, cursor-based error correction, state-operated sequencing — is a genuine, documented HCI design, applied not to a toy or an office machine but to a daily chemistry instrument. It brought the command line into the laboratory, and it is distinct from the museum's other scientific terminals (the Tektronix 7854 digitizing oscilloscope and HP 64000 logic development system) because its whole point is expressive, interactive spectral measurement rather than waveform digitization or logic debugging."
+      }
+    ],
+    "team": [
+      {
+        "name": "Barry G. Willis",
+        "note": "Project manager for the 8450A development; co-author of the 'Task-Oriented Approach to Spectrophotometry' HP Journal article."
+      },
+      {
+        "name": "Arthur Schleifer",
+        "note": "Co-author of the task-oriented approach article."
+      },
+      {
+        "name": "Hewlett-Packard (Avondale, Pennsylvania)",
+        "note": "Manufacturer. The 8450A came from HP's analytical instrument division (later Agilent Technologies)."
+      }
+    ],
+    "media": [
+      {
+        "src": "https://www.hparchive.com/Journals/HPJ-1980-02.pdf",
+        "alt": "The February 1980 Hewlett-Packard Journal issue dedicated to the 8450A Diode Array Spectrophotometer, whose cover photographs the instrument",
+        "caption": "The HP Journal, Vol. 31, No. 2 (February 1980) is a special issue on the HP 8450A. The front-cover photograph of the instrument (from this period-publication scan) serves as the exhibit hero image."
+      }
+    ],
+    "sources": [
+      {
+        "text": "Hewlett-Packard Journal, Vol. 31, No. 2, February 1980 — special issue on the HP 8450A Diode Array Spectrophotometer; articles cover the instrument design, the microcomputer controller (five-inch CRT, 16x32 display, two 256-point plots, interactive keyboard), and the 'Task-Oriented Approach to Spectrophotometry' command language with echo and cursor-based error correction",
+        "url": "https://www.hparchive.com/Journals/HPJ-1980-02.pdf"
+      },
+      {
+        "text": "Hewlett-Packard Journal, Vol. 31, No. 2, February 1980 (mirror)",
+        "url": "https://www.worldradiohistory.com/HP_Journal/1980/HPJ-1980-02.pdf"
+      }
+    ],
+    "imageUrls": [
+      "https://www.hparchive.com/Journals/HPJ-1980-02.pdf"
+    ]
+  },
+  "savedImages": [
+    "images/hp-8450a-cover.jpg"
+  ]
+}
