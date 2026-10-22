@@ -3751,6 +3751,45 @@ const exhibitData: Exhibit[] = [
     tags: ["Camera", "Input", "Still Video", "Telephony", "Field Data Capture", "Acoustic Coupler"],
     image: img("qv1000c.jpg"),
   },
+  {
+    id: "hp-8450a",
+    slug: "hp-8450a",
+    wikiTitle: "HP 8450A Diode-Array Spectrophotometer",
+    year: "1979",
+    sortYear: 1979,
+    title: "HP 8450A",
+    subtitle: "The first commercial diode-array spectrophotometer grabbed a whole spectrum in under a second — fast enough that HP turned the lab instrument into an interactive command-line terminal",
+    blurb:
+      "The HP 8450A (1979) was the first commercial UV-visible spectrophotometer built around a photodiode array. Instead of mechanically sweeping a grating one wavelength at a time, it passed wideband light through the sample into a spectrograph and read the entire 200-800 nm spectrum at once in under a second. That speed let HP rethink the interface: because a scan was nearly instant, the machine could be interactive. The chemist typed task-oriented commands on a full keyboard — MEAS (7.22 + 7.127 * LOG (ABS 426-440/ABS 554-566)) EXECUTE — watched each keystroke echo onto a five-inch CRT, and got live cursor-based error correction whenever a command was mistyped. It was state-operated and command-driven: the moment a mainstream analytical bench instrument stopped being a dial-and-meter box and started behaving like an interactive terminal. HP's own word was 'friendly.'",
+    tags: ["Scientific Instrument", "Spectrophotometer", "Command-Line Interface", "Interactive Terminal", "Photodiode Array", "CRT Display"],
+    image: img("hp-8450a.jpg"),
+  },
+  {
+    id: "ssl-sl4000-total-recall",
+    slug: "ssl-sl4000-total-recall",
+    wikiTitle: "SSL SL 4000 E — Total Recall",
+    year: "1979",
+    sortYear: 1979,
+    title: "SSL SL 4000 E — Total Recall",
+    subtitle: "The first digitally-automated mixing console to 'remember' every knob — but on recall the machine doesn't move the controls; a color-coded display guides a human operator's hands to re-turn each pot, making the engineer the servo in the loop",
+    blurb:
+      "The SSL SL 4000 E (1979) was the console that automated the recording-studio mix. Solid State Logic's earlier B Series had motorized the master faders under computer control, but a large-format console has hundreds of rotary pots — every channel's gain, EQ, and send — far too costly to motorize. So SSL's Total Recall solved machine memory with the operator's own hands: the console's computer saved the position of every control to a 5¼-inch floppy disk, and on recall lit a color-coded display beside each pot that was 'out of position,' telling the engineer which direction to turn it. The engineer physically re-turned every pot until the display stopped nagging, and the mix was 'recalled.' The machine held the state; the human was the actuator — the inverse of every later automatic recall, and a vivid specimen of machine-remembers-human-restores.",
+    tags: ["Professional Audio", "Mixing Console", "Console Automation", "Human-as-Actuator", "Machine Memory", "Total Recall"],
+    image: img("ssl-sl4000g.jpg"),
+  },
+  {
+    id: "harrison-seriesten",
+    slug: "harrison-seriesten",
+    wikiTitle: "Harrison SeriesTEN",
+    year: "1988",
+    sortYear: 1988,
+    title: "Harrison SeriesTEN",
+    subtitle: "Billed as the world's first digitally controlled analog console with automation — it traded the wall of knobs for a few software-assignable controls per channel, so the meaning of a physical knob changes with whatever function you've told the machine you're editing",
+    blurb:
+      "The Harrison SeriesTEN (1988) is widely described as the world's first digitally controlled analog mixing console with automation, and it represents the opposite design pole from its contemporaries. Instead of keeping hundreds of physical pots and automating their recall the way SSL's Total Recall did, the SeriesTEN gave each channel strip only a small set of assignable knobs whose function the software redefines. The same physical control becomes gain now, an EQ band a moment later, a send the next — the knob's meaning is no longer printed on the panel in ink but lives in whatever task the operator has selected. Where SSL kept every pot and guided the human to restore positions, the SeriesTEN made a few physical controls carry many software-defined meanings, with the current assignment read from the console's display rather than the panel graphics. It is the assignable-controls answer to the same 1980s problem, and the direct ancestor of the context-sensitive knobs of the modern DAW.",
+    tags: ["Professional Audio", "Mixing Console", "Assignable Controls", "Digitally Controlled Analog", "Console Automation", "Software-Defined Controls"],
+    image: img("harrison-seriesten.jpg"),
+  },
 ];
 
 export const exhibits: Exhibit[] = exhibitData.toSorted((a, b) => b.sortYear - a.sortYear || a.title.localeCompare(b.title));

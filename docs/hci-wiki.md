@@ -305,6 +305,9 @@ Each entry includes an overview, a deep dive, a small media gallery, and full so
      295. [Ferranti MRT-100 / MRT-200 Market Research Terminal (1983)](#ferranti-mrt-100--mrt-200-market-research-terminal-1983)
      296. [AMS AudioFile (1984)](#ams-audiofile-1984)
      297. [Nikon QV-1000C Still Video Camera System (1988)](#nikon-qv-1000c-still-video-camera-system-1988)
+     298. [HP 8450A Diode-Array Spectrophotometer (1979)](#hp-8450a-diode-array-spectrophotometer-1979)
+     299. [SSL SL 4000 E — Total Recall (1979)](#ssl-sl-4000-e--total-recall-1979)
+     300. [Harrison SeriesTEN (1988)](#harrison-seriesten-1988)
   
 ---
 
@@ -13314,3 +13317,106 @@ For transmission, the disk was inserted into the separate QT-1000C transmitter, 
 1. Nikon QV-1000C — Wikipedia (first filmless camera by Nikon, announced 26 August 1988) — https://en.wikipedia.org/wiki/Nikon_QV-1000C
 2. Nikon Museum — QV-1000C exhibit — https://www.nikon.com/company/corporate/history/museum/
 3. File:Nikon QV1000C front-left 2015 Nikon Museum.jpg — Wikimedia Commons — https://commons.wikimedia.org/wiki/File:Nikon_QV1000C_front-left_2015_Nikon_Museum.jpg
+
+---
+
+## HP 8450A Diode-Array Spectrophotometer (1979)
+
+**By:** Hewlett-Packard (Avondale, Pennsylvania, USA)  
+**Tags:** `Scientific Instrument` `Spectrophotometer` `Command-Line Interface` `Interactive Terminal` `Photodiode Array` `CRT Display`
+
+### Overview
+
+The HP 8450A (1979) was the first commercial UV-visible spectrophotometer built around a photodiode array. Where a conventional spectrophotometer swept a grating mechanically to measure one wavelength at a time, the 8450A passed wideband light through the sample into a spectrograph that dispersed it onto two 210-element photodiode arrays, reading the entire 200-800 nm spectrum simultaneously in under one second. Because a scan was effectively instant, HP redesigned the interaction around speed: the 8450A stopped being a dial-and-meter box and became an interactive, state-operated terminal with a built-in five-inch CRT and a task-oriented command keyboard. It was, in HP's own words, a "user-oriented" and "friendly" machine.
+
+### Deep dive
+
+* **Reversed optics capture the whole spectrum at once.** The 8450A reversed traditional design: wideband light passed through the sample into a spectrograph, dispersing all wavelengths simultaneously onto the diode array rather than sweeping serially. Acquiring the full spectrum in under a second removed the old "one time constant per resolution element" bottleneck and made interactive measurement possible — results could be obtained, viewed, and acted upon in real time.
+* **The instrument as interactive terminal.** A built-in five-inch-diagonal CRT displayed up to 16 lines of 32 characters plus two 256-point plot areas; the vertical-scan display was chosen to plot spectra efficiently. The operator drove the machine with a task-oriented command language entered on a full keyboard arranged so a command's keystroke flow ran from upper-left to lower-right and ended on an EXECUTE key.
+* **A command line for chemistry.** Commands mixed spectral operations, arithmetic, and display — the explicit form "DISPLAY TO PLOT ABSORBANCE 350 TO 700 EXECUTE," or a direct pH calculation: "MEAS (7.22 + 7.127 * LOG (ABS 426-440/ABS 554-566)) EXECUTE." The machine was largely state-operated: operational definitions could be set up and sequenced regardless of keyboard entry order.
+* **Echo, error-checking, and cursor-based correction.** Each keystroke was echoed on the CRT and error-checked; on a mistake the system moved a cursor to the offending entry, beeped, and displayed an explanation, and the operator could insert, delete, or replace keystrokes in the line — a command-line terminal's editing affordance transplanted into a chemistry instrument.
+* **A minicomputer in a breadbox.** A built-in controller used HP's new silicon-on-sapphire (SOS) microprocessor, an external 16-bit multiplier for the ~20,000 multiplications a second a scan demanded, 57,344 bytes of preprogrammed ROM, and 32-64 KB of dynamic RAM storing seven to twenty-five complete spectra. The "friendly" personality lived in the ROMs.
+
+### Team
+
+* **Barry G. Willis.** HP; project manager for the 8450A and co-author of the "Task-Oriented Approach to Spectrophotometry" HP Journal article.
+* **Arthur Schleifer.** HP; co-author of the task-oriented approach article.
+* **Hewlett-Packard (Avondale, Pennsylvania).** Manufacturer, analytical instrument division (later Agilent Technologies).
+
+### Media
+
+![HP 8450A Diode Array Spectrophotometer on the cover of the February 1980 HP Journal](../assets/wiki/hp-8450a.jpg)
+*The HP Journal, Vol. 31, No. 2 (February 1980), a special issue on the HP 8450A, whose cover photographs the instrument. Period publication scan via HP Archive.*
+
+### Sources
+
+1. Hewlett-Packard Journal, Vol. 31, No. 2 (February 1980), special issue on the HP 8450A — https://www.hparchive.com/Journals/HPJ-1980-02.pdf
+2. Hewlett-Packard Journal, Vol. 31, No. 2 (February 1980) (mirror) — https://www.worldradiohistory.com/HP_Journal/1980/HPJ-1980-02.pdf
+
+---
+
+## SSL SL 4000 E — Total Recall (1979)
+
+**By:** Solid State Logic Ltd. (Begbroke, Oxfordshire, England)  
+**Tags:** `Professional Audio` `Mixing Console` `Console Automation` `Human-as-Actuator` `Machine Memory` `Total Recall`
+
+### Overview
+
+The SSL SL 4000 E (1979) was the console that automated the recording-studio mix. Solid State Logic's earlier B Series had already motorized the master faders under computer control, but a large-format console has hundreds of rotary pots — every channel's gain, EQ, and send — far too costly to motorize. So SSL's Total Recall solved machine memory with the operator's own hands: the console's computer saved the position of every control to a 5¼-inch floppy disk and, on recall, lit a color-coded display beside each pot that was "out of position," telling the engineer which direction to turn it. The engineer physically re-turned every control until the display stopped nagging, and the mix was "recalled." The machine held the state; the human was the actuator.
+
+### Deep dive
+
+* **From pipe organs to studio consoles.** SSL founder Colin Sanders built electronic control systems for pipe organs; the company's name described the transistor/FET switching he sold to organ builders. When he wanted a console with settings recall that didn't exist, he built two computer-controlled SL 4000 A prototypes himself for his own Acorn Studios. Automation was in SSL's founding logic, not a later retrofit.
+* **The computer meets the inline console (1976).** The 1976 B Series married the SL 4000 in-line console design to a computer providing fader automation and programmable tape-transport auto-location. Only six were built (Abbey Road, Le Studio, Virgin's Townhouse, Tocano). These treated the mix as data, but only the faders moved under machine control.
+* **Total Recall: the human is the actuator (1979).** The E Series added Total Recall. Because hundreds of rotary pots couldn't be motorized, the computer saved every control position to floppy and, on recall, lit a color-coded display telling the engineer which pots were wrong and which way to turn them. Sound on Sound described it as a lot of manual control alignment — accurate and impressive, but certainly not instant or automatic.
+* **Moving faders and the definitive studio sound (1987+).** The 1987 G Series brought the motorized moving faders that automated the mix itself, while Total Recall for the rotary pots remained. The E/G family, with a compressor/gate on every channel and a master bus compressor, became the canonical pop, rock, and R&B studio sound of the 1980s and '90s; SSL's 1996 Billboard data put 83% of that year's number-one singles on SSL consoles. The SL 4000 entered the TECnology Hall of Fame in 2004.
+
+### Team
+
+* **Colin Sanders.** Founder of SSL (1969); designed the SL 4000 A prototypes himself for his own Acorn Studios.
+* **Solid State Logic Ltd.** Manufacturer, Begbroke, Oxfordshire, England; founded 1969 as a pipe-organ control systems maker. Now part of the Audiotonix Group.
+* **George Martin.** Collaborated on the E Series' new four-band EQ section (1979).
+
+### Media
+
+![An SSL SL 4000 G+ console at Townhouse Studios, London (serial #1000)](../assets/wiki/ssl-sl4000g.jpg)
+*An SSL SL 4000 G+ console (Townhouse Studios, London, serial #1000). The E/G family is the console whose Total Recall guided the engineer's hands to recall saved mixes. Photo via Wikimedia Commons / Solid State Logic.*
+
+### Sources
+
+1. Solid State Logic — Wikipedia (founded 1969 by Colin Sanders; 1976 B series computer fader automation; 1979 E series save/recall; 1987 G series) — https://en.wikipedia.org/wiki/Solid_State_Logic
+2. Solid State Logic SL 4000 — Wikipedia (Total Recall saves all rotary controls to a 5¼-inch floppy and recalls via a color-coded display guiding the operator to manually realign each control) — https://en.wikipedia.org/wiki/Solid_State_Logic_SL_4000
+3. File:SSL SL4000G+.jpg — Wikimedia Commons — https://commons.wikimedia.org/wiki/File:SSL_SL4000G%2B.jpg
+
+---
+
+## Harrison SeriesTEN (1988)
+
+**By:** Harrison Audio (Nashville, Tennessee, USA)  
+**Tags:** `Professional Audio` `Mixing Console` `Assignable Controls` `Digitally Controlled Analog` `Console Automation` `Software-Defined Controls`
+
+### Overview
+
+The Harrison SeriesTEN (1988) is widely described as the world's first digitally controlled analog mixing console with automation, and it represents the opposite design pole from its contemporaries. Instead of keeping hundreds of physical pots and automating their recall the way SSL's Total Recall did, the SeriesTEN gave each channel strip only a small set of assignable knobs whose function the software redefines. The same physical control becomes gain now, an EQ band a moment later, a send the next — the knob's meaning is no longer printed on the panel in ink but lives in whatever task the operator has selected. The analog audio path remained fully analogue, combining the hands-on feel of an analog desk with a computer-defined control surface.
+
+### Deep dive
+
+* **Nashville, the 32C, and Dave Harrison.** Harrison Audio was founded in Nashville in 1975 by Dave Harrison. The company's 32C console became a studio staple on records and scores, establishing Harrison as a serious large-format console maker before the SeriesTEN.
+* **Digitally controlled analog with automation.** The SeriesTEN is described as the world's first digitally controlled analog console with automation: the signal path stayed analogue, but the console's computer governed the control surface and recalled settings.
+* **The assignable-controls interaction model.** The museum-relevant interaction is the reassignment itself. On a conventional console a knob's meaning is fixed and legible from its printed label; on the SeriesTEN the same knob can be gain, an EQ frequency, a send level, or a pan depending on the selected mode, with the current assignment read from the console's display rather than the panel graphics. This "few physical controls, many software-defined meanings" model is the precise inverse of SSL's Total Recall, which kept every pot and instead guided the human to restore positions.
+* **Legacy.** The SeriesTEN's software-defined physical controls are a concrete early example of the pattern that dominates modern audio production, where a single bank of knobs controls whatever the software currently selects — the direct ancestor of the plug-in-era "virtual knobs" of the modern DAW.
+
+### Team
+
+* **Dave Harrison.** Founder of Harrison Audio (Nashville, 1975); led the company's console design including the 32C and the digitally controlled SeriesTEN.
+* **Harrison Audio.** Manufacturer, Nashville, Tennessee, USA; founded 1975. Now part of the Audiotonix Group.
+
+### Media
+
+![A Harrison SeriesTEN mixing console, whose channel controls were software-assignable](../assets/wiki/harrison-seriesten.jpg)
+*A Harrison SeriesTEN, captioned by the photographer as the "worlds first digitally controlled analog console, with automation." The desk's controls were software-assignable: a small set of physical knobs per channel carried many logical functions. Photo by AudioHead, CC BY-SA 4.0.*
+
+### Sources
+
+1. File:HarrisonSeriesTEN.jpg — Wikimedia Commons ("Harrison SeriesTEN - Worlds first digitally controlled analog console, with automation"; CC BY-SA 4.0) — https://commons.wikimedia.org/wiki/File:HarrisonSeriesTEN.jpg
+2. Harrison Audio (official) — company history, founded Nashville 1975 by Dave Harrison — https://harrisonaudio.com
