@@ -1,0 +1,74 @@
+{
+  "slug": "harrison-seriesten",
+  "title": "Harrison SeriesTEN",
+  "year": "1988",
+  "subtitle": "the first digitally controlled analogue mixing console with automation — it traded the wall of knobs for a handful of software-assignable controls per channel, so the meaning of a physical knob changes depending on what function you've told the machine you're editing",
+  "why_scout_cares": "The Harrison SeriesTEN (1988) is billed as the world's first digitally controlled analog console with automation, and it represents the opposite design pole from its contemporaries: instead of keeping hundreds of physical pots and automating their recall (as SSL's Total Recall did), the SeriesTEN gave each channel strip only a small set of assignable knobs whose function the software redefines. The same physical control becomes gain now, an EQ band a moment later, a send the next — the knob's meaning is no longer printed on the panel in ink but lives in whatever task the operator has selected. This is a genuinely distinct interaction model from the museum's existing pro-studio instruments and its sibling SSL Total Recall candidate: it is the machine-owns-the-few-controls answer to the machine-guides-many-controls answer, and together the two document the fork between 'assignable controls' and 'recall with human actuation' that defined how console automation was conceived in the 1980s. Harrison, founded in Nashville by Dave Harrison in 1975, built the 32C and other legendary desks before the SeriesTEN, and the SeriesTEN image on Commons (CC BY-SA 4.0) explicitly labels it 'Worlds first digitally controlled analog console, with automation.' It is a concrete, image-rich specimen of software-defined physical controls in a professional tool.",
+  "search_terms": ["Harrison SeriesTEN", "Harrison Series Ten console", "digitally controlled analog console", "Harrison assignable controls", "Harrison console automation", "Dave Harrison Nashville", "SeriesTEN 1988"],
+  "research": {
+    "title": "Harrison SeriesTEN",
+    "year": "1988",
+    "by": "Harrison Audio (Nashville, Tennessee, USA)",
+    "tags": ["HCI", "Professional Audio", "Mixing Console", "Assignable Controls", "Digitally Controlled Analog", "Console Automation", "Software-Defined Controls"],
+    "overview": "The Harrison SeriesTEN, introduced around 1988, is widely described as the world's first digitally controlled analog mixing console with automation. Rather than the wall of dedicated rotary pots and switches that defined large-format desks up to that point, the SeriesTEN gave each channel strip a compact set of controls whose functions were software-assignable: the operator selects what a knob edits (gain, an EQ band, an aux send, a pan position) and the machine reinterprets the physical control accordingly, with the current assignment shown on the associated display. Because the analog audio path remained fully analogue, it combined the hands-on, continuous feel of an analog desk with a computer-defined control surface — the same philosophy that Harrison would later extend in its more famous consoles and that directly foreshadows the plug-in-era 'virtual knobs' of modern DAWs. Harrison, founded in Nashville in 1975 by Dave Harrison, had built a series of respected desks (including the 32C, used on classic records) before the SeriesTEN, and the SeriesTEN is its first digitally controlled console. A CC BY-SA 4.0 photo on Wikimedia Commons is captioned 'Harrison SeriesTEN - Worlds first digitally controlled analog console, with automation.' The candidate is best understood as the assignable-controls answer to SSL's Total Recall human-actuation answer to the same 1980s problem: how to give a computer memory of a mix without giving the desk a motor for every control.",
+    "deepDive": [
+      {
+        "heading": "Origins: Nashville, the 32C, and Dave Harrison",
+        "text": "Harrison Audio was founded in Nashville, Tennessee, in 1975 by Dave Harrison. The company's 32C console became a studio staple on records and scores (notably used for films), establishing Harrison as a serious large-format console maker. The SeriesTEN was Harrison's move into computer-controlled consoles — an attempt to bring digital recall and automation to the analog mixing workflow."
+      },
+      {
+        "heading": "Digitally Controlled Analog with Automation",
+        "text": "The SeriesTEN is described as the world's first digitally controlled analog console with automation: the signal path stayed analogue, but the console's computer governed the control surface and recalled settings. The key to its interaction model is that the controls were assignable — a small set of physical knobs per channel whose functions the software redefined depending on what was being edited. Rather than one dedicated pot per function (a wall of controls), the SeriesTEN made a few physical knobs carry many logical functions, with the current assignment indicated on the panel. This is the direct ancestor of the modern DAW's context-sensitive knobs and of every later 'assignable' control surface."
+      },
+      {
+        "heading": "The Assignable-Controls Interaction Model",
+        "text": "The museum-relevant interaction is the reassignment itself. On a conventional console, a knob's meaning is fixed and legible from its printed label and position in a labeled column; on the SeriesTEN, the same knob can be gain, an EQ frequency, a send level, or a pan depending on the selected mode. The physical layout stays small and consistent while the software re-annotates it, and the operator must read the current assignment from the console's display rather than from the panel graphics. This 'few physical controls, many software-defined meanings' model is the precise inverse of the SSL SL 4000's Total Recall, which kept every pot and instead guided the human to restore positions. Together they bracket the two ways a 1980s console could let a computer share the mixing task."
+      },
+      {
+        "heading": "Legacy",
+        "text": "Harrison's assignable/digitally-controlled approach continued through its later work and influenced how large-format desks handled automation and DAW control. The SeriesTEN's software-defined physical controls are a concrete early example of the pattern that dominates modern audio production, where a single bank of knobs or a mouse gesture controls whatever the software currently selects. For the museum, it documents the moment the physical control surface of a professional instrument first became a re-mappable, computer-driven abstraction."
+      },
+      {
+        "heading": "Why It Matters",
+        "text": "The SeriesTEN matters because it made physical controls abstract. Before it, a studio console's panel was a fixed map of every function; the SeriesTEN turned that map into something the computer redraws on demand. That is a genuine HCI idea — one knob standing for many functions under software selection — and it is image-verified with a free photo that itself declares the console 'worlds first digitally controlled analog console, with automation.' It complements, rather than duplicates, the SSL Total Recall candidate as the other pole of 1980s console automation."
+      }
+    ],
+    "team": [
+      {
+        "name": "Dave Harrison",
+        "note": "Founder of Harrison Audio (Nashville, 1975); led the company's console design including the 32C and the digitally controlled SeriesTEN."
+      },
+      {
+        "name": "Harrison Audio",
+        "note": "Manufacturer. Nashville, Tennessee, USA. Founded 1975. Now part of the Audiotonix Group."
+      }
+    ],
+    "media": [
+      {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/6/6b/HarrisonSeriesTEN.jpg",
+        "alt": "A Harrison SeriesTEN mixing console — the digitally controlled analog desk whose channel controls were software-assignable",
+        "caption": "A Harrison SeriesTEN, captioned by the photographer as the 'worlds first digitally controlled analog console, with automation.' The desk's controls were software-assignable: a small set of physical knobs per channel carried many logical functions. Photo by AudioHead, CC BY-SA 4.0."
+      }
+    ],
+    "sources": [
+      {
+        "text": "Wikimedia Commons: File:HarrisonSeriesTEN.jpg ('Harrison SeriesTEN - Worlds first digitally controlled analog console, with automation'; CC BY-SA 4.0)",
+        "url": "https://commons.wikimedia.org/wiki/File:HarrisonSeriesTEN.jpg"
+      },
+      {
+        "text": "Harrison Audio (official): company history — founded Nashville 1975 by Dave Harrison; 32C and later digitally controlled consoles",
+        "url": "https://harrisonaudio.com"
+      },
+      {
+        "text": "Sound on Sound 'Oracle' article on Harrison's digitally controlled consoles (specific 'five assignable knobs per channel' detail corroborated at research time). NOTE: SOS URLs now return HTTP 410 (Gone) — re-verify the current article URL before promotion.",
+        "url": ""
+      }
+    ],
+    "imageUrls": [
+      "https://upload.wikimedia.org/wikipedia/commons/6/6b/HarrisonSeriesTEN.jpg"
+    ]
+  },
+  "savedImages": [
+    "images/harrison-seriesten.jpg"
+  ]
+}

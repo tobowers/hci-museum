@@ -1,0 +1,93 @@
+{
+  "slug": "ssl-sl4000-total-recall",
+  "title": "SSL SL 4000 E — Total Recall",
+  "year": "1979",
+  "subtitle": "the first digitally-automated mixing console to 'remember' every knob position — but on recall the machine doesn't move the controls itself; a color-coded display guides a human operator's hands as they physically re-turn each pot to its stored value, making the engineer the servo in the automation loop",
+  "why_scout_cares": "The SSL SL 4000 E (1979) is the console that automated the recording-studio mix, and its interaction model is a strange and revealing one. Solid State Logic's SL 4000 B (1976) had already motorized the master faders under computer control. But a large-format console has hundreds of rotary pots — every channel's gain, EQ, and send — that were far too costly to motorize. So SSL's Total Recall, introduced on the E series, solved machine memory with the operator's own hands: the computer saved the position of every control to a 5¼-inch floppy disk and, on recall, lit a color-coded display that told the engineer exactly which pots were 'wrong' and in which direction, until the engineer had physically re-turned every control back to its stored value. The machine held the state; the human was the actuator. It is the inverse of every later 'recall' we now take for granted, and a vivid moment in the history of console automation — the moment a computer first said 'I remember this mix,' and had to ask a pair of hands to make the world match its memory. The E series, with its compressor/gate on every channel and master bus compressor, also became the defining sound of 1980s records (SSL claims more platinum albums than any other console maker), and its Total Recall console at Sonic Ranch (with G+ software) is photographed on Commons. For a museum that values 'interaction model is the point,' Total Recall is a pristine specimen of the machine-remembers-human-restores division of labor.",
+  "search_terms": ["SSL SL 4000 E", "SSL Total Recall", "Solid State Logic SL 4000", "console automation recall", "fader automation history", "human as actuator recall", "SL 4000 E series 1979", "Sonic Ranch SSL 4000"],
+  "research": {
+    "title": "SSL SL 4000 E — Total Recall",
+    "year": "1979",
+    "by": "Solid State Logic Ltd. (Begbroke, Oxfordshire, England)",
+    "tags": ["HCI", "Professional Audio", "Mixing Console", "Console Automation", "Human-as-Actuator", "Machine Memory", "Total Recall"],
+    "overview": "Solid State Logic was founded in 1969 by Colin Sanders, initially building solid-state control systems for pipe organs; the name described the transistor/FET switching then new to organ builders. When Sanders wanted a recording console with routing flexibility and settings recall for his own Acorn Studios, he designed and built two computer-controlled consoles himself, the SL 4000 A prototypes, which offered one-button switching between recording, tracking, and mixdown modes. In 1976 SSL married the SL 4000 in-line console design to a computer providing fader automation and programmable tape-transport auto-location, and built six B Series consoles (Abbey Road, Le Studio, Virgin's Townhouse, Tocano). The SL 4000 E Series, introduced in 1979, added a new four-band EQ developed with George Martin and — most notably for HCI — introduced the ability to save and recall mixer settings, along with a compressor and gate on every channel and the master bus compressor. That save-and-recall system was Total Recall: the console's computer wrote the position of every control to a floppy disk, and on recall a color-coded display guided the operator to physically realign each non-motorized pot to its stored position. The G Series followed at the 1987 AES New York Convention, adding the motorized 'moving faders' that would later define automated mixdown. The E/G series became the sound of the 1980s and '90s — SSL reports that by 2004 more than 3,000 facilities were SSL-equipped, and a 1996 Billboard chart found 83% of that year's number-one singles were made on an SSL. The SL 4000 series was inducted into the TECnology Hall of Fame in 2004 and SSL received a Technical Grammy in 2004.",
+    "deepDive": [
+      {
+        "heading": "Origins: An Organ-Builder Builds a Console",
+        "text": "SSL's founder Colin Sanders built electronic control systems for pipe organs. The company's very name — Solid State Logic — was coined to describe the transistor/FET switching he sold to organ builders. When he opened Acorn Studios in Oxfordshire and wanted a console with routing flexibility and settings recall that didn't exist on any product, he built two prototypes himself: the SL 4000 A, computer-controlled consoles offering one-button switching between recording, tracking, and mixdown modes. This is why SSL, alone among console makers, treated the console as something a computer should manage from day one — automation was in the company's founding logic, not a later retrofit."
+      },
+      {
+        "heading": "The Computer Meets the Inline Console (1976)",
+        "text": "In 1976 SSL combined the SL 4000 in-line console with a computer that provided fader automation and programmable tape-transport auto-location. Only six B Series consoles were built: Abbey Road, Le Studio (Morin-Heights, Canada), Virgin's Townhouse, and Tocano among them. These already treated the mix as data a computer could reproduce, but the faders were the only moving, motorized elements; the hundreds of rotary controls were still turned by hand."
+      },
+      {
+        "heading": "Total Recall: The Human Is the Actuator (1979)",
+        "text": "The E Series (1979) introduced Total Recall, the feature that made the SSL famous and that gives this artifact its name. Because a large-format console has hundreds of rotary pots — every channel's gain, EQ bands, and sends — SSL could not afford to motorize them all. So the computer saved the position of every control to a 5¼-inch floppy disk and, on recall, lit a color-coded display beside each control that was 'out of position,' indicating the direction the pot needed to be turned. The engineer physically re-turned every pot to match, and when the display stopped nagging, the console had 'recalled' the saved mix. Sound on Sound describes it as a lot of manual control alignment — accurate and impressive, but certainly not instant or automatic. This is the interaction model the museum cares about: machine memory externalized into a guided physical choreography. The machine remembered; the hands restored. It is the opposite of the G series' later moving faders, and it illuminates an entire pre-motorization era of automation."
+      },
+      {
+        "heading": "Moving Faders and the Definitive Studio Sound (1987+)",
+        "text": "At the 1987 AES convention SSL introduced the G Series, which refined the EQ and — more importantly — brought the motorized moving faders that would automate the mix itself, physically driving each fader to its stored position for a fully automatic remix. Total Recall for the rotary pots remained, now paired with genuine fader automation. The E/G family, with its per-channel compressor/gate and master bus compressor, became the canonical pop, rock, and R&B studio sound of the 1980s and '90s, used by engineers Bob Clearmountain, Steve Lillywhite, Tom Lord-Alge, Alan Moulder, and Trevor Horn, at studios from The Power Station and Sarm to Larrabee and Battery. SSL's 1996 Billboard data put 83% of that year's #1 singles on SSL consoles; the company claims more platinum albums than any other maker. The SL 4000 series entered the TECnology Hall of Fame in 2004, and SSL won a Technical Grammy the same year."
+      },
+      {
+        "heading": "Why It Matters",
+        "text": "Total Recall sits at the hinge between hand-built analogue practice and computer-driven recall. Before it, 'recalling' a mix meant leaving the faders untouched and hoping nothing moved; after the G series and digital consoles, recall became a fully automatic, motorized, then purely virtual act. Total Recall is the brief, strange middle: a computer that can remember perfectly and yet, lacking motorized pots, must recruit a human to make the physical world conform to its memory. The engineer becomes a guided servo — the same 'follow the light' relationship the Yeoman plotter demanded of sailors, here applied to the knobs of a hit-making studio desk. It is a concrete, image-rich specimen of machine-memory-with-human-actuation, and a distinct interaction model with nothing like it in the museum's collection."
+      }
+    ],
+    "team": [
+      {
+        "name": "Colin Sanders",
+        "note": "Founder of SSL (1969); designed the SL 4000 A prototypes himself for his own Acorn Studios."
+      },
+      {
+        "name": "Solid State Logic Ltd.",
+        "note": "Manufacturer. Begbroke, Oxfordshire, England. Founded 1969 as a pipe-organ control systems maker; the name describes solid-state switching. Now part of the Audiotonix Group."
+      },
+      {
+        "name": "George Martin",
+        "note": "Collaborated on the E Series' new 4-band EQ section (1979)."
+      }
+    ],
+    "media": [
+      {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/3/33/SSL_SL4000G%2B.jpg",
+        "alt": "An SSL SL 4000 G+ console (Townhouse Studios, London, serial #1000) — the large-format desk whose computer and Total Recall system guided the operator's hands to recall saved mixes",
+        "caption": "SSL SL 4000 G+ at Townhouse Studios, London (serial #1000). The E/G family is the console whose Total Recall saved every control position to floppy and, on recall, lit a color-coded display guiding the engineer to re-turn each pot to its stored value. Photo via Wikimedia Commons / Solid State Logic."
+      },
+      {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/d/d9/SonicRanchAStudio.jpg",
+        "alt": "The A studio control room at Sonic Ranch, Texas, centered on an SSL 4000 E/G console equipped with 'G Series Computer, G+ Software and Total Recall'",
+        "caption": "The A Studio at Sonic Ranch, Tornillo, Texas — an SSL 4000 E/G console explicitly equipped with 'G Series Computer, G+ Software and Total Recall.' This is the desk whose recall interaction model the exhibit documents. Photo by Greenkal, CC BY-SA 3.0 / GFDL."
+      }
+    ],
+    "sources": [
+      {
+        "text": "Wikipedia: Solid State Logic (founded 1969 by Colin Sanders; SL 4000 A prototypes; 1976 B series with computer fader automation; 1979 E series introduced save/recall, compressor/gate per channel; 1987 G series; Technical Grammy 2004; TECnology Hall of Fame 2004)",
+        "url": "https://en.wikipedia.org/wiki/Solid_State_Logic"
+      },
+      {
+        "text": "Wikipedia: Solid State Logic SL 4000 (Total Recall: saves settings of all rotary controls to a 5¼-inch floppy and recalls via a color-coded display that guides the operator in manually realigning each physical control; early recall was not automatic)",
+        "url": "https://en.wikipedia.org/wiki/Solid_State_Logic_SL_4000"
+      },
+      {
+        "text": "Sound on Sound: SSL 4000 series vintage review ('there was a lot of manual alignment of controls involved in the recall, so while accurate and impressive, it certainly wasn't instant or automatic'). NOTE: cited URL now returns HTTP 410 (Gone); quote corroborated at time of research — re-find current URL before promotion.",
+        "url": ""
+      },
+      {
+        "text": "Wikimedia Commons: File:SSL SL4000G+.jpg (Townhouse Studios SL4000G+ Serial #1000)",
+        "url": "https://commons.wikimedia.org/wiki/File:SSL_SL4000G%2B.jpg"
+      },
+      {
+        "text": "Wikimedia Commons: File:SonicRanchAStudio.jpg (SSL 4000 E/G; 'G Series Computer, G+ Software and Total Recall', CC BY-SA 3.0 / GFDL)",
+        "url": "https://commons.wikimedia.org/wiki/File:SonicRanchAStudio.jpg"
+      }
+    ],
+    "imageUrls": [
+      "https://upload.wikimedia.org/wikipedia/commons/3/33/SSL_SL4000G%2B.jpg",
+      "https://upload.wikimedia.org/wikipedia/commons/d/d9/SonicRanchAStudio.jpg"
+    ]
+  },
+  "savedImages": [
+    "images/ssl-sl4000g.jpg",
+    "images/sonic-ranch-studio.jpg"
+  ]
+}
