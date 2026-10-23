@@ -1421,6 +1421,18 @@ const exhibitData: Exhibit[] = [
     image: img("adventure-vision-1.jpg"),
   },
   {
+    id: "entex-select-a-game",
+    slug: "entex-select-a-game",
+    wikiTitle: "Entex Select-A-Game",
+    year: "1981",
+    sortYear: 1981,
+    title: "Entex Select-A-Game",
+    subtitle: "A cartridge-based handheld where the base unit is only a VFD display and its power circuits — the microprocessor for each game lives inside the cartridge, so every cartridge is its own computer",
+    blurb: "The Entex Select-A-Game (1981, Model #6030) inverts the usual console architecture: instead of a smart console reading dumb cartridges, the console has 'no built-in processor power' and is 'basically a display and controller for the games' — each game cartridge contains its own microprocessor (the Space Invader 2 cartridge uses a Hitachi HD38800-A31). Inserting a cartridge literally installs a different computer; the base unit is nothing more than a generic vacuum-fluorescent display plus its power circuits. The display is a 7×16 VFD dot-matrix grid with alternating red and white rows, combined with a thin static playfield overlay shipped in each cartridge box. It is Entex's first cartridge-based handheld and the direct predecessor of the Adventure Vision already in the museum — Entex dropped the Select-a-Game in 1982 'in favor of the Adventure Vision'. With the Milton Bradley Microvision also in the museum, it is a second, VFD-based take on the cartridge-as-computer model. Only six cartridges ever shipped; Pac-Man 2 was pulled almost immediately after a 1981 copyright suit from Coleco, making it the rarest.",
+    tags: ["HCI", "Handheld", "Cartridge as Computer", "VFD Display", "Overlay", "Commercial Oddity", "Games"],
+    image: img("entex-select-a-game-1.jpg"),
+  },
+  {
     id: "bbc-domesday-project",
     slug: "bbc-domesday-project",
     wikiTitle: "BBC Domesday Project",

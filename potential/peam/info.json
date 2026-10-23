@@ -1,0 +1,57 @@
+{
+  "slug": "peam",
+  "title": "PEAM — Portable Electronic Aid to Maintenance",
+  "year": "1980-1987",
+  "subtitle": "the first portable electronic book — a Defense-Department project that put step-by-step maintenance procedures on a handheld reader for field technicians, a decade before consumer e-readers",
+  "why_scout_cares": "PEAM (Portable Electronic Aid to Maintenance) is widely credited as the first portable electronic book / portable electronic delivery device for technical information. The U.S. Department of Defense began concept development in 1980, detailed specifications were completed in FY 1981/82, and prototype development began with Texas Instruments that year. TI produced four prototypes, delivered for testing in 1986, with tests completed in 1987; the final summary report came in 1989 from the U.S. Army Research Institute for the Behavioral and Social Sciences (Robert Wisher and J. Peter Kincaid). TI filed a patent, 'Apparatus for delivering procedural type instructions', on 4 December 1985 (inventors John K. Harkins and Stephen H. Morriss). The interaction model is distinctive: unlike a general computer, PEAM was purpose-built to deliver procedural type instructions — a step-by-step electronic work-instruction reader for maintenance technicians, so they could consult repair/maintenance procedures in the field without paper manuals. It is a clear HCI milestone (the first portable procedural e-book, an information appliance in the strongest sense) and predates the consumer Sony Data Discman (1990) already in the museum, but is a different class of device: an industrial/military portable procedural reader rather than a consumer CD-ROM e-book player. Well-sourced, image available on Wikimedia Commons (CC BY-SA 4.0).",
+  "search_terms": ["PEAM", "Portable Electronic Aid to Maintenance", "portable electronic book", "first e-reader", "TI procedural instructions", "Apparatus for delivering procedural type instructions", "Harkins Morriss patent"],
+  "research": {
+    "title": "PEAM — Portable Electronic Aid to Maintenance",
+    "year": "1980-1987",
+    "by": "U.S. Department of Defense, with prototype development by Texas Instruments",
+    "tags": ["HCI", "Information Appliance", "Portable", "E-Reader", "Procedural Instructions", "Maintenance", "DoD"],
+    "overview": "PEAM (Portable Electronic Aid to Maintenance) is a U.S. Department of Defense project to build a portable electronic delivery device for technical maintenance information — widely regarded as the first portable electronic book. Concept development began in 1980; detailed specifications were completed in FY 1981/82, and prototype development with Texas Instruments began the same year. Four prototypes were produced and delivered for testing in 1986, tests were completed in 1987, and the final summary report was produced in 1989 by the U.S. Army Research Institute for the Behavioral and Social Sciences (Robert Wisher and J. Peter Kincaid). Texas Instruments filed a patent for the device, 'Apparatus for delivering procedural type instructions', on 4 December 1985, listing John K. Harkins and Stephen H. Morriss as inventors. The device was purpose-built to present step-by-step procedural instructions to maintenance technicians in the field — a portable, electronic alternative to bulky paper technical manuals.",
+    "deepDive": [
+      {
+        "heading": "Origins",
+        "text": "The U.S. Department of Defense began concept development for PEAM in 1980 as a portable electronic delivery device for technical maintenance information. The goal was to give maintenance technicians a way to consult complex repair/maintenance procedures in the field without carrying (and leafing through) heavy paper technical manuals. Detailed specifications were completed in FY 1981/82, at which point prototype development was contracted to Texas Instruments."
+      },
+      {
+        "heading": "Prototypes and the Patent",
+        "text": "Texas Instruments produced four PEAM prototypes, delivered for testing in 1986, with tests completed in 1987. On 4 December 1985 TI filed a patent application, 'Apparatus for delivering procedural type instructions', listing John K. Harkins and Stephen H. Morriss as inventors. The patent name itself is telling: the device's defining purpose is not computing or storage, but the structured, step-by-step delivery of procedural instructions — an early, focused embodiment of what we now call an electronic performance support system or procedural e-reader."
+      },
+      {
+        "heading": "The Interaction Model",
+        "text": "PEAM is an information appliance in the strongest sense: a dedicated portable reader engineered to present procedural instructions one step at a time to a technician working with their hands. Unlike a general-purpose computer, it had no need to be programmed or configured; the interaction is oriented around consulting and advancing through a sequence of instructions, making it a direct ancestor of today's step-by-step e-book and field-service instruction readers. It is fundamentally different from the consumer Sony Data Discman (1990) already in the museum, which was a CD-ROM e-book player driven by a scripted Yes/No dialogue retrieval flow."
+      },
+      {
+        "heading": "Legacy",
+        "text": "PEAM is generally cited as the first portable electronic book / portable electronic delivery device for technical information, and it is recognized as a milestone in the 'Timeline of ebooks'. The final summary report (1989) by Robert Wisher and J. Peter Kincaid at the U.S. Army Research Institute documented the trials. It predates the commercial e-reader era by a decade and is a clear precursor to the Data Discman and later dedicated reading devices, but from the industrial/military rather than consumer lineage."
+      }
+    ],
+    "team": [
+      { "name": "U.S. Department of Defense", "note": "Sponsor and project owner; concept development began 1980." },
+      { "name": "Texas Instruments", "note": "Prototype developer; produced four prototypes, delivered 1986." },
+      { "name": "John K. Harkins & Stephen H. Morriss", "note": "TI patent inventors of 'Apparatus for delivering procedural type instructions' (filed 4 Dec 1985). Stephen H. Morriss also photographed the device for the Commons image." },
+      { "name": "Robert Wisher & J. Peter Kincaid", "note": "U.S. Army Research Institute for the Behavioral and Social Sciences; authors of the 1989 final summary report." }
+    ],
+    "media": [
+      {
+        "src": "https://commons.wikimedia.org/wiki/Special:FilePath/Personal_Electronic_Aid_to_Maintenance_PEAM.jpg",
+        "alt": "PEAM portable electronic aid to maintenance device — a hand-held procedural instruction reader",
+        "caption": "PEAM, the Portable Electronic Aid to Maintenance (c. 1986). A hand-held electronic device for delivering step-by-step maintenance procedures in the field — generally credited as the first portable electronic book. Photo by Stephen H. Morriss, CC BY-SA 4.0, via Wikimedia Commons."
+      }
+    ],
+    "sources": [
+      { "text": "Wikipedia: Timeline of ebooks (PEAM project chronology, 1980-1989)", "url": "https://en.wikipedia.org/wiki/Timeline_of_ebooks" },
+      { "text": "Wikipedia: Ebook ('first portable electronic book'; patent details; inventors Harkins and Morriss)", "url": "https://en.wikipedia.org/wiki/Ebook" },
+      { "text": "Wikimedia Commons: File:Personal_Electronic_Aid_to_Maintenance_PEAM.jpg (CC BY-SA 4.0)", "url": "https://commons.wikimedia.org/wiki/File:Personal_Electronic_Aid_to_Maintenance_PEAM.jpg" }
+    ],
+    "imageUrls": [
+      "https://commons.wikimedia.org/wiki/Special:FilePath/Personal_Electronic_Aid_to_Maintenance_PEAM.jpg"
+    ]
+  },
+  "savedImages": [
+    "peam-1.jpg"
+  ]
+}
