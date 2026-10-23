@@ -1,6 +1,6 @@
 # The HCI Golden Age Wiki
 
-A research compendium for a digital museum of cutting-edge Human-Computer Interaction from the late 1970s through the early 1990s. These two hundred and ninety-nine projects mix canonical experiments with weird, forgotten, and beautiful vaporware — brain control, voice control, gesture, wearable computing, VR, robots, and full-body exertion.
+A research compendium for a digital museum of cutting-edge Human-Computer Interaction from the late 1970s through the early 1990s. These three hundred and one projects mix canonical experiments with weird, forgotten, and beautiful vaporware — brain control, voice control, gesture, wearable computing, VR, robots, and full-body exertion.
 
 Each entry includes an overview, a deep dive, a small media gallery, and full source links so the images and facts can always be traced back.
 
@@ -308,6 +308,7 @@ Each entry includes an overview, a deep dive, a small media gallery, and full so
      298. [HP 8450A Diode-Array Spectrophotometer (1979)](#hp-8450a-diode-array-spectrophotometer-1979)
      299. [SSL SL 4000 E — Total Recall (1979)](#ssl-sl-4000-e--total-recall-1979)
      300. [Harrison SeriesTEN (1988)](#harrison-seriesten-1988)
+     301. [Brother Punch-Card Knitting Machine (KH-860) (1985)](#brother-punch-card-knitting-machine-kh-860-1985)
   
 ---
 
@@ -13420,3 +13421,34 @@ The Harrison SeriesTEN (1988) is widely described as the world's first digitally
 
 1. File:HarrisonSeriesTEN.jpg — Wikimedia Commons ("Harrison SeriesTEN - Worlds first digitally controlled analog console, with automation"; CC BY-SA 4.0) — https://commons.wikimedia.org/wiki/File:HarrisonSeriesTEN.jpg
 2. Harrison Audio (official) — company history, founded Nashville 1975 by Dave Harrison — https://harrisonaudio.com
+
+## Brother Punch-Card Knitting Machine (KH-860) (1985)
+
+**By:** Brother Industries  
+**Tags:** `Domestic Appliance` `Physical Token` `Punched Card` `Programming` `Physical Output`
+
+### Overview
+
+The Brother KH-860 is a domestic flatbed knitting machine from the 1980s whose most distinctive feature is a punched-card pattern reader. Throughout that decade, Brother and Silver Reed dominated the home knitting-machine market with models that programmed their patterns the old way: you drew a design on squared paper, punched the holes by hand, and fed the finished card through a reader mounted above the needle bed as you pushed the carriage across. Each hole in a card row set a cam so the corresponding needle took a different path through the carriage — knitting, slipping, or tucking the yarn. One card row equalled one knitted row, so a repeating card produced a band of Fair Isle or textured pattern across the fabric. The principle descends unbroken from Jacquard's punched-card loom (1804) and Hollerith's tabulating cards — transplanted to a domestic appliance that most households used to make sweaters rather than compute.
+
+### Deep dive
+
+* **The punch card as a home program.** The interaction model is wonderfully anachronistic and thoroughly physical. You design on squared paper, punch the holes by hand, then load the card into a reader that advances one row per carriage pass. The card literally is the program: one row = one knitted row, and each punched position mechanically selects whether that needle knits, slips, or tucks on that pass. There is no microprocessor, no display, no menu — the "code" is a tangible object you hold, punch, and feed, and the output is fabric rather than computation. It is the closest thing most people ever had to operating a Jacquard loom at home.
+* **From Jacquard to the kitchen.** The lineage is direct and famous: Jacquard's punched-card loom of 1804 stored a weaving pattern as a chain of cards read by hooks; Herman Hollerith repurposed the card for tabulating the 1890 US census, founding what became IBM. The domestic knitting machine is a third great household expression of the same idea. The museum already holds the Pfaff Creative 1471, the microprocessor sewing machine that displaced cam-controlled stitches — the punch-card knitting machine is the mirror image, keeping the physical program, the cam-and-needle logic, and the hand-punched card long after the sewing machine went digital. The two appliances show two answers to the same domestic-programming problem.
+* **Selection, not storage.** Technically the card is a pattern selector rather than a stored program in the von Neumann sense — it switches needles between alternate cam pathways instead of holding instructions in memory. But from a human-computer-interaction standpoint the distinction barely matters: the user experiences a physical punched program whose rows map one-to-one onto output rows, exactly as a Jacquard weaver or an early tabulating clerk did. It is one of the most tactile "programming" interactions a non-programmer ever performed in a domestic setting.
+
+### Team
+
+* **Brother Industries.** Japanese maker of the KH-series flatbed knitting machines including the KH-860, a leading punch-card model of the 1980s.
+* **Silver Seiko Ltd. (Silver Reed).** The other dominant domestic knitting-machine maker of the era, also using punch-card pattern readers.
+
+### Media
+
+![A Brother KH-860 pattern punch card as shown in the machine manual](../assets/wiki/punch-card-kh-860.png)
+*A Brother KH-860 pattern card as illustrated in the machine manual — each row of punched holes selects one knitted row of the pattern. Photo by Clairewiwi, CC BY-SA 3.0.*
+
+### Sources
+
+1. Wikipedia — Knitting machine (punch-card pattern selection; Brother and Silver Reed as domestic makers) — https://en.wikipedia.org/wiki/Knitting_machine
+2. Wikipedia — Punched card (Jacquard lineage) — https://en.wikipedia.org/wiki/Punched_card
+3. Wikimedia Commons — File:Punch card kh 860.png (CC BY-SA 3.0) — https://commons.wikimedia.org/wiki/File:Punch_card_kh_860.png

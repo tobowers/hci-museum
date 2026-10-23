@@ -2081,6 +2081,18 @@ const exhibitData: Exhibit[] = [
     image: img("pfaff-select-1538.jpg"),
   },
   {
+    id: "brother-punch-card-knitting-machine",
+    slug: "brother-punch-card-knitting-machine",
+    sortYear: 1985,
+    wikiTitle: "Brother Punch-Card Knitting Machine (KH-860)",
+    year: "1985",
+    title: "Brother Punch-Card Knitting Machine (KH-860)",
+    subtitle: "A household knitting machine whose program is a deck of hand-punched cards — Jacquard's loom, on a kitchen counter",
+    blurb: "The Brother KH-860 (1980s) was a domestic flatbed knitting machine whose every pattern was punched by hand into a card and fed through a reader as you pushed the carriage. Each card row equaled one knitted row; each punched hole switched a needle into a different cam path so it knitted, slipped, or tucked — the Jacquard loom and IBM punch card transplanted to a kitchen appliance that made sweaters instead of computations. It is the physical-token mirror of the microprocessor sewing machine that displaced cam-controlled stitches in the same decade.",
+    tags: ["Domestic Appliance", "Physical Token", "Punched Card", "Programming", "Physical Output"],
+    image: img("punch-card-kh-860.png"),
+  },
+  {
     id: "strand-light-palette",
     slug: "strand-light-palette",
     sortYear: 1978,
