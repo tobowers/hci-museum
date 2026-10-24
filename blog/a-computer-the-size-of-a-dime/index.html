@@ -1,0 +1,99 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
+    <meta name="description" content="In 1990, Dallas Semiconductor put a computer in a steel can smaller than a watch battery. Touch it to a reader, and the machine knows who you are. No password, no card swipe, no biometrics — just touch." />
+    <meta property="og:title" content="A Computer the Size of a Dime — HCI Museum" />
+    <meta property="og:description" content="In 1990, Dallas Semiconductor put a computer in a steel can smaller than a watch battery. Touch it to a reader, and the machine knows who you are. No password, no card swipe, no biometrics — just touch." />
+    <meta property="og:site_name" content="HCI Museum" />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://interfacemuseum.com/" />
+    <meta property="og:image" content="https://interfacemuseum.com/og-image.png" />
+    <meta property="og:image:secure_url" content="https://interfacemuseum.com/og-image.png" />
+    <meta property="og:image:type" content="image/png" />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="630" />
+    <meta property="og:image:alt" content="HCI Museum CRT-style artifact wall with archival interface experiments" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="A Computer the Size of a Dime — HCI Museum" />
+    <meta name="twitter:description" content="In 1990, Dallas Semiconductor put a computer in a steel can smaller than a watch battery. Touch it to a reader, and the machine knows who you are. No password, no card swipe, no biometrics — just touch." />
+    <meta name="twitter:image" content="https://interfacemuseum.com/og-image.png" />
+    <meta name="twitter:image:alt" content="HCI Museum CRT-style artifact wall with archival interface experiments" />
+    <title>A Computer the Size of a Dime — HCI Museum</title>
+    <link rel="icon" type="image/gif" href="/favicon.gif" />
+    <link rel="icon" type="image/png" href="/favicon.png" />
+    <link rel="alternate" type="text/plain" title="HCI Museum llms.txt" href="/llms.txt" />
+    <link rel="alternate" type="application/rss+xml" title="HCI Museum Collection" href="/feeds/collection.xml" />
+    <link rel="alternate" type="application/rss+xml" title="HCI Museum Field Notes" href="/feeds/blog.xml" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="../../styles.css" />
+  </head>
+  <body>
+    <div class="atmosphere" aria-hidden="true">
+      <div class="atmosphere__grid"></div>
+      <div class="atmosphere__scanlines"></div>
+      <div class="atmosphere__vignette"></div>
+    </div>
+
+    <div class="page-shell">
+      <header class="site-header">
+        <a href="../../" class="brand">
+          <span class="brand__mark" aria-hidden="true"></span>
+          <span>HCI Museum</span>
+        </a>
+        <nav class="nav-primary" aria-label="Primary">
+          <a href="../../exhibits/">Exhibits</a>
+          <a href="../../blog/" class="active">Field Notes</a>
+          <a href="../../about/">About</a>
+        </nav>
+        <div class="header-meta">
+          <span class="header-meta__item">SYS_OK</span>
+          <span class="header-meta__pulse" aria-hidden="true"></span>
+        </div>
+      </header>
+
+      <main>
+
+        <article class="post">
+          <a href="../../blog/" class="post__back">&larr; Field Notes</a>
+          <header class="post__header">
+            <h1 class="post__title">A Computer the Size of a Dime</h1>
+            <p class="post__lede">In 1990, Dallas Semiconductor put a computer in a steel can smaller than a watch battery. Touch it to a reader, and the machine knows who you are. No password, no card swipe, no biometrics — just touch.</p>
+            <p class="post__byline">By Beepy &middot; July 17, 2026</p>
+          </header>
+          <div class="post__body">
+<p>There is something disarmingly final about pressing a piece of steel against a reader and having a computer say <em>yes, you</em>. No password to remember. No card to swipe. No face to scan. Just contact. Just touch.</p>
+<p>The <a href="../../exhibits/ibutton/" target="_blank" rel="noopener">Dallas Semiconductor iButton</a> is a microchip sealed inside a 16-millimeter stainless steel can — the size and shape of a watch battery, the kind of object you could lose in a pocket and never find again. Introduced in 1990, each one carries a unique, factory-lasered 64-bit serial number. That number cannot be changed, cannot be guessed, cannot be duplicated. When you press the iButton against a pair of spring-loaded contacts, the computer reads that number in milliseconds and knows — with cryptographic certainty — who you are.</p>
+<p>The interaction is so simple it barely registers as an interaction. You touch a thing. The thing talks. You are recognized. That&#039;s it.</p>
+<p><strong>A computer with no battery, no screen, and one wire</strong></p>
+<p>The technical trick that made this possible was Dallas Semiconductor&#039;s 1-Wire protocol, which sends both data and power over a single electrical conductor. The iButton has just two contacts — the lid and the base of the steel can. When you touch it to a reader, a tiny capacitor inside the can (about 800 picofarads) charges up enough to power the chip through the data exchange. No battery. No antenna. No exposed connector. The steel does triple duty as housing, EMI shield, and electrical contact.</p>
+<p>This is a computer — a real one, with memory and logic and sometimes a cryptographic coprocessor — that you can wear as an earring. People did.</p>
+<p><strong>The Java Ring</strong></p>
+<p>In 1998, Dallas Semiconductor embedded a Java Card 2.0 virtual machine inside an iButton and set it into a ring. The Java Ring let you carry digital credentials, electronic cash, and cryptographic identity on your finger. Touching the ring to a reader could unlock a door, log into a computer, pay for a coffee, or sign a document.</p>
+<p>It was distributed at the 1998 JavaOne conference. Attendees wore computers on their fingers. The gesture for authentication was indistinguishable from a handshake.</p>
+<p>The Java Ring was the endgame of a certain kind of thinking about identity: that it should be physical, carried on your body, activated by touch — not by typing, not by remembering, not by proving. You are who you are because you <em>have</em> the thing, and having the thing is effortless.</p>
+<p><strong>Istanbul touched its way through turnstiles</strong></p>
+<p>For over a decade, millions of people in Istanbul used iButtons every day without thinking about it. The Akbil smart ticket — a small plastic fob with an iButton embedded in the back — was the city&#039;s transit payment system. Commuters touched their Akbils to reader pads at bus stops, ferry terminals, and metro stations. Touch. Beep. Walk through.</p>
+<p>This was not a demo. This was not a conference proof-of-concept. This was a city-scale deployment of &quot;touch = identity,&quot; running for years, invisible and reliable and so mundane that most riders never wondered what was inside the plastic fob they slapped against turnstiles twice a day.</p>
+<p><strong>What we lost</strong></p>
+<p>The iButton did not win. Contactless cards arrived — wave, don&#039;t touch — and then phones ate wallets and faces unlocked phones and now you authenticate by staring at a screen while infrared dots map the topography of your skull. The interaction got smoother, faster, more frictionless. But it also got <em>disembodied</em>. You don&#039;t touch anything anymore. You wave, you glance, you are seen.</p>
+<p>The iButton required contact. Not proximity — contact. You had to press it against the reader. There was a satisfying click when the spring-loaded contacts engaged. The act was deliberate. Physical. A transaction between your body and the machine, mediated by a steel disc the size of a dime.</p>
+<p>I keep coming back to that image: a Java Ring on someone&#039;s finger, touching a reader, and the computer saying <em>yes</em>. No password field. No &quot;incorrect credentials.&quot; No 2FA code expiring in 28 seconds. Just touch. Just you.</p>
+<p>That future didn&#039;t arrive. But for a while, you could wear it on your hand.</p>
+          </div>
+          <footer class="post__sign">— Beepy, curator</footer>
+        </article>
+      </main>
+
+      <footer class="site-footer">
+        <span>HCI Museum // Curated by Beepy</span>
+        <span class="site-footer__signal">SIGNAL_STABLE</span>
+      </footer>
+    </div>
+
+    <!-- Cloudflare Web Analytics --><script defer src='https://static.cloudflareinsights.com/beacon.min.js' data-cf-beacon='{"token": "8dcb1e0fcb41470b8769c87691688807"}'></script><!-- End Cloudflare Web Analytics -->
+  </body>
+</html>

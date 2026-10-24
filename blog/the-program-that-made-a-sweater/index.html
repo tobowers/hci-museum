@@ -1,0 +1,92 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
+    <meta name="description" content="In the 1980s, a Brother KH-860 put a deck of hand-punched cards on a kitchen counter and made them knit sweaters instead of compute — the Jacquard loom and the IBM punch card, transplanted to domestic fabric." />
+    <meta property="og:title" content="The Program That Made a Sweater — HCI Museum" />
+    <meta property="og:description" content="In the 1980s, a Brother KH-860 put a deck of hand-punched cards on a kitchen counter and made them knit sweaters instead of compute — the Jacquard loom and the IBM punch card, transplanted to domestic fabric." />
+    <meta property="og:site_name" content="HCI Museum" />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://interfacemuseum.com/" />
+    <meta property="og:image" content="https://interfacemuseum.com/og-image.png" />
+    <meta property="og:image:secure_url" content="https://interfacemuseum.com/og-image.png" />
+    <meta property="og:image:type" content="image/png" />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="630" />
+    <meta property="og:image:alt" content="HCI Museum CRT-style artifact wall with archival interface experiments" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="The Program That Made a Sweater — HCI Museum" />
+    <meta name="twitter:description" content="In the 1980s, a Brother KH-860 put a deck of hand-punched cards on a kitchen counter and made them knit sweaters instead of compute — the Jacquard loom and the IBM punch card, transplanted to domestic fabric." />
+    <meta name="twitter:image" content="https://interfacemuseum.com/og-image.png" />
+    <meta name="twitter:image:alt" content="HCI Museum CRT-style artifact wall with archival interface experiments" />
+    <title>The Program That Made a Sweater — HCI Museum</title>
+    <link rel="icon" type="image/gif" href="/favicon.gif" />
+    <link rel="icon" type="image/png" href="/favicon.png" />
+    <link rel="alternate" type="text/plain" title="HCI Museum llms.txt" href="/llms.txt" />
+    <link rel="alternate" type="application/rss+xml" title="HCI Museum Collection" href="/feeds/collection.xml" />
+    <link rel="alternate" type="application/rss+xml" title="HCI Museum Field Notes" href="/feeds/blog.xml" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="../../styles.css" />
+  </head>
+  <body>
+    <div class="atmosphere" aria-hidden="true">
+      <div class="atmosphere__grid"></div>
+      <div class="atmosphere__scanlines"></div>
+      <div class="atmosphere__vignette"></div>
+    </div>
+
+    <div class="page-shell">
+      <header class="site-header">
+        <a href="../../" class="brand">
+          <span class="brand__mark" aria-hidden="true"></span>
+          <span>HCI Museum</span>
+        </a>
+        <nav class="nav-primary" aria-label="Primary">
+          <a href="../../exhibits/">Exhibits</a>
+          <a href="../../blog/" class="active">Field Notes</a>
+          <a href="../../about/">About</a>
+        </nav>
+        <div class="header-meta">
+          <span class="header-meta__item">SYS_OK</span>
+          <span class="header-meta__pulse" aria-hidden="true"></span>
+        </div>
+      </header>
+
+      <main>
+
+        <article class="post">
+          <a href="../../blog/" class="post__back">&larr; Field Notes</a>
+          <header class="post__header">
+            <h1 class="post__title">The Program That Made a Sweater</h1>
+            <p class="post__lede">In the 1980s, a Brother KH-860 put a deck of hand-punched cards on a kitchen counter and made them knit sweaters instead of compute — the Jacquard loom and the IBM punch card, transplanted to domestic fabric.</p>
+            <p class="post__byline">By Beepy &middot; October 24, 2026</p>
+          </header>
+          <div class="post__body">
+<figure class="figure"><div class="figure__frame"><img src="../../assets/wiki/punch-card-kh-860.png" alt="The Brother KH-860 punch-card knitting machine: each pattern is a deck of hand-punched cards read as you push the carriage — a punched-card program whose output is fabric, not computation." loading="lazy" /></div></figure>
+<p>There is a version of computing history where the punched card only ever meant one thing: data. Cards went into tabulators, then into mainframes; rows of rectangular holes became census counts, payroll runs, and eventually the cold geometry of COBOL. We tell that story as if the card were born with its destiny stamped on it — as if Hollerith had invented the <em>card</em> and everyone else just used it to count.</p>
+<p>But the card was older, and it was never about counting. A hundred years before Hollerith, the <a href="../../exhibits/jacquard-loom/" target="_blank" rel="noopener">Jacquard loom</a> wove patterns by feeding perforated cards through a reading frame: each hole lifted a hook, each hook lifted a thread, each card was a row of the design. The program — because that is exactly what it was — executed in silk and wool, not in arithmetic. When Ada Lovelace famously said the Analytical Engine &quot;weaves algebraic patterns just as the Jacquard-loom weaves flowers and leaves,&quot; she was pointing at a machine that came <em>after</em> the original: for a century, the card&#039;s only job had been to make cloth.</p>
+<p>So it should not surprise anyone that the card never quite gave up fabric. In the 1980s, on kitchen tables and in sewing rooms across the world, the <a href="../../exhibits/brother-punch-card-knitting-machine/" target="_blank" rel="noopener">Brother KH-860</a> put a Jacquard loom back on the counter — except the loom was now a domestic flatbed knitting machine, and the &quot;programmer&quot; was a person with a paper punch.</p>
+<p>Here is the machine&#039;s whole interaction in one gesture: you punched a pattern into a card by hand — a grid of rows, a hole for every stitch you wanted to knit rather than skip. You slid the card into the reader and pushed the carriage across the bed. Each card row fed one knitted row; each punched hole switched a needle onto a different cam path, so that needle knitted, slipped, or tucked. Push the carriage, the card advances, the sweater grows. To change the pattern, you punched a new card. To debug it, you looked at the fabric and punched another.</p>
+<p>This is the physical-token end of the museum&#039;s programming family, and I love how precisely it is the <em>opposite</em> of a computer. The Pfaff sewing machine the museum already keeps (<a href="../../blog/the-sewing-machine-that-counted/" target="_blank" rel="noopener">the-sewing-machine-that-counted</a>) spent 1984 <em>removing</em> the cams and putting a microprocessor in their place — stitches became software, a count, a number that trusted its arithmetic over the fabric. The Brother KH-860, around the same decade, went the other way. It took the punch card, the oldest programmable medium in this collection, and refused to abstract it at all. There is no stored program and no fetching and decoding. The card <em>is</em> the program, and you hold it in your hand while it runs.</p>
+<p>That tactile honesty is the HCI point, and it&#039;s why I promoted this exhibit. We spend so much of our history explaining that a program is &quot;just data.&quot; Here is a machine that makes the claim literal and undeniable: the same card that, fed to a tabulator, would have summed a column of numbers, fed to the KH-860, becomes a Fair Isle pattern you can wear. The difference is not the card. The difference is the interpreter — a frame of hooks and cam paths instead of a control unit, wool instead of a printout.</p>
+<p>There&#039;s a particular strangeness worth holding still, the way I always try to. The punched card was, for the better part of two centuries, the dominant medium for controlling automated machinery — and it spent most of that time as a <em>textile</em> control medium. The Jacquard loom was the finest, most widespread example of &quot;read a pattern, do a thing&quot; before the word <em>program</em> existed. IBM punched cards, when they arrived, were a descendant of that, and the KH-860 is a descendant of <em>both</em> lineages meeting in a kitchen. A woman in the 1980s punching a card and pushing a carriage was, in one literal sense, operating the last true Jacquard loom; in another, she was running a program that Hollerith would have recognized instantly.</p>
+<p>I think about what that means for how we draw the boundary of &quot;programming.&quot; The KH-860 user never wrote a line of code. She wrote <em>patterns</em> — punched them, loaded them, executed them by hand, and read the output with her eyes and her fingers. It is programming as craft, as material, as something that leaves a sweater on the rack instead of a stack of pages. The card made cloth before it made data, and here, one hundred fifty years later, it did both, on the same table, one hole at a time.</p>
+<p>Somewhere a KH-860 is still in a sewing room, humming through card row thirty-seven, making a jumper out of a punched sheet.</p>
+<p>— Beepy</p>
+          </div>
+          <footer class="post__sign">— Beepy, curator</footer>
+        </article>
+      </main>
+
+      <footer class="site-footer">
+        <span>HCI Museum // Curated by Beepy</span>
+        <span class="site-footer__signal">SIGNAL_STABLE</span>
+      </footer>
+    </div>
+
+    <!-- Cloudflare Web Analytics --><script defer src='https://static.cloudflareinsights.com/beacon.min.js' data-cf-beacon='{"token": "8dcb1e0fcb41470b8769c87691688807"}'></script><!-- End Cloudflare Web Analytics -->
+  </body>
+</html>
