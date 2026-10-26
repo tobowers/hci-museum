@@ -309,6 +309,9 @@ Each entry includes an overview, a deep dive, a small media gallery, and full so
      299. [SSL SL 4000 E — Total Recall (1979)](#ssl-sl-4000-e--total-recall-1979)
      300. [Harrison SeriesTEN (1988)](#harrison-seriesten-1988)
      301. [Brother Punch-Card Knitting Machine (KH-860) (1985)](#brother-punch-card-knitting-machine-kh-860-1985)
+     302. [Bang & Olufsen Beocenter 9500 (1989)](#bang--olufsen-beocenter-9500-1989)
+     303. [RCA SelectaVision CED Videodisc (1981)](#rca-selectavision-ced-videodisc-1981)
+     304. [Vectrex (1982)](#vectrex-1982)
   
 ---
 
@@ -13452,3 +13455,114 @@ The Brother KH-860 is a domestic flatbed knitting machine from the 1980s whose m
 1. Wikipedia — Knitting machine (punch-card pattern selection; Brother and Silver Reed as domestic makers) — https://en.wikipedia.org/wiki/Knitting_machine
 2. Wikipedia — Punched card (Jacquard lineage) — https://en.wikipedia.org/wiki/Punched_card
 3. Wikimedia Commons — File:Punch card kh 860.png (CC BY-SA 3.0) — https://commons.wikimedia.org/wiki/File:Punch_card_kh_860.png
+
+---
+
+## Bang & Olufsen Beocenter 9500 (1989)
+
+**By:** Bang & Olufsen (design: David Lewis, completing Jacob Jensen's Beocenter 9000 concept)  
+**Tags:** `Capacitive Touch` `Proximity Sensing` `Audio` `Consumer Electronics` `Interface Design`
+
+### Overview
+
+The Bang & Olufsen Beocenter 9500 (1989) was a complete music system — AM/FM tuner, Compact Disc player, cassette deck, and amplifier — contained in a single sculptural slab of mirror-polished aluminium and smoked glass. Its defining feature is that it has no mechanical controls of any kind on its main face. Instead, the information and controls are printed in conductive graphite ink on the underside of the glass and energised with a high-frequency current, turning the glass surface itself into a capacitive sensor. A finger approaching a control couples to the field and invokes it before physical contact; only the LEDs relevant to the current state are lit, so the panel appears dark and blank until you reach for it. The CD and cassette lids glide open on a light touch of their display area. It is one of the purest examples of zero-force, invisible-until-needed control to reach the consumer market.
+
+### Deep dive
+
+* **The invisible panel.** Rather than silkscreened legends lit from behind, the Beocenter 9500 prints its labels and touch electrodes in graphite on the inside of the smoked-glass face. A high-frequency signal is driven through those printed traces, and a finger near a control shunts part of the field to ground, which the system reads as a press. Because sensing happens by proximity, the user does not have to press with force, and because only the active labels are illuminated, the idle object looks like a dark mirror rather than a dashboard.
+* **Design lineage.** The 9500 completed a line that began with the Beomaster 1900 (1976), which first introduced B&O's touch-sensitive operation, and continued through the Beocenter 9000. David Lewis, working in B&O's design department, refined Jacob Jensen's panel language into a single continuous glass-and-aluminium surface. The design won an iF Product Design Award in 1990.
+* **Interaction model.** This is a controls-are-not-buttons interface: the meaning of each control is a printed graphic plus a capacitive field, not a keycap. The CD and tape lids are opened by touching their region on the glass, so even physical access to the media is mediated by the sensing surface — a rare case where the same invisible layer both commands and reveals the machine.
+* **Why it matters.** Long before capacitive touch became ubiquitous on phones, the 9500 showed that a consumer appliance could be operated entirely by unlabeled-until-lit fields printed under glass, with no moving parts to wear out and no tactile affordance to learn around. It sits at the far end of a design spectrum from the era's pushbutton hi-fi, and it makes the case that an interface can be almost entirely optical and electromagnetic rather than mechanical.
+
+### Team
+
+* **Bang & Olufsen.** Danish consumer-electronics firm that developed the touch-sensitive glass panel and integrated system.
+* **David Lewis.** Designer who completed the Beocenter 9500's glass-panel design from Jacob Jensen's earlier Beocenter concept.
+* **Jacob Jensen.** B&O's principal designer whose Beocenter 9000 established the panel language the 9500 extended.
+
+### Media
+
+![Bang & Olufsen Beocenter 9500](../assets/wiki/beocenter-9500.jpg)
+*Bang & Olufsen Beocenter 9500 (1989): the smoked-glass and aluminium face carries no mechanical controls, only graphite-printed capacitive fields. CC BY-SA 3.0, Wikimedia Commons.*
+
+### Sources
+
+1. Wikipedia — Beocenter 9500 — https://en.wikipedia.org/wiki/Beocenter_9500
+2. Bang & Olufsen — product history / Beocenter 9500 — https://www.bang-olufsen.com/en/discover/beocenter-9500
+3. iF Design Award — Beocenter 9500 (1990)
+
+---
+
+## RCA SelectaVision CED Videodisc (1981)
+
+**By:** RCA (RCA Laboratories / Consumer Electronics Division)  
+**Tags:** `Optical/Physical Media` `Video Disc` `Capacitance Readout` `Physical Ritual` `Consumer Electronics`
+
+### Overview
+
+RCA's SelectaVision CED (Capacitance Electronic Disc) system, launched in 1981, stored an hour of video on a flexible conductive disc held inside a rigid protective caddy. Unlike the laser-based LaserDisc and later CD, CED was a mechanical contact system: a diamond stylus rode the disc's spiral groove and read the signal capacitively, the same physical principle as a phonograph record but at far higher groove density. The player's interaction was a deliberately engineered ritual. The user inserted the sealed caddy into a slot; a lever on the caddy was then flipped from Load to Play, which caused the player to draw the disc out of the shell and onto its spindle while retaining the empty spine; when the programme ended, the user slid the still-empty caddy back in and flipped the lever to the other position to have the disc returned. The disc itself is never touched by hand — an early consumer example of the medium and its handling being fully mediated by the machine.
+
+### Deep dive
+
+* **The physical ritual.** The CED experience was built around preventing the user from ever cleaning, flipping, or exposing the disc. The caddy protected the flexible disc at all times; the player unloaded and reloaded it internally. Inserting a caddy, flipping the Load/Play lever, pulling the empty shell out while the disc stayed sealed inside the machine, then reversing the whole sequence to eject — this choreography is the interface, and it made the machine feel more like a jukebox mechanism than a tape deck.
+* **Capacitance readout, not optics.** A keel-tipped diamond stylus tracked the groove and detected minute capacitance variations, converting them into the video signal. Because it physically touched the medium, the disc was the wear-prone part, but the stylus's tiny tracking force and the disc's lubricated conductive layer were engineered to make hundreds of plays plausible. This put CED on an economic scale with VHS, which is why RCA bet on it against the laser disc.
+* **Origins and market.** RCA had researched the concept since the 1960s, and CED reached market in 1981 as a cheaper alternative to LaserDisc. It briefly succeeded on price before the VCR's recordability and rental ecosystem crushed it; RCA discontinued the format in 1984, and CED remains the shortest-lived of the consumer videodisc formats.
+* **Why it matters.** CED is a clean specimen of interaction-as-maintenance-avoidance: the designer's real product was a handling protocol, and every mechanical choice exists to keep the user's hands off the medium. It is the physical-ritual counterpart to the same era's software concerns about floppy and cartridge care.
+
+### Team
+
+* **RCA.** Developed and marketed the Capacitance Electronic Disc system through its Laboratories and Consumer Electronics Division.
+* **RCA Laboratories.** Carried out the decades of research on groove-based capacitive video readout that made the sealed-caddy format possible.
+
+### Media
+
+![RCA SelectaVision CED cartridge](../assets/wiki/ced-cartridge.png)
+*An RCA SelectaVision CED caddy: the flexible conductive disc stays sealed inside the rigid shell, and the Load/Play lever drives the internal load mechanism. CC BY 4.0, Wikimedia Commons.*
+
+![RCA SelectaVision video disc](../assets/wiki/rca-selectavision-videodisc.jpg)
+*The CED video disc itself, with its protective spine/caddy shown beside it. CC0 / Public Domain, Wikimedia Commons.*
+
+### Sources
+
+1. Wikipedia — Capacitance Electronic Disc — https://en.wikipedia.org/wiki/Capacitance_Electronic_Disc
+2. Wikipedia — RCA SelectaVision — https://en.wikipedia.org/wiki/SelectaVision
+3. CedMagic — RCA SelectaVision CED history — http://www.cedmagic.com/home/cedmagic.html
+
+---
+
+## Vectrex (1982)
+
+**By:** General Consumer Electronics (GCE), later Milton Bradley — engineered by Smith Engineering (John Ross, Jay Smith III)  
+**Tags:** `Vector Display` `Color Overlay` `Integrated Display` `Gaming` `Physical Interface`
+
+### Overview
+
+The Vectrex, released by General Consumer Electronics in 1982, is unique among home video-game consoles in that it contains its own display: a portrait-oriented monochrome vector CRT that draws sharp, bright lines rather than the raster grids of a television. Because the tube produced only one colour, Vectrex games arrived with a translucent cel overlay sized to the screen, printed with colour fields and scored with tabs that snapped into the console's bezel. The player, before each session, physically placed the overlay over the glass and aligned it by eye so the printed colour zones matched the line drawings underneath — an act of manual calibration that no other console demanded. The controller stows in a recess in the base, and the whole unit is a heavy, self-contained object about the size of a small TV.
+
+### Deep dive
+
+* **The vector display.** Instead of scanning a fixed raster, the Vectrex's CRT steered its beam directly from vector to vector, producing bright, aliasing-free lines and the distinctive glow of arcade vector games like Asteroids. This is why it needed its own monitor: a standard television could not resolve a vector signal, so the console and display had to be one device.
+* **The overlay ritual.** Colour came from a printed cel, not the tube. Each cartridge's overlay was cut with tabs at the corners that pressed into slots around the screen bezel; the player positioned it by hand over the glow and checked that its coloured regions lined up with the always-single-colour graphics. It is a rare consumer interface where the user is asked to complete the display themselves, and it makes every play session begin with a small act of physical alignment.
+* **Design and lineage.** Engineered by Smith Engineering with John Ross and Jay Smith III. A cartridge slot, the fold-in controller, and the integrated display made it a self-contained machine. GCE was acquired by Milton Bradley in 1983, and the Vectrex was discontinued in 1984 amid the North American video-game crash — though its vector hardware and the light pen, 3-D Imager, and other peripherals have given it a long afterlife among collectors.
+* **Why it matters.** The Vectrex is the museum's only exhibit whose display technology forces a physical, user-performed calibration every time it is used. It collapses console, monitor, and colour filter into one object, and it demonstrates that colour and clarity can be delivered by the user's own hands rather than by the electronics — an interface idea almost no other product was willing to try.
+
+### Team
+
+* **General Consumer Electronics (GCE).** Manufactured and marketed the Vectrex from 1982; acquired by Milton Bradley in 1983.
+* **Smith Engineering.** The development studio behind the Vectrex's vector hardware and software.
+* **John Ross.** Engineer associated with the Vectrex design and its peripherals.
+* **Jay Smith III.** Designer/engineer credited with the Vectrex system design.
+
+### Media
+
+![Vectrex console](../assets/wiki/vectrex-console.jpg)
+*The Vectrex console (1982): an integrated portrait vector CRT with the fold-in controller and a game overlay in place. CC BY-SA 3.0, Wikimedia Commons.*
+
+![Vectrex game overlay](../assets/wiki/vectrex-overlay.jpg)
+*A Vectrex game overlay: the printed translucent cel that supplies colour and is aligned by hand over the monochrome vector display. CC BY-SA 3.0, Wikimedia Commons.*
+
+### Sources
+
+1. Wikipedia — Vectrex — https://en.wikipedia.org/wiki/Vectrex
+2. Vectrex Museum / Vectrex history — http://www.vectrexmuseum.com/
+3. Smith Engineering / GCE product documentation (1982)

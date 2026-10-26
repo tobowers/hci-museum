@@ -3802,6 +3802,45 @@ const exhibitData: Exhibit[] = [
     tags: ["Professional Audio", "Mixing Console", "Assignable Controls", "Digitally Controlled Analog", "Console Automation", "Software-Defined Controls"],
     image: img("harrison-seriesten.jpg"),
   },
+  {
+    id: "beocenter-9500",
+    slug: "beocenter-9500",
+    wikiTitle: "Bang & Olufsen Beocenter 9500",
+    year: "1989",
+    sortYear: 1989,
+    title: "Bang & Olufsen Beocenter 9500",
+    subtitle: "A music system with no buttons at all — controls printed in graphite under smoked glass that sense your finger before you touch them",
+    blurb:
+      "The Bang & Olufsen Beocenter 9500 (1989) packed an AM/FM tuner, CD player, cassette deck, and amplifier into one slab of mirror-polished aluminium and smoked glass with no mechanical controls on its face. The labels and touch electrodes are printed in conductive graphite on the underside of the glass and energised with a high-frequency current, so a finger approaching a control couples to the field and invokes it before contact. Only the labels relevant to the current state are lit, leaving the idle object a dark mirror. CD and cassette lids glide open on a light touch of their display area — a rare consumer interface whose meaning is neither a keycap nor a printed legend but an invisible capacitive field that appears only when needed. David Lewis completed the glass-panel design from Jacob Jensen's earlier Beocenter 9000; it won an iF Product Design Award in 1990.",
+    tags: ["Capacitive Touch", "Proximity Sensing", "Audio", "Consumer Electronics", "Interface Design"],
+    image: img("beocenter-9500.jpg"),
+  },
+  {
+    id: "rca-selectavision-ced",
+    slug: "rca-selectavision-ced",
+    wikiTitle: "RCA SelectaVision CED Videodisc",
+    year: "1981",
+    sortYear: 1981,
+    title: "RCA SelectaVision CED Videodisc",
+    subtitle: "A video disc read by a diamond stylus riding a groove — loaded by a ritual of inserting a caddy, flipping a lever, and pulling the empty shell back out",
+    blurb:
+      "RCA's SelectaVision CED (Capacitance Electronic Disc) system, launched in 1981, stored an hour of video on a flexible conductive disc sealed inside a rigid caddy. Unlike the laser-based LaserDisc, CED was a contact system: a diamond stylus rode the spiral groove and read the signal capacitively, like a phonograph record at far higher density. The player's interaction was a deliberate ritual — insert the sealed caddy, flip the Load/Play lever so the machine draws the disc onto its spindle and keeps the empty spine, then pull the empty shell out. To unload, slide the empty caddy back and flip the lever the other way. The disc is never touched by hand: the medium is fully mediated by the machine, a consumer study in interface-as-handling-protocol. It reached market in 1981, was discontinued in 1984, and remains the shortest-lived consumer videodisc format.",
+    tags: ["Optical/Physical Media", "Video Disc", "Capacitance Readout", "Physical Ritual", "Consumer Electronics"],
+    image: img("ced-cartridge.png"),
+  },
+  {
+    id: "vectrex-console",
+    slug: "vectrex-console",
+    wikiTitle: "Vectrex",
+    year: "1982",
+    sortYear: 1982,
+    title: "Vectrex",
+    subtitle: "The only mass-produced home console with a vector CRT — and each game shipped with a translucent color overlay you snapped onto the screen and aligned by eye",
+    blurb:
+      "The Vectrex, released by General Consumer Electronics in 1982, is unique among home consoles in containing its own display: a portrait monochrome vector CRT that draws sharp lines rather than a raster grid. Because the tube produced only one colour, every game shipped with a translucent cel overlay printed with colour fields and cut with tabs that snapped into the bezel. Before each session the player physically placed the overlay over the glass and aligned it by eye so the printed zones matched the line drawings beneath — a manual calibration no other console demanded. The controller folds into the base. Engineered by Smith Engineering (John Ross, Jay Smith III), it was discontinued in 1984 after GCE was absorbed by Milton Bradley, but its vector hardware and peripherals gave it a long afterlife. It is the collection's only exhibit whose display forces a user-performed calibration on every use.",
+    tags: ["Vector Display", "Color Overlay", "Integrated Display", "Gaming", "Physical Interface"],
+    image: img("vectrex-console.jpg"),
+  },
 ];
 
 export const exhibits: Exhibit[] = exhibitData.toSorted((a, b) => b.sortYear - a.sortYear || a.title.localeCompare(b.title));
