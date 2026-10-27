@@ -1,0 +1,29 @@
+{
+  "slug": "mettler-ae163",
+  "title": "Mettler AE163/AE200 Analytical Balance",
+  "year": "1983",
+  "subtitle": "A precision lab balance reduced to a single sliding control bar and a bar-graph stability display.",
+  "why_scout_cares": "The interface philosophy IS the instrument: no membrane keys, no rotary knobs — one horizontal aluminum control bar executes tare/calibrate/print/mode, paired with a DeltaDisplay bar-graph overlay instead of a numeric field. Won the 1983 iF Design Award explicitly for its interaction model.",
+  "search_terms": ["Mettler AE163", "Mettler AE200", "Mettler control bar balance", "DeltaDisplay balance", "analytical balance 1983 interface"],
+  "research": {
+    "title": "Mettler AE163/AE200 Analytical Balance",
+    "year": "1983",
+    "by": "Mettler (Switzerland)",
+    "tags": ["HCI", "Input", "Scientific Instrument"],
+    "overview": "The Mettler AE163/AE200 precision analytical balance (introduced 1982-1985) dispensed with the usual bank of membrane keys and rotary knobs entirely. Its only input is a single horizontal aluminum 'control bar' running the width of the instrument below the display. Sliding or pressing it at different points/angles executes tare, calibration, print, and mode changes, with a slight mechanical detent.\n\nThe readout is the DeltaDisplay: a segmented bar-graph overlay on the 7-segment numeric display showing real-time deviation and stability rather than a full numeric field. The AE series won the 1983 iF Design Award (Hanover) and Swiss 'Die gute Form' recognition, meaning the interaction model was explicitly celebrated as a design point.",
+    "deepDive": [
+      {"heading": "Origins", "text": "Developed by Mettler (Zurich) as part of the AE electronic balance line. The control-bar and DeltaDisplay design was celebrated in European design awards, making the physical interface the distinguishing feature of an otherwise conventional precision weighing instrument."},
+      {"heading": "Interaction model", "text": "A single moving bar replaces the conventional keypad. Sliding the bar to different detented positions or pressing it executes different commands (tare, calibrate, print, change mode). The DeltaDisplay renders stability and deviation as a segmented bar-graph rather than digits, so the operator reads the machine's state visually at a glance."}
+    ],
+    "team": [
+      {"name": "Mettler-Toledo", "note": "Manufacturer (then Mettler Instrumente AG, Zurich)"}
+    ],
+    "media": [],
+    "sources": [
+      {"text": "Mettler AE series vintage brochures/manuals (auction & archive listings)", "url": ""},
+      {"text": "1983 iF Design Award records", "url": ""}
+    ],
+    "imageUrls": []
+  },
+  "savedImages": []
+}
