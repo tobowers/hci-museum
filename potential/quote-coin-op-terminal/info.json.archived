@@ -1,0 +1,29 @@
+{
+  "slug": "quote-coin-op-terminal",
+  "title": "Quote, Inc. Coin-Operated Terminal",
+  "year": "1976",
+  "subtitle": "Computing sold by the coin-drop like a pay phone — insert a coin, get a timed slice of a stock-quote mainframe.",
+  "why_scout_cares": "A wonderfully literal embodied pay-per-use computing ritual: insert a coin, the terminal auto-dials a stock-quote mainframe, the keyboard is physically locked out during the handshake, the coin is mechanically returned if the far end doesn't answer within ~a minute, then a metered ~30-45s session buys 3-4 queries. Computing as a coin-drop transaction, decades before public internet kiosks.",
+  "search_terms": ["Quote Inc coin operated terminal", "US3938093", "coin operated stock quote terminal 1976", "pay per use computer terminal 1970s"],
+  "research": {
+    "title": "Quote, Inc. Coin-Operated Terminal",
+    "year": "1976",
+    "by": "Quote, Inc. (inventor Joseph A. Riess)",
+    "tags": ["HCI", "Input", "Kiosk", "Transaction"],
+    "overview": "A public pay-per-use computer terminal aimed at a stock-quote/information database, patented as US3938093 (filed 1974, granted/published Feb 10, 1976). The user inserts a coin; the terminal auto-dials and modems out to a central mainframe.\n\nWhile the handshake runs, the keyboard is physically locked out so the customer cannot scramble the interrogator codes. If the mainframe does not answer within ~1 minute, a solenoid mechanically routes the coin back down a return chute and the terminal powers down — the user gets their quarter back for a failed login. On a successful connection the coin is dropped into the box and a metered 'on-line timer' gives roughly 30-45 seconds of computing time (enough for 3-4 queries) before the session terminates.",
+    "deepDive": [
+      {"heading": "Origins", "text": "Filed by Quote, Inc. in 1974 and granted in 1976. The patent text notes the terminal's physical appearance is 'unimportant' — the mechanism is the point: coin acceptance, auto-dial, keyboard lockout, and coin-return-on-connection-failure."},
+      {"heading": "Interaction model", "text": "The embodied ritual of a pay phone applied to computing: insert money, wait through a modem dial, pray your coin isn't spit back at you, then race a 45-second timer to get your stock quotes before the CRT goes dark. A solenoid-flipped gating plate routes the coin to the return vs. deposit chute based on connection success."}
+    ],
+    "team": [
+      {"name": "Quote, Inc.", "note": "Assignee"},
+      {"name": "Joseph A. Riess", "note": "Inventor"}
+    ],
+    "media": [],
+    "sources": [
+      {"text": "US Patent 3938093 — Coin operated terminal", "url": "https://patents.google.com/patent/US3938093"}
+    ],
+    "imageUrls": []
+  },
+  "savedImages": []
+}

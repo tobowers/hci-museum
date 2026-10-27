@@ -1,0 +1,28 @@
+{
+  "slug": "kodak-create-a-print",
+  "title": "Kodak Create-A-Print",
+  "year": "1987",
+  "subtitle": "A self-service photo kiosk where the customer becomes the lab tech, cropping prints with a trackball.",
+  "why_scout_cares": "Inverts the whole photo-lab ritual: the customer inserts a 35mm negative into a scanner slot, 'paints' the crop/zoom with a trackball against an on-screen mask, then a machine fumbles through exposure chemistry behind a glass panel and delivers a finished enlargement. A tangible, embodied self-service transaction — money in, film in, print out.",
+  "search_terms": ["Kodak Create-A-Print kiosk", "Create-A-Print 1987 trackball", "photo kiosk trackball crop 1980s", "self service photo enlarging kiosk"],
+  "research": {
+    "title": "Kodak Create-A-Print",
+    "year": "1987",
+    "by": "Eastman Kodak",
+    "tags": ["HCI", "Input", "Kiosk", "Output"],
+    "overview": "A self-service photo enlargement kiosk shown at PMA trade shows 1987-88, about the size of a large vending machine. The user inserts a 35mm negative (or slide) into a slot, where a scanner captures it onto a color CRT. A trackball drives pan/zoom/crop via an on-screen mask, with buttons/keypad for color and density adjustment.\n\nOn confirm, the kiosk exposes photographic paper internally and delivers a finished enlargement (3.5x5 or 4x6) in a couple minutes. Coin- or bill-operated.",
+    "deepDive": [
+      {"heading": "Origins", "text": "Developed by Eastman Kodak and shown at PMA trade shows 1987-88. The George Eastman Museum (Rochester) reportedly holds surviving units; treatment of museum-holding as a lead to verify, not confirmed."},
+      {"heading": "Interaction model", "text": "The customer physically slides negatives into a scanner slot and 'paints' the crop with a trackball while the machine handles wet/dry chemistry internally. A fully embodied self-service transaction that turns the consumer into the operator."}
+    ],
+    "team": [
+      {"name": "Eastman Kodak", "note": "Manufacturer"}
+    ],
+    "media": [],
+    "sources": [
+      {"text": "PMA trade-show coverage, Popular Photography / professional photo press 1987-88", "url": ""}
+    ],
+    "imageUrls": []
+  },
+  "savedImages": []
+}
