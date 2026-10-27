@@ -1,0 +1,70 @@
+{
+  "slug": "childrens-discovery-system",
+  "title": "Mattel Children's Discovery System",
+  "year": "1981",
+  "subtitle": "A child's 'learning computer' whose flat membrane keyboard is re-labeled by a printed mylar overlay sheet per cartridge",
+  "why_scout_cares": "The Children's Discovery System (1981) is an 8-bit learning console for ages 6-11 whose interaction model is a printed, textured mylar overlay sheet: each cartridge comes with its own printed surface that the child lays over the flat membrane keyboard, physically re-typing what every key means without changing the hardware. It is a print-on-membrane, context-sensitive keyboard — a static physical 'skin' years before context-sensitive on-screen keys. Distinct from every keyboard exhibit in the collection: not a mechanical re-mapped keyboard (the Bat Keyboard's keycaps), not a software relabeled one (Datapoint screens), but a paper label that literally re-defines the input surface per program. A clean, well-documented, image-available early-80s children's computer.",
+  "search_terms": [
+    "Children's Discovery System",
+    "Mattel Children's Discovery System 1981",
+    "mylar overlay membrane keyboard",
+    "Mattel learning computer cartridge",
+    "Children's Discovery System Creative Computing 1982"
+  ],
+  "research": {
+    "title": "Mattel Children's Discovery System",
+    "year": "1981",
+    "by": "Mattel Electronics (Hawthorne, California / Mattel Toys)",
+    "tags": ["Children", "Educational", "Membrane", "Overlay", "Cartridge", "Learning Computer", "Keyboard Mapping"],
+    "overview": "The Children's Discovery System (also sold as the Children's Discovery System Computer) is an 8-bit electronic learning toy for children aged six to eleven, launched by Mattel in 1981 at US$125. The console is built around a flexible membrane keyboard overlaid with a textured 'mylar' printed sheet, and games/programs load from cartridges. Its defining interaction feature is that each of its ~13 cartridges ships with its own printed mylar overlay: the child places the overlay over the flat membrane keyboard, and the printed geometry re-labels the keys for that program. The system also doubled as a four-function handheld calculator via a slide switch.\n\nIndustrial design (including the 'friendly kid-sized keyboard') was begun in late 1979 by industrial designer Dave Bradford; engineering by Bill Bane, Bob Hereford, Clive Kabay, Ivar (Yvar) Raszl, Marcus Young, and Steve Gabaly of Mattel Electronics, with Robert Goldstein of Mattel Toys contributing packaging/design/communication materials and Gidget Bothell of Mattel Toys handling marketing. John J. Anderson profiled it in Creative Computing (February 1982). A successor, the Aquarius, launched 1983 using a similar base. Mattel discontinued the system in 1984; a 1983 TV-hookup accessory extended it to a television set. The system sold roughly a million units.\n\nFrom an HCI standpoint the overlay is the whole story: it is a paper label that re-defines the input surface per program. Where later machines re-map keys in software behind a fixed keyboard, the Children's Discovery System re-maps them physically, in printed ink, by swapping a sheet of mylar.",
+    "deepDive": [
+      {
+        "heading": "The overlay is the interface",
+        "text": "The console has a flat membrane keyboard and no printed key legends of its own. Instead, every cartridge carries a textured mylar overlay sheet that the child lays across the membrane; the printed shapes on the overlay mark where each hidden key sits and what it does for that program. Swapping cartridges means swapping the physical key-legends. It is a context-sensitive keyboard achieved in paper, not silicon — the ancestor of the modern idea that 'changing the program changes what the buttons mean,' but realized as a laminated sheet."
+      },
+      {
+        "heading": "A learning computer, not a game console",
+        "text": "Mattel framed it as a 'learning computer' for ages 6-11, sold at a mass-market toy-store price. Eight titles launched in 1981 with a planned 40-title expansion in 1982 (the system ultimately saw ~13 titles plus a calculator mode). It was the educational counterpoint to Mattel's contemporaneous Intellivision, aimed at a younger child and emphasizing arithmetic, language, and quizzes on a membrane surface designed for small hands."
+      },
+      {
+        "heading": "Calculator mode and decline",
+        "text": "A feature let the system double as a four-function handheld calculator, converted by a slide switch that repeatedly malfunctioned in the field. The 1983 TV-hookup accessory allowed output on a television. Mattel discontinued the line in 1984 as the toy-computer market shifted; the system is now remembered alongside Texas Instruments' and VTech's learning computers as an early overlay-driven children's computer."
+      }
+    ],
+    "team": [
+      {
+        "name": "Dave Bradford",
+        "note": "Industrial designer of the system, including the 'friendly kid-sized keyboard'; industrial design dated to late 1979."
+      },
+      {
+        "name": "Bill Bane, Bob Hereford, Clive Kabay, Ivar (Yvar) Raszl, Marcus Young, Steve Gabaly",
+        "note": "Original engineers at Mattel Electronics for the Children's Discovery System."
+      },
+      {
+        "name": "Robert Goldstein (Mattel Toys)",
+        "note": "Contributed packaging, design, and communication materials; profiled alongside the engineers in Creative Computing (Feb 1982) as 'the engineers with a touch of class.'"
+      },
+      {
+        "name": "Gidget Bothell (Mattel Toys)",
+        "note": "Marketing lead for the system, per the Creative Computing profile."
+      }
+    ],
+    "media": [
+      {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/9/9d/Childrens_Discovery_System_-_Image_-_1981.jpg",
+        "alt": "The Mattel Children's Discovery System console, circa 1981",
+        "caption": "The Mattel Children's Discovery System. Photo of a 1981 unit by Morack91, CC BY-SA 4.0, via Wikimedia Commons. (File is used on en/es/ka/sv Wikipedia and en.wikibooks articles for the Children's Discovery System.)"
+      }
+    ],
+    "sources": [
+      { "text": "Wikipedia: Children's Discovery System (note: page contains vandalism; verify against Creative Computing profile and Commons)", "url": "https://en.wikipedia.org/wiki/Children%27s_Discovery_System" },
+      { "text": "Commons file (CC BY-SA 4.0) verified", "url": "https://commons.wikimedia.org/wiki/File:Childrens_Discovery_System_-_Image_-_1981.jpg" },
+      { "text": "en.wikibooks: History of video games/Platforms/Children's Discovery System", "url": "https://en.wikibooks.org/wiki/History_of_video_games/Platforms/Children%27s_Discovery_System" },
+      { "text": "John J. Anderson, 'Mattel: A Wunderkind's Wonderland,' Creative Computing, Vol. 8 No. 2, Feb 1982, p. 137 (primary source, referenced by Wikipedia)", "url": "" }
+    ],
+    "imageUrls": [
+      "https://upload.wikimedia.org/wikipedia/commons/9/9d/Childrens_Discovery_System_-_Image_-_1981.jpg"
+    ]
+  },
+  "savedImages": []
+}
