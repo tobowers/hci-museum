@@ -3841,6 +3841,32 @@ const exhibitData: Exhibit[] = [
     tags: ["Vector Display", "Color Overlay", "Integrated Display", "Gaming", "Physical Interface"],
     image: img("vectrex-console.jpg"),
   },
+  {
+    id: "petrofsky-fes-bicycle",
+    slug: "petrofsky-fes-bicycle",
+    wikiTitle: "Petrofsky FES Bicycle Ergometer",
+    year: "1984",
+    sortYear: 1984,
+    title: "Petrofsky FES Bicycle Ergometer",
+    subtitle: "A paralyzed person's own pedaling is the computer's input AND its output — an Apple II reads the crank angle and fires timed electrical shocks into the muscles to keep the legs turning",
+    blurb:
+      "At Wright State University in the early 1980s, Jerrold Petrofsky and colleagues built a bicycle on which a paralyzed person pedals — not despite the paralysis but because of it. The rider is strapped to a stationary Monarch ergometer; their legs move only because an Apple II Plus watches the crank position through a rotary potentiometer and fires quadrat-timed transcutaneous electrical stimulation (0-255 V pulses) into the iliacus and quadriceps muscles in the precise quarter-turn order a healthy cycle requires. The body is simultaneously the computer's sensor (the crank angle it reads) and its actuator (the muscles it commands), a closed bio-mechatronic loop where one system — the human leg — is both input and output. Velcro foot attachments and a break-away harness kept the trial safe. Four paraplegic and quadriplegic subjects rode for 30 days in a 1984 Journal of Clinical Engineering trial, and the same stimulation research carried Nan Davis to a famous first assisted steps in 1983. The system was patented (US4499900A) and licensed to Therapeutic Technologies Inc., a commercially odd collision of 1980s microcomputing, clinical medicine, and machine-human muscle.",
+    tags: ["Biofeedback", "Rehabilitation", "Closed-Loop Control", "Assistive Technology", "Body as Interface"],
+    image: img("petrofsky-fes-fig2.jpg"),
+  },
+  {
+    id: "casio-cmd-40",
+    slug: "casio-cmd-40",
+    wikiTitle: "Casio CMD-40",
+    year: "1992",
+    sortYear: 1992,
+    title: "Casio CMD-40",
+    subtitle: "A digital watch you wear and point at the TV — it not only pretends to be every remote in the room, it can memorize the ones it hasn't met",
+    blurb:
+      "Released at the end of 1992, the Casio CMD-40 was the flagship of Casio's 'Wrist Remote Controller' line: an ordinary-seeming digital watch (module 1174, with an 8-digit calculator, alarm, and stopwatch) that hid a full infrared TV/VCR remote under a resin case. Its top edge mounts the IR emitter, a chunky red side button fires it, and a small box on the LCD flashes whenever the watch actually sends. To make the watch the master of every box in the room, it held preset code tables for dozens of TV and VCR brands — and, more oddly, a learning function: put any other remote three centimeters away, press a button, and the watch copies up to 16 of its infrared codes into its own memory. The body is the pointing device, the wrist is the handset, and a gadget you wear can absorb the 'language' of remotes it has never seen. It stayed on sale until about 2005, long outliving most remotes it imitated.",
+    tags: ["Wearable", "Infrared", "Universal Remote", "Learning Codes", "Consumer Electronics"],
+    image: img("casio-cmd40-remote-watch.jpg"),
+  },
 ];
 
 export const exhibits: Exhibit[] = exhibitData.toSorted((a, b) => b.sortYear - a.sortYear || a.title.localeCompare(b.title));
