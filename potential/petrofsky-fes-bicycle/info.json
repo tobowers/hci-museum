@@ -1,0 +1,68 @@
+{
+  "slug": "petrofsky-fes-bicycle",
+  "title": "Petrofsky FES Bicycle Ergometer",
+  "year": "1982",
+  "subtitle": "An Apple II reads the crank position of a paralyzed patient's pedaling and fires timed shocks into their own thigh muscles to keep the wheel turning — the body's motion is both the computer's input and its effect.",
+  "why_scout_cares": "This is the museum's clearest closed-loop body-as-input artifact in the rehabilitation/clinical domain. The paralyzed patient's legs ARE the computer's sensor AND actuator: a rotary potentiometer on the pedal crank feeds pedal angle (0-255) into an Apple II Plus, which divides the rotation into four quadrants and fires transcutaneous stimulation pulses to the correct iliac/quadriceps electrode sets for that quadrant, so the muscles contract and pedal the wheel. The machine is choreographing electrical shocks from the position of your own body. Genuinely unlike anything in the collection — it is the reverse-boundary (writes INTO the body) applied to a whole-body mechanical loop, not just a nerve (cf. Cochlear Nucleus 22). Clinically tested, real hardware (Monarch ergometer + Apple II + custom stimulation drivers), named lab, complete patent drawings available.",
+  "search_terms": [
+    "Petrofsky bicycle ergometer paralyzed muscle FES Apple II",
+    "US4499900 paralyzed persons exercycle stimulation",
+    "Petrofsky Phillips Glaser Heaton bicycle ergometer paralyzed",
+    "functional electrical stimulation cycling 1980s Apple II",
+    "Wright State FES bicycle ergometer patent 1982"
+  ],
+  "research": {
+    "title": "Petrofsky FES Bicycle Ergometer (System and Method for Treating Paralyzed Persons)",
+    "year": "1982",
+    "by": "Jerrold S. Petrofsky, Chandler A. Phillips, Roger M. Glaser, Harry H. Heaton III — Wright State University / Wright State University assignee",
+    "tags": ["HCI", "Input", "Rehabilitation", "Clinical", "Embodied", "Biofeedback"],
+    "overview": "In the early 1980s, a team at Wright State University led by Jerrold Petrofsky and Chandler Phillips built a system that lets a paralyzed person pedal a stationary exercise bicycle using their own electrically-triggered leg muscles. The patient is seated on a conventional Monarch bicycle ergometer with their feet Velcro-strapped to the pedals. Four sets of transcutaneous stimulation electrodes are placed over the iliac and quadriceps muscles. A rotary potentiometer position sensor, gear-driven off the pedal crank, reports crank angle into an Apple II Plus computer through an analog-to-digital board. The computer divides the 360-degree pedal rotation into four quadrants and, in real time, fires high-voltage stimulation pulses (about 60 Hz, up to roughly 255 V) through radio-frequency-isolated transformer drivers to whichever electrode set corresponds to the current crank quadrant. The resulting muscle contractions physically drive the wheel around — the paralyzed legs pedal the bike under computer control. Two standard Apple game paddles act as the manual stimulation-amplitude controls. Clinical testing with four paraplegic and quadriplegic subjects over 30 days of thrice-weekly 15-minute sessions demonstrated increased muscle endurance and size.",
+    "deepDive": [
+      {
+        "heading": "The closed loop: body as both sensor and actuator",
+        "text": "What makes this a museum artifact is the coupling. The machine does not simply read a keypress or a gesture; it reads the physical position of the patient's own crank-mounted legs in real time (0-255 ADC resolution), and that position directly determines which of four electrode pairs gets shocked and when. The patient's movement is the input; the shock is the output; the shock produces more movement, which is read again. It is a true bio-mechatronic servo loop in which a paralyzed human body is the plant being driven. The machine is not watching you and reporting; it is choreographing electrical pulses from the angle of your own joints."
+      },
+      {
+        "heading": "Apple II as a medical instrument",
+        "text": "The controller is an ordinary 8-bit Apple II Plus running APPLESOFT BASIC with POKE/PEEK, using a slot-5 card for the RF-isolated stimulation drivers and a slot-7 analog-to-digital board for the crank sensor. Two off-the-shelf game paddles set the stimulation amplitude. This is the museum's AtariLab-style 'home computer repurposed as a clinical/body interface' thread taken to an extreme — the same consumer platform that ran Pong becoming a prosthetic choreography engine. The software used the computer's timer interrupts and analog ports as a medical instrument."
+      },
+      {
+        "heading": "Clinical lineage",
+        "text": "The work descends from functional electrical stimulation (FES) research and was published in the Journal of Clinical Engineering (January 1984) and in Petrofsky & Phillips's related work on FES rehabilitation of spinal-cord-injured patients. The patent (US4499900A, priority 1982-11-26, granted 1985-02-19) was assigned to Wright State University and licensed to Therapeutic Technologies, Inc. in 1983; the commercial lineage continued into the REGYS cycling systems. The patent drawings (patient strapped on the exercycle with electrodes, chain drive, system schematic) are complete and usable."
+      }
+    ],
+    "team": [
+      { "name": "Jerrold S. Petrofsky", "note": "Lead investigator, Wright State University; pioneer of FES cycling" },
+      { "name": "Chandler A. Phillips", "note": "Co-inventor, Wright State; biomedical engineering" },
+      { "name": "Roger M. Glaser", "note": "Co-inventor; rehabilitation physiology" },
+      { "name": "Harry H. Heaton III", "note": "Co-inventor; electronics" },
+      { "name": "Wright State University", "note": "Assignee; patent licensed to Therapeutic Technologies, Inc." }
+    ],
+    "media": [
+      {
+        "src": "https://patents.google.com/patent/US4499900A/en",
+        "alt": "Patent system and patient figures for the Petrofsky FES bicycle ergometer",
+        "caption": "Patent US4499900A drawing sheet: system schematic and a paralyzed person operating the exercycle with transcutaneous electrodes (public-domain patent figure, source: Google Patents)"
+      },
+      {
+        "src": "https://patents.google.com/patent/US4499900A/en",
+        "alt": "Chain drive and electrode placement figure for the FES bicycle",
+        "caption": "Patent US4499900A drawing sheet showing the chain drive / crank-position sensor arrangement (public-domain patent figure, source: Google Patents)"
+      }
+    ],
+    "sources": [
+      { "text": "Petrofsky, Phillips, Heaton, Glaser, 'Bicycle Ergometer for Paralyzed Muscle,' Journal of Clinical Engineering 9(1):13-18, 1984", "url": "https://doi.org/10.1097/00004669-198401000-00003" },
+      { "text": "US Patent US4499900A, 'System and method for treating paralyzed persons'", "url": "https://patents.google.com/patent/US4499900A/en" },
+      { "text": "Petrofsky & Phillips, 'The Use of Functional Electrical Stimulation for Rehabilitation of Spinal Cord Injured Patients,' Journal of Neurological & Orthopaedic Surgery (1984)", "url": "https://doi.org/10.1089/cns.1984.1.57" },
+      { "text": "Introduction to FES-Cycling Technology (Springer historical overview)", "url": "https://link.springer.com/chapter/10.1007/978-3-032-23937-2_1" }
+    ],
+    "imageUrls": [
+      "https://patentimages.storage.googleapis.com/f2/4c/9c/961621133aa3fe/US4499900-drawings-page-2.png",
+      "https://patentimages.storage.googleapis.com/f1/00/06/a646e0ebde345f/US4499900-drawings-page-3.png"
+    ]
+  },
+  "savedImages": [
+    "images/fes-bicycle-system-fig.png",
+    "images/fes-bicycle-chain-drive-fig.png"
+  ]
+}
