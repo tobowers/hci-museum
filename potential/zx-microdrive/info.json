@@ -1,0 +1,78 @@
+{
+  "slug": "zx-microdrive",
+  "title": "Sinclair ZX Microdrive",
+  "year": "1983",
+  "subtitle": "A 44×34 mm cartridge holding an endless loop of tape that you could never rewind — cheap, fast, and quietly unreliable.",
+  "why_scout_cares": "The ZX Microdrive is the museum's best illustration of a storage medium whose physics IS the interface. Each tiny cartridge holds a 5-metre closed loop of 1.9 mm tape that runs in a single direction: there is no rewind, no fast-forward, no random access — only a loop that whirs past the head in an eight-second circuit. Everything about using one is shaped by that loop. Files are laid down sequentially until the loop's one splice passes the head, forcing a slow rotation boundary the drive must count around; to reclaim space you do not erase, you BACK UP the loop onto a second cartridge and the extra space 'returns.' The result is the fastest cheap home storage of 1983 (15 KB/s, ~85 KB per cartridge) that was also the least trustworthy — Sinclair's own cassette proved more reliable for many, and the drive earned a reputation for silently eating data. This is media-as-interface: the endless loop's no-rewind constraint and its fragility are the whole interaction. Note: the earlier Exatron Stringy Floppy (1978) is the archetype of this same endless-loop-wafer idea; the Microdrive is promoted here as the more widely-documented, iconic Sinclair exemplar, and the two share the interaction language.",
+  "search_terms": [
+    "Sinclair ZX Microdrive 1983 endless loop tape cartridge",
+    "ZX Microdrive no rewind sequential tape home computer storage",
+    "ZX Interface 1 ZX Spectrum Microdrive cartridges",
+    "ZX Microdrive expand capacity back up cartridge formatting",
+    "Exatron Stringy Floppy endless loop wafer 1978"
+  ],
+  "research": {
+    "title": "ZX Microdrive",
+    "year": "1983 (launched July 1983)",
+    "by": "Sinclair Research (development by Jim Westwood, David Southward, Ben Cheese). Concept first suggested by Andrew Grillet in a 1974 interview.",
+    "tags": ["HCI", "Storage", "Tape Media", "Endless Loop", "Sequential Access", "Physical Media", "Home Computing", "Sinclair", "Medium-as-Interface", "Fragility"],
+    "overview": "The ZX Microdrive, launched July 1983 by Sinclair Research, was a magnetic-tape data storage system billed as the fast, cheap middle ground between audio-cassette storage (slow, ~1250 baud) and floppy disks (fast but expensive). Each cartridge — 44 mm × 34 mm × 8 mm including its protective cover — contains a 5-metre endless loop of 1.9 mm-wide magnetic tape driven at 76 cm/s (300 in/s), completing a full circuit in about 8 seconds. Formatted capacity was a minimum of 85 KB (capacity varied with bad sectors and motor speed). After connecting a ZX Microdrive to a ZX Spectrum via the ZX Interface 1 (£49.95) the drive, costing £49.95, offered ~15 KB/s sequential data throughput. The medium was inherently sequential: because the tape is a continuous loop, the user could not rewind or fast-forward, and files were written one after another along the loop. The Microdrive technology was later reused in the Sinclair QL and ICL One Per Desk personal computers. It was cheap and innovative but suffered from real-world unreliability, and by the later 1980s falling floppy-disk prices made the format obsolete. The endless-loop tape drive concept dates to the earlier Exatron Stringy Floppy (1978), which used disposable 'wafer' cartridges on TRS-80/VIC-20/C64 systems; the Wafadrive (1984) was a later clone.",
+    "deepDive": [
+      {
+        "heading": "The Interaction: A Loop You Can Never Rewind",
+        "text": "The defining HCI fact is that the tape is an endless loop in a single physical circuit. The drive reads and writes sequentially: files accumulate around the loop in the order written. Because there is no rewind, the same sequence is re-read after each full circuit (about 8 seconds per pass), so a program positioned mid-loop could cost seconds of idle 'waiting' each load. There is no such thing as rewinding to a previous file — you must either know the order or iterate the whole loop. The medium's geometry, not the software, dictated the interaction."
+      },
+      {
+        "heading": "'Expand' Means 'Back Up Onto Another Loop'",
+        "text": "The most revealing Microdrive idiom is how it 'expanded' cartridge capacity. Rather than erasing individual sectors, the documented procedure to recover space involved backing up the loop's contents onto a second cartridge; the backup operation was described as returning usable space to the original. Management of a discontinuous, growable tape space was exposed to the user as a physical copying ritual. Formatting a fresh cartridge depended on counting the loop's splice and on the exact motor speed, which is why 'formatted capacity' was a range, not a fixed number."
+      },
+      {
+        "heading": "Fast But Fragile: The Infamous Reliability Problem",
+        "text": "The Microdrive was fast (a full 85 KB read in one uninterrupted ~8-second loop) yet notoriously unreliable. The tiny 2 mm tape could strip or shed oxide at the cartridge's internal splice; poor contact with the read head caused intermittent errors; and a tape that slipped could corrupt a sector that then appeared only as a silent error or a crash. Sinclair's own ZX Spectrum +3 cassette was, for many users, a safer if slower companion. The culture that grew around the Microdrive — 'back up everything, twice' — is a direct artifact of building a UX on top of a physically fragile endless loop. This fragility-as-constraint is the exhibit's core interaction story."
+      },
+      {
+        "heading": "The Endless-Loop Wafer Lineage",
+        "text": "The Microdrive belongs to a family of endless-loop program-storage wafers, the archetype being the Exatron Stringy Floppy (1978) — a business-card-sized 'wafer' of quarter-inch endless tape that whirred continuously past the head at several times the baud rate of an audio cassette, used on TRS-80, VIC-20, and C64. The Rotronics Wafadrive (1984) was a later commercial attempt. The Microdrive is the best-documented and most culturally iconic of these, and it is promoted here as the exemplar of the medium-as-interface principle; the same interaction language applies to the ESF."
+      }
+    ],
+    "team": [
+      {"name": "Jim Westwood", "note": "Sinclair Research hardware engineer; a lead developer of the ZX Microdrive."},
+      {"name": "David Southward", "note": "Sinclair Research hardware engineer; co-developer of the Microdrive."},
+      {"name": "Ben Cheese", "note": "Sinclair Research hardware engineer; co-developer of the Microdrive."},
+      {"name": "Andrew Grillet", "note": "Credited with first suggesting the Microdrive concept in a 1974 interview with Sinclair Research; he declined a job there and detailed the idea in 1982."}
+    ],
+    "media": [
+      {
+        "src": "potential/zx-microdrive/images/microdrive-white.jpg",
+        "alt": "An empty Sinclair ZX Microdrive unit on a white background",
+        "caption": "The ZX Microdrive peripheral. Photo by Evan-Amos, CC BY 2.5, via Wikimedia Commons."
+      },
+      {
+        "src": "potential/zx-microdrive/images/microdrive-with-cart.jpg",
+        "alt": "ZX Microdrive with a cartridge inserted through its top-loading slot",
+        "caption": "ZX Microdrive with cartridge inserted. Photo by ccwoodcock, CC BY 2.0, via Wikimedia Commons."
+      },
+      {
+        "src": "potential/zx-microdrive/images/spectrum-and-microdrive.jpg",
+        "alt": "A ZX Spectrum with the Interface 1 breakout and a Microdrive attached",
+        "caption": "ZX Spectrum fitted with the Interface 1 and a ZX Microdrive. Photo by ccwoodcock, CC BY 2.0, via Wikimedia Commons."
+      }
+    ],
+    "sources": [
+      {"text": "Wikipedia: ZX Microdrive", "url": "https://en.wikipedia.org/wiki/ZX_Microdrive"},
+      {"text": "Wikipedia: Exatron Stringy Floppy (endless-loop wafer archetype)", "url": "https://en.wikipedia.org/wiki/Exatron_Stringy_Floppy"},
+      {"text": "Wikipedia: ZX Interface 1", "url": "https://en.wikipedia.org/wiki/ZX_Interface_1"},
+      {"text": "World of Spectrum / Sinclair Microdrive development documentation", "url": "https://worldofspectrum.org/"}
+    ],
+    "imageUrls": [
+      "https://upload.wikimedia.org/wikipedia/commons/a/a4/Sinclair_ZX_Microdrive_White_BG.jpg",
+      "https://upload.wikimedia.org/wikipedia/commons/b/be/ZX_Microdrive_with_cart.jpg",
+      "https://upload.wikimedia.org/wikipedia/commons/6/66/ZX_Spectrum_and_Microdrive.jpg"
+    ]
+  },
+  "savedImages": [
+    "potential/zx-microdrive/images/microdrive-white.jpg",
+    "potential/zx-microdrive/images/microdrive-with-cart.jpg",
+    "potential/zx-microdrive/images/spectrum-and-microdrive.jpg"
+  ]
+}
