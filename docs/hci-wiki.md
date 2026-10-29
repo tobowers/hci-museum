@@ -1,6 +1,6 @@
 # The HCI Golden Age Wiki
 
-A research compendium for a digital museum of cutting-edge Human-Computer Interaction from the late 1970s through the early 1990s. These three hundred and one projects mix canonical experiments with weird, forgotten, and beautiful vaporware — brain control, voice control, gesture, wearable computing, VR, robots, and full-body exertion.
+A research compendium for a digital museum of cutting-edge Human-Computer Interaction from the late 1970s through the early 1990s. These three hundred and eight projects mix canonical experiments with weird, forgotten, and beautiful vaporware — brain control, voice control, gesture, wearable computing, VR, robots, and full-body exertion.
 
 Each entry includes an overview, a deep dive, a small media gallery, and full source links so the images and facts can always be traced back.
 
@@ -311,7 +311,9 @@ Each entry includes an overview, a deep dive, a small media gallery, and full so
      301. [Brother Punch-Card Knitting Machine (KH-860) (1985)](#brother-punch-card-knitting-machine-kh-860-1985)
      302. [Bang & Olufsen Beocenter 9500 (1989)](#bang--olufsen-beocenter-9500-1989)
      303. [RCA SelectaVision CED Videodisc (1981)](#rca-selectavision-ced-videodisc-1981)
-     304. [Vectrex (1982)](#vectrex-1982)
+      304. [Vectrex (1982)](#vectrex-1982)
+      305. [Petrofsky FES Bicycle Ergometer (1984)](#petrofsky-fes-bicycle-ergometer-1984)
+      306. [Casio CMD-40 (1992)](#casio-cmd-40-1992)
   
 ---
 
@@ -13566,3 +13568,67 @@ The Vectrex, released by General Consumer Electronics in 1982, is unique among h
 1. Wikipedia — Vectrex — https://en.wikipedia.org/wiki/Vectrex
 2. Vectrex Museum / Vectrex history — http://www.vectrexmuseum.com/
 3. Smith Engineering / GCE product documentation (1982)
+## Petrofsky FES Bicycle Ergometer (1984)
+
+**By:** Jerrold Petrofsky, Chandler A. Phillips, R. M. Glaser, and H. Heaton — Wright State University  
+**Tags:** `Biofeedback` `Rehabilitation` `Closed-Loop Control` `Assistive Technology` `Body as Interface`
+
+### Overview
+
+At Wright State University in the early 1980s, biomedical engineers Jerrold Petrofsky and colleagues built a stationary bicycle on which a paralyzed person pedals — not despite the paralysis, but because of it. The rider's legs are strapped to a Monarch ergometer, and they move only because an Apple II Plus watches the crank position through a rotary potentiometer and fires timed transcutaneous electrical stimulation into the iliacus and quadriceps muscles in the precise quarter-turn order a healthy pedal stroke requires. The same motion the computer measures is the motion the computer commands: the leg is simultaneously the sensor and the actuator, closing a loop in which one system — the human body — is both the input and the output.
+
+### Deep dive
+
+* **The closed loop.** A rotary potentiometer on the pedal crank feeds the crank angle into the Apple II's 8-bit analog-to-digital converter. The computer divides the revolution into quadrants and, as the free-wheeling crank passes each sector, delivers a burst of stimulation to whichever muscle group should be driving at that instant — iliacus and quadriceps on the forward push, timed relaxation as the leg rides through the dead spots. No external motor turns the pedals; the only torque comes from electrically contracted muscles that the computer is also reading.
+* **Body as input and output.** This is the collection's cleanest example of a bio-mechatronic loop: the same physiological system provides the sensing channel and the actuation channel. The computer's software model of the pedal stroke is inscribed into the patient's own nervous system and muscles, which must contract and relax on command to keep the loop alive.
+* **A rehabilitation instrument.** Velcro foot attachments held the rider's feet to the pedals, and a break-away safety arrangement released if the stimulation overwhelmed the rider. In a 1984 Journal of Clinical Engineering trial, four paraplegic and quadriplegic subjects rode the ergometer for 30 days, building fitness and demonstrating that paralyzed muscle could be driven through useful work. The same stimulation line of research produced the famous 1983 moment when Nan Davis, paralyzed from the chest down, took her first electrically assisted steps before television cameras.
+* **Commercial and patent life.** The system was patented as US4499900A (filed November 1982, granted February 1985) by Petrofsky, Phillips, Glaser, and Heaton, and licensed to Therapeutic Technologies Inc. in 1983 — a commercially odd collision of 1980s microcomputing, clinical medicine, and machine-driven human muscle, and a direct ancestor of today's functional electrical stimulation (FES) bicycles.
+
+### Team
+
+* **Jerrold Petrofsky.** Lead investigator; the "Petrofsky" of the patent and a central figure in 1980s FES research, including the Nan Davis walk.
+* **Chandler A. Phillips, R. M. Glaser, and H. Heaton.** Co-inventors on US4499900A.
+* **Wright State University.** Home of the laboratory where the ergometer was developed and trialled.
+* **Therapeutic Technologies Inc.** Licensor that took the system to market.
+
+### Media
+
+![Petrofsky FES bicycle ergometer, patent drawing](../assets/wiki/petrofsky-fes-fig2.jpg)
+*Patent FIG. 2 of US4499900A (filed 1982, granted 1985): the ergometer with a paralyzed rider in the loop, the Apple II, and the stimulation driver. Public domain, US Patent & Trademark Office / Google Patents.*
+
+### Sources
+
+1. US Patent 4499900A — "FES bicycle" — https://patents.google.com/patent/US4499900A/en
+2. Journal of Clinical Engineering, 9(1), 1984 — the 30-day, four-subject ergometer trial.
+3. Wright State University FES program records and the Nan Davis assisted-walk coverage (1983).
+
+## Casio CMD-40 (1992)
+
+**By:** Casio Computer Co.  
+**Tags:** `Wearable` `Infrared` `Universal Remote` `Learning Codes` `Consumer Electronics`
+
+### Overview
+
+Released at the end of 1992, the Casio CMD-40 was the flagship of Casio's "Wrist Remote Controller" line: a conventional-looking digital watch (module 1174, complete with an 8-digit calculator, alarm, and stopwatch) that concealed a full infrared TV/VCR remote control inside its resin case. An IR emitter sits at the top of the case, a chunky red side button fires it, and a small box on the LCD flashes whenever the watch actually sends a signal. Wear it on your wrist, point it at the television, and the body becomes the handset.
+
+### Deep dive
+
+* **A watch that is also a remote.** The CMD-40 collapsed the physical grammar of a television remote — a device you pick up, point, and press — onto a device you already wear. It carried preset code tables for dozens of 1990s TV and VCR brands, so a channel change, volume nudge, or playback command was typed out from the wrist by aiming the watch face across the room.
+* **The learning function.** The oddest detail is that the watch could memorize the language of remotes it had never met. In learning mode you held any other remote about three centimeters from the watch, pressed the button you wanted to copy, and the CMD-40 absorbed up to 16 infrared codes into its own memory, confirmed by an indicator on the display. The wearable gadget thus became a universal remote not because it shipped with every code, but because it could learn new ones on the wrist.
+* **Calculator, alarm, stopwatch.** Beneath the remote layer sat an ordinary Casio digital watch: date and time, a single daily alarm and hourly signal, a stopwatch, and a full 8-digit calculator operated from the same keypad that drove the TV.
+* **Design and longevity.** A dome-shaped resin case, a large red side button, and the small IR-indicator box gave it a gadget-era look. Casio omitted a backlight because it drained the battery too quickly (it ran on a CR2032 cell). The CMD-40 stayed in retail from late 1992 until around 2005, outliving most of the VCRs and televisions it was built to imitate, and remains the best-loved of Casio's remote-control watches (following the CMD-10/20/30 and preceding the short-lived CMD-50).
+
+### Team
+
+* **Casio Computer Co.** Designed and sold the CMD-40 and the surrounding "Wrist Remote Controller" line.
+
+### Media
+
+![Casio CMD-40 TV remote watch](../assets/wiki/casio-cmd40-remote-watch.jpg)
+*The Casio CMD-40 (1992): a wrist-worn IR remote with calculator, alarm, and a learning function that copies codes from other remotes. CC BY 3.0, U1Quattro / Wikimedia Commons.*
+
+### Sources
+
+1. Digital-Watch.com — CASIO CMD-40 — https://www.digital-watch.com/DWL/1work/casio_cmd-402
+2. Vintage Casio Restore — Casio CMD-40 Technical Data & Model Information — https://casiorestore.com/casio-cmd-40-technical-data-model-information/
+3. Wikimedia Commons — File:TV remote watch.jpg (CC BY 3.0) — https://commons.wikimedia.org/wiki/File:TV_remote_watch.jpg
