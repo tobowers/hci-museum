@@ -1,0 +1,52 @@
+{
+  "slug": "wang-2200-word-processing-system",
+  "title": "Wang 2200 Word Processing System / System 5",
+  "year": "1976",
+  "subtitle": "A typewriter-shaped shell that turned a minicomputer into an office appliance — stored keystrokes, double daisy wheels, and a shelf of tape cartridges.",
+  "why_scout_cares": "The museum has many CRT word processors (Brother WP1, Canon Cat, CPT 8100, Xerox Cat, Fujitsu OASYS, CP/M-era machines) but nothing that shows the *first* commercial word-processing appliance — the transition from Selectric typewriter plus timesharing terminal to a dedicated, computer-driven typing station with its own storage medium. Wang's distinguishing interaction ideas are embodied and unusually literal: the typewriter keybed is the input, the page is still physical (daisy-wheel impression on paper, not a screen), keystrokes are held in electronic memory and can be replayed/pitched by a character counter, and the archive is a stylized plastic cassette cartridge the operator files and snaps in by hand. Double daisy wheels let bold and underlined text print by physically indexing a second striking element. This is the bridge between the typewriter and the screen, and it fills the 'office word-processing appliance' gap with an artifact that photographs well.",
+  "search_terms": [
+    "Wang 2200 Word Processing System 1976",
+    "Wang System 5 document processor daisy wheel",
+    "Wang WPS diskette cartridge",
+    "Wang Laboratories Lowell word processing word processor ads 1970s"
+  ],
+  "research": {
+    "title": "Wang 2200 Word Processing System / System 5",
+    "year": "1976",
+    "by": "Wang Laboratories (Dr. An Wang; WPS developed under Harold Koplow and the Word Processing Division in Lowell, Massachusetts)",
+    "tags": [
+      "HCI",
+      "Office",
+      "Word Processing",
+      "Daisy Wheel",
+      "Minicomputer",
+      "Appliance",
+      "Physical Media"
+    ],
+    "overview": "The Wang 2200 Word Processing System (WPS), announced in 1976, was the first commercially successful computer-driven word-processing system sold as a self-contained office appliance. Wang Laboratories, founded by Dr. An Wang in 1951 as a maker of magnetic-core memory and subsequently electronic calculators, had entered computing in 1973 with the 2200 BASIC desktop minicomputer. In 1974 under Harold Koplow the company began adapting that machine into a document processor, and the 1976 WPS turned the 2200 into a typing station built around a pair of daisy-wheel typewriters. Operators typed on what looked and felt like a typewriter; the machine's own 2200 computer captured each keystroke into electronic memory, printed a clean copy on the paper in the platen, and archived the document as a digital file on a removable media cartridge. Follow-on models (the WPS/CS, and by 1979-80 the Wang System 5 document processor series with full-screen CRT editing) extended the line until Wang's collapse after its 1983 peak revenue year of roughly $1.5 billion and the 1984-85 losses.",
+    "deepDive": [
+      {
+        "heading": "Why it counts as HCI",
+        "text": "The WPS is the moment the office typing machine became a computer terminal by another name. The 'interface' is deliberately familiar — a Selectric-style keybed, a carriage, paper — while the computer hides inside as memory and storage control. The user's mental model is still 'I am typing a letter,' but every keystroke is now a recorded event that can be replayed, pitched, or archived. That separation of the physical act of typing from the persistence of the result is the founding move of word processing, and the WPS is its first successful commercial embodiment."
+      },
+      {
+        "heading": "The keystroke buffer and the record/pitch ritual",
+        "text": "WPS operators did not type a page that was immediately printed. Keystrokes went into a buffer on the 2200, and a character counter showed how much of the page's capacity was filled. Pressing a key printed the corresponding character onto the sheet; a correction or an insertion was made by pausing the buffer — the operator 'pitches' back to the mistake, types the correction, and the corrected text is sent on to the page while the rest of the buffer is held in memory. This pause-and-correct, which the operator learned as a physical reflex at the keybed, is a direct ancestor of the cursor and the editing buffer, but it was performed without any screen: the state of the document lived in the machine's memory and in the operator's count, not in a visible display."
+      },
+      {
+        "heading": "Two daisy wheels for emphasis",
+        "text": "Printing used two IBM Office Products Division Selectric-style daisy-wheel typewriters, one of which could be fitted with a different wheel. That second, font-bearing striking element let ordinary bold and underlined text be produced without an escape-code command: the machine indexed to the bold wheel to strike a character, returned to the regular wheel for the next, and underlined by overstriking the same character position. Emphasis was not a stored attribute revealed later — it was a physical act of the printer choosing which wheel fell onto the paper."
+      },
+      {
+        "heading": "The media cartridge archive",
+        "text": "Documents were saved to removable digital-storage cartridges — stylized plastic cartridges holding a diskette-class magnetic medium — that the operator labelled and filed like a deck of cards. Retrieving a letter meant selecting the correct cartridge and inserting it, and the machine rewound and replayed it through the typewriter to produce a fresh physical copy. The archive was a shelf of tangible objects, each one a specific document family, which is precisely the kind of physical-token storage relationship the museum already traces in iButton, Cauzin Softstrip, IBM 6:5 voice discs, and the Ascom QuickFare ticket."
+      },
+      {
+        "heading": "Lineage and market reception",
+        "text": "Wang's WPS succeeded because it was sold as office furniture and installed alongside the secretarial pool rather than as a computer. Competitors (IBM's Mag Card/System 6, Lanier, CPT, Vydec) followed the same pattern. The full-screen CRT editor that we now recognize as word processing — editing a visible page rather than held keystrokes — arrived with Wang's own System 5 series and with competitors by the end of the decade. The 1976 WPS is therefore the clearest surviving expression of the transition artifact: a typewriter whose paper output is generated by stored, replayable, digital keystrokes."
+      }
+    ]
+  },
+  "images": [],
+  "notes": "Image sourcing incomplete. The Smithsonian Institution's National Museum of American History holds a Wang 2200 WPS (object records for the Wang 2200 and WPS line are in the Smithsonian Open Access collection). Visible-licence period photos of the WPS exist in Wang corporate advertising (1970s trade magazines, scanned by the Computer History Museum and Wang enthusiast archives) but need licence verification before use. Do not promote without at least one verified CC/PD or documented-permission image, plus a second image showing the cartridge media or the double daisy-wheel printer."
+}
