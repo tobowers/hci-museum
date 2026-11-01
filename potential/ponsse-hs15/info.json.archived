@@ -1,0 +1,87 @@
+{
+  "slug": "ponsse-hs15",
+  "title": "Ponsse HS-15 Harvester",
+  "year": "1988",
+  "subtitle": "A forest machine whose computerized harvester head measures each tree in the dark while it is being eaten — caliper-as-interface, deciding where to cut before the operator ever sees the log.",
+  "why_scout_cares": "The interaction is a genuine closed measurement loop with a living organism: the harvester head seizes a standing tree, fells it, then feeds the stem through its delimbing knives while a measuring wheel counts every centimeter — and, from 1986, a diameter sensor reads the stem's thickness. A control computer in the cab uses those two signals to compute volume and to decide the bucking points (where to cut the stem into saleable logs) before a single log is dropped. The operator is no longer measuring with eyes and a tape; the machine is a caliper you sit inside, and the tree is consumed as data. This is the museum's first agricultural/forestry production machine, its first 'measuring-while-destroying' instrument, and a distinct topology from the crop-yield and lab-measurement exhibits: the actuator (the shears) and the sensor (the measuring wheel) are the same hand holding the same piece of matter.",
+  "search_terms": [
+    "Ponsse HS-15 harvester 1988 Lusto forest museum",
+    "harvester head measuring wheel diameter sensor bucking computer Kajaani Automatiikka",
+    "cut-to-length logging computer decides bucking points"
+  ],
+  "research": {
+    "title": "Ponsse HS-15 Harvester",
+    "year": "1988",
+    "by": "Ponsse Oy (Vieremä, Finland)",
+    "tags": [
+      "Forestry",
+      "Measurement",
+      "Bucking Computer",
+      "Cut-to-Length",
+      "Embodied",
+      "Instrumentation"
+    ],
+    "overview": "The Ponsse HS-15 is a cut-to-length forest harvester built by Ponsse Oy of Vieremä, Finland — a heavy, wheeled or tracked machine with a crane-mounted harvester head instead of a saw-and-chainsaw crew. Its defining interaction is that the tree is measured as it is destroyed. The head grips a standing stem, fells it, and drags it through delimbing knives while a measuring wheel rolls along the bark counting length and a diameter sensor reads the stem's taper. A control computer uses those signals to compute the volume of each piece and to decide the bucking points — where the stem should be cut into sawlogs, pulpwood, and waste — before the operator in the cab ever lays eyes on the wood. The HS-15 photographed at the Metko forest-machine exhibition in Jämsänkoski in August 1988 sits precisely on Ponsse's own roadmap: the 1985–86 launch of grapple harvesters and the acquisition of diameter-measuring devices from Kajaani Automatiikka Ky, two years before the computerized Kajaani 2000 loader-control system arrived in 1990.",
+    "deepDive": [
+      {
+        "heading": "The machine that measures by eating",
+        "text": "A conventional logging crew measured trees by hand: a feller looked at the trunk, judged its diameter, and cut to suit a mill's order sheet. The harvester collapses that whole judgement into a stream of sensor readings. Gripping wheels force the severed stem through the head; their rotations, or a dedicated measuring wheel running along the bark, give length continuously, while a pair of knives or a roller caliper measures diameter as the stem slides past. In the cab, one operator watches a display: species, length, diameter, computed volume, and the machine's proposed cuts. The tree is thus both the workpiece and the ruler — the act of processing it is the act of measuring it, and the measurement is gone the instant the log is bucked off."
+      },
+      {
+        "heading": "Ponsse's own timeline: measuring arrives in 1986",
+        "text": "Ponsse's official company history places the measurement function at the birth of the grapple harvester. The 1985 H 520 harvester head was launched, ran into grapple-operation troubles, and was followed by the H 60 head at the end of the same year. In 1986, under the heading 'Measuring devices for harvester grapples', the company records that it 'acquires these from Kajaani Automatiikka Ky. The very first machine with a functioning diameter measuring device is delivered to contractor Voitto Muikku in Puolanka.' The HS-15 in the Lusto photograph is dated August 1988 — squarely inside that first generation of diameter-sensing Ponsse machines, and two years before the 1990 'computerised Kajaani 2000 loader control system' the company calls 'years ahead of its time.'"
+      },
+      {
+        "heading": "The operator as supervisor of a measurement loop",
+        "text": "The cab of a harvester is not a place where a person cuts wood; it is a place where a person supervises a computer that cuts wood to specification. The operator selects a species and log-length table, watches the computed diameter and volume, and overrides the proposed bucking points when the wood is defective or the order changes. This is the agricultural cousin of the numerically controlled machine tool — except the stock is an irregular living tree, the sensor is a rolling wheel pressed against wet bark, and the specification is a mill's price list rather than a drawing. The interface is the gap between what the caliper reads and what the saw does."
+      },
+      {
+        "heading": "Provenance of the photograph",
+        "text": "The image used here is the museum-record photograph of the Ponsse HS-15 taken in Jämsänkoski, Finland in August 1988 by Kauko Tiuraniemi, held by Lusto — the Finnish Forest Museum (accession record lusto.knp-152139), where it is catalogued as 'Ponsse HS-15-harvesteri. Valmistaja vieremäläinen Ponsse Oy. Metko-metsäkonenäyttely' — i.e. the Ponsse HS-15 harvester shown at the Metko forest-machine exhibition. It is released under CC BY 4.0."
+      },
+      {
+        "heading": "Why it belongs in a museum of interfaces",
+        "text": "The HS-15 is a reminder that the most consequential computer interfaces of the 1980s were often not on desks. Here the interface is a hydraulic arm, a rolling wheel, a diameter knife, and a cab display: a computer wrapped around a physical process so tightly that its inputs are the bark of a tree and its outputs are the length and number of logs. It reframes 'data entry' as something done by a hungry machine to a living thing, and it is the collection's first example of a measurement loop whose actuator and sensor are the same grip."
+      }
+    ],
+    "team": [
+      {
+        "name": "Ponsse Oy",
+        "note": "Finnish forest-machine maker founded by Einari Vidgrén in Vieremä, Finland (1970); built the HS-15 harvester and the H 520/H 60 harvester heads"
+      },
+      {
+        "name": "Kajaani Automatiikka Ky",
+        "note": "Supplier of the harvester-grapple measuring devices Ponsse acquired in 1986; ancestor of the 1990 computerized Kajaani 2000 control system"
+      }
+    ],
+    "media": [
+      {
+        "src": "assets/wiki/ponsse-hs15.jpg",
+        "alt": "Ponsse HS-15 forest harvester at Metko, Jämsänkoski, August 1988",
+        "caption": "The Ponsse HS-15 harvester at the Metko forest-machine exhibition, Jämsänkoski, Finland, August 1988. Its crane-mounted head measures each stem while delimbing and bucking it. (Image: Kauko Tiuraniemi / Lusto — Finnish Forest Museum, CC BY 4.0, via Wikimedia Commons.)"
+      }
+    ],
+    "sources": [
+      {
+        "text": "Ponsse Plc — History (1983 S 15; 1985 H 520 and H 60 harvester heads; 1986 measuring devices from Kajaani Automatiikka Ky; 1990 Kajaani 2000 control system)",
+        "url": "https://www.ponsse.com/company/history"
+      },
+      {
+        "text": "Wikipedia — Harvester (forestry) (measuring wheel + diameter sensors + control computer; one operator; cut-to-length logging)",
+        "url": "https://en.wikipedia.org/wiki/Harvester_(forestry)"
+      },
+      {
+        "text": "Wikipedia — Ponsse (H60 released end of 1985; 1988 ownership; 1990s computerized control systems)",
+        "url": "https://en.wikipedia.org/wiki/Ponsse"
+      },
+      {
+        "text": "File:Ponsse HS-15 -harvesteri Jämsänkoskella 198808.jpg — Wikimedia Commons (CC BY 4.0, Kauko Tiuraniemi / Lusto)",
+        "url": "https://commons.wikimedia.org/wiki/File:Ponsse_HS-15_-harvesteri_J%C3%A4ms%C3%A4nkoskella_198808.jpg"
+      },
+      {
+        "text": "Finna / Lusto — Suomen Metsämuseo, record lusto.knp-152139 (Ponsse HS-15 at Metko forest-machine exhibition)",
+        "url": "https://finna.fi/Record/lusto.knp-152139"
+      }
+    ]
+  }
+}
