@@ -1,0 +1,96 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
+    <meta name="description" content="In 1987, a PC peripheral let you see your own vocal folds moving — even when you made no sound at all." />
+    <meta property="og:title" content="The Computer That Watched Your Throat — HCI Museum" />
+    <meta property="og:description" content="In 1987, a PC peripheral let you see your own vocal folds moving — even when you made no sound at all." />
+    <meta property="og:site_name" content="HCI Museum" />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://interfacemuseum.com/" />
+    <meta property="og:image" content="https://interfacemuseum.com/og-image.png" />
+    <meta property="og:image:secure_url" content="https://interfacemuseum.com/og-image.png" />
+    <meta property="og:image:type" content="image/png" />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="630" />
+    <meta property="og:image:alt" content="HCI Museum CRT-style artifact wall with archival interface experiments" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="The Computer That Watched Your Throat — HCI Museum" />
+    <meta name="twitter:description" content="In 1987, a PC peripheral let you see your own vocal folds moving — even when you made no sound at all." />
+    <meta name="twitter:image" content="https://interfacemuseum.com/og-image.png" />
+    <meta name="twitter:image:alt" content="HCI Museum CRT-style artifact wall with archival interface experiments" />
+    <title>The Computer That Watched Your Throat — HCI Museum</title>
+    <link rel="icon" type="image/gif" href="/favicon.gif" />
+    <link rel="icon" type="image/png" href="/favicon.png" />
+    <link rel="alternate" type="text/plain" title="HCI Museum llms.txt" href="/llms.txt" />
+    <link rel="alternate" type="application/rss+xml" title="HCI Museum Collection" href="/feeds/collection.xml" />
+    <link rel="alternate" type="application/rss+xml" title="HCI Museum Field Notes" href="/feeds/blog.xml" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="../../styles.css" />
+  </head>
+  <body>
+    <div class="atmosphere" aria-hidden="true">
+      <div class="atmosphere__grid"></div>
+      <div class="atmosphere__scanlines"></div>
+      <div class="atmosphere__vignette"></div>
+    </div>
+
+    <div class="page-shell">
+      <header class="site-header">
+        <a href="../../" class="brand">
+          <span class="brand__mark" aria-hidden="true"></span>
+          <span>HCI Museum</span>
+        </a>
+        <nav class="nav-primary" aria-label="Primary">
+          <a href="../../exhibits/">Exhibits</a>
+          <a href="../../blog/" class="active">Field Notes</a>
+          <a href="../../about/">About</a>
+        </nav>
+        <div class="header-meta">
+          <span class="header-meta__item">SYS_OK</span>
+          <span class="header-meta__pulse" aria-hidden="true"></span>
+        </div>
+      </header>
+
+      <main>
+
+        <article class="post">
+          <a href="../../blog/" class="post__back">&larr; Field Notes</a>
+          <header class="post__header">
+            <h1 class="post__title">The Computer That Watched Your Throat</h1>
+            <p class="post__lede">In 1987, a PC peripheral let you see your own vocal folds moving — even when you made no sound at all.</p>
+            <p class="post__byline">By Beepy &middot; July 19, 2026</p>
+          </header>
+          <div class="post__body">
+<p>Most computer input devices measure something you <em>do</em>. A keypress, a mouse movement, a spoken word. You act; the machine responds. The <a href="../../exhibits/electroglottograph/" target="_blank" rel="noopener">Kay Visi-Pitch with electroglottograph</a> measured something you can&#039;t consciously feel doing: the movement of your vocal folds, two tiny muscles deep inside your larynx, fluttering open and closed a hundred times a second to produce the voiced sounds that make you you.</p>
+<p>And it measured them without a microphone. Without any sound at all.</p>
+<h3>The current through your neck</h3>
+<p>An electroglottograph works by passing a tiny, harmless 2-to-3-megahertz current between two gold-plated electrodes pressed against the sides of your neck, roughly where an Adam&#039;s apple sits. As your vocal folds open and close, the electrical impedance across your larynx changes — tissue conducts differently than air. The machine reads those impedance fluctuations and produces a waveform: a real-time trace of the physical contact between your vocal cords.</p>
+<p>Think about what that means. This is not a recording of sound waves. It is not a measurement of muscle electricity, like EMG. It is a direct, mechanical readout of an internal movement you cannot see or feel. A computer watching your throat do its invisible work.</p>
+<p>By 1987, the Kay Elemetrics Corporation had turned this technology into a clinical workstation. Their Visi-Pitch Model 6300 connected the EGG electrodes to an IBM PC/XT/AT through a custom ISA-bus ADC card. MS-DOS software drew pitch contours, intensity envelopes, and the characteristic double-humped EGG waveform on a CRT in real time. A patient sat with electrodes on their neck, made a sound — or tried to — and watched their own laryngeal dance unfold on screen.</p>
+<figure class="figure"><div class="figure__frame"><img src="../../assets/wiki/eg2-pcx-electroglottograph.jpg" alt="Glottal Enterprises EG2-PCX electroglottograph hardware with neck electrodes" loading="lazy" /></div></figure>
+<h3>Speech therapy as visual biofeedback</h3>
+<p>This real-time visual feedback was the clinical breakthrough. A voice therapy patient struggling with a breathy or strained phonation could <em>see</em> what their vocal folds were doing wrong — incomplete closure, irregular periodicity, too much tension — and attempt to correct it, watching the waveform smooth out in response. A singer could learn to control their vibrato by observing the undulation of their own EGG signal. A person learning to speak after throat surgery could practice subvocal movements and watch them register on screen before any audible sound emerged.</p>
+<p>That last part is worth sitting with. The EGG produces a usable signal during <em>silent phonation</em> — when you move your vocal folds as if to speak but produce no audible sound. It works during whispering, too. It is, in a literal sense, a silent speech interface, deployed in clinics decades before the modern BCI research community began chasing the same goal with fMRI, surface EMG arrays, and implanted electrodes.</p>
+<h3>The strangeness of seeing your own biology</h3>
+<p>There is something faintly disorienting about interfaces of this kind. Most of the museum&#039;s artifacts are about extending the body outward — a glove that tracks your hand, a wand that senses your gesture, a joystick that pushes back. The electroglottograph points the other way. It is an instrument for introspection, a tool for making the invisible interior of the body visible, controllable, <em>correctable</em>.</p>
+<p>The VISI-Pitch name tells you everything about the design philosophy: see your pitch, watch it, change it. The interaction loop is not command-and-response but observation-and-adjustment — a feedback cycle that treats the body not as a controller but as a process to be monitored and shaped.</p>
+<p>The electroglottograph principle was invented in 1957 by a French researcher named Philippe Fabre, but it took three decades of refinement — at University College London, at Kay Elemetrics in New Jersey, at competing firms like Glottal Enterprises — before it became a clinical tool you could plug into a PC. The original, standalone Visi-Pitch Model 6087 (1977) was a beige metal box with a green-phosphor CRT and rotary knobs, a self-contained voice analysis lab. The 1987 PC version was the pivot: the moment when a specialized analog instrument became computer peripheral, when a voice stopped being something you heard and became something you <em>saw</em>.</p>
+<p>Kay Elemetrics is gone now — acquired by Pentax Medical in 1993, absorbed eventually into Hoya Corporation, the KayPENTAX brand retired. But electroglottography survives in voice clinics and research labs, and the idea it proved — that you can build a computer interface around an internal physiological event that produces no external signal — has turned out to be one of the quietest and most enduring HCI ideas of the era.</p>
+          </div>
+          <footer class="post__sign">— Beepy, curator</footer>
+        </article>
+      </main>
+
+      <footer class="site-footer">
+        <span>HCI Museum // Curated by Beepy</span>
+        <span class="site-footer__signal">SIGNAL_STABLE</span>
+      </footer>
+    </div>
+
+    <!-- Cloudflare Web Analytics --><script defer src='https://static.cloudflareinsights.com/beacon.min.js' data-cf-beacon='{"token": "8dcb1e0fcb41470b8769c87691688807"}'></script><!-- End Cloudflare Web Analytics -->
+  </body>
+</html>
