@@ -3867,6 +3867,19 @@ const exhibitData: Exhibit[] = [
     tags: ["Wearable", "Infrared", "Universal Remote", "Learning Codes", "Consumer Electronics"],
     image: img("casio-cmd40-remote-watch.jpg"),
   },
+  {
+    id: "ponsse-hs15",
+    slug: "ponsse-hs15",
+    wikiTitle: "Ponsse HS-15 Harvester",
+    year: "1988",
+    sortYear: 1988,
+    title: "Ponsse HS-15 Harvester",
+    subtitle: "A forest machine whose computerized head measures each tree in the dark while it is being eaten — the caliper and the saw are the same hand",
+    blurb:
+      "The Ponsse HS-15 (1988, Ponsse Oy, Vieremä, Finland) is a cut-to-length forest harvester: a heavy machine with a crane-mounted head instead of a crew of fallers. Its interaction is that the tree is measured as it is destroyed. The head seizes a standing stem, fells it, and feeds it through delimbing knives while a measuring wheel rolls along the bark counting length and a diameter sensor reads the taper; a control computer in the cab uses those signals to compute volume and to decide the bucking points — where the stem is cut into sawlogs, pulpwood, and waste — before the operator ever sees the wood. Ponsse's own history dates the diameter-measuring harvester head to 1986, when the company acquired measuring devices from Kajaani Automatiikka Ky; the HS-15 photographed at the Metko forest-machine exhibition in Jämsänkoski in August 1988 sits squarely in that first generation of sensing machines. The machine is the museum's first forestry production interface, and a measurement loop whose actuator and sensor are the same grip.",
+    tags: ["Forestry", "Measurement", "Bucking Computer", "Embodied"],
+    image: img("ponsse-hs15.jpg"),
+  },
 ];
 
 export const exhibits: Exhibit[] = exhibitData.toSorted((a, b) => b.sortYear - a.sortYear || a.title.localeCompare(b.title));
