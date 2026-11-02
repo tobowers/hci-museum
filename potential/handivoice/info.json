@@ -1,0 +1,72 @@
+{
+  "slug": "handivoice",
+  "title": "HandiVoice",
+  "year": "1978",
+  "subtitle": "A speaking box you could hold in one hand, operated by typing a three-digit code — or by a single twitch of any body part, with the numbers read aloud",
+  "why_scout_cares": "The HandiVoice (Carl Ostrowski / Federal Screw Works, patented 1977, shipped late 1970s, later by Phonic Ear) is a portable, battery-powered voice-output device for people who cannot speak. Its interaction model is the point and it is genuinely tri-modal: words live in a 994-entry vocabulary of three-digit codes printed in a booklet, so a person with good motor control types digits on a 16-key pad and presses TALK. A person with almost no motor control flips to 'scroll' mode, where each digit cycles upward on the 3-digit LCD and a single body action — a grunt, a head movement, a palm press, a throat switch — stops it. And in 'echo' mode the machine SPEAKS each scrolling digit aloud, so a user who is both blind and severely motor-impaired can operate the entire interface by hearing alone, stopping each number with the same single switch. A second embodiment swaps the keypad for a flat 128-cell touch surface with color-coded overlays. This is a rare case where the same device was explicitly designed for sighted typists, one-switch motor users, and deaf-blind one-switch users at once — a full access ladder in a 1970s handheld. The museum has single-purpose AAC-adjacent pieces (Lightwriter, Tongue Touch Keypad, VersaBraille) but nothing showing scanning + echo + coded vocabulary braided into one interface.",
+  "search_terms": [
+    "HandiVoice Ostrowski Federal Screw Works portable voice synthesizer 1978",
+    "HandiVoice HC 110 Phonic Ear augmentative communication scanning echo mode",
+    "patent 4215240 portable voice system verbally handicapped three-digit code scrolling"
+  ],
+  "research": {
+    "title": "HandiVoice",
+    "year": "1978",
+    "by": "Carl L. Ostrowski / Federal Screw Works (Detroit); later marketed by Phonic Ear",
+    "tags": ["AAC", "Speech Synthesis", "Scanning Switch Input", "Assistive Technology", "Blind Access", "Handheld"],
+    "overview": "The HandiVoice is a self-contained, battery-operated voice-output communication aid for non-speaking people, patented by Carl L. Ostrowski and assigned to Federal Screw Works (the Detroit firm that also spawned the Votrax speech-synth line). It is compact enough to be held in one hand and contains a 16-key keyboard, a three-digit liquid-crystal display, an internal speaker, a Motorola 6800 microprocessor, and a phoneme-based speech synthesizer. The user composes a message by entering three-digit number codes, each of which points to one of 994 stored 'words' (897 basic words, 13 phrases, 26 spelled letters, 45 phonemes, 13 morphemes). A temporary message memory holds up to 40 entries; pressing TALK speaks the whole accumulated message, and TALK REPEAT says it again on a loop ('I need help… I need help…'). Critically, the same vocabulary can be reached without a keyboard at all: in scanning ('scrolling') mode each digit cycles up automatically on the display and the user stops it with a single body action detected by a remote sensor switch — a throat switch for grunts or hums, a palm switch, or a head switch. When the 'echo' mode is on, the device also speaks each number as it scrolls, so a blind, motor-impaired user can run the whole interface by ear. A second embodiment replaces the numeric pad with a flat 128-cell touch-sensitive surface, shifted through four color-coded overlay levels for 480 direct selections.",
+    "deepDive": [
+      {
+        "heading": "Three-digit codes as a compact vocabulary",
+        "text": "Because speech is generated phonetically, each of the 994 entries is stored as a string of phonemes terminated by an end-of-word flag, and the three-digit code is simply an index into a table of first-phoneme addresses. A small printed code book maps everyday ideas to numbers: 001 is TALK, 002 is TALK REPEAT, 003 CLEAR, 005 MASTER CLEAR, 004 toggles echo, 006 toggles the remote sensor, 000 inserts a pause. The point for HCI is that the vocabulary is not a grid of picture icons you hunt for by eye; it is a numeric index you learn, like a postal code for language, and the same learned codes serve typists, scanners, and blind listeners alike."
+      },
+      {
+        "heading": "One body action runs the whole machine",
+        "text": "In scrolling mode the device turns into a single-switch scanner. The first activation of the remote sensor switch puts it in scroll mode (a decimal point lights); the first digit then counts up from zero at a speed set by the scroll-rate knob, and each subsequent activation of the same single action stops the current digit and starts the next. Four activations complete a three-digit word. If a fifth activation happens during a confirmation cue, the entry is cancelled and spoken as 'cancelled'. The sensor can be a throat switch driven by grunts or hums, a palm switch, or a head switch — the device's own patent cites a companion 'Acoustically Responsive Sensor Switch'. This is the crucial accessibility move: the entire text-entry task collapses to one binary channel the body can reliably produce."
+      },
+      {
+        "heading": "Echo mode: eyes-free operation by voice",
+        "text": "The most unusual affordance is the echo mode. When enabled, the synthesizer announces every digit as it visually rotates on the display, so the interface becomes fully auditory. A person who is blind and has minimal motor control can now find and stop each digit by listening and tapping a single switch — the machine narrates its own scan. The patent explicitly frames this as covering 'a blind individual with minimal motor capabilities.' Very few 1970s devices (and arguably few since) treat spoken self-voicing of the input process as a first-class mode rather than an afterthought."
+      },
+      {
+        "heading": "Overlay keyboard as a second embodiment",
+        "text": "FIG. 4 shows an alternate body that abandons the numeric keypad for a flat 8×16 matrix of touch-sensitive switches (Datanetics DC404), each labeled with a word or phrase. Four electronic shift keys select among four color-coded overlays, giving 480 direct selections, with color-matched LEDs above the keys showing the active level. This is a physical overlay interface — a sheet of printed vocabulary you lay over the surface — that anticipates the overlay-based communicators of the following decade. It trades the learnable three-digit code for immediate point-and-touch, at the cost of only 480 entries instead of 994."
+      },
+      {
+        "heading": "Distinction from the collection",
+        "text": "The museum's Lightwriter is a two-person shared-display AAC device; the Tongue Touch Keypad is an input peripheral for users who can use a tongue; VersaBraille is a one-user tactile terminal. The HandiVoice is different on the axis that matters here: it is a single device whose interaction model was designed to degrade gracefully across motor and sensory ability — full keypad, then one-switch scanning, then spoken self-voicing for users who cannot see the display. It fills the museum's 'coded vocabulary + single-switch scanning + auditory feedback' gap and is an early, explicit statement that assistive input should adapt to the user's remaining channel, not the reverse."
+      }
+    ],
+    "team": [
+      { "name": "Carl L. Ostrowski", "note": "Inventor; US Patent 4,215,240 'Portable voice system for the verbally handicapped', filed 11 Nov 1977, granted 29 Jul 1980" },
+      { "name": "Federal Screw Works", "note": "Original assignee (Detroit, Michigan); the same firm whose Vocal division produced the Votrax speech synthesizer line" },
+      { "name": "Mark V. Dorais", "note": "Inventor of the 'Acoustically Responsive Sensor Switch' (Ser. No. 550,666, filed 11 Nov 1977, same assignee) used as the single-body-action input for scanning mode" },
+      { "name": "Phonic Ear", "note": "Later distributor/rebrander of the HandiVoice line (as reported in AAC histories; model designations include HC 110/120). Treat as distribution context rather than patent-proven fact." }
+    ],
+    "media": [
+      {
+        "src": "https://patentimages.storage.googleapis.com/cc/ba/55/550e22151e0619/US4215240-drawings-page-2.png",
+        "alt": "Patent FIG. 1: perspective view of the handheld HandiVoice with 16-key keypad, three-digit LCD and speaker",
+        "caption": "FIG. 1 of US Patent 4,215,240 (Ostrowski / Federal Screw Works, 1980): perspective view of the hand-held voice system — a 16-key keyboard (12), a three-digit liquid-crystal display (14), an internal speaker (16), and the scan-rate and sensitivity knobs. Public-domain U.S. patent drawing."
+      },
+      {
+        "src": "https://patentimages.storage.googleapis.com/b2/1b/c7/9eba9a5401d5a7/US4215240-drawings-page-4.png",
+        "alt": "Patent FIG. 4: the flat 128-cell touch-sensitive overlay keyboard of the second embodiment",
+        "caption": "FIG. 4 of the same patent: the second embodiment, a flat 128-cell touch-sensitive keyboard with four color-coded overlay levels yielding 480 direct word selections. Public-domain U.S. patent drawing."
+      }
+    ],
+    "sources": [
+      { "text": "Google Patents — US4215240A, Portable voice system for the verbally handicapped (Ostrowski; 994-word vocabulary, scanning/echo modes)", "url": "https://patents.google.com/patent/US4215240A/en" },
+      { "text": "Google Patents — US4130730A, Voice synthesizer (the 8-bit phoneme synthesizer referenced by the HandiVoice patent)", "url": "https://patents.google.com/patent/US4130730A/en" },
+      { "text": "Votrax — Wikipedia (Federal Screw Works / Votrax relationship, confirming the corporate lineage)", "url": "https://en.wikipedia.org/wiki/Votrax" }
+    ],
+    "imageUrls": [
+      "https://patentimages.storage.googleapis.com/cc/ba/55/550e22151e0619/US4215240-drawings-page-2.png",
+      "https://patentimages.storage.googleapis.com/b2/1b/c7/9eba9a5401d5a7/US4215240-drawings-page-4.png"
+    ]
+  },
+  "savedImages": [
+    "potential/handivoice/handivoice-fig1-crop.png",
+    "potential/handivoice/handivoice-fig4-crop.png"
+  ]
+}

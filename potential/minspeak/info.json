@@ -1,0 +1,69 @@
+{
+  "slug": "minspeak",
+  "title": "Minspeak",
+  "year": "1983",
+  "subtitle": "A language system where each key is a picture that means many things — you spell out whole sentences by pressing multi-meaning icons in sequence",
+  "why_scout_cares": "Minspeak (Bruce Baker, conceived 1980, on a Rockwell AIM 65 with a Votrax SC-01, commercial on Prentke Romich hardware from 1983) is one of the most influential interaction models in augmentative and alternative communication, and its core idea is a genuine HCI inversion: instead of one picture = one word, each key carries several meanings chosen by context, and a short sequence of pictures composes an entire phrase. A shark picture can stand for 'shark' and 'ocean'; a rainbow stands for positive/approval. Press a theme icon twice and then a modifier key and the system speaks a pre-stored sentence like 'There is something wrong with the position of my chair.' The interaction is semantic compaction — pressing fewer keys than letters, using sequenced multi-meaning icons — the way ancient hieroglyph systems packed meaning into few glyphs. The museum has icon keyboards and chorded input (Twiddler, Hotz-style grids) but nothing where the keystroke grammar itself is a compressed language. Minspeak is the ancestor of the icon+sequence AAC vocabulary used by hundreds of thousands of non-speaking people today.",
+  "search_terms": [
+    "Minspeak Bruce Baker semantic compaction 1980 AIM 65 Votrax SC-01",
+    "Minspeak Prentke Romich Express III 1983 augmentative communication icon sequence",
+    "US4661916 polyemic symbols keyboard synthetic plural word messages"
+  ],
+  "research": {
+    "title": "Minspeak",
+    "year": "1983",
+    "by": "Bruce R. Baker (with Richard D. Creech and Kenneth W. Smith); commercialized by Prentke Romich Company",
+    "tags": ["AAC", "Icon Keyboard", "Semantic Compaction", "Speech Synthesis", "Language System", "Assistive Technology"],
+    "overview": "Minspeak is a language-representation system for communication aids, invented by Bruce R. Baker beginning in the summer of 1980 and first implemented in spring 1981 on a Rockwell AIM 65 computer driving a Votrax SC-01 speech synthesizer. Baker's insight was to apply ideas from computational linguistics and hieroglyphic writing to AAC: represent language not with one-meaning letters, phonemes, or pictures, but with a small set of polysemic (many-meaning) icons pressed in sequence. The licensed patent (US 4,661,916, inventors Baker, Richard D. Creech, and Kenneth W. Smith) describes a keyboard whose keys carry pictures that retrieve pre-stored plural-word messages from memory and send them to a speech synthesizer. A key pressed once may mean one thing; pressed twice it selects the theme it connotes, and a following key disambiguates — so a double-press of the 'eating' key followed by another icon retrieves the sentence 'Look out, the food is getting on my clothes.' Minspeak became commercially available on Prentke Romich hardware (the Express III) at the 1983 ASHA convention and remains the basis of the Unity vocabulary used by PRC devices today. Its interaction model is a compressed, sequenced, context-dependent icon grammar rather than a simple symbol board.",
+    "deepDive": [
+      {
+        "heading": "Multi-meaning icons: the hieroglyph insight",
+        "text": "Baker's starting point was that a single picture can represent a cluster of related ideas, and that context plus sequence decides which one. He drew explicitly on ancient writing: a Maya shark glyph stood for the animal, the ocean, the color green, and the stone jade because those ideas were linked in the culture. By giving each key a polysemic symbol and reading it through the keys struck before and after, a small keyboard can address a large vocabulary without drawing hundreds of distinct pictures. This is the opposite of the pictographic AAC boards of the era, where every picture had exactly one meaning."
+      },
+      {
+        "heading": "Sequence as grammar",
+        "text": "Meaning in Minspeak is carried by the ORDER of keypresses. A theme key struck twice sets the semantic domain (eating, transport, medical, style/formality), and a following key selects a specific pre-stored sentence within that domain. The patent gives worked examples: two presses of the eating theme followed by a modifier yields a sentence about food on clothing; a double-press of a medical theme key followed by another retrieves a phrase about the position of the chair. Because the sequences are short and semantic, a user produces whole utterances with a handful of presses — fewer keystrokes than it would take to spell the letters. The interface is a compact encoder for language, learned as a private code."
+      },
+      {
+        "heading": "From AIM 65 to Prentke Romich",
+        "text": "The first working system (spring 1981) ran on a Rockwell AIM-65 hobby microcomputer with a Votrax SC-01 chip — the same pairing of cheap 8-bit hardware and a phoneme synthesizer that powered many early talking devices. Baker met Richard Creech, one of the earliest expert users of speech-output aids, whose enthusiasm kept the project going. Baker presented Minspeak to manufacturers and chose Prentke Romich; they signed their first commercial agreement in December 1981, development on the Express III began in summer 1982, and Minspeak became commercially available at the 1983 ASHA convention in Cincinnati. A Byte magazine article in August 1982 explained the technique and its hardware embodiments to a broader technical audience."
+      },
+      {
+        "heading": "Distinction from the collection",
+        "text": "The museum's chorded and overlay keyboards (BAT keyboard, Twiddler) compress text by pressing multiple keys at once; Minspeak compresses by pressing fewer, meaning-laden keys in a learned order. Its nearest neighbour in the collection is the HandiVoice, which also uses a learned code (three-digit numbers) — but HandiVoice codes are arbitrary numeric indexes, whereas Minspeak keys are pictures whose meanings are spent and recombined by sequence. That makes Minspeak the museum's clearest example of an icon grammar as a general language interface, and the direct ancestor of today's widely used icon-sequencing AAC vocabularies."
+      }
+    ],
+    "team": [
+      { "name": "Bruce R. Baker", "note": "Linguist and inventor; conceived Minspeak in summer 1980; authored the system's history; US patent co-inventor" },
+      { "name": "Richard D. Creech", "note": "Co-inventor on US 4,661,916; one of the earliest expert users of speech-output communication aids; early advocate and tester" },
+      { "name": "Kenneth W. Smith", "note": "Co-inventor on US 4,661,916; implemented the first Minspeak program on the AIM 65 in spring 1981" },
+      { "name": "Prentke Romich Company (PRC)", "note": "Commercialized Minspeak on the Express III; first commercial availability at the 1983 ASHA convention" },
+      { "name": "Rockwell International", "note": "Maker of the AIM-65 microcomputer used for the 1981 prototype" },
+      { "name": "Votrax (SC-01)", "note": "Phoneme speech-synthesizer chip used in the first Minspeak implementation" }
+    ],
+    "media": [
+      {
+        "src": "https://patentimages.storage.googleapis.com/f7/98/99/146e8fde365e56/US4661916-drawings-page-2.png",
+        "alt": "Patent FIG. 1: block diagram of the synthetic-voice device (AIM-65 microprocessor, Votrax SC-01 synthesizer, speaker) and keyboard",
+        "caption": "FIG. 1 of US Patent 4,661,916 (Baker, Creech, Smith): the Minspeak synthetic-voice device — keyboard feeding a Rockwell AIM-65 microprocessor, which retrieves pre-stored plural-word messages from an EPROM and drives a Votrax SC-01 speech synthesizer and speaker. Public-domain U.S. patent drawing."
+      },
+      {
+        "src": "https://patentimages.storage.googleapis.com/be/ab/96/538149bd44c92f/US4661916-drawings-page-3.png",
+        "alt": "Patent FIG. 2: table of polysemic keyboard icons and their multiple meanings by theme",
+        "caption": "FIG. 2 of the same patent: the polysemic keyboard — each key's picture carries several meanings (e.g. the eye for opinions/disclosures, a medical theme key, a happiness/ovary positive-expressions key), disambiguated by the sequence in which keys are struck. Public-domain U.S. patent drawing."
+      }
+    ],
+    "sources": [
+      { "text": "Minspeak Academy — 'Minspeak History' by Bruce R. Baker (primary account: 1980 conception, AIM-65 + Votrax SC-01 1981, PRC Express III, 1983 ASHA commercial launch)", "url": "https://www.minspeak.com/minspeak-history" },
+      { "text": "Google Patents — US4661916A, System and method for producing synthetic plural word messages (Baker, Creech, Smith; polysemic symbols, sequence-based retrieval)", "url": "https://patents.google.com/patent/US4661916A/en" }
+    ],
+    "imageUrls": [
+      "https://patentimages.storage.googleapis.com/f7/98/99/146e8fde365e56/US4661916-drawings-page-2.png",
+      "https://patentimages.storage.googleapis.com/be/ab/96/538149bd44c92f/US4661916-drawings-page-3.png"
+    ]
+  },
+  "savedImages": [
+    "potential/minspeak/ms-fig1-crop.png",
+    "potential/minspeak/ms-fig2-crop.png"
+  ]
+}

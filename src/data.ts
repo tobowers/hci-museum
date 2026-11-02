@@ -3880,6 +3880,32 @@ const exhibitData: Exhibit[] = [
     tags: ["Forestry", "Measurement", "Bucking Computer", "Embodied"],
     image: img("ponsse-hs15.jpg"),
   },
+  {
+    id: "handivoice",
+    slug: "handivoice",
+    wikiTitle: "HandiVoice",
+    year: "1978",
+    sortYear: 1978,
+    title: "HandiVoice",
+    subtitle: "A speaking box you hold in one hand, driven by a three-digit code — or by a single twitch of any body part, with the numbers read aloud",
+    blurb:
+      "The HandiVoice (Carl L. Ostrowski / Federal Screw Works, patented 1977, shipped in the late 1970s) is a battery-powered voice-output aid for people who cannot speak. Its interaction model is genuinely tri-modal. With good motor control you type three-digit codes on a 16-key pad to reach one of 994 stored words, then press TALK to hear the message you have gathered. With almost no motor control you switch to scanning: each digit cycles up on a three-digit LCD and a single body action — a grunt via a throat switch, a head movement, a palm press — stops it, and four stops spell a word. And in echo mode the machine speaks every scrolling digit aloud, so a user who is both blind and severely motor-impaired runs the whole interface by ear, stopping each number with that same single switch. A second embodiment swaps the pad for a flat 128-cell touch surface with four color-coded overlays. It is an early, explicit statement that one device should adapt to whatever input channel a user has left.",
+    tags: ["AAC", "Speech Synthesis", "Scanning Switch Input", "Blind Access", "Assistive Technology"],
+    image: img("handivoice-fig1.jpg"),
+  },
+  {
+    id: "minspeak",
+    slug: "minspeak",
+    wikiTitle: "Minspeak",
+    year: "1983",
+    sortYear: 1983,
+    title: "Minspeak",
+    subtitle: "Each key is a picture that means many things — you build whole sentences by pressing multi-meaning icons in sequence",
+    blurb:
+      "Minspeak (Bruce R. Baker, conceived 1980, running by 1981 on a Rockwell AIM 65 with a Votrax SC-01, commercial from 1983 on Prentke Romich hardware) is an interaction inversion for communication aids: instead of one picture per word, each polysemic icon carries several meanings chosen by context, and a short ordered sequence of icons composes a whole phrase. A shark picture can mean 'shark' or 'ocean'; a theme key struck twice opens a semantic domain (eating, transport, medical) and the next key selects a pre-stored sentence. Baker took the idea from hieroglyphic writing and computational linguistics, packing grammar into a handful of keypresses rather than spelling letters. It is the museum's clearest example of an icon grammar as a general language interface, and the ancestor of today's widely used icon-sequencing AAC vocabularies.",
+    tags: ["AAC", "Icon Keyboard", "Semantic Compaction", "Speech Synthesis", "Assistive Technology"],
+    image: img("minspeak-fig1.jpg"),
+  },
 ];
 
 export const exhibits: Exhibit[] = exhibitData.toSorted((a, b) => b.sortYear - a.sortYear || a.title.localeCompare(b.title));
