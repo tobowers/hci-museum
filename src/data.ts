@@ -3880,6 +3880,32 @@ const exhibitData: Exhibit[] = [
     tags: ["Forestry", "Measurement", "Bucking Computer", "Embodied"],
     image: img("ponsse-hs15.jpg"),
   },
+  {
+    id: "grass-valley-1600",
+    slug: "grass-valley-1600",
+    wikiTitle: "Grass Valley 1600 Series Production Switcher",
+    year: "1979",
+    sortYear: 1979,
+    title: "Grass Valley 1600 Series Production Switcher",
+    subtitle: "The T-bar: a heavy lever the technical director physically shoves to push one live camera off the air and bring another on — with no undo",
+    blurb:
+      "A production switcher — a vision mixer — from Grass Valley Group, the company that defined live television switching. Its defining control is the transition lever, the T-bar: a heavy physical fader the technical director drives by hand to dissolve, wipe, or cut between two live video buses while the show is going out on air. Because the program bus is always 'hot,' the lever's position never marks which source is live; it is a momentary, irreversible act of performance, not a state toggle. Grass Valley's 1979 Catalog No. 16 documents the 1600 Series (a family of 1A/1L, 2V, 3K/7K, and master-control models) and its E-MEM option, which could remember 'the actual movements of the lever arms during a transition.' The same console became an unlikely movie prop: vintageTEK records that the GVG 'T' handle of a model 1600 was the lever thrown to fire the Death Star superlaser in Star Wars (1977).",
+    tags: ["HCI", "Broadcast", "Embodied", "Performance", "Input"],
+    image: img("gvg-switcher-console.jpg"),
+  },
+  {
+    id: "hell-chromagraph-dc300b",
+    slug: "hell-chromagraph-dc300b",
+    wikiTitle: "Hell Chromagraph DC 300 B",
+    year: "1975",
+    sortYear: 1975,
+    title: "Hell Chromagraph DC 300 B Colour Scanner",
+    subtitle: "A one-tonne drum scanner whose operator dials in colour corrections blind — no preview, no monitor, the result visible only on the printing press",
+    blurb:
+      "Dr.-Ing. Rudolf Hell's Chromagraph DC 300 B (1975) is an analog electro-optical computer for colour reproduction, and one of the strangest interfaces of its era. An operator tapes a colour transparency to a rotating glass scanning drum, sets colour, gradation, and sharpening corrections on a bank of rotary knobs feeding an analog 'colour computer' (Farbrechner), and the machine lasers four separation films — but there is no preview. The Hell-Verein states it plainly: 'The operator could not see the image while adjusting the color corrections… the result was only visible when the image was printed.' Corrections were entered by muscle memory and professional expertise and confirmed only weeks later on press. About 2,500 DC-Chromagraph units were built across the A, B, and DC 350 models. A blind, irreversible, purely analog control loop, and the direct ancestor of the digital prepress workstation.",
+    tags: ["HCI", "Prepress", "Analog Computer", "Drum Scanner", "Industrial"],
+    image: img("chromagraph-dc300-console.jpg"),
+  },
 ];
 
 export const exhibits: Exhibit[] = exhibitData.toSorted((a, b) => b.sortYear - a.sortYear || a.title.localeCompare(b.title));

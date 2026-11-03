@@ -1,0 +1,105 @@
+{
+  "slug": "hell-chromagraph-dc300b",
+  "title": "Hell Chromagraph DC 300 B",
+  "year": "1975",
+  "subtitle": "A one-tonne drum scanner whose operator dials in colour corrections blind — no preview, no monitor, corrections judged by experience and confirmed only weeks later on the printing press",
+  "why_scout_cares": "The Hell Chromagraph DC 300 B is one of the strangest 'computers' of the era and a genuinely unrepresented interaction model: an analog electro-optical colour computer that an operator programs with a wall of rotary knobs, correcting the colour, gradation, and sharpening of an image they cannot see. The operator mounts a colour transparency on a rotating glass scanning drum, sets corrections on a bank of dials feeding an analog 'colour computer' (Farbrechner), and the machine exposes four colour-separation films by laser — but there is no preview screen. The Hell-Verein states it directly: 'The operator could not see the image while adjusting the color corrections… the operator needed a lot of experience to adjust color corrections because the result was only visible when the image was printed.' This is blind, experience-based, irreversible control of an industrial process — a distinct paradigm from every screen-mediated exhibit in the museum, and the direct ancestor of the digital prepress workstation. ~2,500 DC-Chromagraph units were built; the series defined colour reproduction for a generation of print.",
+  "search_terms": [
+    "Hell Chromagraph DC 300 B color scanner",
+    "Rudolf Hell Farbenrechner color correction scanner",
+    "analog drum scanner blind color correction operator",
+    "chromagraph DC 300 unsharp masking separation",
+    "Hell Kiel scanner history"
+  ],
+  "research": {
+    "title": "Hell Chromagraph DC 300 B",
+    "year": "1975",
+    "by": "Dr.-Ing. Rudolf Hell GmbH (Kiel, West Germany; taken over by Siemens in 1981, merged with Linotype in 1990 to form Linotype-Hell AG)",
+    "tags": ["HCI", "Prepress", "Analog Computer", "Drum Scanner", "Blind Control", "Industrial"],
+    "overview": "The Chromagraph DC 300 B, introduced by Dr.-Ing. Rudolf Hell GmbH of Kiel in 1975, is a drum scanner that separates a colour original into the four printing plates an image needs — cyan, magenta, yellow, and black — while an operator programs its corrections through a bank of analog rotary knobs. It sits in a lineage: Hell's first drum scanner, the Colorgraph, appeared in 1958 with 500 vacuum tubes and an hour of warm-up; the first Chromagraph (the first scanner for colour-corrected halftone separations) followed in 1965; the DC 300 proper arrived in 1971; the DC 300 ER added electronic screening in 1973; and this DC 300 B followed in 1975. Hell's own product page calls the DC 300 B the precursor of the famous DC 350 (1981). The series was a huge commercial success: the 200th DC 300 was completed in June 1974, and by 1985 Hell had built about 2,500 DC-Chromagraph units across the A, B, and 350 models. The company's product page describes the DC 300 B as dating from 1975.\n\nAn operator's experience of a DC 300 B is the opposite of a screen. The machine is over three metres long and weighs about one tonne, with a scanning drum and a recording drum fixed on a common axle and rotating together. A colour transparency is taped to the transparent scanning drum; unexposed film is mounted on the recording drum. A scanning head travels along the length of the rotating drum, and inside it a halogen lamp's light is split into red, green, and blue channels read by photomultipliers, with a fourth, larger-aperture channel supplying the 'unsharp' surround signal used to sharpen the image. Those four signals feed an analog colour computer — the Farbrechner — which converts them into the four separation signals. The operator's whole job is to set the corrections on that analog computer by hand, without ever seeing the picture.",
+    "deepDive": [
+      {
+        "heading": "Blind correction: programming an image you cannot see",
+        "text": "The single most striking fact about the DC 300 is that the operator corrects colour, gradation, and sharpening with no visual feedback of the result. The Hell-Verein, describing analog scanners, is explicit: 'The operator could not see the image while adjusting the color corrections… the image was not yet scanned or saved. So the operator needed a lot of experience to adjust color corrections because the result was only visible when the image was printed.' Corrections were entered by feel and by professional memory — a red apple's cyan, a shadow's density — and were confirmed only weeks later in the printing proof, long after the film was exposed. In a museum of interfaces this is an exceptional case: a high-stakes, irreversible control loop deliberately closed by human expertise rather than by any display."
+      },
+      {
+        "heading": "The Farbrechner: an analog colour computer of rotary knobs",
+        "text": "The correction instrument is an analog computer, not a digital one. The Hell-Verein describes the Farbrechner as having 'many rotary knobs' (viele Drehknöpfe) with which the operator sets the colour corrections for the image, and German Wikipedia adds that the four-channel colour computer was 'specifically programmable' for the desired colour and tonal corrections. Screen angle was separately selectable for each colour, with nominal settings of 0° (yellow), 45° (black), −18.4° (cyan) and +18.4° (magenta), all freely adjustable to avoid moiré. There is no menu and no screen — the operator's model of the image is held entirely in the hands and the eyes, translated into voltage offsets on the colour computer."
+      },
+      {
+        "heading": "One machine, four operations, a rolling drum",
+        "text": "The DC 300 combined in one pass what had previously been several manual steps: colour separation, colour correction, scaling, and halftoning. A scale computer (Maßstabsrechner) digitised and buffered the separation signals for one drum revolution and read them back at a different clock rate on the next, changing image size circumferentially; in the feed direction, different scanning-head and recording-head speeds gave enlargement or reduction. Memory held only two revolutions, not a whole image. A screen/raster computer then converted tone values into halftone dot sizes and drove a laser exposure head, exposing the film on the recording drum at the correct dot size, shape, screen ruling, and angle. Depending on size and film, all four separations could be exposed together, two at a time, or one at a time."
+      },
+      {
+        "heading": "Scale, cost, and the prepress trade",
+        "text": "This was capital equipment for repro houses, printing companies, and newspapers — not desktop hardware. Marketed specifications included enlargement/reduction from 33% to 1685%, a maximum output format of 40 × 50 cm, and selectable screen rulings of 34–80 lines/cm. The series was among the most successful and best-known professional scanners of its time, with roughly 2,500 units across the Chromagraph family by 1985. (No verifiable list price could be confirmed; contemporary drum scanners were priced for commercial prepress, but a specific DC 300 figure was not sourced.)"
+      },
+      {
+        "heading": "Legacy: the last great analog repro instrument",
+        "text": "The DC 300 displaced the older colour-camera and contact-screen methods of making separations, and it was itself displaced by digital systems. Its chief rivals were Crosfield Electronics (UK), whose Magnascan drum scanner appeared in 1969, and Scitex (Israel), whose Response page-assembly system pushed prepress toward the digital workstation in the late 1970s and 1980s. Within Hell, the DC 350 (1981) succeeded the DC 300, followed by colour-composition systems such as the ChromaCom and Combiskop. From the late 1990s, cheaper flatbed scanners and digital cameras ended the drum-scanner era. Today the DC 300 B is preserved and framed as a cultural monument by the Hell-Verein in Kiel, the friends' association of the Dr.-Ing. Rudolf Hell technical collection, which had 24 Hell devices entered onto the Schleswig-Holstein list of movable cultural monuments in 2019."
+      }
+    ],
+    "team": [
+      {
+        "name": "Dr.-Ing. Rudolf Hell",
+        "note": "German engineer and inventor (1901–2002), founder of Dr.-Ing. Rudolf Hell GmbH in Kiel. Began with the Hellschreiber (1925) before building electronic engraving, photo-typesetting, and colour-scanning systems."
+      },
+      {
+        "name": "Dr.-Ing. Rudolf Hell GmbH",
+        "note": "Kiel manufacturer of the Chromagraph DC 300 series; taken over by Siemens in 1981 and merged with Linotype in 1990 to form Linotype-Hell AG."
+      },
+      {
+        "name": "Hell-Verein / Technische Sammlung Dr.-Ing. Rudolf Hell",
+        "note": "Kiel friends' association preserving Hell's technical collection and documenting the DC 300 B and analog scanner operation."
+      }
+    ],
+    "media": [
+      {
+        "src": "images/chromagraph-dc300-console.jpg",
+        "alt": "Hell Chromagraph DC 300 colour scanner / drum scanner console",
+        "caption": "A Hell Chromagraph DC 300 colour scanner — the family to which the 1975 DC 300 B belongs — with its scanning/recording drums and operator control desk. The operator dialled in colour corrections on an analog 'colour computer' with no preview of the result. Wikimedia Commons, CC BY-SA 3.0 (Nikater).",
+        "attribution": "507x734. Source: File:Chromagraph DC 300.jpg (CC BY-SA 3.0, Nikater)."
+      }
+    ],
+    "sources": [
+      {
+        "text": "German Wikipedia — Chromagraph DC 300: technology, variants (DC 300 1971, DC 300 ER 1973, DC 350 1981), sales, screen angles, specs",
+        "url": "https://de.wikipedia.org/wiki/Chromagraph_DC_300"
+      },
+      {
+        "text": "Hell-Verein / hell-kiel.de — Chromagraph DC 300 B (1975) product page: 1975 date, precursor to DC 350",
+        "url": "https://www.hell-kiel.de/en/hell-development/86-reproduction-technology/scanner/151-chromagraph-dc-300-b-1975"
+      },
+      {
+        "text": "Hell-Verein / hell-kiel.de — Funktionsweise der Analogscanner: full workflow, 'blind' colour correction, Farbrechner with viele Drehknöpfe",
+        "url": "https://www.hell-kiel.de/de/hell-entwicklungen/reproduktionstechnik/scanner/191-funktionsweise-der-analogscanner"
+      },
+      {
+        "text": "Hell company chronology 1974–1984 (via archive.org): 200th DC 300 completed 18 June 1974",
+        "url": "https://web.archive.org/web/20160304191333/http://www.hell-kiel.de/1974-1984.htm"
+      },
+      {
+        "text": "Hell company chronology 1985–2002 (via archive.org): 1,000th DC 350 and ~2,500 total DC-Chromagraphen by 1985",
+        "url": "https://web.archive.org/web/20160402074420/http://www.hell-kiel.de/1985-2002.htm"
+      },
+      {
+        "text": "Wikipedia — Rudolf Hell: founder history; Siemens 1981, Linotype-Hell 1990",
+        "url": "https://en.wikipedia.org/wiki/Rudolf_Hell"
+      },
+      {
+        "text": "Wikipedia — Crosfield Electronics: Magnascan (1969), chief drum-scanner rival",
+        "url": "https://en.wikipedia.org/wiki/Crosfield_Electronics"
+      },
+      {
+        "text": "Wikimedia Commons — File:Chromagraph DC 300.jpg (CC BY-SA 3.0, Nikater)",
+        "url": "https://commons.wikimedia.org/wiki/File:Chromagraph_DC_300.jpg"
+      }
+    ],
+    "imageUrls": [
+      "https://commons.wikimedia.org/wiki/File:Chromagraph_DC_300.jpg"
+    ]
+  },
+  "savedImages": [
+    "images/chromagraph-dc300-console.jpg"
+  ]
+}

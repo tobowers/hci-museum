@@ -1,0 +1,101 @@
+{
+  "slug": "grass-valley-110",
+  "title": "Grass Valley 110 Production Switcher",
+  "year": "c. 1976",
+  "subtitle": "A live-television console whose whole point is one big metal lever the technical director shoves to send one picture away and bring another on air (exact model year unverified)",
+  "why_scout_cares": "The Grass Valley 110 vision mixer is the museum's cleanest embodied-performance artifact: a broadcast switcher from the company that, by 1968, had set the industry standard for production switchers. Its defining control is the transition lever — the T-bar — a physical fader the technical director (TD) physically pushes to effect a dissolve, wipe, or cut between two live video buses while the show is going out on air. There is no undo: mid-transition, the TD's hand is literally in the signal path, and the bus being switched to is always the 'hot' one. It fills a wholly unrepresented category — live-broadcast, irreversible performance hardware — and comes with an extraordinary pop-culture hook: a Grass Valley switcher console served as the Death Star superlaser controls in Star Wars (1977), and vintageTEK confirms the model 1600's signature GVG 'T' handle was the lever an actor throws to fire the weapon. Distinct from the Sony BVE-600 edit controller (post-production, offline) already in the collection.",
+  "search_terms": [
+    "Grass Valley Group 110 production switcher",
+    "Grass Valley 1600 switcher T-bar",
+    "vision mixer transition lever T-bar",
+    "Grass Valley switcher Star Wars Death Star controls",
+    "technical director video switcher live television"
+  ],
+  "research": {
+    "title": "Grass Valley 110 Production Switcher",
+    "year": "c. 1976 (exact year unverified)",
+    "by": "Grass Valley Group (Grass Valley, California; founded 1959 by Dr. Donald Hare; merged with Tektronix 1974)",
+    "tags": ["HCI", "Broadcast", "Embodied", "Performance", "Input"],
+    "overview": "The Grass Valley Group 110 is a production switcher — what the rest of the world calls a vision mixer — built by the company that defined the category. Grass Valley Group was founded in 1959 by Dr. Donald Hare in Grass Valley, California; it demonstrated its first video product (a distribution amplifier) in 1964 and by 1968 had introduced its first production switcher, which came to define the industry standard. The company merged with Tektronix in 1974, so the switchers of this era were produced under that corporate lineage. The museum's reference image shows a 110 console: a dense field of illuminated source buttons, keys, and the signature transition lever. Note on dating: no primary source was found that pins the 110's exact introduction year. Grass Valley's first production switcher appeared by 1968, and the related 1600 Series was in catalog by 1979; the 110 is placed here as a mid-to-late-1970s model within that span, and the exact year remains unverified.\n\nA production switcher's job is to select between several live video sources and, where needed, composite them together — mixing, wiping, and keying pictures in real time as a broadcast goes out. In the United States the equipment is called a video switcher or production switcher and its operator is the technical director (TD); in most of the rest of the world both the device and its operator are called a vision mixer. The role is roughly the video analogue of an audio mixing console: where an audio engineer fades between microphones, the TD fades and cuts between cameras.\n\nWhat makes the device a genuinely strange interface — and the reason it belongs in this museum — is the transition lever, universally called the T-bar. Unlike a modern software panel, the T-bar is a heavy physical fader. The TD grips it and physically drives the transition from one bus to the other, and because a live show is airing while they do it, the lever is an embodied, irreversible performance control rather than a request to a computer.",
+    "deepDive": [
+      {
+        "heading": "Buses, program, and preset",
+        "text": "The core of the machine is the 'bus' — a row of buttons each selecting one video input into a common signal path. The oldest scheme is the A/B mixer, with two equivalent buses and one chosen as the program (on-air) output. Most switchers instead use a flip-flop layout: one bus is always the program bus, the second is the preview (or preset) bus, and the operator can exchange their selected sources. This is the crucial mental model for the T-bar: on a flip-flop switcher the physical position of the transition lever does not indicate which bus is live, because the program bus is always the active — 'hot' — one. The lever is a momentary act, not a persistent state marker, which is exactly why it reads as strange next to modern toggle-style UIs."
+      },
+      {
+        "heading": "The T-bar, an irreversible hand on the signal",
+        "text": "The defining control is the transition lever — also called the T-bar or fader bar — an audio-fader-like handle used to transition between two buses. Instead of moving it by hand, the operator can press a button (commonly labeled mix, auto, or auto trans) that performs the transition over a user-defined time; a separate cut or take button swaps preview to program instantaneously. The hand-driven T-bar is the dramatic case: the TD's arm physically sweeps one live picture off the air and brings another on, in full view of a control room, with a fixed duration determined only by how fast they move. There is no undo step and no confirmation dialog. This is the museum's clearest example of performance hardware where the interface is the act, executed under a live broadcast clock."
+      },
+      {
+        "heading": "Cut bar, keying, and the surrounding console",
+        "text": "Around the transition lever sits a dense control surface. Sources selected on the preset bus can be switched to program by a cut-bar switch, and a video mixing amplifier allows dissolves between the program and preset buses. Keying lets one signal be inserted over the program picture: the fill is the image seen, the source is the mask that cuts its translucence, and the mask may be derived from chrominance (chroma key), luminance, pattern, or a split. Multiple mix/effects (M/E) sections let an operator compose keys and effects 'offline' and then take them live with one button, and a downstream keyer (DSK) typically keys text and graphics. The whole console is a dense, hardware-only surface of buttons and illuminated tallies — no screen, no menu, every state visible as a lit lamp."
+      },
+      {
+        "heading": "The console and the E-MEM era",
+        "text": "By the late 1970s Grass Valley's 1600 Series production switchers were sold as families (1600-1A/1L, 1600-2V, 1600-3K/7K, and so on), with an optional E-MEM (Effects Memory system) that let an operator store digital and analog control-panel selections and auto-transition rates as memory registers for later recall — a landmark move from purely physical memory to machine memory for live switching. The museum's cover image is the keyer control panel of a GVG 200 (a related panel), and the 1600 is the model tied to the museum's most famous claim to fame. The transition lever remained the human, physical heart of all of them."
+      },
+      {
+        "heading": "Commercial fate and impact",
+        "text": "Grass Valley's switchers became the reference standard for live television production and the company dominated the broadcast plant for decades, passing through Tektronix (1974 –1999), a reincorporation as Grass Valley Group, Inc., Thomson (2002), Francisco Partners (2010–2011), Belden (2014, merged with Miranda), and finally Black Dragon Capital (2020). The transition lever and bus architecture the 110 and its contemporaries taught are still the mental model of every modern switcher panel — hardware and software alike — which is why the T-bar survives as the industry's most recognizable physical control."
+      }
+    ],
+    "team": [
+      {
+        "name": "Dr. Donald Hare",
+        "note": "Founder of Grass Valley Group in 1959 in Grass Valley, California. Previously ran the D. G. C. Hare Company (audio equipment) before moving into television electronics."
+      },
+      {
+        "name": "Grass Valley Group",
+        "note": "Manufacturer of the 110/1600-series production switchers; became the industry reference for live production switching; merged with Tektronix in 1974."
+      }
+    ],
+    "media": [
+      {
+        "src": "https://commons.wikimedia.org/wiki/File:Grass_Valley_110_Switcher.jpg",
+        "alt": "Grass Valley 110 vision mixer / production switcher console",
+        "caption": "Grass Valley 110 switcher (vision mixer). Wikimedia Commons, public domain (PD-user; uploaded by Espiforenque, 2007).",
+        "attribution": "640x426, cropped/scaled from original."
+      },
+      {
+        "src": "https://commons.wikimedia.org/wiki/File:GVG200_keyer_controlpanel.jpg",
+        "alt": "GVG 200 vision mixer keyer control panel",
+        "caption": "GVG 200 vision mixer — keyer control panel, showing the dense button/lever control surface. Wikimedia Commons, public domain (PD-self, Morningfrost, 2003).",
+        "attribution": "800x648."
+      }
+    ],
+    "sources": [
+      {
+        "text": "Wikipedia — Grass Valley (company): founding 1959 by Dr. Donald Hare, first video product 1964, first production switcher by 1968, Tektronix merge 1974",
+        "url": "https://en.wikipedia.org/wiki/Grass_Valley_(company)"
+      },
+      {
+        "text": "Wikipedia — Vision mixer: buses, program/preset, transition lever (T-bar/fader bar), flip-flop mixers, keying, M/E, DSK, technical director",
+        "url": "https://en.wikipedia.org/wiki/Vision_mixer"
+      },
+      {
+        "text": "vintageTEK — Grass Valley Products: GVG 700 distribution amplifier history and confirmation that the GVG 'T' handle appears on a model 1600 switcher used as a prop in the first Star Wars film",
+        "url": "https://vintagetek.org/grass-valley-products/"
+      },
+      {
+        "text": "PartsofSW — Death Star Controls: the Death Star superlaser controls were an ISI/Grass Valley switcher, approx. 4 1/2 ft x 2 1/2 ft x 8 in deep",
+        "url": "https://www.partsofsw.com/dscntrl.htm"
+      },
+      {
+        "text": "Grass Valley Group Catalog 16 (1979) — 1600 Series Production Switchers, E-MEM effects memory, cut-bar switches (archive.org)",
+        "url": "https://archive.org/details/gvg-short-form-catalog-16-1979"
+      },
+      {
+        "text": "Wikimedia Commons — File:Grass Valley 110 Switcher.jpg (public domain)",
+        "url": "https://commons.wikimedia.org/wiki/File:Grass_Valley_110_Switcher.jpg"
+      }
+    ],
+    "imageUrls": [
+      "https://commons.wikimedia.org/wiki/File:Grass_Valley_110_Switcher.jpg",
+      "https://commons.wikimedia.org/wiki/File:GVG200_keyer_controlpanel.jpg"
+    ]
+  },
+  "savedImages": [
+    "images/gvg-110-switcher.jpg",
+    "images/gvg-200-keyer-panel.jpg"
+  ]
+}

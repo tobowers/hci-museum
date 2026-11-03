@@ -1,6 +1,6 @@
 # The HCI Golden Age Wiki
 
-A research compendium for a digital museum of cutting-edge Human-Computer Interaction from the late 1970s through the early 1990s. These three hundred and nine projects mix canonical experiments with weird, forgotten, and beautiful vaporware — brain control, voice control, gesture, wearable computing, VR, robots, and full-body exertion.
+A research compendium for a digital museum of cutting-edge Human-Computer Interaction from the late 1970s through the early 1990s. These three hundred and eleven projects mix canonical experiments with weird, forgotten, and beautiful vaporware — brain control, voice control, gesture, wearable computing, VR, robots, and full-body exertion.
 
 Each entry includes an overview, a deep dive, a small media gallery, and full source links so the images and facts can always be traced back.
 
@@ -315,6 +315,8 @@ Each entry includes an overview, a deep dive, a small media gallery, and full so
       305. [Petrofsky FES Bicycle Ergometer (1984)](#petrofsky-fes-bicycle-ergometer-1984)
       306. [Casio CMD-40 (1992)](#casio-cmd-40-1992)
       307. [Ponsse HS-15 Harvester (1988)](#ponsse-hs-15-harvester-1988)
+      308. [Grass Valley 1600 Series Production Switcher (1979)](#grass-valley-1600-series-production-switcher-1979)
+      309. [Hell Chromagraph DC 300 B (1975)](#hell-chromagraph-dc-300-b-1975)
   
 ---
 
@@ -13668,3 +13670,82 @@ The Ponsse HS-15 is a cut-to-length forest harvester built by Ponsse Oy of Viere
 3. Wikipedia — Ponsse (H60 released end of 1985; 1988 ownership; 1990s computerized control systems) — https://en.wikipedia.org/wiki/Ponsse
 4. File:Ponsse HS-15 -harvesteri Jämsänkoskella 198808.jpg — Wikimedia Commons (CC BY 4.0, Kauko Tiuraniemi / Lusto) — https://commons.wikimedia.org/wiki/File:Ponsse_HS-15_-harvesteri_J%C3%A4ms%C3%A4nkoskella_198808.jpg
 5. Finna / Lusto — Suomen Metsämuseo, record lusto.knp-152139 (Ponsse HS-15 at Metko forest-machine exhibition) — https://finna.fi/Record/lusto.knp-152139
+
+## Grass Valley 1600 Series Production Switcher (1979)
+
+**By:** Grass Valley Group (Grass Valley, California; founded 1959 by Dr. Donald Hare; merged with Tektronix in 1974)  
+**Tags:** `Broadcast` `Embodied` `Performance` `Input` `Live Television`
+
+### Overview
+
+The Grass Valley Group 1600 Series is a production switcher — what much of the world calls a vision mixer — built by the company that defined the category. Grass Valley Group was founded in 1959 by Dr. Donald Hare in Grass Valley, California, in the foothills of the Sierra Nevada. It demonstrated its first video product, a distribution amplifier, in 1964, and by 1968 had introduced its first production switcher, which came to define the industry standard. The company merged with Tektronix in 1974, so the switchers of this era — including the 1600 Series documented in Grass Valley's own Television Equipment Catalog No. 16 of 1979 — were produced under that corporate lineage.
+
+A production switcher selects between several live video sources and, where needed, composites them together: mixing, wiping, and keying pictures in real time as a broadcast goes out. In the United States the equipment is called a video switcher or production switcher and its operator is the technical director (TD); in much of the rest of the world both the device and its operator are called a vision mixer. The role is the video analogue of an audio mixing console — where an audio engineer fades between microphones, the TD fades and cuts between cameras. What makes the device a genuinely strange interface is the transition lever, universally called the T-bar: a heavy physical fader the TD drives by hand to sweep one live picture off the air and bring another on, in full view of a control room, while the show is actually broadcasting.
+
+### Deep dive
+
+* **Buses, program, and preset.** The core of the machine is the *bus* — a row of illuminated buttons each selecting one video input into a common signal path. The oldest scheme is the A/B mixer, with two equivalent buses and one chosen as the program (on-air) output. Most 1600 models instead used a flip-flop layout: one bus is always the program bus, the second is the preview (or preset) bus, and the operator can exchange their selected sources. This is the crucial mental model for the T-bar: on a flip-flop switcher the physical position of the transition lever does *not* indicate which bus is live, because the program bus is always the active — "hot" — one. The lever is a momentary act, not a persistent state marker, which is exactly why it reads as strange next to modern toggle-style interfaces.
+* **The T-bar: an irreversible hand on the signal.** The defining control is the transition lever — also called the T-bar or fader bar — an audio-fader-like handle used to transition between two buses. Instead of moving it by hand, the operator can press a button (commonly labeled *mix*, *auto*, or *auto trans*) that performs the transition over a user-defined time; a separate *cut* or *take* button swaps preview to program instantaneously. The 1979 Grass Valley catalog describes exactly this: sources selected on the preset (PST) bus "can be switched to the PGM bus with a cut-bar switch," and "a video mixing amplifier allows dissolves to be made between the PGM and PST buses." The hand-driven T-bar is the dramatic case: the TD's arm physically sweeps one live picture off the air and brings another on, with a duration determined only by how fast they move. There is no undo step and no confirmation dialog.
+* **The console and the E-MEM era.** By the late 1970s the 1600 Series was sold as a family of models — 1600-1A/1L, 1600-2V, 1600-3H/3K/3F, 1600-7H/7K/7F, and master-control 1600-1T/4T/4S — sharing a dense, hardware-only control surface of buttons, tallies, and levers: no screen, no menu, every state visible as a lit lamp. The catalog's option list names an E-MEM (Effects Memory System), which let an operator store digital and analog control-panel selections and auto-transition rates as memory registers for later recall; it could even remember "the actual movements of the lever arms during a transition." This was a landmark move from purely physical muscle memory to machine memory for live switching. The transition lever nevertheless remained the human, physical heart of every model.
+* **Cut bar, keying, and master control.** Around the transition lever sits the rest of the grammar. Sources selected on the preset bus can be switched to program by a cut-bar switch, and a video mixing amplifier allows dissolves between the program and preset buses. Keying lets one signal be inserted over the program picture: the *fill* is the image seen, the *source* is the mask that cuts its translucence, and the mask may be derived from chrominance (chroma key), luminance, pattern, or a split. Models such as the 1600-2V included an RGB chroma keyer with shadow key or an encoded chroma keyer. The museum's companion image shows a keyer control panel — the bank of clip-level, color-matte, and pattern controls that sit beside the main transition section.
+* **Commercial fate, Star Wars, and impact.** Grass Valley's switchers became the reference standard for live television production; the company dominated the broadcast plant for decades, passing through Tektronix (1974–1999), a reincorporation as Grass Valley Group, Inc., Thomson (2002), Francisco Partners (2010–2011), Belden (2014, merged with Miranda), and finally Black Dragon Capital (2020). The bus architecture and transition lever the 1600 taught are still the mental model of every modern switcher panel, hardware and software alike, which is why the T-bar survives as the industry's most recognizable physical control. The 1600 also became an unlikely movie star: vintageTEK records that the famous GVG "T" handle, on a model 1600 switcher, was used as a prop in the first *Star Wars* film — when the Death Star fires on the planet, an operator is seen moving the GVG "T" handle to fire the weapon, which "was highly amusing to everybody in the switcher group." The Star Wars prop is documented as an ISI/Grass Valley switcher console roughly 4½ ft by 2½ ft by 8 in deep.
+
+### Team
+
+* **Dr. Donald Hare.** Founder of Grass Valley Group in 1959 in Grass Valley, California; previously ran the D. G. C. Hare Company (audio equipment) before moving into television electronics.
+* **Grass Valley Group.** Manufacturer of the 1600-series production switchers; became the industry reference for live production switching; merged with Tektronix in 1974.
+
+### Media
+
+![Grass Valley Group production switcher console](../assets/wiki/gvg-switcher-console.jpg)
+*A Grass Valley Group production switcher console — a Model 110, shown here to represent the GVG family's dense field of illuminated source buttons and the signature transition lever found across the 1600 Series. (Image: Espiforenque / Wikimedia Commons, public domain.)*
+
+![Grass Valley GVG 200 keyer control panel](../assets/wiki/gvg-keyer-panel.jpg)
+*The keyer control panel of a related Grass Valley GVG 200 — clip-level, color-matte, and pattern controls that sit beside the main transition section on a broadcast switcher. (Image: Morningfrost / Wikimedia Commons, public domain.)*
+
+### Sources
+
+1. Wikipedia — Grass Valley (company): founded 1959 by Dr. Donald Hare; first video product 1964; first production switcher by 1968; Tektronix merge 1974 — https://en.wikipedia.org/wiki/Grass_Valley_(company)
+2. Wikipedia — Vision mixer: buses, program/preset, transition lever (T-bar/fader bar), flip-flop mixers, keying, M/E, DSK, technical director — https://en.wikipedia.org/wiki/Vision_mixer
+3. Grass Valley Group, Television Equipment Catalog No. 16 (1979): 1600 Series production switchers, cut-bar switch, video mixing amplifier dissolves between PGM and PST, E-MEM Effects Memory System and lever-arm movement memory — https://archive.org/details/gvg-short-form-catalog-16-1979
+4. vintageTEK — Grass Valley Products: the GVG "T" handle (model 1600 switcher) used as a prop in the first *Star Wars* film — https://vintagetek.org/grass-valley-products/
+5. PartsofSW — Death Star Controls: the superlaser controls were an ISI/Grass Valley switcher, ~4½ ft × 2½ ft × 8 in — https://www.partsofsw.com/dscntrl.htm
+
+## Hell Chromagraph DC 300 B (1975)
+
+**By:** Dr.-Ing. Rudolf Hell GmbH (Kiel, West Germany; taken over by Siemens in 1981; merged with Linotype in 1990 to form Linotype-Hell AG)  
+**Tags:** `Prepress` `Analog Computer` `Drum Scanner` `Blind Control` `Industrial`
+
+### Overview
+
+The Chromagraph DC 300 B, introduced by Dr.-Ing. Rudolf Hell GmbH of Kiel in 1975, is a drum scanner that separates a colour original into the four printing plates an image needs — cyan, magenta, yellow, and black — while an operator programs its corrections through a bank of analog rotary knobs. It stands at the end of a long lineage: Hell's first drum scanner, the Colorgraph, appeared in 1958 with 500 vacuum tubes and an hour of warm-up; the first Chromagraph (the first scanner for colour-corrected halftone separations) followed in 1965; the DC 300 proper arrived in 1971; the DC 300 ER added electronic screening in 1973; and this DC 300 B followed in 1975. Hell's own product page calls the DC 300 B the precursor of the famous DC 350 (1981). The series was a large commercial success: the 200th DC 300 was completed in June 1974, and by 1985 Hell had built about 2,500 DC-Chromagraph units across the A, B, and 350 models.
+
+An operator's experience of a DC 300 B is the opposite of a screen. The machine is over three metres long and weighs about one tonne, with a scanning drum and a recording drum fixed on a common axle and rotating together. A colour transparency is taped to the transparent scanning drum; unexposed film is mounted on the recording drum. A scanning head travels along the length of the rotating drum, and inside it a halogen lamp's light is split into red, green, and blue channels read by photomultipliers, with a fourth, larger-aperture channel supplying the "unsharp" surround signal used to sharpen the image. Those four signals feed an analog colour computer — the *Farbrechner* — which converts them into the four separation signals. The operator's whole job is to set the corrections on that analog computer by hand, without ever seeing the picture.
+
+### Deep dive
+
+* **Blind correction: programming an image you cannot see.** The single most striking fact about the DC 300 is that the operator corrects colour, gradation, and sharpening with no visual feedback of the result. The Hell-Verein, describing analog scanners, is explicit: "The operator could not see the image while adjusting the color corrections… the image was not yet scanned or saved. So the operator needed a lot of experience to adjust color corrections because the result was only visible when the image was printed." Corrections were entered by feel and by professional memory — a red apple's cyan, a shadow's density — and were confirmed only weeks later in the printing proof, long after the film was exposed. In a museum of interfaces this is an exceptional case: a high-stakes, irreversible control loop deliberately closed by human expertise rather than by any display.
+* **The Farbrechner: an analog colour computer of rotary knobs.** The correction instrument is an analog computer, not a digital one. The Hell-Verein describes the Farbrechner as having "many rotary knobs" — *viele Drehknöpfe* — with which the operator sets the colour corrections for the image, and German Wikipedia adds that the four-channel colour computer was "specifically programmable" for the desired colour and tonal corrections. Screen angle was separately selectable for each colour, with nominal settings of 0° (yellow), 45° (black), −18.4° (cyan) and +18.4° (magenta), all freely adjustable to avoid moiré. There is no menu and no screen — the operator's model of the image is held entirely in the hands and the eyes, translated into voltage offsets on the colour computer.
+* **One machine, four operations, a rolling drum.** The DC 300 combined in one pass what had previously been several manual steps: colour separation, colour correction, scaling, and halftoning. A scale computer (*Maßstabsrechner*) digitised and buffered the separation signals for one drum revolution and read them back at a different clock rate on the next, changing image size circumferentially; in the feed direction, different scanning-head and recording-head speeds gave enlargement or reduction. Memory held only two revolutions, not a whole image. A screen/raster computer then converted tone values into halftone dot sizes and drove a laser exposure head, exposing the film on the recording drum at the correct dot size, shape, screen ruling, and angle. Depending on size and film, all four separations could be exposed together, two at a time, or one at a time.
+* **Scale, cost, and the prepress trade.** This was capital equipment for repro houses, printing companies, and newspapers — not desktop hardware. Marketed specifications included enlargement/reduction from 33% to 1685%, a maximum output format of 40 × 50 cm, and selectable screen rulings of 34–80 lines/cm. The series was among the most successful and best-known professional scanners of its time, with roughly 2,500 units across the Chromagraph family by 1985. No verifiable list price could be confirmed — contemporary drum scanners were priced for commercial prepress, but a specific DC 300 figure was not sourced.
+* **Legacy: the last great analog repro instrument.** The DC 300 displaced the older colour-camera and contact-screen methods of making separations, and was itself displaced by digital systems. Its chief rivals were Crosfield Electronics (UK), whose Magnascan drum scanner appeared in 1969, and Scitex (Israel), whose Response page-assembly system pushed prepress toward the digital workstation in the late 1970s and 1980s. Within Hell, the DC 350 (1981) succeeded the DC 300, followed by colour-composition systems such as the ChromaCom and Combiskop. From the late 1990s, cheaper flatbed scanners and digital cameras ended the drum-scanner era. Today the DC 300 B is preserved and framed as a cultural monument by the Hell-Verein in Kiel, the friends' association of the Dr.-Ing. Rudolf Hell technical collection, which had 24 Hell devices entered onto the Schleswig-Holstein list of movable cultural monuments in 2019.
+
+### Team
+
+* **Dr.-Ing. Rudolf Hell.** German engineer and inventor (1901–2002), founder of Dr.-Ing. Rudolf Hell GmbH in Kiel. Began with the Hellschreiber (1925) before building electronic engraving, photo-typesetting, and colour-scanning systems.
+* **Dr.-Ing. Rudolf Hell GmbH.** Kiel manufacturer of the Chromagraph DC 300 series; taken over by Siemens in 1981 and merged with Linotype in 1990 to form Linotype-Hell AG.
+* **Hell-Verein / Technische Sammlung Dr.-Ing. Rudolf Hell.** Kiel friends' association preserving Hell's technical collection and documenting the DC 300 B and analog scanner operation.
+
+### Media
+
+![Hell Chromagraph DC 300 colour scanner console](../assets/wiki/chromagraph-dc300-console.jpg)
+*A Hell Chromagraph DC 300 colour scanner — the family to which the 1975 DC 300 B belongs — with its scanning/recording drums and operator control desk. The operator dialled in colour corrections on an analog "colour computer" with no preview of the result. (Image: Nikater / Wikimedia Commons, CC BY-SA 3.0.)*
+
+### Sources
+
+1. German Wikipedia — Chromagraph DC 300 (technology, variants DC 300 1971 / DC 300 ER 1973 / DC 350 1981, sales, screen angles, specs) — https://de.wikipedia.org/wiki/Chromagraph_DC_300
+2. Hell-Verein / hell-kiel.de — Chromagraph DC 300 B (1975) product page — https://www.hell-kiel.de/en/hell-development/86-reproduction-technology/scanner/151-chromagraph-dc-300-b-1975
+3. Hell-Verein / hell-kiel.de — Funktionsweise der Analogscanner (workflow, "blind" colour correction, Farbrechner with viele Drehknöpfe) — https://www.hell-kiel.de/de/hell-entwicklungen/reproduktionstechnik/scanner/191-funktionsweise-der-analogscanner
+4. Hell company chronology 1974–1984 (200th DC 300 completed 18 June 1974) — https://web.archive.org/web/20160304191333/http://www.hell-kiel.de/1974-1984.htm
+5. Hell company chronology 1985–2002 (1,000th DC 350 and ~2,500 total DC-Chromagraphen by 1985) — https://web.archive.org/web/20160402074420/http://www.hell-kiel.de/1985-2002.htm
+6. Wikipedia — Rudolf Hell (founder history; Siemens 1981, Linotype-Hell 1990) — https://en.wikipedia.org/wiki/Rudolf_Hell
