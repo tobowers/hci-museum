@@ -1,0 +1,38 @@
+{
+  "slug": "sony-jumbotron-jts1",
+  "title": "Sony JumboTron JTS-1",
+  "year": "1985",
+  "subtitle": "A stadium-sized video wall built from thousands of flood-beam CRT light bulbs — the world's first giant electronic screen, unveiled at Expo '85.",
+  "why_scout_cares": "The JumboTron is the museum's canonical giant-screen output device: a 40 x 25 metre video display assembled not from LEDs or projectors but from tens of thousands of individual miniature flood-beam CRTs, each carrying 2 to 16 red/green/blue phosphor sub-pixels, grouped into glass modules of 16+ tubes. It is a machine for making one image legible to a crowd of tens of thousands simultaneously — a fundamentally different human-computer relationship than the personal terminal. It debuted at Expo '85 in Tsukuba in May 1985, used a Sony-developed microprocessor-controlled 'Trini-lite' light bulb (developed by chief Betamax engineer Yuji Watanabe), and was driven by a dedicated control rack. A bold, physical, outdoor display technology and the ancestor of every stadium screen.",
+  "search_terms": ["Sony JumboTron", "JumboTron 1985", "Sony JTS-1", "Trini-lite flood beam CRT", "Expo 85 Sony video screen", "Yasuo Kuroki JumboTron", "Yuji Watanabe Trini-lite", "flood beam CRT video wall"],
+  "research": {
+    "title": "Sony JumboTron JTS-1",
+    "year": "1985",
+    "by": "Sony Corporation, Tokyo, Japan",
+    "tags": ["HCI", "Large-screen display", "Video wall", "Output", "Public", "Broadcast"],
+    "overview": "The Sony JumboTron, introduced at Expo '85 in Tsukuba in May 1985, was one of the first and most famous large-screen television video walls, and the brand name that became generic for the whole category. Unlike later LED screens — which were impossible at the time because blue LEDs did not exist and the only green LEDs were unsuitable for an RGB display — the JumboTron was built from thousands of miniature flood-beam cathode-ray tubes. Each display consisted of glass modules containing 16 or more small CRTs, each CRT carrying from 2 to 16 pixels made of red, green, and blue phosphors. The 1985 display measured a reported 40 by 25 metres and offered roughly 450,000 pixels — comparable to a standard-definition television of the era. Sony credited creative director Yasuo Kuroki (previously of the Walkman) with its development, and chief Betamax engineer Yuji Watanabe with the Trini-lite microprocessor-based light bulb that allowed screen clarity and computer control. From the strange physical interface of a stadium screen, where an image must be read by tens of thousands of people at once, through to the decline of CRT-based screens in favour of LEDs, the JumboTron is the museum's anchor for public, architectural-scale computing.",
+    "deepDive": [
+      {"heading": "A CRT light bulb, not a projector", "text": "The JumboTron is often mistaken for a projection screen. It is not. Every bright dot on the display is emitted by a tiny flood-beam cathode-ray tube — a vacuum tube whose beam does not scan but floods a phosphor patch. Sony's 'Trini-lite' bulb was a microprocessor-based light source, colour-mixed from red, green, and blue phosphors and computer-addressable from a central rack. The result is a display that is literally a wall of thousands of small televisions, each with its own electron gun."},
+      {"heading": "Legible to a crowd", "text": "The interface problem the JumboTron solves is not pixel density but collective legibility. A screen 40 metres wide is designed to be read from the far side of a stadium or square, essentially making one image perceivable by thousands of people simultaneously. It is a public, shared, outdoor output device — the opposite of the private personal computer."},
+      {"heading": "A dead-end technology", "text": "The JumboTron's flood-beam CRT modules were a brute-force answer to a problem that LEDs would later solve far more cheaply and reliably. CRT-based screens had roughly one-tenth the lifespan of LED screens and needed constant servicing. Yet for nearly two decades the CRT wall was the only way to build a giant outdoor video screen, making it one of the most physically imposing display technologies ever mass-produced."}
+    ],
+    "team": [
+      {"name": "Sony Corporation", "note": "Tokyo, Japan; introduced the JumboTron at Expo '85, Tsukuba"},
+      {"name": "Yasuo Kuroki", "note": "Sony creative director (previously the Walkman); credited with the JumboTron's development"},
+      {"name": "Yuji Watanabe", "note": "Chief Betamax engineer; developed the microprocessor-based Trini-lite light bulb"}
+    ],
+    "media": [
+      {"src": "https://commons.wikimedia.org/wiki/File:Expo85_sony.jpg", "alt": "Sony JumboTron video screen at Expo '85", "caption": "Sony JumboTron at Expo '85, Tsukuba, 1985. CC BY-SA 2.5, photo by ころぞう"}
+    ],
+    "sources": [
+      {"text": "Jumbotron, Wikipedia", "url": "https://en.wikipedia.org/wiki/Jumbotron"},
+      {"text": "SB Nation — Twilight of the Jumbotron, the biggest invention in sports (Pilon, 2015)", "url": "https://www.sbnation.com/2015/11/11/9703912/twilight-of-the-jumbotron"},
+      {"text": "Popular Science, 'Science Newsfront' (May 1985)", "url": "https://books.google.com/books?id=iwAAAAAAMBAJ&pg=PA10"},
+      {"text": "Lamps & Tubes — Futaba/Sony TRINILITE A-6279 flood-beam CRT Jumbotron module", "url": "https://lampes-et-tubes.info/cd/cd059.php"}
+    ],
+    "imageUrls": [
+      "https://commons.wikimedia.org/wiki/File:Expo85_sony.jpg"
+    ]
+  },
+  "savedImages": ["sony-jumbotron-jts1.jpg"]
+}

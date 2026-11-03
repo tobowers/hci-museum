@@ -3906,6 +3906,32 @@ const exhibitData: Exhibit[] = [
     tags: ["HCI", "Prepress", "Analog Computer", "Drum Scanner", "Industrial"],
     image: img("chromagraph-dc300-console.jpg"),
   },
+  {
+    id: "sony-jumbotron-jts1",
+    slug: "sony-jumbotron-jts1",
+    wikiTitle: "Sony JumboTron JTS-1",
+    year: "1985",
+    sortYear: 1985,
+    title: "Sony JumboTron JTS-1",
+    subtitle: "A stadium-sized video wall built from thousands of flood-beam CRT light bulbs — the first giant electronic screen, unveiled at Expo '85",
+    blurb:
+      "The Sony JumboTron, introduced at Expo '85 in Tsukuba in May 1985, gave its name to the entire category of stadium video screens — and it was not made of LEDs. With no usable blue LEDs and only an unsuitable yellow-green, Sony built the first JumboTrons from tens of thousands of miniature flood-beam cathode-ray tubes. Each glass module held 16 or more CRTs, each CRT carrying 2 to 16 red/green/blue phosphor pixels, individually addressable from a central rack; the 1985 screen was a reported 40 by 25 metres with roughly 450,000 pixels. Sony creative director Yasuo Kuroki (previously the Walkman) is credited with its development, and chief Betamax engineer Yuji Watanabe with the microprocessor-based 'Trini-lite' light bulb that let the screen be computer-controlled. A wall of tiny televisions, built to make one image legible to a crowd of thousands, and the direct ancestor of every modern stadium screen.",
+    tags: ["HCI", "Large-screen Display", "Video Wall", "Output", "Public"],
+    image: img("sony-jumbotron-jts1.jpg"),
+  },
+  {
+    id: "evans-sutherland-digistar-1",
+    slug: "evans-sutherland-digistar-1",
+    wikiTitle: "Evans & Sutherland Digistar 1",
+    year: "1983",
+    sortYear: 1983,
+    title: "Evans & Sutherland Digistar 1",
+    subtitle: "The first computer-graphics planetarium, flown from a 3-by-4-foot console of back-lit buttons and a six-degree-of-freedom joystick — including one labelled 'Boldly Go'",
+    blurb:
+      "Digistar, released by Evans & Sutherland in 1983, is the first computer-graphics planetarium projection system, built by amateur astronomers and graphics engineers Stephen McAllister and Brent Watson to show the sky from anywhere in space and time, not just Earth. Its projector is a single calligraphic CRT whose beam draws bright, non-pixelated stars directly onto a phosphor plate, thrown across the dome by a 160-degree lens and driven by a DEC VAX-11/780. What makes it a museum piece is the interface: the original Digistar and Digistar II were flown from a roughly 3-by-4-foot physical console packed with a keyboard, a six-degree-of-freedom joystick, and banks of back-lit buttons — one of them labelled 'Boldly Go,' after Star Trek, fitting because a Digistar laboratory prototype generated the starfields for Star Trek II: The Wrath of Khan, including its first all-CG feature film sequence. A theatre-organ-like performance instrument for flying an audience through the stars, since replaced by ordinary GUIs.",
+    tags: ["HCI", "Graphics", "Planetarium", "Embodied", "Input", "Performance"],
+    image: img("es-digistar-1-console.jpg"),
+  },
 ];
 
 export const exhibits: Exhibit[] = exhibitData.toSorted((a, b) => b.sortYear - a.sortYear || a.title.localeCompare(b.title));
