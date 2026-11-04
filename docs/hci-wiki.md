@@ -317,7 +317,9 @@ Each entry includes an overview, a deep dive, a small media gallery, and full so
       307. [Ponsse HS-15 Harvester (1988)](#ponsse-hs-15-harvester-1988)
       308. [Grass Valley 1600 Series Production Switcher (1979)](#grass-valley-1600-series-production-switcher-1979)
       309. [Hell Chromagraph DC 300 B (1975)](#hell-chromagraph-dc-300-b-1975)
-  
+      310. [Sony JumboTron JTS-1 (1985)](#sony-jumbotron-jts-1-1985)
+      311. [Evans & Sutherland Digistar 1 (1983)](#evans--sutherland-digistar-1-1983)
+   
 ---
 
 ## Hubot (c. 1983)
@@ -13749,3 +13751,70 @@ An operator's experience of a DC 300 B is the opposite of a screen. The machine 
 4. Hell company chronology 1974–1984 (200th DC 300 completed 18 June 1974) — https://web.archive.org/web/20160304191333/http://www.hell-kiel.de/1974-1984.htm
 5. Hell company chronology 1985–2002 (1,000th DC 350 and ~2,500 total DC-Chromagraphen by 1985) — https://web.archive.org/web/20160402074420/http://www.hell-kiel.de/1985-2002.htm
 6. Wikipedia — Rudolf Hell (founder history; Siemens 1981, Linotype-Hell 1990) — https://en.wikipedia.org/wiki/Rudolf_Hell
+
+## Sony JumboTron JTS-1 (1985)
+
+**By:** Sony Corporation, Tokyo, Japan  
+**Tags:** `Large-screen Display` `Video Wall` `Output` `Public` `Broadcast`
+
+### Overview
+
+The Sony JumboTron, introduced at Expo '85 in Tsukuba in May 1985, is the large-screen video wall that gave its name to the entire category of stadium screens. Its striking fact is what it was made of. The first JumboTrons were not LED displays — blue LEDs did not yet exist, and the only green LEDs available were an unsuitable yellow-green — nor were they projectors. They were built from tens of thousands of miniature flood-beam cathode-ray tubes. Each glass module contained 16 or more small CRTs, and each CRT carried from 2 to 16 pixels composed of red, green, and blue phosphors, individually addressable from a central control rack. The 1985 screen was a reported 40 by 25 metres with roughly 450,000 pixels, comparable in resolution to a standard-definition television of the day. Sony creative director Yasuo Kuroki — previously the Walkman — is credited with the JumboTron's development, and chief Betamax engineer Yuji Watanabe with the microprocessor-based "Trini-lite" light bulb that gave the screen its clarity and let it be computer-controlled.
+
+### Deep dive
+
+* **A wall of tiny televisions.** The JumboTron is often mistaken for a projection screen; it was not. Every bright dot was emitted by a flood-beam CRT — a vacuum tube whose electron beam floods a phosphor patch rather than scanning a raster. The segmented glass modules, each holding sixteen or more tubes, made the display modular, serviceable, and explosively bright, but also heavy, hot, and fragile. The "pixel" was a physical light bulb.
+* **Legible to a crowd.** The interface problem the JumboTron solves is not pixel density but collective legibility: a screen forty metres wide is designed to be read from the far side of a stadium or public square, making one image perceivable by thousands of people at once. It is the museum's archetypal public, outdoor, shared output device — the opposite of the private personal computer.
+* **The dead end that lasted two decades.** CRT-based JumboTrons had roughly one-tenth the lifespan of the LED screens that replaced them, and needed constant lamp and module servicing. Yet for nearly twenty years the flood-beam CRT wall was the only practical way to build a giant outdoor video screen. In December 1986 the San Antonio Spurs installed the first indoor arena JumboTron at HemisFair Arena, and the technology spread across sports and concert venues before LED supplanted it. No verifiable unit price for the 1985 Expo '85 display could be confirmed.
+
+### Team
+
+* **Sony Corporation.** Tokyo electronics manufacturer; introduced the JumboTron at Expo '85 and registered the "JumboTron" trademark in 1985.
+* **Yasuo Kuroki.** Sony creative director, previously of the Walkman; credited with the JumboTron's development.
+* **Yuji Watanabe.** Chief Betamax engineer; developed the microprocessor-based Trini-lite light bulb.
+
+### Media
+
+![Sony JumboTron video screen at Expo '85](../assets/wiki/sony-jumbotron-jts1.jpg)
+*The Sony JumboTron on display at Expo '85, Tsukuba, 1985 — a stadium-scale video wall assembled from tiny flood-beam CRTs, not LEDs or projectors. (Image: ころぞう / Wikimedia Commons, CC BY-SA 2.5.)*
+
+### Sources
+
+1. Wikipedia — Jumbotron (history, Trini-lite flood-beam CRT modules, 450,000-pixel resolution, Expo '85 debut, Kuroki and Watanabe, Spurs 1986) — https://en.wikipedia.org/wiki/Jumbotron
+2. SB Nation — "Twilight of the Jumbotron, the biggest invention in sports" (Mary Pilon, 11 Nov 2015) — https://www.sbnation.com/2015/11/11/9703912/twilight-of-the-jumbotron
+3. *Popular Science*, "Science Newsfront" (May 1985) — https://books.google.com/books?id=iwAAAAAAMBAJ&pg=PA10
+4. Lamps & Tubes — "Futaba/Sony (TRINILITE) A-6279-869-B Flood Beam CRT Jumbotron Module" — https://lampes-et-tubes.info/cd/cd059.php
+
+## Evans & Sutherland Digistar 1 (1983)
+
+**By:** Evans & Sutherland Computer Corporation, Salt Lake City, Utah, USA  
+**Tags:** `Graphics` `Planetarium` `Embodied` `Input` `Performance`
+
+### Overview
+
+Digistar is the first computer-graphics-based planetarium projection and content system, designed by Evans & Sutherland and released in 1983. It was created by lifelong amateur astronomers and graphics engineers Stephen McAllister and Brent Watson, who in 1977 were consulting with NASA's Johnson Space Center on astronaut training simulators and who targeted the technology at planetaria to overcome the central limitation of the traditional opto-mechanical star ball: it could only show the sky from the surface of the Earth. Digistar could show accurate star fields — taken from the Yale Bright Star Catalogue, plus random stars — from any point in space and time, and could show the planets and moons for any date. Its projector is a single calligraphic (vector) cathode-ray tube: the electron beam is driven straight to the coordinates of each star or wireframe vertex, painting bright, non-pixelated points onto a phosphor plate that a 160-degree lens throws across the whole dome. Driven by a DEC VAX-11/780 with custom graphics hardware, the system first shipped to the Science Museum of Virginia in 1983 for $595,000, and by 2019 the Digistar line had more than 550 installations worldwide.
+
+### Deep dive
+
+* **A cockpit, not a menu.** The original Digistar and Digistar II were operated from a physical control panel roughly 3 by 4 feet in size, containing a keyboard, a six-degree-of-freedom joystick, and a large array of back-lit buttons. The operator performed the show with the body — steering the viewpoint through space with the joystick, punching illuminated buttons to summon models and celestial events. It is closer to a theatre organ or an aircraft cockpit than to a graphical user interface, a rare example of a public performance computer driven entirely by physical controls.
+* **"Boldly Go."** Among the back-lit buttons on the Digistar panel was one, used to move the viewpoint forward through space, labelled "Boldly Go" — after Star Trek's "where no man has gone before." The joke was earned. A Digistar laboratory prototype generated the star fields and tactical displays for *Star Trek II: The Wrath of Khan* (1982), filmed directly from the Digistar display; the film's opening 3.5-minute starfield fly-through became the first entirely computer-generated feature film sequence, and the Digistar team is credited in the film.
+* **Drawing with an electron beam.** The Digistar projector is a calligraphic display: instead of scanning a raster, its single CRT drives the beam straight to each coordinate in a display list. Because a star's phosphor spot glows longer the more often it is hit, short display lists produce very bright stars — far brighter than a raster could — and darker blacks, because the empty sky is never struck. The result is a bright phosphorescent green sky that many visitors and planetarians report they cannot distinguish from white, and a star image free of the blocky artifacts of raster graphics.
+* **The limits of one tube.** Digistar 1 and 2 could only project dots and lines, so only wireframe models were possible; the system compensated by defocusing models to blur lines into surfaces (the Milky Way was a circle of parallel lines, defocused into a band). Focus across a dome from a single lens was imperfect, and the CRT lost brightness after roughly a thousand hours and needed replacement every year or so. Later versions replaced the physical console with an ordinary graphical user interface — the museum-relevant loss is precisely that embodied console. Digistar 3 (2002) finally brought full-dome raster video.
+
+### Team
+
+* **Evans & Sutherland.** Salt Lake City graphics pioneer, founded by David C. Evans and Ivan Sutherland; designed and built the Digistar and its custom graphics hardware.
+* **Stephen McAllister.** Amateur astronomer and graphics engineer; Digistar co-creator, who entered the data for 400 bright stars in summer 1977.
+* **Brent Watson.** Former Hansen Planetarium staffer and graphics engineer; Digistar co-creator.
+* **Wayne Sumner.** Digistar team member and co-narrator of the system's oral history.
+
+### Media
+
+![Evans & Sutherland Digistar 1 parts, including control hardware](../assets/wiki/es-digistar-1-console.jpg)
+*Components of an Evans & Sutherland Digistar system, including its physical operator controls. The original Digistar was driven from a roughly 3-by-4-foot console with a keyboard, a six-degree-of-freedom joystick, and banks of back-lit buttons — one of them labelled "Boldly Go." (Image: quantumdtell / Wikimedia Commons, CC BY 2.0.)*
+
+### Sources
+
+1. Wikipedia — Digistar (projector, calligraphic CRT, control panel with 6-DOF joystick and back-lit buttons, "Boldly Go", Star Trek II, VAX-11/780, 1983 release, $595,000 first installation) — https://en.wikipedia.org/wiki/Digistar
+2. McAllister, Watson & Sumner — "Audio History of Digistar Planetarium Projection System by Evans & Sutherland" (1986) — https://www.youtube.com/watch?v=IlJVovMTulQ
+3. Smith, Alvy Ray — "Special Effects for *Star Trek II*: The Genesis Demo Instant Evolution with Computer Graphics," *American Cinematographer* (Oct 1982) — https://en.wikipedia.org/wiki/Digistar#cite_note-alvy-3

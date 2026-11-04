@@ -1,0 +1,38 @@
+{
+  "slug": "evans-sutherland-digistar-1",
+  "title": "Evans & Sutherland Digistar 1",
+  "year": "1983",
+  "subtitle": "The first computer-graphics planetarium, piloted from a 3-by-4-foot console of back-lit buttons and a six-degree-of-freedom joystick — with a button labelled 'Boldly Go'.",
+  "why_scout_cares": "The Digistar was the first computer-graphics planetarium projection and content system, built by Evans & Sutherland and first installed in 1983. What makes it a museum piece rather than a display curiosity is its operator interface: the original Digistar and Digistar II had a physical control panel roughly 3 by 4 feet, crowded with a keyboard, a six-degree-of-freedom joystick, and a large array of back-lit buttons. One of those buttons, which moved the viewpoint forward through space, was labelled 'Boldly Go' — a Star Trek reference, appropriate because a Digistar laboratory prototype generated the star fields for Star Trek II: The Wrath of Khan. This is a cockpit-like, performance instrument for flying audiences through the sky, not a desktop GUI.",
+  "search_terms": ["Evans & Sutherland Digistar", "Digistar planetarium 1983", "Digistar control panel", "Digistar back-lit buttons joystick", "Boldly Go button", "Star Trek II Wrath of Khan Digistar", "Stephen McAllister Brent Watson Digistar", "calligraphic CRT planetarium projector"],
+  "research": {
+    "title": "Evans & Sutherland Digistar 1",
+    "year": "1983",
+    "by": "Evans & Sutherland Computer Corporation, Salt Lake City, Utah, USA",
+    "tags": ["HCI", "Graphics", "Planetarium", "Embodied", "Input", "Performance"],
+    "overview": "Digistar is the first computer-graphics-based planetarium projection and content system, designed by Evans & Sutherland and released in 1983. It was the brainchild of lifelong amateur astronomers and graphics engineers Stephen McAllister and Brent Watson, who in 1977 were consulting with NASA's Johnson Space Center on astronaut training simulators. Its purpose was to overcome the key limitation of traditional opto-mechanical star balls: that they could only show the sky from the surface of the Earth. Using computer graphics, Digistar could show accurate star fields from any point in space and time. The projector itself is a single calligraphic (vector) CRT whose electron beam is driven directly to the coordinates of each star and line, painting bright, non-pixelated points onto a phosphor plate; a 160-degree lens then throws the image across the entire dome. Driven by a DEC VAX-11/780 with custom graphics hardware, the Digistar was operated from a large physical console. Its success is difficult to overstate for the sector: the first customer installation was the Science Museum of Virginia in 1983, for $595,000, and by 2019 the Digistar line had more than 550 planetarium installations worldwide.",
+    "deepDive": [
+      {"heading": "A cockpit, not a menu", "text": "The original Digistar and Digistar II were run from a physical control panel roughly 3 by 4 feet in size, containing a keyboard, a six-degree-of-freedom joystick, and a large array of back-lit buttons. The operator performed the show with the body — steering the viewpoint through space with the joystick, punching illuminated buttons to summon models and celestial events. It is closer to a theatre organ or an aircraft cockpit than to a graphical user interface."},
+      {"heading": "'Boldly Go'", "text": "Among the back-lit buttons on the Digistar panel was one, used to move the viewpoint forward in space, labelled 'Boldly Go' — after the Star Trek catchphrase 'where no man has gone before'. The joke was earned: a Digistar laboratory prototype generated the star fields and tactical displays for Star Trek II: The Wrath of Khan (1982), and the film's opening 3.5-minute starfield fly-through became the first entirely computer-generated feature film sequence. The Digistar team members were credited in the film."},
+      {"heading": "Drawing with an electron beam", "text": "The Digistar projector is a calligraphic display. Instead of scanning a raster, its single CRT drives the electron beam straight to the coordinates of each star or wireframe vertex in a display list. Because a star's phosphor spot glows longer the more often it is hit, short display lists produce very bright stars — far brighter than a raster display could, and with darker blacks, since empty sky is never struck. The result dances between the visible and the actual: a bright phosphorescent green sky that many viewers cannot distinguish from white."}
+    ],
+    "team": [
+      {"name": "Evans & Sutherland", "note": "Salt Lake City, Utah; designed and built the Digistar"},
+      {"name": "Stephen McAllister", "note": "Amateur astronomer and graphics engineer; Digistar co-creator"},
+      {"name": "Brent Watson", "note": "Former Hansen Planetarium staffer and graphics engineer; Digistar co-creator"},
+      {"name": "Wayne Sumner", "note": "Digistar team member"}
+    ],
+    "media": [
+      {"src": "https://commons.wikimedia.org/wiki/File:E%26S_Digistar%27s_parts.jpg", "alt": "Components of an Evans & Sutherland Digistar system, including control hardware", "caption": "Evans & Sutherland Digistar 1 parts, including control hardware. CC BY 2.0, photo by quantumdtell"}
+    ],
+    "sources": [
+      {"text": "Digistar, Wikipedia", "url": "https://en.wikipedia.org/wiki/Digistar"},
+      {"text": "McAllister, Watson & Sumner, 'Audio History of Digistar Planetarium Projection System by Evans & Sutherland' (1986)", "url": "https://www.youtube.com/watch?v=IlJVovMTulQ"},
+      {"text": "Smith, Alvy Ray, 'Special Effects for Star Trek II: The Genesis Demo Instant Evolution with Computer Graphics', American Cinematographer (Oct 1982)", "url": "https://en.wikipedia.org/wiki/Digistar#cite_note-alvy-3"}
+    ],
+    "imageUrls": [
+      "https://commons.wikimedia.org/wiki/File:E%26S_Digistar%27s_parts.jpg"
+    ]
+  },
+  "savedImages": ["es-digistar-1-console.jpg"]
+}
