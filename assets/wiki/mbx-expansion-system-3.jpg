@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html><head>
+<meta charset="UTF-8" />
+<title>Error generating thumbnail</title>
+</head>
+<body>
+<h1>Error generating thumbnail</h1>
+<p>
+Error creating thumbnail: Image was not scaled, is the requested width bigger than the source?
+</p>
+
+</body>
+</html>
