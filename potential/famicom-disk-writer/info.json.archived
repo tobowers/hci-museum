@@ -1,0 +1,13 @@
+{
+  "id": "famicom-disk-writer",
+  "slug": "famicom-disk-writer",
+  "wikiTitle": "Famicom Disk Writer & Disk Fax Kiosks",
+  "year": "1986",
+  "title": "Famicom Disk Writer & Disk Fax Kiosks",
+  "status": "promoted 2026-11-08",
+  "image": "assets/wiki/famicom-disk-writer.jpg",
+  "imageSource": "File:Nintendo-Famicom-Disk-System.jpg (Evan-Amos, public domain). NOTE: no free image of an actual Disk Writer kiosk exists; the promoted photo shows the Famicom + Disk System hardware that accepts the Disk Cards.",
+  "sources": [
+    "https://en.wikipedia.org/wiki/Famicom_Disk_System"
+  ]
+}

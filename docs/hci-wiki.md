@@ -1,6 +1,6 @@
 # The HCI Golden Age Wiki
 
-A research compendium for a digital museum of cutting-edge Human-Computer Interaction from the late 1970s through the early 1990s. These three hundred and eleven projects mix canonical experiments with weird, forgotten, and beautiful vaporware — brain control, voice control, gesture, wearable computing, VR, robots, and full-body exertion.
+A research compendium for a digital museum of cutting-edge Human-Computer Interaction from the late 1970s through the early 1990s. These three hundred and twelve projects mix canonical experiments with weird, forgotten, and beautiful vaporware — brain control, voice control, gesture, wearable computing, VR, robots, and full-body exertion.
 
 Each entry includes an overview, a deep dive, a small media gallery, and full source links so the images and facts can always be traced back.
 
@@ -319,6 +319,7 @@ Each entry includes an overview, a deep dive, a small media gallery, and full so
       309. [Hell Chromagraph DC 300 B (1975)](#hell-chromagraph-dc-300-b-1975)
       310. [Sony JumboTron JTS-1 (1985)](#sony-jumbotron-jts-1-1985)
       311. [Evans & Sutherland Digistar 1 (1983)](#evans--sutherland-digistar-1-1983)
+      312. [Famicom Disk Writer & Disk Fax Kiosks (1986)](#famicom-disk-writer--disk-fax-kiosks-1986)
    
 ---
 
@@ -13818,3 +13819,33 @@ Digistar is the first computer-graphics-based planetarium projection and content
 1. Wikipedia — Digistar (projector, calligraphic CRT, control panel with 6-DOF joystick and back-lit buttons, "Boldly Go", Star Trek II, VAX-11/780, 1983 release, $595,000 first installation) — https://en.wikipedia.org/wiki/Digistar
 2. McAllister, Watson & Sumner — "Audio History of Digistar Planetarium Projection System by Evans & Sutherland" (1986) — https://www.youtube.com/watch?v=IlJVovMTulQ
 3. Smith, Alvy Ray — "Special Effects for *Star Trek II*: The Genesis Demo Instant Evolution with Computer Graphics," *American Cinematographer* (Oct 1982) — https://en.wikipedia.org/wiki/Digistar#cite_note-alvy-3
+
+## Famicom Disk Writer & Disk Fax Kiosks (1986)
+
+**By:** Nintendo (Masayuki Uemura, Nintendo R&D2), with Mitsumi Quick Disk media; deployed in toy and hobby stores across Japan  
+**Tags:** `Gaming` `Kiosk` `Distribution` `Removable Media` `Retail`
+
+### Overview
+
+The Family Computer Disk System was a floppy-disk add-on for Nintendo's Famicom, released in Japan on 21 February 1986 at ¥15,000. It stored games on proprietary, rewritable "Disk Cards" built on Mitsumi's Quick Disk medium, which were cheap to press and large enough for save files — the storage that made possible The Legend of Zelda and Metroid with their persistent progress. But a rewritable disk admits a second business model, and that is where the museum's interest lies: Nintendo promised to install 10,000 **Disk Writer** kiosks in toy and hobby stores within a year, jukebox-style stations where a customer brought their own Disk Card, chose a game from a rotating roster, and paid ¥500 — about one sixth of a new cartridge — to have it written onto the disk they already owned.
+
+Because the same floppy could carry a save file, Nintendo added the **Disk Fax** in 1987 at selected kiosks: a player saved a high score at home, carried the card to a participating store, and the machine transmitted the score by fax to Nintendo, which collated entries into a nationwide leaderboard with prizes. It was Nintendo's first "online" concept, a decade before the Satellaview, and a direct ancestor of both downloadable games and achievement systems.
+
+### Deep dive
+
+* **The machine was only one third of the interface.** The Disk Writer was not a self-service terminal in the modern sense. The interaction was tripartite: the player's own disk, a counter clerk who kept the roster and handed over an instruction sheet (¥100 by mail), and the kiosk that performed the write. Ownership, payment and content selection happened in conversation; the kiosk only supplied the copy. This is a reminder that early distribution hardware is often shop hardware, embedded in a social ritual rather than a user session.
+* **A workaround for a ban.** Game rental in Japan had been effectively outlawed in 1984 after publishers petitioned against the country's computer-game rental shops, so there was no legal way to play a game cheaply and briefly. The kiosk restored cheap access without renting anything — the customer already owned the medium; they were buying a rewrite of it. Some titles, such as *Kaette Kita Mario Bros.*, were released only through the kiosks.
+* **The fatal economics of floor space.** Retailers disliked the Disk Writers: the cabinets occupied valuable store space and the ¥500 rewrites were far less profitable than a cartridge sale. When cartridges became cheap enough by 1989 to obsolete the disks, Nintendo simply stopped supporting the kiosks and left stores with large, unsellable cabinets. The service nonetheless persisted — Nintendo kept rewriting disks by mail until 30 September 2003. The Disk System itself sold about 4.4 million units before being discontinued in 1990, and piracy (disk copiers were sold openly) was endemic.
+* **A physical predecessor of digital distribution.** Kotaku called the Disk Writer "one of the coolest things Nintendo ever created" and argued modern digital distribution could learn from it; Nintendo Life called it a forerunner of Xbox Live Arcade, PlayStation Network and Steam. The comparison is fair at the level of the transaction — pick a title, pay, receive a copy onto media you own — and the Disk Fax adds the second half, a leaderboard tied to the physical object you carry in.
+
+### Media
+
+![Famicom with Disk System add-on](../assets/wiki/famicom-disk-writer.jpg)
+*A Famicom with the Disk System add-on — the console that accepted the rewritable Disk Cards which the in-store Disk Writer kiosks filled. (Image: Evan-Amos / Wikimedia Commons, public domain.)*
+
+### Sources
+
+1. Wikipedia — Famicom Disk System (release date and price, Disk Writer kiosks, 10,000-kiosk promise, ¥500 rewrite fee, instruction sheets, Disk Fax leaderboards, 1984 rental ban, retailer complaints, discontinuation and mail service to 2003) — https://en.wikipedia.org/wiki/Famicom_Disk_System
+2. Kotaku — "The Famicom Disk Writer Was One Of The Coolest Things Nintendo Ever Created" (2014) — cited via the Wikipedia article above
+3. Nintendo Life — history of the Famicom Disk System and its kiosks — cited via the Wikipedia article above
+| Famicom Disk Writer | `famicom-disk-writer.jpg` | Famicom with Disk System add-on | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Nintendo-Famicom-Disk-System.jpg) |

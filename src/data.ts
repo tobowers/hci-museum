@@ -3932,6 +3932,19 @@ const exhibitData: Exhibit[] = [
     tags: ["HCI", "Graphics", "Planetarium", "Embodied", "Input", "Performance"],
     image: img("es-digistar-1-console.jpg"),
   },
+  {
+    id: "famicom-disk-writer",
+    slug: "famicom-disk-writer",
+    wikiTitle: "Famicom Disk Writer & Disk Fax Kiosks",
+    year: "1986",
+    sortYear: 1986,
+    title: "Nintendo Disk Writer & Disk Fax Kiosks",
+    subtitle: "A shop-counter jukebox that rewrote a game onto your own floppy disk for ¥500 — and a fax machine that carried your high score to Nintendo",
+    blurb:
+      "When Nintendo launched its Famicom Disk System in 1986, it also promised 10,000 Disk Writer kiosks in Japanese toy and hobby stores within a year. You carried in a reusable Disk Card, the card was inserted into the machine, you picked a game from the roster, paid ¥500 (about a sixth of a cartridge's price), and the kiosk wrote the new game over your disk in minutes while you waited — the machine, the disk and the shop clerk formed the interface to a distribution network. The same rewritable disk let Nintendo add the Disk Fax in 1987: a player saved a high score at home and carried the card to a participating store, where the kiosk faxed it to Nintendo for a nationwide leaderboard. Game rentals were banned in Japan in 1984, so the kiosk restored cheap access; retailers grew to resent the floor space and Nintendo quietly abandoned the machines, but the writers kept running in stores until 2003. An early, physical, in-person ancestor of downloadable games and online leaderboards.",
+    tags: ["HCI", "Gaming", "Kiosk", "Distribution", "Removable Media", "Retail"],
+    image: img("famicom-disk-writer.jpg"),
+  },
 ];
 
 export const exhibits: Exhibit[] = exhibitData.toSorted((a, b) => b.sortYear - a.sortYear || a.title.localeCompare(b.title));
