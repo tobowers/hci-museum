@@ -13,7 +13,15 @@
     "title": "Technics SL-1200MK2",
     "year": "1979",
     "by": "Matsushita Electric (Technics brand), Japan",
-    "tags": ["HCI", "Music", "Turntable", "Direct Manipulation", "Embodied", "Input", "Performance"],
+    "tags": [
+      "HCI",
+      "Music",
+      "Turntable",
+      "Direct Manipulation",
+      "Embodied",
+      "Input",
+      "Performance"
+    ],
     "overview": "The Technics SL-1200 series is a family of direct-drive turntables introduced by Matsushita Electric in October 1972 under the Technics brand, and the MK2, released in summer 1979 (produced until 2010), became the single most influential model. It is a machine for playing records, but it became an interface because its quartz-locked direct-drive motor was stiff and stable enough to survive being grabbed: a DJ can push, pull, backspin, and wiggle the vinyl while the platter holds speed, and the record's pitch and time can be bent by hand without the drive collapsing. The MK2 changed the earlier rotary pitch control to a slider — a continuous, glance-free, ±8% handle on speed that let two records be matched by ear and hand — and fixed the electronic braking so it decelerates as fast as it accelerates, the property that made 'pitch riding' usable for beatmatching. What began as a broadcasting and hi-fi turntable was adopted by New York hip-hop DJs in the 1970s and became the standard instrument of DJing, turntablism, and scratching. Over three million units were sold, and an SL-1210MK2 (the black European variant) is held by the Science Museum, London, as one of the technologies that 'made the modern world.'",
     "deepDive": [
       {
@@ -34,21 +42,42 @@
       }
     ],
     "team": [
-      { "name": "Shuichi Obata", "note": "Led the Matsushita/Technics team that developed the SL-1200, released in 1972; the MK2 followed in 1979" },
-      { "name": "Matsushita Electric (Technics)", "note": "Japanese manufacturer of the SL-1200 series; the MK2 was produced from 1979 to 2010" }
+      {
+        "name": "Shuichi Obata",
+        "note": "Led the Matsushita/Technics team that developed the SL-1200, released in 1972; the MK2 followed in 1979"
+      },
+      {
+        "name": "Matsushita Electric (Technics)",
+        "note": "Japanese manufacturer of the SL-1200 series; the MK2 was produced from 1979 to 2010"
+      }
     ],
     "media": [
-      { "src": "https://commons.wikimedia.org/wiki/File:Technics_SL-1200MK2-2.jpg", "alt": "Technics SL-1200MK2 turntable", "caption": "A Technics SL-1200MK2 turntable. Its direct-drive, quartz-locked platter and linear pitch slider made the record a hand-played input medium. CC BY-SA 2.5, Wikimedia Commons." }
+      {
+        "src": "potential/technics-sl-1200mk2/images/technics-sl-1200mk2.jpg",
+        "alt": "Technics SL-1200MK2 turntable",
+        "caption": "A Technics SL-1200MK2 turntable. Its direct-drive, quartz-locked platter and linear pitch slider made the record a hand-played input medium. CC BY-SA 2.5, Wikimedia Commons."
+      }
     ],
     "sources": [
-      { "text": "Wikipedia — Technics SL-1200 (1972 introduction, MK2 summer 1979, slider pitch control, direct-drive quartz lock, 3 million units, hip-hop/turntablism influence)", "url": "https://en.wikipedia.org/wiki/Technics_SL-1200" },
-      { "text": "Wikipedia — Turntablism", "url": "https://en.wikipedia.org/wiki/Turntablism" },
-      { "text": "Wikimedia Commons — File:Technics SL-1200MK2-2.jpg (CC BY-SA 2.5)", "url": "https://commons.wikimedia.org/wiki/File:Technics_SL-1200MK2-2.jpg" }
+      {
+        "text": "Wikipedia — Technics SL-1200 (1972 introduction, MK2 summer 1979, slider pitch control, direct-drive quartz lock, 3 million units, hip-hop/turntablism influence)",
+        "url": "https://en.wikipedia.org/wiki/Technics_SL-1200"
+      },
+      {
+        "text": "Wikipedia — Turntablism",
+        "url": "https://en.wikipedia.org/wiki/Turntablism"
+      },
+      {
+        "text": "Wikimedia Commons — File:Technics SL-1200MK2-2.jpg (CC BY-SA 2.5)",
+        "url": "https://commons.wikimedia.org/wiki/File:Technics_SL-1200MK2-2.jpg"
+      }
     ],
     "imageUrls": [
       "https://upload.wikimedia.org/wikipedia/commons/5/50/Technics_SL-1200MK2-2.jpg",
       "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/50/Technics_SL-1200MK2-2.jpg/1200px-Technics_SL-1200MK2-2.jpg"
     ]
   },
-  "savedImages": []
+  "savedImages": [
+    "potential/technics-sl-1200mk2/images/technics-sl-1200mk2.jpg"
+  ]
 }
