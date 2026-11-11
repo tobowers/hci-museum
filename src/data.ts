@@ -3932,6 +3932,45 @@ const exhibitData: Exhibit[] = [
     tags: ["HCI", "Graphics", "Planetarium", "Embodied", "Input", "Performance"],
     image: img("es-digistar-1-console.jpg"),
   },
+  {
+    id: "technics-sl-1200mk2",
+    slug: "technics-sl-1200mk2",
+    wikiTitle: "Technics SL-1200MK2",
+    year: "1979",
+    sortYear: 1979,
+    title: "Technics SL-1200MK2",
+    subtitle: "A quartz-locked direct-drive turntable stiff enough to grab — the record itself became a hand-played input medium, and the pitch slider an ear-read tempo control",
+    blurb:
+      "The Technics SL-1200 series, introduced by Matsushita Electric in October 1972, is a family of direct-drive turntables; the MK2 (summer 1979, built until 2010) is the model that changed the world. On a belt-drive deck, dragging the record back slips or stalls the drive. The SL-1200's quartz-locked, frequency-generator servo motor was stable enough to survive being grabbed: a DJ can push, pull, backspin, and wiggle the vinyl while the platter holds speed, bending pitch and time by hand without the motor collapsing. The MK2 replaced the earlier rotary pitch control with a linear slider — a continuous, glance-free ±8% tempo handle that users 'pitch ride' by ear, not by eye — and made braking as fast as acceleration, the property that made beatmatching reliable. Born a broadcasting and hi-fi deck, it was adopted by New York hip-hop DJs in the 1970s and became the standard instrument of DJing, turntablism, and scratching. Over three million were sold, and a black SL-1210MK2 sits in the Science Museum, London. Direct manipulation in its purest embodied form: no screen, no menu, no cursor — the performer's hand is on the data, a physical groove moving in real time.",
+    tags: ["HCI", "Music", "Turntable", "Direct Manipulation", "Embodied", "Input", "Performance"],
+    image: img("technics-sl-1200mk2.jpg"),
+  },
+  {
+    id: "atc-flight-progress-strips",
+    slug: "atc-flight-progress-strips",
+    wikiTitle: "Air Traffic Control Flight Progress Strips",
+    year: "1970s–1990s",
+    sortYear: 1985,
+    title: "Air Traffic Control Flight Progress Strips",
+    subtitle: "A strip of paper in a plastic rack whose position, tilt, and pen colour are as much data as its printed text — the physical original of the word 'handoff'",
+    blurb:
+      "A flight progress strip is a small strip of paper that tracks one flight in air traffic control. It is mounted in a plastic holder and slotted into a 'strip board,' a rack whose bays represent the flights in a sector or an aerodrome. The position of each strip is itself a second data channel: approach and area controllers stack strips in altitude order, while tower controllers use bays for ground, runway, and air, so a strip crossing bays shows an aircraft moving through procedural states. A strip can be 'cocked out' — deliberately offset — as a private reminder or a message to a colleague, and hand annotations in coloured pens encode the author's role, making each strip a layered, auditable conversation. The system's most telling legacy is linguistic: 'handoff,' today a routine word for a digital transfer of control, comes from physically handing the strip to the next controller, or chuting it down to the departure radar room. The museum-relevant object is not a machine but a disciplined physical medium — data living in paper, plastic, ink, and arrangement — and a case study in what touchscreen 'electronic flight strips' still struggle to replace: glanceable arrangement, cheap annotation, a tangible token of responsibility, and paper that works when the network is down.",
+    tags: ["HCI", "Aviation", "Paper Interface", "Procedural", "Distributed Work", "Physical State"],
+    image: img("atc-flight-strip-jakarta.jpg"),
+  },
+  {
+    id: "ishiguro-storm-surge-model",
+    slug: "ishiguro-storm-surge-model",
+    wikiTitle: "Ishiguro Electronic Storm Surge Model",
+    year: "1960–1983",
+    sortYear: 1980,
+    title: "Ishiguro Electronic Storm Surge Model",
+    subtitle: "A room-sized electrical analog of the North Sea — voltage stands in for water height — driven by an early-1980s Commodore desk computer and read off an oscilloscope",
+    blurb:
+      "After the 1953 North Sea flood, the UK's National Institute of Oceanography tasked oceanographer Shizuo Ishiguro with understanding storm surges. He built a physical analog computer that represented the North Sea as a grid of roughly 80 nodes, wired so that the flow of electricity between them stood for the flow of water. Resistors, capacitors, and inductors encoded the difference in water height, sea depth, coastlines, the Coriolis force, and time-dependent tides from the Moon and Sun. The machine stood about 1.8 m tall across two V-angled panels so modellers could reach front and back; it was used at the NIO from 1960 until about 1983. Its interface is the whole point: by its later years a Commodore CBM 8032 with 5.25-inch floppies set up and fed parameters into the grid, while the answer appeared as a live trace on an Advance Instruments OS-240 oscilloscope, photographed rather than saved. The museum has plenty of screens; almost nothing else where the computer *is a physical model of a place*. To forecast a surge you did not type numbers into a program — you poked at a circuit's physics and watched electricity impersonate the sea. After Ishiguro retired in 1983, digital computers displaced the analog simulation; the machine now sits in the Science Museum, London, a road the field did not take.",
+    tags: ["HCI", "Analog Computer", "Scientific Modelling", "Instrument Front-End", "Physical State", "Output"],
+    image: img("ishiguro-storm-surge-model.jpg"),
+  },
 ];
 
 export const exhibits: Exhibit[] = exhibitData.toSorted((a, b) => b.sortYear - a.sortYear || a.title.localeCompare(b.title));
