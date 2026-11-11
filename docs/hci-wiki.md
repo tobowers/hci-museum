@@ -1,6 +1,6 @@
 # The HCI Golden Age Wiki
 
-A research compendium for a digital museum of cutting-edge Human-Computer Interaction from the late 1970s through the early 1990s. These three hundred and eleven projects mix canonical experiments with weird, forgotten, and beautiful vaporware — brain control, voice control, gesture, wearable computing, VR, robots, and full-body exertion.
+A research compendium for a digital museum of cutting-edge Human-Computer Interaction from the late 1970s through the early 1990s. These three hundred and fourteen projects mix canonical experiments with weird, forgotten, and beautiful vaporware — brain control, voice control, gesture, wearable computing, VR, robots, and full-body exertion.
 
 Each entry includes an overview, a deep dive, a small media gallery, and full source links so the images and facts can always be traced back.
 
@@ -319,7 +319,10 @@ Each entry includes an overview, a deep dive, a small media gallery, and full so
       309. [Hell Chromagraph DC 300 B (1975)](#hell-chromagraph-dc-300-b-1975)
       310. [Sony JumboTron JTS-1 (1985)](#sony-jumbotron-jts-1-1985)
       311. [Evans & Sutherland Digistar 1 (1983)](#evans--sutherland-digistar-1-1983)
-   
+      312. [Technics SL-1200MK2 (1979)](#technics-sl-1200mk2-1979)
+      313. [Air Traffic Control Flight Progress Strips (1970s–1990s)](#air-traffic-control-flight-progress-strips-1970s1990s)
+      314. [Ishiguro Electronic Storm Surge Model (1960–1983)](#ishiguro-electronic-storm-surge-model-19601983)
+    
 ---
 
 ## Hubot (c. 1983)
@@ -13818,3 +13821,110 @@ Digistar is the first computer-graphics-based planetarium projection and content
 1. Wikipedia — Digistar (projector, calligraphic CRT, control panel with 6-DOF joystick and back-lit buttons, "Boldly Go", Star Trek II, VAX-11/780, 1983 release, $595,000 first installation) — https://en.wikipedia.org/wiki/Digistar
 2. McAllister, Watson & Sumner — "Audio History of Digistar Planetarium Projection System by Evans & Sutherland" (1986) — https://www.youtube.com/watch?v=IlJVovMTulQ
 3. Smith, Alvy Ray — "Special Effects for *Star Trek II*: The Genesis Demo Instant Evolution with Computer Graphics," *American Cinematographer* (Oct 1982) — https://en.wikipedia.org/wiki/Digistar#cite_note-alvy-3
+
+## Technics SL-1200MK2 (1979)
+
+**By:** Matsushita Electric (Technics brand), Japan  
+**Tags:** `Music` `Turntable` `Direct Manipulation` `Embodied` `Input` `Performance`
+
+### Overview
+
+The Technics SL-1200 series is a family of direct-drive turntables introduced by Matsushita Electric in October 1972 under the Technics brand, and the MK2, released in summer 1979 (produced until 2010), became the single most influential model. It is a machine for playing records, but it became an interface because its quartz-locked direct-drive motor was stiff and stable enough to survive being grabbed: a DJ can push, pull, backspin, and wiggle the vinyl while the platter holds speed, and the record's pitch and time can be bent by hand without the drive collapsing. The MK2 changed the earlier rotary pitch control to a slider — a continuous, glance-free, ±8% handle on speed that let two records be matched by ear and hand — and fixed the electronic braking so it decelerates as fast as it accelerates, the property that made "pitch riding" usable for beatmatching. What began as a broadcasting and hi-fi turntable was adopted by New York hip-hop DJs in the 1970s and became the standard instrument of DJing, turntablism, and scratching. Over three million units were sold, and an SL-1210MK2 (the black European variant) is held by the Science Museum, London, as one of the technologies that "made the modern world."
+
+### Deep dive
+
+* **The motor that let the body touch the medium.** The key interaction is physical: the SL-1200's direct-drive motor, controlled by a frequency-generator servo with quartz lock, was designed to deliver accurate, consistent speed immune to the drag of the stylus. That same stiffness is what makes DJ use possible. On a belt-drive deck, dragging the record back slips or stalls the drive; on a 1200, the platter's momentum and closed-loop speed control mean a DJ can place a hand on a spinning record, rock it back and forth, hold it, and release it, and the motor picks the tempo back up. Hip-hop DJs discovered that the motor kept the correct RPM even when they wiggled the record, and scratching grew directly out of that property. This is direct manipulation in its purest embodied form — no screen, no menu, no cursor; the performer's hand is on the data, which is a physical groove moving in real time.
+* **The pitch slider: an analog tempo handle.** The original 1972 SL-1200 used a rotary pitch control; the MK2 replaced it with a linear slider (plus a quartz-lock button and a 33/45 speed selector). The slider has a mechanical centre detent at 0%, and it gives the user a continuous ±8% range of speed correction. In practice this is a proprioceptive control: experienced DJs "pitch ride" by nudging the slider in small increments while listening to the two records instead of looking at markings, and the slider's physical throw lets a single finger fine-tune the tempo of an entire performance. It is a control whose readout is the ear, not the eye — the opposite of a graphical tempo field.
+* **Beatmatching and the ritual of slipmats.** The MK2's symmetric braking and stable speed made "pitch riding" and "beatmatching" reliable: the DJ lines up the beat of the incoming record with the outgoing one by ear, adjusts the pitch slider until the two lock, then brings the new record in. Slipmats under the record let the platter keep turning while the DJ holds the vinyl still, cueing a track for a clean entry. The whole workflow is a closed loop of body, ear, and spinning mass: hold, listen, nudge, release, align. No other mass-market computing artifact of the era demanded that the operator physically keep time with a rotating medium.
+* **The cultural aftermath.** The SL-1200 series is widely credited with influencing the emergence of hip-hop, turntablism, and electronic dance music in the 1980s. Grandmaster Flash and other New York DJs adopted it in the 1970s; the turntable became a musical instrument in its own right, with battles, scratching techniques, and a performance culture built entirely around its tactile behavior. Production of analog Technics turntables was discontinued in 2010 and revived from 2016. The museum's curatorial point is not nostalgia for vinyl but the interaction lesson: a well-designed physical medium can be played like an instrument, and the machine's stability under the hand is the precondition for that freedom.
+
+### Team
+
+* **Shuichi Obata.** Led the Matsushita/Technics team that developed the SL-1200, released in 1972; the MK2 followed in 1979.
+* **Matsushita Electric (Technics).** Japanese manufacturer of the SL-1200 series; the MK2 was produced from 1979 to 2010.
+
+### Media
+
+![Technics SL-1200MK2 turntable](../assets/wiki/technics-sl-1200mk2.jpg)
+*A Technics SL-1200MK2 turntable. Its direct-drive, quartz-locked platter and linear pitch slider made the record a hand-played input medium. (Image: Wikimedia Commons, CC BY-SA 2.5.)*
+
+### Sources
+
+1. Wikipedia — Technics SL-1200 (1972 introduction, MK2 summer 1979, slider pitch control, direct-drive quartz lock, 3 million units, hip-hop/turntablism influence) — https://en.wikipedia.org/wiki/Technics_SL-1200
+2. Wikipedia — Turntablism — https://en.wikipedia.org/wiki/Turntablism
+3. Wikimedia Commons — File:Technics SL-1200MK2-2.jpg (CC BY-SA 2.5) — https://commons.wikimedia.org/wiki/File:Technics_SL-1200MK2-2.jpg
+
+## Air Traffic Control Flight Progress Strips (1970s–1990s)
+
+**By:** Air traffic control practice (FAA and international); not a single manufacturer  
+**Tags:** `Aviation` `Paper Interface` `Procedural` `Distributed Work` `Physical State`
+
+### Overview
+
+A flight progress strip (or "flight strip") is a small strip of paper used to track an individual flight in air traffic control. The strip is mounted in a plastic "strip holder" and placed with others in a "strip board," a rack with vertical rails that constrain the strips into several stacks, or bays. Together the strips in a board represent all the flights in a particular sector of airspace or on an aerodrome, and the position of each strip on the board is itself information: approach and area controllers typically keep strips in level/altitude order, while tower controllers use the bays to represent the ground, the runway, and the air. A strip may be "cocked out" — deliberately offset from normal alignment — as a personal reminder or as a communication to other controllers. Strips are computer-printed for filed flight plans and then annotated by hand with colored pens whose colors denote the role of the person making the note; free-calling aircraft have fully hand-written strips. The system has been supplemented by radar and by electronic flight strips, but is still used today in many places as a quick annotation surface, a legal record of issued instructions, and a way to let others see instantly what is happening. The museum-relevant object is not a machine but a disciplined physical medium: data lives in paper, plastic, ink, and arrangement.
+
+### Deep dive
+
+* **Position is data.** The central interaction idea is that a strip's location on the board is a second data channel alongside the text on the strip. Approach and area controllers keep their strips in level/altitude order, so the vertical ordering of the board encodes a sector's altitude profile at a glance. Tower controllers instead use the bays to represent the ground, the runway, and the air, so a strip crossing bays represents an aircraft progressing through a procedural state. Special strips and metal bars can subdivide a bay further to show airspace statuses, physical obstructions, or vehicles on the ground. A controller can read a whole sector's state by scanning arrangement rather than parsing text — the board is a physical dashboard whose layout is the model.
+* **Tilt as a signal, ink as authorship.** A strip can be "cocked out," offset from the normal alignment, to highlight a potential issue — a private reminder or a message to a colleague. This is a tiny, silent, embodied gesture: the diagonal of a paper strip becomes a flag. Then annotation: for filed flight plans the strip is printed by a computer, but controllers and assistants add further information in colored pens, with color encoding the role of the person who wrote it. Authorship is legible from color, so a strip becomes a layered, auditable conversation between controllers. The medium supports a kind of traceability and low-friction editing that early electronic replacements struggled to match.
+* **Handoff: the word that outlived the paper.** The system's most revealing legacy is linguistic. The term "handoff" — today a routine word for the computerized transfer of control of an aircraft from one sector to another — comes from the older technique of physically handing the flight progress strip to the next controller to denote transfer of responsibility. In some towers the ground controller may still physically hand the strip to the local controller as the aircraft reaches the runway, or drop it down a chute to the departure radar controller below once takeoff is cleared. The ritual of transferring a physical token of responsibility was so central that its name became the name of the abstract operation. It is a peerless example of physical convention becoming digital vocabulary.
+* **The difficulty of replacing paper.** Electronic flight progress strips, generally on touchscreens, reproduce the flight information while trying to keep some of the physical character of paper strips and strip racks. The transition has not been problem-free: physical strips have characteristics a computer system cannot easily replicate — glanceability of arrangement, cheap annotation with pens, the ability to cock a strip, the tangible token for a handoff, and the resilience of paper when the network is down. For the museum, the strips are a case study in why a purely graphical replacement can lose embodied affordances, and a reminder that "interface" can mean a procedure and a set of objects rather than a screen.
+
+### Team
+
+* **Air traffic control practice (FAA and international).** A procedural system evolved by controllers and aviation authorities rather than a single product's engineering team.
+* **Federal Aviation Administration (FAA).** US authority that codified flight progress strip use (FAAO 7110.65) and supplied public-domain example imagery.
+
+### Media
+
+![A strip bay at a high-altitude procedural area control sector in Indonesia](../assets/wiki/atc-flight-strip-jakarta.jpg)
+*A strip bay at a high-altitude procedural area control sector in Indonesia, showing strips slotted into a plastic rack. The vertical arrangement, not just the printed text, carries state. (Image: Wikimedia Commons, public domain.)*
+
+![Example domestic en-route flight progress strip](../assets/wiki/atc-flight-progress-strip.png)
+*An example domestic en-route flight progress strip (FAA, US DOT). The strip is a small paper record; its position, tilt, and annotations on a strip board carry as much information as the printed text. (Image: Wikimedia Commons, public domain.)*
+
+### Sources
+
+1. Wikipedia — Flight progress strip (strip holder, strip board, bays, altitude order, cocked out, colored-pen annotation, handoff origin, electronic replacement) — https://en.wikipedia.org/wiki/Flight_progress_strip
+2. FAA — Instrument Flying Handbook, Ch. 2 "The Air Traffic Control System" (FAA-H-8083-15B, 2012) — https://www.faa.gov/
+3. Wikimedia Commons — File:Flight Progress Strip.png (public domain, FAA) — https://commons.wikimedia.org/wiki/File:Flight_Progress_Strip.png
+4. Wikimedia Commons — File:Flight control strip at Jakarta control.jpg (public domain) — https://commons.wikimedia.org/wiki/File:Flight_control_strip_at_Jakarta_control.jpg
+
+## Ishiguro Electronic Storm Surge Model (1960–1983)
+
+**By:** Shizuo Ishiguro at the UK National Institute of Oceanography (NIO), Wormley  
+**Tags:** `Analog Computer` `Scientific Modelling` `Instrument Front-End` `Physical State` `Output`
+
+### Overview
+
+Following the North Sea flood of 1953, the UK government set up the Waverley Committee and tasked the National Institute of Oceanography with the scientific investigation of storm surges. In 1957 the Japanese oceanographer Shizuo Ishiguro, who had been developing analogue methods for predicting ocean surges, joined the NIO (first on a UNESCO fellowship, later as a permanent employee) to apply his work to the North Sea. Over the following years he built a physical analogue computer that represented the North Sea as a grid of roughly 80 nodes, each pair wired together so that the flow of electricity between them stood for the flow of water. The model combined resistors, capacitors, and inductors — encoding the difference in water height, fixed features like coastlines and sea depth, the Coriolis force of the Earth's rotation, and time-dependent tidal forces from the Moon and Sun — with signal generators providing the changing inputs. The machine stood about 1.8 m (6 ft) tall across two panels, wired in a shallow V-formation so modellers could reach the front and back of the grid. It was used at the NIO from 1960 until about 1983 to predict surge height and timing and to assess sea-wall and coastal-defence needs. Its interface is the whole point: by its later years a Commodore CBM 8032 desk computer with 5.25-inch floppy drives set up and fed parameters into the grid, while the result appeared as a live trace on an Advance Instruments OS-240 oscilloscope and was recorded photographically. After Ishiguro retired in 1983, improving digital computers displaced analogue simulation; the machine was acquired by the Science Museum, London, and today sits in its Mathematics Gallery on modelling the seas.
+
+### Deep dive
+
+* **The medium is the model.** Most interfaces ask a user to describe a world in symbols and then trust the machine to compute it. Ishiguro's machine did the opposite: it *was* a scale model of the North Sea, made of electronics instead of water. Voltage and current mimicked height and flow; resistors stood in for the difficulty of moving water between points; capacitors and inductors introduced the inertia and lag of a real sea; signal generators supplied the tides and the storm. To interrogate the model you did not enter an equation — you poked at its physics. That makes it one of the collection's purest examples of an interface where the representation and the thing represented share a structure, an idea that later becomes the justification for everything from physical mock-ups to tangible computing.
+* **An 80-node hand-built grid.** The North Sea was discretised into approximately 80 nodes — far coarser than any modern numerical surge model, but enough to resolve the broad movement of a surge southwards across the basin. Each node was an electrical junction whose behaviour depended on its neighbours through wire, and the whole grid was hand-built across two tall panels. The V-formation wiring let a scientist walk behind the array to trace or patch connections. This is a remarkable inversion of scale: a body of water hundreds of kilometres across reduced to a furniture-sized lattice of components, with the *topology of the wiring* holding the coastline and the sea depth. The model's accuracies and its blind spots were literally built into the wiring, and could not be adjusted without reaching into it.
+* **Input as instrumentation: the CBM 8032.** In its later years the machine acquired a strange digital front end: a Commodore CBM 8032 — a PET-line desk computer with a monochrome screen and calculator-style keyboard — together with Commodore 2031 5.25-inch floppy drives. Rather than a graphical simulation on the screen, the microcomputer drove and parameterised the analog grid, setting up the time-dependent inputs and tidal conditions, while the screen stayed a text and command surface. The pairing is an accidental portrait of the analog-to-digital transition: the model itself remained stubbornly analog, but the human interaction around it migrated to a personal computer. Users were therefore fluent in two interfaces at once — a text machine for setup and a physical circuit for the answer.
+* **Output as trace: the OS-240 oscilloscope.** The machine did not print a table of predicted water levels. The surge appeared as a live waveform on an Advance Instruments OS-240 oscilloscope, and the result was captured by photographing the screen. That is a profoundly different interaction from a saved digital file: the output is a transient signal, observed in real time, whose permanence depended on a camera. Reading the machine was an instrument-reading skill — watching a trace rise and fall, judging the maximum tidal height and the time at which it would occur. The oscilloscope made the sea legible as a squiggle of voltage, and the photograph made that squiggle into a record. The museum cares about this because it collapses input, computation, and output onto instruments of observation rather than windows, dialogs, and files.
+* **Why analog, and why it ended.** Digital computers capable of solving the flow equations existed in the 1960s, but Ishiguro argued that the analog approach was more flexible and sidestepped the discretisation problems of finite time steps — continuous electronics had no step size to get wrong. His position lost the argument to Moore's law: as digital simulation became faster and cheaper, numerical models displaced the physical grid, and the machine was retired around the time Ishiguro left in 1983. It survives as an artifact not because analog won, but because it captures a road the field did not take — a computing practice in which the model, the input device, and the output device were distinct instruments arranged around a physical simulation rather than fused into a single screen.
+* **Why it belongs in a museum of interfaces.** The Ishiguro machine expands what counts as an interface. Its input surface is a microcomputer and a patchwork of wires; its display is an oscilloscope; its medium is a hand-built electrical analogue of the sea. It shows that before the universal screen, technical interaction could be specific, physical, and literally shaped like the problem — and that such specificity had real virtues (speed, continuity, immediacy) as well as real limits (fragility, hand-built bias, no replay). It also quietly records a turning point, when the *front* of an analog instrument came to wear a personal computer, a hybrid too rare to see in most hardware histories.
+
+### Team
+
+* **Shizuo Ishiguro (1919–2007).** Japanese oceanographer who joined the UK National Institute of Oceanography in 1957 on a UNESCO fellowship; conceived, built, and operated the analogue storm-surge machine, and continued work at home after retiring in 1983.
+* **UK National Institute of Oceanography (NIO).** Now the National Oceanography Centre; responsible after the 1953 North Sea flood for the scientific study of storm surges, and the institution that hosted and used the machine at Wormley.
+* **Waverley Committee.** UK government committee formed after the 1953 flood that helped set the programme of storm-surge investigation behind the machine's construction.
+
+### Media
+
+![Ishiguro's electronic ocean model in the Science Museum, London](../assets/wiki/ishiguro-storm-surge-model.jpg)
+*Shizuo Ishiguro's electronic storm-surge model, built 1960–1983 and now in the Mathematics Gallery of the Science Museum, London. Its two tall panels hold a hand-wired electrical analogue of the North Sea. (Image: Wikimedia Commons, CC0.)*
+
+![The Commodore CBM 8032-based input station for Ishiguro's model](../assets/wiki/ishiguro-cbm8032.jpg)
+*The digital front end of Ishiguro's model: a Commodore CBM 8032 and 5.25-inch floppy drives used to feed the analog grid. (Image: Wikimedia Commons, CC BY 4.0.)*
+
+### Sources
+
+1. Wikipedia — Ishiguro Storm Surge Computer (1953 flood and Waverley Committee; Ishiguro joins NIO 1957; ~80-node electrical grid; Coriolis and tidal forces; CBM 8032 + 5.25" drives; OS-240 oscilloscope output recorded photographically; retired ~1983) — https://en.wikipedia.org/wiki/Ishiguro_Storm_Surge_Computer
+2. Science Museum Group Collection — Electronic storm surge modelling machine (object co8428222 / 2015-15): two mesh panels in a V-formation, ~1.8 m tall, CBM 8032 and Commodore 2031 drive, OS-240 oscilloscope — https://collection.sciencemuseumgroup.org.uk/objects/co8428222/electronic-storm-surge-modelling-machine-storm-surge-model
+3. Science Museum Group Journal — Claire Kennard, "Understanding storm surges" (2016), on the machine's display and context — http://journal.sciencemuseum.ac.uk/browse/issue-06/understanding-storm-surges/
+4. Wikimedia Commons — File:Electronic ocean model, built by Shizuo Ishiguro, 1960-1983 - Science Museum, London - DSC05546.jpg (CC0) — https://commons.wikimedia.org/wiki/File:Electronic_ocean_model,_built_by_Shizuo_Ishiguro,_1960-1983_-_Science_Museum,_London_-_DSC05546.jpg
