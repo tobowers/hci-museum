@@ -1,6 +1,6 @@
 # The HCI Golden Age Wiki
 
-A research compendium for a digital museum of cutting-edge Human-Computer Interaction from the late 1970s through the early 1990s. These three hundred and fourteen projects mix canonical experiments with weird, forgotten, and beautiful vaporware — brain control, voice control, gesture, wearable computing, VR, robots, and full-body exertion.
+A research compendium for a digital museum of cutting-edge Human-Computer Interaction from the late 1970s through the early 1990s. These three hundred and sixteen projects mix canonical experiments with weird, forgotten, and beautiful vaporware — brain control, voice control, gesture, wearable computing, VR, robots, and full-body exertion.
 
 Each entry includes an overview, a deep dive, a small media gallery, and full source links so the images and facts can always be traced back.
 
@@ -322,6 +322,8 @@ Each entry includes an overview, a deep dive, a small media gallery, and full so
       312. [Technics SL-1200MK2 (1979)](#technics-sl-1200mk2-1979)
       313. [Air Traffic Control Flight Progress Strips (1970s–1990s)](#air-traffic-control-flight-progress-strips-1970s1990s)
       314. [Ishiguro Electronic Storm Surge Model (1960–1983)](#ishiguro-electronic-storm-surge-model-19601983)
+315. [Houston Instruments HIPAD Digitizer (1976–1990s)](#houston-instruments-hipad-digitizer-19761990s)
+316. [Computervision CADDS3 Workstation (Late 1970s)](#computervision-cadds3-workstation-late-1970s)
     
 ---
 
@@ -13928,3 +13930,84 @@ Following the North Sea flood of 1953, the UK government set up the Waverley Com
 2. Science Museum Group Collection — Electronic storm surge modelling machine (object co8428222 / 2015-15): two mesh panels in a V-formation, ~1.8 m tall, CBM 8032 and Commodore 2031 drive, OS-240 oscilloscope — https://collection.sciencemuseumgroup.org.uk/objects/co8428222/electronic-storm-surge-modelling-machine-storm-surge-model
 3. Science Museum Group Journal — Claire Kennard, "Understanding storm surges" (2016), on the machine's display and context — http://journal.sciencemuseum.ac.uk/browse/issue-06/understanding-storm-surges/
 4. Wikimedia Commons — File:Electronic ocean model, built by Shizuo Ishiguro, 1960-1983 - Science Museum, London - DSC05546.jpg (CC0) — https://commons.wikimedia.org/wiki/File:Electronic_ocean_model,_built_by_Shizuo_Ishiguro,_1960-1983_-_Science_Museum,_London_-_DSC05546.jpg
+
+## Houston Instruments HIPAD Digitizer (1976–1990s)
+
+**By:** Invented by Håkan Lans (Sweden); manufactured and marketed by Houston Instrument, Austin, Texas (a Bausch & Lomb division)  
+**Tags:** `Pointing Device` `Digitizing Tablet` `Absolute Positioning` `Professional Graphics` `Input`
+
+### Overview
+
+The HIPAD is a professional digitizing tablet — a flat surface with an inductive grid and a hand-held puck — built by Houston Instrument of Austin, Texas, and sold from the mid-1970s through the 1980s. Its sensing was invented by Swedish engineer Håkan Lans, who began work on a digitizing table in 1972 because he needed a control device for digitizing seismic measurements: a map or chart was laid over a drafting table, measurement points were marked with crosshairs, and the position was read off. Houston Instrument asked for an improvement on the era's digitizers, which lost their orientation whenever the pointing device was lifted; Lans developed an **absolute-positioning** version. According to the Tekniska Museet object record, this was achieved with a system of loops in four separate layers, each energised at a different frequency, with position determined by the inductive sensing pointer and the phase shift of the signals in the loops. Precision was about 1/10 mm — finer than a person could place a crosshair. The device was marketed in the US as the HIPAD, was reportedly supported on DEC's MINC laboratory computer (DECUS reporting, October 1979), and moved from specialist survey and drafting use into the mainstream of professional computing as personal computers created demand for pointing devices. The museum's example is a grey plastic HIPAD with a gridded semi-transparent surface and a black puck carrying a crosshair, four buttons (RESET, POINT, SWITCH STREAM, STREAM), a spiral cable, and a 25-pin D-sub plus 3.5 mm jack on the rear edge.
+
+### Deep dive
+
+* **Seismic fieldwork becomes an input device.** The HIPAD did not begin as a desktop accessory. Håkan Lans's brief was a control device for digitizing seismic measurements: a paper record or map was clipped to a drafting table and the operator marked measurement points with crosshairs. In that context the tablet was an instrument for turning a physical document into numbers, and the crosshair puck — not a mouse — was the natural sensor. The interaction was deliberately direct: look through the crosshair, align it with a feature on the paper, press a button to commit the sample. It is a workflow inherited from cartography and exploration geophysics, where the document is the data source and the machine's job is to capture it faithfully.
+* **Absolute positioning, by four frequencies and phase shift.** The engineering problem was drift and lost orientation. Earlier digitizers required a known origin and lost their sense of place when the pointer was lifted. Lans's solution encoded position absolutely on the surface: loops in four separate layers carried different frequencies, the inductive pointer picked each up, and the phase shift across the loops gave the pointer's location. Because position is encoded in the surface rather than accumulated from motion, the puck can be lifted, a document slid underneath, and coordinates remain correct. The advertised precision, about 1/10 mm, was fine enough that the operator's ability to place a crosshair — not the electronics — was the limiting factor. This absolute-versus-relative contrast is the one that later became central to graphics tablets, pen displays, and touch input; here it is present in a 1970s instrument.
+* **A puck with a vocabulary of buttons.** The museum's HIPAD puck has four labelled buttons: RESET, POINT, SWITCH STREAM and STREAM — a vocabulary belonging to a streamed coordinate protocol rather than to mouse clicks. The labels distinguish a single committed "point" from a "stream" of positions, with a switch to toggle streaming and a reset to re-originate. The exact host commands lie in period driver documentation rather than in the object itself, but the names alone show a device whose output is a flow of numbers the host must interpret. The crosshair made tracing and point-picking over a paper document a glance-and-press operation, and the mode buttons let the operator choose between sampling a single feature and dragging a continuous trace.
+* **From 70 units to 10,000 a month.** The HIPAD is also a story about the moment personal computing created demand for pointing devices. According to the Tekniska Museet record of Lans's account, after two years Houston Instrument wanted to stop production because they had made only about 70 units; Lans persuaded them to continue because he believed the personal computer would create a need for pointing devices. Shortly afterwards demand rose dramatically, and Lans estimated that 10,000 units were being manufactured a month. Whether or not that estimate is exact, it records the pivot from a niche digitizer for surveyors to a mass-market peripheral in the early 1980s — one of the clearest cases in the collection where a professional instrument's sensing technology crossed over into everyday computing.
+* **In professional use.** DECUS reporting from October 1979 places HIPAD support on DEC's MINC laboratory computer, so the tablet was in scientific laboratory use, not only drafting. The same absolute-positioning property that made it useful for tracing maps and seismic charts made it useful wherever a paper document had to be digitised exactly: cartography, geological survey, PCB layout, and eventually CAD. A large absolute surface with a crosshair puck and mode buttons was a natural front end for the workstations of the late 1970s.
+* **Why it belongs in the museum.** The museum's Summagraphics Bit Pad entry covers the magnetostrictive line; the HIPAD covers the inductive, absolute line, and adds an outsider's story: a device born in geophysical survey work, engineered by a Swedish inventor, commercialised by a Texas instrument maker, adopted in labs and drawing offices. It reminds us that "point and click" was for years only one pointing idiom, and that the absolute tablet — where surface and document are the same — was the professional's alternative. Its physical details are unusually legible: crosshairs, a four-button puck, a gridded translucent surface, and a D-sub connector are exactly the hardware a digital museum can preserve and explain.
+
+### Team
+
+* **Håkan Lans (b. 1947).** Swedish inventor who began the digitizing table in 1972 for seismic measurement work; developed the absolute-positioning inductive system and sold the technology to Houston Instrument. Later known for the STDMA datalink used in the Automatic Identification System (AIS).
+* **Houston Instrument (Austin, Texas).** A division of Bausch & Lomb; manufactured and marketed the HIPAD and became a major supplier of plotters and digitizers.
+* **Digital Equipment Corporation (DEC).** Supported the HIPAD on the MINC laboratory computer in the late 1970s, according to DECUS user-group reporting from October 1979.
+
+### Media
+
+![Houston Instruments HIPAD digitizing tablet with gridded surface](../assets/wiki/hipad-tablet.jpg)
+*A Houston Instruments HIPAD digitizing tablet from above: a large grey plastic surface with a translucent white sheet divided into a grid, and a coiled cable to the puck. (Image: Tekniska Museet / Gunnar Sundin, CC BY 4.0, via Wikimedia Commons.)*
+
+![Close view of the HIPAD's black crosshair puck with four buttons](../assets/wiki/hipad-puck.jpg)
+*The HIPAD puck: black plastic with a crosshair for aligning a point on the paper underneath, four top buttons labelled RESET, POINT, SWITCH STREAM and STREAM, and a 25-pin D-sub plus 3.5 mm jack on the rear edge. (Image: Tekniska Museet / Gunnar Sundin, CC BY 4.0, via Wikimedia Commons.)*
+
+![The HIPAD digitizing board in the Tekniska Museet collection](../assets/wiki/hipad-tekniska-museet.jpg)
+*A HIPAD digitizing board held by the Tekniska Museet, Stockholm, recorded as a pointing device for a computer invented by Håkan Lans. (Image: Ellinor Algin / Tekniska Museet, CC BY-SA 4.0, via Wikimedia Commons.)*
+
+### Sources
+
+1. Tekniska Museet via Wikimedia Commons — Houston Instruments Hipad Digitizer EPT-11 photographs and object description (Lans begins development in 1972 for seismic measurements; absolute positioning via a four-layer loop system and phase shift; 1/10 mm precision; Houston Instrument's 70-unit production and later 10,000/month estimate) — https://commons.wikimedia.org/wiki/File:Houston_Instruments_Hipad_Digitizer_EPT-11_(1).jpg
+2. Tekniska Museet via Wikimedia Commons — Digitaliseringsbord Houston Instrument Hipad (recorded as invented by Håkan Lans) — https://commons.wikimedia.org/wiki/File:Digitaliseringsbord.jpg
+3. Wikipedia — Håkan Lans (handheld-puck graphics tablet sold to Houston Instruments and marketed as the HIpad; KTH grand prize 1996 for the tablet puck; the article's "1971" trade naming predates the Tekniska Museet's 1972 development date) — https://en.wikipedia.org/wiki/H%C3%A5kan_Lans
+4. Larsson, Thomas and Stenlund, Ulf — "Vignettes of Sweden's Computer Graphics History", *IEEE Annals of the History of Computing* (2008), the reference cited for Lans's graphics tablet — https://muse.jhu.edu/article/235249
+5. DECUS 1979 / MINC context — HIPAD support reported in DECUS proceedings from October 1979; treat the exact citation as unverified pending the DECUS volume itself — https://en.wikipedia.org/wiki/DECUS
+
+## Computervision CADDS3 Workstation (Late 1970s)
+
+**By:** Computervision Corporation, Bedford, Massachusetts  
+**Tags:** `CAD` `Pointing Device` `Menu Input` `Storage Tube` `Professional Graphics`
+
+### Overview
+
+Computervision was founded in 1969 to make computer-aided design equipment, initially on Data General Nova computers and later on its own Nova-compatible processors. Its CADDS software ran from CADDS-1 (printed-circuit-board layout and 2-D drafting) through CADDS2 to CADDS3, which ran on the company's CGP80 and CGP100 machines in the late 1970s. A CADDS3 workstation was not a screen with a mouse. The display was a **Tektronix storage-tube terminal** — a vector device that holds a line drawing on its phosphor until cleared — and the primary pointing surface was a large **graphics tablet with a printed menu**, used both to draw and to enter command shortcuts. In the photograph that survives from a Computervision training lab around 1979, an operator works at such a station; the tablet carries a menu, the storage-tube display shows a piping and instrumentation diagram, and behind the operator sit ADM-3 terminals used to type commands. This mix — a direct-drawing surface, a menu card, and a separate command terminal — is the professional CAD interface of the era, and the direct ancestor of tablet overlays and, later, screen toolbars.
+
+### Deep dive
+
+* **The tablet was the keyboard.** The defining choice of the CADDS3 workstation is that the operator's main command vocabulary lived on paper over the tablet. Instead of remembering typed command names, the user moved the puck or stylus over a printed menu sheet, picked a menu cell, and the system read that pick as a command. The tablet was thus dual-purpose: a drawing surface for geometry and a command palette. This is an early, widespread use of a digitizer for something other than position alone. It prefigured the "soft menu", but the menu here was literally hard — printed on a sheet taped to the tablet — making the command set visible and locatable by hand, and linking the act of choosing a command to the same physical motion as drawing.
+* **Storage tubes and the disappearing line.** CADDS3's display was a Tektronix storage tube, which writes vectors and retains the charge so the image stays on screen without the flicker of a refreshed vector display. Complex line drawings could be shown cheaply and read without flicker. The cost was that the screen had to be cleared to redraw, so editing was often incremental — erase and redraw a region — rather than animated. Storage tubes made CAD possible before affordable high-resolution raster displays, and the interaction style followed from the hardware: deliberate, static line drawings that the operator composed rather than manipulated live. It is a useful counterpoint to the museum's raster-graphics artifacts, where continuous refresh was the point.
+* **A training lab, around 1979.** The surviving photograph shows a CADDS3 system in a training lab, creating a piping and instrumentation diagram. CADDS3 was not demo software: it was used for industrial plant design, and by 1981 the US Navy had placed a contract worth about $63 million for Designer V hardware and CADDS4 software; Boeing bought dozens of systems for the 757/767 programme. In the training lab, engineers learned an interface that combined visual drawing with a spatial command menu and a text terminal. The ADM-3 terminals behind the operator show the older command-line workflow continuing alongside the new one — a hybrid that persisted precisely because each modality did something the other could not.
+* **The line to the modern tablet overlay and the toolbar.** The idea of a digitizer with a printed command template migrated to microcomputers in the early 1980s, most visibly with AutoCAD's tablet menu overlays, where a printed grid of commands was taped over the digitizer. From there, screen toolbars and icon palettes inherited the logic: put commands in spatial regions and let pointing replace typing. CADDS3 is an early, industrial-scale expression of that grammar. As a museum artifact it matters less as a "first" than as evidence of how graphics hardware, input device, and command vocabulary were designed together to serve a specific profession.
+* **Computervision's place in graphics history.** Computervision built its own GPU for hierarchical display-list rendering in 1980, produced a Display Control Unit with a large colour raster display in 1983, and was the first large customer for Sun Microsystems' Unix workstations. Its CADDS line ran, through many iterations, into the twenty-first century. The CADDS3 workstation is a valuable entry point to that history because it shows the pre-raster, pre-WIMP era of professional graphics — a workstation built from a minicomputer, a storage-tube display, and a tablet — and because it shows that "direct manipulation" of a drawing and "command entry" were not alternatives but partners.
+
+### Team
+
+* **Computervision Corporation.** Founded 1969 in Bedford, Massachusetts, by Martin "Marty" Allen and Philippe Villers; built CADDS and the CGP series of graphics minicomputers with the CGOS operating system.
+* **Patrick J. Hanratty.** Pioneer of CAD software whose early drafting code, acquired by Computervision from S3 Corporation around 1973, underpinned the CADDS line.
+* **Tektronix.** Manufacturer of the storage-tube display terminals used at CADDS3 workstations.
+
+### Media
+
+![A Computervision CADDS3 workstation in a training lab](../assets/wiki/computervision-cadds3.jpg)
+*A Computervision CADDS3 system used to create a piping and instrumentation diagram in a training lab, circa 1979. The Tektronix 19-inch storage tube holds the drawing on screen; the graphics tablet at the operator's hand carries the menu and is used for drawing and command shortcuts. (Image: Arnold Reinhold, CC BY-SA 3.0, via Wikimedia Commons.)*
+
+![A Computervision Designer CAD system at a 1978 trade show](../assets/wiki/computervision-designer.jpg)
+*A Computervision Designer CAD system exhibited at a trade show in 1978 — the same proprietary workstation family and menu-tablet approach, packaged for the market. (Image: Arnold Reinhold, CC BY-SA 3.0, via Wikimedia Commons.)*
+
+### Sources
+
+1. Wikipedia — Computervision (founding; CADDS-1 for PCB and 2-D drafting; CADDS3 on CGP80/CGP100 with Tektronix storage tubes and graphics tablets with menus; CADDS3 from Hanratty/S3 code; Boeing 757/767; Navy contract; GPU 1980; DCU 1983; first major customer for Sun) — https://en.wikipedia.org/wiki/Computervision
+2. Wikimedia Commons — File:Computervision piping.agr.jpg (Arnold Reinhold, CC BY-SA 3.0): CADDS3 system used to create a piping and instrumentation diagram in a training lab, circa 1979; Tektronix 19-inch storage tube; tablet for drawing and command shortcuts; ADM-3 terminals for typing commands — https://commons.wikimedia.org/wiki/File:Computervision_piping.agr.jpg
+3. Wikimedia Commons — File:ComputervisionDesigner.agr.jpg (Arnold Reinhold, CC BY-SA 3.0): Computervision Designer CAD system at a trade show, 1978 — https://commons.wikimedia.org/wiki/File:ComputervisionDesigner.agr.jpg
+4. CADhistory.net — David Weisberg, "Computervision" (company and product history) — http://www.cadhistory.net/12%20Computervision.pdf

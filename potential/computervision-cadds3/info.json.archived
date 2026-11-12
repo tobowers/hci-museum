@@ -1,0 +1,65 @@
+{
+  "slug": "computervision-cadds3",
+  "title": "Computervision CADDS3 Workstation",
+  "year": "Late 1970s",
+  "subtitle": "A Tektronix storage-tube CAD terminal with a drawn menu pick sheet on the graphics tablet — the paper-under-pointer command palette as primary interface",
+  "why_scout_cares": "The museum has several drawing tablets, but almost nothing about the tablet as a *command surface*. Computervision's CADDS3 systems put the operator in front of a Tektronix storage-tube display, then had them pick commands and sketch on a graphics tablet overlaid with a printed menu sheet — the tablet was both a drawing surface and a keyboard substitute. It is the visual grammar that later became the AutoCAD digitizer tablet and, eventually, on-screen toolbars. The interface is odd by modern standards: a phosphor storage tube that held a line drawing without flicker, a tablet with a paper command palette, and a second keyboard terminal alongside for typing commands. It is a case study in how professional CAD — the work that drove half the graphics hardware of the era — felt to the people doing it.",
+  "search_terms": [
+    "Computervision CADDS3 Tektronix storage tube graphics tablet menu",
+    "Computervision CADDS3 1979 menu pick tablet operator",
+    "CAD digitizer tablet menu overlay AutoCAD 1982",
+    "Computervision CADDS3 training lab piping diagram 1979"
+  ],
+  "research": {
+    "title": "Computervision CADDS3 Workstation",
+    "year": "Late 1970s",
+    "by": "Computervision Corporation, Bedford, Massachusetts",
+    "tags": ["HCI", "CAD", "Pointing Device", "Menu Input", "Storage Tube", "Professional Graphics"],
+    "overview": "Computervision was founded in 1969 to make computer-aided design equipment, initially on Data General Nova computers and later on its own Nova-compatible processors. Its CADDS software (Computervision Automated Design and Drafting System) started with CADDS-1, aimed at printed-circuit-board layout and 2-D drafting, and by the late 1970s had evolved into CADDS3, running on its CGP80 and CGP100 machines. A CADDS3 workstation was not a screen with a mouse. The display was a **Tektronix storage-tube terminal** — a vector device that held a line drawing on a phosphor screen until it was cleared — and the primary pointing surface was a large **graphics tablet with a printed menu**, used both to draw and to enter command shortcuts. In the photograph that survives from a Computervision training lab around 1979, an operator works at such a station; the tablet carries a menu, the storage-tube display shows a piping and instrumentation diagram, and behind the operator sit ADM-3 terminals used to type commands. This mix — a direct-drawing surface, a menu card, and a separate command terminal — is the professional CAD interface of the era, and it is the direct ancestor of the tablet overlays and, later, screen toolbars in today's CAD packages.",
+    "deepDive": [
+      {
+        "heading": "The tablet was the keyboard",
+        "text": "The defining choice of the CADDS3 workstation is that the operator's main command vocabulary lived on paper over the tablet. Instead of remembering typed command names, the user moved the puck or stylus over a printed menu sheet, picked a menu cell, and read that pick as a command. The tablet thus served a dual role: it was a drawing surface for geometry and also a command palette. This is one of the earliest and most widespread uses of a digitizer for something other than position alone. It prefigured the HCI idea of a 'soft menu', but here the menu was literally hard — printed on a sheet that could be taped to the tablet. It made the command set visible and locatable by hand, and it linked the act of choosing a command to the same physical motion as drawing."
+      },
+      {
+        "heading": "Storage tubes and the disappearing line",
+        "text": "CADDS3's display was a Tektronix storage tube, a type of CRT that writes vectors and then retains the charge so that the image stays on the screen without the flicker of a conventional refreshed vector display. The advantage was radical: complex line drawings could be shown cheaply and read without flicker. The cost was that the screen had to be cleared to redraw, so editing was often incremental — erase and redraw a region — rather than animated. Storage tubes made CAD possible before high-resolution raster displays were affordable, and the interaction style followed from the hardware: deliberate, static line drawings, with the operator composing the image rather than manipulating it live. It's a useful counterpoint to the museum's raster-graphics artifacts, where continuous refresh was the point."
+      },
+      {
+        "heading": "A training lab, around 1979",
+        "text": "The surviving photograph shows a CADDS3 system in a training lab, being used to create a piping and instrumentation diagram. That detail matters: CADDS3 was not demo software. It was used for industrial plant design, and by 1981 the US Navy had placed a contract worth about $63 million for Designer V hardware and CADDS4 software; Boeing bought dozens of systems for the 757/767 programme. In the training lab, engineers learned an interface that unusually combined visual drawing with a spatial command menu and a text terminal. The ADM-3 terminals behind the operator show the older command-line workflow continuing alongside the new one — a hybrid interface that persisted precisely because each modality did something the other could not."
+      },
+      {
+        "heading": "The line to the modern tablet overlay and the toolbar",
+        "text": "The idea of a digitizer with a printed command template migrated to microcomputers in the early 1980s, most visibly with AutoCAD's tablet menu overlays, where a printed grid of commands was taped over the digitizer. From there, screen toolbars and icon palettes inherited the logic: put commands in spatial regions, and let pointing replace typing. CADDS3 is an early, industrial-scale expression of that grammar. As a museum artifact it matters less as a 'first' than as evidence of how graphics hardware, input device, and command vocabulary were designed together to serve a specific profession."
+      },
+      {
+        "heading": "Computervision's place in graphics history",
+        "text": "Computervision is also a landmark of the graphics-hardware industry: it built its own GPU for graphics rendering in 1980, produced the Display Control Unit with a large colour raster display in 1983, and was the first large customer for Sun Microsystems' Unix workstations. Its CADDS line ran, in many iterations, into the twenty-first century. The CADDS3 workstation is a valuable entry point to that history because it shows the pre-raster, pre-WIMP era of professional graphics — a workstation built from a minicomputer, a storage-tube display, and a tablet — and because it demonstrates that 'direct manipulation' of a drawing and 'command entry' were not alternatives but partners."
+      }
+    ],
+    "team": [
+      { "name": "Computervision Corporation", "note": "Founded 1969 in Bedford, Massachusetts, by Martin 'Marty' Allen and Philippe Villers; built CADDS and the CGP series of graphics minicomputers with the CGOS operating system." },
+      { "name": "Patrick J. Hanratty", "note": "Pioneer of CAD software whose early drafting code, acquired by Computervision from S3 Corporation around 1973, underpinned the CADDS line." },
+      { "name": "Tektronix", "note": "Manufacturer of the storage-tube display terminals used at CADDS3 workstations." }
+    ],
+    "media": [
+      { "file": "computervision-cadds3.jpg", "alt": "A Computervision CADDS3 workstation in a training lab with storage-tube display and menu tablet", "caption": "A Computervision CADDS3 system used to create a piping and instrumentation diagram in a training lab, circa 1979. The Tektronix 19-inch storage tube holds the drawing on screen; the graphics tablet at the operator's hand carries the menu and is used for drawing and command shortcuts. (Image: Arnold Reinhold, CC BY-SA 3.0, via Wikimedia Commons.)" },
+      { "file": "computervision-designer.jpg", "alt": "A Computervision Designer CAD system at a trade show in 1978", "caption": "A Computervision Designer CAD system exhibited at a trade show in 1978 — the same proprietary workstation family and menu-tablet approach, packaged for the market. (Image: Arnold Reinhold, CC BY-SA 3.0, via Wikimedia Commons.)" }
+    ],
+    "sources": [
+      { "text": "Wikipedia — Computervision (founding; CADDS-1 for PCB and 2-D drafting; CADDS3 on CGP80/CGP100 with Tektronix storage tubes and graphics tablets with menus; CADDS3 from Hanratty/S3 code; Boeing 757/767; Navy contract; GE Calma; GPU 1980; DCU 1983; first major customer for Sun)", "url": "https://en.wikipedia.org/wiki/Computervision" },
+      { "text": "Wikimedia Commons — File:Computervision piping.agr.jpg (Arnold Reinhold, CC BY-SA 3.0): CADDS3 system used to create a piping and instrumentation diagram in a training lab, circa 1979; Tektronix 19-inch storage tube; tablet for drawing and command shortcuts; ADM-3 terminals for typing commands", "url": "https://commons.wikimedia.org/wiki/File:Computervision_piping.agr.jpg" },
+      { "text": "Wikimedia Commons — File:ComputervisionDesigner.agr.jpg (Arnold Reinhold, CC BY-SA 3.0): Computervision Designer CAD system at a trade show, 1978", "url": "https://commons.wikimedia.org/wiki/File:ComputervisionDesigner.agr.jpg" },
+      { "text": "CADhistory.net — David Weisberg, 'Computervision' (company and product history)", "url": "http://www.cadhistory.net/12%20Computervision.pdf" }
+    ],
+    "imageUrls": [
+      "https://commons.wikimedia.org/wiki/Special:FilePath/Computervision%20piping.agr.jpg",
+      "https://commons.wikimedia.org/wiki/Special:FilePath/ComputervisionDesigner.agr.jpg"
+    ]
+  },
+  "savedImages": [
+    "potential/computervision-cadds3/images/computervision-cadds3.jpg",
+    "potential/computervision-cadds3/images/computervision-designer.jpg"
+  ]
+}

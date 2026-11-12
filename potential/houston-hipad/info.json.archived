@@ -1,0 +1,74 @@
+{
+  "slug": "houston-hipad",
+  "title": "Houston Instruments HIPAD Digitizer",
+  "year": "1976–1990s",
+  "subtitle": "A professional absolute-positioning graphics tablet with a four-button puck, built on Håkan Lans's phase-shift inductive sensing, that became a standard scientific and drafting instrument",
+  "why_scout_cares": "The museum has consumer drawing pads and the Summagraphics Bit Pad, but the HIPAD is a different, weirder animal: a professional digitizer whose sensing was invented by Swedish engineer Håkan Lans as a way to trace seismic measurements, sold across the Atlantic to Houston Instruments, and picked up by DEC, cartographers, seismic crews, and CAD shops. It is a 'pointing device' that is not a mouse and not a stylus — a large tablet with a puck bristling with named buttons (RESET, POINT, SWITCH STREAM, STREAM) that stream coordinates to a host. Its absolute, inductive sensing meant you could lift the puck, lay down a map or seismic record, and pick up a point by locating it with crosshairs. That coupling of a physical document, a crosshair, and a stream of numbers is an interface story worth preserving: it treats the desk itself as the input surface.",
+  "search_terms": [
+    "Houston Instruments HIPAD digitizer absolute positioning Hakan Lans",
+    "HIPAD digitizer puck RESET POINT SWITCH STREAM buttons",
+    "Hakan Lans inductive digitizer phase shift patent",
+    "DECUS HIPAD MINC digitizer 1979",
+    "HIPAD digitizing board seismic measurement crosshair"
+  ],
+  "research": {
+    "title": "Houston Instruments HIPAD Digitizer",
+    "year": "1976–1990s",
+    "by": "Invented by Håkan Lans (Sweden); manufactured and marketed by Houston Instrument, Austin, Texas (a division of Bausch & Lomb)",
+    "tags": ["HCI", "Pointing Device", "Digitizing Tablet", "Absolute Positioning", "Professional Graphics", "Input"],
+    "overview": "The HIPAD is a professional digitizing tablet — a flat surface with an inductive grid and a hand-held puck — built by Houston Instrument of Austin, Texas, and sold from the mid-1970s through the 1980s. Its core technology was invented by Swedish engineer Håkan Lans, who began work on a digitizing table in 1972 because he needed a control device for digitizing seismic measurements: a map or chart was laid over a drafting table, measurement points were marked with crosshairs, and the position was read off. Lans's key improvement, made at Houston Instrument's request, was **absolute positioning**: earlier tablets lost their orientation whenever the pointing device was lifted, whereas Lans's version could be lifted and set down anywhere on the surface and still report the correct coordinates. According to the Tekniska Museet object record, he achieved this with a system of loops in four separate layers, each energised at a different frequency, with the position determined by the inductive sensing pointer and the phase shift that occurs for the signals in the loops. Precision was about 1/10 mm — finer than a human could place a crosshair. The device was sold in the US as the HIPAD; it was reportedly supported on DEC's MINC laboratory computer (DECUS proceedings, October 1979). The museum's example is a grey plastic HIPAD with a gridded semi-transparent surface and a black puck carrying a crosshair and four buttons, connected by a spiral cord, with a 25-pin D-sub connector and 3.5 mm phono jack on the rear edge.",
+    "deepDive": [
+      {
+        "heading": "Seismic fieldwork becomes an input device",
+        "text": "The HIPAD did not begin as a desktop accessory. Håkan Lans's original brief was to make a control device for digitizing seismic measurements: a paper seismic record or map was clipped to a drafting table and the operator marked measurement points with crosshairs. In that context the tablet was an instrument for turning a physical document into numbers, and the crosshair puck — not a mouse — was the natural sensor. The interaction was deliberately direct: look through the crosshair, align it with a feature on the paper, press a button to commit the sample. It is a workflow inherited from cartography and exploration geophysics, where the document is the data source and the machine's job is to capture it faithfully."
+      },
+      {
+        "heading": "Absolute positioning, by four frequencies and phase shift",
+        "text": "The crucial engineering problem was drift and lost orientation: early digitizers required a known origin and lost their sense of place if the pointer was lifted. Lans's solution was to encode position absolutely on the surface. Loops in four separate layers carried different frequencies; the inductive sensing pointer picked up each, and the phase shift of the signals across the loops determined the pointer's location on the grid. Because the position is encoded in the surface rather than accumulated from motion, the puck can be lifted, the document can be slid underneath, and coordinates remain correct. The advertised precision was on the order of 1/10 mm, fine enough that the operator's ability to place a crosshair, not the electronics, was the limit. This is the classic contrast between absolute and relative pointing that later became central to graphics tablets, pen displays, and touch input — here it is present in a 1970s instrument."
+      },
+      {
+        "heading": "A puck with a vocabulary of buttons",
+        "text": "The museum's HIPAD puck has four labelled buttons: RESET, POINT, SWITCH STREAM and STREAM — a vocabulary that belongs to a streamed coordinate protocol rather than to mouse clicks. The labels distinguish a single 'point' (one committed coordinate) from a 'stream' (a continuous flow of positions), with a switch to toggle streaming and a reset to re-originate. The exact host commands lie in the period's driver documentation rather than in the object itself, but the button names alone show a device whose output is a flow of numbers the host must interpret. The crosshair on the puck made tracing and point-picking over a paper document a glance-and-press operation, and the mode buttons let the operator choose between sampling a single feature and dragging a continuous trace."
+      },
+      {
+        "heading": "From 70 units to 10,000 a month",
+        "text": "The HIPAD is also a story about the moment personal computing created demand for pointing devices. According to the Tekniska Museet record of Lans's account, after two years Houston Instrument wanted to stop production because they had made only about 70 units; Lans persuaded them to continue because he believed the personal computer would create a need for pointing devices. Shortly afterwards demand rose dramatically, and Lans estimated that 10,000 units were being manufactured a month. Whether or not that estimate is exact, it records the pivot from a niche digitizer for seismic and mapping surveyors to a mass-market peripheral in the early 1980s. It is one of the clearest cases in the collection where a professional instrument's sensing technology crosses over into everyday computing."
+      },
+      {
+        "heading": "In professional use: DECUS, MINC, cartography and CAD",
+        "text": "DECUS (the Digital Equipment Computer Users Society) proceedings from October 1979 are reported to describe HIPAD support on DEC's MINC laboratory computer, which would place the tablet in scientific laboratory use — not just drafting. The same absolute-positioning property that made it useful for tracing maps and seismic charts made it useful for any task where a paper document had to be digitised exactly: cartography, geological survey, PCB layout, and eventually CAD. Its combination of a large absolute surface and a puck with crosshair and mode buttons made it a natural front end for workstations of the late 1970s."
+      },
+      {
+        "heading": "Why it belongs in the museum",
+        "text": "The museum's existing Summagraphics Bit Pad entry covers the magnetostrictive line; the HIPAD fills the inductive, absolute-positioning line, and it adds an important outsider's story. It shows a device born in geophysical survey work, engineered by a Swedish inventor, commercialised by a Texas instrument maker, and adopted in labs and CAD shops. It is a reminder that the dominant 'point and click' metaphor was for years only one of several pointing idioms, and that the absolute tablet — where the surface and the document are the same — was the professional's alternative. Its physical details are unusually legible: crosshairs, a four-button puck, a gridded translucent surface, and an RS-232 style D-sub connector are exactly the kind of hardware that a digital museum can preserve and explain."
+      }
+    ],
+    "team": [
+      { "name": "Håkan Lans (b. 1947)", "note": "Swedish inventor who began the digitizing table in 1972 for seismic measurement work; developed the absolute-positioning inductive system and sold the technology to Houston Instrument. Later known for the STDMA datalink used in the Automatic Identification System (AIS)." },
+      { "name": "Houston Instrument (Austin, Texas)", "note": "Division of Bausch & Lomb; manufactured and marketed the HIPAD, later a major supplier of plotters and digitizers. Shown at trade shows including SIGGRAPH." },
+      { "name": "Digital Equipment Corporation (DEC)", "note": "Supported the HIPAD on the MINC laboratory computer in the late 1970s, according to DECUS user-group reporting from October 1979." }
+    ],
+    "media": [
+      { "file": "hipad-tablet.jpg", "alt": "Houston Instruments HIPAD digitizing tablet with a semi-transparent gridded surface and coiled cable", "caption": "A Houston Instruments HIPAD digitizing tablet, seen from above: a large grey plastic surface with a translucent white plastic sheet divided into a grid, and a coiled cable leading to the puck. (Image: Tekniska Museet / Gunnar Sundin, CC BY 4.0, via Wikimedia Commons.)" },
+      { "file": "hipad-puck.jpg", "alt": "Close view of the HIPAD's black crosshair puck with its four buttons", "caption": "The HIPAD puck: black plastic, a crosshair for lining up a point on the paper underneath, four top buttons labelled RESET, POINT, SWITCH STREAM and STREAM, and a 25-pin D-sub plus 3.5 mm jack on the rear edge. (Image: Tekniska Museet / Gunnar Sundin, CC BY 4.0, via Wikimedia Commons.)" },
+      { "file": "hipad-tekniska-museet.jpg", "alt": "The HIPAD digitizing board in the Tekniska Museet collection", "caption": "A HIPAD digitizing board held by the Tekniska Museet, Stockholm, which records it as the pointing device for a computer invented by Håkan Lans. (Image: Ellinor Algin / Tekniska Museet, CC BY-SA 4.0, via Wikimedia Commons.)" }
+    ],
+    "sources": [
+      { "text": "Tekniska Museet via Wikimedia Commons — Houston Instruments Hipad Digitizer EPT-11 photographs and object description (Lans begins development in 1972 for seismic measurements; absolute positioning via four-layer loop system and phase shift; 1/10 mm precision; Houston Instrument's 70-unit production and later 10,000/month estimate)", "url": "https://commons.wikimedia.org/wiki/File:Houston_Instruments_Hipad_Digitizer_EPT-11_(1).jpg" },
+      { "text": "Tekniska Museet via Wikimedia Commons — Digitaliseringsbord Houston Instrument Hipad (recorded as invented by Håkan Lans)", "url": "https://commons.wikimedia.org/wiki/File:Digitaliseringsbord.jpg" },
+      { "text": "Wikipedia — Håkan Lans (handheld-puck graphics tablet sold to Houston Instruments and marketed as the HIpad; KTH grand prize in 1996 for the tablet puck; the '1971' marketing date in that article is the earliest trade naming — the Tekniska Museet object record dates development from 1972)", "url": "https://en.wikipedia.org/wiki/H%C3%A5kan_Lans" },
+      { "text": "Larsson, Thomas and Stenlund, Ulf — 'Vignettes of Sweden's Computer Graphics History', IEEE Annals of the History of Computing (2008), the reference cited for Lans's graphics tablet", "url": "https://muse.jhu.edu/article/235249" },
+      { "text": "DEC 1979 / MINC context — the investigator report notes HIPAD support documented in DECUS proceedings from October 1979; treat the exact citation as unverified pending the DECUS volume itself", "url": "https://en.wikipedia.org/wiki/DECUS" }
+    ],
+    "imageUrls": [
+      "https://commons.wikimedia.org/wiki/Special:FilePath/Houston%20Instruments%20Hipad%20Digitizer%20EPT-11%20(1).jpg",
+      "https://commons.wikimedia.org/wiki/Special:FilePath/Houston%20Instruments%20Hipad%20Digitizer%20EPT-11%20(2).jpg",
+      "https://commons.wikimedia.org/wiki/Special:FilePath/Digitaliseringsbord.jpg"
+    ]
+  },
+  "savedImages": [
+    "potential/houston-hipad/images/hipad-tablet.jpg",
+    "potential/houston-hipad/images/hipad-puck.jpg",
+    "potential/houston-hipad/images/hipad-tekniska-museet.jpg"
+  ]
+}
