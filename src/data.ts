@@ -3971,6 +3971,32 @@ const exhibitData: Exhibit[] = [
     tags: ["HCI", "Analog Computer", "Scientific Modelling", "Instrument Front-End", "Physical State", "Output"],
     image: img("ishiguro-storm-surge-model.jpg"),
   },
+  {
+    id: "houston-hipad",
+    slug: "houston-hipad",
+    wikiTitle: "Houston Instruments HIPAD Digitizer",
+    year: "1976–1990s",
+    sortYear: 1979,
+    title: "Houston Instruments HIPAD Digitizer",
+    subtitle: "A professional absolute-positioning tablet built on Håkan Lans's phase-shift inductive sensing — a crosshair puck that streams coordinates from a document laid on the desk",
+    blurb:
+      "The HIPAD is a large professional digitizing tablet — an inductive grid with a hand-held puck — built by Houston Instrument of Austin, Texas. Its sensing was invented by Swedish engineer Håkan Lans, who started a digitizing table in 1972 to capture seismic measurements: a map was laid on a drafting table, points were marked with crosshairs, and the position was read off. Houston Instrument asked for a fix to the era's biggest weakness: tablets lost their sense of place when the pointer was lifted. Lans's answer was absolute positioning, reportedly using loops in four separate frequency layers, with position recovered from the phase shift picked up by an inductive pointer — good to about 1/10 mm. The US product was the HIPAD; it was reportedly used with DEC's MINC laboratory computer and, by the mid-1980s, had spread into cartography, survey, and CAD as personal computers created mass demand for pointing devices. The museum's example is grey plastic with a gridded translucent sheet and a black crosshair puck whose four buttons read RESET, POINT, SWITCH STREAM and STREAM — a vocabulary of streamed coordinates, not mouse clicks. Where the Bit Pad covers the magnetostrictive line, the HIPAD covers the inductive, absolute line, and records a professional instrument born in geophysical survey work.",
+    tags: ["HCI", "Pointing Device", "Digitizing Tablet", "Absolute Positioning", "Professional Graphics", "Input"],
+    image: img("hipad-tablet.jpg"),
+  },
+  {
+    id: "computervision-cadds3",
+    slug: "computervision-cadds3",
+    wikiTitle: "Computervision CADDS3 Workstation",
+    year: "Late 1970s",
+    sortYear: 1978,
+    title: "Computervision CADDS3 Workstation",
+    subtitle: "A Tektronix storage-tube CAD terminal whose commands lived on a printed menu taped over the graphics tablet — the pointer as both pencil and keyboard",
+    blurb:
+      "Computervision's CADDS3 was a late-1970s professional drafting system running on the company's own CGP minicomputers. A workstation was not a screen and a mouse: a Tektronix storage-tube terminal held a flicker-free vector drawing on its phosphor, and a large graphics tablet overlaid with a printed menu provided both the drawing surface and the command shortcuts. In the photograph that survives from a training lab around 1979, an operator picks commands and draws over a piping and instrumentation diagram while ADM-3 terminals behind type out commands — a hybrid of spatial menu, direct drawing, and text. That grammar — commands placed in regions of a pointing surface — runs straight through to AutoCAD's tablet overlays and on into on-screen toolbars. CADDS3 was serious industrial software, later behind Boeing's 757/767 programme and a large US Navy contract, and it shows how graphics hardware, input device, and command vocabulary were designed together before the WIMP interface arrived. The storage tube also fixes the interaction style: deliberate, static line drawings composed rather than animated, because clearing the screen meant redrawing it.",
+    tags: ["HCI", "CAD", "Pointing Device", "Menu Input", "Storage Tube", "Professional Graphics"],
+    image: img("computervision-cadds3.jpg"),
+  },
 ];
 
 export const exhibits: Exhibit[] = exhibitData.toSorted((a, b) => b.sortYear - a.sortYear || a.title.localeCompare(b.title));
