@@ -247,83 +247,84 @@ Each entry includes an overview, a deep dive, a small media gallery, and full so
 238. [Movement Systems (MCS) Drum Computer (1981)](#movement-systems-mcs-drum-computer-1981)
 239. [Brother WP1 Word Processor / Electronic Typewriter (c. 1985)](#brother-wp1-word-processor--electronic-typewriter-c-1985)
 240. [Mattel Intellivision Keyboard Component (1983)](#mattel-intellivision-keyboard-component-1983)
- 240. [The Clapper (1984)](#the-clapper-1984)
- 241. [Caere Hand-held OCR Wand with Visual Aligner (1980)](#caere-hand-held-ocr-wand-with-visual-aligner-1980)
- 242. [Motorola DynaTAC 8000X (1984)](#motorola-dynatac-8000x-1984)
- 243. [HP-75C / HP-75D Portable Computer (1982)](#hp-75c--hp-75d-portable-computer-1982)
-  244. [Casio FX-7000G Graphing Calculator (1985)](#casio-fx-7000g-graphing-calculator-1985)
-  245. [GE Talaria Light-Valve Video Projector (1983)](#ge-talaria-light-valve-video-projector-1983)
-  246. [Ferranti-Packard Flip-Disc Display (1976)](#ferranti-packard-flip-disc-display-1976)
-  247. [Linotype CRTronic (1979)](#linotype-crtronic-1979)
-  248. [Space-Cadet Keyboard (1978)](#space-cadet-keyboard-1978)
-  249. [Luma LU-1000 Lumaphone (1986)](#luma-lu-1000-lumaphone-1986)
-  250. [Honeywell Visicorder (1980)](#honeywell-visicorder-1980)
- 251. [Supermarket Checkout Laser Scanner (1974)](#supermarket-checkout-laser-scanner-1974)
-  252. [Casio DG-20 Digital Guitar (1987)](#casio-dg-20-digital-guitar-1987)
-  253. [National Easa-Phone Answering Machine (c. 1979)](#national-easa-phone-answering-machine-c-1979)
-  254. [Coleco Super Action Controller (1983)](#coleco-super-action-controller-1983)
-  255. [Milton Bradley Grandmaster (Phantom / Milton) (1983)](#milton-bradley-grandmaster--phantom--milton--1983)
-   256. [Logitech 3D Mouse (Fly Mouse) (1990)](#logitech-3d-mouse-fly-mouse-1990)
-   257. [VersaWriter (1981)](#versa-writer-1981)
-   258. [Mephisto Modular Autosensory Chess Board (1983)](#mephisto-modular-autosensory-chess-board-1983)
-   259. [Xerox PARC Gyricon Electronic Paper (1975)](#xerox-parc-gyricon-electronic-paper-1975)
-   260. [NED Synclavier (1977)](#ned-synclavier-1977)
-   261. [Questron Electronic Answer Wand (c. 1984)](#questron-electronic-answer-wand-c-1984)
-    262. [McDonald's Brobeck Point-of-Sale Terminal (1974)](#mcdonalds-brobeck-point-of-sale-terminal-1974)
-    263. [BSR/X10 Command Console (1978)](#bsr-x10-command-console-1978)
-    264. [Linn LM-1 Drum Computer (1980)](#linn-lm-1-drum-computer-1980)
-    265. [Casio VDB-1000 Touchscreen Watch (1991)](#casio-vdb-1000-touchscreen-watch-1991)
-   266. [Commodore CHESSmate (1978)](#commodore-chessmate-1978)
-    267. [KAT MalletKAT MIDI Percussion Controller (1985)](#kat-malletkat-midi-percussion-controller-1985)
-    268. [PPG Waveterm B (1984)](#ppg-waveterm-b-1984)
-    269. [Kurzweil K250 (1984)](#kurzweil-k250-1984)
-    270. [Epson HX-20 (1981)](#epson-hx-20-1981)
-    271. [Xerox Cat (1980)](#xerox-cat-1980)
-    272. [Quazon Quik-Link 100 (1984)](#quazon-quik-link-100-1984)
-    273. [Mufax Courier (1975)](#mufax-courier-1975)
-    274. [Buchla Touché (c.1978)](#buchla-touche-c1978)
-    275. [Milton Bradley Dark Tower (1981)](#milton-bradley-dark-tower-1981)
-    276. [Solari Split-Flap Display (1976)](#solari-split-flap-display-1976)
+240. [The Clapper (1984)](#the-clapper-1984)
+241. [Caere Hand-held OCR Wand with Visual Aligner (1980)](#caere-hand-held-ocr-wand-with-visual-aligner-1980)
+242. [Motorola DynaTAC 8000X (1984)](#motorola-dynatac-8000x-1984)
+243. [HP-75C / HP-75D Portable Computer (1982)](#hp-75c--hp-75d-portable-computer-1982)
+244. [Casio FX-7000G Graphing Calculator (1985)](#casio-fx-7000g-graphing-calculator-1985)
+245. [GE Talaria Light-Valve Video Projector (1983)](#ge-talaria-light-valve-video-projector-1983)
+246. [Ferranti-Packard Flip-Disc Display (1976)](#ferranti-packard-flip-disc-display-1976)
+247. [Linotype CRTronic (1979)](#linotype-crtronic-1979)
+248. [Space-Cadet Keyboard (1978)](#space-cadet-keyboard-1978)
+249. [Luma LU-1000 Lumaphone (1986)](#luma-lu-1000-lumaphone-1986)
+250. [Honeywell Visicorder (1980)](#honeywell-visicorder-1980)
+251. [Supermarket Checkout Laser Scanner (1974)](#supermarket-checkout-laser-scanner-1974)
+252. [Casio DG-20 Digital Guitar (1987)](#casio-dg-20-digital-guitar-1987)
+253. [National Easa-Phone Answering Machine (c. 1979)](#national-easa-phone-answering-machine-c-1979)
+254. [Coleco Super Action Controller (1983)](#coleco-super-action-controller-1983)
+255. [Milton Bradley Grandmaster (Phantom / Milton) (1983)](#milton-bradley-grandmaster--phantom--milton--1983)
+256. [Logitech 3D Mouse (Fly Mouse) (1990)](#logitech-3d-mouse-fly-mouse-1990)
+257. [VersaWriter (1981)](#versa-writer-1981)
+258. [Mephisto Modular Autosensory Chess Board (1983)](#mephisto-modular-autosensory-chess-board-1983)
+259. [Xerox PARC Gyricon Electronic Paper (1975)](#xerox-parc-gyricon-electronic-paper-1975)
+260. [NED Synclavier (1977)](#ned-synclavier-1977)
+261. [Questron Electronic Answer Wand (c. 1984)](#questron-electronic-answer-wand-c-1984)
+262. [McDonald's Brobeck Point-of-Sale Terminal (1974)](#mcdonalds-brobeck-point-of-sale-terminal-1974)
+263. [BSR/X10 Command Console (1978)](#bsr-x10-command-console-1978)
+264. [Linn LM-1 Drum Computer (1980)](#linn-lm-1-drum-computer-1980)
+265. [Casio VDB-1000 Touchscreen Watch (1991)](#casio-vdb-1000-touchscreen-watch-1991)
+266. [Commodore CHESSmate (1978)](#commodore-chessmate-1978)
+267. [KAT MalletKAT MIDI Percussion Controller (1985)](#kat-malletkat-midi-percussion-controller-1985)
+268. [PPG Waveterm B (1984)](#ppg-waveterm-b-1984)
+269. [Kurzweil K250 (1984)](#kurzweil-k250-1984)
+270. [Epson HX-20 (1981)](#epson-hx-20-1981)
+271. [Xerox Cat (1980)](#xerox-cat-1980)
+272. [Quazon Quik-Link 100 (1984)](#quazon-quik-link-100-1984)
+273. [Mufax Courier (1975)](#mufax-courier-1975)
+274. [Buchla Touché (c.1978)](#buchla-touche-c1978)
+275. [Milton Bradley Dark Tower (1981)](#milton-bradley-dark-tower-1981)
+276. [Solari Split-Flap Display (1976)](#solari-split-flap-display-1976)
 241. [Yeoman Navigator / Sport Electronic Plotter (1985)](#yeoman-navigator--sport-electronic-plotter-1985)
-    278. [Lyricon / Wind Synthesizer Driver (1977)](#lyricon--wind-synthesizer-driver-1977)
-    279. [Fidelity Bridge Challenger (1980)](#fidelity-bridge-challenger-1980)
-     280. [Zeiss REC-100 Field Data Recorder (1980)](#zeiss-rec-100-field-data-recorder-1980)
-     281. [Tamaya Planix Digital Planimeter (1985)](#tamaya-planix-digital-planimeter-1985)
-     282. [Scanset XL (1982)](#scanset-xl-1982)
-     283. [HP 64000 Logic Development System (1979)](#hp-64000-logic-development-system-1979)
-     284. [Tektronix 11401 Digitizing Oscilloscope (1986)](#tektronix-11401-digitizing-oscilloscope-1986)
-     285. [Motorola MicroTAC (1989)](#motorola-microtac-1989)
-     286. [NASA Ames Virtual Reality Headset (1985)](#nasa-ames-virtual-reality-headset-1985)
-     287. [Technophone Excell M1 / PC105T (Pocketphone) (1986)](#technophone-excell-m1--pc105t-pocketphone-1986)
-     288. [Simmons SDSV Electronic Drum (1981)](#simmons-sdsv-electronic-drum-1981)
-     289. [Moog Taurus I Foot-Operated Bass Synthesizer (1975)](#moog-taurus-i-foot-operated-bass-synthesizer-1975)
-     290. [Brunswick "Karate" Reflex Testing Amusement Device (1974)](#brunswick-karate-reflex-testing-amusement-device-1974)
-     291. [Sequential Circuits Prophet VS (1986)](#sequential-circuits-prophet-vs-1986)
-     292. [Moog Liberation (1980)](#moog-liberation-1980)
-     293. [CPT 8000/8100 Word Processor (1979)](#cpt-80008100-word-processor-1979)
-     294. [Scantron 888P+ OMR Reader (c. 1985)](#scantron-888p-omr-reader-c-1985)
-     295. [Ferranti MRT-100 / MRT-200 Market Research Terminal (1983)](#ferranti-mrt-100--mrt-200-market-research-terminal-1983)
-     296. [AMS AudioFile (1984)](#ams-audiofile-1984)
-     297. [Nikon QV-1000C Still Video Camera System (1988)](#nikon-qv-1000c-still-video-camera-system-1988)
-     298. [HP 8450A Diode-Array Spectrophotometer (1979)](#hp-8450a-diode-array-spectrophotometer-1979)
-     299. [SSL SL 4000 E — Total Recall (1979)](#ssl-sl-4000-e--total-recall-1979)
-     300. [Harrison SeriesTEN (1988)](#harrison-seriesten-1988)
-     301. [Brother Punch-Card Knitting Machine (KH-860) (1985)](#brother-punch-card-knitting-machine-kh-860-1985)
-     302. [Bang & Olufsen Beocenter 9500 (1989)](#bang--olufsen-beocenter-9500-1989)
-     303. [RCA SelectaVision CED Videodisc (1981)](#rca-selectavision-ced-videodisc-1981)
-      304. [Vectrex (1982)](#vectrex-1982)
-      305. [Petrofsky FES Bicycle Ergometer (1984)](#petrofsky-fes-bicycle-ergometer-1984)
-      306. [Casio CMD-40 (1992)](#casio-cmd-40-1992)
-      307. [Ponsse HS-15 Harvester (1988)](#ponsse-hs-15-harvester-1988)
-      308. [Grass Valley 1600 Series Production Switcher (1979)](#grass-valley-1600-series-production-switcher-1979)
-      309. [Hell Chromagraph DC 300 B (1975)](#hell-chromagraph-dc-300-b-1975)
-      310. [Sony JumboTron JTS-1 (1985)](#sony-jumbotron-jts-1-1985)
-      311. [Evans & Sutherland Digistar 1 (1983)](#evans--sutherland-digistar-1-1983)
-      312. [Technics SL-1200MK2 (1979)](#technics-sl-1200mk2-1979)
-      313. [Air Traffic Control Flight Progress Strips (1970s–1990s)](#air-traffic-control-flight-progress-strips-1970s1990s)
-      314. [Ishiguro Electronic Storm Surge Model (1960–1983)](#ishiguro-electronic-storm-surge-model-19601983)
+278. [Lyricon / Wind Synthesizer Driver (1977)](#lyricon--wind-synthesizer-driver-1977)
+279. [Fidelity Bridge Challenger (1980)](#fidelity-bridge-challenger-1980)
+280. [Zeiss REC-100 Field Data Recorder (1980)](#zeiss-rec-100-field-data-recorder-1980)
+281. [Tamaya Planix Digital Planimeter (1985)](#tamaya-planix-digital-planimeter-1985)
+282. [Scanset XL (1982)](#scanset-xl-1982)
+283. [HP 64000 Logic Development System (1979)](#hp-64000-logic-development-system-1979)
+284. [Tektronix 11401 Digitizing Oscilloscope (1986)](#tektronix-11401-digitizing-oscilloscope-1986)
+285. [Motorola MicroTAC (1989)](#motorola-microtac-1989)
+286. [NASA Ames Virtual Reality Headset (1985)](#nasa-ames-virtual-reality-headset-1985)
+287. [Technophone Excell M1 / PC105T (Pocketphone) (1986)](#technophone-excell-m1--pc105t-pocketphone-1986)
+288. [Simmons SDSV Electronic Drum (1981)](#simmons-sdsv-electronic-drum-1981)
+289. [Moog Taurus I Foot-Operated Bass Synthesizer (1975)](#moog-taurus-i-foot-operated-bass-synthesizer-1975)
+290. [Brunswick "Karate" Reflex Testing Amusement Device (1974)](#brunswick-karate-reflex-testing-amusement-device-1974)
+291. [Sequential Circuits Prophet VS (1986)](#sequential-circuits-prophet-vs-1986)
+292. [Moog Liberation (1980)](#moog-liberation-1980)
+293. [CPT 8000/8100 Word Processor (1979)](#cpt-80008100-word-processor-1979)
+294. [Scantron 888P+ OMR Reader (c. 1985)](#scantron-888p-omr-reader-c-1985)
+295. [Ferranti MRT-100 / MRT-200 Market Research Terminal (1983)](#ferranti-mrt-100--mrt-200-market-research-terminal-1983)
+296. [AMS AudioFile (1984)](#ams-audiofile-1984)
+297. [Nikon QV-1000C Still Video Camera System (1988)](#nikon-qv-1000c-still-video-camera-system-1988)
+298. [HP 8450A Diode-Array Spectrophotometer (1979)](#hp-8450a-diode-array-spectrophotometer-1979)
+299. [SSL SL 4000 E — Total Recall (1979)](#ssl-sl-4000-e--total-recall-1979)
+300. [Harrison SeriesTEN (1988)](#harrison-seriesten-1988)
+301. [Brother Punch-Card Knitting Machine (KH-860) (1985)](#brother-punch-card-knitting-machine-kh-860-1985)
+302. [Bang & Olufsen Beocenter 9500 (1989)](#bang--olufsen-beocenter-9500-1989)
+303. [RCA SelectaVision CED Videodisc (1981)](#rca-selectavision-ced-videodisc-1981)
+304. [Vectrex (1982)](#vectrex-1982)
+305. [Petrofsky FES Bicycle Ergometer (1984)](#petrofsky-fes-bicycle-ergometer-1984)
+306. [Casio CMD-40 (1992)](#casio-cmd-40-1992)
+307. [Ponsse HS-15 Harvester (1988)](#ponsse-hs-15-harvester-1988)
+308. [Grass Valley 1600 Series Production Switcher (1979)](#grass-valley-1600-series-production-switcher-1979)
+309. [Hell Chromagraph DC 300 B (1975)](#hell-chromagraph-dc-300-b-1975)
+310. [Sony JumboTron JTS-1 (1985)](#sony-jumbotron-jts-1-1985)
+311. [Evans & Sutherland Digistar 1 (1983)](#evans--sutherland-digistar-1-1983)
+312. [Technics SL-1200MK2 (1979)](#technics-sl-1200mk2-1979)
+313. [Air Traffic Control Flight Progress Strips (1970s–1990s)](#air-traffic-control-flight-progress-strips-1970s1990s)
+314. [Ishiguro Electronic Storm Surge Model (1960–1983)](#ishiguro-electronic-storm-surge-model-19601983)
 315. [Houston Instruments HIPAD Digitizer (1976–1990s)](#houston-instruments-hipad-digitizer-19761990s)
 316. [Computervision CADDS3 Workstation (Late 1970s)](#computervision-cadds3-workstation-late-1970s)
+317. [Three Mile Island TMI-2 Control Room Console (1979)](#three-mile-island-tmi-2-control-room-console-1979)
     
 ---
 
@@ -14011,3 +14012,43 @@ Computervision was founded in 1969 to make computer-aided design equipment, init
 2. Wikimedia Commons — File:Computervision piping.agr.jpg (Arnold Reinhold, CC BY-SA 3.0): CADDS3 system used to create a piping and instrumentation diagram in a training lab, circa 1979; Tektronix 19-inch storage tube; tablet for drawing and command shortcuts; ADM-3 terminals for typing commands — https://commons.wikimedia.org/wiki/File:Computervision_piping.agr.jpg
 3. Wikimedia Commons — File:ComputervisionDesigner.agr.jpg (Arnold Reinhold, CC BY-SA 3.0): Computervision Designer CAD system at a trade show, 1978 — https://commons.wikimedia.org/wiki/File:ComputervisionDesigner.agr.jpg
 4. CADhistory.net — David Weisberg, "Computervision" (company and product history) — http://www.cadhistory.net/12%20Computervision.pdf
+
+## Three Mile Island TMI-2 Control Room Console (1979)
+
+**By:** Metropolitan Edison (Met Ed), with Babcock & Wilcox as reactor supplier  
+**Tags:** `Annunciator` `Alarm Design` `Process Control` `Safety-Critical HCI` `Semantic Color`
+
+### Overview
+
+The Unit 2 control room at the Three Mile Island nuclear plant near Harrisburg, Pennsylvania, is a horseshoe of vertical instrument panels covered in hundreds of back-lit annunciator tiles, analog meters, and rotary selectors. On 28 March 1979 a frozen feedwater chain and a stuck-open pilot-operated relief valve (PORV) set off the worst commercial nuclear accident in U.S. history — and the accident was, in large part, an interface failure. Operators had no direct readout of the PORV's actual position; a single lamp labeled *Light on — RC-RV2 open* lit when the pilot solenoid was energized and went dark when power was cut, even though the valve itself had jammed open. The operators read the unlit lamp as "valve closed" and spent hours sending water into a primary loop that was draining out from underneath them. The room is preserved as an artifact because it concentrates, in one physical surface, every problem the museum cares about: identical-looking alarms that flood the operator, status displays that report command rather than reality, and a panel geometry that hid the one honest indicator — a downstream temperature gauge — behind the very panel it belonged to.
+
+### Deep dive
+
+* **The panel as interface.** The TMI-2 console is a wall of square annunciator tiles arranged in a dense grid over an instrument board. Each tile combines a printed caption, colored lamp windows for alarm state, and a momentary pushbutton for acknowledge. The layout follows the plant rather than the operator's task: signals sit near the pipe or pump they belong to in the process diagram, so a fault that propagates across several systems lights tiles scattered across the wall. There is no hierarchy of severity beyond color, and color is used inconsistently — the same hue can mean "running normally" in one tile and "trip" in another. The interaction model is the classical annunciator cycle: a new alarm flashes and sounds a horn; the operator presses to acknowledge and the lamp goes steady; when the condition clears, the lamp extinguishes. That cycle assumes every lamp is an invariant map from plant state to light — an assumption TMI-2 broke.
+* **The light that lied.** The failure that made the room famous is semantic. The PORV indicator was wired to the solenoid circuit, not to a valve-position switch. When the valve stuck open and its control power was automatically cut, the light went out. Operators trained on a one-lamp "on means open" model concluded the valve was shut while roughly 120,000 liters of coolant escaped through it. The honest signal — a temperature sensor downstream of the valve reading far above normal — existed, but it sat on a non-safety-grade circuit and was mounted behind the seven-foot instrument panel, invisible from the operator station. The room thus teaches two lessons at once: never let a status display report a command instead of a state, and never bury a corroborating signal where the primary display cannot be checked against it.
+* **Alarm flood and the "cacophony" problem.** In the opening minute the panel came alive with hundreds of simultaneous alarms, many technically true but uninformative. The pressurizer relief tank sump alarm, containment temperature and pressure, and radiation alarms all fired within minutes, but were indistinguishable in urgency from routine chatter on the same wall. This is the alarm-flood problem in canonical form: the panel's capacity to signal exceeded the operator's capacity to discriminate, and the design offered no ranking. The later trajectory of process-control HCI — first-out annunciators, prioritized alarm lists, the ISA-18.2 alarm-management standard — can be read as descendants of the lessons the TMI-2 panel failed to encode.
+* **Annunciator grammar.** The lamp states the TMI-2 room used were part of an older, formalized vocabulary. Patent US4001797, "Annunciator system with direct field wiring" (filed 1975, issued 1977, for a solid-state annunciator with field terminal blocks), describes the same architecture: transducer inputs wired to solid-state logic whose outputs drive a visual display or buzzer. The operational grammar — *flash to attract attention, acknowledge to silence the horn, steady while the fault persists, extinguish on clear, test lamp on demand* — was a deliberate standard, and it is exactly the grammar that failed at TMI because the underlying signal was miswired to the command rather than the valve.
+* **Why a room belongs in a museum of interfaces.** Most museum artifacts are single objects a person can hold or sit at. The TMI-2 console is a room-scale interaction surface — the largest "display" in the collection. Its value is not as hardware to preserve but as evidence: the photographs show operators at a wall of identical glowing tiles and meters, trying to infer a physical truth the panel was not designed to tell them. Put it beside the museum's keyboards, joysticks, and tactile exhibits and the contrast is sharp. Those are surfaces where a human directly commands a machine; this is a surface where a machine reports to a human under catastrophic time pressure, and where the reporting vocabulary itself failed.
+* **Provenance.** The strongest image is a National Archives photograph (NARA 540034) of an NRC inspector looking at meters in the Unit 2 control room during the accident aftermath — public domain, full archival resolution. A second public-domain detail crop from President Carter's visit on 3 April 1979 shows the close-up panel geometry. Both are period images made inside the room during or days after the emergency.
+
+### Team
+
+* **Metropolitan Edison Company (Met Ed).** Operator of the Three Mile Island plant; responsible for the operator training and procedures the Kemeny Commission criticized.
+* **Babcock & Wilcox.** Supplier of the pressurized-water reactor at TMI-2.
+* **U.S. Nuclear Regulatory Commission.** Inspector pictured in the NARA photograph; commissioned post-accident reviews of control-room design.
+
+### Media
+
+![NRC inspector looking at meters in the TMI-2 control room](../assets/wiki/tmi2-control-room-nara.jpg)
+*An NRC inspector at the meters in the TMI-2 control room, from the National Archives (NARA 540034), public domain. The console is a wall of annunciator tiles, analog meters, and rotary selectors.*
+
+![Detail of the TMI-2 control room panel](../assets/wiki/tmi2-control-room-panel-detail.jpg)
+*Detail of the Unit 2 control panel from President Carter's 1979 visit, showing the caption-tile and lamp-window grammar of the annunciator wall. (Public domain.)*
+
+### Sources
+
+1. Wikipedia — Three Mile Island accident (PORV indicator semantics, emergency feedwater block valves, sump alarm timing, alarm flood) — https://en.wikipedia.org/wiki/Three_Mile_Island_accident
+2. Wikimedia Commons — File:Control room Number 2. Nuclear Regulatory Commission inspector looking at meters. - NARA - 540034.tif (public domain, NARA) — https://commons.wikimedia.org/wiki/File:Control_room_Number_2._Nuclear_Regulatory_Commission_inspector_looking_at_meters._-_NARA_-_540034.tif
+3. Wikimedia Commons — File:Nuclear power plant control room panel detail, from- President Carter in the TMI-2 Control Room (cropped).jpg (public domain) — https://commons.wikimedia.org/wiki/File:Nuclear_power_plant_control_room_panel_detail,_from-_President_Carter_in_the_TMI-2_Control_Room_(cropped).jpg
+4. John G. Kemeny et al., *Report of the President's Commission on the Accident at Three Mile Island* (1979) — control-room design and operator preparation — https://en.wikipedia.org/wiki/President%27s_Commission_on_the_Accident_at_Three_Mile_Island
+5. U.S. Patent US4001797A, "Annunciator system with direct field wiring" (issued 1977) — solid-state annunciator architecture and display grammar — https://patents.google.com/patent/US4001797A/en

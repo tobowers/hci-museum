@@ -1,0 +1,99 @@
+{
+  "slug": "tmi-2-control-room",
+  "title": "Three Mile Island TMI-2 Control Room Console",
+  "year": "1979",
+  "subtitle": "A room-scale lamp-and-meter annunciator panel whose ambiguous indicator lights turned a stuck relief valve into a two-hour misdiagnosis — the canonical case study of alarm semantics as interface design.",
+  "why_scout_cares": "The TMI-2 control room is the most-cited failure of industrial HCI ever built: hundreds of identical annunciator tiles, no direct indication of a valve's true position, and a color/lamp grammar that told operators the opposite of what was physically happening. It is an artifact that lets the museum talk about alerting, semantic color, alarm flood, and the difference between 'commanded state' and 'actual state' — with photographs that make the interaction legible.",
+  "search_terms": [
+    "Three Mile Island control room 1979",
+    "TMI-2 annunciator panel",
+    "nuclear control room alarm design"
+  ],
+  "research": {
+    "title": "Three Mile Island TMI-2 Control Room Console",
+    "year": "1979",
+    "by": "Metropolitan Edison (Met Ed) / Babcock & Wilcox (plant); control room built by the utility's OEM contractor",
+    "tags": [
+      "Annunciator",
+      "Alarm Design",
+      "Process Control",
+      "Safety-Critical HCI",
+      "Semantic Color"
+    ],
+    "overview": "The Unit 2 control room at the Three Mile Island nuclear plant near Harrisburg, Pennsylvania, is a horseshoe of vertical instrument panels covered in hundreds of back-lit annunciator tiles, analog meters, and rotary selectors. On 28 March 1979 a frozen feedwater pump chain and a stuck-open pilot-operated relief valve (PORV) set off the worst commercial nuclear accident in U.S. history — and the accident was, in large part, an interface failure. Operators had no direct readout of the PORV's actual position; a single lamp labeled *Light on — RC-RV2 open* lit when the pilot solenoid was energized and went dark when power was cut, even though the valve itself had jammed open. The operators read the unlit lamp as 'valve closed' and spent hours sending water into a primary loop that was draining out from underneath them. The room is preserved as an artifact because it concentrates, in one physical surface, every problem the museum cares about: identical-looking alarms that flood the operator, status displays that report command rather than reality, and a panel geometry that hid the one honest indicator (a downstream temperature gauge) behind the very panel it belonged to.",
+    "deepDive": [
+      {
+        "heading": "The panel as interface",
+        "text": "The TMI-2 control room panel is a wall of square annunciator tiles arranged in a dense grid over an instrument board. Each tile combines a printed caption, colored lamp windows for alarm state, and a momentary pushbutton for acknowledge. The layout follows the plant rather than the operator's task: signals sit near the pipe or pump they belong to in the process diagram, so a fault that propagates across several systems lights tiles scattered across the wall. There is no hierarchy of severity beyond color, and color is used inconsistently — the same hue can mean 'running normally' in one tile and 'trip' in another. The interaction model is the classical annunciator cycle later formalized in standards and patents (Rochester Instrument Systems AN-3100, patent US4001797): a new alarm flashes and sounds a horn; the operator presses to acknowledge, the lamp goes steady; when the condition clears the lamp extinguishes or turns to a 'clear' state. That cycle assumes every lamp is an invariant map from plant state to light — an assumption TMI-2 broke."
+      },
+      {
+        "heading": "The light that lied",
+        "text": "The specific failure that made the room famous is a semantic one. The PORV's indicator light was wired to the solenoid circuit, not to a valve-position switch. When the valve stuck open and its control power was automatically cut, the light went out. Operators trained on a one-lamp 'on means open' model concluded the valve was shut, while 120,000 liters of coolant escaped through it. The honest signal — a temperature sensor downstream of the valve that was reading far above normal — existed, but it sat on a non-safety-grade circuit and was physically mounted behind the seven-foot instrument panel, invisible from the operator station. The room thus demonstrates two distinct HCI lessons at once: never let a status display report a command instead of a state, and never bury a corroborating signal where the primary display cannot be checked against it."
+      },
+      {
+        "heading": "Alarm flood and the 'cacophony' problem",
+        "text": "Contemporary accounts and the Kemeny Commission report describe the panel coming alive in the opening minute with hundreds of simultaneous alarms, many of them technically true but uninformative. The pressurizer relief tank sump alarm, containment temperature and pressure, and radiation alarms all fired within minutes, but they were indistinguishable in urgency from routine chatter on the same wall. This is the alarm-flood problem in its canonical form — the panel's capacity to signal exceeded the operator's capacity to discriminate, and the design offered no ranking. The later trajectory of process-control HCI (first-out annunciators, prioritized alarm lists, the ISA-18.2 alarm-management standard) can be read as direct descendants of the lessons the TMI-2 panel failed to encode."
+      },
+      {
+        "heading": "Why a room belongs in a museum of interfaces",
+        "text": "Most museum artifacts are single objects a person can hold or sit at. The TMI-2 console is a room-scale interaction surface — the largest and most consequential 'display' in the collection. Its value is not as a piece of hardware to preserve but as evidence: the photographs show operators standing at a wall of identical glowing tiles and meters, trying to infer a physical truth the panel was not designed to tell them. Put it beside the museum's keyboard, joystick, and tactile exhibits and the contrast is sharp: those are surfaces where a human directly commands a machine; this is a surface where a machine reports to a human under catastrophic time pressure, and where the reporting vocabulary itself failed."
+      },
+      {
+        "heading": "Provenance and images",
+        "text": "The strongest available image is a National Archives photograph (NARA 540034) of an NRC inspector looking at meters in the Unit 2 control room during the accident aftermath, public domain and available at full archival resolution. A second public-domain detail crop from the President Carter visit photographs (3 April 1979) shows the close-up panel geometry: ranks of caption tiles, lamp windows, and gauges. Both are period images made inside the room during or days after the emergency, which is what makes them usable as interface evidence rather than generic stock."
+      }
+    ],
+    "team": [
+      {
+        "name": "Metropolitan Edison Company (Met Ed)",
+        "note": "Operator of the Three Mile Island plant; responsible for operator training and procedures the Kemeny Commission criticized"
+      },
+      {
+        "name": "Babcock & Wilcox",
+        "note": "Reactor supplier (pressurized water reactor) to the TMI-2 plant"
+      },
+      {
+        "name": "U.S. Nuclear Regulatory Commission",
+        "note": "Inspector pictured in the NARA photograph; commissioned post-accident reviews of control-room design"
+      }
+    ],
+    "media": [
+      {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/5/52/Control_room_Number_2._Nuclear_Regulatory_Commission_inspector_looking_at_meters._-_NARA_-_540034.tif",
+        "alt": "NRC inspector looking at meters in the TMI-2 control room",
+        "caption": "An NRC inspector at the meters in the TMI-2 control room, from the National Archives (NARA 540034), public domain. The console is a wall of annunciator tiles, analog meters, and rotary selectors."
+      },
+      {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/b/b1/Nuclear_power_plant_control_room_panel_detail%2C_from-_President_Carter_in_the_TMI-2_Control_Room_%28cropped%29.jpg",
+        "alt": "Detail of the TMI-2 control room panel",
+        "caption": "Detail of the Unit 2 control panel from President Carter's 1979 visit, showing the caption-tile and lamp-window grammar of the annunciator wall (public domain)."
+      }
+    ],
+    "sources": [
+      {
+        "text": "Wikipedia — Three Mile Island accident (PORV indicator, emergency feedwater block valves, sump alarm, alarm flood)",
+        "url": "https://en.wikipedia.org/wiki/Three_Mile_Island_accident"
+      },
+      {
+        "text": "Wikimedia Commons — File:Control room Number 2. Nuclear Regulatory Commission inspector looking at meters. - NARA - 540034.tif (public domain)",
+        "url": "https://commons.wikimedia.org/wiki/File:Control_room_Number_2._Nuclear_Regulatory_Commission_inspector_looking_at_meters._-_NARA_-_540034.tif"
+      },
+      {
+        "text": "Wikimedia Commons — File:Nuclear power plant control room panel detail, from- President Carter in the TMI-2 Control Room (cropped).jpg (public domain)",
+        "url": "https://commons.wikimedia.org/wiki/File:Nuclear_power_plant_control_room_panel_detail,_from-_President_Carter_in_the_TMI-2_Control_Room_(cropped).jpg"
+      },
+      {
+        "text": "John G. Kemeny et al., Report of the President's Commission on the Accident at Three Mile Island (1979) — control-room design and operator preparation",
+        "url": "https://en.wikipedia.org/wiki/President%27s_Commission_on_the_Accident_at_Three_Mile_Island"
+      }
+    ],
+    "imageUrls": [
+      "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/52/Control_room_Number_2._Nuclear_Regulatory_Commission_inspector_looking_at_meters._-_NARA_-_540034.tif/lossy-page1-1920px-Control_room_Number_2._Nuclear_Regulatory_Commission_inspector_looking_at_meters._-_NARA_-_540034.tif.jpg",
+      "https://upload.wikimedia.org/wikipedia/commons/b/b1/Nuclear_power_plant_control_room_panel_detail%2C_from-_President_Carter_in_the_TMI-2_Control_Room_%28cropped%29.jpg"
+    ]
+  },
+  "savedImages": [
+    "assets/wiki/tmi2-control-room-nara.jpg",
+    "assets/wiki/tmi2-control-room-panel-detail.jpg"
+  ]
+}
