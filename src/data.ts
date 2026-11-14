@@ -3997,6 +3997,19 @@ const exhibitData: Exhibit[] = [
     tags: ["HCI", "CAD", "Pointing Device", "Menu Input", "Storage Tube", "Professional Graphics"],
     image: img("computervision-cadds3.jpg"),
   },
+  {
+    id: "tmi-2-control-room",
+    slug: "tmi-2-control-room",
+    wikiTitle: "Three Mile Island TMI-2 Control Room Console",
+    year: "1979",
+    sortYear: 1979,
+    title: "Three Mile Island TMI-2 Control Room",
+    subtitle: "A room-scale annunciator wall whose one lamp reported the valve's command, not its position — and helped misdiagnose a meltdown",
+    blurb:
+      "The Unit 2 control room at Three Mile Island is a horseshoe of vertical panels covered in hundreds of back-lit annunciator tiles and analog meters. In 1979 a stuck-open relief valve drained the reactor while the panel, as designed, told operators the opposite: the PORV lamp lit when the solenoid was energized and went dark when power was cut — even though the valve itself had jammed open. Operators read the unlit lamp as 'valve closed,' while a downstream temperature gauge that would have told the truth sat hidden behind the panel. The room is the canonical artifact of alarm semantics, alarm flood, and the difference between commanded and actual state: a display surface where a machine reports to a human under catastrophic time pressure, and where the reporting vocabulary itself failed.",
+    tags: ["Annunciator", "Alarm Design", "Process Control", "Safety-Critical HCI", "Semantic Color"],
+    image: img("tmi2-control-room-nara.jpg"),
+  },
 ];
 
 export const exhibits: Exhibit[] = exhibitData.toSorted((a, b) => b.sortYear - a.sortYear || a.title.localeCompare(b.title));
