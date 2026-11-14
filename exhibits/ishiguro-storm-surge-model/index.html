@@ -1,0 +1,209 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
+    <meta name="description" content="After the 1953 North Sea flood, the UK&#039;s National Institute of Oceanography tasked oceanographer Shizuo Ishiguro with understanding storm surges. He built a physical analog computer that represented the North Sea as a grid of roughly 80 nodes, wired so that the flow of electricity between them stood for the flow of water. Resistors, capacitors, and inductors encoded the difference in water height, sea depth, coastlines, the Coriolis force, and time-dependent tides from the Moon and Sun. The machine stood about 1.8 m tall across two V-angled panels so modellers could reach front and back; it was used at the NIO from 1960 until about 1983. Its interface is the whole point: by its later years a Commodore CBM 8032 with 5.25-inch floppies set up and fed parameters into the grid, while the answer appeared as a live trace on an Advance Instruments OS-240 oscilloscope, photographed rather than saved. The museum has plenty of screens; almost nothing else where the computer *is a physical model of a place*. To forecast a surge you did not type numbers into a program — you poked at a circuit&#039;s physics and watched electricity impersonate the sea. After Ishiguro retired in 1983, digital computers displaced the analog simulation; the machine now sits in the Science Museum, London, a road the field did not take." />
+    <meta property="og:title" content="Ishiguro Electronic Storm Surge Model — HCI Museum" />
+    <meta property="og:description" content="After the 1953 North Sea flood, the UK&#039;s National Institute of Oceanography tasked oceanographer Shizuo Ishiguro with understanding storm surges. He built a physical analog computer that represented the North Sea as a grid of roughly 80 nodes, wired so that the flow of electricity between them stood for the flow of water. Resistors, capacitors, and inductors encoded the difference in water height, sea depth, coastlines, the Coriolis force, and time-dependent tides from the Moon and Sun. The machine stood about 1.8 m tall across two V-angled panels so modellers could reach front and back; it was used at the NIO from 1960 until about 1983. Its interface is the whole point: by its later years a Commodore CBM 8032 with 5.25-inch floppies set up and fed parameters into the grid, while the answer appeared as a live trace on an Advance Instruments OS-240 oscilloscope, photographed rather than saved. The museum has plenty of screens; almost nothing else where the computer *is a physical model of a place*. To forecast a surge you did not type numbers into a program — you poked at a circuit&#039;s physics and watched electricity impersonate the sea. After Ishiguro retired in 1983, digital computers displaced the analog simulation; the machine now sits in the Science Museum, London, a road the field did not take." />
+    <meta property="og:site_name" content="HCI Museum" />
+    <meta property="og:type" content="article" />
+    <meta property="og:url" content="https://interfacemuseum.com/exhibits/ishiguro-storm-surge-model/" />
+    <meta property="og:image" content="https://interfacemuseum.com/og/exhibits/ishiguro-storm-surge-model.jpg" />
+    <meta property="og:image:secure_url" content="https://interfacemuseum.com/og/exhibits/ishiguro-storm-surge-model.jpg" />
+    <meta property="og:image:type" content="image/jpeg" />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="630" />
+    <meta property="og:image:alt" content="Ishiguro Electronic Storm Surge Model archival photograph" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Ishiguro Electronic Storm Surge Model — HCI Museum" />
+    <meta name="twitter:description" content="After the 1953 North Sea flood, the UK&#039;s National Institute of Oceanography tasked oceanographer Shizuo Ishiguro with understanding storm surges. He built a physical analog computer that represented the North Sea as a grid of roughly 80 nodes, wired so that the flow of electricity between them stood for the flow of water. Resistors, capacitors, and inductors encoded the difference in water height, sea depth, coastlines, the Coriolis force, and time-dependent tides from the Moon and Sun. The machine stood about 1.8 m tall across two V-angled panels so modellers could reach front and back; it was used at the NIO from 1960 until about 1983. Its interface is the whole point: by its later years a Commodore CBM 8032 with 5.25-inch floppies set up and fed parameters into the grid, while the answer appeared as a live trace on an Advance Instruments OS-240 oscilloscope, photographed rather than saved. The museum has plenty of screens; almost nothing else where the computer *is a physical model of a place*. To forecast a surge you did not type numbers into a program — you poked at a circuit&#039;s physics and watched electricity impersonate the sea. After Ishiguro retired in 1983, digital computers displaced the analog simulation; the machine now sits in the Science Museum, London, a road the field did not take." />
+    <meta name="twitter:image" content="https://interfacemuseum.com/og/exhibits/ishiguro-storm-surge-model.jpg" />
+    <meta name="twitter:image:alt" content="Ishiguro Electronic Storm Surge Model archival photograph" />
+    <title>Ishiguro Electronic Storm Surge Model — HCI Museum</title>
+    <link rel="icon" type="image/gif" href="/favicon.gif" />
+    <link rel="icon" type="image/png" href="/favicon.png" />
+    <link rel="alternate" type="text/plain" title="HCI Museum llms.txt" href="/llms.txt" />
+    <link rel="alternate" type="application/rss+xml" title="HCI Museum Collection" href="/feeds/collection.xml" />
+    <link rel="alternate" type="application/rss+xml" title="HCI Museum Field Notes" href="/feeds/blog.xml" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="../../styles.css" />
+  </head>
+  <body>
+    <div class="atmosphere" aria-hidden="true">
+      <div class="atmosphere__grid"></div>
+      <div class="atmosphere__scanlines"></div>
+      <div class="atmosphere__vignette"></div>
+    </div>
+
+    <div class="page-shell">
+      <header class="site-header">
+        <a href="../../" class="brand">
+          <span class="brand__mark" aria-hidden="true"></span>
+          <span>HCI Museum</span>
+        </a>
+        <nav class="nav-primary" aria-label="Primary">
+          <a href="../../exhibits/" class="active">Exhibits</a>
+          <a href="../../blog/">Field Notes</a>
+          <a href="../../about/">About</a>
+        </nav>
+        <div class="header-meta">
+          <span class="header-meta__item">SYS_OK</span>
+          <span class="header-meta__pulse" aria-hidden="true"></span>
+        </div>
+      </header>
+
+      <main>
+
+        <article class="exhibit">
+          <header class="exhibit__hero">
+            <div class="exhibit__hero-text">
+              <div class="exhibit__eyebrow">
+                <span class="exhibit__year">1960–1983</span>
+                <span class="exhibit__by">Shizuo Ishiguro at the UK National Institute of Oceanography (NIO), Wormley</span>
+              </div>
+              <h1 class="exhibit__title">Ishiguro Electronic Storm Surge Model</h1>
+              <p class="exhibit__subtitle">A room-sized electrical analog of the North Sea — voltage stands in for water height — driven by an early-1980s Commodore desk computer and read off an oscilloscope</p>
+              <div class="exhibit__tags"><span class="exhibit__tag">HCI</span><span class="exhibit__tag">Analog Computer</span><span class="exhibit__tag">Scientific Modelling</span><span class="exhibit__tag">Instrument Front-End</span><span class="exhibit__tag">Physical State</span><span class="exhibit__tag">Output</span></div>
+            </div>
+
+            <div class="exhibit__hero-image-wrap">
+              <img
+                class="exhibit__hero-image"
+                src="../../assets/wiki/ishiguro-storm-surge-model.jpg"
+                alt="Ishiguro Electronic Storm Surge Model archival photograph"
+              />
+              <div class="exhibit__hero-scanlines" aria-hidden="true"></div>
+            </div>
+          </header>
+
+          <section class="exhibit__section exhibit__overview">
+            <h2 class="exhibit__section-title">Overview</h2>
+            <div class="exhibit__prose"><p>Following the North Sea flood of 1953, the UK government set up the Waverley Committee and tasked the National Institute of Oceanography with the scientific investigation of storm surges. In 1957 the Japanese oceanographer Shizuo Ishiguro, who had been developing analogue methods for predicting ocean surges, joined the NIO (first on a UNESCO fellowship, later as a permanent employee) to apply his work to the North Sea. Over the following years he built a physical analogue computer that represented the North Sea as a grid of roughly 80 nodes, each pair wired together so that the flow of electricity between them stood for the flow of water. The model combined resistors, capacitors, and inductors — encoding the difference in water height, fixed features like coastlines and sea depth, the Coriolis force of the Earth&#039;s rotation, and time-dependent tidal forces from the Moon and Sun — with signal generators providing the changing inputs. The machine stood about 1.8 m (6 ft) tall across two panels, wired in a shallow V-formation so modellers could reach the front and back of the grid. It was used at the NIO from 1960 until about 1983 to predict surge height and timing and to assess sea-wall and coastal-defence needs. Its interface is the whole point: by its later years a Commodore CBM 8032 desk computer with 5.25-inch floppy drives set up and fed parameters into the grid, while the result appeared as a live trace on an Advance Instruments OS-240 oscilloscope and was recorded photographically. After Ishiguro retired in 1983, improving digital computers displaced analogue simulation; the machine was acquired by the Science Museum, London, and today sits in its Mathematics Gallery on modelling the seas.</p></div>
+          </section>
+
+          <section class="exhibit__section exhibit__deep-dive">
+            <h2 class="exhibit__section-title">Deep dive</h2>
+            <div class="exhibit__facts">
+        <div class="exhibit__fact">
+          <div class="exhibit__fact-heading"><strong>The medium is the model.</strong></div>
+          <p>Most interfaces ask a user to describe a world in symbols and then trust the machine to compute it. Ishiguro&#039;s machine did the opposite: it <em>was</em> a scale model of the North Sea, made of electronics instead of water. Voltage and current mimicked height and flow; resistors stood in for the difficulty of moving water between points; capacitors and inductors introduced the inertia and lag of a real sea; signal generators supplied the tides and the storm. To interrogate the model you did not enter an equation — you poked at its physics. That makes it one of the collection&#039;s purest examples of an interface where the representation and the thing represented share a structure, an idea that later becomes the justification for everything from physical mock-ups to tangible computing.</p>
+        </div>
+      
+        <div class="exhibit__fact">
+          <div class="exhibit__fact-heading"><strong>An 80-node hand-built grid.</strong></div>
+          <p>The North Sea was discretised into approximately 80 nodes — far coarser than any modern numerical surge model, but enough to resolve the broad movement of a surge southwards across the basin. Each node was an electrical junction whose behaviour depended on its neighbours through wire, and the whole grid was hand-built across two tall panels. The V-formation wiring let a scientist walk behind the array to trace or patch connections. This is a remarkable inversion of scale: a body of water hundreds of kilometres across reduced to a furniture-sized lattice of components, with the <em>topology of the wiring</em> holding the coastline and the sea depth. The model&#039;s accuracies and its blind spots were literally built into the wiring, and could not be adjusted without reaching into it.</p>
+        </div>
+      
+        <div class="exhibit__fact">
+          <div class="exhibit__fact-heading"><strong>Input as instrumentation: the CBM 8032.</strong></div>
+          <p>In its later years the machine acquired a strange digital front end: a Commodore CBM 8032 — a PET-line desk computer with a monochrome screen and calculator-style keyboard — together with Commodore 2031 5.25-inch floppy drives. Rather than a graphical simulation on the screen, the microcomputer drove and parameterised the analog grid, setting up the time-dependent inputs and tidal conditions, while the screen stayed a text and command surface. The pairing is an accidental portrait of the analog-to-digital transition: the model itself remained stubbornly analog, but the human interaction around it migrated to a personal computer. Users were therefore fluent in two interfaces at once — a text machine for setup and a physical circuit for the answer.</p>
+        </div>
+      
+        <div class="exhibit__fact">
+          <div class="exhibit__fact-heading"><strong>Output as trace: the OS-240 oscilloscope.</strong></div>
+          <p>The machine did not print a table of predicted water levels. The surge appeared as a live waveform on an Advance Instruments OS-240 oscilloscope, and the result was captured by photographing the screen. That is a profoundly different interaction from a saved digital file: the output is a transient signal, observed in real time, whose permanence depended on a camera. Reading the machine was an instrument-reading skill — watching a trace rise and fall, judging the maximum tidal height and the time at which it would occur. The oscilloscope made the sea legible as a squiggle of voltage, and the photograph made that squiggle into a record. The museum cares about this because it collapses input, computation, and output onto instruments of observation rather than windows, dialogs, and files.</p>
+        </div>
+      
+        <div class="exhibit__fact">
+          <div class="exhibit__fact-heading"><strong>Why analog, and why it ended.</strong></div>
+          <p>Digital computers capable of solving the flow equations existed in the 1960s, but Ishiguro argued that the analog approach was more flexible and sidestepped the discretisation problems of finite time steps — continuous electronics had no step size to get wrong. His position lost the argument to Moore&#039;s law: as digital simulation became faster and cheaper, numerical models displaced the physical grid, and the machine was retired around the time Ishiguro left in 1983. It survives as an artifact not because analog won, but because it captures a road the field did not take — a computing practice in which the model, the input device, and the output device were distinct instruments arranged around a physical simulation rather than fused into a single screen.</p>
+        </div>
+      
+        <div class="exhibit__fact">
+          <div class="exhibit__fact-heading"><strong>Why it belongs in a museum of interfaces.</strong></div>
+          <p>The Ishiguro machine expands what counts as an interface. Its input surface is a microcomputer and a patchwork of wires; its display is an oscilloscope; its medium is a hand-built electrical analogue of the sea. It shows that before the universal screen, technical interaction could be specific, physical, and literally shaped like the problem — and that such specificity had real virtues (speed, continuity, immediacy) as well as real limits (fragility, hand-built bias, no replay). It also quietly records a turning point, when the <em>front</em> of an analog instrument came to wear a personal computer, a hybrid too rare to see in most hardware histories.</p>
+        </div>
+      </div>
+          </section>
+
+          
+          <section class="exhibit__section exhibit__team">
+            <h2 class="exhibit__section-title">Team &amp; pioneers</h2>
+            <ul class="exhibit__team-list">
+            <li class="exhibit__team-item">
+              <span class="exhibit__team-name">Shizuo Ishiguro (1919–2007).</span>
+              <span class="exhibit__team-note"> Japanese oceanographer who joined the UK National Institute of Oceanography in 1957 on a UNESCO fellowship; conceived, built, and operated the analogue storm-surge machine, and continued work at home after retiring in 1983.</span>
+            </li>
+            <li class="exhibit__team-item">
+              <span class="exhibit__team-name">UK National Institute of Oceanography (NIO).</span>
+              <span class="exhibit__team-note"> Now the National Oceanography Centre; responsible after the 1953 North Sea flood for the scientific study of storm surges, and the institution that hosted and used the machine at Wormley.</span>
+            </li>
+            <li class="exhibit__team-item">
+              <span class="exhibit__team-name">Waverley Committee.</span>
+              <span class="exhibit__team-note"> UK government committee formed after the 1953 flood that helped set the programme of storm-surge investigation behind the machine&#039;s construction.</span>
+            </li>
+            </ul>
+          </section>
+
+          
+          <section class="exhibit__section exhibit__media">
+            <h2 class="exhibit__section-title">Media</h2>
+            <div class="exhibit__media-grid">
+        <figure class="exhibit__media-item">
+          <div class="exhibit__media-frame">
+            <img src="../../assets/wiki/ishiguro-storm-surge-model.jpg" alt="Ishiguro&#039;s electronic ocean model in the Science Museum, London" loading="lazy" />
+            <div class="exhibit__media-scanlines" aria-hidden="true"></div>
+          </div>
+          <figcaption>Shizuo Ishiguro&#039;s electronic storm-surge model, built 1960–1983 and now in the Mathematics Gallery of the Science Museum, London. Its two tall panels hold a hand-wired electrical analogue of the North Sea. (Image: Wikimedia Commons, CC0.)</figcaption>
+        </figure>
+      
+        <figure class="exhibit__media-item">
+          <div class="exhibit__media-frame">
+            <img src="../../assets/wiki/ishiguro-cbm8032.jpg" alt="The Commodore CBM 8032-based input station for Ishiguro&#039;s model" loading="lazy" />
+            <div class="exhibit__media-scanlines" aria-hidden="true"></div>
+          </div>
+          <figcaption>The digital front end of Ishiguro&#039;s model: a Commodore CBM 8032 and 5.25-inch floppy drives used to feed the analog grid. (Image: Wikimedia Commons, CC BY 4.0.)</figcaption>
+        </figure>
+      </div>
+          </section>
+          
+
+          
+          <section class="exhibit__section exhibit__sources">
+            <h2 class="exhibit__section-title">Sources</h2>
+            <ol class="exhibit__source-list">
+        <li>
+          <a href="https://en.wikipedia.org/wiki/Ishiguro_Storm_Surge_Computer" target="_blank" rel="noopener">Wikipedia — Ishiguro Storm Surge Computer (1953 flood and Waverley Committee; Ishiguro joins NIO 1957; ~80-node electrical grid; Coriolis and tidal forces; CBM 8032 + 5.25&quot; drives; OS-240 oscilloscope output recorded photographically; retired ~1983)</a>
+        </li>
+      
+        <li>
+          <a href="https://collection.sciencemuseumgroup.org.uk/objects/co8428222/electronic-storm-surge-modelling-machine-storm-surge-model" target="_blank" rel="noopener">Science Museum Group Collection — Electronic storm surge modelling machine (object co8428222 / 2015-15): two mesh panels in a V-formation, ~1.8 m tall, CBM 8032 and Commodore 2031 drive, OS-240 oscilloscope</a>
+        </li>
+      
+        <li>
+          <a href="http://journal.sciencemuseum.ac.uk/browse/issue-06/understanding-storm-surges/" target="_blank" rel="noopener">Science Museum Group Journal — Claire Kennard, &quot;Understanding storm surges&quot; (2016), on the machine&#039;s display and context</a>
+        </li>
+      
+        <li>
+          <a href="https://commons.wikimedia.org/wiki/File:Electronic_ocean_model,_built_by_Shizuo_Ishiguro,_1960-1983_-_Science_Museum,_London_-_DSC05546.jpg" target="_blank" rel="noopener">Wikimedia Commons — File:Electronic ocean model, built by Shizuo Ishiguro, 1960-1983 - Science Museum, London - DSC05546.jpg (CC0)</a>
+        </li>
+      </ol>
+          </section>
+          
+
+          <nav class="exhibit__nav" aria-label="Exhibit navigation">
+            <a href="../honeywell-visicorder/" class="exhibit__nav-link exhibit__nav-link--prev">
+        <span class="exhibit__nav-dir">← Previous</span>
+        <span class="exhibit__nav-title">Honeywell Visicorder (Fiber-Optic CRT Optical Recorder)</span>
+      </a>
+            <a href="../../exhibits/" class="exhibit__nav-link exhibit__nav-link--index">All exhibits</a>
+            <a href="../linn-lm-1/" class="exhibit__nav-link exhibit__nav-link--next">
+        <span class="exhibit__nav-dir">Next →</span>
+        <span class="exhibit__nav-title">Linn LM-1 Drum Computer</span>
+      </a>
+          </nav>
+        </article>
+      </main>
+
+      <footer class="site-footer">
+        <span>HCI Museum // Curated by Beepy</span>
+        <span class="site-footer__signal">SIGNAL_STABLE</span>
+      </footer>
+    </div>
+
+    <!-- Cloudflare Web Analytics --><script defer src='https://static.cloudflareinsights.com/beacon.min.js' data-cf-beacon='{"token": "8dcb1e0fcb41470b8769c87691688807"}'></script><!-- End Cloudflare Web Analytics -->
+  </body>
+</html>

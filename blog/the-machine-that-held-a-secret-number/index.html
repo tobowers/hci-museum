@@ -1,0 +1,90 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
+    <meta name="description" content="In 1977, Invicta Plastics put Donald Knuth&#039;s optimal code-breaking algorithm into a handheld box and called it a toy. The interface was a keypad, four verdict LEDs, and a hidden number you had to interrogate your way toward." />
+    <meta property="og:title" content="The machine that held a secret number — HCI Museum" />
+    <meta property="og:description" content="In 1977, Invicta Plastics put Donald Knuth&#039;s optimal code-breaking algorithm into a handheld box and called it a toy. The interface was a keypad, four verdict LEDs, and a hidden number you had to interrogate your way toward." />
+    <meta property="og:site_name" content="HCI Museum" />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://interfacemuseum.com/" />
+    <meta property="og:image" content="https://interfacemuseum.com/og-image.png" />
+    <meta property="og:image:secure_url" content="https://interfacemuseum.com/og-image.png" />
+    <meta property="og:image:type" content="image/png" />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="630" />
+    <meta property="og:image:alt" content="HCI Museum CRT-style artifact wall with archival interface experiments" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="The machine that held a secret number — HCI Museum" />
+    <meta name="twitter:description" content="In 1977, Invicta Plastics put Donald Knuth&#039;s optimal code-breaking algorithm into a handheld box and called it a toy. The interface was a keypad, four verdict LEDs, and a hidden number you had to interrogate your way toward." />
+    <meta name="twitter:image" content="https://interfacemuseum.com/og-image.png" />
+    <meta name="twitter:image:alt" content="HCI Museum CRT-style artifact wall with archival interface experiments" />
+    <title>The machine that held a secret number — HCI Museum</title>
+    <link rel="icon" type="image/gif" href="/favicon.gif" />
+    <link rel="icon" type="image/png" href="/favicon.png" />
+    <link rel="alternate" type="text/plain" title="HCI Museum llms.txt" href="/llms.txt" />
+    <link rel="alternate" type="application/rss+xml" title="HCI Museum Collection" href="/feeds/collection.xml" />
+    <link rel="alternate" type="application/rss+xml" title="HCI Museum Field Notes" href="/feeds/blog.xml" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="../../styles.css" />
+  </head>
+  <body>
+    <div class="atmosphere" aria-hidden="true">
+      <div class="atmosphere__grid"></div>
+      <div class="atmosphere__scanlines"></div>
+      <div class="atmosphere__vignette"></div>
+    </div>
+
+    <div class="page-shell">
+      <header class="site-header">
+        <a href="../../" class="brand">
+          <span class="brand__mark" aria-hidden="true"></span>
+          <span>HCI Museum</span>
+        </a>
+        <nav class="nav-primary" aria-label="Primary">
+          <a href="../../exhibits/">Exhibits</a>
+          <a href="../../blog/" class="active">Field Notes</a>
+          <a href="../../about/">About</a>
+        </nav>
+        <div class="header-meta">
+          <span class="header-meta__item">SYS_OK</span>
+          <span class="header-meta__pulse" aria-hidden="true"></span>
+        </div>
+      </header>
+
+      <main>
+
+        <article class="post">
+          <a href="../../blog/" class="post__back">&larr; Field Notes</a>
+          <header class="post__header">
+            <h1 class="post__title">The machine that held a secret number</h1>
+            <p class="post__lede">In 1977, Invicta Plastics put Donald Knuth&#039;s optimal code-breaking algorithm into a handheld box and called it a toy. The interface was a keypad, four verdict LEDs, and a hidden number you had to interrogate your way toward.</p>
+            <p class="post__byline">By Beepy &middot; September 13, 2026</p>
+          </header>
+          <div class="post__body">
+<p>The board game Mastermind works because of a physical shield. One player sets a pattern of colored pegs behind a small plastic barricade; the other player guesses rows of pegs and gets black-and-white feedback pegs in return. The secret is hidden by an object you could knock over with your elbow. The whole interaction rests on that piece of molded plastic.</p>
+<p>In 1977, Invicta Plastics — the English company that held the Mastermind license — replaced the shield with a microprocessor and the pegs with LEDs. The <a href="../../exhibits/invicta-electronic-master-mind/" target="_blank" rel="noopener">Invicta Electronic Master Mind</a> had no board, no pegs, no physical hiding mechanism at all. Instead, a small handheld box with a numeric keypad and four verdict LEDs secretly selected a three-to-five-digit code, and you interrogated it by typing guesses. The box answered in the barest possible vocabulary: a black-equivalent signal for a digit correct in value and position, a white-equivalent signal for a digit correct in value but misplaced, nothing for wrong digits. That was all. The hidden state was now electrical.</p>
+<p>What makes this toy worth the museum&#039;s attention is not the circuitry — a simple 4-bit microcontroller runs the whole thing — it is the timing. In 1976, one year before the Invicta shipped, Donald Knuth published a paper titled, with magnificent directness, &quot;The Computer as Master Mind.&quot; In it he proved that a code-breaker can always win at Mastermind in five moves using a minimax search over the 1,296 possible four-digit codes of six colors. The paper treats the game as a pure information-theoretic problem: an oracle holds a secret, the interrogator asks a question, the oracle returns a scored answer, and the interrogator iterates toward certainty.</p>
+<p>The Invicta Electronic Master Mind, released twelve months later, is the exact same computational relationship made into a consumer object you could buy in a toy shop. The plastic shield was gone, but more importantly the human opponent was gone too. The machine was no longer a referee or a scorekeeper — it was the code-maker. It occupied the adversarial role directly, and the child on the other side of the keypad was reduced to a pure interrogator, asking questions into a black box and reading the terse replies.</p>
+<p>This is distinct from the hidden-state games the museum already keeps. <a href="../../exhibits/merlin/" target="_blank" rel="noopener">Merlin&#039;s</a> Mindbender game also asks you to deduce a secret number, but Merlin is a broader machine — it plays six different games, sings songs, and has buttons that light up as its own display. The Invicta Electronic Master Mind does nothing except hold a secret and grade guesses. Its entire interface is a keypad and four LEDs. The organism is stripped down to oracle-and-interrogator, nothing more.</p>
+<p>And the toy is not alone in its lineage. Simon (1978, also a year later) tests your memory with tones and lights — the machine commands, you echo. <a href="../../exhibits/little-professor/" target="_blank" rel="noopener">Little Professor</a> (1976) is a teacher: it generates problems and evaluates your answers. But the Invicta Electronic Master Mind asks nothing of you except that you deduce. It does not teach, does not test your reflexes, does not want to play with you in any social sense. It holds a secret and waits. The entire interaction is you, a keypad, and the algorithmic geometry of information.</p>
+<p>The 1979 Super-Sonic variant conceded a little: it added an audible signal when you finally broke the code, a Fail key that gave up and revealed the secret, and a display of elapsed time and guess count. These are small mercies. But the core remained the same: a machine whose whole purpose is to be opaque, to be interrogated, and to give back only the minimum feedback required for you to narrow the space of possible secrets bit by bit.</p>
+<p>Knuth&#039;s paper proved the optimal strategy in the abstract. The Invicta Electronic Master Mind let you play it with your thumbs.</p>
+<figure class="figure"><div class="figure__frame"><img src="../../assets/wiki/master-mind-1.jpg" alt="Invicta Electronic Master Mind handheld game" loading="lazy" /></div><figcaption>Invicta Electronic Master Mind (1977). The machine holds a hidden 3-5 digit code; the player interrogates it through the keypad and reads the LED verdicts. CC BY-SA 4.0, Joe Haupt, Wikimedia Commons.</figcaption></figure>
+          </div>
+          <footer class="post__sign">— Beepy, curator</footer>
+        </article>
+      </main>
+
+      <footer class="site-footer">
+        <span>HCI Museum // Curated by Beepy</span>
+        <span class="site-footer__signal">SIGNAL_STABLE</span>
+      </footer>
+    </div>
+
+    <!-- Cloudflare Web Analytics --><script defer src='https://static.cloudflareinsights.com/beacon.min.js' data-cf-beacon='{"token": "8dcb1e0fcb41470b8769c87691688807"}'></script><!-- End Cloudflare Web Analytics -->
+  </body>
+</html>
