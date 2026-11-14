@@ -286,6 +286,7 @@ Each entry includes an overview, a deep dive, a small media gallery, and full so
 276. [Solari Split-Flap Display (1976)](#solari-split-flap-display-1976)
 241. [Yeoman Navigator / Sport Electronic Plotter (1985)](#yeoman-navigator--sport-electronic-plotter-1985)
 278. [Lyricon / Wind Synthesizer Driver (1977)](#lyricon--wind-synthesizer-driver-1977)
+278b. [Variophon Breath Controller (1981)](#variophon-breath-controller-1981)
 279. [Fidelity Bridge Challenger (1980)](#fidelity-bridge-challenger-1980)
 280. [Zeiss REC-100 Field Data Recorder (1980)](#zeiss-rec-100-field-data-recorder-1980)
 281. [Tamaya Planix Digital Planimeter (1985)](#tamaya-planix-digital-planimeter-1985)
@@ -12671,6 +12672,39 @@ The defining interaction is the guided fix. In position mode, four illuminated a
 1. Wikipedia — Yeoman plotter — https://en.wikipedia.org/wiki/Yeoman_plotter
 2. Yeoman Frequently Asked Questions (Waypoint, archived) — https://web.archive.org/web/20160112195202/http://www.waypoints.com/popups/yeomanfaq.html
 3. Yeoman Sport User Manual (Precision Navigation, archived) — https://web.archive.org/web/20141129033926/http://www.precisionnavigation.co.uk/products.html
+
+## Variophon Breath Controller (1981)
+
+**By:** Realton (Euskirchen) with the musicology institute of the University of Cologne — Jobin Fricke, Josef Voigt, Horst Schmitz (developers)
+**Tags:** `HCI` `Music` `Input` `Breath` `Embodied` `Pre-MIDI`
+
+The Variophon is a wind-synthesizer built in West Germany from 1981, and its sensor story is the opposite of every other breath controller in the museum. Where the Lyricon and the Akai EWI treat breath as one more continuous fader — a "wind" voltage that mostly means *louder* — the Variophon's makers took a theory of sound at face value: a brass or reed tone is just the train of excitation pulses produced by vibrating lips, and everything else is a filter. So the player was not asked to *control* the instrument so much as to *be its oscillator*. Breath pressure and lip vibration were captured directly at the mouthpiece and used as the raw excitation signal for a pulse-forming (Impulsformung) synthesizer, which then shaped that signal into saxophone, trumpet, trombone, oboe, clarinet, bassoon or pan-flute timbres.
+
+It was developed in the 1970s and early 1980s at the musicology institute of the University of Cologne, where the question being asked was the basic one of why instruments have the timbres they do; Realton of Euskirchen began building units around 1981. Rather than one integrated instrument, the system was a set of mouthpieces and a separate blow converter — the electronics box that turned breath and lip movement into a control signal — feeding "Spot", "Gig" and "Standard" synthesizer units. Talk Talk used a Variophon on *The Colour of Spring* (1986), where on "Chameleon Day" it stands in for a muted trumpet.
+
+* **Breath as excitation, not amplitude.** The defining HCI idea is that the human airway supplies the *signal*, not merely the gain. The mouthpiece is a sensor for lip-reed pulsation plus air pressure; the synthesizer filters it. This makes the Variophon the museum's clearest example of a control surface that models the physics of the body it reads, rather than measuring a convenient proxy like force or position.
+* **The blow converter as a discrete input device.** The breath sensor shipped as its own box, connected to the synth by cable. It is a stand-alone human-to-machine transducer — in effect a breath peripheral, years before MIDI and two decades before the USB MIDI breath controller became a standard plugin accessory.
+* **Improvised embodiment.** The same blow converter was also fitted into a Weltmeister accordion, using the bellows-driven airflow as the excitation source — an early demonstration that the sensor, not the instrument, was the real interface.
+* **Against the collection.** The museum already holds two breath-sensing wind controllers, the optical Lyricon (1977) and the EWI lineage. The Variophon is included not for its breath channel but for what that channel *is*: rather than a volume controller bolted to a note generator, it is a lip-pulse pickup whose output is the sound source itself.
+
+### Team
+
+* **Jobin Fricke, Josef Voigt, Horst Schmitz.** Developers at the University of Cologne musicology institute.
+* **Realton.** Euskirchen manufacturer; built the Variophon from c. 1981.
+
+### Media
+
+![Variophon blow converter](../assets/wiki/variophon-blow-converter.jpg)
+*Variophon blow converter — the breath and lip-pressure sensor box for the Spot, Gig and Standard models, early 1980s (CC BY-SA 4.0, Christoph Reuter and Holger Schefczik, Wikimedia Commons).*
+
+![Variophon breath controller built into an accordion](../assets/wiki/variophon-breath-controller-accordion.jpg)
+*A Variophon breath controller built into a Weltmeister accordion (CC BY-SA 4.0, Christoph Reuter and Holger Schefczik, Wikimedia Commons).*
+
+### Sources
+
+1. Wikipedia (German) — Variophon — https://de.wikipedia.org/wiki/Variophon
+2. variophon.de — the makers' site — http://variophon.de/
+3. Vintage Audio Berlin — Realton Variophon gallery — http://www.vintageaudioberlin.de/vabgalerien/kurioses/realton-variophon/index.htm
 
 ## Lyricon / Wind Synthesizer Driver (1977)
 

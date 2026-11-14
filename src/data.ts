@@ -3488,7 +3488,20 @@ const exhibitData: Exhibit[] = [
     blurb:
       "The Yeoman Plotter fused paper navigation charts with live electronic position data through the strangest possible interface: it moves your hand. A conventional chart is pinned to a surface woven with fine sensing wires; a handheld 'mouse' carries a sensing ring whose position is read by electromagnetic induction. After registering three known chart points, the mouse becomes the link between the pilot's arm and the vessel's GPS fix. In position mode, four illuminated arrows surround the mouse's transparent window and light up to point the way; the pilot drags the mouse, following the arrows, until all four go out — meaning the ring is directly over the vessel's position — and marks the fix with a pencil through a hole. The human becomes a servo in a closed visual-motor loop steered by light cues, and the 35-inch 'display' is the paper chart itself, which survives a total electronics failure. Made by the British Yeoman Group from 1985 into the 2010s, it is the museum's only hand-tracking navigation device and its clearest pre-smartphone example of technology steering a limb to a location.",
     tags: ["HCI", "Navigation", "Embodied", "Input", "Output"],
-    image: img("yeoman-chart-table.jpg"),
+     image: img("yeoman-chart-table.jpg"),
+  },
+  {
+    id: "variophon",
+    slug: "variophon",
+    wikiTitle: "Variophon Breath Controller",
+    year: "1981",
+    sortYear: 1981,
+    title: "Variophon Breath Controller",
+    subtitle: "Your lips are the oscillator: a breath sensor that supplies the excitation, not just the volume",
+    blurb:
+      "Unlike every other wind controller, the Variophon's breath input is not a loudness pedal. Its makers argued that a brass or reed tone is nothing but the train of pressure pulses made by vibrating lips, so the player's embouchure and breath were captured as the raw excitation signal itself and filtered to become saxophone, trumpet, oboe or pan flute. Built from 1981 by Realton in Euskirchen after research at the University of Cologne's musicology institute, it was played by Talk Talk on 'The Colour of Spring'. The blow converter was a separate box, and the same sensor was even bodged into a Weltmeister accordion.",
+    tags: ["HCI", "Music", "Input", "Breath", "Embodied", "Pre-MIDI"],
+    image: img("variophon-blow-converter.jpg"),
   },
   {
     id: "lyricon",
