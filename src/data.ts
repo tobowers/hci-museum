@@ -4023,6 +4023,19 @@ const exhibitData: Exhibit[] = [
     tags: ["Annunciator", "Alarm Design", "Process Control", "Safety-Critical HCI", "Semantic Color"],
     image: img("tmi2-control-room-nara.jpg"),
   },
+  {
+    id: "isg-viewing-wand",
+    slug: "isg-viewing-wand",
+    wikiTitle: "ISG Viewing Wand Computer-Aided Surgery Arm",
+    year: "1988–1993",
+    sortYear: 1988,
+    title: "ISG Viewing Wand",
+    subtitle: "A passive, counterweighted six-axis robot arm as the pointing device for a patient's own scanned head",
+    blurb:
+      "The ISG Viewing Wand was an operating-room image-guidance system whose 'mouse' was a metre-long articulated electrogoniometer bolted beside the table. The surgeon touched a probe to fiducial markers on a patient's scalp to register CT/MRI space to the real head, then physically swept the inert, counterbalanced arm through space to walk a crosshair through triplanar reformatted slices and 3D surface models. Six transducer-equipped joints resolved into a tip position by forward kinematics; the arm pushed back against nothing, and the only feedback was the picture on screen. Its sterile flat-bag and clip-on autoclaved probes made a measuring linkage into surgical furniture — a display-only loop with a human head as the hard reference surface.",
+    tags: ["Medical", "Surgical", "Spatial Input", "Tracking"],
+    image: img("isg-viewing-wand-patent-fig1.png"),
+  },
 ];
 
 export const exhibits: Exhibit[] = exhibitData.toSorted((a, b) => b.sortYear - a.sortYear || a.title.localeCompare(b.title));
