@@ -4023,6 +4023,19 @@ const exhibitData: Exhibit[] = [
     tags: ["Annunciator", "Alarm Design", "Process Control", "Safety-Critical HCI", "Semantic Color"],
     image: img("tmi2-control-room-nara.jpg"),
   },
+  {
+    id: "isg-viewing-wand",
+    slug: "computer-aided-surgery-arm-isg-viewing-wand-19881993",
+    wikiTitle: "Computer-Aided Surgery Arm — ISG Viewing Wand",
+    year: "1988–1993",
+    sortYear: 1988,
+    title: "ISG Viewing Wand",
+    subtitle: "A surgical pointer that was a counterweighted robot arm in a sterile bag",
+    blurb:
+      "Before a mouse could touch a patient, surgeons steered a cursor through CT slices with a six-axis passive measuring arm bolted beside the operating table. The probe tip on the scalp registered image to anatomy; the arm then read out where the hand went. No force feedback — only a monitor.",
+    tags: ["Medical", "Surgical", "Input", "Tracking"],
+    image: img("isg-viewing-wand-1.png"),
+  },
 ];
 
 export const exhibits: Exhibit[] = exhibitData.toSorted((a, b) => b.sortYear - a.sortYear || a.title.localeCompare(b.title));
