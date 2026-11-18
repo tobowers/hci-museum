@@ -1,0 +1,45 @@
+{
+  "slug": "genigraphics-100",
+  "title": "Genigraphics 100 Presentation Graphics Console",
+  "subtitle": "A room-sized slide studio with a wall of knobs and joysticks — the direct ancestor of PowerPoint",
+  "year": "1973",
+  "sortYear": 1973,
+  "era": "1976-1992",
+  "category": "Presentation & Performance Control",
+  "blurb": "Genigraphics began as a General Electric computer-graphics system for NASA space-flight simulation, and in 1973 GE delivered the first commercial 100 Series presentation system to Amoco. The console is the exhibit: an array of buttons, dials, knobs and joysticks alongside a built-in keyboard, all driving a PDP-11/40 through random-access DECtape to compose charts and titles that a Forox film recorder then burned onto 35mm or 72mm film at up to 2,000-line resolution. Later 100B–D+ models replaced the knob array with on-screen text menus, a graphics tablet and a pen; the pen gave way to a mouse-like device. In 1988 Microsoft and Genigraphics struck a deal: PowerPoint shipped with Genigraphics palettes and gradients and a 'Send to Genigraphics' command that modemmed your file to a bureau for overnight slide production. The room-sized knob console and the desktop template share one lineage, and the museum holds the origin point: a control surface so physical that a graphics operator worked it with both hands and a grid of joysticks.",
+  "creator": "General Electric (Computed Images System & Services / CISS); spun off in 1982 as Genigraphics Corporation",
+  "manufacturer": "General Electric / Genigraphics Corporation",
+  "tagline": "Where corporate slides were made by hand, on knobs",
+  "tags": ["Presentation", "Computer Graphics", "Slide Production", "Film Recorder", "PDP-11", "PowerPoint", "Analog Control Panel"],
+  "images": [
+    {
+      "path": "genigraphics-100-console.png",
+      "caption": "The console of the original Genigraphics 100 system, c. 1973: banks of buttons, dials, knobs, and joysticks around a built-in keyboard.",
+      "credit": "General Electric / Genigraphics Corporation, public domain"
+    },
+    {
+      "path": "genigraphics-100-in-use.png",
+      "caption": "An artist at the console of a Genigraphics 100, composing a slide on the vector display.",
+      "credit": "General Electric / Genigraphics Corporation, public domain"
+    },
+    {
+      "path": "genigraphics-100-sample-slides.png",
+      "caption": "A sample slide produced by a Genigraphics 100 around 1973.",
+      "credit": "General Electric / Genigraphics Corporation, public domain"
+    }
+  ],
+  "sources": [
+    "https://en.wikipedia.org/wiki/Genigraphics",
+    "Robles-Anderson, Erica & Svensson, Patrik. 'One Damn Slide After Another': PowerPoint at Every Occasion for Speech. Computational Culture 5, 2016.",
+    "Gaskins, Robert. Sweating Bullets: Notes about Inventing PowerPoint. Vinland Books, 2012.",
+    "https://ntrs.nasa.gov/archive/nasa/casi.ntrs.nasa.gov/20020087777.pdf"
+  ],
+  "notes": [
+    "The 100 Series is the exhibit's strongest case of a *dedicated* graphics control surface: dozens of discrete physical controls, each bound to one transformation (a dial for size, a joystick for position), rather than a general-purpose mouse-and-menu UI. That is the pre-WIMP way of drawing with a computer.",
+    "The interface lineage runs in reverse of the usual story: the 100B–D+ moved FROM knobs TO on-screen text menus plus a graphics tablet and pen, and then to a mouse-like device. The museum gets a rare chance to show a physical panel being replaced by a screen-based one within a single product family.",
+    "PDP-11/40 backbone, DECtape random-access storage for completed presentations, Forox recorder at 2,000 lines (later 4,000 and 8,000 via duplex and 4x scanning). The output medium is film, not pixels — a screen-full-size slide for projection, not a saved file.",
+    "The Last Starfighter's computer-generated scenes were calculated on a Cray X-MP and mastered with a Genigraphics film recorder — a nice cross-reference to the Digistar exhibit, whose prototype generated Star Trek II starfields.",
+    "The PowerPoint connection is the payoff: PowerPoint 2.0 was designed for Genigraphics film recorders and shipped with Genigraphics color palettes, schemes, gradient backgrounds, and a 'Send to Genigraphics' menu item. PowerPoint 3.0's clip art, templates, sample decks, and chart style came from Genigraphics artists. This makes the knob console a direct genealogical ancestor of the default corporate slide.",
+    "The business model is part of the interface: you did not print at your desk. You dialed a modem and an overnight courier did the rest. 'Presentation' as a mediated service rather than a local file operation."
+  ]
+}

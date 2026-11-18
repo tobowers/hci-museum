@@ -1,6 +1,6 @@
 # The HCI Golden Age Wiki
 
-A research compendium for a digital museum of cutting-edge Human-Computer Interaction from the late 1970s through the early 1990s. These three hundred and twenty projects mix canonical experiments with weird, forgotten, and beautiful vaporware — brain control, voice control, gesture, wearable computing, VR, robots, and full-body exertion.
+A research compendium for a digital museum of cutting-edge Human-Computer Interaction from the late 1970s through the early 1990s. These three hundred and twenty-two projects mix canonical experiments with weird, forgotten, and beautiful vaporware — brain control, voice control, gesture, wearable computing, VR, robots, and full-body exertion.
 
 Each entry includes an overview, a deep dive, a small media gallery, and full source links so the images and facts can always be traced back.
 
@@ -327,6 +327,8 @@ Each entry includes an overview, a deep dive, a small media gallery, and full so
 316. [Computervision CADDS3 Workstation (Late 1970s)](#computervision-cadds3-workstation-late-1970s)
 317. [Three Mile Island TMI-2 Control Room Console (1979)](#three-mile-island-tmi-2-control-room-console-1979)
 318. [ISG Viewing Wand Computer-Aided Surgery Arm (1988–1993)](#isg-viewing-wand-computer-aided-surgery-arm-1988-1993)
+319. [AVL Eagle / ShowPro Multi-Image Controller (1980)](#avl-eagle--showpro-multi-image-controller-1980)
+320. [Genigraphics 100 Presentation Graphics Console (1973)](#genigraphics-100-presentation-graphics-console-1973)
     
 ---
 
@@ -14131,3 +14133,91 @@ The ISG Viewing Wand, sold from roughly 1988–1990 by ISG Technologies of Toron
 4. Drake, Rutka & Hoffman, "ISG Viewing Wand System", *Neurosurgery* 1994 — https://doi.org/10.1227/00006123-199406000-00026
 5. Intra-operative image guidance in otolaryngology — the use of the ISG viewing wand (Flinders research record) — https://researchnow.flinders.edu.au/en/publications/intra-operative-image-guidance-in-otolaryngology-the-use-of-the-i
 6. McGill MNI thesis, "The Viewing Wand" — OR unit imports Allegro data by magnetic tape, runs on an HP Unix workstation — http://www.bic.mni.mcgill.ca/users/patrice/msthesis/node14.html
+
+---
+
+## AVL Eagle / ShowPro Multi-Image Controller (1980)
+
+**By:** Audio Visual Laboratories (AVL), New Jersey, US; later spun off as Eagle Computer, Inc.  
+**Tags:** `Multi-image` `Slide Projector` `Timecode` `CP/M` `Live Show Control`
+
+### Overview
+
+Before PowerPoint, corporate and trade-show presentations were *multi-image*: dozens of 35mm slide projectors aimed at one wide screen, cross-fading so that still photographs appeared to move. Programming a show meant writing a timed list of projector and lamp commands and locking it to a soundtrack. Audio Visual Laboratories (AVL), founded by Gary Kappenman in New Jersey in the early 1970s, made the dedicated controllers that did this — first the ShowPro III and V, then, in 1980, the **Eagle**: the first *non-dedicated* multi-image controller, a general 4 MHz Zilog Z80A CP/M 2.2 business computer with an audio-visual interface board and one or two 5.25-inch floppy drives. A single Eagle could drive up to **thirty Kodak Ektagraphic projectors**, five 16mm film projectors, and twenty auxiliary control points (room lights, strobes, tape rewind). The programmer worked at the keyboard with headphones on, listening to the soundtrack and pressing keys in time, effectively performing the show into memory. The output of the interface was not a screen but a darkened lecture hall full of machinery.
+
+### Deep dive
+
+* **PROCALL is a language of physical verbs.** The Eagle ran PROCALL (PROgrammable Computer Audio-visual Language Library), and its vocabulary is the exhibit. *Forward* and *Reverse* rotate a slide tray one slot, lifting the current slide out, turning the tray, and dropping the next one in while a shutter masks the lamp; a cycle takes roughly 0.9–1.5 seconds depending on the projector. *Alt* advances nothing and changes only lamp state — the trick that lets two projectors alternate rapidly and read as motion. *Cut*, *Hard Cut* (via the shutter), *Soft Cut*, *Fade*, *Dissolve* (programmable from one to thirty-two seconds), and *Freeze*, which stops a fading lamp mid-intensity so one projector can hold a background while another dissolves over it. *Wait X* inserts padding; *Time X* binds a cue to a timecode value; *Loop* and *Blink* let the controller run a repeating sequence while it drives other projectors.
+* **Control signals ride audio cables.** Commands left the Eagle as two telemetry streams called **PosiTrak**, on RCA or XLR connectors, down the same kind of cabling used for sound. Each stream drove up to five outboard boxes called **Doves**, and each Dove in turn steered up to three Ektagraphic projectors (plus two dry-contact closures). This is a control interface wearing the costume of an audio interface — an elegant, and eventual, liability.
+* **ClockTrak: a timecode that refused to be SMPTE.** The timed cue list chased a biphase timecode called **ClockTrak**, read from the control channel of a multitrack analog tape deck. ClockTrak was similar to but deliberately incompatible with SMPTE video timecode. When shows began to incorporate video, programmers abandoned ClockTrak for SMPTE — a tidy case of a proprietary synchronization standard losing to the open one.
+* **Slot 80 is a shared coordinate system.** Every tray in a show reserved slot 80 for an alignment grid slide. Before programming began, all projectors — up to thirty of them — were registered to that identical grid so their images would overlap precisely on the wide screen. The alignment was enforced by media convention, not by software: a physical protocol for making a room full of independent machines agree on one geometry.
+* **The programmer as a profession.** Multi-image programming could take "a few hours to days, weeks and sometimes months." A photograph from the 1987 Ford New Car Announcement Show in Detroit shows the programming stations — AVL Eagle Genesis computers in the foreground — with named producers, art directors and a programmer behind them. This is the interaction the museum wants to hold: a performer listening through a soundtrack, pressing keys in rhythm to build a cue list that a room full of projectors will later execute.
+
+### Team
+
+* **Gary Kappenman.** Founder of Audio Visual Laboratories; introduced the first microprocessor-controlled multi-image programming computers (ShowPro III and V).
+* **Audio Visual Laboratories (AVL).** New Jersey manufacturer of multi-image control equipment; the Eagle was its first non-dedicated controller.
+* **Eagle Computer, Inc.** The company spun off from AVL to sell the Eagle line as CP/M business computers (1978–1986).
+
+### Media
+
+![AVL Eagle II with documentation](../assets/wiki/avl-eagle-ii.jpg)
+*An AVL Eagle II computer with its documentation binders. (Wikimedia Commons, CC BY-SA 3.0)*
+
+![The one-piece AVL Eagle II](../assets/wiki/avl-eagle-ii-2.jpg)
+*The one-piece AVL Eagle II: green monochrome monitor and dual 5.25-inch floppy drives. (Wikimedia Commons, CC BY-SA 3.0)*
+
+![Programming stations at the 1987 Ford show](../assets/wiki/avl-ford-show-1987.jpg)
+*Programming stations for the 1987 Ford New Car Announcement Show in Detroit: AVL Eagle Genesis computers in the foreground, with producers, art directors and the programmer behind. (Wikimedia Commons, public domain)*
+
+### Sources
+
+1. Eagle Computer — Wikipedia — https://en.wikipedia.org/wiki/Eagle_Computer
+2. Multi-image — Wikipedia — https://en.wikipedia.org/wiki/Multi-image
+3. AVL Multi-Image Slide Show Computers (Steven Michelsen) — http://www.stevenmichelsen.com/AVL/index.html
+4. Kenny, Michael F. & Schmitt, Raymond F. *Images, Images, Images: The Book of Programmed Multi-Image Production*. Eastman Kodak, 1983.
+5. AVL Genesis Procall-X manual — http://www.stevenmichelsen.com/AVL/AVL_Genesis_Procall_X.pdf
+
+---
+
+## Genigraphics 100 Presentation Graphics Console (1973)
+
+**By:** General Electric (Computed Images System & Services), later Genigraphics Corporation  
+**Tags:** `Presentation` `Computer Graphics` `Slide Production` `Film Recorder` `PowerPoint`
+
+### Overview
+
+Genigraphics began as a General Electric computer-graphics system, developed in the late 1960s for NASA to use in space-flight simulation, and in 1973 GE's Computed Images System & Services (CISS) division delivered the first commercial presentation-graphics system — the **100 Series** — to Amoco Oil's corporate headquarters. Built on DEC's PDP-11 minicomputers, the 100 was not a desktop tool: it was a room-sized slide studio. The user composed charts, titles and diagrams on a vector display, and a Forox film recorder then output the result onto 35mm or 72mm film at up to 2,000-line resolution (later 4,000 and 8,000 lines by altering the recorder's scanning). Genigraphics grew into a service bureau with 24 offices worldwide; GE divested the division in 1982, and in 1988 Microsoft and Genigraphics struck the partnership that embedded Genigraphics colour palettes, gradients, clip art and a "Send to Genigraphics" command into PowerPoint.
+
+### Deep dive
+
+* **The knob-and-joystick console.** The original 100 and 100A used "an array of buttons, dials, knobs and joysticks, along with a built-in keyboard, as the means of user interface." This is a *dedicated* control surface in the pre-WIMP sense: dozens of discrete physical controls, each bound to one transformation — a dial for size, a joystick for position — rather than a single general-purpose pointer and a menu. Drawing with such a computer meant working the panel with both hands, watching the result on the vector screen and adjusting the panel again.
+* **The interface ran backwards toward the screen.** The later 100B, C, D, D+ and D+/GVP models "replaced the knobs and dials with an on screen, text based menu system, a graphics tablet and a pen"; the pen/tablet combination later gave way to a mouse-like device. The museum rarely gets to show the physical-panel-to-screen transition happening *inside one product family*: the dials were abandoned in favour of menus, and then the tablet in favour of a mouse.
+* **Storage and the output medium.** Presentations were stored on random-access DECtape; a DECwriter serial terminal handled media initialisation and modem-to-modem transfers. The product's endpoint was always physical film, not pixels — a full-screen-size slide for projection.
+* **The PowerPoint lineage.** PowerPoint 2.0 was designed for Genigraphics film recorders and "shipped with Genigraphics colour palettes, schemes, and the distinctively Genigraphics colour-gradient backgrounds," along with a "Send to Genigraphics" menu item that wrote the file to floppy or transmitted it by modem to a bureau. PowerPoint 3.0 incorporated clip art and templates produced by Genigraphics artists and used Genigraphics chart styles. Within three and a half months, Genigraphics slide orders from PowerPoint accounted for ten percent of revenue at its service centres. The desktop default look of a corporate slide is, in a direct line, descended from this console.
+* **Cross-collection lineage.** The computer-generated scenes for *The Last Starfighter* (1984) were calculated on a Cray X-MP and mastered on a Genigraphics film recorder — a pairing with the museum's Evans & Sutherland Digistar exhibit, whose laboratory prototype generated starfields for *Star Trek II: The Wrath of Khan*. In both cases a room-sized graphics system ended up on a cinema screen.
+
+### Team
+
+* **General Electric — Computed Images System & Services (CISS).** Developed the computer-graphics system and delivered the first 100 Series to Amoco in 1973.
+* **Genigraphics Corporation.** The divested company (1982–1989) that sold 100B–D+ systems and ran the slide service bureaus.
+* **Robert Gaskins / Microsoft Graphics Business Unit.** Negotiated the 1988 PowerPoint partnership.
+* **Michael Beetner.** Genigraphics Director of Marketing Planning, who initiated the Microsoft partnership in 1987.
+
+### Media
+
+![Genigraphics 100 console](../assets/wiki/genigraphics-100-console.png)
+*The console of the original Genigraphics 100 system, c. 1973: banks of buttons, dials, knobs and joysticks around a built-in keyboard. (General Electric / Genigraphics, public domain)*
+
+![An artist at the Genigraphics 100 console](../assets/wiki/genigraphics-100-in-use.png)
+*An artist at the console of a Genigraphics 100, composing a slide on the vector display. (General Electric / Genigraphics, public domain)*
+
+![Genigraphics 100 sample slide](../assets/wiki/genigraphics-100-sample-slides.png)
+*A sample slide produced by a Genigraphics 100 around 1973. (General Electric / Genigraphics, public domain)*
+
+### Sources
+
+1. Genigraphics — Wikipedia — https://en.wikipedia.org/wiki/Genigraphics
+2. Robles-Anderson, Erica & Svensson, Patrik. "'One Damn Slide After Another': PowerPoint at Every Occasion for Speech." *Computational Culture* 5 (2016) — http://computationalculture.net/one-damn-slide-after-another-powerpoint-at-every-occasion-for-speech/
+3. Gaskins, Robert. *Sweating Bullets: Notes about Inventing PowerPoint*. Vinland Books, 2012 — https://books.google.com/books?id=t3INw5KknpYC
+4. NASA Technical Reports, *Spinoff 1987 — Business Graphics* — https://ntrs.nasa.gov/archive/nasa/casi.ntrs.nasa.gov/20020087777.pdf
