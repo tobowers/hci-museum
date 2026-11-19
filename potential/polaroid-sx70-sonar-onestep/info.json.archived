@@ -1,0 +1,34 @@
+{
+  "slug": "polaroid-sx70-sonar-onestep",
+  "status": "promoted",
+  "year": "1978",
+  "title": "Polaroid SX-70 Sonar OneStep",
+  "subtitle": "The camera that measured the world with a chirp — the first consumer SLR to autofocus itself with sonar",
+  "tags": ["Camera", "Autofocus", "Sensing", "Spatial Input", "Consumer", "Embedded Computing"],
+  "blurb": "The Polaroid SX-70 Sonar OneStep (1978) put a 50 kHz sonar transceiver on the front of the folding SX-70 and made focus a computation the camera did for you. Press the shutter button halfway and a transducer fires four ultrasonic chirps; the echo time gives distance to a chosen target, and a motor drives the lens to the matching position. It was the first consumer SLR with autofocus. The interaction moment is exactly the one we now live inside: the user composes and points, and the *machine* closes the last sensing loop that photography had reserved for the human eye and hand.",
+  "research": {
+    "verified": [
+      "Introduced 1978; the Sonar OneStep and SLR 680 were the SX-70 models fitted with sonar autofocus (en.wikipedia, Polaroid SX-70).",
+      "Described as 'the first autofocus single-lens reflex camera, released in 1978' (en.wikipedia, Autofocus).",
+      "Sonar autofocus greatly helped focusing, especially in dark environments, and could be turned off for manual focus (en.wikipedia, Polaroid SX-70).",
+      "Design lineage from Edwin Land / Henry Dreyfuss's original folding SX-70 (1972); sonar system was a later attachment-evolved variant."
+    ],
+    "to_verify": [
+      "Exact first-ship month of the Sonar OneStep (1978 broad year is safe).",
+      "Whether the sonar module emitted four pings and the specific frequency (~50 kHz) — commonly reported but not confirmed from a primary manual here."
+    ]
+  },
+  "image": {
+    "remote": "File:Polaroid SX-70 Sonar OneStep 01.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/2/27/Polaroid_SX-70_Sonar_OneStep_01.jpg",
+    "license": "CC BY 2.0",
+    "artist": "Silvio Tanaka (Flickr, via Wikimedia Commons)",
+    "size": "3000x2008",
+    "local": "assets/wiki/polaroid-sx70-sonar-onestep.jpg"
+  },
+  "sources": [
+    "https://en.wikipedia.org/wiki/Polaroid_SX-70",
+    "https://en.wikipedia.org/wiki/Autofocus",
+    "https://commons.wikimedia.org/wiki/File:Polaroid_SX-70_Sonar_OneStep_01.jpg"
+  ]
+}

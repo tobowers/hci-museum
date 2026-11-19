@@ -1,0 +1,31 @@
+{
+  "slug": "konica-c35-af",
+  "status": "promoted",
+  "year": "1977",
+  "title": "Konica C35 AF",
+  "subtitle": "The first mass-produced autofocus camera — a split-image rangefinder rebuilt in electronics inside a tiny point-and-shoot",
+  "tags": ["Camera", "Autofocus", "Consumer", "Sensing", "Embedded Computing"],
+  "blurb": "The Konica C35 AF (November 1977) was the first mass-produced autofocus camera. It took the C35 Automatic and replaced the mechanical split-image rangefinder with an electronic equivalent: two windows, a sensor pair, and a tiny computer that compared the two views and drove the lens to the distance where they matched. The user did almost nothing — raise, frame, shoot — while the machine performed the coincidence that had been the photographer's job since the rangefinder was invented. A cheap consumer camera in 1977, it is the moment auto-focusing stopped being a lab experiment and became a thing you bought.",
+    "research": {
+    "verified": [
+      "The Konica C35 AF, released in November 1977, was the first mass-produced autofocus camera (en.wikipedia, Konica C35 AF).",
+      "It was an autofocus version of the Konica C35 Automatic with a fixed Hexanon 38 mm f/2.8 lens and an electronic, split-image-rangefinder-equivalent autofocus (en.wikipedia, Konica C35 AF)."
+    ],
+    "to_verify": [
+      "The precise sensor-tech description ('Visitronic'-style) is often attributed but not confirmed from a primary source here."
+    ]
+  },
+  "image": {
+    "remote": "File:Konica C35 AF (3852684227).jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/f/f8/Konica_C35_AF_%283852684227%29.jpg",
+    "license": "CC BY 2.0",
+    "artist": "John Nuttall (Flickr, via Wikimedia Commons)",
+    "size": "1290x948",
+    "local": "assets/wiki/konica-c35-af.jpg"
+  },
+  "sources": [
+    "https://en.wikipedia.org/wiki/Konica_C35_AF",
+    "https://en.wikipedia.org/wiki/Autofocus",
+    "https://commons.wikimedia.org/wiki/File:Konica_C35_AF_(3852684227).jpg"
+  ]
+}

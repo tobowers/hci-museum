@@ -4036,6 +4036,45 @@ const exhibitData: Exhibit[] = [
     tags: ["Medical", "Surgical", "Spatial Input", "Tracking"],
     image: img("isg-viewing-wand-patent-fig1.png"),
   },
+  {
+    id: "polaroid-sx70-sonar-onestep",
+    slug: "polaroid-sx70-sonar-onestep",
+    wikiTitle: "Polaroid SX-70 Sonar OneStep",
+    year: "1978",
+    sortYear: 1978,
+    title: "Polaroid SX-70 Sonar OneStep",
+    subtitle: "The camera that measured the world with a chirp — the first consumer SLR to autofocus itself with sonar",
+    blurb:
+      "The Polaroid SX-70 Sonar OneStep (1978) bolted a 50 kHz sonar transceiver onto the folding SX-70 and made focus a computation the camera performed for you. Aim, press, and an ultrasonic pulse times its echo off the nearest object so a motor can drive the lens to the matching distance — the first consumer single-lens reflex with autofocus. The interaction is now universal: the user composes and points, and the *machine* closes the last sensing loop photography had reserved for the eye and hand. Its sonar could be switched off for manual focus, but most owners let it decide.",
+    tags: ["Camera", "Autofocus", "Sensing", "Spatial Input", "Consumer", "Embedded Computing"],
+    image: img("polaroid-sx70-sonar-onestep.jpg"),
+  },
+  {
+    id: "pentax-me-f",
+    slug: "pentax-me-f",
+    wikiTitle: "Pentax ME-F",
+    year: "1981",
+    sortYear: 1981,
+    title: "Pentax ME-F",
+    subtitle: "The first SLR that focused its own lens — sensors in the body, a motor in the lens, and a red dot you dialed into alignment",
+    blurb:
+      "The Pentax ME-F (1981) was the first 35 mm single-lens reflex to autofocus, and the way it did it *is* the interface. Focus sensors sat in the camera body, but the motor lived in a special SMC Pentax AF 35–70 mm lens; you turned the ring until a red dot lit in the viewfinder to confirm the subject, then the camera drove the lens motor to match. It was a hybrid: human judgement as the reference, a motor as the actuator, a single LED as the whole conversation — the ancestor of every autofocus SLR that followed.",
+    tags: ["Camera", "Autofocus", "Consumer", "Sensing", "Embedded Computing"],
+    image: img("pentax-me-f.jpg"),
+  },
+  {
+    id: "konica-c35-af",
+    slug: "konica-c35-af",
+    wikiTitle: "Konica C35 AF",
+    year: "1977",
+    sortYear: 1977,
+    title: "Konica C35 AF",
+    subtitle: "The first mass-produced autofocus camera — a split-image rangefinder rebuilt in electronics inside a tiny point-and-shoot",
+    blurb:
+      "The Konica C35 AF (November 1977) was the first mass-produced autofocus camera. It took the C35 Automatic and replaced the mechanical split-image rangefinder with an electronic equivalent: two windows, a sensor pair, and a small computer that compared the two views and drove the lens to the distance where they matched. The user did almost nothing — raise, frame, shoot — while the machine performed the coincidence that had been the photographer's job since the rangefinder was invented. A cheap consumer camera in 1977, it is the moment auto-focusing stopped being a lab experiment and became a thing you bought.",
+    tags: ["Camera", "Autofocus", "Consumer", "Sensing", "Embedded Computing"],
+    image: img("konica-c35-af.jpg"),
+  },
 ];
 
 export const exhibits: Exhibit[] = exhibitData.toSorted((a, b) => b.sortYear - a.sortYear || a.title.localeCompare(b.title));

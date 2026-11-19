@@ -1,0 +1,31 @@
+{
+  "slug": "pentax-me-f",
+  "status": "promoted",
+  "year": "1981",
+  "title": "Pentax ME-F",
+  "subtitle": "The first SLR that focused its own lens — sensors in the body, a motor in the lens, and a red dot you dialed into alignment",
+  "tags": ["Camera", "Autofocus", "Consumer", "Sensing", "Embedded Computing"],
+  "blurb": "The Pentax ME-F (1981) was the first 35 mm single-lens reflex to autofocus — and the way it did it is the interface. Focus sensors lived in the camera *body*, but the motor lived in a special SMC Pentax AF 35–70 mm lens. You confirmed focus by turning the ring until a red dot lit in the viewfinder; the camera then drove the lens motor to match. It was a hybrid: human judgement as the reference, a motor as the actuator, a single LED as the whole conversation. The ancestor of every autofocus SLR that followed.",
+  "research": {
+    "verified": [
+      "The Pentax ME-F, using focus sensors in the camera body coupled with a motorised lens, became the first autofocus 35 mm SLR in 1981 (en.wikipedia, Autofocus).",
+      "Lineage: Konica C35 AF (1977, first mass-produced AF camera) and Polaroid SX-70 Sonar (1978, first AF SLR) preceded it; the ME-F moved AF into the interchangeable-lens SLR."
+    ],
+    "to_verify": [
+      "Exact month of introduction (1981 broad year accepted).",
+      "Confirmation that the AF 35–70 lens motor is the actuator and the in-body sensors are passive (common account; not re-pulled from a primary manual)."
+    ]
+  },
+  "image": {
+    "remote": "File:Pentax ME-F autofocus.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/6/69/Pentax_ME-F_autofocus.jpg",
+    "license": "CC BY-SA 3.0",
+    "artist": "ZanderZ (Wikimedia Commons)",
+    "size": "4272x2848",
+    "local": "assets/wiki/pentax-me-f.jpg"
+  },
+  "sources": [
+    "https://en.wikipedia.org/wiki/Autofocus",
+    "https://commons.wikimedia.org/wiki/File:Pentax_ME-F_autofocus.jpg"
+  ]
+}
