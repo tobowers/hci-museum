@@ -1,0 +1,46 @@
+{
+  "slug": "avl-eagle",
+  "title": "AVL Eagle / ShowPro Multi-Image Controller",
+  "subtitle": "A CP/M computer that choreographed thirty slide projectors with cue lists and proprietary timecode",
+  "year": "1980",
+  "era": "1976-1992",
+  "category": "Presentation & Performance Control",
+  "blurb": "Before PowerPoint there was multi-image: nine, twelve, thirty 35mm slide projectors aimed at one wide screen, cross-fading until photographs seemed to move. The AVL Eagle (1980) was the first microcomputer built to program that spectacle. Its PROCALL language wrote a timed cue list — Advance, Alt, Cut, Dissolve, Freeze, Loop — that drove up to thirty Kodak Ektagraphic projectors, five film projectors, and twenty auxiliary control points. Commands left the machine as two audio-frequency telemetry streams called PosiTrak down ordinary RCA cables into outboard boxes named Doves, each of which steered three projectors; the whole list chased a biphase 'ClockTrak' timecode stripe on a multitrack audio tape. The programmer sat with headphones on, listening to the soundtrack and pressing keys in time, effectively performing the show into memory. It is the museum's clearest example of an interface whose output medium is neither screen nor paper but a room full of physical machines — and of a whole profession, the multi-image programmer, that desktop presentation software erased.",
+  "creator": "Audio Visual Laboratories (AVL), of New Jersey, US; later spun off as Eagle Computer, Inc.",
+  "manufacturer": "Audio Visual Laboratories / Eagle Computer, Inc.",
+  "tagline": "Cue lists for a roomful of projectors",
+  "tags": ["Multi-image", "Slide Projector", "Timecode", "CP/M", "Presentation", "Live Show Control"],
+  "images": [
+    {
+      "path": "avl-eagle-ii.jpg",
+      "caption": "An AVL Eagle II computer with its documentation binders.",
+      "credit": "Wikimedia Commons, CC BY-SA 3.0"
+    },
+    {
+      "path": "avl-eagle-ii-2.jpg",
+      "caption": "The one-piece AVL Eagle II, with green monitor and dual 5.25-inch floppy drives.",
+      "credit": "Wikimedia Commons, CC BY-SA 3.0"
+    },
+    {
+      "path": "forshow-1987.jpg",
+      "caption": "Programming stations at the 1987 Ford New Car Announcement Show, Detroit: AVL Eagle Genesis computers in the foreground, producers and programmers behind.",
+      "credit": "Wikimedia Commons, public domain (July 1987)"
+    }
+  ],
+  "sources": [
+    "https://en.wikipedia.org/wiki/Eagle_Computer",
+    "https://en.wikipedia.org/wiki/Multi-image",
+    "http://www.stevenmichelsen.com/AVL/index.html",
+    "Kenny, Michael F. & Schmitt, Raymond F. Images, Images, Images: The Book of Programmed Multi-Image Production. Eastman Kodak, 1983.",
+    "http://www.stevenmichelsen.com/AVL/AVL_Genesis_Procall_X.pdf"
+  ],
+  "notes": [
+    "The AVL Eagle is notable for being the first *non-dedicated* multi-image controller; its predecessors — the ShowPro III and ShowPro V — were single-purpose hardware. The Eagle was a general CP/M business computer whose distinguishing feature was an audio-visual interface board and a proprietary language.",
+    "PROCALL vocabulary is the heart of the exhibit: it names the verbs of the medium. Forward and Reverse rotate a tray one slot. 'Alt' advances nothing and only changes lamp state, which is what makes rapid alternation between two projectors read as motion. Dissolve timed from one to thirty-two seconds. Freeze, Loop, and Blink freed the controller to drive other projectors while a sequence ran.",
+    "The physical media channel matters: commands were carried as audio signals. PosiTrak left the Eagle as two biphase streams on RCA or XLR connectors, indistinguishable from audio, down the same cabling as the soundtrack, into Daisy-chained Dove units — each Dove servoing three projectors and two dry-contact closures. This is a control interface wearing the costume of an audio interface.",
+    "Tray slot 80 was universally reserved for an alignment grid slide, so that every projector in a show of up to thirty could be registered to the identical reference before programming began — a shared spatial coordinate system enforced by media convention.",
+    "SYNCHRONICITY: ClockTrak was biphase timecode very like SMPTE but deliberately incompatible with it. Programmers abandoned it for SMPTE once video entered shows, which is itself a small story about standards eating proprietary formats.",
+    "The career behind the hardware: 'multi-image programmer' was a paid specialty that could consume weeks per show. Photos like the Ford show image show four named people around the Eagles, listening through the soundtrack.",
+    "Cross-collection links: sits alongside the GE Talaria (a screen-filling output device with no pixels), the Grass Valley switcher (a console driven live during broadcast), and the Digistar console (a performance instrument) — all interfaces where the operator performs to a live audience rather than a file."
+  ]
+}

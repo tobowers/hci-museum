@@ -4036,6 +4036,32 @@ const exhibitData: Exhibit[] = [
     tags: ["Medical", "Surgical", "Spatial Input", "Tracking"],
     image: img("isg-viewing-wand-patent-fig1.png"),
   },
+  {
+    id: "avl-eagle",
+    slug: "avl-eagle",
+    wikiTitle: "AVL Eagle / ShowPro Multi-Image Controller",
+    year: "1980",
+    sortYear: 1980,
+    title: "AVL Eagle / ShowPro Multi-Image Controller",
+    subtitle: "A CP/M computer that choreographed thirty slide projectors with cue lists and proprietary timecode",
+    blurb:
+      "Before PowerPoint there was multi-image: nine, twelve, thirty 35mm slide projectors aimed at one wide screen, cross-fading until still photographs seemed to move. The AVL Eagle (1980) was the first microcomputer built to program that spectacle. Its PROCALL language wrote a timed cue list — Advance, Alt, Cut, Dissolve, Freeze, Loop — driving up to thirty Kodak Ektagraphic projectors, five 16mm film projectors, and twenty auxiliary control points. Commands left the machine as two telemetry streams called PosiTrak down ordinary RCA audio cables into outboard boxes named Doves, each steering three projectors; the whole list chased a biphase 'ClockTrak' timecode stripe on a multitrack tape. The programmer sat with headphones on, listening to the soundtrack and pressing keys in time — performing the show into memory. It is the museum's clearest interface whose output medium is neither screen nor paper but a room full of physical machines, and the artifact of an entire erased profession, the multi-image programmer.",
+    tags: ["Multi-image", "Slide Projector", "Timecode", "CP/M", "Live Show Control"],
+    image: img("avl-eagle-ii-2.jpg"),
+  },
+  {
+    id: "genigraphics-100",
+    slug: "genigraphics-100",
+    wikiTitle: "Genigraphics 100 Presentation Graphics Console",
+    year: "1973",
+    sortYear: 1973,
+    title: "Genigraphics 100 Presentation Graphics Console",
+    subtitle: "A room-sized slide studio worked with banks of knobs and joysticks — the direct ancestor of PowerPoint",
+    blurb:
+      "Genigraphics began as a General Electric system for NASA space-flight simulation, and in 1973 GE delivered the first commercial 100 Series presentation system to Amoco. The console is the exhibit: an array of buttons, dials, knobs and joysticks around a built-in keyboard, driving a PDP-11/40 through DECtape to compose charts and titles that a Forox film recorder burned onto 35mm or 72mm film at up to 2,000-line resolution. Later 100B–D+ models replaced the knob array with on-screen text menus, a graphics tablet and a pen; the pen gave way to a mouse-like device. In 1988 Microsoft and Genigraphics struck a deal: PowerPoint shipped with Genigraphics palettes and gradients and a 'Send to Genigraphics' command that modemmed your file to a bureau for overnight slide production. The knob console and the default corporate slide share one lineage — here is where that lineage starts, worked with both hands and a grid of joysticks.",
+    tags: ["Presentation", "Computer Graphics", "Slide Production", "Film Recorder", "PowerPoint"],
+    image: img("genigraphics-100-console.png"),
+  },
 ];
 
 export const exhibits: Exhibit[] = exhibitData.toSorted((a, b) => b.sortYear - a.sortYear || a.title.localeCompare(b.title));
