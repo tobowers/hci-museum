@@ -1,0 +1,92 @@
+{
+  "slug": "fingerworks-touchstream",
+  "title": "FingerWorks TouchStream",
+  "year": "2001",
+  "subtitle": "a flat, zero-force, multitouch keyboard with no keys at all — type and gesture on the same glass, years before the iPhone, by the company Apple bought to help build it",
+  "why_scout_cares": "The TouchStream is the clearest artifact of the road not taken for the keyboard: instead of individual mechanical keys, it was a completely flat multitouch surface on which you pressed with zero force and the software inferred key presses from hand shape and finger placement. You could type on it without looking and simultaneously gesture — pinch to scroll, swipe with four fingers to switch apps, chord with multiple fingers for shortcuts — all on one continuous sensing plane. Made by FingerWorks, a University of Delaware spin-off founded by Wayne Westerman and John Elias, the TouchStream line sold from roughly 2000 to 2005, when Apple acquired the company. Its multitouch gesture vocabulary and zero-force key inference fed directly into Apple's multitouch program (and the 2007 iPhone), making the TouchStream a missing link between the physical keyboard and the touchscreen. It is the museum's best object for the question: what if the keyboard had dissolved into a gesture surface instead of becoming a screen?",
+  "search_terms": ["FingerWorks TouchStream", "Fingerworks keyboard", "multitouch keyboard zero force", "Wayne Westerman FingerWorks", "Apple FingerWorks acquisition", "TouchStream LP"],
+  "research": {
+    "title": "FingerWorks TouchStream",
+    "year": "2001",
+    "by": "FingerWorks (Newark, Delaware), founded by Wayne Westerman and John Elias",
+    "tags": ["HCI", "Multitouch", "Gesture", "Keyboard", "Input Device"],
+    "overview": "The FingerWorks TouchStream is a family of flat, zero-force multitouch keyboards manufactured by FingerWorks, a company spun out of the University of Delaware by Wayne Westerman and John Elias in the late 1990s, and sold from about 2000–2001 until the company was acquired by Apple in 2005. Rather than a field of independent mechanical keys, the device is a single flat capacitive touch surface on which the user's hands rest. Software reconstructs which keys were 'pressed' from the pattern and pressure of the fingers, so touch typing is possible without any key travel at all; meanwhile the same surface senses multi-finger gestures — scrolling, zooming, app-switching, and shortcuts — as continuous motions rather than discrete keypresses. Its most fully realized model, the TouchStream LP, combined the typing and gesture surface with a transparent overlay and remote touchpad. FingerWorks' gesture vocabulary and its key-inference approach are widely credited as an influence on Apple's multitouch work after the acquisition, and thus as an unsung ancestor of the modern touchscreen. The museum holds the TouchStream as the definitive artifact of a *flat, gestural, chording keyboard* — an alternative to the mechanical keyboard that for a time was genuinely usable.",
+    "deepDive": [
+      {
+        "heading": "Origins",
+        "text": "FingerWorks was founded in Newark, Delaware, by Wayne Westerman, an engineer and academic who researched how the hands rest and move during typing, and his colleague John Elias. Their central insight was that the QWERTY layout is a convention overlaid on a context where the hands' actual contact pattern carries more information than any single key's depression. If you can sense all ten fingers at once on a flat surface — position, contact, and motion — you can infer intended keystrokes without physical key travel, and simultaneously read gestures. Starting around 1998 the company sold an early 'MultiTouch' surface and, by roughly 2000–2001, the TouchStream line of keyboards. The company also made large-scale 'iGesture' pads and the 'iGesturePad' accessory. Apple acquired FingerWorks in 2005; the founders and the multitouch technology are widely understood to have contributed to the multitouch program that culminated in the iPhone (2007) and the iPad (2010)."
+      },
+      {
+        "heading": "Interaction Model",
+        "text": "On a TouchStream there are no moving keys. The user rests their hands on a flat glass-and-capacitive surface; a fixed overlay shows QWERTY (or Dvorak) legends, and the firmware samples the shape of the hand's contact and maps it to key presses — so an experienced user can touch-type with zero actuation force, the hands barely moving. Because the same surface senses every finger continuously, it also supports gestures: a two-finger drag scrolls, a pinch zooms, a four-finger swipe switches between windows or virtual desktops, and multiple-finger chords issue shortcuts without leaving the home position. This made the device a hybrid of keyboard and touchpad in one plane — a single surface for both discrete text entry and analog/gestural control. It was an ergonomic proposition as much as a novelty: eliminating key travel was meant to reduce repetitive-strain injuries and finger fatigue. The TouchStream LP added a thin touchpad for the thumbs (or as a remote pointer) and a detachable design; other models like the iGesture Pad emphasized gesture alone."
+      },
+      {
+        "heading": "Reception & Apple",
+        "text": "The TouchStream and its siblings were well reviewed by early-adopter and ergonomics communities but remained niche and relatively expensive; by the mid-2000s FingerWorks' products were being discontinued even before the Apple acquisition. When Apple bought the company in 2005, the acquisition was widely read as a multitouch talent-and-patent purchase rather than an attempt to ship FingerWorks' keyboards. Whether or not the iPhone's multitouch gesture system is a direct descendant, the FingerWorks corpus is consistently cited in histories of multitouch as the practical demonstration that a flat surface could support true typing and rich multi-finger gestures at once. FingerWorks equipment is now scarce and collected precisely because it is the missing link between the mechanical keyboard and the gesture-driven touchscreen — a physical keyboard that, in effect, became a trackpad with a text layer."
+      },
+      {
+        "heading": "Why It Matters",
+        "text": "The TouchStream is the museum's counterfactual keyboard. Every museum needs an object that shows a path that was *not* taken: not the mechanical keycap, not the touchscreen phone, but the flat, gestural, zero-force typing surface — a hybrid that existed, was used, and then disappeared into a corporate acquisition. Displayed next to mechanical chording keyboards (the BAT, the Twiddler) and to early touchscreens, it completes a triangle: chording as compressed keystrokes, multitouch as continuous gestures, and the TouchStream as the place where the two met on a single plane. It also does important corrective work — visitors who assume multitouch began with the iPhone should leave knowing that a Delaware spin-off was selling a multitouch typing *keyboard* years earlier, and that its people and gestures likely helped build the very touchscreen that replaced it."
+      }
+    ],
+    "team": [
+      {
+        "name": "Wayne Westerman",
+        "note": "Engineer and University of Delaware researcher; co-founder of FingerWorks and a central figure in its multitouch and zero-force typing work; later associated with Apple's multitouch efforts after the 2005 acquisition."
+      },
+      {
+        "name": "John Elias",
+        "note": "Co-founder of FingerWorks with Wayne Westerman; the University of Delaware spin-off that produced the TouchStream and iGesture product lines."
+      },
+      {
+        "name": "FingerWorks (company)",
+        "note": "Newark, Delaware multitouch startup active roughly 1998–2005; acquired by Apple in 2005."
+      }
+    ],
+    "media": [
+      {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/6/64/Fingerworks_Touchstream_Keyboard.jpg",
+        "alt": "A FingerWorks TouchStream flat multitouch keyboard in Dvorak layout, seen from above",
+        "caption": "A FingerWorks TouchStream — a flat, zero-force capacitive keyboard in Dvorak layout, with no moving keys. Typing is inferred from hand contact while multi-finger gestures work on the same surface. Photo CC BY-SA 4.0 via Wikimedia Commons."
+      },
+      {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/8/81/Fingerworks_Touchstream_Keyboard_%28landscape%29.jpg",
+        "alt": "Side view of a FingerWorks TouchStream multitouch keyboard showing its flat, thin profile",
+        "caption": "The TouchStream's flat profile — no key travel, no actuation force. Gestures and text entry share one continuous sensing plane. Photo CC BY-SA 4.0 via Wikimedia Commons."
+      },
+      {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/0/02/Fingerworks_Touchstream_keyboard.jpg",
+        "alt": "A FingerWorks TouchStream keyboard photographed in use",
+        "caption": "A FingerWorks TouchStream keyboard. The company was acquired by Apple in 2005, and its multitouch gesture vocabulary is a widely cited ancestor of the modern touchscreen. Photo CC BY 2.0 via Wikimedia Commons."
+      }
+    ],
+    "sources": [
+      {
+        "text": "Wikipedia: FingerWorks",
+        "url": "https://en.wikipedia.org/wiki/FingerWorks"
+      },
+      {
+        "text": "Wikipedia: Multi-touch (history)",
+        "url": "https://en.wikipedia.org/wiki/Multi-touch"
+      },
+      {
+        "text": "Wikimedia Commons: FingerWorks images",
+        "url": "https://commons.wikimedia.org/wiki/Category:FingerWorks"
+      },
+      {
+        "text": "Westerman, W. et al. FingerWorks documentation and product materials (archived)",
+        "url": "https://en.wikipedia.org/wiki/FingerWorks"
+      }
+    ],
+    "imageUrls": [
+      "https://upload.wikimedia.org/wikipedia/commons/6/64/Fingerworks_Touchstream_Keyboard.jpg",
+      "https://upload.wikimedia.org/wikipedia/commons/8/81/Fingerworks_Touchstream_Keyboard_%28landscape%29.jpg",
+      "https://upload.wikimedia.org/wikipedia/commons/0/02/Fingerworks_Touchstream_keyboard.jpg"
+    ]
+  },
+  "savedImages": [
+    "images/fingerworks-touchstream-1.jpg",
+    "images/fingerworks-touchstream-2.jpg",
+    "images/fingerworks-touchstream-3.jpg"
+  ]
+}

@@ -1,0 +1,78 @@
+{
+  "slug": "dectalk-dct01",
+  "title": "DECtalk DCT01",
+  "year": "1984",
+  "subtitle": "the first mainstream speech synthesizer you could buy — a beige box that gave Stephen Hawking his voice and read phone books aloud at 300 words per minute",
+  "why_scout_cares": "Before text-to-speech came bundled in every phone and screen reader, there was a dedicated beige box that turned typed text into spoken words in real time: the DECtalk. Designed by Dennis Klatt at MIT and the Speech Technology Group at Digital Equipment Corporation, the DCT01 (1984) was the first commercial formant-synthesis TTS product, sold to labs, accessibility users, and telephone services. It defined the orthography and voice quality of computer speech for a generation, and — in the specific voice of its 'Perfect Paul' preset — became Stephen Hawking's signature voice from 1986 until the end. Klatt's cascade formant-synthesis model, developed in the Klatt Synthesizer (KlattTalk), remains one of the most influential accounts of how to reproduce speech acoustically. DECtalk is the museum's purest artifact of machines-that-speak: an interface whose entire purpose is to make text audible, and whose flaws and character were so distinctive they became part of a person's identity.",
+  "search_terms": ["DECtalk DCT01", "DECtalk", "Dennis Klatt KlattTalk", "Klatt synthesizer", "Perfect Paul voice", "Stephen Hawking speech synthesizer", "formant synthesis TTS"],
+  "research": {
+    "title": "DECtalk DCT01",
+    "year": "1984",
+    "by": "Digital Equipment Corporation (DEC), based on Dennis Klatt's MIT research",
+    "tags": ["HCI", "Speech Synthesis", "Text-to-Speech", "Accessibility", "Assistive Technology"],
+    "overview": "The DECtalk DCT01, released by Digital Equipment Corporation in 1984, was the first commercially successful, broadly affordable real-time text-to-speech synthesizer. It grew directly out of speech research at MIT by Dennis Klatt, whose cascade formant-synthesis model (often called KlattTalk) generated intelligible speech by modelling the resonant filters of the human vocal tract in software and on dedicated digital signal-processing hardware. The DCT01 was a standalone beige desktop unit the size of a small printer: text sent over an RS-232 serial link was converted on-board to synthesized speech and played out of a built-in speaker. It supported multiple voice 'personalities' — most famously 'Perfect Paul,' a male voice that became internationally recognized as Stephen Hawking's voice from 1986 onward, and 'Beautiful Betty,' a female voice. The DECtalk family later appeared as plug-in boards for PCs and as the embedded voice in countless telephone and accessibility applications. It was, for well over a decade, the reference standard for machine speech — the technology by which most people in the 1980s and 1990s first heard a computer talk.",
+    "deepDive": [
+      {
+        "heading": "Origins",
+        "text": "Dennis H. Klatt (1938–1988) was a researcher in the MIT Department of Electrical Engineering and Computer Science and a key figure at the Research Laboratory of Electronics. Starting in the 1970s he developed the 'Klatt Synthesizer,' a software formant synthesizer with a cascade/parallel hybrid architecture that could reproduce a wide range of speech sounds by controlling the frequencies and bandwidths of a small number of resonant filter banks and a voicing source. In 1979 he left on a sabbatical to join the Speech Technology Group at Digital Equipment Corporation, and by 1982 he had moved his work into product form. DEC's engineering, combined with Klatt's phonetic model, produced the DECtalk hardware — real-time formant synthesis in a box, something previously confined to large mainframes and lab equipment. Klatt died of cancer in 1988; the DECtalk was among his lasting legacies, and the 'Klatt synthesizer' model he published is still a standard reference in speech science."
+      },
+      {
+        "heading": "Interaction Model",
+        "text": "The DCT01 had no screen and no keyboard of its own — it was an output peripheral, a voice for a host computer or terminal. Text arrived over a serial (RS-232) connection; a small front-panel control let the user pick among voice presets and adjust speaking rate (up to a configurable maximum, often cited at more than 300 words per minute) and pitch. The voices were not recordings but synthesized from a phonetic/phonemic engine: the text was first converted to phonemes and then realized as formant contours, so the same text could be spoken in 'Perfect Paul' or 'Beautiful Betty' or other voices by changing parameters. For accessibility users, this made DECtalk a lifeline — a way to read arbitrary text aloud, browsed or typed, at whatever speed the listener chose. In telephone applications it voiced directories and services. The very artificiality of its voice (buzzy, hard-consonanted, robotic) became iconic precisely because it was so recognizable and so functional."
+      },
+      {
+        "heading": "Stephen Hawking's Voice",
+        "text": "In 1985 the physicist Stephen Hawking, by then losing his speech to amyotrophic lateral sclerosis (ALS), received a speech-generating system built around a DECtalk-derived synthesizer, operated through a portable computer. When the DECtalk unit he relied on aged and could no longer be repaired, Hawking retained the original voice rather than switch to a newer, more natural-sounding one — so his famously mechanical voice persisted from the mid-1980s until his death in 2018. In a 2010s interview he said he had come to identify with the voice and did not wish to change it. That single long-running relationship — one user, one synthesized voice, decades — made the DECtalk the most culturally visible speech synthesizer in history and a standing illustration of how accessibility technology can become part of a person's identity."
+      },
+      {
+        "heading": "Why It Matters",
+        "text": "DECtalk is the museum's definitive 'machine that speaks' artifact: a box whose only job was to convert text to speech, sold for decades, and so widely licensed that its voice is embedded in the memory of an entire technological generation. Paired with Von Kempelen's speaking machine (1791) and the Texas Instruments single-chip LPC speech synthesizer, it forms the museum's spine of speech-output HCI — from mechanical rubber mouth, to formant synthesis on a serial line, to a vocal-tract model reduced to silicon. It also foregrounds questions the museum cares about: what does it mean for a computer's voice to be recognizable, to be chosen, to be an identity? And beneath the friendly framing sits a technical fact worth showing visitors — the DECtalk was not an audio playback system but a real-time model of the human vocal tract, pushed through a serial interface, one word at a time."
+      }
+    ],
+    "team": [
+      {
+        "name": "Dennis H. Klatt",
+        "note": "MIT speech scientist (1938–1988) whose cascade/parallel 'Klatt synthesizer' formant model is the foundation of DECtalk. Joined DEC's Speech Technology Group in 1979; died before DECtalk's widespread deployment."
+      },
+      {
+        "name": "Digital Equipment Corporation (DEC)",
+        "note": "Minicomputer maker that developed, manufactured, and marketed the DECtalk DCT01 (1984) and the DECtalk product family."
+      }
+    ],
+    "media": [
+      {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/2/2b/DECtalk_DCT01_and_Tink.jpg",
+        "alt": "A DECtalk DCT01 text-to-speech synthesizer with a cat sitting on top for scale",
+        "caption": "A DECtalk DCT01, the 1984 hardware speech synthesizer, with a cat for scale. The box turned serial text into real-time formant-synthesized speech; its 'Perfect Paul' voice became Stephen Hawking's. Photo CC BY 3.0 via Wikimedia Commons."
+      }
+    ],
+    "sources": [
+      {
+        "text": "Wikipedia: DECtalk",
+        "url": "https://en.wikipedia.org/wiki/DECtalk"
+      },
+      {
+        "text": "Wikipedia: Klatt synthesizer / Dennis Klatt",
+        "url": "https://en.wikipedia.org/wiki/Klatt_synthesizer"
+      },
+      {
+        "text": "Wikipedia: Stephen Hawking (voice technology section)",
+        "url": "https://en.wikipedia.org/wiki/Stephen_Hawking"
+      },
+      {
+        "text": "Klatt, Dennis H. (1980). 'Software for a cascade/parallel formant synthesizer,' Journal of the Acoustical Society of America 67(3): 971–995",
+        "url": "https://asa.scitation.org/doi/10.1121/1.383940"
+      },
+      {
+        "text": "Wikimedia Commons: DECtalk DCT01 image",
+        "url": "https://commons.wikimedia.org/wiki/File:DECtalk_DCT01_and_Tink.jpg"
+      }
+    ],
+    "imageUrls": [
+      "https://upload.wikimedia.org/wikipedia/commons/2/2b/DECtalk_DCT01_and_Tink.jpg"
+    ]
+  },
+  "savedImages": [
+    "images/dectalk-dct01-1.jpg"
+  ]
+}
