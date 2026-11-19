@@ -1,6 +1,6 @@
 # The HCI Golden Age Wiki
 
-A research compendium for a digital museum of cutting-edge Human-Computer Interaction from the late 1970s through the early 1990s. These three hundred and twenty projects mix canonical experiments with weird, forgotten, and beautiful vaporware — brain control, voice control, gesture, wearable computing, VR, robots, and full-body exertion.
+A research compendium for a digital museum of cutting-edge Human-Computer Interaction from the late 1970s through the early 1990s. These three hundred and twenty-four projects mix canonical experiments with weird, forgotten, and beautiful vaporware — brain control, voice control, gesture, wearable computing, VR, robots, and full-body exertion.
 
 Each entry includes an overview, a deep dive, a small media gallery, and full source links so the images and facts can always be traced back.
 
@@ -327,6 +327,9 @@ Each entry includes an overview, a deep dive, a small media gallery, and full so
 316. [Computervision CADDS3 Workstation (Late 1970s)](#computervision-cadds3-workstation-late-1970s)
 317. [Three Mile Island TMI-2 Control Room Console (1979)](#three-mile-island-tmi-2-control-room-console-1979)
 318. [ISG Viewing Wand Computer-Aided Surgery Arm (1988–1993)](#isg-viewing-wand-computer-aided-surgery-arm-1988-1993)
+319. [Polaroid SX-70 Sonar OneStep (1978)](#polaroid-sx-70-sonar-onestep-1978)
+320. [Pentax ME-F (1981)](#pentax-me-f-1981)
+321. [Konica C35 AF (1977)](#konica-c35-af-1977)
     
 ---
 
@@ -14131,3 +14134,105 @@ The ISG Viewing Wand, sold from roughly 1988–1990 by ISG Technologies of Toron
 4. Drake, Rutka & Hoffman, "ISG Viewing Wand System", *Neurosurgery* 1994 — https://doi.org/10.1227/00006123-199406000-00026
 5. Intra-operative image guidance in otolaryngology — the use of the ISG viewing wand (Flinders research record) — https://researchnow.flinders.edu.au/en/publications/intra-operative-image-guidance-in-otolaryngology-the-use-of-the-i
 6. McGill MNI thesis, "The Viewing Wand" — OR unit imports Allegro data by magnetic tape, runs on an HP Unix workstation — http://www.bic.mni.mcgill.ca/users/patrice/msthesis/node14.html
+
+---
+
+## Polaroid SX-70 Sonar OneStep (1978)
+
+**By:** Polaroid Corporation (Cambridge, Massachusetts); founded by Edwin H. Land  
+**Tags:** `Camera` `Autofocus` `Sensing` `Spatial Input` `Consumer` `Embedded Computing`
+
+### Overview
+
+The Sonar OneStep, introduced in 1978, is the Polaroid SX-70 folding instant camera with a sonar rangefinder grafted onto its front, making it the first consumer single-lens reflex camera to focus itself. The SX-70 had always been a strange machine — a folding SLR that lands in the pocket, ejects a self-developing print at the press of a button — and its original manual-focus model assumed the user could judge sharpness on the focusing screen. Users could not, especially in dim light, so Polaroid had already added a split-image prism. The Sonar OneStep went further and removed the judgement entirely: a transducer above the lens sends out an ultrasonic pulse, listens for the echo, and computes the distance from the round-trip time. The camera drives its lens to that position by itself. A switch lets the user turn the sonar off and focus by hand, but the point of the machine is that most users never need to.
+
+### Deep dive
+
+* **Focus as a measured quantity, not a feeling.** Every manual camera delegates focus to the eye and the hand: you turn the ring until the image looks sharp. The Sonar OneStep converts sharpness into a distance — a number the machine derives by timing sound — and then trusts that number. It is the imaging-world equivalent of what the rangefinder did optically, but automated and packaged for a camera most users operated with one hand.
+* **The chirp is the interface.** The visible control is almost beside the point. What the user experiences is *aiming at a subject and letting a sound time the world*. The sonar beam is narrow enough to need aiming, so the process is still compositional — you point the little port at what you want in focus — but the coincidence that used to live in the photographer's eye now lives inside a transducer and a timer.
+* **Inheritance from Land's design.** The folding body, the Henry Dreyfuss–associated industrial design, and the instant-print ritual were all fixed by the original 1972 SX-70. The Sonar models added autofocus without changing the form, and the later SLR 680/690 carried the same sonar idea onto 600 film. The line is the bridge from Land's "photography as a pencil" to the point-and-shoot logic that the 1980s made the default.
+* **A loop the machine closes.** This is the artifact's HCI claim. From 1978 onward, a growing share of cameras decided focus for their users; by the mid-1990s that share was nearly total. The Sonar OneStep is where the last manual sensing loop of ordinary photography — aim, *focus*, shoot — became aim, shoot, and let the instrument handle the middle term.
+
+### Team
+
+* **Polaroid Corporation.** Developed and manufactured the SX-70 family; Edwin H. Land drove the instant-camera program.
+* **Henry Dreyfuss / Henry Dreyfuss Associates.** Associated with the industrial design of the SX-70 line.
+* **Sonar autofocus engineering.** Polaroid's in-house ultrasonic ranging group, carried into the SLR 680/690.
+
+### Media
+
+![Polaroid SX-70 Sonar OneStep](../assets/wiki/polaroid-sx70-sonar-onestep.jpg)
+*Polaroid SX-70 Sonar OneStep — the folding instant SLR with its sonar transceiver above the lens. Photo: Silvio Tanaka, CC BY 2.0, via Wikimedia Commons.*
+
+### Sources
+
+1. Polaroid SX-70 — models, Sonar OneStep introduced 1978, sonar could be switched off for manual focus — https://en.wikipedia.org/wiki/Polaroid_SX-70
+2. Autofocus — "The Polaroid SX-70 Sonar OneStep was the first autofocus single-lens reflex camera, released in 1978" — https://en.wikipedia.org/wiki/Autofocus
+3. Image: File:Polaroid SX-70 Sonar OneStep 01.jpg — CC BY 2.0 — https://commons.wikimedia.org/wiki/File:Polaroid_SX-70_Sonar_OneStep_01.jpg
+
+---
+
+## Pentax ME-F (1981)
+
+**By:** Asahi Optical Co., Ltd. (Pentax), Tokyo  
+**Tags:** `Camera` `Autofocus` `Consumer` `Sensing` `Embedded Computing`
+
+### Overview
+
+The Pentax ME-F, introduced in 1981, was the first autofocus 35 mm single-lens reflex camera. Where the 1977 Konica C35 AF and 1978 Polaroid Sonar OneStep had been self-contained point-and-shoots or instant cameras, the ME-F was a genuine interchangeable-lens SLR — and its focus system was split between body and lens in a way that made the interaction unusually legible. Focus sensors sat in the camera body, behind the mirror; the actuator, a motor, sat only in a special SMC Pentax AF 35–70 mm lens. To use it, the photographer turned the focusing ring by hand until a red dot lit in the viewfinder to confirm the subject was at a distance the sensors recognised; the camera then drove the lens motor to the matching position. It was a hybrid of human judgement and machine actuation, and it set the pattern — in-body sensors, in-lens motor, a small indicator as the entire feedback channel — that later autofocus SLRs would automate completely.
+
+### Deep dive
+
+* **The interface was a single LED.** The whole conversation between photographer and camera about focus went through one red dot in the viewfinder. Turn the ring; when the dot lights, the sensors agree with you; then release the camera to drive the lens. It is a beautifully minimal piece of feedback design: no scale, no scale-and-pointer, no menu — just binary agreement rendered as light.
+* **Sensors in the body, motor in the lens.** This split is the source of the ME-F's historical interest. Body-based focus sensors could, in principle, serve any lens, but the actuator had to be in the lens, which meant a special lens with electrical contacts and a built-in motor. That architecture — sensor in body, motor in lens — is recognisably the one modern mirrorless systems still use, decades ahead of its time.
+* **The bridge from estimation to automation.** The ME-F still required the user to make the first guess and turn the ring; the camera only confirmed and then executed. Within a few years, SLRs would do the guessing too. The ME-F is therefore the hinge between *assisted* and *automatic* focus: the point at which the machine is allowed to have an opinion about the last physical adjustment in photography.
+* **A professional-grade object with a consumer-grade trick.** The ME-F was a compact, consumer-oriented SLR, not a flagship, and its autofocus lens was a single slow zoom supplied to make the feature demonstrable. It sold modestly, but it proved the concept in the category that mattered: users of interchangeable-lens cameras, the most demanding photographic market.
+
+### Team
+
+* **Asahi Optical Co., Ltd. (Pentax).** Designed and built the ME-F and the SMC Pentax AF 35–70 mm lens.
+* **Pentax focus-sensor group.** Developed the in-body focus detection hardware first shown in the ME-F.
+
+### Media
+
+![Pentax ME-F with its autofocus lens](../assets/wiki/pentax-me-f.jpg)
+*Pentax ME-F — the first autofocus 35 mm SLR, shown with its motorised AF zoom lens. Photo: ZanderZ, CC BY-SA 3.0, via Wikimedia Commons.*
+
+### Sources
+
+1. Autofocus — "The Pentax ME-F, which used focus sensors in the camera body coupled with a motorized lens, became the first autofocus 35 mm SLR in 1981" — https://en.wikipedia.org/wiki/Autofocus
+2. Image: File:Pentax ME-F autofocus.jpg — CC BY-SA 3.0 — https://commons.wikimedia.org/wiki/File:Pentax_ME-F_autofocus.jpg
+
+---
+
+## Konica C35 AF (1977)
+
+**By:** Konishiroku Photo Industry Co., Ltd. (Konica), Tokyo  
+**Tags:** `Camera` `Autofocus` `Consumer` `Sensing` `Embedded Computing`
+
+### Overview
+
+The Konica C35 AF, released in November 1977, was the first mass-produced autofocus camera. It was a derivative of Konica's popular C35 Automatic compact, and its autofocus system was, in effect, an electronic rebuild of a split-image rangefinder: a pair of windows and a sensor array compared two views of the scene, and a small control circuit drove the lens to the distance at which the two images coincided. The user simply framed the subject and pressed the shutter; the coincidence that had been the photographer's job since the mechanical rangefinder now happened inside the camera in a fraction of a second. It was not the first camera with feedback about focus — split-image prisms and rangefinders had given that for decades — but it was the first to *act* on that feedback automatically, and the first to be sold in quantity to the general public.
+
+### Deep dive
+
+* **The rangefinder, moved inside.** A manual rangefinder shows the photographer two superimposed images; the photographer rotates the lens until they coincide. The C35 AF shows the photographer *nothing*; the sensor pair does the superimposition and the actuator does the rotation. The human sensing loop is not made easier, it is removed — which is the defining move of consumer automation in the late 1970s.
+* **Why point-and-shoot mattered.** The C35 AF was small, fixed-lens, and cheap enough to sell broadly. Its autofocus arrived in the same years as the volume point-and-shoot market: the conjunction of automation and format produced the camera most people actually carried. By conventionalising a camera that "just focused," it set the expectation that later cameras would be judged against.
+* **An early embedded vision system.** The electronics had to acquire an image pair, score alignment, and command a lens drive — the rudiments of what would become, in digital cameras, a software-defined autofocus. The C35 AF is a useful marker of how much signal-processing capability had migrated into cheap consumer hardware by the late 1970s, well before microprocessors were ordinary in cameras.
+* **A lineage to the SLR.** Three months' worth of successors in this museum tell the rest of the story: the Polaroid Sonar OneStep (1978) automated an SLR, the Pentax ME-F (1981) brought autofocus to interchangeable lenses, and every later SLR, DSLR, and phone followed the same principle — the machine closes the last physical loop the user used to close by hand.
+
+### Team
+
+* **Konishiroku Photo Industry Co., Ltd. (Konica).** Designed and built the C35 AF and its autofocus system.
+* **Konica autofocus engineering group.** Developed the sensor-pair/electronic-rangefinder architecture.
+
+### Media
+
+![Konica C35 AF](../assets/wiki/konica-c35-af.jpg)
+*Konica C35 AF — the first mass-produced autofocus camera, November 1977. Photo: John Nuttall, CC BY 2.0, via Wikimedia Commons.*
+
+### Sources
+
+1. Konica C35 AF — "released in November 1977, was the first mass-produced autofocus camera"; autofocus version of the C35 Automatic, Hexanon 38 mm f/2.8, electronic split-image rangefinder — https://en.wikipedia.org/wiki/Konica_C35_AF
+2. Autofocus — "The first mass-produced autofocus camera was the Konica C35 AF … released in 1977" — https://en.wikipedia.org/wiki/Autofocus
+3. Image: File:Konica C35 AF (3852684227).jpg — CC BY 2.0 — https://commons.wikimedia.org/wiki/File:Konica_C35_AF_(3852684227).jpg
