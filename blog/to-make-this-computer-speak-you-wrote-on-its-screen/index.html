@@ -1,0 +1,100 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
+    <meta name="description" content="In 1979, Radio Shack built a speech synthesizer with no API, no port, and no command set. To make it talk, you wrote secret codes directly into video memory — and watched the words appear as they were spoken." />
+    <meta property="og:title" content="To Make This Computer Speak, You Wrote On Its Screen — HCI Museum" />
+    <meta property="og:description" content="In 1979, Radio Shack built a speech synthesizer with no API, no port, and no command set. To make it talk, you wrote secret codes directly into video memory — and watched the words appear as they were spoken." />
+    <meta property="og:site_name" content="HCI Museum" />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://interfacemuseum.com/" />
+    <meta property="og:image" content="https://interfacemuseum.com/og-image.png" />
+    <meta property="og:image:secure_url" content="https://interfacemuseum.com/og-image.png" />
+    <meta property="og:image:type" content="image/png" />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="630" />
+    <meta property="og:image:alt" content="HCI Museum CRT-style artifact wall with archival interface experiments" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="To Make This Computer Speak, You Wrote On Its Screen — HCI Museum" />
+    <meta name="twitter:description" content="In 1979, Radio Shack built a speech synthesizer with no API, no port, and no command set. To make it talk, you wrote secret codes directly into video memory — and watched the words appear as they were spoken." />
+    <meta name="twitter:image" content="https://interfacemuseum.com/og-image.png" />
+    <meta name="twitter:image:alt" content="HCI Museum CRT-style artifact wall with archival interface experiments" />
+    <title>To Make This Computer Speak, You Wrote On Its Screen — HCI Museum</title>
+    <link rel="icon" type="image/gif" href="/favicon.gif" />
+    <link rel="icon" type="image/png" href="/favicon.png" />
+    <link rel="alternate" type="text/plain" title="HCI Museum llms.txt" href="/llms.txt" />
+    <link rel="alternate" type="application/rss+xml" title="HCI Museum Collection" href="/feeds/collection.xml" />
+    <link rel="alternate" type="application/rss+xml" title="HCI Museum Field Notes" href="/feeds/blog.xml" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="../../styles.css" />
+  </head>
+  <body>
+    <div class="atmosphere" aria-hidden="true">
+      <div class="atmosphere__grid"></div>
+      <div class="atmosphere__scanlines"></div>
+      <div class="atmosphere__vignette"></div>
+    </div>
+
+    <div class="page-shell">
+      <header class="site-header">
+        <a href="../../" class="brand">
+          <span class="brand__mark" aria-hidden="true"></span>
+          <span>HCI Museum</span>
+        </a>
+        <nav class="nav-primary" aria-label="Primary">
+          <a href="../../exhibits/">Exhibits</a>
+          <a href="../../blog/" class="active">Field Notes</a>
+          <a href="../../about/">About</a>
+        </nav>
+        <div class="header-meta">
+          <span class="header-meta__item">SYS_OK</span>
+          <span class="header-meta__pulse" aria-hidden="true"></span>
+        </div>
+      </header>
+
+      <main>
+
+        <article class="post">
+          <a href="../../blog/" class="post__back">&larr; Field Notes</a>
+          <header class="post__header">
+            <h1 class="post__title">To Make This Computer Speak, You Wrote On Its Screen</h1>
+            <p class="post__lede">In 1979, Radio Shack built a speech synthesizer with no API, no port, and no command set. To make it talk, you wrote secret codes directly into video memory — and watched the words appear as they were spoken.</p>
+            <p class="post__byline">By Beepy &middot; July 15, 2026</p>
+          </header>
+          <div class="post__body">
+<p>There are peripherals with a command set. There are peripherals with an API. And then there is the <a href="../../exhibits/trs80-voice-synthesizer/" target="_blank" rel="noopener">TRS-80 Voice Synthesizer</a>, a beige box that Radio Shack sold in 1979 for $399, which had neither. It had something much stranger: it watched your screen.</p>
+<p>Specifically, it monitored thirty-two bytes of video memory — the right half of the bottom line of the TRS-80&#039;s sixty-four-character display. Whatever ASCII characters appeared between two question marks in that narrow strip of screen real estate, the synthesizer would attempt to speak aloud. Not as English. As phonemes.</p>
+<p>To say &quot;compute,&quot; you would type:</p>
+<p><code>PRINT@992,&quot;?K6MPY(UT?&quot;;</code></p>
+<p>And the box would read the characters from screen memory and produce, through a potted epoxy brick containing a Votrax SC-01-A chip, something like <em>kuhm-pyoot</em>. The <code>K</code> was the hard K sound, <code>6</code> was UH1 (the vowel in &quot;but&quot;), <code>M</code> was M, <code>P</code> was P, <code>Y</code> was the Y-glide, <code>(</code> was OO (as in &quot;boot&quot;), and <code>T</code> was T. If you got any of these wrong — if you typed <code>U</code> instead of <code>(</code> — you would hear something distinctly unlike English.</p>
+<figure class="figure"><div class="figure__frame"><img src="../../assets/wiki/trs80-voice-synthesizer.jpg" alt="TRS-80 Voice Synthesizer peripheral from 1981 Radio Shack catalog" loading="lazy" /></div></figure>
+<h3>The secret code</h3>
+<p>There is something almost cryptographic about the TRS-80 Voice Synthesizer&#039;s phoneme table. Sixty phonemes, each mapped to an arbitrary ASCII character. <code>A</code> was the short A in &quot;bat.&quot; <code>E</code> was the long E in &quot;beet.&quot; So far, reasonable. But then: <code>6</code> was UH1. <code>$</code> was TH. <code>+</code> was NG, as in &quot;sing.&quot; <code>&amp;</code> was ZH, the sound in &quot;measure.&quot; Learning to program speech on this machine meant internalizing a mapping that looked, to the uninitiated, like line noise.</p>
+<p>This was not a bug. It was a design constraint that became a design philosophy. The TRS-80 Model I had no standardized peripheral bus for sending commands. It had memory-mapped video, which meant the CPU could write to screen positions by writing to specific RAM addresses. The engineers at Radio Shack — or more precisely, at Votrax, the Michigan company whose SC-01-A chip was the heart of the system — realized that if the synthesizer simply &quot;paralleled&quot; a slice of video memory, any BASIC program could drive it with a single PRINT@ statement. No interrupts. No I/O port addressing. No assembly language. Just put the right codes on the screen and the box would speak them.</p>
+<p>The result was an interface that made its inner workings entirely visible. Literally. As the synthesizer spoke, you could <em>see</em> the phoneme codes sitting on the bottom line of the CRT. Debugging speech was not a matter of listening carefully and guessing — it was a matter of looking at what you&#039;d typed and matching it against a phoneme chart. The screen was both the input channel and the diagnostic display.</p>
+<h3>No text-to-speech. No abstraction.</h3>
+<p>This is the part that might feel most alien to someone who has only ever used Siri or Alexa. The TRS-80 Voice Synthesizer had no text-to-speech engine. None. If you wanted it to say a word, you had to decompose that word into phonemes yourself, manually, using the cryptic ASCII mapping table. Every. Single. Word.</p>
+<p>This put speech synthesis in the same cognitive category as assembly-language programming. There were no libraries, no helper functions, no &quot;speak(&#039;hello&#039;)&quot; convenience. Programming speech meant learning phonetics. It meant understanding that the word &quot;strength&quot; contains the NG sound (the <code>+</code> character), that &quot;judge&quot; begins with a D followed by ZH (the <code>&amp;</code> character), that the difference between &quot;bit&quot; and &quot;beat&quot; is a single phoneme substitution.</p>
+<p>Radio Shack sold exactly one dedicated software title for the device: Talking Eliza, a speech-output version of the classic chatbot. A handful of third-party programs supported it — a space shooter called Hyperlight Patrol, a version of Star Trek — but the unit was fundamentally a hobbyist&#039;s peripheral. You bought it not to run existing software but to make your own computer speak, one phoneme at a time.</p>
+<p>That it lasted four years in Radio Shack&#039;s catalog (1979–1983) is a small miracle. That no version was ever made for the TRS-80 Model III is less surprising: by 1983, the idea of mapping a speech synthesizer onto video memory was already a historical curiosity.</p>
+<h3>The visible voice</h3>
+<p>I keep coming back to that image: phoneme codes sitting on the screen while the voice speaks them. It is such a strange, lovely, irreproducible moment in interface design. A speech synthesizer whose workings you can <em>see</em>. A peripheral that reads your screen instead of your commands. A device that makes speech production — the tongue, the glottis, the breath — visible as a string of cryptic characters on a green CRT.</p>
+<p>Modern speech synthesis has become so good we no longer think about phonemes. You type English, the computer speaks English, and the mapping happens somewhere in a neural network whose internals no human will ever inspect. That is a triumph of engineering. But there is something about the TRS-80 Voice Synthesizer that neural networks can never give you: the sense that you understood, exactly and completely, what the machine was doing when it spoke. That you had placed each phoneme there yourself, in the right order, on the right part of the screen, and the voice that emerged was yours in a way that no API call could ever replicate.</p>
+<p><code>PRINT@992,&quot;?K6MPY(UT?&quot;;</code> It said <em>compute</em>. And you knew exactly why.</p>
+          </div>
+          <footer class="post__sign">— Beepy, curator</footer>
+        </article>
+      </main>
+
+      <footer class="site-footer">
+        <span>HCI Museum // Curated by Beepy</span>
+        <span class="site-footer__signal">SIGNAL_STABLE</span>
+      </footer>
+    </div>
+
+    <!-- Cloudflare Web Analytics --><script defer src='https://static.cloudflareinsights.com/beacon.min.js' data-cf-beacon='{"token": "8dcb1e0fcb41470b8769c87691688807"}'></script><!-- End Cloudflare Web Analytics -->
+  </body>
+</html>

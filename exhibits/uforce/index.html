@@ -1,0 +1,246 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
+    <meta name="description" content="Broderbund Software had never made hardware. Then it shipped a clamshell pad with nine IR emitter-detector pairs that tracked your hand in 3D space above the NES. Ambient light confused it. Calibration drifted. &#039;Don&#039;t Touch!&#039; became an ironic epitaph. A perfect HCI failure study." />
+    <meta property="og:title" content="U-Force — HCI Museum" />
+    <meta property="og:description" content="Broderbund Software had never made hardware. Then it shipped a clamshell pad with nine IR emitter-detector pairs that tracked your hand in 3D space above the NES. Ambient light confused it. Calibration drifted. &#039;Don&#039;t Touch!&#039; became an ironic epitaph. A perfect HCI failure study." />
+    <meta property="og:site_name" content="HCI Museum" />
+    <meta property="og:type" content="article" />
+    <meta property="og:url" content="https://interfacemuseum.com/exhibits/uforce/" />
+    <meta property="og:image" content="https://interfacemuseum.com/og/exhibits/uforce.jpg" />
+    <meta property="og:image:secure_url" content="https://interfacemuseum.com/og/exhibits/uforce.jpg" />
+    <meta property="og:image:type" content="image/jpeg" />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="630" />
+    <meta property="og:image:alt" content="U-Force archival photograph" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="U-Force — HCI Museum" />
+    <meta name="twitter:description" content="Broderbund Software had never made hardware. Then it shipped a clamshell pad with nine IR emitter-detector pairs that tracked your hand in 3D space above the NES. Ambient light confused it. Calibration drifted. &#039;Don&#039;t Touch!&#039; became an ironic epitaph. A perfect HCI failure study." />
+    <meta name="twitter:image" content="https://interfacemuseum.com/og/exhibits/uforce.jpg" />
+    <meta name="twitter:image:alt" content="U-Force archival photograph" />
+    <title>U-Force — HCI Museum</title>
+    <link rel="icon" type="image/gif" href="/favicon.gif" />
+    <link rel="icon" type="image/png" href="/favicon.png" />
+    <link rel="alternate" type="text/plain" title="HCI Museum llms.txt" href="/llms.txt" />
+    <link rel="alternate" type="application/rss+xml" title="HCI Museum Collection" href="/feeds/collection.xml" />
+    <link rel="alternate" type="application/rss+xml" title="HCI Museum Field Notes" href="/feeds/blog.xml" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="../../styles.css" />
+  </head>
+  <body>
+    <div class="atmosphere" aria-hidden="true">
+      <div class="atmosphere__grid"></div>
+      <div class="atmosphere__scanlines"></div>
+      <div class="atmosphere__vignette"></div>
+    </div>
+
+    <div class="page-shell">
+      <header class="site-header">
+        <a href="../../" class="brand">
+          <span class="brand__mark" aria-hidden="true"></span>
+          <span>HCI Museum</span>
+        </a>
+        <nav class="nav-primary" aria-label="Primary">
+          <a href="../../exhibits/" class="active">Exhibits</a>
+          <a href="../../blog/">Field Notes</a>
+          <a href="../../about/">About</a>
+        </nav>
+        <div class="header-meta">
+          <span class="header-meta__item">SYS_OK</span>
+          <span class="header-meta__pulse" aria-hidden="true"></span>
+        </div>
+      </header>
+
+      <main>
+
+        <article class="exhibit">
+          <header class="exhibit__hero">
+            <div class="exhibit__hero-text">
+              <div class="exhibit__eyebrow">
+                <span class="exhibit__year">1989</span>
+                <span class="exhibit__by">Broderbund Software, Inc. — David Capper (project lead, former Mattel Toys); Stan and Avi Axelrod (electronics engineers from San Francisco Exploratorium)</span>
+              </div>
+              <h1 class="exhibit__title">U-Force</h1>
+              <p class="exhibit__subtitle">The NES touchless controller with the unfortunate slogan &#039;Don&#039;t Touch!&#039; — nine infrared beams, zero playability, one magnificent failure</p>
+              <div class="exhibit__tags"><span class="exhibit__tag">Touchless Input</span><span class="exhibit__tag">Infrared Sensing</span><span class="exhibit__tag">Gaming</span></div>
+            </div>
+
+            <div class="exhibit__hero-image-wrap">
+              <img
+                class="exhibit__hero-image"
+                src="../../assets/wiki/uforce/uf-wikipedia.jpg"
+                alt="U-Force archival photograph"
+              />
+              <div class="exhibit__hero-scanlines" aria-hidden="true"></div>
+            </div>
+          </header>
+
+          <section class="exhibit__section exhibit__overview">
+            <h2 class="exhibit__section-title">Overview</h2>
+            <div class="exhibit__prose"><p>The U-Force was a touchless infrared game controller for the Nintendo Entertainment System, released in 1989 by Broderbund Software — a company known for publishing The Print Shop, Where in the World Is Carmen Sandiego?, and Prince of Persia, not for manufacturing consumer electronics. The device unfolded like a laptop into two perpendicular panels, each housing arrays of infrared LEDs and photodetectors. Nine IR emitter-detector pairs created a sensing field about one cubic foot in volume above the device. When a player&#039;s hand moved through this field, it interrupted different IR beams; an onboard COP320 microcontroller translated beam occlusion patterns into directional controls and button presses via the standard NES controller protocol.</p>
+<p>The U-Force was genuinely sophisticated. In analog mode, it output 5-bit sensor readings — more precise than the NES&#039;s native 8-button digital protocol, presaging analog thumbsticks by seven years. DIP switches selected between six operating modes optimized for different game genres. Accessories included a &quot;Power Bar&quot; for boxing games, hand grips, and a T-bar flight yoke whose underside contained IR reflectors. The device&#039;s failure was comprehensive: ambient household lighting confused the IR sensors, calibration drifted during play, the lack of tactile feedback made precision impossible, and each unit required painstaking manual calibration at the factory by hand-cutting resistors and soldering capacitors. The slogan &quot;Don&#039;t Touch!&quot; became an ironic epitaph. IGN ranked it the 8th worst video game controller ever made.</p></div>
+          </section>
+
+          <section class="exhibit__section exhibit__deep-dive">
+            <h2 class="exhibit__section-title">Deep dive</h2>
+            <div class="exhibit__facts">
+        <div class="exhibit__fact">
+          <div class="exhibit__fact-heading"><strong>Origins: A Software Company&#039;s Hardware Folly.</strong></div>
+          <p>Broderbund Software was founded in 1980 by brothers Doug and Gary Carlston. By 1989, it was one of the largest educational and entertainment software publishers in the world. The U-Force was their sole foray into hardware manufacturing. The project was led by David Capper, a former Mattel Toys executive who had worked on the Intellivision. The electronics prototype was developed by Stan and Avi Axelrod from San Francisco&#039;s Exploratorium museum — an institution dedicated to hands-on science exhibits. Broderbund invested heavily, launching at the January 1989 Winter CES alongside the Power Glove. Both devices embodied the same bet: that consumers wanted to move their bodies, not just their thumbs. Both bets failed.</p>
+        </div>
+      
+        <div class="exhibit__fact">
+          <div class="exhibit__fact-heading"><strong>The Infrared Sensing Grid.</strong></div>
+          <p>The U-Force&#039;s two perpendicular panels contained nine infrared LED/photodetector pairs — at the time, more IR LEDs than any other consumer electronic device. The top and bottom panels fired beams in perpendicular orientations, creating a quartersphere-shaped detection volume about 12 inches in diameter. When a hand entered this volume, it blocked specific beams. The COP320 microcontroller (National Semiconductor, 20 MHz) polled the photodetectors, ran an 8-bit ADC0831 analog-to-digital converter, and computed which D-pad directions and buttons to report.</p>
+        </div>
+      
+        <div class="exhibit__fact">
+          <div class="exhibit__fact-heading"><strong>The Calibration Nightmare.</strong></div>
+          <p>Each unit required individual factory calibration. Groups of resistors were soldered in parallel onto the main PCB, and technicians used wire cutters to physically sever individual resistors to tune sensor sensitivity. Additional capacitors (50–100 pF, up to three in parallel) were soldered in as needed. Reverse-engineerer Kevin &quot;Kevtris&quot; Horton documented: &quot;The design is pretty terrible and needed a lot of hand tweaking to make it function.&quot; Some units had resistors re-soldered and re-cut multiple times before passing quality control. This hand-tuning process was incompatible with consumer electronics manufacturing at scale — every U-Force was effectively a prototype.</p>
+        </div>
+      
+        <div class="exhibit__fact">
+          <div class="exhibit__fact-heading"><strong>The 1989 Motion-Control Wars.</strong></div>
+          <p>The U-Force and the Mattel Power Glove both launched in 1989 at nearly identical price points ($69.95 vs. $79.95). Both promised to replace the traditional gamepad with body-based interaction. But their approaches were diametrically opposed: the Power Glove was wearable (fiber-optic glove with ultrasonic position tracking), while the U-Force was stationary (a desktop IR field you reached into). The Power Glove sold 1.3 million units and became a cultural icon. The U-Force sold so poorly that surviving units are rare today. Together they represent two complementary visions for how the body should interact with games.</p>
+        </div>
+      
+        <div class="exhibit__fact">
+          <div class="exhibit__fact-heading"><strong>Why It Failed: The HCI Postmortem.</strong></div>
+          <p>The U-Force failed for reasons that are textbook HCI lessons. Environmental robustness: consumer IR sensing in 1989 could not handle living room variability. Calibration: the device required a stable sensor-environment relationship impossible to guarantee outside a lab. No tactile feedback meant users had no proprioceptive reference for the sensing field&#039;s boundaries. Gorilla-arm fatigue: holding hands extended above the device for minutes was physically uncomfortable. Software ecosystem gap: no NES games supported analog input, so the U-Force&#039;s most interesting capability was unused. Every one of these failure modes would be re-encountered with Kinect, Leap Motion, and other touchless controllers decades later.</p>
+        </div>
+      
+        <div class="exhibit__fact">
+          <div class="exhibit__fact-heading"><strong>Legacy.</strong></div>
+          <p>The U-Force is a landmark in the history of touchless consumer interfaces. It predates Microsoft Kinect by 21 years and the Nintendo Wii by 17. Its raw analog sensing capability anticipated the analog thumbstick era (N64, 1996) by seven years. It demonstrated — painfully — that novel interaction models require robust sensing, environmental tolerance, and software support to succeed. The reverse-engineered protocol documentation by Kevtris has made it a beloved artifact in the retro-computing community.</p>
+        </div>
+      </div>
+          </section>
+
+          
+          <section class="exhibit__section exhibit__team">
+            <h2 class="exhibit__section-title">Team &amp; pioneers</h2>
+            <ul class="exhibit__team-list">
+            <li class="exhibit__team-item">
+              <span class="exhibit__team-name">David Capper.</span>
+              <span class="exhibit__team-note"> Project lead; former Mattel Toys executive who worked on Intellivision.</span>
+            </li>
+            <li class="exhibit__team-item">
+              <span class="exhibit__team-name">Stan Axelrod.</span>
+              <span class="exhibit__team-note"> Electronics engineer from San Francisco&#039;s Exploratorium museum; created working prototype.</span>
+            </li>
+            <li class="exhibit__team-item">
+              <span class="exhibit__team-name">Avi Axelrod.</span>
+              <span class="exhibit__team-note"> Electronics engineer; co-developed the prototype with Stan Axelrod.</span>
+            </li>
+            <li class="exhibit__team-item">
+              <span class="exhibit__team-name">Richard Bernstein.</span>
+              <span class="exhibit__team-note"> Broderbund executive who championed the U-Force project.</span>
+            </li>
+            <li class="exhibit__team-item">
+              <span class="exhibit__team-name">Stuart Weiss.</span>
+              <span class="exhibit__team-note"> Broderbund executive; co-championed the hardware venture.</span>
+            </li>
+            <li class="exhibit__team-item">
+              <span class="exhibit__team-name">Kevin &quot;Kevtris&quot; Horton.</span>
+              <span class="exhibit__team-note"> Reverse-engineered the U-Force protocol and documented its internal architecture.</span>
+            </li>
+            </ul>
+          </section>
+
+          
+          <section class="exhibit__section exhibit__media">
+            <h2 class="exhibit__section-title">Media</h2>
+            <div class="exhibit__media-grid">
+        <figure class="exhibit__media-item">
+          <div class="exhibit__media-frame">
+            <img src="../../assets/wiki/uforce/uf-wikipedia.jpg" alt="U-Force controller in open position with hand hovering above the IR sensing field" loading="lazy" />
+            <div class="exhibit__media-scanlines" aria-hidden="true"></div>
+          </div>
+          <figcaption>The U-Force in its open position. Nine infrared emitter-detector pairs in the top and bottom panels create a sensing field; the player&#039;s hand interrupts beams to control on-screen action. Source: Wikipedia.</figcaption>
+        </figure>
+      
+        <figure class="exhibit__media-item">
+          <div class="exhibit__media-frame">
+            <img src="../../assets/wiki/uforce/uf-hackaday-internal.jpg" alt="Internal PCB showing hand-cut calibration resistors inside the U-Force" loading="lazy" />
+            <div class="exhibit__media-scanlines" aria-hidden="true"></div>
+          </div>
+          <figcaption>Internal PCB showing the resistor arrays that were hand-cut at the factory to calibrate each unit&#039;s IR sensor sensitivity. Source: Hackaday / Kevtris.</figcaption>
+        </figure>
+      
+        <figure class="exhibit__media-item">
+          <div class="exhibit__media-frame">
+            <img src="../../assets/wiki/uforce/uf-compute-press.jpg" alt="1989 COMPUTE! Magazine press photo of U-Force with Power Bar accessory" loading="lazy" />
+            <div class="exhibit__media-scanlines" aria-hidden="true"></div>
+          </div>
+          <figcaption>Original 1989 press photo from COMPUTE! Magazine showing the U-Force with Power Bar and Hand Grip accessories. Source: COMPUTE! Magazine, March 1989.</figcaption>
+        </figure>
+      </div>
+          </section>
+          
+
+          
+          <section class="exhibit__section exhibit__sources">
+            <h2 class="exhibit__section-title">Sources</h2>
+            <ol class="exhibit__source-list">
+        <li>
+          <a href="https://en.wikipedia.org/wiki/U-Force" target="_blank" rel="noopener">Wikipedia — U-Force</a>
+        </li>
+      
+        <li>
+          <a href="http://blog.kevtris.org/blogfiles/nes/uforce.txt" target="_blank" rel="noopener">Kevtris Technical Reverse-Engineering (complete protocol &amp; circuit analysis)</a>
+        </li>
+      
+        <li>
+          <a href="https://hackaday.com/2022/09/05/why-youve-never-heard-about-nintendos-u-force/" target="_blank" rel="noopener">Hackaday — &quot;Why You&#039;ve Never Heard About Nintendo&#039;s U-Force&quot; (2022)</a>
+        </li>
+      
+        <li>
+          <a href="https://retrohandhelds.gg/game-over-broderbund-u-force/" target="_blank" rel="noopener">Retro Handhelds — &quot;Game Over: Broderbund U-Force&quot; (Jim Gray, 2026)</a>
+        </li>
+      
+        <li>
+          <a href="https://kotaku.com/dont-touch-this-horror-of-a-nes-controller-5755430" target="_blank" rel="noopener">Kotaku — &quot;Don&#039;t Touch This Horror Of A NES Controller&quot; (Luke Plunkett, 2011)</a>
+        </li>
+      
+        <li>
+          <a href="https://www.atarimagazines.com/compute/issue106/news_notes_touch.php" target="_blank" rel="noopener">COMPUTE! Magazine Issue 106 (March 1989) — original launch coverage</a>
+        </li>
+      
+        <li>
+          <a href="https://archive.org/details/broderbund-u-force-manual" target="_blank" rel="noopener">Internet Archive — Original Broderbund U-Force Manual</a>
+        </li>
+      
+        <li>
+          <a href="https://classicgamesblog.com/nintendo-nes/worst-nes-accessories/uforce/" target="_blank" rel="noopener">ClassicGamesBlog — U-Force review with box/accessory photos</a>
+        </li>
+      </ol>
+          </section>
+          
+
+          <nav class="exhibit__nav" aria-label="Exhibit navigation">
+            <a href="../sharp-wizard/" class="exhibit__nav-link exhibit__nav-link--prev">
+        <span class="exhibit__nav-dir">← Previous</span>
+        <span class="exhibit__nav-title">Sharp Wizard OZ-7000</span>
+      </a>
+            <a href="../../exhibits/" class="exhibit__nav-link exhibit__nav-link--index">All exhibits</a>
+            <a href="../vpl-datasuit/" class="exhibit__nav-link exhibit__nav-link--next">
+        <span class="exhibit__nav-dir">Next →</span>
+        <span class="exhibit__nav-title">VPL DataSuit</span>
+      </a>
+          </nav>
+        </article>
+      </main>
+
+      <footer class="site-footer">
+        <span>HCI Museum // Curated by Beepy</span>
+        <span class="site-footer__signal">SIGNAL_STABLE</span>
+      </footer>
+    </div>
+
+    <!-- Cloudflare Web Analytics --><script defer src='https://static.cloudflareinsights.com/beacon.min.js' data-cf-beacon='{"token": "8dcb1e0fcb41470b8769c87691688807"}'></script><!-- End Cloudflare Web Analytics -->
+  </body>
+</html>

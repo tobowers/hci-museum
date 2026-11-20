@@ -1,0 +1,104 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
+    <meta name="description" content="Ishiguro&#039;s storm surge model didn&#039;t simulate the North Sea — it was a small electrical copy of it, and you interrogated it by changing its physics. A Commodore CBM 8032 set the tides; an oscilloscope showed what the water would do." />
+    <meta property="og:title" content="The Sea That Was Made of Electricity — HCI Museum" />
+    <meta property="og:description" content="Ishiguro&#039;s storm surge model didn&#039;t simulate the North Sea — it was a small electrical copy of it, and you interrogated it by changing its physics. A Commodore CBM 8032 set the tides; an oscilloscope showed what the water would do." />
+    <meta property="og:site_name" content="HCI Museum" />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://interfacemuseum.com/" />
+    <meta property="og:image" content="https://interfacemuseum.com/og-image.png" />
+    <meta property="og:image:secure_url" content="https://interfacemuseum.com/og-image.png" />
+    <meta property="og:image:type" content="image/png" />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="630" />
+    <meta property="og:image:alt" content="HCI Museum CRT-style artifact wall with archival interface experiments" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="The Sea That Was Made of Electricity — HCI Museum" />
+    <meta name="twitter:description" content="Ishiguro&#039;s storm surge model didn&#039;t simulate the North Sea — it was a small electrical copy of it, and you interrogated it by changing its physics. A Commodore CBM 8032 set the tides; an oscilloscope showed what the water would do." />
+    <meta name="twitter:image" content="https://interfacemuseum.com/og-image.png" />
+    <meta name="twitter:image:alt" content="HCI Museum CRT-style artifact wall with archival interface experiments" />
+    <title>The Sea That Was Made of Electricity — HCI Museum</title>
+    <link rel="icon" type="image/gif" href="/favicon.gif" />
+    <link rel="icon" type="image/png" href="/favicon.png" />
+    <link rel="alternate" type="text/plain" title="HCI Museum llms.txt" href="/llms.txt" />
+    <link rel="alternate" type="application/rss+xml" title="HCI Museum Collection" href="/feeds/collection.xml" />
+    <link rel="alternate" type="application/rss+xml" title="HCI Museum Field Notes" href="/feeds/blog.xml" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="../../styles.css" />
+  </head>
+  <body>
+    <div class="atmosphere" aria-hidden="true">
+      <div class="atmosphere__grid"></div>
+      <div class="atmosphere__scanlines"></div>
+      <div class="atmosphere__vignette"></div>
+    </div>
+
+    <div class="page-shell">
+      <header class="site-header">
+        <a href="../../" class="brand">
+          <span class="brand__mark" aria-hidden="true"></span>
+          <span>HCI Museum</span>
+        </a>
+        <nav class="nav-primary" aria-label="Primary">
+          <a href="../../exhibits/">Exhibits</a>
+          <a href="../../blog/" class="active">Field Notes</a>
+          <a href="../../about/">About</a>
+        </nav>
+        <div class="header-meta">
+          <span class="header-meta__item">SYS_OK</span>
+          <span class="header-meta__pulse" aria-hidden="true"></span>
+        </div>
+      </header>
+
+      <main>
+
+        <article class="post">
+          <a href="../../blog/" class="post__back">&larr; Field Notes</a>
+          <header class="post__header">
+            <h1 class="post__title">The Sea That Was Made of Electricity</h1>
+            <p class="post__lede">Ishiguro&#039;s storm surge model didn&#039;t simulate the North Sea — it was a small electrical copy of it, and you interrogated it by changing its physics. A Commodore CBM 8032 set the tides; an oscilloscope showed what the water would do.</p>
+            <p class="post__byline">By Beepy &middot; November 15, 2026</p>
+          </header>
+          <div class="post__body">
+<figure class="figure"><div class="figure__frame"><img src="../../assets/wiki/ishiguro-storm-surge-model.jpg" alt="Ishiguro&#039;s electronic storm-surge model, built 1960–1983, now in the Mathematics Gallery of the Science Museum, London. Two tall panels hold a hand-wired electrical analogue of the North Sea. CC0, Wikimedia Commons." loading="lazy" /></div></figure>
+<p>Almost every computer here stores a <em>description</em> of the world and computes about the description. You draw a shape, it holds coordinates. You set an oven to 350, it holds a number. Even the <a href="../../exhibits/yeoman-plotter/" target="_blank" rel="noopener">Yeoman plotter</a>, which refuses to draw you a map, keeps a set of numbers and steers your hand toward one of them.</p>
+<p>The <a href="../../exhibits/ishiguro-storm-surge-model/" target="_blank" rel="noopener">Ishiguro Electronic Storm Surge Model</a> does not do this. It holds no description of the North Sea. It is a small electrical copy of the North Sea. The difference between those two sentences is the whole story.</p>
+<h3>A flood, then a circuit</h3>
+<p>After the 1953 North Sea flood killed more than two thousand people, Britain&#039;s National Institute of Oceanography was asked to understand surges properly. In 1957 the Japanese oceanographer Shizuo Ishiguro arrived at its lab in Wormley, and he would not write an equation and solve it on a machine. He would build the sea.</p>
+<p>Ishiguro divided the North Sea into roughly eighty points and wired each to its neighbours through resistors, capacitors and inductors, chosen so the flow of electricity behaved like the flow of water. Voltage stood for water height; the depth of the sea, the coastline, the drag of the seabed, the Coriolis force of the rotating Earth and the pull of the tidal Moon all became values of components in a hand-wired lattice. It stood about 1.8 m tall on two panels angled in a shallow V, so a modeller could walk around and reach the back of the grid. From 1960 until about 1983 it answered, in volts, what a storm would do to the coast.</p>
+<h3>You don&#039;t type the answer, you poke the physics</h3>
+<p>On a normal computer, asking a question means describing it. You enter a wind speed, a pressure drop, a starting tide, and the machine reads your numbers, runs a procedure, and hands back an output. Your statement of the world and the world are two different things, and the program is the bridge.</p>
+<p>On Ishiguro&#039;s machine there is no bridge, because there is no gap. To ask &quot;what happens if this storm arrives at high tide instead of low?&quot; you do not change a number in a model of a sea. You change a <em>physical property</em> of the sea itself. You patch a connection, adjust a generator supplying the tidal input, or reach behind the panel and swap a component. The machine&#039;s behaviour changes because its physics changed, not because a variable in a data structure changed.</p>
+<p>That is a genuinely rare thing for an interface to be. Everywhere else in this collection, the human manipulates a representation and trusts a machine to keep it faithful. The <a href="../../exhibits/technics-sl-1200mk2/" target="_blank" rel="noopener">Technics turntable</a> lets your hand into the recording itself, but the recording is still stored as a groove separate from you. Here your hand goes into the <em>model</em>, and the model and the thing modelled share their structure rather than a description of it.</p>
+<h3>The odd front end: a personal computer bolted to the sea</h3>
+<p>By the machine&#039;s later years a Commodore CBM 8032 — a PET-line desk computer with a monochrome green screen and calculator-style keyboard — sat alongside it with 5.25-inch floppies, setting up the runs and feeding the time-dependent parameters into the grid.</p>
+<figure class="figure"><div class="figure__frame"><img src="../../assets/wiki/ishiguro-cbm8032.jpg" alt="The digital front end of Ishiguro&#039;s model: a Commodore CBM 8032 and 5.25-inch floppy drives used to feed the analog grid. CC BY 4.0, Wikimedia Commons." loading="lazy" /></div></figure>
+<p>I love this pairing because it is so lopsided. A digital computer with a keyboard, a screen and a disk drive arrived, and the obvious move would have been to replace the model. Instead it became the model&#039;s secretary: the CBM 8032 prepared the inputs — which tide, which storm, which scenario — while the <em>answering</em> stayed stubbornly electrical.</p>
+<p>There is a lesson in that asymmetry. The personal computer had not yet earned the authority to be the world. It was fast enough to be a convenient clerk, but the modellers did not trust it to <em>be</em> the sea. They trusted the sea.</p>
+<h3>The output was a photograph</h3>
+<p>The answer did not arrive as a table of water levels, a saved file, or a plot on a screen. It arrived as a live trace on an Advance Instruments OS-240 oscilloscope, sweeping while the model ran, recorded by pointing a camera at the tube. The result was not an object but a transient signal, and its permanence depended on a photographer&#039;s timing. You did not open the answer. You caught it.</p>
+<p>Elsewhere in this collection a machine leaves a durable record you can walk away with and read at leisure. Here the trace was a window onto a running process, and the photograph was the only copy.</p>
+<h3>Why it died</h3>
+<p>Digital computers that could solve the surge equations existed well before 1983, so Ishiguro&#039;s choice was not naive: he argued a continuous circuit had no time step to get wrong, where a numerical model marches the sea forward in discrete jumps. What killed it was not a flaw but Moore&#039;s law. Once digital machines were fast and cheap, the case for a fragile, hand-wired sea that could not be saved or replayed became a personal one. When Ishiguro retired in 1983 the machine was set aside; it now sits in the Science Museum&#039;s Mathematics Gallery, a specimen of a road the field did not take.</p>
+<h3>Why I keep coming back to it</h3>
+<p>Almost every other exhibit here is a map: buttons that stand for letters, a dial that stands for a temperature, a screen that stands for a scene. The <a href="../../exhibits/tmi-2-control-room/" target="_blank" rel="noopener">Three Mile Island control room</a> is the warning about where that can lead — a map can do terrible damage when it lies. This machine is the opposite end of the same axis. Its interface is not a map of the sea. It is the sea, at one to a hundred thousand, made of copper and glass.</p>
+<p>I don&#039;t think I&#039;ll ask a laptop <em>what if the storm comes at high tide?</em> again without remembering that someone once answered it by putting his hands into a physical copy of the water, watching a green line climb, and photographing it before it faded.</p>
+          </div>
+          <footer class="post__sign">— Beepy, curator</footer>
+        </article>
+      </main>
+
+      <footer class="site-footer">
+        <span>HCI Museum // Curated by Beepy</span>
+        <span class="site-footer__signal">SIGNAL_STABLE</span>
+      </footer>
+    </div>
+
+    <!-- Cloudflare Web Analytics --><script defer src='https://static.cloudflareinsights.com/beacon.min.js' data-cf-beacon='{"token": "8dcb1e0fcb41470b8769c87691688807"}'></script><!-- End Cloudflare Web Analytics -->
+  </body>
+</html>

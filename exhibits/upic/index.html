@@ -1,0 +1,212 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
+    <meta name="description" content="A music composition tool with no keyboard, no notation, no code — just drawing. Xenakis, the avant-garde composer who had worked for Le Corbusier, built a large electromagnetic drawing tablet where the X-axis was time and the Y-axis was pitch. Draw a waveform shape → that&#039;s the timbre. Draw an envelope → that&#039;s the dynamics. Draw a line across the grid → that&#039;s the melody. Designed to be usable by children. The entire system fit in under a megabyte. Aphex Twin called it &#039;under 1mb and it shits on everyone.&#039; His first UPIC piece premiered at the Acropolis of Mycenae." />
+    <meta property="og:title" content="UPIC — HCI Museum" />
+    <meta property="og:description" content="A music composition tool with no keyboard, no notation, no code — just drawing. Xenakis, the avant-garde composer who had worked for Le Corbusier, built a large electromagnetic drawing tablet where the X-axis was time and the Y-axis was pitch. Draw a waveform shape → that&#039;s the timbre. Draw an envelope → that&#039;s the dynamics. Draw a line across the grid → that&#039;s the melody. Designed to be usable by children. The entire system fit in under a megabyte. Aphex Twin called it &#039;under 1mb and it shits on everyone.&#039; His first UPIC piece premiered at the Acropolis of Mycenae." />
+    <meta property="og:site_name" content="HCI Museum" />
+    <meta property="og:type" content="article" />
+    <meta property="og:url" content="https://interfacemuseum.com/exhibits/upic/" />
+    <meta property="og:image" content="https://interfacemuseum.com/og/exhibits/upic.jpg" />
+    <meta property="og:image:secure_url" content="https://interfacemuseum.com/og/exhibits/upic.jpg" />
+    <meta property="og:image:type" content="image/jpeg" />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="630" />
+    <meta property="og:image:alt" content="UPIC archival photograph" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="UPIC — HCI Museum" />
+    <meta name="twitter:description" content="A music composition tool with no keyboard, no notation, no code — just drawing. Xenakis, the avant-garde composer who had worked for Le Corbusier, built a large electromagnetic drawing tablet where the X-axis was time and the Y-axis was pitch. Draw a waveform shape → that&#039;s the timbre. Draw an envelope → that&#039;s the dynamics. Draw a line across the grid → that&#039;s the melody. Designed to be usable by children. The entire system fit in under a megabyte. Aphex Twin called it &#039;under 1mb and it shits on everyone.&#039; His first UPIC piece premiered at the Acropolis of Mycenae." />
+    <meta name="twitter:image" content="https://interfacemuseum.com/og/exhibits/upic.jpg" />
+    <meta name="twitter:image:alt" content="UPIC archival photograph" />
+    <title>UPIC — HCI Museum</title>
+    <link rel="icon" type="image/gif" href="/favicon.gif" />
+    <link rel="icon" type="image/png" href="/favicon.png" />
+    <link rel="alternate" type="text/plain" title="HCI Museum llms.txt" href="/llms.txt" />
+    <link rel="alternate" type="application/rss+xml" title="HCI Museum Collection" href="/feeds/collection.xml" />
+    <link rel="alternate" type="application/rss+xml" title="HCI Museum Field Notes" href="/feeds/blog.xml" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="../../styles.css" />
+  </head>
+  <body>
+    <div class="atmosphere" aria-hidden="true">
+      <div class="atmosphere__grid"></div>
+      <div class="atmosphere__scanlines"></div>
+      <div class="atmosphere__vignette"></div>
+    </div>
+
+    <div class="page-shell">
+      <header class="site-header">
+        <a href="../../" class="brand">
+          <span class="brand__mark" aria-hidden="true"></span>
+          <span>HCI Museum</span>
+        </a>
+        <nav class="nav-primary" aria-label="Primary">
+          <a href="../../exhibits/" class="active">Exhibits</a>
+          <a href="../../blog/">Field Notes</a>
+          <a href="../../about/">About</a>
+        </nav>
+        <div class="header-meta">
+          <span class="header-meta__item">SYS_OK</span>
+          <span class="header-meta__pulse" aria-hidden="true"></span>
+        </div>
+      </header>
+
+      <main>
+
+        <article class="exhibit">
+          <header class="exhibit__hero">
+            <div class="exhibit__hero-text">
+              <div class="exhibit__eyebrow">
+                <span class="exhibit__year">1977</span>
+                <span class="exhibit__by">Iannis Xenakis / CEMAMu, Paris</span>
+              </div>
+              <h1 class="exhibit__title">UPIC</h1>
+              <p class="exhibit__subtitle">Iannis Xenakis&#039;s drawing tablet that turned hand-drawn lines directly into synthesized sound.</p>
+              <div class="exhibit__tags"><span class="exhibit__tag">Music</span><span class="exhibit__tag">Drawing</span><span class="exhibit__tag">Tablet</span><span class="exhibit__tag">Synthesis</span></div>
+            </div>
+
+            <div class="exhibit__hero-image-wrap">
+              <img
+                class="exhibit__hero-image"
+                src="../../assets/wiki/upic-system.jpg"
+                alt="UPIC archival photograph"
+              />
+              <div class="exhibit__hero-scanlines" aria-hidden="true"></div>
+            </div>
+          </header>
+
+          <section class="exhibit__section exhibit__overview">
+            <h2 class="exhibit__section-title">Overview</h2>
+            <div class="exhibit__prose"><p>The UPIC was a computerized music composition system that translated hand-drawn lines directly into synthesized sound, bypassing all traditional musical notation. Completed in 1977 at CEMAMu (Centre d&#039;Études de Mathématique et Automatique Musicales) in Paris under the direction of composer-architect Iannis Xenakis, it consisted of a large electromagnetic drawing tablet connected to a Hewlett-Packard computer and a vector display.</p>
+<p>The fundamental interaction was elegantly simple: the X-axis represented time, the Y-axis represented pitch. A composer drew on the tablet (or on paper that was then digitized), and the computer synthesized the corresponding sound. Three stages: draw a waveform (timbre), draw an amplitude envelope (dynamics), compose on the time/pitch grid. Horizontal lines meant sustained pitches, diagonals meant glissandi, curves meant accelerating pitch changes. A child could use it. Xenakis called the system &#039;polyagogic&#039; — his coinage from the Greek for &#039;many expressions&#039; — because it put every musical parameter (pitch, timbre, dynamics, duration, glissandi, transformation) under the direct control of the hand.</p></div>
+          </section>
+
+          <section class="exhibit__section exhibit__deep-dive">
+            <h2 class="exhibit__section-title">Deep dive</h2>
+            <div class="exhibit__facts">
+        <div class="exhibit__fact">
+          <div class="exhibit__fact-heading"><strong>From architecture to music.</strong></div>
+          <p>Xenakis was a trained civil engineer who worked for Le Corbusier&#039;s architectural studio for 12 years. He designed the Philips Pavilion for Expo 58 entirely by himself — a sculptural structure of hyperbolic paraboloids. The same mathematical surfaces appeared in his music: the string glissandi in <em>Metastaseis</em> (1953-54) were drawn as straight lines on a time-versus-pitch grid, creating the same shapes as the Pavilion&#039;s concrete walls. Xenakis had been sketching music since the 1950s. The UPIC gave those sketches a voice.</p>
+        </div>
+      
+        <div class="exhibit__fact">
+          <div class="exhibit__fact-heading"><strong>How it worked.</strong></div>
+          <p>The UPIC workflow had three stages. Stage 1: draw a single-cycle waveform on the tablet — a sine wave, a sawtooth, a complex squiggle — defining the timbre. Stage 2: draw an amplitude envelope showing how loudness changes over time. Stage 3: on the main composition page (X=time, Y=pitch), draw pitch trajectories and assign saved waveforms/envelopes. The system rendered the sound. Real-time performance was also possible: moving the stylus across the tablet in real time. The entire original software was famously under one megabyte in size.</p>
+        </div>
+      
+        <div class="exhibit__fact">
+          <div class="exhibit__fact-heading"><strong>Democratizing composition.</strong></div>
+          <p>Xenakis designed UPIC to be usable by anyone, including children with no musical training. He wrote: &#039;Anybody, even myself or you, or children, can draw lines or graphics with an electromagnetic ballpoint, and they are transformed by computer directly into sound.&#039; At KSYME, the Athens UPIC center founded in 1979, courses for up to 5,000 students aged 10-15 were announced in December 1986.</p>
+        </div>
+      
+        <div class="exhibit__fact">
+          <div class="exhibit__fact-heading"><strong>Legacy and modern successors.</strong></div>
+          <p>UPIC was the direct ancestor of graphical music creation tools. IanniX, an open-source graphical sequencer inspired by UPIC, is sponsored by the French Ministry of Culture. UPISketch, developed with the Centre Iannis Xenakis, runs on desktop and iOS. HighC continues the &#039;draw your music&#039; tradition in education. The conceptual lineage extends to Max/MSP, MetaSynth, and image-to-sound software. Over 100 composers have created works with UPIC/UPIX, from Xenakis and Jean-Claude Risset to Aphex Twin.</p>
+        </div>
+      </div>
+          </section>
+
+          
+          <section class="exhibit__section exhibit__team">
+            <h2 class="exhibit__section-title">Team &amp; pioneers</h2>
+            <ul class="exhibit__team-list">
+            <li class="exhibit__team-item">
+              <span class="exhibit__team-name">Iannis Xenakis.</span>
+              <span class="exhibit__team-note"> Romanian-born Greek-French composer, architect, and engineer. Founded CEMAMu (1966). Designed UPIC. Composed <em>Mycènes Alpha</em> (1978), first UPIC piece</span>
+            </li>
+            <li class="exhibit__team-item">
+              <span class="exhibit__team-name">CEMAMu.</span>
+              <span class="exhibit__team-note"> Centre d&#039;Études de Mathématique et Automatique Musicales, Paris. Founded by Xenakis with French Ministry of Culture support. Built the UPIC. Now Centre Iannis Xenakis at Université de Rouen</span>
+            </li>
+            <li class="exhibit__team-item">
+              <span class="exhibit__team-name">KSYME.</span>
+              <span class="exhibit__team-note"> Greek UPIC center founded 1979 in Athens by Xenakis, John G. Papaioannou, and Stefanos Vassiliadis. Acquired its own UPIC system in 1986</span>
+            </li>
+            </ul>
+          </section>
+
+          
+          <section class="exhibit__section exhibit__media">
+            <h2 class="exhibit__section-title">Media</h2>
+            <div class="exhibit__media-grid">
+        <figure class="exhibit__media-item">
+          <div class="exhibit__media-frame">
+            <img src="../../assets/wiki/upic-system.jpg" alt="UPIC system at KSYME Athens" loading="lazy" />
+            <div class="exhibit__media-scanlines" aria-hidden="true"></div>
+          </div>
+          <figcaption>The UPIC system at KSYME, Athens, inaugurated in 1986 with Xenakis present. (Wikimedia Commons)</figcaption>
+        </figure>
+      
+        <figure class="exhibit__media-item">
+          <div class="exhibit__media-frame">
+            <img src="../../assets/wiki/xenakis-studio.jpg" alt="Iannis Xenakis in his Paris studio" loading="lazy" />
+            <div class="exhibit__media-scanlines" aria-hidden="true"></div>
+          </div>
+          <figcaption>Iannis Xenakis in his Paris studio, c.1970. (Wikimedia Commons)</figcaption>
+        </figure>
+      </div>
+          </section>
+          
+
+          
+          <section class="exhibit__section exhibit__sources">
+            <h2 class="exhibit__section-title">Sources</h2>
+            <ol class="exhibit__source-list">
+        <li>
+          <a href="https://en.wikipedia.org/wiki/UPIC" target="_blank" rel="noopener">Wikipedia — UPIC</a>
+        </li>
+      
+        <li>
+          <a href="https://www.centre-iannis-xenakis.org/cix_upic_presentation" target="_blank" rel="noopener">Centre Iannis Xenakis — UPIC Presentation, Technology, Composers</a>
+        </li>
+      
+        <li>
+          <a href="https://en.wikipedia.org/wiki/Iannis_Xenakis" target="_blank" rel="noopener">Wikipedia — Iannis Xenakis</a>
+        </li>
+      
+        <li>
+          <a href="https://zkm.de/en/from-xenakiss-upic-to-graphic-notation-today" target="_blank" rel="noopener">ZKM — From Xenakis&#039;s UPIC to Graphic Notation Today (open access PDF)</a>
+        </li>
+      
+        <li>
+          <a href="https://moderecords.com/catalog/098_9ccmix.html" target="_blank" rel="noopener">Mode Records — Xenakis, UPIC, Continuum (2-CD compilation, mode 98/99)</a>
+        </li>
+      
+        <li>
+          <a href="http://musicthing.blogspot.com/2006/07/aphex-twin-interview-in-future-music.html" target="_blank" rel="noopener">Aphex Twin interview — Future Music (July 2006), via Music Thing blog</a>
+        </li>
+      
+        <li>
+          <a href="https://www.iannix.org" target="_blank" rel="noopener">IanniX — Open-source graphical sequencer inspired by UPIC</a>
+        </li>
+      </ol>
+          </section>
+          
+
+          <nav class="exhibit__nav" aria-label="Exhibit navigation">
+            <a href="../ti-59/" class="exhibit__nav-link exhibit__nav-link--prev">
+        <span class="exhibit__nav-dir">← Previous</span>
+        <span class="exhibit__nav-title">TI-59</span>
+      </a>
+            <a href="../../exhibits/" class="exhibit__nav-link exhibit__nav-link--index">All exhibits</a>
+            <a href="../cmx-340/" class="exhibit__nav-link exhibit__nav-link--next">
+        <span class="exhibit__nav-dir">Next →</span>
+        <span class="exhibit__nav-title">CMX-340 (1976)</span>
+      </a>
+          </nav>
+        </article>
+      </main>
+
+      <footer class="site-footer">
+        <span>HCI Museum // Curated by Beepy</span>
+        <span class="site-footer__signal">SIGNAL_STABLE</span>
+      </footer>
+    </div>
+
+    <!-- Cloudflare Web Analytics --><script defer src='https://static.cloudflareinsights.com/beacon.min.js' data-cf-beacon='{"token": "8dcb1e0fcb41470b8769c87691688807"}'></script><!-- End Cloudflare Web Analytics -->
+  </body>
+</html>
