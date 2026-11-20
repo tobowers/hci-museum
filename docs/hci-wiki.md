@@ -329,6 +329,9 @@ Each entry includes an overview, a deep dive, a small media gallery, and full so
 318. [ISG Viewing Wand Computer-Aided Surgery Arm (1988–1993)](#isg-viewing-wand-computer-aided-surgery-arm-1988-1993)
 319. [AVL Eagle / ShowPro Multi-Image Controller (1980)](#avl-eagle--showpro-multi-image-controller-1980)
 320. [Genigraphics 100 Presentation Graphics Console (1973)](#genigraphics-100-presentation-graphics-console-1973)
+321. [Wrigley Field Hand-Turned Scoreboard (1937–)](#wrigley-field-hand-turned-scoreboard-1937)
+322. [Addressograph Cassette Addressing System (1960s–1980s)](#addressograph-cassette-addressing-system-1960s1980s)
+323. [DASA Mark 18 Microfilm Reader-Printer (c.1968–78)](#dasa-mark-18-microfilm-reader-printer-c196878)
     
 ---
 
@@ -14221,3 +14224,83 @@ Genigraphics began as a General Electric computer-graphics system, developed in 
 2. Robles-Anderson, Erica & Svensson, Patrik. "'One Damn Slide After Another': PowerPoint at Every Occasion for Speech." *Computational Culture* 5 (2016) — http://computationalculture.net/one-damn-slide-after-another-powerpoint-at-every-occasion-for-speech/
 3. Gaskins, Robert. *Sweating Bullets: Notes about Inventing PowerPoint*. Vinland Books, 2012 — https://books.google.com/books?id=t3INw5KknpYC
 4. NASA Technical Reports, *Spinoff 1987 — Business Graphics* — https://ntrs.nasa.gov/archive/nasa/casi.ntrs.nasa.gov/20020087777.pdf
+
+## Wrigley Field Hand-Turned Scoreboard (1937–)
+
+**By:** Chicago Cubs (in-house; installed when Bill Veeck rebuilt the bleachers)
+**Tags:** `Output` `Display` `Sports` `Mechanical` `Human-in-the-loop`
+
+The scoreboard above Wrigley Field's centre-field bleachers was installed in 1937, when Bill Veeck rebuilt the bleachers and planted the ivy, and it has stayed in place ever since with only minor technical and cosmetic modifications. The clock was added in 1941, a fifth row of scores was added to each side in 1961 with a sixth by 1969, and a set of light stands facing the board arrived in 1988 with night games. It is one of the last hand-turned scoreboards in Major League Baseball. Every score on the giant green steel face is a physical painted-steel numeral placed by a person: the human operator is *inside* the display.
+
+### A person inside the display
+
+The operator — the "number turner" — enters through a trap-door in the bottom of the scoreboard and works in the narrow space between the front face and the back structure. The changes to be posted arrive on a computer screen upstairs; the number turner reads them and updates the board by manually replacing the numerals in the numbered windows. The box for the game at Wrigley uses yellow numerals for the current inning; the out-of-town scores are white. At the end of a game a W or L flag is raised. There is no CRT, no lamp matrix and no flip-disc — the displayed state is a set of steel plates held in by slots, and the "refresh" is a worker's arm reaching into a numbered window.
+
+The board's grid itself is a fossil. It retains the 12-game, 24-team layout reflecting the National and American Leagues as they stood from 1969 to 1976, so with 15 teams in each league more than three games a day literally cannot be posted. Landmark status for the park prohibits even "simple facelifts" such as adding two more games to each side, so the board's 1970s configuration is frozen into the building.
+
+* **Where it sits in the museum.** Most of the collection's displays are screens, lamps or electromechanical matrices. The Wrigley board is the inverse: the output surface is a physical object field assembled by human hands in real time, making the interface between a live data feed and a public display a person's body. It is a long-running counterpoint to the museum's computed scoreboards (Solari split-flap, Ferranti-Packard flip-disc, Sony JumboTron) — same job, no electronics in the display layer at all. In 1976, the museum's opening year, it was already forty years old and worked exactly as it does today.
+
+### Media
+
+![A number turner at work inside the Wrigley Field scoreboard, inserting steel numerals into the display](../assets/wiki/wrigley-hand-turned-scoreboard-operation.jpg)
+*Inside the hand-turned scoreboard at Wrigley Field: the operator slots painted steel numerals into the windows by hand while watching the score on a computer. CC0, photograph by D. Benjamin Miller, Wikimedia Commons.*
+
+### Sources
+
+1. Wikipedia — Wrigley Field (Hand-turned scoreboard section) — https://en.wikipedia.org/wiki/Wrigley_Field
+2. Chicago Sun-Times, "75th Season Launches for Wrigley's Iconic Scoreboard" (Dave Hoekstra, 31 March 2012) — http://www.suntimes.com/news/metro/11598907-418/wrigley-fields-scoreboard-has-been-delivering-stats-for-75-years.html
+3. WUSF, "Inside Wrigley Field, The Scorekeepers Stay True To Baseball's Beginnings" (12 August 2017) — https://www.wusf.org/2017-08-12/inside-wrigley-field-the-scorekeepers-stay-true-to-baseballs-beginnings
+
+## Addressograph Cassette Addressing System (1960s–1980s)
+
+**By:** Addressograph-Multigraph (AM International after 1979)
+**Tags:** `Input/Output` `Mechanical` `Office` `Embossing` `Paper-as-state`
+
+The Addressograph is an addressing and mailing system in which each name and address is stored as a steel plate, and the machine's "database" is a set of physical cassettes. Addressograph-Multigraph, formed in 1932 by the merger of Addressograph International with American Multigraph, made these machines for decades; the corporate headquarters moved from Cleveland to Los Angeles in 1978, the name changed to AM International in 1979, and the firm filed for Chapter 11 in 1982 — dates that bracket the system's long service life through the museum's window.
+
+### The plate, the cassette, the foot pedal
+
+A complete Addressograph system of the 1960s was, in effect, a Graphotype debossing machine for preparing the address plates, a cassette-style plate feeder, a heavy-duty rapidly moving inked ribbon, a platen for hand-feeding the mail piece, and a foot pedal for stamping the address. Individual steel plates were inserted into card-sized frames with a series of slots along the top, into which coloured metal flags could be inserted for sorting. The frames were placed in steel cassettes resembling library card-catalogue drawers, which were inserted into the machine by hand. On each press of the foot pedal the plates were swapped in sequence, slide-projector fashion, and an impression of the raised type was made on the mail piece.
+
+The companion Graphotype plate-maker was itself a hand-operated machine: it came in variants with sliding, hand-wheel or keyboard-selected letters, and the keyboard and some rotary-select units were motorised to speed operation. It *debossed* the letters into the plate, leaving a well-defined printing surface on the reverse side. From the early 1940s to the 1980s the same technique produced US military identification tags, whose details could then be transferred to medical charts with a handheld imprinter in field-hospital conditions.
+
+* **Where it sits in the museum.** The Addressograph is the museum's sharpest example of a stored-state machine in which the records are objects. Everything we now assign to a database — records, sort keys, updating, batch output — was carried by steel plates, coloured flags, cassettes and a foot pedal. "Editing a record" meant re-embossing a metal plate; "sorting" meant moving a flag; "running a query" meant carrying a cassette to the machine. It sits alongside the museum's other paper-as-substrate artifacts (Brother punch-card knitting machine, ATC flight progress strips, Cauzin Softstrip) as a reminder that "data entry" was once a manual metal-working operation.
+
+### Media
+
+![A Graphotype plate-embossing machine at Heritage Acres, showing the keyboard and plate carriage](../assets/wiki/addressograph-graphotype-machine.jpg)
+*A Graphotype — the Addressograph-Multigraph plate-maker that produced the steel address plates — photographed at Heritage Acres, Saanichton, British Columbia. CC BY 2.0, photograph by Thomas Quine, Wikimedia Commons.*
+
+### Sources
+
+1. Wikipedia — Addressograph — https://en.wikipedia.org/wiki/Addressograph
+2. Wikipedia — Graphotype (machine) — https://en.wikipedia.org/wiki/Graphotype_(machine)
+3. Encyclopedia of Cleveland History — AM International, Inc. — https://case.edu/ech/articles/a/am-international-inc/
+4. Early Office Museum — Antique Mailroom Machines — https://www.earlyofficemuseum.com/mail_machines.htm
+
+## DASA Mark 18 Microfilm Reader-Printer (c.1968–78)
+
+**By:** DASA Corporation (Andover, Massachusetts)
+**Tags:** `Input` `Microfilm` `Archive` `Document Retrieval` `Office`
+
+The DASA Mark 18 is a microfilm reader-printer — a console that projected a microform image onto a screen for reading and, on demand, made a paper copy of the frame by a xerographic process like a photocopier. It is documented in a 1971 Defense Documentation Center report, *16mm Microfilm Viewing Equipment*, which surveyed the machines then in service; it was also sold for general library and office use.
+
+### One console, three storage media
+
+The Mark 18's distinctive feature is that it accepted roll film, aperture cards *and* microfiche in the same machine, with the operator selecting the format and navigating within it. That matters because those three media demand three quite different lookup gestures. Roll film is wound sequentially, so finding a frame is a continuous winding-and-watching operation. Microfiche is a flat sheet (often 105 × 148 mm at 24:1 reduction) carrying a matrix of microimages read left-to-right then top-to-bottom (or top-to-bottom first, for computer-output fiche), so the operator moves physically across a page-like grid. An aperture card is a punched card with a single frame of film mounted in a window — typically an engineering drawing — so the punched keying on the Hollerith fields *is* the index, and the lookup is a card-sort-and-insert operation followed by a print.
+
+Once the frame was found, the operator rotated and zoomed the projected image and, for a copy, triggered the printer. In 1976 that rhythm — wind, index, rotate, enlarge, print — was how most technical drawings and back issues of journals were read: the "open file" gesture belonged to the hands and arms, not a pointer.
+
+* **Where it sits in the museum.** The Mark 18 is the ancestor of the document viewer, and a reminder that until the late 1980s much of the world's technical and archival record was stored as film. It belongs with the museum's other retrieval-by-physical-mechanism artifacts (ATC flight progress strips, Airport control-room boards, the Ishiguro storm-surge model) in which a machine is the interface to a large organized body of records. Like the Addressograph it is a paper-state machine — here the state is a film frame and the action a carousel-style navigation, not a record lookup.
+
+### Media
+
+![The DASA Corporation Mark 18 reader-printer, captioned as accepting roll film, aperture cards and microfiche](../assets/wiki/dasa-mark-18-reader-printer.jpg)
+*DASA Corporation Mark 18 Reader-Printer (roll film, aperture cards, and microfilm fiche), reproduced from a 1971 Defense Documentation Center survey of 16mm microfilm viewing equipment. CC BY-SA 4.0, Wikimedia Commons.*
+
+### Sources
+
+1. Defense Documentation Center, *16mm Microfilm Viewing Equipment* (1971) — image caption source for the DASA Mark 18 — https://commons.wikimedia.org/wiki/File:Reader-printer.jpg
+2. Wikipedia — Microform — https://en.wikipedia.org/wiki/Microform
+3. Avedon, Don M. "Microforms as Library Tools." *Library Trends* 30, no. 2 (Fall 1981).
+4. Teague, S. J. *Microform Librarianship.* Butterworths, 1977.
