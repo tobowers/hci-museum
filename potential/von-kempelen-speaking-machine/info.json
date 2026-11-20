@@ -1,0 +1,88 @@
+{
+  "slug": "von-kempelen-speaking-machine",
+  "title": "Wolfgang von Kempelen's Speaking Machine",
+  "year": "1791",
+  "subtitle": "a wooden box with a rubber mouth, a reed larynx, and a bellows lung — the first machine built to speak human language, two centuries before the vocoder",
+  "why_scout_cares": "Before the telephone, before the phonograph, before the vocoder, there was a cabinet-sized mechanical organ that said 'Papa' and 'Mama' out loud. Wolfgang von Kempelen — the same Habsburg court inventor famous for the fraudulent Mechanical Turk chess automaton — spent two decades building an 'Acoustic-Mechanical Speech Machine,' described in his 1791 book *Mechanismus der menschlichen Sprache*. Hand-operated: one hand pumped a bellows (the lungs), the other contorted a rubber-and-leather mouth and manipulated whistles, reeds, and a resonant chamber to shape consonants and vowels. This is the true origin point of speech synthesis as an *interface* — a human physically articulating through a machine to produce spoken output, the material ancestor of every talking device in the museum. It is the oldest object in the collection and the purest statement of the museum's thesis: interaction is embodied, mechanical, and strange.",
+  "search_terms": ["Von Kempelen speaking machine", "Kempelen Sprechmaschine", "Mechanismus der menschlichen Sprache", "Acoustic-Mechanical Speech Machine", "Kempelenscher Sprechapparat", "speaking machine 1791"],
+  "research": {
+    "title": "Wolfgang von Kempelen's Speaking Machine",
+    "year": "1791",
+    "by": "Wolfgang von Kempelen (Pressburg / Vienna, Habsburg Monarchy)",
+    "tags": ["HCI", "Speech Synthesis", "Mechanical", "18th Century", "Acoustics", "Precursor"],
+    "overview": "Wolfgang von Kempelen (1734–1804), a Hungarian-born inventor in the service of the Habsburg court, built the world's first functioning speech synthesizer — a hand-operated machine that produced recognizable human speech through purely mechanical, acoustic means. In his 1791 book *Mechanismus der menschlichen Sprache nebst der Beschreibung seiner sprechenden Maschine* ('The Mechanism of Human Speech, together with the Description of his Speaking Machine'), Kempelen described a wooden cabinet combining a foot- or hand-operated bellows (lungs), a vibrating reed (larynx/vocal cords), a leather-and-rubber 'mouth' chamber whose shape the operator's hand could squeeze and deform, and a set of auxiliary whistles and resonators for sibilants and fricatives. By pumping and kneading simultaneously, the operator could form vowels and a limited set of consonants, and even string them into words — most famously 'Papa,' 'Mama,' and short phrases in French and German. The machine was demonstrated across Europe and is the recognized starting point of the entire field of speech synthesis: every vocoder, every DECtalk, every synthetic voice in the museum descends, technologically or conceptually, from this box. It predates the electric telephone (1876) by 85 years and the first electronic speech synthesizer (the Voder, 1939) by nearly 150 years.",
+    "deepDive": [
+      {
+        "heading": "Origins",
+        "text": "Kempelen conceived the speaking machine around 1769 while working on a different problem: he was studying the physiology of speech in order to help a deaf-mute person learn to speak. This research led him to model the human vocal tract mechanically. He refined the device over roughly two decades and finally published a complete account in his 1791 book *Mechanismus der menschlichen Sprache*, which remains both a landmark of phonetic science and the earliest technical manual for a speech synthesizer. Kempelen is better remembered today as the creator of 'the Turk,' a chess-playing automaton that was actually operated by a hidden human — an association that long overshadowed the speaking machine, which was a genuine and unprecedented technical achievement rather than a deception."
+      },
+      {
+        "heading": "Mechanism & Interaction",
+        "text": "The machine worked by imitating the human articulatory apparatus piece by piece. A bellows supplied air, standing in for the lungs — the operator pumped it with a lever, foot pedal, or hand. A vibrating metal reed acted as the larynx, generating a buzzing fundamental tone. The output flowed into a flexible chamber made of leather and rubber, shaped like a mouth and nasal cavity; the operator's free hand physically squeezed, stretched, and partly closed this rubber mouth to modulate the resonance and so produce different vowel sounds. To this were added small auxiliary whistles and reeds for sibilant and fricative consonants (S, SH, F, etc.). The result was an instrument that had to be *played*: speech came out of a coordinated two-handed performance — one hand maintaining the breath, the other manually puppeteering the mouth. Unlike later phonographs (which replay recorded waveforms) or vocoders (which generate voice electronically), Kempelen's device was a direct *physical model of the vocal tract* that the human operated in real time. It could say 'Papa,' 'Mama,' 'Papa, Mama,' and short phrases; consonants were the hardest and remained approximate."
+      },
+      {
+        "heading": "Reception & Legacy",
+        "text": "The speaking machine caused a sensation across Europe. It was exhibited to learned societies and courts, and Kempelen's 1791 text was widely read by phoneticians — later including Alexander Graham Bell's father, Alexander Melville Bell. Copies and reconstructions were made; the oldest surviving artifact, a 'Kempelen'scher Sprechapparat' believed to date from around 1800, is held by the Deutsches Museum in Munich. Later researchers, notably Joseph Faber (who built 'Euphonia' in the 1840s, immortalized in a 1845 account by the poet Robert Browning) and Alexander Graham Bell himself, explicitly built on Kempelen's approach to modelling the vocal tract mechanically. The machine is universally cited as the first speech synthesizer in the history of speech science. It belongs at the very front of the museum's timeline as the origin of spoken-machine interaction — the moment a human deliberately made a device produce human language through pure physical construction."
+      },
+      {
+        "heading": "Why It Matters",
+        "text": "The museum is full of machines that speak back: DECtalk, Euphonia, the Voder, the Peter Petrie Elocutor, toy speech chips. Kempelen's box is the ancestor of all of them, and it makes the stakes of the museum's project unusually clear. Speech synthesis is not inherently electronic — it is inherently *articulatory*. To make a machine talk you must build a model of the human mouth; later engineers merely replaced leather and rubber with electrical filters and digital formant models. The machine is also a perfect HCI artifact because the operator is not pressing buttons but physically shaping sound with their hands — an embodied, performative, two-handed interface that no user manual could fully capture. Displayed beside its mechanical cousin the Turk, and its descendants the Voder and DECtalk, the speaking machine lets visitors see the through-line: humans have always wanted machines to speak, and the cleverest way they first did it was a wooden mouth you had to squeeze."
+      }
+    ],
+    "team": [
+      {
+        "name": "Wolfgang von Kempelen",
+        "note": "Hungarian-born inventor and court official (1734–1804), served Empress Maria Theresa and successors. Built the Mechanical Turk chess automaton and the speaking machine; authored *Mechanismus der menschlichen Sprache* (1791)."
+      }
+    ],
+    "media": [
+      {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/4/41/Speech_synthesizer_Von_Kempelen_1791.gif",
+        "alt": "1791 illustration of von Kempelen's speaking machine showing the bellows, reed larynx, and flexible mouth",
+        "caption": "Plate from Kempelen's *Mechanismus der menschlichen Sprache* (1791) illustrating the speaking machine — bellows for lungs, a vibrating reed for the larynx, and a hand-shaped rubber mouth for the vocal tract. Public domain, via Wikimedia Commons."
+      },
+      {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/8/8b/KempelenscherSprechapparat.jpg",
+        "alt": "The oldest surviving Kempelen speaking apparatus, circa 1800, held at the Deutsches Museum in Munich",
+        "caption": "A surviving 'Kempelen'scher Sprechapparat,' believed to date to around 1800, in the collection of the Deutsches Museum, Munich. Photo CC BY-SA 4.0 via Wikimedia Commons."
+      },
+      {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/0/02/KEMPELEN_Speaking_Machine_Replica_2017.png",
+        "alt": "Two views of a modern working replica of Kempelen's speaking machine",
+        "caption": "A 2017 working replica of the speaking machine, shown in two views — the upper showing the operator's side, the lower the internal mechanism. CC BY-SA 4.0 via Wikimedia Commons."
+      }
+    ],
+    "sources": [
+      {
+        "text": "Wikipedia: Wolfgang von Kempelen",
+        "url": "https://en.wikipedia.org/wiki/Wolfgang_von_Kempelen"
+      },
+      {
+        "text": "Wikipedia: Speech synthesis (history section)",
+        "url": "https://en.wikipedia.org/wiki/Speech_synthesis"
+      },
+      {
+        "text": "Wikipedia: History of speech synthesis",
+        "url": "https://en.wikipedia.org/wiki/History_of_speech_synthesis"
+      },
+      {
+        "text": "Wikimedia Commons: Kempelen speaking machine images",
+        "url": "https://commons.wikimedia.org/wiki/Special:Search?search=Kempelen%20speaking%20machine"
+      },
+      {
+        "text": "Kempelen, Wolfgang von (1791). *Mechanismus der menschlichen Sprache nebst der Beschreibung seiner sprechenden Maschine*, Vienna: J. V. Degen",
+        "url": "https://archive.org/details/mechanismusderm00kempgoog"
+      }
+    ],
+    "imageUrls": [
+      "https://upload.wikimedia.org/wikipedia/commons/4/41/Speech_synthesizer_Von_Kempelen_1791.gif",
+      "https://upload.wikimedia.org/wikipedia/commons/8/8b/KempelenscherSprechapparat.jpg",
+      "https://upload.wikimedia.org/wikipedia/commons/0/02/KEMPELEN_Speaking_Machine_Replica_2017.png"
+    ]
+  },
+  "savedImages": [
+    "images/von-kempelen-speaking-machine-1.gif",
+    "images/von-kempelen-speaking-machine-2.jpg",
+    "images/von-kempelen-speaking-machine-3.png"
+  ]
+}
