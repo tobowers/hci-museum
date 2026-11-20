@@ -4062,6 +4062,45 @@ const exhibitData: Exhibit[] = [
     tags: ["Presentation", "Computer Graphics", "Slide Production", "Film Recorder", "PowerPoint"],
     image: img("genigraphics-100-console.png"),
   },
+  {
+    id: "wrigley-hand-turned-scoreboard",
+    slug: "wrigley-hand-turned-scoreboard",
+    wikiTitle: "Wrigley Field Hand-Turned Scoreboard",
+    year: "1937–present",
+    sortYear: 1937,
+    title: "Wrigley Field Hand-Turned Scoreboard (1937–)",
+    subtitle: "A human being lives inside the display and slots steel numerals by hand while watching a computer",
+    blurb:
+      "Installed in 1937 for Bill Veeck's rebuilt bleachers and still in nightly use, Wrigley Field's centre-field scoreboard is the museum's purest display built by hand. The 'number turner' climbs in through a trap-door at the bottom, watches the live score on a computer screen upstairs, and updates the giant board by manually inserting painted steel numerals into numbered windows; a W/L flag is raised at the final out. The 12-game, 24-team grid still reflects the National and American Leagues of 1969–76, so some games can never be posted. It is the anti-screen: every pixel is a physical object placed by a person, and the interface between ballpark and crowd is a worker's arms.",
+    tags: ["Output", "Display", "Sports", "Mechanical", "Human-in-the-loop"],
+    image: img("wrigley-hand-turned-scoreboard-operation.jpg"),
+  },
+  {
+    id: "addressograph-cassette-system",
+    slug: "addressograph-cassette-system",
+    wikiTitle: "Addressograph Cassette Addressing System",
+    year: "1960s–1980s",
+    sortYear: 1968,
+    title: "Addressograph Cassette Addressing System",
+    subtitle: "The address book was a box of steel plates; a foot pedal swapped each plate like a slide projector",
+    blurb:
+      "The Addressograph — from Addressograph-Multigraph, AM International after 1979 — is the museum's clearest artifact where the paper *is* the state machine. Each name and address was a steel plate debossed on a Graphotype plate-maker, set in a card-sized frame with coloured sorting flags in slots along the top. The frames lived in steel cassettes like library card-catalogue drawers, inserted by hand into the addressing machine; at each press of a foot pedal a heavy inked ribbon made the impression and the cassette indexed to the next plate like a slide projector. 'Updating a record' meant re-embossing a metal plate by hand; sorting meant moving physical flags. A whole database operated by foot.",
+    tags: ["Input/Output", "Mechanical", "Office", "Embossing", "Paper-as-state"],
+    image: img("addressograph-graphotype-machine.jpg"),
+  },
+  {
+    id: "dasa-mark-18-reader-printer",
+    slug: "dasa-mark-18-reader-printer",
+    wikiTitle: "DASA Mark 18 Microfilm Reader-Printer",
+    year: "c.1968–1978",
+    sortYear: 1968,
+    title: "DASA Mark 18 Microfilm Reader-Printer (c.1968–78)",
+    subtitle: "One console that read roll film, aperture cards and fiche — the archive's interface was a search-and-print ritual",
+    blurb:
+      "DASA Corporation's Mark 18 reader-printer, documented in a 1971 Defense Documentation Center survey of 16mm microfilm viewing equipment, accepted roll film, aperture cards *and* microfiche in a single machine. Reading the technical archive was therefore a physical, sequential ritual: select the film format, wind or card-index to the frame, rotate and zoom the projected image, and — when a paper copy was needed — trigger the xerographic printer built into the console. The multi-format aperture-card path (engineering drawings on a punched 'Jacobs' card) made the card's punched keying part of the lookup gesture. It is the ancestor of the document viewer we take for granted, in which the archive was handled as spools, cards and sheets and the 'open file' action involved the hands far more than the eyes.",
+    tags: ["Input", "Microfilm", "Archive", "Document Retrieval", "Office"],
+    image: img("dasa-mark-18-reader-printer.jpg"),
+  },
 ];
 
 export const exhibits: Exhibit[] = exhibitData.toSorted((a, b) => b.sortYear - a.sortYear || a.title.localeCompare(b.title));
