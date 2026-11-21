@@ -2529,6 +2529,19 @@ const exhibitData: Exhibit[] = [
     image: img("ttx360-md.jpg"),
   },
   {
+    id: "suncom-joy-sensor",
+    slug: "suncom-joy-sensor",
+    wikiTitle: "Suncom Joy Sensor",
+    year: "1983",
+    sortYear: 1983,
+    title: "Suncom Joy Sensor",
+    subtitle: "A joystick with no stick — a printed eight-direction ring you stroke with your thumb on a touch panel",
+    blurb:
+      "Suncom's 1983 controller called itself a 'touch-sensitive joystick simulator': a remote-control-shaped slab whose underside carries a 1.75-inch circular touch pad with the eight joystick directions printed on the plastic. Hold it in one hand, stroke the ring with the other thumb, and the lightest touch steers; a slide switch physically locks out diagonals, and the top face carries two fire pads plus a rapid-fire sensor. No lever, no dome, no travel — direction as a place your thumb is, nine years before the Turbo Touch 360 tried the same bet.",
+    tags: ["Games", "Controller", "Touch", "Input", "Atari 2600"],
+    image: img("suncom-joy-sensor-1983.png"),
+  },
+  {
     id: "concept-keyboard",
     slug: "concept-keyboard",
     wikiTitle: "Concept Keyboard / Star Microterminals A4-128",
