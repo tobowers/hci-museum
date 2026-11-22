@@ -14304,3 +14304,30 @@ Once the frame was found, the operator rotated and zoomed the projected image an
 2. Wikipedia — Microform — https://en.wikipedia.org/wiki/Microform
 3. Avedon, Don M. "Microforms as Library Tools." *Library Trends* 30, no. 2 (Fall 1981).
 4. Teague, S. J. *Microform Librarianship.* Butterworths, 1977.
+
+## Suncom Joy Sensor (1983)
+
+**By:** Suncom / Sunflex (Suncom Inc., Elk Grove Village, Illinois)
+**Tags:** `Games` `Controller` `Touch` `Input` `Atari 2600`
+
+The Suncom Joy Sensor is a game controller with no joystick in it. Rather than a pivoting lever, it is a slab roughly the size of a television remote — about 6½ inches long by 3 inches wide by 1½ inches deep — with a circular touch-sensitive pad set into its underside. The eight compass directions of an Atari joystick are *printed* on that pad as a ring of markings around a central dot, so the layout of the inputs is a drawing on plastic rather than a mechanism. The player grips the body in one hand and works the pad with the thumb of the other, sliding — not pressing — between the printed zones.
+
+A light touch is enough. Suncom's advertisement claimed that "the lightest touch moves the game," and there was nothing underneath to travel: no dome, no leaf switch, no spring. Diagonals were produced by touching the gaps between two adjacent printed directions, and a slide switch on the body let players lock out diagonal movement entirely, turning the ring into a strict four-way control for games that misbehaved on diagonals (a common nuisance on maze and climbing titles of the era). The top face carried the remaining buttons: two fire pads, plus a "rapid-fire sensor" that pulsed the fire line automatically while the player touched it. Suncom also claimed a feature no other joystick offered — a *second* fire button reachable by the thumb that was steering, so the stick hand need not leave the direction pad to shoot.
+
+### Direction as a place, not a stroke
+
+The design move worth keeping is that it relocates the semantics of "joystick" from motion to position. On a lever, direction is a *stroke* — you displace a shaft from a resting centre, and the return spring does the rest. On the Joy Sensor, direction is a *location*: the pad has nine printed addresses, eight around a centre dot, and your thumb simply reports which address it is currently sitting on. Contact between zones generates a diagonal; the centre reports nothing. The hardware therefore does not know about a null zone — it knows about adjacency, and the configuration switch acts on that adjacency by refusing to accept two-zone contacts.
+
+That has a side effect the era's players noticed in reviews of touch controllers generally: because there is no physical centre to fall back on, releasing the thumb leaves the game in whatever state the electronics latch, so stopping requires either lifting cleanly onto the dot or tapping the centre address explicitly. A lever returns itself home; a printed ring does not.
+
+### Media
+
+![The Suncom Joy Sensor shown as a remote-control-shaped slab with a circular touch pad](../assets/wiki/suncom-joy-sensor-1983.png)
+*The Suncom Joy Sensor, from the "Suncom Introduces New Products" announcement in The Video Game Update, Vol. 2, no. 7 (October 1983), p. 104. CC BY 4.0, scan by the Video Game History Foundation, via Wikimedia Commons.*
+
+### Sources
+
+1. Ahl, David H. "Controller update." *Creative Computing* 9, no. 12 (December 1983), p. 142 — https://www.atarimagazines.com/creative/v9n12/142_Controller_update.php
+2. "Suncom Introduces New Products." *The Video Game Update* 2, no. 7 (October 1983), p. 104 — https://archive.org/details/computer-entertainer-2-7/ComputerEntertainer_2-7_text.pdf
+3. Wikimedia Commons — File:Suncom Joy Sensor.png (CC BY 4.0, Video Game History Foundation scan) — https://commons.wikimedia.org/wiki/File:Suncom_Joy_Sensor.png
+4. Wikimedia Commons — Category:Game controllers by Suncom — https://commons.wikimedia.org/wiki/Category:Game_controllers_by_Suncom

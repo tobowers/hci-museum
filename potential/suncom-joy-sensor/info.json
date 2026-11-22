@@ -1,0 +1,26 @@
+{
+  "slug": "suncom-joy-sensor",
+  "wikiTitle": "Suncom Joy Sensor",
+  "year": "1983",
+  "sortYear": 1983,
+  "title": "Suncom Joy Sensor",
+  "subtitle": "A joystick with no stick — a printed eight-direction ring you stroke with your thumb on a touch panel",
+  "blurb": "Suncom's 1983 Atari 2600 controller was described by its maker as a \"touch-sensitive joystick simulator\": a 6.5 x 3 inch slab, shaped like a TV remote, whose underside carries a 1.75-inch circular touch pad with the eight joystick directions printed on it. Hold it in one hand, stroke the pad with the other thumb, and the lightest touch moves the game; a slide switch mechanically locks out diagonals, and a second touch surface on the top face carries two fire pads, a rapid-fire sensor, and — uniquely — a second thumb-controllable fire pad. No lever, no dome, no travel.",
+  "tags": ["Games", "Controller", "Touch", "Input", "Atari 2600"],
+  "sources": [
+    "Ahl, David H. \"Controller update.\" Creative Computing 9, no. 12 (December 1983), p. 142 — https://www.atarimagazines.com/creative/v9n12/142_Controller_update.php",
+    "\"Suncom Introduces New Products.\" The Video Game Update 2, no. 7 (October 1983), p. 104 — https://archive.org/details/computer-entertainer-2-7/ComputerEntertainer_2-7_text.pdf",
+    "Wikimedia Commons — File:Suncom Joy Sensor.png (CC BY 4.0, scan of The Video Game Update 2-7 p. 104, Video Game History Foundation) — https://commons.wikimedia.org/wiki/File:Suncom_Joy_Sensor.png",
+    "Wikimedia Commons — Category:Game controllers by Suncom — https://commons.wikimedia.org/wiki/Category:Game_controllers_by_Suncom"
+  ],
+  "images": [
+    {
+      "local": "images/joy-sensor.png",
+      "target": "suncom-joy-sensor-1983.png",
+      "caption": "The Suncom Joy Sensor, from The Video Game Update, Vol. 2, no. 7 (October 1983), p. 104. CC BY 4.0, scan by the Video Game History Foundation, via Wikimedia Commons.",
+      "credit": "Video Game History Foundation",
+      "license": "CC BY 4.0"
+    }
+  ],
+  "savedImages": ["images/joy-sensor.png"]
+}
