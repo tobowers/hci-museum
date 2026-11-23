@@ -4114,6 +4114,45 @@ const exhibitData: Exhibit[] = [
     tags: ["Input", "Microfilm", "Archive", "Document Retrieval", "Office"],
     image: img("dasa-mark-18-reader-printer.jpg"),
   },
+  {
+    id: "kodak-miracode",
+    slug: "kodak-miracode",
+    wikiTitle: "Kodak Recordak Miracode",
+    year: "1963; in service through the 1970s",
+    sortYear: 1971,
+    title: "Kodak Recordak Miracode",
+    subtitle: "A keypad that searched film: type a code, and the microfilm reader hunts for the frame",
+    blurb:
+      "Each document on the 16 mm roll carried a binary code of clear and opaque rectangles alongside the image. The searcher read the code off a paper index, set it on banks of decimal keys, and pressed search — the film then ran at ten feet per second and stopped by itself on the first frame whose code matched. A query was a number typed into hardware, and retrieval was a machine hunting through film.",
+    tags: ["Input", "Microfilm", "Archive", "Document Retrieval", "Search"],
+    image: img("miracode-system.jpg"),
+  },
+  {
+    id: "sonometrics-ophthalmic-ascan",
+    slug: "sonometrics-ophthalmic-ascan",
+    wikiTitle: "Sonometrics Ophthalmic A-Scan (Coleman Ophthalmoscan)",
+    year: "1977–1980s",
+    sortYear: 1977,
+    title: "Sonometrics Ophthalmic A-Scan (Coleman Ophthalmoscan)",
+    subtitle: "The measurement was made by sliding two bright gates onto echoes with knobs — an instrument that counted what the eye could not",
+    blurb:
+      "Alan Susal's Stanford scanner of 1977 displayed a simultaneous A-mode trace and gray-scale B-scan and reported eye dimensions to 0.1 mm. The commercial Sonometrics instrument made the gesture explicit: two intensified gates on a Tektronix 5403 oscilloscope were positioned one by one with front-panel variable resistors until they bracketed the corneal and retinal echoes, while thumbwheel switches told the counter the speed of sound in the eye — the answer appearing as four digits on the same tube.",
+    tags: ["Medical", "Measurement", "Instrument", "Ultrasound", "Analog"],
+    image: img("cromemco-ophthalmic-ultrasound.jpg"),
+  },
+  {
+    id: "linotron-202",
+    slug: "linotron-202",
+    wikiTitle: "Mergenthaler Linotron 202",
+    year: "1978–1980s",
+    sortYear: 1978,
+    title: "Mergenthaler Linotron 202",
+    subtitle: "A typesetter with no keyboard: you prepared the text on another computer, handed it over as paper tape — and the device talked back",
+    blurb:
+      "Mergenthaler's $45,000 CRT phototypesetter of 1978 had no composing terminal of its own. Text arrived on a punched paper tape or through a DR11-C interface wired to a PDP-11, and the machine's only human-facing parts were a tape reader, a floppy drive and a status port the programmers learned to read from. Bell Labs' troff was fitted with device-independent output so that it could drive the 202 — the program that set the document was now separated from the machine that turned it into film.",
+    tags: ["Output", "Typesetting", "Protocol", "Paper Tape", "Professional"],
+    image: img("linotron-202e.jpg"),
+  },
 ];
 
 export const exhibits: Exhibit[] = exhibitData.toSorted((a, b) => b.sortYear - a.sortYear || a.title.localeCompare(b.title));

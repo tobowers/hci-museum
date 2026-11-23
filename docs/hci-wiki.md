@@ -1,6 +1,6 @@
 # The HCI Golden Age Wiki
 
-A research compendium for a digital museum of cutting-edge Human-Computer Interaction from the late 1970s through the early 1990s. These three hundred and twenty-two projects mix canonical experiments with weird, forgotten, and beautiful vaporware — brain control, voice control, gesture, wearable computing, VR, robots, and full-body exertion.
+A research compendium for a digital museum of cutting-edge Human-Computer Interaction from the late 1970s through the early 1990s. These three hundred and twenty-five projects mix canonical experiments with weird, forgotten, and beautiful vaporware — brain control, voice control, gesture, wearable computing, VR, robots, and full-body exertion.
 
 Each entry includes an overview, a deep dive, a small media gallery, and full source links so the images and facts can always be traced back.
 
@@ -332,6 +332,9 @@ Each entry includes an overview, a deep dive, a small media gallery, and full so
 321. [Wrigley Field Hand-Turned Scoreboard (1937–)](#wrigley-field-hand-turned-scoreboard-1937)
 322. [Addressograph Cassette Addressing System (1960s–1980s)](#addressograph-cassette-addressing-system-1960s1980s)
 323. [DASA Mark 18 Microfilm Reader-Printer (c.1968–78)](#dasa-mark-18-microfilm-reader-printer-c196878)
+324. [Kodak Recordak Miracode (1963; in service through the 1970s)](#kodak-recordak-miracode-1963-in-service-through-the-1970s)
+325. [Sonometrics Ophthalmic A-Scan / Coleman Ophthalmoscan (1977–1980s)](#sonometrics-ophthalmic-a-scan--coleman-ophthalmoscan-19771980s)
+326. [Mergenthaler Linotron 202 (1978–1980s)](#mergenthaler-linotron-202-19781980s)
     
 ---
 
@@ -14331,3 +14334,101 @@ That has a side effect the era's players noticed in reviews of touch controllers
 2. "Suncom Introduces New Products." *The Video Game Update* 2, no. 7 (October 1983), p. 104 — https://archive.org/details/computer-entertainer-2-7/ComputerEntertainer_2-7_text.pdf
 3. Wikimedia Commons — File:Suncom Joy Sensor.png (CC BY 4.0, Video Game History Foundation scan) — https://commons.wikimedia.org/wiki/File:Suncom_Joy_Sensor.png
 4. Wikimedia Commons — Category:Game controllers by Suncom — https://commons.wikimedia.org/wiki/Category:Game_controllers_by_Suncom
+
+## Kodak Recordak Miracode (1963; in service through the 1970s)
+
+**By:** Recordak Corporation / Eastman Kodak Company (Rochester, New York)
+**Tags:** `Input` `Microfilm` `Archive` `Document Retrieval` `Search`
+
+Miracode — the name stands for **Microfilm Information Retrieval Access Code** — is a microfilm system in which the *search itself* is done by machine. Instead of reading a roll of film frame by frame, the operator types a numeric code into a dedicated keyboard, presses search, and the reader scans the film automatically until it finds a frame whose code matches, then displays it. It was introduced by Kodak's Recordak division in 1963 and was still in library and archive service through the 1970s: the photographs in this entry show a Kodak Recordak Miracode installation at the Bibliothèque de l'Université Laval, taken in November 1971 and March 1972.
+
+### A query you could hold
+
+The mechanism is worth following closely, because almost every part of it is unusual for a 1960s retrieval system. When a document was microfilmed, a **binary code was recorded on the film beside the image** as a pattern of clear and opaque rectangles — the coding device sat at the camera and printed the pattern into the film as each document was photographed. The 1963 Recordak brochure describes the result as an "index code in the form of clear and opaque rectangles (binary code) on the microfilm to identify each group of document images." At search time the operator did not look at any of this. They read the code for the wanted record off an **external paper index** — the system's fundamental requirement, as the brochure puts it, is indexing — and then set that code on the keyboard.
+
+The keyboard was the strangest part of the machine. Each *Equality Decimal Keyboard* held **three rows of eleven keys**: the digits 0 through 9 and an "off" key, so that a three-digit code column could be entered, ignored, or searched on a specific digit. Up to **fifteen** such keyboards could be ganged in one interrogation console, each assigned to any of the fifteen code columns on the film. To ask a question you did not type a string — you configured a bank of decimal modules, key by key, deciding for each column whether it mattered and, if it did, what value it had to equal.
+
+Press search and the film runs at roughly **ten feet per second** past an optical sensor; the machine compares the recorded binary code on each frame's code track against the pattern set on the keys and **stops by itself on the first frame that answers**. The record is then on the screen. The operator can continue the search to collect every other frame with the same code, or return to the start of the roll.
+
+* **Where it sits in the museum.** Miracode is the museum's clearest case of a *query executed in hardware*. There was no database engine and no software query language — there was a keypad wired to a comparator and a motor. The "search" was a physical act of film transport, and the "result set" was every frame the machine consented to halt on. It sits next to the DASA Mark 18 reader-printer, which handled the same film stock without any code search at all, and it makes a sharp pair with the Addressograph: one stores records as marks on film that a sensor can find, the other stores them as marks on steel that a press transfers. Both are paper-state machines, and both make indexing, not reading, the real work.
+
+### Media
+
+![A Kodak Recordak Miracode interrogation console at left and automatic viewer at right](../assets/wiki/miracode-system.jpg)
+*The Kodak Recordak Miracode system at the Bibliothèque de l'Université Laval: the code-entry console on the right feeds the automatic viewer on the left, with 16 mm film cassettes inserted from the side. Photographed November 1971. (Image: Yves Tessier / Bibliothèque de l'Université Laval, Wikimedia Commons, CC BY-SA 4.0.)*
+
+![The Miracode query console with 16 mm film cassettes in front of it](../assets/wiki/miracode-query-console.jpg)
+*The interrogation console and the viewer/printer; the square 16 mm cassettes in front hold both the document images and the machine-readable codes that let the reader find them. Photographed March 1972. (Image: Yves Tessier / Bibliothèque de l'Université Laval, Wikimedia Commons, CC BY-SA 4.0.)*
+
+![The Miracode code-entry keyboard](../assets/wiki/miracode-keyboard.jpg)
+*The code-entry keyboard: banks of three-row decimal keyboards, each with an "off" key, used to set values against individual code columns on the film. (Image: Yves Tessier / Bibliothèque de l'Université Laval, Wikimedia Commons, CC BY-SA 4.0.)*
+
+### Sources
+
+1. Recordak / Eastman Kodak, *Miracode System* brochure, 1963 — Internet Archive — https://archive.org/details/recordakmiracode
+2. Computer History Museum, catalog entry 102780464 (Miracode technical description, 14-bit code patterns) — https://archive.computerhistory.org/resources/access/text/2023/04/102780464-05-01-acc.pdf
+3. History of Information — Kodak Recordak introduces Miracode, 1963 — https://historyofinformation.com/detail.php?id=5101
+4. *Time*, "Technology: Figures in a Flash," 21 August 1964 (Miracode listed among the era's major information-retrieval systems) — https://time.com/archive/6813784/technology-figures-in-a-flash/
+5. US National Archives — 1910 census Soundex and Miracode index (NARA's Miracode-format index cards) — https://www.archives.gov/research/census/publications-microfilm-catalogs-census/1910/general-info
+6. Wikimedia Commons — Miracode photographs by Yves Tessier / Bibliothèque de l'Université Laval (CC BY-SA 4.0) — https://commons.wikimedia.org/wiki/File:Appareil_Miracode_332-1-002.jpg
+
+## Sonometrics Ophthalmic A-Scan / Coleman Ophthalmoscan (1977–1980s)
+
+**By:** Alan L. Susal (Stanford University) → Sonometrics Systems, Inc. (St. Louis), with D. Jackson Coleman
+**Tags:** `Medical` `Measurement` `Instrument` `Ultrasound` `Analog`
+
+The Sonometrics ophthalmic A-scan is an ultrasonic *ruler* for the eye. A transducer held against the anaesthetised cornea sends a short pulse of ultrasound down the visual axis; every interface it meets — the front and back of the cornea, the front and back of the lens, the retina — echoes a little of it back, and those echoes appear as a row of spikes on an oscilloscope. The distance between two spikes is proportional to the distance between the two surfaces that produced them. The instrument's job is to turn that trace into a number, and the way it was done — by hand, with knobs, on an oscilloscope screen — is the interesting part.
+
+The research device behind it was built by Alan L. Susal at Stanford and described in 1977: a scanner that presented a **quantitative A-mode trace and a gray-scale B-scan at the same time**, and reported distances in the eye to **0.1 mm**. The commercial instrument, marketed with D. Jackson Coleman's clinical name and sold as the **Coleman Ophthalmoscan**, made the interface explicit.
+
+### A caliper made of light
+
+The measurement is not typed in. It is *drawn* onto the echo train. The oscilloscope trace shows the "main bang" pulse and then the series of echo spikes. Two of the spikes are intensified — made visibly brighter and thicker — and those two bright gates are what the operator manipulates. Each has its own front-panel **variable resistor**: one knob slides the start gate along the time axis, another sets its width; a second pair does the same for the stop gate. The operator turns the knobs until the first bright gate sits over the corneal echo and the second sits over the retinal echo, and the distance between them becomes the measurement.
+
+The counting is done for them, and done with an unusual amount of care. The electronics average the interval across **64 consecutive pulses** — the traces are emitted at about 1.2 kHz — before converting the result to a distance. That averaging is a human-factors decision as much as an engineering one: a single echo train on a living eye is noisy and the trace shimmers, so the instrument quietly waits for the number to settle. The readout is then written as **four digits plus "mm" on the same cathode-ray tube**, using the oscilloscope's own alphanumeric character facility. There is no second display and no printer in the loop; the answer appears inside the waveform it was measured from.
+
+Because sound travels at different speeds through cornea, lens, aqueous and vitreous, the instrument cannot know the distance until it knows the medium. That is set by a row of **thumbwheel BCD switches** on the panel — a three-digit velocity, typically 1,500 m/s for an averaged eye — which scale the pulse count. So the operator's hand does three distinct things in one measurement: aim the transducer by feel against a lubricated eye, slide two bright gates onto echoes by turning knobs, and set the assumed velocity of sound with thumbwheels. The number appears, and updates about once a second.
+
+* **Where it sits in the museum.** This is the museum's clearest artifact of *measurement by instrument rather than by cursor*. Later medical interfaces would have the physician drag a caliper icon across a frozen image with a trackball or mouse; here the caliper is an intensified segment of the trace itself, positioned by the same sort of knob a machinist or a radio operator would recognise, with the arithmetic hidden in counters. It belongs with the collection's other analog instruments that ask the operator to align something physical to something seen — the Hell Chromagraph drum scanner, whose colour corrections were dialled in blind on rotary knobs, and the Fluke 9010A, whose troubleshooting ran through a keypad but whose state lived inside a machine. It also marks the beginning of a diagnostic lineage that runs from A-scan biometry to the ophthalmic ultrasound instruments that measure the eye for cataract surgery, which remained a clinical routine through the 1980s.
+
+### Media
+
+![The 1977 Stanford ophthalmic ultrasound system](../assets/wiki/cromemco-ophthalmic-ultrasound.jpg)
+*The ophthalmic ultrasound system developed at Stanford University in 1977, as preserved and photographed by Cromemco — a small-computer cabinet, a display and the ultrasonic transducer assembly. The 1977 paper reported simultaneous A-mode and gray-scale B-scan presentation with distances to 0.1 mm. (Image: Cromemco, Wikimedia Commons, CC BY-SA 4.0. Note that the photograph's "built on a Cromemco Z-2" caption is the vendor's own claim; the documented research instrument is described in terms of its Tektronix display and discrete logic, so the computer inside should be treated as unconfirmed.)*
+
+### Sources
+
+1. Susal, A. L. "Gray scale echography with simultaneous A mode presentation in the detection and evaluation of intraocular lesions." *Journal of Clinical Ultrasound* 5, no. 6 (December 1977): 393–397 — https://doi.org/10.1002/jcu.1870050607
+2. Susal, A. L. "An ophthalmic ultrasound scanning system." *Ultrasonics* 12, no. 1 (January 1974): 36–39 — https://doi.org/10.1016/0041-624X(74)90085-7
+3. US Patent 4,154,114, "Biometric measuring device," Louis Katz and Werner Gruenebaum, Sonometrics Systems Inc., filed 2 December 1977, granted 15 May 1979 (Tektronix 5403 display, intensified start/stop gates, 64-cycle averaging, thumbwheel velocity switches, four-digit on-screen readout) — https://patents.google.com/patent/US4154114A/en
+4. US Patent 4,213,464, "Ultrasonic coupling apparatus," Katz and Weil, 1978 (water-filled coupling chamber and patient fixation lamp) — https://patents.google.com/patent/US4213464A/en
+5. US Patent 4,484,569, Sonometrics Systems Inc. (Coleman Ophthalmoscan lineage) — https://patents.google.com/patent/US4484569A/en
+
+## Mergenthaler Linotron 202 (1978–1980s)
+
+**By:** Mergenthaler Linotype Company (Linotype-Paul Ltd), New York and England
+**Tags:** `Output` `Typesetting` `Protocol` `Paper Tape` `Professional`
+
+The Linotron 202 is a high-speed CRT phototypesetter: a machine that paints characters onto photographic film by sweeping an electron beam across a cathode-ray tube, at a resolution of 972 scan lines per inch and a rated speed of 450 newspaper lines per minute. It cost about $45,000 at list, or under $60,000 with its options, when Mergenthaler announced it in 1978. What makes it an HCI artifact rather than a piece of printing plant is that **it has no composing interface at all**.
+
+### The typesetter you feed rather than use
+
+Where the museum's Linotype CRTronic put a keyboard and a CRT in front of the typographer, the 202 deliberately has neither. Text was prepared elsewhere — on Mergenthaler's own **shift-type input and correction terminals (the MK-10, MK-20 and MK-50)** — and arrived at the 202 as a **punched paper tape**, or, for a computer installation, through a **DR11-C interface** to a minicomputer. The 202's own controls were the things you need to feed a machine: a paper-tape reader, two floppy disk drives holding a formatting program and definitions for about sixty fonts of roughly a hundred characters each, and a status channel.
+
+That last piece is the surprising one. Because the 202 was not a passive printer but an **addressable peripheral** — Bell Laboratories' programmers noted that "since the typesetter is an active element, it is possible to read from it as well as write to it" — the interface a programmer actually lived with was a protocol. And Bell Labs, having bought one in July 1979 to replace a CAT typesetter, did something with lasting consequence: they changed *troff* so that it no longer emitted CAT device codes but "an anonymous intermediate language intended for a post-processor that will drive a particular typesetter." The same document could then be set on a 202, a CAT, an APS-5, or a Tektronix 4014 storage tube. The output device became a swappable parameter — `troff -T202` — and the page description, not the hardware, became the interface.
+
+The machine also revealed itself to the operator in unglamorous, physical ways, which Bell Labs' 1980 memorandum recounts at length: paper left in the machine overnight stuck to the rollers so hard it had to be washed off; the tape reader refused the light-coloured tape their computer punched; a "light leak" turned out to be mechanical pressure sensitising the paper; and for weeks the symptom of a failing board was a typesetter that printed half-characters, gibberish, or vertical lines in place of letters. The two weeks after installation, they wrote, the machine "worked for a total of less than 24 hours."
+
+* **Where it sits in the museum.** The 202 is the museum's example of a "computer peripheral that was a typesetting machine," and the companion piece to the Linotype CRTronic. The CRTronic asked its operator to *compose* at a gauge-and-keyboard console; the 202 asked its operator to *supply* a tape, and asked a programmer two rooms away to speak to it through a device-independent protocol. Between them they bracket the two ways professional workplaces handed typography to hardware in the late 1970s — the interactive instrument and the batch appliance.
+
+### Media
+
+![A surviving Mergenthaler Linotron 202E phototypesetter](../assets/wiki/linotron-202e.jpg)
+*A surviving Linotron 202E — the output engine of the 202 family, with its film cassette, control panel and paper-tape reader and no composing keyboard. The Japanese caption notes that input and correction were done on the separate shift-type MK-10/MK-20/MK-50 units. (Image: うぃき野郎, Wikimedia Commons, CC BY-SA 4.0.)*
+
+### Sources
+
+1. Condon, J., B. W. Kernighan, and K. Thompson. "Experience with the Mergenthaler Linotron 202 Phototypesetter, or, How We Spent Our Summer Vacation." Bell Laboratories Computing Science Technical Report 80-1270-1, 6 January 1980 — https://www.cs.princeton.edu/~bwk/202/summer.reconstructed.pdf
+2. Wikipedia — Phototypesetting (CRT phototypesetters; Linotron series; *troff* and device-independent output) — https://en.wikipedia.org/wiki/Phototypesetting
+3. Wikipedia — Mergenthaler Linotype Company (Linotype-Paul Ltd and the Linotron range from 1969; Linotype-Hell 1987) — https://en.wikipedia.org/wiki/Mergenthaler_Linotype_Company
+4. Wikimedia Commons — File:High-Speed CRT Computer Phototypesetter Linotron-202E.jpg (CC BY-SA 4.0) — https://commons.wikimedia.org/wiki/File:High-Speed_CRT_Computer_Phototypesetter_Linotron-202E.jpg
