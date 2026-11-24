@@ -1,6 +1,6 @@
 # The HCI Golden Age Wiki
 
-A research compendium for a digital museum of cutting-edge Human-Computer Interaction from the late 1970s through the early 1990s. These three hundred and twenty-two projects mix canonical experiments with weird, forgotten, and beautiful vaporware — brain control, voice control, gesture, wearable computing, VR, robots, and full-body exertion.
+A research compendium for a digital museum of cutting-edge Human-Computer Interaction from the late 1970s through the early 1990s. These three hundred and twenty-nine projects mix canonical experiments with weird, forgotten, and beautiful vaporware — brain control, voice control, gesture, wearable computing, VR, robots, and full-body exertion.
 
 Each entry includes an overview, a deep dive, a small media gallery, and full source links so the images and facts can always be traced back.
 
@@ -332,6 +332,8 @@ Each entry includes an overview, a deep dive, a small media gallery, and full so
 321. [Wrigley Field Hand-Turned Scoreboard (1937–)](#wrigley-field-hand-turned-scoreboard-1937)
 322. [Addressograph Cassette Addressing System (1960s–1980s)](#addressograph-cassette-addressing-system-1960s1980s)
 323. [DASA Mark 18 Microfilm Reader-Printer (c.1968–78)](#dasa-mark-18-microfilm-reader-printer-c196878)
+324. [Kodak Komstar (1977)](#kodak-komstar-1977)
+325. [SAL-MAR Construction (1969–72, in performance into the 1980s)](#sal-mar-construction-196972-in-performance-into-the-1980s)
     
 ---
 
@@ -14304,6 +14306,63 @@ Once the frame was found, the operator rotated and zoomed the projected image an
 2. Wikipedia — Microform — https://en.wikipedia.org/wiki/Microform
 3. Avedon, Don M. "Microforms as Library Tools." *Library Trends* 30, no. 2 (Fall 1981).
 4. Teague, S. J. *Microform Librarianship.* Butterworths, 1977.
+
+## Kodak Komstar (1977)
+
+**By:** Eastman Kodak Company (Rochester, New York)
+**Tags:** `Output` `Microfilm` `Laser` `Mainframe` `Data Centre` `Dry Process`
+
+The Komstar was a computer-output-microfilm (COM) recorder: a data-processing machine whose output was not paper but film. An IBM System/370 mainframe streamed an ordinary line-printer data stream to it over a channel, and the Komstar laid that data down as text — not on a page but onto microfilm, at a speed that made paper printers look leisurely.
+
+### How it wrote
+
+The mechanism was the point. Earlier COM recorders wrote with a cathode-ray tube, and Kodak's own KOM 90 developed the film through wet chemistry. The Komstar, introduced in 1977, instead modulated a laser to "compose" characters as a 7 × 9 dot matrix, writing the matrix a column at a time while the film advanced line by line down the page. It exposed onto Kodak dry-process Recordak Dacomatic film, so no wet chemistry was needed in the machine room — a significant selling point for operators who did not want to run a photographic line beside a mainframe. The finished output was either 105 mm microfiche (a card about the size of a postcard, holding a couple of hundred page-images) or 16 mm microfilm. Throughput was on the order of 120,000 characters a second, roughly twenty times the speed of an impact line printer.
+
+### What it did to the interface
+
+The consequence for the person at the far end was sweeping. A data centre that had once printed reams of fanfold paper could hand its users a few transparency cards. Reading a report stopped being a matter of flipping pages and became a matter of threading a fiche into a viewer and sliding a magnified window across a grid of tiny pages. The lookup gesture moved from the wrist and forearm to the fingertips on a scanning stage. The output medium itself shrank until it fit in a drawer, and the information it carried grew by orders of magnitude.
+
+* **Where it sits in the museum.** The Komstar is the deliberate counterpart to the museum's DASA Mark 18 reader-printer. The Mark 18 was the *reading* end of the microform world — a console that projected a frame and, on demand, printed it back to paper. The Komstar is the *writing* end: it is the machine that put the data onto the film in the first place. Together they bracket an era in which a large part of the world's computer-readable record lived on film, read and written by machines rather than on paper.
+
+### Media
+
+![A Kodak Komstar laser computer-output-microfilm recorder at CERN, 1981](../assets/wiki/kodak-komstar-cern-1981.jpg)
+*Kodak Komstar recorder connected on-line to CERN's central IBM mainframes, photographed by CERN PhotoLab in March 1981. It was used to cut the Computer Centre's paper consumption. CC BY 4.0, Wikimedia Commons.*
+
+### Sources
+
+1. Wikipedia — Kodak Komstar — https://en.wikipedia.org/wiki/Kodak_Komstar
+2. CERN PhotoLab, "Making machine microfiches Kodak Komstar" (1981) — https://commons.wikimedia.org/wiki/File:Making_machine_microfiches_Kodak_Komstar.jpg
+3. Papers Past, 25 May 1977 (contemporary description of COM throughput and fiche capacity).
+4. Indiana Archives and Records Administration — Computer Output Microfilm — https://in.gov/iara/services-for-government/imaging-and-microfilm-services/state-imaging-and-microfilm-laboratory-computer-output-microfilm
+
+## SAL-MAR Construction (1969–72, in performance into the 1980s)
+
+**By:** Salvatore Martirano, with engineers at the University of Illinois
+**Tags:** `Input/Output` `Music` `Capacitance` `Semi-autonomous` `Performance`
+
+The SAL-MAR Construction is a synthesizer with no keyboard. Where most electronic instruments of its era presented a piano-like surface of switches or a rack of knobs, SAL-MAR presented a horizontal console of several hundred lightable capacitance touch plates — a field of small, flat, immovable targets with no travel and no mechanical action. Each plate was a two-state touch switch, and what a performer did was touch sequences of them.
+
+### A surface both sides can drive
+
+The unusual idea was in the wiring, not the ergonomics. Every plate could be driven by a human finger *or* by the machine's own sequencer logic, because the human and the computer shared the same switch bus. The plates were therefore simultaneously input and display: the machine could light them and step through them exactly as a performer could. The performer touched numeric sequences that bypassed, addressed, or added to other sequences held in an interlocked logic tree, and the machine then generated and mutated its own material from those sequences. A signature move was a macro-to-micro "zoom lens": the same plate could be used to address an entire sequence tree or a single parameter within it, depending on context. The interaction was not "play a note" but "steer a semi-autonomous process," with the computer able to reach back into the controls the human was using and the human able to reach into the computer's reasoning.
+
+### A shared-state instrument
+
+That shared-state arrangement is what makes SAL-MAR unusual in a museum full of input devices. Most controllers are one-way: the human moves, the machine senses. Here the two parties alter the same physical objects, so the boundary between performer and instrument is genuinely negotiable — the performer is not commanding a passive tool but arguing with an active collaborator across an array of switches neither wholly owns.
+
+* **Where it sits in the museum.** SAL-MAR belongs with the museum's other performance instruments whose control topology is the story, but its two-way switch bus has no close neighbour. It is the ancestor of the idea that a musical interface might be a *dialogue surface* rather than a set of keys and pedals. Built between 1969 and 1972 at the University of Illinois by composer Salvatore Martirano and a team of engineers, it remained in performing use into the 1980s, which keeps it within the museum's window as an instrument still being played in the period.
+
+### Media
+
+![The console of the SAL-MAR Construction, a field of capacitance touch plates](../assets/wiki/sal-mar-construction-crane.jpg)
+*The SAL-MAR Construction console, from the University of Illinois Library Sousa Archives (photograph by C. E. Crane, 2014). CC BY 2.0, Wikimedia Commons.*
+
+### Sources
+
+1. Wikipedia — Salvatore Martirano — https://en.wikipedia.org/wiki/Salvatore_Martirano
+2. Sousa Archives and Center for American Music, University of Illinois Library — SAL-MAR finding aid.
+3. University of Illinois "Distributed Museum" overview of the SAL-MAR Construction — https://distributedmuseum.blogspot.com/
 
 ## Suncom Joy Sensor (1983)
 
