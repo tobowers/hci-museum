@@ -1,0 +1,49 @@
+{
+  "slug": "oberheim-prommer",
+  "title": "Oberheim Prommer",
+  "year": "1984",
+  "subtitle": "The EPROM 'toaster' that let you burn your own drum sounds into a chip — a programmer you could audition by ear",
+  "why_scout_cares": "The Prommer is a genuinely weird interaction: a monophonic sampler whose output medium is a UV-erasable EPROM chip. You feed it a sound, it plays it back so you can hear what you are about to commit, and then it burns that sound into a chip to be physically carried to an Oberheim DMX, Linn, Simmons or Sequential drum machine. It turns 'programming' into a physical, irreversible act (a chip cannot be re-recorded, only erased under UV light), and it is triggerable by MIDI or the pre-MIDI Oberheim Parallel Buss. A sampler as a chip-burning appliance — the 'ROM toaster' nickname is apt.",
+  "search_terms": ["Oberheim Prommer", "EPROM burner drum machine", "ROM toaster", "Oberheim DMX samples", "sampler EPROM", "Parallel Buss"],
+  "research": {
+    "title": "Oberheim Prommer",
+    "year": "1984",
+    "by": "Oberheim Electronics",
+    "tags": ["Music", "Sampling", "Storage", "Drum Machine", "Programming"],
+    "overview": "The Oberheim Prommer is a monophonic sampler capable of programming EPROM chips for use in the Oberheim DMX, Linn, Simmons and Sequential drum machines, allowing owners to use their own samples in those devices. It can be triggered by MIDI or via the pre-MIDI Oberheim Parallel Buss. Because the output medium is a physical memory chip, the Prommer sits at the boundary between digital audio and hardware storage: it converts a captured sound into a cartridge that is then plugged into the drum machine that will play it back.",
+    "deepDive": [
+      {
+        "heading": "Sampling as a physical act",
+        "text": "Unlike a modern sampler, the Prommer does not store sounds on disk or in RAM above the machine — it writes them to an EPROM. The sample becomes an object you can hold, label and insert. Re-recording means erasing under UV light and burning again, so committing a sound is deliberate and slow. That friction is the interface: every sample is a small, irreversible decision."
+      },
+      {
+        "heading": "An ear between input and output",
+        "text": "The Prommer provides an audible preview so the user can check a sample before burning it. In interaction terms it is a closed loop — capture, listen, commit — with the listen step placed exactly where an irreversible write happens. It is a sampler as a chip-fabrication appliance, and its nickname, the 'ROM toaster', captures the domestic, appliance-like feel of feeding sound in and getting a cartridge out."
+      },
+      {
+        "heading": "Ownership and the custom kit",
+        "text": "By letting drum-machine owners burn their own samples, the Prommer shifted the sound library from the manufacturer to the user. The drum machine's voice became something you authored and physically installed, a step toward the sample-customisation culture that later drum machines and samplers took for granted."
+      }
+    ],
+    "team": [
+      { "name": "Oberheim Electronics", "note": "Manufacturer of the Prommer, DMX and the Parallel Buss" },
+      { "name": "Tom Oberheim", "note": "Founder of Oberheim Electronics, whose DMX drum machine the Prommer was built to feed" }
+    ],
+    "media": [
+      { "src": "assets/wiki/oberheim-prommer.jpg", "alt": "Oberheim Prommer front panel", "caption": "The Oberheim Prommer, an EPROM-burning monophonic sampler for drum machines. CC BY-SA 4.0, Wikimedia Commons." },
+      { "src": "assets/wiki/oberheim-prommer-rom.jpg", "alt": "Oberheim Prommer ('ROM toaster')", "caption": "The Prommer in its 'ROM toaster' guise, with the chip-based storage medium that gives it its nickname. CC BY-SA 2.0, ghostdad / Wikimedia Commons." }
+    ],
+    "sources": [
+      { "text": "Wikipedia — Oberheim Prommer", "url": "https://en.wikipedia.org/wiki/Oberheim_Prommer" },
+      { "text": "Oberheim DMX and Prommer history", "url": "https://en.wikipedia.org/wiki/Oberheim_DMX" }
+    ],
+    "imageUrls": [
+      "https://commons.wikimedia.org/wiki/File:Oberheim_Prommer.jpg",
+      "https://commons.wikimedia.org/wiki/File:Oberheim_Prommer_(ROM_toaster).jpg"
+    ]
+  },
+  "savedImages": [
+    "potential/oberheim-prommer/images/oberheim-prommer.jpg",
+    "potential/oberheim-prommer/images/oberheim-prommer-rom.jpg"
+  ]
+}

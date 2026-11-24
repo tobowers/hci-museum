@@ -1,6 +1,6 @@
 # The HCI Golden Age Wiki
 
-A research compendium for a digital museum of cutting-edge Human-Computer Interaction from the late 1970s through the early 1990s. These three hundred and twenty-nine projects mix canonical experiments with weird, forgotten, and beautiful vaporware — brain control, voice control, gesture, wearable computing, VR, robots, and full-body exertion.
+A research compendium for a digital museum of cutting-edge Human-Computer Interaction from the late 1970s through the early 1990s. These three hundred and thirty-two projects mix canonical experiments with weird, forgotten, and beautiful vaporware — brain control, voice control, gesture, wearable computing, VR, robots, and full-body exertion.
 
 Each entry includes an overview, a deep dive, a small media gallery, and full source links so the images and facts can always be traced back.
 
@@ -272,6 +272,9 @@ Each entry includes an overview, a deep dive, a small media gallery, and full so
 262. [McDonald's Brobeck Point-of-Sale Terminal (1974)](#mcdonalds-brobeck-point-of-sale-terminal-1974)
 263. [BSR/X10 Command Console (1978)](#bsr-x10-command-console-1978)
 264. [Linn LM-1 Drum Computer (1980)](#linn-lm-1-drum-computer-1980)
+264a. [Linn 9000 (1984)](#linn-9000-1984)
+264b. [E-mu Drumulator (1983)](#e-mu-drumulator-1983)
+264c. [Oberheim Prommer (1984)](#oberheim-prommer-1984)
 265. [Casio VDB-1000 Touchscreen Watch (1991)](#casio-vdb-1000-touchscreen-watch-1991)
 266. [Commodore CHESSmate (1978)](#commodore-chessmate-1978)
 267. [KAT MalletKAT MIDI Percussion Controller (1985)](#kat-malletkat-midi-percussion-controller-1985)
@@ -14390,3 +14393,93 @@ That has a side effect the era's players noticed in reviews of touch controllers
 2. "Suncom Introduces New Products." *The Video Game Update* 2, no. 7 (October 1983), p. 104 — https://archive.org/details/computer-entertainer-2-7/ComputerEntertainer_2-7_text.pdf
 3. Wikimedia Commons — File:Suncom Joy Sensor.png (CC BY 4.0, Video Game History Foundation scan) — https://commons.wikimedia.org/wiki/File:Suncom_Joy_Sensor.png
 4. Wikimedia Commons — Category:Game controllers by Suncom — https://commons.wikimedia.org/wiki/Category:Game_controllers_by_Suncom
+
+## Linn 9000 (1984)
+
+**By:** Linn Electronics (Roger Linn)
+**Tags:** `Music` `Input` `Sequencer` `Drum Machine` `Sampling`
+
+The Linn 9000, introduced by Linn Electronics in 1984 as the successor to the LinnDrum, lists at $5,000 (about $7,000 fully expanded), and roughly 1,100 units were made. It combined MIDI sequencing and optional audio sampling with a set of 18 velocity- and pressure-sensitive performance pads, producing an instrument optimised as a drum machine. It added programmable hi-hat decay, 18 digital drum sounds, a mixer section, 18 individual 1/4-inch outputs, an LCD, 6 external trigger inputs and an optional internal floppy disk drive. It is the matured, over-reaching endpoint of the pad-as-program lineage the museum already holds at the LM-1: one perforated surface trying to be drum machine, sequencer and mixer at once.
+
+### One surface, many machines
+
+The 9000's front panel is a dense field of 18 performance pads paired with an LCD and a mixer section. The same pad bed that plays the kit also drives pattern entry, and the sequencer can drive external MIDI gear — so the player moves between striking pads, reading a small screen and balancing channels without leaving the panel. It is the pad-as-program idea from the LM-1 pushed to its maximal, workstation form. Its 18 velocity/pressure pads made it expressive in a way the era's pure grid machines were not, and its MIDI sequencing let it sit at the centre of a studio rather than beside it.
+
+### The interface that broke
+
+Despite being innovative and influential on later drum-machine designs, chronic software bugs gave the 9000 a reputation for unreliability and ultimately contributed to the demise of Linn Electronics. It is a rare museum object where the interaction model and the software that implements it are visibly, historically entangled — a lesson in how a good physical interface is hostage to the code behind it. Only after Forat Music and Electronics bought Linn's remaining assets, fixed the firmware and released it as the Forat F9000 did the design's promise fully arrive.
+
+* **Where it sits in the museum.** The collection's music-interface family has its pad-as-grid origin in the LM-1 and its software-fragility lesson in the 9000. Where the TR-808 makes time a row of 16 LEDs, the 9000 makes it a dense pad field read against an LCD — and its troubled firmware is the museum's clearest artifact of an interface whose failure lives in software, not hardware.
+
+### Media
+
+![Top view of the Linn 9000: 18 velocity- and pressure-sensitive pads, LCD and mixer section](../assets/wiki/linn-9000.jpg)
+*Top view of the Linn 9000: 18 velocity- and pressure-sensitive pads, LCD and mixer section on one panel. CC BY-SA 3.0, Wikimedia Commons.*
+
+![Linn 9000 brochure page](../assets/wiki/linn-9000-brochure.jpg)
+*Linn 9000 brochure page. CC BY-SA 3.0, Linn Electronics / Forat Electronics / Wikimedia Commons.*
+
+### Sources
+
+1. Wikipedia — Linn 9000 — https://en.wikipedia.org/wiki/Linn_9000
+2. Roger Linn Design — past products archive — https://www.rogerlinndesign.com/past-products-museum.html
+
+## E-mu Drumulator (1983)
+
+**By:** E-mu Systems
+**Tags:** `Music` `Sequencer` `Drum Machine` `Sampling` `Consumer`
+
+The E-mu Drumulator is a sample-based drum machine by E-mu Systems, introduced in 1983 at a price of US$995. It was the first programmable drum machine with built-in samples for under $1,000, and it sold over 10,000 units in two years. It is the predecessor of the E-mu SP-12. The Drumulator uses 8-bit samples for 12 sounds, including SSM analog filters, and was widely used in early-1980s synth-pop and Italo-disco productions. It is the democratisation hinge of the sampled-drum-machine story: the technology the Linn LM-1 had introduced at luxury prices, brought down to a home-studio price.
+
+### Sample quality at a price
+
+The Drumulator brought sampled drums to $995. Its 8-bit samples for 12 sounds, passed through SSM analog filters, were the compromise that made the price possible; the grit of low-bit-depth samples became part of the sound of early synth-pop and Italo disco rather than a defect to hide.
+
+### A swappable sound cartridge
+
+In 1984, Digidrums released special EPROMs for the Drumulator, which made the machine's voice library a physical commodity: you bought a chip, installed it, and the machine became a new kit. The Rock Drums set was used on Tears for Fears' 'Shout', and the 'Beastie Groove' set for Beastie Boys was made by Rick Rubin — the cartridge model propagating sound from a factory in California out to specific hit records, a step toward the sample-pack economy.
+
+* **Where it sits in the museum.** The museum's drum-machine line runs high-end (Linn LM-1, Linn 9000) and canonical (Roland TR-808). The Drumulator is the mass-market counterpoint: a deliberately cheaper simplification of the same pad-and-step programming, built for home studios, that put sampled drums within reach of anyone. Its lineage runs directly into the E-mu SP-12 sampler.
+
+### Media
+
+![E-mu Drumulator front panel](../assets/wiki/drumulator.jpg)
+*E-mu Drumulator front panel: the $995 sampled drum machine that undercut the Linn machines. CC BY-SA 4.0, Wikimedia Commons.*
+
+![E-mu Drumulator rear panel](../assets/wiki/drumulator-back.jpg)
+*Drumulator rear panel showing its connections. CC BY-SA 4.0, Wikimedia Commons.*
+
+### Sources
+
+1. Wikipedia — E-mu Drumulator — https://en.wikipedia.org/wiki/E-mu_Drumulator
+2. Wikipedia — E-mu SP-12 — https://en.wikipedia.org/wiki/E-mu_SP-12
+
+## Oberheim Prommer (1984)
+
+**By:** Oberheim Electronics
+**Tags:** `Music` `Sampling` `Storage` `Drum Machine` `Programming`
+
+The Oberheim Prommer is a monophonic sampler capable of programming EPROM chips for use in the Oberheim DMX, Linn, Simmons and Sequential drum machines, allowing owners to use their own samples in those devices. It can be triggered by MIDI or via the pre-MIDI Oberheim Parallel Buss. Because its output medium is a physical memory chip, the Prommer sits at the boundary between digital audio and hardware storage: it converts a captured sound into a cartridge that is then plugged into the drum machine that will play it back. Its nickname, the "ROM toaster", captures the domestic, appliance-like feel of feeding sound in and getting a cartridge out.
+
+### Sampling as a physical act
+
+Unlike a modern sampler, the Prommer does not store sounds on disk or in RAM below the machine — it writes them to an EPROM. The sample becomes an object you can hold, label and insert. Re-recording means erasing under UV light and burning again, so committing a sound is deliberate and slow. That friction is the interface: every sample is a small, irreversible decision.
+
+### An ear between input and output
+
+The Prommer provides an audible preview so the user can check a sample before burning it. In interaction terms it is a closed loop — capture, listen, commit — with the listen step placed exactly where an irreversible write happens. By letting drum-machine owners burn their own samples, the Prommer shifted the sound library from the manufacturer to the user; the drum machine's voice became something you authored and physically installed, a step toward the sample-customisation culture that later samplers took for granted.
+
+* **Where it sits in the museum.** The museum's sampling and storage artifacts (the Fairlight CMI, the Synclavier) treat sound as data held in expensive machines. The Prommer is the strange inverse: sampling as a chip-fabrication appliance a home user could run, where the finished sample is a physical cartridge. No other artifact in the collection makes "programming" quite so literally a matter of burning something into a chip.
+
+### Media
+
+![The Oberheim Prommer, an EPROM-burning monophonic sampler for drum machines](../assets/wiki/oberheim-prommer.jpg)
+*The Oberheim Prommer, an EPROM-burning monophonic sampler for drum machines. CC BY-SA 4.0, Wikimedia Commons.*
+
+![The Prommer in its 'ROM toaster' guise](../assets/wiki/oberheim-prommer-rom.jpg)
+*The Prommer in its 'ROM toaster' guise, with the chip-based storage medium that gives it its nickname. CC BY-SA 2.0, ghostdad / Wikimedia Commons.*
+
+### Sources
+
+1. Wikipedia — Oberheim Prommer — https://en.wikipedia.org/wiki/Oberheim_Prommer
+2. Wikipedia — Oberheim DMX — https://en.wikipedia.org/wiki/Oberheim_DMX
