@@ -1,0 +1,11 @@
+{
+  "slug": "kodak-komstar",
+  "wikiTitle": "Kodak Komstar",
+  "year": 1977,
+  "sortYear": 1977,
+  "title": "Kodak Komstar 200 Computer Output Microfilm Recorder",
+  "subtitle": "The printer that made your reports invisible",
+  "blurb": "The Komstar was a computer-output-microfilm recorder: an IBM mainframe streamed ordinary line-printer data to it, and instead of paper it modulated a laser to draw 7×9 dot-matrix characters directly onto Kodak dry-process film — 105 mm microfiche or 16 mm roll — at roughly 120,000 characters a second, some twenty times a line printer. The whole output of a data centre's paper reports collapsed onto a few transparency cards the size of a postcard. The human interface changed shape too: reading a report stopped being a matter of flipping pages and became a matter of threading a fiche into a viewer and moving a magnified window across a grid. The Komstar is the flip side of the museum's DASA Mark 18 reader-printer: one machine wrote the archive down to almost nothing, the other read it back out.",
+  "tags": ["Output", "Microfilm", "Laser", "Mainframe", "Data Centre", "Dry Process"],
+  "image": "kodak-komstar-cern-1981.jpg"
+}

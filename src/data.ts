@@ -4114,6 +4114,32 @@ const exhibitData: Exhibit[] = [
     tags: ["Input", "Microfilm", "Archive", "Document Retrieval", "Office"],
     image: img("dasa-mark-18-reader-printer.jpg"),
   },
+  {
+    id: "kodak-komstar",
+    slug: "kodak-komstar",
+    wikiTitle: "Kodak Komstar",
+    year: "1977",
+    sortYear: 1977,
+    title: "Kodak Komstar 200 Computer Output Microfilm Recorder",
+    subtitle: "The printer that made your reports invisible — a laser that drew data onto postcard-sized film at 120,000 characters a second",
+    blurb:
+      "The Komstar was a computer-output-microfilm recorder, and its job was the inverse of a line printer's. An IBM mainframe streamed ordinary report data to it, and instead of laying ink on paper the machine modulated a laser to draw 7×9 dot-matrix characters directly onto Kodak dry-process film — 105 mm microfiche or 16 mm roll — at roughly 120,000 characters a second, some twenty times the speed of a line printer. A whole data centre's paper output collapsed onto a few transparency cards the size of a postcard, each holding a couple of hundred page images. The interface at the human end changed shape too: reading a report stopped being a matter of flipping pages and became a matter of threading a fiche into a viewer and sliding a magnified window across a grid. The Komstar is the flip side of the museum's DASA Mark 18 reader-printer — one machine wrote the archive down to almost nothing, the other read it back out.",
+    tags: ["Output", "Microfilm", "Laser", "Mainframe", "Data Centre", "Dry Process"],
+    image: img("kodak-komstar-cern-1981.jpg"),
+  },
+  {
+    id: "sal-mar-construction",
+    slug: "sal-mar-construction",
+    wikiTitle: "SAL-MAR Construction",
+    year: "1969–1972",
+    sortYear: 1972,
+    title: "SAL-MAR Construction (1969–72, in performance into the 1980s)",
+    subtitle: "A synthesizer you argue with, not play — where human finger and machine logic share the same switch",
+    blurb:
+      "Salvatore Martirano's SAL-MAR Construction replaced a keyboard with a field of several hundred lightable capacitance touch plates. The radical part was the wiring: each plate could be driven by a human finger *or* by the machine's own sequencer logic, because both shared the same switch bus. The performer never simply 'played' notes; they negotiated with a semi-autonomous sequence generator, using a macro-to-micro 'zoom lens' that could address an entire sequence tree or a single parameter from the same surface. The computer could reach back into the controls the human was using, and the human could reach into the computer's reasoning — a two-way, shared-state instrument rather than a console that merely relayed commands. Built at the University of Illinois between 1969 and 1972, it remained in performing use into the 1980s.",
+    tags: ["Input/Output", "Music", "Capacitance", "Semi-autonomous", "Performance"],
+    image: img("sal-mar-construction-crane.jpg"),
+  },
 ];
 
 export const exhibits: Exhibit[] = exhibitData.toSorted((a, b) => b.sortYear - a.sortYear || a.title.localeCompare(b.title));

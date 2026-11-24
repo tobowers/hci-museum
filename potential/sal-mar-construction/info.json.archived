@@ -1,0 +1,11 @@
+{
+  "slug": "sal-mar-construction",
+  "wikiTitle": "SAL-MAR Construction",
+  "year": 1972,
+  "sortYear": 1972,
+  "title": "SAL-MAR Construction",
+  "subtitle": "A synthesizer you argue with, not play",
+  "blurb": "Salvatore Martirano's SAL-MAR Construction replaced a keyboard with a field of several hundred lightable capacitance touch plates. Each plate could be driven by a human finger or by the machine's own sequencer logic, because both shared the same switch bus. The performer never simply \"played\" notes; they negotiated with a semi-autonomous sequence generator, using a macro-to-micro \"zoom lens\" that could address an entire sequence tree or a single parameter from the same surface. The computer could reach back into the controls the human was using, and the human could reach into the computer's reasoning.",
+  "tags": ["touch", "music", "capacitance", "semi-autonomous", "performance"],
+  "image": "sal-mar-construction-crane.jpg"
+}
