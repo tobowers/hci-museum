@@ -1,0 +1,49 @@
+{
+  "slug": "drumulator",
+  "title": "E-mu Drumulator",
+  "year": "1983",
+  "subtitle": "The first sampled drum machine under $1,000 — the mass-market cut-down of the studio pad machine",
+  "why_scout_cares": "The Drumulator is the democratisation hinge of the sampled-drum-machine story: $995 when the Linn LM-1 cost several thousand, it put programmable sampled drums into home studios and sold over 10,000 units in two years. Its interface is a deliberate, cheap simplification of the Linn/TR paradigm, and its EPROM-swap sound packs (notably Digidrums' Rock Drums, used on Tears for Fears' 'Shout') made the sound library a swappable cartridge. It is the mass-market counterpoint the collection's high-end drum machines (LM-1, TR-808, Linn 9000) lack, and it seeds the E-mu SP-12 sampler line.",
+  "search_terms": ["E-mu Drumulator", "sampled drum machine 1983", "Digidrums Rock Drums", "SP-12 predecessor", "under $1000 drum machine", "8-bit drum samples"],
+  "research": {
+    "title": "E-mu Drumulator",
+    "year": "1983",
+    "by": "E-mu Systems",
+    "tags": ["Music", "Sequencer", "Drum Machine", "Sampling", "Consumer"],
+    "overview": "The E-mu Drumulator is a sample-based drum machine by E-mu Systems, introduced in 1983 at a price of US$995. It was the first programmable drum machine with built-in samples for under $1,000, and it sold over 10,000 units in two years. It is the predecessor of the E-mu SP-12. The Drumulator uses 8-bit samples for 12 sounds, including SSM analog filters, and was widely used in early-1980s synth-pop and Italo-disco productions. In 1984 Digidrums released special EPROMs for the Drumulator, including the Rock Drums set used on Tears for Fears' 'Shout' and the 'Beastie Groove' set for Beastie Boys by Rick Rubin.",
+    "deepDive": [
+      {
+        "heading": "Sample quality at a price",
+        "text": "The Drumulator brought sampled drums — the technology the Linn LM-1 had introduced at luxury prices — down to $995. Its 8-bit samples for 12 sounds, passed through SSM analog filters, were the compromise that made the price possible; the grit of low-bit-depth samples became part of the sound of early synth-pop and Italo disco rather than a defect to hide."
+      },
+      {
+        "heading": "A swappable sound cartridge",
+        "text": "Digidrums' EPROM sound sets made the Drumulator's voice library a physical commodity: you bought a chip, installed it, and the machine became a new kit. The Rock Drums set on 'Shout' and Rick Rubin's 'Beastie Groove' set for Beastie Boys show the cartridge model propagating sound from a factory in California out to specific hit records — a step toward the sample-pack economy."
+      },
+      {
+        "heading": "The simplification that spread",
+        "text": "The Drumulator is a cheaper, more compact expression of the same pad-and-step programming the LM-1 and TR-808 established, built for home studios rather than top-tier ones. It is the moment sampled drums became a consumer product, and its lineage runs directly into the E-mu SP-12 sampler."
+      }
+    ],
+    "team": [
+      { "name": "E-mu Systems", "note": "Manufacturer of the Drumulator and, later, the SP-12 sampler" },
+      { "name": "Digidrums", "note": "Released aftermarket EPROM sound sets, including Rock Drums and Beastie Groove" }
+    ],
+    "media": [
+      { "src": "assets/wiki/drumulator.jpg", "alt": "E-mu Drumulator front panel", "caption": "E-mu Drumulator front panel: the $995 sampled drum machine that undercut the Linn machines. CC BY-SA 4.0, Wikimedia Commons." },
+      { "src": "assets/wiki/drumulator-back.jpg", "alt": "E-mu Drumulator rear panel", "caption": "Drumulator rear panel showing its connections. CC BY-SA 4.0, Wikimedia Commons." }
+    ],
+    "sources": [
+      { "text": "Wikipedia — E-mu Drumulator", "url": "https://en.wikipedia.org/wiki/E-mu_Drumulator" },
+      { "text": "Wikipedia — E-mu SP-12", "url": "https://en.wikipedia.org/wiki/E-mu_SP-12" }
+    ],
+    "imageUrls": [
+      "https://commons.wikimedia.org/wiki/File:Drumulator_Vorderseite.png",
+      "https://commons.wikimedia.org/wiki/File:Drumulator_Hinterseite.png"
+    ]
+  },
+  "savedImages": [
+    "potential/drumulator/images/drumulator.jpg",
+    "potential/drumulator/images/drumulator-back.jpg"
+  ]
+}

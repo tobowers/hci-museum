@@ -1,0 +1,50 @@
+{
+  "slug": "linn-9000",
+  "title": "Linn 9000",
+  "year": "1984",
+  "subtitle": "The pad-workstation that folded sampling, MIDI sequencing, and a mixer into a drum machine — and was undone by its own software",
+  "why_scout_cares": "The Linn 9000 is the matured, over-reaching endpoint of the pad-as-program lineage the museum already holds at the LM-1. It adds 18 velocity- and pressure-sensitive pads, an LCD, a mixer, 18 individual outputs, external trigger inputs and MIDI sequencing with optional audio sampling — a single perforated surface trying to be drum machine, sequencer and mixer at once. Its chronic software bugs (bad enough to help sink Linn Electronics) make it a rare artifact whose interaction story is inseparable from its software fragility. Distinct from the LM-1 (shared single pad row + step-select) and from the TR-808 grid.",
+  "search_terms": ["Linn 9000", "Roger Linn", "Forat F9000", "drum machine sampler sequencer", "18 velocity pads", "Linn Electronics 1984"],
+  "research": {
+    "title": "Linn 9000",
+    "year": "1984",
+    "by": "Linn Electronics (Roger Linn)",
+    "tags": ["Music", "Input", "Sequencer", "Drum Machine", "Sampling"],
+    "overview": "The Linn 9000, introduced by Linn Electronics in 1984 as the successor to the LinnDrum, listed at $5,000 (about $7,000 fully expanded) and roughly 1,100 units were made. It combined MIDI sequencing and optional audio sampling with a set of 18 velocity- and pressure-sensitive performance pads, producing an instrument optimised as a drum machine. It added programmable hi-hat decay, 18 digital drum sounds, a mixer section, 18 individual 1/4-inch outputs, an LCD, 6 external trigger inputs and an optional internal floppy disk drive. Despite being innovative and influential on later drum-machine designs, chronic software bugs gave it a reputation for unreliability and ultimately contributed to the demise of Linn Electronics. Forat Music and Electronics later bought Linn's remaining assets, fixed the bugs and released it as the Forat F9000.",
+    "deepDive": [
+      {
+        "heading": "One surface, many machines",
+        "text": "The 9000's front panel is a dense field of 18 performance pads paired with an LCD and a mixer section. The same pad bed that plays the kit also drives pattern entry, and the sequencer can drive external MIDI gear — so the player moves between striking pads, reading a small screen and balancing channels without leaving the panel. It is the pad-as-program idea from the LM-1 pushed to its maximal, workstation form."
+      },
+      {
+        "heading": "The interface that broke",
+        "text": "The 9000's most instructive quality is its failure. Functional ambition outran the software: recurring firmware bugs meant the machine misbehaved in ways users could not fix, and that reputation helped end Linn Electronics. It is a rare museum object where the interaction model and the software that implements it are visibly, historically entangled — a lesson in how a good physical interface is hostage to the code behind it."
+      },
+      {
+        "heading": "Studio workhorse",
+        "text": "The 9000 appeared on major 1980s records, including Stacey Q's 'Two of Hearts', Eric Carmen's 'Hungry Eyes' and Rick Astley's 'Together Forever'. Its 18 velocity/pressure pads made it expressive in a way the era's grid machines were not, and its MIDI sequencing let it sit at the centre of a studio rather than beside it. Only after Forat fixed the firmware did the design's promise fully arrive."
+      }
+    ],
+    "team": [
+      { "name": "Roger Linn", "note": "Designer and founder of Linn Electronics; created the LM-1, LinnDrum and 9000 before the Akai MPC era" },
+      { "name": "Linn Electronics", "note": "Manufacturer (1984–1986); its collapse followed the 9000's troubled launch" },
+      { "name": "Bruce Forat / Forat Electronics", "note": "Bought Linn's assets, fixed the 9000 firmware and reissued it as the F9000" }
+    ],
+    "media": [
+      { "src": "assets/wiki/linn-9000.jpg", "alt": "Linn 9000 drum machine top view", "caption": "Top view of the Linn 9000: 18 velocity- and pressure-sensitive pads, LCD and mixer section on one panel. CC BY-SA 3.0, Wikimedia Commons." },
+      { "src": "assets/wiki/linn-9000-brochure.jpg", "alt": "Linn 9000 brochure page", "caption": "Linn 9000 brochure page. CC BY-SA 3.0, Linn Electronics / Forat Electronics / Wikimedia Commons." }
+    ],
+    "sources": [
+      { "text": "Wikipedia — Linn 9000", "url": "https://en.wikipedia.org/wiki/Linn_9000" },
+      { "text": "Roger Linn Design — past products archive", "url": "https://www.rogerlinndesign.com/past-products-museum.html" }
+    ],
+    "imageUrls": [
+      "https://commons.wikimedia.org/wiki/File:Linn_9000_view_top_300dpi_2550_1635.jpg",
+      "https://commons.wikimedia.org/wiki/File:Linn_9000_brochure_page_1_300dpi_2550_3300.jpg"
+    ]
+  },
+  "savedImages": [
+    "potential/linn-9000/images/linn-9000.jpg",
+    "potential/linn-9000/images/linn-9000-brochure.jpg"
+  ]
+}
