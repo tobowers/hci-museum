@@ -1,0 +1,18 @@
+{
+  "name": "CSR Fahrsimulator AT 80",
+  "year": "1980",
+  "status": "promoted",
+  "promotedAs": "csr-fahrsimulator-at-80",
+  "images": [
+    {
+      "file": "fahrsimulator-at-80-1.jpg",
+      "commons": "Fahrsimulator AT 80.jpg",
+      "license": "CC BY-SA 4.0",
+      "author": "Erhard Aschendorff"
+    }
+  ],
+  "sources": [
+    "https://commons.wikimedia.org/wiki/File:Fahrsimulator_AT_80.jpg"
+  ],
+  "notes": "Driver-training simulator, Kraftwagenreparaturwerk Olomouc, Czechoslovakia, 1980. Real wheel/gear/pedals wired to scoring logic; physical control sequencing as pass/fail."
+}

@@ -1,6 +1,6 @@
 # The HCI Golden Age Wiki
 
-A research compendium for a digital museum of cutting-edge Human-Computer Interaction from the late 1970s through the early 1990s. These three hundred and thirty-two projects mix canonical experiments with weird, forgotten, and beautiful vaporware — brain control, voice control, gesture, wearable computing, VR, robots, and full-body exertion.
+A research compendium for a digital museum of cutting-edge Human-Computer Interaction from the late 1970s through the early 1990s. These three hundred and thirty-four projects mix canonical experiments with weird, forgotten, and beautiful vaporware — brain control, voice control, gesture, wearable computing, VR, robots, and full-body exertion.
 
 Each entry includes an overview, a deep dive, a small media gallery, and full source links so the images and facts can always be traced back.
 
@@ -337,6 +337,11 @@ Each entry includes an overview, a deep dive, a small media gallery, and full so
 323. [DASA Mark 18 Microfilm Reader-Printer (c.1968–78)](#dasa-mark-18-microfilm-reader-printer-c196878)
 324. [Kodak Komstar (1977)](#kodak-komstar-1977)
 325. [SAL-MAR Construction (1969–72, in performance into the 1980s)](#sal-mar-construction-196972-in-performance-into-the-1980s)
+326. [Zeiss Planicomp P33 (c.1980s)](#zeiss-planicomp-p33-c1980s)
+327. [CSR Fahrsimulator AT 80 (1980)](#csr-fahrsimulator-at-80-1980)
+328. [2-XL (1978)](#2-xl-1978)
+329. [Suncom Joy Sensor (1983)](#suncom-joy-sensor-1983)
+330. [Surf Champ (1985)](#surf-champ-1985)
     
 ---
 
@@ -14483,3 +14488,63 @@ The Prommer provides an audible preview so the user can check a sample before bu
 
 1. Wikipedia — Oberheim Prommer — https://en.wikipedia.org/wiki/Oberheim_Prommer
 2. Wikipedia — Oberheim DMX — https://en.wikipedia.org/wiki/Oberheim_DMX
+
+## Zeiss Planicomp P33 (c.1980s)
+
+**By:** Carl Zeiss, Oberkochen (instrument department)
+**Tags:** `Input` `Photogrammetry` `Continuous Control` `Handwheel` `Foot Control` `Cartography`
+
+The Planicomp P33 is an analytical stereoplotter, a machine that turns aerial photographs into survey-grade maps by letting a person move a measuring mark through a three-dimensional optical model of the ground. It belongs to a family Carl Zeiss introduced with the Planicomp P1 around 1976; the P33 seen here is a later 1980s member of that line, preserved in the Podkrušnohorské technické muzeum in Most, Czechia.
+
+### Two hands and a foot, inside the picture
+
+An operator sits at the machine with both eyes pressed to a binocular viewer. Two aerial photos of the same strip of ground are shown one to each eye in a stereoscope, and the brain fuses them into a single model that appears to stand up in space. A small luminous measuring mark floats inside that model. The operator moves the mark by turning a handwheel for one ground axis, a second handwheel for the other, and rolling a foot disc to raise and lower it. Tracing a river, a road, or a property line means steering the floating dot along the feature while watching it from inside the eyepiece, without ever looking away.
+
+What makes it computational is what happens underneath. Shaft encoders on the wheels and disc report continuous motion to a minicomputer, which solves the projective equations relating each photograph's position to the ground coordinate the mark is reporting. The computer then commands servo motors to reposition the two photo carriages so that the mark appears, to the human eye, to hang at exactly that ground point — compensating for the rotation and tilt the photographs were flown at. The human supplies continuous intent; the machine maintains the geometric illusion in real time.
+
+### Why it is strange
+
+It is a spatial input device with no screen and no pointer: the "display" is a pair of photographs and the operator's own stereovision, and the control loop closes through the muscles of both hands and one foot. The whole body works while the eyes stay locked forward in a darkened eyepiece — closer to flying an aircraft on instruments than to drawing at a desk. It is also the direct ancestor of every three-dimensional digitizer and 3D-controller, built decades before those became consumer objects, and in daily map-production service through the 1980s.
+
+* **Where it sits in the museum.** The museum is rich in flat pointing devices — light pens, tablets, touchpads, pen digitizers — and in stereo viewers from the VR and film worlds. The Planicomp is the one instrument where stereopsis, continuous two-hand-plus-foot control, and real-time computer feedback meet in a working production tool. It pairs with the museum's photogrammetric-era cartography as the machine that compiled the maps the rest of the collection's devices were drawn on.
+
+### Media
+
+![The Zeiss Planicomp P33 analytical stereoplotter on display in a Czech technical museum](../assets/wiki/zeiss-planicomp-p33-1.jpg)
+*A Carl Zeiss Planicomp P33 analytical plotter, Podkrušnohorské technické muzeum, Most, Czechia, 2022. Photograph by Stefan Kühn, CC0, Wikimedia Commons.*
+
+![A second view of the Planicomp P33 stereoplotter](../assets/wiki/zeiss-planicomp-p33-2.jpg)
+*Another view of the Planicomp P33 showing the operator eyepiece and control handwheels. Photograph by Stefan Kühn, CC0, Wikimedia Commons.*
+
+### Sources
+
+1. Wikimedia Commons — "2022-05-26 Podkrušnohorské technické muzeum Most 84" (Carl Zeiss analytical plotters category) — https://commons.wikimedia.org/wiki/File:2022-05-26_Podkru%C5%A1nohorsk%C3%A9_technick%C3%A9_muzeum_Most_84.jpg
+2. Wikipedia — Analogue stereoplotter — https://en.wikipedia.org/wiki/Stereoplotter
+3. Wikipedia — Photogrammetry — https://en.wikipedia.org/wiki/Photogrammetry
+
+## CSR Fahrsimulator AT 80 (1980)
+
+**By:** Kraftwagenreparaturwerk Olomouc, Czechoslovakia
+**Tags:** `Input` `Simulator` `Driving` `Physical Controls` `Training` `Scoring`
+
+The CSR Fahrsimulator Typ AT 80 is a driving trainer built in 1980 in Olomouc, Czechoslovakia. Unlike the video-arcade and flight-simulator exhibits elsewhere in the collection, its interface is essentially a stripped-down automobile: a steering wheel, a gear lever, pedals, and a dashboard, mounted in front of a stylised roadway, wired to logic that judged how the candidate handled them.
+
+### The controls are the test
+
+A trainee climbs in and drives a scripted course. The machine does not render a believable world; it watches the sequencing and timing of wheel, gear and pedal inputs against the manoeuvre being rehearsed, and it turns physical control technique into a score. That makes the AT 80 a different kind of simulator from the museum's headset-and-screen systems: its fidelity budget went entirely into the *feel* of the controls and the discipline of operating them in the right order, not into the scenery. For a driving school in a state-run repair enterprise, that was the point — the trainer conditioned the body's coordination with real vehicle hardware and graded the result mechanically.
+
+### Why it is strange
+
+It is the mirror image of the arcade simulator: no spectacle, no immersion graft, just the working interface of a car attached to a scoring machine. Its Cold-War provenance and its survival, intact and photographed in a Czech technical museum, make it an unusually complete record of how embodied skill was taught by machine in the period — a simulator whose "display" was little more than a cardboard road and whose real input surface was the same wheel and pedals you would grip and press on the street.
+
+* **Where it sits in the museum.** The museum's vehicle-simulator and cockpit exhibits (glass-cockpit flight decks, arcade cabs, ride simulators) largely bank their strangeness on displays and motion. The AT 80 banks it on the opposite: a deliberately modest visual world in front of an entirely real, entirely physical control surface, judged by a hidden scoring logic. It is the training-cab case where the human side of the interface is unchanged from real life and only the machine's judgement is synthetic.
+
+### Media
+
+![The CSR Fahrsimulator Typ AT 80 driver-training cab](../assets/wiki/csr-fahrsimulator-at-80-1.jpg)
+*The CSR Fahrsimulator Typ AT 80, built 1980 by Kraftwagenreparaturwerk Olomouc, Czechoslovakia. Photograph by Erhard Aschendorff, 2022, CC BY-SA 4.0, Wikimedia Commons.*
+
+### Sources
+
+1. Wikimedia Commons — "Fahrsimulator AT 80" — https://commons.wikimedia.org/wiki/File:Fahrsimulator_AT_80.jpg
+2. Wikimedia Commons — Driving simulator category — https://commons.wikimedia.org/wiki/Category:Driving_simulators

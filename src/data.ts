@@ -4179,6 +4179,32 @@ const exhibitData: Exhibit[] = [
     tags: ["Input/Output", "Music", "Capacitance", "Semi-autonomous", "Performance"],
     image: img("sal-mar-construction-crane.jpg"),
   },
+  {
+    id: "zeiss-planicomp-p33",
+    slug: "zeiss-planicomp-p33",
+    wikiTitle: "Zeiss Planicomp P33",
+    year: "c.1980s",
+    sortYear: 1980,
+    title: "Carl Zeiss Planicomp P33 Analytical Stereoplotter (c.1980s)",
+    subtitle: "You steer a floating dot through a 3-D model of the ground using two hands and a foot — the computer keeps it hanging in the air",
+    blurb:
+      "The Planicomp is a photogrammetric 'analytical plotter': the operator looks into a binocular stereoviewer at two overlapping aerial photographs and sees a single three-dimensional model of the terrain, with a small floating measuring mark suspended inside it. To trace a feature, they turn a handwheel for the along-track axis, a second handwheel for cross-track, and roll a foot disc for height, driving the floating mark through the apparent solid of the landscape. What makes it a computer and not an optical toy is that the machine is constantly solving the bundle of orientation equations: shaft encoders on the wheels and disc feed a minicomputer that drives servo motors to keep the two photo carriages in the exact relative position that makes the mark appear to hang at the chosen ground coordinate. The human's proprioception — two hands and one foot, continuously — is wired straight into a real-time feedback loop; the eye stays locked in the eyepiece the whole time. It is a body-scale spatial input device that predates every '3D controller' and was used to compile maps until digital photogrammetry retired it.",
+    tags: ["Input", "Photogrammetry", "Continuous Control", "Handwheel", "Foot Control", "Cartography"],
+    image: img("zeiss-planicomp-p33-1.jpg"),
+  },
+  {
+    id: "csr-fahrsimulator-at-80",
+    slug: "csr-fahrsimulator-at-80",
+    wikiTitle: "CSR Fahrsimulator AT 80",
+    year: "1980",
+    sortYear: 1980,
+    title: "CSR Fahrsimulator Typ AT 80 (1980)",
+    subtitle: "A Czechoslovak driving trainer that scored you on a mechanical dashboard — the wheel, gear lever and pedals were the whole test",
+    blurb:
+      "Built in 1980 by the Kraftwagenreparaturwerk in Olomouc, Czechoslovakia, the AT 80 is a driver-training simulator that put a candidate behind a real steering wheel, a real gear lever, and real pedals in front of a stylised roadway. There was no screen world to explore and no software to learn: the machine's job was to grade whether your hands and feet moved the controls in the correct order and timing for a scripted manoeuvre. It is a Cold-War counterpart to the museum's glass-cockpit and arcade-ride exhibits — a training cab whose entire interface is the same hardware a driver would touch in a real vehicle, wired to a scoring logic that turned physical control sequencing into a pass or fail. It survives, photographed intact, in a Czech technical museum.",
+    tags: ["Input", "Simulator", "Driving", "Physical Controls", "Training", "Scoring"],
+    image: img("csr-fahrsimulator-at-80-1.jpg"),
+  },
 ];
 
 export const exhibits: Exhibit[] = exhibitData.toSorted((a, b) => b.sortYear - a.sortYear || a.title.localeCompare(b.title));
