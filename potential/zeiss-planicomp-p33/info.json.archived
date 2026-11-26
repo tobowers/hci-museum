@@ -1,0 +1,25 @@
+{
+  "name": "Zeiss Planicomp P33",
+  "year": "c.1980s",
+  "status": "promoted",
+  "promotedAs": "zeiss-planicomp-p33",
+  "images": [
+    {
+      "file": "planicomp-p33-1.jpg",
+      "commons": "2022-05-26 Podkrušnohorské technické muzeum Most 84.jpg",
+      "license": "CC0",
+      "author": "Stefan Kühn"
+    },
+    {
+      "file": "planicomp-p33-2.jpg",
+      "commons": "2022-05-26 Podkrušnohorské technické muzeum Most 85.jpg",
+      "license": "CC0",
+      "author": "Stefan Kühn"
+    }
+  ],
+  "sources": [
+    "https://commons.wikimedia.org/wiki/File:2022-05-26_Podkru%C5%A1nohorsk%C3%A9_technick%C3%A9_muzeum_Most_84.jpg",
+    "https://en.wikipedia.org/wiki/Stereoplotter"
+  ],
+  "notes": "Analytical stereoplotter; two handwheels + foot disc continuous control, real-time servo feedback on orientation equations. Series introduced 1976 (P1); P33 is a 1980s variant. Object photographed at Podkrušnohorské technické muzeum, Most CZ."
+}
