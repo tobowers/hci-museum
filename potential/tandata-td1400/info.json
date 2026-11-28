@@ -1,0 +1,41 @@
+{
+  "slug": "tandata-td1400",
+  "title": "Tandata TD1400 / Homelink Keypad",
+  "subtitle": "A cordless keypad and a television set became a bank branch in the living room",
+  "year": "1983",
+  "era": "1976-1992",
+  "category": "Telecommunications & Home Terminals",
+  "blurb": "In 1982 the Nottingham Building Society quietly began letting members do their banking from the sofa. Homelink ran over British Telecom's Prestel viewdata network: the TV showed the pages, a telephone line carried them, and the keyboard was a Tandata TD1400 -- a slim hand-held keypad that talked to its docking station by infrared, so the user could sit back and operate the screen from across the room. It was, so far as we can tell, the first home banking service in the world, and it went national in 1983. What makes it a museum piece is the physical inversion it forced: the 'computer' vanished into the television, the bank branch collapsed into a page of Prestel, and the pointing device floated free of the machine, a wireless remote pressed into service as a banking terminal. Even the money did not move digitally at first -- an instruction was posted to the Society, who keyed the recipient's details in, and a cheque still went out in the mail.",
+  "creator": "Tandata Marketing Ltd (keypad/terminal), for the Nottingham Building Society (service), on British Telecom's Prestel network",
+  "manufacturer": "Tandata Marketing Ltd",
+  "tagline": "Banking by remote control, from your armchair",
+  "tags": [
+    "Videotex",
+    "Prestel",
+    "Home Banking",
+    "Infrared",
+    "Remote Control",
+    "Television"
+  ],
+  "images": [
+    {
+      "path": "photo.jpg",
+      "caption": "A Tandata TD1400 as supplied by the Nottingham Building Society: the remote keypad sits beside its docking station, which connected to the television and the telephone line.",
+      "credit": "Wikimedia Commons, CC BY-SA 3.0"
+    }
+  ],
+  "sources": [
+    "https://commons.wikimedia.org/wiki/File:Prestel-Terminal.jpg",
+    "https://en.wikipedia.org/wiki/Online_banking",
+    "https://en.wikipedia.org/wiki/Prestel",
+    "https://en.wikipedia.org/wiki/Nottingham_Building_Society"
+  ],
+  "notes": [
+    "The interface is the argument. The TD1400 came in two pieces: a docking station wired to the TV aerial socket and the phone line, and a detachable keypad that spoke to it over infrared. That single design decision moved the user from a desk to an armchair and made 'the terminal' a thing you hold rather than a thing you sit at -- an early, consumer-facing instance of a wireless input device.",
+    "Homelink leveraged the Prestel viewdata standard, which stacked pages of text and crude colour graphics on a television set using the spare lines of the broadcast signal (the same disguised-radio-data trick Ceefax used). Banking arrived as numbered pages you paged through, not as an application.",
+    "The transaction loop was hybrid. The user entered a payment instruction over the network, but establishing a *new* payee required a posted written instruction, and funds often still left as a cheque. This half-digital ritual is the exhibit: a screen interface grafted onto paper money.",
+    "Beyond banking, Homelink let members compare prices, order from retailers, book holidays, bid in auctions, and send electronic mail -- an entire commercial life routed through the television.",
+    "Timeline: restricted launch September 1982 with the Bank of Scotland; national in 1983; withdrawn in April 1991 as Prestel itself shrank. It preceded and outlived the better-remembered US services (Chemical Bank's Pronto, 1983-89).",
+    "Cross-collection links: it sits next to the era's other videotex and home-computer terminals (Minitel, BTX, the BBC Micro acting as a Prestel terminal) but differs by making the *remote control* the terminal -- a smartphone ancestor hiding inside a TV accessory."
+  ]
+}
