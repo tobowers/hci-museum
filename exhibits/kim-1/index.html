@@ -1,0 +1,196 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
+    <meta name="description" content="MOS Technology&#039;s answer to front-panel programming: a bare board whose 24-key hex keypad and six-digit LED display are the whole interface, with a ROM monitor called TIM that greets you at power-on. Machine code is typed in as hex digits, not toggled in as binary — and the first commercially sold microcomputer game, Microchess, was written on it." />
+    <meta property="og:title" content="KIM-1 — HCI Museum" />
+    <meta property="og:description" content="MOS Technology&#039;s answer to front-panel programming: a bare board whose 24-key hex keypad and six-digit LED display are the whole interface, with a ROM monitor called TIM that greets you at power-on. Machine code is typed in as hex digits, not toggled in as binary — and the first commercially sold microcomputer game, Microchess, was written on it." />
+    <meta property="og:site_name" content="HCI Museum" />
+    <meta property="og:type" content="article" />
+    <meta property="og:url" content="https://interfacemuseum.com/exhibits/kim-1/" />
+    <meta property="og:image" content="https://interfacemuseum.com/og/exhibits/kim-1.jpg" />
+    <meta property="og:image:secure_url" content="https://interfacemuseum.com/og/exhibits/kim-1.jpg" />
+    <meta property="og:image:type" content="image/jpeg" />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="630" />
+    <meta property="og:image:alt" content="KIM-1 archival photograph" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="KIM-1 — HCI Museum" />
+    <meta name="twitter:description" content="MOS Technology&#039;s answer to front-panel programming: a bare board whose 24-key hex keypad and six-digit LED display are the whole interface, with a ROM monitor called TIM that greets you at power-on. Machine code is typed in as hex digits, not toggled in as binary — and the first commercially sold microcomputer game, Microchess, was written on it." />
+    <meta name="twitter:image" content="https://interfacemuseum.com/og/exhibits/kim-1.jpg" />
+    <meta name="twitter:image:alt" content="KIM-1 archival photograph" />
+    <title>KIM-1 — HCI Museum</title>
+    <link rel="icon" type="image/gif" href="/favicon.gif" />
+    <link rel="icon" type="image/png" href="/favicon.png" />
+    <link rel="alternate" type="text/plain" title="HCI Museum llms.txt" href="/llms.txt" />
+    <link rel="alternate" type="application/rss+xml" title="HCI Museum Collection" href="/feeds/collection.xml" />
+    <link rel="alternate" type="application/rss+xml" title="HCI Museum Field Notes" href="/feeds/blog.xml" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="../../styles.css" />
+  </head>
+  <body>
+    <div class="atmosphere" aria-hidden="true">
+      <div class="atmosphere__grid"></div>
+      <div class="atmosphere__scanlines"></div>
+      <div class="atmosphere__vignette"></div>
+    </div>
+
+    <div class="page-shell">
+      <header class="site-header">
+        <a href="../../" class="brand">
+          <span class="brand__mark" aria-hidden="true"></span>
+          <span>HCI Museum</span>
+        </a>
+        <nav class="nav-primary" aria-label="Primary">
+          <a href="../../exhibits/" class="active">Exhibits</a>
+          <a href="../../blog/">Field Notes</a>
+          <a href="../../about/">About</a>
+        </nav>
+        <div class="header-meta">
+          <span class="header-meta__item">SYS_OK</span>
+          <span class="header-meta__pulse" aria-hidden="true"></span>
+        </div>
+      </header>
+
+      <main>
+
+        <article class="exhibit">
+          <header class="exhibit__hero">
+            <div class="exhibit__hero-text">
+              <div class="exhibit__eyebrow">
+                <span class="exhibit__year">1976</span>
+                <span class="exhibit__by">MOS Technology, Norristown, Pennsylvania</span>
+              </div>
+              <h1 class="exhibit__title">KIM-1</h1>
+              <p class="exhibit__subtitle">The $245 hex-keypad computer that made programming feel like typing instead of flipping switches</p>
+              <div class="exhibit__tags"><span class="exhibit__tag">Computer</span><span class="exhibit__tag">Input</span><span class="exhibit__tag">Programming</span><span class="exhibit__tag">Consumer</span></div>
+            </div>
+
+            <div class="exhibit__hero-image-wrap">
+              <img
+                class="exhibit__hero-image"
+                src="../../assets/wiki/kim-1-computer.jpg"
+                alt="KIM-1 archival photograph"
+              />
+              <div class="exhibit__hero-scanlines" aria-hidden="true"></div>
+            </div>
+          </header>
+
+          <section class="exhibit__section exhibit__overview">
+            <h2 class="exhibit__section-title">Overview</h2>
+            <div class="exhibit__prose"><p>The KIM-1 (Keyboard Input Monitor) was MOS Technology&#039;s 1976 showcase for its new 6502 microprocessor, designed by Chuck Peddle&#039;s team of ex-Motorola 6800 engineers after Motorola&#039;s lawsuit forced the 6501 off the market. Announced at $245 in the May 1976 issue of Byte, it was a single assembled board with 1KB of RAM, a 24-key calculator-style hex keypad, a six-digit seven-segment LED display, and two serial/cassette ports. Commodore bought MOS Technology that same year and sold the KIM-1 until about 1980.</p>
+<p>The interaction model is the point: unlike the front-panel toggle-switch computers of the same era, the KIM-1 boots into a 2KB ROM monitor called TIM (Terminal Interface Monitor) that runs at power-on. The programmer types machine code into memory as hex digits on the keypad and reads addresses, data, and registers on the LED display — no switch bootstrap, no manual address counting. Wikipedia frames it explicitly: on a front-panel machine, one wrong switch flip while bootstrapping meant the loader crashed and &quot;the programmer had to reenter the whole thing&quot;; the KIM-1 removed that ritual.</p>
+<p>It also carried the first commercially sold microcomputer game: Microchess by Peter R. Jennings, distributed by mail on cassette tape. The hobbyist scene around it produced The First Book of KIM (Jim Butterfield et al., 1977). A complete working KIM-1 system could be assembled for under $500 including a surplus terminal and cassette recorder. The Smithsonian National Museum of American History holds one (nmah_1104851, donated by Jon Titus).</p></div>
+          </section>
+
+          <section class="exhibit__section exhibit__deep-dive">
+            <h2 class="exhibit__section-title">Deep dive</h2>
+            <div class="exhibit__facts">
+        <div class="exhibit__fact">
+          <div class="exhibit__fact-heading"><strong>The hex keypad vs. the toggle panel.</strong></div>
+          <p>1976 offered two ways to feed raw machine code into a microcomputer: the IMSAI-style front panel, where every byte is toggled in as eight switches with no monitor in ROM, and the KIM-1, where a monitor in ROM already understands the keypad. TIM lets the user enter or examine memory at any address as two hex digits per byte, display and modify CPU registers, and load and save programs to cassette at 134.2 bit/s. The difference is the difference between being the hardware and being the first program in it — this museum now shows both extremes side by side.</p>
+        </div>
+      
+        <div class="exhibit__fact">
+          <div class="exhibit__fact-heading"><strong>Microchess.</strong></div>
+          <p>Peter R. Jennings wrote Microchess for the KIM-1 in 1976; it became the first commercially sold microcomputer game, distributed by mail on cassette. Its significance is the moment more than the chess: a program small enough to fit a 1KB machine as a commercial product launched the software industry. The cassette — an audio tape holding a program — connects this artifact to the museum&#039;s other tape-medium stories (Sony Typecorder, 2-XL).</p>
+        </div>
+      
+        <div class="exhibit__fact">
+          <div class="exhibit__fact-heading"><strong>Lineage.</strong></div>
+          <p>The KIM-1&#039;s hex-keypad-plus-monitor philosophy matured into the Rockwell AIM-65 (1978), which added a full keyboard and thermal printer and is already in this museum. The KIM-1 is the ancestor; the AIM-65 is the keyboarded descendant. Together with the IMSAI 8080 they bracket the moment before keyboards and screens became the default computer interface.</p>
+        </div>
+      </div>
+          </section>
+
+          
+          <section class="exhibit__section exhibit__team">
+            <h2 class="exhibit__section-title">Team &amp; pioneers</h2>
+            <ul class="exhibit__team-list">
+            <li class="exhibit__team-item">
+              <span class="exhibit__team-name">MOS Technology</span>
+              <span class="exhibit__team-note"> Norristown, Pennsylvania semiconductor company; built the 6502 and the KIM-1; acquired by Commodore in 1976.</span>
+            </li>
+            <li class="exhibit__team-item">
+              <span class="exhibit__team-name">Chuck Peddle</span>
+              <span class="exhibit__team-note"> led the 650x microprocessor group at MOS (ex-Motorola 6800 team); designed the KIM-1 to demonstrate the 6502.</span>
+            </li>
+            <li class="exhibit__team-item">
+              <span class="exhibit__team-name">Peter R. Jennings</span>
+              <span class="exhibit__team-note"> wrote Microchess, the first commercially sold microcomputer game, for the KIM-1.</span>
+            </li>
+            </ul>
+          </section>
+
+          
+          <section class="exhibit__section exhibit__media">
+            <h2 class="exhibit__section-title">Media</h2>
+            <div class="exhibit__media-grid">
+        <figure class="exhibit__media-item">
+          <div class="exhibit__media-frame">
+            <img src="../../assets/wiki/kim-1-computer.jpg" alt="KIM-1 single-board computer" loading="lazy" />
+            <div class="exhibit__media-scanlines" aria-hidden="true"></div>
+          </div>
+          <figcaption>KIM-1 single-board computer: the 24-key hex keypad and six-digit LED display are the whole interface, with a ROM monitor handling program entry. Public domain, Wikimedia Commons.</figcaption>
+        </figure>
+      
+        <figure class="exhibit__media-item">
+          <div class="exhibit__media-frame">
+            <img src="../../assets/wiki/kim-1-ad-1976.jpg" alt="KIM-1 original magazine ad, May 1976" loading="lazy" />
+            <div class="exhibit__media-scanlines" aria-hidden="true"></div>
+          </div>
+          <figcaption>MOS Technology&#039;s original KIM-1 advertisement: &quot;The first complete microcomputer for $245.&quot; Public domain, Wikimedia Commons.</figcaption>
+        </figure>
+      </div>
+          </section>
+          
+
+          
+          <section class="exhibit__section exhibit__sources">
+            <h2 class="exhibit__section-title">Sources</h2>
+            <ol class="exhibit__source-list">
+        <li>
+          <a href="https://en.wikipedia.org/wiki/KIM-1" target="_blank" rel="noopener">Wikipedia — KIM-1</a>
+        </li>
+      
+        <li>
+          <a href="https://gunkies.org/w/index.php?title=KIM-1" target="_blank" rel="noopener">Gunkies.org — KIM-1</a>
+        </li>
+      
+        <li>
+          <a href="https://americanhistory.si.edu/collections/search/object/nmah_1104851" target="_blank" rel="noopener">Smithsonian NMAH — KIM-1 object record</a>
+        </li>
+      
+        <li>
+          <a href="https://en.wikipedia.org/wiki/Microchess" target="_blank" rel="noopener">Wikipedia — Microchess</a>
+        </li>
+      </ol>
+          </section>
+          
+
+          <nav class="exhibit__nav" aria-label="Exhibit navigation">
+            <a href="../imsai-8080/" class="exhibit__nav-link exhibit__nav-link--prev">
+        <span class="exhibit__nav-dir">← Previous</span>
+        <span class="exhibit__nav-title">IMSAI 8080</span>
+      </a>
+            <a href="../../exhibits/" class="exhibit__nav-link exhibit__nav-link--index">All exhibits</a>
+            <a href="../kurzweil-reading-machine/" class="exhibit__nav-link exhibit__nav-link--next">
+        <span class="exhibit__nav-dir">Next →</span>
+        <span class="exhibit__nav-title">Kurzweil Reading Machine</span>
+      </a>
+          </nav>
+        </article>
+      </main>
+
+      <footer class="site-footer">
+        <span>HCI Museum // Curated by Beepy</span>
+        <span class="site-footer__signal">SIGNAL_STABLE</span>
+      </footer>
+    </div>
+
+    <!-- Cloudflare Web Analytics --><script defer src='https://static.cloudflareinsights.com/beacon.min.js' data-cf-beacon='{"token": "8dcb1e0fcb41470b8769c87691688807"}'></script><!-- End Cloudflare Web Analytics -->
+  </body>
+</html>

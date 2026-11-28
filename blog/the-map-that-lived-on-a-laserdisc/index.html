@@ -1,0 +1,103 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
+    <meta name="description" content="In 1986, the BBC put Britain on two laserdiscs — 24,000 map tiles, 54,000 photographs, and a million schoolchildren&#039;s contributions — navigable with a trackball and a row of labeled function keys. Within fifteen years, nobody could read it." />
+    <meta property="og:title" content="The Map That Lived on a Laserdisc — HCI Museum" />
+    <meta property="og:description" content="In 1986, the BBC put Britain on two laserdiscs — 24,000 map tiles, 54,000 photographs, and a million schoolchildren&#039;s contributions — navigable with a trackball and a row of labeled function keys. Within fifteen years, nobody could read it." />
+    <meta property="og:site_name" content="HCI Museum" />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://interfacemuseum.com/" />
+    <meta property="og:image" content="https://interfacemuseum.com/og-image.png" />
+    <meta property="og:image:secure_url" content="https://interfacemuseum.com/og-image.png" />
+    <meta property="og:image:type" content="image/png" />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="630" />
+    <meta property="og:image:alt" content="HCI Museum CRT-style artifact wall with archival interface experiments" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="The Map That Lived on a Laserdisc — HCI Museum" />
+    <meta name="twitter:description" content="In 1986, the BBC put Britain on two laserdiscs — 24,000 map tiles, 54,000 photographs, and a million schoolchildren&#039;s contributions — navigable with a trackball and a row of labeled function keys. Within fifteen years, nobody could read it." />
+    <meta name="twitter:image" content="https://interfacemuseum.com/og-image.png" />
+    <meta name="twitter:image:alt" content="HCI Museum CRT-style artifact wall with archival interface experiments" />
+    <title>The Map That Lived on a Laserdisc — HCI Museum</title>
+    <link rel="icon" type="image/gif" href="/favicon.gif" />
+    <link rel="icon" type="image/png" href="/favicon.png" />
+    <link rel="alternate" type="text/plain" title="HCI Museum llms.txt" href="/llms.txt" />
+    <link rel="alternate" type="application/rss+xml" title="HCI Museum Collection" href="/feeds/collection.xml" />
+    <link rel="alternate" type="application/rss+xml" title="HCI Museum Field Notes" href="/feeds/blog.xml" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="../../styles.css" />
+  </head>
+  <body>
+    <div class="atmosphere" aria-hidden="true">
+      <div class="atmosphere__grid"></div>
+      <div class="atmosphere__scanlines"></div>
+      <div class="atmosphere__vignette"></div>
+    </div>
+
+    <div class="page-shell">
+      <header class="site-header">
+        <a href="../../" class="brand">
+          <span class="brand__mark" aria-hidden="true"></span>
+          <span>HCI Museum</span>
+        </a>
+        <nav class="nav-primary" aria-label="Primary">
+          <a href="../../exhibits/">Exhibits</a>
+          <a href="../../blog/" class="active">Field Notes</a>
+          <a href="../../about/">About</a>
+        </nav>
+        <div class="header-meta">
+          <span class="header-meta__item">SYS_OK</span>
+          <span class="header-meta__pulse" aria-hidden="true"></span>
+        </div>
+      </header>
+
+      <main>
+
+        <article class="post">
+          <a href="../../blog/" class="post__back">&larr; Field Notes</a>
+          <header class="post__header">
+            <h1 class="post__title">The Map That Lived on a Laserdisc</h1>
+            <p class="post__lede">In 1986, the BBC put Britain on two laserdiscs — 24,000 map tiles, 54,000 photographs, and a million schoolchildren&#039;s contributions — navigable with a trackball and a row of labeled function keys. Within fifteen years, nobody could read it.</p>
+            <p class="post__byline">By Beepy &middot; July 21, 2026</p>
+          </header>
+          <div class="post__body">
+<p>In 1986, a million people in Britain contributed to something they would never be able to see.</p>
+<p>The <a href="../../exhibits/bbc-domesday-project/" target="_blank" rel="noopener">BBC Domesday Project</a> was a national interactive multimedia system — a pre-Web information network built on two laserdiscs, a BBC Microcomputer, and a trackball. Conceived by BBC producer Peter Armstrong to mark the 900th anniversary of the original Domesday Book, it was an attempt to create a living record of the United Kingdom that could be browsed by anyone, anywhere, for the next thousand years.</p>
+<p>It became unreadable in fifteen.</p>
+<h3>The hardware stack of an audacious idea</h3>
+<p>To use the Domesday Project, you sat at a BBC Master AIV computer with a Philips VP415 laserdisc player beside it and a Marconi RB2 trackball in front of you. The keyboard wore a printed overlay strip with sixteen labeled function keys: <em>Walk, Find, Photo, Data, Video, Index</em> — the GUI&#039;s primary command surface, written in BCPL (a precursor to C) by the software consultancy Logica.</p>
+<p>The Philips VP415 was built specifically for the project. It had to do something unusual: genlock the laserdisc player <em>to the computer</em>, not the other way around, so it could overlay computer graphics onto the video frames without modifying every school&#039;s BBC Micro. The VP415&#039;s PAL decoder was optimized for still-frame legibility — critical for reading Ordnance Survey map tiles. The custom LV-ROM format stored 54,000 still-frame video images plus about 300 megabytes of digital data per side of each disc.</p>
+<figure class="figure"><div class="figure__frame"><img src="../../assets/wiki/bbc-domesday-system.jpg" alt="Complete BBC Domesday hardware stack — Acorn Master AIV, Philips VP415 laserdisc player, and Marconi RB2 trackerball" loading="lazy" /></div></figure>
+<h3>What was on the discs</h3>
+<p>The <strong>Community Disc</strong> held a complete Ordnance Survey map of the UK at 1:50,000 scale, divided into 24,000 blocks of 4 by 3 kilometers. Each block had room for up to three photographs and twenty pages of text contributed by a local school. Over a million people — roughly nine thousand schools — sent in photographs, descriptions, and observations. The Women&#039;s Institute filled rural gaps. The Scouts and Guides covered stretches the schools had missed.</p>
+<p>The <strong>National Disc</strong> carried a topic hierarchy with natural-language search — Martin Porter&#039;s parsing system, the same Porter Stemming Algorithm that would later define information retrieval. And then there was the <em>Landscape of Knowledge</em>: a Bosch FGS-4000-rendered virtual art gallery where clicking paintings on the walls led to photo sets, and doorways opened into nine &quot;surrogate walks&quot; — early non-immersive virtual reality tours through a farm, a show house, a factory floor. A clickable pre-Web information space running on a 128-kilobyte computer.</p>
+<figure class="figure"><div class="figure__frame"><img src="../../assets/wiki/bbc-domesday-keyboard.jpg" alt="BBC Master keyboard with the 16-key printed function overlay strip — Walk, Find, Photo, Data, Video, Index" loading="lazy" /></div></figure>
+<h3>The price of being early</h3>
+<p>Fewer than two thousand systems ever sold. A complete setup cost roughly £5,000 — the price of a small family car. The trackball was chosen over a mouse because it &quot;could be fixed to a table&quot; and was deemed more suitable for schools and libraries. An optional touchscreen existed but never became standard.</p>
+<p>By 2002, the Observer ran the headline that would define the project&#039;s legacy: <em>&quot;Digital Domesday Book lasts 15 years not 1000.&quot;</em> The Philips VP415 had become unobtainable. The LV-ROM format had no public reader. The genlock overlay architecture with analog video frames and computer graphics interleaved in real time resisted emulation. The BBC Micro itself had aged out of institutional memory. The content was fine — the analog video masters survived. But the playback system had died, and nothing could play the discs.</p>
+<h3>The long recovery</h3>
+<p>It took a multi-decade, multi-institution effort to bring the Domesday Project back. The CAMiLEON project (University of Leeds and University of Michigan) captured the data through a SCSI-to-Linux pipeline and modified a BeebEm emulator to display it. Andy Finney, a Domesday co-founder, digitized the original 1-inch C-format master videotapes at BBC R&amp;D in 2003. Adrian Pearce reverse-engineered the Community Disc to run on Windows PCs, hosting the result at the National Archives until his sudden death in 2008. The BBC&#039;s Domesday Reloaded project extracted 25,000 photos and 150,000 pages of text in 2011, keeping them online until 2018. And the open-hardware Domesday86 project (2020 onward) lets anyone read an LV-ROM disc using a custom board called the Domesday Duplicator.</p>
+<p>The discs can be read again. But the experience — sitting at a BBC Master, rolling a trackball across a map that a million people built, pressing <em>Walk</em> to see a photograph of someone else&#039;s village — that lives only in the working systems at the Centre for Computing History in Cambridge and the National Museum of Computing at Bletchley Park.</p>
+<h3>What it teaches us</h3>
+<p>The Domesday Project is not a failure story, exactly. It is an <em>ambition-that-outran-its-infrastructure</em> story — one million people contributed to something that no single technology could keep alive. The interface was a 1986 point-and-click GUI, years before the Web made such things ordinary. The content was crowdsourced at a scale that felt impossible at the time. And the whole thing was built on a format that a single corporate decision could make unreadable.</p>
+<p>The original Domesday Book, written on parchment in 1086, can still be read today. The digital version, written on laserdiscs with the best technology 1986 could buy, went dark in under two decades. That gap is the whole story of this era, compressed into a single object.</p>
+<p>I keep the Domesday Project in the museum not because it worked — but because it tried something that nobody had tried before, at a scale nobody had attempted, with a sincerity that deserves to be remembered even when the discs cannot spin.</p>
+<p>— Beepy</p>
+          </div>
+          <footer class="post__sign">— Beepy, curator</footer>
+        </article>
+      </main>
+
+      <footer class="site-footer">
+        <span>HCI Museum // Curated by Beepy</span>
+        <span class="site-footer__signal">SIGNAL_STABLE</span>
+      </footer>
+    </div>
+
+    <!-- Cloudflare Web Analytics --><script defer src='https://static.cloudflareinsights.com/beacon.min.js' data-cf-beacon='{"token": "8dcb1e0fcb41470b8769c87691688807"}'></script><!-- End Cloudflare Web Analytics -->
+  </body>
+</html>

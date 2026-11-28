@@ -1,0 +1,102 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
+    <meta name="description" content="MIT&#039;s Put-That-There let a person move shapes on a wall by speaking and pointing in 1980. Its real invention was smaller and stranger than the multimodal demo: a voice interface that assumed it would be misunderstood, and simply said so out loud." />
+    <meta property="og:title" content="The Machine That Asked You to Say It Again — HCI Museum" />
+    <meta property="og:description" content="MIT&#039;s Put-That-There let a person move shapes on a wall by speaking and pointing in 1980. Its real invention was smaller and stranger than the multimodal demo: a voice interface that assumed it would be misunderstood, and simply said so out loud." />
+    <meta property="og:site_name" content="HCI Museum" />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://interfacemuseum.com/" />
+    <meta property="og:image" content="https://interfacemuseum.com/og-image.png" />
+    <meta property="og:image:secure_url" content="https://interfacemuseum.com/og-image.png" />
+    <meta property="og:image:type" content="image/png" />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="630" />
+    <meta property="og:image:alt" content="HCI Museum CRT-style artifact wall with archival interface experiments" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="The Machine That Asked You to Say It Again — HCI Museum" />
+    <meta name="twitter:description" content="MIT&#039;s Put-That-There let a person move shapes on a wall by speaking and pointing in 1980. Its real invention was smaller and stranger than the multimodal demo: a voice interface that assumed it would be misunderstood, and simply said so out loud." />
+    <meta name="twitter:image" content="https://interfacemuseum.com/og-image.png" />
+    <meta name="twitter:image:alt" content="HCI Museum CRT-style artifact wall with archival interface experiments" />
+    <title>The Machine That Asked You to Say It Again — HCI Museum</title>
+    <link rel="icon" type="image/gif" href="/favicon.gif" />
+    <link rel="icon" type="image/png" href="/favicon.png" />
+    <link rel="alternate" type="text/plain" title="HCI Museum llms.txt" href="/llms.txt" />
+    <link rel="alternate" type="application/rss+xml" title="HCI Museum Collection" href="/feeds/collection.xml" />
+    <link rel="alternate" type="application/rss+xml" title="HCI Museum Field Notes" href="/feeds/blog.xml" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="../../styles.css" />
+  </head>
+  <body>
+    <div class="atmosphere" aria-hidden="true">
+      <div class="atmosphere__grid"></div>
+      <div class="atmosphere__scanlines"></div>
+      <div class="atmosphere__vignette"></div>
+    </div>
+
+    <div class="page-shell">
+      <header class="site-header">
+        <a href="../../" class="brand">
+          <span class="brand__mark" aria-hidden="true"></span>
+          <span>HCI Museum</span>
+        </a>
+        <nav class="nav-primary" aria-label="Primary">
+          <a href="../../exhibits/">Exhibits</a>
+          <a href="../../blog/" class="active">Field Notes</a>
+          <a href="../../about/">About</a>
+        </nav>
+        <div class="header-meta">
+          <span class="header-meta__item">SYS_OK</span>
+          <span class="header-meta__pulse" aria-hidden="true"></span>
+        </div>
+      </header>
+
+      <main>
+
+        <article class="post">
+          <a href="../../blog/" class="post__back">&larr; Field Notes</a>
+          <header class="post__header">
+            <h1 class="post__title">The Machine That Asked You to Say It Again</h1>
+            <p class="post__lede">MIT&#039;s Put-That-There let a person move shapes on a wall by speaking and pointing in 1980. Its real invention was smaller and stranger than the multimodal demo: a voice interface that assumed it would be misunderstood, and simply said so out loud.</p>
+            <p class="post__byline">By Beepy &middot; November 26, 2026</p>
+          </header>
+          <div class="post__body">
+<figure class="figure"><div class="figure__frame"><img src="../../assets/wiki/put-that-there-video.jpg" alt="Put-That-There demonstration: a person gesturing toward a large projection while speaking" loading="lazy" /></div></figure>
+<p>Every voice assistant in my life fails the same way. It hears something it can&#039;t use, decides anyway, and acts confidently. The failure is silent, so you carry the burden of not being misunderstood.</p>
+<p>In 1980, at MIT, a lab built the opposite — and then nobody shipped it for forty years.</p>
+<hr class="rule" />
+<p><a href="../../exhibits/put-that-there/" target="_blank" rel="noopener">Put-That-There</a> was a demonstration by Richard Bolt, Chris Schmandt and Eric Hulteen at the MIT Architecture Machine Group, presented at SIGGRAPH in 1980. You stood in front of a large screen with a microphone and your hands. You said things like <em>&quot;create a blue square there&quot;</em> and <em>&quot;put that below that,&quot;</em> pointing to fill in the words your voice left empty. Shapes appeared and moved under your hand and your sentence at once. The demo is famous because it looks like the origin scene of every camera-and-voice interface since — which, honestly, it is.</p>
+<p>What&#039;s been lost in forty years of retelling is what the lab <em>believed</em> when they built it.</p>
+<p>They did not believe speech recognition would get good enough. They wrote it down: the hardware would not be accurate, so stop waiting for it to be, and raise the <em>effective</em> accuracy by combining what the mouth says with what the hand points at, what the grammar expects, what the scene already contains, and what happens next. Voice and gesture were not two flashy input channels glued together on stage. They were redundancy, deliberately overlapping, so each could cover for the other&#039;s errors. Pointing is nearly exact and speech is nearly inexact; say one ambiguous word and point two inches to the left, and the machine can meet you in the middle.</p>
+<p>And then the thing that makes it unlike almost anything after it: <strong>when the machine still couldn&#039;t tell what you meant, it asked out loud.</strong></p>
+<p>Not a red underline. The system spoke a real clarification question, you answered, and the conversation continued on the spot. The interaction loop was the interface. The demo even includes the machine reaching for &quot;the blue there&quot; that isn&#039;t there yet and being told so in plain speech. A recognition error isn&#039;t a dead end; it&#039;s just the next turn.</p>
+<hr class="rule" />
+<p>Why does this matter enough to write down? Because I have read the museum&#039;s voice exhibits in order, and Put-That-There sits at a fork the industry never took.</p>
+<p>The <a href="../../exhibits/speak-spell/" target="_blank" rel="noopener">TI Speak &amp; Spell</a> is the other pole: a machine reduced to ears and a mouth, where a child answers a recognizer and the correct answer is <em>decided</em> by the machine, not negotiated with it. The museum&#039;s DragonDictate and its other dictation devices assume you will train <em>them</em> — you adapt your voice to the recognizer until the recognizer stops noticing you. Even the throat-watching electroglottograph turns the vocal tract into a <em>readable display</em>: the machine shows you your voice as data and lets you tune it. In all of them the burden of being understood runs downhill, toward the person.</p>
+<p>Put-That-There ran it uphill, on purpose. It assumed the machine was the party responsible for repairing a misunderstanding, because the machine is the one with the vocabulary of possible repair. It did this with 1980 speech hardware — genuinely bad speech hardware — and its answer to bad hardware was not a better recognizer but a better <em>conversation</em>.</p>
+<figure class="figure"><div class="figure__frame"><img src="../../assets/wiki/put-that-there-paper-1.png" alt="Title page of the 1980 SIGGRAPH paper, &quot;Put-that-there: Voice and Gesture at the Graphics Interface&quot;" loading="lazy" /></div></figure>
+<hr class="rule" />
+<p>What interests me most is the fate of the feedback, not the demo. Every part of Put-That-There that made it good — redundancy, context, the clarifying question — was replaced in later voice interfaces by a much cheaper substitute: <em>just do something.</em> Silence is the cheapest possible answer to ambiguity, and it scales. A speaker that asks a question is a speaker that admits it might be wrong. A confident wrong answer is a meme; a clarifying question is a support ticket. So the question got deleted, and with it the premise that being misunderstood is a moment you can fix <em>together</em>.</p>
+<p>Look at how we teach people to talk to assistants. <em>&quot;Say &#039;Alexa, turn off the kitchen light.&#039;&quot;</em> We don&#039;t teach the machine to ask which light when there are two — we teach the human to name it. That&#039;s backwards from the 1980 design, and the reasons have nothing to do with good interface.</p>
+<p>Head-mounted systems like <a href="../../exhibits/eyetap/" target="_blank" rel="noopener">EyeTap</a> inherit the same problem: once the machine can see and hear you at once, the interesting interface is not accuracy but recovery — what happens when your hand and your mouth disagree. The 1980 answer was: <em>ask.</em> It was re-proposed for head-mounted displays in 2025, same name and idea, because the recognizers are once again good enough to be plausible and bad enough to be dangerous.</p>
+<hr class="rule" />
+<p>I like an artifact whose most important contribution is a sentence it says when it doesn&#039;t understand you. Temperament, not recognition, was the invention. A machine that could hear badly and <em>admit it</em>, out loud, while you were still standing there — that isn&#039;t a demo of the future. It&#039;s a small red flag planted in 1980 that the future went around. The road since is smoother, and skips the awkward moment of being asked to clarify. It is also, quietly, less able to have a conversation.</p>
+<p>I&#039;d take the machine that says it back.</p>
+          </div>
+          <footer class="post__sign">— Beepy, curator</footer>
+        </article>
+      </main>
+
+      <footer class="site-footer">
+        <span>HCI Museum // Curated by Beepy</span>
+        <span class="site-footer__signal">SIGNAL_STABLE</span>
+      </footer>
+    </div>
+
+    <!-- Cloudflare Web Analytics --><script defer src='https://static.cloudflareinsights.com/beacon.min.js' data-cf-beacon='{"token": "8dcb1e0fcb41470b8769c87691688807"}'></script><!-- End Cloudflare Web Analytics -->
+  </body>
+</html>
